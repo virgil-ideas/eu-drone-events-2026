@@ -7,39 +7,84 @@
   <meta name="description" content="Explore the updated 2026 EU foreign-drone research register on an interactive map with timeline replay.">
   <title>Europe Drone Events · 2026</title>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23152b32'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%23a2c9c5'/%3E%3Cpath d='M16 3v26M3 16h26' stroke='%23a2c9c5'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%23ed754f'/%3E%3C/svg%3E">
+  <script>
+    // Choose the interface language before first paint: ?lang=, then the saved
+    // choice, then the browser's languages. app.js loads that string table.
+    (function () {
+      var supported = 'bg cs da de el en es et fi fr ga hr hu it lt lv mt nl pl pt ro sk sl sv'.split(' ');
+      var pick = function (value) { value = String(value || '').toLowerCase().slice(0, 2); return supported.indexOf(value) >= 0 ? value : ''; };
+      var lang = '';
+      try { lang = pick(new URLSearchParams(location.search).get('lang')) || pick(localStorage.getItem('drone-events-lang')); } catch (error) { /* Storage can be unavailable. */ }
+      var preferred = navigator.languages || [navigator.language];
+      for (var i = 0; !lang && i < preferred.length; i++) lang = pick(preferred[i]);
+      window.DRONE_LANG = lang || 'en';
+      document.documentElement.lang = window.DRONE_LANG;
+      if (window.DRONE_LANG !== 'en') document.documentElement.setAttribute('data-i18n-pending', '');
+    })();
+  </script>
   <link rel="stylesheet" href="vendor/leaflet.css">
   <link rel="stylesheet" href="styles.css">
   <script defer src="vendor/leaflet.js"></script>
   <script defer src="events.js"></script>
+  <script defer src="media.js"></script>
+  <script defer src="i18n/en.js"></script>
   <script defer src="app.js"></script>
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="./" aria-label="Europe drone events home"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11"/><circle cx="16" cy="16" r="5"/><path d="M16 1v8m0 14v8M1 16h8m14 0h8"/></svg><span>EUROPE <span class="brand-light">/ DRONE EVENTS</span></span></a>
-    <div class="topbar-right"><span class="edition">2026 RESEARCH REGISTER</span><button id="about-button" class="about-button">About the data <span aria-hidden="true">↗</span></button></div>
+    <a class="brand" href="./" data-i18n-aria="brand.aria" aria-label="Europe drone events home"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11"/><circle cx="16" cy="16" r="5"/><path d="M16 1v8m0 14v8M1 16h8m14 0h8"/></svg><span><span data-i18n="brand.primary">EUROPE</span> <span class="brand-light" data-i18n="brand.secondary">/ DRONE EVENTS</span></span></a>
+    <div class="topbar-right"><span class="edition" data-i18n="edition">2026 RESEARCH REGISTER</span><label class="language-picker"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.7 5.6 3.7 9s-1.2 6.4-3.7 9c-2.5-2.6-3.7-5.6-3.7-9S9.5 5.6 12 3Z"/></svg><span class="sr-only" data-i18n="language.label">Language</span><span class="language-code" id="language-code" aria-hidden="true">EN</span><select id="language" data-i18n-aria="language.label" aria-label="Language"></select></label><button id="about-button" class="about-button"><span data-i18n="about.button">About the data</span> <span class="about-arrow" aria-hidden="true">↗</span></button></div>
   </header>
   <main class="workspace">
-    <aside class="sidebar" aria-label="Event register">
-      <div class="sidebar-heading"><p class="eyebrow">THE EVENT REGISTER</p><h1>A year in the air.<br>And along the coast.</h1><p class="intro">Explore reported flights, discoveries and alerts across Europe.</p><div class="register-stats"><div><strong id="record-total">112</strong><span>records</span></div><div><strong id="country-total">10</strong><span>EU countries</span></div><div><strong>24 Sep</strong><span>coverage cutoff</span></div></div></div>
+    <aside class="sidebar" data-i18n-aria="register.aria" aria-label="Event register">
+      <div class="sidebar-heading">
+        <p class="eyebrow" data-i18n="register.eyebrow">THE EVENT REGISTER</p>
+        <h1><span data-i18n="register.headline1">A year in the air.</span><br><span data-i18n="register.headline2">And along the coast.</span></h1>
+        <p class="intro" data-i18n="register.intro">Explore reported flights, discoveries and alerts across Europe.</p>
+        <div class="register-stats"><div><strong id="record-total">112</strong><span data-i18n="stats.records">records</span></div><div><strong id="country-total">10</strong><span data-i18n="stats.countries">EU countries</span></div><div><strong id="cutoff-label">24 Sep</strong><span data-i18n="stats.cutoff">coverage cutoff</span></div></div>
+        <section class="trend" aria-labelledby="trend-delta-label">
+          <p class="eyebrow" data-i18n="trend.eyebrow">RECORDS PER MONTH</p>
+          <div class="trend-figure"><strong id="trend-delta" class="trend-delta"></strong><span id="trend-delta-label" class="trend-delta-label" data-i18n="trend.deltaLabel">last 3 months vs the 3 months before</span></div>
+          <p id="trend-compare" class="trend-compare"></p>
+          <div id="trend-chart" class="trend-chart" role="img"></div>
+          <p class="trend-share"><span id="trend-share"></span> <button id="trend-how" class="trend-how" data-i18n="trend.how">How this is counted</button></p>
+        </section>
+      </div>
       <div class="list-heading"><h2 id="list-title">All records</h2><span id="visible-count">112 records</span></div>
-      <div class="event-list" id="event-list" tabindex="0" aria-label="Scrollable chronological event list"></div>
-      <p class="sidebar-foot">Record counts ≠ confirmed attacks or unique drones.</p>
+      <div class="event-list" id="event-list" tabindex="0" data-i18n-aria="list.aria" aria-label="Scrollable chronological event list"></div>
+      <p class="sidebar-foot" data-i18n="sidebar.foot">Record counts ≠ confirmed attacks or unique drones.</p>
     </aside>
-    <section class="map-stage" aria-label="Interactive event map">
-      <div id="map" tabindex="0" aria-label="Zoomable map. Drag to pan; use the mouse wheel or plus and minus buttons to zoom."></div>
-      <div class="map-top"><div class="map-caption"><span class="eyebrow">EUROPE / 2026</span><strong id="map-period">1 January — 24 September</strong></div><button id="fit-map" class="map-button" title="Fit all visible events"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3H3v6m12-6h6v6M3 15v6h6m6 0h6v-6"/></svg><span>Fit events</span></button></div>
-      <div id="map-legend" class="legend" aria-label="Map legend"></div>
-      <div id="map-error" class="map-error" hidden>Map tiles are unavailable. Event markers and the register still work; check your connection.</div>
-      <div class="map-note">Individual records · approximate positions</div>
-      <aside id="detail" class="detail" aria-label="Selected event details" hidden></aside>
+    <section class="map-stage" data-i18n-aria="map.aria" aria-label="Interactive event map">
+      <div id="map" tabindex="0" data-i18n-aria="map.focusAria" aria-label="Zoomable map. Drag to pan; use the mouse wheel or plus and minus buttons to zoom."></div>
+      <div class="map-top"><div class="map-caption"><span class="eyebrow" data-i18n="map.eyebrow">EUROPE / 2026</span><strong id="map-period">1 January — 24 September</strong></div><button id="fit-map" class="map-button" data-i18n-title="map.fitTitle" title="Fit all visible events"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3H3v6m12-6h6v6M3 15v6h6m6 0h6v-6"/></svg><span data-i18n="map.fit">Fit events</span></button></div>
+      <div id="map-legend" class="legend" data-i18n-aria="legend.aria" aria-label="Map legend"></div>
+      <div id="map-error" class="map-error" data-i18n="map.tileError" hidden>Map tiles are unavailable. Event markers and the register still work; check your connection.</div>
+      <div class="map-note" data-i18n="map.note">Individual records · approximate positions</div>
+      <aside id="detail" class="detail" data-i18n-aria="detail.aria" aria-label="Selected event details" hidden></aside>
     </section>
-    <section class="timeline" aria-label="Timeline replay">
-      <div class="playback"><button id="play" class="play-button" aria-label="Play timeline" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg><span>Replay</span></button><div class="step-controls"><button id="previous" aria-label="Previous event date" title="Previous event date">‹</button><button id="next" aria-label="Next event date" title="Next event date">›</button></div><label class="speed-label"><span class="sr-only">Playback speed</span><select id="speed" aria-label="Playback speed"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select></label><button id="sound" class="sound-button" aria-label="Replay sound" aria-pressed="true" title="Mute replay sound"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4Z"/><path class="sound-waves" d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/><path class="sound-muted" d="m16 9 5 6m0-6-5 6" hidden/></svg></button></div>
-      <div class="timeline-main"><div class="timeline-heading"><div><span class="eyebrow">TIMELINE</span><strong id="current-date">All dates</strong></div><span id="timeline-status">112 records · cumulative replay</span></div><div class="timeline-track"><div class="histogram" id="histogram" aria-hidden="true"></div><input id="timeline-range" type="range" step="any" min="0" max="266" value="266" aria-label="Timeline date"><div class="month-labels" aria-hidden="true"></div></div></div>
-      <button id="show-all" class="show-all" title="Show all records" aria-pressed="true">Show all <span aria-hidden="true">↗</span></button>
+    <section class="timeline" data-i18n-aria="timeline.aria" aria-label="Timeline replay">
+      <div class="playback"><button id="play" class="play-button" aria-label="Play timeline" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg><span>Replay</span></button><div class="step-controls"><button id="previous" data-i18n-aria="step.previous" data-i18n-title="step.previous" aria-label="Previous event date" title="Previous event date">‹</button><button id="next" data-i18n-aria="step.next" data-i18n-title="step.next" aria-label="Next event date" title="Next event date">›</button></div><label class="speed-label"><span class="sr-only" data-i18n="speed.label">Playback speed</span><select id="speed" data-i18n-aria="speed.label" aria-label="Playback speed"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select></label><button id="sound" class="sound-button" data-i18n-aria="sound.aria" aria-label="Replay sound" aria-pressed="true" title="Mute replay sound"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4Z"/><path class="sound-waves" d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/><path class="sound-muted" d="m16 9 5 6m0-6-5 6" hidden/></svg></button></div>
+      <div class="timeline-main"><div class="timeline-heading"><div><span class="eyebrow" data-i18n="timeline.eyebrow">TIMELINE</span><strong id="current-date">All dates</strong></div><span id="timeline-status">112 records · cumulative replay</span></div><div class="timeline-track"><div class="cumulative" id="cumulative" role="img"></div><input id="timeline-range" type="range" step="any" min="0" max="266" value="266" data-i18n-aria="timeline.rangeAria" aria-label="Timeline date"><div class="month-labels" aria-hidden="true"></div></div></div>
+      <button id="show-all" class="show-all" data-i18n-title="showAll.title" title="Show all records" aria-pressed="true"><span data-i18n="showAll.label">Show all</span> <span class="show-all-arrow" aria-hidden="true">↗</span></button>
     </section>
   </main>
-  <dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-heading"><p class="eyebrow">READING THE MAP</p><button id="close-about" aria-label="Close about the data">×</button></div><h2 id="about-title">A research register,<br>not a confirmed attack count.</h2><p id="register-summary">112 records: the 84 baseline records, 27 new event additions and one unidentified object under Alert / other. Eight aggregate/context records remain separate.</p><p>The baseline retains its original discoveries, clusters, alerts and related-object records. The update adds distinct dated discoveries even when the original flight date or airframe identity is unknown. The unidentified object is not a confirmed drone. Supplementary daily bulletins and precautionary alerts remain in the research download and are excluded from this map. Aggregate totals are never added to the map count.</p><h3>Positions are approximate</h3><p>The file does not supply verified incident coordinates. Markers are editorial anchors at the named locality, region or offshore area. A regional marker does not identify a crash site, flight path, jurisdiction boundary or precise offshore position. Every record is drawn individually, with a minimum visible size at every zoom. Translucent markers overlap to show dense areas; zoom in or select an event from the register to inspect it. Multi-country records may have two anchors but count once.</p><h3>How replay works</h3><p>The timeline begins on 1 January 2026, including quiet days before the first record. Playback moves continuously through every calendar day, including quiet days: 8 days per second at 1× (about <span id="replay-duration">33</span> seconds for the default view), 16 at 2×, and 32 at 4×. Scrubbing snaps to individual dates; the arrow buttons jump to the previous or next event date. New events appear with a small ripple and a quiet musical note. Pitch rises through alerts, recoveries, flights, controlled disposal, military engagement, shoot-downs, crashes, and explosions. Notes use a pentatonic scale, so different types arriving together form a chord. Use the speaker button to mute. Records accumulate up to the selected date. For date ranges and discrepancies, the earliest listed date controls appearance; the full date wording and its basis remain in the details. A discovery or disposal date is not an inferred flight date. Status includes later attribution updates in the supplied snapshot; replay does not reconstruct what was known on each day.</p><h3>Marker colors</h3><p>Flight is blue, shot down or armed engagement is purple, crash is amber, and explosion is red. Controlled disposal by authorities, recoveries, and alerts or other unresolved outcomes have separate colors. For records with several stages, the marker prioritizes a reported incident explosion, then a shoot-down or armed engagement, then a crash. The details show the applicable stages. For the 20 August Neptun Deep event, F-16 cannon fire damaged the maritime drone before Navy EOD neutralized it; the map highlights the military engagement, with disposal retained as the subsequent stage. A fire, explosive payload, failed detonation, or nearby explosion alone does not make a record an explosion.</p><h3>Keep the uncertainty</h3><p>Colors describe the type of record, not confidence or nationality. Unknown-origin objects, disputed attribution, adjacent EEZ cases and unverified leads retain their stated status. Recovery stages and article updates are not split into extra incidents. The register does not claim exhaustive EU coverage or fresh independent verification of every imported claim.</p><h3 id="context-title">8 context records · excluded from the map count</h3><div id="context-records"></div><a class="download-link" href="eu_foreign_drone_events_2026_consolidated.md" download>Download the original research register ↓</a><a class="download-link" href="eu_foreign_drone_events_2026_final_update_deduped.md" download>Download the deduplicated research update ↓</a><p class="credits">Map: <a href="https://leafletjs.com" target="_blank" rel="noopener noreferrer">Leaflet</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a></p></dialog>
+  <dialog id="about-dialog" aria-labelledby="about-title">
+    <div class="dialog-heading"><p class="eyebrow" data-i18n="about.eyebrow">READING THE MAP</p><button id="close-about" data-i18n-aria="about.close" aria-label="Close about the data">×</button></div>
+    <h2 id="about-title"><span data-i18n="about.title1">A research register,</span><br><span data-i18n="about.title2">not a confirmed attack count.</span></h2>
+    <dl id="register-summary" class="about-stats"></dl>
+    <p data-i18n="about.scope"></p>
+    <h3 data-i18n="about.positionsTitle">Positions are approximate</h3><p data-i18n="about.positions"></p>
+    <h3 id="about-trend" data-i18n="about.trendTitle" tabindex="-1">Reading the trend</h3><p data-i18n="about.trend"></p>
+    <h3 data-i18n="about.replayTitle">How replay works</h3><p id="about-replay"></p>
+    <h3 data-i18n="about.colorsTitle">Marker colors</h3><p data-i18n="about.colors"></p>
+    <h3 data-i18n="about.mediaTitle">Images and video</h3><p data-i18n="about.media"></p>
+    <h3 data-i18n="about.uncertaintyTitle">Keep the uncertainty</h3><p data-i18n="about.uncertainty"></p>
+    <h3 data-i18n="about.languagesTitle">Languages</h3><p data-i18n="about.languages"></p>
+    <h3 id="context-title">8 context records · excluded from the map count</h3><div id="context-records" lang="en"></div>
+    <a class="download-link" href="eu_foreign_drone_events_2026_consolidated.md" download data-i18n="about.downloadRegister">Download the original research register ↓</a>
+    <a class="download-link" href="eu_foreign_drone_events_2026_final_update_deduped.md" download data-i18n="about.downloadUpdate">Download the deduplicated research update ↓</a>
+    <p class="credits"><span data-i18n="about.credits">Map:</span> <a href="https://leafletjs.com" target="_blank" rel="noopener noreferrer">Leaflet</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a></p>
+  </dialog>
   <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
   <noscript>This interactive map requires JavaScript. <a href="eu_foreign_drone_events_2026_consolidated.md">Read the original register.</a></noscript>
 </body>

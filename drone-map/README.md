@@ -13,23 +13,60 @@ Then open <http://127.0.0.1:4173>. No API key, package installation or build ste
 
 - Drag to pan; scroll, pinch or use +/− to zoom.
 - Every event is shown individually at all zoom levels. Each blob stays at least 20 CSS pixels across, with translucent fill so overlaps show density. Zoom in or use the event list to inspect dense areas.
-- Select a marker or a row in the independently scrollable register to see the original fields and linked sources.
+- Select a marker or a row in the register to see its details: linked images or video first, then the source references, then the original record fields. On desktop the sidebar scrolls as one column (trend panel, then the register); on phones the register list scrolls on its own.
 - Replay starts on 1 January 2026 and moves continuously through every calendar day, including quiet days before the first record; records accumulate. At 1× it advances 8 days per second (about 33 seconds for the full timeline); 2× and 4× run at 16 and 32 days per second. Pause/resume preserves progress. Scrubbing snaps to calendar dates, keyboard arrows move one day, and the previous/next buttons step between event dates. Existing markers remain in place as new records appear. New arrivals get one fading ripple (disabled for reduced-motion preferences) and a quiet, 240 ms synthesized sine tone. Each type has a note in C-major pentatonic order: alert C5, recovery D5, flight E5, disposal G5, engagement A5, shoot-down C6, crash D6, explosion E6. Different types arriving on the same date form a chord; repeated types subtly weight the mix. Total gain is normalized to keep chords quiet, and successive dates crossfade so fast playback does not pile up sound. Sound starts only after a user gesture and can be muted with the speaker button. Scrubbing and Show all are silent.
 - All 112 records appear in one view: 84 baseline records, 27 new event additions and the unidentified object N033 under Alert / other. The three supplemental precautionary alerts and 32 daily reports are excluded from the map; the complete unchanged research update remains downloadable.
+- The running-total curve above the scrubber shows how records accumulate; the played part is colored and the rest stays as a gray preview. The shaded band marks the last three calendar months, with the total before the band and at the cutoff labelled.
 - Show all resets the date and full map extent.
 - About the data explains the counting rules and includes the eight non-additive context records and both original Markdown downloads.
+
+## Trend panel
+
+The sidebar opens with records per month. The headline compares the last three calendar months, including the current partial month, with the three months before (for the 24 September cutoff: 1 July – 24 September against 1 April – 30 June). Columns for the last three months are dark, the comparison months mid-gray and earlier months light; brackets under the columns give each window's total. During replay the columns fill up to the playhead. All figures derive from `events.js`, count records by first listed date, and describe this register rather than a verified count of attacks; the About dialog explains the caveats.
 
 ## Marker colors
 
 - Blue: flight
 - Purple: shot down or armed engagement
-- Amber: crash
-- Red: reported incident explosion
+- Orange: crash
+- Fire red: reported incident explosion
 - Slate teal: controlled disposal by authorities
-- Teal: recovery
+- Yellow: recovery
 - Gray: alert or other unresolved outcome
 
+Yellow, orange and fire red (`#e8c400`, `#f0700f`, `#d3201c`) were checked for color-vision-deficiency separation; marker outlines are a step darker so yellow stays visible on the pale map, and the legend always names each color.
+
 Records with several stages prioritize incident explosion, then shoot-down or armed engagement, then crash for the marker color; applicable stages remain visible in the details. Discovery-only records keep their recovery date and category, without implying a same-day crash. Controlled disposal is separate from incident explosions. Explosive payloads, fires, attempted attacks with failed charges, nearby explosions and ambiguous interceptions do not automatically become explosions or shoot-downs. E047 (20 August Neptun Deep) is classified as military engagement after checking the MApN correction and AGERPRES report: F-16 cannon fire damaged the explosive maritime drone and naval EOD subsequently neutralized it. Disposal remains a secondary stage, and the intended target is not established. The reviewed classification is in `scripts/build-data.py`; source fields remain unchanged.
+
+## Languages
+
+The interface is available in the 24 official EU languages. The language is chosen from `?lang=xx`, then the saved choice, then the browser's languages; the picker in the top bar switches it without reloading and updates the URL for sharing. Strings live in `dist/i18n/<code>.js`, one file per language, with `en.js` as the reference and fallback; only the active language is loaded. Plural forms follow `Intl.PluralRules`, and dates, numbers, percentages and country names come from `Intl`. Record fields, source titles and research notes stay in the register's original English (marked `lang="en"`), so translation never changes their wording.
+
+After editing strings, run:
+
+```sh
+node scripts/check-i18n.js
+```
+
+It checks that every language has the same keys and `{placeholders}` as English and every plural category its language needs.
+
+## Images and video
+
+`dist/media.js` holds preview media for the sources each record cites: the article's sharing image (`og:image`/`twitter:image`) and, where the page offers one, a video file or an embeddable player. `scripts/media-extra.json` adds a few curated news items per event that are not among the register's sources; each has a note explaining why it matches the event's date and place, and the detail panel labels them as additional coverage.
+
+Images load from the publishers' servers without a referrer and link to the report. Videos show a poster and load the third-party player only when the viewer presses play; closing the panel stops playback. Images that fail to load are skipped. Rights remain with the publishers.
+
+To refresh the media (network required, about 25 seconds):
+
+```sh
+python3 scripts/fetch-media.py                  # fetch all cited pages
+python3 scripts/fetch-media.py --only S43,N004  # refetch some sources or events
+python3 scripts/fetch-media.py --offline        # rebuild media.js from scripts/media-cache.json
+```
+
+Some channels forbid playback on other sites even though YouTube's oEmbed reports the video as embeddable. Those items carry `"embeddable": false` in `media-extra.json` (found by loading each video through the YouTube IFrame Player API from a non-YouTube page, where they fail with error 150); the panel shows their thumbnail and opens the video on YouTube instead of embedding it.
+
+The fetcher skips blocked pages (Reuters and AP currently block it), rejects logos, placeholders and site-wide default images, verifies each image and video loads without a referrer, and only keeps embeds that allow framing. CI checks `media.js` syntax but does not refetch.
 
 ## Data and limitations
 
@@ -55,10 +92,15 @@ Optional WebMCP tools use the same visible selection and timeline actions when s
 
 - `dist/index.html` — complete static page
 - `dist/styles.css` — desktop and mobile layouts
-- `dist/app.js` — map, event details and replay controls
+- `dist/app.js` — map, trend panel, event details, replay controls and language switching
 - `dist/events.js` — generated source data
+- `dist/media.js` — generated preview images and video for cited sources, plus curated extras
+- `dist/i18n/` — interface strings for the 24 official EU languages
 - `scripts/build-data.py` — baseline import, approximate anchors and merged output
 - `scripts/supplement.py` — canonical supplemental tables, occurrence classifications and approximate anchors
+- `scripts/fetch-media.py` — source media extraction (`media-cache.json` caches raw results)
+- `scripts/media-extra.json` — curated additional news media, matched per event
+- `scripts/check-i18n.js` — translation completeness check
 - `../.github/workflows/pages.yml` — automatic GitHub Pages publication from `main`
 
 Both original Markdown files in the project root are preserved unchanged.
