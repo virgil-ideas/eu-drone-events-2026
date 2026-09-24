@@ -1,0 +1,3713 @@
+{
+  "assets": {
+    "embed:https://amp.antena3.ro/guid.php?id=227964": {
+      "finalUrl": "https://amp.antena3.ro/guid.php?id=227964",
+      "ok": true,
+      "relevant": false,
+      "status": 200
+    },
+    "embed:https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2616307388784024%2F&show_text=true&width=219&t=0": {
+      "finalUrl": "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2616307388784024%2F&show_text=true&width=219&t=0",
+      "ok": true,
+      "relevant": true,
+      "status": 200
+    },
+    "embed:https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F4483232191960022%2F&show_text=true&width=215&t=0": {
+      "finalUrl": "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F4483232191960022%2F&show_text=true&width=215&t=0",
+      "ok": true,
+      "relevant": true,
+      "status": 200
+    },
+    "file:https://hotnews.ro/wp-content/uploads/2026/04/WhatsApp-Video-2026-04-25-at-14.36.31.mp4": {
+      "contentType": "video/mp4",
+      "ok": true,
+      "status": 206
+    },
+    "file:https://hotnews.ro/wp-content/uploads/2026/04/WhatsApp-Video-2026-04-26-at-21.54.36.mp4": {
+      "contentType": "video/mp4",
+      "ok": true,
+      "status": 206
+    },
+    "file:https://v2.iw.ro/video/v/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNSUyRjAzJTJGMjcwNTgyOF8yNzA1/ODI4X2Ryb25hLm1wNCZoYXNoPTQyMzY2/ZmE0ZDZjMWE4MDdhZTU4ZGNkNTEzNzNmOTI1.mp4": {
+      "contentType": "video/mp4",
+      "ok": true,
+      "status": 206
+    },
+    "file:https://v3.iw.ro/video/v/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOCUyRjIyJTJGMjkyMDgwNV8yOTIw/ODA1X2ltZy1kcm9uYS5tcDQmaGFzaD01/NDEzYjViN2U4MzZlOTY0OWUxODg4NzNmYjE5MjZlOA==.mp4": {
+      "contentType": "video/mp4",
+      "ok": true,
+      "status": 206
+    },
+    "file:https://v3.iw.ro/video/v/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOSUyRjAxJTJGMjkzNDQxMV8yOTM0/NDExX3Zhc2x1aS5tcDQmaGFzaD0zNjFi/NWRhN2UzY2M0ZTE1NjM0YzVjMDBmMTg3ZmZlMQ==.mp4": {
+      "contentType": "video/mp4",
+      "ok": true,
+      "status": 206
+    },
+    "file:https://v4.iw.ro/video/v/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjIxJTJGMjg2MjE0MV8yODYy/MTQxX2V4cGxvemllLW5hdmEubXA0Jmhh/c2g9ZTAxZGUxNzhiNTNkMjM1OGE4ZTE5MTNjYTg4NTVkMjc=.mp4": {
+      "contentType": "video/mp4",
+      "ok": true,
+      "status": 206
+    },
+    "image:https://agerpres.ro/data/202608/20260820161755_931398.jpeg": {
+      "bytes": 49842,
+      "contentType": "image/jpeg",
+      "height": 532,
+      "ok": true,
+      "sha1": "ded87f5957feb26b93e8f24afb711fc8c07d5196",
+      "status": 200,
+      "width": 800
+    },
+    "image:https://agerpres.ro/english/2026/08/11/linkul%20pozei": {
+      "bytes": 7652,
+      "contentType": "text/html",
+      "ok": false,
+      "reason": "HTTP 404",
+      "sha1": "064875dc51e0b7b42cac69c44607532775baab37",
+      "status": 404
+    },
+    "image:https://agerpres.ro/social/2026/08/20/linkul%20pozei": {
+      "bytes": 7652,
+      "contentType": "text/html",
+      "ok": false,
+      "reason": "HTTP 404",
+      "sha1": "2ecfaf613e8fb7caf4b0be0adc45aeb4ec85ba09",
+      "status": 404
+    },
+    "image:https://bulgarianewsdaily.com/wp-content/uploads/2026/08/debris-found-near-kabakum-beach-in-varna.webp": {
+      "bytes": 197060,
+      "contentType": "image/webp",
+      "height": 675,
+      "ok": true,
+      "sha1": "f327954bed2d52ce233839a2b9d7bd0b376cb5e7",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://cdn.adh.reperio.news/image-c/cf76e4ab-2a7d-404f-81be-a326afe5cebd/index.jpeg?p=f%3Djpeg%26w%3D1200%26h%3D630%26r%3Dcover%26c%3D0%252C0%252C1%252C0.754": {
+      "bytes": 185146,
+      "contentType": "image/jpeg",
+      "height": 630,
+      "ok": true,
+      "sha1": "5a48b4cf46fad060685409e53eeecf21ce474d90",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://cugetliber.ro/imagini/mari/drona-mare-1789041183.webp": {
+      "bytes": 659982,
+      "contentType": "image/webp",
+      "height": 406,
+      "ok": true,
+      "sha1": "ef7471d949046489d4d88092450d091f8ba4446d",
+      "status": 200,
+      "width": 594
+    },
+    "image:https://defence-industry.eu/wp-content/uploads/2026/03/sweden-confirms-russian-drone-launched-near-french-carrier-charles-de-gaulle-was-detected-and-neutralised-in-malmo.jpeg": {
+      "bytes": 45590,
+      "contentType": "image/webp",
+      "height": 600,
+      "ok": true,
+      "sha1": "5b1be32919989ee6344bf9b695906fdf7997c0d7",
+      "status": 200,
+      "width": 900
+    },
+    "image:https://direktno.bg/img?u=https%3A%2F%2Fdirektno.bg%2Fmedia%2Farticles%2Farticle_img_1788706927247_paeits.webp&w=1200&ar=1200%3A630&f=jpg": {
+      "bytes": 143848,
+      "contentType": "image/jpeg",
+      "height": 630,
+      "ok": true,
+      "sha1": "826430dd5309b62e8fa301aac94b522daf0fe861",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://english.mapn.ro/images/ministerul_apararii_nationale_coroana.jpg": {
+      "bytes": 55568,
+      "contentType": "image/jpeg",
+      "height": 350,
+      "ok": true,
+      "sha1": "6ad7643fcb48c4724bf73b8ffaaae44ee539a6a2",
+      "status": 200,
+      "width": 350
+    },
+    "image:https://eurocom.bg/wp-content/uploads/2026/08/dron-1600x900.png": {
+      "bytes": 2678976,
+      "contentType": "image/png",
+      "height": 900,
+      "ok": true,
+      "sha1": "5f4bfd5b119c9f678a315109ce0e269cfe5a54be",
+      "status": 200,
+      "width": 1600
+    },
+    "image:https://focuspress.ro/wp-content/uploads/2026/02/whatsapp-image-2026-02-12-at-13-14-33-750x536.jpeg": {
+      "bytes": 343415,
+      "contentType": "image/jpeg",
+      "height": 536,
+      "ok": true,
+      "sha1": "0adce4044f9fa8d5922bcc81ec1742bf3a8a68a0",
+      "status": 200,
+      "width": 750
+    },
+    "image:https://focuspress.ro/wp-content/uploads/2026/02/whatsapp-image-2026-02-12-at-13-14-33.jpeg": {
+      "bytes": 339205,
+      "contentType": "image/jpeg",
+      "height": 1200,
+      "ok": true,
+      "sha1": "4ac29df97e30996a9099fec3fb7298d1334d4854",
+      "status": 200,
+      "width": 1600
+    },
+    "image:https://hermes.media.transform.aol.com/5755c27e9b52d326307e20310808897e6f6cc2c7/w_1200,c_scale,f_auto,q_auto/https://hermes.media.static.aol.com/media/2026/08/28/31aa25db-c5e9-324a-9601-57386b25b3b3/e9490a74-59a2-4e16-a6ae-e8f752728cf9.jpg": {
+      "bytes": 26298,
+      "contentType": "image/jpeg",
+      "height": 675,
+      "ok": true,
+      "sha1": "79ad16b0af7aaccd77b2aef536941e13bf99d8e0",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://hermes.media.transform.aol.com/9a61f24ba06c8f33bf58e898cd8b8df1ed05d8a7/w_1200,c_scale,f_auto,q_auto/https://hermes.media.static.aol.com/media/2026/09/01/dc78bd2a-b53b-326f-b1b1-52402748bf69/ef993b0f-3b3a-4af9-8bed-aea9c92ae279.jpg": {
+      "bytes": 76659,
+      "contentType": "image/jpeg",
+      "height": 800,
+      "ok": true,
+      "sha1": "34348f7b2e6e37c5f2e92687d43517eae472b486",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://hermes.media.transform.aol.com/c6acafc957849dc7a762a334ca05d168c9f0719b/w_1200,c_scale,f_auto,q_auto/https://hermes.media.static.aol.com/media/2026/08/14/4d88fd9c-f598-3657-b157-4b2acfac785d/783c7f84-71f3-4048-a89b-c460e4534d72.jpg": {
+      "bytes": 111671,
+      "contentType": "image/jpeg",
+      "height": 801,
+      "ok": true,
+      "sha1": "16da87b277c8059432b717cc946d75bf7ce4ce2b",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://hotnews.ro/wp-content/uploads/2026/04/Screenshot-2026-04-26-220620.png": {
+      "bytes": 505508,
+      "contentType": "image/webp",
+      "height": 1176,
+      "ok": true,
+      "sha1": "100650feb8ce8de98933f75952087f11ff858bc2",
+      "status": 200,
+      "width": 1900
+    },
+    "image:https://hotnews.ro/wp-content/uploads/2026/04/Screenshot-2026-04-26-220620.png?w=1024": {
+      "bytes": 217976,
+      "contentType": "image/webp",
+      "height": 633,
+      "ok": true,
+      "sha1": "0aec14c6cfb6f81a263b76341bbb96ab9ef321e6",
+      "status": 200,
+      "width": 1023
+    },
+    "image:https://hotnews.ro/wp-content/uploads/2026/04/drona_8b1628.png": {
+      "bytes": 426390,
+      "contentType": "image/webp",
+      "height": 712,
+      "ok": true,
+      "sha1": "944d0be4c02d4e4cf6bd0a3b6c60f4149e4a0f82",
+      "status": 200,
+      "width": 1117
+    },
+    "image:https://hotnews.ro/wp-content/uploads/2026/04/drona_8b1628.png?w=1024": {
+      "bytes": 358546,
+      "contentType": "image/webp",
+      "height": 652,
+      "ok": true,
+      "sha1": "b6e04d5c27da8babfe8cb76880ad2c645ac27b97",
+      "status": 200,
+      "width": 1023
+    },
+    "image:https://hotnews.ro/wp-content/uploads/2026/07/ID182027-INQUAM-PHOTOS-GEORGE-CALIN.jpg": {
+      "bytes": 78666,
+      "contentType": "image/webp",
+      "height": 2351,
+      "ok": true,
+      "sha1": "1065d8d6e571322bbdf8a8da6c6153d7206c2eb4",
+      "status": 200,
+      "width": 3526
+    },
+    "image:https://hotnews.ro/wp-content/uploads/2026/07/ID182027-INQUAM-PHOTOS-GEORGE-CALIN.jpg?w=1024": {
+      "bytes": 15822,
+      "contentType": "image/webp",
+      "height": 682,
+      "ok": true,
+      "sha1": "39911a7c3b2a51f4a008941ce99f45b6edbb326d",
+      "status": 200,
+      "width": 1024
+    },
+    "image:https://hotnews.ro/wp-content/uploads/2026/09/dorna-Vaslui.jpg": {
+      "bytes": 153472,
+      "contentType": "image/webp",
+      "height": 843,
+      "ok": true,
+      "sha1": "cd0e39019469874b90606aaa92c2b5ced5f7d4de",
+      "status": 200,
+      "width": 1193
+    },
+    "image:https://hotnews.ro/wp-content/uploads/2026/09/dorna-Vaslui.jpg?w=1024": {
+      "bytes": 102504,
+      "contentType": "image/webp",
+      "height": 723,
+      "ok": true,
+      "sha1": "96db5bfc8e12c3a73f45538ddbe7788c95c157a4",
+      "status": 200,
+      "width": 1024
+    },
+    "image:https://i.guim.co.uk/img/media/905e68e9072ad94a0fada6f94806012c003dc6fe/491_0_3411_2730/master/3411.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=02d376c652c47ba5c9f6afff633f8d85": {
+      "bytes": 39732,
+      "contentType": "image/webp",
+      "height": 630,
+      "ok": true,
+      "sha1": "550fd69c2ecedaa33ad1e96bc60f4f2919d141a1",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://i.guim.co.uk/img/media/905e68e9072ad94a0fada6f94806012c003dc6fe/491_0_3411_2730/master/3411.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=031e1cfd081ba1abf15d407a23b09ed0": {
+      "bytes": 39732,
+      "contentType": "image/webp",
+      "height": 630,
+      "ok": true,
+      "sha1": "550fd69c2ecedaa33ad1e96bc60f4f2919d141a1",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://i.ytimg.com/vi/XNcx7TFm6zg/hqdefault.jpg": {
+      "bytes": 21790,
+      "contentType": "image/jpeg",
+      "height": 360,
+      "ok": true,
+      "sha1": "0c5159e59cd5c58d29541c9535ec81155108fab2",
+      "status": 200,
+      "width": 480
+    },
+    "image:https://i2.offnews.bg/events/2026/09/07/874215/phpjwfscd.jpg": {
+      "bytes": 225181,
+      "contentType": "image/jpeg",
+      "height": 551,
+      "ok": true,
+      "sha1": "794f56aff4bb152ab3d76ddf8a4baf048dd48514",
+      "status": 200,
+      "width": 980
+    },
+    "image:https://img.eurointegration.com.ua/images/doc/3/2/32b2ba0-o-nava-a-luat-foc-si-s-a-scufundat-joi-noaptea-in-marea-neagra-autoritatile-romane-au-trimis-doua-vase-12-oameni-scosi-din-apa-1096758.jpg": {
+      "bytes": 40738,
+      "contentType": "image/jpeg",
+      "height": 533,
+      "ok": true,
+      "sha1": "2de9789c091448f73c411db4274ed78648d525fe",
+      "status": 200,
+      "width": 951
+    },
+    "image:https://img.eurointegration.com.ua/images/doc/5/b/5bc0346-mczoptq0mczoyxnoptdhmdewowfhyjg3mjiwyzjimmywzde0zdc0mdjiyzq4.thumb.jpg": {
+      "bytes": 33510,
+      "contentType": "image/jpeg",
+      "height": 440,
+      "ok": true,
+      "sha1": "acab5ae8badae7cc54c477fff4fa81597aecfddc",
+      "status": 200,
+      "width": 780
+    },
+    "image:https://img.observatornews.ro/?u=https%3A%2F%2Fobservatornews.ro%2Fuploads%2Fmodules%2Fnews%2F0%2F2026%2F9%2F11%2F665968%2Fdrone-c95a6b50.jpg&w=1200&h=630&c=1": {
+      "bytes": 138606,
+      "contentType": "image/jpeg",
+      "height": 630,
+      "ok": true,
+      "sha1": "9f68ffee6784b369004529a5ae1b918b9eacba04",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://kaitseministeerium.ee/sites/default/files/styles/opengraph/public/imported/20260130174829-cb4aabac_0.jpg": {
+      "bytes": 139331,
+      "contentType": "image/jpeg",
+      "height": 630,
+      "ok": true,
+      "sha1": "d3b89135f3807fbe95935f26c0ea6e69a4f82215",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://media-storage.informat.ro/6a7ec9eeef5d2_fragment%20drona%20costinesti.png": {
+      "bytes": 381830,
+      "contentType": "image/png",
+      "height": 602,
+      "ok": true,
+      "sha1": "8ecb3e5cb85167285959733b83a8b22c7a99e9be",
+      "status": 200,
+      "width": 946
+    },
+    "image:https://media-storage.informat.ro/6a7f35009546a_shutterstock_1685562163%20(1).jpg": {
+      "bytes": 494755,
+      "contentType": "image/jpeg",
+      "height": 750,
+      "ok": true,
+      "sha1": "1fcbe845ca6bdad51619167c9c5d282dd31219c2",
+      "status": 200,
+      "width": 1000
+    },
+    "image:https://media-storage.informat.ro/6a80566c4af28_Screenshot%202026-08-15%20150637.png": {
+      "bytes": 429158,
+      "contentType": "image/png",
+      "height": 578,
+      "ok": true,
+      "sha1": "715f5a9bb4eb43c3e987aad3519ab76edb3ec5f8",
+      "status": 200,
+      "width": 609
+    },
+    "image:https://media.lrytas.lt/images/2026/09/16/133205204-ac0b4209-2fbf-4af6-a325-4f55d1cc761c.jpg": {
+      "bytes": 307051,
+      "contentType": "image/jpeg",
+      "height": 960,
+      "ok": true,
+      "sha1": "fa47e9e27a500682fdb1825c611863abc25dfa8b",
+      "status": 200,
+      "width": 1440
+    },
+    "image:https://media.lrytas.lt/images/2026/09/17/121603642-fe510e74-e8b2-47c5-a33f-5cee22319c33.jpg": {
+      "bytes": 445312,
+      "contentType": "image/jpeg",
+      "height": 960,
+      "ok": true,
+      "sha1": "355480896ea6909e9d9c00f9292dcc38768d19ae",
+      "status": 200,
+      "width": 1440
+    },
+    "image:https://mm.netinfo.bg/branding/dbrand.php?p=aDE1UTNyWEtkWWZ3YWRpN09YV25aSGpWOWJTOE5raDFCbXpTWklVM0kyMWdtSEZpMG1zcEZiajdKeUtHa0NUY0lzRXcycFBkVmluWlpiNGxMRjhId0xXbUtsSDhvYlJHMnVNeWhWZzg4clFsYWZhMC85dWpxTmRxdFllR2JvUWk0b0hhVzcrS0Y2WkFmaFFLY2k5d1JTMkdkRFpOU3VHYmxiVUM3N3dhODdBPQ==": {
+      "bytes": 42179,
+      "contentType": "image/jpeg",
+      "height": 343,
+      "ok": true,
+      "sha1": "da0dbb5d79e139e81346590f81dc98f6f6bf31fc",
+      "status": 200,
+      "width": 655
+    },
+    "image:https://newsukraine.rbc.ua/static/img/6/5/659080079_1242063091429963_8075015334412150495_n_487907e4b0f1920f8846e3c9bbe3e52d_1300x820_3bfeea56685a0ed54937428034cf72dc_650x410.jpg": {
+      "bytes": 51684,
+      "contentType": "image/jpeg",
+      "height": 410,
+      "ok": true,
+      "sha1": "58e8bd00e12c6c2eeb1cfc6bcaece41f93e88977",
+      "status": 200,
+      "width": 650
+    },
+    "image:https://newsukraine.rbc.ua/static/img/_/v/_vibuh_t_me_kyiv_n_c21b787dc12c61996e575745cadae940_1300x820_a1f65ae9996936243d3e12d6d802306a_650x410.jpg": {
+      "bytes": 20866,
+      "contentType": "image/jpeg",
+      "height": 410,
+      "ok": true,
+      "sha1": "cb6fcd9e20456c8da799e5b16b86a0258eed1a1c",
+      "status": 200,
+      "width": 650
+    },
+    "image:https://newsweek.ro/resize/-B4vC1lU8k2TYdemQfmPMdHGh8jWdo1Imit2XaNMug8/rs:fill:1200:630:1/g:ce/aHR0cHM6Ly9uZXdzd2Vlay5yby9zdG9yYWdlL211bHRpbWVkaWEvMjAyNi8wMi9vOXV6Z09zT3dPdGZkNEUzS1JDMVpmaHRTbXVESEVERVhEQTFqV0tqLmpwZw.webp": {
+      "bytes": 63830,
+      "contentType": "image/webp",
+      "height": 630,
+      "ok": true,
+      "sha1": "c7ebc123c71c07337267a9e9155ba010d97e18c6",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNSUyRjAzJTJGMjcwNTgyNl8yNzA1/ODI2X04xNS1EUk9OQS1TVUNFQVZBLUxJ/VkVfMDAwMDAuanBnJnc9MTIwMCZoPTYz/MCZ6Yz0xJmhhc2g9MmMyYzEyZDBkNmJjYmQ2YjAyNmEyNmM4YWRkZDllZTk=.thumb.jpg": {
+      "bytes": 197534,
+      "contentType": "image/jpeg",
+      "height": 630,
+      "ok": true,
+      "sha1": "99529cadf6fe74dd4b55410c2775a888b131b046",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNSUyRjAzJTJGMjcwNTgyOF8yNzA1/ODI4X2Ryb25hLm1wNC5zbmFwc2hvdC4x/LmpwZyZoYXNoPWFlNjg2MmMxYjU2NWRmYTlkODYyZDEzOWIwOWFhZTVm.mp4.snapshot.1.jpg": {
+      "bytes": 104357,
+      "contentType": "image/jpeg",
+      "height": 720,
+      "ok": true,
+      "sha1": "daa3d398f3328cc933b95c9a4119bdfae65eb1a7",
+      "status": 200,
+      "width": 1280
+    },
+    "image:https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjI0JTJGMjg2NjE0NV8yODY2/MTQ1X25hdmEtTU4uanBnJnc9MTIwMCZo/PTYzMCZ6Yz0xJmhhc2g9YWFmMjY1N2ViNTFmMjY4YWMyYzI3MTQ5MmJmMTM0YzA=.thumb.jpg": {
+      "bytes": 179964,
+      "contentType": "image/jpeg",
+      "height": 630,
+      "ok": true,
+      "sha1": "d9f62a28be04f45831c89314d82de17d8b85ccfe",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjIxJTJGMjg2MjE0MV8yODYy/MTQxX2V4cGxvemllLW5hdmEubXA0LnNu/YXBzaG90LjEuanBnJmhhc2g9ZjFlYmU5/YWU3Y2JhNjNlZTFhZTdiZDRiOTBhYTZhYWI=.mp4.snapshot.1.jpg": {
+      "bytes": 182307,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjIxJTJGMjg2MjE0MV8yODYy/MTQxX2V4cGxvemllLW5hdmEubXA0LnNu/YXBzaG90LjEuanBnJmhhc2g9ZjFlYmU5/YWU3Y2JhNjNlZTFhZTdiZDRiOTBhYTZhYWI=.mp4.snapshot.1.jpg?tmp=2026-09-24-16-26-57&app=req-6ab54f51a3e38&retry=1",
+      "height": 720,
+      "ok": true,
+      "sha1": "09ac06a84654ac407f59027a09695bb088c4242b",
+      "status": 200,
+      "width": 1280
+    },
+    "image:https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjIxJTJGMjg2MjI5M18yODYy/MjkzX0VYVEVETC1NQVJJTkFSSS1TVUxJ/TkFfMDI5ODkuanBnJnc9MTIwMCZoPTYz/MCZ6Yz0xJmhhc2g9YTA4ZDk3MTFlNTlhMWE1N2JkYTZjNjViN2MxYzVhZDQ=.thumb.jpg": {
+      "bytes": 168951,
+      "contentType": "image/jpeg",
+      "height": 630,
+      "ok": true,
+      "sha1": "d7b9d191f54ab3ac0c649eec23f18c524c83fbc8",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOCUyRjIyJTJGMjkyMDgwNV8yOTIw/ODA1X2ltZy1kcm9uYS5tcDQuc25hcHNo/b3QuMS5qcGcmaGFzaD0xODJjZTAzYWYxZmZlZjVhOTk3NWY5YWY1MGY4Y2Q0Mg==.mp4.snapshot.1.jpg": {
+      "bytes": 209391,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOCUyRjIyJTJGMjkyMDgwNV8yOTIw/ODA1X2ltZy1kcm9uYS5tcDQuc25hcHNo/b3QuMS5qcGcmaGFzaD0xODJjZTAzYWYxZmZlZjVhOTk3NWY5YWY1MGY4Y2Q0Mg==.mp4.snapshot.1.jpg?tmp=2026-09-24-16-26-29&app=req-6ab54f35101b4&retry=1",
+      "height": 720,
+      "ok": true,
+      "sha1": "4955ef1593e70fee132a83fd79c7af8a108bc371",
+      "status": 200,
+      "width": 1280
+    },
+    "image:https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOCUyRjIyJTJGMjkyMDgyNV8yOTIw/ODI1X04xNy1OT1VBLURFVE9OQVJFLURS/T05BLVRVWkxBLUFNQl8wMDE0My5qcGcm/dz0xMjAwJmg9NjMwJnpjPTEmaGFzaD05/MWNjNGU1MTE0MmZjOTk3YmYzMjc3MjFmMDg1MDJlYw==.thumb.jpg": {
+      "bytes": 142833,
+      "contentType": "image/jpeg",
+      "height": 630,
+      "ok": true,
+      "sha1": "dcb0bbc7320418a3af1940f03c66a9800114c2a8",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOSUyRjAxJTJGMjkzNDQxMV8yOTM0/NDExX3Zhc2x1aS5tcDQuc25hcHNob3Qu/MS5qcGcmaGFzaD1kMjliOGIwZjdkZGU5NGQzMjQyOTBlMDQ4NmU0MGY5Mg==.mp4.snapshot.1.jpg": {
+      "bytes": 141073,
+      "contentType": "image/jpeg",
+      "finalUrl": "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOSUyRjAxJTJGMjkzNDQxMV8yOTM0/NDExX3Zhc2x1aS5tcDQuc25hcHNob3Qu/MS5qcGcmaGFzaD1kMjliOGIwZjdkZGU5NGQzMjQyOTBlMDQ4NmU0MGY5Mg==.mp4.snapshot.1.jpg?tmp=2026-09-24-16-26-58&app=req-6ab54f521647f&retry=1",
+      "height": 720,
+      "ok": true,
+      "sha1": "17b23d93857c7b471c273f3d1a13248721c559ee",
+      "status": 200,
+      "width": 1280
+    },
+    "image:https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOSUyRjAxJTJGMjkzNDQzMF8yOTM0/NDMwX3Bob3RvLWNvbGxhZ2VfcG5nLTIw/MjYtMDktMDFUMjA0NzUyXzc3MC5wbmcm/dz0xMjAwJmg9NjMwJnpjPTEmaGFzaD1l/NjAwNmE3MjUwZTc3NmUzNTFlMmNkYjEyNzJlNzU0ZA==.thumb.jpg": {
+      "bytes": 140029,
+      "contentType": "image/jpeg",
+      "height": 630,
+      "ok": true,
+      "sha1": "75c3806f5d9751c4650e18f6e21120fe05645330",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-800x445.jpg": {
+      "bytes": 30478,
+      "contentType": "image/jpeg",
+      "height": 445,
+      "ok": true,
+      "sha1": "a3f2ff6ffe9c9ff9b9e65445cfd630dcd7750609",
+      "status": 200,
+      "width": 800
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-august-27-800x445.jpg": {
+      "bytes": 40847,
+      "contentType": "image/jpeg",
+      "height": 445,
+      "ok": true,
+      "sha1": "57d67cd34759510bd9954339d4ceb5468668ddc7",
+      "status": 200,
+      "width": 800
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-august-27.jpg": {
+      "bytes": 286756,
+      "contentType": "image/jpeg",
+      "height": 624,
+      "ok": true,
+      "sha1": "aff485cbf35282a656ba924a29200c267732e192",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-august-27.jpg?w=640": {
+      "bytes": 286756,
+      "contentType": "image/jpeg",
+      "height": 624,
+      "ok": true,
+      "sha1": "aff485cbf35282a656ba924a29200c267732e192",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-august-28-800x445.jpg": {
+      "bytes": 31391,
+      "contentType": "image/jpeg",
+      "height": 445,
+      "ok": true,
+      "sha1": "85bfa3f388ec4b2ed53d6a8c2304563033c32c30",
+      "status": 200,
+      "width": 800
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-august-28.jpg": {
+      "bytes": 220740,
+      "contentType": "image/jpeg",
+      "height": 623,
+      "ok": true,
+      "sha1": "bf7041b8248420ed4e8cef424ada73e05735873a",
+      "status": 200,
+      "width": 1202
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-august-28.jpg?w=640": {
+      "bytes": 220740,
+      "contentType": "image/jpeg",
+      "height": 623,
+      "ok": true,
+      "sha1": "bf7041b8248420ed4e8cef424ada73e05735873a",
+      "status": 200,
+      "width": 1202
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day.jpg": {
+      "bytes": 234167,
+      "contentType": "image/jpeg",
+      "height": 626,
+      "ok": true,
+      "sha1": "58d26f6fceb7684b80911c7a3f4cff6c4e922a96",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day.jpg?w=640": {
+      "bytes": 234167,
+      "contentType": "image/jpeg",
+      "height": 626,
+      "ok": true,
+      "sha1": "58d26f6fceb7684b80911c7a3f4cff6c4e922a96",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/08/varna-drone-crop-800x445.jpg": {
+      "bytes": 50047,
+      "contentType": "image/jpeg",
+      "height": 445,
+      "ok": true,
+      "sha1": "91db59120a220aebb5b9c91d6eb66d8d080250d9",
+      "status": 200,
+      "width": 800
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/08/varna-drone-crop.jpg": {
+      "bytes": 382884,
+      "contentType": "image/jpeg",
+      "height": 624,
+      "ok": true,
+      "sha1": "369381dfdaf2d3c8fc31724bd96886cb23d8f830",
+      "status": 200,
+      "width": 1244
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/08/varna-drone-crop.jpg?w=640": {
+      "bytes": 382884,
+      "contentType": "image/jpeg",
+      "height": 624,
+      "ok": true,
+      "sha1": "369381dfdaf2d3c8fc31724bd96886cb23d8f830",
+      "status": 200,
+      "width": 1244
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/09/drone-800x445.jpg": {
+      "bytes": 49407,
+      "contentType": "image/jpeg",
+      "height": 445,
+      "ok": true,
+      "sha1": "5d0cdd315a67cb7c1406b1a77ba0d333afe0eb55",
+      "status": 200,
+      "width": 800
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/09/drone.jpg": {
+      "bytes": 402207,
+      "contentType": "image/jpeg",
+      "height": 623,
+      "ok": true,
+      "sha1": "d37a2af4c4fd01a75a8c673702542f804dd89bd9",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://sofiaglobe.com/wp-content/uploads/2026/09/drone.jpg?w=640": {
+      "bytes": 402207,
+      "contentType": "image/jpeg",
+      "height": 623,
+      "ok": true,
+      "sha1": "d37a2af4c4fd01a75a8c673702542f804dd89bd9",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://static.petel.bg/resources/2026/09/04/medium_lo.png": {
+      "bytes": 49212,
+      "contentType": "image/webp",
+      "height": 371,
+      "ok": true,
+      "sha1": "56ba036d65ac58035c63406147a58a248ef777d9",
+      "status": 200,
+      "width": 702
+    },
+    "image:https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Antonov_An-196_Liutyi_in_Kouvola.jpg/1280px-Antonov_An-196_Liutyi_in_Kouvola.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail": {
+      "bytes": 453032,
+      "contentType": "image/jpeg",
+      "height": 994,
+      "ok": true,
+      "sha1": "ff85f6f809a42e3c51b092cd37d20307fa4819f3",
+      "status": 200,
+      "width": 1280
+    },
+    "image:https://tvrinfo.ro/wp-content/uploads/2025/10/profimedia-0958642355.jpg": {
+      "bytes": 332935,
+      "contentType": "image/jpeg",
+      "height": 1199,
+      "ok": true,
+      "sha1": "3714688c04db8f9125429483c6c9084afe362508",
+      "status": 200,
+      "width": 1800
+    },
+    "image:https://tvrinfo.ro/wp-content/uploads/2026/07/drona-doborata-in-spatiul-aerian-e1784965134268.jpg": {
+      "bytes": 30461,
+      "contentType": "image/jpeg",
+      "height": 370,
+      "ok": true,
+      "sha1": "37b5eac7c5970c3d70e6184be96bc6ccce37189d",
+      "status": 200,
+      "width": 616
+    },
+    "image:https://upload.wikimedia.org/wikipedia/commons/2/27/Romanian_F-16.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled": {
+      "bytes": 769221,
+      "contentType": "image/jpeg",
+      "height": 924,
+      "ok": true,
+      "sha1": "3596b30a020d7a517ae8b02e30d00ccbbb50b61a",
+      "status": 200,
+      "width": 1280
+    },
+    "image:https://vsat.lrv.lt/media/viesa/saugykla/2026/1/oeS3tCWjmgw.jpeg": {
+      "bytes": 247149,
+      "contentType": "image/jpeg",
+      "height": 896,
+      "ok": true,
+      "sha1": "768211e45fbf1d54d0f9a8d2a2abebce724801bd",
+      "status": 200,
+      "width": 1536
+    },
+    "image:https://vsat.lrv.lt/media/viesa/saugykla/2026/2/P307uq7cC_8.jpg": {
+      "bytes": 309736,
+      "contentType": "image/jpeg",
+      "height": 786,
+      "ok": true,
+      "sha1": "4e37dbbcb2db905180b81cb76297b79822c56580",
+      "status": 200,
+      "width": 1460
+    },
+    "image:https://vsat.lrv.lt/media/viesa/saugykla/2026/4/Am3tl7ekpgU.jpg": {
+      "bytes": 164631,
+      "contentType": "image/jpeg",
+      "height": 635,
+      "ok": true,
+      "sha1": "62a05fd18ff7f6d35e8b6c8ed7783cddde4b9b6a",
+      "status": 200,
+      "width": 867
+    },
+    "image:https://vsat.lrv.lt/media/viesa/saugykla/2026/5/AGbEXn7QYik.jpg": {
+      "bytes": 307435,
+      "contentType": "image/jpeg",
+      "height": 976,
+      "ok": true,
+      "sha1": "c5f93fee1513c281eb7a91e6611cbe6f80bd9cb4",
+      "status": 200,
+      "width": 1525
+    },
+    "image:https://vsat.lrv.lt/media/viesa/saugykla/2026/9/JJ6hlwq47zI.jpg": {
+      "bytes": 314162,
+      "contentType": "image/jpeg",
+      "height": 1280,
+      "ok": true,
+      "sha1": "a792d3a90ac50914e5f7b189ee3cc29cc07b02c1",
+      "status": 200,
+      "width": 2000
+    },
+    "image:https://vsat.lrv.lt/media/viesa/saugykla/2026/9/TnjgT39Ov-g.jpg": {
+      "bytes": 323646,
+      "contentType": "image/jpeg",
+      "height": 1280,
+      "ok": true,
+      "sha1": "6c8eff633c9102fdb12430a38f21a01ef2851256",
+      "status": 200,
+      "width": 2000
+    },
+    "image:https://vsat.lrv.lt/media/viesa/saugykla/2026/9/o3ogt0Iy7sM.jpg": {
+      "bytes": 315732,
+      "contentType": "image/jpeg",
+      "height": 1280,
+      "ok": true,
+      "sha1": "4119d86ada004340a553d2ab52224c0aa1f671ba",
+      "status": 200,
+      "width": 2000
+    },
+    "image:https://vsat.lrv.lt/media/viesa/saugykla/2026/9/qTTKS6xT1eE.jpg": {
+      "bytes": 317865,
+      "contentType": "image/jpeg",
+      "height": 1280,
+      "ok": true,
+      "sha1": "47b00b3c963d1b8de4551f1b96b3cea85ffd68d1",
+      "status": 200,
+      "width": 2000
+    },
+    "image:https://www.antena3.ro/thumbs/amp/2026/08/16/o-drona-care-a-intrat-in-spatiul-aerian-al-romaniei-a-fost-doborata-de-un-avion-nato-in-apropiere-de-galati-1093651.webp": {
+      "bytes": 39165,
+      "contentType": "image/webp",
+      "height": 675,
+      "ok": true,
+      "sha1": "2976bc0645a086d4c6e738eb57082f8538c09a8c",
+      "status": 200,
+      "width": 1200
+    },
+    "image:https://www.antena3.ro/thumbs/big3/2026/08/16/o-drona-care-a-intrat-in-spatiul-aerian-al-romaniei-a-fost-doborata-de-un-avion-nato-in-apropiere-de-galati-1093651.jpg": {
+      "bytes": 20599,
+      "contentType": "image/jpeg",
+      "height": 478,
+      "ok": true,
+      "sha1": "80b218619cfd628f6815623e32272178e8bdd77c",
+      "status": 200,
+      "width": 820
+    },
+    "image:https://www.bta.bg/upload/13797962/1000089613.jpg?l=750": {
+      "bytes": 211690,
+      "contentType": "image/jpeg",
+      "height": 500,
+      "ok": true,
+      "sha1": "15047fdabdc1fdad64280dafa88aa9f4452c4b48",
+      "status": 200,
+      "width": 750
+    },
+    "image:https://www.bta.bg/upload/13798697/MIL_7758.jpg?l=750": {
+      "bytes": 129079,
+      "contentType": "image/jpeg",
+      "height": 500,
+      "ok": true,
+      "sha1": "483702fde7c34d610c769ff3c7b9768fa4e671f9",
+      "status": 200,
+      "width": 750
+    },
+    "image:https://www.bta.bg/upload/13799522/K-2.jpg?l=750": {
+      "bytes": 79100,
+      "contentType": "image/jpeg",
+      "height": 750,
+      "ok": true,
+      "sha1": "af12fbea6eedb9f7e4f95ff9ec3b0044cf7bb0fd",
+      "status": 200,
+      "width": 562
+    },
+    "image:https://www.bta.bg/upload/13806146/%D0%B4%D1%80%D0%BE%D0%BD+%D0%A8%D0%B0%D0%B1%D0%BB%D0%B0.jpg?l=750": {
+      "bytes": 57688,
+      "contentType": "image/jpeg",
+      "height": 564,
+      "ok": true,
+      "sha1": "1c9ed3a24a35a74d30f0f6ca9a8378e864630d63",
+      "status": 200,
+      "width": 750
+    },
+    "image:https://www.ct100.ro/wp-content/uploads/2026/08/drona-din-costinesti.webp": {
+      "bytes": 71062,
+      "contentType": "image/webp",
+      "height": 1600,
+      "ok": true,
+      "sha1": "6ce5a9887b1aaff4d59b1323208b93eb205456a4",
+      "status": 200,
+      "width": 887
+    },
+    "image:https://www.ct100.ro/wp-content/uploads/2026/08/ovine-oi-700x467.webp": {
+      "bytes": 34266,
+      "contentType": "image/webp",
+      "height": 467,
+      "ok": true,
+      "sha1": "76593fec9ad876624bb965af7d5941736d2059ee",
+      "status": 200,
+      "width": 700
+    },
+    "image:https://www.datocms-assets.com/43475/1788889838-harta-romaniei.jpeg?auto=format&fit=max&w=1200": {
+      "bytes": 71587,
+      "contentType": "image/avif",
+      "ok": true,
+      "sha1": "d62498c51c9e42cd8ccb7247b678258cce39c4e0",
+      "status": 200
+    },
+    "image:https://www.ekathimerini.com/wp-content/uploads/2026/08/jets1-960x600.jpg": {
+      "bytes": 37260,
+      "contentType": "image/jpeg",
+      "height": 600,
+      "ok": true,
+      "sha1": "b1891357469ebd622e40dfc9b0f7aa9fde1c0ec7",
+      "status": 200,
+      "width": 960
+    },
+    "image:https://www.forbes.ro/wp-content/uploads/2026/05/shutterstock_2761701919.jpg": {
+      "bytes": 108666,
+      "contentType": "image/jpeg",
+      "height": 664,
+      "ok": true,
+      "sha1": "a5b5c72c966ab500c4377c00b40bd7140bdb0cec",
+      "status": 200,
+      "width": 1000
+    },
+    "image:https://www.lrt.lt/img/2026/06/15/2417665-862175-1287x836.jpg": {
+      "bytes": 320488,
+      "contentType": "image/jpeg",
+      "height": 824,
+      "ok": true,
+      "sha1": "d965f53f9c4cb59617ee7b6b9f5de3241cb9517b",
+      "status": 200,
+      "width": 1287
+    },
+    "image:https://www.mapn.ro/images/ministerul_apararii_nationale_coroana.jpg": {
+      "bytes": 55568,
+      "contentType": "image/jpeg",
+      "height": 350,
+      "ok": true,
+      "sha1": "6ad7643fcb48c4724bf73b8ffaaae44ee539a6a2",
+      "status": 200,
+      "width": 350
+    },
+    "image:https://www.politica.gr/wp-content/uploads/2026/09/Katadioksi.png.webp": {
+      "bytes": 145158,
+      "contentType": "image/webp",
+      "height": 878,
+      "ok": true,
+      "sha1": "f44cbcbac12cddcef224b9ca7eda88f8ded7093b",
+      "status": 200,
+      "width": 1382
+    },
+    "image:https://www.radiocluj.ro/wp-content/uploads/2026/08/paza-de-coasta.jpg": {
+      "bytes": 244075,
+      "contentType": "image/jpeg",
+      "height": 576,
+      "ok": true,
+      "sha1": "0848b8753f626a8aea6a4c95f5bf17fb9cfeacc8",
+      "status": 200,
+      "width": 1024
+    },
+    "image:https://www.radioconstanta.ro/wp-content/uploads/2026/08/Screenshot_26-8-2026_1161_www.facebook.com_.jpeg": {
+      "bytes": 166167,
+      "contentType": "image/jpeg",
+      "height": 457,
+      "ok": true,
+      "sha1": "674471ddf91208d8e9c3d8d5b7520f4bc337f580",
+      "status": 200,
+      "width": 761
+    },
+    "image:https://www.radioromania.ro/img.php?u=https%3A%2F%2Fwww.radioromania.ro%2Fuploads%2Fmodules%2Fnews%2F0%2F2026%2F9%2F10%2F216948%2F1789031532129881f6.jpg&w=960&h=540&c=1": {
+      "bytes": 55110,
+      "contentType": "image/jpeg",
+      "height": 540,
+      "ok": true,
+      "sha1": "b22c981dc889c90fabafd02d93fcd381d1c05a21",
+      "status": 200,
+      "width": 960
+    },
+    "image:https://www.radiotimisoara.ro/wp-content/uploads/2026/04/radar-drona.jpg": {
+      "bytes": 62940,
+      "contentType": "image/jpeg",
+      "height": 540,
+      "ok": true,
+      "sha1": "d840815863ec1e102b058b97f04df19e7f8e1972",
+      "status": 200,
+      "width": 960
+    },
+    "image:https://www.rador.ro/wp-content/uploads/2025/08/litoral-valuri.jpeg": {
+      "bytes": 77445,
+      "contentType": "image/jpeg",
+      "height": 555,
+      "ok": true,
+      "sha1": "494345f1357217085a6ee687964b8b705eaea818",
+      "status": 200,
+      "width": 800
+    },
+    "image:https://www.vasluitv.ro/wp-content/uploads/2026/09/Captura-de-ecran-2026-09-01-131459.png?v=1788257721": {
+      "bytes": 1807443,
+      "contentType": "image/png",
+      "height": 1155,
+      "ok": true,
+      "sha1": "d9798d7a468b80e2b06acc7b5668194c2d9e06c7",
+      "status": 200,
+      "width": 2193
+    },
+    "image:https://www.zdfheute.de/assets/drohne-strommasten-100~1280x720?cb=1784294060350": {
+      "bytes": 31167,
+      "contentType": "image/avif",
+      "ok": true,
+      "sha1": "4cb11fbe2ed14dc9268c024b578d822e3327c855",
+      "status": 200
+    },
+    "image:https://www.zdfheute.de/assets/spionage-festnahme-muenchen-clean-100~1200x1200?cb=1784300427248": {
+      "bytes": 39595,
+      "contentType": "image/avif",
+      "ok": true,
+      "sha1": "77a4f6a2e22d8608d4f4817dc1f9e6ae44b4fce0",
+      "status": 200
+    },
+    "image:https://www.zdfheute.de/assets/spionage-festnahme-muenchen-clean-100~1600x1200?cb=1784300427248": {
+      "bytes": 41810,
+      "contentType": "image/avif",
+      "ok": true,
+      "sha1": "2be88d9ed1fc38412483089f7a2f4e02e6edada4",
+      "status": 200
+    },
+    "image:https://www.zdfheute.de/assets/spionage-festnahme-muenchen-clean-100~1920x1080?cb=1784300427248": {
+      "bytes": 40258,
+      "contentType": "image/avif",
+      "ok": true,
+      "sha1": "8096b4ebdcea79c3a8906a9e78f993ae85f6b75f",
+      "status": 200
+    },
+    "youtube:XNcx7TFm6zg": {
+      "author": "Euronews Romania",
+      "ok": true,
+      "relevant": false,
+      "status": 200,
+      "title": "LIVE. Euronews România"
+    }
+  },
+  "pages": {
+    "https://adevarul.ro/stiri-interne/evenimente/ministerul-apararii-nationale-in-stare-de-alerta-2557004.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://adevarul.ro/stiri-interne/evenimente/ministerul-apararii-nationale-in-stare-de-alerta-2557004.html",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://cdn.adh.reperio.news/image-c/cf76e4ab-2a7d-404f-81be-a326afe5cebd/index.jpeg?p=f%3Djpeg%26w%3D1200%26h%3D630%26r%3Dcover%26c%3D0%252C0%252C1%252C0.754"
+          ],
+          "og:image:height": [
+            "630"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "Ministerul Apărării Naționale, în stare de alertă. Zece fragmente de drone găsite doar vineri în zona litoralului românesc"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "R07"
+      ],
+      "status": 200,
+      "url": "https://adevarul.ro/stiri-interne/evenimente/ministerul-apararii-nationale-in-stare-de-alerta-2557004.html"
+    },
+    "https://agerpres.ro/english/2026/08/11/romanian-naval-forces-divers-destroy-two-drones-found-drifting-in-the-black-sea--1584137": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://agerpres.ro/english/2026/08/11/romanian-naval-forces-divers-destroy-two-drones-found-drifting-in-the-black-sea--1584137",
+      "found": {
+        "meta": {
+          "twitter:image": [
+            "linkul pozei"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S60"
+      ],
+      "status": 200,
+      "url": "https://agerpres.ro/english/2026/08/11/romanian-naval-forces-divers-destroy-two-drones-found-drifting-in-the-black-sea--1584137"
+    },
+    "https://agerpres.ro/social/2026/08/20/mapn-echipa-eod-a-fortelor-navale-a-neutralizat-o-drona-marina-din-zona-platformei-neptun-deep--1586518": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://agerpres.ro/social/2026/08/20/mapn-echipa-eod-a-fortelor-navale-a-neutralizat-o-drona-marina-din-zona-platformei-neptun-deep--1586518",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://agerpres.ro/data/202608/20260820161755_931398.jpeg"
+          ],
+          "og:title": [
+            "MApN: Echipă EOD a Forțelor Navale a neutralizat o dronă marină din zona platformei Neptun Deep"
+          ],
+          "twitter:image": [
+            "linkul pozei"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S51"
+      ],
+      "status": 200,
+      "url": "https://agerpres.ro/social/2026/08/20/mapn-echipa-eod-a-fortelor-navale-a-neutralizat-o-drona-marina-din-zona-platformei-neptun-deep--1586518"
+    },
+    "https://apnews.com/article/427dcc0875f5e416dadfee0c022f1cb4": {
+      "error": "HTTP 403",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://apnews.com/article/427dcc0875f5e416dadfee0c022f1cb4",
+      "outcome": "blocked",
+      "sources": [
+        "S40"
+      ],
+      "status": 403,
+      "url": "https://apnews.com/article/427dcc0875f5e416dadfee0c022f1cb4"
+    },
+    "https://apnews.com/article/aa90986c237b8fa1d9116685c8c32f95": {
+      "error": "HTTP 403",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://apnews.com/article/aa90986c237b8fa1d9116685c8c32f95",
+      "outcome": "blocked",
+      "sources": [
+        "S25"
+      ],
+      "status": 403,
+      "url": "https://apnews.com/article/aa90986c237b8fa1d9116685c8c32f95"
+    },
+    "https://apnews.com/article/c8905513cb9ade27176a88ef642411b7": {
+      "error": "HTTP 403",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://apnews.com/article/c8905513cb9ade27176a88ef642411b7",
+      "outcome": "blocked",
+      "sources": [
+        "S03"
+      ],
+      "status": 403,
+      "url": "https://apnews.com/article/c8905513cb9ade27176a88ef642411b7"
+    },
+    "https://apnews.com/article/defc53b2383a67475230c8349a47d7c6": {
+      "error": "HTTP 403",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://apnews.com/article/defc53b2383a67475230c8349a47d7c6",
+      "outcome": "blocked",
+      "sources": [
+        "S29"
+      ],
+      "status": 403,
+      "url": "https://apnews.com/article/defc53b2383a67475230c8349a47d7c6"
+    },
+    "https://apnews.com/article/greece-ukraine-russia-sea-drone-c51b74a4472ab60411b330515eadf5e8": {
+      "error": "HTTP 403",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://apnews.com/article/greece-ukraine-russia-sea-drone-c51b74a4472ab60411b330515eadf5e8",
+      "outcome": "blocked",
+      "sources": [
+        "S21"
+      ],
+      "status": 403,
+      "url": "https://apnews.com/article/greece-ukraine-russia-sea-drone-c51b74a4472ab60411b330515eadf5e8"
+    },
+    "https://bulgarianewsdaily.com/debris-found-near-kabakum-beach-in-varna/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://bulgarianewsdaily.com/debris-found-near-kabakum-beach-in-varna/",
+      "found": {
+        "featuredImage": [
+          "https://bulgarianewsdaily.com/wp-content/uploads/2026/08/debris-found-near-kabakum-beach-in-varna.webp"
+        ]
+      },
+      "outcome": "ok",
+      "sources": [
+        "S83"
+      ],
+      "status": 200,
+      "url": "https://bulgarianewsdaily.com/debris-found-near-kabakum-beach-in-varna/"
+    },
+    "https://cugetliber.ro/mobile/stiri-eveniment-fragmente-de-drona-pe-plaja-din-mamaia-nord-politistii-au-fost-alertati-dimineata-563717": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://cugetliber.ro/mobile/stiri-eveniment-fragmente-de-drona-pe-plaja-din-mamaia-nord-politistii-au-fost-alertati-dimineata-563717",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://cugetliber.ro/imagini/mari/drona-mare-1789041183.webp"
+          ],
+          "og:image:height": [
+            "406"
+          ],
+          "og:image:width": [
+            "594"
+          ],
+          "og:title": [
+            "Fragmente de dronă pe plaja din Mamaia Nord! Polițiștii au fost alertați dimineață"
+          ],
+          "twitter:image": [
+            "https://cugetliber.ro/imagini/mari/drona-mare-1789041183.webp"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "R10"
+      ],
+      "status": 200,
+      "url": "https://cugetliber.ro/mobile/stiri-eveniment-fragmente-de-drona-pe-plaja-din-mamaia-nord-politistii-au-fost-alertati-dimineata-563717"
+    },
+    "https://dariknews.bg/novini/bylgariia/otkriha-dron-v-cherno-more-vms-go-iztegliha-2465810": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://dariknews.bg/novini/bylgariia/otkriha-dron-v-cherno-more-vms-go-iztegliha-2465810",
+      "found": {
+        "imageSrc": [
+          "https://mm.netinfo.bg/branding/dbrand.php?p=aDE1UTNyWEtkWWZ3YWRpN09YV25aSGpWOWJTOE5raDFCbXpTWklVM0kyMWdtSEZpMG1zcEZiajdKeUtHa0NUY0lzRXcycFBkVmluWlpiNGxMRjhId0xXbUtsSDhvYlJHMnVNeWhWZzg4clFsYWZhMC85dWpxTmRxdFllR2JvUWk0b0hhVzcrS0Y2WkFmaFFLY2k5d1JTMkdkRFpOU3VHYmxiVUM3N3dhODdBPQ=="
+        ],
+        "meta": {
+          "og:image": [
+            "https://mm.netinfo.bg/branding/dbrand.php?p=aDE1UTNyWEtkWWZ3YWRpN09YV25aSGpWOWJTOE5raDFCbXpTWklVM0kyMWdtSEZpMG1zcEZiajdKeUtHa0NUY0lzRXcycFBkVmluWlpiNGxMRjhId0xXbUtsSDhvYlJHMnVNeWhWZzg4clFsYWZhMC85dWpxTmRxdFllR2JvUWk0b0hhVzcrS0Y2WkFmaFFLY2k5d1JTMkdkRFpOU3VHYmxiVUM3N3dhODdBPQ=="
+          ],
+          "og:image:height": [
+            "343"
+          ],
+          "og:image:width": [
+            "655"
+          ],
+          "og:title": [
+            "Откриха дрон в Черно море, ВМС го изтеглиха"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "B04"
+      ],
+      "status": 200,
+      "url": "https://dariknews.bg/novini/bylgariia/otkriha-dron-v-cherno-more-vms-go-iztegliha-2465810"
+    },
+    "https://de.marketscreener.com/boerse-nachrichten/deutschland-nimmt-moldauer-wegen-mutmasslichem-spionage-drohnenflug-ueber-ruestungshersteller-knds-fest-ce7f51dad88ef221": {
+      "error": "HTTP 403",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://de.marketscreener.com/boerse-nachrichten/deutschland-nimmt-moldauer-wegen-mutmasslichem-spionage-drohnenflug-ueber-ruestungshersteller-knds-fest-ce7f51dad88ef221",
+      "outcome": "blocked",
+      "sources": [
+        "D03"
+      ],
+      "status": 403,
+      "url": "https://de.marketscreener.com/boerse-nachrichten/deutschland-nimmt-moldauer-wegen-mutmasslichem-spionage-drohnenflug-ueber-ruestungshersteller-knds-fest-ce7f51dad88ef221"
+    },
+    "https://defence-industry.eu/sweden-confirms-russian-drone-launched-near-french-carrier-charles-de-gaulle-was-detected-and-neutralised-in-malmo/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://defence-industry.eu/sweden-confirms-russian-drone-launched-near-french-carrier-charles-de-gaulle-was-detected-and-neutralised-in-malmo/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://defence-industry.eu/wp-content/uploads/2026/03/sweden-confirms-russian-drone-launched-near-french-carrier-charles-de-gaulle-was-detected-and-neutralised-in-malmo.jpeg"
+          ],
+          "og:image:alt": [
+            "Sweden confirmed that on 25 February 2026 its armed forces detected and neutralised a drone launched near the French aircraft carrier Charles de Gaulle during its visit to Malmö. The unmanned aircraft had taken off from a Russian electronic intelligence vessel and attempted to approach the carrier by entering a restricted zone."
+          ],
+          "og:image:height": [
+            "600"
+          ],
+          "og:image:secure_url": [
+            "https://defence-industry.eu/wp-content/uploads/2026/03/sweden-confirms-russian-drone-launched-near-french-carrier-charles-de-gaulle-was-detected-and-neutralised-in-malmo.jpeg"
+          ],
+          "og:image:width": [
+            "900"
+          ],
+          "og:title": [
+            "Sweden confirms Russian drone launched near French carrier Charles de Gaulle was detected and neutralised in Malmö - Defence Industry Europe"
+          ],
+          "twitter:image": [
+            "https://defence-industry.eu/wp-content/uploads/2026/03/sweden-confirms-russian-drone-launched-near-french-carrier-charles-de-gaulle-was-detected-and-neutralised-in-malmo.jpeg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S64"
+      ],
+      "status": 200,
+      "url": "https://defence-industry.eu/sweden-confirms-russian-drone-launched-near-french-carrier-charles-de-gaulle-was-detected-and-neutralised-in-malmo/"
+    },
+    "https://direktno.bg/article/shest-zadachi-na-vms-po-chernomorieto-kakvo-e-potvyrdeno-i-kakvo-ostava-neyasno": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://direktno.bg/article/shest-zadachi-na-vms-po-chernomorieto-kakvo-e-potvyrdeno-i-kakvo-ostava-neyasno",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://direktno.bg/img?u=https%3A%2F%2Fdirektno.bg%2Fmedia%2Farticles%2Farticle_img_1788706927247_paeits.webp&w=1200&ar=1200%3A630&f=jpg"
+          ],
+          "og:image:alt": [
+            "Военнослужещи проверяват фрагмент от безпилотен апарат на плаж по българското Черноморие"
+          ],
+          "og:image:height": [
+            "630"
+          ],
+          "og:image:secure_url": [
+            "https://direktno.bg/img?u=https%3A%2F%2Fdirektno.bg%2Fmedia%2Farticles%2Farticle_img_1788706927247_paeits.webp&w=1200&ar=1200%3A630&f=jpg"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "Шест задачи на ВМС по Черноморието: какво е потвърдено и какво остава неясно"
+          ],
+          "twitter:image": [
+            "https://direktno.bg/img?u=https%3A%2F%2Fdirektno.bg%2Fmedia%2Farticles%2Farticle_img_1788706927247_paeits.webp&w=1200&ar=1200%3A630&f=jpg"
+          ],
+          "twitter:image:alt": [
+            "Военнослужещи проверяват фрагмент от безпилотен апарат на плаж по българското Черноморие"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "B03"
+      ],
+      "status": 200,
+      "url": "https://direktno.bg/article/shest-zadachi-na-vms-po-chernomorieto-kakvo-e-potvyrdeno-i-kakvo-ostava-neyasno"
+    },
+    "https://en.portnews.ru/news/print/396155/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://en.portnews.ru/news/print/396155/",
+      "found": {},
+      "outcome": "ok",
+      "sources": [
+        "S75"
+      ],
+      "status": 200,
+      "url": "https://en.portnews.ru/news/print/396155/"
+    },
+    "https://en.wikipedia.org/wiki/2026_drone_incidents_in_Romania": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://en.wikipedia.org/wiki/2026_drone_incidents_in_Romania",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://upload.wikimedia.org/wikipedia/commons/2/27/Romanian_F-16.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail_unscaled"
+          ],
+          "og:image:height": [
+            "866"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "2026 drone incidents in Romania - Wikipedia"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S32"
+      ],
+      "status": 200,
+      "url": "https://en.wikipedia.org/wiki/2026_drone_incidents_in_Romania"
+    },
+    "https://en.wikipedia.org/wiki/2026_drone_incursions_into_the_Baltic_states_and_Finland": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://en.wikipedia.org/wiki/2026_drone_incursions_into_the_Baltic_states_and_Finland",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Antonov_An-196_Liutyi_in_Kouvola.jpg/1280px-Antonov_An-196_Liutyi_in_Kouvola.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail"
+          ],
+          "og:image:height": [
+            "932"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "2026 drone incursions into the Baltic states and Finland - Wikipedia"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S24"
+      ],
+      "status": 200,
+      "url": "https://en.wikipedia.org/wiki/2026_drone_incursions_into_the_Baltic_states_and_Finland"
+    },
+    "https://english.mapn.ro/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://english.mapn.ro/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.mapn.ro/images/ministerul_apararii_nationale_coroana.jpg"
+          ],
+          "og:title": [
+            "Ministry of National Defence"
+          ],
+          "twitter:image": [
+            "https://www.mapn.ro/images/ministerul_apararii_nationale_coroana.jpg"
+          ]
+        },
+        "videoTags": [
+          [
+            "intro.mp4",
+            "video/mp4"
+          ]
+        ]
+      },
+      "outcome": "ok",
+      "sources": [
+        "S62"
+      ],
+      "status": 200,
+      "url": "https://english.mapn.ro/"
+    },
+    "https://english.mapn.ro/cpresa/6871_update-%E2%80%93-press-release": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://english.mapn.ro/cpresa/6871_update-%E2%80%93-press-release",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://english.mapn.ro/images/ministerul_apararii_nationale_coroana.jpg"
+          ],
+          "og:title": [
+            "Update – Press Release"
+          ],
+          "twitter:image": [
+            "https://english.mapn.ro/images/ministerul_apararii_nationale_coroana.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S61"
+      ],
+      "status": 200,
+      "url": "https://english.mapn.ro/cpresa/6871_update-%E2%80%93-press-release"
+    },
+    "https://eurocom.bg/2026/09/11/voenen-dron-izpluva-na-plazh-kavatsi-spetsializirani-sili-ohranyavat-rayona/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://eurocom.bg/2026/09/11/voenen-dron-izpluva-na-plazh-kavatsi-spetsializirani-sili-ohranyavat-rayona/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://eurocom.bg/wp-content/uploads/2026/08/dron-1600x900.png"
+          ],
+          "og:image:height": [
+            "900"
+          ],
+          "og:image:secure_url": [
+            "https://eurocom.bg/wp-content/uploads/2026/08/dron-1600x900.png"
+          ],
+          "og:image:width": [
+            "1600"
+          ],
+          "og:title": [
+            "Военен дрон изплува на плаж Каваци"
+          ],
+          "twitter:image": [
+            "https://eurocom.bg/wp-content/uploads/2026/08/dron-1600x900.png"
+          ],
+          "twitter:image:src": [
+            "https://eurocom.bg/wp-content/uploads/2026/08/dron-1600x900.png"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "B06"
+      ],
+      "status": 200,
+      "url": "https://eurocom.bg/2026/09/11/voenen-dron-izpluva-na-plazh-kavatsi-spetsializirani-sili-ohranyavat-rayona/"
+    },
+    "https://financialintelligence.ro/fragment-de-drona-gasit-pe-plaja-de-la-corbu-nu-avea-incarcatura-exploziva-fiind-neutralizat-la-fata-locului/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://financialintelligence.ro/fragment-de-drona-gasit-pe-plaja-de-la-corbu-nu-avea-incarcatura-exploziva-fiind-neutralizat-la-fata-locului/",
+      "found": {
+        "featuredImage": [
+          "https://financialintelligence.ro/wp-content/uploads/2020/01/mapn.jpg"
+        ],
+        "meta": {
+          "og:image": [
+            "https://financialintelligence.ro/wp-content/uploads/2020/01/mapn.jpg"
+          ],
+          "og:image:height": [
+            "720"
+          ],
+          "og:image:width": [
+            "720"
+          ],
+          "og:title": [
+            "Fragment de dronă, găsit pe plaja de la Corbu / Nu avea încărcătură explozivă - Financial Intelligence"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "R04"
+      ],
+      "status": 200,
+      "url": "https://financialintelligence.ro/fragment-de-drona-gasit-pe-plaja-de-la-corbu-nu-avea-incarcatura-exploziva-fiind-neutralizat-la-fata-locului/"
+    },
+    "https://focuspress.ro/alerta-la-constanta-resturi-de-drona-gasite-in-mai-multe-zone-inclusiv-la-corbu-si-mamaia-nord-49ab7a5ed/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://focuspress.ro/alerta-la-constanta-resturi-de-drona-gasite-in-mai-multe-zone-inclusiv-la-corbu-si-mamaia-nord-49ab7a5ed/",
+      "found": {
+        "featuredImage": [
+          "https://focuspress.ro/wp-content/uploads/2026/02/whatsapp-image-2026-02-12-at-13-14-33-750x536.jpeg"
+        ],
+        "meta": {
+          "og:image": [
+            "https://focuspress.ro/wp-content/uploads/2026/02/whatsapp-image-2026-02-12-at-13-14-33.jpeg"
+          ],
+          "og:image:alt": [
+            "ALERTĂ la CONSTANȚA! Resturi de DRONĂ găsite în MAI MULTE ZONE, inclusiv la Corbu și Mamaia Nord"
+          ],
+          "og:image:height": [
+            "1200"
+          ],
+          "og:image:secure_url": [
+            "https://focuspress.ro/wp-content/uploads/2026/02/whatsapp-image-2026-02-12-at-13-14-33.jpeg"
+          ],
+          "og:image:width": [
+            "1600"
+          ],
+          "og:title": [
+            "ALERTĂ la CONSTANȚA! Resturi de DRONĂ găsite în MAI MULTE ZONE, inclusiv la Corbu și Mamaia Nord | FocusPress"
+          ],
+          "twitter:image": [
+            "https://focuspress.ro/wp-content/uploads/2026/02/whatsapp-image-2026-02-12-at-13-14-33.jpeg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "R03"
+      ],
+      "status": 200,
+      "url": "https://focuspress.ro/alerta-la-constanta-resturi-de-drona-gasite-in-mai-multe-zone-inclusiv-la-corbu-si-mamaia-nord-49ab7a5ed/"
+    },
+    "https://hotnews.ro/drona-cazuta-in-judetul-tulcea-are-incarcatura-exploziva-va-fi-detonata-controlat-2229666": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://hotnews.ro/drona-cazuta-in-judetul-tulcea-are-incarcatura-exploziva-va-fi-detonata-controlat-2229666",
+      "found": {
+        "featuredImage": [
+          "https://hotnews.ro/wp-content/uploads/2026/04/Screenshot-2026-04-26-220620.png?w=1024"
+        ],
+        "meta": {
+          "og:image": [
+            "https://hotnews.ro/wp-content/uploads/2026/04/Screenshot-2026-04-26-220620.png"
+          ],
+          "og:image:alt": [
+            "Drona căzută în județul Tulcea avea încărcătură explozivă și a fost detonată controlat. VIDEO"
+          ],
+          "og:image:height": [
+            "1176"
+          ],
+          "og:image:secure_url": [
+            "https://hotnews.ro/wp-content/uploads/2026/04/Screenshot-2026-04-26-220620.png"
+          ],
+          "og:image:width": [
+            "1900"
+          ],
+          "og:title": [
+            "Drona căzută în județul Tulcea avea încărcătură explozivă și a fost detonată controlat. VIDEO - HotNews.ro"
+          ],
+          "twitter:image": [
+            "https://hotnews.ro/wp-content/uploads/2026/04/Screenshot-2026-04-26-220620.png"
+          ]
+        },
+        "videoTags": [
+          [
+            "https://hotnews.ro/wp-content/uploads/2026/04/WhatsApp-Video-2026-04-26-at-21.54.36.mp4",
+            ""
+          ]
+        ]
+      },
+      "outcome": "ok",
+      "sources": [
+        "S15"
+      ],
+      "status": 200,
+      "url": "https://hotnews.ro/drona-cazuta-in-judetul-tulcea-are-incarcatura-exploziva-va-fi-detonata-controlat-2229666"
+    },
+    "https://hotnews.ro/o-noua-alerta-de-drone-in-judetul-tulcea-doua-aeronave-f-16-au-fost-trimise-in-misiune-2315367": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://hotnews.ro/o-noua-alerta-de-drone-in-judetul-tulcea-doua-aeronave-f-16-au-fost-trimise-in-misiune-2315367",
+      "found": {
+        "featuredImage": [
+          "https://hotnews.ro/wp-content/uploads/2026/07/ID182027-INQUAM-PHOTOS-GEORGE-CALIN.jpg?w=1024"
+        ],
+        "meta": {
+          "og:image": [
+            "https://hotnews.ro/wp-content/uploads/2026/07/ID182027-INQUAM-PHOTOS-GEORGE-CALIN.jpg"
+          ],
+          "og:image:alt": [
+            "Alertă aeriană la graniță, au fost ridicate două F-16 / Drona a fost doborâtă de ucraineni, resturi au picat și pe un câmp din țară"
+          ],
+          "og:image:height": [
+            "683"
+          ],
+          "og:image:secure_url": [
+            "https://hotnews.ro/wp-content/uploads/2026/07/ID182027-INQUAM-PHOTOS-GEORGE-CALIN.jpg"
+          ],
+          "og:image:width": [
+            "1024"
+          ],
+          "og:title": [
+            "Alertă aeriană la graniță, au fost ridicate două F-16 / Drona a fost doborâtă de ucraineni, resturi au picat și pe un câmp din țară - HotNews.ro"
+          ],
+          "twitter:image": [
+            "https://hotnews.ro/wp-content/uploads/2026/07/ID182027-INQUAM-PHOTOS-GEORGE-CALIN.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S33"
+      ],
+      "status": 200,
+      "url": "https://hotnews.ro/o-noua-alerta-de-drone-in-judetul-tulcea-doua-aeronave-f-16-au-fost-trimise-in-misiune-2315367"
+    },
+    "https://hotnews.ro/un-cioban-a-gasit-drona-prabusita-in-vaslui-si-i-a-scos-firele-inainte-sa-vina-politia-tiuia-se-aprindeau-becuri-2338694": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://hotnews.ro/un-cioban-a-gasit-drona-prabusita-in-vaslui-si-i-a-scos-firele-inainte-sa-vina-politia-tiuia-se-aprindeau-becuri-2338694",
+      "found": {
+        "featuredImage": [
+          "https://hotnews.ro/wp-content/uploads/2026/09/dorna-Vaslui.jpg?w=1024"
+        ],
+        "meta": {
+          "og:image": [
+            "https://hotnews.ro/wp-content/uploads/2026/09/dorna-Vaslui.jpg"
+          ],
+          "og:image:alt": [
+            "Drona prăbușită pe un câmp din județul Vaslui, 1 septembrie 2026. Foto: surse HotNews"
+          ],
+          "og:image:height": [
+            "843"
+          ],
+          "og:image:secure_url": [
+            "https://hotnews.ro/wp-content/uploads/2026/09/dorna-Vaslui.jpg"
+          ],
+          "og:image:width": [
+            "1193"
+          ],
+          "og:title": [
+            "Un cioban a găsit drona prăbușită în Vaslui și i-a scos firele înainte să vină poliția: „Țiuia, se aprindeau becuri” - HotNews.ro"
+          ],
+          "twitter:image": [
+            "https://hotnews.ro/wp-content/uploads/2026/09/dorna-Vaslui.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S54"
+      ],
+      "status": 200,
+      "url": "https://hotnews.ro/un-cioban-a-gasit-drona-prabusita-in-vaslui-si-i-a-scos-firele-inainte-sa-vina-politia-tiuia-se-aprindeau-becuri-2338694"
+    },
+    "https://hotnews.ro/video-momentul-cand-drona-ruseasca-cu-explozibil-cazuta-la-galati-este-detonata-2229056": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://hotnews.ro/video-momentul-cand-drona-ruseasca-cu-explozibil-cazuta-la-galati-este-detonata-2229056",
+      "found": {
+        "featuredImage": [
+          "https://hotnews.ro/wp-content/uploads/2026/04/drona_8b1628.png?w=1024"
+        ],
+        "meta": {
+          "og:image": [
+            "https://hotnews.ro/wp-content/uploads/2026/04/drona_8b1628.png"
+          ],
+          "og:image:alt": [
+            "VIDEO Momentul când drona rusească cu explozibil căzută la Galați este detonată"
+          ],
+          "og:image:height": [
+            "712"
+          ],
+          "og:image:secure_url": [
+            "https://hotnews.ro/wp-content/uploads/2026/04/drona_8b1628.png"
+          ],
+          "og:image:width": [
+            "1117"
+          ],
+          "og:title": [
+            "VIDEO Momentul când drona rusească cu explozibil căzută la Galați este detonată - HotNews.ro"
+          ],
+          "twitter:image": [
+            "https://hotnews.ro/wp-content/uploads/2026/04/drona_8b1628.png"
+          ]
+        },
+        "videoTags": [
+          [
+            "https://hotnews.ro/wp-content/uploads/2026/04/WhatsApp-Video-2026-04-25-at-14.36.31.mp4",
+            ""
+          ]
+        ]
+      },
+      "outcome": "ok",
+      "sources": [
+        "S14"
+      ],
+      "status": 200,
+      "url": "https://hotnews.ro/video-momentul-cand-drona-ruseasca-cu-explozibil-cazuta-la-galati-este-detonata-2229056"
+    },
+    "https://informat.ro/en/current-affairs/drone-destroyed-by-controlled-detonation-in-tulcea-134950": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://informat.ro/en/current-affairs/drone-destroyed-by-controlled-detonation-in-tulcea-134950",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://media-storage.informat.ro/6a80566c4af28_Screenshot 2026-08-15 150637.png"
+          ],
+          "og:title": [
+            "The drone discovered on Friday in Plauru, in Tulcea County, was neutralized on Saturday through a controlled detonation by the Ministry of National Defense."
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S87"
+      ],
+      "status": 200,
+      "url": "https://informat.ro/en/current-affairs/drone-destroyed-by-controlled-detonation-in-tulcea-134950"
+    },
+    "https://informat.ro/en/current-affairs/drone-fragment-discovered-at-costinesti-restricted-access-in-the-area-134794": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://informat.ro/en/current-affairs/drone-fragment-discovered-at-costinesti-restricted-access-in-the-area-134794",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://media-storage.informat.ro/6a7ec9eeef5d2_fragment drona costinesti.png"
+          ],
+          "og:title": [
+            "A new drone fragment, found on Friday in Costinești, near the area where a drone was discovered a day earlier. Access for tourists has been restricted."
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S89"
+      ],
+      "status": 200,
+      "url": "https://informat.ro/en/current-affairs/drone-fragment-discovered-at-costinesti-restricted-access-in-the-area-134794"
+    },
+    "https://informat.ro/en/current-affairs/drone-fragments-found-on-the-beaches-of-saturn-and-costinesti-134880": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://informat.ro/en/current-affairs/drone-fragments-found-on-the-beaches-of-saturn-and-costinesti-134880",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://media-storage.informat.ro/6a7f35009546a_shutterstock_1685562163 (1).jpg"
+          ],
+          "og:title": [
+            "Tourists from Saturn have discovered a fragment of a drone brought in by the waves, and the authorities have restricted access."
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S90"
+      ],
+      "status": 200,
+      "url": "https://informat.ro/en/current-affairs/drone-fragments-found-on-the-beaches-of-saturn-and-costinesti-134880"
+    },
+    "https://kaitseministeerium.ee/en/news/joint-statement-ministers-defence-baltic-countries-drone-incidents": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://kaitseministeerium.ee/en/news/joint-statement-ministers-defence-baltic-countries-drone-incidents",
+      "found": {
+        "imageSrc": [
+          "https://kaitseministeerium.ee/sites/default/files/styles/opengraph/public/imported/20260130174829-cb4aabac_0.jpg"
+        ],
+        "meta": {
+          "og:image": [
+            "https://kaitseministeerium.ee/sites/default/files/styles/opengraph/public/imported/20260130174829-cb4aabac_0.jpg"
+          ],
+          "og:image:height": [
+            "630"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "Joint statement by the Ministers of Defence of the Baltic countries on drone incidents"
+          ],
+          "twitter:image": [
+            "https://kaitseministeerium.ee/sites/default/files/styles/opengraph/public/imported/20260130174829-cb4aabac_0.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S10"
+      ],
+      "status": 200,
+      "url": "https://kaitseministeerium.ee/en/news/joint-statement-ministers-defence-baltic-countries-drone-incidents"
+    },
+    "https://newsukraine.rbc.ua/news/drone-explodes-after-crashing-into-lake-in-1779544681.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://newsukraine.rbc.ua/news/drone-explodes-after-crashing-into-lake-in-1779544681.html",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://newsukraine.rbc.ua/static/img/_/v/_vibuh_t_me_kyiv_n_c21b787dc12c61996e575745cadae940_1300x820_a1f65ae9996936243d3e12d6d802306a_650x410.jpg"
+          ],
+          "og:title": [
+            "Drone explodes after crashing into lake in eastern Latvia"
+          ],
+          "twitter:image:src": [
+            "https://newsukraine.rbc.ua/static/img/_/v/_vibuh_t_me_kyiv_n_c21b787dc12c61996e575745cadae940_1300x820_a1f65ae9996936243d3e12d6d802306a_650x410.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S65"
+      ],
+      "status": 200,
+      "url": "https://newsukraine.rbc.ua/news/drone-explodes-after-crashing-into-lake-in-1779544681.html"
+    },
+    "https://newsukraine.rbc.ua/news/romania-finds-debris-from-fourth-drone-in-1786737796.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://newsukraine.rbc.ua/news/romania-finds-debris-from-fourth-drone-in-1786737796.html",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://newsukraine.rbc.ua/static/img/6/5/659080079_1242063091429963_8075015334412150495_n_487907e4b0f1920f8846e3c9bbe3e52d_1300x820_3bfeea56685a0ed54937428034cf72dc_650x410.jpg"
+          ],
+          "og:title": [
+            "Romania finds debris from fourth drone in a single day"
+          ],
+          "twitter:image:src": [
+            "https://newsukraine.rbc.ua/static/img/6/5/659080079_1242063091429963_8075015334412150495_n_487907e4b0f1920f8846e3c9bbe3e52d_1300x820_3bfeea56685a0ed54937428034cf72dc_650x410.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S85"
+      ],
+      "status": 200,
+      "url": "https://newsukraine.rbc.ua/news/romania-finds-debris-from-fourth-drone-in-1786737796.html"
+    },
+    "https://newsweek.ro/actualitate/o-drona-ruseasca-intrat-spatiul-aerian-romaniei-doua-avioane-f-16-fost-ridicate-baza-fetesti": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://newsweek.ro/actualitate/o-drona-ruseasca-intrat-spatiul-aerian-romaniei-doua-avioane-f-16-fost-ridicate-baza-fetesti",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://newsweek.ro/resize/-B4vC1lU8k2TYdemQfmPMdHGh8jWdo1Imit2XaNMug8/rs:fill:1200:630:1/g:ce/aHR0cHM6Ly9uZXdzd2Vlay5yby9zdG9yYWdlL211bHRpbWVkaWEvMjAyNi8wMi9vOXV6Z09zT3dPdGZkNEUzS1JDMVpmaHRTbXVESEVERVhEQTFqV0tqLmpwZw.webp"
+          ],
+          "og:image:height": [
+            "630"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "O dronă rusească a intrat în spaţiul aerian al României. Două avioane F-16 au fost ridicate de la Baza Feteşti • Newsweek România"
+          ],
+          "twitter:image": [
+            "https://newsweek.ro/resize/-B4vC1lU8k2TYdemQfmPMdHGh8jWdo1Imit2XaNMug8/rs:fill:1200:630:1/g:ce/aHR0cHM6Ly9uZXdzd2Vlay5yby9zdG9yYWdlL211bHRpbWVkaWEvMjAyNi8wMi9vOXV6Z09zT3dPdGZkNEUzS1JDMVpmaHRTbXVESEVERVhEQTFqV0tqLmpwZw.webp"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S02"
+      ],
+      "status": 200,
+      "url": "https://newsweek.ro/actualitate/o-drona-ruseasca-intrat-spatiul-aerian-romaniei-doua-avioane-f-16-fost-ridicate-baza-fetesti"
+    },
+    "https://observatornews.ro/eveniment/fragmente-de-drone-unele-cu-incarcatura-exploziva-gasite-pe-litoral-reactia-mapn-665968.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://observatornews.ro/eveniment/fragmente-de-drone-unele-cu-incarcatura-exploziva-gasite-pe-litoral-reactia-mapn-665968.html",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://img.observatornews.ro/?u=https%3A%2F%2Fobservatornews.ro%2Fuploads%2Fmodules%2Fnews%2F0%2F2026%2F9%2F11%2F665968%2Fdrone-c95a6b50.jpg&w=1200&h=630&c=1"
+          ],
+          "og:image:height": [
+            "630"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "Fragmente de drone, unele cu încărcătură explozivă, găsite pe litoral. Reacţia MApN"
+          ],
+          "twitter:image": [
+            "https://img.observatornews.ro/?u=https%3A%2F%2Fobservatornews.ro%2Fuploads%2Fmodules%2Fnews%2F0%2F2026%2F9%2F11%2F665968%2Fdrone-c95a6b50.jpg&w=1200&h=630&c=1"
+          ],
+          "twitter:image:alt": [
+            "Fragmente de drone, unele cu încărcătură explozivă, găsite pe litoral. Reacţia MApN"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "R06"
+      ],
+      "status": 200,
+      "url": "https://observatornews.ro/eveniment/fragmente-de-drone-unele-cu-incarcatura-exploziva-gasite-pe-litoral-reactia-mapn-665968.html"
+    },
+    "https://offnews.bg/112/dron-izpluva-kraj-nos-kaliakra-874215.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://offnews.bg/112/dron-izpluva-kraj-nos-kaliakra-874215.html",
+      "found": {
+        "imageSrc": [
+          "https://i2.offnews.bg/events/2026/09/07/874215/phpjwfscd.jpg"
+        ],
+        "meta": {
+          "og:image": [
+            "https://i2.offnews.bg/events/2026/09/07/874215/phpjwfscd.jpg"
+          ],
+          "og:image:height": [
+            "533"
+          ],
+          "og:image:secure_url": [
+            "https://i2.offnews.bg/events/2026/09/07/874215/phpjwfscd.jpg"
+          ],
+          "og:image:width": [
+            "800"
+          ],
+          "og:title": [
+            "Дрон изплува край нос Калиакра — OFFNews"
+          ],
+          "twitter:image:src": [
+            "https://i2.offnews.bg/events/2026/09/07/874215/phpjwfscd.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "B05"
+      ],
+      "status": 200,
+      "url": "https://offnews.bg/112/dron-izpluva-kraj-nos-kaliakra-874215.html"
+    },
+    "https://petel.bg/m/667593": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://petel.bg/m/667593",
+      "found": {
+        "imageSrc": [
+          "https://static.petel.bg/resources/2026/09/04/medium_lo.png"
+        ],
+        "meta": {
+          "og:image": [
+            "https://static.petel.bg/resources/2026/09/04/medium_lo.png"
+          ],
+          "og:title": [
+            "Petel.bg - ВМС реагираха на шест сигнала за дронове и обекти по Черноморието | Petel.bg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "B02"
+      ],
+      "status": 200,
+      "url": "https://petel.bg/m/667593"
+    },
+    "https://sofiaglobe.com/2026/08/14/bulgarian-navy-responds-to-three-reports-of-drone-and-drone-parts-spotted-along-the-coast/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://sofiaglobe.com/2026/08/14/bulgarian-navy-responds-to-three-reports-of-drone-and-drone-parts-spotted-along-the-coast/",
+      "found": {
+        "featuredImage": [
+          "https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-800x445.jpg"
+        ],
+        "meta": {
+          "og:image": [
+            "https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day.jpg"
+          ],
+          "og:image:height": [
+            "626"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "Bulgarian Navy responds to three reports of drone and drone parts spotted along the coast"
+          ],
+          "twitter:image": [
+            "https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day.jpg?w=640"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S82"
+      ],
+      "status": 200,
+      "url": "https://sofiaglobe.com/2026/08/14/bulgarian-navy-responds-to-three-reports-of-drone-and-drone-parts-spotted-along-the-coast/"
+    },
+    "https://sofiaglobe.com/2026/08/26/drone-washes-up-on-cabacum-beach-near-bulgarias-varna/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://sofiaglobe.com/2026/08/26/drone-washes-up-on-cabacum-beach-near-bulgarias-varna/",
+      "found": {
+        "featuredImage": [
+          "https://sofiaglobe.com/wp-content/uploads/2026/08/varna-drone-crop-800x445.jpg"
+        ],
+        "meta": {
+          "og:image": [
+            "https://sofiaglobe.com/wp-content/uploads/2026/08/varna-drone-crop.jpg"
+          ],
+          "og:image:height": [
+            "624"
+          ],
+          "og:image:width": [
+            "1244"
+          ],
+          "og:title": [
+            "Several drones wash up along Bulgaria’s Black Sea"
+          ],
+          "twitter:image": [
+            "https://sofiaglobe.com/wp-content/uploads/2026/08/varna-drone-crop.jpg?w=640"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S93"
+      ],
+      "status": 200,
+      "url": "https://sofiaglobe.com/2026/08/26/drone-washes-up-on-cabacum-beach-near-bulgarias-varna/"
+    },
+    "https://sofiaglobe.com/2026/08/27/more-drone-incidents-along-bulgarias-black-sea-coast/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://sofiaglobe.com/2026/08/27/more-drone-incidents-along-bulgarias-black-sea-coast/",
+      "found": {
+        "featuredImage": [
+          "https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-august-27-800x445.jpg"
+        ],
+        "meta": {
+          "og:image": [
+            "https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-august-27.jpg"
+          ],
+          "og:image:height": [
+            "624"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "More drones, drone parts found along Bulgaria’s Black Sea coast"
+          ],
+          "twitter:image": [
+            "https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-august-27.jpg?w=640"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S78"
+      ],
+      "status": 200,
+      "url": "https://sofiaglobe.com/2026/08/27/more-drone-incidents-along-bulgarias-black-sea-coast/"
+    },
+    "https://sofiaglobe.com/2026/08/28/bulgarian-navy-destroys-drone-found-near-sveti-ivan-island/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://sofiaglobe.com/2026/08/28/bulgarian-navy-destroys-drone-found-near-sveti-ivan-island/",
+      "found": {
+        "featuredImage": [
+          "https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-august-28-800x445.jpg"
+        ],
+        "meta": {
+          "og:image": [
+            "https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-august-28.jpg"
+          ],
+          "og:image:height": [
+            "623"
+          ],
+          "og:image:width": [
+            "1202"
+          ],
+          "og:title": [
+            "Bulgarian Navy destroys drone found near Sveti Ivan island"
+          ],
+          "twitter:image": [
+            "https://sofiaglobe.com/wp-content/uploads/2026/08/drone-of-the-day-august-28.jpg?w=640"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S79"
+      ],
+      "status": 200,
+      "url": "https://sofiaglobe.com/2026/08/28/bulgarian-navy-destroys-drone-found-near-sveti-ivan-island/"
+    },
+    "https://sofiaglobe.com/2026/09/03/bulgarian-navy-responds-to-several-more-drone-incidents/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://sofiaglobe.com/2026/09/03/bulgarian-navy-responds-to-several-more-drone-incidents/",
+      "found": {
+        "featuredImage": [
+          "https://sofiaglobe.com/wp-content/uploads/2026/09/drone-800x445.jpg"
+        ],
+        "meta": {
+          "og:image": [
+            "https://sofiaglobe.com/wp-content/uploads/2026/09/drone.jpg"
+          ],
+          "og:image:height": [
+            "623"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "Bulgarian Navy responds to several more drone incidents"
+          ],
+          "twitter:image": [
+            "https://sofiaglobe.com/wp-content/uploads/2026/09/drone.jpg?w=640"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "B01"
+      ],
+      "status": 200,
+      "url": "https://sofiaglobe.com/2026/09/03/bulgarian-navy-responds-to-several-more-drone-incidents/"
+    },
+    "https://tvrinfo.ro/mapn-explica-de-ce-cele-doua-avioane-eurofighter-typhoon-ridicate-de-la-sol-n-au-putut-trage-in-drona-cazuta-in-galati/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://tvrinfo.ro/mapn-explica-de-ce-cele-doua-avioane-eurofighter-typhoon-ridicate-de-la-sol-n-au-putut-trage-in-drona-cazuta-in-galati/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://tvrinfo.ro/wp-content/uploads/2025/10/profimedia-0958642355.jpg"
+          ],
+          "og:image:alt": [
+            "MApN explică de ce cele două avioane Eurofighter Typhoon ridicate de la sol n-au putut trage în drona căzută în Galați"
+          ],
+          "og:image:height": [
+            "1199"
+          ],
+          "og:image:secure_url": [
+            "https://tvrinfo.ro/wp-content/uploads/2025/10/profimedia-0958642355.jpg"
+          ],
+          "og:image:width": [
+            "1800"
+          ],
+          "og:title": [
+            "MApN explică de ce cele două avioane Eurofighter Typhoon ridicate de la sol n-au putut trage în drona căzută în Galați - tvrinfo.ro"
+          ],
+          "twitter:image": [
+            "https://tvrinfo.ro/wp-content/uploads/2025/10/profimedia-0958642355.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S13"
+      ],
+      "status": 200,
+      "url": "https://tvrinfo.ro/mapn-explica-de-ce-cele-doua-avioane-eurofighter-typhoon-ridicate-de-la-sol-n-au-putut-trage-in-drona-cazuta-in-galati/"
+    },
+    "https://tvrinfo.ro/vaslui-drona-cu-incarcatura-exploziva-cazuta-pe-un-teren-la-viisoara-cel-care-a-gasit-o-a-riscat-enorm/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://tvrinfo.ro/vaslui-drona-cu-incarcatura-exploziva-cazuta-pe-un-teren-la-viisoara-cel-care-a-gasit-o-a-riscat-enorm/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://tvrinfo.ro/wp-content/uploads/2026/07/drona-doborata-in-spatiul-aerian-e1784965134268.jpg"
+          ],
+          "og:image:alt": [
+            "Vaslui: Dronă cu încărcătură explozivă, căzută pe un teren, la Viişoara. Cel care a găsit-o a riscat enorm"
+          ],
+          "og:image:height": [
+            "370"
+          ],
+          "og:image:secure_url": [
+            "https://tvrinfo.ro/wp-content/uploads/2026/07/drona-doborata-in-spatiul-aerian-e1784965134268.jpg"
+          ],
+          "og:image:width": [
+            "616"
+          ],
+          "og:title": [
+            "Vaslui: Dronă cu încărcătură explozivă, căzută pe un teren, la Viişoara. Cel care a găsit-o a riscat enorm - tvrinfo.ro"
+          ],
+          "twitter:image": [
+            "https://tvrinfo.ro/wp-content/uploads/2026/07/drona-doborata-in-spatiul-aerian-e1784965134268.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S55"
+      ],
+      "status": 200,
+      "url": "https://tvrinfo.ro/vaslui-drona-cu-incarcatura-exploziva-cazuta-pe-un-teren-la-viisoara-cel-care-a-gasit-o-a-riscat-enorm/"
+    },
+    "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-vsat-pareigunai-nutupde-cigaretes-skraidinusi-kontrabandininku-drona-foto-video-Bs2/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-vsat-pareigunai-nutupde-cigaretes-skraidinusi-kontrabandininku-drona-foto-video-Bs2/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://vsat.lrv.lt/media/viesa/saugykla/2026/1/oeS3tCWjmgw.jpeg"
+          ],
+          "og:title": [
+            "Baltarusijos pasienyje VSAT pareigūnai nutupdė cigaretes skraidinusį kontrabandininkų droną (foto, video)"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "L01"
+      ],
+      "status": 200,
+      "url": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-vsat-pareigunai-nutupde-cigaretes-skraidinusi-kontrabandininku-drona-foto-video-Bs2/"
+    },
+    "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-vsat-pareigunai-pereme-kontrabandininku-drona-su-kroviniu-foto-P2j/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-vsat-pareigunai-pereme-kontrabandininku-drona-su-kroviniu-foto-P2j/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://vsat.lrv.lt/media/viesa/saugykla/2026/9/o3ogt0Iy7sM.jpg"
+          ],
+          "og:title": [
+            "Baltarusijos pasienyje VSAT pareigūnai perėmė kontrabandininkų droną su kroviniu (foto)"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "L06"
+      ],
+      "status": 200,
+      "url": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-vsat-pareigunai-pereme-kontrabandininku-drona-su-kroviniu-foto-P2j/"
+    },
+    "https://vsat.lrv.lt/lt/naujienos/juodoji-rinka-prarado-1-000-pakeliu-cigareciu-ir-juos-gabenusi-kontrabandininku-drona-foto-bSR/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://vsat.lrv.lt/lt/naujienos/juodoji-rinka-prarado-1-000-pakeliu-cigareciu-ir-juos-gabenusi-kontrabandininku-drona-foto-bSR/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://vsat.lrv.lt/media/viesa/saugykla/2026/9/qTTKS6xT1eE.jpg"
+          ],
+          "og:title": [
+            "Juodoji rinka prarado 1 000 pakelių cigarečių ir juos gabenusį kontrabandininkų droną (foto)"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "L08"
+      ],
+      "status": 200,
+      "url": "https://vsat.lrv.lt/lt/naujienos/juodoji-rinka-prarado-1-000-pakeliu-cigareciu-ir-juos-gabenusi-kontrabandininku-drona-foto-bSR/"
+    },
+    "https://vsat.lrv.lt/lt/naujienos/pasienieciai-pereme-dar-viena-is-baltarusijos-rukalus-skraidinusi-drona-video-foto-wTh/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://vsat.lrv.lt/lt/naujienos/pasienieciai-pereme-dar-viena-is-baltarusijos-rukalus-skraidinusi-drona-video-foto-wTh/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://vsat.lrv.lt/media/viesa/saugykla/2026/4/Am3tl7ekpgU.jpg"
+          ],
+          "og:title": [
+            "Pasieniečiai perėmė dar vieną iš Baltarusijos rūkalus skraidinusį droną (video, foto)"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "L03"
+      ],
+      "status": 200,
+      "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciai-pereme-dar-viena-is-baltarusijos-rukalus-skraidinusi-drona-video-foto-wTh/"
+    },
+    "https://vsat.lrv.lt/lt/naujienos/pasienieciams-panaudojus-antidrona-kontrabandininku-skraidykle-su-kroviniu-teskesi-i-zeme-foto-uPP/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://vsat.lrv.lt/lt/naujienos/pasienieciams-panaudojus-antidrona-kontrabandininku-skraidykle-su-kroviniu-teskesi-i-zeme-foto-uPP/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://vsat.lrv.lt/media/viesa/saugykla/2026/5/AGbEXn7QYik.jpg"
+          ],
+          "og:title": [
+            "Pasieniečiams panaudojus antidroną, kontrabandininkų skraidyklė su kroviniu tėškėsi į žemę (foto)"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "L04"
+      ],
+      "status": 200,
+      "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciams-panaudojus-antidrona-kontrabandininku-skraidykle-su-kroviniu-teskesi-i-zeme-foto-uPP/"
+    },
+    "https://vsat.lrv.lt/lt/naujienos/pasienieciu-nutupdytas-dronas-uzsidege-bet-baltarusiskos-cigaretes-isliko-foto-QXq/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://vsat.lrv.lt/lt/naujienos/pasienieciu-nutupdytas-dronas-uzsidege-bet-baltarusiskos-cigaretes-isliko-foto-QXq/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://vsat.lrv.lt/media/viesa/saugykla/2026/9/TnjgT39Ov-g.jpg"
+          ],
+          "og:title": [
+            "Pasieniečių nutupdytas dronas užsidegė, bet baltarusiškos cigaretės išliko (foto)"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "L09"
+      ],
+      "status": 200,
+      "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciu-nutupdytas-dronas-uzsidege-bet-baltarusiskos-cigaretes-isliko-foto-QXq/"
+    },
+    "https://vsat.lrv.lt/lt/naujienos/pasienyje-su-baltarusija-avarija-patyre-kontrabandininku-dronas-gabenes-cigaretes-foto-J9M/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://vsat.lrv.lt/lt/naujienos/pasienyje-su-baltarusija-avarija-patyre-kontrabandininku-dronas-gabenes-cigaretes-foto-J9M/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://vsat.lrv.lt/media/viesa/saugykla/2026/9/JJ6hlwq47zI.jpg"
+          ],
+          "og:title": [
+            "Pasienyje su Baltarusija „avariją“ patyrė kontrabandininkų dronas, gabenęs cigaretes (foto)"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "L07"
+      ],
+      "status": 200,
+      "url": "https://vsat.lrv.lt/lt/naujienos/pasienyje-su-baltarusija-avarija-patyre-kontrabandininku-dronas-gabenes-cigaretes-foto-J9M/"
+    },
+    "https://vsat.lrv.lt/lt/naujienos/uredui-padedant-pasienieciai-is-pusies-virsunes-iskele-nutupdyta-drona-su-baltarusiskomis-cigaretemis-foto-cgH/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://vsat.lrv.lt/lt/naujienos/uredui-padedant-pasienieciai-is-pusies-virsunes-iskele-nutupdyta-drona-su-baltarusiskomis-cigaretemis-foto-cgH/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://vsat.lrv.lt/media/viesa/saugykla/2026/2/P307uq7cC_8.jpg"
+          ],
+          "og:title": [
+            "Urėdui padedant, pasieniečiai iš pušies viršūnės iškėlė nutupdytą droną su baltarusiškomis cigaretėmis (foto)"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "L02"
+      ],
+      "status": 200,
+      "url": "https://vsat.lrv.lt/lt/naujienos/uredui-padedant-pasienieciai-is-pusies-virsunes-iskele-nutupdyta-drona-su-baltarusiskomis-cigaretemis-foto-cgH/"
+    },
+    "https://www.antena3.ro/actualitate/o-drona-care-a-intrat-in-spatiul-aerian-al-romaniei-a-fost-doborata-de-un-avion-nato-in-apropiere-de-galati-799614.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.antena3.ro/actualitate/o-drona-care-a-intrat-in-spatiul-aerian-al-romaniei-a-fost-doborata-de-un-avion-nato-in-apropiere-de-galati-799614.html",
+      "found": {
+        "ldVideos": [
+          {
+            "embedUrl": [
+              "https://amp.antena3.ro/guid.php?id=227964"
+            ],
+            "name": [
+              "VIDEO - NATO publică imagini cu drona de la Galați văzută prin sistemul de ochire al avionului F-18. Purtător de cuvânt: „Pare să fie rusească”"
+            ],
+            "thumbnailUrl": [
+              "https://www.antena3.ro/thumbs/big3/2026/08/16/o-drona-care-a-intrat-in-spatiul-aerian-al-romaniei-a-fost-doborata-de-un-avion-nato-in-apropiere-de-galati-1093651.jpg"
+            ]
+          }
+        ],
+        "meta": {
+          "og:image": [
+            "https://www.antena3.ro/thumbs/amp/2026/08/16/o-drona-care-a-intrat-in-spatiul-aerian-al-romaniei-a-fost-doborata-de-un-avion-nato-in-apropiere-de-galati-1093651.webp"
+          ],
+          "og:image:height": [
+            "675"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "NATO publică imagini cu drona de la Galați văzută prin sistemul de ochire al avionului F-18. Purtător de cuvânt: „Pare să fie rusească”"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S43"
+      ],
+      "status": 200,
+      "url": "https://www.antena3.ro/actualitate/o-drona-care-a-intrat-in-spatiul-aerian-al-romaniei-a-fost-doborata-de-un-avion-nato-in-apropiere-de-galati-799614.html"
+    },
+    "https://www.aol.com/articles/drone-incursions-sow-fear-chaos-060621000.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.aol.com/articles/drone-incursions-sow-fear-chaos-060621000.html",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://hermes.media.transform.aol.com/c6acafc957849dc7a762a334ca05d168c9f0719b/w_1200,c_scale,f_auto,q_auto/https://hermes.media.static.aol.com/media/2026/08/14/4d88fd9c-f598-3657-b157-4b2acfac785d/783c7f84-71f3-4048-a89b-c460e4534d72.jpg"
+          ],
+          "og:image:height": [
+            "801"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "Drone incursions sow fear and chaos along NATO's Baltic and Finnish borders - AOL"
+          ],
+          "twitter:image": [
+            "https://hermes.media.transform.aol.com/c6acafc957849dc7a762a334ca05d168c9f0719b/w_1200,c_scale,f_auto,q_auto/https://hermes.media.static.aol.com/media/2026/08/14/4d88fd9c-f598-3657-b157-4b2acfac785d/783c7f84-71f3-4048-a89b-c460e4534d72.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S63"
+      ],
+      "status": 200,
+      "url": "https://www.aol.com/articles/drone-incursions-sow-fear-chaos-060621000.html"
+    },
+    "https://www.aol.com/articles/greek-f-16s-intercept-turkish-133414000.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.aol.com/articles/greek-f-16s-intercept-turkish-133414000.html",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://hermes.media.transform.aol.com/5755c27e9b52d326307e20310808897e6f6cc2c7/w_1200,c_scale,f_auto,q_auto/https://hermes.media.static.aol.com/media/2026/08/28/31aa25db-c5e9-324a-9601-57386b25b3b3/e9490a74-59a2-4e16-a6ae-e8f752728cf9.jpg"
+          ],
+          "og:image:height": [
+            "675"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "Greek F-16s intercept Turkish drone over northern Aegean - AOL"
+          ],
+          "twitter:image": [
+            "https://hermes.media.transform.aol.com/5755c27e9b52d326307e20310808897e6f6cc2c7/w_1200,c_scale,f_auto,q_auto/https://hermes.media.static.aol.com/media/2026/08/28/31aa25db-c5e9-324a-9601-57386b25b3b3/e9490a74-59a2-4e16-a6ae-e8f752728cf9.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "G0828A"
+      ],
+      "status": 200,
+      "url": "https://www.aol.com/articles/greek-f-16s-intercept-turkish-133414000.html"
+    },
+    "https://www.aol.com/articles/russia-calls-germanys-leipzig-drone-190315000.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.aol.com/articles/russia-calls-germanys-leipzig-drone-190315000.html",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://hermes.media.transform.aol.com/9a61f24ba06c8f33bf58e898cd8b8df1ed05d8a7/w_1200,c_scale,f_auto,q_auto/https://hermes.media.static.aol.com/media/2026/09/01/dc78bd2a-b53b-326f-b1b1-52402748bf69/ef993b0f-3b3a-4af9-8bed-aea9c92ae279.jpg"
+          ],
+          "og:image:height": [
+            "800"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "Russia calls Germany's Leipzig drone attack claims false and an unprecedented escalation - AOL"
+          ],
+          "twitter:image": [
+            "https://hermes.media.transform.aol.com/9a61f24ba06c8f33bf58e898cd8b8df1ed05d8a7/w_1200,c_scale,f_auto,q_auto/https://hermes.media.static.aol.com/media/2026/09/01/dc78bd2a-b53b-326f-b1b1-52402748bf69/ef993b0f-3b3a-4af9-8bed-aea9c92ae279.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S67"
+      ],
+      "status": 200,
+      "url": "https://www.aol.com/articles/russia-calls-germanys-leipzig-drone-190315000.html"
+    },
+    "https://www.bta.bg/en/news/1192677-bulgarian-navy-retrieves-debris-of-unmanned-aerial-vehicles-from-black-sea-beac": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.bta.bg/en/news/1192677-bulgarian-navy-retrieves-debris-of-unmanned-aerial-vehicles-from-black-sea-beac",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.bta.bg/upload/13799522/K-2.jpg?l=750"
+          ],
+          "og:title": [
+            "Bulgarian Navy Retrieves Debris of Unmanned Aerial Vehicles from Black Sea, Beaches"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S77"
+      ],
+      "status": 200,
+      "url": "https://www.bta.bg/en/news/1192677-bulgarian-navy-retrieves-debris-of-unmanned-aerial-vehicles-from-black-sea-beac"
+    },
+    "https://www.bta.bg/en/news/1194192-bulgarian-navy-carries-out-reconnaissance-transport-of-objects-found-at-sea": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.bta.bg/en/news/1194192-bulgarian-navy-carries-out-reconnaissance-transport-of-objects-found-at-sea",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.bta.bg/upload/13806146/%D0%B4%D1%80%D0%BE%D0%BD+%D0%A8%D0%B0%D0%B1%D0%BB%D0%B0.jpg?l=750"
+          ],
+          "og:title": [
+            "Bulgarian Navy Carries Out Reconnaissance, Transport of Objects Found at Sea"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S80"
+      ],
+      "status": 200,
+      "url": "https://www.bta.bg/en/news/1194192-bulgarian-navy-carries-out-reconnaissance-transport-of-objects-found-at-sea"
+    },
+    "https://www.bta.bg/en/news/bulgaria/1192191-bulgarian-navy-destroys-unmanned-aerial-vehicles-in-the-black-sea-region": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.bta.bg/en/news/bulgaria/1192191-bulgarian-navy-destroys-unmanned-aerial-vehicles-in-the-black-sea-region",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.bta.bg/upload/13797962/1000089613.jpg?l=750"
+          ],
+          "og:title": [
+            "Bulgarian Navy Destroys Unmanned Aerial Vehicles in the Black Sea Region"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S76"
+      ],
+      "status": 200,
+      "url": "https://www.bta.bg/en/news/bulgaria/1192191-bulgarian-navy-destroys-unmanned-aerial-vehicles-in-the-black-sea-region"
+    },
+    "https://www.bta.bg/en/news/bulgaria/1192407-all-drones-along-black-sea-coast-were-unarmed-defence-minister-says": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.bta.bg/en/news/bulgaria/1192407-all-drones-along-black-sea-coast-were-unarmed-defence-minister-says",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.bta.bg/upload/13798697/MIL_7758.jpg?l=750"
+          ],
+          "og:title": [
+            "All Drones Along Black Sea Coast Were Unarmed, Defence Minister Says"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S81"
+      ],
+      "status": 200,
+      "url": "https://www.bta.bg/en/news/bulgaria/1192407-all-drones-along-black-sea-coast-were-unarmed-defence-minister-says"
+    },
+    "https://www.ct100.ro/ce-spune-armata-despre-drona-marina-gasita-in-costinesti/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.ct100.ro/ce-spune-armata-despre-drona-gasita-in-costinesti/",
+      "found": {
+        "featuredImage": [
+          "https://www.ct100.ro/wp-content/uploads/2026/08/ovine-oi-700x467.webp"
+        ],
+        "iframes": [
+          "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F4483232191960022%2F&show_text=true&width=215&t=0",
+          "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F2616307388784024%2F&show_text=true&width=219&t=0"
+        ],
+        "meta": {
+          "og:image": [
+            "https://www.ct100.ro/wp-content/uploads/2026/08/drona-din-costinesti.webp"
+          ],
+          "og:image:height": [
+            "1600"
+          ],
+          "og:image:width": [
+            "887"
+          ],
+          "og:title": [
+            "Ce spune armata despre drona găsită în Costinești - CT100.ro"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S92"
+      ],
+      "status": 200,
+      "url": "https://www.ct100.ro/ce-spune-armata-despre-drona-marina-gasita-in-costinesti/"
+    },
+    "https://www.digi24.ro/stiri/actualitate/inca-o-nava-aflata-in-zona-economica-exclusiva-a-romaniei-a-transmis-un-apel-de-urgenta-dsu-posibil-impact-cu-o-drona-sau-mina-marina-3876501": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.digi24.ro/stiri/actualitate/inca-o-nava-aflata-in-zona-economica-exclusiva-a-romaniei-a-transmis-un-apel-de-urgenta-dsu-posibil-impact-cu-o-drona-sau-mina-marina-3876501",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjI0JTJGMjg2NjE0NV8yODY2/MTQ1X25hdmEtTU4uanBnJnc9MTIwMCZo/PTYzMCZ6Yz0xJmhhc2g9YWFmMjY1N2ViNTFmMjY4YWMyYzI3MTQ5MmJmMTM0YzA=.thumb.jpg"
+          ],
+          "og:image:height": [
+            "630"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "Încă o navă aflată în Zona Economică Exclusivă a României a transmis un apel de urgență. Instrucțiunile transmise de armatorul vasului"
+          ],
+          "twitter:image": [
+            "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjI0JTJGMjg2NjE0NV8yODY2/MTQ1X25hdmEtTU4uanBnJnc9MTIwMCZo/PTYzMCZ6Yz0xJmhhc2g9YWFmMjY1N2ViNTFmMjY4YWMyYzI3MTQ5MmJmMTM0YzA=.thumb.jpg"
+          ],
+          "twitter:image:alt": [
+            "Două nave și un elicopter au intervenit pentru evaluarea situației navei Christiana B, aflată în pericol în apropiere de Sfântu Gheorghe, în Marea Neagră.. Sursă foto: DSU"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S58"
+      ],
+      "status": 200,
+      "url": "https://www.digi24.ro/stiri/actualitate/inca-o-nava-aflata-in-zona-economica-exclusiva-a-romaniei-a-transmis-un-apel-de-urgenta-dsu-posibil-impact-cu-o-drona-sau-mina-marina-3876501"
+    },
+    "https://www.digi24.ro/stiri/actualitate/momentul-in-care-drona-gasita-la-tuzla-este-detonata-mapn-a-confirmat-ca-avea-incarcatura-exploziva-3917085": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.digi24.ro/stiri/actualitate/momentul-in-care-drona-gasita-la-tuzla-este-detonata-mapn-a-confirmat-ca-avea-incarcatura-exploziva-3917085",
+      "found": {
+        "ldVideos": [
+          {
+            "contentUrl": [
+              "https://v3.iw.ro/video/v/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOCUyRjIyJTJGMjkyMDgwNV8yOTIw/ODA1X2ltZy1kcm9uYS5tcDQmaGFzaD01/NDEzYjViN2U4MzZlOTY0OWUxODg4NzNmYjE5MjZlOA==.mp4"
+            ],
+            "name": [
+              "Momentul în care drona găsită la Tuzla este detonată. MApN a confirmat că avea încărcătură explozivă"
+            ],
+            "thumbnailUrl": [
+              "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOCUyRjIyJTJGMjkyMDgwNV8yOTIw/ODA1X2ltZy1kcm9uYS5tcDQuc25hcHNo/b3QuMS5qcGcmaGFzaD0xODJjZTAzYWYxZmZlZjVhOTk3NWY5YWY1MGY4Y2Q0Mg==.mp4.snapshot.1.jpg"
+            ]
+          }
+        ],
+        "meta": {
+          "og:image": [
+            "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOCUyRjIyJTJGMjkyMDgyNV8yOTIw/ODI1X04xNy1OT1VBLURFVE9OQVJFLURS/T05BLVRVWkxBLUFNQl8wMDE0My5qcGcm/dz0xMjAwJmg9NjMwJnpjPTEmaGFzaD05/MWNjNGU1MTE0MmZjOTk3YmYzMjc3MjFmMDg1MDJlYw==.thumb.jpg"
+          ],
+          "og:image:height": [
+            "630"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "Momentul în care drona găsită la Tuzla este detonată. MApN a confirmat că avea încărcătură explozivă"
+          ],
+          "twitter:image": [
+            "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOCUyRjIyJTJGMjkyMDgyNV8yOTIw/ODI1X04xNy1OT1VBLURFVE9OQVJFLURS/T05BLVRVWkxBLUFNQl8wMDE0My5qcGcm/dz0xMjAwJmg9NjMwJnpjPTEmaGFzaD05/MWNjNGU1MTE0MmZjOTk3YmYzMjc3MjFmMDg1MDJlYw==.thumb.jpg"
+          ],
+          "twitter:image:alt": [
+            "Foto: Captură video Digi24"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S56"
+      ],
+      "status": 200,
+      "url": "https://www.digi24.ro/stiri/actualitate/momentul-in-care-drona-gasita-la-tuzla-este-detonata-mapn-a-confirmat-ca-avea-incarcatura-exploziva-3917085"
+    },
+    "https://www.digi24.ro/stiri/actualitate/o-drona-a-cazut-in-judetul-suceava-aproape-de-granita-cu-ucraina-autoritatile-fac-verificari-3754125": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.digi24.ro/stiri/actualitate/o-drona-a-cazut-in-judetul-suceava-aproape-de-granita-cu-ucraina-autoritatile-fac-verificari-3754125",
+      "found": {
+        "ldVideos": [
+          {
+            "contentUrl": [
+              "https://v2.iw.ro/video/v/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNSUyRjAzJTJGMjcwNTgyOF8yNzA1/ODI4X2Ryb25hLm1wNCZoYXNoPTQyMzY2/ZmE0ZDZjMWE4MDdhZTU4ZGNkNTEzNzNmOTI1.mp4"
+            ],
+            "name": [
+              "O dronă a căzut în județul Suceava, aproape de granița cu Ucraina. Autoritățile fac verificări"
+            ],
+            "thumbnailUrl": [
+              "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNSUyRjAzJTJGMjcwNTgyOF8yNzA1/ODI4X2Ryb25hLm1wNC5zbmFwc2hvdC4x/LmpwZyZoYXNoPWFlNjg2MmMxYjU2NWRmYTlkODYyZDEzOWIwOWFhZTVm.mp4.snapshot.1.jpg"
+            ]
+          }
+        ],
+        "meta": {
+          "og:image": [
+            "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNSUyRjAzJTJGMjcwNTgyNl8yNzA1/ODI2X04xNS1EUk9OQS1TVUNFQVZBLUxJ/VkVfMDAwMDAuanBnJnc9MTIwMCZoPTYz/MCZ6Yz0xJmhhc2g9MmMyYzEyZDBkNmJjYmQ2YjAyNmEyNmM4YWRkZDllZTk=.thumb.jpg"
+          ],
+          "og:image:height": [
+            "630"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "O dronă a căzut în județul Suceava, aproape de granița cu Ucraina. Autoritățile fac verificări"
+          ],
+          "twitter:image": [
+            "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNSUyRjAzJTJGMjcwNTgyNl8yNzA1/ODI2X04xNS1EUk9OQS1TVUNFQVZBLUxJ/VkVfMDAwMDAuanBnJnc9MTIwMCZoPTYz/MCZ6Yz0xJmhhc2g9MmMyYzEyZDBkNmJjYmQ2YjAyNmEyNmM4YWRkZDllZTk=.thumb.jpg"
+          ],
+          "twitter:image:alt": [
+            "Foto: Captură video Digi24"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S16"
+      ],
+      "status": 200,
+      "url": "https://www.digi24.ro/stiri/actualitate/o-drona-a-cazut-in-judetul-suceava-aproape-de-granita-cu-ucraina-autoritatile-fac-verificari-3754125"
+    },
+    "https://www.digi24.ro/stiri/actualitate/primele-marturii-ale-echipajului-navei-lovite-pe-marea-neagra-trei-drone-ne-au-atacat-in-timpul-noptii-totul-era-distrus-3872177": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.digi24.ro/stiri/actualitate/primele-marturii-ale-echipajului-navei-lovite-pe-marea-neagra-trei-drone-ne-au-atacat-in-timpul-noptii-totul-era-distrus-3872177",
+      "found": {
+        "ldVideos": [
+          {
+            "contentUrl": [
+              "https://v4.iw.ro/video/v/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjIxJTJGMjg2MjE0MV8yODYy/MTQxX2V4cGxvemllLW5hdmEubXA0Jmhh/c2g9ZTAxZGUxNzhiNTNkMjM1OGE4ZTE5MTNjYTg4NTVkMjc=.mp4"
+            ],
+            "name": [
+              "Mărturiile membrilor echipajului navei lovite în Marea Neagră: „Trei drone ne-au atacat în timpul nopții. Totul era distrus”"
+            ],
+            "thumbnailUrl": [
+              "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjIxJTJGMjg2MjE0MV8yODYy/MTQxX2V4cGxvemllLW5hdmEubXA0LnNu/YXBzaG90LjEuanBnJmhhc2g9ZjFlYmU5/YWU3Y2JhNjNlZTFhZTdiZDRiOTBhYTZhYWI=.mp4.snapshot.1.jpg"
+            ]
+          }
+        ],
+        "meta": {
+          "og:image": [
+            "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjIxJTJGMjg2MjI5M18yODYy/MjkzX0VYVEVETC1NQVJJTkFSSS1TVUxJ/TkFfMDI5ODkuanBnJnc9MTIwMCZoPTYz/MCZ6Yz0xJmhhc2g9YTA4ZDk3MTFlNTlhMWE1N2JkYTZjNjViN2MxYzVhZDQ=.thumb.jpg"
+          ],
+          "og:image:height": [
+            "630"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "Mărturiile membrilor echipajului navei lovite în Marea Neagră: „Trei drone ne-au atacat în timpul nopții. Totul era distrus”"
+          ],
+          "twitter:image": [
+            "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwNyUyRjIxJTJGMjg2MjI5M18yODYy/MjkzX0VYVEVETC1NQVJJTkFSSS1TVUxJ/TkFfMDI5ODkuanBnJnc9MTIwMCZoPTYz/MCZ6Yz0xJmhhc2g9YTA4ZDk3MTFlNTlhMWE1N2JkYTZjNjViN2MxYzVhZDQ=.thumb.jpg"
+          ],
+          "twitter:image:alt": [
+            "Sursa foto: captura Digi24"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S57"
+      ],
+      "status": 200,
+      "url": "https://www.digi24.ro/stiri/actualitate/primele-marturii-ale-echipajului-navei-lovite-pe-marea-neagra-trei-drone-ne-au-atacat-in-timpul-noptii-totul-era-distrus-3872177"
+    },
+    "https://www.digi24.ro/stiri/actualitate/un-localnic-povesteste-cum-s-a-apucat-sa-demonteze-drona-cu-explozibil-gasita-in-vaslui-tiuia-se-aprindeau-becurile-am-scos-firele-3931021": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.digi24.ro/stiri/actualitate/un-localnic-povesteste-cum-s-a-apucat-sa-demonteze-drona-cu-explozibil-gasita-in-vaslui-tiuia-se-aprindeau-becurile-am-scos-firele-3931021",
+      "found": {
+        "ldVideos": [
+          {
+            "contentUrl": [
+              "https://v3.iw.ro/video/v/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOSUyRjAxJTJGMjkzNDQxMV8yOTM0/NDExX3Zhc2x1aS5tcDQmaGFzaD0zNjFi/NWRhN2UzY2M0ZTE1NjM0YzVjMDBmMTg3ZmZlMQ==.mp4"
+            ],
+            "name": [
+              "„Țiuia, se aprindeau becurile”. Cum a încercat un cioban să demonteze drona cu explozibil din Vaslui: „Am scos firele și s-a oprit”"
+            ],
+            "thumbnailUrl": [
+              "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOSUyRjAxJTJGMjkzNDQxMV8yOTM0/NDExX3Zhc2x1aS5tcDQuc25hcHNob3Qu/MS5qcGcmaGFzaD1kMjliOGIwZjdkZGU5NGQzMjQyOTBlMDQ4NmU0MGY5Mg==.mp4.snapshot.1.jpg"
+            ]
+          }
+        ],
+        "meta": {
+          "og:image": [
+            "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOSUyRjAxJTJGMjkzNDQzMF8yOTM0/NDMwX3Bob3RvLWNvbGxhZ2VfcG5nLTIw/MjYtMDktMDFUMjA0NzUyXzc3MC5wbmcm/dz0xMjAwJmg9NjMwJnpjPTEmaGFzaD1l/NjAwNmE3MjUwZTc3NmUzNTFlMmNkYjEyNzJlNzU0ZA==.thumb.jpg"
+          ],
+          "og:image:height": [
+            "630"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "„Țiuia, se aprindeau becurile”. Cum a încercat un cioban să demonteze drona cu explozibil din Vaslui: „Am scos firele și s-a oprit”"
+          ],
+          "twitter:image": [
+            "https://s.iw.ro/gateway/g/ZmlsZVNvdXJjZT1odHRwJTNBJTJGJTJG/c3RvcmFnZTA4dHJhbnNjb2Rlci5yY3Mt/cmRzLnJvJTJGc3RvcmFnZSUyRjIwMjYl/MkYwOSUyRjAxJTJGMjkzNDQzMF8yOTM0/NDMwX3Bob3RvLWNvbGxhZ2VfcG5nLTIw/MjYtMDktMDFUMjA0NzUyXzc3MC5wbmcm/dz0xMjAwJmg9NjMwJnpjPTEmaGFzaD1l/NjAwNmE3MjUwZTc3NmUzNTFlMmNkYjEyNzJlNzU0ZA==.thumb.jpg"
+          ],
+          "twitter:image:alt": [
+            "Foto: Captură Digi24/ Vremea Nouă"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S72"
+      ],
+      "status": 200,
+      "url": "https://www.digi24.ro/stiri/actualitate/un-localnic-povesteste-cum-s-a-apucat-sa-demonteze-drona-cu-explozibil-gasita-in-vaslui-tiuia-se-aprindeau-becurile-am-scos-firele-3931021"
+    },
+    "https://www.ekathimerini.com/politics/foreign-policy/1313618/turkish-drone-violates-greek-airspace-over-northeastern-aegean/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.ekathimerini.com/politics/foreign-policy/1313618/turkish-drone-violates-greek-airspace-over-northeastern-aegean/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.ekathimerini.com/wp-content/uploads/2026/08/jets1-960x600.jpg"
+          ],
+          "og:title": [
+            "Turkish drone violates Greek airspace over northeastern Aegean | eKathimerini.com"
+          ],
+          "twitter:image": [
+            "https://www.ekathimerini.com/wp-content/uploads/2026/08/jets1-960x600.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "G0828K"
+      ],
+      "status": 200,
+      "url": "https://www.ekathimerini.com/politics/foreign-policy/1313618/turkish-drone-violates-greek-airspace-over-northeastern-aegean/"
+    },
+    "https://www.eurointegration.com.ua/eng/news/2026/08/26/7244209/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.eurointegration.com.ua/eng/news/2026/08/26/7244209/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://img.eurointegration.com.ua/images/doc/5/b/5bc0346-mczoptq0mczoyxnoptdhmdewowfhyjg3mjiwyzjimmywzde0zdc0mdjiyzq4.thumb.jpg"
+          ],
+          "og:title": [
+            "Drone debris found at Romanian Black Sea resort"
+          ],
+          "twitter:image:src": [
+            "https://img.eurointegration.com.ua/images/doc/5/b/5bc0346-mczoptq0mczoyxnoptdhmdewowfhyjg3mjiwyzjimmywzde0zdc0mdjiyzq4.thumb.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S71"
+      ],
+      "status": 200,
+      "url": "https://www.eurointegration.com.ua/eng/news/2026/08/26/7244209/"
+    },
+    "https://www.eurointegration.com.ua/eng/news/2026/08/28/7244354/index.amp": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.eurointegration.com.ua/eng/news/2026/08/28/7244354/index.amp",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://img.eurointegration.com.ua/images/doc/3/2/32b2ba0-o-nava-a-luat-foc-si-s-a-scufundat-joi-noaptea-in-marea-neagra-autoritatile-romane-au-trimis-doua-vase-12-oameni-scosi-din-apa-1096758.jpg"
+          ],
+          "og:title": [
+            "Commercial vessel catches fire in Romanian waters, president suggests it was an attack"
+          ],
+          "twitter:image:src": [
+            "https://img.eurointegration.com.ua/images/doc/3/2/32b2ba0-o-nava-a-luat-foc-si-s-a-scufundat-joi-noaptea-in-marea-neagra-autoritatile-romane-au-trimis-doua-vase-12-oameni-scosi-din-apa-1096758.jpg"
+          ]
+        }
+      },
+      "mediaPage": "https://www.eurointegration.com.ua/eng/news/2026/08/28/7244354/",
+      "outcome": "ok",
+      "sources": [
+        "S74"
+      ],
+      "status": 200,
+      "url": "https://www.eurointegration.com.ua/eng/news/2026/08/28/7244354/index.amp"
+    },
+    "https://www.euronews.ro/articole/cronologie-drona-care-a-survolat-romania-30-de-minute-si-a-cazut-in-republica-mol": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.euronews.ro/articole/cronologie-drona-care-a-survolat-romania-30-de-minute-si-a-cazut-in-republica-mol",
+      "found": {
+        "iframes": [
+          "https://www.youtube.com/embed/XNcx7TFm6zg?autoplay=1&mute=1"
+        ],
+        "meta": {
+          "og:image": [
+            "https://www.datocms-assets.com/43475/1788889838-harta-romaniei.jpeg?auto=format&fit=max&w=1200",
+            "https://www.datocms-assets.com/43475/1788889838-harta-romaniei.jpeg?auto=format&fit=max&w=1200"
+          ],
+          "og:image:alt": [
+            "Harta Romaniei"
+          ],
+          "og:image:height": [
+            "800",
+            "800"
+          ],
+          "og:image:width": [
+            "1200",
+            "1200"
+          ],
+          "og:title": [
+            "Cronologie - drona care a survolat România 30 de minute și a căzut în Republica Moldova. Expert: „Dacă Rusia n-ar fi vrut să se întâmple, nu se întâmpla”",
+            "Cronologie - drona care a survolat România 30 de minute și a căzut în Republica Moldova. Expert: „Dacă Rusia n-ar fi vrut să se întâmple, nu se întâmpla”"
+          ],
+          "twitter:image": [
+            "https://www.datocms-assets.com/43475/1788889838-harta-romaniei.jpeg?auto=format&fit=max&w=1200",
+            "https://www.datocms-assets.com/43475/1788889838-harta-romaniei.jpeg?auto=format&fit=max&w=1200"
+          ],
+          "twitter:image:alt": [
+            "Harta Romaniei"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S47"
+      ],
+      "status": 200,
+      "url": "https://www.euronews.ro/articole/cronologie-drona-care-a-survolat-romania-30-de-minute-si-a-cazut-in-republica-mol"
+    },
+    "https://www.forbes.ro/drona-ruseasca-prabusita-in-vrancea-la-doar-cinci-metri-de-o-locuinta-mapn-nu-avea-explozibil-517872": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.forbes.ro/drona-ruseasca-prabusita-in-vrancea-la-doar-cinci-metri-de-o-locuinta-mapn-nu-avea-explozibil-517872",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.forbes.ro/wp-content/uploads/2026/05/shutterstock_2761701919.jpg"
+          ],
+          "og:image:height": [
+            "664"
+          ],
+          "og:image:width": [
+            "1000"
+          ],
+          "og:title": [
+            "Dronă rusească, prăbușită în Vrancea, la doar cinci metri de o locuință. MApN: Nu avea explozibil - Forbes.ro"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S46"
+      ],
+      "status": 200,
+      "url": "https://www.forbes.ro/drona-ruseasca-prabusita-in-vrancea-la-doar-cinci-metri-de-o-locuinta-mapn-nu-avea-explozibil-517872"
+    },
+    "https://www.lrt.lt/naujienos/lietuvoje/2/2961328/sekmadieni-vsat-pareigunai-nutupde-kontrabandines-cigaretes-skraidinusi-drona": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.lrt.lt/naujienos/lietuvoje/2/2961328/sekmadieni-vsat-pareigunai-nutupde-kontrabandines-cigaretes-skraidinusi-drona",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.lrt.lt/img/2026/06/15/2417665-862175-1287x836.jpg"
+          ],
+          "og:image:height": [
+            "836"
+          ],
+          "og:image:width": [
+            "1287"
+          ],
+          "og:title": [
+            "Sekmadienį VSAT pareigūnai nutupdė kontrabandines cigaretes skraidinusį droną"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "L05"
+      ],
+      "status": 200,
+      "url": "https://www.lrt.lt/naujienos/lietuvoje/2/2961328/sekmadieni-vsat-pareigunai-nutupde-kontrabandines-cigaretes-skraidinusi-drona"
+    },
+    "https://www.lrytas.lt/lietuvosdiena/aktualijos/2026/09/16/news/pasvalio-raj-rastas-nukrites-dronas-44018042": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.lrytas.lt/lietuvosdiena/aktualijos/2026/09/16/news/pasvalio-raj-rastas-nukrites-dronas-44018042",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://media.lrytas.lt/images/2026/09/16/133205204-ac0b4209-2fbf-4af6-a325-4f55d1cc761c.jpg"
+          ],
+          "og:title": [
+            "Iš policijos – naujausia žinia dėl Pasvalio r. rasto drono: buvo skirtas kontrabandai gabenti"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "L11"
+      ],
+      "status": 200,
+      "url": "https://www.lrytas.lt/lietuvosdiena/aktualijos/2026/09/16/news/pasvalio-raj-rastas-nukrites-dronas-44018042"
+    },
+    "https://www.lrytas.lt/lietuvosdiena/aktualijos/2026/09/17/news/pasvalio-r-miske-radus-drona-naujausia-policijos-zinai-del-tyrimo-44044686": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.lrytas.lt/lietuvosdiena/aktualijos/2026/09/17/news/pasvalio-r-miske-radus-drona-naujausia-policijos-zinai-del-tyrimo-44044686",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://media.lrytas.lt/images/2026/09/17/121603642-fe510e74-e8b2-47c5-a33f-5cee22319c33.jpg"
+          ],
+          "og:title": [
+            "Pasvalio r. miške radus droną – naujausia policijos žinai dėl tyrimo"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "L10"
+      ],
+      "status": 200,
+      "url": "https://www.lrytas.lt/lietuvosdiena/aktualijos/2026/09/17/news/pasvalio-r-miske-radus-drona-naujausia-policijos-zinai-del-tyrimo-44044686"
+    },
+    "https://www.mapn.ro/cpresa/19358_informa%C8%9Bie-de-presa": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.mapn.ro/cpresa/19358_informa%C8%9Bie-de-presa",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.mapn.ro/images/ministerul_apararii_nationale_coroana.jpg"
+          ],
+          "og:title": [
+            "Informatie de presa"
+          ],
+          "twitter:image": [
+            "https://www.mapn.ro/images/ministerul_apararii_nationale_coroana.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S44"
+      ],
+      "status": 200,
+      "url": "https://www.mapn.ro/cpresa/19358_informa%C8%9Bie-de-presa"
+    },
+    "https://www.mapn.ro/cpresa/19361_informa%C8%9Bie-de-presa---update": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.mapn.ro/cpresa/19361_informa%C8%9Bie-de-presa---update",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.mapn.ro/images/ministerul_apararii_nationale_coroana.jpg"
+          ],
+          "og:title": [
+            "Informatie de presa - update"
+          ],
+          "twitter:image": [
+            "https://www.mapn.ro/images/ministerul_apararii_nationale_coroana.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S70"
+      ],
+      "status": 200,
+      "url": "https://www.mapn.ro/cpresa/19361_informa%C8%9Bie-de-presa---update"
+    },
+    "https://www.mapn.ro/cpresa/19369_informa%C8%9Bie-de-presa": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.mapn.ro/cpresa/19369_informa%C8%9Bie-de-presa",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.mapn.ro/images/ministerul_apararii_nationale_coroana.jpg"
+          ],
+          "og:title": [
+            "Informatie de presa"
+          ],
+          "twitter:image": [
+            "https://www.mapn.ro/images/ministerul_apararii_nationale_coroana.jpg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S45"
+      ],
+      "status": 200,
+      "url": "https://www.mapn.ro/cpresa/19369_informa%C8%9Bie-de-presa"
+    },
+    "https://www.mod.gov.lv/en/news/unmanned-aerial-vehicles-russia-enter-latvian-airspace-two-crash-within-national-territory": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.mod.gov.lv/en/news/unmanned-aerial-vehicles-russia-enter-latvian-airspace-two-crash-within-national-territory",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.mod.gov.lv/themes/custom/defender/logo.png"
+          ],
+          "og:image:alt": [
+            "Aizsardzības ministrija"
+          ],
+          "og:title": [
+            "Unmanned aerial vehicles from russia enter Latvian airspace; two crash within national territory"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S17"
+      ],
+      "status": 200,
+      "url": "https://www.mod.gov.lv/en/news/unmanned-aerial-vehicles-russia-enter-latvian-airspace-two-crash-within-national-territory"
+    },
+    "https://www.onvista.de/news/2026/07-17-spionageverdacht-bei-panzerbauer-knds-haftbefehl-gegen-moldauer-0-20-26533395": {
+      "error": "HTTP 403",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.onvista.de/news/2026/07-17-spionageverdacht-bei-panzerbauer-knds-haftbefehl-gegen-moldauer-0-20-26533395",
+      "outcome": "blocked",
+      "sources": [
+        "D02"
+      ],
+      "status": 403,
+      "url": "https://www.onvista.de/news/2026/07-17-spionageverdacht-bei-panzerbauer-knds-haftbefehl-gegen-moldauer-0-20-26533395"
+    },
+    "https://www.osw.waw.pl/en/publikacje/analyses/2026-03-25/baltic-states-respond-to-incidents-involving-ukrainian-drones": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.osw.waw.pl/en/publikacje/analyses/2026-03-25/baltic-states-respond-to-incidents-involving-ukrainian-drones",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.osw.waw.pl/sites/default/files/logo_osw_300_b.png"
+          ],
+          "og:title": [
+            "The Baltic states respond to incidents involving Ukrainian drones"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S09"
+      ],
+      "status": 200,
+      "url": "https://www.osw.waw.pl/en/publikacje/analyses/2026-03-25/baltic-states-respond-to-incidents-involving-ukrainian-drones"
+    },
+    "https://www.politica.gr/kriti/aigaio-tourkika-f-16-kai-uav-pano-apo-ro-kai-zourafa-se-exelixi-i-medusa-15-stin-kriti": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.politica.gr/kriti/aigaio-tourkika-f-16-kai-uav-pano-apo-ro-kai-zourafa-se-exelixi-i-medusa-15-stin-kriti",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.politica.gr/wp-content/uploads/2026/09/Katadioksi.png.webp"
+          ],
+          "og:image:height": [
+            "878"
+          ],
+          "og:image:width": [
+            "1382"
+          ],
+          "og:title": [
+            "Αιγαίο: Τουρκικά F-16 και UAV πάνω από Ρω και Ζουράφα – Σε εξέλιξη η «MEDUSA 15» στην Κρήτη - Politica.gr"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "G0918"
+      ],
+      "status": 200,
+      "url": "https://www.politica.gr/kriti/aigaio-tourkika-f-16-kai-uav-pano-apo-ro-kai-zourafa-se-exelixi-i-medusa-15-stin-kriti"
+    },
+    "https://www.radiocluj.ro/2026/08/28/nava-comerciala-in-flacari-in-marea-neagra/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.radiocluj.ro/2026/08/28/nava-comerciala-in-flacari-in-marea-neagra/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.radiocluj.ro/wp-content/uploads/2026/08/paza-de-coasta.jpg"
+          ],
+          "og:image:height": [
+            "576"
+          ],
+          "og:image:width": [
+            "1024"
+          ],
+          "og:title": [
+            "Navă comercială în flăcări, în Marea Neagră - Radio Romania Cluj"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S59"
+      ],
+      "status": 200,
+      "url": "https://www.radiocluj.ro/2026/08/28/nava-comerciala-in-flacari-in-marea-neagra/"
+    },
+    "https://www.radioconstanta.ro/2026/08/26/update-drona-gasita-la-olimp-avea-incarcatura-exploziva-si-a-fost-detonata-controlat/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.radioconstanta.ro/2026/08/26/update-drona-gasita-la-olimp-avea-incarcatura-exploziva-si-a-fost-detonata-controlat/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.radioconstanta.ro/wp-content/uploads/2026/08/Screenshot_26-8-2026_1161_www.facebook.com_.jpeg"
+          ],
+          "og:image:height": [
+            "457"
+          ],
+          "og:image:width": [
+            "761"
+          ],
+          "og:title": [
+            "UPDATE: Drona găsită la Olimp avea încărcătură explozivă și a fost detonată controlat - Radio România Constanța"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S52"
+      ],
+      "status": 200,
+      "url": "https://www.radioconstanta.ro/2026/08/26/update-drona-gasita-la-olimp-avea-incarcatura-exploziva-si-a-fost-detonata-controlat/"
+    },
+    "https://www.radiooltenia.ro/resturi-de-drona-neutralizate-la-capu-midia/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.radiooltenia.ro/resturi-de-drona-neutralizate-la-capu-midia/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.radiooltenia.ro/wp-content/uploads/2026/07/MApN-Informari-oficiale-e1785315016976.jpeg"
+          ],
+          "og:image:height": [
+            "470"
+          ],
+          "og:image:width": [
+            "895"
+          ],
+          "og:title": [
+            "Resturi de dronă neutralizate la Capu Midia - Radio România Oltenia-Craiova"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "R02"
+      ],
+      "status": 200,
+      "url": "https://www.radiooltenia.ro/resturi-de-drona-neutralizate-la-capu-midia/"
+    },
+    "https://www.radioromania.ro/Actualitate/mapn-fragmente-de-drona-neutralizate-in-zona-plajei-de-la-capu-midia-id216948.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.radioromania.ro/Actualitate/mapn-fragmente-de-drona-neutralizate-in-zona-plajei-de-la-capu-midia-id216948.html",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.radioromania.ro/img.php?u=https%3A%2F%2Fwww.radioromania.ro%2Fuploads%2Fmodules%2Fnews%2F0%2F2026%2F9%2F10%2F216948%2F1789031532129881f6.jpg&w=960&h=540&c=1"
+          ],
+          "og:title": [
+            "MApN: Fragmente de dronă, neutralizate în zona plajei de la Capu Midia"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "R01"
+      ],
+      "status": 200,
+      "url": "https://www.radioromania.ro/Actualitate/mapn-fragmente-de-drona-neutralizate-in-zona-plajei-de-la-capu-midia-id216948.html"
+    },
+    "https://www.radiotimisoara.ro/administratie-politica/administratie-public/drona-descoperita-pe-plaja-din-costinesti-387032.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.radiotimisoara.ro/administratie-politica/administratie-public/drona-descoperita-pe-plaja-din-costinesti-387032.html",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.radiotimisoara.ro/wp-content/uploads/2026/04/radar-drona.jpg"
+          ],
+          "og:image:height": [
+            "540"
+          ],
+          "og:image:width": [
+            "960"
+          ],
+          "og:title": [
+            "Dronă descoperită pe plaja din Costinești - Radio România Timișoara"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S91"
+      ],
+      "status": 200,
+      "url": "https://www.radiotimisoara.ro/administratie-politica/administratie-public/drona-descoperita-pe-plaja-din-costinesti-387032.html"
+    },
+    "https://www.rador.ro/2026/08/27/o-plaja-din-olimp-a-fost-evacuata-de-urgenta-dupa-ce-genistii-au-detonat-o-drona-cu-incarcatura-explozibila/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.rador.ro/2026/08/27/o-plaja-din-olimp-a-fost-evacuata-de-urgenta-dupa-ce-genistii-au-detonat-o-drona-cu-incarcatura-explozibila/",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.rador.ro/wp-content/uploads/2025/08/litoral-valuri.jpeg"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S53"
+      ],
+      "status": 200,
+      "url": "https://www.rador.ro/2026/08/27/o-plaja-din-olimp-a-fost-evacuata-de-urgenta-dupa-ce-genistii-au-detonat-o-drona-cu-incarcatura-explozibila/"
+    },
+    "https://www.replicaonline.ro/inca-o-drona-a-fost-gasita-pe-plaja-alezzi-din-mamaia-nu-avea-explozibil-668064/": {
+      "error": "HTTP 403",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.replicaonline.ro/inca-o-drona-a-fost-gasita-pe-plaja-alezzi-din-mamaia-nu-avea-explozibil-668064/",
+      "outcome": "blocked",
+      "sources": [
+        "R11"
+      ],
+      "status": 403,
+      "url": "https://www.replicaonline.ro/inca-o-drona-a-fost-gasita-pe-plaja-alezzi-din-mamaia-nu-avea-explozibil-668064/"
+    },
+    "https://www.reuters.com/business/aerospace-defense/drone-incursions-sow-fear-chaos-along-natos-baltic-finnish-borders-2026-09-15/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/business/aerospace-defense/drone-incursions-sow-fear-chaos-along-natos-baltic-finnish-borders-2026-09-15/",
+      "outcome": "blocked",
+      "sources": [
+        "S12"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/business/aerospace-defense/drone-incursions-sow-fear-chaos-along-natos-baltic-finnish-borders-2026-09-15/"
+    },
+    "https://www.reuters.com/business/aerospace-defense/drone-shot-down-lithuania-was-likely-aimed-ukraine-lithuanian-president-says-2026-09-16/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/business/aerospace-defense/drone-shot-down-lithuania-was-likely-aimed-ukraine-lithuanian-president-says-2026-09-16/",
+      "outcome": "blocked",
+      "sources": [
+        "S50"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/business/aerospace-defense/drone-shot-down-lithuania-was-likely-aimed-ukraine-lithuanian-president-says-2026-09-16/"
+    },
+    "https://www.reuters.com/business/aerospace-defense/france-demand-explanation-russian-envoy-over-romania-drone-incident-2026-05-29/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/business/aerospace-defense/france-demand-explanation-russian-envoy-over-romania-drone-incident-2026-05-29/",
+      "outcome": "blocked",
+      "sources": [
+        "S26"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/business/aerospace-defense/france-demand-explanation-russian-envoy-over-romania-drone-incident-2026-05-29/"
+    },
+    "https://www.reuters.com/business/aerospace-defense/france-says-drone-incident-near-aircraft-carrier-would-be-provocation-if-russian-2026-02-27/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/business/aerospace-defense/france-says-drone-incident-near-aircraft-carrier-would-be-provocation-if-russian-2026-02-27/",
+      "outcome": "blocked",
+      "sources": [
+        "S04"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/business/aerospace-defense/france-says-drone-incident-near-aircraft-carrier-would-be-provocation-if-russian-2026-02-27/"
+    },
+    "https://www.reuters.com/business/aerospace-defense/latvia-says-drone-its-airspace-august-14-was-ukrainian-2026-08-20/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/business/aerospace-defense/latvia-says-drone-its-airspace-august-14-was-ukrainian-2026-08-20/",
+      "outcome": "blocked",
+      "sources": [
+        "S42"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/business/aerospace-defense/latvia-says-drone-its-airspace-august-14-was-ukrainian-2026-08-20/"
+    },
+    "https://www.reuters.com/business/aerospace-defense/latvia-shoots-down-drone-its-airspace-finland-restricts-parts-baltic-sea-2026-08-14/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/business/aerospace-defense/latvia-shoots-down-drone-its-airspace-finland-restricts-parts-baltic-sea-2026-08-14/",
+      "outcome": "blocked",
+      "sources": [
+        "S41"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/business/aerospace-defense/latvia-shoots-down-drone-its-airspace-finland-restricts-parts-baltic-sea-2026-08-14/"
+    },
+    "https://www.reuters.com/business/aerospace-defense/nato-fighter-shoots-down-drone-lithuania-2026-09-14/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/business/aerospace-defense/nato-fighter-shoots-down-drone-lithuania-2026-09-14/",
+      "outcome": "blocked",
+      "sources": [
+        "S49"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/business/aerospace-defense/nato-fighter-shoots-down-drone-lithuania-2026-09-14/"
+    },
+    "https://www.reuters.com/business/aerospace-defense/nato-jet-shoots-down-drone-estonia-news-website-delfi-reports-2026-05-19/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/business/aerospace-defense/nato-jet-shoots-down-drone-estonia-news-website-delfi-reports-2026-05-19/",
+      "outcome": "blocked",
+      "sources": [
+        "S23"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/business/aerospace-defense/nato-jet-shoots-down-drone-estonia-news-website-delfi-reports-2026-05-19/"
+    },
+    "https://www.reuters.com/business/aerospace-defense/romania-shoots-down-third-russian-drone-president-calls-breaches-intolerable-2026-07-26/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/business/aerospace-defense/romania-shoots-down-third-russian-drone-president-calls-breaches-intolerable-2026-07-26/",
+      "outcome": "blocked",
+      "sources": [
+        "S31"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/business/aerospace-defense/romania-shoots-down-third-russian-drone-president-calls-breaches-intolerable-2026-07-26/"
+    },
+    "https://www.reuters.com/video/watch/idRW635705062026RP1/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/video/watch/idRW635705062026RP1/",
+      "outcome": "blocked",
+      "sources": [
+        "S27"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/video/watch/idRW635705062026RP1/"
+    },
+    "https://www.reuters.com/video/watch/idRW639705062026RP1/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/video/watch/idRW639705062026RP1/",
+      "outcome": "blocked",
+      "sources": [
+        "S28"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/video/watch/idRW639705062026RP1/"
+    },
+    "https://www.reuters.com/world/bulgarias-radev-says-drone-exploded-bulgarias-airspace-2026-08-08/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/bulgarias-radev-says-drone-exploded-bulgarias-airspace-2026-08-08/",
+      "outcome": "blocked",
+      "sources": [
+        "S39"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/bulgarias-radev-says-drone-exploded-bulgarias-airspace-2026-08-08/"
+    },
+    "https://www.reuters.com/world/drone-fell-onto-polish-military-base-january-28-radio-zet-reports-2026-02-02/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/drone-fell-onto-polish-military-base-january-28-radio-zet-reports-2026-02-02/",
+      "outcome": "blocked",
+      "sources": [
+        "S01"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/drone-fell-onto-polish-military-base-january-28-radio-zet-reports-2026-02-02/"
+    },
+    "https://www.reuters.com/world/drone-found-poland-likely-september-airspace-incursion-minister-says-2026-03-13/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/drone-found-poland-likely-september-airspace-incursion-minister-says-2026-03-13/",
+      "outcome": "blocked",
+      "sources": [
+        "S06"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/drone-found-poland-likely-september-airspace-incursion-minister-says-2026-03-13/"
+    },
+    "https://www.reuters.com/world/drone-that-crashed-lithuania-came-ukraine-lithuanian-pm-says-2026-03-24/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/drone-that-crashed-lithuania-came-ukraine-lithuanian-pm-says-2026-03-24/",
+      "outcome": "blocked",
+      "sources": [
+        "S07"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/drone-that-crashed-lithuania-came-ukraine-lithuanian-pm-says-2026-03-24/"
+    },
+    "https://www.reuters.com/world/drones-spotted-above-german-military-base-two-days-after-suspected-drone-attack-2026-08-08/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/drones-spotted-above-german-military-base-two-days-after-suspected-drone-attack-2026-08-08/",
+      "outcome": "blocked",
+      "sources": [
+        "S38"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/drones-spotted-above-german-military-base-two-days-after-suspected-drone-attack-2026-08-08/"
+    },
+    "https://www.reuters.com/world/europe/estonia-says-drone-enters-russia-hits-power-station-err-reports-2026-03-25/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/europe/estonia-says-drone-enters-russia-hits-power-station-err-reports-2026-03-25/",
+      "outcome": "blocked",
+      "sources": [
+        "S08"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/europe/estonia-says-drone-enters-russia-hits-power-station-err-reports-2026-03-25/"
+    },
+    "https://www.reuters.com/world/europe/germany-says-russia-responsible-drone-attack-leipzig-airport-2026-09-01/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/europe/germany-says-russia-responsible-drone-attack-leipzig-airport-2026-09-01/",
+      "outcome": "blocked",
+      "sources": [
+        "S37"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/europe/germany-says-russia-responsible-drone-attack-leipzig-airport-2026-09-01/"
+    },
+    "https://www.reuters.com/world/europe/plane-near-drone-found-german-airport-was-carrying-ammunition-media-reports-say-2026-08-06/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/europe/plane-near-drone-found-german-airport-was-carrying-ammunition-media-reports-say-2026-08-06/",
+      "outcome": "blocked",
+      "sources": [
+        "S35"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/europe/plane-near-drone-found-german-airport-was-carrying-ammunition-media-reports-say-2026-08-06/"
+    },
+    "https://www.reuters.com/world/europe/polish-police-say-drone-found-mine-western-poland-2026-03-12/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/europe/polish-police-say-drone-found-mine-western-poland-2026-03-12/",
+      "outcome": "blocked",
+      "sources": [
+        "S05"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/europe/polish-police-say-drone-found-mine-western-poland-2026-03-12/"
+    },
+    "https://www.reuters.com/world/finland-reports-suspected-territorial-violation-by-drones-2026-03-29/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/finland-reports-suspected-territorial-violation-by-drones-2026-03-29/",
+      "outcome": "blocked",
+      "sources": [
+        "S11"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/finland-reports-suspected-territorial-violation-by-drones-2026-03-29/"
+    },
+    "https://www.reuters.com/world/german-police-examine-suspicious-object-leipzig-airport-2026-08-05/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/german-police-examine-suspicious-object-leipzig-airport-2026-08-05/",
+      "outcome": "blocked",
+      "sources": [
+        "S34"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/german-police-examine-suspicious-object-leipzig-airport-2026-08-05/"
+    },
+    "https://www.reuters.com/world/greece-investigating-ukrainian-made-naval-drone-found-cave-island-2026-05-08/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/greece-investigating-ukrainian-made-naval-drone-found-cave-island-2026-05-08/",
+      "outcome": "blocked",
+      "sources": [
+        "S19"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/greece-investigating-ukrainian-made-naval-drone-found-cave-island-2026-05-08/"
+    },
+    "https://www.reuters.com/world/greek-probe-finds-suspected-ukrainian-sea-drone-lost-course-after-malfunction-2026-05-15/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/greek-probe-finds-suspected-ukrainian-sea-drone-lost-course-after-malfunction-2026-05-15/",
+      "outcome": "blocked",
+      "sources": [
+        "S20"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/greek-probe-finds-suspected-ukrainian-sea-drone-lost-course-after-malfunction-2026-05-15/"
+    },
+    "https://www.reuters.com/world/poland-finds-suspected-russian-drone-close-baltic-sea-beach-2026-09-14/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/poland-finds-suspected-russian-drone-close-baltic-sea-beach-2026-09-14/",
+      "outcome": "blocked",
+      "sources": [
+        "S48"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/poland-finds-suspected-russian-drone-close-baltic-sea-beach-2026-09-14/"
+    },
+    "https://www.reuters.com/world/suspected-ukrainian-military-drone-was-found-crashed-lithuania-2026-05-17/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/suspected-ukrainian-military-drone-was-found-crashed-lithuania-2026-05-17/",
+      "outcome": "blocked",
+      "sources": [
+        "S22"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/suspected-ukrainian-military-drone-was-found-crashed-lithuania-2026-05-17/"
+    },
+    "https://www.reuters.com/world/two-drones-russia-crash-latvia-army-says-2026-05-07/": {
+      "error": "HTTP 401",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reuters.com/world/two-drones-russia-crash-latvia-army-says-2026-05-07/",
+      "outcome": "blocked",
+      "sources": [
+        "S18"
+      ],
+      "status": 401,
+      "url": "https://www.reuters.com/world/two-drones-russia-crash-latvia-army-says-2026-05-07/"
+    },
+    "https://www.reutersconnect.com/item/germany-says-russia-responsible-for-drone-attack-at-leipzig-airport/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBOTQzNDAxMDkyMDI2UlAx": {
+      "error": "HTTP 403",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reutersconnect.com/item/germany-says-russia-responsible-for-drone-attack-at-leipzig-airport/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBOTQzNDAxMDkyMDI2UlAx",
+      "outcome": "blocked",
+      "sources": [
+        "S66"
+      ],
+      "status": 403,
+      "url": "https://www.reutersconnect.com/item/germany-says-russia-responsible-for-drone-attack-at-leipzig-airport/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBOTQzNDAxMDkyMDI2UlAx"
+    },
+    "https://www.reutersconnect.com/item/romania-detonates-russian-drone-fragments-found-near-border-with-ukraine/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkI0TUFPQVZETQ": {
+      "error": "HTTP 403",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.reutersconnect.com/item/romania-detonates-russian-drone-fragments-found-near-border-with-ukraine/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkI0TUFPQVZETQ",
+      "outcome": "blocked",
+      "sources": [
+        "S30"
+      ],
+      "status": 403,
+      "url": "https://www.reutersconnect.com/item/romania-detonates-russian-drone-fragments-found-near-border-with-ukraine/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkI0TUFPQVZETQ"
+    },
+    "https://www.romania-actualitati.ro/news-in-english/ministry-of-national-defense-new-drone-discovered-in-tulcea-county-near-plauru-id232930.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.romania-actualitati.ro/news-in-english/ministry-of-national-defense-new-drone-discovered-in-tulcea-county-near-plauru-id232930.html",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.romania-actualitati.ro/img.php?u=https%3A%2F%2Fwww.romania-actualitati.ro%2Fuploads%2Fmodules%2Fnews%2F0%2F2026%2F8%2F14%2F232930%2F17867272696ca3cefc.jpg&w=960&h=540&c=1"
+          ],
+          "og:title": [
+            "Ministry of National Defense: New Drone Discovered in Tulcea County, Near Plauru"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S84"
+      ],
+      "status": 200,
+      "url": "https://www.romania-actualitati.ro/news-in-english/ministry-of-national-defense-new-drone-discovered-in-tulcea-county-near-plauru-id232930.html"
+    },
+    "https://www.romania-insider.com/drone-fragments-costinesti-beach-aug-2026": {
+      "error": "HTTP 429",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.romania-insider.com/drone-fragments-costinesti-beach-aug-2026",
+      "outcome": "blocked",
+      "sources": [
+        "S88"
+      ],
+      "status": 429,
+      "url": "https://www.romania-insider.com/drone-fragments-costinesti-beach-aug-2026"
+    },
+    "https://www.romaniajournal.ro/society-people/social/drone-crashes-in-northern-tulcea-near-ukrainian-border/": {
+      "error": "HTTP 403",
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.romaniajournal.ro/society-people/social/drone-crashes-in-northern-tulcea-near-ukrainian-border/",
+      "outcome": "blocked",
+      "sources": [
+        "S86"
+      ],
+      "status": 403,
+      "url": "https://www.romaniajournal.ro/society-people/social/drone-crashes-in-northern-tulcea-near-ukrainian-border/"
+    },
+    "https://www.rri.ro/actualitate/stiri/fragmente-de-drone-gasite-in-judetele-constanta-si-tulcea-id1058610.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.rri.ro/actualitate/stiri/fragmente-de-drone-gasite-in-judetele-constanta-si-tulcea-id1058610.html",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://www.rri.ro/wp-content/uploads/2026/08/informatii-oficiale-sursa-foto-MApN.jpg"
+          ],
+          "og:image:height": [
+            "540"
+          ],
+          "og:image:width": [
+            "960"
+          ],
+          "og:title": [
+            "Fragmente de drone găsite în județele Constanţa şi Tulcea - Radio România Internațional"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "R05"
+      ],
+      "status": 200,
+      "url": "https://www.rri.ro/actualitate/stiri/fragmente-de-drone-gasite-in-judetele-constanta-si-tulcea-id1058610.html"
+    },
+    "https://www.theguardian.com/world/2026/aug/25/germany-drone-suspected-military-explosives-found-near-leipzig-airport": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.theguardian.com/world/2026/aug/25/germany-drone-suspected-military-explosives-found-near-leipzig-airport",
+      "found": {
+        "meta": {
+          "og:image": [
+            "https://i.guim.co.uk/img/media/905e68e9072ad94a0fada6f94806012c003dc6fe/491_0_3411_2730/master/3411.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=02d376c652c47ba5c9f6afff633f8d85"
+          ],
+          "og:image:height": [
+            "960"
+          ],
+          "og:image:width": [
+            "1200"
+          ],
+          "og:title": [
+            "Third drone and suspected military explosives found near Leipzig airport"
+          ],
+          "twitter:image": [
+            "https://i.guim.co.uk/img/media/905e68e9072ad94a0fada6f94806012c003dc6fe/491_0_3411_2730/master/3411.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=031e1cfd081ba1abf15d407a23b09ed0"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S36"
+      ],
+      "status": 200,
+      "url": "https://www.theguardian.com/world/2026/aug/25/germany-drone-suspected-military-explosives-found-near-leipzig-airport"
+    },
+    "https://www.vasluitv.ro/video-drona-gasita-pe-un-camp-in-comuna-viisoara-zona-a-fost-izolata-iar-specialistii-sri-intervin-la-fata-locului/": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.vasluitv.ro/video-drona-gasita-pe-un-camp-in-comuna-viisoara-zona-a-fost-izolata-iar-specialistii-sri-intervin-la-fata-locului/",
+      "found": {
+        "featuredImage": [
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3ODAiIGhlaWdodD0iNDcwIiB2aWV3Qm94PSIwIDAgNzgwIDQ3MCI+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgc3R5bGU9ImZpbGw6I2NmZDRkYjtmaWxsLW9wYWNpdHk6IDAuMTsiLz48L3N2Zz4="
+        ],
+        "meta": {
+          "og:image": [
+            "https://www.vasluitv.ro/wp-content/uploads/2026/09/Captura-de-ecran-2026-09-01-131459.png?v=1788257721"
+          ],
+          "og:image:height": [
+            "1155"
+          ],
+          "og:image:width": [
+            "2193"
+          ],
+          "og:title": [
+            "VIDEO Dronă găsită pe un câmp în comuna Viișoara. Zona a fost izolată, iar specialiștii SRI intervin la fața locului - Vaslui TV"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "S73"
+      ],
+      "status": 200,
+      "url": "https://www.vasluitv.ro/video-drona-gasita-pe-un-camp-in-comuna-viisoara-zona-a-fost-izolata-iar-specialistii-sri-intervin-la-fata-locului/"
+    },
+    "https://www.zdfheute.de/politik/deutschland/muenchen-spionage-mann-moldau-100.html": {
+      "fetched": "2026-09-24",
+      "finalUrl": "https://www.zdfheute.de/politik/deutschland/muenchen-spionage-mann-moldau-100.html",
+      "found": {
+        "ldVideos": [
+          {
+            "contentUrl": [
+              "https://www.zdfheute.de/api/video/spionage-festnahme-muenchen-100.m3u8"
+            ],
+            "name": [
+              "Mann aus Moldau festgenommen"
+            ],
+            "thumbnailUrl": [
+              "https://www.zdfheute.de/assets/spionage-festnahme-muenchen-clean-100~1920x1080?cb=1784300427248",
+              "https://www.zdfheute.de/assets/spionage-festnahme-muenchen-clean-100~1200x1200?cb=1784300427248",
+              "https://www.zdfheute.de/assets/spionage-festnahme-muenchen-clean-100~1600x1200?cb=1784300427248"
+            ]
+          }
+        ],
+        "meta": {
+          "og:image": [
+            "https://www.zdfheute.de/assets/drohne-strommasten-100~1280x720?cb=1784294060350"
+          ],
+          "og:image:height": [
+            "720"
+          ],
+          "og:image:width": [
+            "1280"
+          ],
+          "og:title": [
+            "Spionageverdacht: Mann aus Moldau in München festgenommen"
+          ],
+          "twitter:image": [
+            "https://www.zdfheute.de/assets/drohne-strommasten-100~1280x720?cb=1784294060350"
+          ]
+        }
+      },
+      "outcome": "ok",
+      "sources": [
+        "D01"
+      ],
+      "status": 200,
+      "url": "https://www.zdfheute.de/politik/deutschland/muenchen-spionage-mann-moldau-100.html"
+    }
+  }
+}
