@@ -16,7 +16,7 @@
   'register.eyebrow': 'THE EVENT REGISTER',
   'register.headline1': 'A year in the air.',
   'register.headline2': 'And along the coast.',
-  'register.intro': 'Explore reported flights, discoveries and alerts across Europe.',
+  'register.intro': 'Drones that reached EU countries from abroad: incursions, shoot-downs, crashes and wreckage, including ones whose operator is unknown. Ordinary drone sightings, like most airport disruptions, are not included.',
   'stats.records': 'records',
   'stats.countries': 'EU countries',
   'stats.cutoff': 'coverage cutoff',

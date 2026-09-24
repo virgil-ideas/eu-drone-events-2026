@@ -14,7 +14,7 @@
   'register.eyebrow': 'HÄNDELSEREGISTRET',
   'register.headline1': 'Ett år i luften.',
   'register.headline2': 'Och längs kusten.',
-  'register.intro': 'Utforska rapporterade flygningar, fynd och larm i hela Europa.',
+  'register.intro': 'Drönare som nått EU-länder från utlandet: intrång, nedskjutningar, nedstörtningar och vrakdelar, även sådana med okänd operatör. Vanliga drönarobservationer, som de flesta störningar på flygplatser, ingår inte.',
   'stats.records': 'registreringar',
   'stats.countries': 'EU-länder',
   'stats.cutoff': 'täckningens slutdatum',

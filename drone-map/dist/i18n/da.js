@@ -14,7 +14,7 @@
   'register.eyebrow': 'HÆNDELSESREGISTRET',
   'register.headline1': 'Et år i luften.',
   'register.headline2': 'Og langs kysten.',
-  'register.intro': 'Udforsk rapporterede flyvninger, fund og varsler i hele Europa.',
+  'register.intro': 'Droner, der er kommet til EU-lande fra udlandet: indtrængninger, nedskydninger, nedstyrtninger og vragdele, også dem med ukendt operatør. Almindelige droneobservationer, som de fleste forstyrrelser i lufthavne, er ikke medtaget.',
   'stats.records': 'registreringer',
   'stats.countries': 'EU-lande',
   'stats.cutoff': 'skæringsdato',

@@ -14,7 +14,7 @@
   'register.eyebrow': 'REGISTR UDÁLOSTÍ',
   'register.headline1': 'Rok ve vzduchu.',
   'register.headline2': 'A podél pobřeží.',
-  'register.intro': 'Prozkoumejte hlášené přelety, nálezy a výstrahy v celé Evropě.',
+  'register.intro': 'Drony, které se do zemí EU dostaly ze zahraničí: vniknutí, sestřelení, pády a trosky, včetně těch s neznámým provozovatelem. Běžná pozorování dronů, jako většina narušení provozu na letištích, zahrnuta nejsou.',
   'stats.records': 'záznamy',
   'stats.countries': 'země EU',
   'stats.cutoff': 'uzávěrka dat',

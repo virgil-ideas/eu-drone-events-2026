@@ -14,7 +14,7 @@
   'register.eyebrow': 'REGISTER DOGODKOV',
   'register.headline1': 'Leto v zraku.',
   'register.headline2': 'In ob obali.',
-  'register.intro': 'Raziščite poročane lete, najdbe in opozorila po vsej Evropi.',
+  'register.intro': 'Droni, ki so iz tujine prispeli v države EU: vdori, sestrelitve, strmoglavljenja in razbitine, tudi tisti z neznanim upravljavcem. Običajna opažanja dronov, kot je večina motenj na letališčih, niso vključena.',
   'stats.records': 'zapisov',
   'stats.countries': 'držav EU',
   'stats.cutoff': 'konec zajema',

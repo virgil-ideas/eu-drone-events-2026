@@ -14,7 +14,7 @@
   'register.eyebrow': 'DAS EREIGNISREGISTER',
   'register.headline1': 'Ein Jahr in der Luft.',
   'register.headline2': 'Und entlang der Küste.',
-  'register.intro': 'Erkunden Sie gemeldete Flüge, Funde und Warnungen in ganz Europa.',
+  'register.intro': 'Drohnen, die aus dem Ausland in EU-Länder gelangten: Einflüge, Abschüsse, Abstürze und Wrackteile, auch solche mit unbekanntem Betreiber. Gewöhnliche Drohnensichtungen, wie die meisten Störungen an Flughäfen, sind nicht enthalten.',
   'stats.records': 'Einträge',
   'stats.countries': 'EU-Länder',
   'stats.cutoff': 'Stichtag der Erfassung',

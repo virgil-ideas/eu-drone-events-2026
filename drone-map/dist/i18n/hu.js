@@ -14,7 +14,7 @@
   'register.eyebrow': 'AZ ESEMÉNYEK NYILVÁNTARTÁSA',
   'register.headline1': 'Egy év a levegőben.',
   'register.headline2': 'És a partok mentén.',
-  'register.intro': 'Fedezze fel az Európa-szerte jelentett repüléseket, megtalált eszközöket és riasztásokat.',
+  'register.intro': 'Külföldről uniós országokba jutott drónok: berepülések, lelövések, lezuhanások és roncsok, köztük olyanok is, amelyek üzemeltetője ismeretlen. A szokásos drónészlelések, például a legtöbb repülőtéri fennakadás, nem szerepelnek.',
   'stats.records': 'bejegyzés',
   'stats.countries': 'uniós ország',
   'stats.cutoff': 'adatzárás',

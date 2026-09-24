@@ -14,7 +14,7 @@
   'register.eyebrow': 'ĮVYKIŲ REGISTRAS',
   'register.headline1': 'Metai ore.',
   'register.headline2': 'Ir pakrantėse.',
-  'register.intro': 'Naršykite pranešimus apie skrydžius, radinius ir įspėjimus visoje Europoje.',
+  'register.intro': 'Iš užsienio į ES šalis patekę dronai: įskridimai, numušimai, sudužimai ir nuolaužos, taip pat tie, kurių operatorius nežinomas. Įprasti dronų pastebėjimai, pavyzdžiui, dauguma sutrikimų oro uostuose, neįtraukti.',
   'stats.records': 'įrašai',
   'stats.countries': 'ES šalys',
   'stats.cutoff': 'duomenų aprėpties pabaiga',

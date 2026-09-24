@@ -14,7 +14,7 @@
   'register.eyebrow': 'SÜNDMUSTE REGISTER',
   'register.headline1': 'Aasta õhus.',
   'register.headline2': 'Ja piki rannikut.',
-  'register.intro': 'Uuri teatatud lende, leide ja häireid üle Euroopa.',
+  'register.intro': 'Välismaalt ELi riikidesse jõudnud droonid: sissetungid, allatulistamised, allakukkumised ja rusud, sealhulgas need, mille käitaja on teadmata. Tavalised droonivaatlused, nagu enamik lennujaamade tööhäireid, ei ole kaasatud.',
   'stats.records': 'kirjet',
   'stats.countries': 'ELi riiki',
   'stats.cutoff': 'andmed kuni',

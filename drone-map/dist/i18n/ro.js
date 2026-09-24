@@ -14,7 +14,7 @@
   'register.eyebrow': 'REGISTRUL EVENIMENTELOR',
   'register.headline1': 'Un an în aer.',
   'register.headline2': 'Și de-a lungul coastei.',
-  'register.intro': 'Explorați zborurile, descoperirile și alertele raportate în Europa.',
+  'register.intro': 'Drone ajunse din străinătate în țări din UE: incursiuni, doborâri, prăbușiri și resturi, inclusiv cele cu operator necunoscut. Simplele observări de drone, precum majoritatea perturbărilor din aeroporturi, nu sunt incluse.',
   'stats.records': 'înregistrări',
   'stats.countries': 'țări din UE',
   'stats.cutoff': 'limita acoperirii',

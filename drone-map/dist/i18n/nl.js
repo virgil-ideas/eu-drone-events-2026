@@ -14,7 +14,7 @@
   'register.eyebrow': 'HET REGISTER VAN VOORVALLEN',
   'register.headline1': 'Een jaar in de lucht.',
   'register.headline2': 'En langs de kust.',
-  'register.intro': 'Verken gemelde vluchten, vondsten en waarschuwingen in heel Europa.',
+  'register.intro': 'Drones die vanuit het buitenland EU-landen bereikten: binnendringingen, neerschietingen, neerstortingen en wrakstukken, ook die waarvan de operator onbekend is. Gewone dronewaarnemingen, zoals de meeste verstoringen op luchthavens, zijn niet opgenomen.',
   'stats.records': 'registraties',
   'stats.countries': 'EU-landen',
   'stats.cutoff': 'peildatum',

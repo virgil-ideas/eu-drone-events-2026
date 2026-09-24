@@ -120,3 +120,5 @@ html[data-i18n-pending] body{visibility:hidden;animation:i18n-reveal 0s 2.5s for
 /* Longer translations: keep the timeline controls within narrow phones. */
 @media(max-width:760px){.timeline{grid-template-columns:minmax(0,1fr) auto}.show-all{height:auto;min-height:38px;max-width:118px;white-space:normal;line-height:1.2;padding:4px 10px}}
 @media(max-width:480px){.play-button{min-width:0;width:46px;padding:0}.play-button span{display:none}.map-button span{display:none}}
+/* The intro states the register's scope, so phones show it too. */
+@media(max-width:760px){.sidebar-heading .intro{display:block;grid-column:1/-1;max-width:none;margin:2px 0 16px}}

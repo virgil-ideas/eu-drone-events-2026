@@ -14,7 +14,7 @@
   'register.eyebrow': 'IL REGISTRO DEGLI EVENTI',
   'register.headline1': 'Un anno nei cieli.',
   'register.headline2': 'E lungo le coste.',
-  'register.intro': 'Esplora voli, ritrovamenti e allerte segnalati in tutta Europa.',
+  'register.intro': 'Droni giunti nei paesi dell’UE dall’estero: incursioni, abbattimenti, schianti e rottami, compresi quelli di cui non si conosce l’operatore. I semplici avvistamenti di droni, come la maggior parte dei disagi negli aeroporti, non sono inclusi.',
   'stats.records': 'schede',
   'stats.countries': 'paesi dell’UE',
   'stats.cutoff': 'fine della copertura',
