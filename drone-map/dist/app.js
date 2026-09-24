@@ -9,6 +9,7 @@
   // distinguishes a shoot-down from a surface drone damaged by aircraft fire.
   $('map-legend').innerHTML = Object.entries(categoryLabels).filter(([key]) => key !== 'engaged').map(([key,label]) => `<span><i style="background:${colors[key]}"></i>${key === 'shotdown' ? 'Shot down / armed engagement' : label}</span>`).join('');
   const DAY = 86400000;
+  const REPLAY_DAYS_PER_SECOND = 8;
   const dateValue = date => Date.parse(date + 'T00:00:00Z');
   const firstTime = dateValue(events[0].startDate);
   const lastTime = dateValue(cutoff);
@@ -20,13 +21,91 @@
   const dateCounts = new Map();
   events.forEach(e => dateCounts.set(e.startDate, (dateCounts.get(e.startDate) || 0) + 1));
   let currentDay = totalDays;
+  let playbackDay = totalDays;
   let allMode = true;
   let playing = false;
-  let timer = null;
+  let animationFrame = null;
+  let lastFrameTime = null;
+  let renderedRecordCount = -1;
   let selectedId = null;
   let visibleEvents = events;
   let returnFocus = null;
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let soundEnabled = true;
+  let audioContext = null;
+  let audioOutput = null;
+  // C-major pentatonic, rising with the event type's severity cue.
+  const categoryNotes = {alert:60, recovery:62, flight:64, disposal:67, engaged:69, shotdown:72, crash:74, explosion:76};
+  const activeVoices = new Set();
+
+  function prepareAudio() {
+    if (!soundEnabled) return;
+    try {
+      const Audio = window.AudioContext || window.webkitAudioContext;
+      if (!Audio) return;
+      if (!audioContext) {
+        audioContext = new Audio();
+        audioOutput = audioContext.createGain();
+        audioOutput.gain.value = 0.018;
+        audioOutput.connect(audioContext.destination);
+      }
+      return audioContext.resume().catch(() => {});
+    } catch { /* Replay still works when audio is unavailable. */ }
+  }
+  function stopChord() {
+    if (!audioContext) return;
+    const now = audioContext.currentTime;
+    activeVoices.forEach(({tone,envelope}) => {
+      const level = envelope.gain.value;
+      if (envelope.gain.cancelAndHoldAtTime) envelope.gain.cancelAndHoldAtTime(now);
+      else {
+        envelope.gain.cancelScheduledValues(now);
+        envelope.gain.setValueAtTime(level,now);
+      }
+      envelope.gain.linearRampToValueAtTime(0,now + 0.014);
+      tone.stop(now + 0.018);
+    });
+    activeVoices.clear();
+  }
+  function playArrivalSound(arrivals) {
+    if (!soundEnabled || audioContext?.state !== 'running' || !arrivals.length) return;
+    stopChord();
+    const now = audioContext.currentTime;
+    const counts = new Map();
+    arrivals.forEach(event => counts.set(event.category,(counts.get(event.category) || 0) + 1));
+    // Types form a chord. Repeated types affect its balance, not the volume cap.
+    const totalWeight = [...counts.values()].reduce((sum,count) => sum + Math.sqrt(count),0);
+    counts.forEach((count,category) => {
+      const tone = audioContext.createOscillator();
+      const envelope = audioContext.createGain();
+      const level = Math.sqrt(count) / totalWeight;
+      tone.type = 'sine';
+      tone.frequency.setValueAtTime(440 * 2 ** ((categoryNotes[category] - 69) / 12),now);
+      envelope.gain.setValueAtTime(0,now);
+      envelope.gain.linearRampToValueAtTime(level,now + 0.014);
+      envelope.gain.exponentialRampToValueAtTime(0.0001,now + 0.22);
+      envelope.gain.linearRampToValueAtTime(0,now + 0.24);
+      tone.connect(envelope).connect(audioOutput);
+      const voice = {tone,envelope};
+      activeVoices.add(voice);
+      tone.onended = () => { tone.disconnect(); envelope.disconnect(); activeVoices.delete(voice); };
+      tone.start(now);
+      tone.stop(now + 0.24);
+    });
+  }
+  function revealEvents(arrivals) {
+    if (!arrivals.length) return;
+    if (!reducedMotion) arrivals.forEach(event => markers.get(event.id).forEach(marker => {
+      const point = marker.getElement()?.querySelector('.marker-point');
+      if (!point) return;
+      const ripple = document.createElement('span');
+      ripple.className = 'marker-ripple';
+      ripple.setAttribute('aria-hidden','true');
+      ripple.addEventListener('animationend',() => ripple.remove(),{once:true});
+      point.append(ripple);
+    }));
+    playArrivalSound(arrivals);
+  }
 
   const map = L.map('map', {zoomControl:false, minZoom:3, maxZoom:16, scrollWheelZoom:true, zoomSnap:.25, worldCopyJump:true});
   L.control.zoom({position:'topright'}).addTo(map);
@@ -68,35 +147,52 @@
   }
 
   function renderList() {
-    let previousMonth = '';
-    $('event-list').innerHTML = visibleEvents.map(event => {
-      const month = event.startDate.slice(0,7);
-      let heading = '';
-      if (month !== previousMonth) {
-        previousMonth = month;
-        const monthName = new Date(dateValue(event.startDate)).toLocaleDateString('en-GB',{month:'long',timeZone:'UTC'});
-        heading = `<h3 class="event-month">${escape(monthName.toUpperCase())} 2026</h3>`;
-      }
-      const dayLabel = event.dateLabel === event.startDate ? shortDate(event.startDate) : `${shortDate(event.startDate)} · date notes`;
-      return `${heading}<button class="event-card${!allMode && event.startDate === dayToDate(currentDay) ? ' current' : ''}" id="card-${event.id}" data-id="${event.id}" style="--category:${colors[event.category]}" aria-pressed="${selectedId === event.id}"><span class="event-dot" aria-hidden="true"></span><span class="event-meta"><span>${escape(dayLabel)} · ${escape(event.countries.split(';')[0].replace(/ \(.+\)/,''))}</span><span class="event-id">${event.id}</span></span><span class="event-title">${escape(event.title)}</span><span class="event-type">${escape(event.status)}</span></button>`;
-    }).join('');
+    // Quiet days only change the date and highlights, not the list's DOM.
+    if (renderedRecordCount !== visibleEvents.length) {
+      let previousMonth = '';
+      $('event-list').innerHTML = visibleEvents.map(event => {
+        const month = event.startDate.slice(0,7);
+        let heading = '';
+        if (month !== previousMonth) {
+          previousMonth = month;
+          const monthName = new Date(dateValue(event.startDate)).toLocaleDateString('en-GB',{month:'long',timeZone:'UTC'});
+          heading = `<h3 class="event-month">${escape(monthName.toUpperCase())} 2026</h3>`;
+        }
+        const dayLabel = event.dateLabel === event.startDate ? shortDate(event.startDate) : `${shortDate(event.startDate)} · date notes`;
+        return `${heading}<button class="event-card${!allMode && event.startDate === dayToDate(currentDay) ? ' current' : ''}" id="card-${event.id}" data-id="${event.id}" data-date="${event.startDate}" style="--category:${colors[event.category]}" aria-pressed="${selectedId === event.id}"><span class="event-dot" aria-hidden="true"></span><span class="event-meta"><span>${escape(dayLabel)} · ${escape(event.countries.split(';')[0].replace(/ \(.+\)/,''))}</span><span class="event-id">${event.id}</span></span><span class="event-title">${escape(event.title)}</span><span class="event-type">${escape(event.status)}</span></button>`;
+      }).join('');
+      renderedRecordCount = visibleEvents.length;
+    }
+    document.querySelectorAll('.event-card').forEach(card => {
+      card.classList.toggle('current', !allMode && card.dataset.date === dayToDate(currentDay));
+    });
     $('visible-count').textContent = `${visibleEvents.length} of 84 records`;
     $('list-title').textContent = allMode ? 'All events' : `Through ${shortDate(dayToDate(currentDay))}`;
   }
 
   function renderMarkers() {
-    eventLayer.clearLayers();
-    visibleEvents.forEach(event => markers.get(event.id).forEach((marker,index) => {
-      marker.setIcon(markerIcon(event,event.positions[index]));
-      marker.setZIndexOffset(event.id === selectedId ? 1000 : 0);
-      eventLayer.addLayer(marker);
+    const visibleIds = new Set(visibleEvents.map(event => event.id));
+    const arrivals = new Set();
+    events.forEach(event => markers.get(event.id).forEach(marker => {
+      if (visibleIds.has(event.id)) {
+        if (!eventLayer.hasLayer(marker)) {
+          eventLayer.addLayer(marker);
+          arrivals.add(event);
+        }
+      } else if (eventLayer.hasLayer(marker)) {
+        eventLayer.removeLayer(marker);
+      }
     }));
+    refreshSelection();
+    if (playing) revealEvents([...arrivals]);
   }
 
   function refreshSelection() {
     document.querySelectorAll('.event-card').forEach(card => card.setAttribute('aria-pressed', String(card.dataset.id === selectedId)));
-    visibleEvents.forEach(event => markers.get(event.id).forEach((marker,index) => {
-      marker.setIcon(markerIcon(event,event.positions[index]));
+    visibleEvents.forEach(event => markers.get(event.id).forEach(marker => {
+      const element = marker.getElement();
+      element?.classList.toggle('selected', event.id === selectedId);
+      element?.classList.toggle('today', !allMode && event.startDate === dayToDate(currentDay));
       marker.setZIndexOffset(event.id === selectedId ? 1000 : 0);
     }));
   }
@@ -118,7 +214,7 @@
     const event = events.find(e => e.id === id);
     if (!event) throw new Error('Unknown event ID');
     pause();
-    if (!visibleEvents.some(e => e.id === id)) { allMode = false; currentDay = Math.round((dateValue(event.startDate)-firstTime)/DAY); render(); }
+    if (!visibleEvents.some(e => e.id === id)) { allMode = false; currentDay = Math.round((dateValue(event.startDate)-firstTime)/DAY); playbackDay = currentDay; render(); }
     selectedId = id;
     returnFocus = document.activeElement;
     $('detail').hidden = false;
@@ -154,8 +250,7 @@
     if (selectedId && !visibleEvents.some(e => e.id === selectedId)) { selectedId = null; $('detail').hidden = true; }
     renderList();
     renderMarkers();
-    $('timeline-range').value = currentDay;
-    $('timeline-range').style.setProperty('--progress',`${currentDay / totalDays * 100}%`);
+    renderPlayhead();
     $('timeline-range').setAttribute('aria-valuetext',`${longDate(date)}, ${visibleEvents.length} records visible`);
     $('current-date').textContent = allMode ? 'All events' : longDate(date);
     $('timeline-status').textContent = allMode ? '84 records · cumulative replay' : `${visibleEvents.length} visible · ${dateCounts.get(date) || 0} on this date`;
@@ -169,44 +264,64 @@
     });
   }
 
+  function renderPlayhead() {
+    $('timeline-range').value = playbackDay;
+    $('timeline-range').style.setProperty('--progress',`${playbackDay / totalDays * 100}%`);
+  }
   function updatePlayButton() {
     $('play').setAttribute('aria-label',playing ? 'Pause timeline' : 'Play timeline');
     $('play').setAttribute('aria-pressed',String(playing));
     $('play').innerHTML = playing ? '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg><span>Pause</span>' : '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg><span>Replay</span>';
   }
-  function pause() {
+  function pause(stopSound = true) {
     playing = false;
-    clearTimeout(timer);
-    timer = null;
+    cancelAnimationFrame(animationFrame);
+    animationFrame = null;
+    lastFrameTime = null;
+    if (stopSound) stopChord();
     updatePlayButton();
   }
-  function scheduleTick() {
-    clearTimeout(timer);
-    timer = setTimeout(() => {
-      if (!playing) return;
-      const nextDay = eventDays.find(day => day > currentDay);
-      if (nextDay === undefined) { pause(); return; }
+  function tick(timestamp) {
+    if (!playing) return;
+    const elapsed = lastFrameTime === null ? 0 : (timestamp - lastFrameTime) / 1000;
+    lastFrameTime = timestamp;
+    playbackDay = Math.min(totalDays, playbackDay + elapsed * REPLAY_DAYS_PER_SECOND * Number($('speed').value));
+    const nextDay = Math.floor(playbackDay);
+    if (nextDay !== currentDay) {
       currentDay = nextDay;
       render();
       scrollToCurrent();
-      if (currentDay >= totalDays) { pause(); $('announcer').textContent = 'Replay complete. All 84 records are visible.'; }
-      else scheduleTick();
-    },1800 / Number($('speed').value));
+    } else {
+      renderPlayhead();
+    }
+    if (currentDay >= totalDays) {
+      pause(false);
+      $('announcer').textContent = 'Replay complete. All 84 records are visible.';
+    } else {
+      animationFrame = requestAnimationFrame(tick);
+    }
   }
   function scrollToCurrent() {
     const current = $('event-list').querySelector('.event-card.current');
     if (current) $('event-list').scrollTo({top:current.offsetTop - $('event-list').offsetTop - 34,behavior:'auto'});
   }
   function play() {
+    const audioReady = prepareAudio();
+    const waitingForAudio = audioContext?.state === 'suspended';
     closeDetail();
-    if (allMode || currentDay >= totalDays) currentDay = 0;
+    if (allMode || currentDay >= totalDays) currentDay = playbackDay = 0;
     allMode = false;
     playing = true;
     render();
+    if (playbackDay === 0) {
+      revealEvents(visibleEvents);
+      if (waitingForAudio) audioReady?.then(() => { if (playing && currentDay === 0) playArrivalSound(visibleEvents); });
+    }
     fitEventsForReplay();
     scrollToCurrent();
     updatePlayButton();
-    scheduleTick();
+    lastFrameTime = performance.now();
+    animationFrame = requestAnimationFrame(tick);
   }
   function fitEventsForReplay() {
     const allPoints = events.flatMap(e => e.positions.map(p => [p.lat,p.lng]));
@@ -215,16 +330,20 @@
   function setDay(day) {
     if (!Number.isInteger(day) || day < 0 || day > totalDays) throw new Error('Timeline day is outside the register');
     pause();
+    document.querySelectorAll('.marker-ripple').forEach(ripple => ripple.remove());
     currentDay = day;
+    playbackDay = day;
     allMode = false;
     render();
     scrollToCurrent();
   }
   function showAll() {
     pause();
+    document.querySelectorAll('.marker-ripple').forEach(ripple => ripple.remove());
     closeDetail();
     allMode = true;
     currentDay = totalDays;
+    playbackDay = totalDays;
     render();
     fitEvents();
     $('event-list').scrollTop = 0;
@@ -244,8 +363,28 @@
   }).join('');
   $('context-records').innerHTML = contexts.map(c => `<details><summary><strong>${c.id}</strong> · ${escape(c.countries)}</summary><p class="context-meta">${escape(c.dateLabel)} · ${escape(c.status)}</p><p>${escape(c.vehicle)}</p><p>${escape(c.attribution)}</p><p>${escape(c.deduplication)}</p><p>${escape(c.uncertainty)}</p>${sourceLinks(c.sources)}</details>`).join('');
   $('play').addEventListener('click',() => playing ? pause() : play());
-  $('speed').addEventListener('change',() => { if (playing) scheduleTick(); });
-  $('timeline-range').addEventListener('input',event => setDay(Number(event.target.value)));
+  $('sound').addEventListener('click',() => {
+    soundEnabled = !soundEnabled;
+    $('sound').setAttribute('aria-pressed',String(soundEnabled));
+    $('sound').title = soundEnabled ? 'Mute replay sound' : 'Unmute replay sound';
+    $('sound').querySelector('.sound-waves').toggleAttribute('hidden',!soundEnabled);
+    $('sound').querySelector('.sound-muted').toggleAttribute('hidden',soundEnabled);
+    if (audioOutput) audioOutput.gain.setTargetAtTime(soundEnabled ? 0.018 : 0,audioContext.currentTime,0.005);
+    if (!soundEnabled) stopChord();
+    if (soundEnabled && playing) prepareAudio();
+  });
+  $('timeline-range').addEventListener('input',event => setDay(Math.round(Number(event.target.value))));
+  // The playhead moves continuously, while manual scrubbing snaps to dates.
+  $('timeline-range').addEventListener('keydown',event => {
+    const steps = {ArrowLeft:-1, ArrowDown:-1, ArrowRight:1, ArrowUp:1, PageDown:-7, PageUp:7};
+    let day;
+    if (Object.hasOwn(steps,event.key)) day = currentDay + steps[event.key];
+    else if (event.key === 'Home') day = 0;
+    else if (event.key === 'End') day = totalDays;
+    else return;
+    event.preventDefault();
+    setDay(Math.max(0,Math.min(totalDays,day)));
+  });
   $('previous').addEventListener('click',() => setDay([...eventDays].reverse().find(day => day < currentDay) ?? 0));
   $('next').addEventListener('click',() => setDay(eventDays.find(day => day > currentDay) ?? totalDays));
   $('show-all').addEventListener('click',showAll);

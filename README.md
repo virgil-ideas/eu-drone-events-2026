@@ -4,7 +4,7 @@
 
 A zoomable map and timeline replay of 84 event records from the supplied EU foreign-drone research register, through 24 September 2026.
 
-Every record has an individual marker with a minimum visible size. Colors distinguish flights, shoot-downs or armed engagements, crashes, reported explosions, controlled disposal, recoveries, and alerts or other outcomes. The scrollable register includes source links, uncertainty and counting notes. Replay supports pause, date scrubbing, event-date stepping and playback speeds.
+Every record has an individual marker with a minimum visible size. Colors distinguish flights, shoot-downs or armed engagements, crashes, reported explosions, controlled disposal, recoveries, and alerts or other outcomes. The scrollable register includes source links, uncertainty and counting notes. Replay moves smoothly through every calendar day at 8 days per second by default, with pause, date scrubbing, event-date stepping and 2×/4× playback speeds. New events ripple and play quiet pentatonic notes by type, combining into chords on shared dates; sound can be muted.
 
 Positions are approximate editorial anchors. These are record counts, not a count of confirmed attacks or unique drones. The four aggregate/context records remain separate from the map count.
 
