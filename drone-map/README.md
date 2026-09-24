@@ -88,11 +88,20 @@ The map uses locally vendored [Leaflet 1.9.4](https://leafletjs.com/download.htm
 
 Optional WebMCP tools use the same visible selection and timeline actions when supported by the browser. They were checked with valid and invalid inputs in the local preview.
 
+## Visitor statistics
+
+The map uses [GoatCounter](https://www.goatcounter.com/) for a private visitor dashboard with country totals. The public counting endpoint in `dist/analytics.js` connects to the owner's `ideanathor` account. The site URL is `https://droneincidents.eu/`; keep the dashboard private in the account settings. No password or API token belongs in this repository. Set the endpoint to an empty string to disable tracking.
+
+Open [the analytics dashboard](https://ideanathor.goatcounter.com/) and sign in to read visits and the Locations breakdown. Keep Sessions and Locations enabled under Data collection; other dimensions can be disabled. Country is inferred from the visitor's network address, so VPNs can affect it. GoatCounter uses short-lived sessions to estimate visits without cookies; this is not a lifetime count of distinct people.
+
+The script runs only on `droneincidents.eu`, its `www` variant, and the original GitHub Pages map URL. Local previews send nothing. All these addresses, language URLs and `index.html` count as one map page (`/`), with no query strings, selected event IDs, or referrer values sent by the integration. Replay, panning, language changes and event selection do not send additional hits. Statistics start when tracking is enabled; visitors who block analytics will not be counted. If the analytics service is unavailable, the map continues working.
+
 ## Project layout
 
 - `dist/index.html` — complete static page
 - `dist/styles.css` — desktop and mobile layouts
 - `dist/app.js` — map, trend panel, event details, replay controls and language switching
+- `dist/analytics.js` — production-only visitor counting
 - `dist/events.js` — generated source data
 - `dist/media.js` — generated preview images and video for cited sources, plus curated extras
 - `dist/i18n/` — interface strings for the 24 official EU languages

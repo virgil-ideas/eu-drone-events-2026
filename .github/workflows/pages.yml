@@ -26,6 +26,7 @@ jobs:
       - name: Validate JavaScript and source data
         run: |
           node --check drone-map/dist/app.js
+          node --check drone-map/dist/analytics.js
           node --check drone-map/dist/events.js
           node --check drone-map/dist/media.js
           for file in drone-map/dist/i18n/*.js; do node --check "$file"; done
