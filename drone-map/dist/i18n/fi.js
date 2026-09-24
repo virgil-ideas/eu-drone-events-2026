@@ -14,7 +14,7 @@
   'register.eyebrow': 'TAPAHTUMAREKISTERI',
   'register.headline1': 'Vuosi ilmassa.',
   'register.headline2': 'Ja rannikolla.',
-  'register.intro': 'Tutustu raportoituihin lentoihin, löytöihin ja hälytyksiin eri puolilla Eurooppaa.',
+  'register.intro': 'Ulkomailta EU-maihin tulleet droonit: tunkeutumiset, alasampumiset, putoamiset ja hylyt, myös ne, joiden operaattori on tuntematon. Tavallisia droonihavaintoja, kuten useimpia lentoasemien häiriöitä, ei ole mukana.',
   'stats.records': 'merkintää',
   'stats.countries': 'EU-maata',
   'stats.cutoff': 'aineiston rajapäivä',

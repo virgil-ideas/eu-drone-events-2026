@@ -14,7 +14,7 @@
   'register.eyebrow': 'REJESTR ZDARZEŃ',
   'register.headline1': 'Rok w powietrzu.',
   'register.headline2': 'I na wybrzeżu.',
-  'register.intro': 'Przeglądaj zgłoszone przeloty, znaleziska i ostrzeżenia w całej Europie.',
+  'register.intro': 'Drony, które dotarły do państw UE z zagranicy: wtargnięcia, zestrzelenia, upadki i szczątki, także te, których operator jest nieznany. Zwykłe obserwacje dronów, jak większość zakłóceń na lotniskach, nie są uwzględnione.',
   'stats.records': 'wpisy',
   'stats.countries': 'państwa UE',
   'stats.cutoff': 'koniec zakresu danych',

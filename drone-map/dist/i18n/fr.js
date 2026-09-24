@@ -14,7 +14,7 @@
   'register.eyebrow': 'LE REGISTRE DES ÉVÉNEMENTS',
   'register.headline1': 'Une année dans les airs.',
   'register.headline2': 'Et le long des côtes.',
-  'register.intro': 'Explorez les vols, découvertes et alertes signalés à travers l’Europe.',
+  'register.intro': 'Drones arrivés de l’étranger dans des pays de l’UE : incursions, abattages, écrasements et débris, y compris ceux dont l’opérateur est inconnu. Les simples observations de drones, comme la plupart des perturbations dans les aéroports, ne sont pas incluses.',
   'stats.records': 'fiches',
   'stats.countries': 'pays de l’UE',
   'stats.cutoff': 'fin de la couverture',

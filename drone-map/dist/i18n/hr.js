@@ -14,7 +14,7 @@
   'register.eyebrow': 'REGISTAR DOGAĐAJA',
   'register.headline1': 'Godina u zraku.',
   'register.headline2': 'I duž obale.',
-  'register.intro': 'Istražite prijavljene letove, pronalaske i uzbune diljem Europe.',
+  'register.intro': 'Dronovi koji su iz inozemstva dospjeli u zemlje EU-a: upadi, obaranja, padovi i olupine, uključujući one nepoznatog operatera. Obična opažanja dronova, poput većine poremećaja u zračnim lukama, nisu uključena.',
   'stats.records': 'zapisa',
   'stats.countries': 'zemalja EU-a',
   'stats.cutoff': 'kraj obuhvata',

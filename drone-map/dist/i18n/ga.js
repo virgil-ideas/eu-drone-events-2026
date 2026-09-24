@@ -14,7 +14,7 @@
   'register.eyebrow': 'CLÁR NA dTEAGMHAS',
   'register.headline1': 'Bliain san aer.',
   'register.headline2': 'Agus feadh an chósta.',
-  'register.intro': 'Taiscéal eitiltí, fionnachtana agus foláirimh a tuairiscíodh ar fud na hEorpa.',
+  'register.intro': 'Dróin a shroich tíortha AE ó thar lear: iontrálacha, scaoileadh anuas, tuairteálacha agus smionagar, lena n-áirítear cinn nach eol a n-oibreoir. Ní áirítear gnáthradhairc ar dhróin, amhail an chuid is mó den chur isteach ar aerfoirt.',
   'stats.records': 'taifid',
   'stats.countries': 'tíortha AE',
   'stats.cutoff': 'deireadh an chlúdaigh',

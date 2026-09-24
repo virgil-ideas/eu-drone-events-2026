@@ -14,7 +14,7 @@
   'register.eyebrow': 'O REGISTO DE OCORRÊNCIAS',
   'register.headline1': 'Um ano no ar.',
   'register.headline2': 'E ao longo da costa.',
-  'register.intro': 'Explore voos, achados e alertas comunicados em toda a Europa.',
+  'register.intro': 'Drones que chegaram a países da UE vindos do estrangeiro: incursões, abates, quedas e destroços, incluindo aqueles cujo operador é desconhecido. Os simples avistamentos de drones, como a maioria das perturbações em aeroportos, não estão incluídos.',
   'stats.records': 'registos',
   'stats.countries': 'países da UE',
   'stats.cutoff': 'fim da cobertura',

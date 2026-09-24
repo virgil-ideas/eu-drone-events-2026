@@ -14,7 +14,7 @@
   'register.eyebrow': 'IR-REĠISTRU TAL-AVVENIMENTI',
   'register.headline1': 'Sena fl-arja.',
   'register.headline2': 'U tul il-kosta.',
-  'register.intro': 'Esplora t-titjiriet, is-sejbiet u t-twissijiet irrappurtati madwar l-Ewropa.',
+  'register.intro': 'Drones li waslu f’pajjiżi tal-UE minn barra: inkursjonijiet, twaqqigħ, waqgħat u fdalijiet, inklużi dawk b’operatur mhux magħruf. L-osservazzjonijiet ordinarji ta’ drones, bħall-biċċa l-kbira tat-tfixkil fl-ajruporti, mhumiex inklużi.',
   'stats.records': 'rekords',
   'stats.countries': 'pajjiżi tal-UE',
   'stats.cutoff': 'tmiem il-kopertura',

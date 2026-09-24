@@ -14,7 +14,7 @@
   'register.eyebrow': 'NOTIKUMU REĢISTRS',
   'register.headline1': 'Gads gaisā.',
   'register.headline2': 'Un piekrastē.',
-  'register.intro': 'Izpētiet ziņotos lidojumus, atradumus un brīdinājumus visā Eiropā.',
+  'register.intro': 'No ārvalstīm ES valstīs nonākušie droni: ielidojumi, notriekšana, avārijas un atlūzas, arī tie, kuru operators nav zināms. Parastie dronu novērojumi, piemēram, vairums traucējumu lidostās, nav iekļauti.',
   'stats.records': 'ieraksti',
   'stats.countries': 'ES valstis',
   'stats.cutoff': 'datu aptveres beigas',
