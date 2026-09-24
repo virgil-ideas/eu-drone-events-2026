@@ -27,6 +27,9 @@ jobs:
         run: |
           node --check drone-map/dist/app.js
           node --check drone-map/dist/events.js
+          node --check drone-map/dist/media.js
+          for file in drone-map/dist/i18n/*.js; do node --check "$file"; done
+          node drone-map/scripts/check-i18n.js
           python3 drone-map/scripts/build-data.py
           git diff --exit-code -- drone-map/dist/events.js drone-map/dist/eu_foreign_drone_events_2026_consolidated.md drone-map/dist/eu_foreign_drone_events_2026_final_update_deduped.md
       - name: Configure GitHub Pages
