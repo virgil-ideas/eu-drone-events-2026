@@ -35,7 +35,8 @@
   let audioContext = null;
   let audioOutput = null;
   // C-major pentatonic, rising with the event type's severity cue.
-  const categoryNotes = {alert:60, recovery:62, flight:64, disposal:67, engaged:69, shotdown:72, crash:74, explosion:76};
+  const categoryNotes = {alert:72, recovery:74, flight:76, disposal:79, engaged:81, shotdown:84, crash:86, explosion:88};
+  const REPLAY_VOLUME = 0.05;
   const activeVoices = new Set();
 
   function prepareAudio() {
@@ -46,7 +47,7 @@
       if (!audioContext) {
         audioContext = new Audio();
         audioOutput = audioContext.createGain();
-        audioOutput.gain.value = 0.018;
+        audioOutput.gain.value = REPLAY_VOLUME;
         audioOutput.connect(audioContext.destination);
       }
       return audioContext.resume().catch(() => {});
@@ -369,7 +370,7 @@
     $('sound').title = soundEnabled ? 'Mute replay sound' : 'Unmute replay sound';
     $('sound').querySelector('.sound-waves').toggleAttribute('hidden',!soundEnabled);
     $('sound').querySelector('.sound-muted').toggleAttribute('hidden',soundEnabled);
-    if (audioOutput) audioOutput.gain.setTargetAtTime(soundEnabled ? 0.018 : 0,audioContext.currentTime,0.005);
+    if (audioOutput) audioOutput.gain.setTargetAtTime(soundEnabled ? REPLAY_VOLUME : 0,audioContext.currentTime,0.005);
     if (!soundEnabled) stopChord();
     if (soundEnabled && playing) prepareAudio();
   });
