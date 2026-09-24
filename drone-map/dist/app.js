@@ -305,11 +305,12 @@
   }
 
   function renderList() {
-    // Quiet days only change the date and highlights, not the list's DOM.
+    // Newest records first. Quiet days only change the date and highlights,
+    // not the list's DOM.
     const recordKey = visibleEvents.map(event => event.id).join(',') + lang;
     if (renderedRecordKey !== recordKey) {
       let previousMonth = '';
-      $('event-list').innerHTML = visibleEvents.map(event => {
+      $('event-list').innerHTML = [...visibleEvents].reverse().map(event => {
         const month = event.startDate.slice(0,7);
         let heading = '';
         if (month !== previousMonth) {
@@ -550,9 +551,12 @@
       animationFrame = requestAnimationFrame(tick);
     }
   }
+  // The newest records sit at the top of the list. Follow them while the
+  // reader is in the list; otherwise leave the trend panel in view.
   function scrollToCurrent() {
-    const current = $('event-list').querySelector('.event-card.current');
-    if (current) scrollListTo(current, 'auto');
+    const scroller = listScroller();
+    const listTop = scroller === $('event-list') ? 0 : $('event-list').getBoundingClientRect().top - scroller.getBoundingClientRect().top + scroller.scrollTop - document.querySelector('.list-heading').offsetHeight;
+    if (scroller.scrollTop > listTop) scroller.scrollTop = listTop;
   }
   function play() {
     const audioReady = prepareAudio();
