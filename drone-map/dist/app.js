@@ -12,7 +12,7 @@
   const DAY = 86400000;
   const REPLAY_DAYS_PER_SECOND = 8;
   const dateValue = date => Date.parse(date + 'T00:00:00Z');
-  const firstTime = dateValue(events[0].startDate);
+  const firstTime = dateValue(cutoff.slice(0,4) + '-01-01');
   const lastTime = dateValue(cutoff);
   const totalDays = Math.round((lastTime - firstTime) / DAY);
   const shortDate = date => new Date(dateValue(date)).toLocaleDateString('en-GB', {day:'numeric',month:'short',timeZone:'UTC'});
@@ -257,7 +257,7 @@
     $('timeline-range').setAttribute('aria-valuetext',`${longDate(date)}, ${visibleEvents.length} records visible`);
     $('current-date').textContent = allMode ? 'All dates' : longDate(date);
     $('timeline-status').textContent = allMode ? `${events.length} records · cumulative replay` : `${visibleEvents.length} visible · ${dateCounts.get(date) || 0} on this date`;
-    $('map-period').textContent = allMode ? `${shortDate(events[0].startDate)} — ${shortDate(cutoff)} 2026` : `Through ${shortDate(date)} 2026`;
+    $('map-period').textContent = allMode ? `${shortDate(dayToDate(0))} — ${shortDate(cutoff)} 2026` : `Through ${shortDate(date)} 2026`;
     $('show-all').setAttribute('aria-pressed',String(allMode));
     $('previous').disabled = currentDay <= eventDays[0];
     $('next').disabled = currentDay >= totalDays;
@@ -312,14 +312,13 @@
     const audioReady = prepareAudio();
     const waitingForAudio = audioContext?.state === 'suspended';
     closeDetail();
-    const firstIncludedDay = eventDays[0];
-    if (allMode || currentDay >= totalDays) currentDay = playbackDay = firstIncludedDay;
+    if (allMode || currentDay >= totalDays) currentDay = playbackDay = 0;
     allMode = false;
     playing = true;
     render();
-    if (playbackDay === firstIncludedDay) {
+    if (playbackDay === 0) {
       revealEvents(visibleEvents);
-      if (waitingForAudio) audioReady?.then(() => { if (playing && currentDay === firstIncludedDay) playArrivalSound(visibleEvents); });
+      if (waitingForAudio) audioReady?.then(() => { if (playing && currentDay === 0) playArrivalSound(visibleEvents); });
     }
     fitEventsForReplay();
     scrollToCurrent();
@@ -359,7 +358,7 @@
   $('register-summary').textContent = `${events.length} records are shown: ${baseCount} baseline records, ${eventCount - baseCount} new event additions and ${candidateCount} unidentified object under Alert / other. The ${contexts.length} aggregate/context records stay outside map counts. Both research files and all ${Object.keys(sources).length} source references are retained. Coverage ends on ${longDate(cutoff)}.`;
   $('context-title').textContent = `${contexts.length} context records · excluded from the map count`;
   $('country-total').textContent = new Set(events.flatMap(event => event.countries.split(';').map(country => country.replace(/ \(.+\)/,'').trim()))).size;
-  $('replay-duration').textContent = Math.round((totalDays - Math.round((dateValue(events[0].startDate)-firstTime)/DAY)) / REPLAY_DAYS_PER_SECOND);
+  $('replay-duration').textContent = Math.round(totalDays / REPLAY_DAYS_PER_SECOND);
   $('timeline-range').max = totalDays;
   $('timeline-range').value = totalDays;
   const maxCount = Math.max(...dateCounts.values());
@@ -368,8 +367,8 @@
     return `<span class="histogram-bar" data-day="${day}" style="height:${count ? Math.max(4,count/maxCount*27) : 0}px"></span>`;
   }).join('');
   $('record-total').textContent = events.length;
-  document.querySelector('.month-labels').innerHTML = Array.from({length:8},(_,i) => {
-    const time = Date.UTC(2026,i+1,1);
+  document.querySelector('.month-labels').innerHTML = Array.from({length:new Date(lastTime).getUTCMonth()+1},(_,i) => {
+    const time = Date.UTC(new Date(firstTime).getUTCFullYear(),i,1);
     const label = new Date(time).toLocaleDateString('en-GB',{month:'short',timeZone:'UTC'}).toUpperCase();
     return `<span style="left:${(time-firstTime)/(lastTime-firstTime)*100}%">${label}</span>`;
   }).join('');
