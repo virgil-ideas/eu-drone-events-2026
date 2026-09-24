@@ -3,9 +3,11 @@ import json
 import re
 import shutil
 from pathlib import Path
+from supplement import import_supplement
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT.parent / 'eu_foreign_drone_events_2026_consolidated.md'
+SUPPLEMENT = ROOT.parent / 'eu_foreign_drone_events_2026_final_update_deduped.md'
 text = SOURCE.read_text(encoding='utf-8')
 fields = ['id', 'dateLabel', 'dateBasis', 'countries', 'location', 'status',
           'categories', 'vehicle', 'attribution', 'route', 'circumstances',
@@ -179,7 +181,22 @@ events.sort(key=lambda item: (item['startDate'], item['id']))
 assert len(events) == 84 and len(contexts) == 4 and len(sources) == 93
 assert {e['id'] for e in events} == set(anchors)
 assert all(ref in sources for e in events + contexts for ref in e['sources'])
-data = dict(events=events, contexts=contexts, sources=sources, cutoff='2026-09-24')
+for record in events:
+    record['recordClass'] = 'event'
+    record['sourceFile'] = SOURCE.name
+new_events, new_contexts, new_sources = import_supplement(SUPPLEMENT)
+assert not (set(sources) & set(new_sources))
+# The requested map view includes event additions and the unidentified object.
+# Supplementary alerts/daily bulletins remain in the unchanged source download.
+events.extend(record for record in new_events if record['recordClass'] in {'event', 'candidate'})
+contexts.extend(new_contexts)
+sources.update(new_sources)
+events.sort(key=lambda item: (item['startDate'], item['id']))
+assert len(events) == len({e['id'] for e in events}) == 112
+assert sum(e['recordClass'] == 'event' for e in events) == 111
+data = dict(events=events, contexts=contexts, sources=sources, cutoff='2026-09-24',
+            sourceFiles=[SOURCE.name, SUPPLEMENT.name])
 (ROOT / 'dist' / 'events.js').write_text('window.DRONE_DATA = ' + json.dumps(data, ensure_ascii=False, indent=2) + ';\n', encoding='utf-8')
 shutil.copyfile(SOURCE, ROOT / 'dist' / SOURCE.name)
-print(f'Imported {len(events)} events, {len(contexts)} context records and {len(sources)} sources.')
+shutil.copyfile(SUPPLEMENT, ROOT / 'dist' / SUPPLEMENT.name)
+print(f'Imported {len(events)} dated records, {len(contexts)} context records and {len(sources)} sources.')

@@ -1,6 +1,53 @@
 window.DRONE_DATA = {
   "events": [
     {
+      "id": "N004",
+      "importAction": "ADD_EVENT",
+      "recordType": "cross_border_seizure",
+      "dateLabel": "2026-01-27 (night; midnight boundary unspecified)",
+      "startDate": "2026-01-27",
+      "endDate": "2026-01-28",
+      "countries": "Lithuania",
+      "normalizedLocality": "Purvėnai",
+      "dateBasis": "Official release 28 January refers to Tuesday night; exact date on either side of midnight not supplied.",
+      "location": "Purvėnai, Šalčininkai district; Lithuanian border area",
+      "status": "Officially reported cross-border smuggling-drone incident",
+      "categories": "Cross-border entry; electronic interception; forced descent/crash; cargo seizure",
+      "vehicle": "One homemade/cargo UAV; model unspecified",
+      "attribution": "Smugglers operating from/across the Belarus border according to VSAT; operator nationality and state sponsorship not established.",
+      "route": "Reported approach from Belarus; criminal cargo operation, not a military strike.",
+      "circumstances": "Border surveillance detected a quadcopter entering; drone and nearby cargo recovered after counter-drone intervention. Cargo: 1,000 Belarus-stamped packs.",
+      "payload": "Cigarette cargo; explosive payload not reported.",
+      "impact": "No casualty or third-party damage reported; UAV seized/damaged as described.",
+      "response": "UAV forced down and cargo seized.",
+      "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
+      "deduplication": "No matching baseline event. Not E027 (23 May, Dumblė). A001/NA001 are overlapping cumulative statistics, not duplicate event rows.",
+      "provenance": "New finding; primary VSAT statement.",
+      "sourceReferences": "[L01][L01]",
+      "recordClass": "event",
+      "sources": [
+        "L01"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Purvėnai",
+      "positionNote": "Representative Šalčininkai district anchor; the named village or linked recovery sites have not been geocoded. Linked detection and recovery remain one record.",
+      "classificationNote": "Electronic counter-drone intervention and seizure; forced descent alone is not classified as a kinetic shoot-down or a confirmed crash.",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Purvėnai"
+        }
+      ],
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "matchKey": "LT::2026-01-27..2026-01-28::purvenai"
+    },
+    {
       "id": "E001",
       "dateLabel": "2026-01-28",
       "dateBasis": "Incident 28 January; public report 2 February; CET",
@@ -38,7 +85,56 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+    },
+    {
+      "id": "N005",
+      "importAction": "ADD_EVENT",
+      "recordType": "cross_border_seizure",
+      "dateLabel": "2026-02-23–24",
+      "startDate": "2026-02-23",
+      "endDate": "2026-02-24",
+      "countries": "Lithuania",
+      "normalizedLocality": "Milvydai",
+      "dateBasis": "Night interception followed by 24 February recovery; published 25 February.",
+      "location": "Milvydai, Šalčininkai district; Lithuanian border area",
+      "status": "Officially reported cross-border smuggling-drone incident",
+      "categories": "Cross-border entry; electronic interception; forced descent/crash; cargo seizure",
+      "vehicle": "One homemade/cargo UAV; model unspecified",
+      "attribution": "Smugglers operating from/across the Belarus border according to VSAT; operator nationality and state sponsorship not established.",
+      "route": "Belarus-border cargo interception; individual full flight track not publicly supplied.",
+      "circumstances": "Intercepted UAV lodged in a pine crown about 0.5 km from the border. Cargo: 500 packs.",
+      "payload": "Cigarette cargo; explosive payload not reported.",
+      "impact": "No casualty or third-party damage reported; UAV seized/damaged as described.",
+      "response": "Forestry personnel helped guards retrieve it on 24 February; seizure and administrative proceedings.",
+      "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
+      "deduplication": "No matching baseline event. Tree interception and 24 February retrieval stay together. Not E027; A001/NA001 statistics are not additive.",
+      "provenance": "New finding; primary VSAT statement.",
+      "sourceReferences": "[L02][L02]",
+      "recordClass": "event",
+      "sources": [
+        "L02"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Milvydai",
+      "positionNote": "Representative Šalčininkai district anchor; the named village or linked recovery sites have not been geocoded. Linked detection and recovery remain one record.",
+      "classificationNote": "Electronic counter-drone intervention and seizure; forced descent alone is not classified as a kinetic shoot-down or a confirmed crash.",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Milvydai"
+        }
+      ],
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "matchKey": "LT::2026-02-23..2026-02-24::milvydai"
     },
     {
       "id": "E002",
@@ -76,7 +172,9 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E003",
@@ -116,7 +214,9 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E004",
@@ -155,7 +255,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E005",
@@ -197,7 +299,9 @@ window.DRONE_DATA = {
         "crash",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E006",
@@ -239,7 +343,9 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E007",
@@ -281,7 +387,9 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E008",
@@ -319,7 +427,9 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E009",
@@ -360,7 +470,9 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E010",
@@ -408,7 +520,56 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+    },
+    {
+      "id": "N010",
+      "importAction": "ADD_EVENT",
+      "recordType": "cross_border_seizure",
+      "dateLabel": "2026-04-05 (night; possible spill into 6 April)",
+      "startDate": "2026-04-05",
+      "endDate": "2026-04-06",
+      "countries": "Lithuania",
+      "normalizedLocality": "Dubas",
+      "dateBasis": "Sunday-night wording in release dated 7 April; later page update is not a second event.",
+      "location": "Dubas, Varėna district; Lithuanian border area",
+      "status": "Officially reported cross-border smuggling-drone incident",
+      "categories": "Cross-border entry; electronic interception; forced descent/crash; cargo seizure",
+      "vehicle": "One homemade/cargo UAV; model unspecified",
+      "attribution": "Smugglers operating from/across the Belarus border according to VSAT; operator nationality and state sponsorship not established.",
+      "route": "Reported approach from Belarus; criminal cargo operation, not a military strike.",
+      "circumstances": "Thermal surveillance detected an inbound UAV; counter-drone action brought it down in nearby woodland. Cargo: 1,000 NZ Gold packs.",
+      "payload": "Cigarette cargo; explosive payload not reported.",
+      "impact": "No casualty or third-party damage reported; UAV seized/damaged as described.",
+      "response": "Drone and cargo seized; administrative proceedings.",
+      "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
+      "deduplication": "No matching baseline event. One overnight interception/recovery; page update is not another event. Not E027; A001/NA001 are statistics.",
+      "provenance": "New finding; primary VSAT statement.",
+      "sourceReferences": "[L03][L03]",
+      "recordClass": "event",
+      "sources": [
+        "L03"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Dubas",
+      "positionNote": "Representative Varėna district anchor; the named village or linked recovery sites have not been geocoded. Linked detection and recovery remain one record.",
+      "classificationNote": "Electronic counter-drone intervention and seizure; forced descent alone is not classified as a kinetic shoot-down or a confirmed crash.",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 54.22,
+          "lng": 24.57,
+          "precision": "region",
+          "label": "Dubas"
+        }
+      ],
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "matchKey": "LT::2026-04-05..2026-04-06::dubas"
     },
     {
       "id": "E011",
@@ -449,7 +610,9 @@ window.DRONE_DATA = {
         "flight",
         "disposal"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E012",
@@ -487,7 +650,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E013",
@@ -525,7 +690,9 @@ window.DRONE_DATA = {
       "stages": [
         "disposal"
       ],
-      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions."
+      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E014",
@@ -563,7 +730,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": "A discovery record; the original crash time is unknown."
+      "classificationNote": "A discovery record; the original crash time is unknown.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E015",
@@ -603,7 +772,9 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E016",
@@ -644,7 +815,9 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E017",
@@ -685,7 +858,57 @@ window.DRONE_DATA = {
         "disposal",
         "recovery"
       ],
-      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions."
+      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+    },
+    {
+      "id": "N011",
+      "importAction": "ADD_EVENT",
+      "recordType": "cross_border_seizure",
+      "dateLabel": "2026-05-07 (predawn)",
+      "startDate": "2026-05-07",
+      "endDate": "2026-05-07",
+      "countries": "Lithuania",
+      "normalizedLocality": "Krupaviesai",
+      "dateBasis": "Thursday-morning operation, published 8 May.",
+      "location": "Krupaviesai, Šalčininkai district; Lithuanian border area",
+      "status": "Officially reported cross-border smuggling-drone incident",
+      "categories": "Cross-border entry; electronic interception; forced descent/crash; cargo seizure",
+      "vehicle": "One homemade/cargo UAV; model unspecified",
+      "attribution": "Smugglers operating from/across the Belarus border according to VSAT; operator nationality and state sponsorship not established.",
+      "route": "Reported approach from Belarus; criminal cargo operation, not a military strike.",
+      "circumstances": "Counter-drone intervention brought the loaded UAV down into a field. Cargo: 850 Minsk Capital QS packs.",
+      "payload": "Cigarette cargo; explosive payload not reported.",
+      "impact": "No casualty or third-party damage reported; UAV seized/damaged as described.",
+      "response": "Broken UAV and cargo seized; described as the year’s 17th such interception.",
+      "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
+      "deduplication": "No matching baseline event. Same date as E016/E017 but different countries/sites and circumstances. Not E027; included in A001/NA001 series.",
+      "provenance": "New finding; primary VSAT statement.",
+      "sourceReferences": "[L04][L04]",
+      "recordClass": "event",
+      "sources": [
+        "L04"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Krupaviesai",
+      "positionNote": "Representative Šalčininkai district anchor; the named village or linked recovery sites have not been geocoded. Linked detection and recovery remain one record.",
+      "classificationNote": "Electronic counter-drone intervention and seizure. The reported damaged/crashed craft determines the crash color.",
+      "category": "crash",
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Krupaviesai"
+        }
+      ],
+      "stages": [
+        "crash",
+        "flight",
+        "recovery"
+      ],
+      "matchKey": "LT::2026-05-07::krupaviesai"
     },
     {
       "id": "E018",
@@ -724,7 +947,9 @@ window.DRONE_DATA = {
       "stages": [
         "alert"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E019",
@@ -762,7 +987,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": "Wreckage and explosives were discovered; a same-day crash or explosion is not established."
+      "classificationNote": "Wreckage and explosives were discovered; a same-day crash or explosion is not established.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E020",
@@ -800,7 +1027,9 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E021",
@@ -840,7 +1069,9 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E022",
@@ -878,7 +1109,9 @@ window.DRONE_DATA = {
       "stages": [
         "alert"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E023",
@@ -917,7 +1150,9 @@ window.DRONE_DATA = {
       "stages": [
         "alert"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E024",
@@ -956,7 +1191,9 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E025",
@@ -994,7 +1231,9 @@ window.DRONE_DATA = {
       "stages": [
         "alert"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E026",
@@ -1033,7 +1272,9 @@ window.DRONE_DATA = {
         "explosion",
         "crash"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E027",
@@ -1071,7 +1312,9 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "classificationNote": "Forced landing and seizure; the register does not describe a kinetic shoot-down or crash."
+      "classificationNote": "Forced landing and seizure; the register does not describe a kinetic shoot-down or crash.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E028",
@@ -1113,7 +1356,9 @@ window.DRONE_DATA = {
         "crash",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E029",
@@ -1158,7 +1403,9 @@ window.DRONE_DATA = {
       "stages": [
         "alert"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E030",
@@ -1199,7 +1446,9 @@ window.DRONE_DATA = {
         "explosion",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E031",
@@ -1239,7 +1488,56 @@ window.DRONE_DATA = {
         "shotdown",
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+    },
+    {
+      "id": "N012",
+      "importAction": "ADD_EVENT",
+      "recordType": "cross_border_seizure",
+      "dateLabel": "2026-06-14",
+      "startDate": "2026-06-14",
+      "endDate": "2026-06-14",
+      "countries": "Lithuania",
+      "normalizedLocality": "Daugidonys–Dimitrai",
+      "dateBasis": "Sunday event reported Monday, 15 June.",
+      "location": "Detection near Daugidonys; recovery in Dimitrai fields, Šalčininkai district; Lithuanian border area",
+      "status": "Officially reported cross-border smuggling-drone incident",
+      "categories": "Cross-border entry; electronic interception; forced descent/crash; cargo seizure",
+      "vehicle": "One homemade/cargo UAV; model unspecified",
+      "attribution": "Smugglers operating from/across the Belarus border according to VSAT; operator nationality and state sponsorship not established.",
+      "route": "Reported approach from Belarus; criminal cargo operation, not a military strike.",
+      "circumstances": "Guards detected an approaching cargo drone and used counter-drone equipment. Cargo: 200 NZ Gold packs.",
+      "payload": "Cigarette cargo; explosive payload not reported.",
+      "impact": "No casualty or third-party damage reported; UAV seized/damaged as described.",
+      "response": "Forced down, recovered and seized; administrative proceedings.",
+      "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
+      "deduplication": "No matching baseline event. Detection near Daugidonys and recovery at Dimitrai are one linked episode. Separate from September N036.",
+      "provenance": "New finding; LRT/ELTA reporting of VSAT account.",
+      "sourceReferences": "[L05][L05]",
+      "recordClass": "event",
+      "sources": [
+        "L05"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Daugidonys–Dimitrai",
+      "positionNote": "Representative Šalčininkai district anchor; the named village or linked recovery sites have not been geocoded. Linked detection and recovery remain one record.",
+      "classificationNote": "Electronic counter-drone intervention and seizure; forced descent alone is not classified as a kinetic shoot-down or a confirmed crash.",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Daugidonys–Dimitrai"
+        }
+      ],
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "matchKey": "LT::2026-06-14::daugidonys-dimitrai"
     },
     {
       "id": "E032",
@@ -1278,7 +1576,57 @@ window.DRONE_DATA = {
         "disposal",
         "recovery"
       ],
-      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions."
+      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+    },
+    {
+      "id": "N015",
+      "importAction": "ADD_EVENT",
+      "recordType": "suspected_espionage",
+      "dateLabel": "2026-07-15 (evening)",
+      "startDate": "2026-07-15",
+      "endDate": "2026-07-15",
+      "countries": "Germany",
+      "normalizedLocality": "Munich — defence-manufacturer site",
+      "dateBasis": "Flight and arrest on Wednesday, 15 July; Friday, 17 July is announcement/report date.",
+      "location": "Munich defence-manufacturer site; KNDS named by Reuters security source",
+      "status": "Arrest and espionage allegation; foreign sponsor unspecified",
+      "categories": "Suspected surveillance/espionage; defence-site drone flight; operator arrest",
+      "vehicle": "One reported drone; model not specified",
+      "attribution": "37-year-old Moldovan suspect; investigators alleged intelligence gathering for a foreign entity/prohibited organisation. No named sponsoring state established.",
+      "route": "Local launch alleged; cross-border flight not alleged. Foreign link is the suspected espionage purpose, not manufacture.",
+      "circumstances": "Residents alerted police to a drone filming a weapons-manufacturer’s premises.",
+      "payload": "Not reported; no inference from disposal method.",
+      "impact": "Not reported in cited account.",
+      "response": "Suspect arrested near site; warrant/remand announced 17 July.",
+      "uncertainty": "Allegation, not conviction. Citizenship alone does not prove foreign-state direction; KNDS identification has a separate source attribution.",
+      "deduplication": "No matching baseline event. July Munich surveillance/arrest is distinct from August Leipzig E040 and western-Germany sightings E041. Foreign-intelligence purpose remains alleged.",
+      "provenance": "New finding; ZDF plus Reuters-syndicated reports of police/prosecutor statements.",
+      "sourceReferences": "[D01][D01]; [D02][D02]; [D03][D03]",
+      "recordClass": "event",
+      "sources": [
+        "D01",
+        "D02",
+        "D03"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Munich — defence-manufacturer site",
+      "positionNote": "Representative Munich city anchor; the reported defence-manufacturer site is not precisely located here.",
+      "classificationNote": "",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 48.14,
+          "lng": 11.58,
+          "precision": "region",
+          "label": "Munich — defence-manufacturer site"
+        }
+      ],
+      "stages": [
+        "flight"
+      ],
+      "matchKey": "DE::2026-07-15::munich-defence-manufacturer-site"
     },
     {
       "id": "E033",
@@ -1316,7 +1664,9 @@ window.DRONE_DATA = {
       "stages": [
         "explosion"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E034",
@@ -1354,7 +1704,9 @@ window.DRONE_DATA = {
       "stages": [
         "alert"
       ],
-      "classificationNote": "Ship impact reported; mine versus drone and the explosive mechanism remain unresolved."
+      "classificationNote": "Ship impact reported; mine versus drone and the explosive mechanism remain unresolved.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E035",
@@ -1394,7 +1746,9 @@ window.DRONE_DATA = {
         "shotdown",
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E036",
@@ -1434,7 +1788,9 @@ window.DRONE_DATA = {
         "shotdown",
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E037",
@@ -1473,7 +1829,9 @@ window.DRONE_DATA = {
         "shotdown",
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E038",
@@ -1511,7 +1869,9 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E039",
@@ -1549,7 +1909,9 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "classificationNote": "Interception and debris fall are reported; the record does not explicitly establish a kinetic shoot-down."
+      "classificationNote": "Interception and debris fall are reported; the record does not explicitly establish a kinetic shoot-down.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E040",
@@ -1593,7 +1955,9 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "classificationNote": "Attempted explosive attack: the main charge failed. The separate aircraft collision was suspected."
+      "classificationNote": "Attempted explosive attack: the main charge failed. The separate aircraft collision was suspected.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E041",
@@ -1631,7 +1995,9 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E042",
@@ -1673,7 +2039,9 @@ window.DRONE_DATA = {
         "flight",
         "crash"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E043",
@@ -1712,7 +2080,9 @@ window.DRONE_DATA = {
         "disposal",
         "recovery"
       ],
-      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions."
+      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E060",
@@ -1750,7 +2120,9 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "classificationNote": "Explosions were reported after departure; no Romanian impact is established."
+      "classificationNote": "Explosions were reported after departure; no Romanian impact is established.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E061",
@@ -1790,7 +2162,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E044",
@@ -1831,7 +2205,9 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E062",
@@ -1869,7 +2245,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E063",
@@ -1912,7 +2290,9 @@ window.DRONE_DATA = {
         "disposal",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E064",
@@ -1951,7 +2331,9 @@ window.DRONE_DATA = {
       "stages": [
         "disposal"
       ],
-      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions."
+      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E065",
@@ -1989,7 +2371,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E066",
@@ -2027,7 +2411,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E067",
@@ -2065,7 +2451,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E045",
@@ -2106,7 +2494,9 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E046",
@@ -2146,7 +2536,9 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E047",
@@ -2186,7 +2578,9 @@ window.DRONE_DATA = {
         "engaged",
         "disposal"
       ],
-      "classificationNote": "The supplied Observator footage appears to show the maritime drone approaching the platform. This is a visual interpretation of the footage, rather than a verified track. F-16 cannon fire hit and damaged the explosive drone, then Navy EOD neutralized it. The military engagement determines the map color; disposal was the subsequent stage."
+      "classificationNote": "The supplied Observator footage appears to show the maritime drone approaching the platform. This is a visual interpretation of the footage, rather than a verified track. F-16 cannon fire hit and damaged the explosive drone, then Navy EOD neutralized it. The military engagement determines the map color; disposal was the subsequent stage.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E048",
@@ -2224,7 +2618,9 @@ window.DRONE_DATA = {
       "stages": [
         "disposal"
       ],
-      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions."
+      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E068",
@@ -2262,7 +2658,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E069",
@@ -2300,7 +2698,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E049",
@@ -2338,7 +2738,9 @@ window.DRONE_DATA = {
       "stages": [
         "disposal"
       ],
-      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions."
+      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E050",
@@ -2378,7 +2780,9 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E051",
@@ -2417,7 +2821,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E070",
@@ -2456,7 +2862,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E071",
@@ -2495,7 +2903,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E052",
@@ -2534,7 +2944,9 @@ window.DRONE_DATA = {
       "stages": [
         "disposal"
       ],
-      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions."
+      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E072",
@@ -2574,7 +2986,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E073",
@@ -2614,7 +3028,9 @@ window.DRONE_DATA = {
         "disposal",
         "recovery"
       ],
-      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions."
+      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E074",
@@ -2654,7 +3070,9 @@ window.DRONE_DATA = {
         "disposal",
         "recovery"
       ],
-      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions."
+      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E075",
@@ -2692,7 +3110,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E076",
@@ -2730,7 +3150,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E077",
@@ -2768,7 +3190,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E053",
@@ -2808,7 +3232,9 @@ window.DRONE_DATA = {
       "stages": [
         "alert"
       ],
-      "classificationNote": "Fire and sinking were reported; an explosion or drone strike is not established."
+      "classificationNote": "Fire and sinking were reported; an explosion or drone strike is not established.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E078",
@@ -2846,7 +3272,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E079",
@@ -2884,7 +3312,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E080",
@@ -2924,7 +3354,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E081",
@@ -2963,7 +3395,9 @@ window.DRONE_DATA = {
         "disposal",
         "recovery"
       ],
-      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions."
+      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E084",
@@ -3001,7 +3435,9 @@ window.DRONE_DATA = {
       "stages": [
         "alert"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E082",
@@ -3040,7 +3476,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E083",
@@ -3078,7 +3516,56 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+    },
+    {
+      "id": "N023",
+      "importAction": "ADD_EVENT",
+      "recordType": "reported_military_encounter",
+      "dateLabel": "2026-08-28 (morning)",
+      "startDate": "2026-08-28",
+      "endDate": "2026-08-28",
+      "countries": "Greece",
+      "normalizedLocality": "Northern Aegean — Samothrace–Lemnos / Alexandroupoli-linked encounter",
+      "dateBasis": "Encounter and reporting on 28 August; exact time not established here.",
+      "location": "Northern Aegean, between Samothrace and Lemnos; related precaution near Alexandroupoli airport",
+      "status": "Reported Turkish military UAV encounter; airspace violation attributed to the Greek account",
+      "categories": "Reported incursion; fighter identification/interception; civil-flight precaution",
+      "vehicle": "One reported UAV; model and exact crossing count unspecified",
+      "attribution": "Turkish military UAV according to Greek reporting; legal characterization remains attributed, not independently adjudicated.",
+      "route": "Reported flight between Samothrace and Lemnos and near the Alexandroupoli terminal area; exact track unpublished.",
+      "circumstances": "Greek account links the UAV encounter to a precaution during an Aegean passenger departure.",
+      "payload": "Not reported.",
+      "impact": "Passenger flight reportedly followed an alternative path/low-altitude precaution, then continued to Athens; no collision or casualty reported.",
+      "response": "Two Greek F-16s reportedly identified/intercepted the UAV. No firing or shoot-down reported.",
+      "uncertainty": "One linked encounter, not a separate incident for the airport precaution. No independent forensic attribution claimed.",
+      "deduplication": "No matching baseline event; E017 is the unrelated May Lefkada USV. One reported interception, including its Alexandroupoli civil-flight precaution. Reclassified from daily report, not duplicated there.",
+      "provenance": "N023 reclassified from daily_report to encounter; original Euronews URL failed to reopen, but dated eKathimerini and AOL/Euronews reporting corroborate the event.",
+      "sourceReferences": "[G0828K][G0828K]; [G0828A][G0828A]",
+      "recordClass": "event",
+      "sources": [
+        "G0828K",
+        "G0828A"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Northern Aegean — Samothrace–Lemnos / Alexandroupoli-linked encounter",
+      "positionNote": "",
+      "classificationNote": "Fighter identification/interception is reported, with no firing or shoot-down. The civil-flight precaution is part of the same encounter.",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 40.22,
+          "lng": 25.42,
+          "precision": "region",
+          "label": "Northern Aegean — Samothrace–Lemnos / Alexandroupoli-linked encounter"
+        }
+      ],
+      "stages": [
+        "flight"
+      ],
+      "matchKey": "GR::2026-08-28::northern-aegean-samothrace-lemnos-alexandroupoli-linked-encounter"
     },
     {
       "id": "E054",
@@ -3119,7 +3606,9 @@ window.DRONE_DATA = {
       "stages": [
         "disposal"
       ],
-      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions."
+      "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E055",
@@ -3158,7 +3647,388 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+    },
+    {
+      "id": "N028",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-02",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-02",
+      "countries": "Bulgaria",
+      "normalizedLocality": "Burgas bridge / Pomorie Reef — offshore reported site",
+      "dateBasis": "Operation 2 September; announced 3 September, later reprinted.",
+      "location": "About 9 nautical miles opposite Burgas bridge / Pomorie Reef; reported Bulgarian coastal/territorial waters",
+      "status": "Officially reported UAV recovery/disposal; operator unknown",
+      "categories": "Floating aerial-drone discovery; naval identification; in-situ destruction",
+      "vehicle": "UAV/object at one response site; model unspecified",
+      "attribution": "No operator or national origin announced for this object.",
+      "route": "Not established in cited account.",
+      "circumstances": "One of three Burgas-base offshore response sites in the Ministry’s six-task announcement.",
+      "payload": "Not reported; no inference from disposal method.",
+      "impact": "Not reported in cited account.",
+      "response": "Navy identified the UAV and destroyed it at sea.",
+      "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
+      "deduplication": "No matching baseline event. A separately reported 2 September offshore response, not the 26 August Pomorie find E073. One site, not another row for the six-task headline.",
+      "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
+      "sourceReferences": "[B01][B01]; [B02][B02]",
+      "recordClass": "event",
+      "sources": [
+        "B01",
+        "B02"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Burgas bridge / Pomorie Reef — offshore reported site",
+      "positionNote": "",
+      "classificationNote": "Controlled disposal by authorities after discovery; kept separate from incident explosions. Replay uses the discovery date, with any later disposal retained as a linked stage.",
+      "category": "disposal",
+      "positions": [
+        {
+          "lat": 42.5,
+          "lng": 27.68,
+          "precision": "offshore",
+          "label": "Burgas bridge / Pomorie Reef — offshore reported site"
+        }
+      ],
+      "stages": [
+        "disposal",
+        "recovery"
+      ],
+      "matchKey": "BG::2026-09-02::burgas-bridge-pomorie-reef-offshore-reported-site"
+    },
+    {
+      "id": "N029",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-02",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-02",
+      "countries": "Bulgaria",
+      "normalizedLocality": "Cape Kaliakra — shore",
+      "dateBasis": "Operation 2 September; announcement 3 September.",
+      "location": "Cape Kaliakra seashore; Bulgarian coast",
+      "status": "Reconnaissance UAV officially identified; origin unresolved",
+      "categories": "Shore discovery; reconnaissance-drone recovery",
+      "vehicle": "One reconnaissance UAV; model unspecified",
+      "attribution": "Operator/manufacturer not announced.",
+      "route": "Not established in cited account.",
+      "circumstances": "Naval personnel identified a shore find as a reconnaissance drone.",
+      "payload": "Not reported; no inference from disposal method.",
+      "impact": "Not reported in cited account.",
+      "response": "Transported to Varna Naval Base.",
+      "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
+      "deduplication": "No matching baseline event. The 2 September Kaliakra shoreline recovery is distinct from the 6 September offshore operation N035.",
+      "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
+      "sourceReferences": "[B01][B01]; [B02][B02]",
+      "recordClass": "event",
+      "sources": [
+        "B01",
+        "B02"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Cape Kaliakra — shore",
+      "positionNote": "",
+      "classificationNote": "",
+      "category": "recovery",
+      "positions": [
+        {
+          "lat": 43.36,
+          "lng": 28.47,
+          "precision": "locality",
+          "label": "Cape Kaliakra — shore"
+        }
+      ],
+      "stages": [
+        "recovery"
+      ],
+      "matchKey": "BG::2026-09-02::cape-kaliakra-shore"
+    },
+    {
+      "id": "N030",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-02",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-02",
+      "countries": "Bulgaria",
+      "normalizedLocality": "Cape Kolokita — waters",
+      "dateBasis": "Operation 2 September; announced 3 September, later reprinted.",
+      "location": "Cape Kolokita waters; reported Bulgarian coastal/territorial waters",
+      "status": "Officially reported UAV recovery/disposal; operator unknown",
+      "categories": "Floating aerial-drone discovery; naval identification; in-situ destruction",
+      "vehicle": "UAV/object at one response site; model unspecified",
+      "attribution": "No operator or national origin announced for this object.",
+      "route": "Not established in cited account.",
+      "circumstances": "One of three Burgas-base offshore response sites in the Ministry’s six-task announcement.",
+      "payload": "Not reported; no inference from disposal method.",
+      "impact": "Not reported in cited account.",
+      "response": "Navy identified the UAV and destroyed it at sea.",
+      "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
+      "deduplication": "No matching baseline event. Cape Kolokita response is a separately identified 2 September location in the same multi-task release.",
+      "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
+      "sourceReferences": "[B01][B01]; [B02][B02]",
+      "recordClass": "event",
+      "sources": [
+        "B01",
+        "B02"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Cape Kolokita — waters",
+      "positionNote": "",
+      "classificationNote": "Controlled disposal by authorities after discovery; kept separate from incident explosions. Replay uses the discovery date, with any later disposal retained as a linked stage.",
+      "category": "disposal",
+      "positions": [
+        {
+          "lat": 42.41,
+          "lng": 27.73,
+          "precision": "offshore",
+          "label": "Cape Kolokita — waters"
+        }
+      ],
+      "stages": [
+        "disposal",
+        "recovery"
+      ],
+      "matchKey": "BG::2026-09-02::cape-kolokita-waters"
+    },
+    {
+      "id": "N031",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-02",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-02",
+      "countries": "Bulgaria",
+      "normalizedLocality": "Maslen Nos — waters",
+      "dateBasis": "Operation 2 September; announced 3 September, later reprinted.",
+      "location": "Maslen Nos waters; reported Bulgarian coastal/territorial waters",
+      "status": "Officially reported UAV recovery/disposal; operator unknown",
+      "categories": "Floating aerial-drone discovery; naval identification; in-situ destruction",
+      "vehicle": "UAV/object at one response site; model unspecified",
+      "attribution": "No operator or national origin announced for this object.",
+      "route": "Not established in cited account.",
+      "circumstances": "One of three Burgas-base offshore response sites in the Ministry’s six-task announcement.",
+      "payload": "Not reported; no inference from disposal method.",
+      "impact": "Not reported in cited account.",
+      "response": "Navy identified UAV material and destroyed it at sea.",
+      "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
+      "deduplication": "No matching baseline event. Maslen Nos response is a separately identified 2 September location in the same multi-task release.",
+      "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
+      "sourceReferences": "[B01][B01]; [B02][B02]",
+      "recordClass": "event",
+      "sources": [
+        "B01",
+        "B02"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Maslen Nos — waters",
+      "positionNote": "",
+      "classificationNote": "Controlled disposal by authorities after discovery; kept separate from incident explosions. Replay uses the discovery date, with any later disposal retained as a linked stage.",
+      "category": "disposal",
+      "positions": [
+        {
+          "lat": 42.31,
+          "lng": 27.81,
+          "precision": "offshore",
+          "label": "Maslen Nos — waters"
+        }
+      ],
+      "stages": [
+        "disposal",
+        "recovery"
+      ],
+      "matchKey": "BG::2026-09-02::maslen-nos-waters"
+    },
+    {
+      "id": "N032",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-02",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-02",
+      "countries": "Bulgaria",
+      "normalizedLocality": "Pomorie — town beach",
+      "dateBasis": "Operation 2 September; Ministry announcement 3 September.",
+      "location": "Pomorie town beach; Bulgarian territory",
+      "status": "Military-drone fragments officially reported; operator unknown",
+      "categories": "Beach discovery; military-drone debris; naval response",
+      "vehicle": "Fragments; airframe count unknown",
+      "attribution": "Unidentified military drone; operator unknown.",
+      "route": "Not established in cited account.",
+      "circumstances": "Burgas naval personnel responded to fragments on the beach.",
+      "payload": "Not reported; no inference from disposal method.",
+      "impact": "Not reported in cited account.",
+      "response": "Naval examination/response reported; final method not specified.",
+      "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
+      "deduplication": "No matching baseline event. 2 September Pomorie beach find is a different reported day/site from offshore E073 on 26 August and from N028.",
+      "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
+      "sourceReferences": "[B01][B01]; [B02][B02]",
+      "recordClass": "event",
+      "sources": [
+        "B01",
+        "B02"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Pomorie — town beach",
+      "positionNote": "",
+      "classificationNote": "",
+      "category": "recovery",
+      "positions": [
+        {
+          "lat": 42.56,
+          "lng": 27.64,
+          "precision": "locality",
+          "label": "Pomorie — town beach"
+        }
+      ],
+      "stages": [
+        "recovery"
+      ],
+      "matchKey": "BG::2026-09-02::pomorie-town-beach"
+    },
+    {
+      "id": "N033",
+      "importAction": "KEEP_CANDIDATE",
+      "recordType": "unidentified_object",
+      "dateLabel": "2026-09-02",
+      "startDate": "2026-09-02",
+      "endDate": "2026-09-02",
+      "countries": "Bulgaria",
+      "normalizedLocality": "Topola — beach",
+      "dateBasis": "2 September task, announced 3 September.",
+      "location": "Topola beach, Dobrich; Bulgarian territory",
+      "status": "RELATED OBJECT: identity not established",
+      "categories": "Suspicious shore object; naval recovery",
+      "vehicle": "One cone-shaped object; not confirmed UAV",
+      "attribution": "Unknown; foreign origin unproven.",
+      "route": "Not established in cited account.",
+      "circumstances": "Object included in the Navy’s six-task response announcement.",
+      "payload": "Not reported; no inference from disposal method.",
+      "impact": "Not reported in cited account.",
+      "response": "Taken to Varna Naval Base.",
+      "uncertainty": "Shape alone does not establish drone identity.",
+      "deduplication": "No matching baseline candidate. Topola, 2 September, differs from Tyulenovo E065 on 14 August. Identity, not duplication, keeps it outside drone-event totals.",
+      "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
+      "sourceReferences": "[B01][B01]; [B03][B03]",
+      "recordClass": "candidate",
+      "sources": [
+        "B01",
+        "B03"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Topola — beach",
+      "positionNote": "",
+      "classificationNote": "",
+      "category": "alert",
+      "positions": [
+        {
+          "lat": 43.4,
+          "lng": 28.29,
+          "precision": "region",
+          "label": "Topola — beach"
+        }
+      ],
+      "stages": [
+        "alert"
+      ],
+      "matchKey": "BG::2026-09-02::topola-beach"
+    },
+    {
+      "id": "N035",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-06 (late afternoon)",
+      "startDate": "2026-09-06",
+      "endDate": "2026-09-06",
+      "countries": "Bulgaria",
+      "normalizedLocality": "Cape Kaliakra — northeast coastal waters",
+      "dateBasis": "Previous-afternoon operation in 7 September reports.",
+      "location": "About 3.5 cables / 650 m northeast of Cape Kaliakra; coastal waters",
+      "status": "Official retrieval reported; operator unresolved",
+      "categories": "Floating UAV discovery; naval recovery",
+      "vehicle": "One UAV; type unspecified",
+      "attribution": "Origin/operator not announced.",
+      "route": "Not established in cited account.",
+      "circumstances": "Varna naval team activated following an Interior Ministry request.",
+      "payload": "Reported safe for retrieval; detailed payload not published.",
+      "impact": "Not reported in cited account.",
+      "response": "Assessed as safe and removed to the naval base.",
+      "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
+      "deduplication": "No matching baseline event. 6 September offshore retrieval is distinct from N029 on 2 September; 7 September articles are follow-ups, not new operations.",
+      "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
+      "sourceReferences": "[B04][B04]; [B05][B05]",
+      "recordClass": "event",
+      "sources": [
+        "B04",
+        "B05"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Cape Kaliakra — northeast coastal waters",
+      "positionNote": "",
+      "classificationNote": "",
+      "category": "recovery",
+      "positions": [
+        {
+          "lat": 43.37,
+          "lng": 28.48,
+          "precision": "offshore",
+          "label": "Cape Kaliakra — northeast coastal waters"
+        }
+      ],
+      "stages": [
+        "recovery"
+      ],
+      "matchKey": "BG::2026-09-06::cape-kaliakra-northeast-coastal-waters"
+    },
+    {
+      "id": "N036",
+      "importAction": "ADD_EVENT",
+      "recordType": "cross_border_seizure",
+      "dateLabel": "2026-09-06 (just after midnight)",
+      "startDate": "2026-09-06",
+      "endDate": "2026-09-06",
+      "countries": "Lithuania",
+      "normalizedLocality": "Daugidonys",
+      "dateBasis": "Night of 5–6 September; operation dated 6 September, report 7 September.",
+      "location": "Daugidonys, Šalčininkai district; Lithuanian border area",
+      "status": "Officially reported cross-border smuggling-drone incident",
+      "categories": "Cross-border entry; electronic interception; forced descent/crash; cargo seizure",
+      "vehicle": "One homemade/cargo UAV; model unspecified",
+      "attribution": "Smugglers operating from/across the Belarus border according to VSAT; operator nationality and state sponsorship not established.",
+      "route": "Reported approach from Belarus; criminal cargo operation, not a military strike.",
+      "circumstances": "Guards intercepted a homemade loaded UAV during the Saturday–Sunday night. Cargo: 1,000 packs.",
+      "payload": "Cigarette cargo; explosive payload not reported.",
+      "impact": "No casualty or third-party damage reported; UAV seized/damaged as described.",
+      "response": "Drone and cargo seized; VSAT identified this as the year’s 55th.",
+      "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
+      "deduplication": "No matching baseline event. Same locality as N012 but a separate September operation, not its June follow-up. Link to NA001 as a component, not an additional national total.",
+      "provenance": "New finding; primary VSAT statement.",
+      "sourceReferences": "[L06][L06]",
+      "recordClass": "event",
+      "sources": [
+        "L06"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Daugidonys",
+      "positionNote": "Representative Šalčininkai district anchor; the named village or linked recovery sites have not been geocoded. Linked detection and recovery remain one record.",
+      "classificationNote": "Electronic counter-drone intervention and seizure; forced descent alone is not classified as a kinetic shoot-down or a confirmed crash.",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Daugidonys"
+        }
+      ],
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "matchKey": "LT::2026-09-06::daugidonys"
     },
     {
       "id": "E056",
@@ -3196,7 +4066,438 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+    },
+    {
+      "id": "N038",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-09–10",
+      "startDate": "2026-09-09",
+      "endDate": "2026-09-10",
+      "countries": "Romania",
+      "normalizedLocality": "Capu Midia — beach",
+      "dateBasis": "Discovery reported 9 September about 20:00; overnight cordon; Navy EOD response 10 September about 09:30. Dates describe stages, not two events.",
+      "location": "Capu Midia beach, Constanța County; Romanian coast",
+      "status": "Officially reported non-explosive aerial-drone-fragment discovery and disposal; origin unresolved",
+      "categories": "Beach discovery; overnight isolation; Navy EOD response",
+      "vehicle": "Aerial-drone fragments; number of parent aircraft unspecified",
+      "attribution": "No confirmed operator or national provenance.",
+      "route": "Not established in cited account.",
+      "circumstances": "Fragments reported around 20:00 on 9 September; area isolated overnight.",
+      "payload": "MApN reported no explosive charge.",
+      "impact": "Not reported in cited account.",
+      "response": "Navy EOD responded around 09:30 on 10 September and neutralized the material.",
+      "uncertainty": "Operator and original flight unknown. The separate 10 September police notifications at Mamaia Nord and Corbu are now N062 and N063, not aliases of this record.",
+      "deduplication": "No matching baseline event. Merge the 9 September Capu Midia discovery and 10 September disposal. Narrow old N038 to this chain; separate police-notified finds are N062/N063.",
+      "provenance": "Carried from N038; Ministry chronology rechecked through Radio România. Conflicting place labels reconciled against separately timed police reports.",
+      "sourceReferences": "[R01][R01]; [R02][R02]; [R03][R03]; [R04][R04]",
+      "recordClass": "event",
+      "sources": [
+        "R01",
+        "R02",
+        "R03",
+        "R04"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Capu Midia — beach",
+      "positionNote": "",
+      "classificationNote": "Controlled disposal by authorities after discovery; kept separate from incident explosions. Replay uses the discovery date, with any later disposal retained as a linked stage.",
+      "category": "disposal",
+      "positions": [
+        {
+          "lat": 44.35,
+          "lng": 28.69,
+          "precision": "locality",
+          "label": "Capu Midia — beach"
+        }
+      ],
+      "stages": [
+        "disposal",
+        "recovery"
+      ],
+      "matchKey": "RO::2026-09-09..2026-09-10::capu-midia-beach"
+    },
+    {
+      "id": "N062",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-10",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-10",
+      "countries": "Romania",
+      "normalizedLocality": "Mamaia Nord — beach",
+      "dateBasis": "Police notification about 08:30 local time on 10 September; not a verified crash time.",
+      "location": "Mamaia Nord beach, Constanța County; Romanian coast",
+      "status": "Reported aerial-drone-fragment discovery; foreign origin unresolved",
+      "categories": "Beach discovery; police response; explosive-risk check; recovery",
+      "vehicle": "Drone fragments; aircraft count unspecified",
+      "attribution": "Not established in the cited accounts.",
+      "route": "Unknown; recovery is not proof of a same-day incursion.",
+      "circumstances": "Police received a separate beach-fragment notification at 08:30.",
+      "payload": "No explosive material reported after examination.",
+      "impact": "Not reported in the cited accounts.",
+      "response": "Fragments examined and transferred to the Coast Guard / competent authorities.",
+      "uncertainty": "Distinct reported find accepted by date/site; no claim of a unique airframe or identified operator.",
+      "deduplication": "No matching baseline event. Separate Mamaia Nord notification at 08:30 on 10 September; not the previous-evening Capu Midia discovery or the 09:40 Corbu report.",
+      "provenance": "Separated during final reconciliation using the expanded R03 report and local reports R10/R11.",
+      "sourceReferences": "[R03][R03]; [R10][R10]; [R11][R11]",
+      "recordClass": "event",
+      "sources": [
+        "R03",
+        "R10",
+        "R11"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Mamaia Nord — beach",
+      "positionNote": "",
+      "classificationNote": "",
+      "category": "recovery",
+      "positions": [
+        {
+          "lat": 44.29,
+          "lng": 28.62,
+          "precision": "locality",
+          "label": "Mamaia Nord — beach"
+        }
+      ],
+      "stages": [
+        "recovery"
+      ],
+      "matchKey": "RO::2026-09-10::mamaia-nord-beach"
+    },
+    {
+      "id": "N063",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-10",
+      "startDate": "2026-09-10",
+      "endDate": "2026-09-10",
+      "countries": "Romania",
+      "normalizedLocality": "Corbu — beach",
+      "dateBasis": "Police notification about 09:40 local time on 10 September; not a verified crash time.",
+      "location": "Corbu beach, Constanța County; Romanian coast",
+      "status": "Reported aerial-drone-fragment discovery; foreign origin unresolved",
+      "categories": "Beach discovery; police response; explosive-risk check; recovery",
+      "vehicle": "Drone fragments; aircraft count unspecified",
+      "attribution": "Not established in the cited accounts.",
+      "route": "Unknown; recovery is not proof of a same-day incursion.",
+      "circumstances": "Police received a separate beach-fragment notification at 09:40.",
+      "payload": "No explosive material reported after examination.",
+      "impact": "Not reported in the cited accounts.",
+      "response": "Fragments examined and transferred to the Coast Guard / competent authorities.",
+      "uncertainty": "Distinct reported find accepted by date/site; no claim of a unique airframe or identified operator.",
+      "deduplication": "No matching baseline event. Separate Corbu notification at 09:40 on 10 September; not the previous-evening Capu Midia discovery or the 08:30 Mamaia Nord report.",
+      "provenance": "Separated during final reconciliation using the expanded R03 report and local reports R10/R11.",
+      "sourceReferences": "[R03][R03]; [R10][R10]; [R11][R11]",
+      "recordClass": "event",
+      "sources": [
+        "R03",
+        "R10",
+        "R11"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Corbu — beach",
+      "positionNote": "",
+      "classificationNote": "",
+      "category": "recovery",
+      "positions": [
+        {
+          "lat": 44.4,
+          "lng": 28.7,
+          "precision": "locality",
+          "label": "Corbu — beach"
+        }
+      ],
+      "stages": [
+        "recovery"
+      ],
+      "matchKey": "RO::2026-09-10::corbu-beach"
+    },
+    {
+      "id": "N040",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-11 (about 05:00 discovery)",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-11",
+      "countries": "Bulgaria",
+      "normalizedLocality": "Kavatsi — beach",
+      "dateBasis": "Event/discovery date; exact clock time not reported.",
+      "location": "Kavatsi tourist beach, near Sozopol; Bulgarian territory",
+      "status": "Military-type drone find reported; attribution and final assessment unresolved",
+      "categories": "Tourist/civilian discovery; beach recovery; security cordon",
+      "vehicle": "Drone body with damage; model unspecified",
+      "attribution": "Reported military-type appearance, not a confirmed national/operator attribution.",
+      "route": "Not established in cited account.",
+      "circumstances": "Tourists found the drone on the beach; specialists were summoned.",
+      "payload": "Not reported; no inference from disposal method.",
+      "impact": "Not reported in cited account.",
+      "response": "Area secured; final disposal outcome not established in retrieved report.",
+      "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
+      "deduplication": "No matching baseline event. Kavatsi, 11 September, is not E081 (late-August Sveti Ivan/Sozopol pier); nearby municipal labels do not make those the same find.",
+      "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
+      "sourceReferences": "[B06][B06]",
+      "recordClass": "event",
+      "sources": [
+        "B06"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Kavatsi — beach",
+      "positionNote": "",
+      "classificationNote": "",
+      "category": "recovery",
+      "positions": [
+        {
+          "lat": 42.39,
+          "lng": 27.7,
+          "precision": "locality",
+          "label": "Kavatsi — beach"
+        }
+      ],
+      "stages": [
+        "recovery"
+      ],
+      "matchKey": "BG::2026-09-11::kavatsi-beach"
+    },
+    {
+      "id": "N042",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-11",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-11",
+      "countries": "Romania",
+      "normalizedLocality": "Midia — 46 nautical miles east, offshore",
+      "dateBasis": "16:00 is the Ministry’s response chronology time.",
+      "location": "Black Sea, about 46 nautical miles east of Midia; offshore/EEZ-related, outside territorial sea",
+      "status": "Official offshore aerial-debris recovery; not sovereign-territory incursion",
+      "categories": "Commercial-vessel report; floating aerial-drone debris; Coast Guard recovery",
+      "vehicle": "Two aerial-drone fragments; not a maritime drone/USV",
+      "attribution": "No operator/national attribution announced.",
+      "route": "Not established in cited account.",
+      "circumstances": "Merchant ship reported fragments in the water; response listed at 16:00.",
+      "payload": "No pyrotechnic hazard identified.",
+      "impact": "Not reported in cited account.",
+      "response": "Coast Guard patrol vessel recovered both.",
+      "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
+      "deduplication": "No matching baseline event. One 11 September offshore recovery; not August Neptun Deep E043/E047 and not the same-day beach sites N043–N045. Retain offshore scope tag.",
+      "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
+      "sourceReferences": "[R05][R05]; [R07][R07]",
+      "recordClass": "event",
+      "sources": [
+        "R05",
+        "R07"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Midia — 46 nautical miles east, offshore",
+      "positionNote": "Approximate anchor derived from the reported area 46 nautical miles east of Midia, outside the territorial sea. This was aerial-drone debris, not a maritime drone.",
+      "classificationNote": "",
+      "category": "recovery",
+      "positions": [
+        {
+          "lat": 44.34,
+          "lng": 29.75,
+          "precision": "offshore",
+          "label": "Midia — 46 nautical miles east, offshore"
+        }
+      ],
+      "stages": [
+        "recovery"
+      ],
+      "matchKey": "RO::2026-09-11::midia-46-nautical-miles-east-offshore"
+    },
+    {
+      "id": "N043",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-11",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-11",
+      "countries": "Romania",
+      "normalizedLocality": "Câșla Vădanei — beach",
+      "dateBasis": "13:30 is response/assessment time, not a known crash time.",
+      "location": "Câșla Vădanei, between Sulina and Sfântu Gheorghe, Tulcea; beach",
+      "status": "Official aerial-drone fragment assessment; origin unknown",
+      "categories": "Beach discovery; washed-ashore fragments; EOD assessment",
+      "vehicle": "Two aerial-drone fragments; aircraft count unknown",
+      "attribution": "No operator/national attribution in Ministry account.",
+      "route": "Not established in cited account.",
+      "circumstances": "Two beached fragments assessed at 13:30.",
+      "payload": "No explosive charge found.",
+      "impact": "Not reported in cited account.",
+      "response": "MApN EOD assessment found no explosive charge.",
+      "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
+      "deduplication": "No matching baseline event. One find/assessment at Câșla Vădanei on 11 September; two fragments do not create two rows.",
+      "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
+      "sourceReferences": "[R05][R05]; [R06][R06]",
+      "recordClass": "event",
+      "sources": [
+        "R05",
+        "R06"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Câșla Vădanei — beach",
+      "positionNote": "",
+      "classificationNote": "",
+      "category": "recovery",
+      "positions": [
+        {
+          "lat": 45.03,
+          "lng": 29.63,
+          "precision": "region",
+          "label": "Câșla Vădanei — beach"
+        }
+      ],
+      "stages": [
+        "recovery"
+      ],
+      "matchKey": "RO::2026-09-11::casla-vadanei-beach"
+    },
+    {
+      "id": "N044",
+      "importAction": "ADD_EVENT",
+      "recordType": "recovery_cluster",
+      "dateLabel": "2026-09-11",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-11",
+      "countries": "Romania",
+      "normalizedLocality": "Edighiol–Periboina — coastal sector",
+      "dateBasis": "17:55 intervention entry; no established flight/crash dates.",
+      "location": "Edighiol–Periboina, Constanța County; coastal sector",
+      "status": "Official multi-aircraft recovery cluster; national origins unresolved",
+      "categories": "Helicopter-assisted search; multi-drone remains; interceptor-drone discovery; explosive disposal",
+      "vehicle": "Remains of FOUR aerial drones, including one interceptor drone",
+      "attribution": "No operator/national attribution in cited MApN chronology.",
+      "route": "Not established in cited account.",
+      "circumstances": "While checking a Coast Guard report, a helicopter-borne EOD team observed multiple wrecks; response listed at 17:55.",
+      "payload": "Explosives specifically reported aboard the interceptor drone.",
+      "impact": "Not reported in cited account.",
+      "response": "All elements secured and neutralized.",
+      "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
+      "deduplication": "No matching baseline event. One dated Edighiol–Periboina recovery cluster; reported remains of four aircraft stay in quantity, not four invented event rows.",
+      "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
+      "sourceReferences": "[R05][R05]; [R07][R07]",
+      "recordClass": "event",
+      "sources": [
+        "R05",
+        "R07"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Edighiol–Periboina — coastal sector",
+      "positionNote": "",
+      "classificationNote": "Controlled disposal by authorities after discovery; kept separate from incident explosions. Replay uses the discovery date, with any later disposal retained as a linked stage.",
+      "category": "disposal",
+      "positions": [
+        {
+          "lat": 44.51,
+          "lng": 28.85,
+          "precision": "region",
+          "label": "Edighiol–Periboina — coastal sector"
+        }
+      ],
+      "stages": [
+        "disposal"
+      ],
+      "matchKey": "RO::2026-09-11::edighiol-periboina-coastal-sector"
+    },
+    {
+      "id": "N045",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-11",
+      "startDate": "2026-09-11",
+      "endDate": "2026-09-11",
+      "countries": "Romania",
+      "normalizedLocality": "Periteașca — beach",
+      "dateBasis": "09:30 discovery; 15:18 intervention; flight date unknown.",
+      "location": "Periteașca beach, Tulcea; Romanian territory",
+      "status": "Official explosive debris recovery/disposal; origin unknown",
+      "categories": "Border-Police discovery; beach fragments; explosive neutralization",
+      "vehicle": "Two fragments; number of parent airframes unknown",
+      "attribution": "No operator/national attribution announced.",
+      "route": "Not established in cited account.",
+      "circumstances": "Border Police found two fragments around 09:30; intervention listed at 15:18.",
+      "payload": "Explosives confirmed in one fragment.",
+      "impact": "Not reported in cited account.",
+      "response": "SRI bomb specialists neutralized the explosive item; Coast Guard took the other.",
+      "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
+      "deduplication": "No matching baseline event. One Periteașca discovery/disposal chain; two fragments and two agencies are not two events. Not E049 at Gura Portiței on 23 August.",
+      "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
+      "sourceReferences": "[R05][R05]; [R06][R06]",
+      "recordClass": "event",
+      "sources": [
+        "R05",
+        "R06"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Periteașca — beach",
+      "positionNote": "",
+      "classificationNote": "Controlled disposal by authorities after discovery; kept separate from incident explosions. Replay uses the discovery date, with any later disposal retained as a linked stage.",
+      "category": "disposal",
+      "positions": [
+        {
+          "lat": 44.74,
+          "lng": 29.09,
+          "precision": "region",
+          "label": "Periteașca — beach"
+        }
+      ],
+      "stages": [
+        "disposal",
+        "recovery"
+      ],
+      "matchKey": "RO::2026-09-11::periteasca-beach"
+    },
+    {
+      "id": "N049",
+      "importAction": "ADD_EVENT",
+      "recordType": "cross_border_seizure",
+      "dateLabel": "2026-09-13 (late evening)",
+      "startDate": "2026-09-13",
+      "endDate": "2026-09-13",
+      "countries": "Lithuania",
+      "normalizedLocality": "Ūta–Versekėlė",
+      "dateBasis": "Sunday operation; report 14 September.",
+      "location": "Detection near Ūta; recovery at Versekėlė, Šalčininkai district; Lithuanian border area",
+      "status": "Officially reported cross-border smuggling-drone incident",
+      "categories": "Cross-border entry; electronic interception; forced descent/crash; cargo seizure",
+      "vehicle": "One homemade/cargo UAV; model unspecified",
+      "attribution": "Smugglers operating from/across the Belarus border according to VSAT; operator nationality and state sponsorship not established.",
+      "route": "Reported approach from Belarus; criminal cargo operation, not a military strike.",
+      "circumstances": "Counter-drone action disrupted the inbound UAV; it turned toward the border and crashed in a meadow roughly 500 m inside. Cargo: 200 Minsk Superslims packs and a GPS device.",
+      "payload": "Cigarette cargo; explosive payload not reported.",
+      "impact": "No casualty or third-party damage reported; UAV seized/damaged as described.",
+      "response": "Guards recovered the broken drone within about an hour and opened administrative proceedings.",
+      "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
+      "deduplication": "No matching baseline event. Ūta detection and Versekėlė recovery are explicitly one interception episode. Not a separate event for each village.",
+      "provenance": "New finding; primary VSAT statement.",
+      "sourceReferences": "[L07][L07]",
+      "recordClass": "event",
+      "sources": [
+        "L07"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Ūta–Versekėlė",
+      "positionNote": "Representative Šalčininkai district anchor; the named village or linked recovery sites have not been geocoded. Linked detection and recovery remain one record.",
+      "classificationNote": "Electronic counter-drone intervention and seizure. The reported damaged/crashed craft determines the crash color.",
+      "category": "crash",
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Ūta–Versekėlė"
+        }
+      ],
+      "stages": [
+        "crash",
+        "flight",
+        "recovery"
+      ],
+      "matchKey": "LT::2026-09-13::uta-versekele"
     },
     {
       "id": "E057",
@@ -3234,7 +4535,9 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     },
     {
       "id": "E058",
@@ -3275,7 +4578,196 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+    },
+    {
+      "id": "N052",
+      "importAction": "ADD_EVENT",
+      "recordType": "discovery_recovery",
+      "dateLabel": "2026-09-16 (13:06 report)",
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-16",
+      "countries": "Lithuania",
+      "normalizedLocality": "Keneliai — Pasvalys district forest",
+      "dateBasis": "Discovery/report 16 September, police follow-up 17 September; not evidence of a flight that day.",
+      "location": "Keneliai village forest, Pasvalys district; Lithuanian territory",
+      "status": "Drone recovery; foreign origin unproven; later smuggling-investigation link",
+      "categories": "Civilian/forest discovery; old wreckage; bomb-squad check; police correction",
+      "vehicle": "One old/overgrown drone; not identified as a Russian or Ukrainian strike UAV",
+      "attribution": "Police later associated it with a smuggling investigation; foreign origin not publicly established.",
+      "route": "Not established in cited account.",
+      "circumstances": "A drone apparently lying in vegetation for months was reported to police.",
+      "payload": "No explosives found, according to follow-up.",
+      "impact": "Not reported in cited account.",
+      "response": "ARAS/military explosive-risk response; police said no explosives and updated the investigation on 17 September.",
+      "uncertainty": "Initial speculation about a foreign military drone was not confirmed by the later police account.",
+      "deduplication": "No matching baseline event. 16 September Keneliai/Pasvalys find is not May Utena E019 or September Pratkūnai E058. Merge the 17 September police correction into this recovery.",
+      "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
+      "sourceReferences": "[L10][L10]; [L11][L11]",
+      "recordClass": "event",
+      "sources": [
+        "L10",
+        "L11"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Keneliai — Pasvalys district forest",
+      "positionNote": "Representative Pasvalys district anchor; the Keneliai forest discovery site has not been geocoded.",
+      "classificationNote": "",
+      "category": "recovery",
+      "positions": [
+        {
+          "lat": 56.06,
+          "lng": 24.4,
+          "precision": "region",
+          "label": "Keneliai — Pasvalys district forest"
+        }
+      ],
+      "stages": [
+        "recovery"
+      ],
+      "matchKey": "LT::2026-09-16::keneliai-pasvalys-district-forest"
+    },
+    {
+      "id": "N053",
+      "importAction": "ADD_EVENT",
+      "recordType": "cross_border_seizure",
+      "dateLabel": "2026-09-16 (shortly after midnight)",
+      "startDate": "2026-09-16",
+      "endDate": "2026-09-16",
+      "countries": "Lithuania",
+      "normalizedLocality": "Norviliškės",
+      "dateBasis": "Tuesday–Wednesday night; dated 16 September.",
+      "location": "Norviliškės, Šalčininkai district; Lithuanian border area",
+      "status": "Officially reported cross-border smuggling-drone incident",
+      "categories": "Cross-border entry; electronic interception; forced descent/crash; cargo seizure",
+      "vehicle": "One homemade/cargo UAV; model unspecified",
+      "attribution": "Smugglers operating from/across the Belarus border according to VSAT; operator nationality and state sponsorship not established.",
+      "route": "Reported approach from Belarus; criminal cargo operation, not a military strike.",
+      "circumstances": "Thermal imaging detected a UAV with rectangular cargo entering from Belarus. Cargo: 1,000 NZ Gold packs.",
+      "payload": "Cigarette cargo; explosive payload not reported.",
+      "impact": "No casualty or third-party damage reported; UAV seized/damaged as described.",
+      "response": "Counter-drone action forced it down; drone/cargo seized, administrative proceedings; year’s 57th.",
+      "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
+      "deduplication": "No matching baseline event. Norviliškės is a separately dated 16 September seizure; not the 13 September N049 or 21–22 September N059.",
+      "provenance": "New finding; primary VSAT statement.",
+      "sourceReferences": "[L08][L08]",
+      "recordClass": "event",
+      "sources": [
+        "L08"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Norviliškės",
+      "positionNote": "Representative Šalčininkai district anchor; the named village or linked recovery sites have not been geocoded. Linked detection and recovery remain one record.",
+      "classificationNote": "Electronic counter-drone intervention and seizure; forced descent alone is not classified as a kinetic shoot-down or a confirmed crash.",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Norviliškės"
+        }
+      ],
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "matchKey": "LT::2026-09-16::norviliskes"
+    },
+    {
+      "id": "N055",
+      "importAction": "ADD_EVENT",
+      "recordType": "reported_military_encounter",
+      "dateLabel": "2026-09-18",
+      "startDate": "2026-09-18",
+      "endDate": "2026-09-18",
+      "countries": "Greece",
+      "normalizedLocality": "Zourafa — islet overflight",
+      "dateBasis": "Reported overflight on 18 September, described in same-day Greek daily reporting; exact time unspecified.",
+      "location": "Zourafa islet, northeastern Aegean; UAV overflight location reported by Greece",
+      "status": "Greek-reported Turkish UAV overflight of a named islet",
+      "categories": "Reported military UAV overflight; claimed airspace violation",
+      "vehicle": "One reported UAV overflight; model unspecified. Five UAVs appeared in wider daily activity, not five overflights at this site.",
+      "attribution": "Turkish UAV according to the Greek military account relayed by Politica; no independent track verification here.",
+      "route": "Reported overflight of Zourafa; complete route unspecified.",
+      "circumstances": "The Greek account distinguishes a UAV over Zourafa from a manned F-16 formation over Ro. Only the UAV overflight is the event here.",
+      "payload": "Not reported.",
+      "impact": "No UAV impact or casualty reported in the cited account.",
+      "response": "Specific operational response to this overflight not detailed in the reopened source.",
+      "uncertainty": "Wider daily totals: five UAVs among ten aircraft, 13 FIR infringements and seven airspace violations across mixed aircraft. Drone-only infringement totals are unspecified; the earlier nine/five subdivision is not carried forward.",
+      "deduplication": "No matching baseline event. Retain one specific Zourafa UAV overflight; the Ro F-16 overflight is manned and excluded. Mixed daily statistics remain context inside this row, not additional events.",
+      "provenance": "N055 narrowed to its dated, named-location UAV overflight. G0918 reopened; unsupported drone-only daily subdivisions removed.",
+      "sourceReferences": "[G0918][G0918]",
+      "recordClass": "event",
+      "sources": [
+        "G0918"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Zourafa — islet overflight",
+      "positionNote": "",
+      "classificationNote": "",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 40.47,
+          "lng": 25.84,
+          "precision": "locality",
+          "label": "Zourafa — islet overflight"
+        }
+      ],
+      "stages": [
+        "flight"
+      ],
+      "matchKey": "GR::2026-09-18::zourafa-islet-overflight"
+    },
+    {
+      "id": "N059",
+      "importAction": "ADD_EVENT",
+      "recordType": "cross_border_seizure",
+      "dateLabel": "2026-09-21–22",
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-22",
+      "countries": "Lithuania",
+      "normalizedLocality": "Liškūniškės–Antaniškės",
+      "dateBasis": "21–22 September night; discovery 22 September; report 23 September.",
+      "location": "Detection at Liškūniškės; recovery near Antaniškės, Šalčininkai district; Lithuanian border area",
+      "status": "Officially reported cross-border smuggling-drone incident",
+      "categories": "Cross-border entry; electronic interception; forced descent/crash; cargo seizure",
+      "vehicle": "One homemade/cargo UAV; model unspecified",
+      "attribution": "Smugglers operating from/across the Belarus border according to VSAT; operator nationality and state sponsorship not established.",
+      "route": "Reported approach from Belarus; criminal cargo operation, not a military strike.",
+      "circumstances": "Inbound UAV descended after counter-drone action; guards found the damaged, scorched craft about 800 m from the border the next morning. Cargo: 1,000 Minsk Superslims packs.",
+      "payload": "Cigarette cargo; explosive payload not reported.",
+      "impact": "Drone impact and fire damage reported; no reported third-party casualties.",
+      "response": "Cargo survived; UAV and cigarettes seized, administrative proceedings; year’s 58th.",
+      "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
+      "deduplication": "No matching baseline event. Liškūniškės detection and Antaniškės next-morning recovery form one episode. NA001 counts the same seizure within 58; do not add 58 again.",
+      "provenance": "New finding; primary VSAT statement.",
+      "sourceReferences": "[L09][L09]",
+      "recordClass": "event",
+      "sources": [
+        "L09"
+      ],
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "title": "Liškūniškės–Antaniškės",
+      "positionNote": "Representative Šalčininkai district anchor; the named village or linked recovery sites have not been geocoded. Linked detection and recovery remain one record.",
+      "classificationNote": "Electronic counter-drone intervention and seizure; forced descent alone is not classified as a kinetic shoot-down or a confirmed crash.",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Liškūniškės–Antaniškės"
+        }
+      ],
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "matchKey": "LT::2026-09-21..2026-09-22::liskuniskes-antaniskes"
     },
     {
       "id": "E059",
@@ -3315,7 +4807,9 @@ window.DRONE_DATA = {
         "crash",
         "flight"
       ],
-      "classificationNote": ""
+      "classificationNote": "",
+      "recordClass": "event",
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     }
   ],
   "contexts": [
@@ -3411,6 +4905,71 @@ window.DRONE_DATA = {
       "sources": [
         "S81"
       ]
+    },
+    {
+      "id": "NA001",
+      "importAction": "UPDATE_AGGREGATE_SERIES",
+      "countries": "Lithuania",
+      "dateLabel": "2026-01-01 through official release 2026-09-23",
+      "vehicle": "58 smuggling drones intercepted by VSAT in 2026; previous year 59.",
+      "deduplication": "Retain as the 23 September snapshot of the same VSAT series as baseline A001. The nine dated seizures and baseline E027 are component detail, not additions on top of 58. Unknown missing individual events are not synthesized.",
+      "sourceReferences": "[L09][L09]",
+      "sources": [
+        "L09"
+      ],
+      "status": "Aggregate / pattern context",
+      "attribution": "",
+      "uncertainty": "",
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md"
+    },
+    {
+      "id": "NA002",
+      "importAction": "KEEP_CONTEXT",
+      "countries": "Cyprus",
+      "dateLabel": "2026-01-01–2026-02-28; submission reported 2026-03-30",
+      "vehicle": "Cyprus reported 305 mixed airspace/FIR violations, including 81 involving Turkish military UAVs.",
+      "deduplication": "Cypriot allegation circulated to the UN, not a UN verification. Drone-specific dates/tracks in annex S/2026/240 were not individually extracted here. Do not count 305 as drones or 81 as 81 independently verified sovereign-airspace entries.",
+      "sourceReferences": "[C01][C01]; [C02][C02]",
+      "sources": [
+        "C01",
+        "C02"
+      ],
+      "status": "Aggregate / pattern context",
+      "attribution": "",
+      "uncertainty": "",
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md"
+    },
+    {
+      "id": "NA003",
+      "importAction": "KEEP_CONTEXT",
+      "countries": "Cyprus",
+      "dateLabel": "Recurring activity described 2026-09-01; individual flight dates not supplied",
+      "vehicle": "Air-traffic-controller representative alleged near-daily Turkish UAV activity affecting Larnaca/Paphos flight paths, sometimes up to five UAVs simultaneously.",
+      "deduplication": "Attributed recurring-pattern report, not a single dated September 1 near-collision. May overlap NA002 or other unitemized activity; exact tracks and Turkish response not supplied in source.",
+      "sourceReferences": "[C03][C03]",
+      "sources": [
+        "C03"
+      ],
+      "status": "Aggregate / pattern context",
+      "attribution": "",
+      "uncertainty": "",
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md"
+    },
+    {
+      "id": "NA004",
+      "importAction": "KEEP_CONTEXT",
+      "countries": "Greece",
+      "dateLabel": "2026-01-01–2026-08-31",
+      "vehicle": "To Vima reported 276 UAV appearances/activity entries, including 102 in August and 30 in July.",
+      "deduplication": "Reported January–August aggregate, not unique aircraft or incursions. Overlaps applicable January–August daily rows and N023; September records, including N055, are outside this period. Do not sum this figure with its component records.",
+      "sourceReferences": "[G99][G99]",
+      "sources": [
+        "G99"
+      ],
+      "status": "Aggregate / pattern context",
+      "attribution": "",
+      "uncertainty": "",
+      "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md"
     }
   ],
   "sources": {
@@ -4064,7 +5623,603 @@ window.DRONE_DATA = {
       "title": "Tsarevo–Varvara, Kamchia, Kabakum, Pomorie and Pasha Dere cases, 25–26 August 2026",
       "audit": "Relevant page/text rechecked during export",
       "url": "https://sofiaglobe.com/2026/08/26/drone-washes-up-on-cabacum-beach-near-bulgarias-varna/"
+    },
+    "L01": {
+      "id": "L01",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "dateLabel": "2026-01-28",
+      "title": "Cargo drone intercepted near Purvėnai",
+      "audit": "[Cargo drone intercepted near Purvėnai][L01]. Primary official account; weekday wording retained rather than inventing an exact clock time.",
+      "url": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-vsat-pareigunai-nutupde-cigaretes-skraidinusi-kontrabandininku-drona-foto-video-Bs2/"
+    },
+    "L02": {
+      "id": "L02",
+      "publisher": "VSAT",
+      "dateLabel": "2026-02-25",
+      "title": "Forestry staff help retrieve a cigarette-carrying drone from a pine tree",
+      "audit": "[Forestry staff help retrieve a cigarette-carrying drone from a pine tree][L02]. Primary official account; interception and next-day tree recovery are one record.",
+      "url": "https://vsat.lrv.lt/lt/naujienos/uredui-padedant-pasienieciai-is-pusies-virsunes-iskele-nutupdyta-drona-su-baltarusiskomis-cigaretemis-foto-cgH/"
+    },
+    "L03": {
+      "id": "L03",
+      "publisher": "VSAT",
+      "dateLabel": "2026-04-07; later updated 2026-05-04",
+      "title": "Drone carrying cigarettes from Belarus intercepted near Dubas",
+      "audit": "[Drone carrying cigarettes from Belarus intercepted near Dubas][L03]. Primary official account. Page update is not a second event.",
+      "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciai-pereme-dar-viena-is-baltarusijos-rukalus-skraidinusi-drona-video-foto-wTh/"
+    },
+    "L04": {
+      "id": "L04",
+      "publisher": "VSAT",
+      "dateLabel": "2026-05-08",
+      "title": "Cargo drone crashes after counter-drone intervention near Krupaviesai",
+      "audit": "[Cargo drone crashes after counter-drone intervention near Krupaviesai][L04]. Primary official account.",
+      "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciams-panaudojus-antidrona-kontrabandininku-skraidykle-su-kroviniu-teskesi-i-zeme-foto-uPP/"
+    },
+    "L05": {
+      "id": "L05",
+      "publisher": "LRT / ELTA",
+      "dateLabel": "2026-06-15",
+      "title": "Sunday border-guard interception of a cigarette-carrying drone",
+      "audit": "[Sunday border-guard interception of a cigarette-carrying drone][L05]. Public broadcaster carrying an official border-service account.",
+      "url": "https://www.lrt.lt/naujienos/lietuvoje/2/2961328/sekmadieni-vsat-pareigunai-nutupde-kontrabandines-cigaretes-skraidinusi-drona"
+    },
+    "L06": {
+      "id": "L06",
+      "publisher": "VSAT",
+      "dateLabel": "2026-09-07",
+      "title": "Cargo drone intercepted near Daugidonys",
+      "audit": "[Cargo drone intercepted near Daugidonys][L06]. Primary official account.",
+      "url": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-vsat-pareigunai-pereme-kontrabandininku-drona-su-kroviniu-foto-P2j/"
+    },
+    "L07": {
+      "id": "L07",
+      "publisher": "VSAT",
+      "dateLabel": "2026-09-14",
+      "title": "Smuggling drone crashes near the Belarus border",
+      "audit": "[Smuggling drone crashes near the Belarus border][L07]. Primary official account; detection at Ūta and recovery at Versekėlė are one track.",
+      "url": "https://vsat.lrv.lt/lt/naujienos/pasienyje-su-baltarusija-avarija-patyre-kontrabandininku-dronas-gabenes-cigaretes-foto-J9M/"
+    },
+    "L08": {
+      "id": "L08",
+      "publisher": "VSAT",
+      "dateLabel": "2026-09-16",
+      "title": "Drone and 1,000 packs of cigarettes seized near Norviliškės",
+      "audit": "[Drone and 1,000 packs of cigarettes seized near Norviliškės][L08]. Primary official account.",
+      "url": "https://vsat.lrv.lt/lt/naujienos/juodoji-rinka-prarado-1-000-pakeliu-cigareciu-ir-juos-gabenusi-kontrabandininku-drona-foto-bSR/"
+    },
+    "L09": {
+      "id": "L09",
+      "publisher": "VSAT",
+      "dateLabel": "2026-09-23",
+      "title": "Intercepted drone burns, cigarette cargo survives",
+      "audit": "[Intercepted drone burns, cigarette cargo survives][L09]. Primary official account; discovery on 22 September. Also supplies the non-additive annual total of 58.",
+      "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciu-nutupdytas-dronas-uzsidege-bet-baltarusiskos-cigaretes-isliko-foto-QXq/"
+    },
+    "L10": {
+      "id": "L10",
+      "publisher": "Lrytas",
+      "dateLabel": "2026-09-17",
+      "title": "Police update on the drone found in a Pasvalys district forest",
+      "audit": "[Police update on the drone found in a Pasvalys district forest][L10]. Follow-up correction links the object to a smuggling investigation, not an established foreign military incursion.",
+      "url": "https://www.lrytas.lt/lietuvosdiena/aktualijos/2026/09/17/news/pasvalio-r-miske-radus-drona-naujausia-policijos-zinai-del-tyrimo-44044686"
+    },
+    "L11": {
+      "id": "L11",
+      "publisher": "Lrytas",
+      "dateLabel": "2026-09-16",
+      "title": "Fallen drone discovered in Pasvalys district",
+      "audit": "[Fallen drone discovered in Pasvalys district][L11]. Initial discovery account; read with next-day correction L10.",
+      "url": "https://www.lrytas.lt/lietuvosdiena/aktualijos/2026/09/16/news/pasvalio-raj-rastas-nukrites-dronas-44018042"
+    },
+    "R01": {
+      "id": "R01",
+      "publisher": "Radio România",
+      "dateLabel": "2026-09-10",
+      "title": "MApN: Drone fragments neutralized at Capu Midia beach",
+      "audit": "[MApN: Drone fragments neutralized at Capu Midia beach][R01]. Public broadcaster reporting Romanian Defence Ministry statement.",
+      "url": "https://www.radioromania.ro/Actualitate/mapn-fragmente-de-drona-neutralizate-in-zona-plajei-de-la-capu-midia-id216948.html"
+    },
+    "R02": {
+      "id": "R02",
+      "publisher": "Radio Oltenia",
+      "dateLabel": "2026-09-10",
+      "title": "Drone remains neutralized at Capu Midia",
+      "audit": "[Drone remains neutralized at Capu Midia][R02]. Specifies 9 September discovery and 10 September response.",
+      "url": "https://www.radiooltenia.ro/resturi-de-drona-neutralizate-la-capu-midia/"
+    },
+    "R03": {
+      "id": "R03",
+      "publisher": "Focus Press",
+      "dateLabel": "2026-09-10",
+      "title": "Three coastal discovery reports: Capu Midia, Mamaia Nord and Corbu",
+      "audit": "[Three coastal discovery reports: Capu Midia, Mamaia Nord and Corbu][R03]. Reopened for this reconciliation: the earlier URL redirects here. The article reports distinct police notifications at Mamaia Nord (10 September, 08:30) and Corbu (09:40), in addition to the 9 September Capu Midia find and next-day disposal.",
+      "url": "https://focuspress.ro/alerta-la-constanta-resturi-de-drona-gasite-in-mai-multe-zone-inclusiv-la-corbu-si-mamaia-nord-49ab7a5ed/"
+    },
+    "R04": {
+      "id": "R04",
+      "publisher": "Financial Intelligence",
+      "dateLabel": "2026-09-10",
+      "title": "Corbu-labelled coverage repeating the Capu Midia Ministry chronology",
+      "audit": "[Corbu-labelled coverage repeating the Capu Midia Ministry chronology][R04]. Reopened for this reconciliation. Its 9 September 20:00 / 10 September 09:30 chronology supports N038; its broad Corbu label is not by itself evidence of a separate event. The independent Corbu police notification is N063, supported by R03/R10/R11.",
+      "url": "https://financialintelligence.ro/fragment-de-drona-gasit-pe-plaja-de-la-corbu-nu-avea-incarcatura-exploziva-fiind-neutralizat-la-fata-locului/"
+    },
+    "R05": {
+      "id": "R05",
+      "publisher": "Radio România Internațional",
+      "dateLabel": "2026-09-11",
+      "title": "Drone fragments found in Constanța and Tulcea counties",
+      "audit": "[Drone fragments found in Constanța and Tulcea counties][R05]. Reproduces the MApN four-location intervention chronology, with times.",
+      "url": "https://www.rri.ro/actualitate/stiri/fragmente-de-drone-gasite-in-judetele-constanta-si-tulcea-id1058610.html"
+    },
+    "R06": {
+      "id": "R06",
+      "publisher": "Observator News",
+      "dateLabel": "2026-09-11",
+      "title": "Drone fragments, some explosive, found on the coast; MApN account",
+      "audit": "[Drone fragments, some explosive, found on the coast; MApN account][R06]. Additional reporting of the same Ministry chronology, not independent physical verification.",
+      "url": "https://observatornews.ro/eveniment/fragmente-de-drone-unele-cu-incarcatura-exploziva-gasite-pe-litoral-reactia-mapn-665968.html"
+    },
+    "R07": {
+      "id": "R07",
+      "publisher": "Adevărul",
+      "dateLabel": "2026-09-11",
+      "title": "Defence Ministry report on coastal drone discoveries",
+      "audit": "[Defence Ministry report on coastal drone discoveries][R07]. Additional coverage of the 11 September recovery operations.",
+      "url": "https://adevarul.ro/stiri-interne/evenimente/ministerul-apararii-nationale-in-stare-de-alerta-2557004.html"
+    },
+    "R08": {
+      "id": "R08",
+      "publisher": "Digi24",
+      "dateLabel": "2026-09-11",
+      "title": "Targets near Vylkove prompt F-16 monitoring and Romanian border alert",
+      "audit": "[Targets near Vylkove prompt F-16 monitoring and Romanian border alert][R08]. MApN said no Romanian airspace penetration; related response, not an incursion.",
+      "url": "https://www.digi24.ro/amphtml/stiri/actualitate/alerta-la-granita-romaniei-tinte-aeriene-detectate-langa-valcove-f-16-ridicate-pentru-monitorizare-3943395"
+    },
+    "R09": {
+      "id": "R09",
+      "publisher": "The Sofia Globe",
+      "dateLabel": "2026-09-15",
+      "title": "Romania and Poland scramble fighter jets over drone incidents",
+      "audit": "[Romania and Poland scramble fighter jets over drone incidents][R09]. Both national accounts explicitly say no national airspace violation; two national response records, not two proven drone tracks.",
+      "url": "https://sofiaglobe.com/2026/09/15/romania-poland-scramble-fighter-jets-over-drone-incidents/"
+    },
+    "B01": {
+      "id": "B01",
+      "publisher": "The Sofia Globe",
+      "dateLabel": "2026-09-03",
+      "title": "Bulgarian Navy responds to several more drone incidents",
+      "audit": "[Bulgarian Navy responds to several more drone incidents][B01]. Defence Ministry announcement covers SIX tasks performed on 2 September: five drone-related locations and one unidentified cone-shaped object.",
+      "url": "https://sofiaglobe.com/2026/09/03/bulgarian-navy-responds-to-several-more-drone-incidents/"
+    },
+    "B02": {
+      "id": "B02",
+      "publisher": "Petel",
+      "dateLabel": "2026-09-04",
+      "title": "Bulgarian Navy six-task coastal and maritime response account",
+      "audit": "[Bulgarian Navy six-task coastal and maritime response account][B02]. Local-language coverage of the same Ministry announcement; publication date is not a new incident date.",
+      "url": "https://petel.bg/m/667593"
+    },
+    "B03": {
+      "id": "B03",
+      "publisher": "Direktno",
+      "dateLabel": "2026-09-06",
+      "title": "Six naval tasks on the Black Sea: established facts and open questions",
+      "audit": "[Six naval tasks on the Black Sea: established facts and open questions][B03]. Retrospective corroboration of locations and uncertainty; not six additional September 6 events.",
+      "url": "https://direktno.bg/article/shest-zadachi-na-vms-po-chernomorieto-kakvo-e-potvyrdeno-i-kakvo-ostava-neyasno"
+    },
+    "B04": {
+      "id": "B04",
+      "publisher": "Darik News",
+      "dateLabel": "2026-09-07",
+      "title": "Navy retrieves a drone from the Black Sea near Kaliakra",
+      "audit": "[Navy retrieves a drone from the Black Sea near Kaliakra][B04]. Reports response on the previous afternoon, 6 September.",
+      "url": "https://dariknews.bg/novini/bylgariia/otkriha-dron-v-cherno-more-vms-go-iztegliha-2465810"
+    },
+    "B05": {
+      "id": "B05",
+      "publisher": "OFFNews",
+      "dateLabel": "2026-09-07",
+      "title": "Drone found afloat near Cape Kaliakra",
+      "audit": "[Drone found afloat near Cape Kaliakra][B05]. Additional reporting of the same retrieval, not another event.",
+      "url": "https://offnews.bg/112/dron-izpluva-kraj-nos-kaliakra-874215.html"
+    },
+    "B06": {
+      "id": "B06",
+      "publisher": "Eurocom / Bulgaria ON AIR reporting",
+      "dateLabel": "2026-09-11",
+      "title": "Military-type drone washes up on Kavatsi beach",
+      "audit": "[Military-type drone washes up on Kavatsi beach][B06]. Discovery and security response; operator, payload and final disposal not established in the retrieved account.",
+      "url": "https://eurocom.bg/2026/09/11/voenen-dron-izpluva-na-plazh-kavatsi-spetsializirani-sili-ohranyavat-rayona/"
+    },
+    "B07": {
+      "id": "B07",
+      "publisher": "Flagman",
+      "dateLabel": "2026-09-01",
+      "title": "Kayaker account of a drone found near Sozopol",
+      "audit": "[Kayaker account of a drone found near Sozopol][B07]. Duplicate-check source only: retrospective late-August discovery associated with baseline E081, not a newly counted 1 September event.",
+      "url": "https://www.flagman.bg/article/389012"
+    },
+    "D01": {
+      "id": "D01",
+      "publisher": "ZDFheute",
+      "dateLabel": "2026-07-17",
+      "title": "Moldovan man arrested in Munich on suspicion of espionage",
+      "audit": "[Moldovan man arrested in Munich on suspicion of espionage][D01]. Police/prosecutor account; allegations are not a conviction.",
+      "url": "https://www.zdfheute.de/politik/deutschland/muenchen-spionage-mann-moldau-100.html"
+    },
+    "D02": {
+      "id": "D02",
+      "publisher": "Reuters via Onvista",
+      "dateLabel": "2026-07-17",
+      "title": "Warrant against Moldovan suspect over alleged espionage at KNDS",
+      "audit": "[Warrant against Moldovan suspect over alleged espionage at KNDS][D02]. KNDS identification attributed to Reuters security source, not an unqualified named-site police finding.",
+      "url": "https://www.onvista.de/news/2026/07-17-spionageverdacht-bei-panzerbauer-knds-haftbefehl-gegen-moldauer-0-20-26533395"
+    },
+    "D03": {
+      "id": "D03",
+      "publisher": "Reuters via MarketScreener",
+      "dateLabel": "2026-07-17",
+      "title": "Germany arrests Moldovan over suspected drone espionage at KNDS",
+      "audit": "[Germany arrests Moldovan over suspected drone espionage at KNDS][D03]. Specifies Wednesday evening, 15 July, rather than treating Friday publication as flight date.",
+      "url": "https://de.marketscreener.com/boerse-nachrichten/deutschland-nimmt-moldauer-wegen-mutmasslichem-spionage-drohnenflug-ueber-ruestungshersteller-knds-fest-ce7f51dad88ef221"
+    },
+    "C01": {
+      "id": "C01",
+      "publisher": "Cyprus Mail",
+      "dateLabel": "2026-03-30",
+      "title": "Cyprus reports Turkish airspace, FIR and territorial-water violations",
+      "audit": "[Cyprus reports Turkish airspace, FIR and territorial-water violations][C01]. Cypriot submission concerning January–February. Aggregate only; not independently verified by the UN.",
+      "url": "https://cyprus-mail.com/2026/03/30/cyprus-reports-new-turkish-violations-of-airspace-fir-territorial-waters"
+    },
+    "C02": {
+      "id": "C02",
+      "publisher": "SigmaLive",
+      "dateLabel": "2026-03-30",
+      "title": "Cyprus reports Turkish violations to UN Security Council",
+      "audit": "[Cyprus reports Turkish violations to UN Security Council][C02]. Additional reporting of the same submission, S/2026/240. The annex was not extracted into individual records here.",
+      "url": "https://en.sigmalive.com/cyprus-reports-turkish-violations-to-un-security-council/"
+    },
+    "C03": {
+      "id": "C03",
+      "publisher": "Knews / Kathimerini Cyprus",
+      "dateLabel": "2026-09-01",
+      "title": "Turkish drones disrupting flight paths near Larnaca and Paphos",
+      "audit": "[Turkish drones disrupting flight paths near Larnaca and Paphos][C03]. Attributed statements by air-traffic-controller representative; undated recurring pattern, not a new individually timed September 1 encounter.",
+      "url": "https://knews.kathimerini.com.cy/en/news/turkish-drones-disrupting-flight-paths-near-larnaca-and-paphos"
+    },
+    "G00": {
+      "id": "G00",
+      "publisher": "Greek Ministry of Foreign Affairs",
+      "dateLabel": "Current official position accessed 2026-09-24",
+      "title": "National airspace: Greek position",
+      "audit": "[National airspace: Greek position][G00]. Primary statement of Greece’s 10-nautical-mile Aegean airspace claim.",
+      "url": "https://www.mfa.gr/en/foreign-policy/foreign-policy-issues/issues-of-greek-turkish-relations/national-airspace/"
+    },
+    "T00": {
+      "id": "T00",
+      "publisher": "Turkish Ministry of Foreign Affairs",
+      "dateLabel": "Current official position accessed 2026-09-24",
+      "title": "Background note on the Aegean dispute",
+      "audit": "[Background note on the Aegean dispute][T00]. Primary Turkish objection to Greece’s 10-mile airspace claim beyond a 6-mile territorial sea and to FIR-based sovereignty arguments.",
+      "url": "https://www.mfa.gov.tr/background-note-on-aegean-dispute.en.mfa"
+    },
+    "G99": {
+      "id": "G99",
+      "publisher": "To Vima",
+      "dateLabel": "2026; covers January–August",
+      "title": "The drone activity tally discussed in To Vima",
+      "audit": "[The drone activity tally discussed in To Vima][G99]. 276 reported UAV appearances/activity entries, including 102 in August and 30 in July; do not reinterpret as 276 unique aircraft or individual sovereign-airspace incursions.",
+      "url": "https://www.tovima.gr/print/politics/i-damokleios-spathi-ton-drones"
+    },
+    "G0113": {
+      "id": "G0113",
+      "publisher": "Dimokratiki / Greek military figures",
+      "dateLabel": "2026-01-13",
+      "title": "Turkish UAV activity reported for 2026-01-13",
+      "audit": "[Turkish UAV activity reported for 2026-01-13][G0113]. Greek military figures as reported; not an independent adjudication of disputed airspace. The five reported national-airspace violations were by F-16s, not the UAV.",
+      "url": "https://www.dimokratiki.gr/13-01-2026/nees-tourkikes-proklisis-sto-egeo-pente-paraviasis-ke-dyo-paravasis-apo-f-16-ke-uav/"
+    },
+    "G0115": {
+      "id": "G0115",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-01-15",
+      "title": "Turkish UAV activity reported for 2026-01-15",
+      "audit": "[Turkish UAV activity reported for 2026-01-15][G0115]. Greek military figures as reported; not an independent adjudication of disputed airspace. CN-235 FIR infringements excluded.",
+      "url": "https://www.onalert.gr/ellinotourkika/enochlise-i-afixi-toy-kimona-toyrkika-cn-235-kai-uav-ekanan-3-paraviaseis-sto-aigaio/656144/"
+    },
+    "G0117": {
+      "id": "G0117",
+      "publisher": "CretaOne / Greek military figures",
+      "dateLabel": "2026-01-17",
+      "title": "Turkish UAV activity reported for 2026-01-17",
+      "audit": "[Turkish UAV activity reported for 2026-01-17][G0117]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+      "url": "https://cretaone.gr/nees-toyrkikes-paraviaseis-sto-aigaio-me-drones-ayti-ti-fora/"
+    },
+    "G0302": {
+      "id": "G0302",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-03-02",
+      "title": "Turkish UAV activity reported for 2026-03-02",
+      "audit": "[Turkish UAV activity reported for 2026-03-02][G0302]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+      "url": "https://www.onalert.gr/ellinotourkika/dyo-toyrkika-drones-ekanan-4-paraviaseis-kai-3-paravaseis-sto-aigaio/662737/"
+    },
+    "G0305": {
+      "id": "G0305",
+      "publisher": "Athens Times / reported Greek breakdown",
+      "dateLabel": "2026-03-05",
+      "title": "Turkish UAV activity reported for 2026-03-05",
+      "audit": "[Turkish UAV activity reported for 2026-03-05][G0305]. Greek military figures as reported; not an independent adjudication of disputed airspace. Reported national-airspace violations were assigned to F-16/ATR aircraft; this is the UAV FIR component only. Secondary-source-only entry.",
+      "url": "https://athens-times.com/turkish-air-violations-over-the-aegean-amid-regional-tensions/"
+    },
+    "G0310": {
+      "id": "G0310",
+      "publisher": "Greek City Times / Greek military account",
+      "dateLabel": "2026-03-10",
+      "title": "Turkish UAV activity reported for 2026-03-10",
+      "audit": "[Turkish UAV activity reported for 2026-03-10][G0310]. Greek military figures as reported; not an independent adjudication of disputed airspace. Reported on 11 March about 10 March; six national violations were assigned to a CN-235, not the UAV.",
+      "url": "https://greekcitytimes.com/2026/03/11/turkish-airspace-violations-aegean-march-2026/"
+    },
+    "G0326": {
+      "id": "G0326",
+      "publisher": "Athens Times / reported Greek breakdown",
+      "dateLabel": "2026-03-26",
+      "title": "Turkish UAV activity reported for 2026-03-26",
+      "audit": "[Turkish UAV activity reported for 2026-03-26][G0326]. Greek military figures as reported; not an independent adjudication of disputed airspace. Nine national violations were attributed to F-16/CN-235 aircraft. UAVs account for three FIR infringements, not those nine crossings.",
+      "url": "https://athens-times.com/turkey-provokes-in-the-aegean-f-16s-fly-unannounced-exercise-cn-235-and-uavs-violate-greek-airspace/"
+    },
+    "G0617": {
+      "id": "G0617",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-06-17",
+      "title": "Turkish UAV activity reported for 2026-06-17",
+      "audit": "[Turkish UAV activity reported for 2026-06-17][G0617]. Greek military figures as reported; not an independent adjudication of disputed airspace. Five further national violations were assigned to an ATR-72, not included here.",
+      "url": "https://www.onalert.gr/ellinotourkika/tourkiko-atr-72-kai-dyo-uav-ekanan-paraviaseis-kai-paravaseis-se-olo-to-aigaio/678664/"
+    },
+    "G0623": {
+      "id": "G0623",
+      "publisher": "Athens Times / reported Greek breakdown",
+      "dateLabel": "2026-06-23",
+      "title": "Turkish UAV activity reported for 2026-06-23",
+      "audit": "[Turkish UAV activity reported for 2026-06-23][G0623]. Greek military figures as reported; not an independent adjudication of disputed airspace. Six national violations and fighter engagements were assigned to manned aircraft, not UAVs.",
+      "url": "https://athens-times.com/new-turkish-air-violations-in-the-aegean-armed-f-16s-intrude-clashes-with-greek-fighters/"
+    },
+    "G0810": {
+      "id": "G0810",
+      "publisher": "Newsit / GEETHA",
+      "dateLabel": "2026-08-10",
+      "title": "Turkish UAV activity reported for 2026-08-10",
+      "audit": "[Turkish UAV activity reported for 2026-08-10][G0810]. Greek military figures as reported; not an independent adjudication of disputed airspace. Four is the mixed-aircraft FIR total; it is not assigned wholesale to the two UAVs.",
+      "url": "https://www.newsit.gr/ellada/neo-resital-proklitikotitas-apo-tin-tourkia-me-12-paraviaseis-sto-aigaio/4748229/"
+    },
+    "G0817": {
+      "id": "G0817",
+      "publisher": "Newsbomb / GEETHA",
+      "dateLabel": "2026-08-17",
+      "title": "Turkish UAV activity reported for 2026-08-17",
+      "audit": "[Turkish UAV activity reported for 2026-08-17][G0817]. Greek military figures as reported; not an independent adjudication of disputed airspace. The CN-235 accounts for the other six national violations and one FIR infringement in the mixed totals.",
+      "url": "https://www.newsbomb.gr/ellada/ethnika/story/1757082/baraz-tourkikon-paraviaseon-sto-aigaio-me-uav-kai-aeroskafos"
+    },
+    "G0822": {
+      "id": "G0822",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-08-22",
+      "title": "Turkish UAV activity reported for 2026-08-22",
+      "audit": "[Turkish UAV activity reported for 2026-08-22][G0822]. Greek military figures as reported; not an independent adjudication of disputed airspace. FIR infringements only; do not relabel as national-airspace incursions.",
+      "url": "https://www.onalert.gr/ellinotourkika/aigaio-paravaseis-sto-fir-athinon-apo-dyo-tourkika-uav/815066/"
+    },
+    "G0823": {
+      "id": "G0823",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-08-23",
+      "title": "Turkish UAV activity reported for 2026-08-23",
+      "audit": "[Turkish UAV activity reported for 2026-08-23][G0823]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+      "url": "https://www.onalert.gr/ellinotourkika/tourkika-uav-paraviasan-gia-akomi-mia-mera-ton-ethniko-enaerio-xoro-sto-aigaio/815175/"
+    },
+    "G0824": {
+      "id": "G0824",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-08-24",
+      "title": "Turkish UAV activity reported for 2026-08-24",
+      "audit": "[Turkish UAV activity reported for 2026-08-24][G0824]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+      "url": "https://www.onalert.gr/ellinotourkika/paraviaseis-kai-paravaseis-apo-eksi-tourkika-drones-sto-aigaio/815317/"
+    },
+    "G0825": {
+      "id": "G0825",
+      "publisher": "SDNA / Newsit / reproduced GEETHA bulletin",
+      "dateLabel": "2026-08-25",
+      "title": "Turkish UAV activity reported for 2026-08-25",
+      "audit": "[Turkish UAV activity reported for 2026-08-25][G0825]. Greek military figures as reported; not an independent adjudication of disputed airspace. Contemporaneous breakdown is three national and eight UAV FIR infringements; some next-day retrospectives incorrectly conflate these counts.",
+      "url": "https://www.sdna.gr/politiko-deltio/ellada/1460934_nea-toyrkiki-proklisi-sto-aigaio-me-tessera-uav-deka-parabaseis-sto"
+    },
+    "G0826": {
+      "id": "G0826",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-08-26",
+      "title": "Turkish UAV activity reported for 2026-08-26",
+      "audit": "[Turkish UAV activity reported for 2026-08-26][G0826]. Greek military figures as reported; not an independent adjudication of disputed airspace. The mixed total of 13 national violations also includes seven by a CN-235.",
+      "url": "https://www.onalert.gr/ellinotourkika/aigaio-synexizontai-oi-paraviaseis-kai-oi-paravaseis-apo-tourkika-drones-kai-cn-235/815675/"
+    },
+    "G0828": {
+      "id": "G0828",
+      "publisher": "Euronews / Greek military account",
+      "dateLabel": "2026-08-28",
+      "title": "Greek F-16s intercept Turkish drone over northern Aegean",
+      "audit": "[Greek F-16s intercept Turkish drone over northern Aegean][G0828]. Original supplement link; reopening returned a cache miss in this pass. N023 was instead corroborated with eKathimerini and a dated AOL syndication of the Euronews report (G0828K/G0828A).",
+      "url": "https://www.euronews.com/2026/08/28/greek-f-16s-intercept-turkish-drone-over-northern-aegean"
+    },
+    "G0829": {
+      "id": "G0829",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-08-29",
+      "title": "Turkish UAV activity reported for 2026-08-29",
+      "audit": "[Turkish UAV activity reported for 2026-08-29][G0829]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+      "url": "https://www.onalert.gr/ellinotourkika/nees-paravaseis-kai-paraviaseis-apo-tourkika-uav/816143/"
+    },
+    "G0830": {
+      "id": "G0830",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-08-30",
+      "title": "Turkish UAV activity reported for 2026-08-30",
+      "audit": "[Turkish UAV activity reported for 2026-08-30][G0830]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+      "url": "https://www.onalert.gr/ellinotourkika/nees-paravaseis-tourkikon-uav-sto-kentriko-aigaio/816240/"
+    },
+    "G0831": {
+      "id": "G0831",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-08-31",
+      "title": "Turkish UAV activity reported for 2026-08-31",
+      "audit": "[Turkish UAV activity reported for 2026-08-31][G0831]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+      "url": "https://www.onalert.gr/ellinotourkika/synexizoun-tis-paraviaseis-sto-aigaio-ta-tourkika-drones-mia-paravasi-apo-cn-235/816429/"
+    },
+    "G0901": {
+      "id": "G0901",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-09-01",
+      "title": "Turkish UAV activity reported for 2026-09-01",
+      "audit": "[Turkish UAV activity reported for 2026-09-01][G0901]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+      "url": "https://www.onalert.gr/ellinotourkika/paraviaseis-kai-paravaseis-apo-4-tourkika-drones-sto-aigaio/816630/"
+    },
+    "G0902": {
+      "id": "G0902",
+      "publisher": "CNN Greece / GEETHA",
+      "dateLabel": "2026-09-02",
+      "title": "Turkish UAV activity reported for 2026-09-02",
+      "audit": "[Turkish UAV activity reported for 2026-09-02][G0902]. Greek military figures as reported; not an independent adjudication of disputed airspace. CN-235 contributes six further national violations and one FIR infringement, excluded from UAV figures.",
+      "url": "https://www.cnn.gr/ellada/story/550515/mparaz-paraviaseon-apo-tourkika-aeroskafi-kai-drone-sto-aigaio"
+    },
+    "G0907": {
+      "id": "G0907",
+      "publisher": "Proto Thema / Greek military figures",
+      "dateLabel": "2026-09-07",
+      "title": "Turkish UAV activity reported for 2026-09-07",
+      "audit": "[Turkish UAV activity reported for 2026-09-07][G0907]. Greek military figures as reported; not an independent adjudication of disputed airspace. Reported fighter engagement is not evidence that either UAV was fired upon.",
+      "url": "https://www.protothema.gr/greece/article/1875290/tesseris-paraviaseis-apo-tourkika-uav-kai-mia-ebloki-me-elliniko-aeroskafos-epifulakis/AMP/"
+    },
+    "G0910": {
+      "id": "G0910",
+      "publisher": "Ekriti / Greek military figures",
+      "dateLabel": "2026-09-10",
+      "title": "Turkish UAV activity reported for 2026-09-10",
+      "audit": "[Turkish UAV activity reported for 2026-09-10][G0910]. Greek military figures as reported; not an independent adjudication of disputed airspace. Other seven national violations were assigned to an ATR, not the four UAVs.",
+      "url": "https://www.ekriti.gr/ellada/nees-prokliseis-apo-tin-toyrkia-sto-aigaio-stin-premiera-tis-askisis-medusa-stin-kriti"
+    },
+    "G0911": {
+      "id": "G0911",
+      "publisher": "Military Press / reported Greek breakdown",
+      "dateLabel": "2026-09-11",
+      "title": "Turkish UAV activity reported for 2026-09-11",
+      "audit": "[Turkish UAV activity reported for 2026-09-11][G0911]. Greek military figures as reported; not an independent adjudication of disputed airspace. Reported 12 September about 11 September. Ten national violations and two fighter engagements concerned F-16s, not the UAVs.",
+      "url": "https://militarypress.gr/en/2026/09/12/armed-turkish-f16s-aegean-second-incident-five-days/"
+    },
+    "G0912": {
+      "id": "G0912",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-09-12",
+      "title": "Turkish UAV activity reported for 2026-09-12",
+      "audit": "[Turkish UAV activity reported for 2026-09-12][G0912]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+      "url": "https://www.onalert.gr/ellinotourkika/aigaio-nees-paravaseis-kai-paraviaseis-tourkikon-uav/819055/"
+    },
+    "G0913": {
+      "id": "G0913",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-09-13",
+      "title": "Turkish UAV activity reported for 2026-09-13",
+      "audit": "[Turkish UAV activity reported for 2026-09-13][G0913]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+      "url": "https://www.onalert.gr/ellinotourkika/paravaseis-kai-paraviaseis-apo-tourkika-uav-sto-aigaio/819183/"
+    },
+    "G0917": {
+      "id": "G0917",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-09-17",
+      "title": "Turkish UAV activity reported for 2026-09-17",
+      "audit": "[Turkish UAV activity reported for 2026-09-17][G0917]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+      "url": "https://www.onalert.gr/ellinotourkika/aigaio-paravaseis-sto-fir-athinon-apo-tourkika-f-16-kai-uav/820146/"
+    },
+    "G0918": {
+      "id": "G0918",
+      "publisher": "Politica / Greek military breakdown",
+      "dateLabel": "2026-09-18",
+      "title": "Greek account of UAV overflight at Zourafa and mixed daily aircraft activity",
+      "audit": "[Greek account of UAV overflight at Zourafa and mixed daily aircraft activity][G0918]. Reopened. Identifies a UAV over Zourafa and five UAVs in the wider daily activity; 13 FIR infringements and seven national-airspace violations are mixed-aircraft totals. Does not provide the earlier supplement’s claimed drone-only nine/five subdivision.",
+      "url": "https://www.politica.gr/kriti/aigaio-tourkika-f-16-kai-uav-pano-apo-ro-kai-zourafa-se-exelixi-i-medusa-15-stin-kriti"
+    },
+    "G0919": {
+      "id": "G0919",
+      "publisher": "Capital.gr / Greek military figures",
+      "dateLabel": "2026-09-19",
+      "title": "Turkish UAV activity reported for 2026-09-19",
+      "audit": "[Turkish UAV activity reported for 2026-09-19][G0919]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+      "url": "https://www.capital.gr/epikairotita/4018039/nees-tourkikes-parabaseis-sto-aigaio-apo-drones/"
+    },
+    "G0920": {
+      "id": "G0920",
+      "publisher": "CNN Greece / GEETHA",
+      "dateLabel": "2026-09-20",
+      "title": "Turkish UAV activity reported for 2026-09-20",
+      "audit": "[Turkish UAV activity reported for 2026-09-20][G0920]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+      "url": "https://www.cnn.gr/ellada/story/553191/123"
+    },
+    "G0921": {
+      "id": "G0921",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-09-21",
+      "title": "Turkish UAV activity reported for 2026-09-21",
+      "audit": "[Turkish UAV activity reported for 2026-09-21][G0921]. Greek military figures as reported; not an independent adjudication of disputed airspace. One of the two UAVs was assigned the national-airspace violation; ATR FIR statistics excluded.",
+      "url": "https://www.onalert.gr/ellinotourkika/paravaseis-kai-paraviasi-sto-aigaio-apo-dyo-tourkika-drones-kai-ena-atr-72/821033/"
+    },
+    "G0922": {
+      "id": "G0922",
+      "publisher": "Newsit / GEETHA",
+      "dateLabel": "2026-09-22",
+      "title": "Turkish UAV activity reported for 2026-09-22",
+      "audit": "[Turkish UAV activity reported for 2026-09-22][G0922]. Greek military figures as reported; not an independent adjudication of disputed airspace. National violations assigned to two of five UAVs; two ATR aircraft excluded from drone totals.",
+      "url": "https://www.newsit.gr/ellada/tourkika-drones-paraviasan-ton-ethniko-enaerio-xoro-sto-aigaio-paravaseis-kai-apo-dyo-atr-72/4780725/amp/"
+    },
+    "G0923": {
+      "id": "G0923",
+      "publisher": "OnAlert / GEETHA bulletin",
+      "dateLabel": "2026-09-23",
+      "title": "Turkish UAV activity reported for 2026-09-23",
+      "audit": "[Turkish UAV activity reported for 2026-09-23][G0923]. Greek military figures as reported; not an independent adjudication of disputed airspace. Original bulletin says 23 September. Some syndications erroneously retain a 22 September header; they are not another record.",
+      "url": "https://www.onalert.gr/ellinotourkika/tourkika-drones-ekanan-paraviaseis-kai-paravaseis-sto-notioanatoliko-aigaio/821605/"
+    },
+    "R10": {
+      "id": "R10",
+      "publisher": "Cuget Liber",
+      "dateLabel": "2026-09-10",
+      "title": "Two separately timed beach-fragment notifications at Mamaia Nord and Corbu",
+      "audit": "[Two separately timed beach-fragment notifications at Mamaia Nord and Corbu][R10]. Newly checked for reconciliation; local reporting, explicitly referring to unofficial sources. Neither reported find contained explosives.",
+      "url": "https://cugetliber.ro/mobile/stiri-eveniment-fragmente-de-drona-pe-plaja-din-mamaia-nord-politistii-au-fost-alertati-dimineata-563717"
+    },
+    "R11": {
+      "id": "R11",
+      "publisher": "Replica Online",
+      "dateLabel": "2026-09-10",
+      "title": "Mamaia Nord beach recovery and separate Corbu police notification",
+      "audit": "[Mamaia Nord beach recovery and separate Corbu police notification][R11]. Newly checked. The lead loosely says about 09:00; the quoted notification chronology gives 08:30 for Mamaia Nord and 09:40 for Corbu. Its Alezzi micro-location is outlet-specific, not used as the canonical matching site.",
+      "url": "https://www.replicaonline.ro/inca-o-drona-a-fost-gasita-pe-plaja-alezzi-din-mamaia-nu-avea-explozibil-668064/"
+    },
+    "G0828K": {
+      "id": "G0828K",
+      "publisher": "eKathimerini",
+      "dateLabel": "2026-08-28",
+      "title": "Greek account of Turkish UAV interception between Samothrace and Lemnos",
+      "audit": "[Greek account of Turkish UAV interception between Samothrace and Lemnos][G0828K]. Newly checked; links the encounter with the Alexandroupoli departure precaution, rather than describing another incident.",
+      "url": "https://www.ekathimerini.com/politics/foreign-policy/1313618/turkish-drone-violates-greek-airspace-over-northeastern-aegean/"
+    },
+    "G0828A": {
+      "id": "G0828A",
+      "publisher": "AOL / Euronews syndication",
+      "dateLabel": "2026-08-28",
+      "title": "Dated syndication of Greek F-16 interception report",
+      "audit": "[Dated syndication of Greek F-16 interception report][G0828A]. Newly checked alternative to the original Euronews link; same encounter, not independent proof of another drone.",
+      "url": "https://www.aol.com/articles/greek-f-16s-intercept-turkish-133414000.html"
     }
   },
-  "cutoff": "2026-09-24"
+  "cutoff": "2026-09-24",
+  "sourceFiles": [
+    "eu_foreign_drone_events_2026_consolidated.md",
+    "eu_foreign_drone_events_2026_final_update_deduped.md"
+  ]
 };

@@ -5,6 +5,7 @@
   const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const colors = {flight:'#3278c5', shotdown:'#7b4ab5', engaged:'#7b4ab5', crash:'#d99018', explosion:'#d94343', disposal:'#3a6a72', recovery:'#239284', alert:'#7c8697'};
   const categoryLabels = {flight:'Flight', shotdown:'Shot down', engaged:'Military engagement', crash:'Crash', explosion:'Explosion', disposal:'Controlled disposal', recovery:'Recovery', alert:'Alert / other'};
+  const recordClassLabels = {event:'Event record', candidate:'Unidentified object'};
   // Armed engagement shares the purple family, while each event's own label
   // distinguishes a shoot-down from a surface drone damaged by aircraft fire.
   $('map-legend').innerHTML = Object.entries(categoryLabels).filter(([key]) => key !== 'engaged').map(([key,label]) => `<span><i style="background:${colors[key]}"></i>${key === 'shotdown' ? 'Shot down / armed engagement' : label}</span>`).join('');
@@ -26,7 +27,7 @@
   let playing = false;
   let animationFrame = null;
   let lastFrameTime = null;
-  let renderedRecordCount = -1;
+  let renderedRecordKey = '';
   let selectedId = null;
   let visibleEvents = events;
   let returnFocus = null;
@@ -132,11 +133,11 @@
   events.forEach(event => {
     markers.set(event.id, event.positions.map(position => {
       const marker = L.marker([position.lat,position.lng], {
-        icon:markerIcon(event,position), title:`${event.id} · ${event.title} · ${categoryLabels[event.category]} · ${event.status} · approximate position`,
+        icon:markerIcon(event,position), title:`${event.id} · ${event.title} · ${recordClassLabels[event.recordClass]} · ${categoryLabels[event.category]} · ${event.status} · approximate position`,
         alt:`${event.id}, ${event.title}`, recordId:event.id, recordDate:event.startDate,
         keyboard:true, riseOnHover:true
       });
-      marker.bindTooltip(`<strong>${escape(event.title)}</strong><small>${escape(event.id)} · ${escape(shortDate(event.startDate))} · ${categoryLabels[event.category]}</small><small>${escape(event.status)}</small><small>Approximate ${position.precision === 'locality' ? 'locality' : position.precision === 'offshore' ? 'offshore area' : 'region'}</small>`, {direction:'top',offset:[0,-10]});
+      marker.bindTooltip(`<strong>${escape(event.title)}</strong><small>${escape(event.id)} · ${escape(shortDate(event.startDate))} · ${categoryLabels[event.category]}</small><small>${recordClassLabels[event.recordClass]}</small><small>${escape(event.status)}</small><small>Approximate ${position.precision === 'locality' ? 'locality' : position.precision === 'offshore' ? 'offshore area' : 'region'}</small>`, {direction:'top',offset:[0,-10]});
       marker.on('click', () => selectEvent(event.id, false));
       return marker;
     }));
@@ -149,7 +150,8 @@
 
   function renderList() {
     // Quiet days only change the date and highlights, not the list's DOM.
-    if (renderedRecordCount !== visibleEvents.length) {
+    const recordKey = visibleEvents.map(event => event.id).join(',');
+    if (renderedRecordKey !== recordKey) {
       let previousMonth = '';
       $('event-list').innerHTML = visibleEvents.map(event => {
         const month = event.startDate.slice(0,7);
@@ -160,15 +162,15 @@
           heading = `<h3 class="event-month">${escape(monthName.toUpperCase())} 2026</h3>`;
         }
         const dayLabel = event.dateLabel === event.startDate ? shortDate(event.startDate) : `${shortDate(event.startDate)} · date notes`;
-        return `${heading}<button class="event-card${!allMode && event.startDate === dayToDate(currentDay) ? ' current' : ''}" id="card-${event.id}" data-id="${event.id}" data-date="${event.startDate}" style="--category:${colors[event.category]}" aria-pressed="${selectedId === event.id}"><span class="event-dot" aria-hidden="true"></span><span class="event-meta"><span>${escape(dayLabel)} · ${escape(event.countries.split(';')[0].replace(/ \(.+\)/,''))}</span><span class="event-id">${event.id}</span></span><span class="event-title">${escape(event.title)}</span><span class="event-type">${escape(event.status)}</span></button>`;
+        return `${heading}<button class="event-card${!allMode && event.startDate === dayToDate(currentDay) ? ' current' : ''}" id="card-${event.id}" data-id="${event.id}" data-date="${event.startDate}" style="--category:${colors[event.category]}" aria-pressed="${selectedId === event.id}"><span class="event-dot" aria-hidden="true"></span><span class="event-meta"><span>${escape(dayLabel)} · ${escape(event.countries.split(';')[0].replace(/ \(.+\)/,''))}</span><span class="event-id">${event.id}</span></span><span class="event-title">${escape(event.title)}</span>${event.recordClass !== 'event' ? `<span class="record-kind">${recordClassLabels[event.recordClass]}</span>` : ''}<span class="event-type">${escape(event.status)}</span></button>`;
       }).join('');
-      renderedRecordCount = visibleEvents.length;
+      renderedRecordKey = recordKey;
     }
     document.querySelectorAll('.event-card').forEach(card => {
       card.classList.toggle('current', !allMode && card.dataset.date === dayToDate(currentDay));
     });
-    $('visible-count').textContent = `${visibleEvents.length} of 84 records`;
-    $('list-title').textContent = allMode ? 'All events' : `Through ${shortDate(dayToDate(currentDay))}`;
+    $('visible-count').textContent = `${visibleEvents.length} of ${events.length} records`;
+    $('list-title').textContent = allMode ? 'All records' : `Through ${shortDate(dayToDate(currentDay))}`;
   }
 
   function renderMarkers() {
@@ -202,11 +204,11 @@
     return ids.map(id => {
       const s = sources[id];
       if (!s || !/^https?:\/\//.test(s.url)) return '';
-      return `<a class="source-link" href="${escape(s.url)}" target="_blank" rel="noopener noreferrer"><strong>${escape(id)} · ${escape(s.publisher)} ↗</strong><span>${escape(s.title)}</span><small>${escape(s.audit)}</small></a>`;
+      return `<a class="source-link" href="${escape(s.url)}" target="_blank" rel="noopener noreferrer"><strong>${escape(id)} · ${escape(s.publisher)} ↗</strong><span>${escape(s.title)}</span><small>${s.dateLabel ? escape(s.dateLabel) + ' · ' : ''}${escape(s.audit.replace(/\[([^\]]+)\]\[[^\]]+\]/g,'$1'))}</small></a>`;
     }).join('');
   }
   function fieldsHTML(event, fields) {
-    return fields.map(([key,label]) => `<dt>${label}</dt><dd>${escape(event[key])}</dd>`).join('');
+    return fields.filter(([key]) => event[key]).map(([key,label]) => `<dt>${label}</dt><dd>${escape(event[key])}</dd>`).join('');
   }
   function outcomeTags(event) {
     return `<div class="outcome-tags" aria-label="Reported event stages">${event.stages.map((stage,index) => `<span style="--category:${colors[stage]}"${index === 0 ? ' title="Determines the map color"' : ''}><i aria-hidden="true"></i>${categoryLabels[stage]}${index === 0 ? ' · map color' : ''}</span>`).join('')}</div>${event.classificationNote ? `<p class="classification-note">${escape(event.classificationNote)}</p>` : ''}`;
@@ -220,8 +222,8 @@
     returnFocus = document.activeElement;
     $('detail').hidden = false;
     const isRegional = event.positions.some(p => p.precision === 'region');
-    const geoNote = isRegional ? 'Representative regional anchor; the exact site or track is not established here.' : 'Approximate map anchor for the named locality or offshore area; not a verified incident coordinate.';
-    $('detail').innerHTML = `<div class="detail-head" style="--category:${colors[event.category]}"><p class="eyebrow">${event.id} / ${escape(event.countries)}</p><button class="close-detail" aria-label="Close event details">×</button><h2>${escape(event.title)}</h2><div class="detail-status">${escape(event.status)}</div></div><div class="detail-scroll"><p class="detail-date">${escape(event.dateLabel)}</p>${outcomeTags(event)}<p class="position-note">${geoNote}${event.positions.length > 1 ? ' This single record has two regional map anchors.' : ''}${event.id === 'E058' ? ' The Pratkūnai site is not geocoded; the marker represents Lithuania only.' : ''}</p><dl>${fieldsHTML(event,[['dateBasis','Date basis'],['location','Location / jurisdiction'],['categories','Event categories'],['circumstances','What was reported'],['vehicle','Aircraft / vessel / quantity'],['attribution','Origin / operator / attribution'],['impact','Damage / casualties / disruption'],['response','Response / outcome'],['uncertainty','Investigation / uncertainty'],['route','Route / entry mechanism'],['payload','Explosive payload'],['deduplication','Counting / links'],['provenance','Research provenance']])}</dl><h3>Source references · ${event.sources.length}</h3>${sourceLinks(event.sources)}</div>`;
+    const geoNote = (isRegional ? 'Representative regional anchor; the exact site or track is not established here.' : 'Approximate map anchor for the named locality or offshore area; not a verified incident coordinate.') + (event.positionNote ? ' ' + event.positionNote : '');
+    $('detail').innerHTML = `<div class="detail-head" style="--category:${colors[event.category]}"><p class="eyebrow">${event.id} / ${escape(event.countries)}</p><button class="close-detail" aria-label="Close event details">×</button><h2>${escape(event.title)}</h2><div class="detail-status">${escape(event.status)}</div></div><div class="detail-scroll"><p class="record-kind">${recordClassLabels[event.recordClass]}</p><p class="detail-date">${escape(event.dateLabel)}</p>${outcomeTags(event)}<p class="position-note">${geoNote}${event.positions.length > 1 ? ' This single record has two regional map anchors.' : ''}${event.id === 'E058' ? ' The Pratkūnai site is not geocoded; the marker represents Lithuania only.' : ''}</p><dl>${fieldsHTML(event,[['recordType','Record type'],['endDate','End date / linked stage'],['dateBasis','Date basis'],['location','Location / jurisdiction'],['categories','Event categories'],['circumstances','What was reported'],['vehicle','Aircraft / vessel / quantity'],['attribution','Origin / operator / attribution'],['impact','Damage / casualties / disruption'],['response','Response / outcome'],['uncertainty','Investigation / uncertainty'],['route','Route / entry mechanism'],['payload','Explosive payload'],['deduplication','Counting / links'],['provenance','Research provenance']])}</dl><h3>Source references · ${event.sources.length}</h3>${sourceLinks(event.sources)}</div>`;
     $('detail').querySelector('.close-detail').addEventListener('click', () => closeDetail(true));
     refreshSelection();
     const card = $(`card-${id}`);
@@ -253,11 +255,11 @@
     renderMarkers();
     renderPlayhead();
     $('timeline-range').setAttribute('aria-valuetext',`${longDate(date)}, ${visibleEvents.length} records visible`);
-    $('current-date').textContent = allMode ? 'All events' : longDate(date);
-    $('timeline-status').textContent = allMode ? '84 records · cumulative replay' : `${visibleEvents.length} visible · ${dateCounts.get(date) || 0} on this date`;
-    $('map-period').textContent = allMode ? '28 January — 24 September' : `Through ${shortDate(date)} 2026`;
+    $('current-date').textContent = allMode ? 'All dates' : longDate(date);
+    $('timeline-status').textContent = allMode ? `${events.length} records · cumulative replay` : `${visibleEvents.length} visible · ${dateCounts.get(date) || 0} on this date`;
+    $('map-period').textContent = allMode ? `${shortDate(events[0].startDate)} — ${shortDate(cutoff)} 2026` : `Through ${shortDate(date)} 2026`;
     $('show-all').setAttribute('aria-pressed',String(allMode));
-    $('previous').disabled = currentDay <= 0;
+    $('previous').disabled = currentDay <= eventDays[0];
     $('next').disabled = currentDay >= totalDays;
     document.querySelectorAll('.histogram-bar').forEach(bar => {
       bar.classList.toggle('future',Number(bar.dataset.day) > currentDay);
@@ -284,7 +286,7 @@
   }
   function tick(timestamp) {
     if (!playing) return;
-    const elapsed = lastFrameTime === null ? 0 : (timestamp - lastFrameTime) / 1000;
+    const elapsed = lastFrameTime === null ? 0 : Math.max(0,(timestamp - lastFrameTime) / 1000);
     lastFrameTime = timestamp;
     playbackDay = Math.min(totalDays, playbackDay + elapsed * REPLAY_DAYS_PER_SECOND * Number($('speed').value));
     const nextDay = Math.floor(playbackDay);
@@ -297,7 +299,7 @@
     }
     if (currentDay >= totalDays) {
       pause(false);
-      $('announcer').textContent = 'Replay complete. All 84 records are visible.';
+      $('announcer').textContent = `Replay complete. All ${events.length} records are visible.`;
     } else {
       animationFrame = requestAnimationFrame(tick);
     }
@@ -310,18 +312,19 @@
     const audioReady = prepareAudio();
     const waitingForAudio = audioContext?.state === 'suspended';
     closeDetail();
-    if (allMode || currentDay >= totalDays) currentDay = playbackDay = 0;
+    const firstIncludedDay = eventDays[0];
+    if (allMode || currentDay >= totalDays) currentDay = playbackDay = firstIncludedDay;
     allMode = false;
     playing = true;
     render();
-    if (playbackDay === 0) {
+    if (playbackDay === firstIncludedDay) {
       revealEvents(visibleEvents);
-      if (waitingForAudio) audioReady?.then(() => { if (playing && currentDay === 0) playArrivalSound(visibleEvents); });
+      if (waitingForAudio) audioReady?.then(() => { if (playing && currentDay === firstIncludedDay) playArrivalSound(visibleEvents); });
     }
     fitEventsForReplay();
     scrollToCurrent();
     updatePlayButton();
-    lastFrameTime = performance.now();
+    lastFrameTime = null;
     animationFrame = requestAnimationFrame(tick);
   }
   function fitEventsForReplay() {
@@ -350,6 +353,13 @@
     $('event-list').scrollTop = 0;
   }
 
+  const baseCount = events.filter(event => event.id.startsWith('E')).length;
+  const eventCount = events.filter(event => event.recordClass === 'event').length;
+  const candidateCount = events.filter(event => event.recordClass === 'candidate').length;
+  $('register-summary').textContent = `${events.length} records are shown: ${baseCount} baseline records, ${eventCount - baseCount} new event additions and ${candidateCount} unidentified object under Alert / other. The ${contexts.length} aggregate/context records stay outside map counts. Both research files and all ${Object.keys(sources).length} source references are retained. Coverage ends on ${longDate(cutoff)}.`;
+  $('context-title').textContent = `${contexts.length} context records · excluded from the map count`;
+  $('country-total').textContent = new Set(events.flatMap(event => event.countries.split(';').map(country => country.replace(/ \(.+\)/,'').trim()))).size;
+  $('replay-duration').textContent = Math.round((totalDays - Math.round((dateValue(events[0].startDate)-firstTime)/DAY)) / REPLAY_DAYS_PER_SECOND);
   $('timeline-range').max = totalDays;
   $('timeline-range').value = totalDays;
   const maxCount = Math.max(...dateCounts.values());
@@ -357,12 +367,13 @@
     const count = dateCounts.get(dayToDate(day)) || 0;
     return `<span class="histogram-bar" data-day="${day}" style="height:${count ? Math.max(4,count/maxCount*27) : 0}px"></span>`;
   }).join('');
+  $('record-total').textContent = events.length;
   document.querySelector('.month-labels').innerHTML = Array.from({length:8},(_,i) => {
     const time = Date.UTC(2026,i+1,1);
     const label = new Date(time).toLocaleDateString('en-GB',{month:'short',timeZone:'UTC'}).toUpperCase();
     return `<span style="left:${(time-firstTime)/(lastTime-firstTime)*100}%">${label}</span>`;
   }).join('');
-  $('context-records').innerHTML = contexts.map(c => `<details><summary><strong>${c.id}</strong> · ${escape(c.countries)}</summary><p class="context-meta">${escape(c.dateLabel)} · ${escape(c.status)}</p><p>${escape(c.vehicle)}</p><p>${escape(c.attribution)}</p><p>${escape(c.deduplication)}</p><p>${escape(c.uncertainty)}</p>${sourceLinks(c.sources)}</details>`).join('');
+  $('context-records').innerHTML = contexts.map(c => `<details><summary><strong>${c.id}</strong> · ${escape(c.countries)}</summary><p class="context-meta">${escape(c.dateLabel)} · ${escape(c.status)}</p><p>${escape(c.vehicle)}</p>${c.attribution ? `<p>${escape(c.attribution)}</p>` : ''}<p>${escape(c.deduplication)}</p>${c.uncertainty ? `<p>${escape(c.uncertainty)}</p>` : ''}${sourceLinks(c.sources)}</details>`).join('');
   $('play').addEventListener('click',() => playing ? pause() : play());
   $('sound').addEventListener('click',() => {
     soundEnabled = !soundEnabled;
@@ -386,7 +397,7 @@
     event.preventDefault();
     setDay(Math.max(0,Math.min(totalDays,day)));
   });
-  $('previous').addEventListener('click',() => setDay([...eventDays].reverse().find(day => day < currentDay) ?? 0));
+  $('previous').addEventListener('click',() => setDay([...eventDays].reverse().find(day => day < currentDay) ?? eventDays[0]));
   $('next').addEventListener('click',() => setDay(eventDays.find(day => day > currentDay) ?? totalDays));
   $('show-all').addEventListener('click',showAll);
   $('fit-map').addEventListener('click',() => { closeDetail(); fitEvents(); });
@@ -407,8 +418,8 @@
     const register = tool => {
       try { Promise.resolve(context.registerTool(tool,{signal:lifecycle.signal})).catch(() => {}); } catch { /* Optional browser API. */ }
     };
-    register({name:'navigate_drone_event',title:'Open an event',description:'Select a register record, reveal it on the map and open its source-backed details. Pauses replay.',inputSchema:{type:'object',properties:{id:{type:'string',pattern:'^E\\d{3}$'}},required:['id'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:true},execute(input){if (!input || typeof input.id !== 'string' || !events.some(e => e.id === input.id)) throw new Error('Supply a valid event ID from E001 to E084.');selectEvent(input.id);return {selectedId,visibleRecords:visibleEvents.length};}});
-    register({name:'set_drone_timeline_date',title:'Set the timeline date',description:'Pause playback and show records through a calendar date in the 2026 register.',inputSchema:{type:'object',properties:{date:{type:'string',format:'date'}},required:['date'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute(input){if (!input || typeof input.date !== 'string' || !/^2026-\d{2}-\d{2}$/.test(input.date)) throw new Error('Supply a 2026 date in YYYY-MM-DD form.');const day = (dateValue(input.date)-firstTime)/DAY;if (!Number.isInteger(day) || day < 0 || day > totalDays || dayToDate(day) !== input.date) throw new Error('Date must be between 2026-01-28 and 2026-09-24.');setDay(day);return {date:dayToDate(currentDay),visibleRecords:visibleEvents.length};}});
+    register({name:'navigate_drone_event',title:'Open an event',description:'Select a register record, reveal it on the map and open its source-backed details. Pauses replay.',inputSchema:{type:'object',properties:{id:{type:'string',pattern:'^[EN]\\d{3}$'}},required:['id'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:true},execute(input){if (!input || typeof input.id !== 'string' || !events.some(e => e.id === input.id)) throw new Error('Supply a valid E-series or N-series record ID from the register.');selectEvent(input.id);return {selectedId,visibleRecords:visibleEvents.length};}});
+    register({name:'set_drone_timeline_date',title:'Set the timeline date',description:'Pause playback and show records through a calendar date in the 2026 register.',inputSchema:{type:'object',properties:{date:{type:'string',format:'date'}},required:['date'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute(input){if (!input || typeof input.date !== 'string' || !/^2026-\d{2}-\d{2}$/.test(input.date)) throw new Error('Supply a 2026 date in YYYY-MM-DD form.');const day = (dateValue(input.date)-firstTime)/DAY;if (!Number.isInteger(day) || day < 0 || day > totalDays || dayToDate(day) !== input.date) throw new Error(`Date must be between ${dayToDate(0)} and ${cutoff}.`);setDay(day);return {date:dayToDate(currentDay),visibleRecords:visibleEvents.length};}});
     window.addEventListener('pagehide',() => lifecycle.abort(),{once:true});
   }
 })();

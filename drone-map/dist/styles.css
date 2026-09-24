@@ -26,3 +26,5 @@ dialog{width:min(690px,calc(100% - 32px));max-height:calc(100dvh - 48px);border:
 @media(max-width:760px){.playback{gap:6px}.play-button{min-width:88px;padding:0 10px}.step-controls button{width:29px}.sound-button{width:32px}.timeline{column-gap:8px}}
 @media(max-width:360px){.show-all{grid-row:3;grid-column:1/-1;justify-self:end}}
 @media(prefers-reduced-motion:reduce){.marker-ripple{display:none;animation:none}}
+
+.record-kind{display:block;font-size:.7rem;font-weight:700;letter-spacing:.035em;color:#536c76;margin:5px 0 7px;text-transform:uppercase}.detail-scroll>.record-kind{padding-bottom:9px;border-bottom:1px solid var(--line)}
