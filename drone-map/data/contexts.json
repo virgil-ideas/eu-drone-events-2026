@@ -1,0 +1,152 @@
+[
+  {
+    "id": "A001",
+    "dateLabel": "2026-01-01 to 2026-05-23",
+    "dateBasis": "Year-to-date total through 23 May",
+    "countries": "Lithuania",
+    "location": "Belarus border; exact sites of all cases unavailable",
+    "status": "Aggregate only — NOT additive",
+    "categories": "Cross-border smuggling; forced landings; seizure series",
+    "vehicle": "18 cargo-bearing drones reportedly knocked out by 23 May",
+    "attribution": "Reported arrival from Belarus; criminal operators not individually identified",
+    "route": "Belarus → Lithuania",
+    "circumstances": "Prior research supplied series total, not 18 dated case files.",
+    "payload": "Smuggled cargo; explosive status not established for series",
+    "impact": "Not reported",
+    "response": "Border-enforcement counter-drone operations.",
+    "uncertainty": "Aggregate from secondary reporting; underlying individual incident log not available.",
+    "deduplication": "Includes E027; do not add 18 to the master-table count or invent 17 additional dated rows.",
+    "provenance": "Prior research; not independently rechecked in full for this export",
+    "sources": [
+      "S24"
+    ]
+  },
+  {
+    "id": "A002",
+    "dateLabel": "2024-08 to 2026-02",
+    "dateBasis": "Study window spans 2024–2026; individual 2026 dates unavailable",
+    "countries": "Multiple European countries; EU-only breakdown unavailable",
+    "location": "Reported 13-country European campaign; includes non-EU countries",
+    "status": "Multi-year research context — NOT a 2026 EU incident total",
+    "categories": "Suspected reconnaissance/probing; military/critical-site sightings",
+    "vehicle": "144 reported incidents across the study period; not 144 drones or 144 EU-2026 events",
+    "attribution": "IISS campaign-level assessment of likely Russian involvement; not attribution of every sighting",
+    "route": "Launch/recovery routes and vessels discussed at campaign level",
+    "circumstances": "Prior research cited IISS-linked announcement/summary without a complete 2026 incident appendix.",
+    "payload": "Not reported",
+    "impact": "Not reported",
+    "response": "Various national investigations; event-level actions not enumerated.",
+    "uncertainty": "Underlying dated 2026-only dataset not obtained; claim retained as research context, not verified event census.",
+    "deduplication": "May overlap listed events; no subtraction or addition possible without the underlying dataset.",
+    "provenance": "Prior research; not independently rechecked in full for this export",
+    "sources": [
+      "S68",
+      "S69"
+    ]
+  },
+  {
+    "id": "A003",
+    "dateLabel": "2026 year to date; dashboard checked 2026-09-24",
+    "dateBasis": "Dashboard snapshot updated 24 September 2026",
+    "countries": "Romania",
+    "location": "MApN official national dashboard; categories defined by the ministry",
+    "status": "Official overlapping counters — NOT additive",
+    "categories": "Near-border attacks; scrambles; unauthorized access; shoot-downs; fragments; separate mine counter",
+    "vehicle": "2026 dashboard: 77 near-border attacks; 60 scrambles; 28 unauthorized accesses; 4 shot-down drones; 42 drones/fragments identified; 2 naval mines",
+    "attribution": "Different populations: nearby attacks, responses, airspace incidents and recoveries",
+    "route": "Not an event-by-event route dataset",
+    "circumstances": "Official snapshot retained separately from the research chronology.",
+    "payload": "Not reported",
+    "impact": "Not reported",
+    "response": "MApN operational/recovery categories.",
+    "uncertainty": "Counters cannot be reconciled automatically with all-agency/news rows; individual category scope may differ.",
+    "deduplication": "All categories overlap. Mine counter is not a drone count. Do not total counters or use them to replace the incident register.",
+    "provenance": "Official aggregate rechecked during export",
+    "sources": [
+      "S62"
+    ]
+  },
+  {
+    "id": "A004",
+    "dateLabel": "Through 2026-08-26",
+    "dateBasis": "Ministerial statement 26 August",
+    "countries": "Bulgaria",
+    "location": "Black Sea coastal recoveries; individual subset not enumerated in ministerial statement",
+    "status": "Cohort assessment — NOT another incident count",
+    "categories": "Reconnaissance/decoy wreckage; sea-drift recoveries",
+    "vehicle": "Number unspecified in the minister’s statement",
+    "attribution": "Defence minister: most recovered examples Russian-made, including Gerbera and Orlan; Ukrainian components and unidentified parts also found",
+    "route": "Minister linked beach finds to sea currents after fighting near Odesa/Izmail, not evidence each crossed Bulgarian airspace",
+    "circumstances": "Minister summarized recent coastal discoveries.",
+    "payload": "Minister said recovered coastal drones to that date were unarmed",
+    "impact": "Not reported",
+    "response": "Naval recovery teams; public warned not to approach objects.",
+    "uncertainty": "Cannot assign Russian nationality, model or lack of explosives to a later or individually unidentified object solely from cohort statement.",
+    "deduplication": "Overlaps Bulgarian coastal rows; no additional incidents or airframes added.",
+    "provenance": "Official statement reported by BTA; rechecked during export",
+    "sources": [
+      "S81"
+    ]
+  },
+  {
+    "id": "NA001",
+    "importAction": "UPDATE_AGGREGATE_SERIES",
+    "countries": "Lithuania",
+    "dateLabel": "2026-01-01 through official release 2026-09-23",
+    "vehicle": "58 smuggling drones intercepted by VSAT in 2026; previous year 59.",
+    "deduplication": "Retain as the 23 September snapshot of the same VSAT series as baseline A001. The nine dated seizures and baseline E027 are component detail, not additions on top of 58. Unknown missing individual events are not synthesized.",
+    "sources": [
+      "L09"
+    ],
+    "status": "Aggregate / pattern context",
+    "attribution": "",
+    "uncertainty": "",
+    "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md"
+  },
+  {
+    "id": "NA002",
+    "importAction": "KEEP_CONTEXT",
+    "countries": "Cyprus",
+    "dateLabel": "2026-01-01–2026-02-28; submission reported 2026-03-30",
+    "vehicle": "Cyprus reported 305 mixed airspace/FIR violations, including 81 involving Turkish military UAVs.",
+    "deduplication": "Cypriot allegation circulated to the UN, not a UN verification. Drone-specific dates/tracks in annex S/2026/240 were not individually extracted here. Do not count 305 as drones or 81 as 81 independently verified sovereign-airspace entries.",
+    "sources": [
+      "C01",
+      "C02"
+    ],
+    "status": "Aggregate / pattern context",
+    "attribution": "",
+    "uncertainty": "",
+    "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md"
+  },
+  {
+    "id": "NA003",
+    "importAction": "KEEP_CONTEXT",
+    "countries": "Cyprus",
+    "dateLabel": "Recurring activity described 2026-09-01; individual flight dates not supplied",
+    "vehicle": "Air-traffic-controller representative alleged near-daily Turkish UAV activity affecting Larnaca/Paphos flight paths, sometimes up to five UAVs simultaneously.",
+    "deduplication": "Attributed recurring-pattern report, not a single dated September 1 near-collision. May overlap NA002 or other unitemized activity; exact tracks and Turkish response not supplied in source.",
+    "sources": [
+      "C03"
+    ],
+    "status": "Aggregate / pattern context",
+    "attribution": "",
+    "uncertainty": "",
+    "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md"
+  },
+  {
+    "id": "NA004",
+    "importAction": "KEEP_CONTEXT",
+    "countries": "Greece",
+    "dateLabel": "2026-01-01–2026-08-31",
+    "vehicle": "To Vima reported 276 UAV appearances/activity entries, including 102 in August and 30 in July.",
+    "deduplication": "Reported January–August aggregate, not unique aircraft or incursions. Overlaps applicable January–August daily rows and N023; September records, including N055, are outside this period. Do not sum this figure with its component records.",
+    "sources": [
+      "G99"
+    ],
+    "status": "Aggregate / pattern context",
+    "attribution": "",
+    "uncertainty": "",
+    "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md"
+  }
+]

@@ -23,8 +23,8 @@ window.DRONE_DATA = {
       "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
       "deduplication": "No matching baseline event. Not E027 (23 May, Dumblė). A001/NA001 are overlapping cumulative statistics, not duplicate event rows.",
       "provenance": "New finding; primary VSAT statement.",
-      "sourceReferences": "[L01][L01]",
       "recordClass": "event",
+      "sourceReferences": "[L01][L01]",
       "sources": [
         "L01"
       ],
@@ -112,8 +112,8 @@ window.DRONE_DATA = {
       "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
       "deduplication": "No matching baseline event. Tree interception and 24 February retrieval stay together. Not E027; A001/NA001 statistics are not additive.",
       "provenance": "New finding; primary VSAT statement.",
-      "sourceReferences": "[L02][L02]",
       "recordClass": "event",
+      "sourceReferences": "[L02][L02]",
       "sources": [
         "L02"
       ],
@@ -547,8 +547,8 @@ window.DRONE_DATA = {
       "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
       "deduplication": "No matching baseline event. One overnight interception/recovery; page update is not another event. Not E027; A001/NA001 are statistics.",
       "provenance": "New finding; primary VSAT statement.",
-      "sourceReferences": "[L03][L03]",
       "recordClass": "event",
+      "sourceReferences": "[L03][L03]",
       "sources": [
         "L03"
       ],
@@ -885,8 +885,8 @@ window.DRONE_DATA = {
       "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
       "deduplication": "No matching baseline event. Same date as E016/E017 but different countries/sites and circumstances. Not E027; included in A001/NA001 series.",
       "provenance": "New finding; primary VSAT statement.",
-      "sourceReferences": "[L04][L04]",
       "recordClass": "event",
+      "sourceReferences": "[L04][L04]",
       "sources": [
         "L04"
       ],
@@ -1515,8 +1515,8 @@ window.DRONE_DATA = {
       "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
       "deduplication": "No matching baseline event. Detection near Daugidonys and recovery at Dimitrai are one linked episode. Separate from September N036.",
       "provenance": "New finding; LRT/ELTA reporting of VSAT account.",
-      "sourceReferences": "[L05][L05]",
       "recordClass": "event",
+      "sourceReferences": "[L05][L05]",
       "sources": [
         "L05"
       ],
@@ -1603,8 +1603,8 @@ window.DRONE_DATA = {
       "uncertainty": "Allegation, not conviction. Citizenship alone does not prove foreign-state direction; KNDS identification has a separate source attribution.",
       "deduplication": "No matching baseline event. July Munich surveillance/arrest is distinct from August Leipzig E040 and western-Germany sightings E041. Foreign-intelligence purpose remains alleged.",
       "provenance": "New finding; ZDF plus Reuters-syndicated reports of police/prosecutor statements.",
-      "sourceReferences": "[D01][D01]; [D02][D02]; [D03][D03]",
       "recordClass": "event",
+      "sourceReferences": "[D01][D01]; [D02][D02]; [D03][D03]",
       "sources": [
         "D01",
         "D02",
@@ -3543,8 +3543,8 @@ window.DRONE_DATA = {
       "uncertainty": "One linked encounter, not a separate incident for the airport precaution. No independent forensic attribution claimed.",
       "deduplication": "No matching baseline event; E017 is the unrelated May Lefkada USV. One reported interception, including its Alexandroupoli civil-flight precaution. Reclassified from daily report, not duplicated there.",
       "provenance": "N023 reclassified from daily_report to encounter; original Euronews URL failed to reopen, but dated eKathimerini and AOL/Euronews reporting corroborate the event.",
-      "sourceReferences": "[G0828K][G0828K]; [G0828A][G0828A]",
       "recordClass": "event",
+      "sourceReferences": "[G0828K][G0828K]; [G0828A][G0828A]",
       "sources": [
         "G0828K",
         "G0828A"
@@ -3674,8 +3674,8 @@ window.DRONE_DATA = {
       "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
       "deduplication": "No matching baseline event. A separately reported 2 September offshore response, not the 26 August Pomorie find E073. One site, not another row for the six-task headline.",
       "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
-      "sourceReferences": "[B01][B01]; [B02][B02]",
       "recordClass": "event",
+      "sourceReferences": "[B01][B01]; [B02][B02]",
       "sources": [
         "B01",
         "B02"
@@ -3722,8 +3722,8 @@ window.DRONE_DATA = {
       "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
       "deduplication": "No matching baseline event. The 2 September Kaliakra shoreline recovery is distinct from the 6 September offshore operation N035.",
       "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
-      "sourceReferences": "[B01][B01]; [B02][B02]",
       "recordClass": "event",
+      "sourceReferences": "[B01][B01]; [B02][B02]",
       "sources": [
         "B01",
         "B02"
@@ -3769,8 +3769,8 @@ window.DRONE_DATA = {
       "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
       "deduplication": "No matching baseline event. Cape Kolokita response is a separately identified 2 September location in the same multi-task release.",
       "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
-      "sourceReferences": "[B01][B01]; [B02][B02]",
       "recordClass": "event",
+      "sourceReferences": "[B01][B01]; [B02][B02]",
       "sources": [
         "B01",
         "B02"
@@ -3817,8 +3817,8 @@ window.DRONE_DATA = {
       "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
       "deduplication": "No matching baseline event. Maslen Nos response is a separately identified 2 September location in the same multi-task release.",
       "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
-      "sourceReferences": "[B01][B01]; [B02][B02]",
       "recordClass": "event",
+      "sourceReferences": "[B01][B01]; [B02][B02]",
       "sources": [
         "B01",
         "B02"
@@ -3865,8 +3865,8 @@ window.DRONE_DATA = {
       "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
       "deduplication": "No matching baseline event. 2 September Pomorie beach find is a different reported day/site from offshore E073 on 26 August and from N028.",
       "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
-      "sourceReferences": "[B01][B01]; [B02][B02]",
       "recordClass": "event",
+      "sourceReferences": "[B01][B01]; [B02][B02]",
       "sources": [
         "B01",
         "B02"
@@ -3912,8 +3912,8 @@ window.DRONE_DATA = {
       "uncertainty": "Shape alone does not establish drone identity.",
       "deduplication": "No matching baseline candidate. Topola, 2 September, differs from Tyulenovo E065 on 14 August. Identity, not duplication, keeps it outside drone-event totals.",
       "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
-      "sourceReferences": "[B01][B01]; [B03][B03]",
       "recordClass": "candidate",
+      "sourceReferences": "[B01][B01]; [B03][B03]",
       "sources": [
         "B01",
         "B03"
@@ -3959,8 +3959,8 @@ window.DRONE_DATA = {
       "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
       "deduplication": "No matching baseline event. 6 September offshore retrieval is distinct from N029 on 2 September; 7 September articles are follow-ups, not new operations.",
       "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
-      "sourceReferences": "[B04][B04]; [B05][B05]",
       "recordClass": "event",
+      "sourceReferences": "[B04][B04]; [B05][B05]",
       "sources": [
         "B04",
         "B05"
@@ -4006,8 +4006,8 @@ window.DRONE_DATA = {
       "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
       "deduplication": "No matching baseline event. Same locality as N012 but a separate September operation, not its June follow-up. Link to NA001 as a component, not an additional national total.",
       "provenance": "New finding; primary VSAT statement.",
-      "sourceReferences": "[L06][L06]",
       "recordClass": "event",
+      "sourceReferences": "[L06][L06]",
       "sources": [
         "L06"
       ],
@@ -4093,8 +4093,8 @@ window.DRONE_DATA = {
       "uncertainty": "Operator and original flight unknown. The separate 10 September police notifications at Mamaia Nord and Corbu are now N062 and N063, not aliases of this record.",
       "deduplication": "No matching baseline event. Merge the 9 September Capu Midia discovery and 10 September disposal. Narrow old N038 to this chain; separate police-notified finds are N062/N063.",
       "provenance": "Carried from N038; Ministry chronology rechecked through Radio România. Conflicting place labels reconciled against separately timed police reports.",
-      "sourceReferences": "[R01][R01]; [R02][R02]; [R03][R03]; [R04][R04]",
       "recordClass": "event",
+      "sourceReferences": "[R01][R01]; [R02][R02]; [R03][R03]; [R04][R04]",
       "sources": [
         "R01",
         "R02",
@@ -4143,8 +4143,8 @@ window.DRONE_DATA = {
       "uncertainty": "Distinct reported find accepted by date/site; no claim of a unique airframe or identified operator.",
       "deduplication": "No matching baseline event. Separate Mamaia Nord notification at 08:30 on 10 September; not the previous-evening Capu Midia discovery or the 09:40 Corbu report.",
       "provenance": "Separated during final reconciliation using the expanded R03 report and local reports R10/R11.",
-      "sourceReferences": "[R03][R03]; [R10][R10]; [R11][R11]",
       "recordClass": "event",
+      "sourceReferences": "[R03][R03]; [R10][R10]; [R11][R11]",
       "sources": [
         "R03",
         "R10",
@@ -4191,8 +4191,8 @@ window.DRONE_DATA = {
       "uncertainty": "Distinct reported find accepted by date/site; no claim of a unique airframe or identified operator.",
       "deduplication": "No matching baseline event. Separate Corbu notification at 09:40 on 10 September; not the previous-evening Capu Midia discovery or the 08:30 Mamaia Nord report.",
       "provenance": "Separated during final reconciliation using the expanded R03 report and local reports R10/R11.",
-      "sourceReferences": "[R03][R03]; [R10][R10]; [R11][R11]",
       "recordClass": "event",
+      "sourceReferences": "[R03][R03]; [R10][R10]; [R11][R11]",
       "sources": [
         "R03",
         "R10",
@@ -4239,8 +4239,8 @@ window.DRONE_DATA = {
       "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
       "deduplication": "No matching baseline event. Kavatsi, 11 September, is not E081 (late-August Sveti Ivan/Sozopol pier); nearby municipal labels do not make those the same find.",
       "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
-      "sourceReferences": "[B06][B06]",
       "recordClass": "event",
+      "sourceReferences": "[B06][B06]",
       "sources": [
         "B06"
       ],
@@ -4285,8 +4285,8 @@ window.DRONE_DATA = {
       "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
       "deduplication": "No matching baseline event. One 11 September offshore recovery; not August Neptun Deep E043/E047 and not the same-day beach sites N043–N045. Retain offshore scope tag.",
       "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
-      "sourceReferences": "[R05][R05]; [R07][R07]",
       "recordClass": "event",
+      "sourceReferences": "[R05][R05]; [R07][R07]",
       "sources": [
         "R05",
         "R07"
@@ -4332,8 +4332,8 @@ window.DRONE_DATA = {
       "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
       "deduplication": "No matching baseline event. One find/assessment at Câșla Vădanei on 11 September; two fragments do not create two rows.",
       "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
-      "sourceReferences": "[R05][R05]; [R06][R06]",
       "recordClass": "event",
+      "sourceReferences": "[R05][R05]; [R06][R06]",
       "sources": [
         "R05",
         "R06"
@@ -4379,8 +4379,8 @@ window.DRONE_DATA = {
       "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
       "deduplication": "No matching baseline event. One dated Edighiol–Periboina recovery cluster; reported remains of four aircraft stay in quantity, not four invented event rows.",
       "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
-      "sourceReferences": "[R05][R05]; [R07][R07]",
       "recordClass": "event",
+      "sourceReferences": "[R05][R05]; [R07][R07]",
       "sources": [
         "R05",
         "R07"
@@ -4426,8 +4426,8 @@ window.DRONE_DATA = {
       "uncertainty": "Flight/crash date, operator and link to other recovered airframes unresolved.",
       "deduplication": "No matching baseline event. One Periteașca discovery/disposal chain; two fragments and two agencies are not two events. Not E049 at Gura Portiței on 23 August.",
       "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
-      "sourceReferences": "[R05][R05]; [R06][R06]",
       "recordClass": "event",
+      "sourceReferences": "[R05][R05]; [R06][R06]",
       "sources": [
         "R05",
         "R06"
@@ -4474,8 +4474,8 @@ window.DRONE_DATA = {
       "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
       "deduplication": "No matching baseline event. Ūta detection and Versekėlė recovery are explicitly one interception episode. Not a separate event for each village.",
       "provenance": "New finding; primary VSAT statement.",
-      "sourceReferences": "[L07][L07]",
       "recordClass": "event",
+      "sourceReferences": "[L07][L07]",
       "sources": [
         "L07"
       ],
@@ -4605,8 +4605,8 @@ window.DRONE_DATA = {
       "uncertainty": "Initial speculation about a foreign military drone was not confirmed by the later police account.",
       "deduplication": "No matching baseline event. 16 September Keneliai/Pasvalys find is not May Utena E019 or September Pratkūnai E058. Merge the 17 September police correction into this recovery.",
       "provenance": "New finding; local reporting of official response; attribution limited to cited account.",
-      "sourceReferences": "[L10][L10]; [L11][L11]",
       "recordClass": "event",
+      "sourceReferences": "[L10][L10]; [L11][L11]",
       "sources": [
         "L10",
         "L11"
@@ -4652,8 +4652,8 @@ window.DRONE_DATA = {
       "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
       "deduplication": "No matching baseline event. Norviliškės is a separately dated 16 September seizure; not the 13 September N049 or 21–22 September N059.",
       "provenance": "New finding; primary VSAT statement.",
-      "sourceReferences": "[L08][L08]",
       "recordClass": "event",
+      "sourceReferences": "[L08][L08]",
       "sources": [
         "L08"
       ],
@@ -4699,8 +4699,8 @@ window.DRONE_DATA = {
       "uncertainty": "Wider daily totals: five UAVs among ten aircraft, 13 FIR infringements and seven airspace violations across mixed aircraft. Drone-only infringement totals are unspecified; the earlier nine/five subdivision is not carried forward.",
       "deduplication": "No matching baseline event. Retain one specific Zourafa UAV overflight; the Ro F-16 overflight is manned and excluded. Mixed daily statistics remain context inside this row, not additional events.",
       "provenance": "N055 narrowed to its dated, named-location UAV overflight. G0918 reopened; unsupported drone-only daily subdivisions removed.",
-      "sourceReferences": "[G0918][G0918]",
       "recordClass": "event",
+      "sourceReferences": "[G0918][G0918]",
       "sources": [
         "G0918"
       ],
@@ -4745,8 +4745,8 @@ window.DRONE_DATA = {
       "uncertainty": "Official criminal/border-enforcement account; not evidence of a foreign-state attack.",
       "deduplication": "No matching baseline event. Liškūniškės detection and Antaniškės next-morning recovery form one episode. NA001 counts the same seizure within 58; do not add 58 again.",
       "provenance": "New finding; primary VSAT statement.",
-      "sourceReferences": "[L09][L09]",
       "recordClass": "event",
+      "sourceReferences": "[L09][L09]",
       "sources": [
         "L09"
       ],

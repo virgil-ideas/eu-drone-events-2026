@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Collect preview images and playable videos from the articles the register cites.
 
-Reads dist/events.js, fetches every source page referenced by an event, extracts
+Reads the validated canonical JSON database, fetches each cited event source, extracts
 Open Graph / Twitter / JSON-LD / embedded-player media, verifies each asset the
 way the published page loads it (no Referer header) and writes dist/media.js as
 window.DRONE_MEDIA. Raw per-URL results are cached in scripts/media-cache.json so
@@ -32,8 +32,9 @@ from urllib.error import HTTPError, URLError
 from urllib.parse import quote, unquote, urljoin, urlsplit, urlunsplit
 from urllib.request import HTTPCookieProcessor, HTTPSHandler, Request, build_opener
 
+from database import DataError, load_database
+
 ROOT = Path(__file__).resolve().parents[1]
-DATA = ROOT / 'dist' / 'events.js'
 OUT = ROOT / 'dist' / 'media.js'
 CACHE = ROOT / 'scripts' / 'media-cache.json'
 EXTRA = ROOT / 'scripts' / 'media-extra.json'
@@ -750,11 +751,10 @@ def load_extra(event_ids):
 # ---------------------------------------------------------------- main
 
 def load_data():
-    text = DATA.read_text(encoding='utf-8')
-    prefix = 'window.DRONE_DATA = '
-    if not text.startswith(prefix):
-        sys.exit(f'{DATA} does not start with {prefix!r}')
-    return json.loads(text[len(prefix):].rstrip().rstrip(';'))
+    try:
+        return load_database()
+    except (DataError, OSError) as error:
+        sys.exit(f'Data error: {error}')
 
 
 def run_pool(func, items, workers, label):

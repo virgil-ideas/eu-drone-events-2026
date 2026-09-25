@@ -37,7 +37,7 @@ The sidebar opens with records per month. The headline compares the last three c
 
 Yellow, orange and fire red (`#e8c400`, `#f0700f`, `#d3201c`) were checked for color-vision-deficiency separation; marker outlines are a step darker so yellow stays visible on the pale map, and the legend always names each color.
 
-Records with several stages prioritize incident explosion, then shoot-down or armed engagement, then crash for the marker color; applicable stages remain visible in the details. Discovery-only records keep their recovery date and category, without implying a same-day crash. Controlled disposal is separate from incident explosions. Explosive payloads, fires, attempted attacks with failed charges, nearby explosions and ambiguous interceptions do not automatically become explosions or shoot-downs. E047 (20 August Neptun Deep) is classified as military engagement after checking the MApN correction and AGERPRES report: F-16 cannon fire damaged the explosive maritime drone and naval EOD subsequently neutralized it. Disposal remains a secondary stage, and the intended target is not established. The reviewed classification is in `scripts/build-data.py`; source fields remain unchanged.
+Records with several stages prioritize incident explosion, then shoot-down or armed engagement, then crash for the marker color; applicable stages remain visible in the details. Discovery-only records keep their recovery date and category, without implying a same-day crash. Controlled disposal is separate from incident explosions. Explosive payloads, fires, attempted attacks with failed charges, nearby explosions and ambiguous interceptions do not automatically become explosions or shoot-downs. E047 (20 August Neptun Deep) is classified as military engagement after checking the MApN correction and AGERPRES report: F-16 cannon fire damaged the explosive maritime drone and naval EOD subsequently neutralized it. Disposal remains a secondary stage, and the intended target is not established. Reviewed classifications, outcome stages and approximate anchors are maintained directly in `data/events.json`. Original research snapshots remain unchanged.
 
 ## Languages
 
@@ -71,21 +71,25 @@ The fetcher skips blocked pages (Reuters and AP currently block it), rejects log
 
 ## Data and limitations
 
-`dist/events.js` contains 84 E-records plus 28 mapped N-records, eight A/NA context records and 169 source references (93 baseline + 74 supplement + 2 reviewed follow-up sources). The importer validates all 63 dated N-records before retaining the 27 event additions and N033 for the requested map view. Only canonical detailed tables are imported; the compact manifest is validated as an index, not imported a second time. Stable IDs are unique, so rebuilding is idempotent. Original fields are retained except for explicitly documented detail updates in `scripts/record-updates.json`; both research downloads remain unchanged. The original register was not independently fact-checked as part of building the map.
+The canonical database lives in `data/`: `events.json` holds mapped records, `sources.json` the shared bibliography, `contexts.json` non-additive context records, and `dataset.json` the schema version, reporting cutoff and research snapshot hashes. See the [database editing guide](data/README.md) for the schema and update workflow. There is no running database service.
+
+`dist/events.js` is a generated browser export, currently containing 84 E-records plus 28 mapped N-records, eight A/NA context records and 169 source references (93 baseline + 74 supplement + 2 reviewed follow-up sources). Corrections, classifications and coordinates are part of the canonical records; there is no Markdown importer or separate overrides file. Both original research downloads remain unchanged. The original register was not independently fact-checked as part of building the map.
 
 The 25 September review of E059 (Solca, 24 September) adds the confirmed radar track through northern Botoșani, roughly four minutes in Romanian airspace, two Romanian F-16s launched for monitoring, the IAR-330 SOCAT and Interior Ministry response, and residents' discovery/filming of wreckage among trees. MApN reports no casualties, material damage or fire. Monitorul de Suceava quotes conflicting witness accounts about an explosion; it remains explicitly witness-reported and unconfirmed in the reviewed official releases. E059 keeps its orange crash marker, with flight and recovery stages. Neither a shoot-down nor operator/national attribution is established, and no extra event is counted.
 
-Coordinates in `scripts/build-data.py` are **editorial approximate geographic anchors**, not verified incident locations. Broad, unresolved and offshore locations are explicitly labelled. E010 and E029 each have two regional anchors but count once in the register, so the complete map contains 114 individual markers for 112 records. Markers are never clustered, merged or shifted to avoid overlap. E058 uses a representative Lithuania position because its reported Pratkūnai site has not been geocoded. Supplementary Lithuanian village records without verified geocoding use labelled district anchors. Overlapping records remain individual markers.
+Coordinates in `data/events.json` are **editorial approximate geographic anchors**, not verified incident locations. Broad, unresolved and offshore locations are explicitly labelled. E010 and E029 each have two regional anchors but count once in the register, so the complete map contains 114 individual markers for 112 records. Markers are never clustered, merged or shifted to avoid overlap. E058 uses a representative Lithuania position because its reported Pratkūnai site has not been geocoded. Supplementary Lithuanian village records without verified geocoding use labelled district anchors. Overlapping records remain individual markers.
 
 Replay uses each record's first listed calendar date. Full date ranges, discrepancies, discovery dates and linked follow-up dates remain in the detail panel. Status reflects the supplied research snapshot, including later attribution updates; replay does not reconstruct what was known on that day. Record categories describe the event type, not confidence, operator or nationality. Context totals are never added to dated-record counts. N038 keeps its 9–10 September discovery/disposal chain; N062 and N063 remain separate Mamaia Nord and Corbu finds. N023 and N055 are individual encounters, not duplicated daily reports. N033 is included under Alert / other and remains explicitly unidentified. Offshore N042 remains outside territorial waters in its detailed scope note.
 
-To regenerate after editing either supplied Markdown file in the parent directory:
+To regenerate after editing the canonical JSON database (from `drone-map/`):
 
 ```sh
 python3 scripts/build-data.py
+python3 -m unittest discover -s tests -v
+python3 scripts/build-data.py --check
 ```
 
-Add corresponding explicit approximate anchors and reviewed outcomes when adding records. The importer validates expected record classes, unique IDs, the supplement manifest, date ranges and all source references. UI counts and replay bounds derive from the generated data. Both input files are copied unchanged for download.
+The validator checks unique IDs/JSON keys, required fields, dates and ranges, source references, source URLs, outcome stages, approximate anchors and archived research hashes before writing any output. The check mode rejects stale generated files without modifying them. UI counts and replay bounds derive from the generated data. Add source reports and edit an existing event directly for a reviewed correction; do not edit `dist/events.js` or the archived Markdown. New research remains subject to deduplication and editorial review.
 
 The map uses locally vendored [Leaflet 1.9.4](https://leafletjs.com/download.html); its license is in `dist/vendor`. [OpenStreetMap standard tiles](https://operations.osmfoundation.org/policies/tiles/) load on demand and require an internet connection. Google Fonts are optional; system font fallbacks are included. The app does not prefetch tiles or offer offline map downloads. A tile error leaves the event list and record markers usable.
 
@@ -106,12 +110,13 @@ The script runs only on `droneincidents.eu`, its `www` variant, and the original
 - `dist/mobile.css` and `dist/mobile.js` — phone layout, record and legend sheets
 - `dist/app.js` — map, trend panel, event details, replay controls and language switching
 - `dist/analytics.js` — production-only visitor counting
-- `dist/events.js` — generated source data
+- `dist/events.js` — generated browser data; do not edit directly
 - `dist/media.js` — generated preview images and video for cited sources, plus curated extras
 - `dist/i18n/` — interface strings for the 24 official EU languages
-- `scripts/build-data.py` — baseline import, approximate anchors and merged output
-- `scripts/supplement.py` — canonical supplemental tables, occurrence classifications and approximate anchors
-- `scripts/record-updates.json` — sourced follow-up details for existing records, applied on rebuild
+- `data/` — authoritative event, source, context and dataset JSON files; editing guide
+- `scripts/database.py` — versioned schema validation and browser export
+- `scripts/build-data.py` — validate canonical data and generate/check static output
+- `tests/test_database.py` — data integrity and publishing regression checks
 - `scripts/fetch-media.py` — source media extraction (`media-cache.json` caches raw results)
 - `scripts/media-extra.json` — curated additional news media, matched per event
 - `scripts/check-i18n.js` — translation completeness check

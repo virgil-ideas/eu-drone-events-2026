@@ -18,6 +18,18 @@ Open <http://127.0.0.1:4173/>. No API key or package installation is required.
 
 See [project documentation](drone-map/README.md) for data handling, colors, replay behavior and limitations. The [original Markdown register](eu_foreign_drone_events_2026_consolidated.md) and [deduplicated update](eu_foreign_drone_events_2026_final_update_deduped.md) are preserved unchanged in the repository.
 
+## Update the data
+
+The map's source of truth is a validated JSON database in [`drone-map/data`](drone-map/data/README.md). Events include their coordinates, classifications and reviewed corrections; sources and non-additive context records have their own files. The original Markdown files are preserved research snapshots. To update an event, edit its canonical JSON record and rebuild:
+
+```sh
+python3 drone-map/scripts/build-data.py
+python3 -m unittest discover -s drone-map/tests -v
+python3 drone-map/scripts/build-data.py --check
+```
+
+The [editing guide](drone-map/data/README.md) documents adding events, reviewing sources and publishing changes. Git preserves the edit history; no database server or additional packages are required.
+
 ## Publish
 
-GitHub Actions checks the JavaScript and regenerated data, then deploys `drone-map/dist` to GitHub Pages on each push to `main`. The workflow can also be started manually from the Actions tab.
+GitHub Actions runs integrity tests and checks the JavaScript and generated data on pull requests and pushes, then deploys `drone-map/dist` to GitHub Pages on each push to `main`. The workflow can also be started manually from the Actions tab.

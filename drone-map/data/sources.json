@@ -1,0 +1,1261 @@
+{
+  "S01": {
+    "id": "S01",
+    "publisher": "Reuters",
+    "title": "Small drone fell on Polish army base; incident 28 January, report 2 February 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.reuters.com/world/drone-fell-onto-polish-military-base-january-28-radio-zet-reports-2026-02-02/"
+  },
+  "S02": {
+    "id": "S02",
+    "publisher": "Newsweek România / MApN statement",
+    "title": "Romanian airspace incursion, 25 February 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://newsweek.ro/actualitate/o-drona-ruseasca-intrat-spatiul-aerian-romaniei-doua-avioane-f-16-fost-ridicate-baza-fetesti"
+  },
+  "S03": {
+    "id": "S03",
+    "publisher": "Associated Press",
+    "title": "Swedish military attribution of drone launch to Zhigulevsk",
+    "audit": "Reference retained from prior research; not fully rechecked during export. Carried from the research report; direct reopening failed during export.",
+    "url": "https://apnews.com/article/c8905513cb9ade27176a88ef642411b7"
+  },
+  "S04": {
+    "id": "S04",
+    "publisher": "Reuters",
+    "title": "France comments on drone incident near aircraft carrier, 27 February 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/business/aerospace-defense/france-says-drone-incident-near-aircraft-carrier-would-be-provocation-if-russian-2026-02-27/"
+  },
+  "S05": {
+    "id": "S05",
+    "publisher": "Reuters",
+    "title": "Military drone found at mine in western Poland, 12 March 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/world/europe/polish-police-say-drone-found-mine-western-poland-2026-03-12/"
+  },
+  "S06": {
+    "id": "S06",
+    "publisher": "Reuters",
+    "title": "Polish recovery probably linked to September 2025 incursion; 13 March 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.reuters.com/world/drone-found-poland-likely-september-airspace-incursion-minister-says-2026-03-13/"
+  },
+  "S07": {
+    "id": "S07",
+    "publisher": "Reuters",
+    "title": "Lithuanian government identifies Ukrainian drone; 24 March 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.reuters.com/world/drone-that-crashed-lithuania-came-ukraine-lithuanian-pm-says-2026-03-24/"
+  },
+  "S08": {
+    "id": "S08",
+    "publisher": "Reuters",
+    "title": "Stray Ukrainian drones in Estonia and Latvia, 25 March 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.reuters.com/world/europe/estonia-says-drone-enters-russia-hits-power-station-err-reports-2026-03-25/"
+  },
+  "S09": {
+    "id": "S09",
+    "publisher": "OSW Centre for Eastern Studies",
+    "title": "The Baltic states respond to incidents involving Ukrainian drones, 25 March 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.osw.waw.pl/en/publikacje/analyses/2026-03-25/baltic-states-respond-to-incidents-involving-ukrainian-drones"
+  },
+  "S10": {
+    "id": "S10",
+    "publisher": "Estonian Ministry of Defence",
+    "title": "Joint statement by Baltic defence ministers on drone incidents",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://kaitseministeerium.ee/en/news/joint-statement-ministers-defence-baltic-countries-drone-incidents"
+  },
+  "S11": {
+    "id": "S11",
+    "publisher": "Reuters",
+    "title": "Finnish territorial violation; at least one Ukrainian drone, 29 March 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.reuters.com/world/finland-reports-suspected-territorial-violation-by-drones-2026-03-29/"
+  },
+  "S12": {
+    "id": "S12",
+    "publisher": "Reuters",
+    "title": "Baltic and Finnish drone chronology, updated 15 September 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export. Original research citation. Direct reopening failed; a Reuters syndication was located (S63).",
+    "url": "https://www.reuters.com/business/aerospace-defense/drone-incursions-sow-fear-chaos-along-natos-baltic-finnish-borders-2026-09-15/"
+  },
+  "S13": {
+    "id": "S13",
+    "publisher": "TVR / MApN",
+    "title": "Why RAF Typhoons did not fire before Galați crash, 25 April 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://tvrinfo.ro/mapn-explica-de-ce-cele-doua-avioane-eurofighter-typhoon-ridicate-de-la-sol-n-au-putut-trage-in-drona-cazuta-in-galati/"
+  },
+  "S14": {
+    "id": "S14",
+    "publisher": "HotNews",
+    "title": "Controlled destruction of explosive drone recovered at Galați, 25 April 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://hotnews.ro/video-momentul-cand-drona-ruseasca-cu-explozibil-cazuta-la-galati-este-detonata-2229056"
+  },
+  "S15": {
+    "id": "S15",
+    "publisher": "HotNews / MApN",
+    "title": "Luncavița–Văcăreni explosive fragments, 26 April 2026; also distinguishes previous-day find",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://hotnews.ro/drona-cazuta-in-judetul-tulcea-are-incarcatura-exploziva-va-fi-detonata-controlat-2229666"
+  },
+  "S16": {
+    "id": "S16",
+    "publisher": "Digi24",
+    "title": "Drone recovered in Suceava County, 3 May 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.digi24.ro/stiri/actualitate/o-drona-a-cazut-in-judetul-suceava-aproape-de-granita-cu-ucraina-autoritatile-fac-verificari-3754125"
+  },
+  "S17": {
+    "id": "S17",
+    "publisher": "Latvian Ministry of Defence",
+    "title": "Three drones enter from Russia; two crash, 7 May 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.mod.gov.lv/en/news/unmanned-aerial-vehicles-russia-enter-latvian-airspace-two-crash-within-national-territory"
+  },
+  "S18": {
+    "id": "S18",
+    "publisher": "Reuters",
+    "title": "Baltic nations seek more NATO defence after Latvian oil-tank impacts, 7 May 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/world/two-drones-russia-crash-latvia-army-says-2026-05-07/"
+  },
+  "S19": {
+    "id": "S19",
+    "publisher": "Reuters",
+    "title": "Military sea drone found in a cave on Lefkada, 8 May 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/world/greece-investigating-ukrainian-made-naval-drone-found-cave-island-2026-05-08/"
+  },
+  "S20": {
+    "id": "S20",
+    "publisher": "Reuters",
+    "title": "Greek investigation considers malfunction, 15 May 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/world/greek-probe-finds-suspected-ukrainian-sea-drone-lost-course-after-malfunction-2026-05-15/"
+  },
+  "S21": {
+    "id": "S21",
+    "publisher": "Associated Press",
+    "title": "Greek sea-drone investigation and Ukrainian ownership denial",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://apnews.com/article/greece-ukraine-russia-sea-drone-c51b74a4472ab60411b330515eadf5e8"
+  },
+  "S22": {
+    "id": "S22",
+    "publisher": "Reuters",
+    "title": "Explosives near suspected Ukrainian drone in Lithuania, 17–18 May 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.reuters.com/world/suspected-ukrainian-military-drone-was-found-crashed-lithuania-2026-05-17/"
+  },
+  "S23": {
+    "id": "S23",
+    "publisher": "Reuters",
+    "title": "Ukrainian drone downed over Estonia; Ukraine cites Russian interference, 19 May 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.reuters.com/business/aerospace-defense/nato-jet-shoots-down-drone-estonia-news-website-delfi-reports-2026-05-19/"
+  },
+  "S24": {
+    "id": "S24",
+    "publisher": "Wikipedia (original report source)",
+    "title": "2026 drone incursions into Baltic states and Finland",
+    "audit": "Relevant page/text rechecked during export. Secondary compilation only. Several granular rows remain imported and require primary-source verification.",
+    "url": "https://en.wikipedia.org/wiki/2026_drone_incursions_into_the_Baltic_states_and_Finland"
+  },
+  "S25": {
+    "id": "S25",
+    "publisher": "Associated Press",
+    "title": "Galați apartment-block impact and official attribution, 29 May 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://apnews.com/article/aa90986c237b8fa1d9116685c8c32f95"
+  },
+  "S26": {
+    "id": "S26",
+    "publisher": "Reuters",
+    "title": "French response to Romanian drone incident, 29 May 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/business/aerospace-defense/france-demand-explanation-russian-envoy-over-romania-drone-incident-2026-05-29/"
+  },
+  "S27": {
+    "id": "S27",
+    "publisher": "Reuters video",
+    "title": "Sea drone reaches Constanța port, 5 June 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/video/watch/idRW635705062026RP1/"
+  },
+  "S28": {
+    "id": "S28",
+    "publisher": "Reuters video",
+    "title": "Sea-drone detonation at Constanța, 5 June 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/video/watch/idRW639705062026RP1/"
+  },
+  "S29": {
+    "id": "S29",
+    "publisher": "Associated Press",
+    "title": "Constanța maritime-drone incident",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://apnews.com/article/defc53b2383a67475230c8349a47d7c6"
+  },
+  "S30": {
+    "id": "S30",
+    "publisher": "Reuters Connect / Romanian MoD handout",
+    "title": "Russian drone fragments destroyed near Rachelu, 30 June 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reutersconnect.com/item/romania-detonates-russian-drone-fragments-found-near-border-with-ukraine/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1JDMkI0TUFPQVZETQ"
+  },
+  "S31": {
+    "id": "S31",
+    "publisher": "Reuters",
+    "title": "Third Russian drone downed by Romania in three days, 26 July 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/business/aerospace-defense/romania-shoots-down-third-russian-drone-president-calls-breaches-intolerable-2026-07-26/"
+  },
+  "S32": {
+    "id": "S32",
+    "publisher": "Wikipedia (original report source)",
+    "title": "2026 drone incidents in Romania",
+    "audit": "Relevant page/text rechecked during export. Used as a source index; individual news and official sources replace it where rechecked. Not a primary investigation.",
+    "url": "https://en.wikipedia.org/wiki/2026_drone_incidents_in_Romania"
+  },
+  "S33": {
+    "id": "S33",
+    "publisher": "HotNews / MApN",
+    "title": "Periprava debris after interception in Ukraine, 2 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://hotnews.ro/o-noua-alerta-de-drone-in-judetul-tulcea-doua-aeronave-f-16-au-fost-trimise-in-misiune-2315367"
+  },
+  "S34": {
+    "id": "S34",
+    "publisher": "Reuters",
+    "title": "Explosive drone at Leipzig/Halle airport, 5 August 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/world/german-police-examine-suspicious-object-leipzig-airport-2026-08-05/"
+  },
+  "S35": {
+    "id": "S35",
+    "publisher": "Reuters",
+    "title": "Leipzig follow-up, 6 August 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/world/europe/plane-near-drone-found-german-airport-was-carrying-ammunition-media-reports-say-2026-08-06/"
+  },
+  "S36": {
+    "id": "S36",
+    "publisher": "The Guardian",
+    "title": "Additional explosive drone recovered near Leipzig; report 25 August 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.theguardian.com/world/2026/aug/25/germany-drone-suspected-military-explosives-found-near-leipzig-airport"
+  },
+  "S37": {
+    "id": "S37",
+    "publisher": "Reuters",
+    "title": "Germany attributes Leipzig attempted attack to Russian agencies, 1 September 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/world/europe/germany-says-russia-responsible-drone-attack-leipzig-airport-2026-09-01/"
+  },
+  "S38": {
+    "id": "S38",
+    "publisher": "Reuters",
+    "title": "Drones sighted over western German military base, 8 August 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/world/drones-spotted-above-german-military-base-two-days-after-suspected-drone-attack-2026-08-08/"
+  },
+  "S39": {
+    "id": "S39",
+    "publisher": "Reuters",
+    "title": "Drone explosion in Bulgaria, 8 August 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/world/bulgarias-radev-says-drone-exploded-bulgarias-airspace-2026-08-08/"
+  },
+  "S40": {
+    "id": "S40",
+    "publisher": "Associated Press",
+    "title": "Bulgarian drone crash near gas infrastructure, 8 August 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://apnews.com/article/427dcc0875f5e416dadfee0c022f1cb4"
+  },
+  "S41": {
+    "id": "S41",
+    "publisher": "Reuters",
+    "title": "Italian NATO fighter downs drone in Latvia, 14 August 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/business/aerospace-defense/latvia-shoots-down-drone-its-airspace-finland-restricts-parts-baltic-sea-2026-08-14/"
+  },
+  "S42": {
+    "id": "S42",
+    "publisher": "Reuters",
+    "title": "Latvia identifies the 14 August drone as Ukrainian, 20 August 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/business/aerospace-defense/latvia-says-drone-its-airspace-august-14-was-ukrainian-2026-08-20/"
+  },
+  "S43": {
+    "id": "S43",
+    "publisher": "Antena 3 CNN / MApN / NATO",
+    "title": "Spanish F-18 downs drone near Galați, 16 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.antena3.ro/actualitate/o-drona-care-a-intrat-in-spatiul-aerian-al-romaniei-a-fost-doborata-de-un-avion-nato-in-apropiere-de-galati-799614.html"
+  },
+  "S44": {
+    "id": "S44",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Press information: Grindu crash, 20 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.mapn.ro/cpresa/19358_informa%C8%9Bie-de-presa"
+  },
+  "S45": {
+    "id": "S45",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Press information: Gura Portiței recovery, 23 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.mapn.ro/cpresa/19369_informa%C8%9Bie-de-presa"
+  },
+  "S46": {
+    "id": "S46",
+    "publisher": "Forbes România / MApN",
+    "title": "Ciușlea drone had no explosives, 24 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.forbes.ro/drona-ruseasca-prabusita-in-vrancea-la-doar-cinci-metri-de-o-locuinta-mapn-nu-avea-explozibil-517872"
+  },
+  "S47": {
+    "id": "S47",
+    "publisher": "Euronews România",
+    "title": "Chronology of 8 September drone transit and crash in Moldova",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.euronews.ro/articole/cronologie-drona-care-a-survolat-romania-30-de-minute-si-a-cazut-in-republica-mol"
+  },
+  "S48": {
+    "id": "S48",
+    "publisher": "Reuters",
+    "title": "Suspected Russian drone recovered off Polish beach, 14 September 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/world/poland-finds-suspected-russian-drone-close-baltic-sea-beach-2026-09-14/"
+  },
+  "S49": {
+    "id": "S49",
+    "publisher": "Reuters",
+    "title": "Italian NATO fighter downs drone over Lithuania, overnight 14–15 September 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/business/aerospace-defense/nato-fighter-shoots-down-drone-lithuania-2026-09-14/"
+  },
+  "S50": {
+    "id": "S50",
+    "publisher": "Reuters",
+    "title": "Lithuanian president on Gerbera drone and likely intended target, 16 September 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.reuters.com/business/aerospace-defense/drone-shot-down-lithuania-was-likely-aimed-ukraine-lithuanian-president-says-2026-09-16/"
+  },
+  "S51": {
+    "id": "S51",
+    "publisher": "AGERPRES / MApN",
+    "title": "Neptun Deep maritime drone: one object, aircraft engagement followed by EOD, 20 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://agerpres.ro/social/2026/08/20/mapn-echipa-eod-a-fortelor-navale-a-neutralizat-o-drona-marina-din-zona-platformei-neptun-deep--1586518"
+  },
+  "S52": {
+    "id": "S52",
+    "publisher": "Radio România Constanța",
+    "title": "Olimp beach explosive-drone disposal, 26 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.radioconstanta.ro/2026/08/26/update-drona-gasita-la-olimp-avea-incarcatura-exploziva-si-a-fost-detonata-controlat/"
+  },
+  "S53": {
+    "id": "S53",
+    "publisher": "Radio România / Rador",
+    "title": "Olimp follow-up, 27 August 2026; incident was 26 August",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.rador.ro/2026/08/27/o-plaja-din-olimp-a-fost-evacuata-de-urgenta-dupa-ce-genistii-au-detonat-o-drona-cu-incarcatura-explozibila/"
+  },
+  "S54": {
+    "id": "S54",
+    "publisher": "HotNews",
+    "title": "Shepherd discovers drone at Viișoara; 1 September 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://hotnews.ro/un-cioban-a-gasit-drona-prabusita-in-vaslui-si-i-a-scos-firele-inainte-sa-vina-politia-tiuia-se-aprindeau-becuri-2338694"
+  },
+  "S55": {
+    "id": "S55",
+    "publisher": "TVR",
+    "title": "Viișoara explosive drone and disposal, 1 September 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://tvrinfo.ro/vaslui-drona-cu-incarcatura-exploziva-cazuta-pe-un-teren-la-viisoara-cel-care-a-gasit-o-a-riscat-enorm/"
+  },
+  "S56": {
+    "id": "S56",
+    "publisher": "Digi24 / MApN",
+    "title": "Tuzla explosive-drone debris: two detonations, 22 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.digi24.ro/stiri/actualitate/momentul-in-care-drona-gasita-la-tuzla-este-detonata-mapn-a-confirmat-ca-avea-incarcatura-exploziva-3917085"
+  },
+  "S57": {
+    "id": "S57",
+    "publisher": "Digi24",
+    "title": "LPG ship crew describes attack by three drones, 21 July 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.digi24.ro/stiri/actualitate/primele-marturii-ale-echipajului-navei-lovite-pe-marea-neagra-trei-drone-ne-au-atacat-in-timpul-noptii-totul-era-distrus-3872177"
+  },
+  "S58": {
+    "id": "S58",
+    "publisher": "Digi24 / Romanian maritime authorities",
+    "title": "Bulk-carrier emergency: possible drone or mine, 24 July 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.digi24.ro/stiri/actualitate/inca-o-nava-aflata-in-zona-economica-exclusiva-a-romaniei-a-transmis-un-apel-de-urgenta-dsu-posibil-impact-cu-o-drona-sau-mina-marina-3876501"
+  },
+  "S59": {
+    "id": "S59",
+    "publisher": "Radio România Cluj / Romanian Naval Authority",
+    "title": "Progress IV fire and rescue: event 27 August, report 28 August 2026",
+    "audit": "Relevant page/text rechecked during export. Corrects the prior report’s 28 August event date to 27 August. Drone causation is not established by this report.",
+    "url": "https://www.radiocluj.ro/2026/08/28/nava-comerciala-in-flacari-in-marea-neagra/"
+  },
+  "S60": {
+    "id": "S60",
+    "publisher": "AGERPRES / Romanian Navy",
+    "title": "Two Gerbera aerial drones found drifting near Neptun Deep, 11 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://agerpres.ro/english/2026/08/11/romanian-naval-forces-divers-destroy-two-drones-found-drifting-in-the-black-sea--1584137"
+  },
+  "S61": {
+    "id": "S61",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Solca crash update, 24 September 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://english.mapn.ro/cpresa/6871_update-%E2%80%93-press-release"
+  },
+  "S62": {
+    "id": "S62",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Drone and sea-mine incident dashboard, updated 24 September 2026",
+    "audit": "Relevant page/text rechecked during export. Official categories overlap and must not be summed.",
+    "url": "https://english.mapn.ro/"
+  },
+  "S63": {
+    "id": "S63",
+    "publisher": "Reuters via AOL",
+    "title": "Baltic and Finnish drone chronology, 15 September 2026",
+    "audit": "Relevant page/text rechecked during export. Syndication of S12; not independent corroboration.",
+    "url": "https://www.aol.com/articles/drone-incursions-sow-fear-chaos-060621000.html"
+  },
+  "S64": {
+    "id": "S64",
+    "publisher": "Defence Industry Europe / Swedish Armed Forces",
+    "title": "Swedish military statement; dates the encounter to 25 February 2026",
+    "audit": "Relevant page/text rechecked during export. Date differs from the prior report, which used 26 February. One incident, not two.",
+    "url": "https://defence-industry.eu/sweden-confirms-russian-drone-launched-near-french-carrier-charles-de-gaulle-was-detected-and-neutralised-in-malmo/"
+  },
+  "S65": {
+    "id": "S65",
+    "publisher": "RBC-Ukraine / Latvian State Police",
+    "title": "Lake Drīdzis crash and explosion, 23 May 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://newsukraine.rbc.ua/news/drone-explodes-after-crashing-into-lake-in-1779544681.html"
+  },
+  "S66": {
+    "id": "S66",
+    "publisher": "Reuters Connect",
+    "title": "German government press conference on Leipzig attribution, 1 September 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.reutersconnect.com/item/germany-says-russia-responsible-for-drone-attack-at-leipzig-airport/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBOTQzNDAxMDkyMDI2UlAx"
+  },
+  "S67": {
+    "id": "S67",
+    "publisher": "Reuters via AOL",
+    "title": "Russian denial of German Leipzig attribution, 1 September 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.aol.com/articles/russia-calls-germanys-leipzig-drone-190315000.html"
+  },
+  "S68": {
+    "id": "S68",
+    "publisher": "LinkedIn / author announcement",
+    "title": "IISS European UAV-campaign research announcement",
+    "audit": "Reference retained from prior research; not fully rechecked during export. Prior-report context, not an event-level source or independently audited dataset.",
+    "url": "https://www.linkedin.com/posts/rexfoxoloughlin_im-very-excited-to-announce-the-publication-activity-7478400095181508608-KJWv"
+  },
+  "S69": {
+    "id": "S69",
+    "publisher": "Resilience Imperative",
+    "title": "Summary of IISS UAV-campaign study, August 2024–February 2026",
+    "audit": "Reference retained from prior research; not fully rechecked during export. Prior-report context; claimed 144-event total is multi-year, not a 2026 EU total.",
+    "url": "https://www.resilienceimperative.com/items/iiss-report%3A-russia%27s-uav-campaign-over-europe-exposes-nato-air-defence-gaps"
+  },
+  "S70": {
+    "id": "S70",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Neptun Deep correction, 20 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.mapn.ro/cpresa/19361_informa%C8%9Bie-de-presa---update"
+  },
+  "S71": {
+    "id": "S71",
+    "publisher": "European Pravda / News.ro",
+    "title": "Olimp discovery and separate Constanța casino debris find, 26 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.eurointegration.com.ua/eng/news/2026/08/26/7244209/"
+  },
+  "S72": {
+    "id": "S72",
+    "publisher": "Digi24",
+    "title": "Shepherd account and professional disposal at Viișoara",
+    "audit": "Reference retained from prior research; not fully rechecked during export",
+    "url": "https://www.digi24.ro/stiri/actualitate/un-localnic-povesteste-cum-s-a-apucat-sa-demonteze-drona-cu-explozibil-gasita-in-vaslui-tiuia-se-aprindeau-becurile-am-scos-firele-3931021"
+  },
+  "S73": {
+    "id": "S73",
+    "publisher": "Vaslui TV",
+    "title": "Viișoara discovery; local provenance claim",
+    "audit": "Reference retained from prior research; not fully rechecked during export. Local attribution claim is not treated as an official identification.",
+    "url": "https://www.vasluitv.ro/video-drona-gasita-pe-un-camp-in-comuna-viisoara-zona-a-fost-izolata-iar-specialistii-sri-intervin-la-fata-locului/"
+  },
+  "S74": {
+    "id": "S74",
+    "publisher": "European Pravda / News.ro / Romanian Naval Authority",
+    "title": "Progress IV incident: impact mechanism unknown, 28 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.eurointegration.com.ua/eng/news/2026/08/28/7244354/index.amp"
+  },
+  "S75": {
+    "id": "S75",
+    "publisher": "PortNews / Romanian Coast Guard",
+    "title": "Progress IV sinking: event date, rescue and conflicting flag descriptions",
+    "audit": "Relevant page/text rechecked during export. Shipping-industry source distinguishes initial Dominican Republic reporting from a fleet listing indicating Dominica; flag is not independently resolved here.",
+    "url": "https://en.portnews.ru/news/print/396155/"
+  },
+  "S76": {
+    "id": "S76",
+    "publisher": "Bulgarian News Agency (BTA) / Defence Ministry",
+    "title": "Coastal UAV recovery and destruction missions, 26 August 2026, morning release",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.bta.bg/en/news/bulgaria/1192191-bulgarian-navy-destroys-unmanned-aerial-vehicles-in-the-black-sea-region"
+  },
+  "S77": {
+    "id": "S77",
+    "publisher": "Bulgarian News Agency (BTA) / Defence Ministry",
+    "title": "Four coastal recovery missions, 26 August 2026, afternoon release",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.bta.bg/en/news/1192677-bulgarian-navy-retrieves-debris-of-unmanned-aerial-vehicles-from-black-sea-beac"
+  },
+  "S78": {
+    "id": "S78",
+    "publisher": "The Sofia Globe / Bulgarian Defence Ministry",
+    "title": "Kavarna, Kamchia and Chernomorets recovery reports, 27 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://sofiaglobe.com/2026/08/27/more-drone-incidents-along-bulgarias-black-sea-coast/"
+  },
+  "S79": {
+    "id": "S79",
+    "publisher": "The Sofia Globe / Bulgarian Defence Ministry",
+    "title": "Sveti Ivan disposal and other coastal recoveries, 28 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://sofiaglobe.com/2026/08/28/bulgarian-navy-destroys-drone-found-near-sveti-ivan-island/"
+  },
+  "S80": {
+    "id": "S80",
+    "publisher": "Bulgarian News Agency (BTA) / Defence Ministry",
+    "title": "Shabla, Chernomorets and Ahtopol recoveries, 28 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.bta.bg/en/news/1194192-bulgarian-navy-carries-out-reconnaissance-transport-of-objects-found-at-sea"
+  },
+  "S81": {
+    "id": "S81",
+    "publisher": "Bulgarian News Agency (BTA)",
+    "title": "Defence minister on coastal drones: unarmed; most Russian-made, some Ukrainian/unidentified, 26 August 2026",
+    "audit": "Relevant page/text rechecked during export. Campaign/cohort-level provenance assessment, not positive attribution of every individual object.",
+    "url": "https://www.bta.bg/en/news/bulgaria/1192407-all-drones-along-black-sea-coast-were-unarmed-defence-minister-says"
+  },
+  "S82": {
+    "id": "S82",
+    "publisher": "The Sofia Globe / Bulgarian Navy",
+    "title": "Tyulenovo, Primorsko and Lozenets recoveries, 14 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://sofiaglobe.com/2026/08/14/bulgarian-navy-responds-to-three-reports-of-drone-and-drone-parts-spotted-along-the-coast/"
+  },
+  "S83": {
+    "id": "S83",
+    "publisher": "SofiaBeacon (secondary lead)",
+    "title": "Kabakum report recalling two 22 August coastal debris recoveries",
+    "audit": "Relevant page/text rechecked during export. Lower-confidence source; used only to preserve the Albena/Kranevo and Rakitnika leads. Original official releases were not independently retrieved.",
+    "url": "https://bulgarianewsdaily.com/debris-found-near-kabakum-beach-in-varna/"
+  },
+  "S84": {
+    "id": "S84",
+    "publisher": "Radio România Actualități / MApN",
+    "title": "Plauru discovery and Măcin Mountains wreckage, 14 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.romania-actualitati.ro/news-in-english/ministry-of-national-defense-new-drone-discovered-in-tulcea-county-near-plauru-id232930.html"
+  },
+  "S85": {
+    "id": "S85",
+    "publisher": "RBC-Ukraine / MApN",
+    "title": "Several Romanian discoveries on 14 August 2026",
+    "audit": "Relevant page/text rechecked during export. Headline count is not converted into additional unidentified airframes.",
+    "url": "https://newsukraine.rbc.ua/news/romania-finds-debris-from-fourth-drone-in-1786737796.html"
+  },
+  "S86": {
+    "id": "S86",
+    "publisher": "The Romania Journal / MApN",
+    "title": "Luncavița-area crash, 14 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.romaniajournal.ro/society-people/social/drone-crashes-in-northern-tulcea-near-ukrainian-border/"
+  },
+  "S87": {
+    "id": "S87",
+    "publisher": "Informat.ro / MApN account",
+    "title": "Plauru controlled disposal on 15 August, following 14 August discovery",
+    "audit": "Relevant page/text rechecked during export. Secondary follow-up; original disposal release not separately retrieved.",
+    "url": "https://informat.ro/en/current-affairs/drone-destroyed-by-controlled-detonation-in-tulcea-134950"
+  },
+  "S88": {
+    "id": "S88",
+    "publisher": "Romania Insider / MApN reporting",
+    "title": "Costinești aerial-drone fragments recovered, 13 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.romania-insider.com/drone-fragments-costinesti-beach-aug-2026"
+  },
+  "S89": {
+    "id": "S89",
+    "publisher": "Informat.ro / contemporary Romanian reporting",
+    "title": "Further Costinești fragment found, 14 August 2026",
+    "audit": "Relevant page/text rechecked during export. Possible relationship to previous day’s object not established.",
+    "url": "https://informat.ro/en/current-affairs/drone-fragment-discovered-at-costinesti-restricted-access-in-the-area-134794"
+  },
+  "S90": {
+    "id": "S90",
+    "publisher": "Informat.ro / contemporary Romanian reporting",
+    "title": "Saturn beach fragment and related Costinești reporting, 14 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://informat.ro/en/current-affairs/drone-fragments-found-on-the-beaches-of-saturn-and-costinesti-134880"
+  },
+  "S91": {
+    "id": "S91",
+    "publisher": "Radio România Timișoara / MApN",
+    "title": "Costinești report also describes overnight Chilia incursion, 13 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://www.radiotimisoara.ro/administratie-politica/administratie-public/drona-descoperita-pe-plaja-din-costinesti-387032.html"
+  },
+  "S92": {
+    "id": "S92",
+    "publisher": "CT100 / MApN",
+    "title": "Aerial-drone fragment at Costinești: no pyrotechnic risk; prosecutor referral, 13 August 2026",
+    "audit": "Relevant page/text rechecked during export. Headline says maritime drone, but the quoted MoD text explicitly identifies an aerial-drone fragment; classification follows the MoD text.",
+    "url": "https://www.ct100.ro/ce-spune-armata-despre-drona-marina-gasita-in-costinesti/"
+  },
+  "S93": {
+    "id": "S93",
+    "publisher": "The Sofia Globe / Bulgarian Defence Ministry",
+    "title": "Tsarevo–Varvara, Kamchia, Kabakum, Pomorie and Pasha Dere cases, 25–26 August 2026",
+    "audit": "Relevant page/text rechecked during export",
+    "url": "https://sofiaglobe.com/2026/08/26/drone-washes-up-on-cabacum-beach-near-bulgarias-varna/"
+  },
+  "L01": {
+    "id": "L01",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "dateLabel": "2026-01-28",
+    "title": "Cargo drone intercepted near Purvėnai",
+    "audit": "[Cargo drone intercepted near Purvėnai][L01]. Primary official account; weekday wording retained rather than inventing an exact clock time.",
+    "url": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-vsat-pareigunai-nutupde-cigaretes-skraidinusi-kontrabandininku-drona-foto-video-Bs2/"
+  },
+  "L02": {
+    "id": "L02",
+    "publisher": "VSAT",
+    "dateLabel": "2026-02-25",
+    "title": "Forestry staff help retrieve a cigarette-carrying drone from a pine tree",
+    "audit": "[Forestry staff help retrieve a cigarette-carrying drone from a pine tree][L02]. Primary official account; interception and next-day tree recovery are one record.",
+    "url": "https://vsat.lrv.lt/lt/naujienos/uredui-padedant-pasienieciai-is-pusies-virsunes-iskele-nutupdyta-drona-su-baltarusiskomis-cigaretemis-foto-cgH/"
+  },
+  "L03": {
+    "id": "L03",
+    "publisher": "VSAT",
+    "dateLabel": "2026-04-07; later updated 2026-05-04",
+    "title": "Drone carrying cigarettes from Belarus intercepted near Dubas",
+    "audit": "[Drone carrying cigarettes from Belarus intercepted near Dubas][L03]. Primary official account. Page update is not a second event.",
+    "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciai-pereme-dar-viena-is-baltarusijos-rukalus-skraidinusi-drona-video-foto-wTh/"
+  },
+  "L04": {
+    "id": "L04",
+    "publisher": "VSAT",
+    "dateLabel": "2026-05-08",
+    "title": "Cargo drone crashes after counter-drone intervention near Krupaviesai",
+    "audit": "[Cargo drone crashes after counter-drone intervention near Krupaviesai][L04]. Primary official account.",
+    "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciams-panaudojus-antidrona-kontrabandininku-skraidykle-su-kroviniu-teskesi-i-zeme-foto-uPP/"
+  },
+  "L05": {
+    "id": "L05",
+    "publisher": "LRT / ELTA",
+    "dateLabel": "2026-06-15",
+    "title": "Sunday border-guard interception of a cigarette-carrying drone",
+    "audit": "[Sunday border-guard interception of a cigarette-carrying drone][L05]. Public broadcaster carrying an official border-service account.",
+    "url": "https://www.lrt.lt/naujienos/lietuvoje/2/2961328/sekmadieni-vsat-pareigunai-nutupde-kontrabandines-cigaretes-skraidinusi-drona"
+  },
+  "L06": {
+    "id": "L06",
+    "publisher": "VSAT",
+    "dateLabel": "2026-09-07",
+    "title": "Cargo drone intercepted near Daugidonys",
+    "audit": "[Cargo drone intercepted near Daugidonys][L06]. Primary official account.",
+    "url": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-vsat-pareigunai-pereme-kontrabandininku-drona-su-kroviniu-foto-P2j/"
+  },
+  "L07": {
+    "id": "L07",
+    "publisher": "VSAT",
+    "dateLabel": "2026-09-14",
+    "title": "Smuggling drone crashes near the Belarus border",
+    "audit": "[Smuggling drone crashes near the Belarus border][L07]. Primary official account; detection at Ūta and recovery at Versekėlė are one track.",
+    "url": "https://vsat.lrv.lt/lt/naujienos/pasienyje-su-baltarusija-avarija-patyre-kontrabandininku-dronas-gabenes-cigaretes-foto-J9M/"
+  },
+  "L08": {
+    "id": "L08",
+    "publisher": "VSAT",
+    "dateLabel": "2026-09-16",
+    "title": "Drone and 1,000 packs of cigarettes seized near Norviliškės",
+    "audit": "[Drone and 1,000 packs of cigarettes seized near Norviliškės][L08]. Primary official account.",
+    "url": "https://vsat.lrv.lt/lt/naujienos/juodoji-rinka-prarado-1-000-pakeliu-cigareciu-ir-juos-gabenusi-kontrabandininku-drona-foto-bSR/"
+  },
+  "L09": {
+    "id": "L09",
+    "publisher": "VSAT",
+    "dateLabel": "2026-09-23",
+    "title": "Intercepted drone burns, cigarette cargo survives",
+    "audit": "[Intercepted drone burns, cigarette cargo survives][L09]. Primary official account; discovery on 22 September. Also supplies the non-additive annual total of 58.",
+    "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciu-nutupdytas-dronas-uzsidege-bet-baltarusiskos-cigaretes-isliko-foto-QXq/"
+  },
+  "L10": {
+    "id": "L10",
+    "publisher": "Lrytas",
+    "dateLabel": "2026-09-17",
+    "title": "Police update on the drone found in a Pasvalys district forest",
+    "audit": "[Police update on the drone found in a Pasvalys district forest][L10]. Follow-up correction links the object to a smuggling investigation, not an established foreign military incursion.",
+    "url": "https://www.lrytas.lt/lietuvosdiena/aktualijos/2026/09/17/news/pasvalio-r-miske-radus-drona-naujausia-policijos-zinai-del-tyrimo-44044686"
+  },
+  "L11": {
+    "id": "L11",
+    "publisher": "Lrytas",
+    "dateLabel": "2026-09-16",
+    "title": "Fallen drone discovered in Pasvalys district",
+    "audit": "[Fallen drone discovered in Pasvalys district][L11]. Initial discovery account; read with next-day correction L10.",
+    "url": "https://www.lrytas.lt/lietuvosdiena/aktualijos/2026/09/16/news/pasvalio-raj-rastas-nukrites-dronas-44018042"
+  },
+  "R01": {
+    "id": "R01",
+    "publisher": "Radio România",
+    "dateLabel": "2026-09-10",
+    "title": "MApN: Drone fragments neutralized at Capu Midia beach",
+    "audit": "[MApN: Drone fragments neutralized at Capu Midia beach][R01]. Public broadcaster reporting Romanian Defence Ministry statement.",
+    "url": "https://www.radioromania.ro/Actualitate/mapn-fragmente-de-drona-neutralizate-in-zona-plajei-de-la-capu-midia-id216948.html"
+  },
+  "R02": {
+    "id": "R02",
+    "publisher": "Radio Oltenia",
+    "dateLabel": "2026-09-10",
+    "title": "Drone remains neutralized at Capu Midia",
+    "audit": "[Drone remains neutralized at Capu Midia][R02]. Specifies 9 September discovery and 10 September response.",
+    "url": "https://www.radiooltenia.ro/resturi-de-drona-neutralizate-la-capu-midia/"
+  },
+  "R03": {
+    "id": "R03",
+    "publisher": "Focus Press",
+    "dateLabel": "2026-09-10",
+    "title": "Three coastal discovery reports: Capu Midia, Mamaia Nord and Corbu",
+    "audit": "[Three coastal discovery reports: Capu Midia, Mamaia Nord and Corbu][R03]. Reopened for this reconciliation: the earlier URL redirects here. The article reports distinct police notifications at Mamaia Nord (10 September, 08:30) and Corbu (09:40), in addition to the 9 September Capu Midia find and next-day disposal.",
+    "url": "https://focuspress.ro/alerta-la-constanta-resturi-de-drona-gasite-in-mai-multe-zone-inclusiv-la-corbu-si-mamaia-nord-49ab7a5ed/"
+  },
+  "R04": {
+    "id": "R04",
+    "publisher": "Financial Intelligence",
+    "dateLabel": "2026-09-10",
+    "title": "Corbu-labelled coverage repeating the Capu Midia Ministry chronology",
+    "audit": "[Corbu-labelled coverage repeating the Capu Midia Ministry chronology][R04]. Reopened for this reconciliation. Its 9 September 20:00 / 10 September 09:30 chronology supports N038; its broad Corbu label is not by itself evidence of a separate event. The independent Corbu police notification is N063, supported by R03/R10/R11.",
+    "url": "https://financialintelligence.ro/fragment-de-drona-gasit-pe-plaja-de-la-corbu-nu-avea-incarcatura-exploziva-fiind-neutralizat-la-fata-locului/"
+  },
+  "R05": {
+    "id": "R05",
+    "publisher": "Radio România Internațional",
+    "dateLabel": "2026-09-11",
+    "title": "Drone fragments found in Constanța and Tulcea counties",
+    "audit": "[Drone fragments found in Constanța and Tulcea counties][R05]. Reproduces the MApN four-location intervention chronology, with times.",
+    "url": "https://www.rri.ro/actualitate/stiri/fragmente-de-drone-gasite-in-judetele-constanta-si-tulcea-id1058610.html"
+  },
+  "R06": {
+    "id": "R06",
+    "publisher": "Observator News",
+    "dateLabel": "2026-09-11",
+    "title": "Drone fragments, some explosive, found on the coast; MApN account",
+    "audit": "[Drone fragments, some explosive, found on the coast; MApN account][R06]. Additional reporting of the same Ministry chronology, not independent physical verification.",
+    "url": "https://observatornews.ro/eveniment/fragmente-de-drone-unele-cu-incarcatura-exploziva-gasite-pe-litoral-reactia-mapn-665968.html"
+  },
+  "R07": {
+    "id": "R07",
+    "publisher": "Adevărul",
+    "dateLabel": "2026-09-11",
+    "title": "Defence Ministry report on coastal drone discoveries",
+    "audit": "[Defence Ministry report on coastal drone discoveries][R07]. Additional coverage of the 11 September recovery operations.",
+    "url": "https://adevarul.ro/stiri-interne/evenimente/ministerul-apararii-nationale-in-stare-de-alerta-2557004.html"
+  },
+  "R08": {
+    "id": "R08",
+    "publisher": "Digi24",
+    "dateLabel": "2026-09-11",
+    "title": "Targets near Vylkove prompt F-16 monitoring and Romanian border alert",
+    "audit": "[Targets near Vylkove prompt F-16 monitoring and Romanian border alert][R08]. MApN said no Romanian airspace penetration; related response, not an incursion.",
+    "url": "https://www.digi24.ro/amphtml/stiri/actualitate/alerta-la-granita-romaniei-tinte-aeriene-detectate-langa-valcove-f-16-ridicate-pentru-monitorizare-3943395"
+  },
+  "R09": {
+    "id": "R09",
+    "publisher": "The Sofia Globe",
+    "dateLabel": "2026-09-15",
+    "title": "Romania and Poland scramble fighter jets over drone incidents",
+    "audit": "[Romania and Poland scramble fighter jets over drone incidents][R09]. Both national accounts explicitly say no national airspace violation; two national response records, not two proven drone tracks.",
+    "url": "https://sofiaglobe.com/2026/09/15/romania-poland-scramble-fighter-jets-over-drone-incidents/"
+  },
+  "B01": {
+    "id": "B01",
+    "publisher": "The Sofia Globe",
+    "dateLabel": "2026-09-03",
+    "title": "Bulgarian Navy responds to several more drone incidents",
+    "audit": "[Bulgarian Navy responds to several more drone incidents][B01]. Defence Ministry announcement covers SIX tasks performed on 2 September: five drone-related locations and one unidentified cone-shaped object.",
+    "url": "https://sofiaglobe.com/2026/09/03/bulgarian-navy-responds-to-several-more-drone-incidents/"
+  },
+  "B02": {
+    "id": "B02",
+    "publisher": "Petel",
+    "dateLabel": "2026-09-04",
+    "title": "Bulgarian Navy six-task coastal and maritime response account",
+    "audit": "[Bulgarian Navy six-task coastal and maritime response account][B02]. Local-language coverage of the same Ministry announcement; publication date is not a new incident date.",
+    "url": "https://petel.bg/m/667593"
+  },
+  "B03": {
+    "id": "B03",
+    "publisher": "Direktno",
+    "dateLabel": "2026-09-06",
+    "title": "Six naval tasks on the Black Sea: established facts and open questions",
+    "audit": "[Six naval tasks on the Black Sea: established facts and open questions][B03]. Retrospective corroboration of locations and uncertainty; not six additional September 6 events.",
+    "url": "https://direktno.bg/article/shest-zadachi-na-vms-po-chernomorieto-kakvo-e-potvyrdeno-i-kakvo-ostava-neyasno"
+  },
+  "B04": {
+    "id": "B04",
+    "publisher": "Darik News",
+    "dateLabel": "2026-09-07",
+    "title": "Navy retrieves a drone from the Black Sea near Kaliakra",
+    "audit": "[Navy retrieves a drone from the Black Sea near Kaliakra][B04]. Reports response on the previous afternoon, 6 September.",
+    "url": "https://dariknews.bg/novini/bylgariia/otkriha-dron-v-cherno-more-vms-go-iztegliha-2465810"
+  },
+  "B05": {
+    "id": "B05",
+    "publisher": "OFFNews",
+    "dateLabel": "2026-09-07",
+    "title": "Drone found afloat near Cape Kaliakra",
+    "audit": "[Drone found afloat near Cape Kaliakra][B05]. Additional reporting of the same retrieval, not another event.",
+    "url": "https://offnews.bg/112/dron-izpluva-kraj-nos-kaliakra-874215.html"
+  },
+  "B06": {
+    "id": "B06",
+    "publisher": "Eurocom / Bulgaria ON AIR reporting",
+    "dateLabel": "2026-09-11",
+    "title": "Military-type drone washes up on Kavatsi beach",
+    "audit": "[Military-type drone washes up on Kavatsi beach][B06]. Discovery and security response; operator, payload and final disposal not established in the retrieved account.",
+    "url": "https://eurocom.bg/2026/09/11/voenen-dron-izpluva-na-plazh-kavatsi-spetsializirani-sili-ohranyavat-rayona/"
+  },
+  "B07": {
+    "id": "B07",
+    "publisher": "Flagman",
+    "dateLabel": "2026-09-01",
+    "title": "Kayaker account of a drone found near Sozopol",
+    "audit": "[Kayaker account of a drone found near Sozopol][B07]. Duplicate-check source only: retrospective late-August discovery associated with baseline E081, not a newly counted 1 September event.",
+    "url": "https://www.flagman.bg/article/389012"
+  },
+  "D01": {
+    "id": "D01",
+    "publisher": "ZDFheute",
+    "dateLabel": "2026-07-17",
+    "title": "Moldovan man arrested in Munich on suspicion of espionage",
+    "audit": "[Moldovan man arrested in Munich on suspicion of espionage][D01]. Police/prosecutor account; allegations are not a conviction.",
+    "url": "https://www.zdfheute.de/politik/deutschland/muenchen-spionage-mann-moldau-100.html"
+  },
+  "D02": {
+    "id": "D02",
+    "publisher": "Reuters via Onvista",
+    "dateLabel": "2026-07-17",
+    "title": "Warrant against Moldovan suspect over alleged espionage at KNDS",
+    "audit": "[Warrant against Moldovan suspect over alleged espionage at KNDS][D02]. KNDS identification attributed to Reuters security source, not an unqualified named-site police finding.",
+    "url": "https://www.onvista.de/news/2026/07-17-spionageverdacht-bei-panzerbauer-knds-haftbefehl-gegen-moldauer-0-20-26533395"
+  },
+  "D03": {
+    "id": "D03",
+    "publisher": "Reuters via MarketScreener",
+    "dateLabel": "2026-07-17",
+    "title": "Germany arrests Moldovan over suspected drone espionage at KNDS",
+    "audit": "[Germany arrests Moldovan over suspected drone espionage at KNDS][D03]. Specifies Wednesday evening, 15 July, rather than treating Friday publication as flight date.",
+    "url": "https://de.marketscreener.com/boerse-nachrichten/deutschland-nimmt-moldauer-wegen-mutmasslichem-spionage-drohnenflug-ueber-ruestungshersteller-knds-fest-ce7f51dad88ef221"
+  },
+  "C01": {
+    "id": "C01",
+    "publisher": "Cyprus Mail",
+    "dateLabel": "2026-03-30",
+    "title": "Cyprus reports Turkish airspace, FIR and territorial-water violations",
+    "audit": "[Cyprus reports Turkish airspace, FIR and territorial-water violations][C01]. Cypriot submission concerning January–February. Aggregate only; not independently verified by the UN.",
+    "url": "https://cyprus-mail.com/2026/03/30/cyprus-reports-new-turkish-violations-of-airspace-fir-territorial-waters"
+  },
+  "C02": {
+    "id": "C02",
+    "publisher": "SigmaLive",
+    "dateLabel": "2026-03-30",
+    "title": "Cyprus reports Turkish violations to UN Security Council",
+    "audit": "[Cyprus reports Turkish violations to UN Security Council][C02]. Additional reporting of the same submission, S/2026/240. The annex was not extracted into individual records here.",
+    "url": "https://en.sigmalive.com/cyprus-reports-turkish-violations-to-un-security-council/"
+  },
+  "C03": {
+    "id": "C03",
+    "publisher": "Knews / Kathimerini Cyprus",
+    "dateLabel": "2026-09-01",
+    "title": "Turkish drones disrupting flight paths near Larnaca and Paphos",
+    "audit": "[Turkish drones disrupting flight paths near Larnaca and Paphos][C03]. Attributed statements by air-traffic-controller representative; undated recurring pattern, not a new individually timed September 1 encounter.",
+    "url": "https://knews.kathimerini.com.cy/en/news/turkish-drones-disrupting-flight-paths-near-larnaca-and-paphos"
+  },
+  "G00": {
+    "id": "G00",
+    "publisher": "Greek Ministry of Foreign Affairs",
+    "dateLabel": "Current official position accessed 2026-09-24",
+    "title": "National airspace: Greek position",
+    "audit": "[National airspace: Greek position][G00]. Primary statement of Greece’s 10-nautical-mile Aegean airspace claim.",
+    "url": "https://www.mfa.gr/en/foreign-policy/foreign-policy-issues/issues-of-greek-turkish-relations/national-airspace/"
+  },
+  "T00": {
+    "id": "T00",
+    "publisher": "Turkish Ministry of Foreign Affairs",
+    "dateLabel": "Current official position accessed 2026-09-24",
+    "title": "Background note on the Aegean dispute",
+    "audit": "[Background note on the Aegean dispute][T00]. Primary Turkish objection to Greece’s 10-mile airspace claim beyond a 6-mile territorial sea and to FIR-based sovereignty arguments.",
+    "url": "https://www.mfa.gov.tr/background-note-on-aegean-dispute.en.mfa"
+  },
+  "G99": {
+    "id": "G99",
+    "publisher": "To Vima",
+    "dateLabel": "2026; covers January–August",
+    "title": "The drone activity tally discussed in To Vima",
+    "audit": "[The drone activity tally discussed in To Vima][G99]. 276 reported UAV appearances/activity entries, including 102 in August and 30 in July; do not reinterpret as 276 unique aircraft or individual sovereign-airspace incursions.",
+    "url": "https://www.tovima.gr/print/politics/i-damokleios-spathi-ton-drones"
+  },
+  "G0113": {
+    "id": "G0113",
+    "publisher": "Dimokratiki / Greek military figures",
+    "dateLabel": "2026-01-13",
+    "title": "Turkish UAV activity reported for 2026-01-13",
+    "audit": "[Turkish UAV activity reported for 2026-01-13][G0113]. Greek military figures as reported; not an independent adjudication of disputed airspace. The five reported national-airspace violations were by F-16s, not the UAV.",
+    "url": "https://www.dimokratiki.gr/13-01-2026/nees-tourkikes-proklisis-sto-egeo-pente-paraviasis-ke-dyo-paravasis-apo-f-16-ke-uav/"
+  },
+  "G0115": {
+    "id": "G0115",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-01-15",
+    "title": "Turkish UAV activity reported for 2026-01-15",
+    "audit": "[Turkish UAV activity reported for 2026-01-15][G0115]. Greek military figures as reported; not an independent adjudication of disputed airspace. CN-235 FIR infringements excluded.",
+    "url": "https://www.onalert.gr/ellinotourkika/enochlise-i-afixi-toy-kimona-toyrkika-cn-235-kai-uav-ekanan-3-paraviaseis-sto-aigaio/656144/"
+  },
+  "G0117": {
+    "id": "G0117",
+    "publisher": "CretaOne / Greek military figures",
+    "dateLabel": "2026-01-17",
+    "title": "Turkish UAV activity reported for 2026-01-17",
+    "audit": "[Turkish UAV activity reported for 2026-01-17][G0117]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+    "url": "https://cretaone.gr/nees-toyrkikes-paraviaseis-sto-aigaio-me-drones-ayti-ti-fora/"
+  },
+  "G0302": {
+    "id": "G0302",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-03-02",
+    "title": "Turkish UAV activity reported for 2026-03-02",
+    "audit": "[Turkish UAV activity reported for 2026-03-02][G0302]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+    "url": "https://www.onalert.gr/ellinotourkika/dyo-toyrkika-drones-ekanan-4-paraviaseis-kai-3-paravaseis-sto-aigaio/662737/"
+  },
+  "G0305": {
+    "id": "G0305",
+    "publisher": "Athens Times / reported Greek breakdown",
+    "dateLabel": "2026-03-05",
+    "title": "Turkish UAV activity reported for 2026-03-05",
+    "audit": "[Turkish UAV activity reported for 2026-03-05][G0305]. Greek military figures as reported; not an independent adjudication of disputed airspace. Reported national-airspace violations were assigned to F-16/ATR aircraft; this is the UAV FIR component only. Secondary-source-only entry.",
+    "url": "https://athens-times.com/turkish-air-violations-over-the-aegean-amid-regional-tensions/"
+  },
+  "G0310": {
+    "id": "G0310",
+    "publisher": "Greek City Times / Greek military account",
+    "dateLabel": "2026-03-10",
+    "title": "Turkish UAV activity reported for 2026-03-10",
+    "audit": "[Turkish UAV activity reported for 2026-03-10][G0310]. Greek military figures as reported; not an independent adjudication of disputed airspace. Reported on 11 March about 10 March; six national violations were assigned to a CN-235, not the UAV.",
+    "url": "https://greekcitytimes.com/2026/03/11/turkish-airspace-violations-aegean-march-2026/"
+  },
+  "G0326": {
+    "id": "G0326",
+    "publisher": "Athens Times / reported Greek breakdown",
+    "dateLabel": "2026-03-26",
+    "title": "Turkish UAV activity reported for 2026-03-26",
+    "audit": "[Turkish UAV activity reported for 2026-03-26][G0326]. Greek military figures as reported; not an independent adjudication of disputed airspace. Nine national violations were attributed to F-16/CN-235 aircraft. UAVs account for three FIR infringements, not those nine crossings.",
+    "url": "https://athens-times.com/turkey-provokes-in-the-aegean-f-16s-fly-unannounced-exercise-cn-235-and-uavs-violate-greek-airspace/"
+  },
+  "G0617": {
+    "id": "G0617",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-06-17",
+    "title": "Turkish UAV activity reported for 2026-06-17",
+    "audit": "[Turkish UAV activity reported for 2026-06-17][G0617]. Greek military figures as reported; not an independent adjudication of disputed airspace. Five further national violations were assigned to an ATR-72, not included here.",
+    "url": "https://www.onalert.gr/ellinotourkika/tourkiko-atr-72-kai-dyo-uav-ekanan-paraviaseis-kai-paravaseis-se-olo-to-aigaio/678664/"
+  },
+  "G0623": {
+    "id": "G0623",
+    "publisher": "Athens Times / reported Greek breakdown",
+    "dateLabel": "2026-06-23",
+    "title": "Turkish UAV activity reported for 2026-06-23",
+    "audit": "[Turkish UAV activity reported for 2026-06-23][G0623]. Greek military figures as reported; not an independent adjudication of disputed airspace. Six national violations and fighter engagements were assigned to manned aircraft, not UAVs.",
+    "url": "https://athens-times.com/new-turkish-air-violations-in-the-aegean-armed-f-16s-intrude-clashes-with-greek-fighters/"
+  },
+  "G0810": {
+    "id": "G0810",
+    "publisher": "Newsit / GEETHA",
+    "dateLabel": "2026-08-10",
+    "title": "Turkish UAV activity reported for 2026-08-10",
+    "audit": "[Turkish UAV activity reported for 2026-08-10][G0810]. Greek military figures as reported; not an independent adjudication of disputed airspace. Four is the mixed-aircraft FIR total; it is not assigned wholesale to the two UAVs.",
+    "url": "https://www.newsit.gr/ellada/neo-resital-proklitikotitas-apo-tin-tourkia-me-12-paraviaseis-sto-aigaio/4748229/"
+  },
+  "G0817": {
+    "id": "G0817",
+    "publisher": "Newsbomb / GEETHA",
+    "dateLabel": "2026-08-17",
+    "title": "Turkish UAV activity reported for 2026-08-17",
+    "audit": "[Turkish UAV activity reported for 2026-08-17][G0817]. Greek military figures as reported; not an independent adjudication of disputed airspace. The CN-235 accounts for the other six national violations and one FIR infringement in the mixed totals.",
+    "url": "https://www.newsbomb.gr/ellada/ethnika/story/1757082/baraz-tourkikon-paraviaseon-sto-aigaio-me-uav-kai-aeroskafos"
+  },
+  "G0822": {
+    "id": "G0822",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-08-22",
+    "title": "Turkish UAV activity reported for 2026-08-22",
+    "audit": "[Turkish UAV activity reported for 2026-08-22][G0822]. Greek military figures as reported; not an independent adjudication of disputed airspace. FIR infringements only; do not relabel as national-airspace incursions.",
+    "url": "https://www.onalert.gr/ellinotourkika/aigaio-paravaseis-sto-fir-athinon-apo-dyo-tourkika-uav/815066/"
+  },
+  "G0823": {
+    "id": "G0823",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-08-23",
+    "title": "Turkish UAV activity reported for 2026-08-23",
+    "audit": "[Turkish UAV activity reported for 2026-08-23][G0823]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+    "url": "https://www.onalert.gr/ellinotourkika/tourkika-uav-paraviasan-gia-akomi-mia-mera-ton-ethniko-enaerio-xoro-sto-aigaio/815175/"
+  },
+  "G0824": {
+    "id": "G0824",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-08-24",
+    "title": "Turkish UAV activity reported for 2026-08-24",
+    "audit": "[Turkish UAV activity reported for 2026-08-24][G0824]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+    "url": "https://www.onalert.gr/ellinotourkika/paraviaseis-kai-paravaseis-apo-eksi-tourkika-drones-sto-aigaio/815317/"
+  },
+  "G0825": {
+    "id": "G0825",
+    "publisher": "SDNA / Newsit / reproduced GEETHA bulletin",
+    "dateLabel": "2026-08-25",
+    "title": "Turkish UAV activity reported for 2026-08-25",
+    "audit": "[Turkish UAV activity reported for 2026-08-25][G0825]. Greek military figures as reported; not an independent adjudication of disputed airspace. Contemporaneous breakdown is three national and eight UAV FIR infringements; some next-day retrospectives incorrectly conflate these counts.",
+    "url": "https://www.sdna.gr/politiko-deltio/ellada/1460934_nea-toyrkiki-proklisi-sto-aigaio-me-tessera-uav-deka-parabaseis-sto"
+  },
+  "G0826": {
+    "id": "G0826",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-08-26",
+    "title": "Turkish UAV activity reported for 2026-08-26",
+    "audit": "[Turkish UAV activity reported for 2026-08-26][G0826]. Greek military figures as reported; not an independent adjudication of disputed airspace. The mixed total of 13 national violations also includes seven by a CN-235.",
+    "url": "https://www.onalert.gr/ellinotourkika/aigaio-synexizontai-oi-paraviaseis-kai-oi-paravaseis-apo-tourkika-drones-kai-cn-235/815675/"
+  },
+  "G0828": {
+    "id": "G0828",
+    "publisher": "Euronews / Greek military account",
+    "dateLabel": "2026-08-28",
+    "title": "Greek F-16s intercept Turkish drone over northern Aegean",
+    "audit": "[Greek F-16s intercept Turkish drone over northern Aegean][G0828]. Original supplement link; reopening returned a cache miss in this pass. N023 was instead corroborated with eKathimerini and a dated AOL syndication of the Euronews report (G0828K/G0828A).",
+    "url": "https://www.euronews.com/2026/08/28/greek-f-16s-intercept-turkish-drone-over-northern-aegean"
+  },
+  "G0829": {
+    "id": "G0829",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-08-29",
+    "title": "Turkish UAV activity reported for 2026-08-29",
+    "audit": "[Turkish UAV activity reported for 2026-08-29][G0829]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+    "url": "https://www.onalert.gr/ellinotourkika/nees-paravaseis-kai-paraviaseis-apo-tourkika-uav/816143/"
+  },
+  "G0830": {
+    "id": "G0830",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-08-30",
+    "title": "Turkish UAV activity reported for 2026-08-30",
+    "audit": "[Turkish UAV activity reported for 2026-08-30][G0830]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+    "url": "https://www.onalert.gr/ellinotourkika/nees-paravaseis-tourkikon-uav-sto-kentriko-aigaio/816240/"
+  },
+  "G0831": {
+    "id": "G0831",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-08-31",
+    "title": "Turkish UAV activity reported for 2026-08-31",
+    "audit": "[Turkish UAV activity reported for 2026-08-31][G0831]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+    "url": "https://www.onalert.gr/ellinotourkika/synexizoun-tis-paraviaseis-sto-aigaio-ta-tourkika-drones-mia-paravasi-apo-cn-235/816429/"
+  },
+  "G0901": {
+    "id": "G0901",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-09-01",
+    "title": "Turkish UAV activity reported for 2026-09-01",
+    "audit": "[Turkish UAV activity reported for 2026-09-01][G0901]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+    "url": "https://www.onalert.gr/ellinotourkika/paraviaseis-kai-paravaseis-apo-4-tourkika-drones-sto-aigaio/816630/"
+  },
+  "G0902": {
+    "id": "G0902",
+    "publisher": "CNN Greece / GEETHA",
+    "dateLabel": "2026-09-02",
+    "title": "Turkish UAV activity reported for 2026-09-02",
+    "audit": "[Turkish UAV activity reported for 2026-09-02][G0902]. Greek military figures as reported; not an independent adjudication of disputed airspace. CN-235 contributes six further national violations and one FIR infringement, excluded from UAV figures.",
+    "url": "https://www.cnn.gr/ellada/story/550515/mparaz-paraviaseon-apo-tourkika-aeroskafi-kai-drone-sto-aigaio"
+  },
+  "G0907": {
+    "id": "G0907",
+    "publisher": "Proto Thema / Greek military figures",
+    "dateLabel": "2026-09-07",
+    "title": "Turkish UAV activity reported for 2026-09-07",
+    "audit": "[Turkish UAV activity reported for 2026-09-07][G0907]. Greek military figures as reported; not an independent adjudication of disputed airspace. Reported fighter engagement is not evidence that either UAV was fired upon.",
+    "url": "https://www.protothema.gr/greece/article/1875290/tesseris-paraviaseis-apo-tourkika-uav-kai-mia-ebloki-me-elliniko-aeroskafos-epifulakis/AMP/"
+  },
+  "G0910": {
+    "id": "G0910",
+    "publisher": "Ekriti / Greek military figures",
+    "dateLabel": "2026-09-10",
+    "title": "Turkish UAV activity reported for 2026-09-10",
+    "audit": "[Turkish UAV activity reported for 2026-09-10][G0910]. Greek military figures as reported; not an independent adjudication of disputed airspace. Other seven national violations were assigned to an ATR, not the four UAVs.",
+    "url": "https://www.ekriti.gr/ellada/nees-prokliseis-apo-tin-toyrkia-sto-aigaio-stin-premiera-tis-askisis-medusa-stin-kriti"
+  },
+  "G0911": {
+    "id": "G0911",
+    "publisher": "Military Press / reported Greek breakdown",
+    "dateLabel": "2026-09-11",
+    "title": "Turkish UAV activity reported for 2026-09-11",
+    "audit": "[Turkish UAV activity reported for 2026-09-11][G0911]. Greek military figures as reported; not an independent adjudication of disputed airspace. Reported 12 September about 11 September. Ten national violations and two fighter engagements concerned F-16s, not the UAVs.",
+    "url": "https://militarypress.gr/en/2026/09/12/armed-turkish-f16s-aegean-second-incident-five-days/"
+  },
+  "G0912": {
+    "id": "G0912",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-09-12",
+    "title": "Turkish UAV activity reported for 2026-09-12",
+    "audit": "[Turkish UAV activity reported for 2026-09-12][G0912]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+    "url": "https://www.onalert.gr/ellinotourkika/aigaio-nees-paravaseis-kai-paraviaseis-tourkikon-uav/819055/"
+  },
+  "G0913": {
+    "id": "G0913",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-09-13",
+    "title": "Turkish UAV activity reported for 2026-09-13",
+    "audit": "[Turkish UAV activity reported for 2026-09-13][G0913]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+    "url": "https://www.onalert.gr/ellinotourkika/paravaseis-kai-paraviaseis-apo-tourkika-uav-sto-aigaio/819183/"
+  },
+  "G0917": {
+    "id": "G0917",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-09-17",
+    "title": "Turkish UAV activity reported for 2026-09-17",
+    "audit": "[Turkish UAV activity reported for 2026-09-17][G0917]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+    "url": "https://www.onalert.gr/ellinotourkika/aigaio-paravaseis-sto-fir-athinon-apo-tourkika-f-16-kai-uav/820146/"
+  },
+  "G0918": {
+    "id": "G0918",
+    "publisher": "Politica / Greek military breakdown",
+    "dateLabel": "2026-09-18",
+    "title": "Greek account of UAV overflight at Zourafa and mixed daily aircraft activity",
+    "audit": "[Greek account of UAV overflight at Zourafa and mixed daily aircraft activity][G0918]. Reopened. Identifies a UAV over Zourafa and five UAVs in the wider daily activity; 13 FIR infringements and seven national-airspace violations are mixed-aircraft totals. Does not provide the earlier supplement’s claimed drone-only nine/five subdivision.",
+    "url": "https://www.politica.gr/kriti/aigaio-tourkika-f-16-kai-uav-pano-apo-ro-kai-zourafa-se-exelixi-i-medusa-15-stin-kriti"
+  },
+  "G0919": {
+    "id": "G0919",
+    "publisher": "Capital.gr / Greek military figures",
+    "dateLabel": "2026-09-19",
+    "title": "Turkish UAV activity reported for 2026-09-19",
+    "audit": "[Turkish UAV activity reported for 2026-09-19][G0919]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+    "url": "https://www.capital.gr/epikairotita/4018039/nees-tourkikes-parabaseis-sto-aigaio-apo-drones/"
+  },
+  "G0920": {
+    "id": "G0920",
+    "publisher": "CNN Greece / GEETHA",
+    "dateLabel": "2026-09-20",
+    "title": "Turkish UAV activity reported for 2026-09-20",
+    "audit": "[Turkish UAV activity reported for 2026-09-20][G0920]. Greek military figures as reported; not an independent adjudication of disputed airspace.",
+    "url": "https://www.cnn.gr/ellada/story/553191/123"
+  },
+  "G0921": {
+    "id": "G0921",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-09-21",
+    "title": "Turkish UAV activity reported for 2026-09-21",
+    "audit": "[Turkish UAV activity reported for 2026-09-21][G0921]. Greek military figures as reported; not an independent adjudication of disputed airspace. One of the two UAVs was assigned the national-airspace violation; ATR FIR statistics excluded.",
+    "url": "https://www.onalert.gr/ellinotourkika/paravaseis-kai-paraviasi-sto-aigaio-apo-dyo-tourkika-drones-kai-ena-atr-72/821033/"
+  },
+  "G0922": {
+    "id": "G0922",
+    "publisher": "Newsit / GEETHA",
+    "dateLabel": "2026-09-22",
+    "title": "Turkish UAV activity reported for 2026-09-22",
+    "audit": "[Turkish UAV activity reported for 2026-09-22][G0922]. Greek military figures as reported; not an independent adjudication of disputed airspace. National violations assigned to two of five UAVs; two ATR aircraft excluded from drone totals.",
+    "url": "https://www.newsit.gr/ellada/tourkika-drones-paraviasan-ton-ethniko-enaerio-xoro-sto-aigaio-paravaseis-kai-apo-dyo-atr-72/4780725/amp/"
+  },
+  "G0923": {
+    "id": "G0923",
+    "publisher": "OnAlert / GEETHA bulletin",
+    "dateLabel": "2026-09-23",
+    "title": "Turkish UAV activity reported for 2026-09-23",
+    "audit": "[Turkish UAV activity reported for 2026-09-23][G0923]. Greek military figures as reported; not an independent adjudication of disputed airspace. Original bulletin says 23 September. Some syndications erroneously retain a 22 September header; they are not another record.",
+    "url": "https://www.onalert.gr/ellinotourkika/tourkika-drones-ekanan-paraviaseis-kai-paravaseis-sto-notioanatoliko-aigaio/821605/"
+  },
+  "R10": {
+    "id": "R10",
+    "publisher": "Cuget Liber",
+    "dateLabel": "2026-09-10",
+    "title": "Two separately timed beach-fragment notifications at Mamaia Nord and Corbu",
+    "audit": "[Two separately timed beach-fragment notifications at Mamaia Nord and Corbu][R10]. Newly checked for reconciliation; local reporting, explicitly referring to unofficial sources. Neither reported find contained explosives.",
+    "url": "https://cugetliber.ro/mobile/stiri-eveniment-fragmente-de-drona-pe-plaja-din-mamaia-nord-politistii-au-fost-alertati-dimineata-563717"
+  },
+  "R11": {
+    "id": "R11",
+    "publisher": "Replica Online",
+    "dateLabel": "2026-09-10",
+    "title": "Mamaia Nord beach recovery and separate Corbu police notification",
+    "audit": "[Mamaia Nord beach recovery and separate Corbu police notification][R11]. Newly checked. The lead loosely says about 09:00; the quoted notification chronology gives 08:30 for Mamaia Nord and 09:40 for Corbu. Its Alezzi micro-location is outlet-specific, not used as the canonical matching site.",
+    "url": "https://www.replicaonline.ro/inca-o-drona-a-fost-gasita-pe-plaja-alezzi-din-mamaia-nu-avea-explozibil-668064/"
+  },
+  "G0828K": {
+    "id": "G0828K",
+    "publisher": "eKathimerini",
+    "dateLabel": "2026-08-28",
+    "title": "Greek account of Turkish UAV interception between Samothrace and Lemnos",
+    "audit": "[Greek account of Turkish UAV interception between Samothrace and Lemnos][G0828K]. Newly checked; links the encounter with the Alexandroupoli departure precaution, rather than describing another incident.",
+    "url": "https://www.ekathimerini.com/politics/foreign-policy/1313618/turkish-drone-violates-greek-airspace-over-northeastern-aegean/"
+  },
+  "G0828A": {
+    "id": "G0828A",
+    "publisher": "AOL / Euronews syndication",
+    "dateLabel": "2026-08-28",
+    "title": "Dated syndication of Greek F-16 interception report",
+    "audit": "[Dated syndication of Greek F-16 interception report][G0828A]. Newly checked alternative to the original Euronews link; same encounter, not independent proof of another drone.",
+    "url": "https://www.aol.com/articles/greek-f-16s-intercept-turkish-133414000.html"
+  },
+  "U001": {
+    "id": "U001",
+    "publisher": "Romanian Ministry of National Defence",
+    "dateLabel": "2026-09-24",
+    "title": "Press information No. 302: radar-confirmed entry through northern Botoșani and F-16 response",
+    "audit": "Reviewed 2026-09-25. Confirms cross-border radar track and two Romanian F-16s launched for monitoring; does not establish a shoot-down or operator attribution.",
+    "url": "https://www.mapn.ro/cpresa/19411_informa%C8%9Bie-de-presa"
+  },
+  "U002": {
+    "id": "U002",
+    "publisher": "Monitorul de Suceava",
+    "dateLabel": "2026-09-24",
+    "title": "Witness accounts from the Solca drone crash site",
+    "audit": "Reviewed 2026-09-25. Residents describe finding and filming wreckage among trees. One reports an explosion; another questions whether an explosion occurred. These are witness accounts, not official explosive findings.",
+    "url": "https://www.monitorulsv.ro/bubuitura-a-fost-puternica-marturii-de-la-locul-prabusirii-dronei-de-joi-dimineata-la-poieni-solca_63a959/"
+  }
+}

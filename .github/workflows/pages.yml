@@ -3,28 +3,27 @@ name: Deploy map to GitHub Pages
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  validate:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
       - name: Validate JavaScript and source data
         run: |
+          python3 -m unittest discover -s drone-map/tests -v
+          python3 drone-map/scripts/build-data.py --check
           node --check drone-map/dist/app.js
           node --check drone-map/dist/mobile.js
           node --check drone-map/dist/analytics.js
@@ -32,8 +31,20 @@ jobs:
           node --check drone-map/dist/media.js
           for file in drone-map/dist/i18n/*.js; do node --check "$file"; done
           node drone-map/scripts/check-i18n.js
-          python3 drone-map/scripts/build-data.py
-          git diff --exit-code -- drone-map/dist/events.js drone-map/dist/eu_foreign_drone_events_2026_consolidated.md drone-map/dist/eu_foreign_drone_events_2026_final_update_deduped.md
+  deploy:
+    needs: validate
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload static map

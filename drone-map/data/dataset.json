@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "cutoff": "2026-09-24",
+  "researchFiles": [
+    {
+      "name": "eu_foreign_drone_events_2026_consolidated.md",
+      "sha256": "4ca03b0096d3150eaa9293a1ca1dbb2175392a7fd5adb52d59ca69210c10c892"
+    },
+    {
+      "name": "eu_foreign_drone_events_2026_final_update_deduped.md",
+      "sha256": "9412011bee3c3376abd7e89ec5d7f5ce831623a3c5676c19a35f2293b47486b8"
+    }
+  ]
+}
