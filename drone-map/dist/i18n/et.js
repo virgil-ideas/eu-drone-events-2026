@@ -1,5 +1,13 @@
 // Interface strings (Estonian). See en.js for conventions.
 (window.DRONE_I18N ||= {}).et = {
+  'mobile.about': "Teave",
+  'mobile.key': "Legend",
+  'mobile.trends': "Kirjed kuude kaupa ja suundumused",
+  'mobile.explore': "Vaata kirjeid",
+  'mobile.more': "Rohkem taasesituse juhtelemente",
+  'mobile.back': "Tagasi kaardile",
+  'mobile.closeKey': "Sulge legend",
+
   'meta.title': 'Droonisündmused Euroopas · 2026',
   'meta.description': 'Uuri ajakohastatud 2026. aasta uuringuregistrit välismaiste droonide kohta ELis interaktiivsel kaardil koos ajajoone taasesitusega.',
   'language.label': 'Keel',

@@ -1,5 +1,13 @@
 // Interface strings (Maltese). See en.js for conventions.
 (window.DRONE_I18N ||= {}).mt = {
+  'mobile.about': "Dwar",
+  'mobile.key': "Leġġenda",
+  'mobile.trends': "Rekords kull xahar u xejriet",
+  'mobile.explore': "Esplora r-rekords",
+  'mobile.more': "Aktar kontrolli tad-daqq",
+  'mobile.back': "Lura għall-mappa",
+  'mobile.closeKey': "Agħlaq il-leġġenda",
+
   'meta.title': 'Avvenimenti tad-drones fl-Ewropa · 2026',
   'meta.description': 'Esplora r-reġistru ta’ riċerka aġġornat tal-2026 dwar id-drones barranin fl-UE fuq mappa interattiva b’riproduzzjoni tal-kronoloġija.',
   'language.label': 'Lingwa',

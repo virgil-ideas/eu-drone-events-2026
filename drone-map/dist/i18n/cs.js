@@ -1,5 +1,13 @@
 // Interface strings (Czech). See en.js for conventions.
 (window.DRONE_I18N ||= {}).cs = {
+  'mobile.about': "O mapě",
+  'mobile.key': "Legenda",
+  'mobile.trends': "Záznamy podle měsíců a trendy",
+  'mobile.explore': "Procházet záznamy",
+  'mobile.more': "Další ovládání přehrávání",
+  'mobile.back': "Zpět na mapu",
+  'mobile.closeKey': "Zavřít legendu",
+
   'meta.title': 'Události s drony v Evropě · 2026',
   'meta.description': 'Prozkoumejte aktualizovaný výzkumný registr cizích dronů v EU za rok 2026 na interaktivní mapě s přehráváním časové osy.',
   'language.label': 'Jazyk',

@@ -1,5 +1,13 @@
 // Interface strings (Hungarian). See en.js for conventions.
 (window.DRONE_I18N ||= {}).hu = {
+  'mobile.about': "Névjegy",
+  'mobile.key': "Jelmagyarázat",
+  'mobile.trends': "Havi bejegyzések és trendek",
+  'mobile.explore': "Bejegyzések böngészése",
+  'mobile.more': "További lejátszási vezérlők",
+  'mobile.back': "Vissza a térképhez",
+  'mobile.closeKey': "Jelmagyarázat bezárása",
+
   'meta.title': 'Drónesemények Európában · 2026',
   'meta.description': 'Fedezze fel a külföldi drónokról szóló, frissített 2026-os uniós kutatási nyilvántartást interaktív térképen, idővonal-visszajátszással.',
   'language.label': 'Nyelv',

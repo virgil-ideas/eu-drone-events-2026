@@ -1,5 +1,13 @@
 // Interface strings (Lithuanian). See en.js for conventions.
 (window.DRONE_I18N ||= {}).lt = {
+  'mobile.about': "Apie",
+  'mobile.key': "Legenda",
+  'mobile.trends': "Įrašai pagal mėnesį ir tendencijos",
+  'mobile.explore': "Peržiūrėti įrašus",
+  'mobile.more': "Daugiau atkūrimo valdiklių",
+  'mobile.back': "Grįžti į žemėlapį",
+  'mobile.closeKey': "Uždaryti legendą",
+
   'meta.title': 'Dronų įvykiai Europoje · 2026',
   'meta.description': 'Naršykite atnaujintą 2026 m. ES užsienio dronų tyrimų registrą interaktyviame žemėlapyje su laiko juostos atkūrimu.',
   'language.label': 'Kalba',

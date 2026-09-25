@@ -1,5 +1,13 @@
 // Interface strings (Croatian). See en.js for conventions.
 (window.DRONE_I18N ||= {}).hr = {
+  'mobile.about': "O karti",
+  'mobile.key': "Legenda",
+  'mobile.trends': "Zapisi po mjesecima i trendovi",
+  'mobile.explore': "Pregledaj zapise",
+  'mobile.more': "Više kontrola reprodukcije",
+  'mobile.back': "Natrag na kartu",
+  'mobile.closeKey': "Zatvori legendu",
+
   'meta.title': 'Događaji s dronovima u Europi · 2026',
   'meta.description': 'Pregledajte ažurirani istraživački registar stranih dronova u EU-u za 2026. godinu na interaktivnoj karti s reprodukcijom vremenske crte.',
   'language.label': 'Jezik',

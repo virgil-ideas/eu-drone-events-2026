@@ -1,5 +1,13 @@
 // Interface strings (Polish). See en.js for conventions.
 (window.DRONE_I18N ||= {}).pl = {
+  'mobile.about': "O mapie",
+  'mobile.key': "Legenda",
+  'mobile.trends': "Wpisy miesięczne i trendy",
+  'mobile.explore': "Przeglądaj wpisy",
+  'mobile.more': "Więcej opcji odtwarzania",
+  'mobile.back': "Powrót do mapy",
+  'mobile.closeKey': "Zamknij legendę",
+
   'meta.title': 'Zdarzenia z udziałem dronów w Europie · 2026',
   'meta.description': 'Przeglądaj zaktualizowany rejestr badawczy z 2026 roku dotyczący obcych dronów w UE na interaktywnej mapie z odtwarzaniem osi czasu.',
   'language.label': 'Język',

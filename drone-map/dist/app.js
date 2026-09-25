@@ -88,6 +88,7 @@
   let selectedId = null;
   let visibleEvents = events;
   let returnFocus = null;
+  let mobileLayout = null;
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   let soundEnabled = true;
   let audioContext = null;
@@ -215,7 +216,13 @@
 
   function fitEvents() {
     const points = visibleEvents.flatMap(e => e.positions.map(p => [p.lat,p.lng]));
-    if (points.length) map.fitBounds(points, {paddingTopLeft:[70,85],paddingBottomRight:[70,125],maxZoom:8,animate:!reducedMotion});
+    if (points.length) map.fitBounds(points, {...mapPadding(),maxZoom:8,animate:!reducedMotion});
+  }
+
+  function mapPadding() {
+    return innerWidth <= 760
+      ? {paddingTopLeft:[28,40],paddingBottomRight:[32,40]}
+      : {paddingTopLeft:[70,85],paddingBottomRight:[70,125]};
   }
 
   // Images and video come from the linked reports (and a few matched extra
@@ -413,8 +420,7 @@
     if (restoreFocus && returnFocus?.isConnected) returnFocus.focus({preventScroll:true});
   }
 
-  // The desktop sidebar scrolls as a whole (trend panel, then the register);
-  // on narrow screens the register list scrolls on its own.
+  // The sidebar scrolls as a whole, both on desktop and inside the phone sheet.
   function listScroller() {
     return getComputedStyle($('event-list')).overflowY === 'auto' ? $('event-list') : document.querySelector('.sidebar');
   }
@@ -501,6 +507,7 @@
     $('timeline-range').setAttribute('aria-valuetext',t('timeline.valueText',{date:longDate(date), n:visibleEvents.length}));
     $('current-date').textContent = allMode ? t('timeline.allDates') : longDate(date);
     $('timeline-status').textContent = allMode ? t('timeline.statusAll',{n:events.length}) : `${t('timeline.visible',{n:visibleEvents.length})} · ${t('timeline.onDate',{n:dateCounts.get(date) || 0})}`;
+    mobileLayout?.update($('timeline-status').textContent.split('·')[0].trim());
     $('map-period').textContent = allMode ? t('map.period',{start:shortDate(dayToDate(0)), end:shortDateYear(cutoff)}) : t('map.through',{date:shortDateYear(date)});
     $('show-all').setAttribute('aria-pressed',String(allMode));
     $('previous').disabled = currentDay <= eventDays[0];
@@ -578,7 +585,7 @@
   }
   function fitEventsForReplay() {
     const allPoints = events.flatMap(e => e.positions.map(p => [p.lat,p.lng]));
-    map.fitBounds(allPoints,{paddingTopLeft:[70,85],paddingBottomRight:[70,125],animate:!reducedMotion});
+    map.fitBounds(allPoints,{...mapPadding(),animate:!reducedMotion});
   }
   function setDay(day) {
     if (!Number.isInteger(day) || day < 0 || day > totalDays) throw new Error('Timeline day is outside the register');
@@ -716,6 +723,10 @@
   document.addEventListener('visibilitychange',() => { if (document.hidden) pause(); });
   new ResizeObserver(() => map.invalidateSize()).observe($('map'));
   new ResizeObserver(renderMonthLabels).observe(document.querySelector('.timeline-track'));
+  mobileLayout = window.createMobileLayout({pause, showAll, refit:() => {
+    map.invalidateSize();
+    if (!selectedId) fitEventsForReplay();
+  }, t, total:events.length, countries:countryCount, year});
   localize();
   fitEvents();
 

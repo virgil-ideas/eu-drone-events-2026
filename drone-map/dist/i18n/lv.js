@@ -1,5 +1,13 @@
 // Interface strings (Latvian). See en.js for conventions.
 (window.DRONE_I18N ||= {}).lv = {
+  'mobile.about': "Par karti",
+  'mobile.key': "Leģenda",
+  'mobile.trends': "Ieraksti pa mēnešiem un tendences",
+  'mobile.explore': "Pārlūkot ierakstus",
+  'mobile.more': "Papildu atskaņošanas vadīklas",
+  'mobile.back': "Atpakaļ uz karti",
+  'mobile.closeKey': "Aizvērt leģendu",
+
   'meta.title': 'Dronu notikumi Eiropā · 2026',
   'meta.description': 'Izpētiet atjaunināto 2026. gada ES ārvalstu dronu pētījumu reģistru interaktīvā kartē ar laika skalas atskaņošanu.',
   'language.label': 'Valoda',

@@ -1,5 +1,13 @@
 // Interface strings (Slovak). See en.js for conventions.
 (window.DRONE_I18N ||= {}).sk = {
+  'mobile.about': "O mape",
+  'mobile.key': "Legenda",
+  'mobile.trends': "Záznamy podľa mesiacov a trendy",
+  'mobile.explore': "Prehliadať záznamy",
+  'mobile.more': "Ďalšie ovládanie prehrávania",
+  'mobile.back': "Späť na mapu",
+  'mobile.closeKey': "Zavrieť legendu",
+
   'meta.title': 'Udalosti s dronmi v Európe · 2026',
   'meta.description': 'Preskúmajte aktualizovaný výskumný register cudzích dronov v EÚ za rok 2026 na interaktívnej mape s prehrávaním časovej osi.',
   'language.label': 'Jazyk',

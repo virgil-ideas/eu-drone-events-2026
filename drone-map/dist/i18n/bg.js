@@ -1,5 +1,13 @@
 // Interface strings (Bulgarian). See en.js for conventions.
 (window.DRONE_I18N ||= {}).bg = {
+  'mobile.about': "За картата",
+  'mobile.key': "Легенда",
+  'mobile.trends': "Записи по месеци и тенденции",
+  'mobile.explore': "Разгледайте записите",
+  'mobile.more': "Още контроли за възпроизвеждане",
+  'mobile.back': "Обратно към картата",
+  'mobile.closeKey': "Затваряне на легендата",
+
   'meta.title': 'Събития с дронове в Европа · 2026',
   'meta.description': 'Разгледайте актуализирания изследователски регистър за чуждестранни дронове в ЕС през 2026 г. на интерактивна карта с хронологично възпроизвеждане.',
   'language.label': 'Език',

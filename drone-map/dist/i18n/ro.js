@@ -1,5 +1,13 @@
 // Interface strings (Romanian). See en.js for conventions.
 (window.DRONE_I18N ||= {}).ro = {
+  'mobile.about': "Despre",
+  'mobile.key': "Legendă",
+  'mobile.trends': "Înregistrări pe lună și tendințe",
+  'mobile.explore': "Explorează înregistrările",
+  'mobile.more': "Mai multe comenzi de redare",
+  'mobile.back': "Înapoi la hartă",
+  'mobile.closeKey': "Închide legenda",
+
   'meta.title': 'Evenimente cu drone în Europa · 2026',
   'meta.description': 'Explorați pe o hartă interactivă, cu redare cronologică, registrul de cercetare actualizat privind dronele străine în UE în 2026.',
   'language.label': 'Limbă',

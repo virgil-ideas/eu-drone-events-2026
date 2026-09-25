@@ -1,5 +1,13 @@
 // Interface strings (German). See en.js for conventions.
 (window.DRONE_I18N ||= {}).de = {
+  'mobile.about': "Info",
+  'mobile.key': "Legende",
+  'mobile.trends': "Einträge pro Monat & Trends",
+  'mobile.explore': "Einträge ansehen",
+  'mobile.more': "Weitere Wiedergabesteuerungen",
+  'mobile.back': "Zurück zur Karte",
+  'mobile.closeKey': "Legende schließen",
+
   'meta.title': 'Drohnenereignisse in Europa · 2026',
   'meta.description': 'Erkunden Sie das aktualisierte Rechercheregister 2026 zu ausländischen Drohnen in der EU auf einer interaktiven Karte mit Zeitleisten-Wiedergabe.',
   'language.label': 'Sprache',

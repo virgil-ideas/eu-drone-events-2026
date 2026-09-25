@@ -1,5 +1,13 @@
 // Interface strings (Finnish). See en.js for conventions.
 (window.DRONE_I18N ||= {}).fi = {
+  'mobile.about': "Tietoa",
+  'mobile.key': "Selite",
+  'mobile.trends': "Kirjaukset kuukausittain ja trendit",
+  'mobile.explore': "Selaa kirjauksia",
+  'mobile.more': "Lisää toiston säätimiä",
+  'mobile.back': "Takaisin kartalle",
+  'mobile.closeKey': "Sulje selite",
+
   'meta.title': 'Droonitapahtumat Euroopassa · 2026',
   'meta.description': 'Tutustu päivitettyyn vuoden 2026 tutkimusrekisteriin ulkomaisista drooneista EU:ssa interaktiivisella kartalla ja aikajanan toistolla.',
   'language.label': 'Kieli',

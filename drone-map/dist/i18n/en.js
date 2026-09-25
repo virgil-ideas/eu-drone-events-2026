@@ -2,6 +2,14 @@
 // the register's original English. Placeholders in {braces} are filled at
 // runtime; plural objects use Intl.PluralRules categories for the language.
 (window.DRONE_I18N ||= {}).en = {
+  'mobile.about': "About",
+  'mobile.key': "Map key",
+  'mobile.trends': "Records per month & trends",
+  'mobile.explore': "Explore the records",
+  'mobile.more': "More playback controls",
+  'mobile.back': "Back to map",
+  'mobile.closeKey': "Close map key",
+
   'meta.title': 'Europe Drone Events · 2026',
   'meta.description': 'Explore the updated 2026 EU foreign-drone research register on an interactive map with timeline replay.',
   'language.label': 'Language',

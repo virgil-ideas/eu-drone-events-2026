@@ -1,5 +1,13 @@
 // Interface strings (Dutch). See en.js for conventions.
 (window.DRONE_I18N ||= {}).nl = {
+  'mobile.about': "Over",
+  'mobile.key': "Legenda",
+  'mobile.trends': "Registraties per maand en trends",
+  'mobile.explore': "Bekijk de registraties",
+  'mobile.more': "Meer afspeelopties",
+  'mobile.back': "Terug naar de kaart",
+  'mobile.closeKey': "Legenda sluiten",
+
   'meta.title': 'Dronevoorvallen in Europa · 2026',
   'meta.description': 'Verken het bijgewerkte onderzoeksregister 2026 van buitenlandse drones in de EU op een interactieve kaart met tijdlijnweergave.',
   'language.label': 'Taal',

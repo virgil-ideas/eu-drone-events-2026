@@ -1,5 +1,13 @@
 // Interface strings (Swedish). See en.js for conventions.
 (window.DRONE_I18N ||= {}).sv = {
+  'mobile.about': "Om",
+  'mobile.key': "Teckenförklaring",
+  'mobile.trends': "Poster per månad och trender",
+  'mobile.explore': "Utforska posterna",
+  'mobile.more': "Fler uppspelningskontroller",
+  'mobile.back': "Tillbaka till kartan",
+  'mobile.closeKey': "Stäng teckenförklaring",
+
   'meta.title': 'Drönarhändelser i Europa · 2026',
   'meta.description': 'Utforska det uppdaterade forskningsregistret för 2026 över utländska drönare i EU på en interaktiv karta med tidslinjeuppspelning.',
   'language.label': 'Språk',

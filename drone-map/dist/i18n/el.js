@@ -1,5 +1,13 @@
 // Interface strings (Greek). See en.js for conventions.
 (window.DRONE_I18N ||= {}).el = {
+  'mobile.about': "Σχετικά",
+  'mobile.key': "Υπόμνημα",
+  'mobile.trends': "Καταγραφές ανά μήνα και τάσεις",
+  'mobile.explore': "Δείτε τις καταγραφές",
+  'mobile.more': "Περισσότερα στοιχεία αναπαραγωγής",
+  'mobile.back': "Επιστροφή στον χάρτη",
+  'mobile.closeKey': "Κλείσιμο υπομνήματος",
+
   'meta.title': 'Συμβάντα με drones στην Ευρώπη · 2026',
   'meta.description': 'Εξερευνήστε το επικαιροποιημένο ερευνητικό μητρώο του 2026 για ξένα drones στην ΕΕ σε διαδραστικό χάρτη με χρονολογική αναπαραγωγή.',
   'language.label': 'Γλώσσα',

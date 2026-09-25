@@ -1,5 +1,13 @@
 // Interface strings (Irish). See en.js for conventions.
 (window.DRONE_I18N ||= {}).ga = {
+  'mobile.about': "Maidir leis",
+  'mobile.key': "Eochair",
+  'mobile.trends': "Taifid de réir míosa agus treochtaí",
+  'mobile.explore': "Brabhsáil na taifid",
+  'mobile.more': "Tuilleadh rialuithe athsheinm",
+  'mobile.back': "Ar ais chuig an léarscáil",
+  'mobile.closeKey': "Dún an eochair",
+
   'meta.title': 'Teagmhais Drón san Eoraip · 2026',
   'meta.description': 'Taiscéal an clár taighde nuashonraithe 2026 ar dhróin choigríche san AE ar léarscáil idirghníomhach le hathsheinm amlíne.',
   'language.label': 'Teanga',

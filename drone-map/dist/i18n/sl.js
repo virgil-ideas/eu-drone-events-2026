@@ -1,5 +1,13 @@
 // Interface strings (Slovenian). See en.js for conventions.
 (window.DRONE_I18N ||= {}).sl = {
+  'mobile.about': "O zemljevidu",
+  'mobile.key': "Legenda",
+  'mobile.trends': "Zapisi po mesecih in trendi",
+  'mobile.explore': "Razišči zapise",
+  'mobile.more': "Več kontrol predvajanja",
+  'mobile.back': "Nazaj na zemljevid",
+  'mobile.closeKey': "Zapri legendo",
+
   'meta.title': 'Dogodki z droni v Evropi · 2026',
   'meta.description': 'Raziščite posodobljeni raziskovalni register tujih dronov v EU za leto 2026 na interaktivnem zemljevidu s časovnim predvajanjem.',
   'language.label': 'Jezik',

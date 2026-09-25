@@ -1,5 +1,13 @@
 // Interface strings (Danish). See en.js for conventions.
 (window.DRONE_I18N ||= {}).da = {
+  'mobile.about': "Om",
+  'mobile.key': "Kortforklaring",
+  'mobile.trends': "Registreringer pr. måned og tendenser",
+  'mobile.explore': "Se registreringerne",
+  'mobile.more': "Flere afspilningskontroller",
+  'mobile.back': "Tilbage til kortet",
+  'mobile.closeKey': "Luk kortforklaring",
+
   'meta.title': 'Dronehændelser i Europa · 2026',
   'meta.description': 'Udforsk det opdaterede forskningsregister for 2026 over udenlandske droner i EU på et interaktivt kort med tidslinjeafspilning.',
   'language.label': 'Sprog',
