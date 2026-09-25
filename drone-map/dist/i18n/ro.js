@@ -8,13 +8,13 @@
   'mobile.back': "Înapoi la hartă",
   'mobile.closeKey': "Închide legenda",
 
-  'meta.title': 'Evenimente cu drone în Europa · 2026',
+  'meta.title': 'Evenimente cu drone străine în Europa · 2026',
   'meta.description': 'Explorați pe o hartă interactivă, cu redare cronologică, registrul de cercetare actualizat privind dronele străine în UE în 2026.',
   'language.label': 'Limbă',
 
-  'brand.aria': 'Evenimente cu drone în Europa – pagina principală',
+  'brand.aria': 'Evenimente cu drone străine în Europa – pagina principală',
   'brand.primary': 'EUROPA',
-  'brand.secondary': '/ EVENIMENTE CU DRONE',
+  'brand.secondary': '/ EVENIMENTE CU DRONE STRĂINE',
   'edition': 'REGISTRU DE CERCETARE 2026',
   'about.button': 'Despre date',
 

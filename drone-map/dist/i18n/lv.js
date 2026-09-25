@@ -8,13 +8,13 @@
   'mobile.back': "Atpakaļ uz karti",
   'mobile.closeKey': "Aizvērt leģendu",
 
-  'meta.title': 'Dronu notikumi Eiropā · 2026',
+  'meta.title': 'Notikumi ar ārvalstu droniem Eiropā · 2026',
   'meta.description': 'Izpētiet atjaunināto 2026. gada ES ārvalstu dronu pētījumu reģistru interaktīvā kartē ar laika skalas atskaņošanu.',
   'language.label': 'Valoda',
 
-  'brand.aria': 'Dronu notikumi Eiropā – sākumlapa',
+  'brand.aria': 'Notikumi ar ārvalstu droniem Eiropā – sākumlapa',
   'brand.primary': 'EIROPA',
-  'brand.secondary': '/ DRONU NOTIKUMI',
+  'brand.secondary': '/ NOTIKUMI AR ĀRVALSTU DRONIEM',
   'edition': '2026. GADA PĒTĪJUMU REĢISTRS',
   'about.button': 'Par datiem',
 

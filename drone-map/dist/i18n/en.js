@@ -10,13 +10,13 @@
   'mobile.back': "Back to map",
   'mobile.closeKey': "Close map key",
 
-  'meta.title': 'Europe Drone Events · 2026',
+  'meta.title': 'Europe Foreign Drone Events · 2026',
   'meta.description': 'Explore the updated 2026 EU foreign-drone research register on an interactive map with timeline replay.',
   'language.label': 'Language',
 
-  'brand.aria': 'Europe drone events home',
+  'brand.aria': 'Europe foreign drone events home',
   'brand.primary': 'EUROPE',
-  'brand.secondary': '/ DRONE EVENTS',
+  'brand.secondary': '/ FOREIGN DRONE EVENTS',
   'edition': '2026 RESEARCH REGISTER',
   'about.button': 'About the data',
 

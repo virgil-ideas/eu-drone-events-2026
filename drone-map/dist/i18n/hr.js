@@ -8,13 +8,13 @@
   'mobile.back': "Natrag na kartu",
   'mobile.closeKey': "Zatvori legendu",
 
-  'meta.title': 'Događaji s dronovima u Europi · 2026',
+  'meta.title': 'Događaji sa stranim dronovima u Europi · 2026',
   'meta.description': 'Pregledajte ažurirani istraživački registar stranih dronova u EU-u za 2026. godinu na interaktivnoj karti s reprodukcijom vremenske crte.',
   'language.label': 'Jezik',
 
-  'brand.aria': 'Događaji s dronovima u Europi – početna stranica',
+  'brand.aria': 'Događaji sa stranim dronovima u Europi – početna stranica',
   'brand.primary': 'EUROPA',
-  'brand.secondary': '/ DOGAĐAJI S DRONOVIMA',
+  'brand.secondary': '/ DOGAĐAJI SA STRANIM DRONOVIMA',
   'edition': 'ISTRAŽIVAČKI REGISTAR 2026.',
   'about.button': 'O podacima',
 

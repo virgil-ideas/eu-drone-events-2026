@@ -8,13 +8,13 @@
   'mobile.back': "Nazaj na zemljevid",
   'mobile.closeKey': "Zapri legendo",
 
-  'meta.title': 'Dogodki z droni v Evropi · 2026',
+  'meta.title': 'Dogodki s tujimi droni v Evropi · 2026',
   'meta.description': 'Raziščite posodobljeni raziskovalni register tujih dronov v EU za leto 2026 na interaktivnem zemljevidu s časovnim predvajanjem.',
   'language.label': 'Jezik',
 
-  'brand.aria': 'Dogodki z droni v Evropi – domača stran',
+  'brand.aria': 'Dogodki s tujimi droni v Evropi – domača stran',
   'brand.primary': 'EVROPA',
-  'brand.secondary': '/ DOGODKI Z DRONI',
+  'brand.secondary': '/ DOGODKI S TUJIMI DRONI',
   'edition': 'RAZISKOVALNI REGISTER 2026',
   'about.button': 'O podatkih',
 

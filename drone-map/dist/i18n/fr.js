@@ -8,13 +8,13 @@
   'mobile.back': "Retour à la carte",
   'mobile.closeKey': "Fermer la légende",
 
-  'meta.title': 'Événements de drones en Europe · 2026',
+  'meta.title': 'Événements de drones étrangers en Europe · 2026',
   'meta.description': 'Explorez sur une carte interactive, avec lecture chronologique animée, le registre de recherche 2026 actualisé sur les drones étrangers dans l’UE.',
   'language.label': 'Langue',
 
-  'brand.aria': 'Accueil — Événements de drones en Europe',
+  'brand.aria': 'Accueil — Événements de drones étrangers en Europe',
   'brand.primary': 'EUROPE',
-  'brand.secondary': '/ ÉVÉNEMENTS DE DRONES',
+  'brand.secondary': '/ ÉVÉNEMENTS DE DRONES ÉTRANGERS',
   'edition': 'REGISTRE DE RECHERCHE 2026',
   'about.button': 'À propos des données',
 

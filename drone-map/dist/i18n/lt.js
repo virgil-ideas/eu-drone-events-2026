@@ -8,13 +8,13 @@
   'mobile.back': "Grįžti į žemėlapį",
   'mobile.closeKey': "Uždaryti legendą",
 
-  'meta.title': 'Dronų įvykiai Europoje · 2026',
+  'meta.title': 'Įvykiai su užsienio dronais Europoje · 2026',
   'meta.description': 'Naršykite atnaujintą 2026 m. ES užsienio dronų tyrimų registrą interaktyviame žemėlapyje su laiko juostos atkūrimu.',
   'language.label': 'Kalba',
 
-  'brand.aria': 'Dronų įvykiai Europoje – pradžios puslapis',
+  'brand.aria': 'Įvykiai su užsienio dronais Europoje – pradžios puslapis',
   'brand.primary': 'EUROPA',
-  'brand.secondary': '/ DRONŲ ĮVYKIAI',
+  'brand.secondary': '/ ĮVYKIAI SU UŽSIENIO DRONAIS',
   'edition': '2026 M. TYRIMŲ REGISTRAS',
   'about.button': 'Apie duomenis',
 

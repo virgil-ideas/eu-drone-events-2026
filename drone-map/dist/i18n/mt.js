@@ -8,13 +8,13 @@
   'mobile.back': "Lura għall-mappa",
   'mobile.closeKey': "Agħlaq il-leġġenda",
 
-  'meta.title': 'Avvenimenti tad-drones fl-Ewropa · 2026',
+  'meta.title': 'Avvenimenti tad-drones barranin fl-Ewropa · 2026',
   'meta.description': 'Esplora r-reġistru ta’ riċerka aġġornat tal-2026 dwar id-drones barranin fl-UE fuq mappa interattiva b’riproduzzjoni tal-kronoloġija.',
   'language.label': 'Lingwa',
 
-  'brand.aria': 'Avvenimenti tad-drones fl-Ewropa – paġna ewlenija',
+  'brand.aria': 'Avvenimenti tad-drones barranin fl-Ewropa – paġna ewlenija',
   'brand.primary': 'EWROPA',
-  'brand.secondary': '/ AVVENIMENTI TAD-DRONES',
+  'brand.secondary': '/ AVVENIMENTI TAD-DRONES BARRANIN',
   'edition': 'REĠISTRU TA’ RIĊERKA 2026',
   'about.button': 'Dwar id-data',
 

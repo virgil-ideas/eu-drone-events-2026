@@ -8,13 +8,13 @@
   'mobile.back': "Volver al mapa",
   'mobile.closeKey': "Cerrar leyenda",
 
-  'meta.title': 'Sucesos con drones en Europa · 2026',
+  'meta.title': 'Sucesos con drones extranjeros en Europa · 2026',
   'meta.description': 'Explore en un mapa interactivo, con reproducción cronológica, el registro de investigación actualizado de 2026 sobre drones extranjeros en la UE.',
   'language.label': 'Idioma',
 
-  'brand.aria': 'Inicio de Sucesos con drones en Europa',
+  'brand.aria': 'Inicio de Sucesos con drones extranjeros en Europa',
   'brand.primary': 'EUROPA',
-  'brand.secondary': '/ SUCESOS CON DRONES',
+  'brand.secondary': '/ SUCESOS CON DRONES EXTRANJEROS',
   'edition': 'REGISTRO DE INVESTIGACIÓN 2026',
   'about.button': 'Acerca de los datos',
 

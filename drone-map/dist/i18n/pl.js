@@ -8,13 +8,13 @@
   'mobile.back': "Powrót do mapy",
   'mobile.closeKey': "Zamknij legendę",
 
-  'meta.title': 'Zdarzenia z udziałem dronów w Europie · 2026',
+  'meta.title': 'Zdarzenia z udziałem zagranicznych dronów w Europie · 2026',
   'meta.description': 'Przeglądaj zaktualizowany rejestr badawczy z 2026 roku dotyczący obcych dronów w UE na interaktywnej mapie z odtwarzaniem osi czasu.',
   'language.label': 'Język',
 
-  'brand.aria': 'Zdarzenia z dronami w Europie – strona główna',
+  'brand.aria': 'Zdarzenia z zagranicznymi dronami w Europie – strona główna',
   'brand.primary': 'EUROPA',
-  'brand.secondary': '/ ZDARZENIA Z DRONAMI',
+  'brand.secondary': '/ ZDARZENIA Z ZAGRANICZNYMI DRONAMI',
   'edition': 'REJESTR BADAWCZY 2026',
   'about.button': 'O danych',
 

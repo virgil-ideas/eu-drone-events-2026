@@ -8,13 +8,13 @@
   'mobile.back': "Zurück zur Karte",
   'mobile.closeKey': "Legende schließen",
 
-  'meta.title': 'Drohnenereignisse in Europa · 2026',
+  'meta.title': 'Ereignisse mit ausländischen Drohnen in Europa · 2026',
   'meta.description': 'Erkunden Sie das aktualisierte Rechercheregister 2026 zu ausländischen Drohnen in der EU auf einer interaktiven Karte mit Zeitleisten-Wiedergabe.',
   'language.label': 'Sprache',
 
-  'brand.aria': 'Drohnenereignisse in Europa – Startseite',
+  'brand.aria': 'Ereignisse mit ausländischen Drohnen in Europa – Startseite',
   'brand.primary': 'EUROPA',
-  'brand.secondary': '/ DROHNENEREIGNISSE',
+  'brand.secondary': '/ EREIGNISSE MIT AUSLÄNDISCHEN DROHNEN',
   'edition': 'RECHERCHEREGISTER 2026',
   'about.button': 'Über die Daten',
 

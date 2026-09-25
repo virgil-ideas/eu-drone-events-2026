@@ -8,13 +8,13 @@
   'mobile.back': "Terug naar de kaart",
   'mobile.closeKey': "Legenda sluiten",
 
-  'meta.title': 'Dronevoorvallen in Europa · 2026',
+  'meta.title': 'Voorvallen met buitenlandse drones in Europa · 2026',
   'meta.description': 'Verken het bijgewerkte onderzoeksregister 2026 van buitenlandse drones in de EU op een interactieve kaart met tijdlijnweergave.',
   'language.label': 'Taal',
 
-  'brand.aria': 'Dronevoorvallen in Europa – startpagina',
+  'brand.aria': 'Voorvallen met buitenlandse drones in Europa – startpagina',
   'brand.primary': 'EUROPA',
-  'brand.secondary': '/ DRONEVOORVALLEN',
+  'brand.secondary': '/ VOORVALLEN MET BUITENLANDSE DRONES',
   'edition': 'ONDERZOEKSREGISTER 2026',
   'about.button': 'Over de gegevens',
 

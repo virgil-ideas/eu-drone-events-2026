@@ -8,13 +8,13 @@
   'mobile.back': "Takaisin kartalle",
   'mobile.closeKey': "Sulje selite",
 
-  'meta.title': 'Droonitapahtumat Euroopassa · 2026',
+  'meta.title': 'Ulkomaisten droonien tapahtumat Euroopassa · 2026',
   'meta.description': 'Tutustu päivitettyyn vuoden 2026 tutkimusrekisteriin ulkomaisista drooneista EU:ssa interaktiivisella kartalla ja aikajanan toistolla.',
   'language.label': 'Kieli',
 
-  'brand.aria': 'Droonitapahtumat Euroopassa – etusivu',
+  'brand.aria': 'Ulkomaisten droonien tapahtumat Euroopassa – etusivu',
   'brand.primary': 'EUROOPPA',
-  'brand.secondary': '/ DROONITAPAHTUMAT',
+  'brand.secondary': '/ ULKOMAISTEN DROONIEN TAPAHTUMAT',
   'edition': 'TUTKIMUSREKISTERI 2026',
   'about.button': 'Tietoja aineistosta',
 

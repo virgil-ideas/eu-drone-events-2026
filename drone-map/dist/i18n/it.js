@@ -8,13 +8,13 @@
   'mobile.back': "Torna alla mappa",
   'mobile.closeKey': "Chiudi legenda",
 
-  'meta.title': 'Eventi con droni in Europa · 2026',
+  'meta.title': 'Eventi con droni stranieri in Europa · 2026',
   'meta.description': 'Esplora su una mappa interattiva, con riproduzione cronologica, il registro di ricerca 2026 aggiornato sui droni stranieri nell’UE.',
   'language.label': 'Lingua',
 
-  'brand.aria': 'Pagina iniziale di Eventi con droni in Europa',
+  'brand.aria': 'Pagina iniziale di Eventi con droni stranieri in Europa',
   'brand.primary': 'EUROPA',
-  'brand.secondary': '/ EVENTI CON DRONI',
+  'brand.secondary': '/ EVENTI CON DRONI STRANIERI',
   'edition': 'REGISTRO DI RICERCA 2026',
   'about.button': 'Informazioni sui dati',
 

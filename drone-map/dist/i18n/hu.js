@@ -8,13 +8,13 @@
   'mobile.back': "Vissza a térképhez",
   'mobile.closeKey': "Jelmagyarázat bezárása",
 
-  'meta.title': 'Drónesemények Európában · 2026',
+  'meta.title': 'Külföldi drónokkal kapcsolatos események Európában · 2026',
   'meta.description': 'Fedezze fel a külföldi drónokról szóló, frissített 2026-os uniós kutatási nyilvántartást interaktív térképen, idővonal-visszajátszással.',
   'language.label': 'Nyelv',
 
-  'brand.aria': 'Drónesemények Európában – kezdőlap',
+  'brand.aria': 'Külföldi drónokkal kapcsolatos események Európában – kezdőlap',
   'brand.primary': 'EURÓPA',
-  'brand.secondary': '/ DRÓNESEMÉNYEK',
+  'brand.secondary': '/ KÜLFÖLDI DRÓNOKKAL KAPCSOLATOS ESEMÉNYEK',
   'edition': '2026. ÉVI KUTATÁSI NYILVÁNTARTÁS',
   'about.button': 'Az adatokról',
 

@@ -8,13 +8,13 @@
   'mobile.back': "Ar ais chuig an léarscáil",
   'mobile.closeKey': "Dún an eochair",
 
-  'meta.title': 'Teagmhais Drón san Eoraip · 2026',
+  'meta.title': 'Teagmhais Drón Eachtrach san Eoraip · 2026',
   'meta.description': 'Taiscéal an clár taighde nuashonraithe 2026 ar dhróin choigríche san AE ar léarscáil idirghníomhach le hathsheinm amlíne.',
   'language.label': 'Teanga',
 
-  'brand.aria': 'Teagmhais Drón san Eoraip: leathanach baile',
+  'brand.aria': 'Teagmhais Drón Eachtrach san Eoraip: leathanach baile',
   'brand.primary': 'AN EORAIP',
-  'brand.secondary': '/ TEAGMHAIS DRÓN',
+  'brand.secondary': '/ TEAGMHAIS DRÓN EACHTRACH',
   'edition': 'CLÁR TAIGHDE 2026',
   'about.button': 'Faoi na sonraí',
 

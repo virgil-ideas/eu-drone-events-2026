@@ -8,13 +8,13 @@
   'mobile.back': "Tilbage til kortet",
   'mobile.closeKey': "Luk kortforklaring",
 
-  'meta.title': 'Dronehændelser i Europa · 2026',
+  'meta.title': 'Hændelser med udenlandske droner i Europa · 2026',
   'meta.description': 'Udforsk det opdaterede forskningsregister for 2026 over udenlandske droner i EU på et interaktivt kort med tidslinjeafspilning.',
   'language.label': 'Sprog',
 
-  'brand.aria': 'Dronehændelser i Europa – forside',
+  'brand.aria': 'Hændelser med udenlandske droner i Europa – forside',
   'brand.primary': 'EUROPA',
-  'brand.secondary': '/ DRONEHÆNDELSER',
+  'brand.secondary': '/ HÆNDELSER MED UDENLANDSKE DRONER',
   'edition': 'FORSKNINGSREGISTER 2026',
   'about.button': 'Om data',
 

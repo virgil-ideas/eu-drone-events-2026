@@ -8,13 +8,13 @@
   'mobile.back': "Tagasi kaardile",
   'mobile.closeKey': "Sulge legend",
 
-  'meta.title': 'Droonisündmused Euroopas · 2026',
+  'meta.title': 'Välismaiste droonidega seotud sündmused Euroopas · 2026',
   'meta.description': 'Uuri ajakohastatud 2026. aasta uuringuregistrit välismaiste droonide kohta ELis interaktiivsel kaardil koos ajajoone taasesitusega.',
   'language.label': 'Keel',
 
-  'brand.aria': 'Droonisündmused Euroopas – avaleht',
+  'brand.aria': 'Välismaiste droonidega seotud sündmused Euroopas – avaleht',
   'brand.primary': 'EUROOPA',
-  'brand.secondary': '/ DROONISÜNDMUSED',
+  'brand.secondary': '/ VÄLISMAISTE DROONIDEGA SEOTUD SÜNDMUSED',
   'edition': 'UURINGUREGISTER 2026',
   'about.button': 'Andmetest',
 

@@ -8,13 +8,13 @@
   'mobile.back': "Tillbaka till kartan",
   'mobile.closeKey': "Stäng teckenförklaring",
 
-  'meta.title': 'Drönarhändelser i Europa · 2026',
+  'meta.title': 'Händelser med utländska drönare i Europa · 2026',
   'meta.description': 'Utforska det uppdaterade forskningsregistret för 2026 över utländska drönare i EU på en interaktiv karta med tidslinjeuppspelning.',
   'language.label': 'Språk',
 
-  'brand.aria': 'Drönarhändelser i Europa – startsida',
+  'brand.aria': 'Händelser med utländska drönare i Europa – startsida',
   'brand.primary': 'EUROPA',
-  'brand.secondary': '/ DRÖNARHÄNDELSER',
+  'brand.secondary': '/ HÄNDELSER MED UTLÄNDSKA DRÖNARE',
   'edition': 'FORSKNINGSREGISTER 2026',
   'about.button': 'Om uppgifterna',
 

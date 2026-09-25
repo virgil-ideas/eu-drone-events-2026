@@ -8,13 +8,13 @@
   'mobile.back': "Zpět na mapu",
   'mobile.closeKey': "Zavřít legendu",
 
-  'meta.title': 'Události s drony v Evropě · 2026',
+  'meta.title': 'Události se zahraničními drony v Evropě · 2026',
   'meta.description': 'Prozkoumejte aktualizovaný výzkumný registr cizích dronů v EU za rok 2026 na interaktivní mapě s přehráváním časové osy.',
   'language.label': 'Jazyk',
 
-  'brand.aria': 'Události s drony v Evropě – úvodní stránka',
+  'brand.aria': 'Události se zahraničními drony v Evropě – úvodní stránka',
   'brand.primary': 'EVROPA',
-  'brand.secondary': '/ UDÁLOSTI S DRONY',
+  'brand.secondary': '/ UDÁLOSTI SE ZAHRANIČNÍMI DRONY',
   'edition': 'VÝZKUMNÝ REGISTR 2026',
   'about.button': 'O datech',
 
