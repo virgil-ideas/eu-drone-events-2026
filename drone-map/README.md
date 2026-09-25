@@ -71,7 +71,9 @@ The fetcher skips blocked pages (Reuters and AP currently block it), rejects log
 
 ## Data and limitations
 
-`dist/events.js` contains 84 E-records plus 28 mapped N-records, eight A/NA context records and 167 source references (93 baseline + 74 supplement). The importer validates all 63 dated N-records before retaining the 27 event additions and N033 for the requested map view. Only canonical detailed tables are imported; the compact manifest is validated as an index, not imported a second time. Stable IDs are unique, so rebuilding is idempotent. Original fields are retained verbatim. The source was not independently fact-checked as part of building the map.
+`dist/events.js` contains 84 E-records plus 28 mapped N-records, eight A/NA context records and 169 source references (93 baseline + 74 supplement + 2 reviewed follow-up sources). The importer validates all 63 dated N-records before retaining the 27 event additions and N033 for the requested map view. Only canonical detailed tables are imported; the compact manifest is validated as an index, not imported a second time. Stable IDs are unique, so rebuilding is idempotent. Original fields are retained except for explicitly documented detail updates in `scripts/record-updates.json`; both research downloads remain unchanged. The original register was not independently fact-checked as part of building the map.
+
+The 25 September review of E059 (Solca, 24 September) adds the confirmed radar track through northern Botoșani, roughly four minutes in Romanian airspace, two Romanian F-16s launched for monitoring, the IAR-330 SOCAT and Interior Ministry response, and residents' discovery/filming of wreckage among trees. MApN reports no casualties, material damage or fire. Monitorul de Suceava quotes conflicting witness accounts about an explosion; it remains explicitly witness-reported and unconfirmed in the reviewed official releases. E059 keeps its orange crash marker, with flight and recovery stages. Neither a shoot-down nor operator/national attribution is established, and no extra event is counted.
 
 Coordinates in `scripts/build-data.py` are **editorial approximate geographic anchors**, not verified incident locations. Broad, unresolved and offshore locations are explicitly labelled. E010 and E029 each have two regional anchors but count once in the register, so the complete map contains 114 individual markers for 112 records. Markers are never clustered, merged or shifted to avoid overlap. E058 uses a representative Lithuania position because its reported Pratkūnai site has not been geocoded. Supplementary Lithuanian village records without verified geocoding use labelled district anchors. Overlapping records remain individual markers.
 
@@ -109,6 +111,7 @@ The script runs only on `droneincidents.eu`, its `www` variant, and the original
 - `dist/i18n/` — interface strings for the 24 official EU languages
 - `scripts/build-data.py` — baseline import, approximate anchors and merged output
 - `scripts/supplement.py` — canonical supplemental tables, occurrence classifications and approximate anchors
+- `scripts/record-updates.json` — sourced follow-up details for existing records, applied on rebuild
 - `scripts/fetch-media.py` — source media extraction (`media-cache.json` caches raw results)
 - `scripts/media-extra.json` — curated additional news media, matched per event
 - `scripts/check-i18n.js` — translation completeness check

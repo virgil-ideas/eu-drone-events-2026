@@ -4774,23 +4774,25 @@ window.DRONE_DATA = {
       "dateLabel": "2026-09-24",
       "dateBasis": "24 September; helicopter launch 07:21 EEST; not asserted to be exact impact time",
       "countries": "Romania",
-      "location": "Near Solca, Suceava County; entry through northern Botoșani sector; EU land/airspace",
-      "status": "Cross-border drone crash; operator unresolved",
-      "categories": "Radar detection; incursion; crash; security perimeter; helicopter response",
-      "vehicle": "1 small UAV; model unresolved",
-      "attribution": "Entered from Ukraine; operator/nationality not established by route alone",
-      "route": "Ukraine → northern Romanian airspace; approximately 4 minutes before crash",
-      "circumstances": "Tracked drone crashed near Solca.",
-      "payload": "Not established in initial release",
-      "impact": "No fire, casualties or material damage reported in official update",
-      "response": "Police secured area; IAR-330 SOCAT helicopter scrambled at 07:21; military verification.",
-      "uncertainty": "Initial same-day official update; full technical findings not yet available in collected material.",
-      "deduplication": "One radar/entry/crash/response record.",
-      "provenance": "Added during export source checks; absent from the visible chronological report",
-      "sourceReferences": "[S61][S61]; [S62][S62]",
+      "location": "Solca / wooded area near Solca, Suceava County, Romania; entry through northern Botoșani; EU land/airspace",
+      "status": "Confirmed cross-border incursion and crash; operator/national attribution unresolved",
+      "categories": "Foreign cross-border incursion → crash → wreckage recovery",
+      "vehicle": "1 small UAV in a cross-border wartime incident; exact model and military role not officially established in the reviewed releases",
+      "attribution": "Radar-confirmed entry from Ukraine; operator and national attribution unresolved. Route alone does not establish who operated the drone.",
+      "route": "Ukraine → northern Botoșani → Romanian airspace → Solca, Suceava; approximately 4 minutes in Romanian airspace before the crash",
+      "circumstances": "Crashed in a wooded area near Solca. Residents located and filmed wreckage. One witness reported an explosion; another questioned whether it had exploded. An explosion is not officially confirmed in the reviewed releases.",
+      "payload": "Not officially established in the reviewed releases; witness-reported explosion does not by itself establish a detonated warhead",
+      "impact": "0 casualties and no material damage reported by MApN; no fire at the crash site in the official update",
+      "response": "Two Romanian F-16s launched from Borcea for monitoring. An IAR-330 SOCAT helicopter launched from Bacău at 07:21 EEST. Interior Ministry teams secured the site and identified the small drone; residents had located and filmed the wreckage. No shoot-down is established in the reviewed releases.",
+      "uncertainty": "Event occurrence and foreign incursion: very high confidence, supported by official confirmation and the radar track. Operator/national attribution, exact model and cause of the crash remain unresolved in the reporting reviewed. The explosion claim is witness-reported, not officially confirmed.",
+      "deduplication": "One record for the cross-border flight, crash, wreckage discovery and response; this update does not add another event.",
+      "provenance": "Baseline E059, updated from the supplied Solca summary and source review on 2026-09-25: MApN releases and Monitorul de Suceava witness reporting. The original research download retains its original wording.",
+      "sourceReferences": "[S61][S61]; [S62][S62]; [U001][U001]; [U002][U002]",
       "sources": [
         "S61",
-        "S62"
+        "S62",
+        "U001",
+        "U002"
       ],
       "startDate": "2026-09-24",
       "title": "Solca",
@@ -4805,9 +4807,10 @@ window.DRONE_DATA = {
       ],
       "stages": [
         "crash",
-        "flight"
+        "flight",
+        "recovery"
       ],
-      "classificationNote": "",
+      "classificationNote": "Confirmed foreign cross-border incursion, crash and wreckage recovery. The orange crash marker reflects the established outcome. An explosion is witness-reported and not officially confirmed in the reviewed releases; the F-16 launch does not establish a shoot-down. Operator/national attribution remains unresolved.",
       "recordClass": "event",
       "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     }
@@ -6215,6 +6218,22 @@ window.DRONE_DATA = {
       "title": "Dated syndication of Greek F-16 interception report",
       "audit": "[Dated syndication of Greek F-16 interception report][G0828A]. Newly checked alternative to the original Euronews link; same encounter, not independent proof of another drone.",
       "url": "https://www.aol.com/articles/greek-f-16s-intercept-turkish-133414000.html"
+    },
+    "U001": {
+      "id": "U001",
+      "publisher": "Romanian Ministry of National Defence",
+      "dateLabel": "2026-09-24",
+      "title": "Press information No. 302: radar-confirmed entry through northern Botoșani and F-16 response",
+      "audit": "Reviewed 2026-09-25. Confirms cross-border radar track and two Romanian F-16s launched for monitoring; does not establish a shoot-down or operator attribution.",
+      "url": "https://www.mapn.ro/cpresa/19411_informa%C8%9Bie-de-presa"
+    },
+    "U002": {
+      "id": "U002",
+      "publisher": "Monitorul de Suceava",
+      "dateLabel": "2026-09-24",
+      "title": "Witness accounts from the Solca drone crash site",
+      "audit": "Reviewed 2026-09-25. Residents describe finding and filming wreckage among trees. One reports an explosion; another questions whether an explosion occurred. These are witness accounts, not official explosive findings.",
+      "url": "https://www.monitorulsv.ro/bubuitura-a-fost-puternica-marturii-de-la-locul-prabusirii-dronei-de-joi-dimineata-la-poieni-solca_63a959/"
     }
   },
   "cutoff": "2026-09-24",

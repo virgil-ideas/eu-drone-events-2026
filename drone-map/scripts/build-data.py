@@ -1,4 +1,4 @@
-"""Preserve the supplied register verbatim; add explicitly approximate map anchors."""
+"""Import the original registers, approximate anchors and reviewed detail updates."""
 import json
 import re
 import shutil
@@ -191,6 +191,25 @@ assert not (set(sources) & set(new_sources))
 events.extend(record for record in new_events if record['recordClass'] in {'event', 'candidate'})
 contexts.extend(new_contexts)
 sources.update(new_sources)
+# Reviewed follow-ups enrich existing records without rewriting the original
+# research downloads or creating another occurrence for the same incident.
+updates = json.loads((ROOT / 'scripts' / 'record-updates.json').read_text(encoding='utf-8'))
+assert not (set(sources) & set(updates['sources']))
+assert all(key == value['id'] and value['url'].startswith('https://')
+           for key, value in updates['sources'].items())
+sources.update(updates['sources'])
+records_by_id = {record['id']: record for record in events}
+for record_id, update in updates['events'].items():
+    assert record_id in records_by_id, f'Update targets unknown event: {record_id}'
+    record = records_by_id[record_id]
+    assert set(update['fields']) <= set(fields[2:17]) | {'stages', 'classificationNote'}
+    assert update['sourceIds'] and all(ref in sources for ref in update['sourceIds'])
+    record.update(update['fields'])
+    assert record['stages'][0] == record['category']
+    assert set(record['stages']) <= set(outcome_groups)
+    record['sources'] = list(dict.fromkeys(record['sources'] + update['sourceIds']))
+    record['sourceReferences'] = '; '.join(f'[{ref}][{ref}]' for ref in record['sources'])
+assert all(ref in sources for record in events + contexts for ref in record['sources'])
 events.sort(key=lambda item: (item['startDate'], item['id']))
 assert len(events) == len({e['id'] for e in events}) == 112
 assert sum(e['recordClass'] == 'event' for e in events) == 111
