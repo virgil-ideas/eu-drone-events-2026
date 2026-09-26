@@ -4775,28 +4775,32 @@ window.DRONE_DATA = {
       "dateBasis": "24 September; helicopter launch 07:21 EEST; not asserted to be exact impact time",
       "countries": "Romania",
       "location": "Solca / wooded area near Solca, Suceava County, Romania; entry through northern Botoșani; EU land/airspace",
-      "status": "Confirmed cross-border incursion and crash; operator/national attribution unresolved",
-      "categories": "Foreign cross-border incursion → crash → wreckage recovery",
-      "vehicle": "1 small UAV in a cross-border wartime incident; exact model and military role not officially established in the reviewed releases",
-      "attribution": "Radar-confirmed entry from Ukraine; operator and national attribution unresolved. Route alone does not establish who operated the drone.",
+      "status": "Russian-attributed cross-border incursion; reported airborne explosion and crash",
+      "categories": "Foreign cross-border incursion → reported airborne explosion → crash → wreckage recovery",
+      "vehicle": "1 small UAV, likely Gerbera-type according to ISW’s geolocated-imagery assessment; Miruță reported equipment not previously encountered by Romanian specialists",
+      "attribution": "Russian — high confidence, based on official attribution and corroborating assessment. Miruță described a Russian-model drone; ISW identified Russian Gerbera-type wreckage at Solca. Lithuania’s Foreign Ministry attributed the broader 24 September Romanian and Moldovan incursions to Russian drones.",
       "route": "Ukraine → northern Botoșani → Romanian airspace → Solca, Suceava; approximately 4 minutes in Romanian airspace before the crash",
-      "circumstances": "Crashed in a wooded area near Solca. Residents located and filmed wreckage. One witness reported an explosion; another questioned whether it had exploded. An explosion is not officially confirmed in the reviewed releases.",
-      "payload": "Not officially established in the reviewed releases; witness-reported explosion does not by itself establish a detonated warhead",
+      "circumstances": "An airborne payload detonation before the crash is reported in Antena 3 CNN’s follow-up. The aircraft fell in woodland near Solca, where residents located and filmed wreckage.",
+      "payload": "Explosive; Miruță said the load separated shortly before the crash and detonated in the air.",
       "impact": "0 casualties and no material damage reported by MApN; no fire at the crash site in the official update",
-      "response": "Two Romanian F-16s launched from Borcea for monitoring. An IAR-330 SOCAT helicopter launched from Bacău at 07:21 EEST. Interior Ministry teams secured the site and identified the small drone; residents had located and filmed the wreckage. No shoot-down is established in the reviewed releases.",
-      "uncertainty": "Event occurrence and foreign incursion: very high confidence, supported by official confirmation and the radar track. Operator/national attribution, exact model and cause of the crash remain unresolved in the reporting reviewed. The explosion claim is witness-reported, not officially confirmed.",
-      "deduplication": "One record for the cross-border flight, crash, wreckage discovery and response; this update does not add another event.",
-      "provenance": "Baseline E059, updated from the supplied Solca summary and source review on 2026-09-25: MApN releases and Monitorul de Suceava witness reporting. The original research download retains its original wording.",
-      "sourceReferences": "[S61][S61]; [S62][S62]; [U001][U001]; [U002][U002]",
+      "response": "Two Romanian F-16s launched from Borcea for monitoring. An IAR-330 SOCAT helicopter launched from Bacău at 07:21 EEST. Interior Ministry teams secured the site and identified the small drone; residents had located and filmed the wreckage. Miruță said the conditions required to engage the drone were not met; no shoot-down is established.",
+      "uncertainty": "Event and cross-border entry: very high confidence (official/radar-confirmed). Russian attribution: high confidence. Gerbera-type remains an ISW assessment, not an official Romanian model identification. Exact operating unit, intended target and cause of the incursion remain unresolved. Lithuania’s statement corroborates the broader incursions, not Solca-specific forensic details.",
+      "deduplication": "One record for the cross-border flight, reported airborne explosion, crash, recovery and response. This attribution update adds no event.",
+      "provenance": "Baseline E059; reviewed 2026-09-25 for route and recovery, then 2026-09-26 against Antena 3 CNN’s minister interview/follow-up, Lithuania’s Foreign Ministry and ISW. Supersedes the earlier operator-unresolved and witness-only explosion wording. Original research snapshots retain their original wording.",
+      "sourceReferences": "[S61][S61]; [S62][S62]; [U001][U001]; [U002][U002]; [U003][U003]; [U004][U004]; [U005][U005]; [U006][U006]",
       "sources": [
         "S61",
         "S62",
         "U001",
-        "U002"
+        "U002",
+        "U003",
+        "U004",
+        "U005",
+        "U006"
       ],
       "startDate": "2026-09-24",
       "title": "Solca",
-      "category": "crash",
+      "category": "explosion",
       "positions": [
         {
           "lat": 47.7,
@@ -4806,11 +4810,12 @@ window.DRONE_DATA = {
         }
       ],
       "stages": [
-        "crash",
+        "explosion",
         "flight",
+        "crash",
         "recovery"
       ],
-      "classificationNote": "Confirmed foreign cross-border incursion, crash and wreckage recovery. The orange crash marker reflects the established outcome. An explosion is witness-reported and not officially confirmed in the reviewed releases; the F-16 launch does not establish a shoot-down. Operator/national attribution remains unresolved.",
+      "classificationNote": "Explosion is the primary map category following the minister’s account of an airborne detonation. Flight, crash and recovery remain stages of the same event; this was not controlled disposal.",
       "recordClass": "event",
       "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
     }
@@ -6234,6 +6239,38 @@ window.DRONE_DATA = {
       "title": "Witness accounts from the Solca drone crash site",
       "audit": "Reviewed 2026-09-25. Residents describe finding and filming wreckage among trees. One reports an explosion; another questions whether an explosion occurred. These are witness accounts, not official explosive findings.",
       "url": "https://www.monitorulsv.ro/bubuitura-a-fost-puternica-marturii-de-la-locul-prabusirii-dronei-de-joi-dimineata-la-poieni-solca_63a959/"
+    },
+    "U003": {
+      "id": "U003",
+      "publisher": "Antena 3 CNN",
+      "dateLabel": "2026-09-24",
+      "title": "Miruță interview: Solca drone payload and airborne detonation",
+      "audit": "Reviewed 2026-09-26. Quotes interim defence minister Radu Miruță describing a Russian-model drone, an explosive payload that separated and detonated before the crash, and unfamiliar equipment. He says engagement conditions were not met and intent remained unclear.",
+      "url": "https://www.antena3.ro/amp/drona-prabusita-in-suceava-avea-incarcatura-exploziva-si-componente-pe-care-armata-nu-le-a-mai-vazut-pana-acum-804517.html"
+    },
+    "U004": {
+      "id": "U004",
+      "publisher": "Antena 3 CNN",
+      "dateLabel": "2026-09-25",
+      "title": "25 September alert report with follow-up on the Solca crash",
+      "audit": "Reviewed 2026-09-26. The Solca section repeats the minister-attributed Russian identification, explosive payload and pre-impact airborne detonation. The separate 25 September Galați/Tulcea alert explicitly involved no Romanian airspace entry and is not a new mapped event.",
+      "url": "https://www.antena3.ro/actualitate/noapte-de-alerta-la-galati-si-tulcea-radarele-au-detectat-o-drona-armata-a-ridicat-avioane-f-16-anuntul-mapn-804555.html"
+    },
+    "U005": {
+      "id": "U005",
+      "publisher": "Lithuanian Ministry of Foreign Affairs",
+      "dateLabel": "2026-09-25",
+      "title": "Lithuania strongly condemns Russia's continued attacks on Ukraine",
+      "audit": "Reviewed 2026-09-26. Official statement attributes the 24 September Romanian and Moldovan airspace incursions to Russian drones. Corroborates broader national attribution; does not name Solca, identify its drone model or independently establish its payload.",
+      "url": "https://www.urm.lt/en/news/928/lithuania-strongly-condemns-russias-continued-attacks-on-ukraine:46527"
+    },
+    "U006": {
+      "id": "U006",
+      "publisher": "Institute for the Study of War",
+      "dateLabel": "2026-09-24",
+      "title": "Russian Offensive Campaign Assessment, September 24, 2026",
+      "audit": "Reviewed 2026-09-26. ISW identifies a Russian Gerbera-type drone near Solca using geolocated footage and places it in the context of Russian strikes over western Ukraine. Recorded as an attributed analytical assessment, not an official Romanian model identification.",
+      "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-september-24-2026/"
     }
   },
   "cutoff": "2026-09-24",

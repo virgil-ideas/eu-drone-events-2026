@@ -1257,5 +1257,37 @@
     "title": "Witness accounts from the Solca drone crash site",
     "audit": "Reviewed 2026-09-25. Residents describe finding and filming wreckage among trees. One reports an explosion; another questions whether an explosion occurred. These are witness accounts, not official explosive findings.",
     "url": "https://www.monitorulsv.ro/bubuitura-a-fost-puternica-marturii-de-la-locul-prabusirii-dronei-de-joi-dimineata-la-poieni-solca_63a959/"
+  },
+  "U003": {
+    "id": "U003",
+    "publisher": "Antena 3 CNN",
+    "dateLabel": "2026-09-24",
+    "title": "Miruță interview: Solca drone payload and airborne detonation",
+    "audit": "Reviewed 2026-09-26. Quotes interim defence minister Radu Miruță describing a Russian-model drone, an explosive payload that separated and detonated before the crash, and unfamiliar equipment. He says engagement conditions were not met and intent remained unclear.",
+    "url": "https://www.antena3.ro/amp/drona-prabusita-in-suceava-avea-incarcatura-exploziva-si-componente-pe-care-armata-nu-le-a-mai-vazut-pana-acum-804517.html"
+  },
+  "U004": {
+    "id": "U004",
+    "publisher": "Antena 3 CNN",
+    "dateLabel": "2026-09-25",
+    "title": "25 September alert report with follow-up on the Solca crash",
+    "audit": "Reviewed 2026-09-26. The Solca section repeats the minister-attributed Russian identification, explosive payload and pre-impact airborne detonation. The separate 25 September Galați/Tulcea alert explicitly involved no Romanian airspace entry and is not a new mapped event.",
+    "url": "https://www.antena3.ro/actualitate/noapte-de-alerta-la-galati-si-tulcea-radarele-au-detectat-o-drona-armata-a-ridicat-avioane-f-16-anuntul-mapn-804555.html"
+  },
+  "U005": {
+    "id": "U005",
+    "publisher": "Lithuanian Ministry of Foreign Affairs",
+    "dateLabel": "2026-09-25",
+    "title": "Lithuania strongly condemns Russia's continued attacks on Ukraine",
+    "audit": "Reviewed 2026-09-26. Official statement attributes the 24 September Romanian and Moldovan airspace incursions to Russian drones. Corroborates broader national attribution; does not name Solca, identify its drone model or independently establish its payload.",
+    "url": "https://www.urm.lt/en/news/928/lithuania-strongly-condemns-russias-continued-attacks-on-ukraine:46527"
+  },
+  "U006": {
+    "id": "U006",
+    "publisher": "Institute for the Study of War",
+    "dateLabel": "2026-09-24",
+    "title": "Russian Offensive Campaign Assessment, September 24, 2026",
+    "audit": "Reviewed 2026-09-26. ISW identifies a Russian Gerbera-type drone near Solca using geolocated footage and places it in the context of Russian strikes over western Ukraine. Recorded as an attributed analytical assessment, not an official Romanian model identification.",
+    "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-september-24-2026/"
   }
 }
