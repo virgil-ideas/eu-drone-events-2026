@@ -44,7 +44,7 @@
         <p class="eyebrow" data-i18n="register.eyebrow">THE EVENT REGISTER</p>
         <h1><span data-i18n="register.headline1">A year in the air.</span><br><span data-i18n="register.headline2">And along the coast.</span></h1>
         <p class="intro" data-i18n="register.intro">Drones that reached EU countries from abroad: incursions, shoot-downs, crashes and wreckage, including ones whose operator is unknown. Ordinary drone sightings, like most airport disruptions, are not included.</p>
-        <div class="register-stats"><div><strong id="record-total">112</strong><span data-i18n="stats.records">records</span></div><div><strong id="country-total">10</strong><span data-i18n="stats.countries">EU countries</span></div><div><strong id="cutoff-label">24 Sep</strong><span data-i18n="stats.cutoff">coverage cutoff</span></div></div>
+        <div class="register-stats"><div><strong id="record-total">114</strong><span data-i18n="stats.records">records</span></div><div><strong id="country-total">10</strong><span data-i18n="stats.countries">EU countries</span></div><div><strong id="cutoff-label">27 Sep</strong><span data-i18n="stats.cutoff">coverage cutoff</span></div></div>
         <section class="trend" aria-labelledby="trend-delta-label">
           <p class="eyebrow" data-i18n="trend.eyebrow">RECORDS PER MONTH</p>
           <div class="trend-figure"><strong id="trend-delta" class="trend-delta"></strong><span id="trend-delta-label" class="trend-delta-label" data-i18n="trend.deltaLabel">last 3 months vs the 3 months before</span></div>
@@ -53,13 +53,13 @@
           <p class="trend-share"><span id="trend-share"></span> <button id="trend-how" class="trend-how" data-i18n="trend.how">How this is counted</button></p>
         </section>
       </div>
-      <div class="list-heading"><h2 id="list-title">All records</h2><span id="visible-count">112 records</span></div>
+      <div class="list-heading"><h2 id="list-title">All records</h2><span id="visible-count">114 records</span></div>
       <div class="event-list" id="event-list" tabindex="0" data-i18n-aria="list.aria" aria-label="Scrollable chronological event list"></div>
       <p class="sidebar-foot" data-i18n="sidebar.foot">Record counts ≠ confirmed attacks or unique drones.</p>
     </aside>
     <section class="map-stage" data-i18n-aria="map.aria" aria-label="Interactive event map">
       <div id="map" tabindex="0" data-i18n-aria="map.focusAria" aria-label="Zoomable map. Drag to pan; use the mouse wheel or plus and minus buttons to zoom."></div>
-      <div class="map-top"><div class="map-caption"><span class="eyebrow" data-i18n="map.eyebrow">EUROPE / 2026</span><strong id="map-period">1 January — 24 September</strong></div><button id="fit-map" class="map-button" data-i18n-title="map.fitTitle" title="Fit all visible events"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3H3v6m12-6h6v6M3 15v6h6m6 0h6v-6"/></svg><span data-i18n="map.fit">Fit events</span></button></div>
+      <div class="map-top"><div class="map-caption"><span class="eyebrow" data-i18n="map.eyebrow">EUROPE / 2026</span><strong id="map-period">1 January — 27 September</strong></div><button id="fit-map" class="map-button" data-i18n-title="map.fitTitle" title="Fit all visible events"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3H3v6m12-6h6v6M3 15v6h6m6 0h6v-6"/></svg><span data-i18n="map.fit">Fit events</span></button></div>
       <div id="map-legend" class="legend" data-i18n-aria="legend.aria" aria-label="Map legend"></div>
       <div id="map-error" class="map-error" data-i18n="map.tileError" hidden>Map tiles are unavailable. Event markers and the register still work; check your connection.</div>
       <div class="map-note" data-i18n="map.note">Individual records · approximate positions</div>
@@ -67,7 +67,7 @@
     </section>
     <section class="timeline" data-i18n-aria="timeline.aria" aria-label="Timeline replay">
       <div class="playback"><button id="play" class="play-button" aria-label="Play timeline" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg><span>Replay</span></button><div class="step-controls"><button id="previous" data-i18n-aria="step.previous" data-i18n-title="step.previous" aria-label="Previous event date" title="Previous event date">‹</button><button id="next" data-i18n-aria="step.next" data-i18n-title="step.next" aria-label="Next event date" title="Next event date">›</button></div><label class="speed-label"><span class="sr-only" data-i18n="speed.label">Playback speed</span><select id="speed" data-i18n-aria="speed.label" aria-label="Playback speed"><option value="1">1×</option><option value="2">2×</option><option value="4">4×</option></select></label><button id="sound" class="sound-button" data-i18n-aria="sound.aria" aria-label="Replay sound" aria-pressed="true" title="Mute replay sound"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4Z"/><path class="sound-waves" d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/><path class="sound-muted" d="m16 9 5 6m0-6-5 6" hidden/></svg></button></div>
-      <div class="timeline-main"><div class="timeline-heading"><div><span class="eyebrow" data-i18n="timeline.eyebrow">TIMELINE</span><strong id="current-date">All dates</strong></div><span id="timeline-status">112 records · cumulative replay</span></div><div class="timeline-track"><div class="cumulative" id="cumulative" role="img"></div><input id="timeline-range" type="range" step="any" min="0" max="266" value="266" data-i18n-aria="timeline.rangeAria" aria-label="Timeline date"><div class="month-labels" aria-hidden="true"></div></div></div>
+      <div class="timeline-main"><div class="timeline-heading"><div><span class="eyebrow" data-i18n="timeline.eyebrow">TIMELINE</span><strong id="current-date">All dates</strong></div><span id="timeline-status">114 records · cumulative replay</span></div><div class="timeline-track"><div class="cumulative" id="cumulative" role="img"></div><input id="timeline-range" type="range" step="any" min="0" max="269" value="269" data-i18n-aria="timeline.rangeAria" aria-label="Timeline date"><div class="month-labels" aria-hidden="true"></div></div></div>
       <button id="show-all" class="show-all" data-i18n-title="showAll.title" title="Show all records" aria-pressed="true"><span data-i18n="showAll.label">Show all</span> <span class="show-all-arrow" aria-hidden="true">↗</span></button>
     </section>
   </main>

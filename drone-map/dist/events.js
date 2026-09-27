@@ -4818,6 +4818,95 @@ window.DRONE_DATA = {
       "classificationNote": "Explosion is the primary map category following the minister’s account of an airborne detonation. Flight, crash and recovery remain stages of the same event; this was not controlled disposal.",
       "recordClass": "event",
       "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+    },
+    {
+      "id": "N064",
+      "dateLabel": "2026-09-26 (discovery)",
+      "startDate": "2026-09-26",
+      "endDate": "2026-09-26",
+      "dateBasis": "Morning discovery on 26 September 2026, Romanian local time; original flight, loss and arrival dates unknown",
+      "countries": "Romania",
+      "location": "Agigea coastal blocks / shore, Constanța County, Romania; EU land/coast",
+      "status": "Reported drone-fragment discovery; identification and foreign origin unresolved",
+      "categories": "Coastal debris discovery / reported aerial-drone fragment recovery",
+      "vehicle": "One reported fragment or associated debris find, possibly an aerial-drone wing; not a verified count of aircraft",
+      "attribution": "Operator, nationality and foreign origin unresolved; the coastal discovery alone does not establish a cross-border flight.",
+      "route": "Original flight and path to shore unknown; no link to a tracked incursion is established.",
+      "circumstances": "Fishermen found a suspected drone fragment among coastal blocks at Agigea and notified authorities. Radio România reports an ongoing investigation; Antena 3 CNN describes a pale, wing-like object.",
+      "payload": "No attached explosive load apparent in preliminary reporting; no final official pyrotechnic assessment established in the reviewed sources.",
+      "impact": "No casualties, material damage or detonation reported in the reviewed coverage.",
+      "response": "Authorities notified by fishermen; identification and provenance under investigation.",
+      "uncertainty": "The discovery is reported by multiple news outlets. Final drone identification, model, foreign origin, operator and original loss date remain unresolved; physical retrieval is not established in the reviewed accounts.",
+      "deduplication": "One dated discovery record. Distinct from the earlier coastal finds, the Solca crash E059 and the later Chilia Veche–Pardina incursion N065; no common airframe is established. Do not count it as a confirmed new incursion or a same-day crash.",
+      "provenance": "Added after review on 2026-09-27 of Radio România and Antena 3 CNN reports dated 26 September. Directly sourced addition to the canonical database; original research snapshots unchanged.",
+      "sourceReferences": "[U010][U010]; [U011][U011]",
+      "sources": [
+        "U010",
+        "U011"
+      ],
+      "title": "Agigea · reported drone fragment",
+      "category": "recovery",
+      "positions": [
+        {
+          "lat": 44.09,
+          "lng": 28.64,
+          "precision": "locality",
+          "label": "Approximate Agigea coastal anchor; exact discovery point not geocoded"
+        }
+      ],
+      "stages": [
+        "recovery"
+      ],
+      "classificationNote": "Recovery/discovery category only. Identification and foreign origin remain unresolved; no crash, explosion or controlled disposal is inferred.",
+      "positionNote": "Representative coastal locality anchor, not the verified position of the fragment.",
+      "recordClass": "event",
+      "recordType": "discovery_recovery",
+      "matchKey": "RO::2026-09-26::agigea-coastal-fragment-discovery"
+    },
+    {
+      "id": "N065",
+      "dateLabel": "2026-09-26–2026-09-27 (overnight)",
+      "startDate": "2026-09-26",
+      "endDate": "2026-09-27",
+      "dateBasis": "MApN dates detection to the night of 26 September. RO-Alert at 23:32; alert ended at 00:48 on 27 September, Romanian local time (EEST). Exact border-entry time not stated; replay uses the first listed date.",
+      "countries": "Romania",
+      "location": "Chilia Veche → Pardina area, Tulcea County, Romania; Chilia branch of the Danube; EU airspace",
+      "status": "Confirmed cross-border airspace incursion; reported UAV; operator and nationality unresolved",
+      "categories": "Cross-border airspace incursion; radar tracking; radar contact lost",
+      "vehicle": "One aerial target in the ministry release; reported as a drone/UAV by Digi24; exact model not established",
+      "attribution": "Foreign cross-border entry confirmed by Romanian military radar. Operator and nationality unresolved; not attributed to Russia in the reviewed ministry release.",
+      "route": "Entered Romanian airspace near Chilia Veche; tracked for several minutes roughly parallel to the Chilia branch; radar contact lost near Pardina.",
+      "circumstances": "MApN reported a new entry into national airspace during the night of 26–27 September. Loss of radar contact does not establish where the target subsequently went.",
+      "payload": "Not reported; no explosive payload established.",
+      "impact": "RO-Alert issued for northern Tulcea County. The release gives no casualty or damage assessment and reports no confirmed ground impact.",
+      "response": "Two Spanish F-18s on NATO enhanced air-policing duty and a Romanian IAR-330 SOCAT helicopter launched for monitoring. RO-Alert: 23:32; alert ended: 00:48.",
+      "uncertainty": "Incursion: very high confidence (official radar report). Drone/UAV identification strongly reported by the press; the ministry uses “aerial target.” Nationality, operator, model and final outcome remain unknown. No confirmed shoot-down, crash, explosion or recovery.",
+      "deduplication": "One new overnight occurrence. Distinct from the 25–26 September Vâlkove alert, which involved no Romanian airspace violation (U009), and from the 13 August Chilia-branch event E060. No demonstrated link to Solca E059 or the earlier Agigea discovery N064.",
+      "provenance": "Added on 2026-09-27 from MApN release No. 307 and Digi24’s report. Earlier Vâlkove reporting checked only to exclude a duplicate. Original research snapshots unchanged.",
+      "sourceReferences": "[U007][U007]; [U008][U008]; [U009][U009]",
+      "sources": [
+        "U007",
+        "U008",
+        "U009"
+      ],
+      "title": "Chilia Veche → Pardina",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 45.36,
+          "lng": 29.12,
+          "precision": "region",
+          "label": "Representative Chilia Veche–Pardina corridor anchor; not a measured radar position"
+        }
+      ],
+      "stages": [
+        "flight"
+      ],
+      "classificationNote": "Flight category: confirmed airspace entry. Radar loss is not a crash finding, and aircraft launches do not establish an armed engagement.",
+      "positionNote": "Approximate regional anchor between the named localities; not an exact track, border crossing or impact location.",
+      "recordClass": "event",
+      "recordType": "cross_border_incursion",
+      "matchKey": "RO::2026-09-26..2026-09-27::chilia-veche-pardina-radar-incursion"
     }
   ],
   "contexts": [
@@ -6271,9 +6360,49 @@ window.DRONE_DATA = {
       "title": "Russian Offensive Campaign Assessment, September 24, 2026",
       "audit": "Reviewed 2026-09-26. ISW identifies a Russian Gerbera-type drone near Solca using geolocated footage and places it in the context of Russian strikes over western Ukraine. Recorded as an attributed analytical assessment, not an official Romanian model identification.",
       "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-september-24-2026/"
+    },
+    "U007": {
+      "id": "U007",
+      "publisher": "Romanian Ministry of National Defence",
+      "dateLabel": "2026-09-27",
+      "title": "Press information No. 307: Chilia Veche entry and radar contact lost near Pardina",
+      "audit": "Reviewed 2026-09-27 against the ministry release. Confirms entry during the night of 26 September, several minutes of tracking parallel to the Chilia branch, loss of radar contact near Pardina, the aircraft response and alert times. No nationality, crash, shoot-down or wreckage recovery is established.",
+      "url": "https://www.mapn.ro/cpresa/19416_informa%C8%9Bie-de-presa"
+    },
+    "U008": {
+      "id": "U008",
+      "publisher": "Digi24",
+      "dateLabel": "2026-09-27",
+      "title": "MApN: a drone entered Romanian airspace; fighters and a military helicopter launched",
+      "audit": "Reviewed 2026-09-27. Labels the target a drone and reproduces the ministry’s overnight Chilia Veche–Pardina account. Same occurrence as U007; not an independent second incursion.",
+      "url": "https://www.digi24.ro/stiri/actualitate/mapn-o-drona-a-intrat-in-spatiul-aerian-national-avioane-de-vanatoare-si-un-elicopter-militar-au-fost-ridicate-in-aer-3966197"
+    },
+    "U009": {
+      "id": "U009",
+      "publisher": "RO Times",
+      "dateLabel": "2026-09-26",
+      "title": "Earlier Vâlkove alert: target near the border, no Romanian airspace violation",
+      "audit": "Reviewed 2026-09-27. Exclusion/deduplication reference only: the 25–26 September target remained over Ukraine. It is distinct from the following night’s confirmed Chilia Veche–Pardina entry and is not added as a map event.",
+      "url": "https://rotimes.ro/en/article/2026-09-26-ministry-of-national-defence-detects-aerial-target-near-border"
+    },
+    "U010": {
+      "id": "U010",
+      "publisher": "Radio România",
+      "dateLabel": "2026-09-26",
+      "title": "Drone fragment discovered at Agigea",
+      "audit": "Reviewed 2026-09-27. Reports a morning debris discovery and fishermen notifying authorities; investigation ongoing. Does not establish operator, nationality, crash date or a link to another record.",
+      "url": "https://www.radioromania.ro/stiri-locale/fragment-de-drona-descoperit-la-agigea-id222066.html"
+    },
+    "U011": {
+      "id": "U011",
+      "publisher": "Antena 3 CNN",
+      "dateLabel": "2026-09-26",
+      "title": "Suspected aerial-drone fragment found among Agigea coastal blocks",
+      "audit": "Reviewed 2026-09-27. Correspondent reports a possible wing-like fragment found by fishermen among coastal blocks. No attached explosive load was apparent; this is preliminary reporting, not a final identification or pyrotechnic clearance.",
+      "url": "https://www.antena3.ro/amp/un-obiect-suspect-s-a-agatat-in-stabilopozii-de-la-agigea-resturile-seamana-cu-o-drona-aeriana-804700.html"
     }
   },
-  "cutoff": "2026-09-24",
+  "cutoff": "2026-09-27",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

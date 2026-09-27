@@ -1289,5 +1289,45 @@
     "title": "Russian Offensive Campaign Assessment, September 24, 2026",
     "audit": "Reviewed 2026-09-26. ISW identifies a Russian Gerbera-type drone near Solca using geolocated footage and places it in the context of Russian strikes over western Ukraine. Recorded as an attributed analytical assessment, not an official Romanian model identification.",
     "url": "https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-september-24-2026/"
+  },
+  "U007": {
+    "id": "U007",
+    "publisher": "Romanian Ministry of National Defence",
+    "dateLabel": "2026-09-27",
+    "title": "Press information No. 307: Chilia Veche entry and radar contact lost near Pardina",
+    "audit": "Reviewed 2026-09-27 against the ministry release. Confirms entry during the night of 26 September, several minutes of tracking parallel to the Chilia branch, loss of radar contact near Pardina, the aircraft response and alert times. No nationality, crash, shoot-down or wreckage recovery is established.",
+    "url": "https://www.mapn.ro/cpresa/19416_informa%C8%9Bie-de-presa"
+  },
+  "U008": {
+    "id": "U008",
+    "publisher": "Digi24",
+    "dateLabel": "2026-09-27",
+    "title": "MApN: a drone entered Romanian airspace; fighters and a military helicopter launched",
+    "audit": "Reviewed 2026-09-27. Labels the target a drone and reproduces the ministry’s overnight Chilia Veche–Pardina account. Same occurrence as U007; not an independent second incursion.",
+    "url": "https://www.digi24.ro/stiri/actualitate/mapn-o-drona-a-intrat-in-spatiul-aerian-national-avioane-de-vanatoare-si-un-elicopter-militar-au-fost-ridicate-in-aer-3966197"
+  },
+  "U009": {
+    "id": "U009",
+    "publisher": "RO Times",
+    "dateLabel": "2026-09-26",
+    "title": "Earlier Vâlkove alert: target near the border, no Romanian airspace violation",
+    "audit": "Reviewed 2026-09-27. Exclusion/deduplication reference only: the 25–26 September target remained over Ukraine. It is distinct from the following night’s confirmed Chilia Veche–Pardina entry and is not added as a map event.",
+    "url": "https://rotimes.ro/en/article/2026-09-26-ministry-of-national-defence-detects-aerial-target-near-border"
+  },
+  "U010": {
+    "id": "U010",
+    "publisher": "Radio România",
+    "dateLabel": "2026-09-26",
+    "title": "Drone fragment discovered at Agigea",
+    "audit": "Reviewed 2026-09-27. Reports a morning debris discovery and fishermen notifying authorities; investigation ongoing. Does not establish operator, nationality, crash date or a link to another record.",
+    "url": "https://www.radioromania.ro/stiri-locale/fragment-de-drona-descoperit-la-agigea-id222066.html"
+  },
+  "U011": {
+    "id": "U011",
+    "publisher": "Antena 3 CNN",
+    "dateLabel": "2026-09-26",
+    "title": "Suspected aerial-drone fragment found among Agigea coastal blocks",
+    "audit": "Reviewed 2026-09-27. Correspondent reports a possible wing-like fragment found by fishermen among coastal blocks. No attached explosive load was apparent; this is preliminary reporting, not a final identification or pyrotechnic clearance.",
+    "url": "https://www.antena3.ro/amp/un-obiect-suspect-s-a-agatat-in-stabilopozii-de-la-agigea-resturile-seamana-cu-o-drona-aeriana-804700.html"
   }
 }
