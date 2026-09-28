@@ -4795,5 +4795,48 @@
     "recordType": "cross_border_incursion",
     "reviewedOn": "2026-09-27",
     "matchKey": "RO::2026-09-26..2026-09-27::chilia-veche-pardina-radar-incursion"
+  },
+  {
+    "id": "N066",
+    "dateLabel": "2026-09-27 (evening)",
+    "startDate": "2026-09-27",
+    "dateBasis": "Evening of 27 September, Romanian local time (EEST); exact entry time not given.",
+    "countries": "Romania",
+    "location": "Ceatalchioi → Somova area, Tulcea County, Romania; EU airspace",
+    "status": "Confirmed cross-border airspace incursion; aerial target unidentified",
+    "categories": "Cross-border airspace incursion; radar tracking; radar contact lost",
+    "vehicle": "One unidentified aerial target; probable UAV remains unconfirmed, exact type unknown.",
+    "attribution": "Foreign cross-border entry confirmed by radar; operator and nationality unresolved.",
+    "route": "Initially tracked over Ukraine north of Chilia Veche; entered Romania near Ceatalchioi, followed the border and disappeared from radar about 10 minutes later near Somova.",
+    "circumstances": "MApN reported this incursion on the evening following the Chilia Veche–Pardina event.",
+    "payload": "Unknown.",
+    "impact": "The reviewed reports give no casualty or damage assessment and establish no ground impact.",
+    "response": "Two Romanian F-16s launched from Borcea. RO-Alert at 20:35; air alert ended at 22:05. A specialist search was announced for the morning of 28 September; its completion or findings are not established here.",
+    "uncertainty": "High confidence in the incursion (official radar report). UAV identification, model, operator, nationality and final outcome remain unresolved. No confirmed crash, shoot-down, explosion, wreckage recovery or EOD action in the reviewed reports.",
+    "deduplication": "One new occurrence, distinct from N065: the following evening and a different Ceatalchioi–Somova track. Do not add the planned search as another event. No demonstrated link to Solca E059 or Agigea N064.",
+    "provenance": "Added on 2026-09-28 after checking MApN release No. 308 and Radio România’s 27 September report. Directly sourced addition; original research snapshots unchanged.",
+    "sources": [
+      "U012",
+      "U013"
+    ],
+    "title": "Ceatalchioi → Somova",
+    "category": "flight",
+    "positions": [
+      {
+        "lat": 45.24,
+        "lng": 28.73,
+        "precision": "region",
+        "label": "Approximate Ceatalchioi–Somova area; not a measured radar position"
+      }
+    ],
+    "stages": [
+      "flight"
+    ],
+    "classificationNote": "Flight category for confirmed airspace entry. Radar contact loss does not establish a crash; fighter launches do not establish an armed engagement.",
+    "positionNote": "Rounded regional anchor between the named localities, not an exact radar track, crossing or impact point.",
+    "recordClass": "event",
+    "recordType": "cross_border_incursion",
+    "reviewedOn": "2026-09-28",
+    "matchKey": "RO::2026-09-27::ceatalchioi-somova-radar-incursion"
   }
 ]

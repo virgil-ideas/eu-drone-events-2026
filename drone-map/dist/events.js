@@ -4907,6 +4907,49 @@ window.DRONE_DATA = {
       "recordClass": "event",
       "recordType": "cross_border_incursion",
       "matchKey": "RO::2026-09-26..2026-09-27::chilia-veche-pardina-radar-incursion"
+    },
+    {
+      "id": "N066",
+      "dateLabel": "2026-09-27 (evening)",
+      "startDate": "2026-09-27",
+      "dateBasis": "Evening of 27 September, Romanian local time (EEST); exact entry time not given.",
+      "countries": "Romania",
+      "location": "Ceatalchioi → Somova area, Tulcea County, Romania; EU airspace",
+      "status": "Confirmed cross-border airspace incursion; aerial target unidentified",
+      "categories": "Cross-border airspace incursion; radar tracking; radar contact lost",
+      "vehicle": "One unidentified aerial target; probable UAV remains unconfirmed, exact type unknown.",
+      "attribution": "Foreign cross-border entry confirmed by radar; operator and nationality unresolved.",
+      "route": "Initially tracked over Ukraine north of Chilia Veche; entered Romania near Ceatalchioi, followed the border and disappeared from radar about 10 minutes later near Somova.",
+      "circumstances": "MApN reported this incursion on the evening following the Chilia Veche–Pardina event.",
+      "payload": "Unknown.",
+      "impact": "The reviewed reports give no casualty or damage assessment and establish no ground impact.",
+      "response": "Two Romanian F-16s launched from Borcea. RO-Alert at 20:35; air alert ended at 22:05. A specialist search was announced for the morning of 28 September; its completion or findings are not established here.",
+      "uncertainty": "High confidence in the incursion (official radar report). UAV identification, model, operator, nationality and final outcome remain unresolved. No confirmed crash, shoot-down, explosion, wreckage recovery or EOD action in the reviewed reports.",
+      "deduplication": "One new occurrence, distinct from N065: the following evening and a different Ceatalchioi–Somova track. Do not add the planned search as another event. No demonstrated link to Solca E059 or Agigea N064.",
+      "provenance": "Added on 2026-09-28 after checking MApN release No. 308 and Radio România’s 27 September report. Directly sourced addition; original research snapshots unchanged.",
+      "sourceReferences": "[U012][U012]; [U013][U013]",
+      "sources": [
+        "U012",
+        "U013"
+      ],
+      "title": "Ceatalchioi → Somova",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 45.24,
+          "lng": 28.73,
+          "precision": "region",
+          "label": "Approximate Ceatalchioi–Somova area; not a measured radar position"
+        }
+      ],
+      "stages": [
+        "flight"
+      ],
+      "classificationNote": "Flight category for confirmed airspace entry. Radar contact loss does not establish a crash; fighter launches do not establish an armed engagement.",
+      "positionNote": "Rounded regional anchor between the named localities, not an exact radar track, crossing or impact point.",
+      "recordClass": "event",
+      "recordType": "cross_border_incursion",
+      "matchKey": "RO::2026-09-27::ceatalchioi-somova-radar-incursion"
     }
   ],
   "contexts": [
@@ -6400,6 +6443,22 @@ window.DRONE_DATA = {
       "title": "Suspected aerial-drone fragment found among Agigea coastal blocks",
       "audit": "Reviewed 2026-09-27. Correspondent reports a possible wing-like fragment found by fishermen among coastal blocks. No attached explosive load was apparent; this is preliminary reporting, not a final identification or pyrotechnic clearance.",
       "url": "https://www.antena3.ro/amp/un-obiect-suspect-s-a-agatat-in-stabilopozii-de-la-agigea-resturile-seamana-cu-o-drona-aeriana-804700.html"
+    },
+    "U012": {
+      "id": "U012",
+      "publisher": "Romanian Ministry of National Defence",
+      "dateLabel": "2026-09-27",
+      "title": "Press information No. 308: Ceatalchioi entry and radar contact lost near Somova",
+      "audit": "Reviewed 2026-09-28 against the ministry release. Primary confirmation of a separate evening incursion. Uses “aerial target,” gives no national attribution, and announces a search rather than reporting completed recovery.",
+      "url": "https://www.mapn.ro/cpresa/19417_Informa%C8%9Bie-de-pres%C4%83"
+    },
+    "U013": {
+      "id": "U013",
+      "publisher": "Radio România",
+      "dateLabel": "2026-09-27; updated 23:53",
+      "title": "MApN: an aerial target entered Romanian airspace in northern Tulcea County",
+      "audit": "Reviewed 2026-09-28. Reproduces the ministry’s Ceatalchioi–Somova account, F-16 response and alert times. Same occurrence as U012; no independent drone identification or attribution.",
+      "url": "https://www.radioromania.ro/Actualitate/mapn-o-tinta-aeriana-a-patruns-in-spatiul-romaniei-in-nordul-judetului-tulcea-id222321.html"
     }
   },
   "cutoff": "2026-09-27",

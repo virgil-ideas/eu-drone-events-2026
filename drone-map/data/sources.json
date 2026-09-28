@@ -1329,5 +1329,21 @@
     "title": "Suspected aerial-drone fragment found among Agigea coastal blocks",
     "audit": "Reviewed 2026-09-27. Correspondent reports a possible wing-like fragment found by fishermen among coastal blocks. No attached explosive load was apparent; this is preliminary reporting, not a final identification or pyrotechnic clearance.",
     "url": "https://www.antena3.ro/amp/un-obiect-suspect-s-a-agatat-in-stabilopozii-de-la-agigea-resturile-seamana-cu-o-drona-aeriana-804700.html"
+  },
+  "U012": {
+    "id": "U012",
+    "publisher": "Romanian Ministry of National Defence",
+    "dateLabel": "2026-09-27",
+    "title": "Press information No. 308: Ceatalchioi entry and radar contact lost near Somova",
+    "audit": "Reviewed 2026-09-28 against the ministry release. Primary confirmation of a separate evening incursion. Uses “aerial target,” gives no national attribution, and announces a search rather than reporting completed recovery.",
+    "url": "https://www.mapn.ro/cpresa/19417_Informa%C8%9Bie-de-pres%C4%83"
+  },
+  "U013": {
+    "id": "U013",
+    "publisher": "Radio România",
+    "dateLabel": "2026-09-27; updated 23:53",
+    "title": "MApN: an aerial target entered Romanian airspace in northern Tulcea County",
+    "audit": "Reviewed 2026-09-28. Reproduces the ministry’s Ceatalchioi–Somova account, F-16 response and alert times. Same occurrence as U012; no independent drone identification or attribution.",
+    "url": "https://www.radioromania.ro/Actualitate/mapn-o-tinta-aeriana-a-patruns-in-spatiul-romaniei-in-nordul-judetului-tulcea-id222321.html"
   }
 }
