@@ -4950,6 +4950,49 @@ window.DRONE_DATA = {
       "recordClass": "event",
       "recordType": "cross_border_incursion",
       "matchKey": "RO::2026-09-27::ceatalchioi-somova-radar-incursion"
+    },
+    {
+      "id": "N067",
+      "dateLabel": "2026-09-29 (discovery; overnight report)",
+      "startDate": "2026-09-29",
+      "dateBasis": "Discovery reported on the morning of 29 September; the 112 call was overnight on 28–29 September. Exact fall time unknown; replay uses the discovery date.",
+      "countries": "Romania",
+      "location": "Arable land on Insula Mare a Brăilei, opposite Gropeni, Brăila County, Romania; EU land",
+      "status": "Provisional possible-drone debris discovery; foreign origin unconfirmed",
+      "categories": "Debris discovery with reported fall and fire; possible aerial drone",
+      "vehicle": "Fragments of a possible aerial drone; identity and model pending examination.",
+      "attribution": "Foreign origin, operator and nationality unresolved. No confirmed cross-border incursion.",
+      "route": "Unknown. MApN reported no radar-detected unauthorized airspace entry during the preceding night.",
+      "circumstances": "A resident reported a falling object and subsequent fire via 112. Authorities found fragments; the fire had gone out.",
+      "payload": "Unknown; a fire alone does not establish an explosive payload or detonation.",
+      "impact": "MApN reported no casualties or material damage.",
+      "response": "Interior Ministry and Romanian Intelligence Service teams secured the perimeter. MApN announced that a specialist team would attend to examine the area; completed examination or retrieval is not established in the initial report.",
+      "uncertainty": "High confidence in the officially reported debris incident. Drone identification remains provisional; foreign origin is unconfirmed. The reported fall and fire do not establish a confirmed drone crash, explosion or EOD action.",
+      "deduplication": "One provisional discovery record. Different date and locality from N064 Agigea, N065 Chilia Veche–Pardina and N066 Ceatalchioi–Somova; no common airframe established. The official aggregate counter is context, not another event or proof of foreign origin.",
+      "provenance": "Added on 2026-09-29 after reviewing MApN release No. 310 and News.ro’s report. Retained as a candidate pending drone identification and provenance findings. Original research snapshots unchanged.",
+      "sourceReferences": "[U014][U014]; [U015][U015]",
+      "sources": [
+        "U014",
+        "U015"
+      ],
+      "title": "Insula Mare a Brăilei · possible drone debris",
+      "category": "recovery",
+      "positions": [
+        {
+          "lat": 45.07,
+          "lng": 28.0,
+          "precision": "region",
+          "label": "Approximate Insula Mare a Brăilei area east of Gropeni; exact field unknown"
+        }
+      ],
+      "stages": [
+        "recovery"
+      ],
+      "classificationNote": "Recovery/discovery color for the observed debris. Reported fall and fire remain in the details; no confirmed drone crash, explosion or cross-border flight is inferred.",
+      "positionNote": "Rounded editorial island-area anchor opposite Gropeni, not a surveyed debris or impact position.",
+      "recordClass": "candidate",
+      "recordType": "provisional_drone_debris_discovery",
+      "matchKey": "RO::2026-09-29::insula-mare-a-brailei-gropeni-debris-discovery"
     }
   ],
   "contexts": [
@@ -5002,25 +5045,26 @@ window.DRONE_DATA = {
     },
     {
       "id": "A003",
-      "dateLabel": "2026 year to date; dashboard checked 2026-09-24",
-      "dateBasis": "Dashboard snapshot updated 24 September 2026",
+      "dateLabel": "2026 year to date; dashboard checked 2026-09-29",
+      "dateBasis": "Dashboard snapshot updated 29 September 2026",
       "countries": "Romania",
       "location": "MApN official national dashboard; categories defined by the ministry",
       "status": "Official overlapping counters — NOT additive",
       "categories": "Near-border attacks; scrambles; unauthorized access; shoot-downs; fragments; separate mine counter",
-      "vehicle": "2026 dashboard: 77 near-border attacks; 60 scrambles; 28 unauthorized accesses; 4 shot-down drones; 42 drones/fragments identified; 2 naval mines",
+      "vehicle": "2026 dashboard: 82 near-border attacks; 65 aircraft-response incidents; 30 unauthorized entries; 4 shot-down drones; 43 drones/fragments identified, recovered or neutralized; 2 naval mines",
       "attribution": "Different populations: nearby attacks, responses, airspace incidents and recoveries",
       "route": "Not an event-by-event route dataset",
-      "circumstances": "Official snapshot retained separately from the research chronology.",
+      "circumstances": "Current official snapshot retained separately from the research chronology. The identification/recovery counter was 42 in the archived 24 September snapshot and is 43 in this update; the change alone does not establish which event it represents.",
       "payload": "Not reported",
       "impact": "Not reported",
       "response": "MApN operational/recovery categories.",
-      "uncertainty": "Counters cannot be reconciled automatically with all-agency/news rows; individual category scope may differ.",
+      "uncertainty": "Categories overlap and use ministry-specific populations. These totals cannot be reconciled automatically with all-agency/news records and do not establish the identity or nationality of an individual object.",
       "deduplication": "All categories overlap. Mine counter is not a drone count. Do not total counters or use them to replace the incident register.",
-      "provenance": "Official aggregate rechecked during export",
-      "sourceReferences": "[S62][S62]",
+      "provenance": "A003 refreshed on 2026-09-29 against the Romanian-language MApN dashboard (U016). Earlier 24 September snapshot remains in the original research and Git history (S62).",
+      "sourceReferences": "[S62][S62]; [U016][U016]",
       "sources": [
-        "S62"
+        "S62",
+        "U016"
       ]
     },
     {
@@ -6459,9 +6503,33 @@ window.DRONE_DATA = {
       "title": "MApN: an aerial target entered Romanian airspace in northern Tulcea County",
       "audit": "Reviewed 2026-09-28. Reproduces the ministry’s Ceatalchioi–Somova account, F-16 response and alert times. Same occurrence as U012; no independent drone identification or attribution.",
       "url": "https://www.radioromania.ro/Actualitate/mapn-o-tinta-aeriana-a-patruns-in-spatiul-romaniei-in-nordul-judetului-tulcea-id222321.html"
+    },
+    "U014": {
+      "id": "U014",
+      "publisher": "Romanian Ministry of National Defence",
+      "dateLabel": "2026-09-29",
+      "title": "Press information No. 310: possible-drone fragments on Insula Mare a Brăilei",
+      "audit": "Reviewed 2026-09-29. Official preliminary account; identification remains pending. No unauthorized entry detected by radar. Specialist attendance is announced, not reported as completed.",
+      "url": "https://www.mapn.ro/cpresa/19419_informa%C8%9Bie-de-presa"
+    },
+    "U015": {
+      "id": "U015",
+      "publisher": "News.ro",
+      "dateLabel": "2026-09-29, 08:58",
+      "title": "MApN: fragments found opposite Gropeni after a reported fall and fire",
+      "audit": "Reviewed 2026-09-29. Quotes the same ministry statement as U014. The headline says drone fragments, while the quoted assessment is only a possible drone; the provisional official wording is retained.",
+      "url": "https://www.news.ro/eveniment/mapn-fragmente-drona-cazute-teren-arabil-insula-mare-brailei-cetatean-sunat-112-obiect-cazut-s-produs-incendiu-radarele-mapn-au-detectat-nicio-patrundere-drona-spatiul-aerian-national-1922405829002026090822790963"
+    },
+    "U016": {
+      "id": "U016",
+      "publisher": "Romanian Ministry of National Defence",
+      "dateLabel": "Dashboard updated 2026-09-29",
+      "title": "Drone and sea-mine incident dashboard: 29 September snapshot",
+      "audit": "Reviewed 2026-09-29. The 2026 counters are 82 nearby attacks, 65 aircraft-response incidents, 30 unauthorized entries, 4 shoot-downs, 43 drone/fragment identifications or recoveries/neutralizations, and 2 sea mines. Categories overlap; the counter does not attribute an individual find or prove its foreign origin.",
+      "url": "https://www.mapn.ro/"
     }
   },
-  "cutoff": "2026-09-27",
+  "cutoff": "2026-09-29",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

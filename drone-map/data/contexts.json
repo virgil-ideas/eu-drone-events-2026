@@ -46,25 +46,27 @@
   },
   {
     "id": "A003",
-    "dateLabel": "2026 year to date; dashboard checked 2026-09-24",
-    "dateBasis": "Dashboard snapshot updated 24 September 2026",
+    "dateLabel": "2026 year to date; dashboard checked 2026-09-29",
+    "dateBasis": "Dashboard snapshot updated 29 September 2026",
     "countries": "Romania",
     "location": "MApN official national dashboard; categories defined by the ministry",
     "status": "Official overlapping counters — NOT additive",
     "categories": "Near-border attacks; scrambles; unauthorized access; shoot-downs; fragments; separate mine counter",
-    "vehicle": "2026 dashboard: 77 near-border attacks; 60 scrambles; 28 unauthorized accesses; 4 shot-down drones; 42 drones/fragments identified; 2 naval mines",
+    "vehicle": "2026 dashboard: 82 near-border attacks; 65 aircraft-response incidents; 30 unauthorized entries; 4 shot-down drones; 43 drones/fragments identified, recovered or neutralized; 2 naval mines",
     "attribution": "Different populations: nearby attacks, responses, airspace incidents and recoveries",
     "route": "Not an event-by-event route dataset",
-    "circumstances": "Official snapshot retained separately from the research chronology.",
+    "circumstances": "Current official snapshot retained separately from the research chronology. The identification/recovery counter was 42 in the archived 24 September snapshot and is 43 in this update; the change alone does not establish which event it represents.",
     "payload": "Not reported",
     "impact": "Not reported",
     "response": "MApN operational/recovery categories.",
-    "uncertainty": "Counters cannot be reconciled automatically with all-agency/news rows; individual category scope may differ.",
+    "uncertainty": "Categories overlap and use ministry-specific populations. These totals cannot be reconciled automatically with all-agency/news records and do not establish the identity or nationality of an individual object.",
     "deduplication": "All categories overlap. Mine counter is not a drone count. Do not total counters or use them to replace the incident register.",
-    "provenance": "Official aggregate rechecked during export",
+    "provenance": "A003 refreshed on 2026-09-29 against the Romanian-language MApN dashboard (U016). Earlier 24 September snapshot remains in the original research and Git history (S62).",
     "sources": [
-      "S62"
-    ]
+      "S62",
+      "U016"
+    ],
+    "reviewedOn": "2026-09-29"
   },
   {
     "id": "A004",

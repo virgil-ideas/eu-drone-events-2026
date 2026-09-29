@@ -5,7 +5,7 @@ no database server, credentials or third-party Python packages are required.
 
 | File | Contents |
 | --- | --- |
-| `events.json` | Individual events and the unidentified-object candidate, including approximate map anchors, outcome stages, uncertainty and source IDs. Ordered by stable ID for editing. |
+| `events.json` | Individual events and provisional/unidentified candidates, including approximate map anchors, outcome stages, uncertainty and source IDs. Ordered by stable ID for editing. |
 | `sources.json` | Shared bibliography keyed by source ID: publisher, title, URL, audit notes and the publication-date label when known. |
 | `contexts.json` | Non-additive aggregate/context records. Never counted or mapped as individual events. |
 | `dataset.json` | Schema version, inclusive reporting cutoff and the filenames/SHA-256 hashes of archived research. |

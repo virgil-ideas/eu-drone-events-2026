@@ -4838,5 +4838,48 @@
     "recordType": "cross_border_incursion",
     "reviewedOn": "2026-09-28",
     "matchKey": "RO::2026-09-27::ceatalchioi-somova-radar-incursion"
+  },
+  {
+    "id": "N067",
+    "dateLabel": "2026-09-29 (discovery; overnight report)",
+    "startDate": "2026-09-29",
+    "dateBasis": "Discovery reported on the morning of 29 September; the 112 call was overnight on 28–29 September. Exact fall time unknown; replay uses the discovery date.",
+    "countries": "Romania",
+    "location": "Arable land on Insula Mare a Brăilei, opposite Gropeni, Brăila County, Romania; EU land",
+    "status": "Provisional possible-drone debris discovery; foreign origin unconfirmed",
+    "categories": "Debris discovery with reported fall and fire; possible aerial drone",
+    "vehicle": "Fragments of a possible aerial drone; identity and model pending examination.",
+    "attribution": "Foreign origin, operator and nationality unresolved. No confirmed cross-border incursion.",
+    "route": "Unknown. MApN reported no radar-detected unauthorized airspace entry during the preceding night.",
+    "circumstances": "A resident reported a falling object and subsequent fire via 112. Authorities found fragments; the fire had gone out.",
+    "payload": "Unknown; a fire alone does not establish an explosive payload or detonation.",
+    "impact": "MApN reported no casualties or material damage.",
+    "response": "Interior Ministry and Romanian Intelligence Service teams secured the perimeter. MApN announced that a specialist team would attend to examine the area; completed examination or retrieval is not established in the initial report.",
+    "uncertainty": "High confidence in the officially reported debris incident. Drone identification remains provisional; foreign origin is unconfirmed. The reported fall and fire do not establish a confirmed drone crash, explosion or EOD action.",
+    "deduplication": "One provisional discovery record. Different date and locality from N064 Agigea, N065 Chilia Veche–Pardina and N066 Ceatalchioi–Somova; no common airframe established. The official aggregate counter is context, not another event or proof of foreign origin.",
+    "provenance": "Added on 2026-09-29 after reviewing MApN release No. 310 and News.ro’s report. Retained as a candidate pending drone identification and provenance findings. Original research snapshots unchanged.",
+    "sources": [
+      "U014",
+      "U015"
+    ],
+    "title": "Insula Mare a Brăilei · possible drone debris",
+    "category": "recovery",
+    "positions": [
+      {
+        "lat": 45.07,
+        "lng": 28.0,
+        "precision": "region",
+        "label": "Approximate Insula Mare a Brăilei area east of Gropeni; exact field unknown"
+      }
+    ],
+    "stages": [
+      "recovery"
+    ],
+    "classificationNote": "Recovery/discovery color for the observed debris. Reported fall and fire remain in the details; no confirmed drone crash, explosion or cross-border flight is inferred.",
+    "positionNote": "Rounded editorial island-area anchor opposite Gropeni, not a surveyed debris or impact position.",
+    "recordClass": "candidate",
+    "recordType": "provisional_drone_debris_discovery",
+    "reviewedOn": "2026-09-29",
+    "matchKey": "RO::2026-09-29::insula-mare-a-brailei-gropeni-debris-discovery"
   }
 ]
