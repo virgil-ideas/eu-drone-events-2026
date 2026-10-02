@@ -151,7 +151,7 @@
   'about.statTotal': 'Înregistrări pe hartă',
   'about.statBase': 'Înregistrări de bază',
   'about.statAdded': 'Evenimente noi adăugate',
-  'about.statCandidates': 'Obiecte neidentificate (Alertă / altele)',
+  'about.statCandidates': 'Obiecte neidentificate',
   'about.statContexts': 'Înregistrări agregate/de context, neincluse în totalul de pe hartă',
   'about.statSources': 'Referințe la surse păstrate',
   'about.statCutoff': 'Sfârșitul acoperirii',

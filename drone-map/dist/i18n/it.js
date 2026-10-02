@@ -151,7 +151,7 @@
   'about.statTotal': 'Schede sulla mappa',
   'about.statBase': 'Schede di base',
   'about.statAdded': 'Nuovi eventi aggiunti',
-  'about.statCandidates': 'Oggetti non identificati (Allerta / altro)',
+  'about.statCandidates': 'Oggetti non identificati',
   'about.statContexts': 'Schede aggregate/di contesto, escluse dai conteggi della mappa',
   'about.statSources': 'Riferimenti alle fonti conservati',
   'about.statCutoff': 'Fine della copertura',

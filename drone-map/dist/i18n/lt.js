@@ -151,7 +151,7 @@
   'about.statTotal': 'Įrašai žemėlapyje',
   'about.statBase': 'Baziniai įrašai',
   'about.statAdded': 'Naujai pridėti įvykiai',
-  'about.statCandidates': 'Nenustatyti objektai (Įspėjimas / kita)',
+  'about.statCandidates': 'Nenustatyti objektai',
   'about.statContexts': 'Suvestiniai / kontekstiniai įrašai, neįtraukti į žemėlapio skaičius',
   'about.statSources': 'Išsaugotos nuorodos į šaltinius',
   'about.statCutoff': 'Aprėpties pabaiga',

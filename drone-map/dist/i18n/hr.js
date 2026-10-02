@@ -151,7 +151,7 @@
   'about.statTotal': 'Zapisi na karti',
   'about.statBase': 'Osnovni zapisi',
   'about.statAdded': 'Novi dodani događaji',
-  'about.statCandidates': 'Neidentificirani objekti (Uzbuna / ostalo)',
+  'about.statCandidates': 'Neidentificirani objekti',
   'about.statContexts': 'Zbirni/kontekstni zapisi, izvan broja na karti',
   'about.statSources': 'Zadržane reference na izvore',
   'about.statCutoff': 'Kraj obuhvata',

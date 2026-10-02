@@ -151,7 +151,7 @@
   'about.statTotal': 'Registreringar på kartan',
   'about.statBase': 'Basregistreringar',
   'about.statAdded': 'Nya tillagda händelser',
-  'about.statCandidates': 'Oidentifierade föremål (larm / övrigt)',
+  'about.statCandidates': 'Oidentifierade föremål',
   'about.statContexts': 'Aggregat- och kontextregistreringar, utanför kartans räkning',
   'about.statSources': 'Bevarade källhänvisningar',
   'about.statCutoff': 'Täckningen slutar',

@@ -153,7 +153,7 @@
   'about.statTotal': 'Records on the map',
   'about.statBase': 'Baseline records',
   'about.statAdded': 'New event additions',
-  'about.statCandidates': 'Unidentified objects (Alert / other)',
+  'about.statCandidates': 'Unidentified objects',
   'about.statContexts': 'Aggregate/context records, outside map counts',
   'about.statSources': 'Source references retained',
   'about.statCutoff': 'Coverage ends',

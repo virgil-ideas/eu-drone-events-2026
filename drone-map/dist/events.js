@@ -4993,6 +4993,94 @@ window.DRONE_DATA = {
       "recordClass": "candidate",
       "recordType": "provisional_drone_debris_discovery",
       "matchKey": "RO::2026-09-29::insula-mare-a-brailei-gropeni-debris-discovery"
+    },
+    {
+      "id": "N068",
+      "dateLabel": "2026-10-01",
+      "startDate": "2026-10-01",
+      "dateBasis": "Activity on 1 October, reported that evening; incident times unspecified.",
+      "countries": "Greece",
+      "location": "Southeastern Aegean; no island, coordinates or flight track published in the cited reports.",
+      "status": "Greek-authority-reported Turkish UAV airspace violations",
+      "categories": "Two reported national-airspace violations and one Athens FIR infraction by one UAV",
+      "vehicle": "One Turkish UAV according to the Greek military account; model unspecified.",
+      "attribution": "Turkish attribution and the violation assessment are those of Greece’s Hellenic National Defence General Staff, relayed by OnAlert. Flight track not independently verified.",
+      "route": "Southeastern Aegean region only; entry points and route unspecified.",
+      "circumstances": "Greek reporting reproduces the military account of one UAV, two national-airspace violations and one air-traffic-rule infringement in the Athens FIR.",
+      "payload": "Not specified.",
+      "impact": "No crash, casualties or material damage reported.",
+      "response": "Reportedly identified and intercepted by Greek forces. No weapons engagement or shoot-down reported.",
+      "uncertainty": "Original military bulletin not retrieved directly. NewsIT cites OnAlert and is not independent corroboration. Exact location, times and model remain unknown.",
+      "deduplication": "One dated UAV-activity record. The 1/2/1 counts describe different measures of this activity, not separate aircraft or individually located events. Distinct from the earlier northern Aegean encounters.",
+      "provenance": "Reviewed 2026-10-02 against contemporaneous OnAlert and NewsIT coverage. This is an attributed national-airspace violation report, not a FIR-only record. Original research snapshots unchanged.",
+      "sourceReferences": "[U017][U017]; [U018][U018]",
+      "sources": [
+        "U017",
+        "U018"
+      ],
+      "title": "Southeastern Aegean · Greek-reported Turkish UAV",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 36.5,
+          "lng": 27.4,
+          "precision": "region",
+          "label": "Southeastern Aegean — broad representative anchor; exact location unknown"
+        }
+      ],
+      "stages": [
+        "flight"
+      ],
+      "classificationNote": "Flight: interception alone does not establish armed engagement or a shoot-down.",
+      "positionNote": "Editorial regional anchor only. It does not identify an island, an airspace boundary or a verified violation point.",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "matchKey": "GR::2026-10-01::southeastern-aegean-uav-activity",
+      "reported_UAVs": 1,
+      "reported_airspace_violations": 2,
+      "reported_FIR_infractions": 1
+    },
+    {
+      "id": "N069",
+      "dateLabel": "2026-10-02 (reported at approximately 05:00)",
+      "startDate": "2026-10-02",
+      "dateBasis": "MApN received the fall/fire report at approximately 05:00 on 2 October. Exact fall time not specified.",
+      "countries": "Romania",
+      "location": "Near Plauru, Tulcea County, Romania; exact site unpublished.",
+      "status": "Provisional possible-drone discovery; foreign origin unconfirmed",
+      "categories": "Reported object fall and fire; possible aerial drone awaiting examination",
+      "vehicle": "Possibly an aerial drone; identification and model pending technical examination.",
+      "attribution": "Operator, nationality and foreign origin unresolved. Nearby attacks on Ukraine provide context, not attribution of this object.",
+      "route": "Unknown. MApN recorded no unauthorized Romanian airspace entry on radar overnight.",
+      "circumstances": "Authorities received a report of an object falling near Plauru and starting a fire, during overnight drone attacks on Ukrainian targets across the Danube.",
+      "payload": "Unknown; a fire does not establish an explosive payload or detonation.",
+      "impact": "MApN reported no casualties or material damage.",
+      "response": "IGSU firefighters and MApN teams were sent to the site. The area was secured; specialist examination was announced, not reported as completed.",
+      "uncertainty": "Officially reported fall/fire incident; drone identity and foreign origin remain provisional. No interception, shoot-down, explosive-disposal action or completed recovery established.",
+      "deduplication": "One provisional discovery record, distinct in date from E064’s August Plauru discovery/disposal and N067’s 29 September Brăila find. No common airframe established. The dashboard total is non-additive context.",
+      "provenance": "Reviewed 2026-10-02 against MApN release No. 318. Retained as a candidate pending identification and provenance findings; original research snapshots unchanged.",
+      "sourceReferences": "[U019][U019]",
+      "sources": [
+        "U019"
+      ],
+      "title": "Plauru · possible drone discovery",
+      "category": "recovery",
+      "positions": [
+        {
+          "lat": 45.33,
+          "lng": 28.8,
+          "precision": "locality",
+          "label": "Plauru area — approximate locality; exact discovery site unknown"
+        }
+      ],
+      "stages": [
+        "recovery"
+      ],
+      "classificationNote": "Recovery/discovery color for a provisional find. The reported fall/fire is preserved without asserting a confirmed drone crash, explosion or radar-tracked incursion.",
+      "positionNote": "Uses the existing approximate Plauru locality anchor, not the coordinates of the reported object.",
+      "recordClass": "candidate",
+      "recordType": "provisional_drone_discovery",
+      "matchKey": "RO::2026-10-02::plauru-object-fall-fire"
     }
   ],
   "contexts": [
@@ -5045,26 +5133,27 @@ window.DRONE_DATA = {
     },
     {
       "id": "A003",
-      "dateLabel": "2026 year to date; dashboard checked 2026-09-29",
-      "dateBasis": "Dashboard snapshot updated 29 September 2026",
+      "dateLabel": "2026 year to date; dashboard checked 2026-10-02",
+      "dateBasis": "Dashboard snapshot updated 2 October 2026",
       "countries": "Romania",
       "location": "MApN official national dashboard; categories defined by the ministry",
       "status": "Official overlapping counters — NOT additive",
       "categories": "Near-border attacks; scrambles; unauthorized access; shoot-downs; fragments; separate mine counter",
-      "vehicle": "2026 dashboard: 82 near-border attacks; 65 aircraft-response incidents; 30 unauthorized entries; 4 shot-down drones; 43 drones/fragments identified, recovered or neutralized; 2 naval mines",
+      "vehicle": "2026 dashboard: 84 near-border attacks; 66 aircraft-response incidents; 30 unauthorized entries; 4 shot-down drones; 44 drones/fragments identified, recovered or neutralized; 2 naval mines",
       "attribution": "Different populations: nearby attacks, responses, airspace incidents and recoveries",
       "route": "Not an event-by-event route dataset",
-      "circumstances": "Current official snapshot retained separately from the research chronology. The identification/recovery counter was 42 in the archived 24 September snapshot and is 43 in this update; the change alone does not establish which event it represents.",
+      "circumstances": "Current official snapshot retained separately from the research chronology. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 in this update; the changes alone do not establish which events they represent.",
       "payload": "Not reported",
       "impact": "Not reported",
       "response": "MApN operational/recovery categories.",
       "uncertainty": "Categories overlap and use ministry-specific populations. These totals cannot be reconciled automatically with all-agency/news records and do not establish the identity or nationality of an individual object.",
       "deduplication": "All categories overlap. Mine counter is not a drone count. Do not total counters or use them to replace the incident register.",
-      "provenance": "A003 refreshed on 2026-09-29 against the Romanian-language MApN dashboard (U016). Earlier 24 September snapshot remains in the original research and Git history (S62).",
-      "sourceReferences": "[S62][S62]; [U016][U016]",
+      "provenance": "A003 refreshed on 2026-10-02 against the Romanian-language MApN dashboard (U020). Earlier snapshots remain documented in the original research and Git history (S62 and U016).",
+      "sourceReferences": "[S62][S62]; [U016][U016]; [U020][U020]",
       "sources": [
         "S62",
-        "U016"
+        "U016",
+        "U020"
       ]
     },
     {
@@ -6527,9 +6616,41 @@ window.DRONE_DATA = {
       "title": "Drone and sea-mine incident dashboard: 29 September snapshot",
       "audit": "Reviewed 2026-09-29. The 2026 counters are 82 nearby attacks, 65 aircraft-response incidents, 30 unauthorized entries, 4 shoot-downs, 43 drone/fragment identifications or recoveries/neutralizations, and 2 sea mines. Categories overlap; the counter does not attribute an individual find or prove its foreign origin.",
       "url": "https://www.mapn.ro/"
+    },
+    "U017": {
+      "id": "U017",
+      "publisher": "OnAlert",
+      "dateLabel": "2026-10-01, 18:12",
+      "title": "Greek military account: one Turkish UAV, two airspace violations in the southeastern Aegean",
+      "audit": "Reviewed 2026-10-02. Reproduces the Hellenic National Defence General Staff account and counts. Original bulletin and flight track not independently retrieved. The Reuters image is explicitly a file photo, not incident imagery.",
+      "url": "https://www.onalert.gr/ellinotourkika/tourkiko-drone-ekane-dyo-paraviaseis-tou-enaeriou-xorou-sto-notioanatoliko-aigaio/823352/"
+    },
+    "U018": {
+      "id": "U018",
+      "publisher": "NewsIT",
+      "dateLabel": "2026-10-01, 19:18",
+      "title": "Turkish drone made two reported national-airspace violations in the Aegean",
+      "audit": "Reviewed 2026-10-02. Repeats the one-UAV, two-violation, one-FIR-infraction account and credits OnAlert as its source; not independent corroboration or a separate occurrence.",
+      "url": "https://www.newsit.gr/ellada/tourkiko-drone-ekane-2-paraviaseis-tou-ethnikou-enaeriou-xorou-sto-aigaio/4787993/"
+    },
+    "U019": {
+      "id": "U019",
+      "publisher": "Romanian Ministry of National Defence",
+      "dateLabel": "2026-10-02",
+      "title": "Press information No. 318: possible drone fall and fire near Plauru",
+      "audit": "Reviewed 2026-10-02. Preliminary official report: possible drone, site secured, examination pending. No radar-recorded unauthorized airspace entry, casualties or material damage. Does not establish foreign origin or a completed recovery.",
+      "url": "https://www.mapn.ro/cpresa/19427_informa%C8%9Bie-de-presa"
+    },
+    "U020": {
+      "id": "U020",
+      "publisher": "Romanian Ministry of National Defence",
+      "dateLabel": "Dashboard updated 2026-10-02",
+      "title": "Drone and sea-mine incident dashboard: 2 October snapshot",
+      "audit": "Reviewed 2026-10-02. The 2026 counters are 84 nearby attacks, 66 aircraft-response incidents, 30 unauthorized entries, 4 shoot-downs, 44 drone/fragment identifications or recoveries/neutralizations, and 2 sea mines. Categories overlap; the increase does not identify or attribute an individual object.",
+      "url": "https://www.mapn.ro/"
     }
   },
-  "cutoff": "2026-09-29",
+  "cutoff": "2026-10-02",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

@@ -89,6 +89,13 @@ Optional event fields: `endDate`, `recordType`, `positionNote`, `reviewedOn`,
 editorial date and can be later than the event cutoff. `sourceFile`, when present,
 must name a registered research snapshot.
 
+Optional numeric fields `reported_UAVs`, `reported_airspace_violations` and
+`reported_FIR_infractions` retain source-reported counts within one event record.
+Use non-negative integers (at most JavaScript's safe integer limit, 2^53 − 1).
+Omit an unreported count; zero means an explicitly reported zero. These different
+quantities must not be added together or expanded into event rows without
+separately identified occurrences. Attribute the counts in the record's prose.
+
 Sources require `id` (matching their object key), `publisher`, `title`, `url` and
 `audit`. Optional `dateLabel` preserves a publication-date label, including ranges
 and later updates. Missing publication dates are not guessed.

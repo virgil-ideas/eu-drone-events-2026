@@ -151,7 +151,7 @@
   'about.statTotal': 'Taifid ar an léarscáil',
   'about.statBase': 'Taifid bhunlíne',
   'about.statAdded': 'Teagmhais nua a cuireadh leis',
-  'about.statCandidates': 'Réada neamhaitheanta (Foláireamh / eile)',
+  'about.statCandidates': 'Réada neamhaitheanta',
   'about.statContexts': 'Taifid chomhiomlána/chomhthéacs, lasmuigh de chomhairimh na léarscáile',
   'about.statSources': 'Tagairtí foinse a coinníodh',
   'about.statCutoff': 'Deireadh an chlúdaigh',

@@ -151,7 +151,7 @@
   'about.statTotal': 'Záznamy na mapě',
   'about.statBase': 'Výchozí záznamy',
   'about.statAdded': 'Nově přidané události',
-  'about.statCandidates': 'Neidentifikované objekty (Výstraha / jiné)',
+  'about.statCandidates': 'Neidentifikované objekty',
   'about.statContexts': 'Souhrnné/kontextové záznamy, mimo počty na mapě',
   'about.statSources': 'Zachované odkazy na zdroje',
   'about.statCutoff': 'Uzávěrka dat',

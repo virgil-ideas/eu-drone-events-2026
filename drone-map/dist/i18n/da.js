@@ -151,7 +151,7 @@
   'about.statTotal': 'Registreringer på kortet',
   'about.statBase': 'Basisregistreringer',
   'about.statAdded': 'Nye hændelser tilføjet',
-  'about.statCandidates': 'Uidentificerede objekter (varsling / andet)',
+  'about.statCandidates': 'Uidentificerede objekter',
   'about.statContexts': 'Aggregerede og kontekstuelle registreringer, uden for kortets optælling',
   'about.statSources': 'Bevarede kildehenvisninger',
   'about.statCutoff': 'Dækningen slutter',

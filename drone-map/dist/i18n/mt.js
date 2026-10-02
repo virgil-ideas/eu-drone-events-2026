@@ -151,7 +151,7 @@
   'about.statTotal': 'Rekords fuq il-mappa',
   'about.statBase': 'Rekords bażi',
   'about.statAdded': 'Avvenimenti ġodda miżjuda',
-  'about.statCandidates': 'Oġġetti mhux identifikati (Twissija / oħrajn)',
+  'about.statCandidates': 'Oġġetti mhux identifikati',
   'about.statContexts': 'Rekords aggregati/ta’ kuntest, barra mill-għadd tal-mappa',
   'about.statSources': 'Referenzi għal sorsi miżmuma',
   'about.statCutoff': 'Tmiem il-kopertura',

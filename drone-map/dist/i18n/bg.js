@@ -151,7 +151,7 @@
   'about.statTotal': 'Записи на картата',
   'about.statBase': 'Базови записи',
   'about.statAdded': 'Нови добавени събития',
-  'about.statCandidates': 'Неидентифицирани обекти (Тревога / друго)',
+  'about.statCandidates': 'Неидентифицирани обекти',
   'about.statContexts': 'Обобщени/контекстни записи извън броя на картата',
   'about.statSources': 'Запазени препратки към източници',
   'about.statCutoff': 'Край на обхвата',

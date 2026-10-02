@@ -151,7 +151,7 @@
   'about.statTotal': 'Bejegyzések a térképen',
   'about.statBase': 'Az alapállomány bejegyzései',
   'about.statAdded': 'Újonnan hozzáadott események',
-  'about.statCandidates': 'Azonosítatlan objektumok (Riasztás / egyéb)',
+  'about.statCandidates': 'Azonosítatlan objektumok',
   'about.statContexts': 'Összesítő/kontextuális bejegyzések, a térképi számokon kívül',
   'about.statSources': 'Megőrzött forráshivatkozások',
   'about.statCutoff': 'Adatzárás',

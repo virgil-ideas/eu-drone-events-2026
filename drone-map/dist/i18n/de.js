@@ -151,7 +151,7 @@
   'about.statTotal': 'Einträge auf der Karte',
   'about.statBase': 'Einträge im Basisbestand',
   'about.statAdded': 'Neu hinzugefügte Ereignisse',
-  'about.statCandidates': 'Unidentifizierte Objekte (Warnung / Sonstiges)',
+  'about.statCandidates': 'Unidentifizierte Objekte',
   'about.statContexts': 'Sammel- und Kontexteinträge, nicht in der Kartenzählung',
   'about.statSources': 'Erhaltene Quellenverweise',
   'about.statCutoff': 'Erfassung endet',

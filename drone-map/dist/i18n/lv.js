@@ -151,7 +151,7 @@
   'about.statTotal': 'Ieraksti kartē',
   'about.statBase': 'Bāzes ieraksti',
   'about.statAdded': 'Jauni pievienotie notikumi',
-  'about.statCandidates': 'Neidentificēti objekti (Brīdinājums / cits)',
+  'about.statCandidates': 'Neidentificēti objekti',
   'about.statContexts': 'Apkopojošie/konteksta ieraksti, neietilpst kartes skaitos',
   'about.statSources': 'Saglabātās atsauces uz avotiem',
   'about.statCutoff': 'Datu aptveres beigas',

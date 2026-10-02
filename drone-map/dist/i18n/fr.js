@@ -151,7 +151,7 @@
   'about.statTotal': 'Fiches sur la carte',
   'about.statBase': 'Fiches de référence',
   'about.statAdded': 'Nouveaux événements ajoutés',
-  'about.statCandidates': 'Objets non identifiés (Alerte / autre)',
+  'about.statCandidates': 'Objets non identifiés',
   'about.statContexts': 'Fiches agrégées/de contexte, hors décomptes de la carte',
   'about.statSources': 'Références de sources conservées',
   'about.statCutoff': 'Fin de la couverture',

@@ -151,7 +151,7 @@
   'about.statTotal': 'Zapisi na zemljevidu',
   'about.statBase': 'Osnovni zapisi',
   'about.statAdded': 'Novi dodani dogodki',
-  'about.statCandidates': 'Neidentificirani predmeti (Opozorilo / drugo)',
+  'about.statCandidates': 'Neidentificirani predmeti',
   'about.statContexts': 'Zbirni/kontekstni zapisi, zunaj štetja na zemljevidu',
   'about.statSources': 'Ohranjeni sklici na vire',
   'about.statCutoff': 'Konec zajema',

@@ -151,7 +151,7 @@
   'about.statTotal': 'Registos no mapa',
   'about.statBase': 'Registos de base',
   'about.statAdded': 'Novas ocorrências adicionadas',
-  'about.statCandidates': 'Objetos não identificados (Alerta / outro)',
+  'about.statCandidates': 'Objetos não identificados',
   'about.statContexts': 'Registos agregados/de contexto, fora das contagens do mapa',
   'about.statSources': 'Referências a fontes mantidas',
   'about.statCutoff': 'Fim da cobertura',

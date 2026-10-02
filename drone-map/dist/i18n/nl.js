@@ -151,7 +151,7 @@
   'about.statTotal': 'Registraties op de kaart',
   'about.statBase': 'Basisregistraties',
   'about.statAdded': 'Nieuw toegevoegde voorvallen',
-  'about.statCandidates': 'Ongeïdentificeerde objecten (waarschuwing / overig)',
+  'about.statCandidates': 'Ongeïdentificeerde objecten',
   'about.statContexts': 'Verzamel- en contextregistraties, buiten de kaarttelling',
   'about.statSources': 'Behouden bronverwijzingen',
   'about.statCutoff': 'Dekking eindigt',

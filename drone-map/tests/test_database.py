@@ -141,6 +141,28 @@ class DatabaseTests(unittest.TestCase):
         with self.assertRaisesRegex(DataError, 'duplicate anchor'):
             self.validate()
 
+    def test_reported_counts_are_optional_and_do_not_multiply_events(self):
+        exported = browser_data(self.validate())['events']
+        self.assertNotIn('reported_UAVs', exported[0])
+        counts = {'reported_UAVs': 1, 'reported_airspace_violations': 2,
+                  'reported_FIR_infractions': 1}
+        self.database['events'][0].update(counts)
+        exported = browser_data(self.validate())['events']
+        self.assertEqual(len(exported), 1)
+        self.assertEqual({key: exported[0][key] for key in counts}, counts)
+        self.database['events'][0]['reported_FIR_infractions'] = 0
+        self.validate()  # An explicit zero is distinct from an unreported count.
+
+    def test_reported_counts_reject_invalid_values(self):
+        event = self.database['events'][0]
+        for key in ('reported_UAVs', 'reported_airspace_violations', 'reported_FIR_infractions'):
+            for value in (-1, 1.5, 1.0, '1', True, False, None, 2**53):
+                with self.subTest(key=key, value=value):
+                    event[key] = value
+                    with self.assertRaisesRegex(DataError, key + ': expected a non-negative safe integer'):
+                        self.validate()
+            del event[key]
+
     def test_outcome_stages_and_record_classes_are_consistent(self):
         event = self.database['events'][0]
         for key, value in [('category', 'unknown'), ('stages', []), ('stages', ['flight']),

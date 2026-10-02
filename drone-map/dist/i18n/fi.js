@@ -151,7 +151,7 @@
   'about.statTotal': 'Merkinnät kartalla',
   'about.statBase': 'Perusaineiston merkinnät',
   'about.statAdded': 'Uudet lisätyt tapahtumat',
-  'about.statCandidates': 'Tunnistamattomat kohteet (hälytys / muu)',
+  'about.statCandidates': 'Tunnistamattomat kohteet',
   'about.statContexts': 'Kooste- ja taustamerkinnät, ei lasketa kartan lukuihin',
   'about.statSources': 'Säilytetyt lähdeviitteet',
   'about.statCutoff': 'Aineisto päättyy',

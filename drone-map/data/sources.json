@@ -1369,5 +1369,37 @@
     "title": "Drone and sea-mine incident dashboard: 29 September snapshot",
     "audit": "Reviewed 2026-09-29. The 2026 counters are 82 nearby attacks, 65 aircraft-response incidents, 30 unauthorized entries, 4 shoot-downs, 43 drone/fragment identifications or recoveries/neutralizations, and 2 sea mines. Categories overlap; the counter does not attribute an individual find or prove its foreign origin.",
     "url": "https://www.mapn.ro/"
+  },
+  "U017": {
+    "id": "U017",
+    "publisher": "OnAlert",
+    "dateLabel": "2026-10-01, 18:12",
+    "title": "Greek military account: one Turkish UAV, two airspace violations in the southeastern Aegean",
+    "audit": "Reviewed 2026-10-02. Reproduces the Hellenic National Defence General Staff account and counts. Original bulletin and flight track not independently retrieved. The Reuters image is explicitly a file photo, not incident imagery.",
+    "url": "https://www.onalert.gr/ellinotourkika/tourkiko-drone-ekane-dyo-paraviaseis-tou-enaeriou-xorou-sto-notioanatoliko-aigaio/823352/"
+  },
+  "U018": {
+    "id": "U018",
+    "publisher": "NewsIT",
+    "dateLabel": "2026-10-01, 19:18",
+    "title": "Turkish drone made two reported national-airspace violations in the Aegean",
+    "audit": "Reviewed 2026-10-02. Repeats the one-UAV, two-violation, one-FIR-infraction account and credits OnAlert as its source; not independent corroboration or a separate occurrence.",
+    "url": "https://www.newsit.gr/ellada/tourkiko-drone-ekane-2-paraviaseis-tou-ethnikou-enaeriou-xorou-sto-aigaio/4787993/"
+  },
+  "U019": {
+    "id": "U019",
+    "publisher": "Romanian Ministry of National Defence",
+    "dateLabel": "2026-10-02",
+    "title": "Press information No. 318: possible drone fall and fire near Plauru",
+    "audit": "Reviewed 2026-10-02. Preliminary official report: possible drone, site secured, examination pending. No radar-recorded unauthorized airspace entry, casualties or material damage. Does not establish foreign origin or a completed recovery.",
+    "url": "https://www.mapn.ro/cpresa/19427_informa%C8%9Bie-de-presa"
+  },
+  "U020": {
+    "id": "U020",
+    "publisher": "Romanian Ministry of National Defence",
+    "dateLabel": "Dashboard updated 2026-10-02",
+    "title": "Drone and sea-mine incident dashboard: 2 October snapshot",
+    "audit": "Reviewed 2026-10-02. The 2026 counters are 84 nearby attacks, 66 aircraft-response incidents, 30 unauthorized entries, 4 shoot-downs, 44 drone/fragment identifications or recoveries/neutralizations, and 2 sea mines. Categories overlap; the increase does not identify or attribute an individual object.",
+    "url": "https://www.mapn.ro/"
   }
 }

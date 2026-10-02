@@ -151,7 +151,7 @@
   'about.statTotal': 'Kirjed kaardil',
   'about.statBase': 'Baaskirjed',
   'about.statAdded': 'Uued lisatud sündmused',
-  'about.statCandidates': 'Tuvastamata objektid (häire / muu)',
+  'about.statCandidates': 'Tuvastamata objektid',
   'about.statContexts': 'Koond- ja taustakirjed, kaardi arvestusest väljas',
   'about.statSources': 'Säilitatud allikaviited',
   'about.statCutoff': 'Andmed kuni',

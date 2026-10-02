@@ -151,7 +151,7 @@
   'about.statTotal': 'Wpisy na mapie',
   'about.statBase': 'Wpisy bazowe',
   'about.statAdded': 'Nowo dodane zdarzenia',
-  'about.statCandidates': 'Niezidentyfikowane obiekty (Ostrzeżenie / inne)',
+  'about.statCandidates': 'Niezidentyfikowane obiekty',
   'about.statContexts': 'Wpisy zbiorcze/kontekstowe, poza liczbami na mapie',
   'about.statSources': 'Zachowane odniesienia do źródeł',
   'about.statCutoff': 'Koniec zakresu danych',
