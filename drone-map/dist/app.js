@@ -20,7 +20,7 @@
     if (translations[code]) return Promise.resolve(true);
     return new Promise(resolve => {
       const script = document.createElement('script');
-      script.src = `i18n/${code}.js`;
+      script.src = `i18n/${code}.js?v=20261002-90d`;
       script.onload = () => resolve(Boolean(translations[code]));
       script.onerror = () => { script.remove(); resolve(false); };
       document.head.append(script);
@@ -431,46 +431,54 @@
     scroller.scrollTo({top, behavior});
   }
 
-  // Trend: calendar months, the latest three (including the current, partial
-  // month) against the three before. Counts derive from the generated data.
+  // Monthly bars provide context; the comparison uses two equal 90-day windows.
   const year = Number(cutoff.slice(0,4));
   const months = Array.from({length:Number(cutoff.slice(5,7))}, (_,i) => `${year}-${String(i + 1).padStart(2,'0')}`);
   const monthTotals = months.map(month => events.filter(event => event.startDate.startsWith(month)).length);
   const maxMonthTotal = Math.max(1, ...monthTotals);
-  const recentStart = Math.max(0, months.length - 3);
-  const previousStart = Math.max(0, months.length - 6);
-  const sumMonths = (from, to) => monthTotals.slice(from, to).reduce((sum, count) => sum + count, 0);
-  const recentTotal = sumMonths(recentStart, months.length);
-  const previousTotal = sumMonths(previousStart, recentStart);
+  const comparison = window.DRONE_TREND.rollingComparison(events, cutoff);
+  const {recentTotal, previousTotal, change, hasComparison} = comparison;
+  const trendGroup = date => window.DRONE_TREND.windowForDate(date, comparison);
+  const trendGroups = ['earlier', 'previous', 'recent'];
   const monthStart = index => new Date(Date.UTC(year, index, 1));
   const monthEnd = index => new Date(Date.UTC(year, index + 1, 0));
   const formatRange = (from, to) => format.short.formatRange ? format.short.formatRange(from, to) : `${format.short.format(from)} – ${format.short.format(to)}`;
   function renderTrend() {
-    const change = previousTotal ? recentTotal / previousTotal - 1 : null;
+    document.querySelector('.trend-figure').hidden = !hasComparison;
+    $('trend-compare').hidden = !hasComparison;
     $('trend-delta').textContent = change === null ? '—' : format.delta.format(change);
     $('trend-delta').classList.toggle('up', change > 0);
     $('trend-delta').classList.toggle('down', change < 0);
-    $('trend-compare').textContent = t('trend.compare',{recent:recentTotal, previous:previousTotal, recentRange:formatRange(monthStart(recentStart), utcDate(cutoff)), previousRange:formatRange(monthStart(previousStart), monthEnd(recentStart - 1))});
+    $('trend-compare').textContent = t('trend.compare',{recent:recentTotal, previous:previousTotal, recentRange:formatRange(utcDate(comparison.recentStart), utcDate(comparison.recentEnd)), previousRange:formatRange(utcDate(comparison.previousStart), utcDate(comparison.previousEnd))});
     $('trend-share').textContent = t('trend.share',{share:format.percent.format(recentTotal / events.length)});
     const partialMonth = cutoff !== monthEnd(months.length - 1).toISOString().slice(0,10);
     const monthLabel = index => format.monthLong.format(monthStart(index));
+    const partialNote = t('trend.partialNote',{month:monthLabel(months.length - 1), date:shortDate(cutoff)});
+    $('trend-partial').hidden = !partialMonth;
+    $('trend-partial').textContent = `* ${partialNote}`;
     // Short month names where they fit the columns; otherwise narrow initials.
     const shortMonths = months.map((_,i) => format.month.format(monthStart(i)).replace(/\.$/,''));
     const columnMonths = shortMonths.some(name => name.length > 4) ? months.map((_,i) => format.monthNarrow.format(monthStart(i))) : shortMonths;
     $('trend-chart').style.setProperty('--months', months.length);
-    $('trend-chart').setAttribute('aria-label', t('trend.chartLabel',{list:format.list.format(months.map((_,i) => `${monthLabel(i)} ${format.number.format(monthTotals[i])}`))}));
-    $('trend-chart').innerHTML = `<div class="trend-columns" aria-hidden="true">${months.map((_,i) => {
-      const group = i >= recentStart ? 'recent' : i >= previousStart ? 'previous' : 'earlier';
-      const title = t('trend.column',{month:monthLabel(i), n:monthTotals[i]}) + (partialMonth && i === months.length - 1 ? ` (${t('trend.partial',{date:shortDate(cutoff)})})` : '');
-      return `<div class="trend-column ${group}" title="${escape(title)}"><span class="trend-value">${format.number.format(monthTotals[i])}</span><span class="trend-bar" style="--h:${monthTotals[i] / maxMonthTotal}"><span class="trend-fill"></span></span><span class="trend-month">${escape(columnMonths[i])}</span></div>`;
-    }).join('')}</div><div class="trend-brackets" aria-hidden="true">${previousStart < recentStart ? `<span class="trend-bracket previous" style="grid-column:${previousStart + 1} / ${recentStart + 1}" title="${escape(t('trend.legendPrevious'))}">${format.number.format(previousTotal)}</span>` : ''}<span class="trend-bracket recent" style="grid-column:${recentStart + 1} / ${months.length + 1}" title="${escape(t('trend.legendRecent'))}">${format.number.format(recentTotal)}</span></div>`;
+    $('trend-chart').setAttribute('aria-label', t('trend.chartLabel',{list:format.list.format(months.map((_,i) => `${monthLabel(i)} ${format.number.format(monthTotals[i])}`))}) + (partialMonth ? `. ${partialNote}` : ''));
+    $('trend-chart').innerHTML = `<div class="trend-columns" aria-hidden="true">${months.map((month,i) => {
+      const partial = partialMonth && i === months.length - 1;
+      const title = t('trend.column',{month:monthLabel(i), n:monthTotals[i]}) + (partial ? ` (${t('trend.partial',{date:shortDate(cutoff)})})` : '');
+      const recent = events.some(event => event.startDate.startsWith(month) && trendGroup(event.startDate) === 'recent');
+      return `<div class="trend-column${recent ? ' recent' : ''}${partial ? ' partial' : ''}" title="${escape(title)}"><span class="trend-value">${format.number.format(monthTotals[i])}</span><span class="trend-bar" style="--h:${monthTotals[i] / maxMonthTotal}">${trendGroups.map(group => `<span class="trend-fill ${group}" data-month="${month}" data-window="${group}"></span>`).join('')}</span><span class="trend-month">${escape(columnMonths[i])}${partial ? '*' : ''}</span></div>`;
+    }).join('')}</div><div class="trend-window-key" aria-hidden="true"><span><i class="previous"></i>${escape(t('trend.legendPrevious'))}</span><span><i class="recent"></i>${escape(t('trend.legendRecent'))}</span></div>`;
     renderTrendProgress();
   }
   function renderTrendProgress() {
-    const visibleByMonth = new Map();
-    visibleEvents.forEach(event => visibleByMonth.set(event.startDate.slice(0,7), (visibleByMonth.get(event.startDate.slice(0,7)) || 0) + 1));
-    document.querySelectorAll('.trend-fill').forEach((fill, i) => {
-      fill.style.height = monthTotals[i] ? `${(visibleByMonth.get(months[i]) || 0) / monthTotals[i] * 100}%` : '0';
+    const counts = new Map();
+    visibleEvents.forEach(event => {
+      const key = `${event.startDate.slice(0,7)}:${trendGroup(event.startDate)}`;
+      counts.set(key, (counts.get(key) || 0) + 1);
+    });
+    document.querySelectorAll('.trend-fill').forEach(fill => {
+      const month = fill.dataset.month;
+      const total = monthTotals[months.indexOf(month)];
+      fill.style.height = total ? `${(counts.get(`${month}:${fill.dataset.window}`) || 0) / total * 100}%` : '0';
     });
   }
 
@@ -489,8 +497,8 @@
     }
     line += `H${CHART_WIDTH}`;
     const area = `${line}V${CHART_HEIGHT}H0Z`;
-    const windowDay = Math.max(0, dayOf(monthStart(recentStart).toISOString().slice(0,10)));
-    const before = runningTotals[Math.max(0, windowDay - 1)];
+    const windowDay = Math.max(0, dayOf(comparison.recentStart));
+    const before = windowDay > 0 ? runningTotals[windowDay - 1] : 0;
     const point = (day, count) => `left:${chartX(day) / CHART_WIDTH * 100}%;bottom:${(CHART_HEIGHT - chartY(count)) / CHART_HEIGHT * 100}%`;
     $('cumulative').innerHTML = `<svg viewBox="0 0 ${CHART_WIDTH} ${CHART_HEIGHT}" preserveAspectRatio="none" aria-hidden="true"><defs><clipPath id="cumulative-progress"><rect id="cumulative-clip" x="0" y="0" width="${CHART_WIDTH}" height="${CHART_HEIGHT}"/></clipPath></defs><rect class="cumulative-window" x="${chartX(windowDay)}" y="0" width="${CHART_WIDTH - chartX(windowDay)}" height="${CHART_HEIGHT}"/><path class="cumulative-area ghost" d="${area}"/><path class="cumulative-line ghost" d="${line}" vector-effect="non-scaling-stroke"/><g clip-path="url(#cumulative-progress)"><path class="cumulative-area" d="${area}"/><path class="cumulative-line" d="${line}" vector-effect="non-scaling-stroke"/></g></svg><span class="cumulative-title">${escape(t('cumulative.title'))}</span><span class="cumulative-window-label" style="left:${chartX(windowDay) / CHART_WIDTH * 100}%">${escape(t('trend.legendRecent'))}</span><span class="cumulative-point" style="${point(windowDay, before)}"><span>${format.number.format(before)}</span></span><span class="cumulative-point end" style="${point(totalDays, events.length)}"><span>${format.number.format(events.length)}</span></span>`;
     $('cumulative').setAttribute('aria-label', t('cumulative.aria',{first:before, firstDate:shortDate(dayToDate(Math.max(0, windowDay - 1))), last:events.length, lastDate:shortDate(cutoff)}));

@@ -24,6 +24,8 @@ jobs:
         run: |
           python3 -m unittest discover -s drone-map/tests -v
           python3 drone-map/scripts/build-data.py --check
+          node --test drone-map/tests/test_trend.cjs
+          node --check drone-map/dist/trend-data.js
           node --check drone-map/dist/app.js
           node --check drone-map/dist/mobile.js
           node --check drone-map/dist/analytics.js

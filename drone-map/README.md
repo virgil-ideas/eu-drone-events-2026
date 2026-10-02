@@ -16,14 +16,18 @@ Then open <http://127.0.0.1:4173>. No API key, package installation or build ste
 - Select a marker or a row in the register to see its details: linked images or video first, then the source references, then the original record fields. On desktop the sidebar scrolls as one column (trend panel, then the register). On phones, Explore the records opens a pull-up panel with monthly records and trends expanded by default; the whole panel scrolls. The register lists the newest records first; during replay and scrubbing it follows the newest records only while you are scrolled into the list, so the trend panel otherwise stays in view.
 - Replay starts on 1 January 2026 and moves continuously through every calendar day, including quiet days before the first record; records accumulate. At 1× it advances 8 days per second (about 34 seconds for the full timeline); 2× and 4× run at 16 and 32 days per second. Pause/resume preserves progress. Scrubbing snaps to calendar dates, keyboard arrows move one day, and the previous/next buttons step between event dates. Existing markers remain in place as new records appear. New arrivals get one fading ripple (disabled for reduced-motion preferences) and a quiet, 240 ms synthesized sine tone. Each type has a note in C-major pentatonic order: alert C5, recovery D5, flight E5, disposal G5, engagement A5, shoot-down C6, crash D6, explosion E6. Different types arriving on the same date form a chord; repeated types subtly weight the mix. Total gain is normalized to keep chords quiet, and successive dates crossfade so fast playback does not pile up sound. Sound starts only after a user gesture and can be muted with the speaker button. Scrubbing and Show all are silent.
 - All 118 records appear in one view: 84 baseline records, 27 supplemental event additions, four later event additions, the unidentified object N033 under Alert / other and provisional discoveries N067 and N069 under Recovery. The three supplemental precautionary alerts and 32 daily reports are excluded from the map; the complete unchanged research update remains downloadable.
-- The running-total curve above the scrubber shows how records accumulate; the played part is colored and the rest stays as a gray preview. The shaded band marks the last three calendar months, with the total before the band and at the cutoff labelled.
+- The running-total curve above the scrubber shows how records accumulate; the played part is colored and the rest stays as a gray preview. The shaded band marks the last 90 calendar days, with the total before the band and at the cutoff labelled.
 - On phones, the map fills the available screen above compact replay controls. Map key opens the legend, and the three-dot playback control reveals the running-total curve, previous/next buttons and Show all. Panels preserve the map and replay state, and the desktop layout returns automatically on wider screens.
 - Show all resets the date and full map extent.
 - About the data explains the counting rules and includes the eight non-additive context records and both original Markdown downloads.
 
 ## Trend panel
 
-The sidebar opens with records per month. The headline compares the last three calendar months, including the current partial month, with the three months before (for the 2 October cutoff: 1 August – 2 October against 1 May – 31 July). Columns for the last three months are dark, the comparison months mid-gray and earlier months light; brackets under the columns give each window's total. During replay the columns fill up to the playhead. All figures derive from `events.js`, count records by first listed date, and describe this register rather than a verified count of attacks; the About dialog explains the caveats.
+The sidebar opens with records per month. The headline compares the last 90 calendar days, including the coverage cutoff, with the preceding 90 days. At the 2 October cutoff this is 5 July–2 October (81 records) against 6 April–4 July (24 records), an increase of 238% after rounding. A month rollover advances the windows by one day rather than replacing an entire month.
+
+The bars retain actual monthly totals. Their segments assign individual records to the recent window (dark), preceding window (mid-gray) or earlier dates (light), including when a boundary falls within a month. An incomplete final month has a striped bar, an asterisk and a visible cutoff note; it is not extrapolated. During replay segments fill with the records visible at the playhead. The percentage stays tied to the dataset cutoff and is omitted if either historical coverage is insufficient or the previous count is zero. All figures count records by first listed date and describe this register rather than a verified count of attacks; the About dialog explains the caveats.
+
+Run the rolling-window boundary tests with `node --test tests/test_trend.cjs`.
 
 ## Marker colors
 
@@ -116,6 +120,7 @@ The script runs only on `droneincidents.eu`, its `www` variant, and the original
 - `dist/index.html` — complete static page
 - `dist/styles.css` — shared and desktop layouts
 - `dist/mobile.css` and `dist/mobile.js` — phone layout, record and legend sheets
+- `dist/trend-data.js` — UTC rolling-window calculations shared by the UI and boundary tests
 - `dist/app.js` — map, trend panel, event details, replay controls and language switching
 - `dist/analytics.js` — production-only visitor counting
 - `dist/events.js` — generated browser data; do not edit directly

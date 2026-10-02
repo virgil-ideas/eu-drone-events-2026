@@ -23,14 +23,15 @@
     })();
   </script>
   <link rel="stylesheet" href="vendor/leaflet.css">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=20261002-90d">
   <link rel="stylesheet" href="mobile.css">
   <script defer src="vendor/leaflet.js"></script>
   <script defer src="events.js"></script>
   <script defer src="media.js"></script>
-  <script defer src="i18n/en.js"></script>
+  <script defer src="i18n/en.js?v=20261002-90d"></script>
   <script defer src="mobile.js"></script>
-  <script defer src="app.js"></script>
+  <script defer src="trend-data.js?v=20261002-90d"></script>
+  <script defer src="app.js?v=20261002-90d"></script>
   <script defer src="analytics.js"></script>
 </head>
 <body>
@@ -47,9 +48,10 @@
         <div class="register-stats"><div><strong id="record-total">118</strong><span data-i18n="stats.records">records</span></div><div><strong id="country-total">10</strong><span data-i18n="stats.countries">EU countries</span></div><div><strong id="cutoff-label">2 Oct</strong><span data-i18n="stats.cutoff">coverage cutoff</span></div></div>
         <section class="trend" aria-labelledby="trend-delta-label">
           <p class="eyebrow" data-i18n="trend.eyebrow">RECORDS PER MONTH</p>
-          <div class="trend-figure"><strong id="trend-delta" class="trend-delta"></strong><span id="trend-delta-label" class="trend-delta-label" data-i18n="trend.deltaLabel">last 3 months vs the 3 months before</span></div>
+          <div class="trend-figure"><strong id="trend-delta" class="trend-delta"></strong><span id="trend-delta-label" class="trend-delta-label" data-i18n="trend.deltaLabel">last 90 days vs the preceding 90 days</span></div>
           <p id="trend-compare" class="trend-compare"></p>
           <div id="trend-chart" class="trend-chart" role="img"></div>
+          <p id="trend-partial" class="trend-partial" hidden></p>
           <p class="trend-share"><span id="trend-share"></span> <button id="trend-how" class="trend-how" data-i18n="trend.how">How this is counted</button></p>
         </section>
       </div>
