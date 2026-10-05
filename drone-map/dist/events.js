@@ -5081,6 +5081,96 @@ window.DRONE_DATA = {
       "recordClass": "candidate",
       "recordType": "provisional_drone_discovery",
       "matchKey": "RO::2026-10-02::plauru-object-fall-fire"
+    },
+    {
+      "id": "N070",
+      "dateLabel": "2026-10-03",
+      "startDate": "2026-10-03",
+      "dateBasis": "Morning alert and search on 3 October; LT72 issued yellow at 09:48 and all-clear at 10:34 local time.",
+      "countries": "Lithuania",
+      "location": "Vilnius County / Ukmergė alert area; exact radar-contact location unpublished.",
+      "status": "Unidentified radar contact; foreign UAV incursion unconfirmed",
+      "categories": "Suspected cross-border object; air alert and unsuccessful identification search",
+      "vehicle": "Unidentified; a drone, birds or a radar anomaly remained possible.",
+      "attribution": "Operator and nationality unresolved; an approach from Belarus does not establish Belarusian or Russian responsibility.",
+      "route": "Initially reported as entering from Belarus. Later officials described a track toward Vilnius and Ukmergė that vanished before reaching Vilnius; no verified UAV route.",
+      "circumstances": "A suspected object prompted an official yellow alert and temporary closure of Vilnius Airport’s controlled airspace.",
+      "payload": "Unknown.",
+      "impact": "No confirmed wreckage, casualties or damage. Reports of a possible fire/explosion were not substantiated.",
+      "response": "NATO fighters did not locate the object; a Lithuanian Air Force helicopter found nothing suspicious. Search ended around 13:00.",
+      "uncertainty": "Official response confirmed; low-to-moderate confidence in UAV identity. Officials said the unusually slow track could represent birds or an anomaly. Foreign incursion unconfirmed.",
+      "deduplication": "One unresolved-object candidate for this dated contact, alert and search; these responses do not create additional events.",
+      "provenance": "Reviewed 2026-10-05 against LT72 notices, Reuters and LRT’s later official-response coverage. Retains uncertainty after the search.",
+      "sourceReferences": "[U021][U021]; [U022][U022]; [U023][U023]; [U024][U024]",
+      "sources": [
+        "U021",
+        "U022",
+        "U023",
+        "U024"
+      ],
+      "title": "Vilnius County / Ukmergė · unidentified radar contact",
+      "category": "alert",
+      "positions": [
+        {
+          "lat": 55.05,
+          "lng": 25.2,
+          "precision": "region",
+          "label": "Vilnius County / Ukmergė alert region — representative anchor only"
+        }
+      ],
+      "stages": [
+        "alert"
+      ],
+      "classificationNote": "Other/unidentified candidate, not a confirmed foreign UAV flight, impact or interception.",
+      "positionNote": "Editorial anchor for the alert area, not a verified border crossing, flight track or recovery site.",
+      "recordClass": "candidate",
+      "recordType": "unidentified_object",
+      "matchKey": "LT::2026-10-03::vilnius-county-ukmerge-unidentified-contact"
+    },
+    {
+      "id": "N071",
+      "dateLabel": "2026-10-04",
+      "startDate": "2026-10-04",
+      "dateBasis": "Activity on 4 October, reported that evening; separate sortie times unspecified.",
+      "countries": "Greece",
+      "location": "Northeastern and central Aegean; exact sites unpublished.",
+      "status": "Greek-authority-reported Turkish UAV airspace violations",
+      "categories": "Six reported national-airspace violations and three Athens FIR infractions",
+      "vehicle": "Two Turkish UAVs per Greek military reporting; models unspecified.",
+      "attribution": "Turkish attribution and national-airspace characterization are those of the Hellenic National Defence General Staff, relayed by OnAlert; the Greek-Turkish airspace dispute remains relevant.",
+      "route": "Regional scope only; no independently verified tracks.",
+      "circumstances": "The military account distinguishes two UAVs, six national-airspace violations and three FIR infringements.",
+      "payload": "No armed aircraft reported; payload unspecified.",
+      "impact": "No crash, casualties or damage reported.",
+      "response": "Identified and intercepted under standard procedures; no engagements or shoot-downs reported.",
+      "uncertainty": "Original military bulletin not retrieved directly. No independently verified coordinates, tracks or models.",
+      "deduplication": "One dated activity record; the 2/6/3 counts measure different things and do not create separate rows. Distinct from N068 on 1 October.",
+      "provenance": "Reviewed 2026-10-05 against OnAlert’s reproduction of the military account. Original research snapshots unchanged.",
+      "sourceReferences": "[U025][U025]",
+      "sources": [
+        "U025"
+      ],
+      "title": "Northeastern / central Aegean · Greek-reported Turkish UAVs",
+      "category": "flight",
+      "positions": [
+        {
+          "lat": 38.8,
+          "lng": 25.5,
+          "precision": "region",
+          "label": "Northeastern / central Aegean — broad representative anchor"
+        }
+      ],
+      "stages": [
+        "flight"
+      ],
+      "classificationNote": "Flight: routine interception does not establish armed engagement.",
+      "positionNote": "Editorial regional anchor, not a verified violation point or airspace boundary.",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "matchKey": "GR::2026-10-04::northeastern-central-aegean-uav-activity",
+      "reported_UAVs": 2,
+      "reported_airspace_violations": 6,
+      "reported_FIR_infractions": 3
     }
   ],
   "contexts": [
@@ -5133,27 +5223,29 @@ window.DRONE_DATA = {
     },
     {
       "id": "A003",
-      "dateLabel": "2026 year to date; dashboard checked 2026-10-02",
-      "dateBasis": "Dashboard snapshot updated 2 October 2026",
+      "dateLabel": "2026 year to date; dashboard checked 2026-10-05",
+      "dateBasis": "Dashboard snapshot updated 5 October 2026",
       "countries": "Romania",
       "location": "MApN official national dashboard; categories defined by the ministry",
       "status": "Official overlapping counters — NOT additive",
       "categories": "Near-border attacks; scrambles; unauthorized access; shoot-downs; fragments; separate mine counter",
-      "vehicle": "2026 dashboard: 84 near-border attacks; 66 aircraft-response incidents; 30 unauthorized entries; 4 shot-down drones; 44 drones/fragments identified, recovered or neutralized; 2 naval mines",
+      "vehicle": "2026 dashboard: 85 near-border attacks; 67 aircraft-response incidents; 30 unauthorized entries; 4 shot-down drones; 44 drones/fragments identified, recovered or neutralized; 2 naval mines",
       "attribution": "Different populations: nearby attacks, responses, airspace incidents and recoveries",
       "route": "Not an event-by-event route dataset",
-      "circumstances": "Current official snapshot retained separately from the research chronology. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 in this update; the changes alone do not establish which events they represent.",
+      "circumstances": "Current official snapshot retained separately from the research chronology. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 on 2 and 5 October; changes alone do not identify individual events. The 4–5 October Vâlcove alert involved no detected Romanian airspace entry and is excluded from the map (U026).",
       "payload": "Not reported",
       "impact": "Not reported",
       "response": "MApN operational/recovery categories.",
       "uncertainty": "Categories overlap and use ministry-specific populations. These totals cannot be reconciled automatically with all-agency/news records and do not establish the identity or nationality of an individual object.",
       "deduplication": "All categories overlap. Mine counter is not a drone count. Do not total counters or use them to replace the incident register.",
-      "provenance": "A003 refreshed on 2026-10-02 against the Romanian-language MApN dashboard (U020). Earlier snapshots remain documented in the original research and Git history (S62 and U016).",
-      "sourceReferences": "[S62][S62]; [U016][U016]; [U020][U020]",
+      "provenance": "A003 refreshed on 2026-10-05 against the MApN dashboard (U027). Earlier snapshots remain documented in the original research and Git history (S62, U016 and U020).",
+      "sourceReferences": "[S62][S62]; [U016][U016]; [U020][U020]; [U026][U026]; [U027][U027]",
       "sources": [
         "S62",
         "U016",
-        "U020"
+        "U020",
+        "U026",
+        "U027"
       ]
     },
     {
@@ -6648,9 +6740,65 @@ window.DRONE_DATA = {
       "title": "Drone and sea-mine incident dashboard: 2 October snapshot",
       "audit": "Reviewed 2026-10-02. The 2026 counters are 84 nearby attacks, 66 aircraft-response incidents, 30 unauthorized entries, 4 shoot-downs, 44 drone/fragment identifications or recoveries/neutralizations, and 2 sea mines. Categories overlap; the increase does not identify or attribute an individual object.",
       "url": "https://www.mapn.ro/"
+    },
+    "U021": {
+      "id": "U021",
+      "publisher": "LT72 / Lithuanian Fire and Rescue Department",
+      "dateLabel": "2026-10-03, 09:48 local time",
+      "title": "Yellow air alert for Vilnius County",
+      "audit": "Reviewed 2026-10-05. Official alert notice; establishes the warning, not a drone identification.",
+      "url": "https://lt72.lt/oro-pavojus-geltona/"
+    },
+    "U022": {
+      "id": "U022",
+      "publisher": "LT72 / Lithuanian Fire and Rescue Department",
+      "dateLabel": "2026-10-03, 10:34 local time",
+      "title": "All-clear notice for Vilnius County",
+      "audit": "Reviewed 2026-10-05. Official cancellation of the air alert; does not establish what caused the contact.",
+      "url": "https://lt72.lt/oro-pavojaus-atsaukimas-balta/"
+    },
+    "U023": {
+      "id": "U023",
+      "publisher": "Reuters via AOL",
+      "dateLabel": "2026-10-03, 07:55 UTC",
+      "title": "Lithuania closed Vilnius airport, scrambled NATO jets due to suspected drone",
+      "audit": "Reviewed 2026-10-05. Initial account citing the National Crisis Management Centre; identification still under investigation.",
+      "url": "https://www.aol.com/articles/lithuania-closed-vilnius-airport-scrambled-075556000.html"
+    },
+    "U024": {
+      "id": "U024",
+      "publisher": "LRT / ELTA / BNS",
+      "dateLabel": "2026-10-03, 13:22; updated 13:40",
+      "title": "Crisis Management Centre: object not found, search ended",
+      "audit": "Reviewed 2026-10-05. Later account quotes the crisis centre and armed forces: object unidentified, helicopter search negative; birds or anomaly possible.",
+      "url": "https://www.lrt.lt/naujienos/lietuvoje/2/3071067/kriziu-valdymo-centro-vadovas-objektas-nebuvo-aptiktas-paieska-nutraukta"
+    },
+    "U025": {
+      "id": "U025",
+      "publisher": "OnAlert",
+      "dateLabel": "2026-10-04, 18:36",
+      "title": "Aegean: Greek military reports two Turkish UAVs, six airspace violations and three FIR infractions",
+      "audit": "Reviewed 2026-10-05. Reproduces HNDGS figures and routine interceptions; attribution and violation assessment remain Greek-authority claims.",
+      "url": "https://www.onalert.gr/ellinotourkika/aigaio-nees-paravaseis-kai-paraviaseis-tourkikon-uav-2/823906/"
+    },
+    "U026": {
+      "id": "U026",
+      "publisher": "Romanian Ministry of National Defence",
+      "dateLabel": "2026-10-05; release No. 320",
+      "title": "Overnight 4–5 October alert: no Romanian airspace entry detected",
+      "audit": "Reviewed 2026-10-05. Excluded from mapped records: target east of Vâlcove in Ukrainian airspace; precautionary response does not establish an incursion.",
+      "url": "https://www.mapn.ro/cpresa/19429_informatie-de-presa"
+    },
+    "U027": {
+      "id": "U027",
+      "publisher": "Romanian Ministry of National Defence",
+      "dateLabel": "Dashboard updated 2026-10-05",
+      "title": "Drone and sea-mine incident dashboard: 5 October snapshot",
+      "audit": "Reviewed 2026-10-05. 2026 counters: 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries, 4 shoot-downs, 44 identifications/recoveries/neutralizations and 2 sea mines. Categories overlap.",
+      "url": "https://www.mapn.ro/"
     }
   },
-  "cutoff": "2026-10-02",
+  "cutoff": "2026-10-05",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

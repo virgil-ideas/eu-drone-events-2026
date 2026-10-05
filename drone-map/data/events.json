@@ -4969,5 +4969,95 @@
     "recordType": "provisional_drone_discovery",
     "reviewedOn": "2026-10-02",
     "matchKey": "RO::2026-10-02::plauru-object-fall-fire"
+  },
+  {
+    "id": "N070",
+    "dateLabel": "2026-10-03",
+    "startDate": "2026-10-03",
+    "dateBasis": "Morning alert and search on 3 October; LT72 issued yellow at 09:48 and all-clear at 10:34 local time.",
+    "countries": "Lithuania",
+    "location": "Vilnius County / Ukmergė alert area; exact radar-contact location unpublished.",
+    "status": "Unidentified radar contact; foreign UAV incursion unconfirmed",
+    "categories": "Suspected cross-border object; air alert and unsuccessful identification search",
+    "vehicle": "Unidentified; a drone, birds or a radar anomaly remained possible.",
+    "attribution": "Operator and nationality unresolved; an approach from Belarus does not establish Belarusian or Russian responsibility.",
+    "route": "Initially reported as entering from Belarus. Later officials described a track toward Vilnius and Ukmergė that vanished before reaching Vilnius; no verified UAV route.",
+    "circumstances": "A suspected object prompted an official yellow alert and temporary closure of Vilnius Airport’s controlled airspace.",
+    "payload": "Unknown.",
+    "impact": "No confirmed wreckage, casualties or damage. Reports of a possible fire/explosion were not substantiated.",
+    "response": "NATO fighters did not locate the object; a Lithuanian Air Force helicopter found nothing suspicious. Search ended around 13:00.",
+    "uncertainty": "Official response confirmed; low-to-moderate confidence in UAV identity. Officials said the unusually slow track could represent birds or an anomaly. Foreign incursion unconfirmed.",
+    "deduplication": "One unresolved-object candidate for this dated contact, alert and search; these responses do not create additional events.",
+    "provenance": "Reviewed 2026-10-05 against LT72 notices, Reuters and LRT’s later official-response coverage. Retains uncertainty after the search.",
+    "sources": [
+      "U021",
+      "U022",
+      "U023",
+      "U024"
+    ],
+    "title": "Vilnius County / Ukmergė · unidentified radar contact",
+    "category": "alert",
+    "positions": [
+      {
+        "lat": 55.05,
+        "lng": 25.2,
+        "precision": "region",
+        "label": "Vilnius County / Ukmergė alert region — representative anchor only"
+      }
+    ],
+    "stages": [
+      "alert"
+    ],
+    "classificationNote": "Other/unidentified candidate, not a confirmed foreign UAV flight, impact or interception.",
+    "positionNote": "Editorial anchor for the alert area, not a verified border crossing, flight track or recovery site.",
+    "recordClass": "candidate",
+    "recordType": "unidentified_object",
+    "reviewedOn": "2026-10-05",
+    "matchKey": "LT::2026-10-03::vilnius-county-ukmerge-unidentified-contact"
+  },
+  {
+    "id": "N071",
+    "dateLabel": "2026-10-04",
+    "startDate": "2026-10-04",
+    "dateBasis": "Activity on 4 October, reported that evening; separate sortie times unspecified.",
+    "countries": "Greece",
+    "location": "Northeastern and central Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "Six reported national-airspace violations and three Athens FIR infractions",
+    "vehicle": "Two Turkish UAVs per Greek military reporting; models unspecified.",
+    "attribution": "Turkish attribution and national-airspace characterization are those of the Hellenic National Defence General Staff, relayed by OnAlert; the Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified tracks.",
+    "circumstances": "The military account distinguishes two UAVs, six national-airspace violations and three FIR infringements.",
+    "payload": "No armed aircraft reported; payload unspecified.",
+    "impact": "No crash, casualties or damage reported.",
+    "response": "Identified and intercepted under standard procedures; no engagements or shoot-downs reported.",
+    "uncertainty": "Original military bulletin not retrieved directly. No independently verified coordinates, tracks or models.",
+    "deduplication": "One dated activity record; the 2/6/3 counts measure different things and do not create separate rows. Distinct from N068 on 1 October.",
+    "provenance": "Reviewed 2026-10-05 against OnAlert’s reproduction of the military account. Original research snapshots unchanged.",
+    "sources": [
+      "U025"
+    ],
+    "title": "Northeastern / central Aegean · Greek-reported Turkish UAVs",
+    "category": "flight",
+    "positions": [
+      {
+        "lat": 38.8,
+        "lng": 25.5,
+        "precision": "region",
+        "label": "Northeastern / central Aegean — broad representative anchor"
+      }
+    ],
+    "stages": [
+      "flight"
+    ],
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "positionNote": "Editorial regional anchor, not a verified violation point or airspace boundary.",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "reviewedOn": "2026-10-05",
+    "matchKey": "GR::2026-10-04::northeastern-central-aegean-uav-activity",
+    "reported_UAVs": 2,
+    "reported_airspace_violations": 6,
+    "reported_FIR_infractions": 3
   }
 ]

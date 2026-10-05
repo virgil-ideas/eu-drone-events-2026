@@ -1401,5 +1401,61 @@
     "title": "Drone and sea-mine incident dashboard: 2 October snapshot",
     "audit": "Reviewed 2026-10-02. The 2026 counters are 84 nearby attacks, 66 aircraft-response incidents, 30 unauthorized entries, 4 shoot-downs, 44 drone/fragment identifications or recoveries/neutralizations, and 2 sea mines. Categories overlap; the increase does not identify or attribute an individual object.",
     "url": "https://www.mapn.ro/"
+  },
+  "U021": {
+    "id": "U021",
+    "publisher": "LT72 / Lithuanian Fire and Rescue Department",
+    "dateLabel": "2026-10-03, 09:48 local time",
+    "title": "Yellow air alert for Vilnius County",
+    "audit": "Reviewed 2026-10-05. Official alert notice; establishes the warning, not a drone identification.",
+    "url": "https://lt72.lt/oro-pavojus-geltona/"
+  },
+  "U022": {
+    "id": "U022",
+    "publisher": "LT72 / Lithuanian Fire and Rescue Department",
+    "dateLabel": "2026-10-03, 10:34 local time",
+    "title": "All-clear notice for Vilnius County",
+    "audit": "Reviewed 2026-10-05. Official cancellation of the air alert; does not establish what caused the contact.",
+    "url": "https://lt72.lt/oro-pavojaus-atsaukimas-balta/"
+  },
+  "U023": {
+    "id": "U023",
+    "publisher": "Reuters via AOL",
+    "dateLabel": "2026-10-03, 07:55 UTC",
+    "title": "Lithuania closed Vilnius airport, scrambled NATO jets due to suspected drone",
+    "audit": "Reviewed 2026-10-05. Initial account citing the National Crisis Management Centre; identification still under investigation.",
+    "url": "https://www.aol.com/articles/lithuania-closed-vilnius-airport-scrambled-075556000.html"
+  },
+  "U024": {
+    "id": "U024",
+    "publisher": "LRT / ELTA / BNS",
+    "dateLabel": "2026-10-03, 13:22; updated 13:40",
+    "title": "Crisis Management Centre: object not found, search ended",
+    "audit": "Reviewed 2026-10-05. Later account quotes the crisis centre and armed forces: object unidentified, helicopter search negative; birds or anomaly possible.",
+    "url": "https://www.lrt.lt/naujienos/lietuvoje/2/3071067/kriziu-valdymo-centro-vadovas-objektas-nebuvo-aptiktas-paieska-nutraukta"
+  },
+  "U025": {
+    "id": "U025",
+    "publisher": "OnAlert",
+    "dateLabel": "2026-10-04, 18:36",
+    "title": "Aegean: Greek military reports two Turkish UAVs, six airspace violations and three FIR infractions",
+    "audit": "Reviewed 2026-10-05. Reproduces HNDGS figures and routine interceptions; attribution and violation assessment remain Greek-authority claims.",
+    "url": "https://www.onalert.gr/ellinotourkika/aigaio-nees-paravaseis-kai-paraviaseis-tourkikon-uav-2/823906/"
+  },
+  "U026": {
+    "id": "U026",
+    "publisher": "Romanian Ministry of National Defence",
+    "dateLabel": "2026-10-05; release No. 320",
+    "title": "Overnight 4–5 October alert: no Romanian airspace entry detected",
+    "audit": "Reviewed 2026-10-05. Excluded from mapped records: target east of Vâlcove in Ukrainian airspace; precautionary response does not establish an incursion.",
+    "url": "https://www.mapn.ro/cpresa/19429_informatie-de-presa"
+  },
+  "U027": {
+    "id": "U027",
+    "publisher": "Romanian Ministry of National Defence",
+    "dateLabel": "Dashboard updated 2026-10-05",
+    "title": "Drone and sea-mine incident dashboard: 5 October snapshot",
+    "audit": "Reviewed 2026-10-05. 2026 counters: 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries, 4 shoot-downs, 44 identifications/recoveries/neutralizations and 2 sea mines. Categories overlap.",
+    "url": "https://www.mapn.ro/"
   }
 }
