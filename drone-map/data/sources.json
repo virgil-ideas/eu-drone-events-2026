@@ -1457,5 +1457,45 @@
     "title": "Drone and sea-mine incident dashboard: 5 October snapshot",
     "audit": "Reviewed 2026-10-05. 2026 counters: 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries, 4 shoot-downs, 44 identifications/recoveries/neutralizations and 2 sea mines. Categories overlap.",
     "url": "https://www.mapn.ro/"
+  },
+  "U028": {
+    "id": "U028",
+    "publisher": "Romanian Ministry of Internal Affairs",
+    "dateLabel": "2026-10-05",
+    "title": "Ship sinking in the Romanian EEZ: two dead and eleven rescued",
+    "audit": "Reviewed 2026-10-05. Primary statement confirms sinking, casualty/rescue totals and offshore location; it does not identify an attacker or confirm drone causation. Retrieved directly from the ministry website.",
+    "url": "https://www.mai.gov.ro/structurile-ministerului-afacerilor-interne-misiune-complexa-pentru-salvarea-echipajului-unei-nave-care-s-a-scufundat-in-marea-neagra/"
+  },
+  "U029": {
+    "id": "U029",
+    "publisher": "Romanian Naval Authority via AGERPRES",
+    "dateLabel": "2026-10-05",
+    "title": "Search and rescue after fire aboard Royad Mammadov",
+    "audit": "Reviewed 2026-10-05. Primary ANR statement locates the incident outside territorial waters and names response vessels. Initial thirteen-missing figure predates the later MAI rescue update.",
+    "url": "https://agerpres.ro/comunicate/2026/10/05/comunicat-de-presa---autoritatea-navala-romana--1599834"
+  },
+  "U030": {
+    "id": "U030",
+    "publisher": "Radio România Constanța",
+    "dateLabel": "2026-10-05, 12:08; updated 14:31",
+    "title": "Royad Mammadov sank: two dead, eleven rescued; search continues",
+    "audit": "Reviewed 2026-10-05. Quotes ARSVOM’s 10:37 rescue request and later ANR casualty updates. Onboard explosion and drone strike are source-reported, not official cause findings. Reports three injured evacuees and one person still sought.",
+    "url": "https://www.radioconstanta.ro/2026/10/05/nava-posibil-lovita-de-o-drona-in-largul-marii-negre-intervin-arsvom-si-garda-de-coasta/"
+  },
+  "U031": {
+    "id": "U031",
+    "publisher": "G4Media",
+    "dateLabel": "2026-10-05; updates through 14:30 reviewed",
+    "title": "Reported drone strike near Pescăruș; Petrom says platform unaffected",
+    "audit": "Reviewed 2026-10-05. Witness account alleges two drones; vessel ownership, flag and route are separately reported. Corrects initial Neptun Deep location to Pescăruș. Petrom statement says operations and personnel unaffected.",
+    "url": "https://www.g4media.ro/breaking-update-o-nava-a-fost-lovita-de-o-drona-in-apropierea-platformei-pescarus-care-apartine-petrom-doi-marinari-au-murit-altii-sunt-raniti-nava-lovita-in-dimineata-in-ca.html"
+  },
+  "U032": {
+    "id": "U032",
+    "publisher": "TVR",
+    "dateLabel": "2026-10-05, 12:08; updated 16:12",
+    "title": "Black Sea ship sinking: eleven rescued, two dead",
+    "audit": "Reviewed 2026-10-05. Explicitly says drone causation is not officially confirmed; later reporting describes three injured patients without establishing their specific nationalities. Original user-supplied URL redirects here.",
+    "url": "https://tvrinfo.ro/nava-scufundata-in-marea-neagra-11-membri-ai-echipajului-au-fost-salvati-doua-persoane-au-murit/"
   }
 }

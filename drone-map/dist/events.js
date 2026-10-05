@@ -5171,6 +5171,52 @@ window.DRONE_DATA = {
       "reported_UAVs": 2,
       "reported_airspace_violations": 6,
       "reported_FIR_infractions": 3
+    },
+    {
+      "id": "N072",
+      "dateLabel": "2026-10-05 (rescue request at 10:37 local time)",
+      "startDate": "2026-10-05",
+      "dateBasis": "ARSVOM places the rescue request at 10:37; MAI/ANR describe notifications around 11:00. These are response timestamps, not a verified exact strike time.",
+      "countries": "Romania (offshore EEZ)",
+      "location": "Black Sea near Pescăruș platform; MAI places the ship about 30 nautical miles south of Sfântu Gheorghe, in Romania’s EEZ. ANR explicitly places the incident outside territorial waters.",
+      "status": "Reported drone strike and sinking; 2 dead, 11 rescued",
+      "categories": "Reported drone strike and onboard explosion; fire; sinking; search and rescue",
+      "vehicle": "Target vessel: grain carrier Royad Mammadov. Reported ownership: Turkish company MG SHIPPING 5 CO Ltd. Flag: Saint Kitts and Nevis. Crew nationality: not established. G4Media cites witnesses alleging two drones; number, model and aerial-versus-maritime type remain unconfirmed.",
+      "attribution": "Drone operator, launch point and nationality unknown. No confirmed Russian or Ukrainian attribution; ship ownership, flag and crew nationality do not establish the attacker.",
+      "route": "Reported ship voyage: Izmail, Ukraine, to Ravenna, Italy. Drone route unknown.",
+      "circumstances": "Reports describe a drone strike, an onboard explosion and fire, followed by sinking. MAI confirms the sinking and rescue operation; Radio România Constanța attributes the explosion to sources, while G4Media attributes the two-drone account to eyewitnesses.",
+      "payload": "Not established; no identified drone or explosive charge.",
+      "impact": "MAI confirms 2 dead and 11 rescued. Radio România Constanța reports 3 injured survivors evacuated by helicopter and one crew member still being sought; the missing-person tally is provisional. Petrom says platform operations and personnel were unaffected. Victims’ specific nationalities remain unknown.",
+      "response": "MRCC Constanța coordinated search and rescue; a Coast Guard vessel coordinated at the scene. SAR Apollo and SAR Artemis were mobilized and SAR Ares requested. Interior Ministry aviation evacuated injured survivors; search operations continued in the reviewed reports.",
+      "uncertainty": "The fatal ship casualty is confirmed. Drone causation and the reported explosion lack official confirmation in the reviewed statements; TVR explicitly qualifies the drone explanation. Early reports of 13 missing predate rescues and are not a current additional casualty count.",
+      "deduplication": "One event combines the reported strike, explosion, fire, sinking and rescue, regardless of the alleged number of drones. G4Media corrected Neptun Deep to Pescăruș for this same incident. Distinct from August Neptun Deep E047 and Progress IV E053; no duplicate platform or rescue row.",
+      "provenance": "Reviewed 2026-10-05 against MAI, ANR’s statement via AGERPRES, Radio România Constanța, G4Media and TVR. Later-breaking addition after the 08:45 morning check, preserving source-specific uncertainty within the same event.",
+      "sourceReferences": "[U028][U028]; [U029][U029]; [U030][U030]; [U031][U031]; [U032][U032]",
+      "sources": [
+        "U028",
+        "U029",
+        "U030",
+        "U031",
+        "U032"
+      ],
+      "title": "Royad Mammadov · reported drone strike and sinking",
+      "category": "explosion",
+      "positions": [
+        {
+          "lat": 44.4,
+          "lng": 29.6,
+          "precision": "offshore",
+          "label": "Off Sfântu Gheorghe / Pescăruș area — approximate offshore anchor"
+        }
+      ],
+      "stages": [
+        "explosion"
+      ],
+      "classificationNote": "Red Explosion marker reflects the source-reported onboard blast, not an inference from fire or sinking alone. The fatal sinking and rescue belong to this same event; drone causation and operator remain unresolved.",
+      "positionNote": "Rounded editorial anchor for the reported offshore area, not verified ship coordinates or a position on the platform. EEZ coverage does not make this a Romanian sovereign-territory incursion.",
+      "recordClass": "event",
+      "recordType": "reported_offshore_drone_strike",
+      "matchKey": "RO::2026-10-05::royad-mammadov-pescarus-offshore"
     }
   ],
   "contexts": [
@@ -6796,6 +6842,46 @@ window.DRONE_DATA = {
       "title": "Drone and sea-mine incident dashboard: 5 October snapshot",
       "audit": "Reviewed 2026-10-05. 2026 counters: 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries, 4 shoot-downs, 44 identifications/recoveries/neutralizations and 2 sea mines. Categories overlap.",
       "url": "https://www.mapn.ro/"
+    },
+    "U028": {
+      "id": "U028",
+      "publisher": "Romanian Ministry of Internal Affairs",
+      "dateLabel": "2026-10-05",
+      "title": "Ship sinking in the Romanian EEZ: two dead and eleven rescued",
+      "audit": "Reviewed 2026-10-05. Primary statement confirms sinking, casualty/rescue totals and offshore location; it does not identify an attacker or confirm drone causation. Retrieved directly from the ministry website.",
+      "url": "https://www.mai.gov.ro/structurile-ministerului-afacerilor-interne-misiune-complexa-pentru-salvarea-echipajului-unei-nave-care-s-a-scufundat-in-marea-neagra/"
+    },
+    "U029": {
+      "id": "U029",
+      "publisher": "Romanian Naval Authority via AGERPRES",
+      "dateLabel": "2026-10-05",
+      "title": "Search and rescue after fire aboard Royad Mammadov",
+      "audit": "Reviewed 2026-10-05. Primary ANR statement locates the incident outside territorial waters and names response vessels. Initial thirteen-missing figure predates the later MAI rescue update.",
+      "url": "https://agerpres.ro/comunicate/2026/10/05/comunicat-de-presa---autoritatea-navala-romana--1599834"
+    },
+    "U030": {
+      "id": "U030",
+      "publisher": "Radio România Constanța",
+      "dateLabel": "2026-10-05, 12:08; updated 14:31",
+      "title": "Royad Mammadov sank: two dead, eleven rescued; search continues",
+      "audit": "Reviewed 2026-10-05. Quotes ARSVOM’s 10:37 rescue request and later ANR casualty updates. Onboard explosion and drone strike are source-reported, not official cause findings. Reports three injured evacuees and one person still sought.",
+      "url": "https://www.radioconstanta.ro/2026/10/05/nava-posibil-lovita-de-o-drona-in-largul-marii-negre-intervin-arsvom-si-garda-de-coasta/"
+    },
+    "U031": {
+      "id": "U031",
+      "publisher": "G4Media",
+      "dateLabel": "2026-10-05; updates through 14:30 reviewed",
+      "title": "Reported drone strike near Pescăruș; Petrom says platform unaffected",
+      "audit": "Reviewed 2026-10-05. Witness account alleges two drones; vessel ownership, flag and route are separately reported. Corrects initial Neptun Deep location to Pescăruș. Petrom statement says operations and personnel unaffected.",
+      "url": "https://www.g4media.ro/breaking-update-o-nava-a-fost-lovita-de-o-drona-in-apropierea-platformei-pescarus-care-apartine-petrom-doi-marinari-au-murit-altii-sunt-raniti-nava-lovita-in-dimineata-in-ca.html"
+    },
+    "U032": {
+      "id": "U032",
+      "publisher": "TVR",
+      "dateLabel": "2026-10-05, 12:08; updated 16:12",
+      "title": "Black Sea ship sinking: eleven rescued, two dead",
+      "audit": "Reviewed 2026-10-05. Explicitly says drone causation is not officially confirmed; later reporting describes three injured patients without establishing their specific nationalities. Original user-supplied URL redirects here.",
+      "url": "https://tvrinfo.ro/nava-scufundata-in-marea-neagra-11-membri-ai-echipajului-au-fost-salvati-doua-persoane-au-murit/"
     }
   },
   "cutoff": "2026-10-05",
