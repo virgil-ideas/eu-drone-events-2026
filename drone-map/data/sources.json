@@ -1463,7 +1463,7 @@
     "publisher": "Romanian Ministry of Internal Affairs",
     "dateLabel": "2026-10-05",
     "title": "Ship sinking in the Romanian EEZ: two dead and eleven rescued",
-    "audit": "Reviewed 2026-10-05. Primary statement confirms sinking, casualty/rescue totals and offshore location; it does not identify an attacker or confirm drone causation. Retrieved directly from the ministry website.",
+    "audit": "Reviewed 2026-10-05; qualified 2026-10-09. Initial primary statement reported sinking, two deaths and eleven rescues. Its sinking account is contradicted by the 6 October afloat report (U033); the casualty tally conflicts with U034. It does not identify an attacker or confirm drone causation. Retained as the initial official account, not the current vessel status.",
     "url": "https://www.mai.gov.ro/structurile-ministerului-afacerilor-interne-misiune-complexa-pentru-salvarea-echipajului-unei-nave-care-s-a-scufundat-in-marea-neagra/"
   },
   "U029": {
@@ -1479,7 +1479,7 @@
     "publisher": "Radio România Constanța",
     "dateLabel": "2026-10-05, 12:08; updated 14:31",
     "title": "Royad Mammadov sank: two dead, eleven rescued; search continues",
-    "audit": "Reviewed 2026-10-05. Quotes ARSVOM’s 10:37 rescue request and later ANR casualty updates. Onboard explosion and drone strike are source-reported, not official cause findings. Reports three injured evacuees and one person still sought.",
+    "audit": "Reviewed 2026-10-05. Quotes ARSVOM’s 10:37 rescue request and later ANR casualty updates. Onboard explosion and drone strike are source-reported, not official cause findings. Reports three injured evacuees and one person still sought. Follow-up review 2026-10-09: sinking was subsequently contradicted (U033), and casualty/medical totals are not reconciled with U034/U036.",
     "url": "https://www.radioconstanta.ro/2026/10/05/nava-posibil-lovita-de-o-drona-in-largul-marii-negre-intervin-arsvom-si-garda-de-coasta/"
   },
   "U031": {
@@ -1495,7 +1495,103 @@
     "publisher": "TVR",
     "dateLabel": "2026-10-05, 12:08; updated 16:12",
     "title": "Black Sea ship sinking: eleven rescued, two dead",
-    "audit": "Reviewed 2026-10-05. Explicitly says drone causation is not officially confirmed; later reporting describes three injured patients without establishing their specific nationalities. Original user-supplied URL redirects here.",
+    "audit": "Reviewed 2026-10-05. Explicitly says drone causation is not officially confirmed; later reporting describes three injured patients without establishing their specific nationalities. Original user-supplied URL redirects here. Follow-up review 2026-10-09: this is the initial account; U033 reports the ship afloat and U034 preserves the conflicting casualty statement.",
     "url": "https://tvrinfo.ro/nava-scufundata-in-marea-neagra-11-membri-ai-echipajului-au-fost-salvati-doua-persoane-au-murit/"
+  },
+  "U033": {
+    "id": "U033",
+    "publisher": "Radio România Actualități",
+    "title": "Un vapor care transporta cereale a fost lovit de mai multe drone în Marea Neagră",
+    "url": "https://www.romania-actualitati.ro/stiri/romania/un-vapor-care-transporta-cereale-a-fost-lovit-de-mai-multe-drone-in-marea-neagra-id235412.html",
+    "dateLabel": "6 October 2026, 08:34",
+    "audit": "Read 9 October. Explicit correction: ship had not sunk and was awaiting tow to Midia. Quotes MRCC director on apparent multiple-drone attack and damage. Tow completion not established. Rador carries the same broadcast, not independent corroboration."
+  },
+  "U034": {
+    "id": "U034",
+    "publisher": "APA / Azerbaijan Ministry of Foreign Affairs",
+    "title": "MFA: Azerbaijani citizen killed, another missing in drone attack on cargo ship in Black Sea",
+    "url": "https://en.apa.az/foreign-policy/mfa-azerbaijani-citizen-killed-another-missing-in-drone-attack-on-cargo-ship-in-black-sea-528328",
+    "dateLabel": "6 October 2026, 10:09 UTC+04",
+    "audit": "Read 9 October. Ministry press-service account names one deceased captain and one missing Azerbaijani sailor; three Azerbaijani survivors hospitalized. Original MFA page could not be retrieved; this is the ministry account as reproduced by APA. Conflicts with earlier two-dead reporting; do not add the accounts together."
+  },
+  "U035": {
+    "id": "U035",
+    "publisher": "Reuters via MarketScreener",
+    "title": "Romania says two dead after fire on ship, Ukraine blames Russian drones",
+    "url": "https://uk.marketscreener.com/news/two-dead-11-rescued-in-serious-maritime-incident-in-black-sea-romania-says-ce785ddbd08df121",
+    "dateLabel": "5 October 2026; updated 14:48 BST",
+    "audit": "Read 9 October through the Reuters republication. Zelensky attributes the attack to two Russian drones; Romanian authorities had not attributed the cause. Initial sinking and two-dead reports require the later U033/U034 qualifications."
+  },
+  "U036": {
+    "id": "U036",
+    "publisher": "ANI via Webindia123 / Embassy of India in Romania",
+    "title": "All three Indians safe after commercial vessel attacked in Black Sea; 2 foreign nationals killed",
+    "url": "https://news.webindia123.com/news/articles/world/20261006/4507543.html",
+    "dateLabel": "6 October 2026, 05:00 IST",
+    "audit": "Read 9 October. Quotes the embassy confirming three Indian survivors, one receiving treatment. Its preliminary two-foreign-fatalities statement does not resolve the conflicting Azerbaijani casualty account; nationality-specific medical counts are not summed."
+  },
+  "U037": {
+    "id": "U037",
+    "publisher": "Council of Ministers of Bulgaria",
+    "title": "Rumen Radev: attack on two merchant ships in Bulgaria’s economic zone is unacceptable",
+    "url": "https://www.government.bg/special/bg/prestsentar/novini/rumen-radev-atakata-sreshtu-dva-targovski-koraba-v-balgarskata-ikonomicheska-zona-e-absolyutno-nedopustima",
+    "dateLabel": "6 October 2026",
+    "audit": "Official statement read 9 October. Confirms aerial/maritime drone attack about 70 nautical miles east of Byala, one ship sinking and the other burning; DIOSCURIA witnessed an explosion. Two injured rescued crew taken to Varna. Does not establish the attacker."
+  },
+  "U038": {
+    "id": "U038",
+    "publisher": "Bulgarian News Agency (BTA)",
+    "title": "Drone Attack on Two Merchant Ships in Bulgaria’s Exclusive Economic Zone Prompts President to Convene Security Council",
+    "url": "https://www.bta.bg/en/news/bulgaria/1218986-drone-attack-on-two-merchant-ships-in-bulgaria-s-exclusive-economic-zone-prompts",
+    "dateLabel": "6 October 2026, 21:57",
+    "audit": "Indexed BTA report reviewed 9 October; direct page returned HTTP 429. Identifies ALFA WATAN and ABLE, their flags and the rescue of all 18 ABLE crew. Attributes 11 Turkish and seven Indian crew members to the prime minister."
+  },
+  "U039": {
+    "id": "U039",
+    "publisher": "Reuters via MarketScreener",
+    "title": "Drone sinks ship off Bulgaria, as fears grow about hybrid attacks by Russia",
+    "url": "https://sa.marketscreener.com/news/drones-strike-two-ships-in-bulgarias-black-sea-zone-president-ce785dd8df8bfe26",
+    "dateLabel": "6 October 2026; updated 22:08 UTC+03",
+    "audit": "Read 9 October through Reuters republication. Identifies two attacked ships; preserves Bulgaria’s uncertainty and Zelensky’s separate claim of Russian responsibility. His claim of a joint investigation is not treated as a published Bulgarian attribution finding."
+  },
+  "U040": {
+    "id": "U040",
+    "publisher": "Reuters via MarketScreener",
+    "title": "Bulgaria halts rescue operation for crew of sunken ship",
+    "url": "https://www.marketscreener.com/news/bulgaria-halts-rescue-operation-crew-of-sunken-ship-ce785dd9d08bf725",
+    "dateLabel": "7 October 2026; updated 12:54 EDT",
+    "audit": "Read 9 October. Search halted; reports 12 missing Syrian crew and recovery of a boat, three liferafts and equipment, without sailors or drone remains. Radev suggests Russian responsibility circumstantially but says evidence is insufficient; Russian embassy denies targeting the ship. Crew count differs from next-day U041."
+  },
+  "U041": {
+    "id": "U041",
+    "publisher": "Reuters via MarketScreener",
+    "title": "Syria calls for independent probe into sinking of ship in Black Sea",
+    "url": "https://www.marketscreener.com/news/syria-calls-for-independent-probe-into-sinking-of-ship-in-black-sea-ce785ddfdb8bff24",
+    "dateLabel": "8 October 2026; updated 09:59 EDT",
+    "audit": "Read 9 October. Syria requests independent investigation, including the SAR decision. Reports 10 missing crew including nine Syrians, conflicting with U040’s 12 Syrians. No definitive Bulgarian attribution; Russia denies responsibility. Follow-up to the 6 October occurrence, not a new incident."
+  },
+  "U042": {
+    "id": "U042",
+    "publisher": "Liberal / GEETHA",
+    "title": "Αιγαίο: 10 παραβάσεις και 15 παραβιάσεις από τουρκικά F-16 και drones",
+    "url": "https://www.liberal.gr/amyna-diplomatia/aigaio-10-parabaseis-kai-15-parabiaseis-toyrkika-f-16-kai-drones",
+    "dateLabel": "6 October 2026, 18:56",
+    "audit": "Article fetched and read 9 October. Of the mixed-aircraft totals, four UAVs account for nine national-airspace violations and seven FIR infractions. Two F-16s and one CN-235 are excluded from UAV figures. The original GEETHA bulletin was not independently retrieved."
+  },
+  "U043": {
+    "id": "U043",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Τρία τουρκικά drones έκαναν 4 παραβιάσεις του εθνικού εναέριου χώρου στο Αιγαίο",
+    "url": "https://www.onalert.gr/ellinotourkika/tria-tourkika-drones-ekanan-4-paraviaseis-tou-ethnikou-enaeriou-xorou-sto-aigaio/824727/",
+    "dateLabel": "7 October 2026, 19:15",
+    "audit": "Read 9 October. Three UAVs, four national-airspace violations and three FIR infractions; routine interception, no engagement. Figures and airspace characterization attributed to Greek military authorities. Article image is a Reuters file photo, not evidence of these sorties."
+  },
+  "U044": {
+    "id": "U044",
+    "publisher": "Dimokratiki / NewsIT / GEETHA",
+    "title": "Αιγαίο: Πέντε τουρκικά drones και ένα ATR-72 έκαναν παραβάσεις και παραβιάσεις του εναέριου χώρου",
+    "url": "https://www.dimokratiki.gr/08-10-2026/egeo-pente-tourkika-drones-ke-ena-atr-72-ekanan-paravasis-ke-paraviasis-tou-enaeriou-chorou/",
+    "dateLabel": "8 October 2026, 21:04",
+    "audit": "Read the article body on 9 October. Five UAVs account for five national-airspace violations and five FIR infractions; two additional FIR infractions belong to the manned ATR-72. Credits NewsIT, so republications are not independent corroboration. Original GEETHA bulletin not retrieved."
   }
 }

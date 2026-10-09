@@ -5067,26 +5067,30 @@
     "dateBasis": "ARSVOM places the rescue request at 10:37; MAI/ANR describe notifications around 11:00. These are response timestamps, not a verified exact strike time.",
     "countries": "Romania (offshore EEZ)",
     "location": "Black Sea near Pescăruș platform; MAI places the ship about 30 nautical miles south of Sfântu Gheorghe, in Romania’s EEZ. ANR explicitly places the incident outside territorial waters.",
-    "status": "Reported drone strike and sinking; 2 dead, 11 rescued",
-    "categories": "Reported drone strike and onboard explosion; fire; sinking; search and rescue",
-    "vehicle": "Target vessel: grain carrier Royad Mammadov. Reported ownership: Turkish company MG SHIPPING 5 CO Ltd. Flag: Saint Kitts and Nevis. Crew nationality: not established. G4Media cites witnesses alleging two drones; number, model and aerial-versus-maritime type remain unconfirmed.",
-    "attribution": "Drone operator, launch point and nationality unknown. No confirmed Russian or Ukrainian attribution; ship ownership, flag and crew nationality do not establish the attacker.",
+    "status": "Fatal drone attack reported; ship later reported afloat; casualty accounts conflict",
+    "categories": "Reported drone strike and onboard explosion; fire and severe damage; rescue; initial sinking report corrected",
+    "vehicle": "Grain carrier Royad Mammadov, reported Turkish-owned and Saint Kitts and Nevis-flagged. Crew included Azerbaijani and Indian nationals. Witnesses cited by G4Media and Zelensky allege two drones; MRCC director describes an apparent multiple-drone attack. Models and aerial-versus-maritime type remain unestablished.",
+    "attribution": "Russian responsibility alleged by Ukrainian President Volodymyr Zelensky, who said two Russian drones struck the vessel (Reuters, 5 October). This is an explicit Ukrainian official attribution, not independent verification or a published Romanian attribution finding. Launch point and operators remain unestablished in the reviewed Romanian accounts.",
     "route": "Reported ship voyage: Izmail, Ukraine, to Ravenna, Italy. Drone route unknown.",
-    "circumstances": "Reports describe a drone strike, an onboard explosion and fire, followed by sinking. MAI confirms the sinking and rescue operation; Radio România Constanța attributes the explosion to sources, while G4Media attributes the two-drone account to eyewitnesses.",
+    "circumstances": "Reported drone strike, onboard blast and fire damaged the ship. On 6 October, Radio România Actualități explicitly reported that it had not sunk and was awaiting tow to Midia, correcting the initial MAI sinking report. MRCC director Marius Roibu described apparent multiple-drone damage to the engine room and aft cargo hold.",
     "payload": "Not established; no identified drone or explosive charge.",
-    "impact": "MAI confirms 2 dead and 11 rescued. Radio România Constanța reports 3 injured survivors evacuated by helicopter and one crew member still being sought; the missing-person tally is provisional. Petrom says platform operations and personnel were unaffected. Victims’ specific nationalities remain unknown.",
-    "response": "MRCC Constanța coordinated search and rescue; a Coast Guard vessel coordinated at the scene. SAR Apollo and SAR Artemis were mobilized and SAR Ares requested. Interior Ministry aviation evacuated injured survivors; search operations continued in the reviewed reports.",
-    "uncertainty": "The fatal ship casualty is confirmed. Drone causation and the reported explosion lack official confirmation in the reviewed statements; TVR explicitly qualifies the drone explanation. Early reports of 13 missing predate rescues and are not a current additional casualty count.",
-    "deduplication": "One event combines the reported strike, explosion, fire, sinking and rescue, regardless of the alleged number of drones. G4Media corrected Neptun Deep to Pescăruș for this same incident. Distinct from August Neptun Deep E047 and Progress IV E053; no duplicate platform or rescue row.",
-    "provenance": "Reviewed 2026-10-05 against MAI, ANR’s statement via AGERPRES, Radio România Constanța, G4Media and TVR. Later-breaking addition after the 08:45 morning check, preserving source-specific uncertainty within the same event.",
+    "impact": "Severe vessel damage; later reported afloat, with tow completion unverified. Initial MAI account: two dead and eleven rescued. Azerbaijan’s MFA, via APA on 6 October: captain Rustam Ismayil Hasanov killed, Mahammad Hamza Suleymanzade missing, other Azerbaijani crew rescued and three hospitalized. These accounts conflict and must not be added together. India’s embassy separately confirmed three Indian survivors, one injured; this does not establish an additional injury total. Petrom reported Pescăruș personnel and operations unaffected.",
+    "response": "MRCC Constanța coordinated rescue with Coast Guard, SAR Apollo, SAR Artemis and a request for SAR Ares; Interior Ministry aviation evacuated injured survivors. A tow to Midia was planned in the 6 October Radio România report; completion was not established. Azerbaijan and India provided consular assistance.",
+    "uncertainty": "Treat the initial sinking description as superseded by the 6 October afloat report; no completed tow verified. Drone attack is supported by the MRCC director’s account and official Ukrainian/Azerbaijani statements, but exact weapons and Russian attribution lack independently verified forensic confirmation here. Retain conflicting two-dead versus one-dead/one-missing accounts without inventing a reconciled toll. Early thirteen-missing reports predate rescues.",
+    "deduplication": "One 5 October event combines the reported attack, blast, fire, vessel damage and rescue, including later corrections and attribution. No extra row for an alleged second drone, the afloat correction or planned tow. Earlier Neptun Deep wording was corrected to Pescăruș; distinct from E047, E053 and the 6 October Bulgarian two-ship attack N073.",
+    "provenance": "Reviewed 2026-10-09 using the original 5 October sources and follow-ups U033–U036. The 6 October public-radio account corrects sinking; APA reproduces Azerbaijan’s official casualty statement; Reuters carries Zelensky’s attribution; ANI quotes India’s embassy. Stable ID, occurrence date and approximate anchor retained. Earlier descriptions remain traceable through sources and Git.",
     "sources": [
       "U028",
       "U029",
       "U030",
       "U031",
-      "U032"
+      "U032",
+      "U033",
+      "U034",
+      "U035",
+      "U036"
     ],
-    "title": "Royad Mammadov · reported drone strike and sinking",
+    "title": "Royad Mammadov · reported drone attack",
     "category": "explosion",
     "positions": [
       {
@@ -5099,11 +5103,192 @@
     "stages": [
       "explosion"
     ],
-    "classificationNote": "Red Explosion marker reflects the source-reported onboard blast, not an inference from fire or sinking alone. The fatal sinking and rescue belong to this same event; drone causation and operator remain unresolved.",
+    "classificationNote": "Red Explosion marker retained for the source-reported onboard blast. Fatalities and severe damage belong to this one attack record. The corrected afloat status does not erase the reported explosion; disputed attribution does not reduce the outcome classification.",
     "positionNote": "Rounded editorial anchor for the reported offshore area, not verified ship coordinates or a position on the platform. EEZ coverage does not make this a Romanian sovereign-territory incursion.",
     "recordClass": "event",
     "recordType": "reported_offshore_drone_strike",
-    "reviewedOn": "2026-10-05",
+    "reviewedOn": "2026-10-09",
     "matchKey": "RO::2026-10-05::royad-mammadov-pescarus-offshore"
+  },
+  {
+    "id": "N073",
+    "dateLabel": "2026-10-06 (early hours; 7–8 October follow-ups)",
+    "startDate": "2026-10-06",
+    "dateBasis": "Attack in the early hours of 6 October. Search suspension on 7 October and investigation request on 8 October update this same occurrence.",
+    "countries": "Bulgaria (offshore EEZ)",
+    "location": "Black Sea, approximately 70 nautical miles east of Byala, in Bulgaria’s exclusive economic zone and outside its territorial waters.",
+    "status": "Officially reported drone attack on two ships; ALFA WATAN sank, crew missing; ABLE crew rescued",
+    "categories": "Aerial and maritime drone attack; reported explosion; ALFA WATAN sinking; ABLE fire; search and rescue",
+    "vehicle": "Two merchant vessels: Togo-flagged ALFA WATAN and Palau-flagged ABLE. Bulgarian authorities report aerial and maritime attack drones; models and number unestablished. Ship flags, crew nationality and attacker attribution are separate.",
+    "attribution": "Unresolved by Bulgaria. Rumen Radev said circumstances suggested Russia but evidence was insufficient for definitive attribution (7 October); Russia denied targeting the vessel. Zelensky separately alleged a Russian combined attack and claimed a joint investigation supported it (6 October). This Ukrainian claim is retained as attribution, not a published Bulgarian finding.",
+    "route": "Approximately 70 nautical miles east of Byala; no verified drone launch points or flight/surface tracks.",
+    "circumstances": "Bulgarian government reported an aerial/maritime drone attack on two merchant ships. ALFA WATAN sank; nearby ferry DIOSCURIA witnessed an explosion and approached. ABLE caught fire and its crew was evacuated.",
+    "payload": "Drone models, numbers and explosive payloads not established; no drone remains recovered in the 7 October report.",
+    "impact": "ALFA WATAN crew missing: Reuters on 7 October reported twelve Syrians; its 8 October report gives ten missing, including nine Syrians. The discrepancy is unresolved; missing people are not recorded as confirmed dead. All eighteen ABLE crew were rescued, two injured; BTA reports eleven Turkish and seven Indian nationals aboard ABLE.",
+    "response": "DIOSCURIA assisted, with Bulgarian naval, air, border-police and maritime-rescue teams responding. Injured ABLE survivors were taken to Varna. Authorities halted the ALFA WATAN search on 7 October after finding a boat, three liferafts and equipment, but no sailors or drone wreckage. On 8 October Syria sought an independent investigation into the attack and termination of the search.",
+    "uncertainty": "High confidence in the officially reported attack and vessel outcomes. Operator, precise weapons and exact positions remain unresolved. Conflicting ALFA WATAN crew totals remain source-dated; no reconciled death toll inferred. EEZ location is not a confirmed incursion into Bulgarian sovereign territory.",
+    "deduplication": "One dated record for the reported combined attack on ALFA WATAN and ABLE. Sinking, fire, rescue, search termination and investigation request remain together; no added rows for two ships, multiple drones or follow-ups. Separate from Royad Mammadov N072 off Romania on 5 October.",
+    "provenance": "Added and reviewed 2026-10-09 against Bulgaria’s official 6 October statement, BTA and Reuters reports through 8 October (U037–U041). The Bulgarian attack was absent from the existing register. Original research snapshots unchanged.",
+    "sources": [
+      "U037",
+      "U038",
+      "U039",
+      "U040",
+      "U041"
+    ],
+    "title": "ALFA WATAN / ABLE · offshore drone attack",
+    "category": "explosion",
+    "positions": [
+      {
+        "lat": 42.9,
+        "lng": 29.5,
+        "precision": "offshore",
+        "label": "About 70 nautical miles east of Byala — approximate offshore anchor"
+      }
+    ],
+    "stages": [
+      "explosion"
+    ],
+    "classificationNote": "Red Explosion: the official account includes a witnessed explosion, alongside the two-ship drone attack, sinking and fire. No drone crash or shoot-down inferred; missing crew are not confirmed fatalities.",
+    "positionNote": "Rounded editorial estimate for the reported offshore area, not verified vessel coordinates or a point within territorial waters.",
+    "recordClass": "event",
+    "recordType": "reported_offshore_drone_strike",
+    "reviewedOn": "2026-10-09",
+    "matchKey": "BG::2026-10-06::alfa-watan-able-byala-offshore"
+  },
+  {
+    "id": "N074",
+    "dateLabel": "2026-10-06",
+    "startDate": "2026-10-06",
+    "dateBasis": "Activity on 6 October, reported that evening; separate sortie times unspecified.",
+    "countries": "Greece",
+    "location": "Northeastern / southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "9 reported national-airspace violations and 7 Athens FIR infractions by UAVs",
+    "vehicle": "4 Turkish UAVs per Greek military reporting; models unspecified.",
+    "attribution": "Turkish military UAVs according to GEETHA, as reproduced in Greek reporting. The national-airspace violation assessment remains attributed to Greece given the Greek-Turkish airspace dispute.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The Greek military account distinguishes 4 UAVs, 9 national-airspace violations and 7 Athens FIR infringements. Two manned F-16s and one CN-235 also appear in the bulletin; their activity is excluded from these UAV totals. The armed designation applies to the F-16s, not the UAVs.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No UAV crash, casualties, damage or EOD operation reported.",
+    "response": "Identified and intercepted under standard procedures; no UAV shoot-down or weapons engagement reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. High confidence in the published Greek military account; no independently verified flight tracks or airspace-boundary assessment.",
+    "deduplication": "One dated activity record, distinct from other October dates. The 4/9/7 figures count different quantities and must not be summed or expanded into separate incident rows.",
+    "provenance": "Added and reviewed 2026-10-09 against the contemporaneous 6 October report (U042). Original research snapshots unchanged.",
+    "sources": [
+      "U042"
+    ],
+    "title": "Northeastern / southeastern Aegean · Greek-reported Turkish UAVs",
+    "category": "flight",
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "stages": [
+      "flight"
+    ],
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "positionNote": "Single broad editorial anchor for a regional activity report, not a verified violation point, flight track or airspace boundary.",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "reviewedOn": "2026-10-09",
+    "matchKey": "GR::2026-10-06::aegean-uav-activity",
+    "reported_UAVs": 4,
+    "reported_airspace_violations": 9,
+    "reported_FIR_infractions": 7
+  },
+  {
+    "id": "N075",
+    "dateLabel": "2026-10-07",
+    "startDate": "2026-10-07",
+    "dateBasis": "Activity on 7 October, reported that evening; separate sortie times unspecified.",
+    "countries": "Greece",
+    "location": "Northeastern / central / southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "4 reported national-airspace violations and 3 Athens FIR infractions by UAVs",
+    "vehicle": "3 Turkish UAVs per Greek military reporting; models unspecified.",
+    "attribution": "Turkish military UAVs according to GEETHA, as reproduced in Greek reporting. The national-airspace violation assessment remains attributed to Greece given the Greek-Turkish airspace dispute.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The Greek military account distinguishes 3 UAVs, 4 national-airspace violations and 3 Athens FIR infringements. No armed aircraft or engagements were reported.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No UAV crash, casualties, damage or EOD operation reported.",
+    "response": "Identified and intercepted under standard procedures; no UAV shoot-down or weapons engagement reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. High confidence in the published Greek military account; no independently verified flight tracks or airspace-boundary assessment.",
+    "deduplication": "One dated activity record, distinct from other October dates. The 3/4/3 figures count different quantities and must not be summed or expanded into separate incident rows.",
+    "provenance": "Added and reviewed 2026-10-09 against the contemporaneous 7 October report (U043). Original research snapshots unchanged.",
+    "sources": [
+      "U043"
+    ],
+    "title": "Northeastern / central / southeastern Aegean · Greek-reported Turkish UAVs",
+    "category": "flight",
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / central / southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "stages": [
+      "flight"
+    ],
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "positionNote": "Single broad editorial anchor for a regional activity report, not a verified violation point, flight track or airspace boundary.",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "reviewedOn": "2026-10-09",
+    "matchKey": "GR::2026-10-07::aegean-uav-activity",
+    "reported_UAVs": 3,
+    "reported_airspace_violations": 4,
+    "reported_FIR_infractions": 3
+  },
+  {
+    "id": "N076",
+    "dateLabel": "2026-10-08",
+    "startDate": "2026-10-08",
+    "dateBasis": "Activity on 8 October, reported that evening; separate sortie times unspecified.",
+    "countries": "Greece",
+    "location": "Northeastern / southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "5 reported national-airspace violations and 5 Athens FIR infractions by UAVs",
+    "vehicle": "5 Turkish UAVs per Greek military reporting; models unspecified.",
+    "attribution": "Turkish military UAVs according to GEETHA, as reproduced in Greek reporting. The national-airspace violation assessment remains attributed to Greece given the Greek-Turkish airspace dispute.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The Greek military account distinguishes 5 UAVs, 5 national-airspace violations and 5 Athens FIR infringements. A separate manned ATR-72 accounts for two more FIR infringements in the mixed-aircraft bulletin; these are excluded from UAV totals. No engagements were reported.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No UAV crash, casualties, damage or EOD operation reported.",
+    "response": "Identified and intercepted under standard procedures; no UAV shoot-down or weapons engagement reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. High confidence in the published Greek military account; no independently verified flight tracks or airspace-boundary assessment.",
+    "deduplication": "One dated activity record, distinct from other October dates. The 5/5/5 figures count different quantities and must not be summed or expanded into separate incident rows.",
+    "provenance": "Added and reviewed 2026-10-09 against the contemporaneous 8 October report (U044). Original research snapshots unchanged.",
+    "sources": [
+      "U044"
+    ],
+    "title": "Northeastern / southeastern Aegean · Greek-reported Turkish UAVs",
+    "category": "flight",
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "stages": [
+      "flight"
+    ],
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "positionNote": "Single broad editorial anchor for a regional activity report, not a verified violation point, flight track or airspace boundary.",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "reviewedOn": "2026-10-09",
+    "matchKey": "GR::2026-10-08::aegean-uav-activity",
+    "reported_UAVs": 5,
+    "reported_airspace_violations": 5,
+    "reported_FIR_infractions": 5
   }
 ]
