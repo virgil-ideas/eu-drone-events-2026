@@ -5224,30 +5224,31 @@ window.DRONE_DATA = {
     },
     {
       "id": "N073",
-      "dateLabel": "2026-10-06 (early hours; 7–8 October follow-ups)",
+      "dateLabel": "2026-10-06 (early hours; 7–9 October follow-ups)",
       "startDate": "2026-10-06",
-      "dateBasis": "Attack in the early hours of 6 October. Search suspension on 7 October and investigation request on 8 October update this same occurrence.",
+      "dateBasis": "Attack in the early hours of 6 October. Search suspension on 7 October, investigation request on 8 October and ABLE inspection reported on 9 October update this same occurrence.",
       "countries": "Bulgaria (offshore EEZ)",
       "location": "Black Sea, approximately 70 nautical miles east of Byala, in Bulgaria’s exclusive economic zone and outside its territorial waters.",
-      "status": "Officially reported drone attack on two ships; ALFA WATAN sank, crew missing; ABLE crew rescued",
+      "status": "ALFA WATAN sank, crew missing; ABLE crew rescued, vessel still afloat in 9 October report",
       "categories": "Aerial and maritime drone attack; reported explosion; ALFA WATAN sinking; ABLE fire; search and rescue",
       "vehicle": "Two merchant vessels: Togo-flagged ALFA WATAN and Palau-flagged ABLE. Bulgarian authorities report aerial and maritime attack drones; models and number unestablished. Ship flags, crew nationality and attacker attribution are separate.",
-      "attribution": "Unresolved by Bulgaria. Rumen Radev said circumstances suggested Russia but evidence was insufficient for definitive attribution (7 October); Russia denied targeting the vessel. Zelensky separately alleged a Russian combined attack and claimed a joint investigation supported it (6 October). This Ukrainian claim is retained as attribution, not a published Bulgarian finding.",
+      "attribution": "Unresolved by Bulgaria. Rumen Radev said circumstances suggested Russia but evidence was insufficient for definitive attribution (7 October); Russia denied targeting the vessel. Zelensky separately alleged a Russian combined attack and claimed a joint investigation supported it (6 October). This Ukrainian claim is retained as attribution, not a published Bulgarian finding. On 9 October, Defence Minister Dimitar Stoyanov assessed ABLE’s damage as a surface-drone strike while declining to identify a Russian or Ukrainian operator.",
       "route": "Approximately 70 nautical miles east of Byala; no verified drone launch points or flight/surface tracks.",
       "circumstances": "Bulgarian government reported an aerial/maritime drone attack on two merchant ships. ALFA WATAN sank; nearby ferry DIOSCURIA witnessed an explosion and approached. ABLE caught fire and its crew was evacuated.",
       "payload": "Drone models, numbers and explosive payloads not established; no drone remains recovered in the 7 October report.",
-      "impact": "ALFA WATAN crew missing: Reuters on 7 October reported twelve Syrians; its 8 October report gives ten missing, including nine Syrians. The discrepancy is unresolved; missing people are not recorded as confirmed dead. All eighteen ABLE crew were rescued, two injured; BTA reports eleven Turkish and seven Indian nationals aboard ABLE.",
-      "response": "DIOSCURIA assisted, with Bulgarian naval, air, border-police and maritime-rescue teams responding. Injured ABLE survivors were taken to Varna. Authorities halted the ALFA WATAN search on 7 October after finding a boat, three liferafts and equipment, but no sailors or drone wreckage. On 8 October Syria sought an independent investigation into the attack and termination of the search.",
-      "uncertainty": "High confidence in the officially reported attack and vessel outcomes. Operator, precise weapons and exact positions remain unresolved. Conflicting ALFA WATAN crew totals remain source-dated; no reconciled death toll inferred. EEZ location is not a confirmed incursion into Bulgarian sovereign territory.",
-      "deduplication": "One dated record for the reported combined attack on ALFA WATAN and ABLE. Sinking, fire, rescue, search termination and investigation request remain together; no added rows for two ships, multiple drones or follow-ups. Separate from Royad Mammadov N072 off Romania on 5 October.",
-      "provenance": "Added and reviewed 2026-10-09 against Bulgaria’s official 6 October statement, BTA and Reuters reports through 8 October (U037–U041). The Bulgarian attack was absent from the existing register. Original research snapshots unchanged.",
-      "sourceReferences": "[U037][U037]; [U038][U038]; [U039][U039]; [U040][U040]; [U041][U041]",
+      "impact": "ALFA WATAN crew missing: Reuters on 7 October reported twelve Syrians; its 8 October report gives ten missing, including nine Syrians. The discrepancy is unresolved; missing people are not recorded as confirmed dead. All eighteen ABLE crew were rescued, two injured; BTA reports eleven Turkish and seven Indian nationals aboard ABLE. ABLE remained afloat and drifting in the 9 October account, with severe hull damage and engine-room flooding; sinking was possible, not confirmed.",
+      "response": "DIOSCURIA assisted, with Bulgarian naval, air, border-police and maritime-rescue teams responding. Injured ABLE survivors were taken to Varna. Authorities halted the ALFA WATAN search on 7 October after finding a boat, three liferafts and equipment, but no sailors or drone wreckage. On 8 October Syria sought an independent investigation into the attack and termination of the search. A Cougar helicopter and frigate Verni inspected ABLE; two personnel boarded but found no identifiable drone remnants (9 October reporting).",
+      "uncertainty": "High confidence in the officially reported attack and vessel outcomes. Operator, precise weapons and exact positions remain unresolved. Conflicting ALFA WATAN crew totals remain source-dated; no reconciled death toll inferred. EEZ location is not a confirmed incursion into Bulgarian sovereign territory. No drone fragments identified aboard ABLE in the later inspection. Officials differed on flooding extent; the Navy commander said its eventual sinking could not yet be determined. The separately discovered Sinemorets UAV debris (N077) has no established connection.",
+      "deduplication": "One dated record for the reported combined attack on ALFA WATAN and ABLE. Sinking, fire, rescue, search termination and investigation request remain together; no added rows for two ships, multiple drones or follow-ups. Separate from Royad Mammadov N072 off Romania on 5 October. The 9 October ABLE inspection is retained here; N077 is a distinct debris discovery with no proven link to this attack.",
+      "provenance": "Added and reviewed 2026-10-09 against Bulgaria’s official 6 October statement, BTA and Reuters reports through 8 October (U037–U041). The Bulgarian attack was absent from the existing register. Original research snapshots unchanged. Updated 2026-10-12 with Mediapool’s 9 October inspection account (U046); attack date, anchor and existing casualty discrepancies retained.",
+      "sourceReferences": "[U037][U037]; [U038][U038]; [U039][U039]; [U040][U040]; [U041][U041]; [U046][U046]",
       "sources": [
         "U037",
         "U038",
         "U039",
         "U040",
-        "U041"
+        "U041",
+        "U046"
       ],
       "title": "ALFA WATAN / ABLE · offshore drone attack",
       "category": "explosion",
@@ -5402,6 +5403,95 @@ window.DRONE_DATA = {
       "reported_UAVs": 5,
       "reported_airspace_violations": 5,
       "reported_FIR_infractions": 5
+    },
+    {
+      "id": "N077",
+      "dateLabel": "2026-10-09 (around midday discovery)",
+      "startDate": "2026-10-09",
+      "dateBasis": "Discovery and controlled disposal reported for 9 October; no original crash date established.",
+      "countries": "Bulgaria (offshore)",
+      "location": "Black Sea, reported 15 nautical miles east of Sinemorets; approximate offshore area.",
+      "status": "Official UAV-debris discovery and controlled disposal; foreign origin unresolved",
+      "categories": "Floating aerial-UAV fragments; military inspection; controlled detonation",
+      "vehicle": "Unidentified aerial-UAV fragments; model and number of originating aircraft unknown.",
+      "attribution": "Origin, operator and nationality unestablished; no Russian or Ukrainian attribution confirmed.",
+      "route": "Original flight path and drift history unknown.",
+      "circumstances": "Floating UAV parts were observed east of Sinemorets around midday. The Bulgarian Navy sent minehunter Struma to examine them.",
+      "payload": "Explosive material suspected, not confirmed; precautionary destruction authorized.",
+      "impact": "No casualties, vessel damage or other consequences reported in the Navy account.",
+      "response": "Divers from auxiliary ship Kapitan I rang Dimitar Dobrev recommended in-place destruction; the Navy commander authorized detonation.",
+      "uncertainty": "Official discovery/disposal report; identity beyond UAV fragments and foreign origin remain unresolved. No evidence links these fragments to ALFA WATAN / ABLE.",
+      "deduplication": "One discovery/disposal chain. Distinct from the 6 October ship attack N073. The missile component mentioned separately in the same report is excluded.",
+      "provenance": "Added and reviewed 2026-10-12 against the Navy account published by the Defence Ministry Information Centre (U045).",
+      "sourceReferences": "[U045][U045]",
+      "sources": [
+        "U045"
+      ],
+      "title": "Off Sinemorets · UAV debris disposal",
+      "category": "disposal",
+      "stages": [
+        "disposal",
+        "recovery"
+      ],
+      "classificationNote": "Controlled disposal: an authorized EOD detonation, with recovery/discovery secondary. Does not establish an uncontrolled explosion, same-day crash or incursion.",
+      "positions": [
+        {
+          "lat": 42.06,
+          "lng": 28.32,
+          "precision": "offshore",
+          "label": "About 15 nautical miles east of Sinemorets — approximate offshore anchor"
+        }
+      ],
+      "positionNote": "Rounded editorial estimate east of Sinemorets, not a verified position or maritime-boundary determination.",
+      "recordClass": "event",
+      "recordType": "official_offshore_uav_debris_disposal",
+      "matchKey": "BG::2026-10-09::sinemorets-offshore-uav-disposal"
+    },
+    {
+      "id": "N078",
+      "dateLabel": "2026-10-10",
+      "startDate": "2026-10-10",
+      "dateBasis": "Activity on 10 October, reported that evening. The 11 October article explicitly describes the same 10 October activity.",
+      "countries": "Greece",
+      "location": "Northeastern, central and southeastern Aegean; exact sites unpublished.",
+      "status": "Greek-authority-reported Turkish UAV airspace violations",
+      "categories": "Five reported national-airspace violations and eight Athens FIR infractions by UAVs",
+      "vehicle": "Six Turkish military UAVs per Greek authorities; models unspecified.",
+      "attribution": "Turkish attribution and national-airspace assessment are those of GEETHA, relayed in Greek reporting. The Greek-Turkish airspace dispute remains relevant.",
+      "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+      "circumstances": "GEETHA’s account distinguishes six UAVs, five national-airspace violations and eight FIR infringements.",
+      "payload": "UAV armament and payload not established.",
+      "impact": "No casualties, damage, crashes or EOD operations reported.",
+      "response": "Identified and intercepted under standard procedures; no shoot-down or weapons engagement reported.",
+      "uncertainty": "Original military bulletin not retrieved directly. High confidence in the published Greek military account; no independently verified airspace-boundary assessment or tracks.",
+      "deduplication": "One dated record; the 6/5/8 counts measure different quantities, not separate incidents. DefenceNet’s 11 October publication repeats 10 October activity, not an additional occurrence. Distinct from N076 on 8 October.",
+      "provenance": "Added and reviewed 2026-10-12 against OnAlert’s 10 October report (U047) and DefenceNet’s explicitly retrospective account (U048).",
+      "sourceReferences": "[U047][U047]; [U048][U048]",
+      "sources": [
+        "U047",
+        "U048"
+      ],
+      "title": "Northeastern / central / southeastern Aegean · Greek-reported Turkish UAVs",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "classificationNote": "Flight: routine interception does not establish armed engagement.",
+      "positions": [
+        {
+          "lat": 38.5,
+          "lng": 26.0,
+          "precision": "region",
+          "label": "Northeastern / central / southeastern Aegean — broad representative anchor"
+        }
+      ],
+      "positionNote": "Single broad editorial anchor, not a verified violation point, flight track or airspace boundary.",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "matchKey": "GR::2026-10-10::aegean-uav-activity",
+      "reported_UAVs": 6,
+      "reported_airspace_violations": 5,
+      "reported_FIR_infractions": 8
     }
   ],
   "contexts": [
@@ -7163,9 +7253,49 @@ window.DRONE_DATA = {
       "url": "https://www.dimokratiki.gr/08-10-2026/egeo-pente-tourkika-drones-ke-ena-atr-72-ekanan-paravasis-ke-paraviasis-tou-enaeriou-chorou/",
       "dateLabel": "8 October 2026, 21:04",
       "audit": "Read the article body on 9 October. Five UAVs account for five national-airspace violations and five FIR infractions; two additional FIR infractions belong to the manned ATR-72. Credits NewsIT, so republications are not independent corroboration. Original GEETHA bulletin not retrieved."
+    },
+    "U045": {
+      "id": "U045",
+      "publisher": "Bulgarian Ministry of Defence Information Centre / Navy",
+      "title": "Mine-countermeasures group identifies and disposes of hazardous objects at sea",
+      "url": "https://armymedia.bg/2026/10/09/корабите-от-противоминната-група-в-че-3/",
+      "dateLabel": "9 October 2026, 17:40",
+      "audit": "Read 12 October. Navy report confirms floating UAV parts east of Sinemorets and authorized destruction in place due to suspected explosives. The separately recovered Kh-31P missile component is not UAV debris and creates no drone record. Foreign origin and linkage to earlier attacks are not established."
+    },
+    "U046": {
+      "id": "U046",
+      "publisher": "Mediapool",
+      "title": "Military found no drone remnants aboard ABLE; Bulgaria declines to attribute the ship attack",
+      "url": "https://www.mediapool.bg/bulgaria/voennite-ne-nameriha-ostanki-ot-dronove-bulgaria-nyama-namerenie-da-posochva-koi-stoi-zad-atakata-sreshtu-korabite/",
+      "dateLabel": "9 October 2026, 15:26",
+      "audit": "Read 12 October. Reports inspection of the afloat, drifting ABLE, with no drone remnants found. Minister assesses a surface-drone strike; Navy commander says sinking remains uncertain. Accounts differ on extent of engine-room flooding, so no exact extent inferred. Follow-up to N073, not a new attack."
+    },
+    "U047": {
+      "id": "U047",
+      "publisher": "OnAlert / GEETHA",
+      "title": "New Turkish UAV airspace violations and FIR infringements in the Aegean",
+      "url": "https://www.onalert.gr/ellinotourkika/i-tourkia-synexizei-na-prokalei-sto-aigaio-nees-paravaseis-kai-paraviaseis-apo-uav/825347/",
+      "dateLabel": "10 October 2026, 18:28",
+      "audit": "Read 12 October. Reproduces GEETHA figures: six UAVs, five national-airspace violations and eight FIR infractions on 10 October, with standard identification/interception. Original military bulletin not retrieved directly. Photo is explicitly a Reuters file image and does not establish UAV model for this activity."
+    },
+    "U048": {
+      "id": "U048",
+      "publisher": "DefenceNet / GEETHA",
+      "title": "Νέες τουρκικές παραβιάσεις από UAV στο Αιγαίο",
+      "url": "https://www.defencenet.gr/amyna/ellinotoyrkika/nees-tourkikes-paraviaseis-apo-uav-sto-aigaio/",
+      "dateLabel": "11 October 2026, 00:02",
+      "audit": "Read 12 October. Explicitly dates the six-UAV activity to Saturday 10 October and repeats 5 airspace violations / 8 FIR infractions. Same dated military account as U047; neither independent track verification nor a new 11 October incident."
+    },
+    "U049": {
+      "id": "U049",
+      "publisher": "Romanian Ministry of National Defence",
+      "title": "Press release No. 326: 9–10 October alerts; no Romanian airspace penetration",
+      "url": "https://www.mapn.ro/cpresa/19435_Informa%C8%9Bie-de-Pres%C4%83",
+      "dateLabel": "10 October 2026",
+      "audit": "Read 12 October. Both radar targets remained in Ukrainian airspace; release explicitly reports no national-airspace entry. Retained as an exclusion reference, not a mapped incursion or an additional event."
     }
   },
-  "cutoff": "2026-10-09",
+  "cutoff": "2026-10-12",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

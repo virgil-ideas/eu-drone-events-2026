@@ -1593,5 +1593,45 @@
     "url": "https://www.dimokratiki.gr/08-10-2026/egeo-pente-tourkika-drones-ke-ena-atr-72-ekanan-paravasis-ke-paraviasis-tou-enaeriou-chorou/",
     "dateLabel": "8 October 2026, 21:04",
     "audit": "Read the article body on 9 October. Five UAVs account for five national-airspace violations and five FIR infractions; two additional FIR infractions belong to the manned ATR-72. Credits NewsIT, so republications are not independent corroboration. Original GEETHA bulletin not retrieved."
+  },
+  "U045": {
+    "id": "U045",
+    "publisher": "Bulgarian Ministry of Defence Information Centre / Navy",
+    "title": "Mine-countermeasures group identifies and disposes of hazardous objects at sea",
+    "url": "https://armymedia.bg/2026/10/09/корабите-от-противоминната-група-в-че-3/",
+    "dateLabel": "9 October 2026, 17:40",
+    "audit": "Read 12 October. Navy report confirms floating UAV parts east of Sinemorets and authorized destruction in place due to suspected explosives. The separately recovered Kh-31P missile component is not UAV debris and creates no drone record. Foreign origin and linkage to earlier attacks are not established."
+  },
+  "U046": {
+    "id": "U046",
+    "publisher": "Mediapool",
+    "title": "Military found no drone remnants aboard ABLE; Bulgaria declines to attribute the ship attack",
+    "url": "https://www.mediapool.bg/bulgaria/voennite-ne-nameriha-ostanki-ot-dronove-bulgaria-nyama-namerenie-da-posochva-koi-stoi-zad-atakata-sreshtu-korabite/",
+    "dateLabel": "9 October 2026, 15:26",
+    "audit": "Read 12 October. Reports inspection of the afloat, drifting ABLE, with no drone remnants found. Minister assesses a surface-drone strike; Navy commander says sinking remains uncertain. Accounts differ on extent of engine-room flooding, so no exact extent inferred. Follow-up to N073, not a new attack."
+  },
+  "U047": {
+    "id": "U047",
+    "publisher": "OnAlert / GEETHA",
+    "title": "New Turkish UAV airspace violations and FIR infringements in the Aegean",
+    "url": "https://www.onalert.gr/ellinotourkika/i-tourkia-synexizei-na-prokalei-sto-aigaio-nees-paravaseis-kai-paraviaseis-apo-uav/825347/",
+    "dateLabel": "10 October 2026, 18:28",
+    "audit": "Read 12 October. Reproduces GEETHA figures: six UAVs, five national-airspace violations and eight FIR infractions on 10 October, with standard identification/interception. Original military bulletin not retrieved directly. Photo is explicitly a Reuters file image and does not establish UAV model for this activity."
+  },
+  "U048": {
+    "id": "U048",
+    "publisher": "DefenceNet / GEETHA",
+    "title": "Νέες τουρκικές παραβιάσεις από UAV στο Αιγαίο",
+    "url": "https://www.defencenet.gr/amyna/ellinotoyrkika/nees-tourkikes-paraviaseis-apo-uav-sto-aigaio/",
+    "dateLabel": "11 October 2026, 00:02",
+    "audit": "Read 12 October. Explicitly dates the six-UAV activity to Saturday 10 October and repeats 5 airspace violations / 8 FIR infractions. Same dated military account as U047; neither independent track verification nor a new 11 October incident."
+  },
+  "U049": {
+    "id": "U049",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Press release No. 326: 9–10 October alerts; no Romanian airspace penetration",
+    "url": "https://www.mapn.ro/cpresa/19435_Informa%C8%9Bie-de-Pres%C4%83",
+    "dateLabel": "10 October 2026",
+    "audit": "Read 12 October. Both radar targets remained in Ukrainian airspace; release explicitly reports no national-airspace entry. Retained as an exclusion reference, not a mapped incursion or an additional event."
   }
 }
