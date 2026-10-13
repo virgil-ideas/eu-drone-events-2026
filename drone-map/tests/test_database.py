@@ -54,6 +54,10 @@ class DatabaseTests(unittest.TestCase):
     def build(self, check=False):
         return builder.build(self.data_dir, self.output_dir, self.root, check=check)
 
+    def published(self):
+        return {path.relative_to(self.output_dir).as_posix(): path.read_bytes()
+                for path in self.output_dir.rglob('*') if path.is_file()}
+
     def test_current_repository_is_valid(self):
         load_database()
 
@@ -220,10 +224,10 @@ class DatabaseTests(unittest.TestCase):
     def test_build_is_deterministic_and_preserves_research_bytes(self):
         self.save()
         self.build()
-        before = {p.name: p.read_bytes() for p in self.output_dir.iterdir()}
+        before = self.published()
         self.build()
         self.build(check=True)
-        self.assertEqual(before, {p.name: p.read_bytes() for p in self.output_dir.iterdir()})
+        self.assertEqual(before, self.published())
         self.assertEqual(before['research.md'], (self.root / 'research.md').read_bytes())
         data = json.loads(before['events.js'].decode()[len('window.DRONE_DATA = '):-2])
         self.assertEqual(data['events'][0]['sourceReferences'], '[S01][S01]')
@@ -245,12 +249,12 @@ class DatabaseTests(unittest.TestCase):
     def test_invalid_input_never_overwrites_published_files(self):
         self.save()
         self.build()
-        before = {p.name: p.read_bytes() for p in self.output_dir.iterdir()}
+        before = self.published()
         self.database['events'][0]['sources'] = ['S99']
         self.save()
         with self.assertRaisesRegex(DataError, 'unknown source'):
             self.build()
-        self.assertEqual(before, {p.name: p.read_bytes() for p in self.output_dir.iterdir()})
+        self.assertEqual(before, self.published())
 
     def test_changed_or_missing_research_blocks_build(self):
         self.save()

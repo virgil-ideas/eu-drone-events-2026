@@ -51,6 +51,7 @@
   'card.video': 'Video',
   'card.photo': 'Foto',
   'sidebar.foot': 'Antal registreringar ≠ bekräftade attacker eller unika drönare.',
+  'sidebar.pages': 'Bläddra bland alla registreringar',
 
   'class.event': 'Händelseregistrering',
   'class.candidate': 'Oidentifierat föremål',
@@ -96,6 +97,7 @@
   'detail.geoE058': 'Platsen Pratkūnai är inte geokodad; markören representerar endast Litauen.',
   'detail.sources': 'Källor · {n}',
   'detail.record': 'Registreringsdetaljer',
+  'detail.page': 'Registreringens sida',
   'detail.originalLanguage': 'Registreringsfält och källanteckningar visas på engelska som i det ursprungliga registret.',
   'detail.opened': '{id}: {title}. {status}. Händelsedetaljerna har öppnats.',
 

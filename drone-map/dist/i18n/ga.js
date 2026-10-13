@@ -51,6 +51,7 @@
   'card.video': 'Físeán',
   'card.photo': 'Grianghraf',
   'sidebar.foot': 'Líon na dtaifead ≠ ionsaithe deimhnithe ná dróin ar leith.',
+  'sidebar.pages': 'Brabhsáil na taifid go léir',
 
   'class.event': 'Taifead teagmhais',
   'class.candidate': 'Réad neamhaitheanta',
@@ -96,6 +97,7 @@
   'detail.geoE058': 'Níl láithreán Pratkūnai geochódaithe; seasann an marcóir don Liotuáin amháin.',
   'detail.sources': 'Foinsí · {n}',
   'detail.record': 'Sonraí an taifid',
+  'detail.page': 'Leathanach an taifid',
   'detail.originalLanguage': 'Taispeántar réimsí an taifid agus nótaí na bhfoinsí sa Bhéarla bunaidh atá sa chlár.',
   'detail.opened': '{id}: {title}. {status}. Osclaíodh sonraí an teagmhais.',
 

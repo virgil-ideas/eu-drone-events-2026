@@ -53,6 +53,7 @@
   'card.video': 'Video',
   'card.photo': 'Photo',
   'sidebar.foot': 'Record counts ≠ confirmed attacks or unique drones.',
+  'sidebar.pages': 'Browse all records',
 
   'class.event': 'Event record',
   'class.candidate': 'Unidentified object',
@@ -98,6 +99,7 @@
   'detail.geoE058': 'The Pratkūnai site is not geocoded; the marker represents Lithuania only.',
   'detail.sources': 'Sources · {n}',
   'detail.record': 'Record details',
+  'detail.page': 'Record page',
   'detail.originalLanguage': 'Record fields and source notes are shown in the register’s original English.',
   'detail.opened': '{id}: {title}. {status}. Event details opened.',
 

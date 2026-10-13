@@ -12,12 +12,15 @@
   const siteRoot = siteRoots[location.origin];
 
   // Local development and other copies must not pollute the live site's totals.
-  if (!endpoint || !siteRoot ||
-      ![siteRoot, siteRoot + 'index.html'].includes(location.pathname) || window.goatcounter) return;
+  if (!endpoint || !siteRoot || window.goatcounter) return;
+  const isMap = [siteRoot, siteRoot + 'index.html'].includes(location.pathname);
+  // Record pages (events/…) are counted by their own path.
+  const isRecordPage = location.pathname.startsWith(siteRoot + 'events/');
+  if (!isMap && !isRecordPage) return;
 
   window.goatcounter = {
-    path: '/',
-    title: 'Europe Drone Events · 2026',
+    path: isMap ? '/' : '/' + location.pathname.slice(siteRoot.length).replace(/index\.html$/, ''),
+    title: isMap ? 'Europe Drone Events · 2026' : document.title,
     referrer: '',
     no_events: true,
   };

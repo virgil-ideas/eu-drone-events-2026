@@ -9,6 +9,7 @@ no database server, credentials or third-party Python packages are required.
 | `sources.json` | Shared bibliography keyed by source ID: publisher, title, URL, audit notes and the publication-date label when known. |
 | `contexts.json` | Non-additive aggregate/context records. Never counted or mapped as individual events. |
 | `dataset.json` | Schema version, inclusive reporting cutoff and the filenames/SHA-256 hashes of archived research. |
+| `pages.json` | Optional editorial copy for each record's page: URL slug, headline, search description, summary and the hash of the facts it was written from. See [Record page copy](#record-page-copy). |
 
 The original Markdown files at the repository root are research snapshots, not
 editable database inputs. Keep them unchanged. Supplementary daily reports and
@@ -48,7 +49,8 @@ compared with the previous export; no research claims or locations changed.
    python3 drone-map/scripts/build-data.py --check
    ```
 
-7. Review and commit the JSON changes with the generated `drone-map/dist/events.js`.
+7. Review and commit the JSON changes with the generated `drone-map/dist/events.js` and
+   `drone-map/dist/events/`, `sitemap.xml` and `robots.txt`.
    Preview the map locally for editorial changes. Pull requests run the checks;
    a validated push to `main` also publishes to GitHub Pages.
 
@@ -56,6 +58,40 @@ To compute a new research file's hash: `shasum -a 256 filename.md`.
 To validate without building: `python3 drone-map/scripts/database.py`.
 `--check` never writes files and fails if any generated export/download is stale.
 All inputs are validated before the builder writes its outputs.
+
+## Record page copy
+
+Every mapped record gets a page at `/events/<slug>/`. `pages.json` holds the reviewed copy
+for those pages, keyed by event ID:
+
+```json
+"E006": {
+  "slug": "2026-03-25-drone-hits-auvere-power-station-estonia",
+  "headline": "Stray drone hits Auvere power station chimney in Estonia",
+  "description": "The 120–160 character search snippet…",
+  "summary": ["First paragraph…", "Second paragraph…"],
+  "basis": "3f1c0d9e2b7a4c51"
+}
+```
+
+- Write copy only from the record's own fields and keep attribution exactly as strong as
+  the record. Pages show the record's status and attribution next to the summary.
+- `slug` is the page URL. Never change a published slug; links and search results point
+  to it. A new record without an entry gets a slug from its date, title and country.
+- `basis` is a hash of the record facts the copy was written from (dates, countries,
+  location, status, categories, class, vehicle, attribution, route, circumstances,
+  payload, impact, response and uncertainty). When any of these change, the page falls
+  back to copy assembled from the record until someone reviews the summary.
+- After writing or reviewing copy, stamp it and rebuild:
+
+  ```sh
+  python3 drone-map/scripts/pages.py accept E006
+  python3 drone-map/scripts/build-data.py
+  ```
+
+`python3 drone-map/scripts/pages.py` lists every page using automatic copy and why.
+Validation rejects unknown event IDs, missing fields, malformed or duplicate slugs and
+empty summaries. A missing `pages.json` is valid; every page then uses automatic copy.
 
 ## Record schema (version 1)
 

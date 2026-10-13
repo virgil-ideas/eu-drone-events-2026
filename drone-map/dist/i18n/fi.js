@@ -51,6 +51,7 @@
   'card.video': 'Video',
   'card.photo': 'Kuva',
   'sidebar.foot': 'Merkintöjen määrä ≠ vahvistettujen hyökkäysten tai eri droonien määrä.',
+  'sidebar.pages': 'Selaa kaikkia merkintöjä',
 
   'class.event': 'Tapahtumamerkintä',
   'class.candidate': 'Tunnistamaton kohde',
@@ -96,6 +97,7 @@
   'detail.geoE058': 'Paikkaa Pratkūnai ei ole geokoodattu; karttamerkki edustaa vain Liettuaa.',
   'detail.sources': 'Lähteet · {n}',
   'detail.record': 'Merkinnän tiedot',
+  'detail.page': 'Merkinnän sivu',
   'detail.originalLanguage': 'Merkinnän kentät ja lähdehuomautukset näytetään rekisterin alkuperäisellä englannin kielellä.',
   'detail.opened': '{id}: {title}. {status}. Tapahtuman tiedot avattu.',
 

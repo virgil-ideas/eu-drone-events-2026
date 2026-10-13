@@ -51,6 +51,7 @@
   'card.video': 'Wideo',
   'card.photo': 'Zdjęcie',
   'sidebar.foot': 'Liczba wpisów ≠ liczba potwierdzonych ataków ani odrębnych dronów.',
+  'sidebar.pages': 'Przeglądaj wszystkie wpisy',
 
   'class.event': 'Wpis o zdarzeniu',
   'class.candidate': 'Niezidentyfikowany obiekt',
@@ -96,6 +97,7 @@
   'detail.geoE058': 'Miejsce w Pratkūnai nie zostało zgeokodowane; znacznik oznacza jedynie Litwę.',
   'detail.sources': 'Źródła · {n}',
   'detail.record': 'Szczegóły wpisu',
+  'detail.page': 'Strona wpisu',
   'detail.originalLanguage': 'Pola wpisu i uwagi dotyczące źródeł są podane w oryginalnej, angielskiej wersji rejestru.',
   'detail.opened': '{id}: {title}. {status}. Otwarto szczegóły zdarzenia.',
 

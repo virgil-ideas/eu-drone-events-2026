@@ -51,6 +51,7 @@
   'card.video': 'Video',
   'card.photo': 'Foto',
   'sidebar.foot': 'Počet záznamov ≠ počet potvrdených útokov či jednotlivých dronov.',
+  'sidebar.pages': 'Prehliadať všetky záznamy',
 
   'class.event': 'Záznam udalosti',
   'class.candidate': 'Neidentifikovaný objekt',
@@ -96,6 +97,7 @@
   'detail.geoE058': 'Miesto Pratkūnai nie je geokódované; značka predstavuje iba Litvu.',
   'detail.sources': 'Zdroje · {n}',
   'detail.record': 'Podrobnosti záznamu',
+  'detail.page': 'Stránka záznamu',
   'detail.originalLanguage': 'Polia záznamu a poznámky k zdrojom sa zobrazujú v pôvodnej angličtine registra.',
   'detail.opened': '{id}: {title}. {status}. Podrobnosti o udalosti sú otvorené.',
 

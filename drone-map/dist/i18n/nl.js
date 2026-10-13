@@ -51,6 +51,7 @@
   'card.video': 'Video',
   'card.photo': 'Foto',
   'sidebar.foot': 'Aantallen registraties ≠ bevestigde aanvallen of unieke drones.',
+  'sidebar.pages': 'Alle registraties bekijken',
 
   'class.event': 'Voorvalregistratie',
   'class.candidate': 'Ongeïdentificeerd object',
@@ -96,6 +97,7 @@
   'detail.geoE058': 'De locatie Pratkūnai is niet gegeocodeerd; de markering staat alleen voor Litouwen.',
   'detail.sources': 'Bronnen · {n}',
   'detail.record': 'Details van registratie',
+  'detail.page': 'Pagina van de registratie',
   'detail.originalLanguage': 'Registratievelden en bronnotities worden getoond in het oorspronkelijke Engels van het register.',
   'detail.opened': '{id}: {title}. {status}. Details van voorval geopend.',
 
