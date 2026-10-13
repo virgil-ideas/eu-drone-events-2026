@@ -98,6 +98,11 @@
   'detail.sources': 'Källor · {n}',
   'detail.record': 'Registreringsdetaljer',
   'detail.page': 'Registreringens sida',
+  'area.eyebrow': 'INTRESSEOMRÅDE',
+  'area.open': 'Intresseområde: {name}',
+  'area.neptunDeep': 'Ett naturgasprojekt till havs i Rumäniens exklusiva ekonomiska zon i Svarta havet, omkring 80 sjömil (cirka 150 km) öster om Constanța. Registret innehåller registreringar av militära drönare i projektets arbetsområde.',
+  'area.records': {one: '{n} registrering på platsen', other: '{n} registreringar på platsen'},
+  'area.note': 'Plattformen är en illustration och inte skalenlig. Dess position är ungefärlig: den exakta platsen har inte offentliggjorts.',
   'detail.originalLanguage': 'Registreringsfält och källanteckningar visas på engelska som i det ursprungliga registret.',
   'detail.opened': '{id}: {title}. {status}. Händelsedetaljerna har öppnats.',
 

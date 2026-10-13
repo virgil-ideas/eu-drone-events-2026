@@ -98,6 +98,11 @@
   'detail.sources': 'Viri · {n}',
   'detail.record': 'Podrobnosti zapisa',
   'detail.page': 'Stran zapisa',
+  'area.eyebrow': 'OBMOČJE ZANIMANJA',
+  'area.open': 'Območje zanimanja: {name}',
+  'area.neptunDeep': 'Projekt pridobivanja zemeljskega plina v izključni ekonomski coni Romunije v Črnem morju, približno 80 navtičnih milj (okoli 150 km) vzhodno od Constanțe. Register vsebuje zapise o vojaških dronih na območju del projekta.',
+  'area.records': {one: '{n} zapis na lokaciji', two: '{n} zapisa na lokaciji', few: '{n} zapisi na lokaciji', other: '{n} zapisov na lokaciji'},
+  'area.note': 'Ploščad je ilustracija in ni v merilu. Njen položaj je približen: natančna lokacija ni objavljena.',
   'detail.originalLanguage': 'Polja zapisa in opombe o virih so prikazani v izvirni angleščini registra.',
   'detail.opened': '{id}: {title}. {status}. Podrobnosti dogodka so odprte.',
 

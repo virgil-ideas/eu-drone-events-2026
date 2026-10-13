@@ -98,6 +98,11 @@
   'detail.sources': 'Źródła · {n}',
   'detail.record': 'Szczegóły wpisu',
   'detail.page': 'Strona wpisu',
+  'area.eyebrow': 'OBSZAR ZAINTERESOWANIA',
+  'area.open': 'Obszar zainteresowania: {name}',
+  'area.neptunDeep': 'Projekt wydobycia gazu ziemnego w wyłącznej strefie ekonomicznej Rumunii na Morzu Czarnym, około 80 mil morskich (ok. 150 km) na wschód od Constanțy. Rejestr zawiera wpisy o wojskowych dronach w obszarze prac projektu.',
+  'area.records': {one: '{n} wpis w tym miejscu', few: '{n} wpisy w tym miejscu', many: '{n} wpisów w tym miejscu', other: '{n} wpisu w tym miejscu'},
+  'area.note': 'Platforma jest ilustracją i nie zachowuje skali. Jej położenie jest przybliżone: dokładna lokalizacja nie została opublikowana.',
   'detail.originalLanguage': 'Pola wpisu i uwagi dotyczące źródeł są podane w oryginalnej, angielskiej wersji rejestru.',
   'detail.opened': '{id}: {title}. {status}. Otwarto szczegóły zdarzenia.',
 

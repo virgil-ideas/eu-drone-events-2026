@@ -98,6 +98,11 @@
   'detail.sources': 'Avoti · {n}',
   'detail.record': 'Ieraksta informācija',
   'detail.page': 'Ieraksta lapa',
+  'area.eyebrow': 'INTEREŠU APGABALS',
+  'area.open': 'Interešu apgabals: {name}',
+  'area.neptunDeep': 'Dabasgāzes ieguves projekts atklātā jūrā Rumānijas ekskluzīvajā ekonomiskajā zonā Melnajā jūrā, aptuveni 80 jūras jūdžu (ap 150 km) attālumā uz austrumiem no Konstancas (Constanța). Reģistrā ir ieraksti par militāriem droniem projekta darbu zonā.',
+  'area.records': {zero: '{n} ieraksti šajā vietā', one: '{n} ieraksts šajā vietā', other: '{n} ieraksti šajā vietā'},
+  'area.note': 'Platforma ir ilustrācija un nav attēlota mērogā. Tās novietojums ir aptuvens: precīzā atrašanās vieta nav publiskota.',
   'detail.originalLanguage': 'Ieraksta lauki un avotu piezīmes ir attēlotas reģistra oriģinālajā angļu valodā.',
   'detail.opened': '{id}: {title}. {status}. Atvērta notikuma informācija.',
 

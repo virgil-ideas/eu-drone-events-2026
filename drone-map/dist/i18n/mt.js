@@ -98,6 +98,11 @@
   'detail.sources': 'Sorsi · {n}',
   'detail.record': 'Dettalji tar-rekord',
   'detail.page': 'Paġna tar-rekord',
+  'area.eyebrow': 'ŻONA TA’ INTERESS',
+  'area.open': 'Żona ta’ interess: {name}',
+  'area.neptunDeep': 'Proġett offshore tal-gass naturali fiż-żona ekonomika esklużiva tar-Rumanija fil-Baħar l-Iswed, xi 80 mil nawtiku (madwar 150 km) lejn il-lvant ta’ Constanța. Ir-reġistru fih rekords ta’ drones militari fiż-żona tax-xogħlijiet tal-proġett.',
+  'area.records': {one: '{n} rekord fis-sit', two: '{n} rekords fis-sit', few: '{n} rekords fis-sit', many: '{n} rekord fis-sit', other: '{n} rekord fis-sit'},
+  'area.note': 'Il-pjattaforma hija illustrazzjoni u mhijiex skont l-iskala. Il-pożizzjoni tagħha hija approssimattiva: il-post eżatt mhuwiex ippubblikat.',
   'detail.originalLanguage': 'Il-kampi tar-rekord u n-noti dwar is-sorsi jintwerew bl-Ingliż oriġinali tar-reġistru.',
   'detail.opened': '{id}: {title}. {status}. Id-dettalji tal-avveniment infetħu.',
 

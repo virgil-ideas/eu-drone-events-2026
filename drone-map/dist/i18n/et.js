@@ -98,6 +98,11 @@
   'detail.sources': 'Allikad · {n}',
   'detail.record': 'Kirje üksikasjad',
   'detail.page': 'Kirje leht',
+  'area.eyebrow': 'HUVIPIIRKOND',
+  'area.open': 'Huvipiirkond: {name}',
+  'area.neptunDeep': 'Avamere maagaasiprojekt Rumeenia Musta mere majandusvööndis, umbes 80 meremiili (ligikaudu 150 km) Constanțast ida pool. Registris on kirjeid sõjaliste droonide kohta projekti tööpiirkonnas.',
+  'area.records': {one: '{n} kirje selles asukohas', other: '{n} kirjet selles asukohas'},
+  'area.note': 'Platvorm on illustratsioon ega ole mõõtkavas. Selle paiknemine on ligikaudne: täpset asukohta ei ole avaldatud.',
   'detail.originalLanguage': 'Kirje väljad ja allikamärkused on esitatud registri algses ingliskeelses sõnastuses.',
   'detail.opened': '{id}: {title}. {status}. Sündmuse üksikasjad avatud.',
 

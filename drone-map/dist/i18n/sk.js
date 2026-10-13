@@ -98,6 +98,11 @@
   'detail.sources': 'Zdroje · {n}',
   'detail.record': 'Podrobnosti záznamu',
   'detail.page': 'Stránka záznamu',
+  'area.eyebrow': 'OBLASŤ ZÁUJMU',
+  'area.open': 'Oblasť záujmu: {name}',
+  'area.neptunDeep': 'Projekt ťažby zemného plynu v rumunskej výhradnej hospodárskej zóne v Čiernom mori, približne 80 námorných míľ (asi 150 km) východne od Constanțy. Register obsahuje záznamy o vojenských dronoch v oblasti prác na projekte.',
+  'area.records': {one: '{n} záznam v tejto lokalite', few: '{n} záznamy v tejto lokalite', many: '{n} záznamu v tejto lokalite', other: '{n} záznamov v tejto lokalite'},
+  'area.note': 'Plošina je ilustrácia a nie je v mierke. Jej poloha je približná: presné umiestnenie nie je zverejnené.',
   'detail.originalLanguage': 'Polia záznamu a poznámky k zdrojom sa zobrazujú v pôvodnej angličtine registra.',
   'detail.opened': '{id}: {title}. {status}. Podrobnosti o udalosti sú otvorené.',
 

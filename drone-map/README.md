@@ -73,6 +73,12 @@ Some channels forbid playback on other sites even though YouTube's oEmbed report
 
 The fetcher skips blocked pages (Reuters and AP currently block it), rejects logos, placeholders and site-wide default images, verifies each image and video loads without a referrer, and only keeps embeds that allow framing. CI checks `media.js` syntax but does not refetch.
 
+## Areas of interest
+
+Neptun Deep, Romania's offshore gas project about 80 nautical miles east of Constanța, is marked as an area of interest: a small animated 3D illustration of its production platform with a halo, drawn under the record markers so they stay clickable. Selecting it opens a card listing the records whose location names the site, with each record's distance wording in bold (E047: "few hundred metres from Neptun Deep works"), and puts `#neptun-deep` in the address. The illustration is not to scale and its position is approximate: the platform's exact location is not published, so it uses the project's published reference point. Areas are configured in `AREAS` in `app.js`; records join an area when their `location` matches its pattern.
+
+The model is built from simple shapes and drawn with plain WebGL by `dist/landmark.js`, without a 3D library. It animates only while visible, stays still for visitors who prefer reduced motion, and falls back to the halo and label if WebGL is unavailable.
+
 ## Record pages
 
 Every mapped record also has its own static page at `events/<date>-<slug>/`, so search engines and people without the map can find it. Each page has a headline, a search description, a short summary, the status and attribution exactly as recorded, preview media, sources, the full record and links to neighbouring records. `events/` lists every record by month, newest first. `sitemap.xml` and `robots.txt` point search engines at all of them. The map links each record's detail panel to its page. Opening a record on the map puts its slug in the address (`/#2026-03-25-…`), so the link can be shared, and a page's "Show on the interactive map" button opens the same address.
@@ -143,6 +149,7 @@ The script runs only on `droneincidents.eu`, its `www` variant, and the original
 - `dist/trend-data.js` — UTC rolling-window calculations shared by the UI and boundary tests
 - `dist/app.js` — map, trend panel, event details, replay controls and language switching
 - `dist/analytics.js` — production-only visitor counting
+- `dist/landmark.js` — the animated Neptun Deep platform illustration (plain WebGL)
 - `dist/page.css` — record pages and the record index
 - `dist/og-image.jpg` — 1200×630 link preview for social sites, a screenshot of the map on 13 October 2026; replace it when the headline numbers change a lot
 - `dist/events/`, `dist/sitemap.xml`, `dist/robots.txt` — generated record pages, index and sitemap; do not edit directly

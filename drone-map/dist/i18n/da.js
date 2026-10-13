@@ -98,6 +98,11 @@
   'detail.sources': 'Kilder · {n}',
   'detail.record': 'Registreringsdetaljer',
   'detail.page': 'Side for registreringen',
+  'area.eyebrow': 'INTERESSEOMRÅDE',
+  'area.open': 'Interesseområde: {name}',
+  'area.neptunDeep': 'Et offshore-naturgasprojekt i Rumæniens eksklusive økonomiske zone i Sortehavet, omkring 80 sømil (ca. 150 km) øst for Constanța. Registret indeholder registreringer af militære droner i projektets arbejdsområde.',
+  'area.records': {one: '{n} registrering på stedet', other: '{n} registreringer på stedet'},
+  'area.note': 'Platformen er en illustration og ikke i målestok. Dens position er omtrentlig: den nøjagtige placering er ikke offentliggjort.',
   'detail.originalLanguage': 'Registreringsfelter og kildenoter vises på engelsk som i det oprindelige register.',
   'detail.opened': '{id}: {title}. {status}. Hændelsesdetaljer åbnet.',
 

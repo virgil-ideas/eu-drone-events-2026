@@ -98,6 +98,11 @@
   'detail.sources': 'Fuentes · {n}',
   'detail.record': 'Detalles del registro',
   'detail.page': 'Página del registro',
+  'area.eyebrow': 'ZONA DE INTERÉS',
+  'area.open': 'Zona de interés: {name}',
+  'area.neptunDeep': 'Un proyecto de gas natural en alta mar situado en la zona económica exclusiva de Rumanía en el mar Negro, a unas 80 millas náuticas (unos 150 km) al este de Constanța. El registro de investigación incluye registros de drones militares en la zona de obras del proyecto.',
+  'area.records': {one: '{n} registro en el emplazamiento', many: '{n} registros en el emplazamiento', other: '{n} registros en el emplazamiento'},
+  'area.note': 'La plataforma es una ilustración y no está a escala. Su posición es aproximada: la ubicación exacta no se ha hecho pública.',
   'detail.originalLanguage': 'Los campos de cada registro y las notas sobre las fuentes se muestran en el inglés original del registro de investigación.',
   'detail.opened': '{id}: {title}. {status}. Detalles del suceso abiertos.',
 

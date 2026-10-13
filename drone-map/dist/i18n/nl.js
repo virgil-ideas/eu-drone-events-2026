@@ -98,6 +98,11 @@
   'detail.sources': 'Bronnen · {n}',
   'detail.record': 'Details van registratie',
   'detail.page': 'Pagina van de registratie',
+  'area.eyebrow': 'AANDACHTSGEBIED',
+  'area.open': 'Aandachtsgebied: {name}',
+  'area.neptunDeep': 'Een offshore aardgasproject in de exclusieve economische zone van Roemenië in de Zwarte Zee, zo’n 80 zeemijl (ongeveer 150 km) ten oosten van Constanța. Het register bevat registraties van militaire drones in het werkgebied van het project.',
+  'area.records': {one: '{n} registratie op de locatie', other: '{n} registraties op de locatie'},
+  'area.note': 'Het platform is een illustratie en niet op schaal. De positie is bij benadering: de exacte locatie is niet openbaar gemaakt.',
   'detail.originalLanguage': 'Registratievelden en bronnotities worden getoond in het oorspronkelijke Engels van het register.',
   'detail.opened': '{id}: {title}. {status}. Details van voorval geopend.',
 

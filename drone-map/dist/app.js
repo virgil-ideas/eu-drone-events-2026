@@ -20,7 +20,7 @@
     if (translations[code]) return Promise.resolve(true);
     return new Promise(resolve => {
       const script = document.createElement('script');
-      script.src = `i18n/${code}.js?v=20261013-pages`;
+      script.src = `i18n/${code}.js?v=20261013-aoi`;
       script.onload = () => resolve(Boolean(translations[code]));
       script.onerror = () => { script.remove(); resolve(false); };
       document.head.append(script);
@@ -86,6 +86,7 @@
   let lastFrameTime = null;
   let renderedRecordKey = '';
   let selectedId = null;
+  let openAreaId = null;
   let visibleEvents = events;
   let returnFocus = null;
   let mobileLayout = null;
@@ -202,6 +203,42 @@
       return marker;
     }));
   });
+  // Areas of interest: illustrated sites with records at them. The model is drawn by
+  // landmark.js; positions are approximate and the illustration is not to scale.
+  const AREAS = [{id:'neptun-deep', name:'Neptun Deep', lat:44.044, lng:30.58, text:'area.neptunDeep', match:/Neptun Deep/}];
+  map.createPane('areas').style.zIndex = 450;
+  const areaSize = () => { const zoom = map.getZoom(); return zoom < 5 ? 58 : zoom < 6 ? 72 : zoom < 7 ? 92 : zoom < 8 ? 116 : 132; };
+  const areaMarkers = AREAS.map(area => {
+    const marker = L.marker([area.lat,area.lng], {pane:'areas', keyboard:true, icon:L.divIcon({
+      className:'area-marker', iconSize:[0,0],
+      html:`<span class="area-halo" aria-hidden="true"></span><canvas class="area-model" aria-hidden="true"></canvas><span class="area-label">${escape(area.name)}</span>`
+    })}).addTo(map);
+    marker.on('click', () => openArea(area));
+    let model = null;
+    const entry = {area, marker, resize() {
+      const element = marker.getElement();
+      if (!element) return;
+      element.style.setProperty('--area-size', `${areaSize()}px`);
+      // The overview is crowded along the Romanian coast; name the site from zoom 6.
+      element.classList.toggle('compact', map.getZoom() < 6);
+      model?.resize(areaSize());
+    }};
+    // Leaflet creates the icon once the map has a view.
+    marker.on('add', () => {
+      const element = marker.getElement();
+      element.setAttribute('role', 'button');
+      element.setAttribute('aria-label', t('area.open',{name:area.name}));
+      model?.destroy();
+      try { model = window.createPlatformModel?.(element.querySelector('canvas'), {still:reducedMotion}) || null; } catch { model = null; }
+      if (!model) element.classList.add('no-model');  // The halo and label still mark the site.
+      entry.resize();
+    });
+    return entry;
+  });
+  map.on('zoomend', () => areaMarkers.forEach(entry => entry.resize()));
+  function labelAreas() {
+    areaMarkers.forEach(({area, marker}) => marker.getElement()?.setAttribute('aria-label', t('area.open',{name:area.name})));
+  }
   function labelMarkers() {
     events.forEach(event => markers.get(event.id).forEach((marker, index) => {
       const position = event.positions[index];
@@ -389,10 +426,12 @@
   }
   // The address bar names the open record by its page slug: /#2026-03-25-…
   const slugOf = event => event.page?.split('/')[1] || '';
-  function setRecordHash(event) {
-    const hash = event ? `#${slugOf(event)}` : '';
+  function setRecordHash(event) { setHash(event ? slugOf(event) : ''); }
+  function setHash(slug) {
+    const hash = slug ? `#${slug}` : '';
     if (location.hash !== hash) history.replaceState(history.state, '', `${location.pathname}${location.search}${hash}`);
   }
+  const areaFromHash = () => AREAS.find(area => area.id === location.hash.slice(1));
   function eventFromHash() {
     let slug;
     try { slug = decodeURIComponent(location.hash.slice(1)); }
@@ -405,6 +444,7 @@
     pause();
     if (!visibleEvents.some(e => e.id === id)) { allMode = false; currentDay = dayOf(event.startDate); playbackDay = currentDay; render(); }
     selectedId = id;
+    openAreaId = null;
     setRecordHash(event);
     returnFocus = document.activeElement;
     $('detail').hidden = false;
@@ -414,21 +454,44 @@
     if (card) scrollListTo(card, reducedMotion ? 'auto' : 'smooth');
     if (focusMap) {
       const position = event.positions[0];
-      const zoom = position.precision === 'region' ? 6.5 : 9;
-      // Offset the map center so the selected location remains beside the panel.
-      const offset = window.innerWidth > 760 ? 195 : 0;
-      const center = map.unproject(map.project([position.lat,position.lng],zoom).add([offset,0]),zoom);
-      map.setView(center,zoom,{animate:!reducedMotion});
+      focusBesidePanel([position.lat,position.lng], position.precision === 'region' ? 6.5 : 9);
     }
     $('detail').querySelector('.close-detail').focus({preventScroll:true});
     if (window.innerWidth <= 760) $('map').scrollIntoView({behavior:'instant',block:'start'});
     $('announcer').textContent = t('detail.opened',{id:event.id,title:event.title,status:event.status});
+  }
+  function focusBesidePanel(point, zoom) {
+    // Offset the map center so the selected location remains beside the panel.
+    const offset = window.innerWidth > 760 ? 195 : 0;
+    map.setView(map.unproject(map.project(point,zoom).add([offset,0]),zoom),zoom,{animate:!reducedMotion});
+  }
+  function openArea(area, focusMap = true) {
+    pause();
+    selectedId = null;
+    refreshSelection();
+    returnFocus = document.activeElement;
+    $('detail').hidden = false;
+    renderArea(area);
+    setHash(area.id);
+    if (focusMap) focusBesidePanel([area.lat,area.lng], 7);
+    $('detail').querySelector('.close-detail').focus({preventScroll:true});
+    if (window.innerWidth <= 760) $('map').scrollIntoView({behavior:'instant',block:'start'});
+    $('announcer').textContent = `${t('area.eyebrow')}: ${area.name}`;
+  }
+  function renderArea(area) {
+    openAreaId = area.id;
+    const records = events.filter(event => area.match.test(event.location));
+    const where = location => { const [first, ...rest] = location.split(';'); return `<strong>${escape(first)}</strong>${rest.length ? escape(';' + rest.join(';')) : ''}`; };
+    $('detail').innerHTML = `<div class="detail-head area-head"><p class="eyebrow">${escape(t('area.eyebrow'))}</p><button class="close-detail" aria-label="${escape(t('detail.close'))}">×</button><h2>${escape(area.name)}</h2><p class="area-intro">${escape(t(area.text))}</p></div><div class="detail-scroll"><h3 class="area-records-title">${escape(t('area.records',{n:records.length}))}</h3>${records.map(event => `<button class="area-record" data-id="${event.id}" style="--category:${colors[event.category]}"><span class="event-meta"><span>${escape(shortDateYear(event.startDate))} · ${escape(categoryLabel(event.category))}</span><span class="event-id">${event.id}</span></span><span class="event-title" lang="en">${escape(event.title)}</span><span class="area-where" lang="en">${where(event.location)}</span></button>`).join('')}<p class="position-note">${escape(t('area.note'))}</p></div>`;
+    $('detail').querySelector('.close-detail').addEventListener('click', () => closeDetail(true));
+    $('detail').querySelectorAll('.area-record').forEach(button => button.addEventListener('click', () => selectEvent(button.dataset.id)));
   }
   function closeDetail(restoreFocus = false) {
     $('detail').hidden = true;
     // Removing the panel's content also stops any playing video.
     $('detail').replaceChildren();
     selectedId = null;
+    openAreaId = null;
     setRecordHash(null);
     refreshSelection();
     if (restoreFocus && returnFocus?.isConnected) returnFocus.focus({preventScroll:true});
@@ -683,10 +746,12 @@
     renderTrend();
     renderCumulative();
     labelMarkers();
+    labelAreas();
     updatePlayButton();
     updateSoundButton();
     render();
     if (selectedId && !$('detail').hidden) renderDetail(events.find(event => event.id === selectedId));
+    else if (openAreaId && !$('detail').hidden) renderArea(AREAS.find(area => area.id === openAreaId));
     document.documentElement.removeAttribute('data-i18n-pending');
   }
   async function changeLanguage(code) {
@@ -754,13 +819,15 @@
   }, t, total:events.length, countries:countryCount, year});
   localize();
   fitEvents();
-  const linkedEvent = eventFromHash();
+  const linkedEvent = eventFromHash(), linkedArea = areaFromHash();
   if (linkedEvent) selectEvent(linkedEvent.id);
+  else if (linkedArea) openArea(linkedArea);
   else setRecordHash(null);
   window.addEventListener('hashchange', () => {
-    const event = eventFromHash();
+    const event = eventFromHash(), area = areaFromHash();
     if (event && event.id !== selectedId) selectEvent(event.id);
-    else if (!event && selectedId) closeDetail();
+    else if (area) openArea(area);
+    else if (!event && !$('detail').hidden) closeDetail();
   });
 
   // Progressive enhancement for browsers that expose the page-scoped WebMCP API.
