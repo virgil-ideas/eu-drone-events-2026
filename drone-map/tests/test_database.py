@@ -82,6 +82,19 @@ class DatabaseTests(unittest.TestCase):
         with self.assertRaisesRegex(DataError, 'duplicate research match key'):
             self.validate()
 
+    def test_strike_can_be_published_without_inferred_explosion(self):
+        event = self.database['events'][0]
+        event.update(category='strike', stages=['strike'], reported_UAVs=3,
+                     impact='Vessel damaged; all 15 crew rescued.')
+        self.save()
+        self.build()
+        exported = browser_data(load_database(self.data_dir, self.root))['events']
+        self.assertEqual(len(exported), 1)
+        self.assertEqual(exported[0]['category'], 'strike')
+        self.assertEqual(exported[0]['stages'], ['strike'])
+        self.assertEqual(exported[0]['reported_UAVs'], 3)
+        self.build(check=True)
+
     def test_source_references_cannot_dangle_or_repeat(self):
         for collection in ('events', 'contexts'):
             for refs, message in [([], 'non-empty array'), (['S99'], 'unknown source'),

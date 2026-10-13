@@ -78,9 +78,11 @@ Required event fields:
 | `deduplication`, `provenance`, `classificationNote` | Counting rationale, origin/review notes and explanation of the outcome classification. `classificationNote` can be empty. |
 | `sources` | Non-empty list of unique IDs present in `sources.json`. The browser's `sourceReferences` text is generated from this list, never maintained separately. |
 
-Outcome values are `flight`, `shotdown`, `engaged`, `crash`, `explosion`, `disposal`,
+Outcome values are `flight`, `shotdown`, `engaged`, `crash`, `strike`, `explosion`, `disposal`,
 `recovery`, and `alert`. Controlled disposal is separate from an incident
-explosion. A fighter launch alone does not establish a shoot-down. Confidence and
+explosion. A `strike` records a reported damaging drone attack without inferring
+a confirmed explosion; it shares the red marker and replay note with `explosion`.
+A fighter launch alone does not establish a shoot-down. Confidence and
 attribution remain source-backed prose; the database does not infer them.
 
 Optional event fields: `endDate`, `recordType`, `positionNote`, `reviewedOn`,

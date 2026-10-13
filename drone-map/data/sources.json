@@ -1633,5 +1633,21 @@
     "url": "https://www.mapn.ro/cpresa/19435_Informa%C8%9Bie-de-Pres%C4%83",
     "dateLabel": "10 October 2026",
     "audit": "Read 12 October. Both radar targets remained in Ukrainian airspace; release explicitly reports no national-airspace entry. Retained as an exclusion reference, not a mapped incursion or an additional event."
+  },
+  "U050": {
+    "id": "U050",
+    "publisher": "Bulgarian National Radio / Radio Varna",
+    "title": "CHELSEA 3 crew rescued and brought to Varna; another vessel sinks off Krapets",
+    "url": "https://bnrnews.bg/varna/post/541027/ekipazhat-na-koraba-chelsi-3-e-transportiran-uspeshno-do-pristanishte-varna",
+    "dateLabel": "13 October 2026, 08:07",
+    "audit": "Article fetched and read 13 October. Reproduces the prime minister’s account: three aerial drones, 15 rescued and five treated after the CHELSEA 3 strike; separate ship sinking off Krapets with one rescued. No definitive attribution or explicit explosion finding. The original official statement and physical evidence were not independently retrieved."
+  },
+  "U051": {
+    "id": "U051",
+    "publisher": "BgVesti / Kardzhali, citing FrogNews",
+    "title": "Radev announces two new ship attacks off Bulgaria and diplomatic consultations",
+    "url": "https://kardjali.bgvesti.net/index.php/news/638775/radev-vika-mitrofanova-shhe-govori-s-riute-dva-novi-koraba-sa-udareni-krai-bielgariia",
+    "dateLabel": "13 October 2026, 08:56",
+    "audit": "Article fetched and read 13 October. Relays Radev’s account, including crew-reported aerial drones, the 01:30 distress notification, 18 nautical miles east of Byala and a separate sinking 17 nautical miles east of Krapets. Preserves insufficient evidence to blame either belligerent. Same official account as U050, not independent forensic corroboration; credits FrogNews."
   }
 }

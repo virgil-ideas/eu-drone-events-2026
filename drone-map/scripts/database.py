@@ -12,7 +12,7 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-CATEGORIES = {'flight', 'shotdown', 'engaged', 'crash', 'explosion', 'disposal', 'recovery', 'alert'}
+CATEGORIES = {'flight', 'shotdown', 'engaged', 'crash', 'strike', 'explosion', 'disposal', 'recovery', 'alert'}
 DESCRIPTIVE = set('dateLabel dateBasis countries location status categories vehicle attribution '
                   'route circumstances payload impact response uncertainty deduplication provenance'.split())
 EVENT_REQUIRED = DESCRIPTIVE | set('id startDate title category positions stages classificationNote '

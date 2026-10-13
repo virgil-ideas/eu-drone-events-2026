@@ -20,7 +20,7 @@
     if (translations[code]) return Promise.resolve(true);
     return new Promise(resolve => {
       const script = document.createElement('script');
-      script.src = `i18n/${code}.js?v=20261002-90d`;
+      script.src = `i18n/${code}.js?v=20261013-strike`;
       script.onload = () => resolve(Boolean(translations[code]));
       script.onerror = () => { script.remove(); resolve(false); };
       document.head.append(script);
@@ -60,7 +60,7 @@
   }
   const countryName = name => (COUNTRY_CODES[name] && format.regions?.of(COUNTRY_CODES[name])) || name;
 
-  const colors = {flight:'#3278c5', shotdown:'#7b4ab5', engaged:'#7b4ab5', crash:'#f0700f', explosion:'#d3201c', disposal:'#3a6a72', recovery:'#e8c400', alert:'#7c8697'};
+  const colors = {flight:'#3278c5', shotdown:'#7b4ab5', engaged:'#7b4ab5', crash:'#f0700f', strike:'#d3201c', explosion:'#d3201c', disposal:'#3a6a72', recovery:'#e8c400', alert:'#7c8697'};
   const categoryLabel = category => t(`cat.${category}`);
   const recordClassLabel = recordClass => t(`class.${recordClass}`);
   const DAY = 86400000;
@@ -94,7 +94,7 @@
   let audioContext = null;
   let audioOutput = null;
   // C-major pentatonic, rising with the event type's severity cue.
-  const categoryNotes = {alert:72, recovery:74, flight:76, disposal:79, engaged:81, shotdown:84, crash:86, explosion:88};
+  const categoryNotes = {alert:72, recovery:74, flight:76, disposal:79, engaged:81, shotdown:84, crash:86, strike:88, explosion:88};
   const REPLAY_VOLUME = 0.05;
   const activeVoices = new Set();
 
@@ -630,7 +630,10 @@
   function renderLegend() {
     // Armed engagement shares the purple family, while each event's own label
     // distinguishes a shoot-down from a surface drone damaged by aircraft fire.
-    $('map-legend').innerHTML = Object.keys(colors).filter(key => key !== 'engaged').map(key => `<span><i style="background:${colors[key]}"></i>${escape(key === 'shotdown' ? t('legend.shotdownEngaged') : categoryLabel(key))}</span>`).join('');
+    const sharedLegendLabels = {shotdown: 'legend.shotdownEngaged', explosion: 'legend.strikeExplosion'};
+    $('map-legend').innerHTML = Object.keys(colors)
+      .filter(key => key !== 'engaged' && key !== 'strike')
+      .map(key => `<span><i style="background:${colors[key]}"></i>${escape(sharedLegendLabels[key] ? t(sharedLegendLabels[key]) : categoryLabel(key))}</span>`).join('');
   }
   function renderMonthLabels() {
     const labels = document.querySelector('.month-labels');

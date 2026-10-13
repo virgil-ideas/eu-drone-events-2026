@@ -5492,6 +5492,93 @@ window.DRONE_DATA = {
       "reported_UAVs": 6,
       "reported_airspace_violations": 5,
       "reported_FIR_infractions": 8
+    },
+    {
+      "dateLabel": "2026-10-13",
+      "startDate": "2026-10-13",
+      "countries": "Bulgaria (offshore EEZ)",
+      "attribution": "Operator and nationality unresolved. Radev said evidence was insufficient to accuse either belligerent. His argument that the attacks benefit Russia and planned diplomatic consultations do not establish Russian responsibility.",
+      "payload": "Weapon model and payload unestablished; no explicit explosion finding in the reviewed reports.",
+      "sourceReferences": "[U050][U050]; [U051][U051]",
+      "sources": [
+        "U050",
+        "U051"
+      ],
+      "category": "strike",
+      "stages": [
+        "strike"
+      ],
+      "recordClass": "event",
+      "recordType": "reported_offshore_drone_strike",
+      "classificationNote": "Strike: reported damaging drone attack, shown in red. This classification does not infer an explosion, drone crash or sovereign-territory incursion.",
+      "provenance": "Added and reviewed 2026-10-13 against BNR Radio Varna and BgVesti reporting of the prime minister’s account (U050–U051). Coverage ends at the supplied 08:58 EEST check; details remain preliminary.",
+      "id": "N079",
+      "title": "Off Byala · CHELSEA 3 drone strike",
+      "dateBasis": "Overnight 13 October incident. The 01:30 local distress notification is a response timestamp, not an independently verified strike time.",
+      "location": "Black Sea, reportedly 18 nautical miles east of Byala, Varna Province; Bulgarian EEZ, outside territorial waters.",
+      "status": "Officially reported aerial-drone strike and rescue; operator unresolved",
+      "categories": "Merchant-vessel drone strike; damage; crew evacuation; reported minor injuries",
+      "vehicle": "Three aerial drones, models unknown, according to the crew account relayed by the prime minister. CHELSEA 3 is Maltese-flagged and reportedly Ukrainian-owned, registered in Odessa.",
+      "route": "Drone launch sites and flight tracks unknown. Reported offshore location does not establish a territorial-airspace crossing.",
+      "circumstances": "The prime minister reported strikes on the deck and hull. Varna’s maritime rescue centre responded to the distress call and Border Police evacuated the crew.",
+      "impact": "Vessel damaged; final condition unconfirmed. All 15 crew rescued: seven Ukrainians and eight Azerbaijanis. Five received medical treatment for initially reported minor injuries. No deaths reported.",
+      "response": "Crew brought to Varna. No interception, drone recovery or EOD action reported.",
+      "uncertainty": "High confidence in the published official strike/rescue account; no independently examined drone remains or flight tracks. Weapon identity and ship outcome remain pending. Nationality of crew, ship flag, ownership and attacker are separate facts.",
+      "deduplication": "One attack-and-rescue record involving three reported UAVs. Distinct from N080 off Krapets and the 6 October ALFA WATAN / ABLE attack recorded under N073.",
+      "positions": [
+        {
+          "lat": 42.88,
+          "lng": 28.3,
+          "precision": "offshore",
+          "label": "About 18 nautical miles east of Byala — approximate offshore anchor"
+        }
+      ],
+      "positionNote": "Rounded editorial estimate east of Byala, not a verified ship position or maritime-boundary determination. Offshore jurisdiction follows the reporting.",
+      "matchKey": "BG::2026-10-13::byala-offshore-chelsea-3",
+      "reported_UAVs": 3
+    },
+    {
+      "dateLabel": "2026-10-13",
+      "startDate": "2026-10-13",
+      "countries": "Bulgaria (offshore EEZ)",
+      "attribution": "Operator and nationality unresolved. Radev said evidence was insufficient to accuse either belligerent. His argument that the attacks benefit Russia and planned diplomatic consultations do not establish Russian responsibility.",
+      "payload": "Weapon model and payload unestablished; no explicit explosion finding in the reviewed reports.",
+      "sourceReferences": "[U050][U050]; [U051][U051]",
+      "sources": [
+        "U050",
+        "U051"
+      ],
+      "category": "strike",
+      "stages": [
+        "strike"
+      ],
+      "recordClass": "event",
+      "recordType": "reported_offshore_drone_strike",
+      "classificationNote": "Strike: reported damaging drone attack, shown in red. This classification does not infer an explosion, drone crash or sovereign-territory incursion.",
+      "provenance": "Added and reviewed 2026-10-13 against BNR Radio Varna and BgVesti reporting of the prime minister’s account (U050–U051). Coverage ends at the supplied 08:58 EEST check; details remain preliminary.",
+      "id": "N080",
+      "title": "Off Krapets · Drone strike and ship sinking",
+      "dateBasis": "Reported on the morning of 13 October during the emergency Security Council meeting; exact strike and sinking times were not disclosed.",
+      "location": "Black Sea, reportedly 17 nautical miles east of Krapets, Dobrich Province; Bulgarian EEZ, outside territorial waters.",
+      "status": "Officially reported drone attack and sinking; vessel identity and operator unresolved",
+      "categories": "Reported merchant-vessel drone attack; sinking; rescue",
+      "vehicle": "Unidentified merchant vessel. Drone number, model and aerial-versus-maritime type unconfirmed.",
+      "route": "Weapon approach and vessel route unknown. The reported offshore strike is not a confirmed incursion into sovereign territory.",
+      "circumstances": "Radev announced that a second vessel had been struck east of Krapets and had sunk; the authorities received information during the emergency meeting.",
+      "impact": "Sinking and one rescued crew member reported. Vessel identity, total crew, injuries and fate of the remaining personnel were not disclosed. No death or missing-person total can be established from this account.",
+      "response": "One rescue reported; operational details unavailable. No interception, drone wreckage recovery or EOD information published in the reviewed reports.",
+      "uncertainty": "High confidence that the prime minister reported an attack and sinking; operational detail and drone causation remain preliminary. No independently examined wreckage or definitive operator attribution.",
+      "deduplication": "One strike-and-sinking record. Distinct from CHELSEA 3 (N079), at another location with a separate rescue account, and from the 6 October ALFA WATAN / ABLE attack (N073).",
+      "positions": [
+        {
+          "lat": 43.62,
+          "lng": 28.96,
+          "precision": "offshore",
+          "label": "About 17 nautical miles east of Krapets — approximate offshore anchor"
+        }
+      ],
+      "positionNote": "Rounded editorial estimate east of coastal Krapets in Dobrich Province, not a verified wreck position or maritime-boundary determination. Offshore jurisdiction follows the reporting.",
+      "matchKey": "BG::2026-10-13::krapets-offshore-unidentified-ship"
     }
   ],
   "contexts": [
@@ -7293,9 +7380,25 @@ window.DRONE_DATA = {
       "url": "https://www.mapn.ro/cpresa/19435_Informa%C8%9Bie-de-Pres%C4%83",
       "dateLabel": "10 October 2026",
       "audit": "Read 12 October. Both radar targets remained in Ukrainian airspace; release explicitly reports no national-airspace entry. Retained as an exclusion reference, not a mapped incursion or an additional event."
+    },
+    "U050": {
+      "id": "U050",
+      "publisher": "Bulgarian National Radio / Radio Varna",
+      "title": "CHELSEA 3 crew rescued and brought to Varna; another vessel sinks off Krapets",
+      "url": "https://bnrnews.bg/varna/post/541027/ekipazhat-na-koraba-chelsi-3-e-transportiran-uspeshno-do-pristanishte-varna",
+      "dateLabel": "13 October 2026, 08:07",
+      "audit": "Article fetched and read 13 October. Reproduces the prime minister’s account: three aerial drones, 15 rescued and five treated after the CHELSEA 3 strike; separate ship sinking off Krapets with one rescued. No definitive attribution or explicit explosion finding. The original official statement and physical evidence were not independently retrieved."
+    },
+    "U051": {
+      "id": "U051",
+      "publisher": "BgVesti / Kardzhali, citing FrogNews",
+      "title": "Radev announces two new ship attacks off Bulgaria and diplomatic consultations",
+      "url": "https://kardjali.bgvesti.net/index.php/news/638775/radev-vika-mitrofanova-shhe-govori-s-riute-dva-novi-koraba-sa-udareni-krai-bielgariia",
+      "dateLabel": "13 October 2026, 08:56",
+      "audit": "Article fetched and read 13 October. Relays Radev’s account, including crew-reported aerial drones, the 01:30 distress notification, 18 nautical miles east of Byala and a separate sinking 17 nautical miles east of Krapets. Preserves insufficient evidence to blame either belligerent. Same official account as U050, not independent forensic corroboration; credits FrogNews."
     }
   },
-  "cutoff": "2026-10-12",
+  "cutoff": "2026-10-13",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"
