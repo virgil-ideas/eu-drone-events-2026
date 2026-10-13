@@ -394,7 +394,9 @@
     if (location.hash !== hash) history.replaceState(history.state, '', `${location.pathname}${location.search}${hash}`);
   }
   function eventFromHash() {
-    const slug = decodeURIComponent(location.hash.slice(1));
+    let slug;
+    try { slug = decodeURIComponent(location.hash.slice(1)); }
+    catch { return null; } // An invalid shared fragment must not interrupt startup.
     return slug ? events.find(event => slugOf(event) === slug) : null;
   }
   function selectEvent(id, focusMap = true) {

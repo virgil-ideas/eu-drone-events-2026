@@ -24,10 +24,9 @@ from database import ROOT, DataError, read_json
 
 SITE = 'https://droneincidents.eu'
 SITE_NAME = 'Europe Foreign Drone Events'
-# The facts a summary is written from. Editing any of them marks the copy for review.
-BASIS_FIELDS = ('startDate', 'endDate', 'dateLabel', 'countries', 'location', 'status', 'categories',
-                'recordClass', 'category', 'vehicle', 'attribution', 'route', 'circumstances',
-                'payload', 'impact', 'response', 'uncertainty')
+# Hash all facts, including future fields and cited source metadata. Merely recording
+# when a record was reviewed does not change the facts its copy was written from.
+BASIS_METADATA = {'reviewedOn'}
 PAGE_FIELDS = {'slug', 'headline', 'description', 'summary', 'basis'}
 SLUG = re.compile(r'\d{4}-\d{2}-\d{2}(-[a-z0-9]+)+')
 MONTHS = ('January February March April May June July August September October '
@@ -63,8 +62,9 @@ FONTS = ('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700'
          '&family=Manrope:wght@600;650;700&display=swap')
 
 
-def basis(record):
-    facts = {key: record.get(key) for key in BASIS_FIELDS}
+def basis(record, sources):
+    facts = {'record': {key: value for key, value in record.items() if key not in BASIS_METADATA},
+             'sources': {ref: sources[ref] for ref in record['sources']}}
     text = json.dumps(facts, sort_keys=True, ensure_ascii=False)
     return hashlib.sha256(text.encode('utf-8')).hexdigest()[:16]
 
@@ -102,6 +102,24 @@ def load_pages(data_dir, database):
     return validate_pages(read_json(path), database) if path.exists() else {}
 
 
+def load_page_urls(data_dir):
+    """Published URLs are independent of editorial copy; retain retired reservations."""
+    path = Path(data_dir) / 'page-urls.json'
+    urls = read_json(path) if path.exists() else {}
+    if not isinstance(urls, dict):
+        raise DataError('page-urls.json: expected an object keyed by event ID')
+    used = set()
+    for event_id, slug in urls.items():
+        if not re.fullmatch(r'[EN]\d{3}', event_id):
+            raise DataError(f'page-urls.json[{event_id}]: invalid event ID')
+        if not isinstance(slug, str) or not SLUG.fullmatch(slug) or len(slug) > 100:
+            raise DataError(f'page-urls.json[{event_id}]: invalid slug')
+        if slug in used:
+            raise DataError(f'page-urls.json[{event_id}]: duplicate slug {slug}')
+        used.add(slug)
+    return urls
+
+
 def read_media(path):
     """Preview images the media fetcher saved in dist/media.js, if present."""
     path = Path(path)
@@ -125,27 +143,35 @@ def countries(record):
     return [re.sub(r' \(.+\)', '', name).strip() for name in record['countries'].split(';')]
 
 
-def page_slugs(database, pages):
-    """URL slug per event: the reviewed slug, or one derived from date, title and country."""
-    slugs = {event_id: page['slug'] for event_id, page in pages.items()}
+def page_slugs(database, pages, published):
+    """Keep published URLs; derive a readable slug only on a record's first build."""
+    slugs = dict(published)
+    for event_id, page in pages.items():
+        if event_id in published and page['slug'] != published[event_id]:
+            raise DataError(f'pages.json[{event_id}].slug: published URL is fixed at '
+                            f'{published[event_id]}; keep that slug when reviewing copy')
+        slugs[event_id] = page['slug']
+    if len(set(slugs.values())) != len(slugs):
+        raise DataError('pages.json: slug already reserved in page-urls.json')
     used = set(slugs.values())
     for record in sorted(database['events'], key=lambda item: (item['startDate'], item['id'])):
         if record['id'] in slugs:
             continue
         words = slugify(f"{record['title']} {countries(record)[0]}").split('-')
-        base = '-'.join([record['startDate'], *words[:8]]).rstrip('-')
+        base = '-'.join([record['startDate'], *words[:8]])[:100].rstrip('-')
         slug, number = base, 2
         while slug in used:
-            slug, number = f'{base}-{number}', number + 1
+            suffix = f'-{number}'
+            slug, number = f'{base[:100 - len(suffix)].rstrip("-")}{suffix}', number + 1
         slugs[record['id']] = slug
         used.add(slug)
-    return slugs
+    return {record['id']: slugs[record['id']] for record in database['events']}
 
 
 def automatic_ids(database, pages):
     """Events whose page uses copy assembled from the record instead of reviewed copy."""
     return [record['id'] for record in database['events']
-            if record['id'] not in pages or pages[record['id']]['basis'] != basis(record)]
+            if record['id'] not in pages or pages[record['id']]['basis'] != basis(record, database['sources'])]
 
 
 def long_date(value):
@@ -164,10 +190,10 @@ def shorten(text, limit):
     return text[:limit - 1].rsplit(' ', 1)[0].rstrip(' ,;:—–-') + '…'
 
 
-def copy_for(record, pages):
+def copy_for(record, pages, sources):
     """Headline, description and summary paragraphs for one event page."""
     page = pages.get(record['id'])
-    if page and page['basis'] == basis(record):
+    if page and page['basis'] == basis(record, sources):
         return page['headline'], page['description'], page['summary']
     place = ', '.join(dict.fromkeys(countries(record)))
     phrase = 'Unidentified object' if record['recordClass'] == 'candidate' else CATEGORIES[record['category']][2]
@@ -272,7 +298,7 @@ def source_item(source):
 
 def event_page(record, index, ordered, database, pages, slugs, media):
     root = '../../'
-    headline, description, summary = copy_for(record, pages)
+    headline, description, summary = copy_for(record, pages, database['sources'])
     label, color, _ = CATEGORIES[record['category']]
     kind = 'Unidentified object · ' if record['recordClass'] == 'candidate' else ''
     place = ', '.join(dict.fromkeys(countries(record)))
@@ -298,14 +324,14 @@ def event_page(record, index, ordered, database, pages, slugs, media):
         if neighbour:
             arrow = '← Earlier' if rel == 'prev' else 'Later →'
             pager += (f'<a rel="{rel}" class="pager-{rel}" href="../{slugs[neighbour["id"]]}/"><small>{arrow} · '
-                      f'{long_date(neighbour["startDate"])}</small><span>{esc(copy_for(neighbour, pages)[0])}</span></a>')
+                      f'{long_date(neighbour["startDate"])}</small><span>{esc(copy_for(neighbour, pages, database["sources"])[0])}</span></a>')
     country = countries(record)[0]
     distance = lambda other: abs((date.fromisoformat(other['startDate']) - date.fromisoformat(record['startDate'])).days)
     nearby = sorted((other for other in ordered if other['id'] != record['id'] and country in countries(other)),
                     key=lambda other: (distance(other), other['id']))[:6]
     related = ''.join(
         f'<li><time datetime="{other["startDate"]}">{long_date(other["startDate"])}</time>'
-        f'{record_link(other, slugs, copy_for(other, pages)[0])}</li>'
+        f'{record_link(other, slugs, copy_for(other, pages, database["sources"])[0])}</li>'
         for other in sorted(nearby, key=lambda other: (other['startDate'], other['id']), reverse=True))
     if related:
         related = (f'<section class="related" aria-labelledby="related-title"><h2 id="related-title">'
@@ -347,12 +373,12 @@ def event_page(record, index, ordered, database, pages, slugs, media):
                     root=root, body=body, structured=structured)
 
 
-def index_item(record, pages, slugs):
+def index_item(record, pages, slugs, sources):
     day = date.fromisoformat(record['startDate'])
     kind = 'Unidentified object' if record['recordClass'] == 'candidate' else CATEGORIES[record['category']][0]
     place = ', '.join(dict.fromkeys(countries(record)))
     return (f'<li style="--category:{CATEGORIES[record["category"]][1]}"><time datetime="{record["startDate"]}">'
-            f'{day.day} {MONTHS[day.month - 1][:3]}</time>{record_link(record, slugs, copy_for(record, pages)[0], root="")}'
+            f'{day.day} {MONTHS[day.month - 1][:3]}</time>{record_link(record, slugs, copy_for(record, pages, sources)[0], root="")}'
             f'<span>{esc(place)} · {esc(kind)}</span></li>')
 
 
@@ -367,7 +393,7 @@ def index_page(database, pages, slugs):
     sections = ''
     for month, records in months.items():
         year, number = month.split('-')
-        items = ''.join(index_item(record, pages, slugs) for record in records)
+        items = ''.join(index_item(record, pages, slugs, database['sources']) for record in records)
         sections += (f'<section><h2>{MONTHS[int(number) - 1]} {year} <small>{len(records)}</small></h2>'
                      f'<ul class="record-index">{items}</ul></section>')
     country_list = ''.join(f'<li><strong>{count}</strong> {esc(name)}</li>'
@@ -422,7 +448,7 @@ def accept(event_ids, data_dir=ROOT / 'data'):
     for event_id in event_ids:
         if event_id not in pages:
             raise DataError(f'{event_id}: no reviewed copy in pages.json to accept')
-        pages[event_id]['basis'] = basis(records[event_id])
+        pages[event_id]['basis'] = basis(records[event_id], database['sources'])
     path = Path(data_dir) / 'pages.json'
     path.write_text(json.dumps(pages, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 

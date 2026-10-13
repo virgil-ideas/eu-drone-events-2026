@@ -1,9 +1,10 @@
 """Validate the canonical JSON database and build (or check) static map data and pages."""
 import argparse
+import json
 from pathlib import Path
 
 from database import DataError, load_database, render_events
-from pages import automatic_ids, load_pages, page_slugs, read_media, render_site
+from pages import automatic_ids, load_pages, load_page_urls, page_slugs, read_media, render_site
 
 ROOT = Path(__file__).resolve().parents[1]
 # Directories whose every file is generated, so files no longer produced are removed.
@@ -14,7 +15,10 @@ def build(data_dir=ROOT / 'data', output_dir=ROOT / 'dist', research_root=ROOT.p
           check=False):
     database = load_database(data_dir, research_root)
     pages = load_pages(data_dir, database)
-    slugs = page_slugs(database, pages)
+    published_urls = load_page_urls(data_dir)
+    slugs = page_slugs(database, pages, published_urls)
+    updated_urls = {**published_urls, **slugs}
+    new_urls = updated_urls != published_urls
     # Read and validate every input before touching any published file.
     outputs = {'events.js': render_events(database, slugs).encode('utf-8')}
     outputs.update({item['name']: (research_root / item['name']).read_bytes()
@@ -26,12 +30,21 @@ def build(data_dir=ROOT / 'data', output_dir=ROOT / 'dist', research_root=ROOT.p
                      for path in (output_dir / folder).rglob('*')
                      if path.is_file() and path.relative_to(output_dir).as_posix() not in outputs)
     if check:
-        if stale or orphans:
-            names = stale + [path.relative_to(output_dir).as_posix() + ' (no longer generated)' for path in orphans]
+        if stale or orphans or new_urls:
+            names = (['data/page-urls.json (unregistered URLs)'] if new_urls else []) + stale
+            names += [path.relative_to(output_dir).as_posix() + ' (no longer generated)' for path in orphans]
             raise DataError(f'{len(names)} generated files are stale: ' + ', '.join(names[:6])
                             + (', …' if len(names) > 6 else '')
                             + '. Run python3 drone-map/scripts/build-data.py')
     else:
+        if new_urls:
+            # Commit this registry with the generated pages. A clean build must not
+            # depend on old dist/ files to remember a record's published address.
+            path = Path(data_dir) / 'page-urls.json'
+            temporary = path.with_name(path.name + '.tmp')
+            temporary.write_text(json.dumps(updated_urls, ensure_ascii=False, indent=2,
+                                            sort_keys=True) + '\n', encoding='utf-8')
+            temporary.replace(path)
         output_dir.mkdir(parents=True, exist_ok=True)
         for name in stale:
             destination = output_dir / name

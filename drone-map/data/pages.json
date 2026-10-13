@@ -8,7 +8,7 @@
       "The drone’s origin and operator are unknown, and foreign involvement has not been established. Its route before it reached the base is also unknown. It was described as an unsophisticated device, and no recording media were identified on it. An investigation was reported.",
       "No damage or casualties were reported. The drone was secured and handed over to the Military Police."
     ],
-    "basis": "436b7809c93b9278"
+    "basis": "6a411b13b26740bd"
   },
   "E002": {
     "slug": "2026-02-25-drone-airspace-sfantu-gheorghe-sulina-romania",
@@ -19,7 +19,7 @@
       "The drone was reported as Russian, and Romania’s defence ministry (MApN) connected the incident to Russian strikes on Ukraine. Its model is unknown.",
       "Two F-16 fighter jets were scrambled at 17:50 local time, and an RO-Alert warning was issued at 18:07. The alert ended at about 18:45. No harm or debris was reported."
     ],
-    "basis": "bda7c699c170ee91"
+    "basis": "a5167072b63070a3"
   },
   "E003": {
     "slug": "2026-02-25-drone-french-carrier-oresund-malmo-sweden",
@@ -30,7 +30,7 @@
       "The Swedish military attributed the launch to the Russian intelligence ship Zhigulevsk, which was transiting the Öresund, and technical data were reported to link the launch to the ship. Russia rejected the allegation. The drone’s model has not been conclusively identified.",
       "The Swedish vessel jammed or disrupted the drone, but its final fate is unknown and no shoot-down has been confirmed. No casualties were reported, and the carrier’s operations were reportedly unaffected. France commented on the incident on 27 February 2026."
     ],
-    "basis": "1532dd30fcb8a5b3"
+    "basis": "423d055c57fc1970"
   },
   "E004": {
     "slug": "2026-03-12-military-drone-found-konin-mine-poland",
@@ -41,7 +41,7 @@
       "The drone was reported as probably Russian. On 13 March Poland’s defence minister linked it to a drone incursion in September 2025, describing the connection as probable rather than proven. The drone’s model was not specified.",
       "No harm was reported. Police and the Military Police investigated the find."
     ],
-    "basis": "6353040f832278e0"
+    "basis": "2cecb2e4808c7487"
   },
   "E005": {
     "slug": "2026-03-23-drone-crash-lake-lavysas-varena-lithuania",
@@ -52,7 +52,7 @@
       "On 24 March the Lithuanian government identified the drone as Ukrainian. It was reported to have been intended for an attack on oil-export facilities at Primorsk before it went astray. An explanation involving electronic warfare remains an assessment rather than an established finding. The drone carried a military payload, but the exact charge was not specified.",
       "No casualties were reported. The site was secured and the wreckage was examined."
     ],
-    "basis": "869ffd2696c45fa1"
+    "basis": "e9ceb0069c220b7c"
   },
   "E006": {
     "slug": "2026-03-25-drone-hits-auvere-power-station-estonia",
@@ -63,7 +63,7 @@
       "Estonian authorities said the drone was Ukrainian. Its intended target was reported to be in Russia, not Estonia. The incident was treated as spillover from the war, and an intentional attack on Estonia has not been established.",
       "No injuries were reported, and there were no reports of any interruption to the plant’s operations. Authorities examined the impact site and the wreckage. A stray drone was also reported in Latvia the same day, and the Baltic defence ministers issued a joint statement on the drone incidents."
     ],
-    "basis": "60fea6e6c0b7f5fd"
+    "basis": "d8a3e293a5e16113"
   },
   "E007": {
     "slug": "2026-03-25-drone-crashes-kraslava-region-latvia",
@@ -74,7 +74,7 @@
       "Latvia’s president said the drone was Ukrainian. It entered Latvia through Russian airspace during Ukrainian strikes on targets in Russia. Why it came down in Latvia, whether through malfunction or diversion, has not been demonstrated.",
       "No casualties were reported. Latvian authorities recovered and investigated the wreckage. A stray drone was also reported in Estonia the same day, and the Baltic defence ministers issued a joint statement on the drone incidents."
     ],
-    "basis": "25bdeeeec21451da"
+    "basis": "d621818c2e3b7af6"
   },
   "E008": {
     "slug": "2026-03-25-drone-transit-eastern-latvia-belarus-russia",
@@ -85,7 +85,7 @@
       "The drone’s nationality and operator were not stated, and its model is unknown. Reporting established that it entered Latvia from abroad, but no wreckage and no public identification of the operator were reported.",
       "The drone was monitored and no engagement was reported. No harm was reported. It was reported as a separate flight from the military drone that crashed in Latvia’s Krāslava region the same day."
     ],
-    "basis": "3754966a79f61017"
+    "basis": "380ddda82a4c518b"
   },
   "E009": {
     "slug": "2026-03-29-drones-crash-kouvola-southeast-finland",
@@ -96,7 +96,7 @@
       "At least one of the drones was identified as Ukrainian, and at least one as an AN-196, but the attribution of each object is not equally established. The drones were reported to have strayed during attacks on targets in Russia, and interference was considered a possible cause; that electronic-warfare explanation is not a forensic certainty.",
       "No casualties were reported. Finland investigated the incident as a territorial violation, and wreckage was recovered."
     ],
-    "basis": "6fcf126b5b748cc3"
+    "basis": "d1e09b9650412379"
   },
   "E010": {
     "slug": "2026-03-31-drone-debris-tartu-county-estonia-finland",
@@ -107,7 +107,7 @@
       "Estonia assessed the drones in its case as Ukrainian drones intended for Russia, and reporting associated the border activity with further strikes in Russia. Attribution has not been established for every find in Finland. The available detail is not enough to match each track to each recovered object, so it is not known whether the sightings involved one drone or several.",
       "No casualties were reported. Military and border authorities carried out searches and a technical examination of the finds."
     ],
-    "basis": "901361e99b225f05"
+    "basis": "72ffa3e31ef366c3"
   },
   "E011": {
     "slug": "2026-04-25-drone-crash-bariera-traian-galati-romania",
@@ -118,7 +118,7 @@
       "Contemporaneous coverage of the explosive disposal reported the drone as Russian. Its model was not specified. RAF Typhoon fighters had been scrambled for threats nearby, but this drone was not shot down.",
       "Explosive material was confirmed in the drone, and the recovered explosives were detonated in a controlled disposal the same day. The crash caused property damage, but no casualties were reported. It is a separate incident from a drone impact on an apartment building in Galați on 29 May 2026."
     ],
-    "basis": "f106295cc5bd26cb"
+    "basis": "65db1c5cd2eacf57"
   },
   "E012": {
     "slug": "2026-04-25-drone-debris-farm-vacareni-romania",
@@ -129,7 +129,7 @@
       "Reporting associated the fragments with a foreign military drone, but the exact operator has not been established.",
       "No casualties were reported. The area was investigated, and specialists collected and reviewed the fragments. The next day, further fragments with an explosive charge were reported between Luncavița and Văcăreni. Romanian reporting distinguished the two finds, but it has not been shown whether they came from the same drone or from different ones."
     ],
-    "basis": "e6675fc87b5af663"
+    "basis": "011dfa8d4c1c9a68"
   },
   "E013": {
     "slug": "2026-04-26-explosive-drone-debris-luncavita-vacareni-romania",
@@ -140,7 +140,7 @@
       "The provenance of the fragments is under investigation, and an investigation by prosecutors at the Constanța Court of Appeal was reported. When the drone flew or came down is unknown. The fragments are not confirmed as a second complete drone, and it has not been established whether they and the previous day’s find came from one airframe or more.",
       "Pyrotechnicians from the SRI and specialists from Romania’s defence ministry (MApN) assessed the material, which was then destroyed in a controlled detonation on site under the prosecutor’s authority. No casualties were reported."
     ],
-    "basis": "30dd4ffc9c5e59ee"
+    "basis": "bf2c011804083e56"
   },
   "E014": {
     "slug": "2026-05-03-drone-found-serbauti-suceava-romania",
@@ -151,7 +151,7 @@
       "The available accounts do not establish the drone’s nationality or its operator, and its model was not specified. Its identity and provenance remain unresolved.",
       "No harm was reported. Romanian authorities investigated the find, and the drone was recovered."
     ],
-    "basis": "fe187e4f47dd9395"
+    "basis": "9c39cfd7eae8565a"
   },
   "E015": {
     "slug": "2026-05-03-suspected-drone-virolahti-finland",
@@ -162,7 +162,7 @@
       "The object’s origin and model have not been resolved, and its attribution remains open. The case was treated as a suspected violation of Finnish territory rather than a confirmed one.",
       "No impact was reported. The track was monitored and the incident was investigated."
     ],
-    "basis": "ceba16f75694243c"
+    "basis": "a27ada4cd062fdbf"
   },
   "E016": {
     "slug": "2026-05-07-drones-crash-rezekne-oil-tanks-latvia",
@@ -173,7 +173,7 @@
       "The drones’ technical origin was initially unresolved; later reporting associated the incidents with Ukrainian strike drones. Latvia’s defence ministry discussed Russian electronic warfare as a possible cause. A military and police investigation followed, with criminal proceedings under Chapter 10 of the Latvian Criminal Law.",
       "No casualties were reported. NATO aircraft were deployed and mobile alerts were issued. Wreckage was recovered from one crash site while another was still being searched for. After the oil-tank impacts, the Baltic states sought more NATO defence."
     ],
-    "basis": "7e82ece5bf44109c"
+    "basis": "9d02d1188a20a4e6"
   },
   "E017": {
     "slug": "2026-05-07-naval-drone-found-cave-lefkada-greece",
@@ -184,7 +184,7 @@
       "Greek officials described the sea drone as Ukrainian-built or of a Ukrainian type. Ukraine denied ownership, and ownership remains disputed. Its launch point and route are unknown. A later Greek investigation, reported on 15 May, considered that it may have suffered a technical failure or travelled off course.",
       "No casualties were reported. The Coast Guard, police and Navy investigated, the vessel was transferred to a naval facility, and the explosives were later destroyed in a controlled disposal."
     ],
-    "basis": "3ed9e46537e753f5"
+    "basis": "b1c573e7063ffc11"
   },
   "E018": {
     "slug": "2026-05-15-suspected-drone-alert-helsinki-airport-finland",
@@ -195,7 +195,7 @@
       "Foreign origin has not been proven, and the route of any drones is unknown. Finnish authorities assessed the threat, and their statement at the time did not confirm a direct military threat. The episode was an alert and disruption, not a confirmed attack.",
       "No physical harm was reported."
     ],
-    "basis": "0d0e714be7165323"
+    "basis": "61bf328e0886f8d4"
   },
   "E019": {
     "slug": "2026-05-17-drone-wreckage-explosives-samane-utena-lithuania",
@@ -206,7 +206,7 @@
       "The drone was suspected to be Ukrainian, but this was not stated as a final forensic identification, and its technical identification was reported to be under investigation. The explosives are linked to the same wreckage and are not taken to indicate a second drone.",
       "No injuries were reported. Authorities cordoned off the site, recovered the material and investigated."
     ],
-    "basis": "7f670d067950ffb0"
+    "basis": "bf0b427fe2c3a25c"
   },
   "E020": {
     "slug": "2026-05-17-drone-enters-latvia-near-russian-border",
@@ -217,7 +217,7 @@
       "The drone’s operator and model are unknown, and it has not been finally identified. Any link to Ukraine rests only on suspicion drawn from the wider context, not on an identification of this drone.",
       "The drone was monitored and no shoot-down was reported. No damage or other impact was reported."
     ],
-    "basis": "282f07b01e8f40a5"
+    "basis": "cc32eedb6ab3ce21"
   },
   "E021": {
     "slug": "2026-05-19-drone-shot-down-poltsamaa-estonia",
@@ -228,7 +228,7 @@
       "Estonia said the drone was Ukrainian, and Kyiv apologized. The drone was reported to have been intended for a target in Russia. Ukraine said Russian electronic warfare had diverted it; that explanation is Ukraine’s own account.",
       "No civilian harm was reported. An air alert in eastern Latvia the same day may have been part of the same wave, but it has not been established that a second drone was involved."
     ],
-    "basis": "34caf38b3c62ee7f"
+    "basis": "43ccd2df1505f86f"
   },
   "E022": {
     "slug": "2026-05-19-drone-air-alert-eastern-latvia",
@@ -238,7 +238,7 @@
       "On 19 May 2026 an air alert was issued in eastern Latvia. Civil warnings and shelter measures followed, along with a NATO response. Train services and exams were disrupted, and some shops reportedly closed. The exact locations affected have not been established.",
       "The alert came on the same day that a drone reported as Ukrainian was downed over Estonia, and it may have been part of the same wave. The origin of whatever triggered the alert, and its relationship to the Estonian drone, remain unresolved. Open reporting did not establish whether a separate object entered Latvia, and no distinct drone has been identified."
     ],
-    "basis": "06016cba49310820"
+    "basis": "53cfafdd5f2e09fc"
   },
   "E023": {
     "slug": "2026-05-20-suspected-drone-alert-vilnius-lithuania",
@@ -249,7 +249,7 @@
       "How many suspected drones were involved, and of what model, was not specified, and the route is unknown. Who operated the drone, and from which country it came, has not been established; no final attribution has been made.",
       "No confirmed impact was reported."
     ],
-    "basis": "5210ec7259e50aed"
+    "basis": "6614d887f045cddc"
   },
   "E024": {
     "slug": "2026-05-21-drone-incursion-eastern-border-latvia",
@@ -260,7 +260,7 @@
       "The drone's operator and model are unknown. One account described it entering from Belarus, but its origin has not been established and its final identity remains unresolved.",
       "NATO fighters were launched in response. No impact was confirmed."
     ],
-    "basis": "221308bc468b6509"
+    "basis": "dca399bc89be237c"
   },
   "E025": {
     "slug": "2026-05-21-suspected-drones-utena-county-lithuania",
@@ -271,7 +271,7 @@
       "It has not been definitively established that the objects were drones (UAVs), or that they came from abroad. Findings on the individual objects were not available, and their route was not specified.",
       "No physical harm was reported. The detection is treated as a single incident involving two objects, not as two confirmed foreign-drone incursions."
     ],
-    "basis": "4a6d04f68a23b0ec"
+    "basis": "b26004acaf73cedf"
   },
   "E026": {
     "slug": "2026-05-23-drone-crash-lake-dridzis-latvia",
@@ -282,7 +282,7 @@
       "The drone's nationality and operator are unknown. It was reported to have arrived from a direction near Belarus, but no attribution has been established. Sensors reportedly registered no breach beforehand, and the origin was under investigation.",
       "No casualties were reported. The State Police, rescuers with a boat and the armed forces searched the lake, and possible debris was located."
     ],
-    "basis": "9d3f3cc98836cbfb"
+    "basis": "7c19a4761fd74fab"
   },
   "E027": {
     "slug": "2026-05-23-smuggling-drone-forced-down-salcininkai-lithuania",
@@ -293,7 +293,7 @@
       "The drone was reported to have arrived from Belarus. It was a criminal smuggling flight, not a military one, and the operator has not been identified. Details of the cargo and of the drone itself were not available.",
       "No explosive payload and no casualties were reported. Reports describe a forced landing and seizure, not a shoot-down or a crash."
     ],
-    "basis": "95f06b6c9bb77182"
+    "basis": "b28b9aa81dcf4ea4"
   },
   "E028": {
     "slug": "2026-05-29-drone-hits-apartment-block-galati-romania",
@@ -304,7 +304,7 @@
       "Based on an official radar and debris assessment, Romanian authorities identified it as a Russian Geran-2 drone. It was associated with a wider wave of 43 drones in attacks on Ukraine and made a brief flight over Romania before the impact. Moscow disputed the attribution. Romania did not describe the strike as an intentional attack directed at Romania.",
       "Two Romanian F-16s and a helicopter were scrambled but did not engage over the city, and the site was examined. The Russian consul was expelled and the consulate closed in response. The incident is separate from a drone crash in Galați on 25 April 2026."
     ],
-    "basis": "89f053a57c8272f4"
+    "basis": "0f18939d7addb8ca"
   },
   "E029": {
     "slug": "2026-06-03-suspected-drone-alerts-latvia-estonia-border",
@@ -315,7 +315,7 @@
       "The number and identity of the objects remain unresolved. A foreign origin was suspected but has not been established for each object, and no wreckage or definitive attribution has been reported.",
       "No impact or casualties were confirmed. The alerts in the two countries are treated as one cross-border cluster, because individual tracks cannot be counted reliably."
     ],
-    "basis": "6137d1f91fcbb8c4"
+    "basis": "48b756d5ef78beb7"
   },
   "E030": {
     "slug": "2026-06-05-naval-drone-constanta-port-romania",
@@ -326,7 +326,7 @@
       "The drone was of a type used by Ukraine. Ukraine attributed its drift to Russian jamming. The exact operators, the number of separate offshore vehicles and the mechanisms involved have not been fully established.",
       "Port and security authorities secured the area, and the military and coast guard intervened. No casualties or major additional damage were reported. The port is Romanian sovereign territory; jurisdiction over the nearby offshore waters varies."
     ],
-    "basis": "f59482ac6448b798"
+    "basis": "121ebc4e50eae00b"
   },
   "E031": {
     "slug": "2026-06-08-drone-shot-down-berzgale-latvia",
@@ -337,7 +337,7 @@
       "The drone's nationality and model were not conclusively identified in contemporaneous accounts of the incident. It is treated as a foreign drone, but its origin has not been established; its route was not specified, and what, if anything, it carried remains unknown.",
       "No casualties were reported in Latvia. After the shoot-down, a search for the wreckage and an investigation of the debris followed."
     ],
-    "basis": "4270c73c832d0d79"
+    "basis": "b3e773e6587ae72c"
   },
   "E032": {
     "slug": "2026-06-30-drone-wreckage-destroyed-rachelu-romania",
@@ -348,7 +348,7 @@
       "Romania's Ministry of Defence identified the fragments as belonging to a Russian drone. The drone's original route is unspecified and the individual airframe has not been identified.",
       "No casualties were reported. The disposal is treated as a recovery of wreckage, not as a separately demonstrated new incursion into Romania."
     ],
-    "basis": "f566d838b81d5003"
+    "basis": "82217cec53865e0d"
   },
   "E033": {
     "slug": "2026-07-21-suspected-drone-attack-ship-sfantu-gheorghe-romania",
@@ -359,7 +359,7 @@
       "Two crew members described a night-time attack by three drones. Their account is treated as an allegation, not a final identification of the weapon: the drone type, the devices and charges used, the launch point and the operator or nationality have not been identified, and a drone cause has not been confirmed.",
       "Romanian maritime rescue services intervened and brought the crew to safety. Injuries were reported, including burns. The incident is separate from a bulk carrier's emergency off the same coast on 24 July and from the Progress IV incident in August."
     ],
-    "basis": "c0c9145de8cc83bc"
+    "basis": "316a356b1730bcef"
   },
   "E034": {
     "slug": "2026-07-24-christina-b-mine-or-naval-drone-romania",
@@ -370,7 +370,7 @@
       "It has not been established whether the ship struck a mine or was hit by a maritime drone. The device and the mechanism of the explosion are unidentified, drone involvement has not been confirmed, and the origin and operator remain unresolved.",
       "The ship was damaged; no injuries were reported. Romanian maritime authorities responded, and the vessel was assessed for onward movement or repairs."
     ],
-    "basis": "f6025da684b0f281"
+    "basis": "eb00b756403a7b22"
   },
   "E035": {
     "slug": "2026-07-24-drone-shot-down-padina-pogoanele-romania",
@@ -381,7 +381,7 @@
       "Romanian authorities identified it as a Russian drone. It was described as Shahed-type, but its exact designation has not been conclusively established, and details of its type and precise track rest on secondary reporting. The wreckage was under investigation.",
       "No casualties were reported."
     ],
-    "basis": "9913bc87490837f4"
+    "basis": "242bc82a35e2d5ec"
   },
   "E036": {
     "slug": "2026-07-25-drone-shot-down-tulcea-coast-romania",
@@ -392,7 +392,7 @@
       "The drone was reported as Russian. Its model and payload were under investigation, and its technical identification had not been completed in contemporary accounts.",
       "No casualties were reported."
     ],
-    "basis": "f1a1cd474b713cba"
+    "basis": "7f95250ae1a3f9c9"
   },
   "E037": {
     "slug": "2026-07-26-drone-shot-down-sulina-romania",
@@ -403,7 +403,7 @@
       "Romania identified it as a Russian drone. Its model was not specified, and the investigation into its model and payload had not been completed when the incident was reported.",
       "No casualties were reported. An ambassador was summoned over the repeated violations."
     ],
-    "basis": "36eaffb1b2d6ec5e"
+    "basis": "e5610d2af859f673"
   },
   "E038": {
     "slug": "2026-07-27-drone-incursion-southeastern-romania",
@@ -413,7 +413,7 @@
       "On 27 July 2026 a drone (UAV) was reported to have made a brief incursion into Romania's southeastern airspace before exiting into Ukraine. Its exact route was not specified. Romanian air defences monitored and responded to the flight, but the drone departed before it could be engaged.",
       "The drone was reported as Russian, but details of the incident are limited: no technical findings were available, and the drone's model and payload were not reported. No impact was reported in Romania."
     ],
-    "basis": "9059a0b69941dbc6"
+    "basis": "ac16c5da3e0e0888"
   },
   "E039": {
     "slug": "2026-08-02-drone-debris-periprava-romania",
@@ -424,7 +424,7 @@
       "The drone was associated with attacks on Ukraine; its final model has not been established. Romania's defence ministry (MApN) reported the flight and the recovery, via HotNews. An interception and debris fall were reported, but it has not been explicitly established that the drone was shot down.",
       "No casualties or property damage were reported. The field was searched and the material investigated."
     ],
-    "basis": "2cbcd4620d895481"
+    "basis": "7ccace5df1eaf873"
   },
   "E040": {
     "slug": "2026-08-04-explosive-drone-leipzig-halle-airport-germany",
@@ -435,7 +435,7 @@
       "On 1 September Germany attributed the operation to persons acting for Russian state agencies. Russia denied responsibility. The attribution has not been accompanied by public release of all the underlying forensic and intelligence evidence, and the launch point has not been established.",
       "No casualties were reported. Police, bomb-disposal teams with a robot and federal prosecutors investigated, the additional device was seized, and diplomatic measures followed later."
     ],
-    "basis": "f67a4d6544088e02"
+    "basis": "7eb8a6247dacdaca"
   },
   "E041": {
     "slug": "2026-08-07-drones-sighted-military-base-western-germany",
@@ -446,7 +446,7 @@
       "No foreign or Russian link has been established.",
       "No damage or casualties were reported. Authorities investigated the overflight of the sensitive site."
     ],
-    "basis": "e7d3542e0ff07911"
+    "basis": "8dae0d1c04703d30"
   },
   "E042": {
     "slug": "2026-08-08-drone-crash-explosion-kardam-bulgaria",
@@ -457,7 +457,7 @@
       "The drone was reported as a Maya-type decoy and was assessed in earlier reporting as a Ukrainian type, but its final attribution has not been independently established. An explosive effect was observed, though the drone's exact configuration is unknown. By 26 August a Bulgarian minister said Ukraine had not provided the information requested; military prosecutors in Sliven are responsible for the case.",
       "Bulgaria investigated, and additional counter-drone defensive measures were reported. The flight through Romania and the crash in Bulgaria are treated as one incident, not as separate Romanian and Bulgarian incidents."
     ],
-    "basis": "cf61e1c987991ee0"
+    "basis": "b267d406272c0e7d"
   },
   "E043": {
     "slug": "2026-08-11-drone-wreckage-neptun-deep-romania-eez",
@@ -468,7 +468,7 @@
       "The drones were identified as Gerbera aerial drones, a type used by Russia. Ukraine said the objects were not Ukrainian. No operator has been conclusively established, and the drones' original flight routes are unknown.",
       "Romanian Navy divers and explosive-ordnance disposal specialists, supported by the Coast Guard, destroyed the two drones, which posed a potential explosive hazard, and recovered the wing, which was reported to be non-hazardous. No casualties were reported. These were aerial drones floating at sea, not uncrewed surface vessels, and they are separate from a sea-drone case on 20 August."
     ],
-    "basis": "edf1cb073a8d7594"
+    "basis": "7f2dc6c87ddc5e46"
   },
   "E044": {
     "slug": "2026-08-14-drone-shot-down-rugaji-latvia",
@@ -479,7 +479,7 @@
       "The drone was initially unidentified. On 20 August Latvia confirmed that it was of Ukrainian origin. It may have entered Latvia from Belarus, and Russian electronic interference was considered, but neither has been independently established.",
       "No casualties were reported. The 20 August identification was an update on the same incident, not a second incursion."
     ],
-    "basis": "87a7bba3023df4f8"
+    "basis": "7ff5ab882cb2b143"
   },
   "E045": {
     "slug": "2026-08-16-drone-shot-down-baleni-cudalbi-galati-romania",
@@ -490,7 +490,7 @@
       "The drone was reported as Russian, and a NATO account described its origin as apparently Russian. Earlier reporting gave its type as Geran-2, but its exact type has not been independently verified. The shoot-down itself has been confirmed.",
       "No casualties were reported, and no payload details were given. The wreckage was recovered and investigated."
     ],
-    "basis": "d77259fa5a3a72f9"
+    "basis": "ed487c71a6ea2b37"
   },
   "E046": {
     "slug": "2026-08-20-drone-crash-grindu-tulcea-romania",
@@ -501,7 +501,7 @@
       "The drone was associated with attacks across the Danube, but the ministry’s initial release did not specify its model or operator, and a complete forensic result is not available.",
       "It burned briefly after the crash and the fire went out on its own; no casualties or property damage were reported. Spanish F-18 fighters and a Romanian IAR-330 SOCAT helicopter responded, followed by a search and a technical examination. An earlier report said the recovered fragments posed no explosive hazard, which the initial release did not confirm. The crash is separate from the sea drone reported near Neptun Deep the same day."
     ],
-    "basis": "c8a5badebeb1f815"
+    "basis": "e232adb07efe67a4"
   },
   "E047": {
     "slug": "2026-08-20-explosive-naval-drone-neptun-deep-romania",
@@ -512,7 +512,7 @@
       "A Romanian F-16 fired on it with its cannon, damaging but not fully destroying it, and a Navy explosive ordnance disposal team then neutralised it. Official reporting confirmed an explosive charge of unspecified size. The defence ministry initially described two drones and later corrected this to one. No casualties or damage to the infrastructure were reported.",
       "The drone’s launch point and operator are unknown. Romania’s defence minister said Ukraine had confirmed it was not Ukrainian; that statement does not establish who did launch it. The case is separate from the aerial drone that crashed near Grindu the same day."
     ],
-    "basis": "8d0a101b5d0d998a"
+    "basis": "c73d4d96d14ce0d5"
   },
   "E048": {
     "slug": "2026-08-22-explosive-drone-debris-tuzla-beach-romania",
@@ -523,7 +523,7 @@
       "A preliminary assessment by the Romanian Ministry of National Defence (MApN) indicated Ukrainian manufacture. That finding is preliminary, and the drone’s operator and mission have not been confirmed. The date and route of its original flight are unknown, as is how many drones the fragments came from.",
       "A Navy explosive ordnance disposal team carried out two controlled detonations because the first did not fully destroy the charge; both blasts were part of one disposal. Prosecutors at the Constanța Court of Appeal were notified. No casualties were reported."
     ],
-    "basis": "9db44b16fe4d02ed"
+    "basis": "43aab75022d3fc9a"
   },
   "E049": {
     "slug": "2026-08-23-gerbera-drone-fragment-gura-portitei-romania",
@@ -534,7 +534,7 @@
       "The Romanian Ministry of National Defence confirmed the type and the explosive hazard. Earlier reporting called the drone Russian, and Gerbera is a type used by Russia, but the type alone does not establish who operated it. The date and route of its original flight are unknown, and the exact offshore jurisdiction was not specified.",
       "The disposal team, working from a Coast Guard vessel, neutralised the object in place. No casualties were reported. The fragment came from an aerial drone, not a sea drone, and is not part of the Neptun Deep sea-drone incident."
     ],
-    "basis": "ae750bb210684d49"
+    "basis": "14dbe2a7196c9e3c"
   },
   "E050": {
     "slug": "2026-08-24-drone-crash-near-house-ciuslea-romania",
@@ -545,7 +545,7 @@
       "The drone was reported as Russian; its precise model has not been established. The Romanian Ministry of National Defence (MApN) reported that it carried no explosive payload.",
       "No injuries were reported despite how close the drone fell to the house. Fighter aircraft and a helicopter responded, the area was secured, and the drone was recovered for investigation. Earlier reporting also described a protective evacuation."
     ],
-    "basis": "39641143a10791f3"
+    "basis": "60fcd95721814f69"
   },
   "E051": {
     "slug": "2026-08-25-suspected-drone-fragment-constanta-casino-romania",
@@ -556,7 +556,7 @@
       "The object has not been confirmed as part of a drone, and its full identity, origin and operator have not been established. No explosives were identified when it was examined.",
       "Firefighters and specialists recovered and examined the object, and no harm was reported. It is a separate find from the explosive drone found on Olimp beach the next morning."
     ],
-    "basis": "512ff3286860c58a"
+    "basis": "b993c2b5f68bce8e"
   },
   "E052": {
     "slug": "2026-08-26-explosive-drone-fragment-olimp-beach-romania",
@@ -567,7 +567,7 @@
       "Specialists from the SRI Antiterrorist Brigade detonated the material on the beach in a controlled explosion. No casualties were reported.",
       "The authorities had not announced the fragment’s origin or the drone model in reporting from 26–27 August, and the date and route of the original flight are unknown."
     ],
-    "basis": "eb76ba382bc43c60"
+    "basis": "8a5ea3da962eb449"
   },
   "E053": {
     "slug": "2026-08-27-progress-iv-sfantu-gheorghe-romania-drone-unconfirmed",
@@ -578,7 +578,7 @@
       "An impact on the ship was alleged, and the authorities said its cause required investigation. A drone attack remained a hypothesis: no drone or other weapon has been identified, and no explosion or drone strike has been established. The ship’s flag was reported as the Dominican Republic, while a shipping-industry source cited Dominica.",
       "One crew member was injured, reportedly with a fractured arm; earlier descriptions of a serious injury are not supported by later accounts. The maritime rescue coordination centre (MRCC) coordinated a commercial vessel, the Border Police and rescue ships."
     ],
-    "basis": "d97f9403f1f4e3c6"
+    "basis": "8527faa44a3ee2f5"
   },
   "E054": {
     "slug": "2026-09-01-explosive-drone-found-viisoara-vaslui-romania",
@@ -589,7 +589,7 @@
       "Specialists confirmed that it contained explosive material. The type of drone has not been confirmed, and its official origin is unresolved: local reports offered conflicting claims that it was Russian or Ukrainian, and the device's identity and provenance were under investigation.",
       "Gendarmes secured the site and SRI bomb specialists destroyed the drone in a controlled detonation. Prosecutors at the Iași Court of Appeal were notified. No casualties were reported."
     ],
-    "basis": "cc1c18f3e6d2ca88"
+    "basis": "0c65ff39f4b4e802"
   },
   "E055": {
     "slug": "2026-09-02-mapping-drone-recovered-southern-coast-finland",
@@ -600,7 +600,7 @@
       "The drone's origin and operator are unknown. It has not been established that it came from abroad, and it is not assumed to be a foreign military drone.",
       "The drone was described as non-dangerous, with no hazardous payload identified, and no damage or casualties were reported. Authorities investigated whether the flight amounted to a territorial violation."
     ],
-    "basis": "638a61d4a389c251"
+    "basis": "7630fcb93ae63a96"
   },
   "E056": {
     "slug": "2026-09-08-jet-drone-incursion-iasi-northeastern-romania",
@@ -611,7 +611,7 @@
       "The drone was reported as Russian. Its technical identification as a jet-powered Geran-4 is attributed to Romanian and Moldovan reporting.",
       "Two Spanish F/A-18 fighters were scrambled, and authorities monitored the flight and warned residents. Restrictions were imposed at Iași Airport and civil alerts were issued. No impact or casualties were reported in Romania; the reported crash happened outside the EU, in Moldova."
     ],
-    "basis": "03466e6c6985537b"
+    "basis": "ed810f89d14f00c3"
   },
   "E057": {
     "slug": "2026-09-14-drone-recovered-rusinowo-beach-jaroslawiec-poland",
@@ -622,7 +622,7 @@
       "Poland’s defence minister said the preliminary assessment was that it was a Russian military drone. That identification is preliminary and depends on the examination of the recovered drone. No payload was reported.",
       "No casualties or damage were reported in connection with the find."
     ],
-    "basis": "4ed3670aa9db1f04"
+    "basis": "5bc914d23a6963bd"
   },
   "E058": {
     "slug": "2026-09-15-nato-fighter-downs-drone-pratkunai-lithuania",
@@ -633,7 +633,7 @@
       "The drone was identified as a Gerbera, a type used by Russia. On 16 September Lithuania’s president assessed that it had likely been intended for a Ukrainian target. A possible diversion by Ukrainian electronic warfare has been put forward to explain how it reached Lithuania, but that causal account is an assessment. Neither the Russian-type identification nor the intended-target assessment is proof of a deliberate attack on Lithuania.",
       "Whether this particular drone carried explosives was not established; Gerbera variants may be decoys or armed."
     ],
-    "basis": "f1664efadb84fd1a"
+    "basis": "95fdd7f2a38174d0"
   },
   "E059": {
     "slug": "2026-09-24-drone-explodes-crashes-solca-suceava-romania",
@@ -644,7 +644,7 @@
       "Miruță described a Russian-model drone with equipment Romanian specialists had not encountered before. The Institute for the Study of War identified the wreckage from geolocated imagery as a Russian Gerbera-type drone; that is ISW’s assessment, not an official Romanian model identification. Lithuania’s Foreign Ministry attributed the wider 24 September incursions into Romania and Moldova to Russian drones. The launching unit, intended target and cause of the incursion remain unresolved.",
       "Two Romanian F-16s took off from Borcea to monitor the drone, and an IAR-330 SOCAT helicopter launched from Bacău at 07:21. Miruță said the conditions for engaging it were not met; it was not shot down. Interior Ministry teams secured the site. No casualties or material damage were reported, and there was no fire at the crash site."
     ],
-    "basis": "62d17d09623e59e7"
+    "basis": "e636150eb3661a09"
   },
   "E060": {
     "slug": "2026-08-13-drone-incursion-chilia-branch-romania",
@@ -655,7 +655,7 @@
       "The drone's nationality and operator have not been established, and its identity remains unresolved.",
       "Romanian F-16s also responded to a later target nearby. The overnight track was reported alongside the discovery of drone fragments at Costinești beach the same day, but the two have not been linked, and the drone's relationship to later recoveries is unresolved."
     ],
-    "basis": "0c905d653634fc9a"
+    "basis": "9d39293a55e2281a"
   },
   "E061": {
     "slug": "2026-08-13-drone-wreckage-costinesti-beach-romania",
@@ -666,7 +666,7 @@
       "The origin and operator of the material have not been established. Officials identified it as fragments of an aerial drone, not a maritime drone. How the fragments relate to each other, how many separate drones they came from and their exact provenance were under investigation, and no flight route was observed.",
       "Military divers and explosive-ordnance disposal specialists, the Coast Guard and other emergency services responded and recovered the material. No pyrotechnic risk was reported for the material examined, and no injuries were reported. Appeals prosecutors in Constanța were notified."
     ],
-    "basis": "e2de63e35e0ff93c"
+    "basis": "34bdb5cb2133d919"
   },
   "E062": {
     "slug": "2026-08-14-drone-fragment-saturn-beach-constanta-romania",
@@ -677,7 +677,7 @@
       "Who launched the drone, and what type of drone the fragment came from, has not been established. Romanian reporting on the find also covered fragments found at Costinești, but no link between the two finds has been established.",
       "Specialists reported that the fragment contained no pyrotechnic elements. It was examined and recovered, and no injuries were reported."
     ],
-    "basis": "31bcf7f6c8829f7f"
+    "basis": "dddb1aa53dc4ec3d"
   },
   "E063": {
     "slug": "2026-08-14-drone-crash-macin-mountains-tulcea-romania",
@@ -688,7 +688,7 @@
       "The drone’s origin and model were not established in contemporary reporting. It is also unresolved whether the Luncavița and Greci reports describe one crash site or linked or separate sites.",
       "Military specialists responded with helicopter support, and the Border Police set up a cordon. A later follow-up reported a controlled disposal in the Măcin Mountains the same day; the exact charge was not established. No casualties or property damage were reported. A separate object discovered the same day at Plauru is a different incident."
     ],
-    "basis": "a468889ffc476f47"
+    "basis": "24819d6b13d25f15"
   },
   "E064": {
     "slug": "2026-08-14-drone-found-destroyed-plauru-tulcea-romania",
@@ -699,7 +699,7 @@
       "The drone’s nationality and model have not been established, and the releases from the Romanian Ministry of National Defence (MApN) gave no technical details. The date and route of its original flight are unknown: 14 August is when it was discovered, not necessarily when it flew.",
       "No casualties were reported, and the exact payload was not specified. The Plauru find was at a different location from the wreckage reported in the Măcin Mountains the same day."
     ],
-    "basis": "4e32f28a297b2649"
+    "basis": "1d021b66e5adde58"
   },
   "E065": {
     "slug": "2026-08-14-starter-motor-tyulenovo-bulgaria-unconfirmed-drone",
@@ -710,7 +710,7 @@
       "The object was identified only as a starter motor. It has not been established that it came from a drone, so it is not a confirmed drone find, and its origin is unknown. Associations with Russian or Ukrainian drones made for the wider group of finds do not identify this object. When and how it ended up in the sea is also unknown.",
       "No casualties were reported."
     ],
-    "basis": "19f0d70cb12d2ba3"
+    "basis": "7dc3c51fb913f635"
   },
   "E066": {
     "slug": "2026-08-14-reconnaissance-uav-primorsko-beach-bulgaria",
@@ -721,7 +721,7 @@
       "No operator has been identified for the drone, and the release reporting the find gave no final identification. Associations with Russian or Ukrainian drones made for the wider group of finds do not identify this one. When it came down and what route it flew are unknown.",
       "No casualties were reported, and any payload was not specified."
     ],
-    "basis": "e841824dac250100"
+    "basis": "5309d50268692fa3"
   },
   "E067": {
     "slug": "2026-08-14-drone-parts-lozenets-beach-bulgaria",
@@ -732,7 +732,7 @@
       "No operator has been identified, and the release reporting the find gave no final identification of the drone. Associations with Russian or Ukrainian drones made for the wider group of finds do not identify these parts. The date the drone came down and its original route are unknown.",
       "No casualties were reported, and any payload was not specified."
     ],
-    "basis": "ecd8a4c8c7393cf1"
+    "basis": "b9a22d18cf020666"
   },
   "E068": {
     "slug": "2026-08-22-reported-drone-debris-albena-kranevo-bulgaria",
@@ -743,7 +743,7 @@
       "The account comes only from a secondary SofiaBeacon report that recalled two coastal debris recoveries on 22 August. The exact object, its origin and the original official release have not been verified. No operator has been identified, and associations with Russian or Ukrainian drones made for the wider group of finds do not identify this debris. When and how it reached the coast is unknown.",
       "No casualties were reported."
     ],
-    "basis": "9402b0042cb4b8ed"
+    "basis": "8979d38572a66005"
   },
   "E069": {
     "slug": "2026-08-22-reported-drone-debris-rakitnika-varna-bulgaria",
@@ -754,7 +754,7 @@
       "The account comes only from a secondary SofiaBeacon report that recalled two coastal debris recoveries on 22 August and identified Rakitnika as a response site. The exact object, its origin and the original official release have not been verified. No operator has been identified, and associations with Russian or Ukrainian drones made for the wider group of finds do not identify this debris.",
       "No casualties were reported."
     ],
-    "basis": "677df7ddada10550"
+    "basis": "36466c316f336589"
   },
   "E070": {
     "slug": "2026-08-25-electric-reconnaissance-uav-tsarevo-varvara-bulgaria",
@@ -765,7 +765,7 @@
       "No operator has been identified for the drone, and the releases reporting it gave no final identification. Associations with Russian or Ukrainian drones made for the wider group of finds do not identify this one. When the drone came down and the route it flew are unknown.",
       "No casualties were reported."
     ],
-    "basis": "32b060ef5521ded6"
+    "basis": "e79a6ceab7fa71cb"
   },
   "E071": {
     "slug": "2026-08-25-military-drone-wing-kamchia-bulgaria",
@@ -776,7 +776,7 @@
       "The wing carried no ammunition. No operator has been identified, and the releases reporting it gave no final identification. Associations with Russian or Ukrainian drones made for the wider group of finds do not identify this wing. When and where the drone came down is unknown.",
       "No casualties were reported. It has not been established whether the wing belongs to the same aircraft as a drone reported in a separate response on 27 August."
     ],
-    "basis": "9307baafa11ae939"
+    "basis": "793b83d4504a3f48"
   },
   "E072": {
     "slug": "2026-08-26-drone-wreckage-kabakum-beach-varna-bulgaria",
@@ -787,7 +787,7 @@
       "The Bulgarian Navy inspected the material, found no explosives, and transported it to Varna.",
       "No operator has been identified, and the releases gave no final identification. Associations with Russian or Ukrainian drones made for the wider group of finds do not identify this one. When the drone came down is unknown. No casualties were reported."
     ],
-    "basis": "109d2374cbe9b0e6"
+    "basis": "6d74a5548d3787af"
   },
   "E073": {
     "slug": "2026-08-26-floating-uav-destroyed-pomorie-bulgaria",
@@ -798,7 +798,7 @@
       "The exact charge was not stated, and the controlled destruction does not by itself show that the drone carried a live warhead. No operator has been identified, and the releases reporting it gave no final identification. Associations with Russian or Ukrainian drones made for the wider group of finds do not identify this one. When the drone came down and the route it flew are unknown.",
       "No casualties were reported."
     ],
-    "basis": "f0976ba3811564f5"
+    "basis": "4896855fd348e38d"
   },
   "E074": {
     "slug": "2026-08-26-uav-destroyed-pasha-dere-varna-bulgaria",
@@ -809,7 +809,7 @@
       "The exact charge was not stated, and the controlled destruction does not in itself establish that the drone carried an explosive payload. No operator has been identified, and the releases reporting it gave no final identification. Associations with Russian or Ukrainian drones made for the wider group of finds do not identify this one. When the drone came down and the route it flew are unknown.",
       "No casualties were reported."
     ],
-    "basis": "073c3ce3f5483d3f"
+    "basis": "46e1d5c14830d06d"
   },
   "E075": {
     "slug": "2026-08-26-part-submerged-uav-cape-galata-bulgaria",
@@ -820,7 +820,7 @@
       "No explosive material was found. The drone was towed to Varna Naval Base and lifted out of the water.",
       "No operator has been identified, and the release reporting it gave no final identification. Associations with Russian or Ukrainian drones made for the wider group of finds do not identify this one. When the drone came down and the route it flew are unknown. No casualties were reported."
     ],
-    "basis": "9e2dfc2960adf89f"
+    "basis": "9e12b2e238a172e2"
   },
   "E076": {
     "slug": "2026-08-26-drone-wing-golden-sands-laguna-bulgaria",
@@ -830,7 +830,7 @@
       "On 26 August 2026 a drone wing was found near the resort beach at the Laguna campground in Golden Sands, Bulgaria. A Bulgarian Navy team from Varna transported it to base.",
       "No operator has been identified, and the release reporting it gave no final identification. Associations with Russian or Ukrainian drones made for the wider group of finds do not identify this wing. Any payload was not specified, and when the drone came down is unknown. No casualties were reported."
     ],
-    "basis": "66245fb50e978a83"
+    "basis": "d10300f0b3b6fd76"
   },
   "E077": {
     "slug": "2026-08-26-drone-wing-burgas-north-beach-bulgaria",
@@ -840,7 +840,7 @@
       "On 26 August 2026 an object on the northern beach of Burgas, Bulgaria, was first reported as a drone (UAV) and then found to be a drone wing. A Bulgarian Navy team from Burgas recovered it.",
       "No operator has been identified, and the release reporting it gave no final identification. Associations with Russian or Ukrainian drones made for the wider group of finds do not identify this wing. Any payload was not specified, and when the drone came down is unknown. No casualties were reported."
     ],
-    "basis": "04adb256b86067fd"
+    "basis": "52a3f0e87856a707"
   },
   "E078": {
     "slug": "2026-08-27-floating-drone-tail-kavarna-bulgaria",
@@ -851,7 +851,7 @@
       "No operator has been identified, and the release reporting it gave no final identification. Associations with Russian or Ukrainian drones made for the wider group of finds do not identify this tail section. When the drone came down and the route it flew are unknown.",
       "Any payload was not specified, and no casualties were reported."
     ],
-    "basis": "931679a49ca09316"
+    "basis": "6eb61153943fae43"
   },
   "E079": {
     "slug": "2026-08-27-drone-recovered-kamchia-black-sea-bulgaria",
@@ -862,7 +862,7 @@
       "The origin of this drone has not been established, and no operator has been identified. Broader Russian or Ukrainian associations made for this group of coastal finds do not identify this particular object.",
       "No explosives were on board and no casualties were reported. The drone was transported to Varna Naval Base. Its relationship to a drone wing reported on 25 August is unresolved; the two are not assumed to be the same object."
     ],
-    "basis": "2ce5cb803316af4c"
+    "basis": "41ee4f90f1af6772"
   },
   "E080": {
     "slug": "2026-08-27-drone-sighting-beach-debris-chernomorets-bulgaria",
@@ -873,7 +873,7 @@
       "The origin of the drone has not been established and no operator has been identified. Broader Russian or Ukrainian associations made for this group of coastal finds do not identify this particular object. It has also not been proven that the beach debris came from the object seen offshore.",
       "No casualties were reported. The Navy in Burgas responded and transported the debris to base. When the drone came down, and the route it flew, are unknown."
     ],
-    "basis": "c9b4cce6f575b72c"
+    "basis": "ec61bf1f31b29cfc"
   },
   "E081": {
     "slug": "2026-08-27-drone-destroyed-sveti-ivan-sozopol-bulgaria",
@@ -884,7 +884,7 @@
       "The origin of this drone has not been established, and no operator has been identified. Broader Russian or Ukrainian associations made for this group of coastal finds do not identify this particular object. When it came down, and the route it flew, are unknown.",
       "The exact hazard posed by the object was not specified, and no casualties were reported. The destruction was a controlled disposal by the authorities, not an explosion caused by the drone itself."
     ],
-    "basis": "8a636ff2a5ebbc21"
+    "basis": "350d7af2c486d914"
   },
   "E082": {
     "slug": "2026-08-28-drone-recovered-shabla-lighthouse-bulgaria",
@@ -895,7 +895,7 @@
       "The origin of this drone has not been established and no operator has been identified. Broader Russian or Ukrainian associations made for this group of coastal finds do not identify this particular object.",
       "The drone was assessed as safe and transported to the naval base at Varna. No casualties were reported. Although Shabla is a separate recovery site, it has not been established that this is a different drone from those found elsewhere on the coast."
     ],
-    "basis": "530743ea83fad3b9"
+    "basis": "e933b82f69ef42b8"
   },
   "E083": {
     "slug": "2026-08-28-drone-debris-bungalata-beach-ahtopol-bulgaria",
@@ -906,7 +906,7 @@
       "The origin of the debris has not been established and no operator has been identified. Broader Russian or Ukrainian associations made for this group of coastal finds do not identify this particular object.",
       "No casualties were reported. A Navy team from Burgas transported the material to base. Although Bungalata beach is a separate recovery site, it has not been established that the debris comes from a different drone than other finds on the coast."
     ],
-    "basis": "af1eb5b0d0cd9119"
+    "basis": "70c5726f7b21133a"
   },
   "E084": {
     "slug": "2026-08-27-possible-drone-alert-snake-island-romania",
@@ -917,7 +917,7 @@
       "The target's full identity as a drone (UAV) has not been established, and its origin is unknown. It was reported outside demonstrated Romanian airspace and no entry into Romania was established, so the alert is not a confirmed incursion into the EU.",
       "No impact in Romania was established. The alert was reported alongside coverage of a maritime incident involving the Progress IV, whose impact mechanism is unknown, but no causal link between the two has been shown. The alert is not evidence of what caused the Progress IV incident."
     ],
-    "basis": "eb888b38b7860eee"
+    "basis": "b239ead6fc06e683"
   },
   "N004": {
     "slug": "2026-01-27-smuggling-drone-purvenai-salcininkai-lithuania",
@@ -928,7 +928,7 @@
       "The drone was reported to have approached from Belarus, and VSAT attributed the flight to smugglers operating across the Belarus border. The operators’ nationality and any state sponsorship have not been established. The case was handled as a criminal cargo flight, not a military strike, and it is not evidence of an attack by a foreign state.",
       "No casualties or damage to third parties were reported. The drone and the cigarette cargo were seized."
     ],
-    "basis": "9c9672193916ea4a"
+    "basis": "c2d3c8e161be4eca"
   },
   "N005": {
     "slug": "2026-02-23-smuggling-drone-pine-tree-milvydai-lithuania",
@@ -939,7 +939,7 @@
       "VSAT attributed the flight to smugglers operating across the Belarus border. The operators’ nationality and any state sponsorship have not been established, and the drone’s full flight track was not made public. The case was treated as a criminal cargo flight, not a military strike, and is not evidence of an attack by a foreign state.",
       "No casualties or third-party damage were reported. The drone and its cargo were seized, and administrative proceedings followed."
     ],
-    "basis": "2fb9d943aa013827"
+    "basis": "697f24ca97cd4ab8"
   },
   "N010": {
     "slug": "2026-04-05-smuggling-drone-dubas-varena-lithuania",
@@ -950,7 +950,7 @@
       "The drone was reported to have approached from Belarus, and the State Border Guard Service (VSAT) attributed the flight to smugglers operating across the Belarus border. The operators’ nationality and any state sponsorship have not been established. The case was a criminal cargo flight, not a military strike, and is not evidence of an attack by a foreign state.",
       "No casualties or third-party damage were reported. The drone and its cargo were seized and administrative proceedings followed. VSAT published the case on 7 April 2026."
     ],
-    "basis": "02100b19139cf9ff"
+    "basis": "baf7cf775d3a3c09"
   },
   "N011": {
     "slug": "2026-05-07-smuggling-drone-krupaviesai-lithuania",
@@ -961,7 +961,7 @@
       "The drone was reported to have approached from Belarus, and the State Border Guard Service (VSAT) attributed the flight to smugglers operating across the Belarus border. The operators’ nationality and any state sponsorship have not been established. The flight was a criminal cargo operation, not a military strike, and is not evidence of an attack by a foreign state.",
       "No casualties or third-party damage were reported. The broken drone and its cargo were seized. VSAT, which published the case on 8 May, described it as the year’s 17th such interception."
     ],
-    "basis": "8982bab38052516b"
+    "basis": "80430a23dccf9154"
   },
   "N012": {
     "slug": "2026-06-14-smuggling-drone-daugidonys-dimitrai-lithuania",
@@ -972,7 +972,7 @@
       "According to Lithuania's border guard service (VSAT), the drone was flown by smugglers operating from or across the Belarus border. The operator's nationality has not been established, and nor has any state sponsorship; the official account describes a criminal cargo operation, not a military strike, and is not evidence of a foreign-state attack.",
       "No casualties or third-party damage were reported. The drone was brought down by electronic means, recovered and seized, and administrative proceedings followed. It is not classified as a shoot-down or a confirmed crash."
     ],
-    "basis": "af0f14956f0f7ed2"
+    "basis": "80dfe4d277b221d0"
   },
   "N015": {
     "slug": "2026-07-15-drone-espionage-arrest-munich-germany",
@@ -983,7 +983,7 @@
       "Investigators alleged that he was gathering intelligence for a foreign entity or prohibited organisation, but no sponsoring state has been named. The drone is alleged to have been launched locally; no cross-border flight is alleged. The suspect's citizenship alone does not show direction by a foreign state, and the case is an allegation, not a conviction.",
       "The drone's model was not specified, and no payload or damage was reported."
     ],
-    "basis": "30a260fd9cc11364"
+    "basis": "57b5a9fac68b2832"
   },
   "N023": {
     "slug": "2026-08-28-reported-turkish-uav-samothrace-lemnos-greece",
@@ -994,7 +994,7 @@
       "Greek reporting described the UAV as a Turkish military drone and the flight as an airspace violation. Both characterisations come from the Greek account; they have not been independently adjudicated, and no independent forensic attribution has been claimed. The model and the exact number of crossings were not specified.",
       "The Greek account links the encounter to a precaution taken by an Aegean passenger flight near Alexandroupoli airport, which reportedly followed an alternative path or a low-altitude precaution before continuing to Athens. No collision or casualties were reported. The airport precaution is treated as part of the same encounter, not as a separate incident."
     ],
-    "basis": "a56901d4aa9b1224"
+    "basis": "c975373b6d2772b9"
   },
   "N028": {
     "slug": "2026-09-02-floating-drone-destroyed-pomorie-reef-bulgaria",
@@ -1005,7 +1005,7 @@
       "No operator or national origin has been announced for this object, and its model was not specified. When it flew or came down, and whether it is linked to other drones recovered along the coast, are unresolved. No payload was reported, and none can be inferred from the way it was destroyed.",
       "The site was one of three offshore responses handled from the Navy's Burgas base in an official announcement covering six Navy tasks. It is separate from an earlier find at Pomorie on 26 August."
     ],
-    "basis": "f25008a9c98eb393"
+    "basis": "424f542f053d4d98"
   },
   "N029": {
     "slug": "2026-09-02-reconnaissance-drone-cape-kaliakra-shore-bulgaria",
@@ -1016,7 +1016,7 @@
       "The drone's model, operator and manufacturer have not been announced, and its origin is unresolved. When it flew or came down, and whether it is linked to other drones recovered along the coast, are not known. No payload was reported.",
       "The drone was transported to Varna Naval Base. This shoreline recovery is separate from an offshore operation on 6 September."
     ],
-    "basis": "b91203a47ced6721"
+    "basis": "ee1a427f8325841c"
   },
   "N030": {
     "slug": "2026-09-02-floating-drone-destroyed-cape-kolokita-bulgaria",
@@ -1027,7 +1027,7 @@
       "No operator or national origin has been announced, and the model was not specified. The date of the drone's flight or crash is unknown, as is any link to other airframes recovered on the Bulgarian coast. No payload was reported, and the method of destruction is not evidence of one.",
       "Cape Kolokita was identified as a separate location in the same official release, which described six Navy tasks; it was one of three offshore response sites handled from the Navy's Burgas base."
     ],
-    "basis": "66981d6983a307b7"
+    "basis": "a94fabda0a09afbf"
   },
   "N031": {
     "slug": "2026-09-02-drone-material-destroyed-maslen-nos-bulgaria",
@@ -1038,7 +1038,7 @@
       "No operator or national origin has been announced, and the drone's model was not specified. It is not known when the drone flew or came down, or whether the material is linked to other drones recovered along the coast. No payload was reported, and none should be inferred from the disposal method.",
       "Maslen Nos was listed as a distinct location in an official announcement of six Navy tasks, as one of three offshore sites handled from the Navy's Burgas base."
     ],
-    "basis": "55289b79cb26426c"
+    "basis": "7d9d0115b32cb642"
   },
   "N032": {
     "slug": "2026-09-02-military-drone-fragments-pomorie-beach-bulgaria",
@@ -1049,7 +1049,7 @@
       "The fragments were officially reported as military-drone debris, but the drone has not been identified: its operator is unknown, and the number of aircraft involved is not known. When the aircraft flew or came down, and whether the fragments are linked to other drones recovered along the coast, are unresolved. No payload was reported.",
       "A naval examination was reported, but the final method of handling the fragments was not specified. This beach find is separate from an offshore find on 26 August."
     ],
-    "basis": "f47cf322afa511bb"
+    "basis": "6e45d5b86956e70d"
   },
   "N033": {
     "slug": "2026-09-02-cone-shaped-object-unconfirmed-drone-topola-bulgaria",
@@ -1060,7 +1060,7 @@
       "The object's identity has not been established, and it has not been confirmed as a drone (UAV); its shape alone does not show that it is one. Its origin is unknown, and a foreign origin has not been shown. No route or payload was reported.",
       "The Topola find is separate from an earlier find recorded at Tyulenovo on 14 August."
     ],
-    "basis": "eb094fa442f695ee"
+    "basis": "3c49f677113f4537"
   },
   "N035": {
     "slug": "2026-09-06-floating-drone-retrieved-cape-kaliakra-bulgaria",
@@ -1071,7 +1071,7 @@
       "The drone's type, origin and operator have not been announced. When it flew or came down, and whether it is linked to other drones recovered along the coast, are unresolved.",
       "The drone was assessed as safe for retrieval, although no detailed payload information was published, and it was taken to the naval base."
     ],
-    "basis": "3110bdedcbcb1b12"
+    "basis": "35abe945e6ecd895"
   },
   "N036": {
     "slug": "2026-09-06-smuggling-drone-daugidonys-salcininkai-lithuania",
@@ -1082,7 +1082,7 @@
       "According to VSAT, the drone was flown by smugglers operating across the border from Belarus. The operators' nationality and any state sponsorship have not been established. This was a criminal cargo flight, not a military strike, and the official account is a border-enforcement one, not evidence of a foreign-state attack.",
       "The guards stopped the drone electronically, forcing it to descend; this is not classified as a shoot-down or a confirmed crash. The drone and its cargo were seized, and no casualties or damage to others were reported. VSAT described it as the year's 55th such case. It is separate from an earlier incident recorded at Daugidonys."
     ],
-    "basis": "9a70a6bafce3a453"
+    "basis": "259fd55a2a6660ac"
   },
   "N038": {
     "slug": "2026-09-09-drone-fragments-capu-midia-beach-romania",
@@ -1093,7 +1093,7 @@
       "The Defence Ministry (MApN) reported that the fragments carried no explosive charge. No operator or national origin has been confirmed, the number of drones the fragments came from was not specified, and the original flight is unknown.",
       "The neutralisation was a controlled disposal by the authorities, not an explosion during the incident. Separate finds notified to police at Mamaia Nord and Corbu on 10 September are distinct from this one."
     ],
-    "basis": "beea97cc5ee92a0d"
+    "basis": "7a9d50d3d38a8182"
   },
   "N040": {
     "slug": "2026-09-11-military-type-drone-kavatsi-beach-bulgaria",
@@ -1104,7 +1104,7 @@
       "Reports described the drone as military in appearance, but that is not a confirmed national or operator attribution, and no final assessment has been reported. When it flew or came down, and whether it is linked to other drones recovered along the coast, are unresolved.",
       "The final disposal outcome was not established in the report available. The Kavatsi find is separate from a late-August find at the Sveti Ivan pier in the Sozopol area."
     ],
-    "basis": "24889bb2b1231dcf"
+    "basis": "f6e355af540513fa"
   },
   "N042": {
     "slug": "2026-09-11-drone-debris-offshore-midia-black-sea-romania",
@@ -1115,7 +1115,7 @@
       "The area is offshore and outside Romania's territorial sea, in an EEZ-related zone, so the find is not an incursion into Romanian sovereign territory. The debris came from an aerial drone, not a maritime drone. No operator or national attribution has been announced, and the flight or crash date is unknown.",
       "No pyrotechnic hazard was identified. The recovery is separate from beach finds reported on the Romanian coast the same day and from earlier August cases linked to Neptun Deep."
     ],
-    "basis": "290526119df5a1f0"
+    "basis": "90c70276f74f9583"
   },
   "N043": {
     "slug": "2026-09-11-drone-fragments-casla-vadanei-beach-tulcea-romania",
@@ -1125,7 +1125,7 @@
       "On 11 September 2026 two aerial-drone fragments were found washed ashore on the beach at Câșla Vădanei, between Sulina and Sfântu Gheorghe in Tulcea, Romania. An explosive ordnance disposal (EOD) team from the Defence Ministry (MApN) assessed them at 13:30, which is the response time rather than a known crash time, and found no explosive charge.",
       "The Ministry's account gives no operator or national attribution, and the origin of the fragments is unknown. It is not known how many aircraft they came from, and the flight or crash date is unresolved."
     ],
-    "basis": "86157032f74148b0"
+    "basis": "8bb9c880850900e0"
   },
   "N044": {
     "slug": "2026-09-11-four-drone-wrecks-edighiol-periboina-romania",
@@ -1136,7 +1136,7 @@
       "The cited chronology gives no operator or national attribution for any of the drones. When they flew or came down, and whether they are linked to other drones recovered along the coast, are unresolved.",
       "Explosives were reported specifically on board the interceptor drone. All elements were secured and neutralised in a controlled disposal by the authorities, which is distinct from an explosion during the incident."
     ],
-    "basis": "7aa574a7344618ad"
+    "basis": "7f96055ebd81d42f"
   },
   "N045": {
     "slug": "2026-09-11-explosive-drone-fragment-periteasca-beach-romania",
@@ -1147,7 +1147,7 @@
       "No operator or national attribution has been announced, and the origin of the fragments is unknown. It is not known how many drones they came from, and any link to other drones recovered along the coast is unresolved.",
       "Explosives were confirmed in one of the fragments, and SRI bomb specialists neutralised it in a controlled disposal; the Coast Guard took the other fragment. The find is separate from an earlier case at Gura Portiței on 23 August."
     ],
-    "basis": "854c1647c6a884d0"
+    "basis": "31cc2e5f86fa906f"
   },
   "N049": {
     "slug": "2026-09-13-smuggling-drone-crash-uta-versekele-lithuania",
@@ -1158,7 +1158,7 @@
       "According to the border guard service VSAT, which reported the case on 14 September, the drone was flown by smugglers operating from or across the Belarus border. The operators’ nationality and any state sponsorship have not been established. It was a criminal cargo flight, not a military attack.",
       "Border guards recovered the broken homemade drone within about an hour and opened administrative proceedings. No casualties or damage to third parties were reported."
     ],
-    "basis": "710eb0eed1b69839"
+    "basis": "c739171b15296b6c"
   },
   "N052": {
     "slug": "2026-09-16-old-drone-found-forest-keneliai-pasvalys-lithuania",
@@ -1169,7 +1169,7 @@
       "Initial speculation that it was a foreign military drone was not confirmed by the later police account. The drone was not identified as a Russian or Ukrainian strike drone, and police later associated it with a smuggling investigation. Its foreign origin has not been publicly established, and how it reached the forest is not known.",
       "ARAS and the military responded to the possible explosive risk. In an update on 17 September, police said no explosives had been found."
     ],
-    "basis": "2440dc888e200bbf"
+    "basis": "6df18f838ce38a36"
   },
   "N053": {
     "slug": "2026-09-16-smuggling-drone-seized-norviliskes-lithuania",
@@ -1180,7 +1180,7 @@
       "According to the border guard service VSAT, the drone was flown by smugglers operating from or across the Belarus border; the operators’ nationality and any state sponsorship have not been established. It was a criminal cargo flight, not a military strike, and it was brought down by electronic counter-drone measures rather than shot down.",
       "No casualties or third-party damage were reported. Administrative proceedings were opened, and VSAT counted the case as the 57th of the year."
     ],
-    "basis": "139028c23de7eac9"
+    "basis": "0e34a55ef6500f04"
   },
   "N055": {
     "slug": "2026-09-18-uav-overflight-zourafa-islet-greece",
@@ -1191,7 +1191,7 @@
       "The Greek account identified the drone as Turkish and presented the overflight as an airspace violation; the track has not been independently verified. The same account reported a formation of manned F-16s over Ro, which is not a drone incident. For the whole day it listed five UAVs among ten aircraft, with 13 flight information region (FIR) infringements and seven airspace violations by mixed aircraft; how many of these involved drones was not specified.",
       "No impact or casualties were reported, and the account did not describe a specific response to the Zourafa overflight."
     ],
-    "basis": "22a9f3ab1ff0b52c"
+    "basis": "2d65b23fc15d642b"
   },
   "N059": {
     "slug": "2026-09-21-smuggling-drone-burns-antaniskes-lithuania",
@@ -1202,7 +1202,7 @@
       "According to the border guard service VSAT, the drone was flown by smugglers operating from or across the Belarus border. The operators’ nationality and any state sponsorship have not been established. It was a criminal cargo flight, not a military strike.",
       "The drone was damaged by its impact and by fire, but its cargo of 1,000 packs of Minsk Superslims cigarettes survived. The drone and cigarettes were seized and administrative proceedings opened; VSAT counted it as the 58th such case of the year. No third-party casualties were reported."
     ],
-    "basis": "8798945c099a02b9"
+    "basis": "cac1364a0da47602"
   },
   "N062": {
     "slug": "2026-09-10-drone-fragments-mamaia-nord-beach-romania",
@@ -1213,7 +1213,7 @@
       "The operator and origin have not been established in the cited accounts, and the number of aircraft the fragments came from was not specified. The recovery does not show that a drone entered Romanian airspace that day; the original route is unknown.",
       "After examination, no explosive material was reported. The fragments were transferred to the Coast Guard or other competent authorities. The Mamaia Nord find is separate from the Capu Midia discovery the previous evening and from a police notification at Corbu beach at about 09:40 the same morning."
     ],
-    "basis": "078fc5c3c6052023"
+    "basis": "3e8ad7bb71c3d467"
   },
   "N063": {
     "slug": "2026-09-10-drone-fragments-corbu-beach-romania",
@@ -1224,7 +1224,7 @@
       "The cited accounts do not establish an operator or origin, and it is not known how many aircraft the fragments came from. Finding the fragments does not prove a same-day incursion into Romanian airspace, and the route is unknown.",
       "No explosive material was reported after the fragments were examined, and they were handed to the Coast Guard or other competent authorities. The Corbu notification is distinct from the 08:30 report of fragments at Mamaia Nord that morning and from the Capu Midia discovery the evening before."
     ],
-    "basis": "12b9360ad2ce34d8"
+    "basis": "018d84183d8de100"
   },
   "N064": {
     "slug": "2026-09-26-drone-fragment-found-agigea-constanta-romania",
@@ -1235,7 +1235,7 @@
       "Radio România reported an ongoing investigation. Whether the object is a drone, its model, its origin, its operator and when it was lost have not been established. The discovery alone does not show that a drone crossed into Romania, and it has not been linked to any tracked incursion.",
       "Preliminary reporting showed no attached explosive load, but no final official pyrotechnic assessment had been published. No casualties, damage or detonation were reported, and the reports do not establish that the fragment was physically retrieved."
     ],
-    "basis": "6e53782ce0276cf4"
+    "basis": "fd565a4ae10136cd"
   },
   "N065": {
     "slug": "2026-09-26-drone-incursion-chilia-veche-pardina-romania",
@@ -1246,7 +1246,7 @@
       "The ministry called it an aerial target; Digi24 reported it as a drone, and its model has not been established. Military radar confirmed a cross-border entry, but the operator and nationality are unresolved, and the ministry release did not attribute it to Russia. Loss of radar contact does not show where the target went, and no crash, shoot-down, explosion or recovery has been confirmed.",
       "Two Spanish F-18s on NATO enhanced air-policing duty and a Romanian IAR-330 SOCAT helicopter took off to monitor it. An RO-Alert warning went out for northern Tulcea County at 23:32, and the alert ended at 00:48 on 27 September. The release gave no casualty or damage assessment."
     ],
-    "basis": "0bba722a1db2f829"
+    "basis": "a1d5804bbbb37a18"
   },
   "N066": {
     "slug": "2026-09-27-possible-uav-airspace-ceatalchioi-somova-romania",
@@ -1257,7 +1257,7 @@
       "Radar confirmed the cross-border entry, but the object’s operator and nationality are unresolved. It was described as a probable drone, but that has not been confirmed, and its type is unknown. Loss of radar contact does not establish a crash, and no shoot-down, explosion or wreckage recovery has been reported.",
       "Two Romanian F-16s took off from Borcea. An RO-Alert warning was issued at 20:35 and the air alert ended at 22:05. A specialist search was announced for the morning of 28 September; its outcome has not been established. The incursion came the evening after a separate aerial target was tracked between Chilia Veche and Pardina."
     ],
-    "basis": "70dbd4f73d8f4a9a"
+    "basis": "7a625f51df6ce19a"
   },
   "N067": {
     "slug": "2026-09-29-possible-drone-debris-insula-mare-brailei-romania",
@@ -1268,7 +1268,7 @@
       "Romania’s defence ministry described the fragments as those of a possible drone; identification and model were pending examination. Foreign origin, operator and nationality are unresolved, and the ministry reported no radar-detected unauthorised entry into Romanian airspace during the preceding night. The reported fall and fire do not establish a confirmed drone crash or explosion.",
       "No casualties or material damage were reported. Interior Ministry and Romanian Intelligence Service teams secured the perimeter, and the defence ministry said a specialist team would examine the area; a completed examination or retrieval had not been reported."
     ],
-    "basis": "996cc0b7e6e18575"
+    "basis": "ad7a9a7e9c35364c"
   },
   "N068": {
     "slug": "2026-10-01-uav-airspace-violations-southeastern-aegean-greece",
@@ -1279,7 +1279,7 @@
       "The Turkish identification and the violation assessment are those of the Greek military, and the flight track has not been independently verified. The drone’s model was not specified. The three figures are different measures of one drone’s activity, not separate aircraft or incidents.",
       "Greek forces reportedly identified and intercepted the UAV. No weapons engagement, shoot-down, crash, casualties or damage were reported."
     ],
-    "basis": "3230eec530410144"
+    "basis": "8b3aec932f5601d8"
   },
   "N069": {
     "slug": "2026-10-02-possible-drone-fall-fire-plauru-romania",
@@ -1290,7 +1290,7 @@
       "The object was possibly an aerial drone; identification and model were pending technical examination. Its operator, nationality and foreign origin are unresolved. The nearby attacks on Ukraine are context, not attribution, and the ministry recorded no unauthorised entry into Romanian airspace on radar overnight. A fire alone does not establish an explosive payload or detonation.",
       "IGSU firefighters and defence ministry teams were sent to the site, and the area was secured. A specialist examination was announced but not reported as completed. No casualties or material damage were reported. The find is separate from an earlier drone discovery at Plauru in August 2026."
     ],
-    "basis": "f7a96ae3b263cf71"
+    "basis": "63137cea2e466cc0"
   },
   "N070": {
     "slug": "2026-10-03-suspected-drone-alert-vilnius-ukmerge-lithuania",
@@ -1301,7 +1301,7 @@
       "It has not been established that the object was a drone. Officials said the unusually slow track could represent birds or a radar anomaly, and a foreign drone incursion remains unconfirmed. An approach from Belarus does not establish Belarusian or Russian responsibility, and no operator or nationality has been identified.",
       "NATO fighters did not locate the object, and a Lithuanian Air Force helicopter found nothing suspicious; the search ended around 13:00. No wreckage, casualties or damage were confirmed, and reports of a possible fire or explosion were not substantiated."
     ],
-    "basis": "b087431089e486a4"
+    "basis": "754b68a3b30a62ec"
   },
   "N071": {
     "slug": "2026-10-04-uav-airspace-violations-northeastern-central-aegean-greece",
@@ -1312,7 +1312,7 @@
       "The Turkish identification and the description of the flights as national-airspace violations are Greek military assessments, and the Greek-Turkish airspace dispute remains relevant. The drones’ models were not specified, and no coordinates or tracks have been independently verified. The figures measure different things and are not separate incidents.",
       "The drones were identified and intercepted under standard procedures. No armed aircraft, engagements, shoot-downs, crashes, casualties or damage were reported."
     ],
-    "basis": "97afb87777a3b9fb"
+    "basis": "f70554ed3641e3b0"
   },
   "N072": {
     "slug": "2026-10-05-drone-attack-royad-mammadov-ship-romania",
@@ -1323,7 +1323,7 @@
       "Ukrainian President Volodymyr Zelensky said two Russian drones struck the ship. That is a Ukrainian claim, not independent verification, and Romania has published no attribution finding. Marius Roibu, director of the MRCC Constanța rescue centre, described an apparent multiple-drone attack; the drones’ type, launch point and operators are unestablished.",
       "Casualty accounts conflict. Romania’s Interior Ministry initially reported two dead and eleven rescued; on 6 October Azerbaijan’s Foreign Ministry said the captain had been killed and another Azerbaijani crew member was missing. India’s embassy said three Indian crew members survived, one of them injured. An initial report that the ship sank was corrected on 6 October, when it was reported afloat and awaiting a tow to Midia. Petrom said the Pescăruș platform was unaffected."
     ],
-    "basis": "d4e8083156bf806e"
+    "basis": "e725360a50897403"
   },
   "N073": {
     "slug": "2026-10-06-drone-attack-alfa-watan-able-ships-bulgaria",
@@ -1334,7 +1334,7 @@
       "Bulgaria has not attributed the attack. Rumen Radev said on 7 October that the circumstances suggested Russia but the evidence was insufficient for definitive attribution; Russia denied targeting the vessel. On 6 October Zelensky alleged a combined Russian attack, citing a joint investigation; that is a Ukrainian claim, not a Bulgarian finding. On 9 October Defence Minister Dimitar Stoyanov assessed ABLE’s damage as a surface-drone strike, without naming an operator.",
       "ALFA WATAN’s crew are missing, not confirmed dead. Reuters reported twelve Syrians missing on 7 October, then ten missing, including nine Syrians, on 8 October; the discrepancy is unresolved. All eighteen ABLE crew were rescued, two of them injured. Bulgaria halted the search on 7 October, and on 8 October Syria sought an independent investigation. A 9 October inspection found no identifiable drone remnants aboard ABLE, which was still afloat."
     ],
-    "basis": "91cd56b69ebb0bf6"
+    "basis": "a0ff3552f63bf915"
   },
   "N074": {
     "slug": "2026-10-06-uav-airspace-violations-northeastern-southeastern-aegean-greece",
@@ -1345,7 +1345,7 @@
       "The Turkish identification is GEETHA’s, and the assessment that the flights violated national airspace remains Greece’s, given the Greek-Turkish airspace dispute. No flight tracks have been independently verified. The bulletin also listed two manned F-16s and a CN-235, which are excluded from the drone figures; it described the F-16s, not the UAVs, as armed.",
       "The UAVs were identified and intercepted under standard procedures. No shoot-down, weapons engagement, crash, casualties or damage were reported. The figures count different things and are not separate incidents."
     ],
-    "basis": "6fabd26341f095ab"
+    "basis": "96efaa0f5eb27ca4"
   },
   "N075": {
     "slug": "2026-10-07-uav-airspace-violations-aegean-greece",
@@ -1356,7 +1356,7 @@
       "The Turkish identification is GEETHA’s, and the national-airspace violation assessment remains Greece’s, given the Greek-Turkish airspace dispute. No flight tracks or boundary assessments have been independently verified. The drones’ models, armament and payload were not established.",
       "The UAVs were identified and intercepted under standard procedures. No armed aircraft, engagements, shoot-downs, crashes, casualties or damage were reported. The three figures count different things and are not separate incidents."
     ],
-    "basis": "ff336aa2ce5e9c56"
+    "basis": "58ac7510515a837f"
   },
   "N076": {
     "slug": "2026-10-08-uav-airspace-violations-northeastern-southeastern-aegean-greece",
@@ -1367,7 +1367,7 @@
       "The Turkish identification is GEETHA’s, and the national-airspace violation assessment remains Greece’s, given the Greek-Turkish airspace dispute. No flight tracks have been independently verified. A manned ATR-72 in the same bulletin accounted for two further FIR infringements, which are not part of the drone figures.",
       "The UAVs were identified and intercepted under standard procedures. No shoot-down, weapons engagement, crash, casualties or damage were reported. The figures count different things and are not separate incidents."
     ],
-    "basis": "8521c9a6e38d2536"
+    "basis": "c52263db0c82b166"
   },
   "N077": {
     "slug": "2026-10-09-drone-debris-detonated-sea-sinemorets-bulgaria",
@@ -1378,7 +1378,7 @@
       "The fragments have not been identified beyond being from a UAV, and the model and number of aircraft are unknown. Their origin, operator and nationality have not been established, and no Russian or Ukrainian attribution has been confirmed. There is no evidence linking them to the 6 October drone attack on the merchant ships ALFA WATAN and ABLE.",
       "Explosive material was suspected but not confirmed. Divers from the auxiliary ship Kapitan I rang Dimitar Dobrev recommended destroying the debris in place, and the Navy commander authorised a controlled detonation. No casualties or vessel damage were reported."
     ],
-    "basis": "8d64b78f620d0a70"
+    "basis": "1b598aa06fab40dd"
   },
   "N078": {
     "slug": "2026-10-10-uav-airspace-violations-aegean-greece",
@@ -1389,7 +1389,7 @@
       "The Turkish identification and the national-airspace assessment are GEETHA’s, and the Greek-Turkish airspace dispute remains relevant. No tracks or boundary assessments have been independently verified. Models, armament and payload were not established.",
       "The drones were identified and intercepted under standard procedures. No shoot-down, weapons engagement, crash, casualties or damage were reported. The figures count different things and are not separate incidents."
     ],
-    "basis": "4c6f2764c988d565"
+    "basis": "aa3cc9abc9c9e1de"
   },
   "N079": {
     "slug": "2026-10-13-drone-strike-chelsea-3-ship-byala-bulgaria",
@@ -1400,7 +1400,7 @@
       "The operator and nationality are unresolved. Radev said the evidence was insufficient to accuse either belligerent; he argued that the attacks benefit Russia, but that argument and planned diplomatic consultations do not establish Russian responsibility. The ship is reportedly Ukrainian-owned and registered in Odessa, which is separate from the question of who attacked it.",
       "Border Police evacuated all 15 crew, seven Ukrainians and eight Azerbaijanis, who were brought to Varna; five were treated for initially reported minor injuries, and no deaths were reported. The ship was damaged and its final condition is unconfirmed. On the same day, another vessel was reported struck and sunk east of Krapets."
     ],
-    "basis": "6d3826971447cd7d"
+    "basis": "b2100770acfd98d3"
   },
   "N080": {
     "slug": "2026-10-13-drone-strike-ship-sinks-krapets-bulgaria",
@@ -1411,6 +1411,6 @@
       "The ship has not been identified, and the number, model and type of drones, aerial or maritime, are unconfirmed. Drone causation and other operational details remain preliminary. The operator and nationality are unresolved: Radev said the evidence was insufficient to accuse either belligerent, and his argument that the attacks benefit Russia does not establish Russian responsibility.",
       "One crew member was reported rescued. The total crew, injuries and fate of the others were not disclosed, so no death or missing toll can be given. No drone wreckage recovery was reported. The sinking is separate from the drone strike on CHELSEA 3 the same day, which happened at another location."
     ],
-    "basis": "731f2f58e77d6d47"
+    "basis": "e430625f5c59d65c"
   }
 }

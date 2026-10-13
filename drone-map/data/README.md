@@ -10,6 +10,7 @@ no database server, credentials or third-party Python packages are required.
 | `contexts.json` | Non-additive aggregate/context records. Never counted or mapped as individual events. |
 | `dataset.json` | Schema version, inclusive reporting cutoff and the filenames/SHA-256 hashes of archived research. |
 | `pages.json` | Optional editorial copy for each record's page: URL slug, headline, search description, summary and the hash of the facts it was written from. See [Record page copy](#record-page-copy). |
+| `page-urls.json` | Permanent URL slug for each event ID. The builder registers new URLs here; commit additions with the generated pages. Existing entries must not be changed. |
 
 The original Markdown files at the repository root are research snapshots, not
 editable database inputs. Keep them unchanged. Supplementary daily reports and
@@ -49,7 +50,7 @@ compared with the previous export; no research claims or locations changed.
    python3 drone-map/scripts/build-data.py --check
    ```
 
-7. Review and commit the JSON changes with the generated `drone-map/dist/events.js` and
+7. Review and commit the JSON changes (including new `page-urls.json` entries) with the generated `drone-map/dist/events.js` and
    `drone-map/dist/events/`, `sitemap.xml` and `robots.txt`.
    Preview the map locally for editorial changes. Pull requests run the checks;
    a validated push to `main` also publishes to GitHub Pages.
@@ -77,11 +78,16 @@ for those pages, keyed by event ID:
 - Write copy only from the record's own fields and keep attribution exactly as strong as
   the record. Pages show the record's status and attribution next to the summary.
 - `slug` is the page URL. Never change a published slug; links and search results point
-  to it. A new record without an entry gets a slug from its date, title and country.
-- `basis` is a hash of the record facts the copy was written from (dates, countries,
-  location, status, categories, class, vehicle, attribution, route, circumstances,
-  payload, impact, response and uncertainty). When any of these change, the page falls
-  back to copy assembled from the record until someone reviews the summary.
+  to it. On the first build, a new record gets a slug from its date, title and country
+  (or the slug in its reviewed copy). The builder saves it in `page-urls.json` even
+  when no reviewed copy exists. Later date, title, country or attribution corrections
+  keep that address, including on clean builds. When adding reviewed copy, use the
+  registered slug; the build rejects a mismatch. Retain reservations for retired
+  records so another event cannot inherit their address.
+- `basis` hashes the entire record, including date explanations, title, counts and
+  source IDs, plus the entries for its cited sources. Only the `reviewedOn` timestamp
+  is excluded. Changing any of these facts switches to copy assembled from the record
+  until someone reviews the summary. Unrelated source edits do not invalidate it.
 - After writing or reviewing copy, stamp it and rebuild:
 
   ```sh
