@@ -20,7 +20,7 @@
     if (translations[code]) return Promise.resolve(true);
     return new Promise(resolve => {
       const script = document.createElement('script');
-      script.src = `i18n/${code}.js?v=20261013-strike`;
+      script.src = `i18n/${code}.js?v=20261013-pages`;
       script.onload = () => resolve(Boolean(translations[code]));
       script.onerror = () => { script.remove(); resolve(false); };
       document.head.append(script);
@@ -383,9 +383,21 @@
   function renderDetail(event) {
     const isRegional = event.positions.some(p => p.precision === 'region');
     const geoNote = [t(isRegional ? 'detail.geoRegion' : 'detail.geoLocal'), event.positions.length > 1 ? t('detail.geoTwoAnchors') : '', event.id === 'E058' ? t('detail.geoE058') : ''].filter(Boolean).join(' ');
-    $('detail').innerHTML = `<div class="detail-head" style="--category:${colors[event.category]}"><p class="eyebrow">${event.id} · ${escape(shortDateYear(event.startDate))} / <span lang="en">${escape(event.countries)}</span></p><button class="close-detail" aria-label="${escape(t('detail.close'))}">×</button><h2 lang="en">${escape(event.title)}</h2><div class="detail-status" lang="en">${escape(event.status)}</div></div><div class="detail-scroll"><div class="detail-media"></div><section class="detail-sources"><h3>${escape(t('detail.sources',{n:event.sources.length}))}</h3>${sourceLinks(event.sources)}</section><section class="detail-record"><h3>${escape(t('detail.record'))}</h3>${lang !== 'en' ? `<p class="language-note">${escape(t('detail.originalLanguage'))}</p>` : ''}<p class="record-kind">${escape(recordClassLabel(event.recordClass))}</p>${outcomeTags(event)}<p class="position-note">${escape(geoNote)}${event.positionNote ? ` <span lang="en">${escape(event.positionNote)}</span>` : ''}</p><dl>${fieldsHTML(event)}</dl></section></div>`;
+    $('detail').innerHTML = `<div class="detail-head" style="--category:${colors[event.category]}"><p class="eyebrow">${event.id} · ${escape(shortDateYear(event.startDate))} / <span lang="en">${escape(event.countries)}</span></p><button class="close-detail" aria-label="${escape(t('detail.close'))}">×</button><h2 lang="en">${escape(event.title)}</h2><div class="detail-status" lang="en">${escape(event.status)}</div>${event.page ? `<a class="detail-page" href="${escape(event.page)}">${escape(t('detail.page'))} →</a>` : ''}</div><div class="detail-scroll"><div class="detail-media"></div><section class="detail-sources"><h3>${escape(t('detail.sources',{n:event.sources.length}))}</h3>${sourceLinks(event.sources)}</section><section class="detail-record"><h3>${escape(t('detail.record'))}</h3>${lang !== 'en' ? `<p class="language-note">${escape(t('detail.originalLanguage'))}</p>` : ''}<p class="record-kind">${escape(recordClassLabel(event.recordClass))}</p>${outcomeTags(event)}<p class="position-note">${escape(geoNote)}${event.positionNote ? ` <span lang="en">${escape(event.positionNote)}</span>` : ''}</p><dl>${fieldsHTML(event)}</dl></section></div>`;
     $('detail').querySelector('.close-detail').addEventListener('click', () => closeDetail(true));
     renderMedia(event);
+  }
+  // The address bar names the open record by its page slug: /#2026-03-25-…
+  const slugOf = event => event.page?.split('/')[1] || '';
+  function setRecordHash(event) {
+    const hash = event ? `#${slugOf(event)}` : '';
+    if (location.hash !== hash) history.replaceState(history.state, '', `${location.pathname}${location.search}${hash}`);
+  }
+  function eventFromHash() {
+    let slug;
+    try { slug = decodeURIComponent(location.hash.slice(1)); }
+    catch { return null; } // An invalid shared fragment must not interrupt startup.
+    return slug ? events.find(event => slugOf(event) === slug) : null;
   }
   function selectEvent(id, focusMap = true) {
     const event = events.find(e => e.id === id);
@@ -393,6 +405,7 @@
     pause();
     if (!visibleEvents.some(e => e.id === id)) { allMode = false; currentDay = dayOf(event.startDate); playbackDay = currentDay; render(); }
     selectedId = id;
+    setRecordHash(event);
     returnFocus = document.activeElement;
     $('detail').hidden = false;
     renderDetail(event);
@@ -416,6 +429,7 @@
     // Removing the panel's content also stops any playing video.
     $('detail').replaceChildren();
     selectedId = null;
+    setRecordHash(null);
     refreshSelection();
     if (restoreFocus && returnFocus?.isConnected) returnFocus.focus({preventScroll:true});
   }
@@ -740,6 +754,14 @@
   }, t, total:events.length, countries:countryCount, year});
   localize();
   fitEvents();
+  const linkedEvent = eventFromHash();
+  if (linkedEvent) selectEvent(linkedEvent.id);
+  else setRecordHash(null);
+  window.addEventListener('hashchange', () => {
+    const event = eventFromHash();
+    if (event && event.id !== selectedId) selectEvent(event.id);
+    else if (!event && selectedId) closeDetail();
+  });
 
   // Progressive enhancement for browsers that expose the page-scoped WebMCP API.
   const context = document.modelContext;

@@ -45,7 +45,8 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "matchKey": "LT::2026-01-27..2026-01-28::purvenai"
+      "matchKey": "LT::2026-01-27..2026-01-28::purvenai",
+      "page": "events/2026-01-27-smuggling-drone-purvenai-salcininkai-lithuania/"
     },
     {
       "id": "E001",
@@ -87,7 +88,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-01-28-small-drone-falls-przasnysz-military-base-poland/"
     },
     {
       "id": "N005",
@@ -134,7 +136,8 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "matchKey": "LT::2026-02-23..2026-02-24::milvydai"
+      "matchKey": "LT::2026-02-23..2026-02-24::milvydai",
+      "page": "events/2026-02-23-smuggling-drone-pine-tree-milvydai-lithuania/"
     },
     {
       "id": "E002",
@@ -174,7 +177,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-02-25-drone-airspace-sfantu-gheorghe-sulina-romania/"
     },
     {
       "id": "E003",
@@ -216,7 +220,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-02-25-drone-french-carrier-oresund-malmo-sweden/"
     },
     {
       "id": "E004",
@@ -257,7 +262,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-03-12-military-drone-found-konin-mine-poland/"
     },
     {
       "id": "E005",
@@ -301,7 +307,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-03-23-drone-crash-lake-lavysas-varena-lithuania/"
     },
     {
       "id": "E006",
@@ -345,7 +352,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-03-25-drone-hits-auvere-power-station-estonia/"
     },
     {
       "id": "E007",
@@ -389,7 +397,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-03-25-drone-crashes-kraslava-region-latvia/"
     },
     {
       "id": "E008",
@@ -429,7 +438,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-03-25-drone-transit-eastern-latvia-belarus-russia/"
     },
     {
       "id": "E009",
@@ -472,7 +482,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-03-29-drones-crash-kouvola-southeast-finland/"
     },
     {
       "id": "E010",
@@ -522,7 +533,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-03-31-drone-debris-tartu-county-estonia-finland/"
     },
     {
       "id": "N010",
@@ -569,7 +581,8 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "matchKey": "LT::2026-04-05..2026-04-06::dubas"
+      "matchKey": "LT::2026-04-05..2026-04-06::dubas",
+      "page": "events/2026-04-05-smuggling-drone-dubas-varena-lithuania/"
     },
     {
       "id": "E011",
@@ -612,7 +625,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-04-25-drone-crash-bariera-traian-galati-romania/"
     },
     {
       "id": "E012",
@@ -652,7 +666,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-04-25-drone-debris-farm-vacareni-romania/"
     },
     {
       "id": "E013",
@@ -692,7 +707,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-04-26-explosive-drone-debris-luncavita-vacareni-romania/"
     },
     {
       "id": "E014",
@@ -732,7 +748,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "A discovery record; the original crash time is unknown.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-03-drone-found-serbauti-suceava-romania/"
     },
     {
       "id": "E015",
@@ -774,7 +791,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-03-suspected-drone-virolahti-finland/"
     },
     {
       "id": "E016",
@@ -817,7 +835,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-07-drones-crash-rezekne-oil-tanks-latvia/"
     },
     {
       "id": "E017",
@@ -860,7 +879,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-07-naval-drone-found-cave-lefkada-greece/"
     },
     {
       "id": "N011",
@@ -908,7 +928,8 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "matchKey": "LT::2026-05-07::krupaviesai"
+      "matchKey": "LT::2026-05-07::krupaviesai",
+      "page": "events/2026-05-07-smuggling-drone-krupaviesai-lithuania/"
     },
     {
       "id": "E018",
@@ -949,7 +970,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-15-suspected-drone-alert-helsinki-airport-finland/"
     },
     {
       "id": "E019",
@@ -989,7 +1011,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Wreckage and explosives were discovered; a same-day crash or explosion is not established.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-17-drone-wreckage-explosives-samane-utena-lithuania/"
     },
     {
       "id": "E020",
@@ -1029,7 +1052,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-17-drone-enters-latvia-near-russian-border/"
     },
     {
       "id": "E021",
@@ -1071,7 +1095,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-19-drone-shot-down-poltsamaa-estonia/"
     },
     {
       "id": "E022",
@@ -1111,7 +1136,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-19-drone-air-alert-eastern-latvia/"
     },
     {
       "id": "E023",
@@ -1152,7 +1178,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-20-suspected-drone-alert-vilnius-lithuania/"
     },
     {
       "id": "E024",
@@ -1193,7 +1220,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-21-drone-incursion-eastern-border-latvia/"
     },
     {
       "id": "E025",
@@ -1233,7 +1261,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-21-suspected-drones-utena-county-lithuania/"
     },
     {
       "id": "E026",
@@ -1274,7 +1303,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-23-drone-crash-lake-dridzis-latvia/"
     },
     {
       "id": "E027",
@@ -1314,7 +1344,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Forced landing and seizure; the register does not describe a kinetic shoot-down or crash.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-23-smuggling-drone-forced-down-salcininkai-lithuania/"
     },
     {
       "id": "E028",
@@ -1358,7 +1389,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-05-29-drone-hits-apartment-block-galati-romania/"
     },
     {
       "id": "E029",
@@ -1405,7 +1437,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-06-03-suspected-drone-alerts-latvia-estonia-border/"
     },
     {
       "id": "E030",
@@ -1448,7 +1481,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-06-05-naval-drone-constanta-port-romania/"
     },
     {
       "id": "E031",
@@ -1490,7 +1524,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-06-08-drone-shot-down-berzgale-latvia/"
     },
     {
       "id": "N012",
@@ -1537,7 +1572,8 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "matchKey": "LT::2026-06-14::daugidonys-dimitrai"
+      "matchKey": "LT::2026-06-14::daugidonys-dimitrai",
+      "page": "events/2026-06-14-smuggling-drone-daugidonys-dimitrai-lithuania/"
     },
     {
       "id": "E032",
@@ -1578,7 +1614,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-06-30-drone-wreckage-destroyed-rachelu-romania/"
     },
     {
       "id": "N015",
@@ -1626,7 +1663,8 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "matchKey": "DE::2026-07-15::munich-defence-manufacturer-site"
+      "matchKey": "DE::2026-07-15::munich-defence-manufacturer-site",
+      "page": "events/2026-07-15-drone-espionage-arrest-munich-germany/"
     },
     {
       "id": "E033",
@@ -1666,7 +1704,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-07-21-suspected-drone-attack-ship-sfantu-gheorghe-romania/"
     },
     {
       "id": "E034",
@@ -1706,7 +1745,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Ship impact reported; mine versus drone and the explosive mechanism remain unresolved.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-07-24-christina-b-mine-or-naval-drone-romania/"
     },
     {
       "id": "E035",
@@ -1748,7 +1788,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-07-24-drone-shot-down-padina-pogoanele-romania/"
     },
     {
       "id": "E036",
@@ -1790,7 +1831,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-07-25-drone-shot-down-tulcea-coast-romania/"
     },
     {
       "id": "E037",
@@ -1831,7 +1873,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-07-26-drone-shot-down-sulina-romania/"
     },
     {
       "id": "E038",
@@ -1871,7 +1914,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-07-27-drone-incursion-southeastern-romania/"
     },
     {
       "id": "E039",
@@ -1911,7 +1955,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Interception and debris fall are reported; the record does not explicitly establish a kinetic shoot-down.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-02-drone-debris-periprava-romania/"
     },
     {
       "id": "E040",
@@ -1957,7 +2002,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Attempted explosive attack: the main charge failed. The separate aircraft collision was suspected.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-04-explosive-drone-leipzig-halle-airport-germany/"
     },
     {
       "id": "E041",
@@ -1997,7 +2043,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-07-drones-sighted-military-base-western-germany/"
     },
     {
       "id": "E042",
@@ -2041,7 +2088,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-08-drone-crash-explosion-kardam-bulgaria/"
     },
     {
       "id": "E043",
@@ -2082,7 +2130,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-11-drone-wreckage-neptun-deep-romania-eez/"
     },
     {
       "id": "E060",
@@ -2122,7 +2171,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Explosions were reported after departure; no Romanian impact is established.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-13-drone-incursion-chilia-branch-romania/"
     },
     {
       "id": "E061",
@@ -2164,7 +2214,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-13-drone-wreckage-costinesti-beach-romania/"
     },
     {
       "id": "E044",
@@ -2207,7 +2258,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-14-drone-shot-down-rugaji-latvia/"
     },
     {
       "id": "E062",
@@ -2247,7 +2299,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-14-drone-fragment-saturn-beach-constanta-romania/"
     },
     {
       "id": "E063",
@@ -2292,7 +2345,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-14-drone-crash-macin-mountains-tulcea-romania/"
     },
     {
       "id": "E064",
@@ -2333,7 +2387,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-14-drone-found-destroyed-plauru-tulcea-romania/"
     },
     {
       "id": "E065",
@@ -2373,7 +2428,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-14-starter-motor-tyulenovo-bulgaria-unconfirmed-drone/"
     },
     {
       "id": "E066",
@@ -2413,7 +2469,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-14-reconnaissance-uav-primorsko-beach-bulgaria/"
     },
     {
       "id": "E067",
@@ -2453,7 +2510,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-14-drone-parts-lozenets-beach-bulgaria/"
     },
     {
       "id": "E045",
@@ -2496,7 +2554,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-16-drone-shot-down-baleni-cudalbi-galati-romania/"
     },
     {
       "id": "E046",
@@ -2538,7 +2597,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-20-drone-crash-grindu-tulcea-romania/"
     },
     {
       "id": "E047",
@@ -2580,7 +2640,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "The supplied Observator footage appears to show the maritime drone approaching the platform. This is a visual interpretation of the footage, rather than a verified track. F-16 cannon fire hit and damaged the explosive drone, then Navy EOD neutralized it. The military engagement determines the map color; disposal was the subsequent stage.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-20-explosive-naval-drone-neptun-deep-romania/"
     },
     {
       "id": "E048",
@@ -2620,7 +2681,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-22-explosive-drone-debris-tuzla-beach-romania/"
     },
     {
       "id": "E068",
@@ -2660,7 +2722,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-22-reported-drone-debris-albena-kranevo-bulgaria/"
     },
     {
       "id": "E069",
@@ -2700,7 +2763,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-22-reported-drone-debris-rakitnika-varna-bulgaria/"
     },
     {
       "id": "E049",
@@ -2740,7 +2804,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-23-gerbera-drone-fragment-gura-portitei-romania/"
     },
     {
       "id": "E050",
@@ -2782,7 +2847,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-24-drone-crash-near-house-ciuslea-romania/"
     },
     {
       "id": "E051",
@@ -2823,7 +2889,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-25-suspected-drone-fragment-constanta-casino-romania/"
     },
     {
       "id": "E070",
@@ -2864,7 +2931,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-25-electric-reconnaissance-uav-tsarevo-varvara-bulgaria/"
     },
     {
       "id": "E071",
@@ -2905,7 +2973,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-25-military-drone-wing-kamchia-bulgaria/"
     },
     {
       "id": "E052",
@@ -2946,7 +3015,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-26-explosive-drone-fragment-olimp-beach-romania/"
     },
     {
       "id": "E072",
@@ -2988,7 +3058,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-26-drone-wreckage-kabakum-beach-varna-bulgaria/"
     },
     {
       "id": "E073",
@@ -3030,7 +3101,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-26-floating-uav-destroyed-pomorie-bulgaria/"
     },
     {
       "id": "E074",
@@ -3072,7 +3144,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-26-uav-destroyed-pasha-dere-varna-bulgaria/"
     },
     {
       "id": "E075",
@@ -3112,7 +3185,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-26-part-submerged-uav-cape-galata-bulgaria/"
     },
     {
       "id": "E076",
@@ -3152,7 +3226,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-26-drone-wing-golden-sands-laguna-bulgaria/"
     },
     {
       "id": "E077",
@@ -3192,7 +3267,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-26-drone-wing-burgas-north-beach-bulgaria/"
     },
     {
       "id": "E053",
@@ -3234,7 +3310,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Fire and sinking were reported; an explosion or drone strike is not established.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-27-progress-iv-sfantu-gheorghe-romania-drone-unconfirmed/"
     },
     {
       "id": "E078",
@@ -3274,7 +3351,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-27-floating-drone-tail-kavarna-bulgaria/"
     },
     {
       "id": "E079",
@@ -3314,7 +3392,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-27-drone-recovered-kamchia-black-sea-bulgaria/"
     },
     {
       "id": "E080",
@@ -3356,7 +3435,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-27-drone-sighting-beach-debris-chernomorets-bulgaria/"
     },
     {
       "id": "E081",
@@ -3397,7 +3477,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-27-drone-destroyed-sveti-ivan-sozopol-bulgaria/"
     },
     {
       "id": "E084",
@@ -3437,7 +3518,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-27-possible-drone-alert-snake-island-romania/"
     },
     {
       "id": "E082",
@@ -3478,7 +3560,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-28-drone-recovered-shabla-lighthouse-bulgaria/"
     },
     {
       "id": "E083",
@@ -3518,7 +3601,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-08-28-drone-debris-bungalata-beach-ahtopol-bulgaria/"
     },
     {
       "id": "N023",
@@ -3565,7 +3649,8 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "matchKey": "GR::2026-08-28::northern-aegean-samothrace-lemnos-alexandroupoli-linked-encounter"
+      "matchKey": "GR::2026-08-28::northern-aegean-samothrace-lemnos-alexandroupoli-linked-encounter",
+      "page": "events/2026-08-28-reported-turkish-uav-samothrace-lemnos-greece/"
     },
     {
       "id": "E054",
@@ -3608,7 +3693,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-09-01-explosive-drone-found-viisoara-vaslui-romania/"
     },
     {
       "id": "E055",
@@ -3649,7 +3735,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-09-02-mapping-drone-recovered-southern-coast-finland/"
     },
     {
       "id": "N028",
@@ -3697,7 +3784,8 @@ window.DRONE_DATA = {
         "disposal",
         "recovery"
       ],
-      "matchKey": "BG::2026-09-02::burgas-bridge-pomorie-reef-offshore-reported-site"
+      "matchKey": "BG::2026-09-02::burgas-bridge-pomorie-reef-offshore-reported-site",
+      "page": "events/2026-09-02-floating-drone-destroyed-pomorie-reef-bulgaria/"
     },
     {
       "id": "N029",
@@ -3744,7 +3832,8 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "matchKey": "BG::2026-09-02::cape-kaliakra-shore"
+      "matchKey": "BG::2026-09-02::cape-kaliakra-shore",
+      "page": "events/2026-09-02-reconnaissance-drone-cape-kaliakra-shore-bulgaria/"
     },
     {
       "id": "N030",
@@ -3792,7 +3881,8 @@ window.DRONE_DATA = {
         "disposal",
         "recovery"
       ],
-      "matchKey": "BG::2026-09-02::cape-kolokita-waters"
+      "matchKey": "BG::2026-09-02::cape-kolokita-waters",
+      "page": "events/2026-09-02-floating-drone-destroyed-cape-kolokita-bulgaria/"
     },
     {
       "id": "N031",
@@ -3840,7 +3930,8 @@ window.DRONE_DATA = {
         "disposal",
         "recovery"
       ],
-      "matchKey": "BG::2026-09-02::maslen-nos-waters"
+      "matchKey": "BG::2026-09-02::maslen-nos-waters",
+      "page": "events/2026-09-02-drone-material-destroyed-maslen-nos-bulgaria/"
     },
     {
       "id": "N032",
@@ -3887,7 +3978,8 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "matchKey": "BG::2026-09-02::pomorie-town-beach"
+      "matchKey": "BG::2026-09-02::pomorie-town-beach",
+      "page": "events/2026-09-02-military-drone-fragments-pomorie-beach-bulgaria/"
     },
     {
       "id": "N033",
@@ -3934,7 +4026,8 @@ window.DRONE_DATA = {
       "stages": [
         "alert"
       ],
-      "matchKey": "BG::2026-09-02::topola-beach"
+      "matchKey": "BG::2026-09-02::topola-beach",
+      "page": "events/2026-09-02-cone-shaped-object-unconfirmed-drone-topola-bulgaria/"
     },
     {
       "id": "N035",
@@ -3981,7 +4074,8 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "matchKey": "BG::2026-09-06::cape-kaliakra-northeast-coastal-waters"
+      "matchKey": "BG::2026-09-06::cape-kaliakra-northeast-coastal-waters",
+      "page": "events/2026-09-06-floating-drone-retrieved-cape-kaliakra-bulgaria/"
     },
     {
       "id": "N036",
@@ -4028,7 +4122,8 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "matchKey": "LT::2026-09-06::daugidonys"
+      "matchKey": "LT::2026-09-06::daugidonys",
+      "page": "events/2026-09-06-smuggling-drone-daugidonys-salcininkai-lithuania/"
     },
     {
       "id": "E056",
@@ -4068,7 +4163,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-09-08-jet-drone-incursion-iasi-northeastern-romania/"
     },
     {
       "id": "N038",
@@ -4118,7 +4214,8 @@ window.DRONE_DATA = {
         "disposal",
         "recovery"
       ],
-      "matchKey": "RO::2026-09-09..2026-09-10::capu-midia-beach"
+      "matchKey": "RO::2026-09-09..2026-09-10::capu-midia-beach",
+      "page": "events/2026-09-09-drone-fragments-capu-midia-beach-romania/"
     },
     {
       "id": "N062",
@@ -4166,7 +4263,8 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "matchKey": "RO::2026-09-10::mamaia-nord-beach"
+      "matchKey": "RO::2026-09-10::mamaia-nord-beach",
+      "page": "events/2026-09-10-drone-fragments-mamaia-nord-beach-romania/"
     },
     {
       "id": "N063",
@@ -4214,7 +4312,8 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "matchKey": "RO::2026-09-10::corbu-beach"
+      "matchKey": "RO::2026-09-10::corbu-beach",
+      "page": "events/2026-09-10-drone-fragments-corbu-beach-romania/"
     },
     {
       "id": "N040",
@@ -4260,7 +4359,8 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "matchKey": "BG::2026-09-11::kavatsi-beach"
+      "matchKey": "BG::2026-09-11::kavatsi-beach",
+      "page": "events/2026-09-11-military-type-drone-kavatsi-beach-bulgaria/"
     },
     {
       "id": "N042",
@@ -4307,7 +4407,8 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "matchKey": "RO::2026-09-11::midia-46-nautical-miles-east-offshore"
+      "matchKey": "RO::2026-09-11::midia-46-nautical-miles-east-offshore",
+      "page": "events/2026-09-11-drone-debris-offshore-midia-black-sea-romania/"
     },
     {
       "id": "N043",
@@ -4354,7 +4455,8 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "matchKey": "RO::2026-09-11::casla-vadanei-beach"
+      "matchKey": "RO::2026-09-11::casla-vadanei-beach",
+      "page": "events/2026-09-11-drone-fragments-casla-vadanei-beach-tulcea-romania/"
     },
     {
       "id": "N044",
@@ -4401,7 +4503,8 @@ window.DRONE_DATA = {
       "stages": [
         "disposal"
       ],
-      "matchKey": "RO::2026-09-11::edighiol-periboina-coastal-sector"
+      "matchKey": "RO::2026-09-11::edighiol-periboina-coastal-sector",
+      "page": "events/2026-09-11-four-drone-wrecks-edighiol-periboina-romania/"
     },
     {
       "id": "N045",
@@ -4449,7 +4552,8 @@ window.DRONE_DATA = {
         "disposal",
         "recovery"
       ],
-      "matchKey": "RO::2026-09-11::periteasca-beach"
+      "matchKey": "RO::2026-09-11::periteasca-beach",
+      "page": "events/2026-09-11-explosive-drone-fragment-periteasca-beach-romania/"
     },
     {
       "id": "N049",
@@ -4497,7 +4601,8 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "matchKey": "LT::2026-09-13::uta-versekele"
+      "matchKey": "LT::2026-09-13::uta-versekele",
+      "page": "events/2026-09-13-smuggling-drone-crash-uta-versekele-lithuania/"
     },
     {
       "id": "E057",
@@ -4537,7 +4642,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-09-14-drone-recovered-rusinowo-beach-jaroslawiec-poland/"
     },
     {
       "id": "E058",
@@ -4580,7 +4686,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-09-15-nato-fighter-downs-drone-pratkunai-lithuania/"
     },
     {
       "id": "N052",
@@ -4627,7 +4734,8 @@ window.DRONE_DATA = {
       "stages": [
         "recovery"
       ],
-      "matchKey": "LT::2026-09-16::keneliai-pasvalys-district-forest"
+      "matchKey": "LT::2026-09-16::keneliai-pasvalys-district-forest",
+      "page": "events/2026-09-16-old-drone-found-forest-keneliai-pasvalys-lithuania/"
     },
     {
       "id": "N053",
@@ -4674,7 +4782,8 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "matchKey": "LT::2026-09-16::norviliskes"
+      "matchKey": "LT::2026-09-16::norviliskes",
+      "page": "events/2026-09-16-smuggling-drone-seized-norviliskes-lithuania/"
     },
     {
       "id": "N055",
@@ -4720,7 +4829,8 @@ window.DRONE_DATA = {
       "stages": [
         "flight"
       ],
-      "matchKey": "GR::2026-09-18::zourafa-islet-overflight"
+      "matchKey": "GR::2026-09-18::zourafa-islet-overflight",
+      "page": "events/2026-09-18-uav-overflight-zourafa-islet-greece/"
     },
     {
       "id": "N059",
@@ -4767,7 +4877,8 @@ window.DRONE_DATA = {
         "flight",
         "recovery"
       ],
-      "matchKey": "LT::2026-09-21..2026-09-22::liskuniskes-antaniskes"
+      "matchKey": "LT::2026-09-21..2026-09-22::liskuniskes-antaniskes",
+      "page": "events/2026-09-21-smuggling-drone-burns-antaniskes-lithuania/"
     },
     {
       "id": "E059",
@@ -4817,7 +4928,8 @@ window.DRONE_DATA = {
       ],
       "classificationNote": "Explosion is the primary map category following the minister’s account of an airborne detonation. Flight, crash and recovery remain stages of the same event; this was not controlled disposal.",
       "recordClass": "event",
-      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+      "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "page": "events/2026-09-24-drone-explodes-crashes-solca-suceava-romania/"
     },
     {
       "id": "N064",
@@ -4861,7 +4973,8 @@ window.DRONE_DATA = {
       "positionNote": "Representative coastal locality anchor, not the verified position of the fragment.",
       "recordClass": "event",
       "recordType": "discovery_recovery",
-      "matchKey": "RO::2026-09-26::agigea-coastal-fragment-discovery"
+      "matchKey": "RO::2026-09-26::agigea-coastal-fragment-discovery",
+      "page": "events/2026-09-26-drone-fragment-found-agigea-constanta-romania/"
     },
     {
       "id": "N065",
@@ -4906,7 +5019,8 @@ window.DRONE_DATA = {
       "positionNote": "Approximate regional anchor between the named localities; not an exact track, border crossing or impact location.",
       "recordClass": "event",
       "recordType": "cross_border_incursion",
-      "matchKey": "RO::2026-09-26..2026-09-27::chilia-veche-pardina-radar-incursion"
+      "matchKey": "RO::2026-09-26..2026-09-27::chilia-veche-pardina-radar-incursion",
+      "page": "events/2026-09-26-drone-incursion-chilia-veche-pardina-romania/"
     },
     {
       "id": "N066",
@@ -4949,7 +5063,8 @@ window.DRONE_DATA = {
       "positionNote": "Rounded regional anchor between the named localities, not an exact radar track, crossing or impact point.",
       "recordClass": "event",
       "recordType": "cross_border_incursion",
-      "matchKey": "RO::2026-09-27::ceatalchioi-somova-radar-incursion"
+      "matchKey": "RO::2026-09-27::ceatalchioi-somova-radar-incursion",
+      "page": "events/2026-09-27-possible-uav-airspace-ceatalchioi-somova-romania/"
     },
     {
       "id": "N067",
@@ -4992,7 +5107,8 @@ window.DRONE_DATA = {
       "positionNote": "Rounded editorial island-area anchor opposite Gropeni, not a surveyed debris or impact position.",
       "recordClass": "candidate",
       "recordType": "provisional_drone_debris_discovery",
-      "matchKey": "RO::2026-09-29::insula-mare-a-brailei-gropeni-debris-discovery"
+      "matchKey": "RO::2026-09-29::insula-mare-a-brailei-gropeni-debris-discovery",
+      "page": "events/2026-09-29-possible-drone-debris-insula-mare-brailei-romania/"
     },
     {
       "id": "N068",
@@ -5038,7 +5154,8 @@ window.DRONE_DATA = {
       "matchKey": "GR::2026-10-01::southeastern-aegean-uav-activity",
       "reported_UAVs": 1,
       "reported_airspace_violations": 2,
-      "reported_FIR_infractions": 1
+      "reported_FIR_infractions": 1,
+      "page": "events/2026-10-01-uav-airspace-violations-southeastern-aegean-greece/"
     },
     {
       "id": "N069",
@@ -5080,7 +5197,8 @@ window.DRONE_DATA = {
       "positionNote": "Uses the existing approximate Plauru locality anchor, not the coordinates of the reported object.",
       "recordClass": "candidate",
       "recordType": "provisional_drone_discovery",
-      "matchKey": "RO::2026-10-02::plauru-object-fall-fire"
+      "matchKey": "RO::2026-10-02::plauru-object-fall-fire",
+      "page": "events/2026-10-02-possible-drone-fall-fire-plauru-romania/"
     },
     {
       "id": "N070",
@@ -5125,7 +5243,8 @@ window.DRONE_DATA = {
       "positionNote": "Editorial anchor for the alert area, not a verified border crossing, flight track or recovery site.",
       "recordClass": "candidate",
       "recordType": "unidentified_object",
-      "matchKey": "LT::2026-10-03::vilnius-county-ukmerge-unidentified-contact"
+      "matchKey": "LT::2026-10-03::vilnius-county-ukmerge-unidentified-contact",
+      "page": "events/2026-10-03-suspected-drone-alert-vilnius-ukmerge-lithuania/"
     },
     {
       "id": "N071",
@@ -5170,7 +5289,8 @@ window.DRONE_DATA = {
       "matchKey": "GR::2026-10-04::northeastern-central-aegean-uav-activity",
       "reported_UAVs": 2,
       "reported_airspace_violations": 6,
-      "reported_FIR_infractions": 3
+      "reported_FIR_infractions": 3,
+      "page": "events/2026-10-04-uav-airspace-violations-northeastern-central-aegean-greece/"
     },
     {
       "id": "N072",
@@ -5220,7 +5340,8 @@ window.DRONE_DATA = {
       "positionNote": "Rounded editorial anchor for the reported offshore area, not verified ship coordinates or a position on the platform. EEZ coverage does not make this a Romanian sovereign-territory incursion.",
       "recordClass": "event",
       "recordType": "reported_offshore_drone_strike",
-      "matchKey": "RO::2026-10-05::royad-mammadov-pescarus-offshore"
+      "matchKey": "RO::2026-10-05::royad-mammadov-pescarus-offshore",
+      "page": "events/2026-10-05-drone-attack-royad-mammadov-ship-romania/"
     },
     {
       "id": "N073",
@@ -5267,7 +5388,8 @@ window.DRONE_DATA = {
       "positionNote": "Rounded editorial estimate for the reported offshore area, not verified vessel coordinates or a point within territorial waters.",
       "recordClass": "event",
       "recordType": "reported_offshore_drone_strike",
-      "matchKey": "BG::2026-10-06::alfa-watan-able-byala-offshore"
+      "matchKey": "BG::2026-10-06::alfa-watan-able-byala-offshore",
+      "page": "events/2026-10-06-drone-attack-alfa-watan-able-ships-bulgaria/"
     },
     {
       "id": "N074",
@@ -5312,7 +5434,8 @@ window.DRONE_DATA = {
       "matchKey": "GR::2026-10-06::aegean-uav-activity",
       "reported_UAVs": 4,
       "reported_airspace_violations": 9,
-      "reported_FIR_infractions": 7
+      "reported_FIR_infractions": 7,
+      "page": "events/2026-10-06-uav-airspace-violations-northeastern-southeastern-aegean-greece/"
     },
     {
       "id": "N075",
@@ -5357,7 +5480,8 @@ window.DRONE_DATA = {
       "matchKey": "GR::2026-10-07::aegean-uav-activity",
       "reported_UAVs": 3,
       "reported_airspace_violations": 4,
-      "reported_FIR_infractions": 3
+      "reported_FIR_infractions": 3,
+      "page": "events/2026-10-07-uav-airspace-violations-aegean-greece/"
     },
     {
       "id": "N076",
@@ -5402,7 +5526,8 @@ window.DRONE_DATA = {
       "matchKey": "GR::2026-10-08::aegean-uav-activity",
       "reported_UAVs": 5,
       "reported_airspace_violations": 5,
-      "reported_FIR_infractions": 5
+      "reported_FIR_infractions": 5,
+      "page": "events/2026-10-08-uav-airspace-violations-northeastern-southeastern-aegean-greece/"
     },
     {
       "id": "N077",
@@ -5445,7 +5570,8 @@ window.DRONE_DATA = {
       "positionNote": "Rounded editorial estimate east of Sinemorets, not a verified position or maritime-boundary determination.",
       "recordClass": "event",
       "recordType": "official_offshore_uav_debris_disposal",
-      "matchKey": "BG::2026-10-09::sinemorets-offshore-uav-disposal"
+      "matchKey": "BG::2026-10-09::sinemorets-offshore-uav-disposal",
+      "page": "events/2026-10-09-drone-debris-detonated-sea-sinemorets-bulgaria/"
     },
     {
       "id": "N078",
@@ -5491,7 +5617,8 @@ window.DRONE_DATA = {
       "matchKey": "GR::2026-10-10::aegean-uav-activity",
       "reported_UAVs": 6,
       "reported_airspace_violations": 5,
-      "reported_FIR_infractions": 8
+      "reported_FIR_infractions": 8,
+      "page": "events/2026-10-10-uav-airspace-violations-aegean-greece/"
     },
     {
       "dateLabel": "2026-10-13",
@@ -5535,7 +5662,8 @@ window.DRONE_DATA = {
       ],
       "positionNote": "Rounded editorial estimate east of Byala, not a verified ship position or maritime-boundary determination. Offshore jurisdiction follows the reporting.",
       "matchKey": "BG::2026-10-13::byala-offshore-chelsea-3",
-      "reported_UAVs": 3
+      "reported_UAVs": 3,
+      "page": "events/2026-10-13-drone-strike-chelsea-3-ship-byala-bulgaria/"
     },
     {
       "dateLabel": "2026-10-13",
@@ -5578,7 +5706,8 @@ window.DRONE_DATA = {
         }
       ],
       "positionNote": "Rounded editorial estimate east of coastal Krapets in Dobrich Province, not a verified wreck position or maritime-boundary determination. Offshore jurisdiction follows the reporting.",
-      "matchKey": "BG::2026-10-13::krapets-offshore-unidentified-ship"
+      "matchKey": "BG::2026-10-13::krapets-offshore-unidentified-ship",
+      "page": "events/2026-10-13-drone-strike-ship-sinks-krapets-bulgaria/"
     }
   ],
   "contexts": [

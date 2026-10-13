@@ -51,6 +51,7 @@
   'card.video': 'Video',
   'card.photo': 'Foto',
   'sidebar.foot': 'Ierakstu skaits ≠ apstiprinātu uzbrukumu vai atsevišķu dronu skaits.',
+  'sidebar.pages': 'Pārlūkot visus ierakstus',
 
   'class.event': 'Notikuma ieraksts',
   'class.candidate': 'Neidentificēts objekts',
@@ -96,6 +97,7 @@
   'detail.geoE058': 'Vieta Pratkūnai nav ģeokodēta; marķieris norāda tikai Lietuvu.',
   'detail.sources': 'Avoti · {n}',
   'detail.record': 'Ieraksta informācija',
+  'detail.page': 'Ieraksta lapa',
   'detail.originalLanguage': 'Ieraksta lauki un avotu piezīmes ir attēlotas reģistra oriģinālajā angļu valodā.',
   'detail.opened': '{id}: {title}. {status}. Atvērta notikuma informācija.',
 

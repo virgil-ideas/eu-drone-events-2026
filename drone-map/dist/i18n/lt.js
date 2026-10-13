@@ -51,6 +51,7 @@
   'card.video': 'Vaizdo įrašas',
   'card.photo': 'Nuotrauka',
   'sidebar.foot': 'Įrašų skaičius ≠ patvirtintų atakų ar atskirų dronų skaičius.',
+  'sidebar.pages': 'Peržiūrėti visus įrašus',
 
   'class.event': 'Įvykio įrašas',
   'class.candidate': 'Nenustatytas objektas',
@@ -96,6 +97,7 @@
   'detail.geoE058': 'Pratkūnų vieta negeokoduota; žymeklis žymi tik Lietuvą.',
   'detail.sources': 'Šaltiniai · {n}',
   'detail.record': 'Įrašo informacija',
+  'detail.page': 'Įrašo puslapis',
   'detail.originalLanguage': 'Įrašo laukai ir šaltinių pastabos pateikiami originalia registro anglų kalba.',
   'detail.opened': '{id}: {title}. {status}. Atidaryta įvykio informacija.',
 

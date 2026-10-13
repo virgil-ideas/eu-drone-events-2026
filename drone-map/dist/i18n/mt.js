@@ -51,6 +51,7 @@
   'card.video': 'Vidjo',
   'card.photo': 'Ritratt',
   'sidebar.foot': 'Għadd ta’ rekords ≠ attakki kkonfermati jew drones distinti.',
+  'sidebar.pages': 'Ara r-rekords kollha',
 
   'class.event': 'Rekord ta’ avveniment',
   'class.candidate': 'Oġġett mhux identifikat',
@@ -96,6 +97,7 @@
   'detail.geoE058': 'Is-sit f’Pratkūnai mhuwiex ġeokodifikat; il-markatur jirrappreżenta l-Litwanja biss.',
   'detail.sources': 'Sorsi · {n}',
   'detail.record': 'Dettalji tar-rekord',
+  'detail.page': 'Paġna tar-rekord',
   'detail.originalLanguage': 'Il-kampi tar-rekord u n-noti dwar is-sorsi jintwerew bl-Ingliż oriġinali tar-reġistru.',
   'detail.opened': '{id}: {title}. {status}. Id-dettalji tal-avveniment infetħu.',
 

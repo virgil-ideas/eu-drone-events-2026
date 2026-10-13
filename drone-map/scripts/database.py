@@ -212,7 +212,7 @@ def load_database(data_dir=ROOT / 'data', research_root=ROOT.parent):
     return validate_database(database, research_root)
 
 
-def browser_record(record):
+def browser_record(record, slug=None):
     # Keep the existing browser contract; sources is the only editable citation list.
     output = {}
     for key, value in record.items():
@@ -220,12 +220,15 @@ def browser_record(record):
             output['sourceReferences'] = '; '.join(f'[{ref}][{ref}]' for ref in value)
         if key != 'reviewedOn':
             output[key] = value
+    if slug:
+        output['page'] = f'events/{slug}/'
     return output
 
 
-def browser_data(database):
+def browser_data(database, slugs=None):
+    slugs = slugs or {}
     return {
-        'events': [browser_record(record) for record in sorted(
+        'events': [browser_record(record, slugs.get(record['id'])) for record in sorted(
             database['events'], key=lambda record: (record['startDate'], record['id']))],
         'contexts': [browser_record(record) for record in database['contexts']],
         'sources': database['sources'],
@@ -234,8 +237,8 @@ def browser_data(database):
     }
 
 
-def render_events(database):
-    return 'window.DRONE_DATA = ' + json.dumps(browser_data(database), ensure_ascii=False,
+def render_events(database, slugs=None):
+    return 'window.DRONE_DATA = ' + json.dumps(browser_data(database, slugs), ensure_ascii=False,
                                               indent=2, allow_nan=False) + ';\n'
 
 

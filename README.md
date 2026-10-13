@@ -1,6 +1,6 @@
 # Europe Drone Events · 2026
 
-[Open the interactive map](https://virgil-ideas.github.io/eu-drone-events-2026/)
+[Open the interactive map](https://droneincidents.eu/) · [Browse every record](https://droneincidents.eu/events/)
 
 A zoomable map and timeline replay of the supplied EU foreign-drone research register and deduplicated update, through the 13 October 2026 morning check. The map contains 129 records: the 84 baseline records, 27 supplemental events, fourteen later event additions and four unidentified/provisional records. Supplementary daily reports and precautionary alerts are excluded from the map; the complete research remains available for download.
 

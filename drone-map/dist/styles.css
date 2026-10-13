@@ -123,3 +123,5 @@ html[data-i18n-pending] body{visibility:hidden;animation:i18n-reveal 0s 2.5s for
 @media(max-width:480px){.play-button{min-width:0;width:46px;padding:0}.play-button span{display:none}.map-button span{display:none}}
 /* The intro states the register's scope, so phones show it too. */
 @media(max-width:760px){.sidebar-heading .intro{display:block;grid-column:1/-1;max-width:none;margin:2px 0 16px}}
+.detail-page{display:block;width:fit-content;margin-top:10px;font-size:.8rem;font-weight:600;color:#1f7f78}
+.sidebar-foot a{color:#1f7f78;font-weight:600;white-space:nowrap}

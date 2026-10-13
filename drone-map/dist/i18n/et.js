@@ -51,6 +51,7 @@
   'card.video': 'Video',
   'card.photo': 'Foto',
   'sidebar.foot': 'Kirjete arv ≠ kinnitatud rünnakute või erinevate droonide arv.',
+  'sidebar.pages': 'Sirvi kõiki kirjeid',
 
   'class.event': 'Sündmuse kirje',
   'class.candidate': 'Tuvastamata objekt',
@@ -96,6 +97,7 @@
   'detail.geoE058': 'Pratkūnai asukohta pole geokodeeritud; tähis esindab ainult Leedut.',
   'detail.sources': 'Allikad · {n}',
   'detail.record': 'Kirje üksikasjad',
+  'detail.page': 'Kirje leht',
   'detail.originalLanguage': 'Kirje väljad ja allikamärkused on esitatud registri algses ingliskeelses sõnastuses.',
   'detail.opened': '{id}: {title}. {status}. Sündmuse üksikasjad avatud.',
 

@@ -51,6 +51,7 @@
   'card.video': 'Video',
   'card.photo': 'Foto',
   'sidebar.foot': 'Numărul de înregistrări ≠ atacuri confirmate sau drone distincte.',
+  'sidebar.pages': 'Răsfoiește toate înregistrările',
 
   'class.event': 'Înregistrare de eveniment',
   'class.candidate': 'Obiect neidentificat',
@@ -96,6 +97,7 @@
   'detail.geoE058': 'Locul de la Pratkūnai nu este geocodat; marcajul reprezintă doar Lituania.',
   'detail.sources': 'Surse · {n}',
   'detail.record': 'Detaliile înregistrării',
+  'detail.page': 'Pagina înregistrării',
   'detail.originalLanguage': 'Câmpurile înregistrării și notele privind sursele sunt afișate în engleza originală a registrului.',
   'detail.opened': '{id}: {title}. {status}. Detaliile evenimentului au fost deschise.',
 

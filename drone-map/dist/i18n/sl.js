@@ -51,6 +51,7 @@
   'card.video': 'Video',
   'card.photo': 'Fotografija',
   'sidebar.foot': 'Število zapisov ≠ potrjeni napadi ali različni droni.',
+  'sidebar.pages': 'Prebrskaj vse zapise',
 
   'class.event': 'Zapis o dogodku',
   'class.candidate': 'Neidentificiran predmet',
@@ -96,6 +97,7 @@
   'detail.geoE058': 'Lokacija Pratkūnai ni geokodirana; oznaka predstavlja samo Litvo.',
   'detail.sources': 'Viri · {n}',
   'detail.record': 'Podrobnosti zapisa',
+  'detail.page': 'Stran zapisa',
   'detail.originalLanguage': 'Polja zapisa in opombe o virih so prikazani v izvirni angleščini registra.',
   'detail.opened': '{id}: {title}. {status}. Podrobnosti dogodka so odprte.',
 

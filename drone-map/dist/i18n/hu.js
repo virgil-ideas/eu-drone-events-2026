@@ -51,6 +51,7 @@
   'card.video': 'Videó',
   'card.photo': 'Fotó',
   'sidebar.foot': 'A bejegyzések száma ≠ a megerősített támadások vagy az egyedi drónok száma.',
+  'sidebar.pages': 'Az összes bejegyzés böngészése',
 
   'class.event': 'Eseménybejegyzés',
   'class.candidate': 'Azonosítatlan objektum',
@@ -96,6 +97,7 @@
   'detail.geoE058': 'A Pratkūnai helyszín nincs geokódolva; a jelölő csak Litvániát jelzi.',
   'detail.sources': 'Források · {n}',
   'detail.record': 'A bejegyzés részletei',
+  'detail.page': 'A bejegyzés oldala',
   'detail.originalLanguage': 'A bejegyzés mezői és a forrásokhoz fűzött megjegyzések a nyilvántartás eredeti angol nyelvén jelennek meg.',
   'detail.opened': '{id}: {title}. {status}. Eseményrészletek megnyitva.',
 
