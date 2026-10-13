@@ -98,6 +98,11 @@
   'detail.sources': 'Quellen · {n}',
   'detail.record': 'Details zum Eintrag',
   'detail.page': 'Seite zum Eintrag',
+  'area.eyebrow': 'INTERESSENGEBIET',
+  'area.open': 'Interessengebiet: {name}',
+  'area.neptunDeep': 'Ein Offshore-Erdgasprojekt in der ausschließlichen Wirtschaftszone Rumäniens im Schwarzen Meer, rund 80 Seemeilen (etwa 150 km) östlich von Constanța. Das Register enthält Einträge zu Militärdrohnen im Arbeitsgebiet des Projekts.',
+  'area.records': {one: '{n} Eintrag am Standort', other: '{n} Einträge am Standort'},
+  'area.note': 'Die Plattform ist eine Illustration und nicht maßstabsgetreu. Ihre Position ist ungefähr: Der genaue Standort ist nicht veröffentlicht.',
   'detail.originalLanguage': 'Eintragsfelder und Quellenhinweise werden im englischen Original des Registers angezeigt.',
   'detail.opened': '{id}: {title}. {status}. Ereignisdetails geöffnet.',
 

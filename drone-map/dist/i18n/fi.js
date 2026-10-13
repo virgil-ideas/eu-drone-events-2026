@@ -98,6 +98,11 @@
   'detail.sources': 'Lähteet · {n}',
   'detail.record': 'Merkinnän tiedot',
   'detail.page': 'Merkinnän sivu',
+  'area.eyebrow': 'KIINNOSTAVA ALUE',
+  'area.open': 'Kiinnostava alue: {name}',
+  'area.neptunDeep': 'Offshore-maakaasuhanke Romanian Mustanmeren talousvyöhykkeellä, noin 80 meripeninkulmaa (n. 150 km) Constanțasta itään. Rekisterissä on merkintöjä sotilasdrooneista hankkeen työalueella.',
+  'area.records': {one: '{n} merkintä kohteessa', other: '{n} merkintää kohteessa'},
+  'area.note': 'Tuotantolautta on kuvitus, eikä se ole mittakaavassa. Sen sijainti on likimääräinen: tarkkaa paikkaa ei ole julkaistu.',
   'detail.originalLanguage': 'Merkinnän kentät ja lähdehuomautukset näytetään rekisterin alkuperäisellä englannin kielellä.',
   'detail.opened': '{id}: {title}. {status}. Tapahtuman tiedot avattu.',
 

@@ -100,6 +100,11 @@
   'detail.sources': 'Sources · {n}',
   'detail.record': 'Record details',
   'detail.page': 'Record page',
+  'area.eyebrow': 'AREA OF INTEREST',
+  'area.open': 'Area of interest: {name}',
+  'area.neptunDeep': 'An offshore natural gas project in Romania’s Black Sea exclusive economic zone, roughly 80 nautical miles (about 150 km) east of Constanța. The register has records of military drones in its works area.',
+  'area.records': {one: '{n} record at the site', other: '{n} records at the site'},
+  'area.note': 'The platform is an illustration, not to scale. Its position is approximate: the exact location is not published.',
   'detail.originalLanguage': 'Record fields and source notes are shown in the register’s original English.',
   'detail.opened': '{id}: {title}. {status}. Event details opened.',
 

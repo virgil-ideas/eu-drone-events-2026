@@ -98,6 +98,11 @@
   'detail.sources': 'Fonti · {n}',
   'detail.record': 'Dettagli della scheda',
   'detail.page': 'Pagina della scheda',
+  'area.eyebrow': 'AREA DI INTERESSE',
+  'area.open': 'Area di interesse: {name}',
+  'area.neptunDeep': 'Un progetto offshore di gas naturale nella zona economica esclusiva della Romania nel Mar Nero, a circa 80 miglia nautiche (circa 150 km) a est di Constanța. Il registro contiene schede su droni militari nell’area dei lavori del progetto.',
+  'area.records': {one: '{n} scheda nell’area', many: '{n} schede nell’area', other: '{n} schede nell’area'},
+  'area.note': 'La piattaforma è un’illustrazione e non è in scala. La sua posizione è approssimativa: l’ubicazione esatta non è stata resa pubblica.',
   'detail.originalLanguage': 'I campi delle schede e le note sulle fonti sono mostrati nell’inglese originale del registro.',
   'detail.opened': '{id}: {title}. {status}. Dettagli dell’evento aperti.',
 

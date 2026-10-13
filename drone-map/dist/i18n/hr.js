@@ -98,6 +98,11 @@
   'detail.sources': 'Izvori · {n}',
   'detail.record': 'Pojedinosti zapisa',
   'detail.page': 'Stranica zapisa',
+  'area.eyebrow': 'PODRUČJE INTERESA',
+  'area.open': 'Područje interesa: {name}',
+  'area.neptunDeep': 'Odobalni projekt prirodnog plina u isključivom gospodarskom pojasu Rumunjske u Crnome moru, oko 80 nautičkih milja (približno 150 km) istočno od Constanțe. Registar sadrži zapise o vojnim dronovima na području radova na projektu.',
+  'area.records': {one: '{n} zapis na lokaciji', few: '{n} zapisa na lokaciji', other: '{n} zapisa na lokaciji'},
+  'area.note': 'Platforma je ilustracija i nije u mjerilu. Njezin je položaj približan: točna lokacija nije objavljena.',
   'detail.originalLanguage': 'Polja zapisa i napomene o izvorima prikazani su na izvornom engleskom jeziku registra.',
   'detail.opened': '{id}: {title}. {status}. Otvorene su pojedinosti događaja.',
 

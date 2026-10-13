@@ -98,6 +98,11 @@
   'detail.sources': 'Fontes · {n}',
   'detail.record': 'Detalhes do registo',
   'detail.page': 'Página do registo',
+  'area.eyebrow': 'ÁREA DE INTERESSE',
+  'area.open': 'Área de interesse: {name}',
+  'area.neptunDeep': 'Um projeto offshore de gás natural na zona económica exclusiva da Roménia no mar Negro, a cerca de 80 milhas náuticas (aproximadamente 150 km) a leste de Constanța. O registo de investigação inclui registos de drones militares na zona de obras do projeto.',
+  'area.records': {one: '{n} registo no local', many: '{n} registos no local', other: '{n} registos no local'},
+  'area.note': 'A plataforma é uma ilustração e não está à escala. A sua posição é aproximada: a localização exata não foi divulgada.',
   'detail.originalLanguage': 'Os campos dos registos e as notas sobre as fontes são apresentados no inglês original do registo de investigação.',
   'detail.opened': '{id}: {title}. {status}. Detalhes da ocorrência abertos.',
 

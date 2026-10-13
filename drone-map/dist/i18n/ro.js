@@ -98,6 +98,11 @@
   'detail.sources': 'Surse · {n}',
   'detail.record': 'Detaliile înregistrării',
   'detail.page': 'Pagina înregistrării',
+  'area.eyebrow': 'ZONĂ DE INTERES',
+  'area.open': 'Zonă de interes: {name}',
+  'area.neptunDeep': 'Proiect offshore de gaze naturale în zona economică exclusivă a României din Marea Neagră, la aproximativ 80 de mile marine (circa 150 km) est de Constanța. Registrul conține înregistrări despre drone militare în zona lucrărilor proiectului.',
+  'area.records': {one: '{n} înregistrare în zona proiectului', few: '{n} înregistrări în zona proiectului', other: '{n} de înregistrări în zona proiectului'},
+  'area.note': 'Platforma este o ilustrație și nu este la scară. Poziția este aproximativă: locația exactă nu a fost făcută publică.',
   'detail.originalLanguage': 'Câmpurile înregistrării și notele privind sursele sunt afișate în engleza originală a registrului.',
   'detail.opened': '{id}: {title}. {status}. Detaliile evenimentului au fost deschise.',
 

@@ -98,6 +98,11 @@
   'detail.sources': 'Foinsí · {n}',
   'detail.record': 'Sonraí an taifid',
   'detail.page': 'Leathanach an taifid',
+  'area.eyebrow': 'LIMISTÉAR SPÉISE',
+  'area.open': 'Limistéar spéise: {name}',
+  'area.neptunDeep': 'Tionscadal gáis nádúrtha amach ón gcósta i gcrios eacnamaíoch eisiach na Rómáine sa Mhuir Dhubh, thart ar 80 muirmhíle (timpeall 150 km) soir ó Constanța. Tá taifid sa chlár ar dhróin mhíleata i limistéar oibreacha an tionscadail.',
+  'area.records': {one: '{n} taifead ag an láthair', two: '{n} thaifead ag an láthair', few: '{n} thaifead ag an láthair', many: '{n} dtaifead ag an láthair', other: '{n} taifead ag an láthair'},
+  'area.note': 'Léaráid is ea an t-ardán agus níl sé de réir scála. Tá a shuíomh neasach: níor foilsíodh an suíomh beacht.',
   'detail.originalLanguage': 'Taispeántar réimsí an taifid agus nótaí na bhfoinsí sa Bhéarla bunaidh atá sa chlár.',
   'detail.opened': '{id}: {title}. {status}. Osclaíodh sonraí an teagmhais.',
 

@@ -98,6 +98,11 @@
   'detail.sources': 'Sources · {n}',
   'detail.record': 'Détails de la fiche',
   'detail.page': 'Page de la fiche',
+  'area.eyebrow': 'ZONE D’INTÉRÊT',
+  'area.open': 'Zone d’intérêt : {name}',
+  'area.neptunDeep': 'Un projet gazier offshore situé dans la zone économique exclusive roumaine en mer Noire, à environ 80 milles marins (quelque 150 km) à l’est de Constanța. Le registre contient des fiches sur des drones militaires dans la zone de travaux du projet.',
+  'area.records': {one: '{n} fiche sur le site', many: '{n} fiches sur le site', other: '{n} fiches sur le site'},
+  'area.note': 'La plateforme est une illustration qui n’est pas à l’échelle. Sa position est approximative : l’emplacement exact n’est pas publié.',
   'detail.originalLanguage': 'Les champs des fiches et les notes sur les sources sont affichés dans l’anglais d’origine du registre.',
   'detail.opened': '{id} : {title}. {status}. Détails de l’événement ouverts.',
 

@@ -98,6 +98,11 @@
   'detail.sources': 'Források · {n}',
   'detail.record': 'A bejegyzés részletei',
   'detail.page': 'A bejegyzés oldala',
+  'area.eyebrow': 'KIEMELT TERÜLET',
+  'area.open': 'Kiemelt terület: {name}',
+  'area.neptunDeep': 'Tengeri földgázprojekt Románia fekete-tengeri kizárólagos gazdasági övezetében, Constanțától mintegy 80 tengeri mérföldre (kb. 150 km-re) keletre. A nyilvántartás katonai drónokkal kapcsolatos bejegyzéseket tartalmaz a projekt munkaterületéről.',
+  'area.records': {one: '{n} bejegyzés a helyszínen', other: '{n} bejegyzés a helyszínen'},
+  'area.note': 'A platform illusztráció, nem méretarányos. Helyzete hozzávetőleges: a pontos helyét nem hozták nyilvánosságra.',
   'detail.originalLanguage': 'A bejegyzés mezői és a forrásokhoz fűzött megjegyzések a nyilvántartás eredeti angol nyelvén jelennek meg.',
   'detail.opened': '{id}: {title}. {status}. Eseményrészletek megnyitva.',
 

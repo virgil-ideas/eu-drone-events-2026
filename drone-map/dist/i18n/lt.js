@@ -98,6 +98,11 @@
   'detail.sources': 'Šaltiniai · {n}',
   'detail.record': 'Įrašo informacija',
   'detail.page': 'Įrašo puslapis',
+  'area.eyebrow': 'INTERESŲ ZONA',
+  'area.open': 'Interesų zona: {name}',
+  'area.neptunDeep': 'Jūrinis gamtinių dujų projektas Rumunijos išskirtinėje ekonominėje zonoje Juodojoje jūroje, maždaug 80 jūrmylių (apie 150 km) į rytus nuo Constanțos. Registre yra įrašų apie karinius dronus projekto darbų zonoje.',
+  'area.records': {one: '{n} įrašas šioje vietoje', few: '{n} įrašai šioje vietoje', many: '{n} įrašo šioje vietoje', other: '{n} įrašų šioje vietoje'},
+  'area.note': 'Platforma yra iliustracija ir nėra pavaizduota mastelyje. Jos padėtis apytikslė: tiksli vieta neskelbiama.',
   'detail.originalLanguage': 'Įrašo laukai ir šaltinių pastabos pateikiami originalia registro anglų kalba.',
   'detail.opened': '{id}: {title}. {status}. Atidaryta įvykio informacija.',
 
