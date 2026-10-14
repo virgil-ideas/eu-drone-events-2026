@@ -13,8 +13,12 @@ no database server, credentials or third-party Python packages are required.
 | `page-urls.json` | Permanent URL slug for each event ID. The builder registers new URLs here; commit additions with the generated pages. Existing entries must not be changed. |
 
 The original Markdown files at the repository root are research snapshots, not
-editable database inputs. Keep them unchanged. Supplementary daily reports and
-precautionary alerts remain in those snapshots; they are not mapped events.
+editable database inputs. Keep them unchanged. The original supplement’s daily
+reports and precautionary alerts remain in those snapshots and are not mapped.
+Specifically selected later civil-protection alerts may be included under
+Alert / other, with an explicit no-incursion finding where applicable. The
+14 October northern Tulcea RO-Alert is included on that basis; it does not
+restore previously excluded records or imply a confirmed foreign incursion.
 
 The migration preserved all 112 mapped records, eight context records, 169 sources
 and 114 anchors, including the reviewed Solca and Neptun Deep classifications.
@@ -109,7 +113,7 @@ Required event fields:
 | Fields | Meaning |
 | --- | --- |
 | `id`, `title` | Stable ID and short map/list title. |
-| `recordClass` | `event` or `candidate`; daily summaries and precautionary alerts are excluded. |
+| `recordClass` | `event` or `candidate`. Selected civil-protection alerts can be events without being incursions; unresolved discoveries can be candidates without established foreign origin. Daily summaries and the original supplement’s precautionary alerts remain excluded. |
 | `startDate`, `dateLabel`, `dateBasis` | ISO replay date, original human-readable date/range, and explanation of the date used. Optional ISO `endDate` preserves an explicit range. |
 | `countries`, `location` | Original country names (semicolon-separated for multiple countries) and detailed location/scope. |
 | `status`, `categories` | Research wording for status and incident types. These do not automatically determine the map color. |

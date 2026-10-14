@@ -1404,13 +1404,35 @@
   },
   "N080": {
     "slug": "2026-10-13-drone-strike-ship-sinks-krapets-bulgaria",
-    "headline": "Bulgaria reports unidentified ship sunk in drone attack off Krapets",
-    "description": "On 13 October 2026 Bulgaria reported an unidentified merchant ship hit in a drone attack and sunk 17 nautical miles east of Krapets. The attacker is unknown.",
+    "headline": "HS Dignity identified as ship sunk off Krapets; eleven sailors missing",
+    "description": "HS Dignity sank in a reported drone attack off Krapets, Bulgaria, on 13 October 2026. Five sailors were rescued and eleven were missing; attribution is unresolved.",
     "summary": [
-      "On the morning of 13 October 2026, during an emergency Security Council meeting, Radev announced that a second vessel had been hit in a drone attack and had sunk in the Black Sea, reportedly 17 nautical miles east of Krapets in Dobrich Province. The location was in Bulgaria’s exclusive economic zone, outside its territorial waters. The exact times of the strike and the sinking were not disclosed.",
-      "The ship has not been identified, and the number, model and type of drones, aerial or maritime, are unconfirmed. Drone causation and other operational details remain preliminary. The operator and nationality are unresolved: Radev said the evidence was insufficient to accuse either belligerent, and his argument that the attacks benefit Russia does not establish Russian responsibility.",
-      "One crew member was reported rescued. The total crew, injuries and fate of the others were not disclosed, so no death or missing toll can be given. No drone wreckage recovery was reported. The sinking is separate from the drone strike on CHELSEA 3 the same day, which happened at another location."
+      "The merchant ship reported struck by a drone and sunk off Krapets on 13 October 2026 has been identified as HS Dignity, sailing under the Guinea-Bissau flag. The reported location, about 17 nautical miles east of Krapets, is in Bulgaria’s exclusive economic zone, outside territorial waters. The exact strike and sinking times remain unpublished.",
+      "Later reporting gives five sailors rescued and eleven missing, replacing the initial account of one rescue. Search-and-rescue operations continued at the time of that reporting. The missing sailors are not counted as confirmed dead. The identification and rescue update concern the same sinking, not another attack.",
+      "The drone’s type and operator remain unresolved. Ukraine accused Russia, but Bulgarian authorities have not established responsibility conclusively. The vessel’s flag does not identify its crew’s nationalities. This incident remains separate from the CHELSEA 3 attack near Byala and the 6 October attacks on ALFA WATAN and ABLE."
     ],
-    "basis": "e430625f5c59d65c"
+    "basis": "e62c0e439a3b73af"
+  },
+  "N081": {
+    "slug": "2026-10-13-possible-drone-wreckage-karwia-beach-poland",
+    "headline": "Possible drone wreckage found on Karwia beach, Poland",
+    "description": "An object resembling a drone was found on Karwia beach, Poland, on 13 October 2026. Foreign involvement is unsubstantiated; military investigators are examining it.",
+    "summary": [
+      "A civilian found an object resembling a drone partly buried in sand on Karwia beach in Puck County on 13 October 2026. The discovery was reported around 18:20–18:30. The object was said to be about two metres long; its exact identification remains pending.",
+      "Police secured the area and Military Gendarmerie personnel and prosecutors began investigating. RMF reported preliminary indications that it might belong to the Polish military. That is not an official identification, and no foreign involvement or border crossing has been established.",
+      "No casualties, damage or controlled detonation were reported in the supplied update. This is a provisional wreckage-discovery record for identification follow-up. The discovery date does not establish when the object flew or fell."
+    ],
+    "basis": "5e37250cfb0e4b09"
+  },
+  "N082": {
+    "slug": "2026-10-14-ro-alert-northern-tulcea-romania-no-airspace-entry",
+    "headline": "Romania issues northern Tulcea RO-Alert; no airspace entry detected",
+    "description": "Romania issued a northern Tulcea RO-Alert on 14 October 2026. Three aerial targets remained over Ukraine; MApN reported no entry into Romanian airspace.",
+    "summary": [
+      "Romania issued a RO-Alert warning for northern Tulcea County at 06:39 on 14 October 2026 after radar detected three aerial targets near Vâlkove, Ukraine. Two Romanian F-16 fighters and an IAR-330 SOCAT helicopter were deployed.",
+      "The Defence Ministry explicitly stated that none of the three targets entered Romanian national airspace. The statement did not establish their models or operator, and three aerial targets should not be read as three confirmed drones.",
+      "The register includes this as one civil-protection alert and response, not a foreign incursion. No strike, shoot-down, casualties, damage or wreckage were reported. Its map marker represents the Romanian warning area, not a drone position."
+    ],
+    "basis": "f2b25c0f34052b2e"
   }
 }

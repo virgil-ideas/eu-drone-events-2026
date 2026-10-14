@@ -1649,5 +1649,37 @@
     "url": "https://kardjali.bgvesti.net/index.php/news/638775/radev-vika-mitrofanova-shhe-govori-s-riute-dva-novi-koraba-sa-udareni-krai-bielgariia",
     "dateLabel": "13 October 2026, 08:56",
     "audit": "Article fetched and read 13 October. Relays Radev’s account, including crew-reported aerial drones, the 01:30 distress notification, 18 nautical miles east of Byala and a separate sinking 17 nautical miles east of Krapets. Preserves insufficient evidence to blame either belligerent. Same official account as U050, not independent forensic corroboration; credits FrogNews."
+  },
+  "U052": {
+    "id": "U052",
+    "publisher": "RMF24",
+    "title": "Drone-like object found on Karwia beach; Military Gendarmerie statement",
+    "url": "https://www.rmf24.pl/regiony/trojmiasto/news-obiekt-przypominajacy-drona-znaleziony-na-plazy-w-karwii-jes,nIdn,1021743",
+    "dateLabel": "13 October 2026, 21:42; updated 22:28",
+    "audit": "Read 14 October. Reports an approximately two-metre object partly buried in beach sand, a police notification around 18:20 and a Military Gendarmerie statement dating the discovery to 13 October around 18:30. The article contains an inconsistent weekday, so the explicit date in the quoted statement is retained. Preliminary Polish-military ownership is RMF reporting, not an official identification. No foreign origin, explosive payload or completed detonation is established."
+  },
+  "U053": {
+    "id": "U053",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Press release No. 328: northern Tulcea RO-Alert; three targets remained outside Romanian airspace",
+    "url": "https://www.mapn.ro/cpresa/19437_informa%C8%9Bie-de-presa",
+    "dateLabel": "14 October 2026",
+    "audit": "Official statement read 14 October via the ministry press archive. Confirms the 06:39 RO-Alert, two Romanian F-16s and an IAR-330 SOCAT deployed, and three aerial targets near Vâlkove, Ukraine. Explicitly states that none entered Romanian national airspace. Included as a civil-protection alert at the user’s request, not as an incursion; unidentified targets are not a verified UAV count."
+  },
+  "U054": {
+    "id": "U054",
+    "publisher": "Reuters",
+    "title": "Drone sinks ship off Bulgaria coast; HS Dignity identification and rescue update",
+    "url": "https://www.reuters.com/world/europe/drone-sinks-ship-off-bulgaria-coast-prime-minister-says-2026-10-13/",
+    "dateLabel": "13 October 2026",
+    "audit": "Reference supplied in the 14 October daily report. Direct retrieval was unavailable; not represented as independently read. The HS Dignity name, Guinea-Bissau flag, five rescued and eleven missing are corroborated by the accessible Helsinki Times report U055, which cites Reuters for the rescue figures. This is a follow-up to N080, not a new attack."
+  },
+  "U055": {
+    "id": "U055",
+    "publisher": "Helsinki Times",
+    "title": "Two ships struck by drones in Black Sea off Bulgaria",
+    "url": "https://www.helsinkitimes.fi/world-int/29384-two-ships-struck-by-drones-in-black-sea-off-bulgaria.html",
+    "dateLabel": "13 October 2026",
+    "audit": "Read 14 October. Identifies the vessel off Krapets as Guinea-Bissau-flagged HS Dignity, attributes that identification to Bulgaria’s president, and cites Reuters for five rescued and eleven missing with the search continuing. Preserves Ukrainian accusations separately from unresolved Bulgarian attribution. This corroborates the supplied follow-up but is not independent forensic evidence."
   }
 }

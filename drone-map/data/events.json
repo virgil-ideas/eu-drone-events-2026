@@ -5429,11 +5429,13 @@
     "dateLabel": "2026-10-13",
     "startDate": "2026-10-13",
     "countries": "Bulgaria (offshore EEZ)",
-    "attribution": "Operator and nationality unresolved. Radev said evidence was insufficient to accuse either belligerent. His argument that the attacks benefit Russia and planned diplomatic consultations do not establish Russian responsibility.",
+    "attribution": "Operator and nationality unresolved by Bulgarian authorities. Ukraine’s foreign minister accused Russia; this remains an attributed allegation, not a conclusive Bulgarian finding. Radev said evidence was insufficient to accuse either belligerent.",
     "payload": "Weapon model and payload unestablished; no explicit explosion finding in the reviewed reports.",
     "sources": [
       "U050",
-      "U051"
+      "U051",
+      "U054",
+      "U055"
     ],
     "category": "strike",
     "stages": [
@@ -5441,22 +5443,22 @@
     ],
     "recordClass": "event",
     "recordType": "reported_offshore_drone_strike",
-    "reviewedOn": "2026-10-13",
+    "reviewedOn": "2026-10-14",
     "classificationNote": "Strike: reported damaging drone attack, shown in red. This classification does not infer an explosion, drone crash or sovereign-territory incursion.",
-    "provenance": "Added and reviewed 2026-10-13 against BNR Radio Varna and BgVesti reporting of the prime minister’s account (U050–U051). Coverage ends at the supplied 08:58 EEST check; details remain preliminary.",
+    "provenance": "Added 2026-10-13 from the initial BNR / BgVesti accounts (U050–U051), which reported an unidentified ship and one rescue. Reviewed 2026-10-14 using the supplied Reuters follow-up (U054; direct retrieval unavailable) and the accessible Helsinki Times report (U055). Retains the initial account as dated history and replaces the current figures with five rescued and eleven missing. This review falls within the supplied 13 October 08:58–14 October 08:52 EEST watch window.",
     "id": "N080",
-    "title": "Off Krapets · Drone strike and ship sinking",
+    "title": "HS Dignity off Krapets · Drone strike and sinking",
     "dateBasis": "Reported on the morning of 13 October during the emergency Security Council meeting; exact strike and sinking times were not disclosed.",
     "location": "Black Sea, reportedly 17 nautical miles east of Krapets, Dobrich Province; Bulgarian EEZ, outside territorial waters.",
-    "status": "Officially reported drone attack and sinking; vessel identity and operator unresolved",
+    "status": "Reported drone attack and sinking; HS Dignity identified; operator unresolved",
     "categories": "Reported merchant-vessel drone attack; sinking; rescue",
-    "vehicle": "Unidentified merchant vessel. Drone number, model and aerial-versus-maritime type unconfirmed.",
+    "vehicle": "Merchant vessel HS Dignity, sailing under the Guinea-Bissau flag. Drone number, model and aerial-versus-maritime type unconfirmed. The vessel’s flag does not establish crew nationality or ownership.",
     "route": "Weapon approach and vessel route unknown. The reported offshore strike is not a confirmed incursion into sovereign territory.",
-    "circumstances": "Radev announced that a second vessel had been struck east of Krapets and had sunk; the authorities received information during the emergency meeting.",
-    "impact": "Sinking and one rescued crew member reported. Vessel identity, total crew, injuries and fate of the remaining personnel were not disclosed. No death or missing-person total can be established from this account.",
-    "response": "One rescue reported; operational details unavailable. No interception, drone wreckage recovery or EOD information published in the reviewed reports.",
-    "uncertainty": "High confidence that the prime minister reported an attack and sinking; operational detail and drone causation remain preliminary. No independently examined wreckage or definitive operator attribution.",
-    "deduplication": "One strike-and-sinking record. Distinct from CHELSEA 3 (N079), at another location with a separate rescue account, and from the 6 October ALFA WATAN / ABLE attack (N073).",
+    "circumstances": "Radev initially announced that a second vessel had been struck east of Krapets and had sunk. Later reporting identified it as HS Dignity and updated the rescue and missing-person figures. The strike, sinking and rescue concern the same 13 October occurrence.",
+    "impact": "Vessel sank. Updated reporting gives five sailors rescued and eleven missing, superseding the initial report of one rescued. Missing sailors are not recorded as confirmed dead; no confirmed death total or injury count is established in the reviewed update.",
+    "response": "Search-and-rescue operations continued at the time of the 13 October follow-up. Five sailors were reported rescued. No interception, drone wreckage recovery or EOD information established in the reviewed reports.",
+    "uncertainty": "Vessel identification, sinking and updated rescue figures are supported by the reviewed reporting. Drone type, physical evidence and definitive operator attribution remain unresolved. Search status and casualty figures are a reporting-time snapshot, not a final outcome.",
+    "deduplication": "One strike-and-sinking record, now identified as HS Dignity. The vessel name and updated rescue figures amend N080 in place; its ID, date and permanent URL remain unchanged. Distinct from CHELSEA 3 (N079) and the 6 October ALFA WATAN / ABLE attack (N073).",
     "positions": [
       {
         "lat": 43.62,
@@ -5467,5 +5469,90 @@
     ],
     "positionNote": "Rounded editorial estimate east of coastal Krapets in Dobrich Province, not a verified wreck position or maritime-boundary determination. Offshore jurisdiction follows the reporting.",
     "matchKey": "BG::2026-10-13::krapets-offshore-unidentified-ship"
+  },
+  {
+    "id": "N081",
+    "dateLabel": "2026-10-13 (reported around 18:20–18:30)",
+    "startDate": "2026-10-13",
+    "dateBasis": "Discovery/reporting date, not a known flight or impact date. Police were notified around 18:20; the quoted Military Gendarmerie statement gives 13 October around 18:30. Its explicit date is used despite an inconsistent weekday in the article.",
+    "countries": "Poland",
+    "location": "Karwia beach, Puck County, Poland; exact discovery site unpublished.",
+    "status": "Provisional possible-drone wreckage; foreign involvement unsubstantiated",
+    "categories": "Suspected UAV wreckage discovery; military-police investigation",
+    "vehicle": "Fragments of an unidentified flying object resembling a drone, reportedly approximately two metres long. Exact identification and model pending.",
+    "attribution": "Official origin and operator unresolved. RMF reported preliminary indications of Polish military ownership; this is not an official identification and provides no basis for foreign attribution.",
+    "route": "Unknown. No foreign flight, border crossing or same-day crash established.",
+    "circumstances": "A civilian found the object partly buried in sand while walking on Karwia beach and notified the authorities.",
+    "payload": "Unknown; examination for possible hazards does not establish that explosives or other hazardous material were present.",
+    "impact": "No casualties or damage reported in the supplied update. No confirmed blast or controlled detonation.",
+    "response": "Police secured the area. Military Gendarmerie and prosecutors investigated; explosive-ordnance and other specialist services were notified.",
+    "uncertainty": "High confidence in an officially investigated discovery. UAV identity and provenance remain provisional; foreign involvement is unsubstantiated and possible Polish military ownership remains under examination.",
+    "deduplication": "One provisional discovery record for identification follow-up. The find, investigation and any later identification belong to this same record; no separate incursion is inferred.",
+    "provenance": "Added and reviewed 2026-10-14 against RMF24 and its quoted Military Gendarmerie statement (U052). Included provisionally at the user’s request, not as a confirmed qualifying foreign event. The supplied daily check covers 13 October 08:58–14 October 08:52 EEST; 13 October Greek military figures were inaccessible and remain unverified, so EU-wide coverage is not exhaustive.",
+    "sources": [
+      "U052"
+    ],
+    "title": "Karwia beach · possible drone wreckage",
+    "category": "recovery",
+    "positions": [
+      {
+        "lat": 54.83,
+        "lng": 18.22,
+        "precision": "locality",
+        "label": "Karwia beach area — approximate locality; exact discovery site unknown"
+      }
+    ],
+    "stages": [
+      "recovery"
+    ],
+    "classificationNote": "Recovery/discovery color for a provisional find. This does not establish a foreign drone, incursion, same-day crash or controlled disposal.",
+    "positionNote": "Rounded editorial anchor for the Karwia beach area, not measured debris coordinates.",
+    "recordClass": "candidate",
+    "recordType": "provisional_drone_discovery",
+    "reviewedOn": "2026-10-14",
+    "matchKey": "PL::2026-10-13::karwia-beach-unidentified-wreckage"
+  },
+  {
+    "id": "N082",
+    "dateLabel": "2026-10-14 (RO-Alert at 06:39 local time)",
+    "startDate": "2026-10-14",
+    "dateBasis": "Morning detection and civil-protection alert on 14 October; MApN gives the RO-Alert time as 06:39. Exact detection and launch times not specified.",
+    "countries": "Romania",
+    "location": "Northern Tulcea County alert area, Romania; the three radar targets were near Vâlkove in Ukrainian airspace.",
+    "status": "Official RO-Alert and air response; no Romanian airspace entry",
+    "categories": "Civil-protection air alert and precautionary military response; no incursion",
+    "vehicle": "Three aerial targets detected near Vâlkove, Ukraine. UAV identification and models not established in the statement; three targets are not a confirmed count of drones.",
+    "attribution": "Target operator and nationality not identified. Location over Ukraine does not establish an operator.",
+    "route": "Targets remained outside Romanian national airspace. MApN explicitly states that none of the three entered it; no Romanian border crossing or domestic flight track is established.",
+    "circumstances": "Radar detections near the border prompted the military command to notify IGSU for a warning to residents in northern Tulcea County. RO-Alert was issued at 06:39.",
+    "payload": "Unknown; no explosive payload, strike or detonation reported.",
+    "impact": "Civil-protection warning issued. No Romanian impact, casualties, damage or wreckage reported in the statement.",
+    "response": "Two Romanian F-16 fighters and an IAR-330 SOCAT helicopter were deployed. No weapons engagement, shoot-down, recovery or EOD action reported.",
+    "uncertainty": "High confidence in the official alert and response. The ministry’s radar assessment explicitly rules out entry by these targets. Aerial-target identity and operator remain unspecified; the release described the situation as developing.",
+    "deduplication": "One dated alert record, not three drone incidents or an incursion. Distinct from the earlier Romanian alerts and actual border crossings. The warning and aircraft deployments are responses within this event.",
+    "provenance": "Added and reviewed 2026-10-14 against MApN release No. 328 (U053). Included at the user’s explicit request because RO-Alert was triggered, while retaining the official no-entry finding. Earlier excluded supplementary alerts are not restored. The supplied watch covers 13 October 08:58–14 October 08:52 EEST; Greek figures for 13 October were inaccessible and are not treated as a verified quiet day.",
+    "sources": [
+      "U053"
+    ],
+    "title": "Northern Tulcea · RO-Alert, no airspace entry",
+    "category": "alert",
+    "positions": [
+      {
+        "lat": 45.25,
+        "lng": 29.45,
+        "precision": "region",
+        "label": "Northern Tulcea warning area — representative Romanian anchor, not a target position"
+      }
+    ],
+    "stages": [
+      "alert"
+    ],
+    "classificationNote": "Alert / other: included for the Romanian civil-protection warning. No incursion, drone flight inside Romania or armed engagement is implied.",
+    "positionNote": "Approximate anchor in the Romanian warning area. The detected targets were over Ukraine; the marker is not their position or a border crossing.",
+    "recordClass": "event",
+    "recordType": "civil_protection_air_alert",
+    "reported_airspace_violations": 0,
+    "reviewedOn": "2026-10-14",
+    "matchKey": "RO::2026-10-14::northern-tulcea-ro-alert-no-incursion"
   }
 ]
