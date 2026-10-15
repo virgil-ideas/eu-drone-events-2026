@@ -20,7 +20,7 @@ import unicodedata
 from datetime import date
 from pathlib import Path
 
-from database import ROOT, DataError, read_json
+from database import ROOT, DataError, mapped_events, read_json
 
 SITE = 'https://droneincidents.eu'
 SITE_NAME = 'Europe Foreign Drone Events'
@@ -196,7 +196,8 @@ def copy_for(record, pages, sources):
     if page and page['basis'] == basis(record, sources):
         return page['headline'], page['description'], page['summary']
     place = ', '.join(dict.fromkeys(countries(record)))
-    phrase = 'Unidentified object' if record['recordClass'] == 'candidate' else CATEGORIES[record['category']][2]
+    phrase = {'candidate': 'Unidentified object', 'excluded': 'Excluded record'}.get(
+        record['recordClass'], CATEGORIES[record['category']][2])
     headline = f"{phrase}: {record['title']}, {place}"
     description = shorten(f"{long_date(record['startDate'])}, {record['title']}, {place}. "
                           f"{sentence(record['status'])} {record['circumstances']}", 160)
@@ -300,7 +301,16 @@ def event_page(record, index, ordered, database, pages, slugs, media):
     root = '../../'
     headline, description, summary = copy_for(record, pages, database['sources'])
     label, color, _ = CATEGORIES[record['category']]
-    kind = 'Unidentified object · ' if record['recordClass'] == 'candidate' else ''
+    excluded = record['recordClass'] == 'excluded'
+    kind = {'candidate': 'Unidentified object · ', 'excluded': 'Excluded record · '}.get(record['recordClass'], '')
+    exclusion = ''
+    map_action = (f'<p class="map-cta"><a class="button" href="{root}#{slugs[record["id"]]}">'
+                  'Show on the interactive map →</a></p>')
+    if excluded:
+        color = '#7c8797'
+        exclusion = (f'\n      <p class="note"><strong>Excluded from the map and totals.</strong> '
+                     f'{esc(record["exclusionReason"])} This page preserves the correction and its sources.</p>')
+        map_action = '<p class="map-cta"><a class="button" href="../">Browse the current register →</a></p>'
     place = ', '.join(dict.fromkeys(countries(record)))
     when = long_date(record['startDate'])
     dates = f'<time datetime="{record["startDate"]}">{when}</time>'
@@ -319,8 +329,10 @@ def event_page(record, index, ordered, database, pages, slugs, media):
     uncertainty = esc(record['uncertainty'] or 'Not stated in the record.')
     figure = media_html(media_for(record, database, media))
     pager = ''
-    for rel, neighbour in (('prev', ordered[index - 1] if index else None),
-                           ('next', ordered[index + 1] if index + 1 < len(ordered) else None)):
+    neighbours = () if index is None else (
+        ('prev', ordered[index - 1] if index else None),
+        ('next', ordered[index + 1] if index + 1 < len(ordered) else None))
+    for rel, neighbour in neighbours:
         if neighbour:
             arrow = '← Earlier' if rel == 'prev' else 'Later →'
             pager += (f'<a rel="{rel}" class="pager-{rel}" href="../{slugs[neighbour["id"]]}/"><small>{arrow} · '
@@ -345,9 +357,9 @@ def event_page(record, index, ordered, database, pages, slugs, media):
         <h1>{esc(headline)}</h1>
         <p class="dateline">{dates} · {esc(record['title'])}</p>
         <p class="status">{esc(record['status'])}</p>
-      </header>
+      </header>{exclusion}
       <div class="summary">{paragraphs}</div>
-      <p class="map-cta"><a class="button" href="{root}#{slugs[record['id']]}">Show on the interactive map →</a></p>
+      {map_action}
       {figure}
       <section class="attribution" aria-labelledby="attribution-title">
         <h2 id="attribution-title">Attribution and uncertainty</h2>
@@ -383,7 +395,7 @@ def index_item(record, pages, slugs, sources):
 
 
 def index_page(database, pages, slugs):
-    ordered = sorted(database['events'], key=lambda record: (record['startDate'], record['id']), reverse=True)
+    ordered = sorted(mapped_events(database), key=lambda record: (record['startDate'], record['id']), reverse=True)
     cutoff = long_date(database['dataset']['cutoff'])
     tally, months = {}, {}
     for record in ordered:
@@ -430,9 +442,11 @@ def sitemap(database, slugs):
 
 def render_site(database, pages, slugs, media):
     """Every generated page, keyed by its path inside dist/."""
-    ordered = sorted(database['events'], key=lambda record: (record['startDate'], record['id']))
-    outputs = {f'events/{slugs[record["id"]]}/index.html': event_page(record, index, ordered, database, pages, slugs, media)
-               for index, record in enumerate(ordered)}
+    ordered = sorted(mapped_events(database), key=lambda record: (record['startDate'], record['id']))
+    indexes = {record['id']: index for index, record in enumerate(ordered)}
+    outputs = {f'events/{slugs[record["id"]]}/index.html': event_page(
+                   record, indexes.get(record['id']), ordered, database, pages, slugs, media)
+               for record in database['events']}
     outputs['events/index.html'] = index_page(database, pages, slugs)
     outputs['sitemap.xml'] = sitemap(database, slugs)
     outputs['robots.txt'] = f'User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n'

@@ -1681,5 +1681,69 @@
     "url": "https://www.helsinkitimes.fi/world-int/29384-two-ships-struck-by-drones-in-black-sea-off-bulgaria.html",
     "dateLabel": "13 October 2026",
     "audit": "Read 14 October. Identifies the vessel off Krapets as Guinea-Bissau-flagged HS Dignity, attributes that identification to Bulgaria’s president, and cites Reuters for five rescued and eleven missing with the search continuing. Preserves Ukrainian accusations separately from unresolved Bulgarian attribution. This corroborates the supplied follow-up but is not independent forensic evidence."
+  },
+  "U056": {
+    "id": "U056",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Press release No. 329: morning incursion east of Sulina; target later shot down in Ukraine",
+    "url": "https://www.mapn.ro/cpresa/19438_informa%C8%9Bie-de-presa",
+    "dateLabel": "14 October 2026",
+    "audit": "Official release read 15 October. Confirms a brief Romanian-airspace entry, the 10:19 RO-Alert, two Romanian F-16s and an 11:22 all-clear. The target returned to Ukrainian airspace and was shot down there by Ukrainian air defence. Exact entry time, UAV model and operator are not established."
+  },
+  "U057": {
+    "id": "U057",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Press release No. 330: 17:38–17:46 incursion northeast of Sulina",
+    "url": "https://www.mapn.ro/cpresa/19439_Informa%C8%9Bie-de-pres%C4%83",
+    "dateLabel": "14 October 2026",
+    "audit": "Official release read 15 October. A distinct afternoon target entered Romanian airspace over territorial waters about 22 km northeast of Sulina at 17:38 and left at 17:46. The 17:39 RO-Alert, two Romanian F-16s and 19:03 all-clear are responses within this episode. No shoot-down or confirmed UAV model is reported."
+  },
+  "U058": {
+    "id": "U058",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Press release No. 331: two evening targets enter Romanian airspace; one later destroyed near Reni",
+    "url": "https://www.mapn.ro/cpresa/19440_Informa%C8%9Bie-de-pres%C4%83",
+    "dateLabel": "14 October 2026",
+    "audit": "Official release read 15 October. Two targets entered at 20:04; one was lost from radar over the sea, the other left at 20:13 toward Vâlcove and was later destroyed near Reni by Ukrainian air defence. This reports two targets in one timed episode, not two verified UAVs or a Romanian shoot-down. Radar loss does not establish a crash or a link to YARA J."
+  },
+  "U059": {
+    "id": "U059",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Press release No. 332: 01:34 drone incursion southeast of Sulina",
+    "url": "https://www.mapn.ro/cpresa/19441_Informa%C8%9Bie-de-pres%C4%83",
+    "dateLabel": "15 October 2026",
+    "audit": "Official release read 15 October via the ministry’s linked page. Explicitly identifies one drone in Romanian airspace for about a minute at 01:34, then lost from radar. Spanish F-18s launched; Romanian F-16s and the 04:57 RO-Alert followed later contacts farther east of Snake Island. No other crossings reported in this release; all-clear at 05:46. No confirmed crash, interception or operator attribution."
+  },
+  "U060": {
+    "id": "U060",
+    "publisher": "Euronews România",
+    "title": "YARA J fire and alleged drone strike; separate WINE TRADER rescue update",
+    "url": "https://www.euronews.ro/articole/nava-lovita-de-o-drona-in-apele-teritoriale-ale-romaniei-langa-sulina-echipajul-a",
+    "dateLabel": "14 October 2026; live update labelled 15 October, 08:16",
+    "audit": "Read 15 October. Preserves official confirmation of the fire and crew safety, the crew’s alleged drone strike/explosion, and the minister’s statement that no approaching drone was detected. Quotes the 20:25 rescue request, 20:31 SAR Apollo departure and 21:30 recall; 20:25 is not a verified attack time. Its separate WINE TRADER fire/rescue update does not establish drone involvement and is retained only in follow-up notes. Live-page timestamps differ; no UTC conversion is inferred."
+  },
+  "U061": {
+    "id": "U061",
+    "publisher": "Radio România Constanța",
+    "title": "YARA J tanker incident near Sulina; crew safe and cause under investigation",
+    "url": "https://www.radioconstanta.ro/2026/10/14/petrolier-lovit-de-o-drona-in-apele-teritoriale-romanesti-in-rada-portului-sulina/",
+    "dateLabel": "14 October 2026, 23:20; updated 15 October, 07:45",
+    "audit": "Read 15 October. Reports 17 crew, no injuries and an extinguished fire, and quotes the defence minister saying drone causation is being examined and no approaching drone was seen on military radar. Its assertive attack headline and suggested link to the lost radar target are not independent confirmation. Used with U060 to retain that uncertainty."
+  },
+  "U062": {
+    "id": "U062",
+    "publisher": "TVP Info",
+    "title": "Defence minister identifies Karwia debris as a Polish drone destroyed during exercises",
+    "url": "https://www.tvp.info/95924557/dron-na-plazy-w-karwi-mon-potwierdza-to-polski-dron-zestrzelony-na-poligonie-w-czasie-cwiczen",
+    "dateLabel": "14 October 2026, 12:08; updated 12:09",
+    "audit": "Direct page extraction was empty; the indexed article text retrieved on 15 October quotes the defence minister identifying a Polish test drone destroyed during exercises near Ustka weeks earlier. Corroborated by the fully accessible Polish Radio/PAP report U063. Updates N081 to domestic and excluded, preserving the discovery date and original URL."
+  },
+  "U063": {
+    "id": "U063",
+    "publisher": "Polskie Radio 24 / PAP",
+    "title": "Karwia wreckage came from a Polish drone used in exercises near Ustka",
+    "url": "https://polskieradio24.pl/polska/szczatki-drona-na-plazy-w-karwi-szef-mon-uspokaja-to-nie-byla-rosyjska-prowokacja",
+    "dateLabel": "14 October 2026, 15:25",
+    "audit": "Article read 15 October. Reports Władysław Kosiniak-Kamysz’s identification of the wreckage as a Polish drone destroyed by Polish counter-drone systems during tests at Ustka several weeks earlier, then washed ashore. This is a follow-up identification of the 13 October find, not a foreign incursion or a new shoot-down on that date."
   }
 }

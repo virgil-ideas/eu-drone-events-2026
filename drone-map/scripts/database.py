@@ -18,7 +18,7 @@ DESCRIPTIVE = set('dateLabel dateBasis countries location status categories vehi
 EVENT_REQUIRED = DESCRIPTIVE | set('id startDate title category positions stages classificationNote '
                                    'recordClass sources'.split())
 REPORTED_COUNTS = {'reported_UAVs', 'reported_airspace_violations', 'reported_FIR_infractions'}
-EVENT_OPTIONAL = set('endDate recordType positionNote reviewedOn sourceFile importAction normalizedLocality matchKey'.split()) | REPORTED_COUNTS
+EVENT_OPTIONAL = set('endDate recordType positionNote reviewedOn sourceFile importAction normalizedLocality matchKey exclusionReason'.split()) | REPORTED_COUNTS
 CONTEXT_REQUIRED = set('id dateLabel countries status vehicle attribution uncertainty deduplication sources'.split())
 CONTEXT_OPTIONAL = DESCRIPTIVE | {'sourceFile', 'importAction', 'reviewedOn'}
 SOURCE_REQUIRED = {'id', 'publisher', 'title', 'audit', 'url'}
@@ -174,7 +174,17 @@ def validate_database(database, research_root=ROOT.parent):
             end = iso_date(record.get('endDate', record['startDate']), path + '.endDate')
             require(date(cutoff.year, 1, 1) <= start <= end <= cutoff, path,
                     'dates must be ordered and within January 1 through the dataset cutoff')
-            choice(record['recordClass'], {'event', 'candidate'}, path + '.recordClass')
+            choice(record['recordClass'], {'event', 'candidate', 'excluded'}, path + '.recordClass')
+            if record['recordClass'] == 'excluded':
+                require(bool(record.get('exclusionReason', '').strip()), path + '.exclusionReason',
+                        'excluded records need an explicit reason')
+                require('reviewedOn' in record, path + '.reviewedOn',
+                        'excluded records need a review date')
+                require('importAction' not in record, path + '.importAction',
+                        'remove the legacy import action when excluding a record')
+            else:
+                require('exclusionReason' not in record, path + '.exclusionReason',
+                        'only excluded records may have an exclusion reason')
             if 'importAction' in record:
                 expected = 'ADD_EVENT' if record['recordClass'] == 'event' else 'KEEP_CANDIDATE'
                 require(record['importAction'] == expected, path + '.importAction',
@@ -225,11 +235,16 @@ def browser_record(record, slug=None):
     return output
 
 
+def mapped_events(database):
+    """Retain excluded records for their correction pages, never for map totals."""
+    return [record for record in database['events'] if record['recordClass'] != 'excluded']
+
+
 def browser_data(database, slugs=None):
     slugs = slugs or {}
     return {
         'events': [browser_record(record, slugs.get(record['id'])) for record in sorted(
-            database['events'], key=lambda record: (record['startDate'], record['id']))],
+            mapped_events(database), key=lambda record: (record['startDate'], record['id']))],
         'contexts': [browser_record(record) for record in database['contexts']],
         'sources': database['sources'],
         'cutoff': database['dataset']['cutoff'],

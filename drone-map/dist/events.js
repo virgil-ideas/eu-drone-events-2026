@@ -5712,49 +5712,6 @@ window.DRONE_DATA = {
       "page": "events/2026-10-13-drone-strike-ship-sinks-krapets-bulgaria/"
     },
     {
-      "id": "N081",
-      "dateLabel": "2026-10-13 (reported around 18:20–18:30)",
-      "startDate": "2026-10-13",
-      "dateBasis": "Discovery/reporting date, not a known flight or impact date. Police were notified around 18:20; the quoted Military Gendarmerie statement gives 13 October around 18:30. Its explicit date is used despite an inconsistent weekday in the article.",
-      "countries": "Poland",
-      "location": "Karwia beach, Puck County, Poland; exact discovery site unpublished.",
-      "status": "Provisional possible-drone wreckage; foreign involvement unsubstantiated",
-      "categories": "Suspected UAV wreckage discovery; military-police investigation",
-      "vehicle": "Fragments of an unidentified flying object resembling a drone, reportedly approximately two metres long. Exact identification and model pending.",
-      "attribution": "Official origin and operator unresolved. RMF reported preliminary indications of Polish military ownership; this is not an official identification and provides no basis for foreign attribution.",
-      "route": "Unknown. No foreign flight, border crossing or same-day crash established.",
-      "circumstances": "A civilian found the object partly buried in sand while walking on Karwia beach and notified the authorities.",
-      "payload": "Unknown; examination for possible hazards does not establish that explosives or other hazardous material were present.",
-      "impact": "No casualties or damage reported in the supplied update. No confirmed blast or controlled detonation.",
-      "response": "Police secured the area. Military Gendarmerie and prosecutors investigated; explosive-ordnance and other specialist services were notified.",
-      "uncertainty": "High confidence in an officially investigated discovery. UAV identity and provenance remain provisional; foreign involvement is unsubstantiated and possible Polish military ownership remains under examination.",
-      "deduplication": "One provisional discovery record for identification follow-up. The find, investigation and any later identification belong to this same record; no separate incursion is inferred.",
-      "provenance": "Added and reviewed 2026-10-14 against RMF24 and its quoted Military Gendarmerie statement (U052). Included provisionally at the user’s request, not as a confirmed qualifying foreign event. The supplied daily check covers 13 October 08:58–14 October 08:52 EEST; 13 October Greek military figures were inaccessible and remain unverified, so EU-wide coverage is not exhaustive.",
-      "sourceReferences": "[U052][U052]",
-      "sources": [
-        "U052"
-      ],
-      "title": "Karwia beach · possible drone wreckage",
-      "category": "recovery",
-      "positions": [
-        {
-          "lat": 54.83,
-          "lng": 18.22,
-          "precision": "locality",
-          "label": "Karwia beach area — approximate locality; exact discovery site unknown"
-        }
-      ],
-      "stages": [
-        "recovery"
-      ],
-      "classificationNote": "Recovery/discovery color for a provisional find. This does not establish a foreign drone, incursion, same-day crash or controlled disposal.",
-      "positionNote": "Rounded editorial anchor for the Karwia beach area, not measured debris coordinates.",
-      "recordClass": "candidate",
-      "recordType": "provisional_drone_discovery",
-      "matchKey": "PL::2026-10-13::karwia-beach-unidentified-wreckage",
-      "page": "events/2026-10-13-possible-drone-wreckage-karwia-beach-poland/"
-    },
-    {
       "id": "N082",
       "dateLabel": "2026-10-14 (RO-Alert at 06:39 local time)",
       "startDate": "2026-10-14",
@@ -5797,6 +5754,226 @@ window.DRONE_DATA = {
       "reported_airspace_violations": 0,
       "matchKey": "RO::2026-10-14::northern-tulcea-ro-alert-no-incursion",
       "page": "events/2026-10-14-ro-alert-northern-tulcea-romania-no-airspace-entry/"
+    },
+    {
+      "id": "N083",
+      "startDate": "2026-10-14",
+      "dateLabel": "2026-10-14 (morning; RO-Alert at 10:19)",
+      "countries": "Romania",
+      "title": "East of Sulina · morning incursion",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "shotdown"
+      ],
+      "recordClass": "event",
+      "recordType": "reported_cross_border_incursion",
+      "sourceReferences": "[U056][U056]",
+      "sources": [
+        "U056"
+      ],
+      "positions": [
+        {
+          "lat": 45.15,
+          "lng": 29.9,
+          "precision": "offshore",
+          "label": "East of Sulina — approximate Romanian incursion area; later shoot-down was in Ukraine"
+        }
+      ],
+      "positionNote": "Rounded editorial offshore anchor for the reported area; not a measured radar position, flight track or maritime-boundary determination.",
+      "attribution": "Operator, nationality and model unresolved. Travel through Ukrainian airspace does not establish Ukrainian or Russian responsibility.",
+      "payload": "Not established.",
+      "impact": "No Romanian casualties or damage reported in the reviewed statement.",
+      "provenance": "Reviewed 2026-10-15 for the supplied 14 October 08:52–15 October 09:09 EEST daily check. Greek military figures for 14 October were not independently verified; EU-wide coverage is not exhaustive.",
+      "dateBasis": "MApN’s morning episode with a 10:19 warning and 11:22 all-clear. Exact border-crossing and shoot-down times are not given; warning time is not the entry time.",
+      "location": "Black Sea east of Sulina, in Romanian airspace. The later shoot-down occurred after the target returned to Ukrainian airspace.",
+      "status": "Radar-confirmed Romanian incursion; unidentified target later shot down in Ukraine",
+      "categories": "Brief cross-border aerial-target incursion; subsequent Ukrainian air-defence shoot-down",
+      "vehicle": "One unidentified aerial target, suspected conflict-related UAV; the official statement does not establish a drone model or operator.",
+      "route": "Briefly entered Romanian airspace east of Sulina, then returned to Ukrainian airspace and was shot down there.",
+      "circumstances": "A newly detected morning target prompted a 10:19 RO-Alert for eastern and northern Tulcea, followed by the reported brief border crossing.",
+      "response": "Two Romanian F-16s launched. Ukrainian air defence subsequently shot down the target in Ukraine; Romania’s alert ended at 11:22.",
+      "uncertainty": "High confidence in the official border-crossing report; UAV identification and state attribution remain unresolved. The shoot-down is reported by MApN and occurred outside Romania.",
+      "deduplication": "One morning incursion and its later outcome. Distinct from the 06:39 no-entry alert N082 and the 17:38 and 20:04 incursions N084/N085. No separate record for the response or Ukrainian shoot-down.",
+      "classificationNote": "Flight marks the Romanian incursion. Shot down is secondary because that outcome occurred later in Ukrainian airspace, not at the Romanian map anchor.",
+      "matchKey": "RO::2026-10-14::sulina-east-morning-1019-alert-incursion",
+      "page": "events/2026-10-14-morning-airspace-incursion-east-sulina-romania/"
+    },
+    {
+      "id": "N084",
+      "startDate": "2026-10-14",
+      "dateLabel": "2026-10-14, 17:38–17:46 local time",
+      "countries": "Romania",
+      "title": "Northeast of Sulina · 17:38 incursion",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "recordClass": "event",
+      "recordType": "reported_cross_border_incursion",
+      "sourceReferences": "[U057][U057]",
+      "sources": [
+        "U057"
+      ],
+      "positions": [
+        {
+          "lat": 45.3,
+          "lng": 29.89,
+          "precision": "offshore",
+          "label": "About 22 km northeast of Sulina — approximate territorial-water incursion area"
+        }
+      ],
+      "positionNote": "Rounded editorial offshore anchor for the reported area; not a measured radar position, flight track or maritime-boundary determination.",
+      "attribution": "Operator, nationality and model unresolved. Travel through Ukrainian airspace does not establish Ukrainian or Russian responsibility.",
+      "payload": "Not established.",
+      "impact": "No Romanian casualties or damage reported in the reviewed statement.",
+      "provenance": "Reviewed 2026-10-15 for the supplied 14 October 08:52–15 October 09:09 EEST daily check. Greek military figures for 14 October were not independently verified; EU-wide coverage is not exhaustive.",
+      "dateBasis": "MApN gives entry at 17:38 and departure at 17:46, an eight-minute period. The 17:39 warning is a separate response timestamp.",
+      "location": "Approximately 22 km northeast of Sulina, above Romanian territorial waters, as reported by MApN.",
+      "status": "Radar-confirmed incursion; UAV identification and operator unresolved",
+      "categories": "Separate afternoon cross-border aerial-target incursion; precautionary air response",
+      "vehicle": "One unidentified aerial target; suspected UAV, with model and operator unconfirmed.",
+      "route": "Initially detected about 30 km east of Snake Island; entered Romanian airspace at 17:38 and left at 17:46.",
+      "circumstances": "Romanian radar tracked a distinct afternoon target over national territorial waters near Sulina.",
+      "response": "Two Romanian F-16s launched. RO-Alert at 17:39; all-clear at 19:03. No weapons engagement or shoot-down reported.",
+      "uncertainty": "Official radar report supports the crossing and duration. UAV classification and attribution remain provisional; no crash or impact established.",
+      "deduplication": "One timed afternoon episode, separate from the morning N083 and evening N085 incursions. No separate event is created for its RO-Alert or fighter response.",
+      "classificationNote": "Flight: radar-confirmed Romanian airspace entry. A fighter launch alone does not establish interception or armed engagement.",
+      "matchKey": "RO::2026-10-14::sulina-northeast-1738-incursion",
+      "page": "events/2026-10-14-afternoon-airspace-incursion-northeast-sulina-romania/"
+    },
+    {
+      "id": "N085",
+      "startDate": "2026-10-14",
+      "dateLabel": "2026-10-14 (entry 20:04; one target departed 20:13)",
+      "countries": "Romania",
+      "title": "Off northeastern Tulcea · 20:04 incursions",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "shotdown"
+      ],
+      "recordClass": "event",
+      "recordType": "reported_cross_border_incursion",
+      "sourceReferences": "[U058][U058]",
+      "sources": [
+        "U058"
+      ],
+      "positions": [
+        {
+          "lat": 45.2,
+          "lng": 29.88,
+          "precision": "offshore",
+          "label": "Off northeastern Tulcea — representative Romanian incursion area; exact tracks unpublished"
+        }
+      ],
+      "positionNote": "Rounded editorial offshore anchor for the reported area; not a measured radar position, flight track or maritime-boundary determination.",
+      "attribution": "Operator, nationality and model unresolved. Travel through Ukrainian airspace does not establish Ukrainian or Russian responsibility.",
+      "payload": "Not established.",
+      "impact": "No Romanian casualties or damage reported in the reviewed statement.",
+      "provenance": "Reviewed 2026-10-15 for the supplied 14 October 08:52–15 October 09:09 EEST daily check. Greek military figures for 14 October were not independently verified; EU-wide coverage is not exhaustive.",
+      "dateBasis": "MApN dates both entries to 20:04. One target left at 20:13; the radar-loss and subsequent Ukrainian shoot-down times are not specified.",
+      "location": "Romanian airspace over the Black Sea off northeastern Tulcea. One target was later destroyed near Reni in Ukraine.",
+      "status": "Two radar-confirmed entries; one radar contact lost over sea, one target later destroyed in Ukraine",
+      "categories": "Evening aerial-target incursion episode; radar contact loss; subsequent Ukrainian air-defence shoot-down",
+      "vehicle": "Two unidentified aerial targets, suspected UAVs; their exact models and operators are unresolved. This is not a verified numeric UAV count.",
+      "route": "Both entered at 20:04. Radar contact with one was lost over the sea. The other departed at 20:13 toward Vâlcove, then headed toward Reni, where Ukrainian air defence destroyed it.",
+      "circumstances": "A group of targets detected over the Black Sea prompted an alert; two crossed into Romanian airspace. A later possible trajectory toward Galați prompted a second warning.",
+      "response": "Two Spanish F-18s launched. Tulcea RO-Alert at 20:02 and eastern Galați warning at 20:33; all-clear at 21:14. The reported destruction near Reni was by Ukrainian air defence.",
+      "uncertainty": "High confidence in MApN’s reported entries and subsequent outcome; UAV identification and attribution unresolved. Radar loss establishes neither a crash nor a strike on a ship.",
+      "deduplication": "One dated and timed episode involving two targets, not two separate event rows. Cross-reference N086 (YARA J, rescue request at 20:25): a connection to the lost target is unproven, so records remain separate and must not be treated as a verified count of distinct drones.",
+      "classificationNote": "Flight marks the Romanian incursions. The subsequent shoot-down near Reni is retained as a secondary stage outside Romania. Radar loss is not classified as a crash.",
+      "matchKey": "RO::2026-10-14::tulcea-black-sea-2004-two-target-incursion",
+      "page": "events/2026-10-14-evening-two-target-incursion-tulcea-black-sea-romania/"
+    },
+    {
+      "id": "N086",
+      "startDate": "2026-10-14",
+      "dateLabel": "2026-10-14 (rescue request at 20:25 local time)",
+      "countries": "Romania (territorial waters)",
+      "title": "YARA J near Sulina · suspected drone strike and fire",
+      "category": "strike",
+      "stages": [
+        "strike",
+        "explosion"
+      ],
+      "recordClass": "event",
+      "recordType": "suspected_maritime_drone_strike",
+      "sourceReferences": "[U060][U060]; [U061][U061]",
+      "sources": [
+        "U060",
+        "U061"
+      ],
+      "positions": [
+        {
+          "lat": 45.03,
+          "lng": 29.84,
+          "precision": "offshore",
+          "label": "Nine nautical miles east of Câșla Vădanei — approximate reported ship-incident area"
+        }
+      ],
+      "positionNote": "Rounded editorial estimate about nine nautical miles east of the register’s approximate Câșla Vădanei beach anchor; not a verified ship position or maritime-boundary determination.",
+      "attribution": "Drone operator and nationality unresolved; military authorities have not confirmed drone causation. Ship flag and crew nationality do not identify an attacker.",
+      "payload": "No weapon or payload identified. The onboard explosion is reported in the crew account; official fire confirmation does not independently establish drone causation.",
+      "impact": "Fire extinguished; all reported 17 crew safe, with no injuries reported. Extent of structural damage not established; no sinking reported.",
+      "provenance": "Reviewed 2026-10-15 for the supplied 14 October 08:52–15 October 09:09 EEST daily check. Greek military figures for 14 October were not independently verified; EU-wide coverage is not exhaustive.",
+      "dateBasis": "20:25 is the MRCC rescue-request timestamp, not a verified exact attack time. Reports place the incident in the evening of 14 October.",
+      "location": "Black Sea, reported about nine nautical miles east of Câșla Vădanei near Sulina, within Romanian territorial waters according to the reviewed coverage.",
+      "status": "Fire confirmed; crew-reported drone strike and explosion under investigation",
+      "categories": "Suspected aerial-drone strike on merchant shipping; reported onboard explosion; fire extinguished",
+      "vehicle": "YARA J, a Comoros-flagged chemical/products tanker, reportedly with 17 crew aboard. An aerial UAV was alleged by the crew; number and model unconfirmed.",
+      "route": "Vessel was anchored and in ballast near Sulina. No verified drone approach; the defence minister said military radar did not detect a drone heading toward the ship.",
+      "circumstances": "The crew reported an alleged drone hit, explosion and onboard fire. Authorities confirmed that the fire was extinguished and those aboard were safe; the cause remained under examination.",
+      "response": "MRCC requested assistance at 20:25. SAR Apollo departed at 20:31 and was recalled at 21:30 after the crew reported the fire out and no assistance needed.",
+      "uncertainty": "High confidence in the fire and crew safety; drone strike and explosive causation remain allegations pending investigation. No approaching drone detected on military radar. The relation to N085 is unknown.",
+      "deduplication": "One ship-incident record combining the alleged strike, reported blast, fire and response. Cross-reference N085’s 20:04 radar episode; no shared target is established. WINE TRADER’s separate 15 October fire remains watchlist-only because a drone connection has not been established.",
+      "classificationNote": "Red Strike / Explosion for the reported damaging attack and crew-reported blast; neither is presented as official confirmation of drone causation. The confirmed fire and suspected strike stay in one record.",
+      "matchKey": "RO::2026-10-14::yara-j-sulina-ship-fire-alleged-strike",
+      "page": "events/2026-10-14-yara-j-suspected-drone-strike-fire-sulina-romania/"
+    },
+    {
+      "id": "N087",
+      "startDate": "2026-10-15",
+      "dateLabel": "2026-10-15, approximately 01:34–01:35 local time",
+      "countries": "Romania",
+      "title": "Southeast of Sulina · 01:34 drone incursion",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "recordClass": "event",
+      "recordType": "reported_cross_border_incursion",
+      "sourceReferences": "[U059][U059]",
+      "sources": [
+        "U059"
+      ],
+      "positions": [
+        {
+          "lat": 45.06,
+          "lng": 29.82,
+          "precision": "offshore",
+          "label": "Southeast of Sulina — approximate Romanian territorial-water incursion area"
+        }
+      ],
+      "positionNote": "Rounded editorial offshore anchor for the reported area; not a measured radar position, flight track or maritime-boundary determination.",
+      "attribution": "Operator, nationality and model unresolved. Travel through Ukrainian airspace does not establish Ukrainian or Russian responsibility.",
+      "payload": "Not established.",
+      "impact": "No Romanian casualties or damage reported in the reviewed statement.",
+      "provenance": "Reviewed 2026-10-15 for the supplied 14 October 08:52–15 October 09:09 EEST daily check. Greek military figures for 14 October were not independently verified; EU-wide coverage is not exhaustive.",
+      "dateBasis": "MApN explicitly reports drone presence at 01:34 for about one minute, after midnight on 15 October. This is not part of the previous evening’s dated crossings.",
+      "location": "Southeast of Sulina, above Romanian territorial waters; exact radar track unpublished.",
+      "status": "Officially confirmed drone airspace incursion; operator unresolved",
+      "categories": "Brief drone incursion over territorial waters; radar contact lost",
+      "vehicle": "One drone explicitly identified as such by MApN; model unknown.",
+      "route": "Detected in Romanian airspace southeast of Sulina for about one minute, then lost from radar. Launch site, full route and final location unknown.",
+      "circumstances": "During the wider overnight alert near Snake Island, radar recorded a drone in Romanian national airspace at 01:34.",
+      "response": "Spanish F-18s launched during the overnight alert. Romanian F-16s later launched for other targets about 77 km east of Snake Island; a 04:57 RO-Alert followed. MApN reported no other entries in that release; all-clear at 05:46.",
+      "uncertainty": "Official drone identification and national-airspace presence; operator and nationality unconfirmed. Radar disappearance establishes no interception, crash, impact or wreckage recovery.",
+      "deduplication": "One post-midnight incursion, distinct from N083–N085 on 14 October. Later no-entry contacts and the 04:57 warning are retained as response context rather than additional incursions.",
+      "classificationNote": "Flight: official drone presence in Romanian airspace. Radar loss is not a crash or shoot-down.",
+      "reported_UAVs": 1,
+      "matchKey": "RO::2026-10-15::sulina-southeast-0134-incursion",
+      "page": "events/2026-10-15-drone-incursion-southeast-sulina-romania/"
     }
   ],
   "contexts": [
@@ -7646,9 +7823,73 @@ window.DRONE_DATA = {
       "url": "https://www.helsinkitimes.fi/world-int/29384-two-ships-struck-by-drones-in-black-sea-off-bulgaria.html",
       "dateLabel": "13 October 2026",
       "audit": "Read 14 October. Identifies the vessel off Krapets as Guinea-Bissau-flagged HS Dignity, attributes that identification to Bulgaria’s president, and cites Reuters for five rescued and eleven missing with the search continuing. Preserves Ukrainian accusations separately from unresolved Bulgarian attribution. This corroborates the supplied follow-up but is not independent forensic evidence."
+    },
+    "U056": {
+      "id": "U056",
+      "publisher": "Romanian Ministry of National Defence",
+      "title": "Press release No. 329: morning incursion east of Sulina; target later shot down in Ukraine",
+      "url": "https://www.mapn.ro/cpresa/19438_informa%C8%9Bie-de-presa",
+      "dateLabel": "14 October 2026",
+      "audit": "Official release read 15 October. Confirms a brief Romanian-airspace entry, the 10:19 RO-Alert, two Romanian F-16s and an 11:22 all-clear. The target returned to Ukrainian airspace and was shot down there by Ukrainian air defence. Exact entry time, UAV model and operator are not established."
+    },
+    "U057": {
+      "id": "U057",
+      "publisher": "Romanian Ministry of National Defence",
+      "title": "Press release No. 330: 17:38–17:46 incursion northeast of Sulina",
+      "url": "https://www.mapn.ro/cpresa/19439_Informa%C8%9Bie-de-pres%C4%83",
+      "dateLabel": "14 October 2026",
+      "audit": "Official release read 15 October. A distinct afternoon target entered Romanian airspace over territorial waters about 22 km northeast of Sulina at 17:38 and left at 17:46. The 17:39 RO-Alert, two Romanian F-16s and 19:03 all-clear are responses within this episode. No shoot-down or confirmed UAV model is reported."
+    },
+    "U058": {
+      "id": "U058",
+      "publisher": "Romanian Ministry of National Defence",
+      "title": "Press release No. 331: two evening targets enter Romanian airspace; one later destroyed near Reni",
+      "url": "https://www.mapn.ro/cpresa/19440_Informa%C8%9Bie-de-pres%C4%83",
+      "dateLabel": "14 October 2026",
+      "audit": "Official release read 15 October. Two targets entered at 20:04; one was lost from radar over the sea, the other left at 20:13 toward Vâlcove and was later destroyed near Reni by Ukrainian air defence. This reports two targets in one timed episode, not two verified UAVs or a Romanian shoot-down. Radar loss does not establish a crash or a link to YARA J."
+    },
+    "U059": {
+      "id": "U059",
+      "publisher": "Romanian Ministry of National Defence",
+      "title": "Press release No. 332: 01:34 drone incursion southeast of Sulina",
+      "url": "https://www.mapn.ro/cpresa/19441_Informa%C8%9Bie-de-pres%C4%83",
+      "dateLabel": "15 October 2026",
+      "audit": "Official release read 15 October via the ministry’s linked page. Explicitly identifies one drone in Romanian airspace for about a minute at 01:34, then lost from radar. Spanish F-18s launched; Romanian F-16s and the 04:57 RO-Alert followed later contacts farther east of Snake Island. No other crossings reported in this release; all-clear at 05:46. No confirmed crash, interception or operator attribution."
+    },
+    "U060": {
+      "id": "U060",
+      "publisher": "Euronews România",
+      "title": "YARA J fire and alleged drone strike; separate WINE TRADER rescue update",
+      "url": "https://www.euronews.ro/articole/nava-lovita-de-o-drona-in-apele-teritoriale-ale-romaniei-langa-sulina-echipajul-a",
+      "dateLabel": "14 October 2026; live update labelled 15 October, 08:16",
+      "audit": "Read 15 October. Preserves official confirmation of the fire and crew safety, the crew’s alleged drone strike/explosion, and the minister’s statement that no approaching drone was detected. Quotes the 20:25 rescue request, 20:31 SAR Apollo departure and 21:30 recall; 20:25 is not a verified attack time. Its separate WINE TRADER fire/rescue update does not establish drone involvement and is retained only in follow-up notes. Live-page timestamps differ; no UTC conversion is inferred."
+    },
+    "U061": {
+      "id": "U061",
+      "publisher": "Radio România Constanța",
+      "title": "YARA J tanker incident near Sulina; crew safe and cause under investigation",
+      "url": "https://www.radioconstanta.ro/2026/10/14/petrolier-lovit-de-o-drona-in-apele-teritoriale-romanesti-in-rada-portului-sulina/",
+      "dateLabel": "14 October 2026, 23:20; updated 15 October, 07:45",
+      "audit": "Read 15 October. Reports 17 crew, no injuries and an extinguished fire, and quotes the defence minister saying drone causation is being examined and no approaching drone was seen on military radar. Its assertive attack headline and suggested link to the lost radar target are not independent confirmation. Used with U060 to retain that uncertainty."
+    },
+    "U062": {
+      "id": "U062",
+      "publisher": "TVP Info",
+      "title": "Defence minister identifies Karwia debris as a Polish drone destroyed during exercises",
+      "url": "https://www.tvp.info/95924557/dron-na-plazy-w-karwi-mon-potwierdza-to-polski-dron-zestrzelony-na-poligonie-w-czasie-cwiczen",
+      "dateLabel": "14 October 2026, 12:08; updated 12:09",
+      "audit": "Direct page extraction was empty; the indexed article text retrieved on 15 October quotes the defence minister identifying a Polish test drone destroyed during exercises near Ustka weeks earlier. Corroborated by the fully accessible Polish Radio/PAP report U063. Updates N081 to domestic and excluded, preserving the discovery date and original URL."
+    },
+    "U063": {
+      "id": "U063",
+      "publisher": "Polskie Radio 24 / PAP",
+      "title": "Karwia wreckage came from a Polish drone used in exercises near Ustka",
+      "url": "https://polskieradio24.pl/polska/szczatki-drona-na-plazy-w-karwi-szef-mon-uspokaja-to-nie-byla-rosyjska-prowokacja",
+      "dateLabel": "14 October 2026, 15:25",
+      "audit": "Article read 15 October. Reports Władysław Kosiniak-Kamysz’s identification of the wreckage as a Polish drone destroyed by Polish counter-drone systems during tests at Ustka several weeks earlier, then washed ashore. This is a follow-up identification of the 13 October find, not a foreign incursion or a new shoot-down on that date."
     }
   },
-  "cutoff": "2026-10-14",
+  "cutoff": "2026-10-15",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

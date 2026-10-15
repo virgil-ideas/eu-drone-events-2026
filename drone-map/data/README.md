@@ -5,12 +5,13 @@ no database server, credentials or third-party Python packages are required.
 
 | File | Contents |
 | --- | --- |
-| `events.json` | Individual events and provisional/unidentified candidates, including approximate map anchors, outcome stages, uncertainty and source IDs. Ordered by stable ID for editing. |
+| `events.json` | Individual events, provisional/unidentified candidates and excluded records retained for correction pages. Includes approximate map anchors, outcome stages, uncertainty and source IDs. Ordered by stable ID for editing. |
 | `sources.json` | Shared bibliography keyed by source ID: publisher, title, URL, audit notes and the publication-date label when known. |
 | `contexts.json` | Non-additive aggregate/context records. Never counted or mapped as individual events. |
 | `dataset.json` | Schema version, inclusive reporting cutoff and the filenames/SHA-256 hashes of archived research. |
 | `pages.json` | Optional editorial copy for each record's page: URL slug, headline, search description, summary and the hash of the facts it was written from. See [Record page copy](#record-page-copy). |
 | `page-urls.json` | Permanent URL slug for each event ID. The builder registers new URLs here; commit additions with the generated pages. Existing entries must not be changed. |
+| `watchlist.md` | Editorial follow-up leads without an established drone connection, plus coverage gaps. Not an input to map counts, replay, event pages or trends. |
 
 The original Markdown files at the repository root are research snapshots, not
 editable database inputs. Keep them unchanged. The original supplement’s daily
@@ -113,7 +114,7 @@ Required event fields:
 | Fields | Meaning |
 | --- | --- |
 | `id`, `title` | Stable ID and short map/list title. |
-| `recordClass` | `event` or `candidate`. Selected civil-protection alerts can be events without being incursions; unresolved discoveries can be candidates without established foreign origin. Daily summaries and the original supplement’s precautionary alerts remain excluded. |
+| `recordClass` | `event`, `candidate` or `excluded`. Excluded records retain correction pages but are absent from the active map and totals. Selected civil-protection alerts can be events without being incursions; unresolved discoveries can be candidates without established foreign origin. Daily summaries and the original supplement’s precautionary alerts remain outside the map. |
 | `startDate`, `dateLabel`, `dateBasis` | ISO replay date, original human-readable date/range, and explanation of the date used. Optional ISO `endDate` preserves an explicit range. |
 | `countries`, `location` | Original country names (semicolon-separated for multiple countries) and detailed location/scope. |
 | `status`, `categories` | Research wording for status and incident types. These do not automatically determine the map color. |
@@ -131,7 +132,7 @@ a confirmed explosion; it shares the red marker and replay note with `explosion`
 A fighter launch alone does not establish a shoot-down. Confidence and
 attribution remain source-backed prose; the database does not infer them.
 
-Optional event fields: `endDate`, `recordType`, `positionNote`, `reviewedOn`,
+Optional event fields: `endDate`, `recordType`, `positionNote`, `reviewedOn`, `exclusionReason`,
 `sourceFile`, and the retained research fields `importAction`, `normalizedLocality`,
 `matchKey`. Research match keys must be unique when present. `reviewedOn` is an
 editorial date and can be later than the event cutoff. `sourceFile`, when present,
@@ -152,6 +153,27 @@ Contexts require `id` (`A###` or `NA###`), `dateLabel`, `countries`, `status`,
 `vehicle`, `attribution`, `uncertainty`, `deduplication` and `sources`. They can also
 carry the descriptive research fields, `sourceFile`, `reviewedOn` and legacy
 `importAction`. They have no map positions or replay date.
+
+## Excluding a resolved domestic or non-qualifying record
+
+Keep its ID, discovery date and published slug. Set `recordClass` to `excluded`,
+add a source-backed `exclusionReason` and `reviewedOn`, and review its status,
+attribution and page copy. Remove any legacy `importAction`. The reason is required
+for an excluded record and forbidden on active records, to prevent contradictory
+publication state. This is an additive extension of schema version 1.
+
+The builder keeps the correction page at the same URL, with an explicit exclusion
+notice and its sources, and keeps it in the sitemap. It omits the record from
+`dist/events.js`, the active record index, country totals and active-page navigation.
+Therefore the map, replay and trends cannot count it. The correction page links
+back to the current register rather than offering a map marker that no longer
+exists. New evidence can restore the record under its existing ID and URL after
+removing `exclusionReason` and reviewing its class and copy again.
+
+N081 (Karwia) is the first excluded record: Poland identified the discovery as a
+domestic test drone. Its earlier provisional inclusion remains traceable in Git
+and the correction page. A lead that has never qualified, such as WINE TRADER,
+belongs in `watchlist.md` until evidence supports adding a mapped record.
 
 ## Generated files and checks
 

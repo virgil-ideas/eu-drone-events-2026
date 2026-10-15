@@ -98,6 +98,49 @@ class PageTests(unittest.TestCase):
         self.assertEqual(before, self.published())
         self.assertEqual(registry, (self.data_dir / 'page-urls.json').read_bytes())
 
+    def test_exclusion_keeps_correction_url_but_removes_map_and_index_entries(self):
+        self.database['events'].extend([
+            {**self.database['events'][0], 'id': 'E002', 'startDate': '2026-01-03'},
+            {**self.database['events'][0], 'id': 'E003', 'startDate': '2026-01-04'}])
+        self.save()
+        self.save_pages(self.reviewed())
+        self.build()
+        registry = json.loads((self.data_dir / 'page-urls.json').read_text())
+        record = self.database['events'][0]
+        record.update(recordClass='excluded', exclusionReason='Domestic <test> drone.',
+                      reviewedOn='2026-09-25', status='Confirmed domestic')
+        self.save()
+        shutil.rmtree(self.output_dir)
+        _, automatic = self.build()
+        self.assertIn('E001', automatic)  # Old provisional copy must no longer be shown.
+        files = self.published()
+        path = f'events/{registry["E001"]}/index.html'
+        page = files[path].decode()
+        self.assertIn('Excluded from the map and totals.', page)
+        self.assertIn('Domestic &lt;test&gt; drone.', page)
+        self.assertIn('Confirmed domestic', page)
+        self.assertNotIn('Reviewed summary.', page)
+        self.assertNotIn('Show on the interactive map', page)
+        self.assertNotIn(f'href="../../#{registry["E001"]}"', page)
+        self.assertIn(f'events/{registry["E001"]}/', files['sitemap.xml'].decode())
+        index = files['events/index.html'].decode()
+        self.assertIn('all 2 records', index)
+        self.assertNotIn(registry['E001'], index)
+        for event_id in ('E002', 'E003'):
+            active = files[f'events/{registry[event_id]}/index.html'].decode()
+            self.assertNotIn(registry['E001'], active)  # No related/pager entry as an active event.
+            self.assertIn('Show on the interactive map', active)
+        exported = json.loads(files['events.js'].decode()[len('window.DRONE_DATA = '):-2])
+        self.assertEqual([event['id'] for event in exported['events']], ['E002', 'E003'])
+        self.assertEqual(registry, json.loads((self.data_dir / 'page-urls.json').read_text()))
+        self.build(check=True)
+        record['recordClass'] = 'event'
+        del record['exclusionReason']
+        self.save()
+        self.build()
+        self.assertIn('Show on the interactive map', self.published()[path].decode())
+        self.assertEqual(registry, json.loads((self.data_dir / 'page-urls.json').read_text()))
+
     def test_earlier_colliding_record_cannot_take_an_existing_url(self):
         self.save()
         self.build()

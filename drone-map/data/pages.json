@@ -1415,14 +1415,14 @@
   },
   "N081": {
     "slug": "2026-10-13-possible-drone-wreckage-karwia-beach-poland",
-    "headline": "Possible drone wreckage found on Karwia beach, Poland",
-    "description": "An object resembling a drone was found on Karwia beach, Poland, on 13 October 2026. Foreign involvement is unsubstantiated; military investigators are examining it.",
+    "headline": "Karwia beach wreckage identified as a Polish test drone; excluded from register",
+    "description": "The drone wreckage found at Karwia, Poland, on 13 October 2026 was identified as a Polish test drone. This domestic case is excluded from foreign-drone totals.",
     "summary": [
-      "A civilian found an object resembling a drone partly buried in sand on Karwia beach in Puck County on 13 October 2026. The discovery was reported around 18:20–18:30. The object was said to be about two metres long; its exact identification remains pending.",
-      "Police secured the area and Military Gendarmerie personnel and prosecutors began investigating. RMF reported preliminary indications that it might belong to the Polish military. That is not an official identification, and no foreign involvement or border crossing has been established.",
-      "No casualties, damage or controlled detonation were reported in the supplied update. This is a provisional wreckage-discovery record for identification follow-up. The discovery date does not establish when the object flew or fell."
+      "Poland’s defence minister identified the wreckage found on Karwia beach on 13 October 2026 as a Polish test drone. He said it had been destroyed during drone and counter-drone exercises near Ustka several weeks earlier, and that the sea later washed its fragments ashore.",
+      "The discovery was initially recorded here as an unidentified candidate because its origin was unresolved. The official domestic identification reported on 14 October resolves that question. On review on 15 October, the record was removed from the map, replay and foreign-drone totals.",
+      "This page keeps its original address and sources so readers can see the correction. The discovery date remains 13 October; the earlier training destruction is not a new shoot-down on that date. The exact drone model and test date were not disclosed in the reviewed reports."
     ],
-    "basis": "5e37250cfb0e4b09"
+    "basis": "2b0dfbad9c7e3e68"
   },
   "N082": {
     "slug": "2026-10-14-ro-alert-northern-tulcea-romania-no-airspace-entry",
@@ -1434,5 +1434,60 @@
       "The register includes this as one civil-protection alert and response, not a foreign incursion. No strike, shoot-down, casualties, damage or wreckage were reported. Its map marker represents the Romanian warning area, not a drone position."
     ],
     "basis": "f2b25c0f34052b2e"
+  },
+  "N083": {
+    "slug": "2026-10-14-morning-airspace-incursion-east-sulina-romania",
+    "headline": "Aerial target enters Romania near Sulina, then is shot down in Ukraine",
+    "description": "A target briefly entered Romanian airspace east of Sulina on 14 October 2026, then was shot down in Ukraine. Drone identity and operator remain unresolved.",
+    "summary": [
+      "Romania’s Defence Ministry reported a brief morning incursion east of Sulina on 14 October 2026. A 10:19 RO-Alert warned residents in northern and eastern Tulcea, and two Romanian F-16s launched. Exact entry time was not given.",
+      "The unidentified target returned to Ukrainian airspace, where Ukrainian air defence shot it down, according to the ministry. The Romanian map marker identifies the incursion area, not the later shoot-down site. Its UAV identity and operator remain unresolved.",
+      "The all-clear came at 11:22. This is separate from the 06:39 alert that involved no Romanian entry and from the afternoon and evening incursions. No Romanian casualties or damage were reported."
+    ],
+    "basis": "e63023fe4e48d98a"
+  },
+  "N084": {
+    "slug": "2026-10-14-afternoon-airspace-incursion-northeast-sulina-romania",
+    "headline": "Aerial target spends eight minutes in Romanian airspace northeast of Sulina",
+    "description": "An unidentified aerial target entered Romanian airspace northeast of Sulina from 17:38 to 17:46 on 14 October 2026. Its operator and UAV identity are unresolved.",
+    "summary": [
+      "Romanian radar tracked an unidentified target entering national airspace at 17:38 on 14 October 2026, about 22 km northeast of Sulina over territorial waters. It departed at 17:46.",
+      "Two Romanian F-16s launched and a RO-Alert was issued at 17:39. The air alert ended at 19:03. No weapons engagement, shoot-down, damage or casualties were reported.",
+      "This is a separate afternoon incursion. The official statement establishes the crossing and duration, while identification as a UAV, its model and operator remain unresolved."
+    ],
+    "basis": "02bcbe9b61994afb"
+  },
+  "N085": {
+    "slug": "2026-10-14-evening-two-target-incursion-tulcea-black-sea-romania",
+    "headline": "Two aerial targets enter Romania off Tulcea; one later destroyed near Reni",
+    "description": "Two targets entered Romanian airspace at 20:04 on 14 October 2026. One vanished from radar at sea; the other was later destroyed in Ukraine. Attribution is unknown.",
+    "summary": [
+      "Two aerial targets entered Romanian airspace over the Black Sea at 20:04 on 14 October 2026, according to the Defence Ministry. Contact with one was lost over the sea; the other left at 20:13 toward Vâlcove and was later destroyed by Ukrainian air defence near Reni.",
+      "Two Spanish F-18s launched. Warnings were issued for Tulcea at 20:02 and eastern Galați at 20:33; the all-clear came at 21:14. The targets’ models and operators remain unresolved.",
+      "Both targets are retained in one timed incursion record. Radar loss does not prove a crash or a strike on YARA J, whose separate incident is recorded as N086. A connection remains unproven, and the records should not be interpreted as a verified count of distinct drones."
+    ],
+    "basis": "fdb7a1fadac5bf5c"
+  },
+  "N086": {
+    "slug": "2026-10-14-yara-j-suspected-drone-strike-fire-sulina-romania",
+    "headline": "YARA J reports suspected drone strike and fire near Sulina; crew safe",
+    "description": "YARA J reported a suspected drone strike and fire near Sulina on 14 October 2026. Its crew were safe; authorities had not confirmed drone causation.",
+    "summary": [
+      "The Comoros-flagged tanker YARA J reported an onboard fire near Sulina on the evening of 14 October 2026. Its crew alleged a drone strike and explosion. The fire was extinguished and all reported 17 crew were safe.",
+      "The incident was reported about nine nautical miles east of Câșla Vădanei, in Romanian territorial waters. MRCC requested assistance at 20:25; that is a rescue timestamp, not an exact verified strike time. SAR Apollo departed at 20:31 and was recalled at 21:30 after the crew said help was no longer needed.",
+      "Authorities confirmed the fire, but drone causation remained under investigation. The defence minister said military radar had not detected a drone approaching the vessel. No operator has been identified, and a connection to the 20:04 incursions in N085 remains unproven. The alleged strike, fire and response are kept together as one record."
+    ],
+    "basis": "561643f506b04fe9"
+  },
+  "N087": {
+    "slug": "2026-10-15-drone-incursion-southeast-sulina-romania",
+    "headline": "Drone briefly enters Romanian airspace southeast of Sulina at 01:34",
+    "description": "Romania’s Defence Ministry reported a drone in national airspace southeast of Sulina at 01:34 on 15 October 2026. It vanished from radar; its operator is unknown.",
+    "summary": [
+      "A drone was detected in Romanian airspace over territorial waters southeast of Sulina at 01:34 on 15 October 2026. The Defence Ministry said it remained visible for about one minute before disappearing from radar.",
+      "Spanish F-18s launched during the overnight alert. Romanian F-16s were later deployed for other contacts farther east of Snake Island, followed by a 04:57 warning. The release reported no further entries and an all-clear at 05:46.",
+      "This is a separate post-midnight incursion. The drone’s model and operator are unknown. Loss of radar contact does not establish a shoot-down, crash or impact; none was confirmed in the reviewed statement."
+    ],
+    "basis": "4cc1c80091257aae"
   }
 }

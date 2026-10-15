@@ -158,6 +158,31 @@ class DatabaseTests(unittest.TestCase):
         with self.assertRaisesRegex(DataError, 'duplicate anchor'):
             self.validate()
 
+    def test_excluded_records_are_retained_but_never_exported_to_the_map(self):
+        record = self.database['events'][0]
+        record.update(recordClass='excluded', exclusionReason='Identified as domestic.',
+                      reviewedOn='2026-09-25')
+        self.validate()
+        self.assertEqual(browser_data(self.database)['events'], [])
+        self.assertEqual(self.database['events'][0]['id'], 'E001')
+
+    def test_exclusion_requires_a_reason_and_review_date(self):
+        record = self.database['events'][0]
+        record['recordClass'] = 'excluded'
+        with self.assertRaisesRegex(DataError, 'exclusionReason'):
+            self.validate()
+        record['exclusionReason'] = 'Identified as domestic.'
+        with self.assertRaisesRegex(DataError, 'reviewedOn'):
+            self.validate()
+        record['reviewedOn'] = '2026-09-25'
+        record['importAction'] = 'ADD_EVENT'
+        with self.assertRaisesRegex(DataError, 'legacy import action'):
+            self.validate()
+        del record['importAction']
+        record['recordClass'] = 'event'
+        with self.assertRaisesRegex(DataError, 'only excluded'):
+            self.validate()
+
     def test_reported_counts_are_optional_and_do_not_multiply_events(self):
         exported = browser_data(self.validate())['events']
         self.assertNotIn('reported_UAVs', exported[0])

@@ -3,7 +3,7 @@ import argparse
 import json
 from pathlib import Path
 
-from database import DataError, load_database, render_events
+from database import DataError, load_database, mapped_events, render_events
 from pages import automatic_ids, load_pages, load_page_urls, page_slugs, read_media, render_site
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -69,7 +69,7 @@ def main():
         database, automatic = build(check=args.check)
     except (DataError, OSError) as error:
         parser.exit(1, f'Data error: {error}\n')
-    print(f"{'Checked' if args.check else 'Built'} {len(database['events'])} dated records, "
+    print(f"{'Checked' if args.check else 'Built'} {len(mapped_events(database))} mapped records, "
           f"{len(database['contexts'])} context records, {len(database['sources'])} sources "
           f"and {len(database['events'])} event pages.")
     if automatic:
