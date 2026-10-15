@@ -207,9 +207,9 @@
   // landmark.js; positions are approximate and the illustration is not to scale.
   const AREAS = [{id:'neptun-deep', name:'Neptun Deep', lat:44.044, lng:30.58, text:'area.neptunDeep', match:/Neptun Deep/}];
   map.createPane('areas').style.zIndex = 450;
-  // At overview zooms the halo is about 28px across, like an event marker.
+  // At overview zooms the halo is about 41px across, 1.5 times an event marker.
   // Grow with the map only once zoomed in, up to the full platform illustration.
-  const areaSize = () => Math.min(132, 22 * 2 ** Math.max(0, map.getZoom() - 6));
+  const areaSize = () => Math.min(132, 33 * 2 ** Math.max(0, map.getZoom() - 6));
   const areaMarkers = AREAS.map(area => {
     const marker = L.marker([area.lat,area.lng], {pane:'areas', keyboard:true, icon:L.divIcon({
       className:'area-marker', iconSize:[0,0],
