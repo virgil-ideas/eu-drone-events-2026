@@ -77,7 +77,7 @@ The fetcher skips blocked pages (Reuters and AP currently block it), rejects log
 
 Neptun Deep, Romania's offshore gas project about 80 nautical miles east of Constanța, is marked as an area of interest: a small animated 3D illustration of its production platform with a halo, drawn under the record markers so they stay clickable. Selecting it opens a card listing the records whose location names the site, with each record's distance wording in bold (E047: "few hundred metres from Neptun Deep works"), and puts `#neptun-deep` in the address. The illustration is not to scale and its position is approximate: the platform's exact location is not published, so it uses the project's published reference point. Areas are configured in `AREAS` in `app.js`; records join an area when their `location` matches its pattern.
 
-The model is built from simple shapes and drawn with plain WebGL by `dist/landmark.js`, without a 3D library. It animates only while visible, stays still for visitors who prefer reduced motion, and falls back to the halo and label if WebGL is unavailable.
+The model is built from simple shapes and drawn with plain WebGL by `dist/landmark.js`, without a 3D library. At overview zooms its footprint is about 28 pixels across, matching an event marker; it grows with closer zooms to reveal the full illustration. The label and expanding halo appear from zoom 7. It animates only while visible, stays still for visitors who prefer reduced motion, and falls back to the halo and label if WebGL is unavailable.
 
 ## Record pages
 

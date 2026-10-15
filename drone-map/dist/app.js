@@ -207,7 +207,9 @@
   // landmark.js; positions are approximate and the illustration is not to scale.
   const AREAS = [{id:'neptun-deep', name:'Neptun Deep', lat:44.044, lng:30.58, text:'area.neptunDeep', match:/Neptun Deep/}];
   map.createPane('areas').style.zIndex = 450;
-  const areaSize = () => { const zoom = map.getZoom(); return zoom < 5 ? 58 : zoom < 6 ? 72 : zoom < 7 ? 92 : zoom < 8 ? 116 : 132; };
+  // At overview zooms the halo is about 28px across, like an event marker.
+  // Grow with the map only once zoomed in, up to the full platform illustration.
+  const areaSize = () => Math.min(132, 22 * 2 ** Math.max(0, map.getZoom() - 6));
   const areaMarkers = AREAS.map(area => {
     const marker = L.marker([area.lat,area.lng], {pane:'areas', keyboard:true, icon:L.divIcon({
       className:'area-marker', iconSize:[0,0],
@@ -218,10 +220,11 @@
     const entry = {area, marker, resize() {
       const element = marker.getElement();
       if (!element) return;
-      element.style.setProperty('--area-size', `${areaSize()}px`);
-      // The overview is crowded along the Romanian coast; name the site from zoom 6.
-      element.classList.toggle('compact', map.getZoom() < 6);
-      model?.resize(areaSize());
+      const size = areaSize();
+      element.style.setProperty('--area-size', `${size}px`);
+      // Keep the label and expanding halo out of the crowded overview.
+      element.classList.toggle('compact', map.getZoom() < 7);
+      model?.resize(size);
     }};
     // Leaflet creates the icon once the map has a view.
     marker.on('add', () => {
