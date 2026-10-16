@@ -5891,16 +5891,18 @@ window.DRONE_DATA = {
       "startDate": "2026-10-14",
       "dateLabel": "2026-10-14 (rescue request at 20:25 local time)",
       "countries": "Romania (territorial waters)",
-      "title": "YARA J near Sulina · suspected drone strike and fire",
+      "title": "YARA J near Sulina · Drone strike and fire",
       "category": "strike",
       "stages": [
         "strike",
         "explosion"
       ],
       "recordClass": "event",
-      "recordType": "suspected_maritime_drone_strike",
-      "sourceReferences": "[U060][U060]; [U061][U061]",
+      "recordType": "reported_maritime_drone_strike",
+      "sourceReferences": "[U066][U066]; [U067][U067]; [U060][U060]; [U061][U061]",
       "sources": [
+        "U066",
+        "U067",
         "U060",
         "U061"
       ],
@@ -5913,23 +5915,67 @@ window.DRONE_DATA = {
         }
       ],
       "positionNote": "Rounded editorial estimate about nine nautical miles east of the register’s approximate Câșla Vădanei beach anchor; not a verified ship position or maritime-boundary determination.",
-      "attribution": "Drone operator and nationality unresolved; military authorities have not confirmed drone causation. Ship flag and crew nationality do not identify an attacker.",
-      "payload": "No weapon or payload identified. The onboard explosion is reported in the crew account; official fire confirmation does not independently establish drone causation.",
+      "attribution": "Russian-origin drones, according to a NATO military source cited by Reuters. Romania’s president confirmed the drone attacks on YARA J and WINE TRADER but did not establish state responsibility. The NATO source’s origin assessment is prominent; the specific operator and model are not established in the reviewed reporting.",
+      "payload": "Weapon and payload not identified. An onboard explosion was reported by the crew and described at the superstructure in the defence minister’s later account.",
       "impact": "Fire extinguished; all reported 17 crew safe, with no injuries reported. Extent of structural damage not established; no sinking reported.",
-      "provenance": "Reviewed 2026-10-15 for the supplied 14 October 08:52–15 October 09:09 EEST daily check. Greek military figures for 14 October were not independently verified; EU-wide coverage is not exhaustive.",
+      "provenance": "Added 2026-10-15 from the initial crew and official fire reports (U060–U061). Reviewed 2026-10-16 for the supplied 15 October 09:09–16 October 09:26 EEST watch window using Reuters and the minister’s later account (U066–U067). Upgrades drone causation and records the NATO source’s Russian-origin assessment without creating another event.",
       "dateBasis": "20:25 is the MRCC rescue-request timestamp, not a verified exact attack time. Reports place the incident in the evening of 14 October.",
       "location": "Black Sea, reported about nine nautical miles east of Câșla Vădanei near Sulina, within Romanian territorial waters according to the reviewed coverage.",
-      "status": "Fire confirmed; crew-reported drone strike and explosion under investigation",
-      "categories": "Suspected aerial-drone strike on merchant shipping; reported onboard explosion; fire extinguished",
-      "vehicle": "YARA J, a Comoros-flagged chemical/products tanker, reportedly with 17 crew aboard. An aerial UAV was alleged by the crew; number and model unconfirmed.",
-      "route": "Vessel was anchored and in ballast near Sulina. No verified drone approach; the defence minister said military radar did not detect a drone heading toward the ship.",
-      "circumstances": "The crew reported an alleged drone hit, explosion and onboard fire. Authorities confirmed that the fire was extinguished and those aboard were safe; the cause remained under examination.",
+      "status": "Drone strike confirmed by Romania’s president; Russian origin assessed by a NATO military source",
+      "categories": "Aerial-drone strike on merchant shipping; reported onboard explosion; fire extinguished",
+      "vehicle": "YARA J, a Comoros-flagged chemical/products tanker, reportedly with 17 crew aboard. Aerial drone strike confirmed by the Romanian president; drone number and model unconfirmed.",
+      "route": "Vessel was anchored and in ballast near Sulina. No verified drone approach track. The minister initially said radar had not detected an approaching drone; later reporting confirms the attack without supplying a track.",
+      "circumstances": "The crew reported a drone hit, explosion and onboard fire on 14 October. On 15 October Romania’s president confirmed drone strikes on this tanker and WINE TRADER. Reuters cited a NATO military source assessing the attacking drones as Russian in origin.",
       "response": "MRCC requested assistance at 20:25. SAR Apollo departed at 20:31 and was recalled at 21:30 after the crew reported the fire out and no assistance needed.",
-      "uncertainty": "High confidence in the fire and crew safety; drone strike and explosive causation remain allegations pending investigation. No approaching drone detected on military radar. The relation to N085 is unknown.",
-      "deduplication": "One ship-incident record combining the alleged strike, reported blast, fire and response. Cross-reference N085’s 20:04 radar episode; no shared target is established. WINE TRADER’s separate 15 October fire remains watchlist-only because a drone connection has not been established.",
-      "classificationNote": "Red Strike / Explosion for the reported damaging attack and crew-reported blast; neither is presented as official confirmation of drone causation. The confirmed fire and suspected strike stay in one record.",
+      "uncertainty": "The later presidential confirmation supersedes the initial uncertainty about drone causation. Russian origin is attributed to the NATO military source; a specific operator, model and approach track remain unestablished. The relationship to N085’s lost radar contact remains unknown.",
+      "deduplication": "One ship-incident record combining strike, reported blast, fire and response. Updates N086 in place, preserving its date, ID and URL. Cross-reference N085’s 20:04 radar episode; no shared target is established. WINE TRADER (N090) and Sea Destiny (N089) are separate vessel incidents.",
+      "classificationNote": "Red Strike / Explosion for the damaging drone attack and reported onboard blast. The strike, fire and rescue response remain one event. Russian origin is explicitly attributed to the NATO source.",
       "matchKey": "RO::2026-10-14::yara-j-sulina-ship-fire-alleged-strike",
       "page": "events/2026-10-14-yara-j-suspected-drone-strike-fire-sulina-romania/"
+    },
+    {
+      "provenance": "Added and reviewed 2026-10-16 for the supplied 15 October 09:09–16 October 09:26 EEST daily check. Original research snapshots unchanged.",
+      "id": "N089",
+      "title": "Sea Destiny near Sulina · Suspected attempted drone attack",
+      "recordClass": "candidate",
+      "recordType": "suspected_maritime_drone_attack",
+      "startDate": "2026-10-14",
+      "endDate": "2026-10-15",
+      "dateLabel": "Night of 14–15 October 2026",
+      "dateBasis": "Reported as part of the overnight 14–15 October ship incidents. Exact time and calendar date of the nearby explosion are unresolved; replay uses the first date of the range.",
+      "countries": "Romania (territorial waters)",
+      "location": "Black Sea, Romanian territorial waters near Sulina; exact vessel and explosion positions unpublished.",
+      "status": "NATO-reported targeting; nearby explosion reported by the ship, with no damage; drone causation unresolved",
+      "categories": "Suspected attempted drone attack against merchant shipping; nearby explosion; no reported hit",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.12,
+          "lng": 29.83,
+          "precision": "offshore",
+          "label": "Romanian waters near Sulina — broad representative ship-incident area"
+        }
+      ],
+      "positionNote": "Rounded editorial anchor for the reported offshore Sulina area, not a measured ship or explosion position. Territorial-water status follows the reporting rather than a boundary calculation from this anchor.",
+      "vehicle": "Sea Destiny, Marshall Islands-flagged bulk carrier. Aerial UAV suspected; weapon identity, number and model unconfirmed.",
+      "attribution": "NATO named Sea Destiny as an additional targeted vessel. Operator and nationality unresolved for this incident. The Russian-origin assessment reported for YARA J and WINE TRADER does not specifically identify the source of the explosion near Sea Destiny.",
+      "route": "Vessel reported inside Romanian territorial waters; no verified drone approach or crossing track.",
+      "circumstances": "Reuters reports a NATO statement naming Sea Destiny among additional targeted ships. Romania’s defence minister said the vessel reported an explosion within visual range and was unaffected. A drone-caused blast or hit on the vessel has not been confirmed.",
+      "payload": "Source and type of the nearby explosion unestablished; no verified drone payload.",
+      "impact": "No damage or casualties reported. The vessel was not reported hit, on fire or sunk.",
+      "response": "No interception, drone recovery or EOD operation confirmed for this vessel.",
+      "uncertainty": "Provisional maritime incident: NATO’s targeting report and the ship’s nearby-explosion account support inclusion, but do not establish a successful strike, drone causation or operator. Exact timing and location remain unpublished.",
+      "deduplication": "One incident for Sea Destiny, separate from YARA J (N086) and WINE TRADER (N090). Dania J at Izmail, Ukraine, is outside EU scope and is not added. The minister’s recap of existing airspace episodes is not counted again.",
+      "classificationNote": "Alert / other for a suspected attempted attack with no confirmed hit or damage. The nearby explosion is retained in the details without assigning an onboard explosion or damaging-strike outcome.",
+      "sourceReferences": "[U066][U066]; [U067][U067]",
+      "sources": [
+        "U066",
+        "U067"
+      ],
+      "page": "events/2026-10-14-sea-destiny-suspected-drone-attack-sulina-romania/"
     },
     {
       "id": "N087",
@@ -5974,6 +6020,98 @@ window.DRONE_DATA = {
       "reported_UAVs": 1,
       "matchKey": "RO::2026-10-15::sulina-southeast-0134-incursion",
       "page": "events/2026-10-15-drone-incursion-southeast-sulina-romania/"
+    },
+    {
+      "provenance": "Added and reviewed 2026-10-16 for the supplied 15 October 09:09–16 October 09:26 EEST daily check. Original research snapshots unchanged.",
+      "id": "N088",
+      "title": "Northeastern / southeastern Aegean · Greek-reported Turkish UAVs",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-10-15",
+      "dateLabel": "2026-10-15",
+      "dateBasis": "Activity on 15 October, reported that evening; individual sortie times unpublished.",
+      "countries": "Greece",
+      "location": "Northeastern / southeastern Aegean; exact sites unpublished.",
+      "status": "Greek-authority-reported Turkish UAV airspace violations",
+      "categories": "4 reported national-airspace violations and 11 Athens FIR infringements by 6 UAVs",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 38.5,
+          "lng": 26.0,
+          "precision": "region",
+          "label": "Northeastern / southeastern Aegean — broad representative anchor"
+        }
+      ],
+      "positionNote": "Same regional anchor as comparable dated activity reports; not a verified violation point, flight track or airspace boundary. Overlapping markers are not shifted.",
+      "vehicle": "6 Turkish military UAVs according to Greek military reporting; models unspecified.",
+      "attribution": "Turkish military UAVs according to GEETHA, as reproduced by NewsIT and ProtoThema. The national-airspace violation assessment remains attributed to Greece given the Greek-Turkish airspace dispute.",
+      "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+      "circumstances": "The Greek military account records six UAVs, four national-airspace violations and eleven Athens FIR infringements. NewsIT and ProtoThema reproduce the same figures. These count aircraft and two different classifications of activity.",
+      "payload": "Armament and payload not established.",
+      "impact": "No crash, casualties, damage or EOD operation reported.",
+      "response": "All six UAVs identified and intercepted under standard procedures; no weapons engagements or shoot-downs reported.",
+      "uncertainty": "High confidence in the published Greek military account. The original GEETHA bulletin was not retrieved directly; agreement between media reports does not independently verify the tracks or disputed airspace assessment.",
+      "deduplication": "One dated activity record, separate from other October dates. The 6/4/11 counts are not summed or expanded into separate event rows.",
+      "classificationNote": "Flight: routine interception does not establish armed engagement.",
+      "reported_UAVs": 6,
+      "reported_airspace_violations": 4,
+      "reported_FIR_infractions": 11,
+      "sourceReferences": "[U064][U064]; [U065][U065]",
+      "sources": [
+        "U064",
+        "U065"
+      ],
+      "page": "events/2026-10-15-turkish-uav-activity-aegean-greece/"
+    },
+    {
+      "provenance": "Added and reviewed 2026-10-16 for the supplied 15 October 09:09–16 October 09:26 EEST daily check. Original research snapshots unchanged.",
+      "id": "N090",
+      "title": "WINE TRADER off Sulina · Drone strike and fire",
+      "recordClass": "event",
+      "recordType": "reported_offshore_drone_strike",
+      "startDate": "2026-10-15",
+      "dateLabel": "2026-10-15 (rescue request at 06:58 local time)",
+      "dateBasis": "Morning of 15 October. ARSVOM’s 06:58 rescue request and SAR Apollo’s 07:10 departure are response timestamps, not verified attack times; the Naval Authority rounds the distress call to about 07:00.",
+      "countries": "Romania (offshore, outside territorial waters)",
+      "location": "Black Sea, about 13 nautical miles southeast of Sulina, just outside Romanian territorial waters.",
+      "status": "Drone strike confirmed by Romania’s president; Russian origin assessed by a NATO military source; five rescued and seven missing",
+      "categories": "Aerial-drone strike on merchant shipping; fire; search and rescue",
+      "category": "strike",
+      "stages": [
+        "strike"
+      ],
+      "positions": [
+        {
+          "lat": 45.0,
+          "lng": 29.91,
+          "precision": "offshore",
+          "label": "About 13 nautical miles southeast of Sulina — approximate offshore anchor"
+        }
+      ],
+      "positionNote": "Rounded editorial estimate from the reported southeast bearing and distance from Sulina; not a measured vessel position or maritime-boundary determination. Included within the register’s offshore coverage.",
+      "vehicle": "WINE TRADER, San Marino-flagged chemical tanker with twelve crew; reportedly carrying no cargo. Aerial drone model and number unspecified. Flag does not establish crew nationality or ownership.",
+      "attribution": "Russian-origin drones, according to a NATO military source cited by Reuters. Romania’s president confirmed the drone attacks on WINE TRADER and YARA J but did not establish state responsibility. The specific operator and model are not established in the reviewed reporting.",
+      "route": "Tanker reportedly bound for Moldova. No verified drone approach track. The incident occurred just outside Romanian territorial waters and is not a confirmed sovereign-territory incursion.",
+      "circumstances": "Initially retained as an unexplained fire in the 15 October morning watchlist. Later reporting confirmed a drone attack and updated the rescue figures. Reuters places the ship about 13 nautical miles southeast of Sulina, just outside territorial waters; the attack, fire and rescue form one occurrence.",
+      "payload": "Drone payload unestablished. A fire and damaging strike are reported, without a separately established explosion finding for this ship.",
+      "impact": "Twelve crew: five rescued and seven missing. Initial medical assessment reported scalp burns in one survivor and mild smoke inhalation in another; the other three had no visible traumatic injuries. All five were stable and taken to hospital. Fire damaged the vessel; final condition and damage extent remain unconfirmed. No confirmed sinking or death total; missing crew are not presumed dead.",
+      "response": "MRCC-coordinated rescue. SAR Apollo departed at 07:10 after the 06:58 request; helicopters and rescue vessels were deployed. Five crew were evacuated by helicopter, and search preparations continued for the seven missing. Heavy seas complicated operations and forced a smaller Coast Guard craft to withdraw.",
+      "uncertainty": "The presidential confirmation and NATO source’s assessment supersede the initial fire-only lead. Russian origin remains explicitly attributed to that source, without a verified operator or model. The five-rescued/seven-missing figures supersede earlier eight-missing reporting and are a reporting-time snapshot, not a final casualty count.",
+      "deduplication": "Promoted from watchlist.md to one new mapped record, N090. Keep the strike, fire, injuries and rescue together. Separate from YARA J (N086), Sea Destiny (N089) and the earlier Bulgarian attacks. The Wide Trader spelling in U067 refers to this vessel, not a second event.",
+      "classificationNote": "Red Strike for a damaging drone attack, without inferring a confirmed explosion or sinking. Offshore proximity supports inclusion; it does not turn the location into Romanian territorial waters.",
+      "sourceReferences": "[U066][U066]; [U068][U068]; [U069][U069]; [U067][U067]; [U060][U060]",
+      "sources": [
+        "U066",
+        "U068",
+        "U069",
+        "U067",
+        "U060"
+      ],
+      "page": "events/2026-10-15-wine-trader-drone-strike-fire-sulina-romania/"
     }
   ],
   "contexts": [
@@ -7862,7 +8000,7 @@ window.DRONE_DATA = {
       "title": "YARA J fire and alleged drone strike; separate WINE TRADER rescue update",
       "url": "https://www.euronews.ro/articole/nava-lovita-de-o-drona-in-apele-teritoriale-ale-romaniei-langa-sulina-echipajul-a",
       "dateLabel": "14 October 2026; live update labelled 15 October, 08:16",
-      "audit": "Read 15 October. Preserves official confirmation of the fire and crew safety, the crew’s alleged drone strike/explosion, and the minister’s statement that no approaching drone was detected. Quotes the 20:25 rescue request, 20:31 SAR Apollo departure and 21:30 recall; 20:25 is not a verified attack time. Its separate WINE TRADER fire/rescue update does not establish drone involvement and is retained only in follow-up notes. Live-page timestamps differ; no UTC conversion is inferred."
+      "audit": "Read 15 October. Preserves official confirmation of the fire and crew safety, the crew’s alleged drone strike/explosion, and the minister’s statement that no approaching drone was detected. Quotes the 20:25 rescue request, 20:31 SAR Apollo departure and 21:30 recall; 20:25 is not a verified attack time. Its separate WINE TRADER fire/rescue update does not establish drone involvement and was initially retained only in follow-up notes. WINE TRADER was promoted to N090 on 16 October following later strike reporting (U066–U069). Live-page timestamps differ; no UTC conversion is inferred."
     },
     "U061": {
       "id": "U061",
@@ -7887,9 +8025,57 @@ window.DRONE_DATA = {
       "url": "https://polskieradio24.pl/polska/szczatki-drona-na-plazy-w-karwi-szef-mon-uspokaja-to-nie-byla-rosyjska-prowokacja",
       "dateLabel": "14 October 2026, 15:25",
       "audit": "Article read 15 October. Reports Władysław Kosiniak-Kamysz’s identification of the wreckage as a Polish drone destroyed by Polish counter-drone systems during tests at Ustka several weeks earlier, then washed ashore. This is a follow-up identification of the 13 October find, not a foreign incursion or a new shoot-down on that date."
+    },
+    "U064": {
+      "id": "U064",
+      "publisher": "NewsIT",
+      "title": "Νέες προκλήσεις από την Τουρκία στο Αιγαίο με παραβιάσεις από UAV",
+      "url": "https://www.newsit.gr/ellada/nees-prokliseis-apo-tin-tourkia-sto-aigaio-me-paraviaseis-apo-uav/4799292/",
+      "dateLabel": "15 October 2026, 19:47",
+      "audit": "Read 16 October. Reproduces Greek military figures for 15 October: six Turkish UAVs, four reported national-airspace violations and eleven Athens FIR infringements in the northeastern and southeastern Aegean. Reports identification/interception without engagements. GEETHA’s original bulletin was not retrieved directly; these are different quantities within one dated activity record."
+    },
+    "U065": {
+      "id": "U065",
+      "publisher": "ProtoThema",
+      "title": "Τέσσερις παραβιάσεις από τουρκικά UAV στο Αιγαίο",
+      "url": "https://www.protothema.gr/greece/article/1895552/tesseris-paraviaseis-apo-tourkika-uav-sto-aigaio/",
+      "dateLabel": "15 October 2026, 19:13",
+      "audit": "Read 16 October. Independently published reproduction of the same Greek military account agrees with NewsIT on six UAVs, four national-airspace violations and eleven FIR infringements, with no engagements. Agreement between reports is not independent verification of the flight tracks or the disputed airspace assessment."
+    },
+    "U066": {
+      "id": "U066",
+      "publisher": "Reuters",
+      "title": "Seven sailors missing after drones hit two ships near Romania",
+      "url": "https://www.reuters.com/world/two-ships-ablaze-romanian-black-sea-waters-8-sailors-missing-2026-10-15/",
+      "dateLabel": "15 October 2026; updated article reviewed 16 October",
+      "audit": "Full article read in browser 16 October. Reports the Romanian president’s confirmation of drone strikes on YARA J and WINE TRADER and an unnamed NATO military source’s assessment that the drones were of Russian origin. The source’s quotation places both ships inside territorial waters, but Reuters distinguishes YARA J inside from WINE TRADER about 13 nautical miles southeast of Sulina, just outside. Updated WINE TRADER figures are five rescued and seven missing; the older eight-missing URL is not the current count. A separate NATO statement names Sea Destiny as another targeted vessel inside Romanian waters and Dania J at Izmail, Ukraine. The tanker-specific Russian-origin assessment is not transferred to Sea Destiny, and no conclusive operator or model is established."
+    },
+    "U067": {
+      "id": "U067",
+      "publisher": "AGERPRES",
+      "title": "DefMin Miruta: Black Sea security issue is of regional scope, 6 incidents reported over past 24 hours",
+      "url": "https://agerpres.ro/english/2026/10/15/defmin-miruta-black-sea-security-issue-is-of-regional-scope-6-incidents-reported-over-past-24-hours--1603583",
+      "dateLabel": "15 October 2026, 16:47",
+      "audit": "Read 16 October. Quotes the defence minister: Sea Destiny reported an explosion within visual range but was unaffected; YARA J had an explosion at its superstructure inside territorial waters; the other tanker was attacked outside territorial waters. The article’s Wide Trader spelling refers to WINE TRADER in this context, not a separate ship. Its recap of three airspace episodes does not create additional events."
+    },
+    "U068": {
+      "id": "U068",
+      "publisher": "AGERPRES",
+      "title": "Five crew members from Wine Trader rescued, seven others remain missing",
+      "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603294",
+      "dateLabel": "15 October 2026, 13:54",
+      "audit": "Read 16 October. Romanian Naval Authority account: San Marino-flagged WINE TRADER, twelve crew, five rescued and seven missing, fire about 13 nautical miles southeast of Sulina, distress call around 07:00. Vessel reportedly had no cargo. The rescue timestamp is not a verified attack time; missing crew are not confirmed dead."
+    },
+    "U069": {
+      "id": "U069",
+      "publisher": "Radio România Constanța / IGSU",
+      "title": "IGSU: 5 marinari de pe nava WINE TRADER, avariată în largul Mării Negre, au ajuns la SCJU. Ceilalţi 7 membri ai echipajului sunt căutați în continuare",
+      "url": "https://www.radioconstanta.ro/2026/10/15/igsu-5-marinari-de-pe-nava-wine-trader-avariata-in-largul-marii-negre-au-ajuns-la-scju-ceilalti-7-membri-ai-echipajului-sunt-cautati-in-continuare/",
+      "dateLabel": "15 October 2026, 16:03",
+      "audit": "Read 16 October. Quotes IGSU on five rescued crew transported to hospital: one with scalp burns, one with mild smoke inhalation, three without visible traumatic injuries; all were stable. Describes continued search preparations and adverse weather. Its then-unconfirmed drone-causation wording is retained as the article’s reporting-time position, superseded for the register by the president’s confirmation in U066; this source supports medical and rescue details."
     }
   },
-  "cutoff": "2026-10-15",
+  "cutoff": "2026-10-16",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

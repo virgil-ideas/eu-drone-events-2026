@@ -1470,14 +1470,14 @@
   },
   "N086": {
     "slug": "2026-10-14-yara-j-suspected-drone-strike-fire-sulina-romania",
-    "headline": "YARA J reports suspected drone strike and fire near Sulina; crew safe",
-    "description": "YARA J reported a suspected drone strike and fire near Sulina on 14 October 2026. Its crew were safe; authorities had not confirmed drone causation.",
+    "headline": "Drone strike sets YARA J on fire near Sulina; crew safe",
+    "description": "YARA J was hit near Sulina on 14 October 2026. Its 17 crew were safe. A NATO military source assessed the drones as Russian in origin.",
     "summary": [
-      "The Comoros-flagged tanker YARA J reported an onboard fire near Sulina on the evening of 14 October 2026. Its crew alleged a drone strike and explosion. The fire was extinguished and all reported 17 crew were safe.",
-      "The incident was reported about nine nautical miles east of Câșla Vădanei, in Romanian territorial waters. MRCC requested assistance at 20:25; that is a rescue timestamp, not an exact verified strike time. SAR Apollo departed at 20:31 and was recalled at 21:30 after the crew said help was no longer needed.",
-      "Authorities confirmed the fire, but drone causation remained under investigation. The defence minister said military radar had not detected a drone approaching the vessel. No operator has been identified, and a connection to the 20:04 incursions in N085 remains unproven. The alleged strike, fire and response are kept together as one record."
+      "A drone struck the Comoros-flagged tanker YARA J near Sulina on 14 October 2026. Romania’s president confirmed the attack the next day. A NATO military source cited by Reuters assessed the drones that hit YARA J and WINE TRADER as Russian in origin; a specific operator has not been established in the reviewed reporting.",
+      "The crew reported an explosion and fire. The fire was extinguished and all reported 17 crew were safe, with no injuries or sinking reported. The vessel was inside Romanian territorial waters. MRCC requested assistance at 20:25; SAR Apollo departed at 20:31 and was recalled at 21:30 after the crew said help was no longer needed. These are rescue times, not a verified strike time.",
+      "This updates the original incident and retains its URL. The initial absence of a radar-detected approach does not undo the later attack confirmation. A connection to the 20:04 radar episode in N085 remains unproven. WINE TRADER and Sea Destiny have separate records."
     ],
-    "basis": "561643f506b04fe9"
+    "basis": "efdef9ada14a09d9"
   },
   "N087": {
     "slug": "2026-10-15-drone-incursion-southeast-sulina-romania",
@@ -1489,5 +1489,38 @@
       "This is a separate post-midnight incursion. The drone’s model and operator are unknown. Loss of radar contact does not establish a shoot-down, crash or impact; none was confirmed in the reviewed statement."
     ],
     "basis": "4cc1c80091257aae"
+  },
+  "N088": {
+    "slug": "2026-10-15-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports six Turkish UAVs and four airspace violations in Aegean",
+    "description": "Greece reported six Turkish UAVs, four airspace violations and eleven FIR infringements on 15 October 2026. No weapons engagement was reported.",
+    "summary": [
+      "Greece’s military reported six Turkish UAVs over the northeastern and southeastern Aegean on 15 October 2026. NewsIT and ProtoThema reproduced four national-airspace violations and eleven Athens FIR infringements. All six aircraft were identified and intercepted, with no weapons engagement reported.",
+      "The aircraft models, exact sites and sortie times were not published. Turkish attribution and the national-airspace assessment are those of Greek authorities; the latter remains subject to the longstanding Greek-Turkish airspace dispute. The original GEETHA bulletin was not retrieved directly.",
+      "No crashes, casualties, damage or EOD operations were reported. This is one dated activity record. UAV, violation and FIR counts measure different things and do not create additional incident rows."
+    ],
+    "basis": "b991857f4deac6f7"
+  },
+  "N089": {
+    "slug": "2026-10-14-sea-destiny-suspected-drone-attack-sulina-romania",
+    "headline": "Sea Destiny reports nearby explosion after NATO names it as targeted ship",
+    "description": "NATO named Sea Destiny as targeted near Sulina overnight on 14–15 October 2026. The ship reported a nearby explosion but no damage; the cause is unresolved.",
+    "summary": [
+      "NATO named the Marshall Islands-flagged bulk carrier Sea Destiny as an additional targeted ship during the 14–15 October incidents near Sulina. Romania’s defence minister said it reported an explosion within visual range but was unaffected. The vessel was reported inside Romanian territorial waters.",
+      "The incident remains provisional. A drone-caused explosion, a hit on the ship and its operator have not been confirmed. The Russian-origin assessment reported for the drones that struck YARA J and WINE TRADER is not specifically an attribution for Sea Destiny. No damage, casualties, recovery or EOD operation was reported.",
+      "The exact explosion time and location remain unpublished. Replay uses 14 October, the first day of the overnight range. This record remains separate from the two tankers; Dania J at Izmail, Ukraine, is outside the register’s EU scope."
+    ],
+    "basis": "ead4ece209ce4b62"
+  },
+  "N090": {
+    "slug": "2026-10-15-wine-trader-drone-strike-fire-sulina-romania",
+    "headline": "Drone strike sets WINE TRADER on fire off Sulina; seven crew missing",
+    "description": "WINE TRADER was hit off Sulina on 15 October 2026; five crew were rescued and seven missing. A NATO source assessed the drones as Russian in origin.",
+    "summary": [
+      "A drone struck the San Marino-flagged tanker WINE TRADER off Sulina on 15 October 2026. Romania’s president confirmed the attack. A NATO military source cited by Reuters assessed the drones that hit this tanker and YARA J as Russian in origin; a specific operator has not been established in the reviewed reporting.",
+      "Of twelve crew, five were rescued and seven remained missing. Two survivors had scalp burns or mild smoke inhalation; all five were stable and taken to hospital. Fire damaged the vessel. Its final condition is unconfirmed, and the missing crew are not counted as confirmed dead. Heavy seas hindered the continuing rescue operation.",
+      "The ship was reported about 13 nautical miles southeast of Sulina, just outside Romanian territorial waters. It is included in the register’s offshore coverage. The rescue request at 06:58 is not a verified attack time. This promotes the earlier fire-only watchlist lead to one red Strike record, combining the attack, fire and rescue; it remains separate from YARA J and Sea Destiny."
+    ],
+    "basis": "c52e889f9a88d001"
   }
 }

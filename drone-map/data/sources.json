@@ -1720,7 +1720,7 @@
     "title": "YARA J fire and alleged drone strike; separate WINE TRADER rescue update",
     "url": "https://www.euronews.ro/articole/nava-lovita-de-o-drona-in-apele-teritoriale-ale-romaniei-langa-sulina-echipajul-a",
     "dateLabel": "14 October 2026; live update labelled 15 October, 08:16",
-    "audit": "Read 15 October. Preserves official confirmation of the fire and crew safety, the crew’s alleged drone strike/explosion, and the minister’s statement that no approaching drone was detected. Quotes the 20:25 rescue request, 20:31 SAR Apollo departure and 21:30 recall; 20:25 is not a verified attack time. Its separate WINE TRADER fire/rescue update does not establish drone involvement and is retained only in follow-up notes. Live-page timestamps differ; no UTC conversion is inferred."
+    "audit": "Read 15 October. Preserves official confirmation of the fire and crew safety, the crew’s alleged drone strike/explosion, and the minister’s statement that no approaching drone was detected. Quotes the 20:25 rescue request, 20:31 SAR Apollo departure and 21:30 recall; 20:25 is not a verified attack time. Its separate WINE TRADER fire/rescue update does not establish drone involvement and was initially retained only in follow-up notes. WINE TRADER was promoted to N090 on 16 October following later strike reporting (U066–U069). Live-page timestamps differ; no UTC conversion is inferred."
   },
   "U061": {
     "id": "U061",
@@ -1745,5 +1745,53 @@
     "url": "https://polskieradio24.pl/polska/szczatki-drona-na-plazy-w-karwi-szef-mon-uspokaja-to-nie-byla-rosyjska-prowokacja",
     "dateLabel": "14 October 2026, 15:25",
     "audit": "Article read 15 October. Reports Władysław Kosiniak-Kamysz’s identification of the wreckage as a Polish drone destroyed by Polish counter-drone systems during tests at Ustka several weeks earlier, then washed ashore. This is a follow-up identification of the 13 October find, not a foreign incursion or a new shoot-down on that date."
+  },
+  "U064": {
+    "id": "U064",
+    "publisher": "NewsIT",
+    "title": "Νέες προκλήσεις από την Τουρκία στο Αιγαίο με παραβιάσεις από UAV",
+    "url": "https://www.newsit.gr/ellada/nees-prokliseis-apo-tin-tourkia-sto-aigaio-me-paraviaseis-apo-uav/4799292/",
+    "dateLabel": "15 October 2026, 19:47",
+    "audit": "Read 16 October. Reproduces Greek military figures for 15 October: six Turkish UAVs, four reported national-airspace violations and eleven Athens FIR infringements in the northeastern and southeastern Aegean. Reports identification/interception without engagements. GEETHA’s original bulletin was not retrieved directly; these are different quantities within one dated activity record."
+  },
+  "U065": {
+    "id": "U065",
+    "publisher": "ProtoThema",
+    "title": "Τέσσερις παραβιάσεις από τουρκικά UAV στο Αιγαίο",
+    "url": "https://www.protothema.gr/greece/article/1895552/tesseris-paraviaseis-apo-tourkika-uav-sto-aigaio/",
+    "dateLabel": "15 October 2026, 19:13",
+    "audit": "Read 16 October. Independently published reproduction of the same Greek military account agrees with NewsIT on six UAVs, four national-airspace violations and eleven FIR infringements, with no engagements. Agreement between reports is not independent verification of the flight tracks or the disputed airspace assessment."
+  },
+  "U066": {
+    "id": "U066",
+    "publisher": "Reuters",
+    "title": "Seven sailors missing after drones hit two ships near Romania",
+    "url": "https://www.reuters.com/world/two-ships-ablaze-romanian-black-sea-waters-8-sailors-missing-2026-10-15/",
+    "dateLabel": "15 October 2026; updated article reviewed 16 October",
+    "audit": "Full article read in browser 16 October. Reports the Romanian president’s confirmation of drone strikes on YARA J and WINE TRADER and an unnamed NATO military source’s assessment that the drones were of Russian origin. The source’s quotation places both ships inside territorial waters, but Reuters distinguishes YARA J inside from WINE TRADER about 13 nautical miles southeast of Sulina, just outside. Updated WINE TRADER figures are five rescued and seven missing; the older eight-missing URL is not the current count. A separate NATO statement names Sea Destiny as another targeted vessel inside Romanian waters and Dania J at Izmail, Ukraine. The tanker-specific Russian-origin assessment is not transferred to Sea Destiny, and no conclusive operator or model is established."
+  },
+  "U067": {
+    "id": "U067",
+    "publisher": "AGERPRES",
+    "title": "DefMin Miruta: Black Sea security issue is of regional scope, 6 incidents reported over past 24 hours",
+    "url": "https://agerpres.ro/english/2026/10/15/defmin-miruta-black-sea-security-issue-is-of-regional-scope-6-incidents-reported-over-past-24-hours--1603583",
+    "dateLabel": "15 October 2026, 16:47",
+    "audit": "Read 16 October. Quotes the defence minister: Sea Destiny reported an explosion within visual range but was unaffected; YARA J had an explosion at its superstructure inside territorial waters; the other tanker was attacked outside territorial waters. The article’s Wide Trader spelling refers to WINE TRADER in this context, not a separate ship. Its recap of three airspace episodes does not create additional events."
+  },
+  "U068": {
+    "id": "U068",
+    "publisher": "AGERPRES",
+    "title": "Five crew members from Wine Trader rescued, seven others remain missing",
+    "url": "https://agerpres.ro/english/2026/10/15/five-crew-members-from-wine-trader-rescued-seven-others-remain-missing--1603294",
+    "dateLabel": "15 October 2026, 13:54",
+    "audit": "Read 16 October. Romanian Naval Authority account: San Marino-flagged WINE TRADER, twelve crew, five rescued and seven missing, fire about 13 nautical miles southeast of Sulina, distress call around 07:00. Vessel reportedly had no cargo. The rescue timestamp is not a verified attack time; missing crew are not confirmed dead."
+  },
+  "U069": {
+    "id": "U069",
+    "publisher": "Radio România Constanța / IGSU",
+    "title": "IGSU: 5 marinari de pe nava WINE TRADER, avariată în largul Mării Negre, au ajuns la SCJU. Ceilalţi 7 membri ai echipajului sunt căutați în continuare",
+    "url": "https://www.radioconstanta.ro/2026/10/15/igsu-5-marinari-de-pe-nava-wine-trader-avariata-in-largul-marii-negre-au-ajuns-la-scju-ceilalti-7-membri-ai-echipajului-sunt-cautati-in-continuare/",
+    "dateLabel": "15 October 2026, 16:03",
+    "audit": "Read 16 October. Quotes IGSU on five rescued crew transported to hospital: one with scalp burns, one with mild smoke inhalation, three without visible traumatic injuries; all were stable. Describes continued search preparations and adverse weather. Its then-unconfirmed drone-causation wording is retained as the article’s reporting-time position, superseded for the register by the president’s confirmation in U066; this source supports medical and rescue details."
   }
 }

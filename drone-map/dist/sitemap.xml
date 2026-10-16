@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://droneincidents.eu/</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://droneincidents.eu/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-01-27-smuggling-drone-purvenai-salcininkai-lithuania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-01-28-small-drone-falls-przasnysz-military-base-poland/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-02-23-smuggling-drone-pine-tree-milvydai-lithuania/</loc></url>
@@ -136,6 +136,9 @@
   <url><loc>https://droneincidents.eu/events/2026-10-14-morning-airspace-incursion-east-sulina-romania/</loc><lastmod>2026-10-15</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-14-afternoon-airspace-incursion-northeast-sulina-romania/</loc><lastmod>2026-10-15</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-14-evening-two-target-incursion-tulcea-black-sea-romania/</loc><lastmod>2026-10-15</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/2026-10-14-yara-j-suspected-drone-strike-fire-sulina-romania/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-10-14-yara-j-suspected-drone-strike-fire-sulina-romania/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-10-14-sea-destiny-suspected-drone-attack-sulina-romania/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-15-drone-incursion-southeast-sulina-romania/</loc><lastmod>2026-10-15</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-10-15-turkish-uav-activity-aegean-greece/</loc><lastmod>2026-10-16</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-10-15-wine-trader-drone-strike-fire-sulina-romania/</loc><lastmod>2026-10-16</lastmod></url>
 </urlset>

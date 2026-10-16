@@ -172,8 +172,11 @@ removing `exclusionReason` and reviewing its class and copy again.
 
 N081 (Karwia) is the first excluded record: Poland identified the discovery as a
 domestic test drone. Its earlier provisional inclusion remains traceable in Git
-and the correction page. A lead that has never qualified, such as WINE TRADER,
-belongs in `watchlist.md` until evidence supports adding a mapped record.
+and the correction page. A lead without an established qualifying connection
+belongs in `watchlist.md` until evidence supports adding a mapped record. WINE
+TRADER illustrates this progression: initially a fire-only lead, it was promoted
+to N090 on 16 October after later drone-strike reporting. Its dated watchlist note
+remains as history and is not an additional record.
 
 ## Generated files and checks
 
