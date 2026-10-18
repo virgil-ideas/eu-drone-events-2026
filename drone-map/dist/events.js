@@ -5247,6 +5247,50 @@ window.DRONE_DATA = {
       "page": "events/2026-10-03-suspected-drone-alert-vilnius-ukmerge-lithuania/"
     },
     {
+      "id": "N094",
+      "title": "Tribonys · cross-border cigarette drone",
+      "recordClass": "event",
+      "recordType": "cross_border_smuggling_drone",
+      "startDate": "2026-10-03",
+      "endDate": "2026-10-04",
+      "dateLabel": "Saturday night, 3–4 October 2026",
+      "dateBasis": "Night inferred from weekday in dated VSAT report; exact time and midnight boundary unresolved. Replay uses first date.",
+      "countries": "Lithuania",
+      "location": "Tribonys area near Belarus border",
+      "status": "VSAT-confirmed smuggling drone intercepted and recovered",
+      "categories": "Cross-border criminal cargo; electronic interception; recovery",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.31,
+          "lng": 25.42,
+          "precision": "region",
+          "label": "Tribonys area — approximate regional anchor"
+        }
+      ],
+      "positionNote": "Broad editorial anchor, not a measured interception or recovery point.",
+      "vehicle": "One unmanned aircraft; model unspecified.",
+      "attribution": "Criminal transport from Belarus according to VSAT; operator nationality and state sponsorship unestablished.",
+      "route": "From Belarus toward Lithuania, according to border guards.",
+      "circumstances": "Anti-drone equipment forced descent; drone recovered in farmland about 2 km from border.",
+      "payload": "320 NZ Gold cigarette packs with Belarusian tax stamps.",
+      "impact": "Cargo seized. No casualties reported.",
+      "response": "VSAT retained aircraft and cargo; administrative proceedings opened.",
+      "uncertainty": "Exact coordinates and time unpublished. Not evidence of a foreign state attack.",
+      "deduplication": "One occurrence combining interception and recovery. Distinct locality/date; annual interception totals add no events.",
+      "provenance": "Primary VSAT report reviewed 18 October 2026; retrospective addition.",
+      "classificationNote": "Electronic intervention is not described as a kinetic shoot-down.",
+      "sourceReferences": "[U072][U072]",
+      "sources": [
+        "U072"
+      ],
+      "page": "events/2026-10-03-tribonys-smuggling-drone-lithuania/"
+    },
+    {
       "id": "N071",
       "dateLabel": "2026-10-04",
       "startDate": "2026-10-04",
@@ -5574,6 +5618,50 @@ window.DRONE_DATA = {
       "page": "events/2026-10-09-drone-debris-detonated-sea-sinemorets-bulgaria/"
     },
     {
+      "id": "N092",
+      "title": "Adutiškis · cross-border cigarette drone",
+      "recordClass": "event",
+      "recordType": "cross_border_smuggling_drone",
+      "startDate": "2026-10-09",
+      "endDate": "2026-10-10",
+      "dateLabel": "Friday night, 9–10 October 2026",
+      "dateBasis": "Night inferred from weekday in dated VSAT report; exact time and midnight boundary unresolved. Replay uses first date.",
+      "countries": "Lithuania",
+      "location": "Adutiškis area near Belarus border",
+      "status": "VSAT-confirmed smuggling drone intercepted and recovered",
+      "categories": "Cross-border criminal cargo; electronic interception; recovery",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 55.14,
+          "lng": 26.58,
+          "precision": "region",
+          "label": "Adutiškis area — approximate regional anchor"
+        }
+      ],
+      "positionNote": "Broad editorial anchor, not a measured interception or recovery point.",
+      "vehicle": "One unmanned aircraft; model unspecified.",
+      "attribution": "Criminal transport from Belarus according to VSAT; operator nationality and state sponsorship unestablished.",
+      "route": "From Belarus toward Lithuania, according to border guards.",
+      "circumstances": "Anti-drone equipment used; cargo found 400 m from border, drone another 300 m away.",
+      "payload": "1,000 Minsk City MS cigarette packs with Belarusian tax stamps.",
+      "impact": "Cargo seized. No casualties reported.",
+      "response": "VSAT retained aircraft and cargo; administrative proceedings opened.",
+      "uncertainty": "Exact coordinates and time unpublished. Not evidence of a foreign state attack.",
+      "deduplication": "One occurrence combining interception and recovery. Distinct locality/date; annual interception totals add no events.",
+      "provenance": "Primary VSAT report reviewed 18 October 2026; retrospective addition.",
+      "classificationNote": "Electronic intervention is not described as a kinetic shoot-down.",
+      "sourceReferences": "[U071][U071]",
+      "sources": [
+        "U071"
+      ],
+      "page": "events/2026-10-09-adutiskis-smuggling-drone-lithuania/"
+    },
+    {
       "id": "N078",
       "dateLabel": "2026-10-10",
       "startDate": "2026-10-10",
@@ -5619,6 +5707,51 @@ window.DRONE_DATA = {
       "reported_airspace_violations": 5,
       "reported_FIR_infractions": 8,
       "page": "events/2026-10-10-uav-airspace-violations-aegean-greece/"
+    },
+    {
+      "id": "N093",
+      "title": "Šiulgiai · cross-border cigarette drone",
+      "recordClass": "event",
+      "recordType": "cross_border_smuggling_drone",
+      "startDate": "2026-10-10",
+      "endDate": "2026-10-11",
+      "dateLabel": "Saturday night, 10–11 October 2026",
+      "dateBasis": "Night inferred from weekday in dated VSAT report; exact time and midnight boundary unresolved. Replay uses first date.",
+      "countries": "Lithuania",
+      "location": "Šiulgiai area near Belarus border",
+      "status": "VSAT-confirmed smuggling drone intercepted and recovered",
+      "categories": "Cross-border criminal cargo; electronic interception; recovery",
+      "category": "crash",
+      "stages": [
+        "crash",
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.63,
+          "lng": 25.73,
+          "precision": "region",
+          "label": "Šiulgiai area — approximate regional anchor"
+        }
+      ],
+      "positionNote": "Broad editorial anchor, not a measured interception or recovery point.",
+      "vehicle": "One unmanned aircraft; model unspecified.",
+      "attribution": "Criminal transport from Belarus according to VSAT; operator nationality and state sponsorship unestablished.",
+      "route": "From Belarus toward Lithuania, according to border guards.",
+      "circumstances": "Control taken over; drone fell in woodland and was recovered about 500 m from border.",
+      "payload": "250 NZ Gold cigarette packs with Belarusian tax stamps.",
+      "impact": "Cargo seized. No casualties reported.",
+      "response": "VSAT retained aircraft and cargo; administrative proceedings opened.",
+      "uncertainty": "Exact coordinates and time unpublished. Not evidence of a foreign state attack.",
+      "deduplication": "One occurrence combining interception and recovery. Distinct locality/date; annual interception totals add no events.",
+      "provenance": "Primary VSAT report reviewed 18 October 2026; retrospective addition.",
+      "classificationNote": "Electronic intervention is not described as a kinetic shoot-down.",
+      "sourceReferences": "[U071][U071]",
+      "sources": [
+        "U071"
+      ],
+      "page": "events/2026-10-10-siulgiai-smuggling-drone-lithuania/"
     },
     {
       "dateLabel": "2026-10-13",
@@ -5710,6 +5843,51 @@ window.DRONE_DATA = {
       "positionNote": "Rounded editorial estimate east of coastal Krapets in Dobrich Province, not a verified wreck position or maritime-boundary determination. Offshore jurisdiction follows the reporting.",
       "matchKey": "BG::2026-10-13::krapets-offshore-unidentified-ship",
       "page": "events/2026-10-13-drone-strike-ship-sinks-krapets-bulgaria/"
+    },
+    {
+      "id": "N091",
+      "title": "Dailidžiai · cross-border cigarette drone",
+      "recordClass": "event",
+      "recordType": "cross_border_smuggling_drone",
+      "startDate": "2026-10-13",
+      "endDate": "2026-10-14",
+      "dateLabel": "Around midnight Tuesday–Wednesday, 13–14 October 2026",
+      "dateBasis": "Night inferred from weekday in dated VSAT report; exact time and midnight boundary unresolved. Replay uses first date.",
+      "countries": "Lithuania",
+      "location": "Dailidžiai area near Belarus border",
+      "status": "VSAT-confirmed smuggling drone intercepted and recovered",
+      "categories": "Cross-border criminal cargo; electronic interception; recovery",
+      "category": "crash",
+      "stages": [
+        "crash",
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.22,
+          "lng": 25.62,
+          "precision": "region",
+          "label": "Dailidžiai area — approximate regional anchor"
+        }
+      ],
+      "positionNote": "Broad editorial anchor, not a measured interception or recovery point.",
+      "vehicle": "One unmanned aircraft; model unspecified.",
+      "attribution": "Criminal transport from Belarus according to VSAT; operator nationality and state sponsorship unestablished.",
+      "route": "From Belarus toward Lithuania, according to border guards.",
+      "circumstances": "Forced down electronically; damaged on impact; drone and cargo recovered after daylight.",
+      "payload": "1,000 NZ Gold and Minsk Super Slims cigarette packs with Belarusian tax stamps.",
+      "impact": "Cargo seized. No casualties reported.",
+      "response": "VSAT retained aircraft and cargo; administrative proceedings opened.",
+      "uncertainty": "Exact coordinates and time unpublished. Not evidence of a foreign state attack.",
+      "deduplication": "One occurrence combining interception and recovery. Distinct locality/date; annual interception totals add no events.",
+      "provenance": "Primary VSAT report reviewed 18 October 2026; retrospective addition.",
+      "classificationNote": "Electronic intervention is not described as a kinetic shoot-down.",
+      "sourceReferences": "[U070][U070]",
+      "sources": [
+        "U070"
+      ],
+      "page": "events/2026-10-13-dailidziai-smuggling-drone-lithuania/"
     },
     {
       "id": "N082",
@@ -8073,6 +8251,30 @@ window.DRONE_DATA = {
       "url": "https://www.radioconstanta.ro/2026/10/15/igsu-5-marinari-de-pe-nava-wine-trader-avariata-in-largul-marii-negre-au-ajuns-la-scju-ceilalti-7-membri-ai-echipajului-sunt-cautati-in-continuare/",
       "dateLabel": "15 October 2026, 16:03",
       "audit": "Read 16 October. Quotes IGSU on five rescued crew transported to hospital: one with scalp burns, one with mild smoke inhalation, three without visible traumatic injuries; all were stable. Describes continued search preparations and adverse weather. Its then-unconfirmed drone-causation wording is retained as the article’s reporting-time position, superseded for the register by the president’s confirmation in U066; this source supports medical and rescue details."
+    },
+    "U070": {
+      "id": "U070",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Dieveniškės border guards recover cigarette-carrying drone",
+      "url": "https://vsat.lrv.lt/lt/naujienos/dieveniskiu-kilpoje-pasienieciai-nutupde-kontrabandininku-skraidykle-su-nelegaliais-rukalais-foto-1Ay/",
+      "dateLabel": "2026-10-15",
+      "audit": "Primary report read 18 October 2026. Publication date is distinct from the reported night of the occurrence. Cross-border criminal cargo does not establish state sponsorship or operator nationality. Annual totals are non-additive."
+    },
+    "U071": {
+      "id": "U071",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Border guards neutralize two cigarette-carrying drones near Belarus",
+      "url": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-vsat-pareigunai-nukenksmino-dvi-kontrabandininku-skraidykles-gabenusias-nelegalius-rukalus-foto-zVi/",
+      "dateLabel": "2026-10-12",
+      "audit": "Primary report read 18 October 2026. Publication date is distinct from the reported night of the occurrence. Cross-border criminal cargo does not establish state sponsorship or operator nationality. Annual totals are non-additive."
+    },
+    "U072": {
+      "id": "U072",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Cigarette-carrying drone brought down in farmer’s field",
+      "url": "https://vsat.lrv.lt/lt/naujienos/baltarusiskas-cigaretes-skraidines-lektuvelis-nutupdytas-ukininko-laukuose-foto-loi/",
+      "dateLabel": "2026-10-05",
+      "audit": "Primary report read 18 October 2026. Publication date is distinct from the reported night of the occurrence. Cross-border criminal cargo does not establish state sponsorship or operator nationality. Annual totals are non-additive."
     }
   },
   "cutoff": "2026-10-16",

@@ -1522,5 +1522,45 @@
       "The ship was reported about 13 nautical miles southeast of Sulina, just outside Romanian territorial waters. It is included in the register’s offshore coverage. The rescue request at 06:58 is not a verified attack time. This promotes the earlier fire-only watchlist lead to one red Strike record, combining the attack, fire and rescue; it remains separate from YARA J and Sea Destiny."
     ],
     "basis": "c52e889f9a88d001"
+  },
+  "N091": {
+    "slug": "2026-10-13-dailidziai-smuggling-drone-lithuania",
+    "headline": "Dailidžiai: border guards recover cross-border cigarette drone",
+    "description": "Lithuanian border guards report a cigarette-carrying drone from Belarus near Dailidžiai. Criminal cargo does not establish state sponsorship.",
+    "summary": [
+      "Around midnight Tuesday–Wednesday, 13–14 October 2026: Forced down electronically; damaged on impact; drone and cargo recovered after daylight.",
+      "1,000 NZ Gold and Minsk Super Slims cigarette packs were recovered. VSAT describes criminal transport from Belarus; operator nationality and state sponsorship remain unestablished."
+    ],
+    "basis": "708b56f92bfa1ede"
+  },
+  "N092": {
+    "slug": "2026-10-09-adutiskis-smuggling-drone-lithuania",
+    "headline": "Adutiškis: border guards recover cross-border cigarette drone",
+    "description": "Lithuanian border guards report a cigarette-carrying drone from Belarus near Adutiškis. Criminal cargo does not establish state sponsorship.",
+    "summary": [
+      "Friday night, 9–10 October 2026: Anti-drone equipment used; cargo found 400 m from border, drone another 300 m away.",
+      "1,000 Minsk City MS cigarette packs were recovered. VSAT describes criminal transport from Belarus; operator nationality and state sponsorship remain unestablished."
+    ],
+    "basis": "be5d14bcc0a74f85"
+  },
+  "N093": {
+    "slug": "2026-10-10-siulgiai-smuggling-drone-lithuania",
+    "headline": "Šiulgiai: border guards recover cross-border cigarette drone",
+    "description": "Lithuanian border guards report a cigarette-carrying drone from Belarus near Šiulgiai. Criminal cargo does not establish state sponsorship.",
+    "summary": [
+      "Saturday night, 10–11 October 2026: Control taken over; drone fell in woodland and was recovered about 500 m from border.",
+      "250 NZ Gold cigarette packs were recovered. VSAT describes criminal transport from Belarus; operator nationality and state sponsorship remain unestablished."
+    ],
+    "basis": "1841e78ad3114d2b"
+  },
+  "N094": {
+    "slug": "2026-10-03-tribonys-smuggling-drone-lithuania",
+    "headline": "Tribonys: border guards recover cross-border cigarette drone",
+    "description": "Lithuanian border guards report a cigarette-carrying drone from Belarus near Tribonys. Criminal cargo does not establish state sponsorship.",
+    "summary": [
+      "Saturday night, 3–4 October 2026: Anti-drone equipment forced descent; drone recovered in farmland about 2 km from border.",
+      "320 NZ Gold cigarette packs were recovered. VSAT describes criminal transport from Belarus; operator nationality and state sponsorship remain unestablished."
+    ],
+    "basis": "e63ae0b61bcc838d"
   }
 }

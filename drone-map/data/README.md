@@ -57,7 +57,7 @@ compared with the previous export; no research claims or locations changed.
 
 7. Review and commit the JSON changes (including new `page-urls.json` entries) with the generated `drone-map/dist/events.js` and
    `drone-map/dist/events/`, `sitemap.xml` and `robots.txt`.
-   Preview the map locally for editorial changes. Pull requests run the checks;
+   For routine data and editorial updates, local browser preview is optional and is not a publication gate. All automated validation remains required; verify deployment for the exact commit and the live published pages after pushing. Pull requests run the checks;
    a validated push to `main` also publishes to GitHub Pages.
 
 To compute a new research file's hash: `shasum -a 256 filename.md`.

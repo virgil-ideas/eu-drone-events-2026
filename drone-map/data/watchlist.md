@@ -46,3 +46,28 @@ not resolve the earlier 14 October gap or independently verify flight tracks.
 Sea Destiny is recorded provisionally as N089; WINE TRADER is promoted to N090,
 and YARA J is updated in place as N086. The recap of existing airspace episodes
 and the Dania J incident at Izmail, Ukraine, add no records.
+
+## Coverage and follow-up — 18 October review
+
+The reporting cutoff remains 16 October. Four Lithuanian criminal-cargo
+occurrences from 3–14 October have been retrospectively reviewed against VSAT
+reports; these do not establish foreign-state attacks. This partial review does
+not resolve full EU coverage or the Greek 13–14 October source gaps.
+
+Eemshaven, Netherlands: reports published 15 October describe drone sightings
+on the preceding weekend and on 13 October. Operator and foreign connection
+remain unresolved; retain as a lead, not a confirmed foreign-drone occurrence.
+Source: [ANP / RD, 15 October](https://www.rd.nl/a/onbekende-drones-gesignaleerd-boven-eemshaven-in-groningen).
+
+Northern Tulcea, Romania: the 17 October 01:54–02:30 RO-Alert involved an aerial
+target on the Ukrainian side north of Plauru. MApN explicitly reported no
+Romanian airspace entry; fighter launch and warning are not an incursion.
+Source: [MApN bulletin 335, 17 October](https://www.mapn.ro/cpresa/19444_informa%C8%9Bie-de-presa).
+
+Greek daily activity: Veteranos reports 5 UAVs / 7 Athens FIR infringements /
+2 national-airspace violations for 16 October, and 2 / 4 / 6 respectively for
+17 October. These are separate quantities, not additive incident counts.
+Primary GEETHA access and independent corroboration remain unresolved; retain
+these as source leads rather than upgrading to verified mapped events.
+Sources: [16 October](https://veteranos.gr/nea-tourkiki-drastiriotita-sto-aigaio-5-uav-me-7-paravaseis-kai-2-paraviaseis/) and
+[17 October](https://veteranos.gr/nees-tourkikes-paraviaseis-sto-aigaio-2-uav-prochorisan-se-4-paravaseis-kai-6-paraviaseis/).

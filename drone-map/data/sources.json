@@ -1793,5 +1793,29 @@
     "url": "https://www.radioconstanta.ro/2026/10/15/igsu-5-marinari-de-pe-nava-wine-trader-avariata-in-largul-marii-negre-au-ajuns-la-scju-ceilalti-7-membri-ai-echipajului-sunt-cautati-in-continuare/",
     "dateLabel": "15 October 2026, 16:03",
     "audit": "Read 16 October. Quotes IGSU on five rescued crew transported to hospital: one with scalp burns, one with mild smoke inhalation, three without visible traumatic injuries; all were stable. Describes continued search preparations and adverse weather. Its then-unconfirmed drone-causation wording is retained as the article’s reporting-time position, superseded for the register by the president’s confirmation in U066; this source supports medical and rescue details."
+  },
+  "U070": {
+    "id": "U070",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Dieveniškės border guards recover cigarette-carrying drone",
+    "url": "https://vsat.lrv.lt/lt/naujienos/dieveniskiu-kilpoje-pasienieciai-nutupde-kontrabandininku-skraidykle-su-nelegaliais-rukalais-foto-1Ay/",
+    "dateLabel": "2026-10-15",
+    "audit": "Primary report read 18 October 2026. Publication date is distinct from the reported night of the occurrence. Cross-border criminal cargo does not establish state sponsorship or operator nationality. Annual totals are non-additive."
+  },
+  "U071": {
+    "id": "U071",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Border guards neutralize two cigarette-carrying drones near Belarus",
+    "url": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-vsat-pareigunai-nukenksmino-dvi-kontrabandininku-skraidykles-gabenusias-nelegalius-rukalus-foto-zVi/",
+    "dateLabel": "2026-10-12",
+    "audit": "Primary report read 18 October 2026. Publication date is distinct from the reported night of the occurrence. Cross-border criminal cargo does not establish state sponsorship or operator nationality. Annual totals are non-additive."
+  },
+  "U072": {
+    "id": "U072",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Cigarette-carrying drone brought down in farmer’s field",
+    "url": "https://vsat.lrv.lt/lt/naujienos/baltarusiskas-cigaretes-skraidines-lektuvelis-nutupdytas-ukininko-laukuose-foto-loi/",
+    "dateLabel": "2026-10-05",
+    "audit": "Primary report read 18 October 2026. Publication date is distinct from the reported night of the occurrence. Cross-border criminal cargo does not establish state sponsorship or operator nationality. Annual totals are non-additive."
   }
 }

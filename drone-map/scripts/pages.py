@@ -360,7 +360,7 @@ def event_page(record, index, ordered, database, pages, slugs, media):
       </header>{exclusion}
       <div class="summary">{paragraphs}</div>
       {map_action}
-      {figure}
+{('      ' + figure) if figure else ''}
       <section class="attribution" aria-labelledby="attribution-title">
         <h2 id="attribution-title">Attribution and uncertainty</h2>
         <dl><dt>Origin / operator / attribution</dt><dd>{attribution}</dd><dt>Investigation / uncertainty</dt><dd>{uncertainty}</dd></dl>
