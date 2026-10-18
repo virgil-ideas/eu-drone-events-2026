@@ -26,6 +26,16 @@ and 114 anchors, including the reviewed Solca and Neptun Deep classifications.
 Those are migration totals, not hard-coded limits. All browser record fields were
 compared with the previous export; no research claims or locations changed.
 
+## Incursion inclusion rule
+
+A verified drone incursion into EU national airspace qualifies for publication
+regardless of the intended target. Do not require proof that the drone intended
+to attack an EU location or deliberately entered EU territory. Preserve
+uncertainty about operator, intent and target in the record; it does not negate
+a verified incursion. This does not broaden inclusion to ordinary lawful domestic
+flights or replace the existing criteria for discoveries, alerts, candidates and
+offshore incidents.
+
 ## Make an update
 
 1. Read the existing event and its source reports. A follow-up, recovery or disposal

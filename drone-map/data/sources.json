@@ -1817,5 +1817,13 @@
     "url": "https://vsat.lrv.lt/lt/naujienos/baltarusiskas-cigaretes-skraidines-lektuvelis-nutupdytas-ukininko-laukuose-foto-loi/",
     "dateLabel": "2026-10-05",
     "audit": "Primary report read 18 October 2026. Publication date is distinct from the reported night of the occurrence. Cross-border criminal cargo does not establish state sponsorship or operator nationality. Annual totals are non-additive."
+  },
+  "U073": {
+    "id": "U073",
+    "publisher": "Romanian Ministry of National Defence (MApN)",
+    "title": "Informație de presă – UPDATE, bulletin 337",
+    "url": "https://www.mapn.ro/cpresa/19446_informa%C8%9Bie-de-presa-%E2%80%93-update",
+    "dateLabel": "17 October 2026",
+    "audit": "Primary statement read 18 October 2026; identifies two Geran-family jet attack drones neutralized by Romanian F-16s in national airspace over territorial waters."
   }
 }

@@ -6290,6 +6290,50 @@ window.DRONE_DATA = {
         "U060"
       ],
       "page": "events/2026-10-15-wine-trader-drone-strike-fire-sulina-romania/"
+    },
+    {
+      "id": "N095",
+      "title": "Sulina · Two attack drones shot down over territorial waters",
+      "recordClass": "event",
+      "recordType": "confirmed_drone_interception",
+      "startDate": "2026-10-17",
+      "dateLabel": "17 October 2026, 18:01 and 18:05 EEST",
+      "dateBasis": "MApN specifies both interception times on 17 October; publication is the same date.",
+      "countries": "Romania (territorial waters)",
+      "location": "Southeast and east of Sulina, above Romanian territorial waters according to MApN.",
+      "status": "MApN-confirmed shoot-down of two attack drones",
+      "categories": "National-airspace incursion; fighter interception; shoot-down",
+      "category": "shotdown",
+      "stages": [
+        "shotdown",
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 45.06,
+          "lng": 29.82,
+          "precision": "offshore",
+          "label": "Off Sulina — broad representative area, not interception coordinates"
+        }
+      ],
+      "positionNote": "Approximate anchor reused from the Sulina offshore region; territorial jurisdiction follows MApN, not this plotted estimate.",
+      "vehicle": "Two jet-powered attack drones in the Geran family, according to MApN.",
+      "reported_UAVs": 2,
+      "attribution": "Model-family identification by MApN. The statement does not identify the launch operator or intended targets.",
+      "route": "An initial group tracked roughly 120 km east of Snake Island moving southwest; exact individual tracks unpublished.",
+      "circumstances": "Romanian F-16s shot down one drone southeast of Sulina at 18:01 after two minutes in national airspace, and another east of Sulina at 18:05 after five minutes.",
+      "payload": "Not specified.",
+      "impact": "Two drones neutralized. No civilian impact or recovered debris reported in this statement.",
+      "response": "Two Romanian F-16s scrambled from Borcea at 17:43.",
+      "uncertainty": "Specific jet model, operator, intended targets and precise coordinates remain unpublished.",
+      "deduplication": "One closely timed interception operation involving two drones; retains separate times and areas within the occurrence, consistent with multi-target N085. The earlier 01:54 no-entry alert is separate context, not an incursion.",
+      "provenance": "Official MApN bulletin 337, published 17 October 2026 and reviewed 18 October 2026. Targeted incident verification; not a completed EU-wide coverage check.",
+      "classificationNote": "Explicit official shoot-down, unlike routine identification/interception.",
+      "sourceReferences": "[U073][U073]",
+      "sources": [
+        "U073"
+      ],
+      "page": "events/2026-10-17-sulina-two-geran-drones-shot-down-romania/"
     }
   ],
   "contexts": [
@@ -8275,9 +8319,17 @@ window.DRONE_DATA = {
       "url": "https://vsat.lrv.lt/lt/naujienos/baltarusiskas-cigaretes-skraidines-lektuvelis-nutupdytas-ukininko-laukuose-foto-loi/",
       "dateLabel": "2026-10-05",
       "audit": "Primary report read 18 October 2026. Publication date is distinct from the reported night of the occurrence. Cross-border criminal cargo does not establish state sponsorship or operator nationality. Annual totals are non-additive."
+    },
+    "U073": {
+      "id": "U073",
+      "publisher": "Romanian Ministry of National Defence (MApN)",
+      "title": "Informație de presă – UPDATE, bulletin 337",
+      "url": "https://www.mapn.ro/cpresa/19446_informa%C8%9Bie-de-presa-%E2%80%93-update",
+      "dateLabel": "17 October 2026",
+      "audit": "Primary statement read 18 October 2026; identifies two Geran-family jet attack drones neutralized by Romanian F-16s in national airspace over territorial waters."
     }
   },
-  "cutoff": "2026-10-16",
+  "cutoff": "2026-10-17",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"
