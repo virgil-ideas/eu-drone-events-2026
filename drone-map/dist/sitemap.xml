@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://droneincidents.eu/</loc><lastmod>2026-10-17</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/</loc><lastmod>2026-10-17</lastmod></url>
+  <url><loc>https://droneincidents.eu/</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-01-27-smuggling-drone-purvenai-salcininkai-lithuania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-01-28-small-drone-falls-przasnysz-military-base-poland/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-02-23-smuggling-drone-pine-tree-milvydai-lithuania/</loc></url>
@@ -132,8 +132,8 @@
   <url><loc>https://droneincidents.eu/events/2026-10-09-adutiskis-smuggling-drone-lithuania/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-10-uav-airspace-violations-aegean-greece/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-10-siulgiai-smuggling-drone-lithuania/</loc><lastmod>2026-10-18</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/2026-10-13-drone-strike-chelsea-3-ship-byala-bulgaria/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/2026-10-13-drone-strike-ship-sinks-krapets-bulgaria/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-10-13-drone-strike-chelsea-3-ship-byala-bulgaria/</loc><lastmod>2026-10-19</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-10-13-drone-strike-ship-sinks-krapets-bulgaria/</loc><lastmod>2026-10-19</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-13-possible-drone-wreckage-karwia-beach-poland/</loc><lastmod>2026-10-15</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-13-dailidziai-smuggling-drone-lithuania/</loc><lastmod>2026-10-18</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-14-ro-alert-northern-tulcea-romania-no-airspace-entry/</loc><lastmod>2026-10-14</lastmod></url>
@@ -144,6 +144,7 @@
   <url><loc>https://droneincidents.eu/events/2026-10-14-sea-destiny-suspected-drone-attack-sulina-romania/</loc><lastmod>2026-10-16</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-15-drone-incursion-southeast-sulina-romania/</loc><lastmod>2026-10-15</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-15-turkish-uav-activity-aegean-greece/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/2026-10-15-wine-trader-drone-strike-fire-sulina-romania/</loc><lastmod>2026-10-16</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/2026-10-17-sulina-two-geran-drones-shot-down-romania/</loc><lastmod>2026-10-18</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-10-15-wine-trader-drone-strike-fire-sulina-romania/</loc><lastmod>2026-10-19</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-10-17-sulina-two-geran-drones-shot-down-romania/</loc><lastmod>2026-10-19</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-10-18-drone-explosion-juodzionys-lithuania/</loc><lastmod>2026-10-19</lastmod></url>
 </urlset>

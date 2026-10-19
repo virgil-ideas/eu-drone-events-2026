@@ -83,3 +83,43 @@ incursions are not additional dated occurrences and are not added to the map.
 The inclusive reporting cutoff advances to 17 October solely to accommodate
 this verified incident. It does not certify a completed EU-wide search. The
 Greek 13–14 October gaps and later source leads above remain unresolved.
+
+## Follow-up and coverage — 19 October 2026
+
+N096 records the 18 October Lithuanian incursion, reported explosion and debris
+near Juodžionys. The accompanying Latvian warning is not a verified entry into
+Latvia. Poland's reported airspace sighting and the disputed transit into
+Lithuania remain unresolved; no additional Polish occurrence is inferred.
+The inclusive reporting cutoff is now 18 October to include N096, not a
+certification of exhaustive EU coverage.
+
+Greek 13–14 October coverage remains unresolved. The 16–17 October Veteranos
+leads above still lack independent corroboration or an accessible primary
+bulletin; no verified 18 October daily record was located. The 11 October
+publication mentioning 10 October and different counts does not justify a new
+11 October occurrence or overwriting N078. Earlier Greek retrospective gaps
+also remain open.
+
+CHELSEA 3 (N079) reached Burgas-West on 17 October. Its follow-up belongs to the
+same attack record. The Maltese account's 12 October / four-injured wording and
+the Bulgarian 13 October / five-treated account remain a documented source
+discrepancy, not separate attacks. Investigation and attribution remain open.
+
+Eemshaven's later republications remain descriptions of the 10–11 and 13 October
+sightings above, not new occurrences. Authorized military exercises, preventive
+restrictions without a detected incursion and reports outside EU geography are
+not promoted by this update.
+
+Poland, 18 October: reports near Lublin around 02:00 prompted a ground search
+south of the city and near the Zemborzycki Reservoir. A drone or border breach
+was not confirmed in [Polskie Radio / PAP's report](https://www.polskieradio.pl/395/7784/artykul/3743299,poland-verifies-possible-airspace-breach).
+
+Finland, 16–18 October: preventive airspace and maritime restrictions do not
+establish incursions. [Yle's 18 October report](https://yle.fi/a/74-20251965)
+quotes the military stating that no drones entered Finland during these alerts.
+
+Germany, Nuremberg, 13 October: pilot reports of a possible drone disrupted
+flights, but police checks did not verify the object. The [syndicated police
+release](https://mail.freenet.de/polizeimeldungen/bayern/pol-mfr-882-beeintraechtigungen-im-flugverkehr_6369949-40522026.html)
+does not establish a foreign incursion. The separate midday manned-aircraft
+interception must not be merged into this lead.

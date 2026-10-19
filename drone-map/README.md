@@ -206,3 +206,12 @@ N095 adds one officially confirmed F-16 interception operation involving two
 Geran-family jet attack drones over Romanian territorial waters. The inclusive
 reporting cutoff advances to 17 October; the unresolved Greek source gaps and
 partial EU-wide research coverage remain explicit in `data/watchlist.md`.
+
+## 19 October source review
+
+N096 adds the 18 October Lithuanian incursion and reported explosion near
+Juodžionys, with preliminary attribution explicitly qualified. The reporting
+cutoff is 18 October; this date does not certify exhaustive research coverage.
+CHELSEA 3's completed tow is a follow-up to N079, with conflicting date/injury
+accounts preserved. A003 retains the ministry's updated, non-additive Romanian
+counters. Outstanding source gaps remain in `data/watchlist.md`.

@@ -1398,9 +1398,10 @@
     "summary": [
       "Overnight on 13 October 2026 the Maltese-flagged merchant ship CHELSEA 3 was struck by drones in the Black Sea, reportedly 18 nautical miles east of Byala in Varna Province, within Bulgaria’s exclusive economic zone and outside its territorial waters. According to the crew’s account, relayed by Bulgaria’s prime minister, three aerial drones hit the deck and hull. A distress notification reached Varna’s maritime rescue centre at 01:30 local time.",
       "The operator and nationality are unresolved. Radev said the evidence was insufficient to accuse either belligerent; he argued that the attacks benefit Russia, but that argument and planned diplomatic consultations do not establish Russian responsibility. The ship is reportedly Ukrainian-owned and registered in Odessa, which is separate from the question of who attacked it.",
-      "Border Police evacuated all 15 crew, seven Ukrainians and eight Azerbaijanis, who were brought to Varna; five were treated for initially reported minor injuries, and no deaths were reported. The ship was damaged and its final condition is unconfirmed. On the same day, another vessel was reported struck and sunk east of Krapets."
+      "Border Police evacuated all 15 crew, seven Ukrainians and eight Azerbaijanis, who were brought to Varna; five were treated for initially reported minor injuries, and no deaths were reported. BNR reports that the damaged ship docked at Burgas-West on 17 October; the investigation remains open. On 13 October, another vessel was reported struck and sunk east of Krapets.",
+      "MaltaDaily’s account gives 12 October and four minor injuries. Those differences from the Bulgarian account remain unresolved and do not identify a second attack."
     ],
-    "basis": "b2100770acfd98d3"
+    "basis": "68bdea9706ff640c"
   },
   "N080": {
     "slug": "2026-10-13-drone-strike-ship-sinks-krapets-bulgaria",
@@ -1411,7 +1412,7 @@
       "Later reporting gives five sailors rescued and eleven missing, replacing the initial account of one rescue. Search-and-rescue operations continued at the time of that reporting. The missing sailors are not counted as confirmed dead. The identification and rescue update concern the same sinking, not another attack.",
       "The drone’s type and operator remain unresolved. Ukraine accused Russia, but Bulgarian authorities have not established responsibility conclusively. The vessel’s flag does not identify its crew’s nationalities. This incident remains separate from the CHELSEA 3 attack near Byala and the 6 October attacks on ALFA WATAN and ABLE."
     ],
-    "basis": "e62c0e439a3b73af"
+    "basis": "9c12f36deda2bd3d"
   },
   "N081": {
     "slug": "2026-10-13-possible-drone-wreckage-karwia-beach-poland",
@@ -1518,10 +1519,10 @@
     "description": "WINE TRADER was hit off Sulina on 15 October 2026; five crew were rescued and seven missing. A NATO source assessed the drones as Russian in origin.",
     "summary": [
       "A drone struck the San Marino-flagged tanker WINE TRADER off Sulina on 15 October 2026. Romania’s president confirmed the attack. A NATO military source cited by Reuters assessed the drones that hit this tanker and YARA J as Russian in origin; a specific operator has not been established in the reviewed reporting.",
-      "Of twelve crew, five were rescued and seven remained missing. Two survivors had scalp burns or mild smoke inhalation; all five were stable and taken to hospital. Fire damaged the vessel. Its final condition is unconfirmed, and the missing crew are not counted as confirmed dead. Heavy seas hindered the continuing rescue operation.",
+      "Of twelve crew, five were rescued and seven remained missing. Two survivors had scalp burns or mild smoke inhalation; all five were stable and taken to hospital. Fire damaged the vessel. Its final condition is unconfirmed, and the missing crew are not counted as confirmed dead. Heavy seas hindered the continuing rescue operation. IGSU reported that the search resumed on 16 October; announced boarding plans are not confirmation of completed boarding.",
       "The ship was reported about 13 nautical miles southeast of Sulina, just outside Romanian territorial waters. It is included in the register’s offshore coverage. The rescue request at 06:58 is not a verified attack time. This promotes the earlier fire-only watchlist lead to one red Strike record, combining the attack, fire and rescue; it remains separate from YARA J and Sea Destiny."
     ],
-    "basis": "c52e889f9a88d001"
+    "basis": "69aa326016ee8b66"
   },
   "N091": {
     "slug": "2026-10-13-dailidziai-smuggling-drone-lithuania",
@@ -1569,8 +1570,19 @@
     "description": "Romania confirms two jet-powered Geran-family drones shot down over its territorial waters off Sulina on 17 October. One operation, two drones.",
     "summary": [
       "Romania’s defence ministry says two F-16s shot down two jet-powered Geran-family attack drones over Romanian territorial waters on 17 October 2026. The first was southeast of Sulina at 18:01 EEST, the second east of Sulina at 18:05.",
-      "The ministry reports two and five minutes respectively in national airspace before interception. This is one operation involving two drones; the statement does not identify the operator or intended targets. The map anchor is approximate."
+      "The ministry reports two and five minutes respectively in national airspace before interception. This is one operation involving two drones; the statement does not identify the operator or intended targets. The map anchor is approximate.",
+      "On 18 October, Defence Minister Radu Miruță assessed the drones as likely Russian-origin Geran 4. Exact model and propulsion subtype remain uncertain, and the launch operator and intended targets remain unestablished."
     ],
-    "basis": "c435c75936f91663"
+    "basis": "3a4bd0371cb70dbd"
+  },
+  "N096": {
+    "slug": "2026-10-18-drone-explosion-juodzionys-lithuania",
+    "headline": "Drone explosion near Juodžionys damages a passing car",
+    "description": "A drone entered Lithuania on 18 October and reportedly exploded near Juodžionys. Officials gave a preliminary Ukrainian attribution; no one was injured.",
+    "summary": [
+      "A drone entered Lithuania on the morning of 18 October 2026 and reportedly exploded near Juodžionys in Pasvalys district. Debris damaged a passing car without injuring its occupants. The precise sequence of the explosion and fall remained under investigation.",
+      "Defence Minister Robertas Kaunas later linked the craft to Ukraine’s attack on St Petersburg and assessed that Russian electronic warfare had diverted it. This was a preliminary account. NATO fighters scrambled but did not shoot; the Latvian warning and unverified Polish reports are not additional confirmed incursions."
+    ],
+    "basis": "e080f32f2389f7b0"
   }
 }

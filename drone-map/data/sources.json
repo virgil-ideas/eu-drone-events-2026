@@ -1825,5 +1825,109 @@
     "url": "https://www.mapn.ro/cpresa/19446_informa%C8%9Bie-de-presa-%E2%80%93-update",
     "dateLabel": "17 October 2026",
     "audit": "Primary statement read 18 October 2026; identifies two Geran-family jet attack drones neutralized by Romanian F-16s in national airspace over territorial waters."
+  },
+  "U074": {
+    "id": "U074",
+    "publisher": "Romanian Ministry of National Defence",
+    "dateLabel": "Dashboard updated 2026-10-17; checked 2026-10-19",
+    "title": "Drone and sea-mine incident dashboard: 17 October snapshot",
+    "audit": "Official dashboard read 19 October 2026. The 2026 row reports 97 nearby attacks, 77 aircraft-response incidents, 35 unauthorized entries, 6 shot-down drones, 44 identifications/recoveries/neutralizations and 2 sea mines. Ministry categories overlap; no extra dated occurrence inferred.",
+    "url": "https://www.mapn.ro/"
+  },
+  "U084": {
+    "id": "U084",
+    "publisher": "Bulgarian National Radio — Burgas",
+    "dateLabel": "2026-10-17 08:45",
+    "title": "Drone-damaged CHELSEA 3 towed to Burgas port",
+    "url": "https://bnrnews.bg/burgas/post/543499/udareniyat-korab-chelsi-3-be-izteglen-do-pristanishteto-v-burgas",
+    "audit": "Read 19 October. BNR reports completed tow and docking at Burgas-West at 08:00 on 17 October, three hull breaches, and an investigation. Minister’s Russian-origin suggestion is a working hypothesis, not a finding; his quoted flag description is not used to overwrite the established Maltese registry."
+  },
+  "U087": {
+    "id": "U087",
+    "publisher": "MaltaDaily",
+    "dateLabel": "2026-10-13",
+    "title": "Malta-flagged vessel struck by three drones in Black Sea, says minister",
+    "url": "https://maltadaily.mt/articles/malta-flagged-vessel-struck-by-three-drones-in-black-sea-says-minister",
+    "audit": "Read 19 October. Reports Minister Chris Fearne giving 12 October and four minor injuries for CHELSEA-3, differing from the Bulgarian 13 October / five-treated account. No second occurrence inferred; original ministerial post not independently retrieved."
+  },
+  "U075": {
+    "id": "U075",
+    "publisher": "Reuters via Investing.com",
+    "title": "Lithuanians forced to take shelter after suspected drone enters airspace",
+    "url": "https://www.investing.com/news/world-news/lithuania-told-residents-to-go-to-shelters-after-detecting-a-flying-object-4955846",
+    "dateLabel": "18 October 2026; updated report",
+    "audit": "Read 19 October. Quotes the Lithuanian president on an explosion and NATO on two Italian Eurofighters. The aircraft did not engage. Poland had not corroborated the reported border crossing. Later local attribution is supplied separately by U076."
+  },
+  "U076": {
+    "id": "U076",
+    "publisher": "LRT / BNS",
+    "title": "Defence minister links crashed drone to Ukrainian attack on St Petersburg",
+    "url": "https://www.lrt.lt/naujienos/lietuvoje/2/3086130/robertas-kaunas-nukrites-dronas-ukrainos-atakos-pries-sankt-peterburga-pasekme",
+    "dateLabel": "18 October 2026, 19:52 EEST",
+    "audit": "Full report read 19 October. Minister Robertas Kaunas gives preliminary Ukrainian identification, printed as “FPV-1”, and attributes diversion to Russian electronic warfare. Computer components were still being sought. These remain official assessments, not completed forensic findings."
+  },
+  "U077": {
+    "id": "U077",
+    "publisher": "Latvian National Armed Forces (NBS)",
+    "title": "Possible drone detonation in Lithuania near Latvian border",
+    "url": "https://www.mil.lv/lv/zinas/lietuva-netalu-no-latvijas-robezas-iespejams-detonejis-drons",
+    "dateLabel": "18 October 2026",
+    "audit": "Primary bulletin read 19 October. Places the unidentified possible UAV in Lithuanian airspace between 06:00 and 08:00 and the incident site in Pasvalys district. Latvian cell broadcasts responded to possible entry; the bulletin does not establish a Latvian incursion. It explicitly says NATO fighters did not shoot down the object."
+  },
+  "U078": {
+    "id": "U078",
+    "publisher": "LT72 / Lithuanian Fire and Rescue Department",
+    "title": "Red air warning for Šiauliai and Panevėžys counties",
+    "url": "https://lt72.lt/oro-pavojus-del-galimai-dronu-raudona/",
+    "dateLabel": "18 October 2026, 07:09 EEST",
+    "audit": "Primary notice read 19 October. Establishes warning time and area, not the craft’s final identification or exact impact time."
+  },
+  "U079": {
+    "id": "U079",
+    "publisher": "15min / BNS",
+    "title": "Crisis centre confirms car damage and no injuries",
+    "url": "https://www.15min.lt/naujiena/aktualu/lietuva/nkvc-nukrites-dronas-apgadino-automobili-zmones-nebuvo-suzeisti-56-2787290",
+    "dateLabel": "18 October 2026, 13:06; updated 13:13 EEST",
+    "audit": "Full report read 19 October. NKVC head Vilmantas Vitkauskas confirms rear-door damage to a passing car near Juodžionys, without injuries. An explosion and explosive cargo remained assessments; whether detonation occurred aloft or after falling was unresolved."
+  },
+  "U085": {
+    "id": "U085",
+    "publisher": "Reuters / Investing.com",
+    "title": "Romanian F-16 fighter jets shoot down two drones over Romanian territorial waters",
+    "url": "https://www.investing.com/news/commodities-news/romanian-f16-fighter-jets-shoot-down-two-drones-over-romanian-territorial-waters-4955946",
+    "dateLabel": "18 October 2026; reporting the 17 October interception",
+    "audit": "Full report read 19 October. Minister Miruță's subsequent Russian-origin/Geran 4 assessment is tentative. Does not establish launch operator. Reuters renders the minister's engine description as turboprop, whereas MApN's 17 October bulletin says jet propulsion; do not silently reconcile these terms."
+  },
+  "U086": {
+    "id": "U086",
+    "publisher": "AGERPRES, quoting IGSU",
+    "title": "IGSU: Operațiunile de căutare-salvare în Marea Neagră au fost reluate în această dimineață",
+    "url": "https://agerpres.ro/social/2026/10/16/igsu-operatiunile-de-cautare-salvare-in-marea-neagra-au-fost-reluate-in-aceasta-dimineata--1603705",
+    "dateLabel": "16 October 2026",
+    "audit": "Full report read 19 October. Search resumed on Friday morning. Five previously rescued crew reiterated; no revised missing/death total. Transporting four rescuers aboard WINE TRADER and FIFI deployment are described as planned actions, not completed boarding."
+  },
+  "U088": {
+    "id": "U088",
+    "publisher": "Bulgarian National Radio / Horizont",
+    "title": "Министър Стоянов за дроновете в Черно море: Нека да говорим с факти",
+    "url": "https://www.bnrnews.bg/main/post/543774/ministar-stoyanov-za-dronovete-v-cherno-more-neka-da-govorim-s-fakti",
+    "dateLabel": "18 October 2026, 14:17 local publication time",
+    "audit": "Full report read 19 October. Defence Minister Dimitar Stoyanov said ownership of drones involved in the two 13 October merchant-ship attacks remained unknown and evidence was needed before attribution or diplomatic measures. Applies to N079 and N080; adds no attack."
+  },
+  "U089": {
+    "id": "U089",
+    "publisher": "AGERPRES",
+    "title": "Radu Miruță: Ministerul Apărării a înregistrat trei premiere în privința dronelor doborâte sâmbătă seară",
+    "url": "https://agerpres.ro/social/2026/10/18/radu-miruta-ministerul-apararii-a-inregistrat-trei-premiere-in-privinta-dronelor-doborate-sambata-se--1604246",
+    "dateLabel": "18 October 2026, 20:06 local publication time",
+    "audit": "Full Romanian report read 19 October; publication time appears in AGERPRES's contemporaneous article listing. Quotes Miruță's Târgu Jiu press conference, including tentative Russian-origin Geran 4 assessment from reported 450 km/h speed. Quotes turbo-propulsor while separately repeating MApN's jet-propulsion identification. This is an attribution/model follow-up to N095, not another interception."
+  },
+  "U090": {
+    "id": "U090",
+    "publisher": "Cyprus News Agency",
+    "title": "Kıbrıs, Türk askerî güçlerinin 659 ihlalini BM’ye bildirdi",
+    "url": "https://www.cna.org.cy/tr/article/11018385/k%C4%B1br%C4%B1s-t%C3%BCrk-asker%C3%AE-g%C3%BC%C3%A7lerinin-659-ihlalini-bm-ye-bildirdi",
+    "dateLabel": "12 October 2026, 17:01 local publication time",
+    "audit": "Full Turkish-language CNA report read 19 October. Describes Cyprus's 29 September letter, distributed 2 October, about June–July 2026. Figures are Cypriot allegations in a UN-circulated document, not independently UN-verified incidents. Individual annex entries were not obtained or extracted."
   }
 }
