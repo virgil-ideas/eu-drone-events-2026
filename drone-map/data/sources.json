@@ -1929,5 +1929,61 @@
     "url": "https://www.cna.org.cy/tr/article/11018385/k%C4%B1br%C4%B1s-t%C3%BCrk-asker%C3%AE-g%C3%BC%C3%A7lerinin-659-ihlalini-bm-ye-bildirdi",
     "dateLabel": "12 October 2026, 17:01 local publication time",
     "audit": "Full Turkish-language CNA report read 19 October. Describes Cyprus's 29 September letter, distributed 2 October, about June–July 2026. Figures are Cypriot allegations in a UN-circulated document, not independently UN-verified incidents. Individual annex entries were not obtained or extracted."
+  },
+  "U091": {
+    "id": "U091",
+    "publisher": "LRT / BNS / ELTA",
+    "title": "M. Sinkevičius apie Lietuvoje nukritusį droną: nėra abejonių, kad jis nešė sprogmenis",
+    "url": "https://www.lrt.lt/naujienos/lietuvoje/2/3087126/m-sinkevicius-apie-lietuvoje-nukritusi-drona-nera-abejoniu-kad-jis-nese-sprogmenis",
+    "dateLabel": "19 October 2026, 12:06; updated 12:47",
+    "audit": "Full report read 20 October. Prime minister attributes Ukrainian origin to wreckage and Ukrainian notification and says explosives were carried. Defence staff chief gives 06:02 entry and 06:45 first Kaunas warning. Crash and detonation sequence remain under investigation."
+  },
+  "U092": {
+    "id": "U092",
+    "publisher": "News.bg, reporting bTV interview",
+    "title": "Три пробойни по кораба \"Челси 3\", капитан твърди, че е празен",
+    "url": "https://news.bg/society/tri-proboyni-po-koraba-chelsi-3-kapitan-tvardi-che-e-prazen.html",
+    "dateLabel": "19 October 2026, 08:02",
+    "audit": "Full report read 20 October. Burgas maritime administration director Zhivko Petrov describes three hull breaches and assesses blast damage, possibly a surface drone. This is his assessment, not a final forensic conclusion; initial aerial-drone account remains unresolved."
+  },
+  "U093": {
+    "id": "U093",
+    "publisher": "CTnews, publishing seafarers union statement",
+    "title": "Adrian Mihălcioiu: Nava „Wine Trader” a fost atacată cu drone rusești. Acesta se îndrepta spre portul Giurgiulești",
+    "url": "https://www.ctnews.ro/adrian-mihalcioiu-nava-wine-trader-a-fost-atacata-cu-drone-rusesti-acesta-se-indrepta-spre-portul-giurgiulesti/",
+    "dateLabel": "19 October 2026",
+    "audit": "Full statement read 20 October. Union leader Adrian Mihălcioiu reiterates five rescued and seven missing, and reports teams boarded and searched accessible spaces. Approximate 04:00 attack time and Geran identification are attributed claims, not independently established findings."
+  },
+  "U094": {
+    "id": "U094",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Έξι τουρκικά drones έκαναν παραβιάσεις και παραβάσεις στο Αιγαίο",
+    "url": "https://www.onalert.gr/ellinotourkika/eksi-tourkika-drones-ekanan-paraviaseis-kai-paravaseis-sto-aigaio/827276/",
+    "dateLabel": "19 October 2026, 18:32 local publication time",
+    "audit": "Full article read 20 October. Explicitly dates the GEETHA account to 19 October: six UAVs, nine reported national-airspace violations and nine Athens FIR infringements in the northeastern and southeastern Aegean. Routine identification/interception; no armed aircraft or engagements reported. Primary GEETHA bulletin not directly retrieved; figures remain attributed to the Greek military."
+  },
+  "U095": {
+    "id": "U095",
+    "publisher": "Veteranos",
+    "title": "Tουρκικά UAV στο Αιγαίο: 9 παραβιάσεις του ΕΕΧ από 6 μη επανδρωμένα αεροσκάφη",
+    "url": "https://veteranos.gr/tourkika-uav-sto-aigaio-9-paraviaseis-tou-eech-apo-6-mi-epandromena-aeroskafi/",
+    "dateLabel": "19 October 2026; publication time not displayed",
+    "audit": "Full article read 20 October. Explicitly dates activity to Monday 19 October and reports six UAVs, nine FIR infringements and nine national-airspace violations in the northeastern and southeastern Aegean; routine interception. Matching published account, not independent flight-track verification."
+  },
+  "U096": {
+    "id": "U096",
+    "publisher": "NewsIT / OnAlert",
+    "title": "Έξι τουρκικά drones έκαναν 9 παραβιάσεις του εθνικού εναέριου χώρου στο Αιγαίο",
+    "url": "https://www.newsit.gr/ellada/eksi-tourkika-drones-ekanan-9-paraviaseis-tou-ethnikou-enaeriou-xorou-sto-aigaio/4802381/amp/",
+    "dateLabel": "19 October 2026, 18:40 local publication time",
+    "audit": "Full article read 20 October. Reproduces the six-UAV, nine-airspace-violation, nine-FIR-infringement breakdown for 19 October and credits OnAlert. A republication, not independent corroboration or an additional occurrence. Reuters photograph is explicitly a file image."
+  },
+  "U097": {
+    "id": "U097",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Two more cigarette-carrying drones crash near the Belarus border",
+    "url": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-i-zeme-teskesi-dar-du-kontrabandininku-dronai-su-cigaretemis-foto-rev/",
+    "dateLabel": "2026-10-19",
+    "audit": "Primary report read 20 October 2026. Describes two separate weekend cross-border cargo occurrences with electronic counter-drone intervention, impact damage and recovery. Weekday/night wording supplies inferred dates; no exact flight times. Its annual total of 67 intercepted drones is non-additive. Operator nationality and state sponsorship are not established."
   }
 }

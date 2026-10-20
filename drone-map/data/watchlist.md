@@ -123,3 +123,57 @@ flights, but police checks did not verify the object. The [syndicated police
 release](https://mail.freenet.de/polizeimeldungen/bayern/pol-mfr-882-beeintraechtigungen-im-flugverkehr_6369949-40522026.html)
 does not establish a foreign incursion. The separate midday manned-aircraft
 interception must not be merged into this lead.
+
+## Follow-up and coverage — 20 October 2026
+
+Research revisited 9–20 October, including the 16–20 October overlap. This is a
+partial source review, not an exhaustive EU-wide clearance or a new completed
+full-coverage cutoff. The inclusive reporting cutoff advances to 19 October for
+N097, the Greek-reported daily UAV activity; aircraft, airspace violations and FIR
+infringements remain separate quantities within one record.
+
+N079 now preserves the conflict between the initial aerial-drone account and
+Captain Petrov's 19 October surface-drone/blast assessment. Investigation remains
+open. N090 adds the seafarers union's 19 October report of completed boarding and
+searching, explicitly attributed to that statement; five rescued/seven missing
+remains a reporting snapshot. N096 adds the Lithuanian prime minister's explosives
+statement and evidence-based Ukrainian-origin assessment, without claiming final
+forensic findings about the crash mechanism.
+
+Eemshaven's 18 October republications still describe 10–11 and 13 October sightings.
+[The original Eemskrant report](https://www.eemskrant.nl/meerdere-meldingen-van-drones-boven-eemshaven-politie-doet-onderzoek/)
+attributes police observations to Groningen Seaports; no foreign connection or
+border crossing has been established. A suspected intended target is not a
+prerequisite for publishing a verified incursion.
+
+The [12 October Luxembourg military drone crash near Elsenborn, Belgium](https://www.vedia.be/info/faits-divers/un-drone-secrase-pres-du-camp-delsenborn-lors-dun-exercice-de-la-defense/214535)
+was reported as engine failure during an authorized exercise and is not an
+incursion. Domestic prison-drone reports at Tarbes (14 October) and Naples
+(15 October) do not establish cross-border entry. Preventive restrictions and
+lawful aerial or underwater exercises add no records.
+
+Romania's MApN dashboard dated 19 October repeats the previously reviewed annual
+aggregate counts; it supplies no additional separately dated occurrence.
+
+Greek 13–14 and 18 October remain unresolved; the 16–17 October Veteranos
+accounts remain uncorroborated leads. An 18 October republication describing
+15 October is N088, not a new occurrence. N097's NewsIT story credits OnAlert,
+so it is not an independent third account. The GEETHA archive remains
+inaccessible; Cyprus's June–July aggregate allegations remain non-additive NA005.
+
+Retrospective Greek leads requiring further source review (UAVs / reported
+national-airspace violations / FIR infringements, excluding manned aircraft):
+- [25 September](https://www.onalert.gr/ellinotourkika/paraviaseis-ston-ethniko-enaerio-xoro-apo-tourkika-drones-atr-72-petakse-sto-fir-athinon/822111/): 5 / 6 / 6.
+- [26 September](https://www.onalert.gr/ellinotourkika/paraviaseis-kai-paravaseis-apo-tria-tourkika-drones-se-voreioanatoliko-kai-notioanatoliko-aigaio/822271/): 3 / 2 / 3.
+- [28 September](https://www.onalert.gr/ellinotourkika/tourkiko-drone-ekane-4-paraviaseis-sto-aigaio-paravaseis-kai-apo-ena-atr-72/822643/): 1 / 4 / 2.
+- [29 September](https://www.onalert.gr/ellinotourkika/i-tourkia-prokalei-ksana-sto-aigaio-me-7-paravaseis-kai-3-paraviaseis/822860/): 3 / 3 / 5.
+- [30 September](https://www.onalert.gr/ellinotourkika/oplismena-tourkika-f-16-paraviasan-ton-ethniko-enaerio-xoro-paravaseis-kai-paraviaseis-apo-drones-kai-atr-72/823075/): 4 / 1 / 5.
+These OnAlert accounts were read on 20 October; corroboration and the primary
+bulletins remain outstanding. They do not yet add mapped records.
+
+N098 and N099 add two separate Lithuanian cross-border cigarette-drone occurrences
+from VSAT's 19 October primary report: Dumblė (Friday night, recovered Saturday)
+and Daugidonys–Beržiškės (Sunday night). Dates are inferred from the named weekdays,
+with overnight uncertainty preserved. Electronic interception, crash and recovery
+are stages of each occurrence; the annual total of 67 adds no separate records.
+Neither event establishes state sponsorship.

@@ -215,3 +215,16 @@ cutoff is 18 October; this date does not certify exhaustive research coverage.
 CHELSEA 3's completed tow is a follow-up to N079, with conflicting date/injury
 accounts preserved. A003 retains the ministry's updated, non-additive Romanian
 counters. Outstanding source gaps remain in `data/watchlist.md`.
+
+## 20 October source review
+
+N097 adds the 19 October Greek-reported UAV activity as one daily record.
+The inclusive reporting cutoff is 19 October; unresolved Greek daily sources
+and partial EU-wide research coverage remain explicit in `data/watchlist.md`.
+N079 preserves conflicting aerial/surface-drone assessments; N090 adds the
+union-reported search follow-up; N096 adds the prime minister's payload and
+origin statements. These are updates to existing occurrences, not new attacks.
+N098 and N099 add two separate VSAT-confirmed cross-border cargo drones, with
+weekday-derived timing qualified and criminal activity distinguished from state
+attribution. The register now has 147 active records (142 events, 5 candidates)
+and one preserved excluded record. Counts are not confirmed foreign-attack totals.
