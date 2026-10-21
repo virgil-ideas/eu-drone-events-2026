@@ -177,3 +177,87 @@ and Daugidonys–Beržiškės (Sunday night). Dates are inferred from the named 
 with overnight uncertainty preserved. Electronic interception, crash and recovery
 are stages of each occurrence; the annual total of 67 adds no separate records.
 Neither event establishes state sponsorship.
+
+## Follow-up and coverage — 21 October 2026
+
+Research revisited 9–21 October with at least a 72-hour overlap and targeted
+September Greek gaps. This remains a partial source review across all 27 EU
+states, not an exhaustive clearance or a new completed full-coverage cutoff.
+Austrian and Czech incident-archive coverage remains particularly limited;
+Estonian and Danish coverage also relies heavily on indexed reporting.
+The reporting cutoff accommodates verified dated records and does not certify
+that every day or jurisdiction has been fully researched.
+
+N073 retains NOVA's 20 October report that ABLE subsequently sank off Turkey,
+following its departure from Bulgaria's EEZ. This is a follow-up to the
+6 October attack, not a new EU incursion; no direct wreck survey was retrieved.
+N079 adds the 20 October investigation update on recovered remains and chemical
+analysis. No final drone type, explosive identification or operator finding was
+announced, and expected allied specialist assistance is not recorded as arrived.
+
+Romania: [MApN bulletin 339, 21 October](https://www.mapn.ro/cpresa/19448_informa%C8%9Bie-de-presa)
+reports a 03:34–04:02 local Tulcea RO-Alert after targets were detected northeast
+of Vâlcove in Ukrainian airspace. It explicitly reports no national-airspace
+entry; the alert adds no mapped incursion. The current dashboard's near-border
+counter differs from the earlier snapshot; A003 preserves that unresolved
+non-additive discrepancy instead of creating or deleting event rows.
+
+Netherlands: [ANP's 20 October report](https://www.welingelichtekringen.nl/samenleving/weer-drones-boven-eemshavengebied-in-groningen)
+adds Eemshaven-area sightings from the latest weekend, inferred as 17–18 October,
+and separate recent reports at Meeden, Scheemda and Zuidbroek without exact
+flight dates. Police reportedly believe the Eemshaven objects were drones but
+their origin remains unknown; police see no current link between the two areas.
+This is additional reported activity beyond the earlier 10–11/13 October leads.
+No foreign link or border crossing is established, so these remain watchlist
+leads. Multiple copies of the same ANP dispatch are not independent sources.
+
+Authorized counter-drone exercises in Spain and Portugal, Italian preventive
+flight restrictions and the 13 October manned-aircraft interception over Croatia
+and Slovenia do not add drone-incursion records. The Dutch October disclosure
+about Volkel and Eindhoven concerns June–November 2025; its publication date is
+not a new 2026 occurrence date.
+
+## Northern-state follow-up — 21 October 2026
+
+The 9–21 October northern-state pass checked Estonia, Latvia, Lithuania, Finland,
+Sweden, Denmark and Poland, with emphasis on 18–21 October. It is a partial source
+review through the actual early-morning check, not an exhaustive clearance.
+
+N096 is updated in place with the Lithuanian radar chronology, Polish MON's
+Ukrainian identification and denial of a Lithuanian launch, and the joint
+Lithuanian–Polish investigation reported on 20 October (U102–U105). LETA's NBS
+spokesman account explicitly says Latvian surveillance did not indicate entry
+into Latvia (U106). Warnings and disputed Polish reports add no separate events.
+
+Lublin, 17–18 October: Radio Lublin reported on 20 October that searches had
+found no related object. The military planned to resume searches on 21 October;
+resumption itself had not yet been confirmed at this check. Identification and
+any connection to N096 remain unresolved (U107).
+
+Kalmar Airport, Sweden, 18 October: police located the operator and seized a
+hobby drone after the 19:57 report. The suspected aviation-law violation does
+not establish cross-border entry (U108).
+
+Józefów, Nieporęt municipality, Poland, 20 October: the afternoon crash was
+identified by police as an unarmed Polish WITU training drone after lost contact.
+No injuries or property damage were reported. This domestic occurrence is not
+added to the foreign-incursion register (U109).
+
+VSAT's latest reviewed cargo-drone report remains the 19 October report already
+represented by N098 and N099. Its two recoveries and annual total are not new
+occurrences. Finland's 16–18 October restrictions remain preventive; Yle quotes
+the defence forces saying no drones strayed into Finland on 18 October.
+
+## Greece and Cyprus review — 21 October 2026
+
+Checked through **21 October 2026, 05:11 UTC / 08:11 EEST**. Coverage is partial. This early-morning check does not establish a completed event-free 21 October. The **20 October inclusive reporting cutoff** accommodates reviewed occurrences; it does not certify exhaustive country-by-country coverage through that date.
+
+Matching published Greek military accounts now support twelve dated UAV-activity records: **N100–N109** cover 17, 19, 20, 22, 23, 25, 26, 28, 29 and 30 September; **N110** covers 5 October; **N111** covers 20 October. These repair previously unmapped dates rather than adding records for existing Greek dates. Existing source entries G0917, G0919, G0920 and G0923 were reopened and reused.
+
+The 20 October account gives **5 UAVs / 9 national-airspace violations / 8 UAV Athens FIR infringements**. The CN-235 and its five national-airspace violations and two FIR infringements are excluded. OnAlert supplies the split; ProtoThema corroborates the five UAVs and nine national-airspace violations. NewsIT is treated as derivative coverage. The aircraft and activity classifications are not summed. On 22 September, only two of the five UAVs were assigned the three national-airspace violations. On 5 October, the reported fighter encounter is not established as a UAV engagement.
+
+The original GEETHA daily bulletins remain unretrieved. Matching publications corroborate the reported military account, not independently verified tracks or Greece's disputed airspace assessment. Broad regional anchors do not identify violation coordinates.
+
+**Unresolved:** 13–14 October still lack corroborated dated accounts. Veteranos remains the only located matching source for 16 October (5 UAVs / 2 national-airspace violations / 7 FIR infringements) and 17 October (2 / 6 / 4). A newly located [18 October Veteranos lead](https://veteranos.gr/tourkikes-paraviaseis-sto-aigaio-5-uav-me-10-paravaseis-kai-6-paraviaseis-tou-eech/) reports 5 / 6 / 10, but only search text was retrievable and no second account was found. None is promoted to a mapped record. These gaps are not verified zero-event days.
+
+No new qualifying Cyprus entry was established. NA002, NA003 and NA005 remain non-additive context. A [19 September Kathimerini teaser](https://beta-m.kathimerini.com.cy/gr/kypros/apokalyptiko-reportaz-k-prokliseis-poy-aggizoyn-eleytheres-perioxes) mentions a 19 August occurrence in Nicosia FIR, but accessible detail does not establish the vehicle, location and sovereign crossing required for another record. Authorized electricity-network inspections and municipal mosquito-control flights are excluded.

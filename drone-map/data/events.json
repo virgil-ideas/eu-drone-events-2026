@@ -5112,30 +5112,31 @@
   },
   {
     "id": "N073",
-    "dateLabel": "2026-10-06 (early hours; 7–9 October follow-ups)",
+    "dateLabel": "2026-10-06 (attack; follow-ups through 20 October)",
     "startDate": "2026-10-06",
-    "dateBasis": "Attack in the early hours of 6 October. Search suspension on 7 October, investigation request on 8 October and ABLE inspection reported on 9 October update this same occurrence.",
+    "dateBasis": "Attack in the early hours of 6 October. Search suspension on 7 October, investigation request on 8 October and ABLE inspection reported on 9 October update this same occurrence. The 20 October report of ABLE’s later sinking off Turkey is a consequence of the same attack, not a second occurrence.",
     "countries": "Bulgaria (offshore EEZ)",
     "location": "Black Sea, approximately 70 nautical miles east of Byala, in Bulgaria’s exclusive economic zone and outside its territorial waters.",
-    "status": "ALFA WATAN sank, crew missing; ABLE crew rescued, vessel still afloat in 9 October report",
+    "status": "ALFA WATAN sank, crew missing; ABLE crew rescued and later sinking reported off Turkey",
     "categories": "Aerial and maritime drone attack; reported explosion; ALFA WATAN sinking; ABLE fire; search and rescue",
     "vehicle": "Two merchant vessels: Togo-flagged ALFA WATAN and Palau-flagged ABLE. Bulgarian authorities report aerial and maritime attack drones; models and number unestablished. Ship flags, crew nationality and attacker attribution are separate.",
     "attribution": "Unresolved by Bulgaria. Rumen Radev said circumstances suggested Russia but evidence was insufficient for definitive attribution (7 October); Russia denied targeting the vessel. Zelensky separately alleged a Russian combined attack and claimed a joint investigation supported it (6 October). This Ukrainian claim is retained as attribution, not a published Bulgarian finding. On 9 October, Defence Minister Dimitar Stoyanov assessed ABLE’s damage as a surface-drone strike while declining to identify a Russian or Ukrainian operator.",
     "route": "Approximately 70 nautical miles east of Byala; no verified drone launch points or flight/surface tracks.",
     "circumstances": "Bulgarian government reported an aerial/maritime drone attack on two merchant ships. ALFA WATAN sank; nearby ferry DIOSCURIA witnessed an explosion and approached. ABLE caught fire and its crew was evacuated.",
     "payload": "Drone models, numbers and explosive payloads not established; no drone remains recovered in the 7 October report.",
-    "impact": "ALFA WATAN crew missing: Reuters on 7 October reported twelve Syrians; its 8 October report gives ten missing, including nine Syrians. The discrepancy is unresolved; missing people are not recorded as confirmed dead. All eighteen ABLE crew were rescued, two injured; BTA reports eleven Turkish and seven Indian nationals aboard ABLE. ABLE remained afloat and drifting in the 9 October account, with severe hull damage and engine-room flooding; sinking was possible, not confirmed.",
-    "response": "DIOSCURIA assisted, with Bulgarian naval, air, border-police and maritime-rescue teams responding. Injured ABLE survivors were taken to Varna. Authorities halted the ALFA WATAN search on 7 October after finding a boat, three liferafts and equipment, but no sailors or drone wreckage. On 8 October Syria sought an independent investigation into the attack and termination of the search. A Cougar helicopter and frigate Verni inspected ABLE; two personnel boarded but found no identifiable drone remnants (9 October reporting).",
-    "uncertainty": "High confidence in the officially reported attack and vessel outcomes. Operator, precise weapons and exact positions remain unresolved. Conflicting ALFA WATAN crew totals remain source-dated; no reconciled death toll inferred. EEZ location is not a confirmed incursion into Bulgarian sovereign territory. No drone fragments identified aboard ABLE in the later inspection. Officials differed on flooding extent; the Navy commander said its eventual sinking could not yet be determined. The separately discovered Sinemorets UAV debris (N077) has no established connection.",
-    "deduplication": "One dated record for the reported combined attack on ALFA WATAN and ABLE. Sinking, fire, rescue, search termination and investigation request remain together; no added rows for two ships, multiple drones or follow-ups. Separate from Royad Mammadov N072 off Romania on 5 October. The 9 October ABLE inspection is retained here; N077 is a distinct debris discovery with no proven link to this attack.",
-    "provenance": "Added and reviewed 2026-10-09 against Bulgaria’s official 6 October statement, BTA and Reuters reports through 8 October (U037–U041). The Bulgarian attack was absent from the existing register. Original research snapshots unchanged. Updated 2026-10-12 with Mediapool’s 9 October inspection account (U046); attack date, anchor and existing casualty discrepancies retained.",
+    "impact": "ALFA WATAN crew missing: Reuters on 7 October reported twelve Syrians; its 8 October report gives ten missing, including nine Syrians. The discrepancy is unresolved; missing people are not recorded as confirmed dead. All eighteen ABLE crew were rescued, two injured; BTA reports eleven Turkish and seven Indian nationals aboard ABLE. ABLE remained afloat and drifting in the 9 October account, with severe hull damage and engine-room flooding; sinking was possible, not confirmed. NOVA reported on 20 October that ABLE had sunk off Turkey after disappearing from radar late on 19 October; no exact sinking time or wreck position was provided.",
+    "response": "DIOSCURIA assisted, with Bulgarian naval, air, border-police and maritime-rescue teams responding. Injured ABLE survivors were taken to Varna. Authorities halted the ALFA WATAN search on 7 October after finding a boat, three liferafts and equipment, but no sailors or drone wreckage. On 8 October Syria sought an independent investigation into the attack and termination of the search. A Cougar helicopter and frigate Verni inspected ABLE; two personnel boarded but found no identifiable drone remnants (9 October reporting). NOVA reports that ABLE left Bulgaria’s EEZ on 14 October, citing the transport ministry; later sinking was reported off Turkey.",
+    "uncertainty": "High confidence in the initial officially reported attack and rescue account. Operator, precise weapons and exact positions remain unresolved. Conflicting ALFA WATAN crew totals remain source-dated; no reconciled death toll inferred. EEZ location is not a confirmed incursion into Bulgarian sovereign territory. No drone fragments were identified aboard ABLE in the 9 October inspection. At that time officials differed on flooding extent and the Navy commander said its eventual sinking could not yet be determined. The separately discovered Sinemorets UAV debris (N077) has no established connection. The subsequent sinking is attributed to NOVA’s 20 October report; no direct wreck survey or Turkish authority confirmation was retrieved. Its offshore Turkish location is a follow-up, not an additional EU incursion.",
+    "deduplication": "One dated record for the reported combined attack on ALFA WATAN and ABLE. Sinking, fire, rescue, search termination and investigation request remain together; no added rows for two ships, multiple drones or follow-ups. Separate from Royad Mammadov N072 off Romania on 5 October. The 9 October ABLE inspection is retained here; N077 is a distinct debris discovery with no proven link to this attack. The reported 19–20 October ABLE sinking remains part of this record.",
+    "provenance": "Added and reviewed 2026-10-09 against Bulgaria’s official 6 October statement, BTA and Reuters reports through 8 October (U037–U041). The Bulgarian attack was absent from the existing register. Original research snapshots unchanged. Updated 2026-10-12 with Mediapool’s 9 October inspection account (U046); attack date, anchor and existing casualty discrepancies retained. Reviewed 21 October against NOVA’s 20 October sinking report (U099).",
     "sources": [
       "U037",
       "U038",
       "U039",
       "U040",
       "U041",
-      "U046"
+      "U046",
+      "U099"
     ],
     "title": "ALFA WATAN / ABLE · offshore drone attack",
     "category": "explosion",
@@ -5154,7 +5155,7 @@
     "positionNote": "Rounded editorial estimate for the reported offshore area, not verified vessel coordinates or a point within territorial waters.",
     "recordClass": "event",
     "recordType": "reported_offshore_drone_strike",
-    "reviewedOn": "2026-10-12",
+    "reviewedOn": "2026-10-21",
     "matchKey": "BG::2026-10-06::alfa-watan-able-byala-offshore"
   },
   {
@@ -5386,14 +5387,15 @@
     "startDate": "2026-10-13",
     "countries": "Bulgaria (offshore EEZ)",
     "attribution": "Operator and nationality unresolved. Radev said evidence was insufficient to accuse either belligerent. His argument that the attacks benefit Russia and planned diplomatic consultations do not establish Russian responsibility. On 17 October, transport minister Peev described Russian responsibility as a working hypothesis requiring proof. On 18 October, Defence Minister Stoyanov said drone ownership in the two 13 October ship attacks remained unknown and evidence was required before attribution.",
-    "payload": "Model and payload unestablished. On 19 October, Petrov assessed the three hull breaches as blast damage, possibly from a surface drone; final forensic conclusions remain pending.",
+    "payload": "Model and payload unestablished. On 19 October, Petrov assessed the three hull breaches as blast damage, possibly from a surface drone; final forensic conclusions remain pending. On 20 October, the prime minister said chemical analysis was underway to identify the explosive type; no result was announced.",
     "sources": [
       "U050",
       "U051",
       "U084",
       "U087",
       "U088",
-      "U092"
+      "U092",
+      "U098"
     ],
     "category": "strike",
     "stages": [
@@ -5401,9 +5403,9 @@
     ],
     "recordClass": "event",
     "recordType": "reported_offshore_drone_strike",
-    "reviewedOn": "2026-10-20",
+    "reviewedOn": "2026-10-21",
     "classificationNote": "Strike: reported damaging drone attack, shown in red. Petrov’s blast assessment is explicitly attributed and not treated as a final forensic finding. This offshore record does not establish a sovereign-territory incursion.",
-    "provenance": "Added and reviewed 2026-10-13 against BNR Radio Varna and BgVesti reporting of the prime minister’s account (U050–U051). The initial review used the supplied 13 October 08:58 EEST check. Follow-up reviewed 19 October against BNR Burgas (U084); the tow updates this occurrence, not a new strike. Further attribution status reviewed 19 October against BNR's 18 October ministerial report. Damage and investigation follow-up reviewed 20 October against News.bg’s 19 October account of Petrov’s bTV interview (U092).",
+    "provenance": "Added and reviewed 2026-10-13 against BNR Radio Varna and BgVesti reporting of the prime minister’s account (U050–U051). The initial review used the supplied 13 October 08:58 EEST check. Follow-up reviewed 19 October against BNR Burgas (U084); the tow updates this occurrence, not a new strike. Further attribution status reviewed 19 October against BNR's 18 October ministerial report. Damage and investigation follow-up reviewed 20 October against News.bg’s 19 October account of Petrov’s bTV interview (U092). Reviewed 21 October against BNR/BTA reporting of the 20 October investigation update (U098).",
     "id": "N079",
     "title": "Off Byala · CHELSEA 3 drone strike",
     "dateBasis": "Overnight 13 October incident. The 01:30 local distress notification is a response timestamp, not an independently verified strike time. MaltaDaily’s 13 October report gives 12 October, citing Malta’s foreign minister. The Bulgarian local-date account is retained; the discrepancy remains unresolved.",
@@ -5414,8 +5416,8 @@
     "route": "Drone launch sites and flight tracks unknown. Reported offshore location does not establish a territorial-airspace crossing.",
     "circumstances": "The prime minister reported strikes on the deck and hull. Varna’s maritime rescue centre responded to the distress call and Border Police evacuated the crew.",
     "impact": "Vessel damaged; towed into Burgas-West on 17 October with three hull breaches. All 15 crew rescued: seven Ukrainians and eight Azerbaijanis. Five received medical treatment for initially reported minor injuries. No deaths reported.",
-    "response": "Crew brought to Varna. No interception, drone recovery or EOD action reported. BNR reports docking at 08:00 on 17 October after a state-coordinated tow; inspection and an independent investigation were announced. By 19 October, the vessel was stable at restricted berth 25; a military-prosecutor pretrial investigation and specialist inspections, including divers, were underway.",
-    "uncertainty": "High confidence in the published official strike/rescue account; no independently examined drone remains or flight tracks. Weapon identity and final investigation findings remain pending; completed towing does not establish responsibility. Nationality of crew, ship flag, ownership and attacker are separate facts. MaltaDaily gives four minor injuries, while Bulgarian reporting says five treated; these are conflicting accounts of the same crew, not additive totals. Petrov’s surface-drone assessment conflicts with the initial three-aerial-drone account and is not a final identification.",
+    "response": "Crew brought to Varna. No interception or EOD action reported in the initial account. BNR reports docking at 08:00 on 17 October after a state-coordinated tow; inspection and an independent investigation were announced. By 19 October, the vessel was stable at restricted berth 25; a military-prosecutor pretrial investigation and specialist inspections, including divers, were underway. On 20 October, Radev reported examination of drone remains and chemical analysis of explosive material. Allied specialist teams were expected on 21 October; their arrival was not confirmed in that report.",
+    "uncertainty": "High confidence in the published official strike/rescue account; no independently verified flight tracks or published final forensic identification. Weapon identity and final investigation findings remain pending; completed towing does not establish responsibility. Nationality of crew, ship flag, ownership and attacker are separate facts. MaltaDaily gives four minor injuries, while Bulgarian reporting says five treated; these are conflicting accounts of the same crew, not additive totals. Petrov’s surface-drone assessment conflicts with the initial three-aerial-drone account and is not a final identification. The transport minister did not specify what the recovered remains were or where they were found; the prime minister referred to drone remains. Recovery does not resolve the aerial/surface identification conflict or operator.",
     "deduplication": "One attack-and-rescue record involving three reported UAVs. Distinct from N080 off Krapets and the 6 October ALFA WATAN / ABLE attack recorded under N073.",
     "positions": [
       {
@@ -6141,10 +6143,10 @@
     "recordType": "foreign_drone_incursion_and_crash",
     "startDate": "2026-10-18",
     "dateLabel": "18 October 2026, morning (EEST)",
-    "dateBasis": "Defence staff chief Giedrius Premeneckas gave 06:02 EEST for border entry and 06:45 for the first Kaunas warning on 18 October. LT72 issued its red warning at 07:09. Exact explosion time unpublished.",
+    "dateBasis": "Lithuania’s military reported first radar contact at 05:47 EEST and border entry at 06:02 on 18 October. Defence staff chief Giedrius Premeneckas gave 06:45 for the first Kaunas warning; LT72 issued its red warning at 07:09. Exact explosion time unpublished.",
     "countries": "Lithuania",
     "location": "Near Juodžionys village, Pasvalys district, northern Lithuania; EU airspace and land.",
-    "status": "Reported foreign incursion and explosion; preliminary Ukrainian attribution",
+    "status": "Foreign drone incursion and reported explosion; Ukrainian origin identified by Lithuanian and Polish officials",
     "categories": "Airspace incursion; reported explosion; crash/debris recovery; civil warning",
     "category": "explosion",
     "stages": [
@@ -6163,16 +6165,16 @@
       }
     ],
     "positionNote": "Rounded village-area anchor, not a measured explosion, vehicle-damage or debris coordinate.",
-    "vehicle": "One drone; the defence minister gave a preliminary Ukrainian identification. Model not independently verified.",
-    "attribution": "Defence Minister Robertas Kaunas linked the craft to a Ukrainian attack on St Petersburg and assessed Russian electronic warfare as the cause of diversion. Investigation remained open. On 19 October, Prime Minister Sinkevičius said wreckage and Ukraine’s notification of lost contact supported Ukrainian origin. The precise cause of the crash and detonation remained under investigation.",
-    "route": "Lithuania reported arrival from the direction of Poland. Polish radar had not confirmed a crossing into Lithuania; the full route remains unresolved.",
+    "vehicle": "One drone; Lithuanian and Polish officials identified Ukrainian origin. Model not independently verified.",
+    "attribution": "Defence Minister Robertas Kaunas linked the craft to a Ukrainian attack on St Petersburg and assessed Russian electronic warfare as the cause of diversion. Investigation remained open. On 19 October, Prime Minister Sinkevičius said wreckage and Ukraine’s notification of lost contact supported Ukrainian origin. The precise cause of the crash and detonation remained under investigation. Poland’s Ministry of National Defence identified it as Ukrainian on 19 October and explicitly denied the media claim that it had launched from Lithuania.",
+    "route": "Lithuanian officials say the drone entered from Poland. Their published radar chronology places the first track 30–40 km inside Poland at 05:47 EEST, followed by entry into Lithuania at 06:02. Polish radar did not independently corroborate that track; the full route remains under joint investigation.",
     "circumstances": "A morning airspace contact prompted warnings and NATO identification flights. The president subsequently reported an explosion in northern Lithuania.",
     "payload": "Prime Minister Mindaugas Sinkevičius said on 19 October that the drone carried explosives; type and quantity unconfirmed.",
     "impact": "Debris damaged the rear door of a moving civilian car near Juodžionys. No injuries reported.",
-    "response": "Two Italian Eurofighters scrambled under NATO command; cloud prevented visual identification and no shot was attempted. Kaunas Airport briefly closed. Lithuanian police and military investigated debris; computer components were still being sought.",
-    "uncertainty": "Whether detonation occurred in flight or after falling remains unresolved. Preliminary attribution and jamming assessment are not final forensic findings. Related Latvian warnings do not establish entry into Latvia.",
+    "response": "Two Italian Eurofighters scrambled under NATO command; cloud prevented visual identification and no shot was attempted. Kaunas Airport briefly closed. Lithuanian police and military investigated debris; computer components were still being sought. On 20 October President Nausėda reported a joint Lithuanian–Polish defence-ministry investigation; Poland’s prime minister confirmed cooperation.",
+    "uncertainty": "Whether detonation occurred in flight or after falling remains unresolved. The Russian-jamming explanation is an official assessment, not a completed forensic finding. The full route and crash mechanism remain under investigation. Latvian NBS surveillance did not indicate entry into Latvia, according to its spokesman.",
     "deduplication": "One occurrence for contact, warning, explosion, vehicle damage and recovery. Not N052’s September Pasvalys discovery or N091–N094’s cigarette-cargo cases. No separate event for the Latvian warning or unverified Polish sighting.",
-    "provenance": "Reviewed 19 October 2026 using the NBS and LT72 primary notices, LRT/BNS, 15min/BNS and updated Reuters reporting. Follow-up reviewed 20 October against LRT’s 19 October official statements (U091).",
+    "provenance": "Reviewed 19 October 2026 using the NBS and LT72 primary notices, LRT/BNS, 15min/BNS and updated Reuters reporting. Follow-up reviewed 20 October against LRT’s 19 October official statements (U091). Rechecked 21 October using the 19 October MON statement and BNS radar chronology, LETA’s no-entry account, and 20 October LRT/BNS and Polish prime-minister follow-ups (U102–U106).",
     "classificationNote": "Explosion follows the president’s reported account, with its circumstances qualified. No shoot-down or NATO engagement; car damage does not establish a deliberate strike on the vehicle.",
     "sources": [
       "U075",
@@ -6180,9 +6182,14 @@
       "U077",
       "U078",
       "U079",
-      "U091"
+      "U091",
+      "U102",
+      "U103",
+      "U104",
+      "U105",
+      "U106"
     ],
-    "reviewedOn": "2026-10-20"
+    "reviewedOn": "2026-10-21"
   },
   {
     "reviewedOn": "2026-10-20",
@@ -6317,5 +6324,546 @@
       "U097"
     ],
     "reviewedOn": "2026-10-20"
+  },
+  {
+    "reviewedOn": "2026-10-21",
+    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in OnAlert and Veteranos. Original GEETHA bulletin not retrieved directly.",
+    "id": "N100",
+    "title": "Northeastern / southeastern Aegean · Greek-reported Turkish UAV",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-09-17",
+    "dateLabel": "2026-09-17",
+    "dateBasis": "Activity on 17 September 2026, reported that evening (OnAlert 19:26, local publication times). Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Northeastern / southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "1 reported national-airspace violation and 3 Athens FIR infringements in activity involving 1 UAV",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "positionNote": "Regional editorial anchor, not a verified violation point, flight track or airspace boundary. Overlapping markers are not shifted.",
+    "vehicle": "1 Turkish military UAV according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greece, reproduced by OnAlert and Veteranos. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The published Greek military account lists 1 UAV, 1 national-airspace violation and 3 Athens FIR infringements. Two F-16s and their one FIR infringement are excluded.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No crash, casualties or damage reported.",
+    "response": "Identification and interception under standard procedures reported; no UAV shoot-down reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown.",
+    "deduplication": "One dated regional UAV-activity record. The 1/1/3 aircraft/airspace/FIR quantities are different measures and are not summed or expanded into separate event rows.",
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "reported_UAVs": 1,
+    "reported_airspace_violations": 1,
+    "reported_FIR_infractions": 3,
+    "sources": [
+      "G0917",
+      "U110"
+    ]
+  },
+  {
+    "reviewedOn": "2026-10-21",
+    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in Capital.gr and Veteranos. Original GEETHA bulletin not retrieved directly.",
+    "id": "N101",
+    "title": "Northeastern / southeastern Aegean · Greek-reported Turkish UAVs",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-09-19",
+    "dateLabel": "2026-09-19",
+    "dateBasis": "Activity on 19 September 2026, reported that evening (Capital.gr 19:40, local publication times). Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Northeastern / southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "4 reported national-airspace violations and 5 Athens FIR infringements in activity involving 4 UAVs",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "positionNote": "Regional editorial anchor, not a verified violation point, flight track or airspace boundary. Overlapping markers are not shifted.",
+    "vehicle": "4 Turkish military UAVs according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greece, reproduced by Capital.gr and Veteranos. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The published Greek military account lists 4 UAVs, 4 national-airspace violations and 5 Athens FIR infringements.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No crash, casualties or damage reported.",
+    "response": "Identification and interception under standard procedures reported; no UAV shoot-down reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown.",
+    "deduplication": "One dated regional UAV-activity record. The 4/4/5 aircraft/airspace/FIR quantities are different measures and are not summed or expanded into separate event rows.",
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "reported_UAVs": 4,
+    "reported_airspace_violations": 4,
+    "reported_FIR_infractions": 5,
+    "sources": [
+      "G0919",
+      "U111"
+    ]
+  },
+  {
+    "reviewedOn": "2026-10-21",
+    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in CNN Greece and OnAlert. Original GEETHA bulletin not retrieved directly.",
+    "id": "N102",
+    "title": "Northeastern / central / southeastern Aegean · Greek-reported Turkish UAVs",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-09-20",
+    "dateLabel": "2026-09-20",
+    "dateBasis": "Activity on 20 September 2026, reported that evening (OnAlert 18:20; CNN Greece 18:42, local publication times). Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Northeastern / central / southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "6 reported national-airspace violations and 7 Athens FIR infringements in activity involving 6 UAVs",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / central / southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "positionNote": "Regional editorial anchor, not a verified violation point, flight track or airspace boundary. Overlapping markers are not shifted.",
+    "vehicle": "6 Turkish military UAVs according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greece, reproduced by CNN Greece and OnAlert. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The published Greek military account lists 6 UAVs, 6 national-airspace violations and 7 Athens FIR infringements.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No crash, casualties or damage reported.",
+    "response": "Identification and interception under standard procedures reported; no UAV shoot-down reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown.",
+    "deduplication": "One dated regional UAV-activity record. The 6/6/7 aircraft/airspace/FIR quantities are different measures and are not summed or expanded into separate event rows.",
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "reported_UAVs": 6,
+    "reported_airspace_violations": 6,
+    "reported_FIR_infractions": 7,
+    "sources": [
+      "G0920",
+      "U112"
+    ]
+  },
+  {
+    "reviewedOn": "2026-10-21",
+    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in OnAlert and Parapolitika. Original GEETHA bulletin not retrieved directly.",
+    "id": "N103",
+    "title": "Northeastern / southeastern Aegean · Greek-reported Turkish UAVs",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-09-22",
+    "dateLabel": "2026-09-22",
+    "dateBasis": "Activity on 22 September 2026, reported that evening (OnAlert 18:56; Parapolitika 19:44, local publication times). Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Northeastern / southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "3 reported national-airspace violations by 2 of 5 UAVs; 9 UAV Athens FIR infringements",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "positionNote": "Regional editorial anchor, not a verified violation point, flight track or airspace boundary. Overlapping markers are not shifted.",
+    "vehicle": "5 Turkish military UAVs according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greece, reproduced by OnAlert and Parapolitika. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The published Greek military account lists 5 UAVs, 3 national-airspace violations and 9 Athens FIR infringements. Only two of the five UAVs were assigned the three national-airspace violations. Two ATR-72s and their three FIR infringements are excluded.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No crash, casualties or damage reported.",
+    "response": "Identification and interception under standard procedures reported; no UAV shoot-down reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown.",
+    "deduplication": "One dated regional UAV-activity record. The 5/3/9 aircraft/airspace/FIR quantities are different measures and are not summed or expanded into separate event rows.",
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "reported_UAVs": 5,
+    "reported_airspace_violations": 3,
+    "reported_FIR_infractions": 9,
+    "sources": [
+      "U113",
+      "U114"
+    ]
+  },
+  {
+    "reviewedOn": "2026-10-21",
+    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in OnAlert and Veteranos. Original GEETHA bulletin not retrieved directly.",
+    "id": "N104",
+    "title": "Southeastern Aegean · Greek-reported Turkish UAVs",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-09-23",
+    "dateLabel": "2026-09-23",
+    "dateBasis": "Activity on 23 September 2026, reported that evening (OnAlert 18:37, local publication times). Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "2 reported national-airspace violations and 7 Athens FIR infringements in activity involving 7 UAVs",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 36.5,
+        "lng": 27.4,
+        "precision": "region",
+        "label": "Southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "positionNote": "Regional editorial anchor, not a verified violation point, flight track or airspace boundary. Overlapping markers are not shifted.",
+    "vehicle": "7 Turkish military UAVs according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greece, reproduced by OnAlert and Veteranos. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The published Greek military account lists 7 UAVs, 2 national-airspace violations and 7 Athens FIR infringements. The dated original account says 23 September; a stale 22 September header in some syndications is not another occurrence.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No crash, casualties or damage reported.",
+    "response": "Identification and interception under standard procedures reported; no UAV shoot-down reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown.",
+    "deduplication": "One dated regional UAV-activity record. The 7/2/7 aircraft/airspace/FIR quantities are different measures and are not summed or expanded into separate event rows.",
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "reported_UAVs": 7,
+    "reported_airspace_violations": 2,
+    "reported_FIR_infractions": 7,
+    "sources": [
+      "G0923",
+      "U115"
+    ]
+  },
+  {
+    "reviewedOn": "2026-10-21",
+    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in OnAlert and Veteranos. Original GEETHA bulletin not retrieved directly.",
+    "id": "N105",
+    "title": "Northeastern / central / southeastern Aegean · Greek-reported Turkish UAVs",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-09-25",
+    "dateLabel": "2026-09-25",
+    "dateBasis": "Activity on 25 September 2026, reported that evening (OnAlert 18:44, local publication times). Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Northeastern / central / southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "6 reported national-airspace violations and 6 Athens FIR infringements in activity involving 5 UAVs",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / central / southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "positionNote": "Regional editorial anchor, not a verified violation point, flight track or airspace boundary. Overlapping markers are not shifted.",
+    "vehicle": "5 Turkish military UAVs according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greece, reproduced by OnAlert and Veteranos. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The published Greek military account lists 5 UAVs, 6 national-airspace violations and 6 Athens FIR infringements. One ATR-72 and its three FIR infringements are excluded.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No crash, casualties or damage reported.",
+    "response": "Identification and interception under standard procedures reported; no UAV shoot-down reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown.",
+    "deduplication": "One dated regional UAV-activity record. The 5/6/6 aircraft/airspace/FIR quantities are different measures and are not summed or expanded into separate event rows.",
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "reported_UAVs": 5,
+    "reported_airspace_violations": 6,
+    "reported_FIR_infractions": 6,
+    "sources": [
+      "U116",
+      "U117"
+    ]
+  },
+  {
+    "reviewedOn": "2026-10-21",
+    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in OnAlert and Veteranos. Original GEETHA bulletin not retrieved directly.",
+    "id": "N106",
+    "title": "Northeastern / southeastern Aegean · Greek-reported Turkish UAVs",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-09-26",
+    "dateLabel": "2026-09-26",
+    "dateBasis": "Activity on 26 September 2026, reported that evening (OnAlert 18:34, local publication times). Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Northeastern / southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "2 reported national-airspace violations and 3 Athens FIR infringements in activity involving 3 UAVs",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "positionNote": "Regional editorial anchor, not a verified violation point, flight track or airspace boundary. Overlapping markers are not shifted.",
+    "vehicle": "3 Turkish military UAVs according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greece, reproduced by OnAlert and Veteranos. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The published Greek military account lists 3 UAVs, 2 national-airspace violations and 3 Athens FIR infringements.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No crash, casualties or damage reported.",
+    "response": "Identification and interception under standard procedures reported; no UAV shoot-down reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown.",
+    "deduplication": "One dated regional UAV-activity record. The 3/2/3 aircraft/airspace/FIR quantities are different measures and are not summed or expanded into separate event rows.",
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "reported_UAVs": 3,
+    "reported_airspace_violations": 2,
+    "reported_FIR_infractions": 3,
+    "sources": [
+      "U118",
+      "U119"
+    ]
+  },
+  {
+    "reviewedOn": "2026-10-21",
+    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in OnAlert and VoiceNews. Original GEETHA bulletin not retrieved directly.",
+    "id": "N107",
+    "title": "Southeastern Aegean · Greek-reported Turkish UAV",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-09-28",
+    "dateLabel": "2026-09-28",
+    "dateBasis": "Activity on 28 September 2026, reported that evening (OnAlert 19:02; VoiceNews 21:44, local publication times). Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "4 reported national-airspace violations and 2 Athens FIR infringements in activity involving 1 UAV",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 36.5,
+        "lng": 27.4,
+        "precision": "region",
+        "label": "Southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "positionNote": "Regional editorial anchor, not a verified violation point, flight track or airspace boundary. Overlapping markers are not shifted.",
+    "vehicle": "1 Turkish military UAV according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greece, reproduced by OnAlert and VoiceNews. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The published Greek military account lists 1 UAV, 4 national-airspace violations and 2 Athens FIR infringements. One ATR-72 and its two FIR infringements are excluded.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No crash, casualties or damage reported.",
+    "response": "Identification and interception under standard procedures reported; no UAV shoot-down reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown.",
+    "deduplication": "One dated regional UAV-activity record. The 1/4/2 aircraft/airspace/FIR quantities are different measures and are not summed or expanded into separate event rows.",
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "reported_UAVs": 1,
+    "reported_airspace_violations": 4,
+    "reported_FIR_infractions": 2,
+    "sources": [
+      "U120",
+      "U121"
+    ]
+  },
+  {
+    "reviewedOn": "2026-10-21",
+    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in OnAlert and Veteranos. Original GEETHA bulletin not retrieved directly.",
+    "id": "N108",
+    "title": "Northeastern / southeastern Aegean · Greek-reported Turkish UAVs",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-09-29",
+    "dateLabel": "2026-09-29",
+    "dateBasis": "Activity on 29 September 2026, reported that evening (OnAlert 18:49, local publication times). Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Northeastern / southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "3 reported national-airspace violations and 5 Athens FIR infringements in activity involving 3 UAVs",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "positionNote": "Regional editorial anchor, not a verified violation point, flight track or airspace boundary. Overlapping markers are not shifted.",
+    "vehicle": "3 Turkish military UAVs according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greece, reproduced by OnAlert and Veteranos. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The published Greek military account lists 3 UAVs, 3 national-airspace violations and 5 Athens FIR infringements. One ATR-72 and its two FIR infringements are excluded.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No crash, casualties or damage reported.",
+    "response": "Identification and interception under standard procedures reported; no UAV shoot-down reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown.",
+    "deduplication": "One dated regional UAV-activity record. The 3/3/5 aircraft/airspace/FIR quantities are different measures and are not summed or expanded into separate event rows.",
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "reported_UAVs": 3,
+    "reported_airspace_violations": 3,
+    "reported_FIR_infractions": 5,
+    "sources": [
+      "U122",
+      "U123"
+    ]
+  },
+  {
+    "reviewedOn": "2026-10-21",
+    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in OnAlert and Veteranos. Original GEETHA bulletin not retrieved directly.",
+    "id": "N109",
+    "title": "Northeastern / central / southeastern Aegean · Greek-reported Turkish UAVs",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-09-30",
+    "dateLabel": "2026-09-30",
+    "dateBasis": "Activity on 30 September 2026, reported that evening (OnAlert 19:02, local publication times). Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Northeastern / central / southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "1 reported national-airspace violation and 5 Athens FIR infringements in activity involving 4 UAVs",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / central / southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "positionNote": "Regional editorial anchor, not a verified violation point, flight track or airspace boundary. Overlapping markers are not shifted.",
+    "vehicle": "4 Turkish military UAVs according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greece, reproduced by OnAlert and Veteranos. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The published Greek military account lists 4 UAVs, 1 national-airspace violation and 5 Athens FIR infringements. F-16s and an ATR-72 account for the other five national-airspace violations and two FIR infringements. The armed-aircraft designation applies to F-16s.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No crash, casualties or damage reported.",
+    "response": "Identification and interception under standard procedures reported; no UAV shoot-down reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown.",
+    "deduplication": "One dated regional UAV-activity record. The 4/1/5 aircraft/airspace/FIR quantities are different measures and are not summed or expanded into separate event rows.",
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "reported_UAVs": 4,
+    "reported_airspace_violations": 1,
+    "reported_FIR_infractions": 5,
+    "sources": [
+      "U124",
+      "U125"
+    ]
+  },
+  {
+    "reviewedOn": "2026-10-21",
+    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in OnAlert and SKAI. Original GEETHA bulletin not retrieved directly.",
+    "id": "N110",
+    "title": "Northeastern / southeastern Aegean · Greek-reported Turkish UAVs",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-10-05",
+    "dateLabel": "2026-10-05",
+    "dateBasis": "Activity on 5 October 2026, reported that evening (OnAlert 19:04; SKAI 19:23, local publication times). Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Northeastern / southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "7 reported national-airspace violations and 4 Athens FIR infringements in activity involving 4 UAVs",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "positionNote": "Regional editorial anchor, not a verified violation point, flight track or airspace boundary. Overlapping markers are not shifted.",
+    "vehicle": "4 Turkish military UAVs according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greece, reproduced by OnAlert and SKAI. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The published Greek military account lists 4 UAVs, 7 national-airspace violations and 4 Athens FIR infringements. Two armed F-16s and one ATR-72 are excluded. The mixed report lists a fighter encounter, without establishing a UAV engagement.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No crash, casualties or damage reported.",
+    "response": "Standard identification/interception reported. A fighter encounter appears in the mixed-aircraft account; no UAV weapons engagement or shoot-down is established.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown.",
+    "deduplication": "One dated regional UAV-activity record. The 4/7/4 aircraft/airspace/FIR quantities are different measures and are not summed or expanded into separate event rows.",
+    "classificationNote": "Flight: the reported encounter is not established as a UAV engagement.",
+    "reported_UAVs": 4,
+    "reported_airspace_violations": 7,
+    "reported_FIR_infractions": 4,
+    "sources": [
+      "U126",
+      "U127"
+    ]
+  },
+  {
+    "reviewedOn": "2026-10-21",
+    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in OnAlert and ProtoThema and NewsIT. Original GEETHA bulletin not retrieved directly.",
+    "id": "N111",
+    "title": "Northeastern / central / southeastern Aegean · Greek-reported Turkish UAVs",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-10-20",
+    "dateLabel": "2026-10-20",
+    "dateBasis": "Activity on 20 October 2026, reported that evening (OnAlert 17:48; ProtoThema 17:56; NewsIT 18:38, local publication times). Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Northeastern / central / southeastern Aegean; exact sites unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "9 reported national-airspace violations and 8 Athens FIR infringements in activity involving 5 UAVs",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / central / southeastern Aegean — broad representative anchor"
+      }
+    ],
+    "positionNote": "Regional editorial anchor, not a verified violation point, flight track or airspace boundary. Overlapping markers are not shifted.",
+    "vehicle": "5 Turkish military UAVs according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greece, reproduced by OnAlert and ProtoThema and NewsIT. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified tracks or incident coordinates.",
+    "circumstances": "The published Greek military account lists 5 UAVs, 9 national-airspace violations and 8 Athens FIR infringements. One CN-235 and its five national-airspace violations and two FIR infringements are excluded. ProtoThema corroborates the UAV number and national-airspace violations; NewsIT repeats OnAlert wording.",
+    "payload": "UAV armament and payload not established.",
+    "impact": "No crash, casualties or damage reported.",
+    "response": "Identification and interception under standard procedures reported; no UAV shoot-down reported.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown.",
+    "deduplication": "One dated regional UAV-activity record. The 5/9/8 aircraft/airspace/FIR quantities are different measures and are not summed or expanded into separate event rows.",
+    "classificationNote": "Flight: routine interception does not establish armed engagement.",
+    "reported_UAVs": 5,
+    "reported_airspace_violations": 9,
+    "reported_FIR_infractions": 8,
+    "sources": [
+      "U128",
+      "U129",
+      "U130"
+    ]
   }
 ]
