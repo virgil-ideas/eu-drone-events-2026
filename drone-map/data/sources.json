@@ -1929,5 +1929,443 @@
     "url": "https://www.cna.org.cy/tr/article/11018385/k%C4%B1br%C4%B1s-t%C3%BCrk-asker%C3%AE-g%C3%BC%C3%A7lerinin-659-ihlalini-bm-ye-bildirdi",
     "dateLabel": "12 October 2026, 17:01 local publication time",
     "audit": "Full Turkish-language CNA report read 19 October. Describes Cyprus's 29 September letter, distributed 2 October, about June–July 2026. Figures are Cypriot allegations in a UN-circulated document, not independently UN-verified incidents. Individual annex entries were not obtained or extracted."
+  },
+  "U091": {
+    "id": "U091",
+    "publisher": "LRT / BNS / ELTA",
+    "title": "M. Sinkevičius apie Lietuvoje nukritusį droną: nėra abejonių, kad jis nešė sprogmenis",
+    "url": "https://www.lrt.lt/naujienos/lietuvoje/2/3087126/m-sinkevicius-apie-lietuvoje-nukritusi-drona-nera-abejoniu-kad-jis-nese-sprogmenis",
+    "dateLabel": "19 October 2026, 12:06; updated 12:47",
+    "audit": "Full report read 20 October. Prime minister attributes Ukrainian origin to wreckage and Ukrainian notification and says explosives were carried. Defence staff chief gives 06:02 entry and 06:45 first Kaunas warning. Crash and detonation sequence remain under investigation."
+  },
+  "U092": {
+    "id": "U092",
+    "publisher": "News.bg, reporting bTV interview",
+    "title": "Три пробойни по кораба \"Челси 3\", капитан твърди, че е празен",
+    "url": "https://news.bg/society/tri-proboyni-po-koraba-chelsi-3-kapitan-tvardi-che-e-prazen.html",
+    "dateLabel": "19 October 2026, 08:02",
+    "audit": "Full report read 20 October. Burgas maritime administration director Zhivko Petrov describes three hull breaches and assesses blast damage, possibly a surface drone. This is his assessment, not a final forensic conclusion; initial aerial-drone account remains unresolved."
+  },
+  "U093": {
+    "id": "U093",
+    "publisher": "CTnews, publishing seafarers union statement",
+    "title": "Adrian Mihălcioiu: Nava „Wine Trader” a fost atacată cu drone rusești. Acesta se îndrepta spre portul Giurgiulești",
+    "url": "https://www.ctnews.ro/adrian-mihalcioiu-nava-wine-trader-a-fost-atacata-cu-drone-rusesti-acesta-se-indrepta-spre-portul-giurgiulesti/",
+    "dateLabel": "19 October 2026",
+    "audit": "Full statement read 20 October. Union leader Adrian Mihălcioiu reiterates five rescued and seven missing, and reports teams boarded and searched accessible spaces. Approximate 04:00 attack time and Geran identification are attributed claims, not independently established findings."
+  },
+  "U094": {
+    "id": "U094",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Έξι τουρκικά drones έκαναν παραβιάσεις και παραβάσεις στο Αιγαίο",
+    "url": "https://www.onalert.gr/ellinotourkika/eksi-tourkika-drones-ekanan-paraviaseis-kai-paravaseis-sto-aigaio/827276/",
+    "dateLabel": "19 October 2026, 18:32 local publication time",
+    "audit": "Full article read 20 October. Explicitly dates the GEETHA account to 19 October: six UAVs, nine reported national-airspace violations and nine Athens FIR infringements in the northeastern and southeastern Aegean. Routine identification/interception; no armed aircraft or engagements reported. Primary GEETHA bulletin not directly retrieved; figures remain attributed to the Greek military."
+  },
+  "U095": {
+    "id": "U095",
+    "publisher": "Veteranos",
+    "title": "Tουρκικά UAV στο Αιγαίο: 9 παραβιάσεις του ΕΕΧ από 6 μη επανδρωμένα αεροσκάφη",
+    "url": "https://veteranos.gr/tourkika-uav-sto-aigaio-9-paraviaseis-tou-eech-apo-6-mi-epandromena-aeroskafi/",
+    "dateLabel": "19 October 2026; publication time not displayed",
+    "audit": "Full article read 20 October. Explicitly dates activity to Monday 19 October and reports six UAVs, nine FIR infringements and nine national-airspace violations in the northeastern and southeastern Aegean; routine interception. Matching published account, not independent flight-track verification."
+  },
+  "U096": {
+    "id": "U096",
+    "publisher": "NewsIT / OnAlert",
+    "title": "Έξι τουρκικά drones έκαναν 9 παραβιάσεις του εθνικού εναέριου χώρου στο Αιγαίο",
+    "url": "https://www.newsit.gr/ellada/eksi-tourkika-drones-ekanan-9-paraviaseis-tou-ethnikou-enaeriou-xorou-sto-aigaio/4802381/amp/",
+    "dateLabel": "19 October 2026, 18:40 local publication time",
+    "audit": "Full article read 20 October. Reproduces the six-UAV, nine-airspace-violation, nine-FIR-infringement breakdown for 19 October and credits OnAlert. A republication, not independent corroboration or an additional occurrence. Reuters photograph is explicitly a file image."
+  },
+  "U097": {
+    "id": "U097",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Two more cigarette-carrying drones crash near the Belarus border",
+    "url": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-i-zeme-teskesi-dar-du-kontrabandininku-dronai-su-cigaretemis-foto-rev/",
+    "dateLabel": "2026-10-19",
+    "audit": "Primary report read 20 October 2026. Describes two separate weekend cross-border cargo occurrences with electronic counter-drone intervention, impact damage and recovery. Weekday/night wording supplies inferred dates; no exact flight times. Its annual total of 67 intercepted drones is non-additive. Operator nationality and state sponsorship are not established."
+  },
+  "U098": {
+    "id": "U098",
+    "publisher": "BNR Radio Varna / BTA",
+    "title": "Химически анализ установява взривното вещество при атаката срещу \"Челси 3\"",
+    "url": "https://bnrnews.bg/varna/post/544759/himicheski-analiz-ustanovyava-vzrivnoto-veshtestvo-pri-atakata-sreshtu-chelsi-3",
+    "dateLabel": "20 October 2026, 14:44",
+    "audit": "Full report read 21 October. Prime minister reports examination of drone remains and chemical analysis; allied specialists expected on 21 October, not yet confirmed arrived. Transport minister does not specify the nature or recovery location of fragments. No final drone type, explosive identification or operator established."
+  },
+  "U099": {
+    "id": "U099",
+    "publisher": "NOVA",
+    "title": "Потъна корабът ABLE, поразен от дрон в българската изключителна икономическа зона",
+    "url": "https://nova.bg/news/view/2026/10/20/556018/потъна-корабът-able-поразен-от-дрон-в-българската-изключителна-икономическа-зона/",
+    "dateLabel": "20 October 2026, 13:51",
+    "audit": "Full report read 21 October. Reports ABLE sank off Turkey after disappearing from radar late on 19 October, following the 6 October attack. No direct Turkish recovery or wreck survey cited. Retain as reported sinking, not a new attack or EU-territory incursion."
+  },
+  "U100": {
+    "id": "U100",
+    "publisher": "Romanian Ministry of National Defence (MApN)",
+    "title": "Drone and sea mine incidents — dashboard dated 21 October 2026",
+    "url": "https://www.mapn.ro/",
+    "dateLabel": "Dashboard dated 21 October 2026; read 21 October",
+    "audit": "Current table read directly: 2026 counters 39 near-border attacks, 77 aircraft-response incidents, 35 unauthorized entries, 6 drones downed, 44 drone/fragments identified/recovered/neutralized and 2 mines. Its near-border count differs from the previous recorded snapshot; no explanation or event-level reconciliation supplied. Dynamic page; categories overlap."
+  },
+  "U101": {
+    "id": "U101",
+    "publisher": "Romanian Ministry of National Defence (MApN)",
+    "title": "Informație de presă — bulletin 339",
+    "url": "https://www.mapn.ro/cpresa/19448_informa%C8%9Bie-de-presa",
+    "dateLabel": "21 October 2026",
+    "audit": "Primary bulletin read 21 October. Targets northeast of Vâlcove in Ukrainian airspace; Tulcea RO-Alert 03:34–04:02 local. Explicitly no reported national-airspace entries; not a qualifying incursion or new mapped record."
+  },
+  "U102": {
+    "id": "U102",
+    "publisher": "LRT / BNS",
+    "title": "Lithuania and Poland jointly investigate the Juodžionys drone explosion",
+    "url": "https://www.lrt.lt/naujienos/lietuvoje/2/3088410/nauseda-del-nukritusio-drono-lietuvos-ir-lenkijos-ministerijos-sudare-bendra-darbo-grupe",
+    "dateLabel": "20 October 2026, 17:14; updated 17:37 EEST",
+    "audit": "Full article reviewed 21 October. President Nausėda says the two defence ministries formed a group to investigate the 18 October incident and that official findings are still awaited. Follow-up to N096, not a new occurrence."
+  },
+  "U103": {
+    "id": "U103",
+    "publisher": "Polish Ministry of National Defence (MON)",
+    "title": "MON denies the claim that the drone found in Lithuania launched from Lithuania",
+    "url": "https://www.gov.pl/web/obrona-narodowa/komunikat-mon43",
+    "dateLabel": "19 October 2026",
+    "audit": "Primary statement read 21 October. Explicitly denies the media claim of a Lithuanian launch, identifies the drone that entered and exploded in Lithuania as Ukrainian, and notes Ukraine’s apology. It does not disclose or independently confirm the full route over Poland."
+  },
+  "U104": {
+    "id": "U104",
+    "publisher": "Chancellery of the Prime Minister of Poland",
+    "title": "Polish prime minister confirms cooperation with Lithuania on the Ukrainian-drone incident",
+    "url": "https://www.gov.pl/web/premier/premier-wzajemny-szacunek-powinien-byc-fundamentem-dobrego-sojuszu",
+    "dateLabel": "20 October 2026",
+    "audit": "Primary page read 21 October, particularly the section on Polish–Lithuanian cooperation. Confirms continuing investigation of the Sunday Ukrainian-drone incident and requests Ukrainian cooperation. Does not establish a new incident or completed route reconstruction."
+  },
+  "U105": {
+    "id": "U105",
+    "publisher": "BNS",
+    "title": "Lithuanian officials give radar chronology for the drone that exploded near Juodžionys",
+    "url": "https://bns.lt/en/naujiena/mindaugas-sinkevicius-sproges-dronas-ukrainietiskas-iskrido-is-lenkijos-ir-turejo-sprogmenu-dar-papildytas-k0xhxkfj",
+    "dateLabel": "19 October 2026; page displays 10:46 AM without an explicit timezone",
+    "audit": "Full report read 21 October. Attributes to Lithuania’s military an initial track at 05:47 over Poland, 30–40 km from Lithuania, and border crossing at 06:02. Also reports that Polish radar did not see it. Event times are Lithuanian local time; the page’s display timestamp is not used as an event time."
+  },
+  "U106": {
+    "id": "U106",
+    "publisher": "LETA via liepajniekiem.lv",
+    "title": "Latvian military spokesman says no drone entered Latvia on 18 October",
+    "url": "https://www.liepajniekiem.lv/zinas/sabiedriba/latvija/svetdienas-rita-drons-latvijas-teritorija-nav-ielidojis/",
+    "dateLabel": "18 October 2026, 11:48 EEST",
+    "audit": "Full report read 21 October. NBS spokesman Roberts Skraučs says air-surveillance data did not indicate entry into Latvia; the warnings in Bauska, Ogre and Aizkraukle ended after about half an hour. Supports the existing N096 no-Latvian-incursion distinction."
+  },
+  "U107": {
+    "id": "U107",
+    "publisher": "Polskie Radio Lublin",
+    "title": "Search near Lublin still found no object; military planned to resume on 21 October",
+    "url": "https://radio.lublin.pl/2026/10/nie-wykluczamy-zadnej-hipotezy-poszukiwania-obiektu-latajacego-na-razie-zakonczone/",
+    "dateLabel": "20 October 2026, 17:02 CEST",
+    "audit": "Report with named military spokespeople reviewed 21 October. No related object was found by the 20 October search. The underlying reports concern the night of 17–18 October, not a new 20 October flight. Link to the Lithuanian event remains a hypothesis; planned resumption on 21 October is not confirmed resumption."
+  },
+  "U108": {
+    "id": "U108",
+    "publisher": "Swedish Police, Region Syd",
+    "title": "Hobby drone and operator found near Kalmar Airport",
+    "url": "https://polisen.se/aktuellt/handelser/2026/oktober/18/18-oktober-19.57-luftfartslagen-kalmar/",
+    "dateLabel": "18 October 2026, 21:15 CEST; incident logged 19:57",
+    "audit": "Primary police bulletin read 21 October. Police located the operator and seized a hobby drone; the man was suspected of an aviation-law offence. No cross-border entry or foreign connection is established; do not add a foreign-incursion record."
+  },
+  "U109": {
+    "id": "U109",
+    "publisher": "TVP3 Warszawa / Warsaw Police (KSP)",
+    "title": "Józefów crash identified as an unarmed Polish military-institute training drone",
+    "url": "https://warszawa.tvp.pl/96035907/wojskowy-dron-spadl-nagle-na-prywatna-posesje-znamy-szczegoly-akcji-sluzb-w-jozefowie",
+    "dateLabel": "20 October 2026; incident in the afternoon",
+    "audit": "Full indexed article reviewed 21 October; direct extraction returned an image-only page. Quotes KSP spokeswoman Marta Sulowska identifying the domestic WITU training drone after operators lost contact. It was recovered, unarmed, and caused no injury or property damage. Exclude from the foreign-incursion register."
+  },
+  "U110": {
+    "id": "U110",
+    "publisher": "Veteranos / Greek military figures",
+    "title": "Aegean: Turkish F-16s and UAV in new Athens FIR infringements",
+    "url": "https://veteranos.gr/aigaio-tourkika-f-16-kai-uav-se-nees-paravaseis-tou-fir-athinon/",
+    "dateLabel": "17 September 2026",
+    "audit": "Full article read 21 October 2026. Reproduced dated breakdown matches OnAlert: one UAV, one national-airspace violation, three UAV FIR infringements; two F-16s excluded. Original GEETHA bulletin not directly retrieved."
+  },
+  "U111": {
+    "id": "U111",
+    "publisher": "Veteranos / Greek military figures",
+    "title": "Four Turkish UAVs: five FIR infringements and four airspace violations",
+    "url": "https://veteranos.gr/tessera-tourkika-uav-me-5-paravaseis-kai-4-paraviaseis-se-voreioanatoliko-kai-notioanatoliko-aigaio/",
+    "dateLabel": "19 September 2026",
+    "audit": "Full article read 21 October 2026. Dated breakdown matches Capital.gr: four UAVs, four national-airspace violations, five FIR infringements, northeastern/southeastern Aegean. Original GEETHA bulletin not directly retrieved."
+  },
+  "U112": {
+    "id": "U112",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Six Turkish UAVs reported over the Aegean",
+    "url": "https://www.onalert.gr/ellinotourkika/i-tourkia-prokalei-ksana-sto-aigaio-me-paravaseis-kai-paraviaseis-apo-eksi-uav/820842/",
+    "dateLabel": "20 September 2026, 18:20 local publication time",
+    "audit": "Full article read 21 October 2026. Matches CNN Greece: six UAVs, six national-airspace violations, seven FIR infringements in northeastern/central/southeastern Aegean. Original GEETHA bulletin not directly retrieved."
+  },
+  "U113": {
+    "id": "U113",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Turkish drones violate national airspace; two ATR-72s infringe Athens FIR rules",
+    "url": "https://www.onalert.gr/ellinotourkika/tourkika-drones-paraviasan-ton-ethniko-enaerio-xoro-sto-aigaio-dyo-atr-72-ekanan-paravaseis-sto-fir-athinon/821331/",
+    "dateLabel": "22 September 2026, 18:56 local publication time",
+    "audit": "Full article read 21 October 2026. Five UAVs made nine FIR infringements; two of those UAVs made three national-airspace violations. Two ATR-72s and their three FIR infringements are excluded. Original GEETHA bulletin not directly retrieved."
+  },
+  "U114": {
+    "id": "U114",
+    "publisher": "Parapolitika / GEETHA",
+    "title": "Turkish drones and ATR-72s in Athens FIR activity",
+    "url": "https://www.parapolitika.gr/ellada/article/1795239/tourkikes-paravaseis-sto-fir-athinon-apo-drones-kai-atr-72-paraviasan-kai-ton-ethniko-enaerio-horo-kanoun-sto-aigaio-megali-aeronautiki-askisi/",
+    "dateLabel": "22 September 2026, 19:44 local publication time",
+    "audit": "Full article read 21 October 2026. Body and reproduced bulletin match OnAlert: five UAVs, three national-airspace violations by two UAVs, nine UAV FIR infringements. Subtitle reverses the two classifications and is not used. Original GEETHA bulletin not directly retrieved."
+  },
+  "U115": {
+    "id": "U115",
+    "publisher": "Veteranos / Greek military figures",
+    "title": "Seven Turkish UAVs identified and intercepted in southeastern Aegean",
+    "url": "https://veteranos.gr/epta-tourkika-uav-sto-notioanatoliko-aigaio-anagnoristikan-kai-anachaitistikan/",
+    "dateLabel": "23 September 2026",
+    "audit": "Full article read 21 October 2026. Matches the original OnAlert dated bulletin: seven UAVs, two national-airspace violations and seven FIR infringements on 23 September. Original GEETHA bulletin not directly retrieved."
+  },
+  "U116": {
+    "id": "U116",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Turkish drones violate national airspace; ATR-72 in Athens FIR",
+    "url": "https://www.onalert.gr/ellinotourkika/paraviaseis-ston-ethniko-enaerio-xoro-apo-tourkika-drones-atr-72-petakse-sto-fir-athinon/822111/",
+    "dateLabel": "25 September 2026, 18:44 local publication time",
+    "audit": "Full article read 21 October 2026. Five UAVs account for six national-airspace violations and six FIR infringements; one ATR-72 adds three FIR infringements, excluded from UAV figures. Original GEETHA bulletin not directly retrieved."
+  },
+  "U117": {
+    "id": "U117",
+    "publisher": "Veteranos / Greek military figures",
+    "title": "Turkish UAVs: six national-airspace violations in the Aegean",
+    "url": "https://veteranos.gr/tourkika-uav-me-exi-paraviaseis-sto-aigaio-ennea-paravaseis-mazi-me-ena-atr-72/",
+    "dateLabel": "25 September 2026",
+    "audit": "Full article read 21 October 2026. Reproduced breakdown matches OnAlert: five UAVs, six national-airspace violations and six UAV FIR infringements; mixed nine FIR total includes an ATR-72. Original GEETHA bulletin not directly retrieved."
+  },
+  "U118": {
+    "id": "U118",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Three Turkish drones in northeastern and southeastern Aegean",
+    "url": "https://www.onalert.gr/ellinotourkika/paraviaseis-kai-paravaseis-apo-tria-tourkika-drones-se-voreioanatoliko-kai-notioanatoliko-aigaio/822271/",
+    "dateLabel": "26 September 2026, 18:34 local publication time",
+    "audit": "Full article read 21 October 2026. Dated bulletin records three UAVs, two national-airspace violations, three FIR infringements; standard identification/interception. Original GEETHA bulletin not directly retrieved."
+  },
+  "U119": {
+    "id": "U119",
+    "publisher": "Veteranos / Greek military figures",
+    "title": "Turkish UAVs: two national-airspace violations and three FIR infringements",
+    "url": "https://veteranos.gr/tourkika-mi-epandromena-sto-aigaio-dyo-paraviaseis-tou-ethnikou-enaeriou-chorou-kai-treis-paravaseis/",
+    "dateLabel": "26 September 2026",
+    "audit": "Full article read 21 October 2026. Matches OnAlert dated breakdown: three UAVs, two national-airspace violations and three FIR infringements in northeastern/southeastern Aegean. Original GEETHA bulletin not directly retrieved."
+  },
+  "U120": {
+    "id": "U120",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Turkish drone makes four Aegean airspace violations; ATR-72 FIR infringements",
+    "url": "https://www.onalert.gr/ellinotourkika/tourkiko-drone-ekane-4-paraviaseis-sto-aigaio-paravaseis-kai-apo-ena-atr-72/822643/",
+    "dateLabel": "28 September 2026, 19:02 local publication time",
+    "audit": "Full article read 21 October 2026. One UAV accounts for four national-airspace violations and two FIR infringements in southeastern Aegean; ATR-72 adds two FIR infringements, excluded. Original GEETHA bulletin not directly retrieved."
+  },
+  "U121": {
+    "id": "U121",
+    "publisher": "VoiceNews / GEETHA",
+    "title": "Turkish UAV violates Greek airspace four times in southeastern Aegean",
+    "url": "https://voicenews.gr/tourkiko-uav-paraviase-tesseris-fores-ton-elliniko-enaerio-choro-sto-notioanatoliko-aigaio/",
+    "dateLabel": "28 September 2026, 21:44 local publication time",
+    "audit": "Full article read 21 October 2026. Full dated breakdown matches OnAlert: one UAV, four national-airspace violations, two UAV FIR infringements. Matching military-account republication, not independent track verification. Original GEETHA bulletin not directly retrieved."
+  },
+  "U122": {
+    "id": "U122",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Aegean activity: seven mixed FIR infringements and three airspace violations",
+    "url": "https://www.onalert.gr/ellinotourkika/i-tourkia-prokalei-ksana-sto-aigaio-me-7-paravaseis-kai-3-paraviaseis/822860/",
+    "dateLabel": "29 September 2026, 18:49 local publication time",
+    "audit": "Full article read 21 October 2026. Three UAVs account for five FIR infringements and three national-airspace violations; one ATR-72 adds two FIR infringements, excluded. Original GEETHA bulletin not directly retrieved."
+  },
+  "U123": {
+    "id": "U123",
+    "publisher": "Veteranos / Greek military figures",
+    "title": "Aegean: three national-airspace violations by Turkish UAVs",
+    "url": "https://veteranos.gr/aigaio-treis-paraviaseis-apo-tourkika-uav-kai-epta-paravaseis-sto-fir-athinon/",
+    "dateLabel": "29 September 2026",
+    "audit": "Full article read 21 October 2026. Dated breakdown matches OnAlert: three UAVs, three national-airspace violations and five UAV FIR infringements; mixed seven FIR total includes ATR-72. Original GEETHA bulletin not directly retrieved."
+  },
+  "U124": {
+    "id": "U124",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Armed Turkish F-16s, UAVs and ATR-72 in Aegean activity",
+    "url": "https://www.onalert.gr/ellinotourkika/oplismena-tourkika-f-16-paraviasan-ton-ethniko-enaerio-xoro-paravaseis-kai-paraviaseis-apo-drones-kai-atr-72/823075/",
+    "dateLabel": "30 September 2026, 19:02 local publication time",
+    "audit": "Full article read 21 October 2026. Four UAVs account for one national-airspace violation and five FIR infringements. F-16/ATR-72 quantities and violations are excluded; armed designation applies to F-16s. Original GEETHA bulletin not directly retrieved."
+  },
+  "U125": {
+    "id": "U125",
+    "publisher": "Veteranos / Greek military figures",
+    "title": "Armed Turkish F-16s in Aegean mixed aircraft activity",
+    "url": "https://veteranos.gr/oplismena-tourkika-f-16-sto-aigaio-exi-paraviaseis-tou-ethnikou-enaeriou-chorou/",
+    "dateLabel": "30 September 2026",
+    "audit": "Full article read 21 October 2026. Full breakdown matches OnAlert: four UAVs, one national-airspace violation, five UAV FIR infringements. Mixed six airspace-violation total includes manned aircraft. Original GEETHA bulletin not directly retrieved."
+  },
+  "U126": {
+    "id": "U126",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Armed F-16s and Turkish drones in Aegean violations; one fighter encounter",
+    "url": "https://www.onalert.gr/ellinotourkika/paraviaseis-apo-oplismena-f-16-kai-drones-tis-tourkias-sto-aigaio-mia-emploki-me-ellinika-maxitika/824155/",
+    "dateLabel": "5 October 2026, 19:04 local publication time",
+    "audit": "Full article read 21 October 2026. Dated breakdown: four UAVs, seven national-airspace violations and four FIR infringements. Two armed F-16s, ATR-72, and reported fighter encounter are not transferred to UAV fields. Original GEETHA bulletin not directly retrieved."
+  },
+  "U127": {
+    "id": "U127",
+    "publisher": "SKAI / Greek military figures",
+    "title": "Turkish aircraft in Aegean: nine mixed airspace violations and one encounter",
+    "url": "https://www.skai.gr/news/greece/aigaio-7-tourkika-aeroskafi-9-paraviaseis-kai-mia-emploki/amp",
+    "dateLabel": "5 October 2026, 19:23 local publication time",
+    "audit": "Full article read 21 October 2026. Explicit 5 October occurrence; four UAVs, seven UAV national-airspace violations, four UAV FIR infringements, matching OnAlert. One encounter is reported for overall mixed activity, not established for UAVs. Original GEETHA bulletin not directly retrieved."
+  },
+  "U128": {
+    "id": "U128",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Aegean: UAV and CN-235 national-airspace violations and FIR infringements",
+    "url": "https://www.onalert.gr/ellinotourkika/prokalei-ksana-i-tourkia-sto-aigaio-me-14-paraviaseis-kai-10-paravaseis-apo-uav-kai-cn-235/827483/",
+    "dateLabel": "20 October 2026, 17:48 local publication time",
+    "audit": "Full article read 21 October 2026. Explicit same-day GEETHA account: five UAVs, nine UAV national-airspace violations and eight UAV FIR infringements. CN-235 contributes five violations and two infringements, excluded. Original GEETHA bulletin not directly retrieved."
+  },
+  "U129": {
+    "id": "U129",
+    "publisher": "ProtoThema / GEETHA",
+    "title": "Five Turkish UAVs and a reconnaissance aircraft in national-airspace violations",
+    "url": "https://www.protothema.gr/greece/article/1897887/pede-tourkika-uav-kai-ena-kataskopeutiko-ekanan-14-paraviaseis-tou-ethnikou-enaeriou-horou/",
+    "dateLabel": "20 October 2026, 17:56 local publication time",
+    "audit": "Full article read 21 October 2026. Corroborates five UAVs and nine UAV national-airspace violations. Reports ten mixed FIR infringements without UAV-specific split; eight UAV infringements come from OnAlert. Original GEETHA bulletin not directly retrieved."
+  },
+  "U130": {
+    "id": "U130",
+    "publisher": "NewsIT / Greek military figures",
+    "title": "Turkey again in Aegean airspace violations and FIR infringements",
+    "url": "https://www.newsit.gr/ellada/i-tourkia-prokalei-ksana-sto-aigaio-me-14-paraviaseis-kai-10-paravaseis/4803211/",
+    "dateLabel": "20 October 2026, 18:38 local publication time",
+    "audit": "Full article read 21 October 2026. Matches OnAlert wording and five/nine/eight UAV breakdown. Treated as derivative coverage, not independent corroboration. Original GEETHA bulletin not directly retrieved."
+  },
+  "U131": {
+    "id": "U131",
+    "publisher": "Adevărul / Romanian Naval Authority statement",
+    "title": "KHORYV reports drone attack off Constanța; one dead and three missing",
+    "url": "https://adevarul.ro/stiri-locale/constanta/o-nava-comerciala-a-fost-ataca-cu-drone-si-se-2565996.html",
+    "dateLabel": "23 October 2026; published 11:22, updated 11:52 local time",
+    "audit": "Full article read 23 October. Quotes the Naval Authority on location, crew and rescue totals; reports a Mayday/Drone attack call, fire and sinking in progress. No operator, drone model or completed sinking established. The quoted official statement was not separately retrieved."
+  },
+  "U132": {
+    "id": "U132",
+    "publisher": "Militaire / GEETHA",
+    "title": "Greek military figures for 21 October UAV and fighter activity",
+    "url": "https://www.militaire.gr/mparaz-paraviaseon-apo-toys-toyrkoys-sto-aigaio/",
+    "audit": "Article reviewed 23 October. Reproduces the full 21 October military table: eight UAVs, twelve UAV national-airspace violations and nine UAV FIR infringements; six F-16s excluded. No engagements reported. Original GEETHA page not retrieved directly.",
+    "dateLabel": "21 October 2026, 19:01"
+  },
+  "U133": {
+    "id": "U133",
+    "publisher": "NewsIT / GEETHA",
+    "title": "Eight Turkish UAVs account for twelve reported airspace violations on 21 October",
+    "url": "https://www.newsit.gr/ellada/i-tourkia-ksesalose-sto-aigaio-me-17-paraviaseis-apo-f-16-kai-drones/4804167/",
+    "audit": "Article reviewed 23 October. Full table matches Militaire: eight UAVs / twelve national-airspace violations / nine FIR infringements. Aircraft were identified and intercepted. Matching military-account reproductions do not independently establish flight tracks.",
+    "dateLabel": "21 October 2026"
+  },
+  "U134": {
+    "id": "U134",
+    "publisher": "To Vima / GEETHA",
+    "title": "Greek military reports UAV and fighter activity across the Aegean on 21 October",
+    "url": "https://www.tovima.gr/2026/10/21/diplomatia/aigaio-17-tourkikes-paraviaseis-sti-skia-ton-ekselikseon-me-to-tourkolivyko-mnimonio/",
+    "audit": "Article reviewed 23 October. Corroborates eight UAVs, six F-16s, regional scope and no engagements. Gives mixed totals of seventeen violations and eleven FIR infringements; UAV-specific split comes from U132–U133.",
+    "dateLabel": "21 October 2026, 19:24"
+  },
+  "U135": {
+    "id": "U135",
+    "publisher": "TheOpinion / GEETHA",
+    "title": "Five Turkish UAVs in reported airspace violations over the central and southeastern Aegean",
+    "url": "https://www.theopinion.gr/ellada/koinonia/aigaio-nees-toyrkikes-prokliseis-me-f-16-kai-drones-deka-paravaseis-sto-fir-athinon/",
+    "audit": "Article reviewed 23 October. Five UAVs account for all three reported national-airspace violations and seven of ten FIR infringements. Two F-16s and one ATR-72 are excluded. Original GEETHA bulletin not retrieved directly.",
+    "dateLabel": "22 October 2026, 20:15"
+  },
+  "U136": {
+    "id": "U136",
+    "publisher": "Edolio5 / Greek military figures",
+    "title": "Turkish UAV and F-16 activity in the Athens FIR on 22 October",
+    "url": "https://toedolio5.gr/2026/10/22/tourkikes-paraviaseis-sto-aigaio-drones-kai-f-16-egrapsan-10-paravaseis-sto-fir-athinon/",
+    "audit": "Article reviewed 23 October. Matches U135 on five UAVs / three national-airspace violations / seven FIR infringements. The text closely matches TheOpinion; treated as corroborating republication, not independent verification of the underlying activity.",
+    "dateLabel": "22 October 2026"
+  },
+  "U137": {
+    "id": "U137",
+    "publisher": "AGERPRES / Buzău prefect",
+    "title": "Drone fragments found in Moșești, Robeasca commune",
+    "url": "https://agerpres.ro/social/2026/10/21/buzau-o-drona-prabusita-a-fost-gasita-in-comuna-robeasca-specialistii-fac-verificari--1605287",
+    "audit": "Article reviewed 23 October. Prefect identifies engine, fuselage and propeller fragments over about 100 square metres, no visible markings and no explosive elements found. Origin and crash time unestablished; no confirmed NATO shoot-down. Discovery date is used for replay.",
+    "dateLabel": "21 October 2026"
+  },
+  "U138": {
+    "id": "U138",
+    "publisher": "Radio România / Robeasca mayor",
+    "title": "Drone remains discovered in a field outside Moșești",
+    "url": "https://www.radioromania.ro/stiri-locale/buzau-resturi-de-drona-descoperite-pe-un-camp-din-robeasca-id230198.html",
+    "audit": "Article reviewed 23 October. Places the discovery on Wednesday morning in a field outside Moșești and reports a 112 call and MApN/SRI investigation. Embedded national aggregate figures do not establish a foreign origin for this discovery or add event rows.",
+    "dateLabel": "21 October 2026, 12:05; updated 12:43"
+  },
+  "U139": {
+    "id": "U139",
+    "publisher": "ZLUBACZOWA.PL / investigating prosecutor",
+    "title": "Lubaczów drone discovery: prosecutor describes investigation and evacuation",
+    "url": "https://zlubaczowa.pl/news/wydarzenia/20622-dron-spadl-w-lubaczowie-prokuratura-ujawnia-nowe-informacje-video",
+    "audit": "Article reviewed 23 October. Wreckage reported after 13:00 on an unoccupied Herzoga Street property; 150-metre evacuation and robot inspection. Early explosive uncertainty is superseded by the 22 October military-police findings in U140. Foreign origin not established.",
+    "dateLabel": "21 October 2026"
+  },
+  "U140": {
+    "id": "U140",
+    "publisher": "Gazeta.pl / PAP / Polish Military Gendarmerie",
+    "title": "Lubaczów object identified as a small unarmed foam airframe",
+    "url": "https://wiadomosci.gazeta.pl/polska/7,198073,33091968,tajemniczy-obiekt-znaleziony-w-lubaczowie-znamy-wstepne-ustalenia.html",
+    "audit": "Full article read in browser 23 October. Quotes military-police spokesman on an unarmed foam airframe without combat characteristics; explosives and radiological, biological and chemical hazards ruled out. Retained for laboratory examination; no origin finding. Wydrza is a separate allied-training occurrence.",
+    "dateLabel": "22 October 2026, 09:32"
+  },
+  "U141": {
+    "id": "U141",
+    "publisher": "Chernomore / BGNES",
+    "title": "Drone remains reported aboard CHELSEA 3 after towing to Burgas",
+    "url": "https://www.chernomore.bg/a/10-bulgaria/317075-otkriha-ostanki-ot-dron-na-chelsi-3-udaren-kray-varna",
+    "audit": "Article reviewed 23 October. Attributes onboard drone-fragment discovery to transport minister Peev via BGNES; reports no ammunition or radiation found during initial inspections. This is more specific than U098, which leaves the fragments’ nature/location unspecified in the minister’s account. Investigation and operator unresolved. Its two-injured figure differs from earlier four-injured/five-treated accounts.",
+    "dateLabel": "20 October 2026, 12:15"
+  },
+  "U142": {
+    "id": "U142",
+    "publisher": "Thestival / Greek military figures",
+    "title": "Five UAVs and a CN-235 in reported Aegean violations on 20 October",
+    "url": "https://www.thestival.gr/eidiseis/ethnika/pente-toyrkika-uav-kai-ena-kataskopeytik/",
+    "audit": "Article reviewed 23 October. Matches existing N111 on five UAVs and nine UAV national-airspace violations; the CN-235 accounts for five additional violations and is excluded. Ten FIR infringements are a mixed total here; existing UAV-specific eight comes from U128/U130. Same occurrence, not a new row.",
+    "dateLabel": "20 October 2026, 18:50"
+  },
+  "U143": {
+    "id": "U143",
+    "publisher": "Rzeszów News / police and military-police accounts",
+    "title": "Separate Lubaczów and Wydrza drone discoveries on 21 October",
+    "url": "https://rzeszow-news.pl/dron-podkarpacie-dwa-obiekty/",
+    "audit": "Article reviewed 23 October. Gives approximately 80 cm foam construction for Lubaczów as preliminary Polsat reporting; no injury/property damage. Wydrza, reported around 17:00, is preliminarily an unarmed Norwegian exercise drone from Nowa Dęba and remains excluded.",
+    "dateLabel": "21 October 2026, 19:39"
+  },
+  "U144": {
+    "id": "U144",
+    "publisher": "GeoNames via Orti",
+    "title": "Moșești locality coordinates, Robeasca, Buzău",
+    "url": "https://orti.se/en/country/romania/buzau/comuna-robeasca/mosesti",
+    "audit": "Locality reference reviewed 23 October. GeoNames-based centre at about 45.1238 N, 27.1480 E is rounded to a map anchor. Does not locate the field or verify any incident fact."
+  },
+  "U145": {
+    "id": "U145",
+    "publisher": "GeoNames",
+    "title": "Lubaczów urban administrative area",
+    "url": "https://www.geonames.org/7531334/lubacz-w.html",
+    "audit": "Geographic reference reviewed 23 October. Urban-area centre at about 50.1573 N, 23.12025 E supports a rounded town anchor only; not an exact Herzoga Street discovery coordinate."
   }
 }

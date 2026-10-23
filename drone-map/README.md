@@ -14,12 +14,12 @@ Then open <http://127.0.0.1:4173>. No API key, package installation or build ste
 - Drag to pan; scroll, pinch or use +/− to zoom.
 - Every event is shown individually at all zoom levels. Each blob stays at least 20 CSS pixels across, with translucent fill so overlaps show density. Zoom in or use the event list to inspect dense areas.
 - Select a marker or a row in the register to see its details: linked images or video first, then the source references, then the original record fields. On desktop the sidebar scrolls as one column (trend panel, then the register). On phones, Explore the records opens a pull-up panel with monthly records and trends expanded by default; the whole panel scrolls. The register lists the newest records first; during replay and scrubbing it follows the newest records only while you are scrolled into the list, so the trend panel otherwise stays in view.
-- Replay starts on 1 January 2026 and moves continuously through every calendar day, including quiet days before the first record; records accumulate. At 1× it advances 8 days per second (about 34 seconds for the full timeline); 2× and 4× run at 16 and 32 days per second. Pause/resume preserves progress. Scrubbing snaps to calendar dates, keyboard arrows move one day, and the previous/next buttons step between event dates. Existing markers remain in place as new records appear. New arrivals get one fading ripple (disabled for reduced-motion preferences) and a quiet, 240 ms synthesized sine tone. Each type has a note in C-major pentatonic order: alert C5, recovery D5, flight E5, disposal G5, engagement A5, shoot-down C6, crash D6, strike or explosion E6. Different types arriving on the same date form a chord; repeated types subtly weight the mix. Total gain is normalized to keep chords quiet, and successive dates crossfade so fast playback does not pile up sound. Sound starts only after a user gesture and can be muted with the speaker button. Scrubbing and Show all are silent.
-- All 143 active records appear in one view: 84 baseline records, 27 supplemental event additions, twenty-seven later event additions (including the explicitly labelled N082 RO-Alert), unidentified candidates N033 and N070 plus provisional maritime incident N089 under Alert / other, and provisional discoveries N067 and N069 under Recovery. N082 records no Romanian airspace entry. N081 is now identified as a domestic Polish test drone and excluded from the map and totals, while its original page preserves the correction. The three original supplemental precautionary alerts and 32 daily reports remain outside the map; the complete unchanged research update remains downloadable.
+- Replay starts on 1 January 2026 and moves continuously through every calendar day, including quiet days before the first record; records accumulate. At 1× it advances 8 days per second (about 34 seconds for the full timeline); 2× and 4× run at 16 and 32 days per second. Pause/resume preserves progress. Scrubbing snaps to calendar dates, keyboard arrows move one day, and the previous/next buttons step between event dates. Existing markers remain in place as new records appear. New arrivals get one fading ripple (disabled for reduced-motion preferences). Regular events keep their quiet, 240 ms sine pings: alert C5, recovery D5, flight E5, disposal G5 and crash D6. Red strikes and explosions use a 900 ms textured bell at E5. Armed engagements and shoot-downs use the same bell texture at their original A5 and C6 pitches. The bell has inharmonic overtones and a brief filtered-noise contact. Each pitch is synthesized once into a cached audio buffer with its peak below a regular ping; the master volume remains unchanged. Every sound finishes naturally, including when another event of the same type arrives. New arrivals never stop, fade or delay existing sounds; pause, mute and scrubbing still stop every voice. Different types arriving on the same date form a chord; repeated types subtly weight the mix. Each day’s chord gain is normalized to keep it quiet. Sounds from successive dates overlap freely without changing replay timing or waiting for earlier sounds to finish. Sound starts only after a user gesture and can be muted with the speaker button. Scrubbing and Show all are silent.
+- All 164 active records appear in one view: 157 event records and seven candidates. The inclusive reporting cutoff is 23 October 2026; it does not certify complete EU-wide coverage. The candidates are unidentified N033 and N070 plus provisional maritime incident N089 under Alert / other, and provisional discoveries N067, N069, N115 (Moșești) and N116 (Lubaczów) under Recovery. N082 remains an explicitly labelled RO-Alert with no Romanian airspace entry. N081 is identified as a domestic Polish test drone and excluded from the map and totals, while its original page preserves the correction, giving 165 permanent record pages in total. Original supplemental alert and daily-report entries are not automatically mapped; qualifying reports are individually reviewed and deduplicated before inclusion. The complete unchanged research update remains downloadable.
 - The running-total curve above the scrubber shows how records accumulate; the played part is colored and the rest stays as a gray preview. The shaded band marks the last 90 calendar days, with the total before the band and at the cutoff labelled.
 - On phones, the map fills the available screen above compact replay controls. Map key opens the legend, and the three-dot playback control reveals the running-total curve, previous/next buttons and Show all. Panels preserve the map and replay state, and the desktop layout returns automatically on wider screens.
 - Show all resets the date and full map extent.
-- About the data explains the counting rules and includes the eight non-additive context records and both original Markdown downloads.
+- About the data explains the counting rules and includes the nine non-additive context records and both original Markdown downloads.
 
 ## Trend panel
 
@@ -41,7 +41,7 @@ Run the rolling-window boundary tests with `node --test tests/test_trend.cjs`.
 
 Yellow, orange and fire red (`#e8c400`, `#f0700f`, `#d3201c`) were checked for color-vision-deficiency separation; marker outlines are a step darker so yellow stays visible on the pale map, and the legend always names each color.
 
-Records with several stages prioritize a strike or incident explosion, then shoot-down or armed engagement, then crash for the marker color; applicable stages remain visible in the details. Discovery-only records keep their recovery date and category, without implying a same-day crash. Strikes share the red color and highest replay note with explosions without implying a confirmed blast. Controlled disposal is separate from incident explosions. Explosive payloads, fires, attempted attacks with failed charges, nearby explosions and ambiguous interceptions do not automatically become explosions or shoot-downs. E047 (20 August Neptun Deep) is classified as military engagement after checking the MApN correction and AGERPRES report: F-16 cannon fire damaged the explosive maritime drone and naval EOD subsequently neutralized it. Disposal remains a secondary stage, and the intended target is not established. Reviewed classifications, outcome stages and approximate anchors are maintained directly in `data/events.json`. Original research snapshots remain unchanged.
+Records with several stages prioritize a strike or incident explosion, then shoot-down or armed engagement, then crash for the marker color; applicable stages remain visible in the details. Discovery-only records keep their recovery date and category, without implying a same-day crash. Strikes share the red color and textured replay bell with explosions without implying a confirmed blast. Controlled disposal is separate from incident explosions. Explosive payloads, fires, attempted attacks with failed charges, nearby explosions and ambiguous interceptions do not automatically become explosions or shoot-downs. E047 (20 August Neptun Deep) is classified as military engagement after checking the MApN correction and AGERPRES report: F-16 cannon fire damaged the explosive maritime drone and naval EOD subsequently neutralized it. Disposal remains a secondary stage, and the intended target is not established. Reviewed classifications, outcome stages and approximate anchors are maintained directly in `data/events.json`. Original research snapshots remain unchanged.
 
 ## Languages
 
@@ -89,7 +89,7 @@ The pages are generated by `scripts/build-data.py` together with `events.js`, so
 
 The canonical database lives in `data/`: `events.json` holds mapped records, `sources.json` the shared bibliography, `contexts.json` non-additive context records, and `dataset.json` the schema version, reporting cutoff and research snapshot hashes. See the [database editing guide](data/README.md) for the schema and update workflow. There is no running database service.
 
-`dist/events.js` is a generated browser export, currently containing 84 E-records plus 54 mapped N-records, eight A/NA context records and 236 source references (93 baseline + 74 supplement + 69 follow-up references). The canonical database also retains excluded N081 for its correction page, giving 139 permanent record pages but 138 active mapped records. Corrections, classifications and coordinates are part of the canonical records; there is no Markdown importer or separate overrides file. Both original research downloads remain unchanged. The original register was not independently fact-checked as part of building the map.
+`dist/events.js` is a generated browser export, currently containing 84 E-records plus 75 mapped N-records, nine A/NA context records and 293 source references. The canonical database also retains excluded N081 for its correction page, giving 160 permanent record pages but 159 active mapped records (154 events and five candidates), with an inclusive reporting cutoff of 20 October 2026. Corrections, classifications and coordinates are part of the canonical records; there is no Markdown importer or separate overrides file. Both original research downloads remain unchanged. The original register was not independently fact-checked as part of building the map.
 
 The 26 September review of E059 (Solca, 24 September) upgrades Russian attribution to high confidence using the minister’s reported identification, Lithuania’s official statement on the broader incursions and ISW’s geolocated-imagery assessment. Gerbera-type remains an attributed ISW assessment. The minister’s account of a detached payload detonating in the air changes the primary marker to Explosion; flight, crash and recovery remain secondary stages. The existing official no-casualty/no-material-damage finding is retained. The occurrence date, coordinates and record count are unchanged. Sources U003–U006 document this follow-up; the earlier review and original research remain traceable through Git and the unchanged downloads.
 
@@ -133,7 +133,7 @@ N090 promotes WINE TRADER from the watchlist to one red Strike record, combining
 
 Coverage extends through the supplied 15 October 09:09–16 October 09:26 EEST check. The register now contains 133 event records and five provisional/unidentified candidates, plus the preserved Karwia correction page.
 
-Coordinates in `data/events.json` are **editorial approximate geographic anchors**, not verified incident locations. Broad, unresolved and offshore locations are explicitly labelled. E010 and E029 each have two regional anchors but count once in the register, so the complete map contains 140 individual markers for 138 active records. Markers are never clustered, merged or shifted to avoid overlap. E058 uses a representative Lithuania position because its reported Pratkūnai site has not been geocoded. Supplementary Lithuanian village records without verified geocoding use labelled district anchors. Overlapping records remain individual markers.
+Coordinates in `data/events.json` are **editorial approximate geographic anchors**, not verified incident locations. Broad, unresolved and offshore locations are explicitly labelled. E010 and E029 each have two regional anchors but count once in the register, so the complete map contains 166 individual markers for 164 active records. Markers are never clustered, merged or shifted to avoid overlap. E058 uses a representative Lithuania position because its reported Pratkūnai site has not been geocoded. Supplementary Lithuanian village records without verified geocoding use labelled district anchors. Overlapping records remain individual markers.
 
 Replay uses each record's first listed calendar date. Full date ranges, discrepancies, discovery dates and linked follow-up dates remain in the detail panel. Status reflects the supplied research snapshot, including later attribution updates; replay does not reconstruct what was known on that day. Record categories describe the event type, not confidence, operator or nationality. Context totals are never added to dated-record counts. N038 keeps its 9–10 September discovery/disposal chain; N062 and N063 remain separate Mamaia Nord and Corbu finds. N023 and N055 are individual encounters, not duplicated daily reports. N033 is included under Alert / other and remains explicitly unidentified. Offshore N042 remains outside territorial waters in its detailed scope note.
 
@@ -215,3 +215,35 @@ cutoff is 18 October; this date does not certify exhaustive research coverage.
 CHELSEA 3's completed tow is a follow-up to N079, with conflicting date/injury
 accounts preserved. A003 retains the ministry's updated, non-additive Romanian
 counters. Outstanding source gaps remain in `data/watchlist.md`.
+
+## 20 October source review
+
+N097 adds the 19 October Greek-reported UAV activity as one daily record.
+The inclusive reporting cutoff is 19 October; unresolved Greek daily sources
+and partial EU-wide research coverage remain explicit in `data/watchlist.md`.
+N079 preserves conflicting aerial/surface-drone assessments; N090 adds the
+union-reported search follow-up; N096 adds the prime minister's payload and
+origin statements. These are updates to existing occurrences, not new attacks.
+N098 and N099 add two separate VSAT-confirmed cross-border cargo drones, with
+weekday-derived timing qualified and criminal activity distinguished from state
+attribution. The register now has 147 active records (142 events, 5 candidates)
+and one preserved excluded record. Counts are not confirmed foreign-attack totals.
+
+## Targeted 23 October KHORYV addition
+
+N112 adds KHORYV’s reported drone strike off Constanța as one red Strike record,
+including the fire, reported sinking in progress and rescue. U131 is the supplied
+Adevărul report, including its quoted Naval Authority statement. Operator and
+final vessel condition remain unresolved. The approximate offshore anchor is
+not an AIS coordinate. The cutoff advances to 23 October without claiming a
+completed EU-wide review for the intervening days.
+
+## 23 October daily-report reconciliation
+
+N113–N114 add Greek UAV activity on 21–22 October, one record per date with
+separate aircraft, airspace-violation and FIR counts. N115–N116 are provisional
+recoveries at Moșești and Lubaczów on 21 October; neither establishes foreign
+origin. Lubaczów incorporates the 22 October unarmed-airframe finding in the
+same record. N079 (CHELSEA 3) adds the reported onboard fragments as a secondary
+recovery stage, and N111 (20 October Greece) gains corroborating coverage.
+The cutoff remains 23 October. Existing coverage gaps remain explicit.

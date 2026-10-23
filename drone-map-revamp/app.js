@@ -18,11 +18,19 @@
   let locale = 'en-GB';
   let format = {};
 
+  // Black Sea Maritime Escalation ("When Things Took a Dark Turn" — Oct 2026)
+  const MARITIME_SHIP_IDS = new Set(['E033', 'E034', 'E053', 'N072', 'N073', 'N079', 'N080', 'N086', 'N089', 'N090', 'N112']);
+  const OCT_MARITIME_IDS = new Set(['N072', 'N073', 'N079', 'N080', 'N086', 'N089', 'N090', 'N112']);
+  const CASUALTY_IDS = new Set(['E033', 'E053', 'N072', 'N073', 'N079', 'N080', 'N090', 'N112']);
+  const DARK_TURN_DATE = '2026-10-05';
+  const isMaritimeVessel = event => MARITIME_SHIP_IDS.has(event.id);
+  const hasCasualties = event => CASUALTY_IDS.has(event.id);
+
   function loadLanguage(code) {
     if (translations[code]) return Promise.resolve(true);
     return new Promise(resolve => {
       const script = document.createElement('script');
-      script.src = `i18n/${code}.js?v=20261019-revamp`;
+      script.src = `i18n/${code}.js?v=20261023-revamp`;
       script.onload = () => resolve(Boolean(translations[code]));
       script.onerror = () => { script.remove(); resolve(false); };
       document.head.append(script);
@@ -106,6 +114,7 @@
   let allMode = true;
   let playing = false;
   let studioOpen = false;
+  let studioReturnFocus = null;
   let feedMode = 'incidents'; // 'incidents' | 'news'
   let searchQuery = '';
   let selectedCountry = '';
@@ -120,13 +129,18 @@
   let returnFocus = null;
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // WebAudio pentatonic synthesis (also routable to MediaStreamDestination for video recording)
+  // WebAudio pentatonic + textured metallic bell synthesis (synced with origin/main + recording gain)
   let soundEnabled = true;
   let audioContext = null;
   let audioOutput = null;
+  let recordingGain = null;
   let recordingAudioDest = null;
-  const categoryNotes = {alert:72, recovery:74, flight:76, disposal:79, engaged:81, shotdown:84, crash:86, strike:88, explosion:88};
+  const categoryNotes = {alert:72, recovery:74, flight:76, disposal:79, engaged:81, shotdown:84, crash:86, strike:76, explosion:76};
+  const bellCategories = new Set(['engaged', 'shotdown', 'strike', 'explosion']);
+  const bellBuffers = new Map();
   const REPLAY_VOLUME = 0.05;
+  const RECORDING_VOLUME = 0.35;
+  const BELL_GAIN = 2.6;
   const activeVoices = new Set();
 
   function prepareAudio() {
@@ -140,18 +154,52 @@
         audioOutput.gain.value = REPLAY_VOLUME;
         audioOutput.connect(audioContext.destination);
         if (audioContext.createMediaStreamDestination) {
+          recordingGain = audioContext.createGain();
+          recordingGain.gain.value = RECORDING_VOLUME / REPLAY_VOLUME;
           recordingAudioDest = audioContext.createMediaStreamDestination();
-          audioOutput.connect(recordingAudioDest);
+          audioOutput.connect(recordingGain);
+          recordingGain.connect(recordingAudioDest);
         }
       }
       return audioContext.resume().catch(() => {});
     } catch { /* Replay still works when audio is unavailable. */ }
   }
 
-  function stopChord() {
+  function createBellBuffer(note) {
+    if (bellBuffers.has(note)) return bellBuffers.get(note);
+    const sampleRate = audioContext.sampleRate;
+    const duration = 0.72;
+    const length = Math.floor(sampleRate * duration);
+    const buffer = audioContext.createBuffer(1, length, sampleRate);
+    const data = buffer.getChannelData(0);
+    const base = 440 * 2 ** ((note - 69) / 12);
+    const partials = [[0.5, 0.24, 3.6], [1, 1, 4.8], [1.183, 0.55, 6.2], [1.506, 0.42, 7.6], [2, 0.62, 8.8], [2.514, 0.34, 11], [2.662, 0.26, 13], [3.011, 0.2, 15.5], [4.166, 0.12, 20], [5.433, 0.07, 26]];
+    let peak = 0;
+    let seed = note * 2654435761 >>> 0;
+    for (let i = 0; i < length; i++) {
+      const time = i / sampleRate;
+      const attack = Math.min(1, time / 0.0025);
+      seed = seed * 1664525 + 1013904223 >>> 0;
+      const clapper = ((seed / 4294967296) * 2 - 1) * Math.exp(-time * 95) * 0.28;
+      let sample = clapper + Math.sin(2 * Math.PI * base * 3.4 * time) * Math.exp(-time * 55) * 0.22;
+      for (const [ratio, amp, decay] of partials) {
+        const detune = 1 + Math.sin(time * 6.5 * ratio) * 0.0006;
+        sample += Math.sin(2 * Math.PI * base * ratio * detune * time) * amp * Math.exp(-time * decay);
+      }
+      const fadeOut = time > duration - 0.04 ? (duration - time) / 0.04 : 1;
+      data[i] = sample * attack * fadeOut;
+      peak = Math.max(peak, Math.abs(data[i]));
+    }
+    if (peak) for (let i = 0; i < length; i++) data[i] = data[i] / peak * 0.9;
+    bellBuffers.set(note, buffer);
+    return buffer;
+  }
+
+  function stopVoices(voices = activeVoices) {
     if (!audioContext) return;
     const now = audioContext.currentTime;
-    activeVoices.forEach(({tone, envelope}) => {
+    [...voices].forEach(voice => {
+      const {source, envelope} = voice;
       const level = envelope.gain.value;
       if (envelope.gain.cancelAndHoldAtTime) envelope.gain.cancelAndHoldAtTime(now);
       else {
@@ -159,34 +207,56 @@
         envelope.gain.setValueAtTime(level, now);
       }
       envelope.gain.linearRampToValueAtTime(0, now + 0.014);
-      tone.stop(now + 0.018);
+      source.stop(now + 0.018);
+      activeVoices.delete(voice);
     });
-    activeVoices.clear();
+  }
+
+  function startVoice(source, envelope, stopTime, bell = false) {
+    source.connect(envelope).connect(audioOutput);
+    const voice = {source, envelope, bell};
+    activeVoices.add(voice);
+    source.onended = () => { source.disconnect(); envelope.disconnect(); activeVoices.delete(voice); };
+    source.start(audioContext.currentTime);
+    source.stop(stopTime);
   }
 
   function playArrivalSound(arrivals) {
     if (!soundEnabled || audioContext?.state !== 'running' || !arrivals.length) return;
-    stopChord();
+    stopVoices([...activeVoices].filter(voice => !voice.bell));
     const now = audioContext.currentTime;
     const counts = new Map();
     arrivals.forEach(event => counts.set(event.category, (counts.get(event.category) || 0) + 1));
     const totalWeight = [...counts.values()].reduce((sum, count) => sum + Math.sqrt(count), 0);
     counts.forEach((count, category) => {
+      const level = Math.sqrt(count) / totalWeight;
+      if (bellCategories.has(category)) {
+        const bell = audioContext.createBufferSource();
+        const filter = audioContext.createBiquadFilter();
+        const envelope = audioContext.createGain();
+        bell.buffer = createBellBuffer(categoryNotes[category]);
+        filter.type = 'highshelf';
+        filter.frequency.setValueAtTime(1800, now);
+        filter.gain.setValueAtTime(3.5, now);
+        envelope.gain.setValueAtTime(level * BELL_GAIN, now);
+        envelope.gain.exponentialRampToValueAtTime(0.0001, now + bell.buffer.duration);
+        bell.connect(filter);
+        const voice = {source:bell, envelope, bell:true};
+        filter.connect(envelope).connect(audioOutput);
+        activeVoices.add(voice);
+        bell.onended = () => { bell.disconnect(); filter.disconnect(); envelope.disconnect(); activeVoices.delete(voice); };
+        bell.start(now);
+        return;
+      }
       const tone = audioContext.createOscillator();
       const envelope = audioContext.createGain();
-      const level = Math.sqrt(count) / totalWeight;
       tone.type = 'sine';
       tone.frequency.setValueAtTime(440 * 2 ** ((categoryNotes[category] - 69) / 12), now);
       envelope.gain.setValueAtTime(0, now);
       envelope.gain.linearRampToValueAtTime(level, now + 0.014);
       envelope.gain.exponentialRampToValueAtTime(0.0001, now + 0.22);
       envelope.gain.linearRampToValueAtTime(0, now + 0.24);
-      tone.connect(envelope).connect(audioOutput);
-      const voice = {tone, envelope};
-      activeVoices.add(voice);
-      tone.onended = () => { tone.disconnect(); envelope.disconnect(); activeVoices.delete(voice); };
-      tone.start(now);
-      tone.stop(now + 0.24);
+      startVoice(tone, envelope, now + 0.24);
     });
   }
 
@@ -305,13 +375,14 @@
     events.forEach(event => markers.get(event.id).forEach((marker, index) => {
       const position = event.positions[index];
       const copy = pageCopyFor(event);
-      const title = `${event.id} · ${copy.headline} · ${categoryLabel(event.category)}`;
+      const classNote = event.recordClass === 'candidate' ? ` · ${recordClassLabel(event.recordClass)}` : '';
+      const title = `${event.id} · ${copy.headline} · ${categoryLabel(event.category)}${classNote}`;
       const precision = position.precision === 'locality' ? 'tooltip.locality' : position.precision === 'offshore' ? 'tooltip.offshore' : 'tooltip.region';
       marker.options.title = title;
       marker.getElement()?.setAttribute('title', title);
       marker.setTooltipContent(
         `<strong lang="en">${escape(copy.headline)}</strong>` +
-        `<small>${escape(event.id)} · ${escape(shortDateYear(event.startDate))} · ${escape(categoryLabel(event.category))}</small>` +
+        `<small>${escape(event.id)} · ${escape(shortDateYear(event.startDate))} · ${escape(categoryLabel(event.category))}${escape(classNote)}</small>` +
         `<small lang="en">${escape(event.status)}</small>` +
         `<small>${escape(t(precision))}</small>`
       );
@@ -417,9 +488,11 @@
     });
   }
 
-  // Filtering logic (Time interval + Search query + Country + Outcome category)
-  function matchesCategoryGroup(category, group) {
+  // Filtering logic (Time interval + Search query + Country + Outcome category / Maritime group)
+  function matchesCategoryGroup(event, group) {
     if (!group) return true;
+    if (group === 'maritime') return isMaritimeVessel(event);
+    const category = event.category;
     if (group === 'strike_explosion') return category === 'strike' || category === 'explosion';
     if (group === 'shotdown_engaged') return category === 'shotdown' || category === 'engaged';
     return category === group;
@@ -457,7 +530,7 @@
     return events.filter(event => {
       if (event.startDate < startDate || event.startDate > endCapDate) return false;
       if (selectedCountry && !allCountriesOf(event).includes(selectedCountry)) return false;
-      if (selectedCategoryGroup && !matchesCategoryGroup(event.category, selectedCategoryGroup)) return false;
+      if (selectedCategoryGroup && !matchesCategoryGroup(event, selectedCategoryGroup)) return false;
       if (searchQuery && !matchesSearch(event, searchQuery)) return false;
       return true;
     });
@@ -472,11 +545,12 @@
     const sortedCountries = [...countryTotals.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
     const countrySelect = $('country-filter');
     const prevCountry = countrySelect.value;
-    countrySelect.innerHTML = `<option value="">All ${sortedCountries.length} EU countries (${events.length})</option>` +
-      sortedCountries.map(([c, count]) => `<option value="${escape(c)}">${escape(countryName(c))} (${count})</option>`).join('');
+    countrySelect.innerHTML = `<option value="">${escape(t('revamp.allCountries', {n: events.length}))}</option>` +
+      sortedCountries.map(([c, count]) => `<option value="${escape(c)}">${escape(countryName(c))} (${format.number.format(count)})</option>`).join('');
     countrySelect.value = prevCountry;
 
     const categoryGroups = [
+      ['maritime', t('revamp.filterMaritime', {n: MARITIME_SHIP_IDS.size})],
       ['strike_explosion', t('legend.strikeExplosion')],
       ['shotdown_engaged', t('legend.shotdownEngaged')],
       ['crash', categoryLabel('crash')],
@@ -487,23 +561,22 @@
     ];
     const catSelect = $('category-filter');
     const prevCat = catSelect.value;
-    catSelect.innerHTML = `<option value="">All outcome types</option>` +
+    catSelect.innerHTML = `<option value="">${escape(t('revamp.allOutcomes', {n: events.length}))}</option>` +
       categoryGroups.map(([val, label]) => `<option value="${val}">${escape(label)}</option>`).join('');
     catSelect.value = prevCat;
   }
 
   // Render Rich Incident Cards with Headlines, Visible TL;DRs & Clickable News Chips
   function renderList() {
+    // Note: currentDay is intentionally omitted from filterKey so same-day playback frames do not rebuild DOM
     const filterKey = [
       visibleEvents.map(e => e.id).join(','),
-      lang,
-      selectedId,
-      allMode ? 'all' : currentDay
+      lang
     ].join('|');
 
     if (renderedRecordKey !== filterKey) {
       if (!visibleEvents.length) {
-        $('event-list').innerHTML = `<div class="empty-feed-state">No incidents match the current filters or time interval.</div>`;
+        $('event-list').innerHTML = `<div class="empty-feed-state">${escape(t('revamp.emptyIncidents'))}</div>`;
       } else {
         let previousMonth = '';
         $('event-list').innerHTML = [...visibleEvents].reverse().map((event, idx) => {
@@ -520,6 +593,16 @@
           const hasVideo = items.some(item => playableVideo(item.video) || externalVideo(item.video));
           const badge = items.length ? `<span class="media-badge${hasVideo ? ' video' : ''}" title="${escape(t(hasVideo ? 'card.video' : 'card.photo'))}"><span class="sr-only">${escape(t(hasVideo ? 'card.video' : 'card.photo'))}</span></span>` : '';
 
+          const candidatePill = event.recordClass === 'candidate'
+            ? `<span class="candidate-pill">${escape(recordClassLabel(event.recordClass))}</span>`
+            : '';
+          const maritimePill = isMaritimeVessel(event)
+            ? `<span class="maritime-badge">${escape(t('revamp.maritimeBadge'))}</span>`
+            : '';
+          const casualtyPill = hasCasualties(event)
+            ? `<span class="casualty-badge">${escape(t('revamp.casualtyBadge'))}</span>`
+            : '';
+
           // Cited news source chips directly on the card (compact publisher names)
           const sourceChips = event.sources.slice(0, 2).map(srcId => {
             const s = sources[srcId];
@@ -533,21 +616,25 @@
           // Apply content-visibility: auto only to below-the-fold cards (idx >= 8)
           const deferredClass = idx >= 8 ? ' deferred-card' : '';
           const isCurrent = !allMode && event.startDate === dayToDate(currentDay);
+          const isSelected = selectedId === event.id;
 
-          return `${heading}<article class="event-card${isCurrent ? ' current' : ''}${deferredClass}" id="card-${event.id}" data-id="${event.id}" data-date="${event.startDate}" style="--category:${colors[event.category]}" role="button" tabindex="0" aria-pressed="${selectedId === event.id}">
-            <div class="card-top-row">
-              <div class="card-badges">
-                <span class="cat-pill"><i aria-hidden="true"></i>${escape(categoryLabel(event.category))}</span>
-                <span class="card-date-place">${escape(dayLabel)} · ${escape(countryLabel)}${shortPlace ? ` · ${escape(shortPlace)}` : ''}</span>
+          return `${heading}<article class="event-card${isCurrent ? ' current' : ''}${isSelected ? ' selected' : ''}${deferredClass}" id="card-${event.id}" data-id="${event.id}" data-date="${event.startDate}" style="--category:${colors[event.category]}">
+            <button type="button" class="card-select-btn" data-select-id="${event.id}" aria-pressed="${isSelected}">
+              <div class="card-top-row">
+                <div class="card-badges">
+                  <span class="cat-pill"><i aria-hidden="true"></i>${escape(categoryLabel(event.category))}</span>
+                  ${maritimePill}${casualtyPill}${candidatePill}
+                  <span class="card-date-place">${escape(dayLabel)} · ${escape(countryLabel)}${shortPlace ? ` · ${escape(shortPlace)}` : ''}</span>
+                </div>
+                <span class="card-id-group">${badge}${escape(event.id)}</span>
               </div>
-              <span class="card-id-group">${badge}${escape(event.id)}</span>
-            </div>
-            <h3 class="event-headline" lang="en">${escape(copy.headline)}</h3>
-            <p class="card-tldr" lang="en"><span class="card-tldr-label">TL;DR</span>${escape(copy.description)}</p>
+              <h3 class="event-headline" lang="en">${escape(copy.headline)}</h3>
+              <p class="card-tldr" lang="en"><span class="card-tldr-label">${escape(t('revamp.tldrBadge'))}</span>${escape(copy.description)}</p>
+            </button>
             <div class="card-sources-row">
-              <span class="card-sources-label">News (${event.sources.length}):</span>
+              <span class="card-sources-label">${escape(t('revamp.newsLabel', {n: event.sources.length}))}</span>
               ${sourceChips}${extraSourcesCount}
-              <span class="card-open-briefing">Briefing →</span>
+              <button type="button" class="card-open-briefing" data-select-id="${event.id}">${escape(t('revamp.briefingCta'))}</button>
             </div>
           </article>`;
         }).join('');
@@ -561,7 +648,6 @@
 
   // Render Dedicated News Articles & Sources Stream
   function renderNewsList() {
-    const newsKey = visibleEvents.map(e => e.id).join(',') + '|' + searchQuery + '|' + lang;
     // Collect unique cited sources across visibleEvents, ordered by most recent linked event
     const sourceEntries = [];
     const seenSources = new Map();
@@ -584,11 +670,15 @@
     $('news-count').textContent = formattedNewsCount;
     $('mob-news-count').textContent = formattedNewsCount;
 
+    // Skip rebuilding hidden news cards until the News tab is active
+    if (feedMode !== 'news') return;
+
+    const newsKey = visibleEvents.map(e => e.id).join(',') + '|' + searchQuery + '|' + lang;
     if (renderedNewsKey === newsKey) return;
     renderedNewsKey = newsKey;
 
     if (!sourceEntries.length) {
-      $('news-list').innerHTML = `<div class="empty-feed-state">No news articles match the current filters or time interval.</div>`;
+      $('news-list').innerHTML = `<div class="empty-feed-state">${escape(t('revamp.emptyNews'))}</div>`;
       return;
     }
 
@@ -609,9 +699,9 @@
           <span class="news-date">${escape(source.dateLabel || shortDateYear(linkedEvents[0].startDate))} · ${escape(source.id)}</span>
         </div>
         <a class="news-title-link" href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.title)} ↗</a>
-        ${auditText ? `<p class="news-audit-tldr"><span class="card-tldr-label">Verification &amp; Summary</span>${escape(auditText)}</p>` : ''}
+        ${auditText ? `<p class="news-audit-tldr"><span class="card-tldr-label">${escape(t('revamp.auditBadge'))}</span>${escape(auditText)}</p>` : ''}
         <div class="news-linked-events">
-          <span class="card-sources-label">Mapped incident:</span>
+          <span class="card-sources-label">${escape(t('revamp.mappedIncident'))}</span>
           ${eventPills}
         </div>
       </article>`;
@@ -636,11 +726,18 @@
   }
 
   function refreshSelection() {
-    document.querySelectorAll('.event-card').forEach(card => card.setAttribute('aria-pressed', String(card.dataset.id === selectedId)));
+    const activeDate = dayToDate(currentDay);
+    document.querySelectorAll('.event-card').forEach(card => {
+      const isSelected = card.dataset.id === selectedId;
+      const isCurrent = !allMode && card.dataset.date === activeDate;
+      card.classList.toggle('selected', isSelected);
+      card.classList.toggle('current', isCurrent);
+      card.querySelector('.card-select-btn')?.setAttribute('aria-pressed', String(isSelected));
+    });
     visibleEvents.forEach(event => markers.get(event.id).forEach(marker => {
       const element = marker.getElement();
       element?.classList.toggle('selected', event.id === selectedId);
-      element?.classList.toggle('today', !allMode && event.startDate === dayToDate(currentDay));
+      element?.classList.toggle('today', !allMode && event.startDate === activeDate);
       marker.setZIndexOffset(event.id === selectedId ? 1000 : 0);
     }));
   }
@@ -651,9 +748,9 @@
       if (!s || !/^https?:\/\//.test(s.url)) return '';
       const cleanAudit = (s.audit || '').replace(/\[([^\]]+)\]\[[^\]]+\]/g, '$1');
       return `<a class="source-link" href="${escape(s.url)}" target="_blank" rel="noopener noreferrer" lang="en">
-        <strong><span>📰 ${escape(s.publisher)} (${escape(id)})</span><span>Open article ↗</span></strong>
+        <strong><span>📰 ${escape(s.publisher)} (${escape(id)})</span><span>${escape(t('revamp.openArticle'))}</span></strong>
         <span>${escape(s.title)}</span>
-        <small><strong>Summary &amp; source audit:</strong> ${s.dateLabel ? escape(s.dateLabel) + ' — ' : ''}${escape(cleanAudit)}</small>
+        <small><strong>${escape(t('revamp.sourceAuditLabel'))}</strong> ${s.dateLabel ? escape(s.dateLabel) + ' — ' : ''}${escape(cleanAudit)}</small>
       </a>`;
     }).join('');
   }
@@ -673,11 +770,21 @@
     const isRegional = event.positions.some(p => p.precision === 'region');
     const geoNote = [t(isRegional ? 'detail.geoRegion' : 'detail.geoLocal'), event.positions.length > 1 ? t('detail.geoTwoAnchors') : '', event.id === 'E058' ? t('detail.geoE058') : ''].filter(Boolean).join(' ');
     const summaryParagraphs = copy.summary.map(p => `<p lang="en">${escape(p)}</p>`).join('');
+    const candidateBadge = event.recordClass === 'candidate'
+      ? `<span class="candidate-pill">${escape(recordClassLabel(event.recordClass))}</span>`
+      : '';
+    const maritimeBadge = isMaritimeVessel(event)
+      ? `<span class="maritime-badge">${escape(t('revamp.maritimeBadge'))}</span>`
+      : '';
+    const casualtyBadge = hasCasualties(event)
+      ? `<span class="casualty-badge">${escape(t('revamp.casualtyBadge'))}</span>`
+      : '';
 
     $('detail').innerHTML = `
       <div class="detail-head" style="--category:${colors[event.category]}">
         <p class="eyebrow">
           <span class="cat-pill" style="--category:${colors[event.category]}"><i aria-hidden="true"></i>${escape(categoryLabel(event.category))}</span>
+          ${maritimeBadge}${casualtyBadge}${candidateBadge}
           <span>${escape(event.id)} · ${escape(shortDateYear(event.startDate))} · <span lang="en">${escape(event.countries)}</span></span>
         </p>
         <button class="close-detail" type="button" aria-label="${escape(t('detail.close'))}">×</button>
@@ -691,39 +798,39 @@
         ${lang !== 'en' ? `<p class="language-note">${escape(t('detail.originalLanguage'))}</p>` : ''}
 
         <!-- 1. Prominent Executive TL;DR Summary -->
-        <section class="tldr-briefing-box" aria-label="Executive TL;DR summary">
+        <section class="tldr-briefing-box" aria-label="${escape(t('revamp.detailTldrAria'))}">
           <div class="tldr-briefing-head">
-            <span class="tldr-badge">TL;DR · Incident Summary</span>
+            <span class="tldr-badge">${escape(t('revamp.detailTldrBadge'))}</span>
             <span style="font-size:0.72rem;color:var(--muted)" lang="en">${escape(event.title)}</span>
           </div>
           <div class="tldr-paragraphs">${summaryParagraphs}</div>
         </section>
 
         <!-- 2. Structured 2x2 Key Facts At-A-Glance -->
-        <section class="key-facts-grid" aria-label="Key incident facts" lang="en">
+        <section class="key-facts-grid" aria-label="${escape(t('revamp.detailFactsAria'))}">
           <div class="key-fact-card">
-            <strong>What Happened</strong>
-            <span>${escape(event.circumstances)}</span>
+            <strong>${escape(t('revamp.factHappened'))}</strong>
+            <span lang="en">${escape(event.circumstances)}</span>
           </div>
           <div class="key-fact-card">
-            <strong>Drone / Vehicle</strong>
-            <span>${escape(event.vehicle)}${event.payload && event.payload !== 'Not reported' ? ` · ${escape(event.payload)}` : ''}</span>
+            <strong>${escape(t('revamp.factVehicle'))}</strong>
+            <span lang="en">${escape(event.vehicle)}${event.payload && event.payload !== 'Not reported' ? ` · ${escape(event.payload)}` : ''}</span>
           </div>
           <div class="key-fact-card">
-            <strong>Impact &amp; Damage</strong>
-            <span>${escape(event.impact || 'None reported')}</span>
+            <strong>${escape(t('revamp.factImpact'))}</strong>
+            <span lang="en">${escape(event.impact || t('revamp.noneReported'))}</span>
           </div>
           <div class="key-fact-card">
-            <strong>Response &amp; Outcome</strong>
-            <span>${escape(event.response || 'Not specified')}</span>
+            <strong>${escape(t('revamp.factResponse'))}</strong>
+            <span lang="en">${escape(event.response || t('revamp.notSpecified'))}</span>
           </div>
         </section>
 
         <!-- 3. Attribution & Uncertainty Shown Up Front (Never Footnoted) -->
-        <section class="uncertainty-callout" aria-label="Attribution and uncertainty" lang="en">
-          <strong>Attribution &amp; Uncertainty</strong>
-          <div><strong>Reported attribution:</strong> ${escape(event.attribution || 'Unresolved')}</div>
-          ${event.uncertainty ? `<div style="margin-top:4px"><strong>Caveats:</strong> ${escape(event.uncertainty)}</div>` : ''}
+        <section class="uncertainty-callout" aria-label="${escape(t('revamp.detailAttributionAria'))}">
+          <strong>${escape(t('revamp.detailAttributionTitle'))}</strong>
+          <div lang="en"><strong>${escape(t('revamp.reportedAttribution'))}</strong> ${escape(event.attribution || t('revamp.unresolved'))}</div>
+          ${event.uncertainty ? `<div style="margin-top:4px" lang="en"><strong>${escape(t('revamp.caveats'))}</strong> ${escape(event.uncertainty)}</div>` : ''}
         </section>
 
         <!-- 4. Media & Cited News Articles -->
@@ -737,7 +844,7 @@
         <section class="detail-record">
           ${outcomeTags(event)}
           <details class="raw-record-details">
-            <summary>${escape(t('detail.record'))} &amp; Positioning Notes (${escape(event.id)})</summary>
+            <summary>${escape(t('detail.record'))} · ${escape(t('revamp.positioningNotes'))} (${escape(event.id)})</summary>
             <p class="position-note">${escape(geoNote)}${event.positionNote ? ` <span lang="en">${escape(event.positionNote)}</span>` : ''}</p>
             <dl>${fieldsHTML(event)}</dl>
           </details>
@@ -756,7 +863,12 @@
   }
   const areaFromHash = () => AREAS.find(area => area.id === location.hash.slice(1));
   function eventFromHash() {
-    const slug = decodeURIComponent(location.hash.slice(1));
+    let slug = '';
+    try {
+      slug = decodeURIComponent(location.hash.slice(1));
+    } catch {
+      slug = location.hash.slice(1);
+    }
     return slug ? events.find(event => slugOf(event) === slug) : null;
   }
 
@@ -944,13 +1056,14 @@
     });
   }
 
-  // Cumulative curve above timeline scrubber
+  // Cumulative curve above timeline scrubber (with Oct 5 maritime turning-point marker)
   const runningTotals = [];
   for (let day = 0, running = 0; day <= totalDays; day++) runningTotals.push(running += dateCounts.get(dayToDate(day)) || 0);
   const CHART_WIDTH = 1000;
   const CHART_HEIGHT = 100;
   const chartX = day => day / totalDays * CHART_WIDTH;
   const chartY = count => CHART_HEIGHT - count / events.length * (CHART_HEIGHT - 6);
+  const darkTurnDay = dayOf(DARK_TURN_DATE);
 
   function renderCumulative() {
     let line = `M0 ${chartY(runningTotals[0])}`;
@@ -967,8 +1080,62 @@
     const intervalLabel = (winStart === 0 && winEnd === totalDays)
       ? t('trend.legendRecent')
       : `${shortDate(dayToDate(winStart))} – ${shortDate(dayToDate(winEnd))}`;
+    const turnX = chartX(darkTurnDay);
+    const turnPct = (turnX / CHART_WIDTH) * 100;
 
-    $('cumulative').innerHTML = `<svg viewBox="0 0 ${CHART_WIDTH} ${CHART_HEIGHT}" preserveAspectRatio="none" aria-hidden="true"><defs><clipPath id="cumulative-progress"><rect id="cumulative-clip" x="${chartX(winStart)}" y="0" width="${Math.max(0, chartX(playbackDay) - chartX(winStart))}" height="${CHART_HEIGHT}"/></clipPath></defs><rect class="cumulative-window" x="${chartX(winStart)}" y="0" width="${Math.max(2, chartX(winEnd) - chartX(winStart))}" height="${CHART_HEIGHT}"/><path class="cumulative-area ghost" d="${area}"/><path class="cumulative-line ghost" d="${line}" vector-effect="non-scaling-stroke"/><g clip-path="url(#cumulative-progress)"><path class="cumulative-area" d="${area}"/><path class="cumulative-line" d="${line}" vector-effect="non-scaling-stroke"/></g></svg><span class="cumulative-title">${escape(t('cumulative.title'))}</span><span class="cumulative-window-label" style="left:${chartX(winStart) / CHART_WIDTH * 100}%">${escape(intervalLabel)}</span><span class="cumulative-point" style="${point(winStart, before)}"><span>${format.number.format(before)}</span></span><span class="cumulative-point end" style="${point(winEnd, atEnd)}"><span>${format.number.format(atEnd)}</span></span>`;
+    $('cumulative').innerHTML = `<svg viewBox="0 0 ${CHART_WIDTH} ${CHART_HEIGHT}" preserveAspectRatio="none" aria-hidden="true"><defs><clipPath id="cumulative-progress"><rect id="cumulative-clip" x="${chartX(winStart)}" y="0" width="${Math.max(0, chartX(playbackDay) - chartX(winStart))}" height="${CHART_HEIGHT}"/></clipPath></defs><rect class="cumulative-window" x="${chartX(winStart)}" y="0" width="${Math.max(2, chartX(winEnd) - chartX(winStart))}" height="${CHART_HEIGHT}"/><path class="cumulative-area ghost" d="${area}"/><path class="cumulative-line ghost" d="${line}" vector-effect="non-scaling-stroke"/><g clip-path="url(#cumulative-progress)"><path class="cumulative-area" d="${area}"/><path class="cumulative-line" d="${line}" vector-effect="non-scaling-stroke"/></g><line class="cumulative-turn-line" x1="${turnX}" y1="0" x2="${turnX}" y2="${CHART_HEIGHT}" vector-effect="non-scaling-stroke"/></svg><span class="cumulative-title">${escape(t('cumulative.title'))}</span><span class="cumulative-window-label" style="left:${chartX(winStart) / CHART_WIDTH * 100}%">${escape(intervalLabel)}</span><span class="cumulative-turn-label" style="left:${turnPct}%" title="${escape(t('revamp.turnMarker'))}">⚓ ${escape(shortDate(DARK_TURN_DATE))}</span><span class="cumulative-point" style="${point(winStart, before)}"><span>${format.number.format(before)}</span></span><span class="cumulative-point end" style="${point(winEnd, atEnd)}"><span>${format.number.format(atEnd)}</span></span>`;
+  }
+
+  // Render the Black Sea Maritime Escalation modal vessel list
+  function renderMaritimeDialog() {
+    const container = $('maritime-vessel-list');
+    if (!container) return;
+    $('focus-maritime-label').textContent = t('revamp.darkTurnFocusBtn', {n: MARITIME_SHIP_IDS.size});
+    const octRecords = events.filter(e => OCT_MARITIME_IDS.has(e.id));
+    const precursorRecords = events.filter(e => MARITIME_SHIP_IDS.has(e.id) && !OCT_MARITIME_IDS.has(e.id));
+    const renderItem = event => {
+      const copy = pageCopyFor(event);
+      const isTerritorial = /territorial waters/i.test(event.countries) || /territorial waters/i.test(event.location);
+      const casualtyBadge = hasCasualties(event) ? `<span class="casualty-badge">${escape(t('revamp.casualtyBadge'))}</span>` : '';
+      return `<button type="button" class="maritime-vessel-item" data-maritime-event="${event.id}" style="--category:${colors[event.category]}">
+        <div class="maritime-vessel-top">
+          <span>${escape(event.id)} · ${escape(shortDateYear(event.startDate))} · <span lang="en">${escape(event.countries)}</span></span>
+          <span>${casualtyBadge} <span class="cat-pill" style="--category:${colors[event.category]}"><i aria-hidden="true"></i>${escape(categoryLabel(event.category))}</span></span>
+        </div>
+        <div class="maritime-vessel-title" lang="en">${escape(copy.headline)}${isTerritorial ? ' · 🇷🇴 Territorial waters' : ''}</div>
+        <div class="maritime-vessel-summary" lang="en">${escape(event.status)}${event.impact ? ` — ${escape(event.impact)}` : ''}</div>
+      </button>`;
+    };
+    container.innerHTML = [...octRecords, ...precursorRecords].map(renderItem).join('');
+  }
+
+  // Focus map & feed on the October 2026 Black Sea Maritime Escalation
+  function focusMaritimeEscalation(startReplay = false) {
+    pause();
+    closeDetail();
+    intervalStartDay = dayOf(DARK_TURN_DATE);
+    intervalEndDay = totalDays;
+    currentDay = intervalEndDay;
+    playbackDay = intervalEndDay;
+    allMode = true;
+    selectedCountry = '';
+    selectedCategoryGroup = 'maritime';
+    searchQuery = '';
+    $('country-filter').value = '';
+    $('category-filter').value = 'maritime';
+    $('feed-search').value = '';
+    $('clear-search').hidden = true;
+    syncIntervalInputs();
+    updatePresetChips('maritime');
+    renderCumulative();
+    render();
+    if (window.innerWidth <= 860 && startReplay) setMobileView('map');
+    fitEvents();
+    if (startReplay) {
+      setStudioOpen(true);
+      requestAnimationFrame(renderMonthLabels);
+      play();
+    }
   }
 
   function updateFilterBanner() {
@@ -986,7 +1153,11 @@
       if (selectedCountry) parts.push(countryName(selectedCountry));
       if (selectedCategoryGroup) parts.push($('category-filter').selectedOptions[0]?.textContent || selectedCategoryGroup);
       if (searchQuery) parts.push(`"${searchQuery}"`);
-      $('active-filter-text').textContent = `Showing ${visibleEvents.length} of ${events.length} records (${parts.join(' · ')})`;
+      $('active-filter-text').textContent = t('revamp.showingFiltered', {
+        visible: visibleEvents.length,
+        total: events.length,
+        filters: parts.join(' · ')
+      });
     }
   }
 
@@ -1010,16 +1181,16 @@
       ? (isFullYear ? t('timeline.allDates') : `${startStr} – ${endStr}`)
       : longDate(date);
     $('timeline-status').textContent = allMode
-      ? `${visibleEvents.length} records in interval`
+      ? t('revamp.recordsInInterval', {n: visibleEvents.length})
       : `${t('timeline.visible', {n: visibleEvents.length})} · ${t('timeline.onDate', {n: dateCounts.get(date) || 0})}`;
 
     const periodText = allMode
       ? `${startStr} — ${endStr}`
       : `${startStr} — ${shortDateYear(date)}`;
     $('map-period').textContent = periodText;
-    $('map-visible-summary').textContent = `${visibleEvents.length} visible`;
+    $('map-visible-summary').textContent = t('timeline.visible', {n: visibleEvents.length});
     $('launcher-date-label').textContent = periodText;
-    $('header-interval-badge').textContent = isFullYear && allMode ? 'All 2026' : `${startStr} – ${shortDate(dayToDate(allMode ? intervalEndDay : currentDay))}`;
+    $('header-interval-badge').textContent = isFullYear && allMode ? t('revamp.presetAll') : `${startStr} – ${shortDate(dayToDate(allMode ? intervalEndDay : currentDay))}`;
 
     $('show-all').setAttribute('aria-pressed', String(allMode && isFullYear));
     $('previous').disabled = currentDay <= Math.max(intervalStartDay, eventDays[0] ?? 0);
@@ -1049,8 +1220,8 @@
       : `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg><span>${escape(t('play.replayLabel'))}</span>`;
     $('play').innerHTML = iconHTML;
     $('quick-play-btn').innerHTML = playing
-      ? `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg><span>Pause</span>`
-      : `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg><span>Replay History</span>`;
+      ? `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h4v14H6zm8 0h4v14h-4z"/></svg><span>${escape(t('play.pauseLabel'))}</span>`
+      : `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg><span>${escape(t('play.replayLabel'))}</span>`;
   }
 
   function updateSoundButton() {
@@ -1065,7 +1236,8 @@
     cancelAnimationFrame(animationFrame);
     animationFrame = null;
     lastFrameTime = null;
-    if (stopSound) stopChord();
+    if (stopSound) stopVoices();
+    if (isRecordingVideo) finishVideoRecording();
     updatePlayButton();
   }
 
@@ -1086,7 +1258,6 @@
     }
     if (currentDay >= intervalEndDay) {
       pause(false);
-      if (isRecordingVideo) finishVideoRecording();
       $('announcer').textContent = t('replay.complete', {n: visibleEvents.length});
     } else {
       animationFrame = requestAnimationFrame(tick);
@@ -1094,6 +1265,8 @@
   }
 
   function play() {
+    cancelAnimationFrame(animationFrame);
+    animationFrame = null;
     const audioReady = prepareAudio();
     const waitingForAudio = audioContext?.state === 'suspended';
     closeDetail();
@@ -1140,13 +1313,19 @@
     $('event-list').scrollTop = 0;
   }
 
-  // Studio Open / Close
+  // Studio Open / Close with focus management
   function setStudioOpen(open) {
+    if (open && !studioOpen) studioReturnFocus = document.activeElement;
     studioOpen = open;
-    $('replay-studio').hidden = !open;
-    $('replay-Launcher').hidden = open;
+    $('timeline-drawer').hidden = !open;
+    $('replay-launcher').hidden = open;
     $('toggle-studio-btn').setAttribute('aria-expanded', String(open));
     $('open-studio-pill').setAttribute('aria-expanded', String(open));
+    if (open) {
+      $('play').focus({preventScroll: true});
+    } else if (studioReturnFocus?.isConnected) {
+      studioReturnFocus.focus({preventScroll: true});
+    }
   }
 
   // Time Interval Controls (`From` — `To` + Presets)
@@ -1182,7 +1361,6 @@
   // ==========================================================================
   let isRecordingVideo = false;
   let mediaRecorder = null;
-  let recordedChunks = [];
   let recCanvas = null;
   let recCtx = null;
 
@@ -1248,9 +1426,12 @@
     // Compute bounding box from events in the active interval (or all events)
     const intervalPool = events.filter(e => {
       const d = dayOf(e.startDate);
-      return d >= intervalStartDay && d <= intervalEndDay;
+      if (d < intervalStartDay || d > intervalEndDay) return false;
+      if (selectedCountry && !allCountriesOf(e).includes(selectedCountry)) return false;
+      if (selectedCategoryGroup && !matchesCategoryGroup(e, selectedCategoryGroup)) return false;
+      return true;
     });
-    const boundsPool = intervalPool.length >= 3 ? intervalPool : events;
+    const boundsPool = intervalPool.length >= 2 ? intervalPool : events;
     const lats = boundsPool.flatMap(e => e.positions.map(p => p.lat));
     const lngs = boundsPool.flatMap(e => e.positions.map(p => p.lng));
     const minLat = Math.max(34, Math.min(...lats) - 2.2);
@@ -1394,7 +1575,7 @@
     ctx.fillText(allMode ? 'ALL INTERVAL DATES' : longDate(activeDate).toUpperCase(), W - 32, 27);
     ctx.fillStyle = '#ffffff';
     ctx.font = '800 22px Manrope, system-ui, sans-serif';
-    ctx.fillText(`${visibleEvents.length} records shown`, W - 32, 53);
+    ctx.fillText(t('revamp.recordsInInterval', {n: visibleEvents.length}), W - 32, 53);
 
     // 8. Bottom HUD: Latest Incident Ticker + Progress Bar + Legend
     ctx.fillStyle = 'rgba(13, 27, 33, 0.94)';
@@ -1432,13 +1613,13 @@
 
     // Category Legend Row + Honesty Note
     const legendItems = [
-      ['Flight', colors.flight],
-      ['Shot down / engaged', colors.shotdown],
-      ['Crash', colors.crash],
-      ['Strike / Explosion', colors.explosion],
-      ['Controlled disposal', colors.disposal],
-      ['Recovery', colors.recovery],
-      ['Alert / other', colors.alert]
+      [categoryLabel('flight'), colors.flight],
+      [t('legend.shotdownEngaged'), colors.shotdown],
+      [categoryLabel('crash'), colors.crash],
+      [t('legend.strikeExplosion'), colors.explosion],
+      [categoryLabel('disposal'), colors.disposal],
+      [categoryLabel('recovery'), colors.recovery],
+      [categoryLabel('alert'), colors.alert]
     ];
     let lx = 32;
     const ly = H - 22;
@@ -1471,6 +1652,12 @@
     return candidates.find(type => MediaRecorder.isTypeSupported(type)) || '';
   }
 
+  function setIntervalControlsDisabled(disabled) {
+    $('interval-start').disabled = disabled;
+    $('interval-end').disabled = disabled;
+    document.querySelectorAll('.preset-chip').forEach(chip => { chip.disabled = disabled; });
+  }
+
   function startVideoRecording() {
     if (isRecordingVideo) {
       finishVideoRecording();
@@ -1484,11 +1671,17 @@
 
     prepareAudio();
     isRecordingVideo = true;
-    recordedChunks = [];
+    const localChunks = [];
+    const recStartDate = dayToDate(intervalStartDay);
+    const recEndDate = dayToDate(intervalEndDay);
+    setIntervalControlsDisabled(true);
     $('record-video-btn').classList.add('recording');
-    $('record-video-label').textContent = 'Stop & Save Video';
+    $('record-video-label').textContent = t('revamp.stopSaveVideo');
     $('recording-status-bar').hidden = false;
-    $('recording-status-text').textContent = `Recording replay (${shortDate(dayToDate(intervalStartDay))} → ${shortDate(dayToDate(intervalEndDay))})… Click Stop & Save anytime or wait for completion.`;
+    $('recording-status-text').textContent = t('revamp.recordingActive', {
+      start: shortDate(recStartDate),
+      end: shortDate(recEndDate)
+    });
 
     // Start replay from the beginning of the selected interval
     currentDay = playbackDay = intervalStartDay;
@@ -1501,37 +1694,39 @@
     }
 
     const mimeType = pickSupportedMimeType();
-    mediaRecorder = mimeType ? new MediaRecorder(stream, {mimeType, videoBitsPerSecond: 4500000}) : new MediaRecorder(stream);
-    mediaRecorder.ondataavailable = e => {
-      if (e.data && e.data.size > 0) recordedChunks.push(e.data);
+    const localRecorder = mimeType ? new MediaRecorder(stream, {mimeType, videoBitsPerSecond: 4500000}) : new MediaRecorder(stream);
+    mediaRecorder = localRecorder;
+    localRecorder.ondataavailable = e => {
+      if (e.data && e.data.size > 0) localChunks.push(e.data);
     };
-    mediaRecorder.onstop = () => {
-      const ext = (mediaRecorder.mimeType || '').includes('mp4') ? 'mp4' : 'webm';
-      const blob = new Blob(recordedChunks, {type: mediaRecorder.mimeType || 'video/webm'});
+    localRecorder.onstop = () => {
+      const ext = (localRecorder.mimeType || '').includes('mp4') ? 'mp4' : 'webm';
+      const blob = new Blob(localChunks, {type: localRecorder.mimeType || 'video/webm'});
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
       a.href = url;
-      a.download = `eu-drone-incidents-${dayToDate(intervalStartDay)}-to-${dayToDate(intervalEndDay)}.${ext}`;
+      a.download = `eu-drone-incidents-${recStartDate}-to-${recEndDate}.${ext}`;
       document.body.append(a);
       a.click();
       a.remove();
       setTimeout(() => URL.revokeObjectURL(url), 10000);
-      $('recording-status-text').textContent = `Saved recording: ${a.download}`;
+      $('recording-status-text').textContent = t('revamp.recordingSaved', {file: a.download});
       setTimeout(() => {
         if (!isRecordingVideo) $('recording-status-bar').hidden = true;
       }, 4500);
     };
 
-    mediaRecorder.start(200);
+    localRecorder.start(200);
     play();
   }
 
   function finishVideoRecording() {
     if (!isRecordingVideo) return;
     isRecordingVideo = false;
+    setIntervalControlsDisabled(false);
     drawRecordingFrame();
     $('record-video-btn').classList.remove('recording');
-    $('record-video-label').textContent = 'Record & Download Video';
+    $('record-video-label').textContent = t('revamp.recordVideo');
     if (mediaRecorder && mediaRecorder.state !== 'inactive') {
       mediaRecorder.stop();
     }
@@ -1550,7 +1745,11 @@
 
   function downloadIntervalCSV() {
     const headers = ['id','startDate','endDate','countries','title','category','status','headline','tldr_description','attribution','uncertainty','impact','response','sources'];
-    const csvEscape = val => `"${String(val ?? '').replace(/"/g, '""')}"`;
+    const csvEscape = val => {
+      const str = String(val ?? '');
+      const safe = /^[=+\-@\t\r]/.test(str) ? `'${str}` : str;
+      return `"${safe.replace(/"/g, '""')}"`;
+    };
     const rows = [headers.join(',')];
     visibleEvents.forEach(ev => {
       const copy = pageCopyFor(ev);
@@ -1633,6 +1832,7 @@
     document.querySelectorAll('[data-i18n]').forEach(element => { element.textContent = t(element.dataset.i18n); });
     document.querySelectorAll('[data-i18n-aria]').forEach(element => element.setAttribute('aria-label', t(element.dataset.i18nAria)));
     document.querySelectorAll('[data-i18n-title]').forEach(element => { element.title = t(element.dataset.i18nTitle); });
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(element => { element.placeholder = t(element.dataset.i18nPlaceholder); });
     const zoomIn = zoomControl.getContainer().querySelector('.leaflet-control-zoom-in');
     const zoomOut = zoomControl.getContainer().querySelector('.leaflet-control-zoom-out');
     zoomIn.title = t('zoom.in'); zoomIn.setAttribute('aria-label', t('zoom.in'));
@@ -1646,6 +1846,7 @@
     renderLegend();
     renderMonthLabels();
     renderAbout();
+    renderMaritimeDialog();
     renderTrend();
     renderCumulative();
     labelMarkers();
@@ -1698,8 +1899,9 @@
     $('event-list').hidden = mode !== 'incidents';
     $('news-list').hidden = mode !== 'news';
     $('list-title').textContent = mode === 'incidents'
-      ? 'Latest incidents · TL;DR & sources'
-      : 'Cited news articles & verification notes';
+      ? t('revamp.listTitleIncidents')
+      : t('revamp.listTitleNews');
+    if (mode === 'news') renderNewsList();
     syncMobileTabs();
   }
   $('tab-incidents').addEventListener('click', () => setFeedMode('incidents'));
@@ -1745,6 +1947,39 @@
     showAll();
   });
 
+  // Black Sea Maritime Escalation ("When Things Took a Dark Turn") Listeners
+  $('toggle-maritime-banner').addEventListener('click', () => {
+    const banner = $('maritime-turn-banner');
+    const collapsed = banner.classList.toggle('collapsed');
+    $('toggle-maritime-banner').setAttribute('aria-expanded', String(!collapsed));
+    $('toggle-maritime-banner').textContent = collapsed ? '+' : '▾';
+  });
+  $('focus-maritime-btn').addEventListener('click', () => focusMaritimeEscalation(false));
+  $('replay-maritime-btn').addEventListener('click', () => focusMaritimeEscalation(true));
+  $('open-maritime-modal-btn').addEventListener('click', () => {
+    pause();
+    $('maritime-dialog').showModal();
+  });
+  $('maritime-turn-btn').addEventListener('click', () => {
+    pause();
+    $('maritime-dialog').showModal();
+  });
+  $('close-maritime').addEventListener('click', () => $('maritime-dialog').close());
+  $('modal-filter-maritime-btn').addEventListener('click', () => {
+    $('maritime-dialog').close();
+    focusMaritimeEscalation(false);
+  });
+  $('modal-replay-maritime-btn').addEventListener('click', () => {
+    $('maritime-dialog').close();
+    focusMaritimeEscalation(true);
+  });
+  $('maritime-vessel-list').addEventListener('click', event => {
+    const btn = event.target.closest('[data-maritime-event]');
+    if (!btn) return;
+    $('maritime-dialog').close();
+    selectEvent(btn.dataset.maritimeEvent, true);
+  });
+
   // Mobile View Tabs (Unified 3-tab bar: Incidents, News, Map & Replay)
   $('mob-tab-feed').addEventListener('click', () => setMobileView('feed', 'incidents'));
   $('mob-tab-news').addEventListener('click', () => setMobileView('feed', 'news'));
@@ -1772,7 +2007,7 @@
     soundEnabled = !soundEnabled;
     updateSoundButton();
     if (audioOutput) audioOutput.gain.setTargetAtTime(soundEnabled ? REPLAY_VOLUME : 0, audioContext.currentTime, 0.005);
-    if (!soundEnabled) stopChord();
+    if (!soundEnabled) stopVoices();
     if (soundEnabled && playing) prepareAudio();
   });
 
@@ -1811,11 +2046,18 @@
   document.querySelectorAll('.preset-chip').forEach(chip => {
     chip.addEventListener('click', () => {
       const p = chip.dataset.preset;
-      if (p === 'all') applyInterval(0, totalDays, 'all');
+      if (p === 'all') {
+        if (selectedCategoryGroup === 'maritime') {
+          selectedCategoryGroup = '';
+          $('category-filter').value = '';
+        }
+        applyInterval(0, totalDays, 'all');
+      }
       else if (p === '30d') applyInterval(Math.max(0, totalDays - 29), totalDays, '30d');
       else if (p === '90d') applyInterval(Math.max(0, totalDays - 89), totalDays, '90d');
       else if (p === 'surge') applyInterval(dayOf(`${year}-08-01`), totalDays, 'surge');
       else if (p === 'oct') applyInterval(dayOf(`${year}-10-01`), totalDays, 'oct');
+      else if (p === 'maritime') focusMaritimeEscalation(false);
     });
   });
 
@@ -1824,20 +2066,10 @@
   $('export-snapshot-btn').addEventListener('click', downloadSnapshotPNG);
   $('export-data-btn').addEventListener('click', downloadIntervalCSV);
 
-  // Feed Card Click & Keyboard Listeners (ignoring clicks on direct news source chips)
+  // Feed Card Button Click Listener
   $('event-list').addEventListener('click', event => {
-    if (event.target.closest('a.source-chip')) return;
-    const card = event.target.closest('[data-id]');
-    if (card) selectEvent(card.dataset.id);
-  });
-  $('event-list').addEventListener('keydown', event => {
-    if (event.key !== 'Enter' && event.key !== ' ') return;
-    if (event.target.closest('a.source-chip')) return;
-    const card = event.target.closest('[data-id]');
-    if (card) {
-      event.preventDefault();
-      selectEvent(card.dataset.id);
-    }
+    const selectBtn = event.target.closest('[data-select-id]');
+    if (selectBtn) selectEvent(selectBtn.dataset.selectId);
   });
 
   // News Stream Incident Jump Listener
@@ -1928,6 +2160,15 @@
       inputSchema: {type:'object', properties:{startDate:{type:'string', format:'date'}, endDate:{type:'string', format:'date'}}, required:['startDate','endDate'], additionalProperties:false},
       annotations: {readOnlyHint:false, untrustedContentHint:false},
       execute(input) {
+        const isoDate = /^\d{4}-\d{2}-\d{2}$/;
+        if (!input || !isoDate.test(input.startDate || '') || !isoDate.test(input.endDate || '')) {
+          throw new Error(`Supply valid YYYY-MM-DD dates between ${firstDateStr} and ${cutoff}.`);
+        }
+        const sTime = dateValue(input.startDate);
+        const eTime = dateValue(input.endDate);
+        if (Number.isNaN(sTime) || Number.isNaN(eTime)) {
+          throw new Error(`Supply valid YYYY-MM-DD dates between ${firstDateStr} and ${cutoff}.`);
+        }
         applyInterval(dayOf(input.startDate), dayOf(input.endDate), '');
         return {startDate: dayToDate(intervalStartDay), endDate: dayToDate(intervalEndDay), visibleRecords: visibleEvents.length};
       }

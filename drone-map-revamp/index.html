@@ -22,81 +22,85 @@
       var supported = 'bg cs da de el en es et fi fr ga hr hu it lt lv mt nl pl pt ro sk sl sv'.split(' ');
       var pick = function (value) { value = String(value || '').toLowerCase().slice(0, 2); return supported.indexOf(value) >= 0 ? value : ''; };
       var lang = '';
-      try { lang = pick(new URLSearchParams(location.search).get('lang')) || pick(localStorage.getItem('drone-events-lang')); } catch (error) { /* Storage can be unavailable. */ }
-      var preferred = navigator.languages || [navigator.language];
-      for (var i = 0; !lang && i < preferred.length; i++) lang = pick(preferred[i]);
+      try { lang = pick(new URLSearchParams(location.search).get('lang')) || pick(localStorage.getItem('drone-events-lang')); } catch (e) {}
+      if (!lang) {
+        var prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language];
+        for (var i = 0; i < prefs.length && !lang; i++) lang = pick(prefs[i]);
+      }
       window.DRONE_LANG = lang || 'en';
-      document.documentElement.lang = window.DRONE_LANG;
-      if (window.DRONE_LANG !== 'en') document.documentElement.setAttribute('data-i18n-pending', '');
+      if (window.DRONE_LANG !== 'en') {
+        document.documentElement.lang = window.DRONE_LANG;
+        document.documentElement.setAttribute('data-i18n-pending', '');
+      }
     })();
   </script>
-  <link rel="stylesheet" href="vendor/leaflet.css">
-  <link rel="stylesheet" href="styles.css?v=20261019-mob2">
-  <script defer src="vendor/leaflet.js"></script>
-  <script defer src="events.js?v=20261019-mob2"></script>
-  <script defer src="pages-data.js?v=20261019-mob2"></script>
-  <script defer src="media.js"></script>
-  <script defer src="i18n/en.js?v=20261019-mob2"></script>
-  <script defer src="trend-data.js?v=20261019-mob2"></script>
-  <script defer src="landmark.js?v=20261019-mob2"></script>
-  <script defer src="app.js?v=20261019-mob2"></script>
-  <script defer src="analytics.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Manrope:wght@500;600;700;800&display=swap">
+  <link rel="stylesheet" href="vendor/leaflet.css?v=20261023-revamp">
+  <link rel="stylesheet" href="styles.css?v=20261023-revamp">
+  <script defer src="vendor/leaflet.js?v=20261023-revamp"></script>
+  <script defer src="vendor/three.min.js?v=20261023-revamp"></script>
+  <script defer src="landmark.js?v=20261023-revamp"></script>
+  <script defer src="events.js?v=20261023-revamp"></script>
+  <script defer src="pages-data.js?v=20261023-revamp"></script>
+  <script defer src="media.js?v=20261023-revamp"></script>
+  <script defer src="trend-data.js?v=20261023-revamp"></script>
+  <script defer src="i18n/en.js?v=20261023-revamp"></script>
+  <script defer src="app.js?v=20261023-revamp"></script>
+  <script defer src="analytics.js?v=20261023-revamp"></script>
 </head>
 <body>
+  <!-- Compact Command Topbar -->
   <header class="topbar">
     <div class="topbar-brand-group">
-      <a class="brand" href="./" data-i18n-aria="brand.aria" aria-label="Europe foreign drone events home">
-        <svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="11"/><circle cx="16" cy="16" r="5"/><path d="M16 1v8m0 14v8M1 16h8m14 0h8"/></svg>
-        <span class="brand-text">
+      <a class="brand" href="#top" aria-label="Europe foreign drone events home" data-i18n-aria="brand.aria">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <circle cx="16" cy="16" r="10"/><circle cx="16" cy="16" r="4"/>
+          <path d="M16 2v28M2 16h28"/>
+        </svg>
+        <div class="brand-text">
           <span class="brand-title"><span data-i18n="brand.primary">EUROPE</span> <span class="brand-light" data-i18n="brand.secondary">/ FOREIGN DRONE EVENTS</span></span>
-          <span class="brand-sub" data-i18n="sidebar.foot">Record counts ≠ confirmed attacks or unique drones.</span>
-        </span>
+          <span class="brand-sub" data-i18n="revamp.brandSub">2026 Research Register · Latest Incidents, TL;DR &amp; News</span>
+        </div>
       </a>
     </div>
 
-    <div class="topbar-pulse" role="region" aria-label="Register summary and 90-day trend">
-      <div class="pulse-stat">
-        <strong id="record-total">144</strong>
-        <span data-i18n="stats.records">records</span>
-      </div>
+    <!-- Live Register Pulse & Interactive Trend Pill (Desktop) -->
+    <div class="topbar-pulse" aria-label="Register summary statistics">
+      <span class="pulse-stat"><strong id="record-total">164</strong> <span data-i18n="stats.records">records</span></span>
       <span class="pulse-sep" aria-hidden="true">·</span>
-      <div class="pulse-stat">
-        <strong id="country-total">10</strong>
-        <span data-i18n="stats.countries">EU countries</span>
-      </div>
+      <span class="pulse-stat"><strong id="country-total">10</strong> <span data-i18n="stats.countries">EU countries</span></span>
       <span class="pulse-sep" aria-hidden="true">·</span>
-      <div class="pulse-stat">
-        <strong id="cutoff-label">18 Oct</strong>
-        <span data-i18n="stats.cutoff">coverage cutoff</span>
-      </div>
-      <button id="trend-pill-button" class="trend-pill" type="button" aria-haspopup="dialog" aria-controls="trend-dialog" title="View monthly records & 90-day surge comparison">
-        <span id="trend-pill-delta" class="trend-pill-delta">▲ +324%</span>
-        <span class="trend-pill-label">last 90d</span>
-        <span id="mini-spark" class="mini-spark" aria-hidden="true"></span>
-        <span class="trend-pill-cta">Trends ▾</span>
+      <span class="pulse-stat"><strong id="cutoff-label">23 Oct</strong> <span data-i18n="stats.cutoff">coverage cutoff</span></span>
+      <button id="trend-pill-button" class="trend-pill" type="button" title="View monthly breakdown and 90-day comparison" data-i18n-title="revamp.trendPillTitle">
+        <span class="trend-pill-delta" id="trend-pill-delta">▲ +324%</span>
+        <span class="trend-pill-label" data-i18n="revamp.trendPillLabel">last 90d</span>
+        <span class="mini-spark" id="mini-spark" aria-hidden="true"></span>
+        <span class="trend-pill-cta" data-i18n="revamp.trendPillCta">Trends ▾</span>
+      </button>
+      <button id="maritime-turn-btn" class="maritime-turn-pill" type="button">
+        <span data-i18n="revamp.darkTurnPill">⚓ Black Sea Escalation</span>
       </button>
     </div>
 
     <div class="topbar-right">
-      <!-- Compact mobile surge button so mobile users see the 90d trend immediately -->
-      <button id="mobile-trend-btn" class="mobile-trend-btn" type="button" aria-haspopup="dialog" aria-controls="trend-dialog" title="90-day surge & monthly trend">
+      <!-- Compact 90d surge badge on mobile -->
+      <button id="mobile-trend-btn" class="mobile-trend-btn" type="button" aria-label="View monthly breakdown and 90-day comparison" data-i18n-aria="revamp.trendPillTitle">
         <span id="mobile-trend-delta">▲ +324%</span>
         <small>90d</small>
       </button>
-
-      <button id="toggle-studio-btn" class="studio-trigger-btn" type="button" aria-expanded="false" aria-controls="replay-studio">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M10 8.5 16 12l-6 3.5Z" fill="currentColor" stroke="none"/></svg>
-        <span class="studio-trigger-label">History &amp; Record</span>
-        <span id="header-interval-badge" class="header-interval-badge">All 2026</span>
+      <button id="toggle-studio-btn" class="studio-trigger-btn" type="button" aria-expanded="false" aria-controls="timeline-drawer" title="Open timeline replay, custom date interval &amp; video recorder" data-i18n-title="revamp.studioBtnTitle">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+        <span class="studio-trigger-text" data-i18n="revamp.studioBtn">Replay &amp; Export</span>
+        <span class="header-interval-badge" id="header-interval-badge">All 2026</span>
       </button>
-
-      <label class="language-picker">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.7 5.6 3.7 9s-1.2 6.4-3.7 9c-2.5-2.6-3.7-5.6-3.7-9S9.5 5.6 12 3Z"/></svg>
+      <label class="language-picker" for="language">
         <span class="sr-only" data-i18n="language.label">Language</span>
-        <span class="language-code" id="language-code" aria-hidden="true">EN</span>
-        <select id="language" data-i18n-aria="language.label" aria-label="Language"></select>
+        <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.5"/><path d="M2.5 10h15M10 2.5c2.3 2.2 2.3 12.8 0 15M10 2.5c-2.3 2.2-2.3 12.8 0 15"/></svg>
+        <span id="language-code" class="language-code" aria-hidden="true">EN</span>
+        <select id="language" aria-label="Language" data-i18n-aria="language.label"></select>
       </label>
-
       <button id="about-button" class="about-button" type="button">
         <span class="about-text-full" data-i18n="about.button">About the data</span>
         <span class="about-text-short" data-i18n="mobile.about">About</span>
@@ -104,243 +108,309 @@
     </div>
   </header>
 
-  <!-- Unified Single-Row Mobile Navigation Bar (Replaces double-stacked tabs on mobile) -->
-  <div class="mobile-view-switcher" role="tablist" aria-label="Mobile view switcher">
-    <button type="button" role="tab" id="mob-tab-feed" class="mob-tab active" aria-selected="true" data-mob-view="incidents">
-      <span>Incidents</span>
-      <small id="mob-feed-count">144</small>
+  <!-- Unified 3-Button Mobile View Switcher (Incidents | News | Map & Replay) -->
+  <nav class="mobile-view-switcher" aria-label="Mobile view switcher">
+    <button type="button" id="mob-tab-feed" class="mob-tab active" aria-pressed="true">
+      <span data-i18n="revamp.mobIncidents">Incidents</span> <small id="mob-feed-count">164</small>
     </button>
-    <button type="button" role="tab" id="mob-tab-news" class="mob-tab" aria-selected="false" data-mob-view="news">
-      <span>News</span>
-      <small id="mob-news-count">199</small>
+    <button type="button" id="mob-tab-news" class="mob-tab" aria-pressed="false">
+      <span data-i18n="revamp.mobNews">News</span> <small id="mob-news-count">215</small>
     </button>
-    <button type="button" role="tab" id="mob-tab-map" class="mob-tab" aria-selected="false" data-mob-view="map">
-      <span>Map &amp; Replay</span>
+    <button type="button" id="mob-tab-map" class="mob-tab" aria-pressed="false">
+      <span data-i18n="revamp.mobMap">Map &amp; Replay</span>
     </button>
-  </div>
+  </nav>
 
-  <main class="workspace" data-mobile-view="feed">
-    <aside class="sidebar" data-i18n-aria="register.aria" aria-label="Latest events and news register">
+  <main class="workspace" id="top" data-mobile-view="feed">
+    <!-- Left Column: Immediate Latest Incidents & Cited News Feed -->
+    <aside class="sidebar" aria-label="Event register and news feed" data-i18n-aria="register.aria">
+      <h1 class="sr-only" data-i18n="meta.title">Europe Foreign Drone Events · 2026</h1>
       <div class="feed-controls">
-        <div class="feed-mode-tabs" role="tablist" aria-label="Feed mode">
-          <button type="button" role="tab" id="tab-incidents" class="feed-tab active" aria-selected="true" data-feed-mode="incidents">
-            <span class="feed-tab-title">Latest Incidents</span>
-            <span id="visible-count" class="feed-tab-badge">144</span>
+        <!-- Desktop Mode Switcher: Latest Incidents vs Cited News Articles -->
+        <div class="feed-mode-tabs" role="group" aria-label="Feed view mode">
+          <button type="button" id="tab-incidents" class="feed-tab active" aria-pressed="true">
+            <span data-i18n="revamp.tabIncidents">Latest Incidents</span>
+            <span class="feed-tab-badge" id="visible-count">164</span>
           </button>
-          <button type="button" role="tab" id="tab-news" class="feed-tab" aria-selected="false" data-feed-mode="news">
-            <span class="feed-tab-title">News Articles &amp; Sources</span>
-            <span id="news-count" class="feed-tab-badge">199</span>
+          <button type="button" id="tab-news" class="feed-tab" aria-pressed="false">
+            <span aria-hidden="true">📰</span> <span data-i18n="revamp.tabNews">News Articles</span>
+            <span class="feed-tab-badge" id="news-count">215</span>
           </button>
         </div>
 
+        <!-- Search + Filter Bar (with Collapsible Mobile Filter Toggle) -->
         <div class="filter-bar">
           <div class="search-row">
             <div class="search-box">
-              <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m12.5 12.5 4.5 4.5"/></svg>
-              <input type="search" id="feed-search" placeholder="Search headlines, TL;DRs, places, sources…" aria-label="Search incidents and news articles" autocomplete="off">
-              <button type="button" id="clear-search" class="clear-search" aria-label="Clear search" hidden>×</button>
+              <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="m13 13 4.5 4.5"/></svg>
+              <input type="search" id="feed-search" placeholder="Search place, ship, drone, source, ID…" aria-label="Search incidents, locations, vessels, or sources" autocomplete="off" data-i18n-placeholder="revamp.searchPlaceholder" data-i18n-aria="revamp.searchAria">
+              <button type="button" id="clear-search" class="clear-search" hidden aria-label="Clear search" data-i18n-aria="revamp.clearSearchAria">×</button>
             </div>
             <button type="button" id="mobile-filter-toggle" class="mobile-filter-toggle" aria-expanded="false" aria-controls="filter-selects">
-              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M6 10h8M8.5 15h3"/></svg>
-              <span>Filter</span>
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M6 10h8M9 15h2"/></svg>
+              <span data-i18n="revamp.filtersBtn">Filters</span>
               <span id="mobile-filter-dot" class="mobile-filter-dot" hidden></span>
             </button>
           </div>
-          <div id="filter-selects" class="filter-selects">
-            <select id="country-filter" aria-label="Filter by country">
-              <option value="">All 10 EU countries</option>
+          <div class="filter-selects" id="filter-selects">
+            <select id="country-filter" aria-label="Filter by country" data-i18n-aria="revamp.countryFilterAria">
+              <option value="">All countries</option>
             </select>
-            <select id="category-filter" aria-label="Filter by outcome category">
-              <option value="">All outcome types</option>
+            <select id="category-filter" aria-label="Filter by outcome type" data-i18n-aria="revamp.categoryFilterAria">
+              <option value="">All outcomes</option>
             </select>
           </div>
-        </div>
-
-        <div id="active-filter-banner" class="active-filter-banner" hidden>
-          <span id="active-filter-text">Showing filtered records</span>
-          <button type="button" id="reset-all-filters" class="reset-filters-btn">Reset</button>
+          <div id="active-filter-banner" class="active-filter-banner" hidden>
+            <span id="active-filter-text">Filtered view</span>
+            <button type="button" id="reset-all-filters" class="reset-filters-btn" data-i18n="revamp.resetFilters">Reset</button>
+          </div>
         </div>
       </div>
 
+      <!-- Subheader with Browse All link -->
       <div class="list-subhead">
-        <h1 id="list-title" class="list-title">Latest incidents · TL;DR &amp; sources</h1>
+        <span id="list-title" class="list-title" data-i18n="revamp.listTitleIncidents">Latest incidents · TL;DR &amp; sources</span>
         <a class="browse-pages-link" href="events/" data-i18n="sidebar.pages">Browse all records</a>
       </div>
 
-      <div class="event-list" id="event-list" tabindex="0" data-i18n-aria="list.aria" aria-label="Scrollable chronological event list"></div>
-      <div class="news-list" id="news-list" tabindex="0" aria-label="Scrollable news articles and source audits" hidden></div>
+      <!-- Featured Turning Point Spotlight: October 2026 Black Sea Ship Strikes -->
+      <section id="maritime-turn-banner" class="maritime-turn-banner" aria-labelledby="maritime-turn-heading">
+        <div class="maritime-turn-head">
+          <span class="maritime-turn-eyebrow">
+            <span class="maritime-turn-dot" aria-hidden="true"></span>
+            <span data-i18n="revamp.darkTurnEyebrow">TURNING POINT · OCT 2026 · BLACK SEA &amp; ROMANIAN WATERS</span>
+          </span>
+          <button type="button" id="toggle-maritime-banner" class="maritime-turn-toggle" aria-expanded="true" aria-label="Collapse turning point banner" data-i18n-aria="revamp.darkTurnDismissAria">▾</button>
+        </div>
+        <h2 id="maritime-turn-heading" class="maritime-turn-title" data-i18n="revamp.darkTurnTitle">When Things Took a Dark Turn: Lethal Strikes on Black Sea Shipping</h2>
+        <div id="maritime-turn-body-wrap" class="maritime-turn-body-wrap">
+          <p class="maritime-turn-body" data-i18n="revamp.darkTurnBody">After months of non-lethal airspace crossings and coastal debris, October 2026 brought a sharp escalation: 8 merchant vessels were struck or targeted off Romania and Bulgaria—including inside Romanian territorial waters near Sulina (YARA J, Sea Destiny) and off Constanța (KHORYV)—leaving sailors killed, injured, and over 30 crew reported missing.</p>
+          <div class="maritime-turn-actions">
+            <button type="button" id="focus-maritime-btn" class="maritime-action-btn primary">
+              <span id="focus-maritime-label">Focus on Ship Incidents (11)</span>
+            </button>
+            <button type="button" id="replay-maritime-btn" class="maritime-action-btn">
+              <span data-i18n="revamp.darkTurnReplayBtn">▶ Replay Oct 5–23 Escalation</span>
+            </button>
+            <button type="button" id="open-maritime-modal-btn" class="maritime-action-btn ghost">
+              <span data-i18n="revamp.darkTurnModalBtn">Timeline &amp; Vessels →</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Scrollable Incidents List (Newest First, with Headline + TL;DR + Source Chips) -->
+      <div id="event-list" class="event-list" role="region" aria-label="Scrollable chronological event list" data-i18n-aria="list.aria"></div>
+
+      <!-- Scrollable Dedicated News Articles Stream -->
+      <div id="news-list" class="news-list" role="region" aria-label="Cited news articles and source audits" hidden></div>
 
       <footer class="sidebar-foot">
-        <span class="foot-note">Approximate positions · Record counts ≠ confirmed attacks</span>
-        <button type="button" id="sidebar-scope-btn" class="link-btn">Scope &amp; caveats</button>
+        <span class="foot-note" data-i18n="sidebar.foot">Record counts ≠ confirmed attacks or unique drones.</span>
+        <button type="button" id="sidebar-scope-btn" class="link-btn" data-i18n="revamp.scopeLink">Scope &amp; notes</button>
       </footer>
     </aside>
 
-    <section class="map-stage" data-i18n-aria="map.aria" aria-label="Interactive event map">
-      <div id="map" tabindex="0" data-i18n-aria="map.focusAria" aria-label="Zoomable map. Drag to pan; use the mouse wheel or plus and minus buttons to zoom."></div>
+    <!-- Right Column: Interactive Map + Floating Replay Studio + Incident Briefing Drawer -->
+    <section class="map-stage" aria-label="Interactive event map" data-i18n-aria="map.aria">
+      <div id="map" role="application" aria-label="Zoomable map. Drag to pan; use the mouse wheel or plus and minus buttons to zoom." data-i18n-aria="map.focusAria"></div>
 
+      <!-- Compact Map Status Pill + Fit Button -->
       <div class="map-top">
-        <div class="map-status-pill">
+        <div class="map-status-pill" aria-live="polite">
           <span class="status-dot" aria-hidden="true"></span>
-          <strong id="map-period">1 Jan — 18 Oct 2026</strong>
+          <strong id="map-period">27 Jan — 23 Oct 2026</strong>
           <span class="map-status-sep" aria-hidden="true">·</span>
-          <span id="map-visible-summary">144 visible</span>
+          <span id="map-visible-summary">164 visible</span>
         </div>
         <div class="map-actions">
-          <button id="fit-map" class="map-button" type="button" data-i18n-title="map.fitTitle" title="Fit all visible events">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3H3v6m12-6h6v6M3 15v6h6m6 0h6v-6"/></svg>
+          <button id="fit-map" class="map-button" type="button" title="Fit all visible events" data-i18n-title="map.fitTitle">
+            <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 7V3h4M13 3h4v4M17 13v4h-4M7 17H3v-4"/></svg>
             <span data-i18n="map.fit">Fit events</span>
           </button>
         </div>
       </div>
 
-      <div id="map-legend" class="legend" data-i18n-aria="legend.aria" aria-label="Map legend"></div>
-      <div id="map-error" class="map-error" data-i18n="map.tileError" hidden>Map tiles are unavailable. Event markers and the register still work; check your connection.</div>
-      <div class="map-note" data-i18n="map.note">Individual records · approximate positions</div>
+      <!-- Compact Map Legend -->
+      <div id="map-legend" class="legend" aria-label="Map legend" data-i18n-aria="legend.aria"></div>
+      <p class="map-note" data-i18n="map.note">Individual records · approximate positions</p>
+      <p id="map-error" class="map-error" role="status" hidden data-i18n="map.tileError">Map tiles are unavailable. Event markers and the register still work; check your connection.</p>
 
-      <!-- Minimized Floating Replay & Time Interval Pill on the Map -->
-      <div id="replay-Launcher" class="replay-launcher">
-        <button id="quick-play-btn" class="quick-play-btn" type="button" aria-label="Play timeline replay">
+      <!-- Minimized Floating Replay & Interval Pill (Bottom-Right of Map) -->
+      <div id="replay-launcher" class="replay-launcher">
+        <button type="button" id="quick-play-btn" class="quick-play-btn" aria-label="Play timeline" data-i18n-aria="play.play">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg>
-          <span>Replay</span>
+          <span data-i18n="play.replayLabel">Replay</span>
         </button>
         <div class="launcher-divider" aria-hidden="true"></div>
-        <button id="open-studio-pill" class="open-studio-pill" type="button" aria-expanded="false" aria-controls="replay-studio">
+        <button type="button" id="open-studio-pill" class="open-studio-pill" aria-label="Open timeline replay, custom date interval &amp; video recorder" data-i18n-aria="revamp.studioBtnTitle">
           <span class="launcher-meta">
-            <strong id="launcher-date-label">1 Jan – 18 Oct 2026</strong>
-            <small>Time interval &amp; video download</small>
+            <strong id="launcher-date-label" data-i18n="revamp.launcherTitle">Timeline &amp; Interval Studio</strong>
+            <small id="launcher-sub-label" data-i18n="revamp.launcherSub">Filter dates · Record video</small>
           </span>
-          <span class="launcher-badge">Studio ▲</span>
+          <span class="launcher-badge" data-i18n="revamp.launcherOpen">Studio ▲</span>
         </button>
       </div>
 
-      <!-- Expandable Floating Time-Interval & Replay Recording Studio -->
-      <section id="replay-studio" class="timeline-studio" data-i18n-aria="timeline.aria" aria-label="Time interval, replay and recording studio" hidden>
+      <!-- Expanded Floating Timeline, Custom Time Interval & Video Recorder Studio -->
+      <section id="timeline-drawer" class="timeline-studio" aria-label="Timeline replay" data-i18n-aria="timeline.aria" hidden>
         <div class="studio-header">
           <div class="studio-title-group">
-            <span class="eyebrow" data-i18n="timeline.eyebrow">TIMELINE &amp; RECORDING STUDIO</span>
-            <strong id="current-date">All dates</strong>
-            <span id="timeline-status" class="studio-status">144 records · cumulative replay</span>
+            <span class="eyebrow" data-i18n="timeline.eyebrow">TIMELINE</span>
+            <strong id="current-date" aria-live="polite">All dates</strong>
+            <span id="timeline-status" class="studio-status">164 records · cumulative replay</span>
           </div>
           <div class="studio-header-actions">
-            <button id="show-all" class="show-all" type="button" data-i18n-title="showAll.title" title="Show all records" aria-pressed="true">
-              <span data-i18n="showAll.label">Show all</span>
-            </button>
-            <button id="close-studio-btn" class="studio-minimize-btn" type="button" aria-label="Minimize replay studio" title="Minimize studio">▾ Minimize</button>
+            <button id="show-all" class="show-all" type="button" aria-pressed="true" title="Show all records" data-i18n="showAll.label" data-i18n-title="showAll.title">Show all</button>
+            <button id="close-studio-btn" class="studio-minimize-btn" type="button" aria-label="Minimize timeline studio" data-i18n="revamp.minimizeStudio" data-i18n-aria="revamp.minimizeStudioAria">Minimize ▾</button>
           </div>
         </div>
 
-        <!-- Custom Time Interval Selection Row -->
+        <!-- Custom Time Interval Bar + Presets -->
         <div class="studio-interval-bar">
           <div class="interval-inputs">
-            <span class="interval-label">Time Interval:</span>
+            <span class="interval-label" data-i18n="revamp.intervalLabel">Time Interval:</span>
             <label class="date-field">
-              <span>From</span>
-              <input type="date" id="interval-start" min="2026-01-01" max="2026-10-18" value="2026-01-01">
+              <span data-i18n="revamp.intervalFrom">From</span>
+              <input type="date" id="interval-start" min="2026-01-01" max="2026-10-23" value="2026-01-01">
             </label>
             <span class="interval-arrow" aria-hidden="true">→</span>
             <label class="date-field">
-              <span>To</span>
-              <input type="date" id="interval-end" min="2026-01-01" max="2026-10-18" value="2026-10-18">
+              <span data-i18n="revamp.intervalTo">To</span>
+              <input type="date" id="interval-end" min="2026-01-01" max="2026-10-23" value="2026-10-23">
             </label>
           </div>
-          <div class="interval-presets" role="group" aria-label="Quick time intervals">
-            <button type="button" class="preset-chip active" data-preset="all">Full Year</button>
-            <button type="button" class="preset-chip" data-preset="30d">Last 30d</button>
-            <button type="button" class="preset-chip" data-preset="90d">Last 90d</button>
-            <button type="button" class="preset-chip" data-preset="surge">Aug–Oct Surge</button>
-            <button type="button" class="preset-chip" data-preset="oct">October</button>
+          <div class="interval-presets" role="group" aria-label="Quick interval presets">
+            <button type="button" class="preset-chip active" data-preset="all" aria-pressed="true" data-i18n="revamp.presetAll">All 2026</button>
+            <button type="button" class="preset-chip" data-preset="90d" aria-pressed="false" data-i18n="revamp.preset90d">Last 90d</button>
+            <button type="button" class="preset-chip" data-preset="30d" aria-pressed="false" data-i18n="revamp.preset30d">Last 30d</button>
+            <button type="button" class="preset-chip" data-preset="surge" aria-pressed="false" data-i18n="revamp.presetSurge">Aug–Oct Surge</button>
+            <button type="button" class="preset-chip" data-preset="oct" aria-pressed="false" data-i18n="revamp.presetOct">Oct Only</button>
+            <button type="button" class="preset-chip maritime-preset" data-preset="maritime" aria-pressed="false" data-i18n="revamp.presetMaritime">⚓ Ship Strikes (Oct 5–23)</button>
           </div>
         </div>
 
-        <!-- Scrubber & Cumulative Sparkline -->
+        <!-- Scrubber & Running Total Curve -->
         <div class="timeline-main">
           <div class="timeline-track">
-            <div class="cumulative" id="cumulative" role="img"></div>
-            <input id="timeline-range" type="range" step="any" min="0" max="290" value="290" data-i18n-aria="timeline.rangeAria" aria-label="Timeline date">
-            <div class="month-labels" aria-hidden="true"></div>
+            <div id="cumulative" class="cumulative" role="img"></div>
+            <input id="timeline-range" type="range" min="0" max="295" value="295" step="1" aria-label="Timeline date" data-i18n-aria="timeline.rangeAria">
           </div>
+          <div class="month-labels" aria-hidden="true"></div>
         </div>
 
-        <!-- Playback & Video Recording Controls Row -->
+        <!-- Playback Controls + Custom Recording Download -->
         <div class="studio-controls-row">
           <div class="playback">
-            <button id="play" class="play-button" type="button" aria-label="Play timeline" aria-pressed="false">
+            <button id="play" class="play-button" type="button" aria-label="Play timeline" data-i18n-aria="play.play">
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 11 7-11 7Z"/></svg>
-              <span>Replay</span>
+              <span data-i18n="play.replayLabel">Replay</span>
             </button>
-            <div class="step-controls">
-              <button id="previous" type="button" data-i18n-aria="step.previous" data-i18n-title="step.previous" aria-label="Previous event date" title="Previous event date">‹</button>
-              <button id="next" type="button" data-i18n-aria="step.next" data-i18n-title="step.next" aria-label="Next event date" title="Next event date">›</button>
+            <div class="step-controls" role="group" aria-label="Step by event date">
+              <button id="previous" type="button" title="Previous event date" aria-label="Previous event date" data-i18n-title="step.previous" data-i18n-aria="step.previous">‹</button>
+              <button id="next" type="button" title="Next event date" aria-label="Next event date" data-i18n-title="step.next" data-i18n-aria="step.next">›</button>
             </div>
-            <label class="speed-label">
+            <label class="speed-label" for="speed">
               <span class="sr-only" data-i18n="speed.label">Playback speed</span>
-              <select id="speed" data-i18n-aria="speed.label" aria-label="Playback speed">
+              <select id="speed" aria-label="Playback speed" data-i18n-aria="speed.label">
                 <option value="1">1×</option>
                 <option value="2">2×</option>
                 <option value="4">4×</option>
               </select>
             </label>
-            <button id="sound" class="sound-button" type="button" data-i18n-aria="sound.aria" aria-label="Replay sound" aria-pressed="true" title="Mute replay sound">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4Z"/><path class="sound-waves" d="M15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14"/><path class="sound-muted" d="m16 9 5 6m0-6-5 6" hidden/></svg>
+            <button id="sound" class="sound-button" type="button" aria-pressed="true" aria-label="Replay sound" title="Mute replay sound" data-i18n-aria="sound.aria" data-i18n-title="sound.mute">
+              <svg viewBox="0 0 20 20" aria-hidden="true">
+                <path d="M3.5 8.2H6.3L10.5 4.8V15.2L6.3 11.8H3.5Z"/>
+                <path class="sound-waves" d="M13 7.3c1.3 1.3 1.3 4.1 0 5.4M15.2 5.3c2.4 2.4 2.4 7 0 9.4"/>
+                <path class="sound-muted" d="m13 7.5 4.5 5M17.5 7.5l-4.5 5" hidden/>
+              </svg>
             </button>
           </div>
 
           <div class="recording-actions">
-            <button id="record-video-btn" class="record-video-btn" type="button" title="Record and download a video of the selected time interval replay">
+            <button type="button" id="record-video-btn" class="record-video-btn" title="Replay the selected time interval and download an MP4/WebM video recording" data-i18n-title="revamp.recordVideoTitle">
               <span class="rec-dot" aria-hidden="true"></span>
-              <span id="record-video-label">Record Video</span>
+              <span id="record-video-label" data-i18n="revamp.recordVideo">Record Video</span>
             </button>
-            <button id="export-snapshot-btn" class="export-secondary-btn" type="button" title="Download a high-resolution PNG snapshot of the current interval view">
-              📷 PNG
+            <button type="button" id="export-snapshot-btn" class="export-secondary-btn" title="Download a 1280×720 PNG chart snapshot of the current interval" data-i18n-title="revamp.snapshotTitle">
+              <span aria-hidden="true">📷</span> PNG
             </button>
-            <button id="export-data-btn" class="export-secondary-btn" type="button" title="Download filtered interval records as CSV">
-              ⬇ CSV
+            <button type="button" id="export-data-btn" class="export-secondary-btn" title="Download filtered records for this interval as CSV" data-i18n-title="revamp.csvTitle">
+              <span aria-hidden="true">⬇</span> CSV
             </button>
           </div>
         </div>
-        <div id="recording-status-bar" class="recording-status-bar" hidden>
+        <div id="recording-status-bar" class="recording-status-bar" role="status" aria-live="polite" hidden>
           <span class="rec-pulse" aria-hidden="true"></span>
           <span id="recording-status-text">Recording interval replay…</span>
         </div>
       </section>
 
-      <aside id="detail" class="detail" data-i18n-aria="detail.aria" aria-label="Selected event details" hidden></aside>
+      <!-- Redesigned Incident Briefing Panel (TL;DR & Cited News Brought Forth) -->
+      <aside id="detail" class="detail" aria-label="Selected event details" data-i18n-aria="detail.aria" hidden></aside>
     </section>
   </main>
 
-  <!-- Monthly Trends & 90-Day Comparison Modal -->
-  <dialog id="trend-dialog" closedby="any" aria-labelledby="trend-dialog-title">
+  <!-- Black Sea Maritime Escalation ("When Things Took a Dark Turn") Dialog -->
+  <dialog id="maritime-dialog" class="maritime-dialog" aria-labelledby="maritime-dialog-title" closedby="any">
     <div class="dialog-heading">
-      <p class="eyebrow" data-i18n="trend.eyebrow">RECORDS PER MONTH &amp; SURGE ANALYSIS</p>
-      <button id="close-trend" type="button" aria-label="Close trends dialog">×</button>
+      <p class="eyebrow maritime-eyebrow" data-i18n="revamp.darkTurnEyebrow">TURNING POINT · OCT 2026 · BLACK SEA &amp; ROMANIAN WATERS</p>
+      <button id="close-maritime" type="button" aria-label="Close" data-i18n-aria="detail.close">×</button>
     </div>
-    <h2 id="trend-dialog-title">90-Day Surge &amp; Monthly Distribution</h2>
-    <section class="trend" aria-labelledby="trend-delta-label">
+    <h2 id="maritime-dialog-title" data-i18n="revamp.darkTurnModalHeadline">From Airspace Incursions to Lethal Strikes on Black Sea Shipping</h2>
+    <div class="maritime-phases-grid">
+      <div class="maritime-phase-card calm">
+        <strong data-i18n="revamp.darkTurnPhase1Title">Jan – Sep 2026 · Airspace, Border &amp; Coastal Debris</strong>
+        <p data-i18n="revamp.darkTurnPhase1Desc">Over 100 air, border-seizure and coastal-debris records across 10 EU states with 0 confirmed fatalities (plus 3 unresolved/unconfirmed summer shipping incidents off Sfântu Gheorghe: E033, E034, E053).</p>
+      </div>
+      <div class="maritime-phase-card dark-turn">
+        <strong data-i18n="revamp.darkTurnPhase2Title">5 – 23 Oct 2026 · The Lethal Maritime Escalation</strong>
+        <p data-i18n="revamp.darkTurnPhase2Desc">8 merchant vessels struck or targeted in 19 days across the western Black Sea—entering Romanian territorial waters off Sulina—with confirmed deaths (Royad Mammadov, KHORYV), crew hospitalized with burns, and over 30 sailors reported missing.</p>
+      </div>
+    </div>
+    <p class="maritime-honesty-note" data-i18n="revamp.darkTurnHonesty">Counting note: Casualty figures come from official naval, ministerial and diplomatic statements cited in each record. Conflicting reports are never added together, and missing sailors are not recorded as confirmed dead.</p>
+    <div class="maritime-modal-actions">
+      <button type="button" id="modal-filter-maritime-btn" class="maritime-action-btn primary">
+        <span id="modal-filter-maritime-label">Focus on Ship Incidents (11)</span>
+      </button>
+      <button type="button" id="modal-replay-maritime-btn" class="maritime-action-btn">
+        <span data-i18n="revamp.darkTurnReplayBtn">▶ Replay Oct 5–23 Escalation</span>
+      </button>
+    </div>
+    <h3 class="maritime-vessels-heading" data-i18n="revamp.darkTurnVesselsTitle">Chronological Black Sea Vessel Records (Click to inspect on map)</h3>
+    <div id="maritime-vessel-list" class="maritime-vessel-list"></div>
+  </dialog>
+
+  <!-- Monthly Trends & 90-Day Comparison Dialog -->
+  <dialog id="trend-dialog" class="trend-dialog" aria-labelledby="trend-dialog-title" closedby="any">
+    <div class="dialog-heading">
+      <p class="eyebrow" data-i18n="trend.eyebrow">RECORDS PER MONTH</p>
+      <button id="close-trend" type="button" aria-label="Close" data-i18n-aria="about.close">×</button>
+    </div>
+    <h2 id="trend-dialog-title">Monthly Distribution &amp; 90-Day Comparison</h2>
+    <section class="trend" aria-label="Records per month">
       <div class="trend-figure">
-        <strong id="trend-delta" class="trend-delta"></strong>
+        <strong id="trend-delta" class="trend-delta">+324%</strong>
         <span id="trend-delta-label" class="trend-delta-label" data-i18n="trend.deltaLabel">last 90 days vs the preceding 90 days</span>
       </div>
       <p id="trend-compare" class="trend-compare"></p>
       <div id="trend-chart" class="trend-chart" role="img"></div>
-      <p id="trend-partial" class="trend-partial" hidden></p>
-      <p class="trend-share"><span id="trend-share"></span></p>
+      <p id="trend-share" class="trend-note"></p>
+      <p id="trend-partial" class="trend-note trend-partial" hidden></p>
     </section>
-    <div class="trend-methodology-box">
-      <h3 data-i18n="about.trendTitle">Reading the trend</h3>
-      <p data-i18n="about.trend"></p>
-    </div>
+    <h3 data-i18n="about.trendTitle">Reading the trend</h3>
+    <p data-i18n="about.trend"></p>
   </dialog>
 
-  <!-- About & Methodology Dialog -->
-  <dialog id="about-dialog" closedby="any" aria-labelledby="about-title">
+  <!-- About the Data & Scope Dialog -->
+  <dialog id="about-dialog" aria-labelledby="about-title" closedby="any">
     <div class="dialog-heading">
       <p class="eyebrow" data-i18n="about.eyebrow">READING THE MAP</p>
-      <button id="close-about" type="button" data-i18n-aria="about.close" aria-label="Close about the data">×</button>
+      <button id="close-about" type="button" aria-label="Close about the data" data-i18n-aria="about.close">×</button>
     </div>
-    <h2 id="about-title"><span data-i18n="about.title1">A research register,</span><br><span data-i18n="about.title2">not a confirmed attack count.</span></h2>
-    <dl id="register-summary" class="about-stats"></dl>
+    <h2 id="about-title"><span data-i18n="about.title1">A research register,</span> <span data-i18n="about.title2">not a confirmed attack count.</span></h2>
     <p class="intro-callout" data-i18n="register.intro">Drones that reached EU countries from abroad: incursions, shoot-downs, crashes and wreckage, including ones whose operator is unknown. Ordinary drone sightings, like most airport disruptions, are not included.</p>
+    <dl id="register-summary" class="about-stats"></dl>
     <p data-i18n="about.scope"></p>
     <h3 data-i18n="about.positionsTitle">Positions are approximate</h3><p data-i18n="about.positions"></p>
     <h3 id="about-trend" data-i18n="about.trendTitle" tabindex="-1">Reading the trend</h3><p data-i18n="about.trend"></p>
@@ -354,7 +424,6 @@
     <a class="download-link" href="eu_foreign_drone_events_2026_final_update_deduped.md" download data-i18n="about.downloadUpdate">Download the deduplicated research update ↓</a>
     <p class="credits"><span data-i18n="about.credits">Map:</span> <a href="https://leafletjs.com" target="_blank" rel="noopener noreferrer">Leaflet</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a></p>
   </dialog>
-
   <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
   <noscript>This interactive map requires JavaScript. <a href="events/">Browse all records</a> or <a href="eu_foreign_drone_events_2026_consolidated.md">read the original register.</a></noscript>
 </body>

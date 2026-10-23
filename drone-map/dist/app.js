@@ -94,10 +94,47 @@
   let soundEnabled = true;
   let audioContext = null;
   let audioOutput = null;
-  // C-major pentatonic, rising with the event type's severity cue.
-  const categoryNotes = {alert:72, recovery:74, flight:76, disposal:79, engaged:81, shotdown:84, crash:86, strike:88, explosion:88};
+  const bellBuffers = new Map();
+  // Purple bells keep their original pitches; red bells retain their E5 body.
+  const categoryNotes = {alert:72, recovery:74, flight:76, disposal:79, engaged:81, shotdown:84, crash:86, strike:76, explosion:76};
+  const bellCategories = new Set(['engaged','shotdown','strike','explosion']);
   const REPLAY_VOLUME = 0.05;
   const activeVoices = new Set();
+
+  function createBellBuffer(note) {
+    const sampleRate = 44100;
+    const duration = 0.9;
+    const buffer = audioContext.createBuffer(1,Math.round(duration * sampleRate),sampleRate);
+    const samples = buffer.getChannelData(0);
+    const fundamental = 440 * 2 ** ((note - 69) / 12);
+    // Inharmonic overtones add a rougher edge around the category's own note.
+    const partials = [[1,0.46,0.32],[2,0.22,0.22],[2.76,0.12,0.15],[4.08,0.075,0.105],[5.43,0.04,0.07]];
+    let seed = 23;
+    let low = 0;
+    let slow = 0;
+    let peak = 0;
+    for (let i = 0; i < samples.length; i++) {
+      const time = i / sampleRate;
+      const attack = 1 - Math.exp(-time / 0.0017);
+      const fade = Math.min(1,Math.max(0,(duration - time) / 0.13));
+      const phaseTime = time + 0.008 * 0.012 * (1 - Math.exp(-time / 0.012));
+      const ring = partials.reduce((sum,[ratio,weight,decay]) =>
+        sum + weight * Math.exp(-time / decay) * Math.sin(2 * Math.PI * fundamental * ratio * phaseTime),0);
+      seed = (Math.imul(seed,1664525) + 1013904223) >>> 0;
+      const noise = seed / 4294967296 * 2 - 1;
+      low += 0.40 * (noise - low);
+      slow += 0.045 * (low - slow);
+      const contact = 0.13 * (low - slow) * Math.exp(-time / 0.026);
+      const texture = 1 - 0.16 * (1 - Math.cos(2 * Math.PI * 29 * time)) * Math.exp(-time / 0.3);
+      samples[i] = attack * fade * Math.tanh(1.4 * (texture * ring + contact));
+      peak = Math.max(peak,Math.abs(samples[i]));
+    }
+    // Keep its peak below a regular ping, while allowing a more audible tail.
+    const scale = 0.92 / peak;
+    for (let i = 0; i < samples.length; i++) samples[i] *= scale;
+    samples[samples.length - 1] = 0;
+    return buffer;
+  }
 
   function prepareAudio() {
     if (!soundEnabled) return;
@@ -116,7 +153,8 @@
   function stopChord() {
     if (!audioContext) return;
     const now = audioContext.currentTime;
-    activeVoices.forEach(({tone,envelope}) => {
+    activeVoices.forEach(voice => {
+      const {tone,envelope} = voice;
       const level = envelope.gain.value;
       if (envelope.gain.cancelAndHoldAtTime) envelope.gain.cancelAndHoldAtTime(now);
       else {
@@ -125,33 +163,43 @@
       }
       envelope.gain.linearRampToValueAtTime(0,now + 0.014);
       tone.stop(now + 0.018);
+      activeVoices.delete(voice);
     });
-    activeVoices.clear();
   }
   function playArrivalSound(arrivals) {
     if (!soundEnabled || audioContext?.state !== 'running' || !arrivals.length) return;
-    stopChord();
+    // Start immediately without changing any voices already playing.
+    // Each voice finishes naturally, including overlapping bells.
     const now = audioContext.currentTime;
     const counts = new Map();
     arrivals.forEach(event => counts.set(event.category,(counts.get(event.category) || 0) + 1));
     // Types form a chord. Repeated types affect its balance, not the volume cap.
     const totalWeight = [...counts.values()].reduce((sum,count) => sum + Math.sqrt(count),0);
     counts.forEach((count,category) => {
-      const tone = audioContext.createOscillator();
+      const useBell = bellCategories.has(category);
+      const tone = useBell ? audioContext.createBufferSource() : audioContext.createOscillator();
       const envelope = audioContext.createGain();
       const level = Math.sqrt(count) / totalWeight;
-      tone.type = 'sine';
-      tone.frequency.setValueAtTime(440 * 2 ** ((categoryNotes[category] - 69) / 12),now);
-      envelope.gain.setValueAtTime(0,now);
-      envelope.gain.linearRampToValueAtTime(level,now + 0.014);
-      envelope.gain.exponentialRampToValueAtTime(0.0001,now + 0.22);
-      envelope.gain.linearRampToValueAtTime(0,now + 0.24);
+      if (useBell) {
+        // The cached textured bell includes its own attack and decay.
+        const note = categoryNotes[category];
+        if (!bellBuffers.has(note)) bellBuffers.set(note,createBellBuffer(note));
+        tone.buffer = bellBuffers.get(note);
+        envelope.gain.setValueAtTime(level,now);
+      } else {
+        tone.type = 'sine';
+        tone.frequency.setValueAtTime(440 * 2 ** ((categoryNotes[category] - 69) / 12),now);
+        envelope.gain.setValueAtTime(0,now);
+        envelope.gain.linearRampToValueAtTime(level,now + 0.014);
+        envelope.gain.exponentialRampToValueAtTime(0.0001,now + 0.22);
+        envelope.gain.linearRampToValueAtTime(0,now + 0.24);
+      }
       tone.connect(envelope).connect(audioOutput);
       const voice = {tone,envelope};
       activeVoices.add(voice);
       tone.onended = () => { tone.disconnect(); envelope.disconnect(); activeVoices.delete(voice); };
       tone.start(now);
-      tone.stop(now + 0.24);
+      tone.stop(now + (useBell ? tone.buffer.duration : 0.24));
     });
   }
   function revealEvents(arrivals) {

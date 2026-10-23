@@ -1332,9 +1332,10 @@
     "summary": [
       "In the early hours of 6 October 2026 two merchant ships, the Togo-flagged ALFA WATAN and the Palau-flagged ABLE, were attacked about 70 nautical miles east of Byala, in Bulgaria’s exclusive economic zone outside its territorial waters. Bulgarian authorities reported aerial and maritime attack drones. ALFA WATAN sank, and the nearby ferry DIOSCURIA witnessed an explosion; ABLE caught fire.",
       "Bulgaria has not attributed the attack. Rumen Radev said on 7 October that the circumstances suggested Russia but the evidence was insufficient for definitive attribution; Russia denied targeting the vessel. On 6 October Zelensky alleged a combined Russian attack, citing a joint investigation; that is a Ukrainian claim, not a Bulgarian finding. On 9 October Defence Minister Dimitar Stoyanov assessed ABLE’s damage as a surface-drone strike, without naming an operator.",
-      "ALFA WATAN’s crew are missing, not confirmed dead. Reuters reported twelve Syrians missing on 7 October, then ten missing, including nine Syrians, on 8 October; the discrepancy is unresolved. All eighteen ABLE crew were rescued, two of them injured. Bulgaria halted the search on 7 October, and on 8 October Syria sought an independent investigation. A 9 October inspection found no identifiable drone remnants aboard ABLE, which was still afloat."
+      "ALFA WATAN’s crew are missing, not confirmed dead. Reuters reported twelve Syrians missing on 7 October, then ten missing, including nine Syrians, on 8 October; the discrepancy is unresolved. All eighteen ABLE crew were rescued, two of them injured. Bulgaria halted the search on 7 October, and on 8 October Syria sought an independent investigation. A 9 October inspection found no identifiable drone remnants aboard ABLE, which was still afloat.",
+      "NOVA reported on 20 October that ABLE had sunk off Turkey after disappearing from radar late on 19 October. The ship had left Bulgaria’s exclusive economic zone on 14 October. This reported later sinking remains a follow-up to the 6 October attack; no direct wreck survey or exact sinking position was retrieved."
     ],
-    "basis": "a0ff3552f63bf915"
+    "basis": "4aae611dca2b4246"
   },
   "N074": {
     "slug": "2026-10-06-uav-airspace-violations-northeastern-southeastern-aegean-greece",
@@ -1399,9 +1400,11 @@
       "Overnight on 13 October 2026 the Maltese-flagged merchant ship CHELSEA 3 was struck by drones in the Black Sea, reportedly 18 nautical miles east of Byala in Varna Province, within Bulgaria’s exclusive economic zone and outside its territorial waters. According to the crew’s account, relayed by Bulgaria’s prime minister, three aerial drones hit the deck and hull. A distress notification reached Varna’s maritime rescue centre at 01:30 local time.",
       "The operator and nationality are unresolved. Radev said the evidence was insufficient to accuse either belligerent; he argued that the attacks benefit Russia, but that argument and planned diplomatic consultations do not establish Russian responsibility. The ship is reportedly Ukrainian-owned and registered in Odessa, which is separate from the question of who attacked it.",
       "Border Police evacuated all 15 crew, seven Ukrainians and eight Azerbaijanis, who were brought to Varna; five were treated for initially reported minor injuries, and no deaths were reported. BNR reports that the damaged ship docked at Burgas-West on 17 October; the investigation remains open. On 13 October, another vessel was reported struck and sunk east of Krapets.",
-      "MaltaDaily’s account gives 12 October and four minor injuries. Those differences from the Bulgarian account remain unresolved and do not identify a second attack."
+      "MaltaDaily’s account gives 12 October and four minor injuries. Those differences from the Bulgarian account remain unresolved and do not identify a second attack.",
+      "On 19 October, Burgas maritime administration director Zhivko Petrov assessed the three hull breaches as blast damage, possibly from a surface drone. This conflicts with the initial aerial-drone account and remains subject to specialist investigation. The vessel was stable in port and a military-prosecutor investigation was underway.",
+      "On 20 October, the prime minister reported examination of drone remains and chemical analysis. Chernomore/BGNES specifically reported fragments aboard the vessel and no ammunition or radiation found in initial checks; the BNR/BTA account was less specific about the minister’s recovery statement. Final weapon identification and operator remain unresolved. Chernomore also gives two injured, alongside the earlier four-injured and five-treated accounts; the differing figures are not added together."
     ],
-    "basis": "68bdea9706ff640c"
+    "basis": "d637355294bebd36"
   },
   "N080": {
     "slug": "2026-10-13-drone-strike-ship-sinks-krapets-bulgaria",
@@ -1519,10 +1522,10 @@
     "description": "WINE TRADER was hit off Sulina on 15 October 2026; five crew were rescued and seven missing. A NATO source assessed the drones as Russian in origin.",
     "summary": [
       "A drone struck the San Marino-flagged tanker WINE TRADER off Sulina on 15 October 2026. Romania’s president confirmed the attack. A NATO military source cited by Reuters assessed the drones that hit this tanker and YARA J as Russian in origin; a specific operator has not been established in the reviewed reporting.",
-      "Of twelve crew, five were rescued and seven remained missing. Two survivors had scalp burns or mild smoke inhalation; all five were stable and taken to hospital. Fire damaged the vessel. Its final condition is unconfirmed, and the missing crew are not counted as confirmed dead. Heavy seas hindered the continuing rescue operation. IGSU reported that the search resumed on 16 October; announced boarding plans are not confirmation of completed boarding.",
+      "Of twelve crew, five were rescued and seven remained missing. Two survivors had scalp burns or mild smoke inhalation; all five were stable and taken to hospital. Fire damaged the vessel. Its final condition is unconfirmed, and the missing crew are not counted as confirmed dead. Heavy seas hindered the continuing rescue operation. IGSU reported that the search resumed on 16 October; its initial boarding announcement was a plan. A 19 October seafarers union statement subsequently reported that teams had boarded and searched accessible spaces, with damage hindering the search. The union reiterated five rescued and seven missing.",
       "The ship was reported about 13 nautical miles southeast of Sulina, just outside Romanian territorial waters. It is included in the register’s offshore coverage. The rescue request at 06:58 is not a verified attack time. This promotes the earlier fire-only watchlist lead to one red Strike record, combining the attack, fire and rescue; it remains separate from YARA J and Sea Destiny."
     ],
-    "basis": "69aa326016ee8b66"
+    "basis": "b4692512f9fc1c0c"
   },
   "N091": {
     "slug": "2026-10-13-dailidziai-smuggling-drone-lithuania",
@@ -1578,11 +1581,215 @@
   "N096": {
     "slug": "2026-10-18-drone-explosion-juodzionys-lithuania",
     "headline": "Drone explosion near Juodžionys damages a passing car",
-    "description": "A drone entered Lithuania on 18 October and reportedly exploded near Juodžionys. Officials gave a preliminary Ukrainian attribution; no one was injured.",
+    "description": "A drone entered Lithuania on 18 October and exploded near Juodžionys, damaging a car. Officials identified Ukrainian origin; a joint investigation continues.",
     "summary": [
       "A drone entered Lithuania on the morning of 18 October 2026 and reportedly exploded near Juodžionys in Pasvalys district. Debris damaged a passing car without injuring its occupants. The precise sequence of the explosion and fall remained under investigation.",
-      "Defence Minister Robertas Kaunas later linked the craft to Ukraine’s attack on St Petersburg and assessed that Russian electronic warfare had diverted it. This was a preliminary account. NATO fighters scrambled but did not shoot; the Latvian warning and unverified Polish reports are not additional confirmed incursions."
+      "Defence Minister Robertas Kaunas linked the craft to Ukraine’s attack on St Petersburg and assessed that Russian electronic warfare had diverted it. On 19 October, Lithuania’s prime minister said wreckage and Ukraine’s notification supported Ukrainian origin and that the drone carried explosives. Poland’s defence ministry also identified it as Ukrainian and denied the claim that it had launched from Lithuania. The jamming explanation remained an assessment.",
+      "Lithuania’s published chronology puts first radar contact at 05:47 EEST over Poland and entry into Lithuania at 06:02. Polish radar did not independently corroborate that track. NATO fighters scrambled but did not shoot. Latvian surveillance did not indicate entry into Latvia; unverified Polish reports are not additional confirmed occurrences.",
+      "On 20 October, President Nausėda said the Lithuanian and Polish defence ministries had formed a joint investigation group. The full route and crash mechanism remained unresolved."
     ],
-    "basis": "e080f32f2389f7b0"
+    "basis": "00b33072f2d22ffe"
+  },
+  "N097": {
+    "slug": "2026-10-19-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports six Turkish UAVs and nine airspace violations on 19 October",
+    "description": "Greek military reporting lists six Turkish UAVs, nine national-airspace violations and nine Athens FIR infringements in the Aegean on 19 October 2026.",
+    "summary": [
+      "Greek military reporting, reproduced by OnAlert and matched by Veteranos, describes six Turkish UAVs in the northeastern and southeastern Aegean on 19 October 2026. It lists nine national-airspace violations and nine Athens FIR infringements. These are different measures within one dated activity record, not eighteen separate incidents.",
+      "Routine identification and interception were reported, with no armed engagement, crash or casualties. Exact flight tracks and individual sortie times were not published. The airspace assessment remains attributed to Greece given the Greek-Turkish dispute; the original GEETHA bulletin was not retrieved directly. NewsIT credits OnAlert and is treated as a republication."
+    ],
+    "basis": "416cc61c1d8de034"
+  },
+  "N098": {
+    "slug": "2026-10-16-cigarette-drone-dumble-lithuania",
+    "headline": "Dumblė · cross-border cigarette drone intercepted in Lithuania",
+    "description": "Dumblė village area, Šalčininkai district; recovered about 290 m inside the Belarus border. VSAT reports electronic intervention, crash damage and recovery; operator unknown.",
+    "summary": [
+      "Friday night; recovered Saturday morning, 16–17 October 2026: Anti-drone equipment interrupted the aircraft; darkness and fog delayed recovery until daylight. The drone was damaged in its fall. 100 NZ Gold cigarette packs with Belarusian tax stamps.",
+      "Dumblė village area, Šalčininkai district; recovered about 290 m inside the Belarus border. Cross-border criminal transport from Belarus according to VSAT; operator nationality and state sponsorship unestablished.",
+      "VSAT's 19 October report says 'Penktadienio naktį' (Friday night), with recovery after dawn Saturday. The 16–17 October interval is inferred from those weekdays; exact flight time and midnight boundary are unpublished. Replay uses the first date. Reported impact damage supports crash; electronic intervention is not a kinetic shoot-down. One occurrence for electronic intervention, crash and subsequent recovery. Separate from N099 and earlier October seizures; aggregate annual totals add no events."
+    ],
+    "basis": "7e4662f6a4a53583"
+  },
+  "N099": {
+    "slug": "2026-10-18-cigarette-drone-daugidonys-berziskes-lithuania",
+    "headline": "Daugidonys–Beržiškės · cross-border cigarette drone intercepted in Lithuania",
+    "description": "Detected near Daugidonys; recovered in woodland near Beržiškės, Šalčininkai district, about 1,050 m from the Belarus border. VSAT reports electronic intervention, crash damage and recovery; operator unknown.",
+    "summary": [
+      "Sunday night, 18 October 2026; midnight boundary unresolved: Surveillance recorded the aircraft falling after electronic intervention. Guards recovered the damaged drone and detached cargo minutes later. 750 Minsk 5 Superslims cigarette packs with Belarusian tax stamps.",
+      "Detected near Daugidonys; recovered in woodland near Beržiškės, Šalčininkai district, about 1,050 m from the Belarus border. Cross-border criminal transport from Belarus according to VSAT; operator nationality and state sponsorship unestablished.",
+      "VSAT's 19 October report says 'sekmadienio naktį' (Sunday night), without a clock time. Replay uses the named Sunday, 18 October, as an inferred date; the source does not resolve whether the overnight interval began on 17 October or continued into 19 October. No precise midnight boundary is asserted. Surveillance-observed fall and impact damage support crash; electronic intervention is not a kinetic shoot-down. One occurrence for detection, electronic intervention, crash and recovery. Distinct from the September N036 Daugidonys operation and October N098 Dumblė event."
+    ],
+    "basis": "6d47945224791909"
+  },
+  "N100": {
+    "slug": "2026-09-17-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports one Turkish UAV and one airspace violation on 17 September",
+    "description": "Greek military reporting lists one Turkish UAV, one national-airspace violation and three Athens FIR infringements in the Aegean on 17 September 2026.",
+    "summary": [
+      "Greek military reporting reproduced by OnAlert and Veteranos lists one Turkish UAV, one national-airspace violation and three Athens FIR infringements in the northeastern / southeastern Aegean on 17 September 2026. These are different measures within one dated activity record.",
+      "Routine identification/interception was reported. Exact flight tracks were not published, and the original GEETHA bulletin was not retrieved directly. The airspace assessment remains attributed to Greece; matching reports do not independently verify it."
+    ],
+    "basis": "97b65b79eac1864d"
+  },
+  "N101": {
+    "slug": "2026-09-19-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports four Turkish UAVs and four airspace violations on 19 September",
+    "description": "Greek military reporting lists four Turkish UAVs, four national-airspace violations and five Athens FIR infringements in the Aegean on 19 September 2026.",
+    "summary": [
+      "Greek military reporting reproduced by Capital.gr and Veteranos lists four Turkish UAVs, four national-airspace violations and five Athens FIR infringements in the northeastern / southeastern Aegean on 19 September 2026. These are different measures within one dated activity record.",
+      "Routine identification/interception was reported. Exact flight tracks were not published, and the original GEETHA bulletin was not retrieved directly. The airspace assessment remains attributed to Greece; matching reports do not independently verify it."
+    ],
+    "basis": "e12ee8a2ed706dae"
+  },
+  "N102": {
+    "slug": "2026-09-20-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports six Turkish UAVs and six airspace violations on 20 September",
+    "description": "Greek military reporting lists six Turkish UAVs, six national-airspace violations and seven Athens FIR infringements in the Aegean on 20 September 2026.",
+    "summary": [
+      "Greek military reporting reproduced by CNN Greece and OnAlert lists six Turkish UAVs, six national-airspace violations and seven Athens FIR infringements in the northeastern / central / southeastern Aegean on 20 September 2026. These are different measures within one dated activity record.",
+      "Routine identification/interception was reported. Exact flight tracks were not published, and the original GEETHA bulletin was not retrieved directly. The airspace assessment remains attributed to Greece; matching reports do not independently verify it."
+    ],
+    "basis": "538a44986c4c841a"
+  },
+  "N103": {
+    "slug": "2026-09-22-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports five Turkish UAVs and three airspace violations on 22 September",
+    "description": "Greek military reporting lists five Turkish UAVs, three national-airspace violations and nine Athens FIR infringements in the Aegean on 22 September 2026.",
+    "summary": [
+      "Greek military reporting reproduced by OnAlert and Parapolitika lists five Turkish UAVs, three national-airspace violations and nine Athens FIR infringements in the northeastern / southeastern Aegean on 22 September 2026. These are different measures within one dated activity record. Two of the five UAVs made the three national-airspace violations.",
+      "Routine identification/interception was reported. Exact flight tracks were not published, and the original GEETHA bulletin was not retrieved directly. The airspace assessment remains attributed to Greece; matching reports do not independently verify it."
+    ],
+    "basis": "6836800c9a6421fd"
+  },
+  "N104": {
+    "slug": "2026-09-23-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports seven Turkish UAVs and two airspace violations on 23 September",
+    "description": "Greek military reporting lists seven Turkish UAVs, two national-airspace violations and seven Athens FIR infringements in the Aegean on 23 September 2026.",
+    "summary": [
+      "Greek military reporting reproduced by OnAlert and Veteranos lists seven Turkish UAVs, two national-airspace violations and seven Athens FIR infringements in the southeastern Aegean on 23 September 2026. These are different measures within one dated activity record.",
+      "Routine identification/interception was reported. Exact flight tracks were not published, and the original GEETHA bulletin was not retrieved directly. The airspace assessment remains attributed to Greece; matching reports do not independently verify it."
+    ],
+    "basis": "23969f59bc9815b6"
+  },
+  "N105": {
+    "slug": "2026-09-25-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports five Turkish UAVs and six airspace violations on 25 September",
+    "description": "Greek military reporting lists five Turkish UAVs, six national-airspace violations and six Athens FIR infringements in the Aegean on 25 September 2026.",
+    "summary": [
+      "Greek military reporting reproduced by OnAlert and Veteranos lists five Turkish UAVs, six national-airspace violations and six Athens FIR infringements in the northeastern / central / southeastern Aegean on 25 September 2026. These are different measures within one dated activity record.",
+      "Routine identification/interception was reported. Exact flight tracks were not published, and the original GEETHA bulletin was not retrieved directly. The airspace assessment remains attributed to Greece; matching reports do not independently verify it."
+    ],
+    "basis": "30184f4b49f61780"
+  },
+  "N106": {
+    "slug": "2026-09-26-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports three Turkish UAVs and two airspace violations on 26 September",
+    "description": "Greek military reporting lists three Turkish UAVs, two national-airspace violations and three Athens FIR infringements in the Aegean on 26 September 2026.",
+    "summary": [
+      "Greek military reporting reproduced by OnAlert and Veteranos lists three Turkish UAVs, two national-airspace violations and three Athens FIR infringements in the northeastern / southeastern Aegean on 26 September 2026. These are different measures within one dated activity record.",
+      "Routine identification/interception was reported. Exact flight tracks were not published, and the original GEETHA bulletin was not retrieved directly. The airspace assessment remains attributed to Greece; matching reports do not independently verify it."
+    ],
+    "basis": "f16f9d7d0a2f378f"
+  },
+  "N107": {
+    "slug": "2026-09-28-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports one Turkish UAV and four airspace violations on 28 September",
+    "description": "Greek military reporting lists one Turkish UAV, four national-airspace violations and two Athens FIR infringements in the Aegean on 28 September 2026.",
+    "summary": [
+      "Greek military reporting reproduced by OnAlert and VoiceNews lists one Turkish UAV, four national-airspace violations and two Athens FIR infringements in the southeastern Aegean on 28 September 2026. These are different measures within one dated activity record.",
+      "Routine identification/interception was reported. Exact flight tracks were not published, and the original GEETHA bulletin was not retrieved directly. The airspace assessment remains attributed to Greece; matching reports do not independently verify it."
+    ],
+    "basis": "41d2aa5f4a57cc46"
+  },
+  "N108": {
+    "slug": "2026-09-29-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports three Turkish UAVs and three airspace violations on 29 September",
+    "description": "Greek military reporting lists three Turkish UAVs, three national-airspace violations and five Athens FIR infringements in the Aegean on 29 September 2026.",
+    "summary": [
+      "Greek military reporting reproduced by OnAlert and Veteranos lists three Turkish UAVs, three national-airspace violations and five Athens FIR infringements in the northeastern / southeastern Aegean on 29 September 2026. These are different measures within one dated activity record.",
+      "Routine identification/interception was reported. Exact flight tracks were not published, and the original GEETHA bulletin was not retrieved directly. The airspace assessment remains attributed to Greece; matching reports do not independently verify it."
+    ],
+    "basis": "37d7c4701c3e7f01"
+  },
+  "N109": {
+    "slug": "2026-09-30-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports four Turkish UAVs and one airspace violation on 30 September",
+    "description": "Greek military reporting lists four Turkish UAVs, one national-airspace violation and five Athens FIR infringements in the Aegean on 30 September 2026.",
+    "summary": [
+      "Greek military reporting reproduced by OnAlert and Veteranos lists four Turkish UAVs, one national-airspace violation and five Athens FIR infringements in the northeastern / central / southeastern Aegean on 30 September 2026. These are different measures within one dated activity record.",
+      "Routine identification/interception was reported. Exact flight tracks were not published, and the original GEETHA bulletin was not retrieved directly. The airspace assessment remains attributed to Greece; matching reports do not independently verify it."
+    ],
+    "basis": "b76dd8a877d13e02"
+  },
+  "N110": {
+    "slug": "2026-10-05-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports four Turkish UAVs and seven airspace violations on 5 October",
+    "description": "Greek military reporting lists four Turkish UAVs, seven national-airspace violations and four Athens FIR infringements in the Aegean on 5 October 2026.",
+    "summary": [
+      "Greek military reporting reproduced by OnAlert and SKAI lists four Turkish UAVs, seven national-airspace violations and four Athens FIR infringements in the northeastern / southeastern Aegean on 5 October 2026. These are different measures within one dated activity record.",
+      "Routine identification/interception was reported. A fighter encounter in the mixed-aircraft account is not established as a UAV engagement. Exact tracks and the original GEETHA bulletin were not retrieved; the airspace assessment remains attributed to Greece."
+    ],
+    "basis": "81042a4c4c225b77"
+  },
+  "N111": {
+    "slug": "2026-10-20-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports five Turkish UAVs and nine airspace violations on 20 October",
+    "description": "Greek military reporting lists five Turkish UAVs, nine national-airspace violations and eight Athens FIR infringements in the Aegean on 20 October 2026.",
+    "summary": [
+      "Greek military reporting reproduced by OnAlert, ProtoThema and NewsIT lists five Turkish UAVs, nine national-airspace violations and eight Athens FIR infringements in the northeastern / central / southeastern Aegean on 20 October 2026. These are different measures within one dated activity record.",
+      "The CN-235 and its five airspace violations and two FIR infringements are excluded. ProtoThema matches the five-UAV/nine-violation figures; NewsIT is treated as derivative coverage. Exact tracks and the original GEETHA bulletin were not retrieved; the airspace assessment remains attributed to Greece. Thestival was added on review and also matches the five-UAV/nine-violation figures; it gives only the mixed FIR total. No additional incident is created."
+    ],
+    "basis": "35e6dd4b0f89a739"
+  },
+  "N112": {
+    "slug": "2026-10-23-khoryv-drone-strike-constanta-romania",
+    "headline": "KHORYV reports drone strike off Constanța; one dead and three missing",
+    "description": "KHORYV reported a drone attack off Constanța on 23 October 2026. One dead, nine rescued and three missing; operator unknown and sinking reported.",
+    "summary": [
+      "The Comoros-flagged KHORYV reportedly came under drone attack off Constanța on 23 October 2026. Adevărul describes fire and sinking in progress, citing a drone-attack distress call. The operator is unknown.",
+      "The Naval Authority, quoted in the report, gave one dead, nine rescued and three missing. The location was outside Romanian territorial waters. The strike, fire, sinking report and rescue remain one record; a completed sinking has not been established."
+    ],
+    "basis": "6dd2a731092198a5"
+  },
+  "N113": {
+    "slug": "2026-10-21-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports 8 Turkish UAVs and 12 airspace violations on 21 October",
+    "description": "Greek military reporting lists 8 Turkish UAVs, 12 national-airspace violations and 9 Athens FIR infringements on 21 October 2026.",
+    "summary": [
+      "Greek authorities reported 8 Turkish UAVs in the northeastern / central / southeastern Aegean on 21 October 2026, with 12 national-airspace violations and 9 Athens FIR infringements. This is one dated record; the three counts measure different things.",
+      "Six accompanying F-16s and their five airspace violations and two FIR infringements are excluded. The UAVs were identified and intercepted; no armed engagement, casualties or damage was reported. The airspace assessment remains attributed to Greece. Militaire and NewsIT reproduce matching UAV-specific figures; To Vima corroborates the eight UAVs and regional activity but gives combined aircraft totals. The original GEETHA bulletin and precise tracks were not retrieved."
+    ],
+    "basis": "63737418ded351a8"
+  },
+  "N114": {
+    "slug": "2026-10-22-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports 5 Turkish UAVs and 3 airspace violations on 22 October",
+    "description": "Greek military reporting lists 5 Turkish UAVs, 3 national-airspace violations and 7 Athens FIR infringements on 22 October 2026.",
+    "summary": [
+      "Greek authorities reported 5 Turkish UAVs in the central / southeastern Aegean on 22 October 2026, with 3 national-airspace violations and 7 Athens FIR infringements. This is one dated record; the three counts measure different things.",
+      "Two accompanying F-16s and one ATR-72, responsible for three further FIR infringements, are excluded. The UAVs were identified and intercepted; no armed engagement, casualties or damage was reported. The airspace assessment remains attributed to Greece. TheOpinion and Edolio5 reproduce matching figures, with closely matching text; they are not treated as independent flight-track verification. The original GEETHA bulletin and precise tracks were not retrieved."
+    ],
+    "basis": "b99acfbd127f0d42"
+  },
+  "N115": {
+    "slug": "2026-10-21-mosesti-robeasca-drone-fragments-romania",
+    "headline": "Unidentified drone fragments found near Moșești in Buzău County",
+    "description": "Drone fragments were found near Moșești, Romania, on 21 October 2026. No explosives were found; origin and crash date remain unresolved.",
+    "summary": [
+      "A resident found apparent drone remains in a field outside Moșești, Robeasca commune, on 21 October 2026. The prefect described engine, fuselage and propeller fragments scattered over about 100 square metres. MApN and SRI specialists investigated.",
+      "Initial checks found no explosive elements. This is a provisional recovery record: foreign involvement, the aircraft’s identity and the crash date remain unresolved. The map uses the discovery date and an approximate village anchor."
+    ],
+    "basis": "2d5c3983b7cfcc5b"
+  },
+  "N116": {
+    "slug": "2026-10-21-lubaczow-foam-drone-discovery-poland",
+    "headline": "Unarmed foam aircraft found in Lubaczów; origin unresolved",
+    "description": "A foam airframe was found in Lubaczów on 21 October 2026. Military police found no explosives; origin and any foreign connection remain unknown.",
+    "summary": [
+      "Wreckage was reported on an unoccupied Herzoga Street property in Lubaczów shortly after 13:00 on 21 October 2026. Nearby residents were evacuated while specialists assessed possible hazards; no injuries or property damage were reported.",
+      "On 22 October the Military Gendarmerie identified a small, unarmed foam airframe without combat characteristics. It ruled out explosives and radiological, biological and chemical hazards, and retained the object for laboratory examination. Its origin remains unknown. Both reports belong to this single provisional recovery record."
+    ],
+    "basis": "78337d5028a53371"
   }
 }

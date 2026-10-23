@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Manrope:wght@500;600;700;800&display=swap');
-
 :root {
   --ink: #112228;
   --ink-soft: #243b43;
@@ -256,6 +254,26 @@ html[data-i18n-pending] body {
   color: #9cd0cb;
   font-weight: 600;
   font-size: 0.7rem;
+}
+
+.maritime-turn-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #3d1817;
+  border: 1px solid #8a2c25;
+  color: #ffada4;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.maritime-turn-pill:hover {
+  background: #521f1d;
+  border-color: #b53d34;
+  color: #fff;
 }
 
 /* Right Topbar Controls */
@@ -517,7 +535,11 @@ html[data-i18n-pending] body {
 .search-box input:focus {
   background: #fff;
   border-color: var(--teal);
-  outline: none;
+}
+
+.search-box input:focus-visible {
+  outline: 2.5px solid #128780;
+  outline-offset: 1px;
 }
 
 .clear-search {
@@ -527,8 +549,10 @@ html[data-i18n-pending] body {
   border: 0;
   font-size: 1.1rem;
   line-height: 1;
-  color: #6b7f86;
+  color: #4f6369;
   padding: 2px 6px;
+  min-width: 24px;
+  min-height: 24px;
 }
 
 .mobile-filter-toggle {
@@ -576,9 +600,10 @@ html[data-i18n-pending] body {
   border: 0;
   background: #1e827b;
   color: #fff;
-  font-size: 0.69rem;
+  font-size: 0.71rem;
   font-weight: 600;
-  padding: 2px 7px;
+  padding: 3px 9px;
+  min-height: 24px;
   border-radius: 4px;
   flex-shrink: 0;
 }
@@ -615,6 +640,136 @@ html[data-i18n-pending] body {
 
 .browse-pages-link:hover {
   text-decoration: underline;
+}
+
+/* Featured Turning Point Banner: October 2026 Black Sea Ship Strikes */
+.maritime-turn-banner {
+  margin: 8px 10px 0;
+  padding: 9px 11px;
+  background: linear-gradient(135deg, #211214 0%, #17272e 100%);
+  border: 1px solid #692825;
+  border-left: 4px solid #d93829;
+  border-radius: 7px;
+  color: #f4f7f8;
+  flex-shrink: 0;
+  box-shadow: 0 3px 10px rgba(17, 34, 40, 0.12);
+}
+
+.maritime-turn-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.maritime-turn-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #ff9c91;
+}
+
+.maritime-turn-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ef4436;
+  box-shadow: 0 0 0 3px rgba(239, 68, 54, 0.25);
+  flex-shrink: 0;
+}
+
+.maritime-turn-toggle {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: #dce7ea;
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+  font-size: 0.75rem;
+  line-height: 1;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+}
+
+.maritime-turn-toggle:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.maritime-turn-title {
+  font-family: Manrope, system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 800;
+  line-height: 1.3;
+  margin: 4px 0 0;
+  color: #fff;
+  letter-spacing: -0.015em;
+}
+
+.maritime-turn-body-wrap {
+  margin-top: 5px;
+}
+
+.maritime-turn-banner.collapsed .maritime-turn-body-wrap {
+  display: none;
+}
+
+.maritime-turn-body {
+  font-size: 0.75rem;
+  line-height: 1.44;
+  color: #d3e1e5;
+  margin: 0 0 8px;
+}
+
+.maritime-turn-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.maritime-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 26px;
+  padding: 3px 9px;
+  border-radius: 5px;
+  font-size: 0.71rem;
+  font-weight: 700;
+  border: 1px solid #496973;
+  background: #1e3740;
+  color: #e8f3f5;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.maritime-action-btn:hover {
+  background: #284853;
+  border-color: #6b919d;
+}
+
+.maritime-action-btn.primary {
+  background: #c42b1c;
+  border-color: #e04a3b;
+  color: #fff;
+}
+
+.maritime-action-btn.primary:hover {
+  background: #a92214;
+}
+
+.maritime-action-btn.ghost {
+  background: transparent;
+  border-color: rgba(255, 255, 255, 0.25);
+  color: #ffbfb8;
+}
+
+.maritime-action-btn.ghost:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
 }
 
 /* Scrollable Feed Containers with Container Query support (size-aware-styling) */
@@ -673,7 +828,6 @@ html[data-i18n-pending] body {
   gap: 6px;
   box-shadow: 0 1px 2px rgba(17, 34, 40, 0.03);
   transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
-  cursor: pointer;
 }
 
 .event-card:hover {
@@ -682,7 +836,7 @@ html[data-i18n-pending] body {
   box-shadow: 0 3px 10px rgba(17, 34, 40, 0.07);
 }
 
-.event-card[aria-pressed="true"] {
+.event-card.selected {
   background: #f0f8f7;
   border-color: var(--teal);
   border-left-color: var(--category, var(--teal));
@@ -692,6 +846,20 @@ html[data-i18n-pending] body {
 .event-card.current {
   background: #fffdf6;
   border-color: #e6c875;
+}
+
+.card-select-btn {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  color: inherit;
+  cursor: pointer;
 }
 
 /* Single-line non-wrapping meta header on every card */
@@ -707,7 +875,7 @@ html[data-i18n-pending] body {
 .card-badges {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
   min-width: 0;
   flex: 1 1 auto;
   overflow: hidden;
@@ -737,6 +905,54 @@ html[data-i18n-pending] body {
   background: var(--category);
 }
 
+.candidate-pill {
+  font-size: 0.63rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: #f5ebd6;
+  color: #6b4c12;
+  border: 1px solid #e0ca9f;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.maritime-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.63rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: #17333e;
+  color: #e6f4f7;
+  border: 1px solid #2d5564;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.casualty-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.63rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 2px 5px;
+  border-radius: 4px;
+  background: #fff0ee;
+  color: #9e1b10;
+  border: 1px solid #f0b5ae;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
 .card-date-place {
   font-size: 0.74rem;
   font-weight: 600;
@@ -753,7 +969,7 @@ html[data-i18n-pending] body {
   gap: 4px;
   font-family: ui-monospace, SFMono-Regular, monospace;
   font-size: 0.69rem;
-  color: #7c8e94;
+  color: #4f6369;
   flex-shrink: 0;
 }
 
@@ -802,7 +1018,7 @@ html[data-i18n-pending] body {
 .card-sources-label {
   font-size: 0.66rem;
   font-weight: 700;
-  color: #6b7f86;
+  color: #4f6369;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   margin-right: 2px;
@@ -812,13 +1028,14 @@ html[data-i18n-pending] body {
   display: inline-flex;
   align-items: center;
   gap: 3px;
+  min-height: 24px;
   font-size: 0.69rem;
   font-weight: 600;
   color: var(--teal-dark);
   background: #edf6f5;
   border: 1px solid #cce3e1;
   border-radius: 4px;
-  padding: 1.5px 6px;
+  padding: 2px 6px;
   text-decoration: none;
   transition: background 0.12s, border-color 0.12s;
   max-width: 145px;
@@ -833,21 +1050,33 @@ html[data-i18n-pending] body {
 }
 
 .source-more-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
   font-size: 0.67rem;
   font-weight: 600;
-  color: #5b7077;
+  color: #4f6369;
   background: #eef2f3;
-  padding: 1.5px 6px;
+  padding: 2px 6px;
   border-radius: 4px;
   white-space: nowrap;
 }
 
 .card-open-briefing {
   margin-left: auto;
+  border: 0;
+  background: transparent;
+  padding: 2px 4px;
+  min-height: 24px;
   font-size: 0.71rem;
   font-weight: 700;
   color: var(--teal);
   white-space: nowrap;
+  cursor: pointer;
+}
+
+.card-open-briefing:hover {
+  text-decoration: underline;
 }
 
 /* Container query enhancement when feed container is wider than 420px */
@@ -1437,7 +1666,7 @@ html[data-i18n-pending] body {
   left: 14px;
   right: 14px;
   bottom: 14px;
-  z-index: 650;
+  z-index: 690;
   background: rgba(255, 255, 255, 0.98);
   backdrop-filter: blur(12px);
   border: 1px solid #c5d6d9;
@@ -1584,7 +1813,8 @@ html[data-i18n-pending] body {
   background: #fff;
   color: #465d65;
   border-radius: 999px;
-  padding: 2.5px 8px;
+  padding: 3px 9px;
+  min-height: 24px;
   font-size: 0.7rem;
   font-weight: 600;
   white-space: nowrap;
@@ -1596,10 +1826,27 @@ html[data-i18n-pending] body {
   color: var(--ink);
 }
 
+.preset-chip.preset-maritime {
+  border-color: #d9938c;
+  color: #8f1d12;
+  background: #fff4f3;
+}
+
+.preset-chip.preset-maritime:hover {
+  background: #fde5e2;
+  color: #6b1108;
+}
+
 .preset-chip.active {
   background: var(--ink);
   color: #fff;
   border-color: var(--ink);
+}
+
+.preset-chip.preset-maritime.active {
+  background: #b92517;
+  color: #fff;
+  border-color: #961b0f;
 }
 
 /* Cumulative Curve & Range Scrubber */
@@ -1672,6 +1919,25 @@ html[data-i18n-pending] body {
   padding-left: 6px;
   border-left: 1px solid #b9c7ca;
   height: 12px;
+}
+
+.cumulative-turn-line {
+  stroke: #c42b1c;
+  stroke-width: 1.4;
+  stroke-dasharray: 2.5 2;
+}
+
+.cumulative-turn-label {
+  position: absolute;
+  top: -2px;
+  transform: translateX(-100%);
+  padding-right: 4px;
+  font-size: 0.63rem;
+  font-weight: 800;
+  color: #9e1b10;
+  line-height: 1;
+  white-space: nowrap;
+  pointer-events: none;
 }
 
 .cumulative-point {
@@ -1761,7 +2027,7 @@ html[data-i18n-pending] body {
   position: relative;
   margin-top: 8px;
   font-size: 0.67rem;
-  color: #6c8289;
+  color: #4f6369;
   letter-spacing: 0.05em;
   height: 13px;
 }
@@ -2792,6 +3058,186 @@ dialog details p {
 }
 
 /* ==========================================================================
+   Black Sea Maritime Escalation Modal ("When Things Took a Dark Turn")
+   ========================================================================== */
+.maritime-dialog {
+  width: min(760px, calc(100% - 24px));
+  border-top: 5px solid #c42b1c;
+}
+
+.maritime-dialog-eyebrow {
+  color: #b92517;
+}
+
+.maritime-lead {
+  font-size: 0.87rem;
+  line-height: 1.58;
+  color: #2c434b;
+  background: #fff6f5;
+  border: 1px solid #f0c2bc;
+  border-left: 4px solid #c42b1c;
+  padding: 11px 14px;
+  border-radius: 6px;
+  margin: 0 0 16px;
+}
+
+.maritime-stats-grid {
+  margin-bottom: 18px;
+}
+
+.maritime-stats-grid dd {
+  color: #9e1b10;
+}
+
+.maritime-phases-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 10px 0 18px;
+}
+
+.maritime-phase-card {
+  background: #f8fbfb;
+  border: 1px solid #dbe5e7;
+  border-top: 3px solid #758a90;
+  border-radius: 6px;
+  padding: 11px 12px;
+}
+
+.maritime-phase-card.dark-turn {
+  background: #fff7f6;
+  border-color: #ecc4bf;
+  border-top-color: #d96b1f;
+}
+
+.maritime-phase-card.territorial {
+  background: #fff3f1;
+  border-color: #e9b2ab;
+  border-top-color: #c42b1c;
+}
+
+.maritime-phase-tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #4f6369;
+  margin-bottom: 4px;
+}
+
+.maritime-phase-card.dark-turn .maritime-phase-tag {
+  color: #9e3f0e;
+}
+
+.maritime-phase-card.territorial .maritime-phase-tag {
+  color: #9e1b10;
+}
+
+.maritime-phase-card h4 {
+  font-family: Manrope, system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 800;
+  margin: 0 0 6px;
+  color: var(--ink);
+  line-height: 1.3;
+}
+
+.maritime-phase-card p {
+  font-size: 0.77rem;
+  line-height: 1.48;
+  color: #364d55;
+  margin: 0;
+}
+
+.maritime-vessel-list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin: 10px 0 18px;
+}
+
+.maritime-vessel-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #d7e2e4;
+  border-left: 4px solid var(--category, #c42b1c);
+  border-radius: 6px;
+  padding: 9px 12px;
+  cursor: pointer;
+  transition: background 0.12s, border-color 0.12s;
+}
+
+.maritime-vessel-item:hover {
+  background: #fdf6f5;
+  border-color: #cfa7a2;
+  border-left-color: var(--category, #c42b1c);
+}
+
+.maritime-vessel-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 0.71rem;
+  font-weight: 700;
+  color: #4f6369;
+}
+
+.maritime-vessel-title {
+  font-family: Manrope, system-ui, sans-serif;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--ink);
+  line-height: 1.32;
+}
+
+.maritime-vessel-summary {
+  font-size: 0.76rem;
+  line-height: 1.44;
+  color: #374e56;
+}
+
+.maritime-dialog-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.maritime-modal-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 6px;
+  padding: 8px 13px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  border: 1px solid #18323a;
+  background: #18323a;
+  color: #fff;
+}
+
+.maritime-modal-btn:hover {
+  background: #234651;
+}
+
+.maritime-modal-btn.primary {
+  background: #c42b1c;
+  border-color: #a11e11;
+}
+
+.maritime-modal-btn.primary:hover {
+  background: #a52113;
+}
+
+/* ==========================================================================
    Responsive & First-Class Mobile Layout
    ========================================================================== */
 @media (max-width: 1180px) {
@@ -2834,6 +3280,7 @@ dialog details p {
   .brand-sub,
   .topbar-pulse,
   .studio-trigger-btn,
+  .maritime-turn-pill,
   .about-text-full {
     display: none;
   }
@@ -3052,6 +3499,17 @@ dialog details p {
     display: none !important;
   }
 
+  .leaflet-bottom.leaflet-right {
+    bottom: 94px;
+    right: 8px;
+  }
+
+  .leaflet-control-attribution {
+    font-size: 0.58rem !important;
+    padding: 1px 4px !important;
+    border-radius: 3px;
+  }
+
   .legend {
     left: 8px;
     right: 8px;
@@ -3099,7 +3557,8 @@ dialog details p {
     width: auto;
   }
 
-  .key-facts-grid {
+  .key-facts-grid,
+  .maritime-phases-grid {
     grid-template-columns: 1fr;
   }
 
@@ -3122,6 +3581,10 @@ dialog details p {
   .marker-ripple,
   .area-halo::after {
     display: none;
+    animation: none;
+  }
+  .rec-pulse,
+  .record-video-btn.recording .rec-dot {
     animation: none;
   }
 }
