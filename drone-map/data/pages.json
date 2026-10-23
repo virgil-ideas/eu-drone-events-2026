@@ -1402,9 +1402,9 @@
       "Border Police evacuated all 15 crew, seven Ukrainians and eight Azerbaijanis, who were brought to Varna; five were treated for initially reported minor injuries, and no deaths were reported. BNR reports that the damaged ship docked at Burgas-West on 17 October; the investigation remains open. On 13 October, another vessel was reported struck and sunk east of Krapets.",
       "MaltaDaily’s account gives 12 October and four minor injuries. Those differences from the Bulgarian account remain unresolved and do not identify a second attack.",
       "On 19 October, Burgas maritime administration director Zhivko Petrov assessed the three hull breaches as blast damage, possibly from a surface drone. This conflicts with the initial aerial-drone account and remains subject to specialist investigation. The vessel was stable in port and a military-prosecutor investigation was underway.",
-      "On 20 October, the prime minister reported examination of drone remains and chemical analysis to identify the explosive used. Allied specialists were expected the following day. No final weapon identification or operator finding was announced; the transport minister did not specify the fragments’ nature or recovery location."
+      "On 20 October, the prime minister reported examination of drone remains and chemical analysis. Chernomore/BGNES specifically reported fragments aboard the vessel and no ammunition or radiation found in initial checks; the BNR/BTA account was less specific about the minister’s recovery statement. Final weapon identification and operator remain unresolved. Chernomore also gives two injured, alongside the earlier four-injured and five-treated accounts; the differing figures are not added together."
     ],
-    "basis": "938222472e1fc2df"
+    "basis": "d637355294bebd36"
   },
   "N080": {
     "slug": "2026-10-13-drone-strike-ship-sinks-krapets-bulgaria",
@@ -1738,9 +1738,9 @@
     "description": "Greek military reporting lists five Turkish UAVs, nine national-airspace violations and eight Athens FIR infringements in the Aegean on 20 October 2026.",
     "summary": [
       "Greek military reporting reproduced by OnAlert, ProtoThema and NewsIT lists five Turkish UAVs, nine national-airspace violations and eight Athens FIR infringements in the northeastern / central / southeastern Aegean on 20 October 2026. These are different measures within one dated activity record.",
-      "The CN-235 and its five airspace violations and two FIR infringements are excluded. ProtoThema matches the five-UAV/nine-violation figures; NewsIT is treated as derivative coverage. Exact tracks and the original GEETHA bulletin were not retrieved; the airspace assessment remains attributed to Greece."
+      "The CN-235 and its five airspace violations and two FIR infringements are excluded. ProtoThema matches the five-UAV/nine-violation figures; NewsIT is treated as derivative coverage. Exact tracks and the original GEETHA bulletin were not retrieved; the airspace assessment remains attributed to Greece. Thestival was added on review and also matches the five-UAV/nine-violation figures; it gives only the mixed FIR total. No additional incident is created."
     ],
-    "basis": "3fd9728220d00de0"
+    "basis": "35e6dd4b0f89a739"
   },
   "N112": {
     "slug": "2026-10-23-khoryv-drone-strike-constanta-romania",
@@ -1751,5 +1751,45 @@
       "The Naval Authority, quoted in the report, gave one dead, nine rescued and three missing. The location was outside Romanian territorial waters. The strike, fire, sinking report and rescue remain one record; a completed sinking has not been established."
     ],
     "basis": "6dd2a731092198a5"
+  },
+  "N113": {
+    "slug": "2026-10-21-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports 8 Turkish UAVs and 12 airspace violations on 21 October",
+    "description": "Greek military reporting lists 8 Turkish UAVs, 12 national-airspace violations and 9 Athens FIR infringements on 21 October 2026.",
+    "summary": [
+      "Greek authorities reported 8 Turkish UAVs in the northeastern / central / southeastern Aegean on 21 October 2026, with 12 national-airspace violations and 9 Athens FIR infringements. This is one dated record; the three counts measure different things.",
+      "Six accompanying F-16s and their five airspace violations and two FIR infringements are excluded. The UAVs were identified and intercepted; no armed engagement, casualties or damage was reported. The airspace assessment remains attributed to Greece. Militaire and NewsIT reproduce matching UAV-specific figures; To Vima corroborates the eight UAVs and regional activity but gives combined aircraft totals. The original GEETHA bulletin and precise tracks were not retrieved."
+    ],
+    "basis": "63737418ded351a8"
+  },
+  "N114": {
+    "slug": "2026-10-22-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports 5 Turkish UAVs and 3 airspace violations on 22 October",
+    "description": "Greek military reporting lists 5 Turkish UAVs, 3 national-airspace violations and 7 Athens FIR infringements on 22 October 2026.",
+    "summary": [
+      "Greek authorities reported 5 Turkish UAVs in the central / southeastern Aegean on 22 October 2026, with 3 national-airspace violations and 7 Athens FIR infringements. This is one dated record; the three counts measure different things.",
+      "Two accompanying F-16s and one ATR-72, responsible for three further FIR infringements, are excluded. The UAVs were identified and intercepted; no armed engagement, casualties or damage was reported. The airspace assessment remains attributed to Greece. TheOpinion and Edolio5 reproduce matching figures, with closely matching text; they are not treated as independent flight-track verification. The original GEETHA bulletin and precise tracks were not retrieved."
+    ],
+    "basis": "b99acfbd127f0d42"
+  },
+  "N115": {
+    "slug": "2026-10-21-mosesti-robeasca-drone-fragments-romania",
+    "headline": "Unidentified drone fragments found near Moșești in Buzău County",
+    "description": "Drone fragments were found near Moșești, Romania, on 21 October 2026. No explosives were found; origin and crash date remain unresolved.",
+    "summary": [
+      "A resident found apparent drone remains in a field outside Moșești, Robeasca commune, on 21 October 2026. The prefect described engine, fuselage and propeller fragments scattered over about 100 square metres. MApN and SRI specialists investigated.",
+      "Initial checks found no explosive elements. This is a provisional recovery record: foreign involvement, the aircraft’s identity and the crash date remain unresolved. The map uses the discovery date and an approximate village anchor."
+    ],
+    "basis": "2d5c3983b7cfcc5b"
+  },
+  "N116": {
+    "slug": "2026-10-21-lubaczow-foam-drone-discovery-poland",
+    "headline": "Unarmed foam aircraft found in Lubaczów; origin unresolved",
+    "description": "A foam airframe was found in Lubaczów on 21 October 2026. Military police found no explosives; origin and any foreign connection remain unknown.",
+    "summary": [
+      "Wreckage was reported on an unoccupied Herzoga Street property in Lubaczów shortly after 13:00 on 21 October 2026. Nearby residents were evacuated while specialists assessed possible hazards; no injuries or property damage were reported.",
+      "On 22 October the Military Gendarmerie identified a small, unarmed foam airframe without combat characteristics. It ruled out explosives and radiological, biological and chemical hazards, and retained the object for laboratory examination. Its origin remains unknown. Both reports belong to this single provisional recovery record."
+    ],
+    "basis": "78337d5028a53371"
   }
 }

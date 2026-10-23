@@ -273,3 +273,38 @@ condition, missing crew and attribution without adding duplicate stages.
 The inclusive cutoff advances to 23 October to accommodate this occurrence.
 This was a targeted article review, not a completed EU-wide search for 21–23
 October. Existing country and date coverage gaps remain open.
+
+## Reconciliation of the supplied 21–23 October daily reports
+
+Reviewed 23 October against the cited publications. This targeted reconciliation
+does not assert an independent exhaustive EU-wide search or verified quiet days.
+The inclusive cutoff remains 23 October, already set by KHORYV (N112).
+
+- Greece, 20 October: existing N111 rechecked; Thestival added as U142. Counts
+  remain five UAVs / nine national-airspace violations / eight UAV FIR infringements.
+- Greece, 21 and 22 October: N113 and N114 add one dated UAV-activity record each,
+  respectively 8/12/9 and 5/3/7. Manned aircraft are excluded. Greek attribution
+  and the disputed airspace assessment remain explicit. The 22 October reports
+  closely match in wording and are not independent verification of tracks.
+- Moșești, 21 October: N115 backfills one provisional recovery. Foreign origin
+  and crash date are unknown; no explosive elements were found in initial checks.
+- Lubaczów, 21 October: N116 promotes the earlier watchlist recommendation to a
+  mapped provisional recovery, incorporating the 22 October examination. It was
+  an unarmed foam airframe without combat characteristics, with explosives and
+  radiological/biological/chemical hazards ruled out. Origin remains unresolved.
+  The two reports describe one discovery; the laboratory update adds no row.
+- CHELSEA 3: N079 keeps the 13 October attack and published URL. U141 adds the
+  specifically reported onboard fragment recovery; towing and the investigation
+  are follow-ups. The aerial/surface-drone and injury-count discrepancies remain
+  open. Initial hazard checks do not establish an operator or final forensic result.
+
+**Excluded:** the 21 October Vâlcove/Tulcea warning (U101) explicitly involved no
+Romanian airspace entry. Wydrza (U143 and U140) was identified as an unarmed
+Norwegian exercise drone associated with Nowa Dęba; it is distinct from Lubaczów
+and adds no foreign-incursion record. Józefów’s 20 October domestic training-drone
+finding was already retained in U109 and the earlier note. The supplied broader
+Black Sea attack summary does not establish an EU location for five additional
+vessels and is not promoted to event rows.
+
+Greek primary GEETHA pages and precise tracks remain unretrieved. Earlier dated
+Greek coverage gaps remain unresolved; the new dates do not fill them by inference.

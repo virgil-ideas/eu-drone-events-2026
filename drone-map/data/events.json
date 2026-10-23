@@ -5395,30 +5395,32 @@
       "U087",
       "U088",
       "U092",
-      "U098"
+      "U098",
+      "U141"
     ],
     "category": "strike",
     "stages": [
-      "strike"
+      "strike",
+      "recovery"
     ],
     "recordClass": "event",
     "recordType": "reported_offshore_drone_strike",
-    "reviewedOn": "2026-10-21",
-    "classificationNote": "Strike: reported damaging drone attack, shown in red. Petrov’s blast assessment is explicitly attributed and not treated as a final forensic finding. This offshore record does not establish a sovereign-territory incursion.",
-    "provenance": "Added and reviewed 2026-10-13 against BNR Radio Varna and BgVesti reporting of the prime minister’s account (U050–U051). The initial review used the supplied 13 October 08:58 EEST check. Follow-up reviewed 19 October against BNR Burgas (U084); the tow updates this occurrence, not a new strike. Further attribution status reviewed 19 October against BNR's 18 October ministerial report. Damage and investigation follow-up reviewed 20 October against News.bg’s 19 October account of Petrov’s bTV interview (U092). Reviewed 21 October against BNR/BTA reporting of the 20 October investigation update (U098).",
+    "reviewedOn": "2026-10-23",
+    "classificationNote": "Strike: reported damaging drone attack, shown in red. Petrov’s blast assessment is explicitly attributed and not treated as a final forensic finding. This offshore record does not establish a sovereign-territory incursion. Recovery is a secondary stage for the reported onboard fragments, not a second attack.",
+    "provenance": "Added and reviewed 2026-10-13 against BNR Radio Varna and BgVesti reporting of the prime minister’s account (U050–U051). The initial review used the supplied 13 October 08:58 EEST check. Follow-up reviewed 19 October against BNR Burgas (U084); the tow updates this occurrence, not a new strike. Further attribution status reviewed 19 October against BNR's 18 October ministerial report. Damage and investigation follow-up reviewed 20 October against News.bg’s 19 October account of Petrov’s bTV interview (U092). Reviewed 21 October against BNR/BTA reporting of the 20 October investigation update (U098). Reviewed again 23 October against Chernomore/BGNES (U141); the onboard recovery updates this record and preserves the reporting discrepancies.",
     "id": "N079",
     "title": "Off Byala · CHELSEA 3 drone strike",
     "dateBasis": "Overnight 13 October incident. The 01:30 local distress notification is a response timestamp, not an independently verified strike time. MaltaDaily’s 13 October report gives 12 October, citing Malta’s foreign minister. The Bulgarian local-date account is retained; the discrepancy remains unresolved.",
     "location": "Black Sea, reportedly 18 nautical miles east of Byala, Varna Province; Bulgarian EEZ, outside territorial waters.",
     "status": "Officially reported drone strike and rescue; aerial/surface identification and operator unresolved",
-    "categories": "Merchant-vessel drone strike; damage; crew evacuation; reported minor injuries",
+    "categories": "Merchant-vessel drone strike; damage; crew evacuation; reported minor injuries; reported onboard drone-fragment recovery",
     "vehicle": "Three aerial drones, models unknown, according to the crew account relayed by the prime minister. CHELSEA 3 is Maltese-flagged and reportedly Ukrainian-owned, registered in Odessa. On 19 October, maritime administration director Zhivko Petrov instead assessed a surface drone as most likely; the conflicting accounts await investigation.",
     "route": "Drone launch sites and flight tracks unknown. Reported offshore location does not establish a territorial-airspace crossing.",
     "circumstances": "The prime minister reported strikes on the deck and hull. Varna’s maritime rescue centre responded to the distress call and Border Police evacuated the crew.",
-    "impact": "Vessel damaged; towed into Burgas-West on 17 October with three hull breaches. All 15 crew rescued: seven Ukrainians and eight Azerbaijanis. Five received medical treatment for initially reported minor injuries. No deaths reported.",
-    "response": "Crew brought to Varna. No interception or EOD action reported in the initial account. BNR reports docking at 08:00 on 17 October after a state-coordinated tow; inspection and an independent investigation were announced. By 19 October, the vessel was stable at restricted berth 25; a military-prosecutor pretrial investigation and specialist inspections, including divers, were underway. On 20 October, Radev reported examination of drone remains and chemical analysis of explosive material. Allied specialist teams were expected on 21 October; their arrival was not confirmed in that report.",
-    "uncertainty": "High confidence in the published official strike/rescue account; no independently verified flight tracks or published final forensic identification. Weapon identity and final investigation findings remain pending; completed towing does not establish responsibility. Nationality of crew, ship flag, ownership and attacker are separate facts. MaltaDaily gives four minor injuries, while Bulgarian reporting says five treated; these are conflicting accounts of the same crew, not additive totals. Petrov’s surface-drone assessment conflicts with the initial three-aerial-drone account and is not a final identification. The transport minister did not specify what the recovered remains were or where they were found; the prime minister referred to drone remains. Recovery does not resolve the aerial/surface identification conflict or operator.",
-    "deduplication": "One attack-and-rescue record involving three reported UAVs. Distinct from N080 off Krapets and the 6 October ALFA WATAN / ABLE attack recorded under N073.",
+    "impact": "Vessel damaged; towed into Burgas-West on 17 October with three hull breaches. All 15 crew rescued: seven Ukrainians and eight Azerbaijanis. Five received medical treatment for initially reported minor injuries. No deaths reported. Chernomore’s 20 October retrospective gives two injured, differing from earlier counts; this does not replace the five-treated figure or add casualties.",
+    "response": "Crew brought to Varna. No interception or EOD action reported in the initial account. BNR reports docking at 08:00 on 17 October after a state-coordinated tow; inspection and an independent investigation were announced. By 19 October, the vessel was stable at restricted berth 25; a military-prosecutor pretrial investigation and specialist inspections, including divers, were underway. On 20 October, Radev reported examination of drone remains and chemical analysis of explosive material. Allied specialist teams were expected on 21 October; their arrival was not confirmed in that report. Chernomore/BGNES’s 20 October account specifically reports drone fragments aboard the ship and no ammunition or radiation found in initial inspections.",
+    "uncertainty": "High confidence in the published official strike/rescue account; no independently verified flight tracks or published final forensic identification. Weapon identity and final investigation findings remain pending; completed towing does not establish responsibility. Nationality of crew, ship flag, ownership and attacker are separate facts. MaltaDaily gives four minor injuries, while Bulgarian reporting says five treated; these are conflicting accounts of the same crew, not additive totals. Petrov’s surface-drone assessment conflicts with the initial three-aerial-drone account and is not a final identification. The BNR/BTA account (U098) leaves the fragments’ nature and recovery location unspecified in the transport minister’s statement; Chernomore/BGNES (U141) explicitly reports drone fragments found aboard. That more specific account is retained with attribution rather than treated as a published final forensic identification. Recovery does not resolve the aerial/surface identification conflict or operator.",
+    "deduplication": "One 13 October attack record, including the crew evacuation, 17 October tow and 20 October fragment-investigation update. The initial account reported three aerial UAVs; later surface-drone assessment remains unresolved. Distinct from N080 off Krapets and the 6 October ALFA WATAN / ABLE attack recorded under N073.",
     "positions": [
       {
         "lat": 42.88,
@@ -6821,8 +6823,8 @@
     ]
   },
   {
-    "reviewedOn": "2026-10-21",
-    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in OnAlert and ProtoThema and NewsIT. Original GEETHA bulletin not retrieved directly.",
+    "reviewedOn": "2026-10-23",
+    "provenance": "Added and reviewed 2026-10-21 against matching published accounts in OnAlert and ProtoThema and NewsIT. Original GEETHA bulletin not retrieved directly. Rechecked 23 October against Thestival (U142), which corroborates five UAVs and nine UAV national-airspace violations. This is the existing 20 October occurrence.",
     "id": "N111",
     "title": "Northeastern / central / southeastern Aegean · Greek-reported Turkish UAVs",
     "recordClass": "event",
@@ -6854,7 +6856,7 @@
     "payload": "UAV armament and payload not established.",
     "impact": "No crash, casualties or damage reported.",
     "response": "Identification and interception under standard procedures reported; no UAV shoot-down reported.",
-    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown.",
+    "uncertainty": "Original GEETHA bulletin not retrieved directly. Matching publications corroborate the reported military account, not the flight tracks or disputed airspace assessment. Exact sortie times and locations remain unknown. Thestival corroborates the UAV number and national-airspace count but reports only the combined FIR total; it does not independently verify the UAV-specific eight.",
     "deduplication": "One dated regional UAV-activity record. The 5/9/8 aircraft/airspace/FIR quantities are different measures and are not summed or expanded into separate event rows.",
     "classificationNote": "Flight: routine interception does not establish armed engagement.",
     "reported_UAVs": 5,
@@ -6863,7 +6865,8 @@
     "sources": [
       "U128",
       "U129",
-      "U130"
+      "U130",
+      "U142"
     ]
   },
   {
@@ -6904,6 +6907,184 @@
     "classificationNote": "Red Strike for the reported damaging drone attack; no inferred explosion, completed sinking or additional deaths.",
     "sources": [
       "U131"
+    ],
+    "reviewedOn": "2026-10-23"
+  },
+  {
+    "id": "N113",
+    "title": "Northeastern / central / southeastern Aegean · Greek-reported Turkish UAVs",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-10-21",
+    "dateLabel": "2026-10-21",
+    "dateBasis": "Activity on 21 October 2026, reported that evening. Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Northeastern / central / southeastern Aegean Sea; exact sites and tracks unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "12 reported national-airspace violations and 9 Athens FIR infringements involving 8 UAVs",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Northeastern / central / southeastern Aegean — broad regional anchor"
+      }
+    ],
+    "positionNote": "Editorial regional anchor, not a verified crossing point or flight track. Overlapping records are not shifted.",
+    "vehicle": "8 Turkish military UAVs according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified approach tracks.",
+    "circumstances": "Greek military figures assign 12 national-airspace violations and 9 FIR infringements to 8 UAVs. Six accompanying F-16s and their five airspace violations and two FIR infringements are excluded.",
+    "payload": "No armed aircraft reported in the cited daily account; exact UAV payloads not identified.",
+    "impact": "No casualties, damage or crashes reported.",
+    "response": "Aircraft identified and intercepted under established procedures. No weapons engagement, shoot-down, recovery or EOD operation reported.",
+    "uncertainty": "Militaire and NewsIT reproduce matching UAV-specific figures; To Vima corroborates the eight UAVs and regional activity but gives combined aircraft totals. Original GEETHA bulletin not retrieved directly; precise tracks and the disputed airspace assessment are not independently verified.",
+    "deduplication": "One dated UAV-activity record for 21 October. Aircraft, airspace violations and FIR infringements are different measures, not additive incident counts. Separate from other Greek dates.",
+    "provenance": "Added 23 October 2026 after reviewing the supplied daily reports and their cited articles. Original research snapshots unchanged.",
+    "classificationNote": "Flight: routine interception is not armed engagement.",
+    "reported_UAVs": 8,
+    "reported_airspace_violations": 12,
+    "reported_FIR_infractions": 9,
+    "sources": [
+      "U132",
+      "U133",
+      "U134"
+    ],
+    "reviewedOn": "2026-10-23"
+  },
+  {
+    "id": "N114",
+    "title": "Central / southeastern Aegean · Greek-reported Turkish UAVs",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-10-22",
+    "dateLabel": "2026-10-22",
+    "dateBasis": "Activity on 22 October 2026, reported that evening. Individual sortie times unpublished.",
+    "countries": "Greece",
+    "location": "Central / southeastern Aegean Sea; exact sites and tracks unpublished.",
+    "status": "Greek-authority-reported Turkish UAV airspace violations",
+    "categories": "3 reported national-airspace violations and 7 Athens FIR infringements involving 5 UAVs",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 37.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Central / southeastern Aegean — broad regional anchor"
+      }
+    ],
+    "positionNote": "Editorial regional anchor, not a verified crossing point or flight track. Overlapping records are not shifted.",
+    "vehicle": "5 Turkish military UAVs according to Greek military reporting; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified approach tracks.",
+    "circumstances": "Greek military figures assign 3 national-airspace violations and 7 FIR infringements to 5 UAVs. Two accompanying F-16s and one ATR-72, responsible for three further FIR infringements, are excluded.",
+    "payload": "No armed aircraft reported in the cited daily account; exact UAV payloads not identified.",
+    "impact": "No casualties, damage or crashes reported.",
+    "response": "Aircraft identified and intercepted under established procedures. No weapons engagement, shoot-down, recovery or EOD operation reported.",
+    "uncertainty": "TheOpinion and Edolio5 reproduce matching figures, with closely matching text; they are not treated as independent flight-track verification. Original GEETHA bulletin not retrieved directly; precise tracks and the disputed airspace assessment are not independently verified.",
+    "deduplication": "One dated UAV-activity record for 22 October. Aircraft, airspace violations and FIR infringements are different measures, not additive incident counts. Separate from other Greek dates.",
+    "provenance": "Added 23 October 2026 after reviewing the supplied daily reports and their cited articles. Original research snapshots unchanged.",
+    "classificationNote": "Flight: routine interception is not armed engagement.",
+    "reported_UAVs": 5,
+    "reported_airspace_violations": 3,
+    "reported_FIR_infractions": 7,
+    "sources": [
+      "U135",
+      "U136"
+    ],
+    "reviewedOn": "2026-10-23"
+  },
+  {
+    "id": "N115",
+    "title": "Moșești, Robeasca · Unidentified drone fragments",
+    "recordClass": "candidate",
+    "recordType": "provisional_drone_debris_discovery",
+    "startDate": "2026-10-21",
+    "dateLabel": "2026-10-21 (discovery; crash date unknown)",
+    "dateBasis": "Discovery on the morning of 21 October. The fragments do not establish when the aircraft crashed.",
+    "countries": "Romania",
+    "location": "Field outside Moșești village, Robeasca commune, Buzău County; precise discovery site unpublished.",
+    "status": "Provisional drone-fragment discovery; origin and crash date unresolved",
+    "categories": "Unidentified drone wreckage discovery; identification investigation",
+    "category": "recovery",
+    "stages": [
+      "recovery"
+    ],
+    "positions": [
+      {
+        "lat": 45.12,
+        "lng": 27.15,
+        "precision": "locality",
+        "label": "Moșești — approximate village anchor"
+      }
+    ],
+    "positionNote": "Rounded village centre from U144; not the surveyed debris field.",
+    "vehicle": "Apparent drone engine, fuselage and propeller fragments; model unknown.",
+    "attribution": "Origin and operator unknown; foreign involvement and cross-border entry unsubstantiated.",
+    "route": "No flight track or entry route established.",
+    "circumstances": "A resident reported fragments in a field via 112. The prefect described debris scattered over about 100 square metres, without visible markings.",
+    "payload": "No explosive elements found in the initial checks reported by the prefect; original payload unknown.",
+    "impact": "No casualties or material damage reported in the reviewed accounts.",
+    "response": "Area secured; MApN and SRI specialists investigated. No confirmed interception or controlled disposal.",
+    "uncertainty": "High confidence in the reported discovery. Drone identity, origin and crash date remain unresolved. No confirmed foreign incursion or NATO shoot-down is established.",
+    "deduplication": "One 21 October discovery, backfilled from the later review. No separate crash row or inferred crash date.",
+    "provenance": "Added as a provisional candidate on 23 October after reviewing AGERPRES and Radio România. Original research unchanged.",
+    "classificationNote": "Recovery candidate; discovery does not establish a same-day crash or foreign attribution.",
+    "sources": [
+      "U137",
+      "U138",
+      "U144"
+    ],
+    "reviewedOn": "2026-10-23"
+  },
+  {
+    "id": "N116",
+    "title": "Lubaczów · Unarmed foam-airframe discovery",
+    "recordClass": "candidate",
+    "recordType": "provisional_drone_debris_discovery",
+    "startDate": "2026-10-21",
+    "dateLabel": "2026-10-21 (discovery); examination update 22 October",
+    "dateBasis": "Wreckage report shortly after 13:00 on 21 October. The 22 October examination is a follow-up, not a second event; exact crash time unestablished.",
+    "countries": "Poland",
+    "location": "Herzoga Street, Lubaczów, Podkarpackie Province; an unoccupied residential property.",
+    "status": "Unarmed foam airframe confirmed by military police; origin unresolved",
+    "categories": "Unidentified drone wreckage discovery; precautionary evacuation; laboratory investigation",
+    "category": "recovery",
+    "stages": [
+      "recovery"
+    ],
+    "positions": [
+      {
+        "lat": 50.16,
+        "lng": 23.12,
+        "precision": "locality",
+        "label": "Lubaczów — approximate town anchor"
+      }
+    ],
+    "positionNote": "Rounded urban-area reference from U145; not the precise property or discovery coordinate.",
+    "vehicle": "Small foam airframe, unarmed and without combat characteristics according to the Military Gendarmerie. Preliminary media reporting estimated about 80 centimetres; model unknown.",
+    "attribution": "Origin and operator unresolved. Foreign involvement is not established; a smuggling explanation remains unverified.",
+    "route": "No verified route, border crossing or launch location.",
+    "circumstances": "Wreckage was found on the lawn of an unoccupied property. Residents within roughly 150 metres were evacuated while specialists examined the object.",
+    "payload": "Military police reported no explosives and no radiological, biological or chemical hazards on 22 October, superseding the initial explosive uncertainty.",
+    "impact": "No injuries or property damage reported. Precautionary evacuation affected nearby residents.",
+    "response": "Police, military investigators and other services secured the site; a robot assisted hazard checks. The object was retained for laboratory examination under a military prosecutor.",
+    "uncertainty": "The examination establishes an unarmed, non-combat airframe, not its origin. The exact model, purpose and crash time remain unresolved. No foreign-drone incursion is confirmed.",
+    "deduplication": "One discovery record combining the 21 October report and 22 October examination. Distinct from the Norwegian training drone recovered at Wydrza that day. The earlier watchlist recommendation does not create another row.",
+    "provenance": "Promoted to a mapped provisional candidate on 23 October after reviewing the local prosecutor report and military-police follow-up. Original research unchanged.",
+    "classificationNote": "Recovery candidate reflecting the documented wreckage discovery; no confirmed foreign attribution or inferred shoot-down.",
+    "sources": [
+      "U139",
+      "U140",
+      "U143",
+      "U145"
     ],
     "reviewedOn": "2026-10-23"
   }
