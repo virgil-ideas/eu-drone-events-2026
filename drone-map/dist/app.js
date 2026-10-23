@@ -94,10 +94,49 @@
   let soundEnabled = true;
   let audioContext = null;
   let audioOutput = null;
-  // C-major pentatonic, rising with the event type's severity cue.
-  const categoryNotes = {alert:72, recovery:74, flight:76, disposal:79, engaged:81, shotdown:84, crash:86, strike:88, explosion:88};
+  let redImpactBuffer = null;
+  // Regular pings retain their C-major pentatonic pitches.
+  const categoryNotes = {alert:72, recovery:74, flight:76, disposal:79, engaged:81, shotdown:84, crash:86};
   const REPLAY_VOLUME = 0.05;
   const activeVoices = new Set();
+
+  function createRedImpactBuffer() {
+    const sampleRate = 44100;
+    const buffer = audioContext.createBuffer(1,Math.round(0.28 * sampleRate),sampleRate);
+    const samples = buffer.getChannelData(0);
+    const partials = [[64,0.60,0.065],[76,0.33,0.095],[88,0.10,0.035],[91,0.035,0.018]]
+      .map(([note,weight,decay]) => [440 * 2 ** ((note - 69) / 12),weight,decay]);
+    let seed = 23;
+    let low = 0;
+    let slow = 0;
+    let impactEnergy = 0;
+    let pingEnergy = 0;
+    for (let i = 0; i < samples.length; i++) {
+      const time = i / sampleRate;
+      const attack = 1 - Math.exp(-time / 0.0028);
+      const fade = Math.min(1,Math.max(0,(0.28 - time) / 0.035));
+      const phaseTime = time + 0.025 * 0.009 * (1 - Math.exp(-time / 0.009));
+      const ring = partials.reduce((sum,[frequency,weight,decay]) =>
+        sum + weight * Math.exp(-time / decay) * Math.sin(2 * Math.PI * frequency * phaseTime),0);
+      seed = (Math.imul(seed,1664525) + 1013904223) >>> 0;
+      const noise = seed / 4294967296 * 2 - 1;
+      low += 0.40 * (noise - low);
+      slow += 0.045 * (low - slow);
+      const contact = 0.13 * (low - slow) * Math.exp(-time / 0.009);
+      samples[i] = attack * fade * (ring + contact);
+      impactEnergy += samples[i] ** 2;
+      // Match the old red ping's energy; retain the existing master volume.
+      const envelope = time < 0.014 ? time / 0.014 : time < 0.22
+        ? Math.exp(Math.log(0.0001) * (time - 0.014) / 0.206)
+        : 0.0001 * Math.max(0,(0.24 - time) / 0.02);
+      const ping = envelope * Math.sin(2 * Math.PI * 440 * 2 ** ((88 - 69) / 12) * time);
+      pingEnergy += ping ** 2;
+    }
+    const scale = Math.sqrt(pingEnergy / impactEnergy);
+    for (let i = 0; i < samples.length; i++) samples[i] *= scale;
+    samples[samples.length - 1] = 0;
+    return buffer;
+  }
 
   function prepareAudio() {
     if (!soundEnabled) return;
@@ -137,21 +176,28 @@
     // Types form a chord. Repeated types affect its balance, not the volume cap.
     const totalWeight = [...counts.values()].reduce((sum,count) => sum + Math.sqrt(count),0);
     counts.forEach((count,category) => {
-      const tone = audioContext.createOscillator();
+      const redEvent = category === 'strike' || category === 'explosion';
+      const tone = redEvent ? audioContext.createBufferSource() : audioContext.createOscillator();
       const envelope = audioContext.createGain();
       const level = Math.sqrt(count) / totalWeight;
-      tone.type = 'sine';
-      tone.frequency.setValueAtTime(440 * 2 ** ((categoryNotes[category] - 69) / 12),now);
-      envelope.gain.setValueAtTime(0,now);
-      envelope.gain.linearRampToValueAtTime(level,now + 0.014);
-      envelope.gain.exponentialRampToValueAtTime(0.0001,now + 0.22);
-      envelope.gain.linearRampToValueAtTime(0,now + 0.24);
+      if (redEvent) {
+        // The cached E4/E5 metallic impact includes its own attack and decay.
+        tone.buffer = redImpactBuffer ||= createRedImpactBuffer();
+        envelope.gain.setValueAtTime(level,now);
+      } else {
+        tone.type = 'sine';
+        tone.frequency.setValueAtTime(440 * 2 ** ((categoryNotes[category] - 69) / 12),now);
+        envelope.gain.setValueAtTime(0,now);
+        envelope.gain.linearRampToValueAtTime(level,now + 0.014);
+        envelope.gain.exponentialRampToValueAtTime(0.0001,now + 0.22);
+        envelope.gain.linearRampToValueAtTime(0,now + 0.24);
+      }
       tone.connect(envelope).connect(audioOutput);
       const voice = {tone,envelope};
       activeVoices.add(voice);
       tone.onended = () => { tone.disconnect(); envelope.disconnect(); activeVoices.delete(voice); };
       tone.start(now);
-      tone.stop(now + 0.24);
+      tone.stop(now + (redEvent ? tone.buffer.duration : 0.24));
     });
   }
   function revealEvents(arrivals) {
