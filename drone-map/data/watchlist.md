@@ -261,3 +261,15 @@ The original GEETHA daily bulletins remain unretrieved. Matching publications co
 **Unresolved:** 13–14 October still lack corroborated dated accounts. Veteranos remains the only located matching source for 16 October (5 UAVs / 2 national-airspace violations / 7 FIR infringements) and 17 October (2 / 6 / 4). A newly located [18 October Veteranos lead](https://veteranos.gr/tourkikes-paraviaseis-sto-aigaio-5-uav-me-10-paravaseis-kai-6-paraviaseis-tou-eech/) reports 5 / 6 / 10, but only search text was retrievable and no second account was found. None is promoted to a mapped record. These gaps are not verified zero-event days.
 
 No new qualifying Cyprus entry was established. NA002, NA003 and NA005 remain non-additive context. A [19 September Kathimerini teaser](https://beta-m.kathimerini.com.cy/gr/kypros/apokalyptiko-reportaz-k-prokliseis-poy-aggizoyn-eleytheres-perioxes) mentions a 19 August occurrence in Nicosia FIR, but accessible detail does not establish the vehicle, location and sovereign crossing required for another record. Authorized electricity-network inspections and municipal mosquito-control flights are excluded.
+
+## Targeted KHORYV addition — 23 October 2026
+
+[N112 — KHORYV](https://droneincidents.eu/events/2026-10-23-khoryv-drone-strike-constanta-romania/)
+adds one reported offshore drone attack from the supplied Adevărul report (U131).
+The ship is distinct from the earlier named vessels. The reported strike, fire,
+sinking in progress and rescue are one occurrence. Follow up the final vessel
+condition, missing crew and attribution without adding duplicate stages.
+
+The inclusive cutoff advances to 23 October to accommodate this occurrence.
+This was a targeted article review, not a completed EU-wide search for 21–23
+October. Existing country and date coverage gaps remain open.

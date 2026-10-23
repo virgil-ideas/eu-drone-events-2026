@@ -2249,5 +2249,13 @@
     "url": "https://www.newsit.gr/ellada/i-tourkia-prokalei-ksana-sto-aigaio-me-14-paraviaseis-kai-10-paravaseis/4803211/",
     "dateLabel": "20 October 2026, 18:38 local publication time",
     "audit": "Full article read 21 October 2026. Matches OnAlert wording and five/nine/eight UAV breakdown. Treated as derivative coverage, not independent corroboration. Original GEETHA bulletin not directly retrieved."
+  },
+  "U131": {
+    "id": "U131",
+    "publisher": "Adevărul / Romanian Naval Authority statement",
+    "title": "KHORYV reports drone attack off Constanța; one dead and three missing",
+    "url": "https://adevarul.ro/stiri-locale/constanta/o-nava-comerciala-a-fost-ataca-cu-drone-si-se-2565996.html",
+    "dateLabel": "23 October 2026; published 11:22, updated 11:52 local time",
+    "audit": "Full article read 23 October. Quotes the Naval Authority on location, crew and rescue totals; reports a Mayday/Drone attack call, fire and sinking in progress. No operator, drone model or completed sinking established. The quoted official statement was not separately retrieved."
   }
 }

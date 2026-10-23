@@ -7091,6 +7091,48 @@ window.DRONE_DATA = {
         "U130"
       ],
       "page": "events/2026-10-20-turkish-uav-activity-aegean-greece/"
+    },
+    {
+      "id": "N112",
+      "title": "KHORYV off Constanța · Reported drone strike, fire and sinking",
+      "recordClass": "event",
+      "recordType": "reported_offshore_drone_strike",
+      "startDate": "2026-10-23",
+      "dateLabel": "2026-10-23 (MRCC alerted around 10:00 local time)",
+      "dateBasis": "The 10:00 time is the reported rescue alert, not an established strike time.",
+      "countries": "Romania (offshore, outside territorial waters)",
+      "location": "Black Sea, approximately 13 nautical miles off Constanța; outside Romanian territorial waters according to the Naval Authority quoted by Adevărul.",
+      "status": "Reported drone strike and sinking in progress; one dead, nine rescued, three missing",
+      "categories": "Reported drone strike on merchant shipping; fire; reported sinking; search and rescue",
+      "category": "strike",
+      "stages": [
+        "strike"
+      ],
+      "positions": [
+        {
+          "lat": 44.18,
+          "lng": 28.97,
+          "precision": "offshore",
+          "label": "Off Constanța — approximate offshore anchor"
+        }
+      ],
+      "positionNote": "Rounded editorial anchor east of Constanța using the reported offshore distance. No exact bearing or coordinates were published; this is not an AIS position or boundary measurement.",
+      "vehicle": "KHORYV, Comoros-flagged OBO carrier. Drone type and number unknown.",
+      "attribution": "Operator and national origin unknown; no Russian or Ukrainian attribution established in the reviewed report.",
+      "route": "Reported voyage: Ereğli, Turkey, departed 21 October, toward Sulina. Drone approach unknown. Offshore attack, not a confirmed sovereign-territory incursion.",
+      "circumstances": "Adevărul reports a drone-attack distress call, fire and sinking in progress. These are retained as one incident.",
+      "payload": "Unknown. Fire does not establish a separate explosion.",
+      "impact": "Naval Authority figures quoted at 11:52: one dead, nine rescued alive and three missing, from thirteen crew (ten Ukrainians, three Azerbaijanis). Individual casualty nationalities unspecified. Completed sinking unconfirmed.",
+      "response": "MRCC coordinated ARSVOM and Interior Ministry rescue vessels. Poor weather and visibility prevented helicopter assistance; searches continued.",
+      "uncertainty": "Breaking-news snapshot. Drone causation is supported by the reported distress call, without a retrieved technical finding. Final vessel condition, missing crew’s fate and operator remain unresolved.",
+      "deduplication": "One new KHORYV occurrence, distinct from WINE TRADER, YARA J, Sea Destiny and the earlier offshore attacks. Strike, fire, sinking report and rescue are not separate rows.",
+      "provenance": "Added 23 October 2026 after reviewing the supplied Adevărul report. Original research snapshots unchanged.",
+      "classificationNote": "Red Strike for the reported damaging drone attack; no inferred explosion, completed sinking or additional deaths.",
+      "sourceReferences": "[U131][U131]",
+      "sources": [
+        "U131"
+      ],
+      "page": "events/2026-10-23-khoryv-drone-strike-constanta-romania/"
     }
   ],
   "contexts": [
@@ -9527,9 +9569,17 @@ window.DRONE_DATA = {
       "url": "https://www.newsit.gr/ellada/i-tourkia-prokalei-ksana-sto-aigaio-me-14-paraviaseis-kai-10-paravaseis/4803211/",
       "dateLabel": "20 October 2026, 18:38 local publication time",
       "audit": "Full article read 21 October 2026. Matches OnAlert wording and five/nine/eight UAV breakdown. Treated as derivative coverage, not independent corroboration. Original GEETHA bulletin not directly retrieved."
+    },
+    "U131": {
+      "id": "U131",
+      "publisher": "Adevărul / Romanian Naval Authority statement",
+      "title": "KHORYV reports drone attack off Constanța; one dead and three missing",
+      "url": "https://adevarul.ro/stiri-locale/constanta/o-nava-comerciala-a-fost-ataca-cu-drone-si-se-2565996.html",
+      "dateLabel": "23 October 2026; published 11:22, updated 11:52 local time",
+      "audit": "Full article read 23 October. Quotes the Naval Authority on location, crew and rescue totals; reports a Mayday/Drone attack call, fire and sinking in progress. No operator, drone model or completed sinking established. The quoted official statement was not separately retrieved."
     }
   },
-  "cutoff": "2026-10-20",
+  "cutoff": "2026-10-23",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"
