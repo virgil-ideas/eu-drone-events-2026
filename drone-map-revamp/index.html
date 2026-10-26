@@ -45,8 +45,9 @@
   <script defer src="pages-data.js?v=20261023-revamp"></script>
   <script defer src="media.js?v=20261023-revamp"></script>
   <script defer src="trend-data.js?v=20261023-revamp"></script>
-  <script defer src="i18n/en.js?v=20261023-revamp"></script>
-  <script defer src="app.js?v=20261023-revamp"></script>
+  <script defer src="i18n/en.js?v=20261026-fixes"></script>
+  <script defer src="replay-data.js?v=20261026-fixes"></script>
+  <script defer src="app.js?v=20261026-fixes"></script>
   <script defer src="analytics.js?v=20261023-revamp"></script>
 </head>
 <body>
@@ -74,7 +75,7 @@
       <span class="pulse-stat"><strong id="cutoff-label">23 Oct</strong> <span data-i18n="stats.cutoff">coverage cutoff</span></span>
       <button id="trend-pill-button" class="trend-pill" type="button" title="View monthly breakdown and 90-day comparison" data-i18n-title="revamp.trendPillTitle">
         <span class="trend-pill-delta" id="trend-pill-delta">▲ +324%</span>
-        <span class="trend-pill-label" data-i18n="revamp.trendPillLabel">last 90d</span>
+        <span class="trend-pill-label" data-i18n="trend.legendRecent">last 90d</span>
         <span class="mini-spark" id="mini-spark" aria-hidden="true"></span>
         <span class="trend-pill-cta" data-i18n="revamp.trendPillCta">Trends ▾</span>
       </button>
@@ -177,13 +178,13 @@
         <div class="maritime-turn-head">
           <span class="maritime-turn-eyebrow">
             <span class="maritime-turn-dot" aria-hidden="true"></span>
-            <span data-i18n="revamp.darkTurnEyebrow">TURNING POINT · OCT 2026 · BLACK SEA &amp; ROMANIAN WATERS</span>
+            <span lang="en">TURNING POINT · OCT 2026 · BLACK SEA &amp; ROMANIAN WATERS</span>
           </span>
           <button type="button" id="toggle-maritime-banner" class="maritime-turn-toggle" aria-expanded="true" aria-label="Collapse turning point banner" data-i18n-aria="revamp.darkTurnDismissAria">▾</button>
         </div>
-        <h2 id="maritime-turn-heading" class="maritime-turn-title" data-i18n="revamp.darkTurnTitle">When Things Took a Dark Turn: Lethal Strikes on Black Sea Shipping</h2>
+        <h2 id="maritime-turn-heading" class="maritime-turn-title" lang="en">When Things Took a Dark Turn: Lethal Strikes on Black Sea Shipping</h2>
         <div id="maritime-turn-body-wrap" class="maritime-turn-body-wrap">
-          <p class="maritime-turn-body" data-i18n="revamp.darkTurnBody">After months of non-lethal airspace crossings and coastal debris, October 2026 brought a sharp escalation: 8 merchant vessels were struck or targeted off Romania and Bulgaria—including inside Romanian territorial waters near Sulina (YARA J, Sea Destiny) and off Constanța (KHORYV)—leaving sailors killed, injured, and over 30 crew reported missing.</p>
+          <p class="maritime-turn-body" lang="en">After months of non-lethal airspace crossings and coastal debris, October 2026 brought a sharp escalation: 8 records cover 9 merchant vessels struck or targeted off Romania and Bulgaria—including YARA J and Sea Destiny inside Romanian territorial waters near Sulina, and KHORYV outside territorial waters off Constanța—leaving sailors killed, injured, and over 30 crew reported missing.</p>
           <div class="maritime-turn-actions">
             <button type="button" id="focus-maritime-btn" class="maritime-action-btn primary">
               <span id="focus-maritime-label">Focus on Ship Incidents (11)</span>
@@ -281,7 +282,7 @@
           </div>
           <div class="interval-presets" role="group" aria-label="Quick interval presets">
             <button type="button" class="preset-chip active" data-preset="all" aria-pressed="true" data-i18n="revamp.presetAll">All 2026</button>
-            <button type="button" class="preset-chip" data-preset="90d" aria-pressed="false" data-i18n="revamp.preset90d">Last 90d</button>
+            <button type="button" class="preset-chip" data-preset="90d" aria-pressed="false" data-i18n="trend.legendRecent">Last 90d</button>
             <button type="button" class="preset-chip" data-preset="30d" aria-pressed="false" data-i18n="revamp.preset30d">Last 30d</button>
             <button type="button" class="preset-chip" data-preset="surge" aria-pressed="false" data-i18n="revamp.presetSurge">Aug–Oct Surge</button>
             <button type="button" class="preset-chip" data-preset="oct" aria-pressed="false" data-i18n="revamp.presetOct">Oct Only</button>
@@ -353,21 +354,21 @@
   <!-- Black Sea Maritime Escalation ("When Things Took a Dark Turn") Dialog -->
   <dialog id="maritime-dialog" class="maritime-dialog" aria-labelledby="maritime-dialog-title" closedby="any">
     <div class="dialog-heading">
-      <p class="eyebrow maritime-eyebrow" data-i18n="revamp.darkTurnEyebrow">TURNING POINT · OCT 2026 · BLACK SEA &amp; ROMANIAN WATERS</p>
+      <p class="eyebrow maritime-eyebrow" lang="en">TURNING POINT · OCT 2026 · BLACK SEA &amp; ROMANIAN WATERS</p>
       <button id="close-maritime" type="button" aria-label="Close" data-i18n-aria="detail.close">×</button>
     </div>
-    <h2 id="maritime-dialog-title" data-i18n="revamp.darkTurnModalHeadline">From Airspace Incursions to Lethal Strikes on Black Sea Shipping</h2>
+    <h2 id="maritime-dialog-title" lang="en">From Airspace Incursions to Lethal Strikes on Black Sea Shipping</h2>
     <div class="maritime-phases-grid">
       <div class="maritime-phase-card calm">
-        <strong data-i18n="revamp.darkTurnPhase1Title">Jan – Sep 2026 · Airspace, Border &amp; Coastal Debris</strong>
-        <p data-i18n="revamp.darkTurnPhase1Desc">Over 100 air, border-seizure and coastal-debris records across 10 EU states with 0 confirmed fatalities (plus 3 unresolved/unconfirmed summer shipping incidents off Sfântu Gheorghe: E033, E034, E053).</p>
+        <strong lang="en">Jan – Sep 2026 · Airspace, Border &amp; Coastal Debris</strong>
+        <p lang="en">Over 100 air, border-seizure and coastal-debris records across 10 EU states with 0 confirmed fatalities (plus 3 unresolved/unconfirmed summer shipping incidents off Sfântu Gheorghe: E033, E034, E053).</p>
       </div>
       <div class="maritime-phase-card dark-turn">
-        <strong data-i18n="revamp.darkTurnPhase2Title">5 – 23 Oct 2026 · The Lethal Maritime Escalation</strong>
-        <p data-i18n="revamp.darkTurnPhase2Desc">8 merchant vessels struck or targeted in 19 days across the western Black Sea—entering Romanian territorial waters off Sulina—with confirmed deaths (Royad Mammadov, KHORYV), crew hospitalized with burns, and over 30 sailors reported missing.</p>
+        <strong lang="en">5 – 23 Oct 2026 · The Lethal Maritime Escalation</strong>
+        <p lang="en">8 records cover 9 merchant vessels struck or targeted in 19 days across the western Black Sea, including incidents in Romanian territorial waters off Sulina, with confirmed deaths (Royad Mammadov, KHORYV), crew hospitalized with burns, and over 30 sailors reported missing.</p>
       </div>
     </div>
-    <p class="maritime-honesty-note" data-i18n="revamp.darkTurnHonesty">Counting note: Casualty figures come from official naval, ministerial and diplomatic statements cited in each record. Conflicting reports are never added together, and missing sailors are not recorded as confirmed dead.</p>
+    <p class="maritime-honesty-note" lang="en">Counting note: Casualty figures come from official naval, ministerial and diplomatic statements cited in each record. Conflicting reports are never added together, and missing sailors are not recorded as confirmed dead.</p>
     <div class="maritime-modal-actions">
       <button type="button" id="modal-filter-maritime-btn" class="maritime-action-btn primary">
         <span id="modal-filter-maritime-label">Focus on Ship Incidents (11)</span>

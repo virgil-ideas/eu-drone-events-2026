@@ -33,6 +33,13 @@ jobs:
           node --check drone-map/dist/media.js
           for file in drone-map/dist/i18n/*.js; do node --check "$file"; done
           node drone-map/scripts/check-i18n.js
+      - name: Validate proposed revamp
+        run: |
+          python3 drone-map-revamp/build-pages-data.py --check
+          python3 -m unittest discover -s drone-map-revamp/tests -v
+          node --test drone-map-revamp/tests/*.cjs
+          for file in drone-map-revamp/*.js drone-map-revamp/i18n/*.js; do node --check "$file"; done
+          node drone-map/scripts/check-i18n.js --dir drone-map-revamp/i18n
   deploy:
     needs: validate
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'

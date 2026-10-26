@@ -1,13 +1,19 @@
 // Validate interface translations against the English strings:
 // same keys, same {placeholders}, and every plural category the language uses.
-// Usage: node scripts/check-i18n.js [lang ...]
+// Usage: node scripts/check-i18n.js [--dir path/to/i18n] [lang ...]
 'use strict';
 const fs = require('fs');
 const path = require('path');
 const vm = require('vm');
 
 const LANGUAGES = 'bg cs da de el en es et fi fr ga hr hu it lt lv mt nl pl pt ro sk sl sv'.split(' ');
-const dir = path.join(__dirname, '..', 'dist', 'i18n');
+const args = process.argv.slice(2);
+const dirFlag = args.indexOf('--dir');
+if (dirFlag !== -1 && (!args[dirFlag + 1] || args[dirFlag + 1].startsWith('--'))) {
+  console.error('--dir requires a directory path');
+  process.exit(1);
+}
+const dir = dirFlag === -1 ? path.join(__dirname, '..', 'dist', 'i18n') : path.resolve(args.splice(dirFlag, 2)[1]);
 const sandbox = {window: {}};
 vm.createContext(sandbox);
 const load = lang => vm.runInContext(fs.readFileSync(path.join(dir, `${lang}.js`), 'utf8'), sandbox, {filename: `${lang}.js`});
@@ -18,7 +24,7 @@ const same = (a, b) => a.size === b.size && [...a].every(item => b.has(item));
 
 let failures = 0;
 const fail = (lang, message) => { failures++; console.error(`${lang}: ${message}`); };
-const requested = process.argv.slice(2);
+const requested = args;
 for (const lang of requested.length ? requested : LANGUAGES) {
   if (!LANGUAGES.includes(lang)) { fail(lang, 'not an official EU language code'); continue; }
   if (!fs.existsSync(path.join(dir, `${lang}.js`))) { fail(lang, 'file missing'); continue; }

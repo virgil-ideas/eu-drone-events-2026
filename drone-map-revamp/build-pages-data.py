@@ -4,7 +4,6 @@ generated static assets from drone-map/dist/ into drone-map-revamp/.
 """
 import argparse
 import json
-import shutil
 import sys
 from pathlib import Path
 
@@ -14,6 +13,29 @@ sys.path.insert(0, str(DRONE_MAP_DIR / 'scripts'))
 
 from database import DataError, load_database, mapped_events  # noqa: E402
 from pages import copy_for, load_pages  # noqa: E402
+
+SHARED_ASSETS = ('events.js', 'sitemap.xml', 'media.js', 'trend-data.js', 'landmark.js')
+
+
+def sync_assets(source, destination, check=False):
+    expected = {Path(name): (source / name).read_bytes() for name in SHARED_ASSETS}
+    event_files = list((source / 'events').rglob('*.html'))
+    if not event_files:
+        raise DataError('Canonical event pages are missing. Build drone-map first.')
+    expected.update({path.relative_to(source): path.read_bytes() for path in event_files})
+    extras = {path.relative_to(destination) for path in (destination / 'events').rglob('*.html')} - expected.keys()
+    if check:
+        stale = [str(path) for path, data in expected.items()
+                 if not (destination / path).is_file() or (destination / path).read_bytes() != data]
+        if stale or extras:
+            raise DataError('Revamp assets are stale: ' + ', '.join(sorted(stale + [str(path) for path in extras])))
+        return
+    for path in extras:
+        (destination / path).unlink()
+    for path, data in expected.items():
+        target = destination / path
+        target.parent.mkdir(parents=True, exist_ok=True)
+        target.write_bytes(data)
 
 
 def render_pages_data(data_dir=DRONE_MAP_DIR / 'data', research_root=DRONE_MAP_DIR.parent):
@@ -32,7 +54,7 @@ def render_pages_data(data_dir=DRONE_MAP_DIR / 'data', research_root=DRONE_MAP_D
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--check', action='store_true', help='Verify pages-data.js is up to date without writing.')
+    parser.add_argument('--check', action='store_true', help='Verify editorial summaries and every copied data asset and event page without writing.')
     args = parser.parse_args()
 
     content, count = render_pages_data()
@@ -41,21 +63,12 @@ def main():
     if args.check:
         if not out_path.exists() or out_path.read_text(encoding='utf-8') != content:
             raise DataError('drone-map-revamp/pages-data.js is stale. Run python3 drone-map-revamp/build-pages-data.py')
-        print(f'Verified {count} editorial summaries in {out_path}')
+        sync_assets(DRONE_MAP_DIR / 'dist', REVAMP_DIR, check=True)
+        print(f'Verified {count} editorial summaries and all copied data assets and event pages.')
         return
 
     out_path.write_text(content, encoding='utf-8')
-    dist_dir = DRONE_MAP_DIR / 'dist'
-    for filename in ('events.js', 'sitemap.xml', 'media.js', 'trend-data.js', 'landmark.js'):
-        src = dist_dir / filename
-        if src.exists():
-            shutil.copy2(src, REVAMP_DIR / filename)
-    events_src = dist_dir / 'events'
-    events_dst = REVAMP_DIR / 'events'
-    if events_src.is_dir():
-        if events_dst.exists():
-            shutil.rmtree(events_dst)
-        shutil.copytree(events_src, events_dst)
+    sync_assets(DRONE_MAP_DIR / 'dist', REVAMP_DIR)
     print(f'Wrote {count} compact editorial summaries to {out_path} and synced dist assets.')
 
 

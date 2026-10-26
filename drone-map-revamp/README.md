@@ -17,6 +17,20 @@ python3 drone-map-revamp/build-pages-data.py
 python3 drone-map-revamp/build-pages-data.py --check
 ```
 
+The usual `python3 drone-map/scripts/build-data.py` command also refreshes this
+folder, and its `--check` mode verifies both outputs without writing. The check
+verifies summaries, copied event data, media, and
+every static event page. CI validates both interfaces; deployment continues to
+publish `drone-map/dist/` until the redesign is explicitly adopted.
+
+Regression checks:
+
+```sh
+node --test drone-map-revamp/tests/*.cjs
+python3 -m unittest discover -s drone-map-revamp/tests -v
+node drone-map/scripts/check-i18n.js --dir drone-map-revamp/i18n
+```
+
 ## Key Changes in This Revamp
 
 1. **Latest Incidents Visible Immediately Above the Fold**
@@ -24,7 +38,7 @@ python3 drone-map-revamp/build-pages-data.py --check
    - The left panel starts immediately with the latest incidents (`23 Oct 2026` at the top) plus instant search, country filter, and outcome-type filter.
 
 2. **Spotlight: "When Things Took a Dark Turn" — October 2026 Black Sea Maritime Escalation**
-   - Highlights the 5–23 October 2026 shift in the register from non-lethal border crossings and coastal debris to direct, lethal drone strikes on merchant shipping in the western Black Sea off Romania and Bulgaria — including inside **Romanian territorial waters** near Sulina (*YARA J* `N086`, *Sea Destiny* `N089`), off Sulina (*WINE TRADER* `N090`), off Sfântu Gheorghe (*Royad Mammadov* `N072`), off Constanța (*KHORYV* `N112`), and in the Bulgarian EEZ (*ALFA WATAN* & *ABLE* `N073`, *CHELSEA 3* `N079`, *HS Dignity* `N080`).
+   - Highlights eight records covering nine merchant vessels in the 5–23 October 2026 escalation. Only *YARA J* `N086` and *Sea Destiny* `N089` are labeled as inside Romanian territorial waters. The offshore records retain their own jurisdiction notes: *WINE TRADER* `N090`, *Royad Mammadov* `N072`, *KHORYV* `N112`, *ALFA WATAN* & *ABLE* `N073`, *CHELSEA 3* `N079`, and *HS Dignity* `N080`.
    - Features a collapsible **Turning Point Spotlight Banner** at the top of the feed, a **3-phase chronological breakdown modal (`#maritime-dialog`)** with an interactive list of all 11 Black Sea vessel records, dedicated **⚓ Black Sea ship** and **⚠ Casualties / missing** badges on cards and briefings, an **⚓ Oct 5** marker line on the cumulative timeline curve, and one-click **Filter Ship Strikes** / **Replay Escalation** presets.
 
 3. **Headlines, TL;DR Summaries & News Articles Brought Forth**

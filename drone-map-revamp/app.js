@@ -30,7 +30,7 @@
     if (translations[code]) return Promise.resolve(true);
     return new Promise(resolve => {
       const script = document.createElement('script');
-      script.src = `i18n/${code}.js?v=20261023-revamp`;
+      script.src = `i18n/${code}.js?v=20261026-fixes`;
       script.onload = () => resolve(Boolean(translations[code]));
       script.onerror = () => { script.remove(); resolve(false); };
       document.head.append(script);
@@ -103,8 +103,6 @@
   const dayOf = date => Math.max(0, Math.min(totalDays, Math.round((dateValue(date) - firstTime) / DAY)));
 
   const eventDays = [...new Set(events.map(e => dayOf(e.startDate)))].sort((a, b) => a - b);
-  const dateCounts = new Map();
-  events.forEach(e => dateCounts.set(e.startDate, (dateCounts.get(e.startDate) || 0) + 1));
 
   // State: Time Interval [intervalStartDay, intervalEndDay], Playhead, Filters, Feed Mode
   let intervalStartDay = 0;
@@ -140,7 +138,6 @@
   const bellBuffers = new Map();
   const REPLAY_VOLUME = 0.05;
   const RECORDING_VOLUME = 0.35;
-  const BELL_GAIN = 2.6;
   const activeVoices = new Set();
 
   function prepareAudio() {
@@ -166,100 +163,92 @@
   }
 
   function createBellBuffer(note) {
-    if (bellBuffers.has(note)) return bellBuffers.get(note);
-    const sampleRate = audioContext.sampleRate;
-    const duration = 0.72;
-    const length = Math.floor(sampleRate * duration);
-    const buffer = audioContext.createBuffer(1, length, sampleRate);
-    const data = buffer.getChannelData(0);
-    const base = 440 * 2 ** ((note - 69) / 12);
-    const partials = [[0.5, 0.24, 3.6], [1, 1, 4.8], [1.183, 0.55, 6.2], [1.506, 0.42, 7.6], [2, 0.62, 8.8], [2.514, 0.34, 11], [2.662, 0.26, 13], [3.011, 0.2, 15.5], [4.166, 0.12, 20], [5.433, 0.07, 26]];
+    const sampleRate = 44100;
+    const duration = 0.9;
+    const buffer = audioContext.createBuffer(1,Math.round(duration * sampleRate),sampleRate);
+    const samples = buffer.getChannelData(0);
+    const fundamental = 440 * 2 ** ((note - 69) / 12);
+    // Inharmonic overtones add a rougher edge around the category's own note.
+    const partials = [[1,0.46,0.32],[2,0.22,0.22],[2.76,0.12,0.15],[4.08,0.075,0.105],[5.43,0.04,0.07]];
+    let seed = 23;
+    let low = 0;
+    let slow = 0;
     let peak = 0;
-    let seed = note * 2654435761 >>> 0;
-    for (let i = 0; i < length; i++) {
+    for (let i = 0; i < samples.length; i++) {
       const time = i / sampleRate;
-      const attack = Math.min(1, time / 0.0025);
-      seed = seed * 1664525 + 1013904223 >>> 0;
-      const clapper = ((seed / 4294967296) * 2 - 1) * Math.exp(-time * 95) * 0.28;
-      let sample = clapper + Math.sin(2 * Math.PI * base * 3.4 * time) * Math.exp(-time * 55) * 0.22;
-      for (const [ratio, amp, decay] of partials) {
-        const detune = 1 + Math.sin(time * 6.5 * ratio) * 0.0006;
-        sample += Math.sin(2 * Math.PI * base * ratio * detune * time) * amp * Math.exp(-time * decay);
-      }
-      const fadeOut = time > duration - 0.04 ? (duration - time) / 0.04 : 1;
-      data[i] = sample * attack * fadeOut;
-      peak = Math.max(peak, Math.abs(data[i]));
+      const attack = 1 - Math.exp(-time / 0.0017);
+      const fade = Math.min(1,Math.max(0,(duration - time) / 0.13));
+      const phaseTime = time + 0.008 * 0.012 * (1 - Math.exp(-time / 0.012));
+      const ring = partials.reduce((sum,[ratio,weight,decay]) =>
+        sum + weight * Math.exp(-time / decay) * Math.sin(2 * Math.PI * fundamental * ratio * phaseTime),0);
+      seed = (Math.imul(seed,1664525) + 1013904223) >>> 0;
+      const noise = seed / 4294967296 * 2 - 1;
+      low += 0.40 * (noise - low);
+      slow += 0.045 * (low - slow);
+      const contact = 0.13 * (low - slow) * Math.exp(-time / 0.026);
+      const texture = 1 - 0.16 * (1 - Math.cos(2 * Math.PI * 29 * time)) * Math.exp(-time / 0.3);
+      samples[i] = attack * fade * Math.tanh(1.4 * (texture * ring + contact));
+      peak = Math.max(peak,Math.abs(samples[i]));
     }
-    if (peak) for (let i = 0; i < length; i++) data[i] = data[i] / peak * 0.9;
-    bellBuffers.set(note, buffer);
+    // Keep its peak below a regular ping, while allowing a more audible tail.
+    const scale = 0.92 / peak;
+    for (let i = 0; i < samples.length; i++) samples[i] *= scale;
+    samples[samples.length - 1] = 0;
     return buffer;
   }
 
-  function stopVoices(voices = activeVoices) {
+  function stopVoices() {
     if (!audioContext) return;
     const now = audioContext.currentTime;
-    [...voices].forEach(voice => {
-      const {source, envelope} = voice;
+    activeVoices.forEach(voice => {
+      const {tone,envelope} = voice;
       const level = envelope.gain.value;
       if (envelope.gain.cancelAndHoldAtTime) envelope.gain.cancelAndHoldAtTime(now);
       else {
         envelope.gain.cancelScheduledValues(now);
-        envelope.gain.setValueAtTime(level, now);
+        envelope.gain.setValueAtTime(level,now);
       }
-      envelope.gain.linearRampToValueAtTime(0, now + 0.014);
-      source.stop(now + 0.018);
+      envelope.gain.linearRampToValueAtTime(0,now + 0.014);
+      tone.stop(now + 0.018);
       activeVoices.delete(voice);
     });
   }
-
-  function startVoice(source, envelope, stopTime, bell = false) {
-    source.connect(envelope).connect(audioOutput);
-    const voice = {source, envelope, bell};
-    activeVoices.add(voice);
-    source.onended = () => { source.disconnect(); envelope.disconnect(); activeVoices.delete(voice); };
-    source.start(audioContext.currentTime);
-    source.stop(stopTime);
-  }
-
   function playArrivalSound(arrivals) {
     if (!soundEnabled || audioContext?.state !== 'running' || !arrivals.length) return;
-    stopVoices([...activeVoices].filter(voice => !voice.bell));
+    // Start immediately without changing any voices already playing.
+    // Each voice finishes naturally, including overlapping bells.
     const now = audioContext.currentTime;
     const counts = new Map();
-    arrivals.forEach(event => counts.set(event.category, (counts.get(event.category) || 0) + 1));
-    const totalWeight = [...counts.values()].reduce((sum, count) => sum + Math.sqrt(count), 0);
-    counts.forEach((count, category) => {
-      const level = Math.sqrt(count) / totalWeight;
-      if (bellCategories.has(category)) {
-        const bell = audioContext.createBufferSource();
-        const filter = audioContext.createBiquadFilter();
-        const envelope = audioContext.createGain();
-        bell.buffer = createBellBuffer(categoryNotes[category]);
-        filter.type = 'highshelf';
-        filter.frequency.setValueAtTime(1800, now);
-        filter.gain.setValueAtTime(3.5, now);
-        envelope.gain.setValueAtTime(level * BELL_GAIN, now);
-        envelope.gain.exponentialRampToValueAtTime(0.0001, now + bell.buffer.duration);
-        bell.connect(filter);
-        const voice = {source:bell, envelope, bell:true};
-        filter.connect(envelope).connect(audioOutput);
-        activeVoices.add(voice);
-        bell.onended = () => { bell.disconnect(); filter.disconnect(); envelope.disconnect(); activeVoices.delete(voice); };
-        bell.start(now);
-        return;
-      }
-      const tone = audioContext.createOscillator();
+    arrivals.forEach(event => counts.set(event.category,(counts.get(event.category) || 0) + 1));
+    // Types form a chord. Repeated types affect its balance, not the volume cap.
+    const totalWeight = [...counts.values()].reduce((sum,count) => sum + Math.sqrt(count),0);
+    counts.forEach((count,category) => {
+      const useBell = bellCategories.has(category);
+      const tone = useBell ? audioContext.createBufferSource() : audioContext.createOscillator();
       const envelope = audioContext.createGain();
-      tone.type = 'sine';
-      tone.frequency.setValueAtTime(440 * 2 ** ((categoryNotes[category] - 69) / 12), now);
-      envelope.gain.setValueAtTime(0, now);
-      envelope.gain.linearRampToValueAtTime(level, now + 0.014);
-      envelope.gain.exponentialRampToValueAtTime(0.0001, now + 0.22);
-      envelope.gain.linearRampToValueAtTime(0, now + 0.24);
-      startVoice(tone, envelope, now + 0.24);
+      const level = Math.sqrt(count) / totalWeight;
+      if (useBell) {
+        // The cached textured bell includes its own attack and decay.
+        const note = categoryNotes[category];
+        if (!bellBuffers.has(note)) bellBuffers.set(note,createBellBuffer(note));
+        tone.buffer = bellBuffers.get(note);
+        envelope.gain.setValueAtTime(level,now);
+      } else {
+        tone.type = 'sine';
+        tone.frequency.setValueAtTime(440 * 2 ** ((categoryNotes[category] - 69) / 12),now);
+        envelope.gain.setValueAtTime(0,now);
+        envelope.gain.linearRampToValueAtTime(level,now + 0.014);
+        envelope.gain.exponentialRampToValueAtTime(0.0001,now + 0.22);
+        envelope.gain.linearRampToValueAtTime(0,now + 0.24);
+      }
+      tone.connect(envelope).connect(audioOutput);
+      const voice = {tone,envelope};
+      activeVoices.add(voice);
+      tone.onended = () => { tone.disconnect(); envelope.disconnect(); activeVoices.delete(voice); };
+      tone.start(now);
+      tone.stop(now + (useBell ? tone.buffer.duration : 0.24));
     });
   }
-
   // Recording ripple tracking for video export canvas
   const recentRipples = [];
   function revealEvents(arrivals) {
@@ -395,8 +384,7 @@
       : {paddingTopLeft:[50, 65], paddingBottomRight:[50, studioOpen ? 230 : 100]};
   }
 
-  function fitEvents() {
-    const pool = visibleEvents.length ? visibleEvents : events;
+  function fitEvents(pool = intervalEvents()) {
     const points = pool.flatMap(e => e.positions.map(p => [p.lat, p.lng]));
     if (points.length) map.fitBounds(points, {...mapPadding(), maxZoom: 8, animate: !reducedMotion});
   }
@@ -524,16 +512,20 @@
     });
   }
 
+  function matchingEvents() {
+    return events.filter(event =>
+      (!selectedCountry || allCountriesOf(event).includes(selectedCountry)) &&
+      (!selectedCategoryGroup || matchesCategoryGroup(event, selectedCategoryGroup)) &&
+      (!searchQuery || matchesSearch(event, searchQuery)));
+  }
+
+  function intervalEvents() {
+    return window.DRONE_REPLAY.intervalEvents(matchingEvents(), dayToDate(intervalStartDay), dayToDate(intervalEndDay));
+  }
+
   function computeVisibleEvents() {
-    const startDate = dayToDate(intervalStartDay);
-    const endCapDate = allMode ? dayToDate(intervalEndDay) : dayToDate(Math.min(intervalEndDay, currentDay));
-    return events.filter(event => {
-      if (event.startDate < startDate || event.startDate > endCapDate) return false;
-      if (selectedCountry && !allCountriesOf(event).includes(selectedCountry)) return false;
-      if (selectedCategoryGroup && !matchesCategoryGroup(event, selectedCategoryGroup)) return false;
-      if (searchQuery && !matchesSearch(event, searchQuery)) return false;
-      return true;
-    });
+    const endCapDate = dayToDate(allMode ? intervalEndDay : Math.min(intervalEndDay, currentDay));
+    return intervalEvents().filter(event => event.startDate <= endCapDate);
   }
 
   // Populate Country & Category filter dropdowns
@@ -807,30 +799,30 @@
         </section>
 
         <!-- 2. Structured 2x2 Key Facts At-A-Glance -->
-        <section class="key-facts-grid" aria-label="${escape(t('revamp.detailFactsAria'))}">
+        <section class="key-facts-grid" aria-label="${escape(t('detail.record'))}">
           <div class="key-fact-card">
-            <strong>${escape(t('revamp.factHappened'))}</strong>
+            <strong>${escape(t('field.circumstances'))}</strong>
             <span lang="en">${escape(event.circumstances)}</span>
           </div>
           <div class="key-fact-card">
-            <strong>${escape(t('revamp.factVehicle'))}</strong>
+            <strong>${escape(t('field.vehicle'))}</strong>
             <span lang="en">${escape(event.vehicle)}${event.payload && event.payload !== 'Not reported' ? ` · ${escape(event.payload)}` : ''}</span>
           </div>
           <div class="key-fact-card">
-            <strong>${escape(t('revamp.factImpact'))}</strong>
+            <strong>${escape(t('field.impact'))}</strong>
             <span lang="en">${escape(event.impact || t('revamp.noneReported'))}</span>
           </div>
           <div class="key-fact-card">
-            <strong>${escape(t('revamp.factResponse'))}</strong>
+            <strong>${escape(t('field.response'))}</strong>
             <span lang="en">${escape(event.response || t('revamp.notSpecified'))}</span>
           </div>
         </section>
 
         <!-- 3. Attribution & Uncertainty Shown Up Front (Never Footnoted) -->
-        <section class="uncertainty-callout" aria-label="${escape(t('revamp.detailAttributionAria'))}">
-          <strong>${escape(t('revamp.detailAttributionTitle'))}</strong>
-          <div lang="en"><strong>${escape(t('revamp.reportedAttribution'))}</strong> ${escape(event.attribution || t('revamp.unresolved'))}</div>
-          ${event.uncertainty ? `<div style="margin-top:4px" lang="en"><strong>${escape(t('revamp.caveats'))}</strong> ${escape(event.uncertainty)}</div>` : ''}
+        <section class="uncertainty-callout" aria-label="${escape(t('field.uncertainty'))}">
+          <strong>${escape(t('field.uncertainty'))}</strong>
+          <div lang="en"><strong>${escape(t('field.attribution'))}</strong> ${escape(event.attribution || t('revamp.unresolved'))}</div>
+          ${event.uncertainty ? `<div style="margin-top:4px" lang="en"><strong>${escape(t('field.uncertainty'))}</strong> ${escape(event.uncertainty)}</div>` : ''}
         </section>
 
         <!-- 4. Media & Cited News Articles -->
@@ -844,7 +836,7 @@
         <section class="detail-record">
           ${outcomeTags(event)}
           <details class="raw-record-details">
-            <summary>${escape(t('detail.record'))} · ${escape(t('revamp.positioningNotes'))} (${escape(event.id)})</summary>
+            <summary>${escape(t('detail.record'))} · ${escape(t('about.positionsTitle'))} (${escape(event.id)})</summary>
             <p class="position-note">${escape(geoNote)}${event.positionNote ? ` <span lang="en">${escape(event.positionNote)}</span>` : ''}</p>
             <dl>${fieldsHTML(event)}</dl>
           </details>
@@ -1057,15 +1049,19 @@
   }
 
   // Cumulative curve above timeline scrubber (with Oct 5 maritime turning-point marker)
-  const runningTotals = [];
-  for (let day = 0, running = 0; day <= totalDays; day++) runningTotals.push(running += dateCounts.get(dayToDate(day)) || 0);
+  let cumulativeKey = '';
   const CHART_WIDTH = 1000;
   const CHART_HEIGHT = 100;
   const chartX = day => day / totalDays * CHART_WIDTH;
-  const chartY = count => CHART_HEIGHT - count / events.length * (CHART_HEIGHT - 6);
   const darkTurnDay = dayOf(DARK_TURN_DATE);
 
   function renderCumulative() {
+    const pool = intervalEvents();
+    const key = [lang, intervalStartDay, intervalEndDay, pool.map(event => event.id).join(',')].join('|');
+    if (key === cumulativeKey) return;
+    cumulativeKey = key;
+    const runningTotals = window.DRONE_REPLAY.cumulative(pool, firstDateStr, cutoff);
+    const chartY = count => CHART_HEIGHT - count / Math.max(1, pool.length) * (CHART_HEIGHT - 6);
     let line = `M0 ${chartY(runningTotals[0])}`;
     for (let day = 1; day <= totalDays; day++) {
       if (runningTotals[day] !== runningTotals[day - 1]) line += `H${chartX(day).toFixed(2)}V${chartY(runningTotals[day]).toFixed(2)}`;
@@ -1078,7 +1074,7 @@
     const atEnd = runningTotals[winEnd];
     const point = (day, count) => `left:${chartX(day) / CHART_WIDTH * 100}%;bottom:${(CHART_HEIGHT - chartY(count)) / CHART_HEIGHT * 100}%`;
     const intervalLabel = (winStart === 0 && winEnd === totalDays)
-      ? t('trend.legendRecent')
+      ? t('timeline.allDates')
       : `${shortDate(dayToDate(winStart))} – ${shortDate(dayToDate(winEnd))}`;
     const turnX = chartX(darkTurnDay);
     const turnPct = (turnX / CHART_WIDTH) * 100;
@@ -1097,14 +1093,14 @@
     const precursorRecords = events.filter(e => MARITIME_SHIP_IDS.has(e.id) && !OCT_MARITIME_IDS.has(e.id));
     const renderItem = event => {
       const copy = pageCopyFor(event);
-      const isTerritorial = /territorial waters/i.test(event.countries);
+      const territorialCountry = window.DRONE_REPLAY.territorialCountry(event);
       const casualtyBadge = hasCasualties(event) ? `<span class="casualty-badge">${escape(t('revamp.casualtyBadge'))}</span>` : '';
       return `<button type="button" class="maritime-vessel-item" data-maritime-event="${event.id}" style="--category:${colors[event.category]}">
         <div class="maritime-vessel-top">
           <span>${escape(event.id)} · ${escape(shortDateYear(event.startDate))} · <span lang="en">${escape(event.countries)}</span></span>
           <span>${casualtyBadge} <span class="cat-pill" style="--category:${colors[event.category]}"><i aria-hidden="true"></i>${escape(categoryLabel(event.category))}</span></span>
         </div>
-        <div class="maritime-vessel-title" lang="en">${escape(copy.headline)}${isTerritorial ? ' · 🇷🇴 Territorial waters' : ''}</div>
+        <div class="maritime-vessel-title" lang="en">${escape(copy.headline)}${territorialCountry ? ` · ${escape(territorialCountry)} territorial waters` : ''}</div>
         <div class="maritime-vessel-summary" lang="en">${escape(event.status)}${event.impact ? ` — ${escape(event.impact)}` : ''}</div>
       </button>`;
     };
@@ -1166,6 +1162,7 @@
   function render() {
     const date = dayToDate(currentDay);
     visibleEvents = computeVisibleEvents();
+    renderCumulative();
     if (selectedId && !visibleEvents.some(e => e.id === selectedId)) closeDetail();
     renderList();
     renderNewsList();
@@ -1184,7 +1181,7 @@
       : longDate(date);
     $('timeline-status').textContent = allMode
       ? t('revamp.recordsInInterval', {n: visibleEvents.length})
-      : `${t('timeline.visible', {n: visibleEvents.length})} · ${t('timeline.onDate', {n: dateCounts.get(date) || 0})}`;
+      : `${t('timeline.visible', {n: visibleEvents.length})} · ${t('timeline.onDate', {n: visibleEvents.filter(event => event.startDate === date).length})}`;
 
     const periodText = allMode
       ? `${startStr} — ${endStr}`
@@ -1239,7 +1236,7 @@
     animationFrame = null;
     lastFrameTime = null;
     if (stopSound) stopVoices();
-    if (isRecordingVideo) finishVideoRecording();
+    if (isRecordingVideo) finishVideoRecording({drain: !stopSound});
     updatePlayButton();
   }
 
@@ -1267,6 +1264,7 @@
   }
 
   function play() {
+    if (recordingFinishing) finishVideoRecording();
     cancelAnimationFrame(animationFrame);
     animationFrame = null;
     const audioReady = prepareAudio();
@@ -1363,6 +1361,9 @@
   // ==========================================================================
   let isRecordingVideo = false;
   let mediaRecorder = null;
+  let recordingFinishing = false;
+  let recordingEndTimer = null;
+  let recordingHoldFrame = null;
   let recCanvas = null;
   let recCtx = null;
 
@@ -1426,14 +1427,8 @@
     ctx.fillRect(0, 0, W, H);
 
     // Compute bounding box from events in the active interval (or all events)
-    const intervalPool = events.filter(e => {
-      const d = dayOf(e.startDate);
-      if (d < intervalStartDay || d > intervalEndDay) return false;
-      if (selectedCountry && !allCountriesOf(e).includes(selectedCountry)) return false;
-      if (selectedCategoryGroup && !matchesCategoryGroup(e, selectedCategoryGroup)) return false;
-      return true;
-    });
-    const boundsPool = intervalPool.length >= 2 ? intervalPool : events;
+    const intervalPool = intervalEvents();
+    const boundsPool = intervalPool.length ? intervalPool : events;
     const lats = boundsPool.flatMap(e => e.positions.map(p => p.lat));
     const lngs = boundsPool.flatMap(e => e.positions.map(p => p.lng));
     const minLat = Math.max(34, Math.min(...lats) - 2.2);
@@ -1657,6 +1652,7 @@
   function setIntervalControlsDisabled(disabled) {
     $('interval-start').disabled = disabled;
     $('interval-end').disabled = disabled;
+    ['country-filter', 'category-filter', 'feed-search', 'clear-search'].forEach(id => { $(id).disabled = disabled; });
     document.querySelectorAll('.preset-chip').forEach(chip => { chip.disabled = disabled; });
   }
 
@@ -1671,7 +1667,9 @@
       return;
     }
 
+    pause();
     prepareAudio();
+    recentRipples.length = 0;
     isRecordingVideo = true;
     const localChunks = [];
     const recStartDate = dayToDate(intervalStartDay);
@@ -1688,6 +1686,7 @@
     // Start replay from the beginning of the selected interval
     currentDay = playbackDay = intervalStartDay;
     allMode = false;
+    render();
     drawRecordingFrame();
 
     const stream = canvas.captureStream(30);
@@ -1702,6 +1701,7 @@
       if (e.data && e.data.size > 0) localChunks.push(e.data);
     };
     localRecorder.onstop = () => {
+      stream.getVideoTracks().forEach(track => track.stop());
       const ext = (localRecorder.mimeType || '').includes('mp4') ? 'mp4' : 'webm';
       const blob = new Blob(localChunks, {type: localRecorder.mimeType || 'video/webm'});
       const url = URL.createObjectURL(blob);
@@ -1722,8 +1722,26 @@
     play();
   }
 
-  function finishVideoRecording() {
+  function finishVideoRecording({drain = false} = {}) {
     if (!isRecordingVideo) return;
+    if (drain) {
+      if (recordingFinishing) return;
+      recordingFinishing = true;
+      // The final day's sound starts in the last replay tick. Keep capturing its
+      // full 900 ms tail, including for a one-day interval, before saving.
+      const hold = () => {
+        if (!recordingFinishing) return;
+        drawRecordingFrame();
+        recordingHoldFrame = requestAnimationFrame(hold);
+      };
+      recordingHoldFrame = requestAnimationFrame(hold);
+      recordingEndTimer = setTimeout(() => finishVideoRecording(), 1100);
+      return;
+    }
+    clearTimeout(recordingEndTimer);
+    cancelAnimationFrame(recordingHoldFrame);
+    recordingEndTimer = recordingHoldFrame = null;
+    recordingFinishing = false;
     isRecordingVideo = false;
     setIntervalControlsDisabled(false);
     drawRecordingFrame();
