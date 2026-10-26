@@ -1082,8 +1082,10 @@
       : `${shortDate(dayToDate(winStart))} – ${shortDate(dayToDate(winEnd))}`;
     const turnX = chartX(darkTurnDay);
     const turnPct = (turnX / CHART_WIDTH) * 100;
+    const winStartPct = chartX(winStart) / CHART_WIDTH * 100;
+    const showWinLabel = !(winStart === 0 && winEnd === totalDays) && winStartPct >= 14 && winStartPct <= 78;
 
-    $('cumulative').innerHTML = `<svg viewBox="0 0 ${CHART_WIDTH} ${CHART_HEIGHT}" preserveAspectRatio="none" aria-hidden="true"><defs><clipPath id="cumulative-progress"><rect id="cumulative-clip" x="${chartX(winStart)}" y="0" width="${Math.max(0, chartX(playbackDay) - chartX(winStart))}" height="${CHART_HEIGHT}"/></clipPath></defs><rect class="cumulative-window" x="${chartX(winStart)}" y="0" width="${Math.max(2, chartX(winEnd) - chartX(winStart))}" height="${CHART_HEIGHT}"/><path class="cumulative-area ghost" d="${area}"/><path class="cumulative-line ghost" d="${line}" vector-effect="non-scaling-stroke"/><g clip-path="url(#cumulative-progress)"><path class="cumulative-area" d="${area}"/><path class="cumulative-line" d="${line}" vector-effect="non-scaling-stroke"/></g><line class="cumulative-turn-line" x1="${turnX}" y1="0" x2="${turnX}" y2="${CHART_HEIGHT}" vector-effect="non-scaling-stroke"/></svg><span class="cumulative-title">${escape(t('cumulative.title'))}</span><span class="cumulative-window-label" style="left:${chartX(winStart) / CHART_WIDTH * 100}%">${escape(intervalLabel)}</span><span class="cumulative-turn-label" style="left:${turnPct}%" title="${escape(t('revamp.turnMarker'))}">⚓ ${escape(shortDate(DARK_TURN_DATE))}</span><span class="cumulative-point" style="${point(winStart, before)}"><span>${format.number.format(before)}</span></span><span class="cumulative-point end" style="${point(winEnd, atEnd)}"><span>${format.number.format(atEnd)}</span></span>`;
+    $('cumulative').innerHTML = `<svg viewBox="0 0 ${CHART_WIDTH} ${CHART_HEIGHT}" preserveAspectRatio="none" aria-hidden="true"><defs><clipPath id="cumulative-progress"><rect id="cumulative-clip" x="${chartX(winStart)}" y="0" width="${Math.max(0, chartX(playbackDay) - chartX(winStart))}" height="${CHART_HEIGHT}"/></clipPath></defs><rect class="cumulative-window" x="${chartX(winStart)}" y="0" width="${Math.max(2, chartX(winEnd) - chartX(winStart))}" height="${CHART_HEIGHT}"/><path class="cumulative-area ghost" d="${area}"/><path class="cumulative-line ghost" d="${line}" vector-effect="non-scaling-stroke"/><g clip-path="url(#cumulative-progress)"><path class="cumulative-area" d="${area}"/><path class="cumulative-line" d="${line}" vector-effect="non-scaling-stroke"/></g><line class="cumulative-turn-line" x1="${turnX}" y1="0" x2="${turnX}" y2="${CHART_HEIGHT}" vector-effect="non-scaling-stroke"/></svg><span class="cumulative-title">${escape(t('cumulative.title'))}</span>${showWinLabel ? `<span class="cumulative-window-label" style="left:${winStartPct}%">${escape(intervalLabel)}</span>` : ''}<span class="cumulative-turn-label" style="left:${turnPct}%" title="${escape(t('revamp.turnMarker'))}">⚓ ${escape(shortDate(DARK_TURN_DATE))}</span><span class="cumulative-point" style="${point(winStart, before)}"><span>${format.number.format(before)}</span></span><span class="cumulative-point end" style="${point(winEnd, atEnd)}"><span>${format.number.format(atEnd)}</span></span>`;
   }
 
   // Render the Black Sea Maritime Escalation modal vessel list
@@ -1095,7 +1097,7 @@
     const precursorRecords = events.filter(e => MARITIME_SHIP_IDS.has(e.id) && !OCT_MARITIME_IDS.has(e.id));
     const renderItem = event => {
       const copy = pageCopyFor(event);
-      const isTerritorial = /territorial waters/i.test(event.countries) || /territorial waters/i.test(event.location);
+      const isTerritorial = /territorial waters/i.test(event.countries);
       const casualtyBadge = hasCasualties(event) ? `<span class="casualty-badge">${escape(t('revamp.casualtyBadge'))}</span>` : '';
       return `<button type="button" class="maritime-vessel-item" data-maritime-event="${event.id}" style="--category:${colors[event.category]}">
         <div class="maritime-vessel-top">

@@ -1929,13 +1929,15 @@ html[data-i18n-pending] body {
 
 .cumulative-turn-label {
   position: absolute;
-  top: -2px;
+  bottom: 2px;
   transform: translateX(-100%);
-  padding-right: 4px;
-  font-size: 0.63rem;
+  padding-right: 5px;
+  font-size: 0.62rem;
   font-weight: 800;
   color: #9e1b10;
-  line-height: 1;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 2px;
+  line-height: 1.1;
   white-space: nowrap;
   pointer-events: none;
 }
@@ -3091,7 +3093,7 @@ dialog details p {
 
 .maritime-phases-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 10px;
   margin: 10px 0 18px;
 }
