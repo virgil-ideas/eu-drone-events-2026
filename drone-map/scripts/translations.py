@@ -17,6 +17,7 @@ Usage:
 import argparse
 import hashlib
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -87,7 +88,7 @@ def problems(lang, data, english):
             found.append(f'{where}: summary must be a list of non-empty paragraphs')
         elif len(summary) != len(english[record_id]['summary']):
             found.append(f'{where}: {len(summary)} summary paragraphs, English has {len(english[record_id]["summary"])}')
-        if 'basis' in entry and (not isinstance(entry['basis'], str) or len(entry['basis']) != 16):
+        if 'basis' in entry and (not isinstance(entry['basis'], str) or not re.fullmatch(r'[0-9a-f]{16}', entry['basis'])):
             found.append(f'{where}: basis must be 16 hex characters')
     return found
 
@@ -114,7 +115,7 @@ def main(arguments=None):
     todo = commands.add_parser('todo', help='Write the English copy still to translate for LANG.')
     todo.add_argument('lang', choices=LANGUAGES)
     todo.add_argument('--out', type=Path, help='Write to this file instead of standard output.')
-    merge = commands.add_parser('merge', help='Add translated parts to LANG and stamp them against the current English.')
+    merge = commands.add_parser('merge', help='Add translated parts to LANG after verifying their original English basis.')
     merge.add_argument('lang', choices=LANGUAGES)
     merge.add_argument('parts', nargs='+', type=Path)
     stamp = commands.add_parser('stamp', help='Mark unstamped entries in LANG as translations of the current English.')
@@ -134,10 +135,11 @@ def main(arguments=None):
 
     if args.command == 'todo':
         data = load(args.lang)
-        pending = {record_id: copy for record_id, copy in english.items()
+        pending = {record_id: {**copy, 'basis': current[record_id]} for record_id, copy in english.items()
                    if data.get(record_id, {}).get('basis') != current[record_id]}
         text = json.dumps(pending, ensure_ascii=False, indent=2) + '\n'
         if args.out:
+            args.out.parent.mkdir(parents=True, exist_ok=True)
             args.out.write_text(text, encoding='utf-8')
             print(f'{len(pending)} records to translate written to {args.out}')
         else:
@@ -147,17 +149,27 @@ def main(arguments=None):
     if args.command == 'merge':
         data = load(args.lang)
         incoming = {}
+        origins = {}
         for part in args.parts:
             chunk = json.loads(part.read_text(encoding='utf-8'))
             if not isinstance(chunk, dict):
                 raise DataError(f'{part}: expected an object keyed by record ID')
-            incoming.update({record_id: {field: entry.get(field) for field in FIELDS} if isinstance(entry, dict) else entry
-                             for record_id, entry in chunk.items()})
+            for record_id, entry in chunk.items():
+                if record_id in incoming:
+                    raise DataError(f'{record_id}: duplicate record in {origins[record_id]} and {part}; '
+                                    'pass each translated record once, without the English todo file')
+                incoming[record_id] = entry
+                origins[record_id] = part
         found = problems(args.lang, incoming, english)
         if found:
             raise DataError('\n'.join(found))
         for record_id, entry in incoming.items():
-            data[record_id] = {**entry, 'basis': current[record_id]}
+            if 'basis' not in entry:
+                raise DataError(f'{record_id}: missing source basis; export todo again and preserve its basis when translating')
+            if entry['basis'] != current[record_id]:
+                raise DataError(f'{record_id}: English copy changed since this translation was prepared; '
+                                'export todo again and review the translation against the new English')
+        data.update(incoming)
         save(args.lang, data)
         left = sum(1 for record_id in current if data.get(record_id, {}).get('basis') != current[record_id])
         print(f'{args.lang}: merged {len(incoming)} records; {left} still to translate')

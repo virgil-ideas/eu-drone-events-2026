@@ -16,24 +16,33 @@ file when a visitor picks the language.
 ```bash
 python3 drone-map/scripts/translations.py status
 python3 drone-map/scripts/translations.py todo ro --out drone-map/data/translations/parts/ro-todo.json
-python3 drone-map/scripts/translations.py merge ro drone-map/data/translations/parts/ro-*.json
+# Translate the exported entries into ro-01.json, ro-02.json, etc., keeping their basis.
+python3 drone-map/scripts/translations.py merge ro drone-map/data/translations/parts/ro-[0-9][0-9].json
 python3 drone-map/scripts/translations.py check
 ```
 
-`parts/` is a scratch folder for work in progress and is not committed.
+`parts/` is a scratch folder for work in progress and is not committed. `todo`
+creates the output directory if needed. Keep the English `ro-todo.json` as input
+only; never pass it to `merge`.
 
 ## How to translate a language
 
 1. Run `todo LANG --out drone-map/data/translations/parts/LANG-todo.json` to
-   get the English copy that still needs translating.
+   get the English copy that still needs translating, including each record's
+   source `basis`.
 2. Translate it in batches of about 25 records. Write each batch to
    `drone-map/data/translations/parts/LANG-01.json`, `LANG-02.json` and so on.
    Each batch is an object keyed by record ID:
-   `{"N095": {"headline": "…", "description": "…", "summary": ["…", "…"]}}`.
-   Write only those three fields; `merge` adds the basis.
+   `{"N095": {"headline": "…", "description": "…", "summary": ["…", "…"], "basis": "<copy from todo>"}}`.
+   Translate the three copy fields and preserve `basis` exactly as exported.
+   It identifies the English version used, not the translated text.
 3. Run `merge LANG` with all the batch files, then `check`. `merge` refuses a
    batch with an unknown ID, an empty field or the wrong number of summary
-   paragraphs.
+   paragraphs, a missing or invalid basis, a basis that no longer matches the
+   English, or a record repeated across batches. Rejected batches leave the
+   language file unchanged. If English changed while you were translating,
+   export `todo` again, review the translation against that new English, and
+   carry over the new basis only after making the necessary corrections.
 4. Run `node drone-map/scripts/check-i18n.js --dir drone-map-revamp/i18n LANG`.
    Add every key it reports missing to `drone-map-revamp/i18n/LANG.js`,
    translated from `drone-map-revamp/i18n/en.js`, keeping each `{placeholder}`
