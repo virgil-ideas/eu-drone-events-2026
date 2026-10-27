@@ -13,12 +13,12 @@ Positions are approximate editorial anchors. These are record counts, not a coun
 ## Run locally
 
 ```sh
-python3 -m http.server 4173 --bind 127.0.0.1 --directory drone-map/dist
+python3 -m http.server 4173 --bind 127.0.0.1 --directory drone-map-revamp
 ```
 
 Open <http://127.0.0.1:4173/>. No API key or package installation is required.
 
-See [project documentation](drone-map/README.md) for data handling, colors, replay behavior and limitations. The [original Markdown register](eu_foreign_drone_events_2026_consolidated.md) and [deduplicated update](eu_foreign_drone_events_2026_final_update_deduped.md) are preserved unchanged in the repository.
+See the [interface guide](drone-map-revamp/README.md) for the production UI and [project documentation](drone-map/README.md) for data handling, colors, replay behavior and limitations. The [original Markdown register](eu_foreign_drone_events_2026_consolidated.md) and [deduplicated update](eu_foreign_drone_events_2026_final_update_deduped.md) are preserved unchanged in the repository.
 
 ## Update the data
 
@@ -34,4 +34,4 @@ The [editing guide](drone-map/data/README.md) documents adding events, reviewing
 
 ## Publish
 
-GitHub Actions runs integrity tests and checks the JavaScript and generated data on pull requests and pushes, then deploys `drone-map/dist` to GitHub Pages on each push to `main`. The workflow can also be started manually from the Actions tab.
+GitHub Actions runs integrity tests and checks the JavaScript and generated data on pull requests and pushes, then deploys `drone-map-revamp` to GitHub Pages on each push to `main`. The workflow can also be started manually from the Actions tab. The canonical database remains in `drone-map/data`; its build refreshes both interfaces. The previous interface remains in `drone-map/dist` and can be restored by changing the upload path in `.github/workflows/pages.yml`.

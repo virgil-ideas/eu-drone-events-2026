@@ -33,7 +33,7 @@ jobs:
           node --check drone-map/dist/media.js
           for file in drone-map/dist/i18n/*.js; do node --check "$file"; done
           node drone-map/scripts/check-i18n.js
-      - name: Validate proposed revamp
+      - name: Validate production interface
         run: |
           python3 drone-map-revamp/build-pages-data.py --check
           python3 -m unittest discover -s drone-map-revamp/tests -v
@@ -59,7 +59,7 @@ jobs:
       - name: Upload static map
         uses: actions/upload-pages-artifact@v3
         with:
-          path: drone-map/dist
+          path: drone-map-revamp
       - name: Deploy GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5

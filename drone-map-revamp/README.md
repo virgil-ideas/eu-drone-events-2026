@@ -1,6 +1,6 @@
 # Europe Foreign Drone Events · 2026 (Revamped Edition)
 
-This folder (`drone-map-revamp/`) contains the complete UX and functional revamp of `droneincidents.eu`, keeping the original `drone-map/` untouched for side-by-side comparison.
+This folder (`drone-map-revamp/`) is the production interface served at `droneincidents.eu`. The previous interface remains in `drone-map/dist/` for comparison and rollback; the canonical database remains in `drone-map/data/`.
 
 ## Run locally
 
@@ -20,8 +20,8 @@ python3 drone-map-revamp/build-pages-data.py --check
 The usual `python3 drone-map/scripts/build-data.py` command also refreshes this
 folder, and its `--check` mode verifies both outputs without writing. The check
 verifies summaries, copied event data, media, and
-every static event page. CI validates both interfaces; deployment continues to
-publish `drone-map/dist/` until the redesign is explicitly adopted.
+every static event page. CI validates both interfaces and publishes
+`drone-map-revamp/` to GitHub Pages on validated pushes to `main`.
 
 Recording pauses automatically when its tab is hidden, including unfinished audio tails,
 and resumes from the same date when the tab becomes visible again. Map framing accounts

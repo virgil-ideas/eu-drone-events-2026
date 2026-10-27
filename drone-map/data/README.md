@@ -66,7 +66,9 @@ offshore incidents.
    ```
 
 7. Review and commit the JSON changes (including new `page-urls.json` entries) with the generated `drone-map/dist/events.js` and
-   `drone-map/dist/events/`, `sitemap.xml` and `robots.txt`.
+   `drone-map/dist/events/`, `sitemap.xml` and `robots.txt`. Also commit the refreshed
+   summaries, copied assets and event pages in `drone-map-revamp/`, which is the
+   production folder served by GitHub Pages. The same build command refreshes both.
    For routine data and editorial updates, local browser preview is optional and is not a publication gate. All automated validation remains required; verify deployment for the exact commit and the live published pages after pushing. Pull requests run the checks;
    a validated push to `main` also publishes to GitHub Pages.
 
