@@ -1,5 +1,19 @@
 'use strict';
 (async () => {
+  try {
+    await window.DRONE_ASSETS.loadData();
+  } catch (error) {
+    console.error('Register data could not be loaded', error);
+    document.documentElement.removeAttribute('data-i18n-pending');
+    const message = document.createElement('section');
+    message.className = 'data-load-error';
+    message.lang = 'en';
+    message.setAttribute('role', 'alert');
+    message.innerHTML = '<h1>Could not load the latest records</h1><p>Please check your connection and try again.</p><button type="button">Try again</button>';
+    message.querySelector('button').addEventListener('click', () => location.reload());
+    document.body.replaceChildren(message);
+    return;
+  }
   const {events, contexts, sources, cutoff} = window.DRONE_DATA;
   const pagesData = window.DRONE_PAGES || {};
   const media = window.DRONE_MEDIA || {};
@@ -37,8 +51,8 @@
   // Interface strings are required; translated record copy is optional and
   // falls back to English record by record.
   async function loadLanguage(code) {
-    const pages = code === 'en' || window.DRONE_PAGES_I18N?.[code] ? null : loadScript(`i18n/pages/${code}.js?v=20261027-pages`);
-    if (!translations[code]) await loadScript(`i18n/${code}.js?v=20261027-content-i18n`);
+    const pages = code === 'en' || window.DRONE_PAGES_I18N?.[code] ? null : loadScript(window.DRONE_ASSETS.url(`i18n/pages/${code}.js`));
+    if (!translations[code]) await loadScript(window.DRONE_ASSETS.url(`i18n/${code}.js`));
     await pages;
     return Boolean(translations[code]);
   }
