@@ -251,5 +251,16 @@
   "revamp.darkTurnReplayBtn": "▶ Irreproduċi l-eskalazzjoni tal-5–23 Ott.",
   "revamp.darkTurnModalBtn": "Kronoloġija u bastimenti →",
   "revamp.darkTurnDismissAria": "Agħlaq l-istrixxa tal-punt ta’ bidla",
-  "revamp.darkTurnVesselsTitle": "Rekords tal-bastimenti fil-Baħar l-Iswed f’ordni kronoloġika (ikklikkja biex tara fuq il-mappa)"
+  "revamp.darkTurnVesselsTitle": "Rekords tal-bastimenti fil-Baħar l-Iswed f’ordni kronoloġika (ikklikkja biex tara fuq il-mappa)",
+  "revamp.darkTurnEyebrow": "Punt ta’ bidla · Ott. 2026 · Baħar l-Iswed u ilmijiet Rumeni",
+  "revamp.darkTurnTitle": "Meta l-Affarijiet Ħadu Dawra Mudlama: Attakki Letali fuq it-Tbaħħir fil-Baħar l-Iswed",
+  "revamp.darkTurnBody": "Wara xhur ta’ qsim mhux letali tal-ispazju tal-ajru u fdalijiet kostali, Ottubru 2026 ġab eskalazzjoni qawwija: 8 rekords jkopru 9 vapuri merkantili milqutin jew immirati quddiem ir-Rumanija u l-Bulgarija—fosthom YARA J u Sea Destiny ġewwa l-ilmijiet territorjali Rumeni ħdejn Sulina, u KHORYV barra l-ilmijiet territorjali quddiem Constanța—b’baħrin maqtulin, midruba, u aktar minn 30 membru tal-ekwipaġġ irrappurtati nieqsa.",
+  "revamp.darkTurnModalTitle": "Minn Inkursjonijiet fl-Ispazju tal-Ajru għal Attakki Letali fuq it-Tbaħħir fil-Baħar l-Iswed",
+  "revamp.darkTurnPhase1Title": "Jan – Set 2026 · Spazju tal-Ajru, Fruntieri u Fdalijiet Kostali",
+  "revamp.darkTurnPhase1Body": "Aktar minn 100 rekord ta’ ajru, qbid fil-fruntiera u fdalijiet kostali f’10 Stati tal-UE b’0 mwiet ikkonfermati (flimkien ma’ 3 inċidenti mhux riżolti/mhux ikkonfermati ta’ tbaħħir tas-sajf quddiem Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5 – 23 Ott. 2026 · L-Eskalazzjoni Marittima Letali",
+  "revamp.darkTurnPhase2Body": "8 rekords jkopru 9 vapuri merkantili milqutin jew immirati f’19-il jum madwar il-punent tal-Baħar l-Iswed, fosthom inċidenti fl-ilmijiet territorjali Rumeni quddiem Sulina, b’mwiet ikkonfermati (Royad Mammadov, KHORYV), ekwipaġġ fl-isptar bil-ħruq, u aktar minn 30 baħri rrappurtati nieqsin.",
+  "revamp.darkTurnCountingNote": "Nota dwar l-għadd: iċ-ċifri tal-vittmi ġejjin minn stqarrijiet navali, ministerjali u diplomatiċi uffiċjali kkwotati f’kull rekord. Rapporti kontradittorji qatt ma jingħaddu flimkien, u l-baħrin nieqsin ma jiġux irreġistrati bħala mejtin ikkonfermati.",
+  "revamp.territorialWaters": "Ilmijiet territorjali: {country}",
+  "revamp.trendDialogTitle": "Distribuzzjoni kull xahar u paragun ta’ 90 jum"
 };

@@ -251,5 +251,16 @@
   "revamp.darkTurnReplayBtn": "▶ Okt. 5–23. eszkalációjának lejátszása",
   "revamp.darkTurnModalBtn": "Idővonal és hajók →",
   "revamp.darkTurnDismissAria": "Fordulópontjelző összecsukása",
-  "revamp.darkTurnVesselsTitle": "Fekete-tengeri hajóbejegyzések időrendben (kattintson a térképes megtekintéshez)"
+  "revamp.darkTurnVesselsTitle": "Fekete-tengeri hajóbejegyzések időrendben (kattintson a térképes megtekintéshez)",
+  "revamp.darkTurnEyebrow": "Fordulópont · 2026. okt. · Fekete-tenger és román vizek",
+  "revamp.darkTurnTitle": "Amikor a dolgok sötét fordulatot vettek: halálos csapások a fekete-tengeri hajózás ellen",
+  "revamp.darkTurnBody": "Hónapokig tartó, nem halálos légtérátlépések és part menti törmelék után 2026 októberében éles eszkaláció következett: 8 bejegyzés 9 olyan kereskedelmi hajót érint, amelyet Románia és Bulgária előtt eltaláltak vagy megcéloztak – köztük a YARA J-t és a Sea Destinyt a Sulina közeli román felségvizeken belül, a KHORYV-t pedig a felségvizeken kívül, Konstanca előtt –, tengerészek haltak meg vagy sérültek meg, és több mint 30 legénységi tagot jelentettek eltűntként.",
+  "revamp.darkTurnModalTitle": "A légtérsértésektől a fekete-tengeri hajózás elleni halálos csapásokig",
+  "revamp.darkTurnPhase1Title": "2026. jan. – szept. · Légtér, határ és part menti törmelék",
+  "revamp.darkTurnPhase1Body": "Több mint 100 légi, határon történt lefoglalási és part menti törmelékes bejegyzés 10 uniós államból, megerősített halálos áldozat nélkül (valamint 3 tisztázatlan vagy nem megerősített nyári hajózási incidens Sfântu Gheorghe előtt: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "2026. okt. 5–23. · A halálos tengeri eszkaláció",
+  "revamp.darkTurnPhase2Body": "8 bejegyzés 9 olyan kereskedelmi hajót érint, amelyet 19 nap alatt eltaláltak vagy megcéloztak a Fekete-tenger nyugati részén, köztük a Sulina előtti román felségvizeken történt incidenseket, megerősített halálesetekkel (Royad Mammadov, KHORYV), égési sérülésekkel kórházba került legénységgel és több mint 30 eltűntként jelentett tengerésszel.",
+  "revamp.darkTurnCountingNote": "Számlálási megjegyzés: Az áldozati adatok az egyes bejegyzésekben hivatkozott hivatalos haditengerészeti, minisztériumi és diplomáciai nyilatkozatokból származnak. Az egymásnak ellentmondó jelentéseket soha nem adjuk össze, az eltűnt tengerészeket pedig nem rögzítjük megerősítetten halottként.",
+  "revamp.territorialWaters": "{country} felségvizei",
+  "revamp.trendDialogTitle": "Havi bontás és 90 napos összehasonlítás"
 };

@@ -251,5 +251,16 @@
   "revamp.darkTurnReplayBtn": "▶ Atkurti spalio 5–23 d. eskalaciją",
   "revamp.darkTurnModalBtn": "Laiko juosta ir laivai →",
   "revamp.darkTurnDismissAria": "Suskleisti lūžio taško juostą",
-  "revamp.darkTurnVesselsTitle": "Chronologiniai Juodosios jūros laivų įrašai (spauskite, kad peržiūrėtumėte žemėlapyje)"
+  "revamp.darkTurnVesselsTitle": "Chronologiniai Juodosios jūros laivų įrašai (spauskite, kad peržiūrėtumėte žemėlapyje)",
+  "revamp.darkTurnEyebrow": "Lūžio taškas · 2026 m. spalis · Juodoji jūra ir Rumunijos vandenys",
+  "revamp.darkTurnTitle": "Kai viskas pasuko niūria linkme: mirtini smūgiai Juodosios jūros laivybai",
+  "revamp.darkTurnBody": "Po mėnesių, kai dronai nepavojingai kirto oro erdvę, o pakrantėse buvo randama nuolaužų, 2026 m. spalį padėtis staigiai paaštrėjo: 8 įrašai apima 9 prekybinius laivus, kuriems buvo smogta arba kurie buvo taikinys prie Rumunijos ir Bulgarijos krantų, tarp jų YARA J ir Sea Destiny Rumunijos teritoriniuose vandenyse netoli Sulinos ir KHORYV už teritorinių vandenų ribų ties Konstanca; žuvo ir buvo sužeisti jūreiviai, o daugiau kaip 30 įgulos narių, kaip pranešta, dingo.",
+  "revamp.darkTurnModalTitle": "Nuo oro erdvės pažeidimų iki mirtinų smūgių Juodosios jūros laivybai",
+  "revamp.darkTurnPhase1Title": "2026 m. sausis–rugsėjis · Oro erdvė, siena ir pakrančių nuolaužos",
+  "revamp.darkTurnPhase1Body": "Daugiau kaip 100 įrašų apie oro erdvės pažeidimus, pasienyje paimtus objektus ir pakrančių nuolaužas 10 ES valstybių, be patvirtintų žuvusiųjų (taip pat 3 neišaiškinti ar nepatvirtinti vasaros incidentai su laivais ties Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "2026 m. spalio 5–23 d. · Mirtina eskalacija jūroje",
+  "revamp.darkTurnPhase2Body": "8 įrašai apima 9 prekybinius laivus, kuriems per 19 dienų vakarinėje Juodosios jūros dalyje buvo smogta arba kurie buvo taikinys, įskaitant incidentus Rumunijos teritoriniuose vandenyse ties Sulina; patvirtintos mirtys (Royad Mammadov, KHORYV), įgulos nariai paguldyti į ligoninę su nudegimais, o daugiau kaip 30 jūreivių, kaip pranešta, dingo.",
+  "revamp.darkTurnCountingNote": "Skaičiavimo pastaba: nukentėjusiųjų skaičiai paimti iš oficialių karinio jūrų laivyno, ministerijų ir diplomatinių pareiškimų, cituojamų kiekviename įraše. Prieštaringi pranešimai niekada nesumuojami, o dingę jūreiviai nelaikomi patvirtintais žuvusiaisiais.",
+  "revamp.territorialWaters": "{country}: teritoriniai vandenys",
+  "revamp.trendDialogTitle": "Mėnesinis pasiskirstymas ir 90 dienų palyginimas"
 };

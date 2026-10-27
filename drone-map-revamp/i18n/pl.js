@@ -251,5 +251,16 @@
   "revamp.darkTurnReplayBtn": "▶ Odtwórz eskalację 5–23 paźdz.",
   "revamp.darkTurnModalBtn": "Oś czasu i statki →",
   "revamp.darkTurnDismissAria": "Zwiń baner punktu zwrotnego",
-  "revamp.darkTurnVesselsTitle": "Chronologiczne wpisy o statkach na Morzu Czarnym (kliknij, aby zobaczyć na mapie)"
+  "revamp.darkTurnVesselsTitle": "Chronologiczne wpisy o statkach na Morzu Czarnym (kliknij, aby zobaczyć na mapie)",
+  "revamp.darkTurnEyebrow": "Punkt zwrotny · paźdz. 2026 · Morze Czarne i wody rumuńskie",
+  "revamp.darkTurnTitle": "Gdy sytuacja przybrała mroczny obrót: śmiertelne uderzenia w żeglugę na Morzu Czarnym",
+  "revamp.darkTurnBody": "Po miesiącach niegroźnych naruszeń przestrzeni powietrznej i szczątków na wybrzeżu październik 2026 r. przyniósł gwałtowną eskalację: 8 wpisów obejmuje 9 statków handlowych uderzonych lub obranych za cel u wybrzeży Rumunii i Bułgarii – w tym YARA J i Sea Destiny w rumuńskich wodach terytorialnych koło Sulina oraz KHORYV poza wodami terytorialnymi koło Konstancy – co oznacza zabitych i rannych marynarzy oraz ponad 30 zaginionych członków załóg.",
+  "revamp.darkTurnModalTitle": "Od naruszeń przestrzeni powietrznej do śmiertelnych uderzeń w żeglugę na Morzu Czarnym",
+  "revamp.darkTurnPhase1Title": "Styczeń – wrzesień 2026 · Przestrzeń powietrzna, granice i szczątki na wybrzeżu",
+  "revamp.darkTurnPhase1Body": "Ponad 100 wpisów dotyczących przestrzeni powietrznej, zajęć na granicy i szczątków na wybrzeżu w 10 państwach UE, bez potwierdzonych ofiar śmiertelnych (oraz 3 nierozstrzygnięte lub niepotwierdzone letnie incydenty żeglugowe koło Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5–23 paźdz. 2026 · Śmiertelna eskalacja na morzu",
+  "revamp.darkTurnPhase2Body": "8 wpisów obejmuje 9 statków handlowych uderzonych lub obranych za cel w ciągu 19 dni na zachodnim Morzu Czarnym, w tym incydenty w rumuńskich wodach terytorialnych koło Sulina, z potwierdzonymi zgonami (Royad Mammadov, KHORYV), członkami załóg hospitalizowanymi z oparzeniami i ponad 30 zaginionymi marynarzami.",
+  "revamp.darkTurnCountingNote": "Uwaga o liczeniu: dane o ofiarach pochodzą z oficjalnych oświadczeń marynarki wojennej, ministerstw i placówek dyplomatycznych, cytowanych w każdym wpisie. Sprzecznych doniesień nigdy się nie sumuje, a zaginieni marynarze nie są zapisywani jako potwierdzeni zabici.",
+  "revamp.territorialWaters": "Wody terytorialne: {country}",
+  "revamp.trendDialogTitle": "Rozkład miesięczny i porównanie 90 dni"
 };
