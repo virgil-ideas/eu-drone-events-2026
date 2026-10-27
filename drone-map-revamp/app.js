@@ -635,7 +635,10 @@
             return `<a class="source-chip" href="${escape(s.url)}" target="_blank" rel="noopener noreferrer" title="${escape(s.publisher + ': ' + s.title)}">📰 ${escape(shortPub)} ↗</a>`;
           }).filter(Boolean).join('');
           const extraSourcesCount = event.sources.length > 2 ? `<span class="source-more-chip">+${event.sources.length - 2}</span>` : '';
-          const shortPlace = event.normalizedLocality || event.title.split(/[·;,(]/)[0].trim();
+          const locality = event.normalizedLocality || event.title.split(/[·;,(]/)[0].trim();
+          // Labels such as "Costinești beach" are English register text; a translated
+          // headline already names the place, so only plain place names stay.
+          const shortPlace = copy.lang === 'en' || !/(^|[\s/—–-])[a-z]{2,}/.test(locality) ? locality : '';
 
           // Apply content-visibility: auto only to below-the-fold cards (idx >= 8)
           const deferredClass = idx >= 8 ? ' deferred-card' : '';
