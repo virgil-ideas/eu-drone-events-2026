@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Aug.–okt. növekedés",
   "revamp.presetOct": "Csak október",
   "revamp.presetMaritime": "⚓ Hajók elleni támadások (okt. 5–23.)",
-  "revamp.recordsInInterval": "{n} bejegyzés az időszakban",
+  "revamp.recordsInInterval": {"one": "{n} bejegyzés az időszakban", "other": "{n} bejegyzés az időszakban"},
   "revamp.recordVideo": "Videó rögzítése",
   "revamp.stopSaveVideo": "Leállítás és mentés",
   "revamp.recordVideoTitle": "A kiválasztott időszak visszajátszása és MP4/WebM-videó letöltése",

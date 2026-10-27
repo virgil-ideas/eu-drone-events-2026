@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Żieda Aww.–Ott.",
   "revamp.presetOct": "Ottubru biss",
   "revamp.presetMaritime": "⚓ Attakki fuq vapuri (5–23 Ott.)",
-  "revamp.recordsInInterval": "{n} rekord fil-perjodu",
+  "revamp.recordsInInterval": {"one": "{n} rekord fil-perjodu", "two": "{n} rekords fil-perjodu", "few": "{n} rekords fil-perjodu", "many": "{n} rekord fil-perjodu", "other": "{n} rekord fil-perjodu"},
   "revamp.recordVideo": "Irrekordja vidjo",
   "revamp.stopSaveVideo": "Waqqaf u ssejvja",
   "revamp.recordVideoTitle": "Erġa’ agħmel ir-riproduzzjoni tal-perjodu magħżul u niżżel vidjo MP4/WebM",

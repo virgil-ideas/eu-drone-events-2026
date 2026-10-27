@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Nárůst srpen–říjen",
   "revamp.presetOct": "Pouze říjen",
   "revamp.presetMaritime": "⚓ Útoky na lodě (5.–23. října)",
-  "revamp.recordsInInterval": "{n} záznamů v období",
+  "revamp.recordsInInterval": {"one": "{n} záznam v období", "few": "{n} záznamy v období", "many": "{n} záznamu v období", "other": "{n} záznamů v období"},
   "revamp.recordVideo": "Nahrát video",
   "revamp.stopSaveVideo": "Zastavit a uložit video",
   "revamp.recordVideoTitle": "Přehrát vybrané období a stáhnout video MP4/WebM",

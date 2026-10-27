@@ -30,7 +30,7 @@
     if (translations[code]) return Promise.resolve(true);
     return new Promise(resolve => {
       const script = document.createElement('script');
-      script.src = `i18n/${code}.js?v=20261026-fixes`;
+      script.src = `i18n/${code}.js?v=20261027-review`;
       script.onload = () => resolve(Boolean(translations[code]));
       script.onerror = () => { script.remove(); resolve(false); };
       document.head.append(script);
@@ -318,8 +318,10 @@
 
   // Areas of interest (Neptun Deep)
   const AREAS = [{id:'neptun-deep', name:'Neptun Deep', lat:44.044, lng:30.58, text:'area.neptunDeep', match:/Neptun Deep/}];
-  map.createPane('areas').style.zIndex = 450;
-  const areaSize = () => { const zoom = map.getZoom(); return zoom < 5 ? 58 : zoom < 6 ? 72 : zoom < 7 ? 92 : zoom < 8 ? 116 : 132; };
+  const areasPane = map.createPane('areas');
+  areasPane.style.zIndex = 450;
+  // Keep the landmark at three times the 20px event dot at every zoom level.
+  const areaSize = () => 60;
   const areaMarkers = AREAS.map(area => {
     const marker = L.marker([area.lat, area.lng], {
       pane: 'areas',
@@ -338,8 +340,12 @@
       resize() {
         const element = marker.getElement();
         if (!element) return;
+        const overview = map.getZoom() < 6;
+        // Keep the landmark visible over dense event dots in the wide overview.
+        areasPane.style.zIndex = overview ? '625' : '450';
+        areasPane.style.opacity = overview ? '0.85' : '1';
         element.style.setProperty('--area-size', `${areaSize()}px`);
-        element.classList.toggle('compact', map.getZoom() < 6);
+        element.classList.toggle('compact', overview);
         model?.resize(areaSize());
       }
     };
@@ -391,7 +397,16 @@
     return padding;
   }
 
+  let pendingMapFit = false;
+
   function fitEvents(pool = intervalEvents(), animate = !reducedMotion) {
+    // Leaflet cannot calculate bounds while the mobile feed hides its container.
+    if (!$('map').clientWidth || !$('map').clientHeight) {
+      pendingMapFit = true;
+      return;
+    }
+    pendingMapFit = false;
+    map.invalidateSize({animate: false});
     const points = pool.flatMap(e => e.positions.map(p => [p.lat, p.lng]));
     if (points.length) map.fitBounds(points, {...mapPadding(), maxZoom: 8, animate});
   }
@@ -586,7 +601,7 @@
             heading = `<h2 class="event-month">${escape(format.monthYear.format(utcDate(event.startDate)).toLocaleUpperCase(locale))}</h2>`;
           }
           const copy = pageCopyFor(event);
-          const dayLabel = shortDate(event.startDate);
+          const dayLabel = shortDate(event.startDate) + (event.dateLabel !== event.startDate ? ` · ${t('card.dateNotes')}` : '');
           const countryLabel = allCountriesOf(event).map(countryName).join(', ');
           const items = mediaFor(event);
           const hasVideo = items.some(item => playableVideo(item.video) || externalVideo(item.video));
@@ -695,7 +710,7 @@
       return `<article class="news-card${deferredClass}" lang="en">
         <div class="news-card-head">
           <span class="news-publisher">📰 ${escape(source.publisher)}</span>
-          <span class="news-date">${escape(source.dateLabel || shortDateYear(linkedEvents[0].startDate))} · ${escape(source.id)}</span>
+          <span class="news-date">${[source.dateLabel, source.id].filter(Boolean).map(escape).join(' · ')}</span>
         </div>
         <a class="news-title-link" href="${escape(source.url)}" target="_blank" rel="noopener noreferrer">${escape(source.title)} ↗</a>
         ${auditText ? `<p class="news-audit-tldr"><span class="card-tldr-label">${escape(t('revamp.auditBadge'))}</span>${escape(auditText)}</p>` : ''}
@@ -894,7 +909,7 @@
     syncMobileTabs();
     if (view === 'map') {
       map.invalidateSize({animate: false});
-      if (!mobileMapFitted) {
+      if (!mobileMapFitted || pendingMapFit) {
         mobileMapFitted = true;
         if (!selectedId && !openAreaId) fitEvents();
       }
@@ -1101,7 +1116,10 @@
   function renderMaritimeDialog() {
     const container = $('maritime-vessel-list');
     if (!container) return;
-    $('focus-maritime-label').textContent = t('revamp.darkTurnFocusBtn', {n: MARITIME_SHIP_IDS.size});
+    const focusedCount = events.filter(e => isMaritimeVessel(e) && e.startDate >= DARK_TURN_DATE && e.startDate <= cutoff).length;
+    for (const id of ['focus-maritime-label', 'modal-filter-maritime-label']) {
+      $(id).textContent = t('revamp.darkTurnFocusBtn', {n: focusedCount});
+    }
     const octRecords = events.filter(e => OCT_MARITIME_IDS.has(e.id));
     const precursorRecords = events.filter(e => MARITIME_SHIP_IDS.has(e.id) && !OCT_MARITIME_IDS.has(e.id));
     const renderItem = event => {
@@ -1842,7 +1860,7 @@
   }
 
   function downloadIntervalCSV() {
-    const headers = ['id','startDate','endDate','countries','title','category','status','headline','tldr_description','attribution','uncertainty','impact','response','sources'];
+    const headers = ['id','startDate','endDate','dateLabel','dateBasis','countries','title','category','status','headline','tldr_description','attribution','uncertainty','impact','response','sources'];
     const csvEscape = val => {
       const str = String(val ?? '');
       const safe = /^[=+\-@\t\r]/.test(str) ? `'${str}` : str;
@@ -1856,6 +1874,8 @@
         ev.id,
         ev.startDate,
         ev.endDate || ev.startDate,
+        ev.dateLabel,
+        ev.dateBasis,
         ev.countries,
         ev.title,
         ev.category,
@@ -1869,7 +1889,7 @@
         srcUrls
       ].map(csvEscape).join(','));
     });
-    const blob = new Blob([rows.join('\n')], {type: 'text/csv;charset=utf-8'});
+    const blob = new Blob(['\uFEFF', rows.join('\n')], {type: 'text/csv;charset=utf-8'});
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
@@ -1939,6 +1959,8 @@
 
   function localize() {
     applyStaticText();
+    setFeedMode(feedMode);
+    $('record-video-label').textContent = t(isRecordingVideo ? 'revamp.stopSaveVideo' : 'revamp.recordVideo');
     $('cutoff-label').textContent = shortDate(cutoff);
     populateFilterDropdowns();
     renderLegend();
@@ -2223,7 +2245,7 @@
   headerObserver.observe(mobileNav);
   const mapLayoutObserver = new ResizeObserver(() => {
     map.invalidateSize({animate: false});
-    if (studioOpen && $('map').clientHeight && !selectedId && !openAreaId) fitEvents(intervalEvents(), false);
+    if ((studioOpen || pendingMapFit) && $('map').clientHeight && !selectedId && !openAreaId) fitEvents(intervalEvents(), false);
   });
   mapLayoutObserver.observe($('map'));
   mapLayoutObserver.observe($('timeline-drawer'));
@@ -2270,12 +2292,16 @@
       annotations: {readOnlyHint:false, untrustedContentHint:false},
       execute(input) {
         const isoDate = /^\d{4}-\d{2}-\d{2}$/;
-        if (!input || !isoDate.test(input.startDate || '') || !isoDate.test(input.endDate || '')) {
+        if (!input || typeof input.startDate !== 'string' || typeof input.endDate !== 'string'
+            || !isoDate.test(input.startDate) || !isoDate.test(input.endDate)) {
           throw new Error(`Supply valid YYYY-MM-DD dates between ${firstDateStr} and ${cutoff}.`);
         }
         const sTime = dateValue(input.startDate);
         const eTime = dateValue(input.endDate);
-        if (Number.isNaN(sTime) || Number.isNaN(eTime)) {
+        if (!Number.isFinite(sTime) || !Number.isFinite(eTime)
+            || new Date(sTime).toISOString().slice(0, 10) !== input.startDate
+            || new Date(eTime).toISOString().slice(0, 10) !== input.endDate
+            || sTime < firstTime || eTime > lastTime || sTime > eTime) {
           throw new Error(`Supply valid YYYY-MM-DD dates between ${firstDateStr} and ${cutoff}.`);
         }
         applyInterval(dayOf(input.startDate), dayOf(input.endDate), '');

@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Wzrost sierp.–paźdz.",
   "revamp.presetOct": "Tylko październik",
   "revamp.presetMaritime": "⚓ Ataki na statki (5–23 paźdz.)",
-  "revamp.recordsInInterval": "{n} wpisów w okresie",
+  "revamp.recordsInInterval": {"one": "{n} wpis w okresie", "few": "{n} wpisy w okresie", "many": "{n} wpisów w okresie", "other": "{n} wpisu w okresie"},
   "revamp.recordVideo": "Nagraj wideo",
   "revamp.stopSaveVideo": "Zatrzymaj i zapisz",
   "revamp.recordVideoTitle": "Odtwórz wybrany okres i pobierz nagranie MP4/WebM",

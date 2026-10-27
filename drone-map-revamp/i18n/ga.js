@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Méadú Lúnasa–Deireadh Fómhair",
   "revamp.presetOct": "Deireadh Fómhair amháin",
   "revamp.presetMaritime": "⚓ Ionsaithe ar longa (5–23 DF)",
-  "revamp.recordsInInterval": "{n} taifead sa tréimhse",
+  "revamp.recordsInInterval": {"one": "{n} taifead sa tréimhse", "two": "{n} thaifead sa tréimhse", "few": "{n} thaifead sa tréimhse", "many": "{n} dtaifead sa tréimhse", "other": "{n} taifead sa tréimhse"},
   "revamp.recordVideo": "Taifead físeán",
   "revamp.stopSaveVideo": "Stop agus sábháil an físeán",
   "revamp.recordVideoTitle": "Athsheinn an tréimhse roghnaithe agus íoslódáil taifeadadh MP4/WebM",

@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Pieaugums aug.–okt.",
   "revamp.presetOct": "Tikai oktobris",
   "revamp.presetMaritime": "⚓ Uzbrukumi kuģiem (5.–23. okt.)",
-  "revamp.recordsInInterval": "{n} ieraksti periodā",
+  "revamp.recordsInInterval": {"zero": "{n} ierakstu periodā", "one": "{n} ieraksts periodā", "other": "{n} ieraksti periodā"},
   "revamp.recordVideo": "Ierakstīt video",
   "revamp.stopSaveVideo": "Apturēt un saglabāt",
   "revamp.recordVideoTitle": "Atskaņot izvēlēto periodu un lejupielādēt MP4/WebM video",

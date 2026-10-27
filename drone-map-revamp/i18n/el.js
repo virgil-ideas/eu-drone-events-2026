@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Αύξηση Αυγ.–Οκτ.",
   "revamp.presetOct": "Μόνο Οκτώβριος",
   "revamp.presetMaritime": "⚓ Επιθέσεις σε πλοία (5–23 Οκτ.)",
-  "revamp.recordsInInterval": "{n} εγγραφές στην περίοδο",
+  "revamp.recordsInInterval": {"one": "{n} εγγραφή στην περίοδο", "other": "{n} εγγραφές στην περίοδο"},
   "revamp.recordVideo": "Εγγραφή βίντεο",
   "revamp.stopSaveVideo": "Διακοπή και αποθήκευση",
   "revamp.recordVideoTitle": "Αναπαραγωγή της επιλεγμένης περιόδου και λήψη βίντεο MP4/WebM",

@@ -1492,7 +1492,7 @@ html[data-i18n-pending] body {
 
 /* Areas of interest (landmark.js) */
 .area-marker {
-  --area-size: 72px;
+  --area-size: 60px;
   width: 0 !important;
   height: 0 !important;
   cursor: pointer;
@@ -1559,6 +1559,15 @@ html[data-i18n-pending] body {
 
 .area-marker.compact .area-label {
   display: none;
+}
+
+.area-marker.compact .area-halo::after {
+  display: none;
+}
+
+.area-marker.compact .area-model {
+  filter: drop-shadow(0 1px 1px rgb(21 43 50 / 0.35));
+  transform: none;
 }
 
 /* ==========================================================================

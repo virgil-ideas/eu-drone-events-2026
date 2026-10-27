@@ -239,7 +239,7 @@
   "revamp.presetSurge": "Aug–Oct Surge",
   "revamp.presetOct": "Oct Only",
   "revamp.presetMaritime": "⚓ Ship Strikes (Oct 5–23)",
-  "revamp.recordsInInterval": "{n} records in interval",
+  "revamp.recordsInInterval": {"one": "{n} record in interval", "other": "{n} records in interval"},
   "revamp.recordVideo": "Record Video",
   "revamp.stopSaveVideo": "Stop & Save Video",
   "revamp.recordVideoTitle": "Replay the selected time interval and download an MP4/WebM video recording",

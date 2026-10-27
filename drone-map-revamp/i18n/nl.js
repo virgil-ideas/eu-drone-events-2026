@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Toename aug.–okt.",
   "revamp.presetOct": "Alleen oktober",
   "revamp.presetMaritime": "⚓ Scheepsaanvallen (5–23 okt.)",
-  "revamp.recordsInInterval": "{n} vermeldingen in de periode",
+  "revamp.recordsInInterval": {"one": "{n} vermelding in de periode", "other": "{n} vermeldingen in de periode"},
   "revamp.recordVideo": "Video opnemen",
   "revamp.stopSaveVideo": "Stoppen en opslaan",
   "revamp.recordVideoTitle": "Speel de gekozen periode af en download een MP4/WebM-video",

@@ -24,7 +24,8 @@ test('interval framing keeps all October locations before the playhead advances'
   assert(pool.some(e => e.id === 'N112'));
   let fitted;
   const context = {intervalEvents:()=>pool, visibleEvents:[pool[0]], events:active,
-    map:{fitBounds(points){fitted=points;}}, mapPadding:()=>({}), reducedMotion:true};
+    map:{invalidateSize(){},fitBounds(points){fitted=points;}}, pendingMapFit:false,
+    $:()=>({clientWidth:390,clientHeight:700}), mapPadding:()=>({}), reducedMotion:true};
   vm.createContext(context);
   vm.runInContext(app.slice(app.indexOf('  function fitEvents'),app.indexOf('  // Media helpers'))+'\nfitEvents();',context);
   assert.equal(fitted.length,pool.reduce((n,event)=>n+event.positions.length,0));

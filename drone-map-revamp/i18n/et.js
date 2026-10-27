@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Kasv augustist oktoobrini",
   "revamp.presetOct": "Ainult oktoober",
   "revamp.presetMaritime": "⚓ Rünnakud laevadele (5.–23. okt)",
-  "revamp.recordsInInterval": "{n} kirjet ajavahemikus",
+  "revamp.recordsInInterval": {"one": "{n} kirje ajavahemikus", "other": "{n} kirjet ajavahemikus"},
   "revamp.recordVideo": "Salvesta video",
   "revamp.stopSaveVideo": "Peata ja salvesta video",
   "revamp.recordVideoTitle": "Esita valitud ajavahemik ja laadi alla MP4/WebM-video",

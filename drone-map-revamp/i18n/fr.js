@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Hausse août–octobre",
   "revamp.presetOct": "Octobre seulement",
   "revamp.presetMaritime": "⚓ Attaques de navires (5–23 oct.)",
-  "revamp.recordsInInterval": "{n} fiches sur la période",
+  "revamp.recordsInInterval": {"one": "{n} fiche sur la période", "many": "{n} fiches sur la période", "other": "{n} fiches sur la période"},
   "revamp.recordVideo": "Enregistrer une vidéo",
   "revamp.stopSaveVideo": "Arrêter et sauvegarder",
   "revamp.recordVideoTitle": "Rejouer la période choisie et télécharger une vidéo MP4/WebM",

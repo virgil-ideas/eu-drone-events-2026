@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Anstieg Aug.–Okt.",
   "revamp.presetOct": "Nur Oktober",
   "revamp.presetMaritime": "⚓ Schiffsangriffe (5.–23. Okt.)",
-  "revamp.recordsInInterval": "{n} Einträge im Zeitraum",
+  "revamp.recordsInInterval": {"one": "{n} Eintrag im Zeitraum", "other": "{n} Einträge im Zeitraum"},
   "revamp.recordVideo": "Video aufnehmen",
   "revamp.stopSaveVideo": "Stoppen und speichern",
   "revamp.recordVideoTitle": "Zeitraum wiedergeben und MP4/WebM-Video herunterladen",

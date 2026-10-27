@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Augimas rugpjūtį–spalį",
   "revamp.presetOct": "Tik spalis",
   "revamp.presetMaritime": "⚓ Išpuoliai prieš laivus (spalio 5–23 d.)",
-  "revamp.recordsInInterval": "{n} įrašų laikotarpyje",
+  "revamp.recordsInInterval": {"one": "{n} įrašas laikotarpyje", "few": "{n} įrašai laikotarpyje", "many": "{n} įrašo laikotarpyje", "other": "{n} įrašų laikotarpyje"},
   "revamp.recordVideo": "Įrašyti vaizdą",
   "revamp.stopSaveVideo": "Stabdyti ir išsaugoti",
   "revamp.recordVideoTitle": "Atkurti pasirinktą laikotarpį ir atsisiųsti MP4/WebM vaizdo įrašą",

@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Nárast august–október",
   "revamp.presetOct": "Iba október",
   "revamp.presetMaritime": "⚓ Útoky na lode (5.–23. okt.)",
-  "revamp.recordsInInterval": "{n} záznamov v období",
+  "revamp.recordsInInterval": {"one": "{n} záznam v období", "few": "{n} záznamy v období", "many": "{n} záznamu v období", "other": "{n} záznamov v období"},
   "revamp.recordVideo": "Nahrať video",
   "revamp.stopSaveVideo": "Zastaviť a uložiť video",
   "revamp.recordVideoTitle": "Prehrať vybrané obdobie a stiahnuť video MP4/WebM",

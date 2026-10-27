@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Stigning aug.–okt.",
   "revamp.presetOct": "Kun oktober",
   "revamp.presetMaritime": "⚓ Skibsangreb (5.–23. okt.)",
-  "revamp.recordsInInterval": "{n} poster i perioden",
+  "revamp.recordsInInterval": {"one": "{n} post i perioden", "other": "{n} poster i perioden"},
   "revamp.recordVideo": "Optag video",
   "revamp.stopSaveVideo": "Stop og gem video",
   "revamp.recordVideoTitle": "Afspil den valgte periode og download en MP4/WebM-video",

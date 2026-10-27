@@ -14,11 +14,12 @@ sys.path.insert(0, str(DRONE_MAP_DIR / 'scripts'))
 from database import DataError, load_database, mapped_events  # noqa: E402
 from pages import copy_for, load_pages  # noqa: E402
 
-SHARED_ASSETS = ('events.js', 'sitemap.xml', 'media.js', 'trend-data.js', 'landmark.js')
+SHARED_ASSETS = ('events.js', 'sitemap.xml', 'robots.txt', 'page.css', 'media.js', 'trend-data.js', 'landmark.js')
 
 
-def sync_assets(source, destination, check=False):
-    expected = {Path(name): (source / name).read_bytes() for name in SHARED_ASSETS}
+def sync_assets(source, destination, check=False, research_files=()):
+    names = (*SHARED_ASSETS, *(item['name'] for item in research_files))
+    expected = {Path(name): (source / name).read_bytes() for name in names}
     event_files = list((source / 'events').rglob('*.html'))
     if not event_files:
         raise DataError('Canonical event pages are missing. Build drone-map first.')
@@ -58,17 +59,18 @@ def main():
     args = parser.parse_args()
 
     content, count = render_pages_data()
+    research_files = load_database(DRONE_MAP_DIR / 'data', DRONE_MAP_DIR.parent)['dataset']['researchFiles']
     out_path = REVAMP_DIR / 'pages-data.js'
 
     if args.check:
         if not out_path.exists() or out_path.read_text(encoding='utf-8') != content:
             raise DataError('drone-map-revamp/pages-data.js is stale. Run python3 drone-map-revamp/build-pages-data.py')
-        sync_assets(DRONE_MAP_DIR / 'dist', REVAMP_DIR, check=True)
+        sync_assets(DRONE_MAP_DIR / 'dist', REVAMP_DIR, check=True, research_files=research_files)
         print(f'Verified {count} editorial summaries and all copied data assets and event pages.')
         return
 
     out_path.write_text(content, encoding='utf-8')
-    sync_assets(DRONE_MAP_DIR / 'dist', REVAMP_DIR)
+    sync_assets(DRONE_MAP_DIR / 'dist', REVAMP_DIR, research_files=research_files)
     print(f'Wrote {count} compact editorial summaries to {out_path} and synced dist assets.')
 
 

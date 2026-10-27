@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Kasvu elo–lokakuussa",
   "revamp.presetOct": "Vain lokakuu",
   "revamp.presetMaritime": "⚓ Iskut aluksiin (5.–23.10.)",
-  "revamp.recordsInInterval": "{n} tietuetta aikavälillä",
+  "revamp.recordsInInterval": {"one": "{n} tietue aikavälillä", "other": "{n} tietuetta aikavälillä"},
   "revamp.recordVideo": "Tallenna video",
   "revamp.stopSaveVideo": "Lopeta ja tallenna video",
   "revamp.recordVideoTitle": "Toista valittu aikaväli ja lataa MP4/WebM-videotallenne",

@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Aumento ago.–ott.",
   "revamp.presetOct": "Solo ottobre",
   "revamp.presetMaritime": "⚓ Attacchi a navi (5–23 ott.)",
-  "revamp.recordsInInterval": "{n} schede nell’intervallo",
+  "revamp.recordsInInterval": {"one": "{n} scheda nell’intervallo", "many": "{n} schede nell’intervallo", "other": "{n} schede nell’intervallo"},
   "revamp.recordVideo": "Registra video",
   "revamp.stopSaveVideo": "Ferma e salva",
   "revamp.recordVideoTitle": "Riproduci l’intervallo selezionato e scarica un video MP4/WebM",

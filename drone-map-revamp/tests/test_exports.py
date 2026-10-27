@@ -50,3 +50,18 @@ class ExportChecks(unittest.TestCase):
         (self.source / 'events.js').unlink()
         with self.assertRaises(FileNotFoundError):
             export.sync_assets(self.source, self.target)
+
+    def test_checks_and_refreshes_research_downloads_and_page_styles(self):
+        research_files = [{'name': 'research.md'}, {'name': 'research-update.md'}]
+        for item in research_files:
+            (self.source / item['name']).write_text('new research')
+        export.sync_assets(self.source, self.target, research_files=research_files)
+        for name in ['research.md', 'research-update.md', 'page.css', 'robots.txt']:
+            with self.subTest(name=name):
+                (self.source / name).write_text('updated content')
+                with self.assertRaises(export.DataError):
+                    export.sync_assets(self.source, self.target, check=True, research_files=research_files)
+                self.assertNotEqual((self.target / name).read_text(), 'updated content')
+                export.sync_assets(self.source, self.target, research_files=research_files)
+                self.assertEqual((self.target / name).read_text(), 'updated content')
+        export.sync_assets(self.source, self.target, check=True, research_files=research_files)

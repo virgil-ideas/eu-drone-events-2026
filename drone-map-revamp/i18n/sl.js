@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Porast avgust–oktober",
   "revamp.presetOct": "Samo oktober",
   "revamp.presetMaritime": "⚓ Napadi na ladje (5.–23. okt.)",
-  "revamp.recordsInInterval": "{n} zapisov v obdobju",
+  "revamp.recordsInInterval": {"one": "{n} zapis v obdobju", "two": "{n} zapisa v obdobju", "few": "{n} zapisi v obdobju", "other": "{n} zapisov v obdobju"},
   "revamp.recordVideo": "Posnemi video",
   "revamp.stopSaveVideo": "Ustavi in shrani video",
   "revamp.recordVideoTitle": "Predvajaj izbrano obdobje in prenesi video MP4/WebM",

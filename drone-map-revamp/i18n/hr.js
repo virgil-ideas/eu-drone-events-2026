@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Porast kolovoz–listopad",
   "revamp.presetOct": "Samo listopad",
   "revamp.presetMaritime": "⚓ Napadi na brodove (5.–23. lis.)",
-  "revamp.recordsInInterval": "{n} zapisa u razdoblju",
+  "revamp.recordsInInterval": {"one": "{n} zapis u razdoblju", "few": "{n} zapisa u razdoblju", "other": "{n} zapisa u razdoblju"},
   "revamp.recordVideo": "Snimi video",
   "revamp.stopSaveVideo": "Zaustavi i spremi video",
   "revamp.recordVideoTitle": "Reproduciraj odabrano razdoblje i preuzmi MP4/WebM video",

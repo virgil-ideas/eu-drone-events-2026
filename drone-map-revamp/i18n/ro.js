@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Valul Aug–Oct",
   "revamp.presetOct": "Doar Oct",
   "revamp.presetMaritime": "⚓ Atacuri nave (5–23 Oct)",
-  "revamp.recordsInInterval": "{n} înregistrări în interval",
+  "revamp.recordsInInterval": {"one": "{n} înregistrare în interval", "few": "{n} înregistrări în interval", "other": "{n} de înregistrări în interval"},
   "revamp.recordVideo": "Înregistrează video",
   "revamp.stopSaveVideo": "Oprește & Salvează",
   "revamp.recordVideoTitle": "Redă intervalul selectat și descarcă înregistrarea video MP4/WebM",

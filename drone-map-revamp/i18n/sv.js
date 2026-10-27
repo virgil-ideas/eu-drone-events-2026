@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Ökning aug.–okt.",
   "revamp.presetOct": "Endast oktober",
   "revamp.presetMaritime": "⚓ Fartygsangrepp (5–23 okt.)",
-  "revamp.recordsInInterval": "{n} poster i perioden",
+  "revamp.recordsInInterval": {"one": "{n} post i perioden", "other": "{n} poster i perioden"},
   "revamp.recordVideo": "Spela in video",
   "revamp.stopSaveVideo": "Stoppa och spara video",
   "revamp.recordVideoTitle": "Spela upp den valda perioden och ladda ned en MP4/WebM-video",

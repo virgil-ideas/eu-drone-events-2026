@@ -237,7 +237,7 @@
   "revamp.presetSurge": "Ръст август–октомври",
   "revamp.presetOct": "Само октомври",
   "revamp.presetMaritime": "⚓ Удари по кораби (5–23 окт.)",
-  "revamp.recordsInInterval": "{n} записа за периода",
+  "revamp.recordsInInterval": {"one": "{n} запис за периода", "other": "{n} записа за периода"},
   "revamp.recordVideo": "Запис на видео",
   "revamp.stopSaveVideo": "Спиране и запазване",
   "revamp.recordVideoTitle": "Възпроизвеждане на избрания период и изтегляне на MP4/WebM видеозапис",
