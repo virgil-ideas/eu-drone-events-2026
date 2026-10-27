@@ -251,5 +251,16 @@
   "revamp.darkTurnReplayBtn": "▶ Riproduci l’escalation del 5–23 ott.",
   "revamp.darkTurnModalBtn": "Cronologia e navi →",
   "revamp.darkTurnDismissAria": "Comprimi il riquadro dell’escalation",
-  "revamp.darkTurnVesselsTitle": "Schede delle navi nel Mar Nero in ordine cronologico (clicca per vedere sulla mappa)"
+  "revamp.darkTurnVesselsTitle": "Schede delle navi nel Mar Nero in ordine cronologico (clicca per vedere sulla mappa)",
+  "revamp.darkTurnEyebrow": "Punto di svolta · ott. 2026 · Mar Nero e acque rumene",
+  "revamp.darkTurnTitle": "Quando la situazione ha preso una piega oscura: attacchi letali alle navi mercantili nel Mar Nero",
+  "revamp.darkTurnBody": "Dopo mesi di attraversamenti non letali dello spazio aereo e di detriti costieri, l’ottobre 2026 ha portato una netta escalation: 8 schede riguardano 9 navi mercantili colpite o prese di mira al largo di Romania e Bulgaria — tra cui YARA J e Sea Destiny entro le acque territoriali rumene vicino a Sulina, e KHORYV fuori dalle acque territoriali al largo di Constanța — con marinai uccisi, feriti e oltre 30 membri dell’equipaggio segnalati come dispersi.",
+  "revamp.darkTurnModalTitle": "Dalle incursioni nello spazio aereo agli attacchi letali alle navi mercantili nel Mar Nero",
+  "revamp.darkTurnPhase1Title": "gen. – set. 2026 · Spazio aereo, confini e detriti costieri",
+  "revamp.darkTurnPhase1Body": "Oltre 100 schede su spazio aereo, sequestri al confine e detriti costieri in 10 paesi dell’UE, con 0 decessi confermati (più 3 incidenti marittimi estivi irrisolti o non confermati al largo di Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5 – 23 ott. 2026 · L’escalation marittima letale",
+  "revamp.darkTurnPhase2Body": "8 schede riguardano 9 navi mercantili colpite o prese di mira in 19 giorni nel Mar Nero occidentale, compresi incidenti nelle acque territoriali rumene al largo di Sulina, con decessi confermati (Royad Mammadov, KHORYV), membri dell’equipaggio ricoverati per ustioni e oltre 30 marinai segnalati come dispersi.",
+  "revamp.darkTurnCountingNote": "Nota sul conteggio: le cifre sulle vittime provengono da dichiarazioni ufficiali navali, ministeriali e diplomatiche citate in ciascuna scheda. I resoconti contrastanti non vengono mai sommati e i marinai dispersi non sono registrati come morti confermati.",
+  "revamp.territorialWaters": "Acque territoriali: {country}",
+  "revamp.trendDialogTitle": "Distribuzione mensile e confronto a 90 giorni"
 };

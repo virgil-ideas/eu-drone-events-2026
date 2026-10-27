@@ -251,5 +251,16 @@
   "revamp.darkTurnReplayBtn": "▶ Reproducir la escalada del 5–23 oct.",
   "revamp.darkTurnModalBtn": "Cronología y barcos →",
   "revamp.darkTurnDismissAria": "Contraer el aviso de escalada",
-  "revamp.darkTurnVesselsTitle": "Registros marítimos del mar Negro por fecha (pulsa para ver en el mapa)"
+  "revamp.darkTurnVesselsTitle": "Registros marítimos del mar Negro por fecha (pulsa para ver en el mapa)",
+  "revamp.darkTurnEyebrow": "Punto de inflexión · oct. 2026 · Mar Negro y aguas rumanas",
+  "revamp.darkTurnTitle": "Cuando las cosas dieron un giro oscuro: ataques letales contra el transporte marítimo del mar Negro",
+  "revamp.darkTurnBody": "Tras meses de cruces del espacio aéreo sin víctimas mortales y de restos en la costa, octubre de 2026 trajo una brusca escalada: 8 registros abarcan 9 buques mercantes alcanzados o atacados frente a Rumanía y Bulgaria —entre ellos el YARA J y el Sea Destiny, dentro de aguas territoriales rumanas cerca de Sulina, y el KHORYV, fuera de las aguas territoriales frente a Constanza—, con marineros muertos y heridos y más de 30 tripulantes notificados como desaparecidos.",
+  "revamp.darkTurnModalTitle": "De las incursiones en el espacio aéreo a los ataques letales contra el transporte marítimo del mar Negro",
+  "revamp.darkTurnPhase1Title": "Ene. – sep. 2026 · Espacio aéreo, frontera y restos en la costa",
+  "revamp.darkTurnPhase1Body": "Más de 100 registros de espacio aéreo, incautaciones en la frontera y restos en la costa en 10 Estados de la UE, con 0 víctimas mortales confirmadas (además de 3 incidentes marítimos de verano sin resolver o sin confirmar frente a Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5 – 23 oct. 2026 · La escalada marítima letal",
+  "revamp.darkTurnPhase2Body": "8 registros abarcan 9 buques mercantes alcanzados o atacados en 19 días en el oeste del mar Negro, incluidos incidentes en aguas territoriales rumanas frente a Sulina, con muertes confirmadas (Royad Mammadov, KHORYV), tripulantes hospitalizados con quemaduras y más de 30 marineros notificados como desaparecidos.",
+  "revamp.darkTurnCountingNote": "Nota sobre el recuento: las cifras de víctimas proceden de declaraciones oficiales navales, ministeriales y diplomáticas citadas en cada registro. Los informes contradictorios nunca se suman, y los marineros desaparecidos no se registran como muertos confirmados.",
+  "revamp.territorialWaters": "Aguas territoriales de {country}",
+  "revamp.trendDialogTitle": "Distribución mensual y comparación de 90 días"
 };

@@ -251,5 +251,16 @@
   "revamp.darkTurnReplayBtn": "▶ Reproduzir a escalada de 5–23 out.",
   "revamp.darkTurnModalBtn": "Cronologia e navios →",
   "revamp.darkTurnDismissAria": "Recolher o aviso de escalada",
-  "revamp.darkTurnVesselsTitle": "Registos de navios no Mar Negro por data (clique para ver no mapa)"
+  "revamp.darkTurnVesselsTitle": "Registos de navios no Mar Negro por data (clique para ver no mapa)",
+  "revamp.darkTurnEyebrow": "Ponto de viragem · out. 2026 · Mar Negro e águas romenas",
+  "revamp.darkTurnTitle": "Quando tudo tomou um rumo sombrio: ataques mortais contra a navegação no Mar Negro",
+  "revamp.darkTurnBody": "Depois de meses de travessias do espaço aéreo sem vítimas mortais e de destroços na costa, outubro de 2026 trouxe uma forte escalada: 8 registos abrangem 9 navios mercantes atingidos ou visados ao largo da Roménia e da Bulgária — incluindo o YARA J e o Sea Destiny, em águas territoriais romenas perto de Sulina, e o KHORYV, fora das águas territoriais ao largo de Constanța —, com marinheiros mortos, feridos e mais de 30 tripulantes dados como desaparecidos.",
+  "revamp.darkTurnModalTitle": "Das incursões no espaço aéreo aos ataques mortais contra a navegação no Mar Negro",
+  "revamp.darkTurnPhase1Title": "Jan. – set. 2026 · Espaço aéreo, fronteiras e destroços costeiros",
+  "revamp.darkTurnPhase1Body": "Mais de 100 registos de incidentes aéreos, apreensões na fronteira e destroços costeiros em 10 Estados-Membros da UE, com 0 mortes confirmadas (mais 3 incidentes marítimos de verão por esclarecer ou não confirmados ao largo de Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5 – 23 out. 2026 · A escalada marítima mortal",
+  "revamp.darkTurnPhase2Body": "8 registos abrangem 9 navios mercantes atingidos ou visados em 19 dias no oeste do mar Negro, incluindo incidentes em águas territoriais romenas ao largo de Sulina, com mortes confirmadas (Royad Mammadov, KHORYV), tripulantes hospitalizados com queimaduras e mais de 30 marinheiros dados como desaparecidos.",
+  "revamp.darkTurnCountingNote": "Nota sobre a contagem: os números de vítimas provêm de declarações oficiais navais, ministeriais e diplomáticas citadas em cada registo. Os relatos contraditórios nunca são somados, e os marinheiros desaparecidos não são registados como mortos confirmados.",
+  "revamp.territorialWaters": "Águas territoriais: {country}",
+  "revamp.trendDialogTitle": "Distribuição mensal e comparação a 90 dias"
 };

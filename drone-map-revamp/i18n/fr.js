@@ -251,5 +251,16 @@
   "revamp.darkTurnReplayBtn": "▶ Rejouer l’escalade du 5 au 23 oct.",
   "revamp.darkTurnModalBtn": "Chronologie et navires →",
   "revamp.darkTurnDismissAria": "Réduire l’encadré sur l’escalade",
-  "revamp.darkTurnVesselsTitle": "Incidents maritimes en mer Noire par date (cliquer pour voir sur la carte)"
+  "revamp.darkTurnVesselsTitle": "Incidents maritimes en mer Noire par date (cliquer pour voir sur la carte)",
+  "revamp.darkTurnEyebrow": "Tournant · oct. 2026 · mer Noire et eaux roumaines",
+  "revamp.darkTurnTitle": "Quand la situation a basculé : des frappes meurtrières contre la navigation en mer Noire",
+  "revamp.darkTurnBody": "Après des mois de franchissements d’espace aérien non meurtriers et de débris sur les côtes, octobre 2026 a marqué une forte escalade : 8 fiches couvrent 9 navires marchands touchés ou visés au large de la Roumanie et de la Bulgarie, dont YARA J et Sea Destiny dans les eaux territoriales roumaines près de Sulina et KHORYV hors des eaux territoriales au large de Constanța, avec des marins tués, des blessés et plus de 30 membres d’équipage signalés disparus.",
+  "revamp.darkTurnModalTitle": "Des incursions dans l’espace aérien aux frappes meurtrières contre la navigation en mer Noire",
+  "revamp.darkTurnPhase1Title": "Janv.–sept. 2026 · Espace aérien, frontières et débris côtiers",
+  "revamp.darkTurnPhase1Body": "Plus de 100 fiches d’espace aérien, de saisies à la frontière et de débris côtiers dans 10 États de l’UE, sans aucun décès confirmé (ainsi que 3 incidents estivaux non résolus ou non confirmés touchant la navigation au large de Sfântu Gheorghe : E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5–23 oct. 2026 · L’escalade maritime meurtrière",
+  "revamp.darkTurnPhase2Body": "8 fiches couvrent 9 navires marchands touchés ou visés en 19 jours dans l’ouest de la mer Noire, dont des incidents dans les eaux territoriales roumaines au large de Sulina, avec des décès confirmés (Royad Mammadov, KHORYV), des membres d’équipage hospitalisés pour brûlures et plus de 30 marins signalés disparus.",
+  "revamp.darkTurnCountingNote": "Note sur le décompte : les bilans humains proviennent de déclarations officielles de marines, de ministères et de diplomates citées dans chaque fiche. Les informations contradictoires ne sont jamais additionnées, et les marins disparus ne sont pas comptés comme morts confirmés.",
+  "revamp.territorialWaters": "Eaux territoriales : {country}",
+  "revamp.trendDialogTitle": "Répartition mensuelle et comparaison sur 90 jours"
 };

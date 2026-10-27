@@ -251,5 +251,16 @@
   "revamp.darkTurnReplayBtn": "▶ Afspil eskalationen 5.–23. okt.",
   "revamp.darkTurnModalBtn": "Tidslinje og skibe →",
   "revamp.darkTurnDismissAria": "Fold vendepunktsbanneret sammen",
-  "revamp.darkTurnVesselsTitle": "Kronologiske skibsposter fra Sortehavet (klik for at se på kortet)"
+  "revamp.darkTurnVesselsTitle": "Kronologiske skibsposter fra Sortehavet (klik for at se på kortet)",
+  "revamp.darkTurnEyebrow": "Vendepunkt · okt. 2026 · Sortehavet og rumænsk farvand",
+  "revamp.darkTurnTitle": "Da det tog en mørk drejning: dødelige angreb på skibsfarten i Sortehavet",
+  "revamp.darkTurnBody": "Efter måneder med ikke-dødelige krænkelser af luftrummet og kystnære vragdele medførte oktober 2026 en kraftig eskalation: 8 registreringer omfatter 9 handelsskibe, der blev ramt eller var mål for angreb ud for Rumænien og Bulgarien – blandt dem YARA J og Sea Destiny inden for rumænsk territorialfarvand nær Sulina og KHORYV uden for territorialfarvandet ud for Constanța – med dræbte og sårede søfolk og over 30 besætningsmedlemmer meldt savnet.",
+  "revamp.darkTurnModalTitle": "Fra krænkelser af luftrummet til dødelige angreb på skibsfarten i Sortehavet",
+  "revamp.darkTurnPhase1Title": "Jan. – sep. 2026 · Luftrum, grænser og kystnære vragdele",
+  "revamp.darkTurnPhase1Body": "Over 100 registreringer om luftrum, beslaglæggelser ved grænsen og kystnære vragdele i 10 EU-lande uden bekræftede dødsfald (plus 3 uafklarede/ubekræftede skibshændelser i sommerens løb ud for Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5.–23. okt. 2026 · Den dødelige maritime eskalation",
+  "revamp.darkTurnPhase2Body": "8 registreringer omfatter 9 handelsskibe, der blev ramt eller var mål for angreb i løbet af 19 dage i det vestlige Sortehav, herunder hændelser i rumænsk territorialfarvand ud for Sulina, med bekræftede dødsfald (Royad Mammadov, KHORYV), besætningsmedlemmer indlagt med forbrændinger og over 30 søfolk meldt savnet.",
+  "revamp.darkTurnCountingNote": "Bemærkning om optælling: Tallene for ofre stammer fra officielle udtalelser fra flåden, ministerier og diplomatiet, som er citeret i de enkelte registreringer. Modstridende oplysninger lægges aldrig sammen, og savnede søfolk registreres ikke som bekræftet dræbte.",
+  "revamp.territorialWaters": "{country}s territorialfarvand",
+  "revamp.trendDialogTitle": "Månedlig fordeling og sammenligning af 90 dage"
 };

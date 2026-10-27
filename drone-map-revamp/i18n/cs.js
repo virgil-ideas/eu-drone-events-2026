@@ -251,5 +251,16 @@
   "revamp.darkTurnReplayBtn": "▶ Přehrát eskalaci 5.–23. října",
   "revamp.darkTurnModalBtn": "Časová osa a plavidla →",
   "revamp.darkTurnDismissAria": "Sbalit banner bodu obratu",
-  "revamp.darkTurnVesselsTitle": "Chronologické záznamy plavidel v Černém moři (kliknutím zobrazíte na mapě)"
+  "revamp.darkTurnVesselsTitle": "Chronologické záznamy plavidel v Černém moři (kliknutím zobrazíte na mapě)",
+  "revamp.darkTurnEyebrow": "Bod obratu · říjen 2026 · Černé moře a rumunské vody",
+  "revamp.darkTurnTitle": "Když se věci obrátily k horšímu: smrtící údery na lodní dopravu v Černém moři",
+  "revamp.darkTurnBody": "Po měsících nesmrtících přeletů vzdušného prostoru a pobřežních trosek přinesl říjen 2026 prudkou eskalaci: 8 záznamů se týká 9 obchodních plavidel zasažených či cílených u Rumunska a Bulharska – včetně YARA J a Sea Destiny uvnitř rumunských teritoriálních vod u Sulina a KHORYV mimo teritoriální vody u Konstance – s usmrcenými a zraněnými námořníky a více než 30 členy posádky hlášenými jako pohřešovaní.",
+  "revamp.darkTurnModalTitle": "Od narušení vzdušného prostoru ke smrtícím úderům na lodní dopravu v Černém moři",
+  "revamp.darkTurnPhase1Title": "Leden – září 2026 · Vzdušný prostor, hranice a pobřežní trosky",
+  "revamp.darkTurnPhase1Body": "Více než 100 záznamů o vzdušném prostoru, zabaveních na hranicích a pobřežních troskách v 10 státech EU s 0 potvrzenými úmrtími (a 3 nevyřešené či nepotvrzené letní incidenty v lodní dopravě u Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5.–23. října 2026 · Smrtící námořní eskalace",
+  "revamp.darkTurnPhase2Body": "8 záznamů se týká 9 obchodních plavidel zasažených či cílených během 19 dnů v západní části Černého moře, včetně incidentů v rumunských teritoriálních vodách u Sulina, s potvrzenými úmrtími (Royad Mammadov, KHORYV), členy posádky hospitalizovanými s popáleninami a více než 30 námořníky hlášenými jako pohřešovaní.",
+  "revamp.darkTurnCountingNote": "Poznámka k počítání: Počty obětí pocházejí z oficiálních námořních, ministerských a diplomatických prohlášení citovaných u každého záznamu. Protichůdné zprávy se nikdy nesčítají a pohřešovaní námořníci se nezapisují jako potvrzení mrtví.",
+  "revamp.territorialWaters": "Teritoriální vody: {country}",
+  "revamp.trendDialogTitle": "Měsíční rozložení a srovnání za 90 dní"
 };
