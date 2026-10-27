@@ -47,21 +47,21 @@
   {
     "id": "A003",
     "dateLabel": "2026 year to date; dashboard updated 2026-10-21",
-    "dateBasis": "Dashboard snapshot dated and checked 21 October 2026",
+    "dateBasis": "Dashboard marked updated 21 October 2026; current table and cards checked 24 October 2026",
     "countries": "Romania",
     "location": "MApN official national dashboard; categories defined by the ministry",
     "status": "Official overlapping counters — NOT additive",
     "categories": "Near-border attacks; scrambles; unauthorized access; shoot-downs; fragments; separate mine counter",
-    "vehicle": "2026 dashboard: 39 near-border attacks; 77 aircraft-response incidents; 35 unauthorized entries; 6 shot-down drones; 44 drones/fragments identified, recovered or neutralized; 2 naval mines",
+    "vehicle": "2026 dashboard: 98 near-border attacks; 77 aircraft-response incidents; 35 unauthorized entries; 6 shot-down drones; 44 drones/fragments identified, recovered or neutralized; 2 naval mines",
     "attribution": "Different populations: nearby attacks, responses, airspace incidents and recoveries",
     "route": "Not an event-by-event route dataset",
-    "circumstances": "Current official snapshot retained separately from the research chronology. On 5 October the dashboard reported 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries and 4 shot-down drones. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 on 2, 5 and 17 October. Counter changes alone do not identify individual events; N095 separately records the confirmed 17 October interception. The 4–5 October Vâlcove alert involved no detected Romanian airspace entry and is excluded from the map (U026). The 21 October table displays 39 near-border attacks, differing from the previously recorded 97; no explanation or event-level reconciliation is supplied. The other listed 2026 counters are unchanged. The 21 October 03:34–04:02 Tulcea alert explicitly reported no national-airspace entry (U101).",
+    "circumstances": "Current official snapshot retained separately from the research chronology. On 5 October the dashboard reported 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries and 4 shot-down drones. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 on 2, 5 and 17 October. Counter changes alone do not identify individual events; N095 separately records the confirmed 17 October interception. The 4–5 October Vâlcove alert involved no detected Romanian airspace entry and is excluded from the map (U026). The prior 21 October review recorded a display of 39 near-border attacks, differing from the previously recorded 97; no explanation or event-level reconciliation is supplied. The other listed 2026 counters are unchanged. The 21 October 03:34–04:02 Tulcea alert explicitly reported no national-airspace entry (U101). On 24 October, both the current table and cards show 98 near-border attacks. This supersedes the prior recorded 39 display, without explaining that discrepancy or identifying a new occurrence. Other counters remain unchanged.",
     "payload": "Not reported",
     "impact": "Not reported",
     "response": "MApN operational/recovery categories.",
-    "uncertainty": "Categories overlap and use ministry-specific populations. These totals cannot be reconciled automatically with all-agency/news records and do not establish the identity or nationality of an individual object. The near-border-counter discrepancy is unresolved and must not be interpreted as subtraction of 58 incident records.",
+    "uncertainty": "Overlapping ministry-specific populations, not additive incident totals. The current near-border display is 98; the earlier recorded 39 remains an unexplained historical discrepancy. Counter changes alone establish no individual event or nationality.",
     "deduplication": "All categories overlap. Mine counter is not a drone count. Do not total counters or use them to replace the incident register.",
-    "provenance": "A003 refreshed on 2026-10-19 against the MApN dashboard updated 17 October (U074). Earlier snapshots remain documented in the original research and Git history (S62, U016, U020 and U027). Current dashboard and bulletin 339 reviewed 21 October (U100–U101), retaining earlier snapshots as dated history.",
+    "provenance": "A003 refreshed on 2026-10-19 against the MApN dashboard updated 17 October (U074). Earlier snapshots remain documented in the original research and Git history (S62, U016, U020 and U027). Current dashboard and bulletin 339 reviewed 21 October (U100–U101), retaining earlier snapshots as dated history. Current dashboard rechecked 24 October (U154); prior snapshots preserved.",
     "sources": [
       "S62",
       "U016",
@@ -70,9 +70,10 @@
       "U027",
       "U074",
       "U100",
-      "U101"
+      "U101",
+      "U154"
     ],
-    "reviewedOn": "2026-10-21"
+    "reviewedOn": "2026-10-24"
   },
   {
     "id": "A004",

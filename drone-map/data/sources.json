@@ -2367,5 +2367,191 @@
     "title": "Lubaczów urban administrative area",
     "url": "https://www.geonames.org/7531334/lubacz-w.html",
     "audit": "Geographic reference reviewed 23 October. Urban-area centre at about 50.1573 N, 23.12025 E supports a rounded town anchor only; not an exact Herzoga Street discovery coordinate."
+  },
+  "U146": {
+    "id": "U146",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Greek military daily account for 23 October 2026",
+    "url": "https://www.onalert.gr/ellinotourkika/aigaio-13-paraviaseis-tou-ethnikou-enaeriou-xorou-apo-tourkika-drones-kai-ena-cn-235/828342/",
+    "dateLabel": "23 October 2026",
+    "audit": "Full article and dated table read 24 October. Six UAVs, thirteen reported national-airspace violations and nine UAV FIR infringements; excludes CN-235 and two FIR infringements. Matching published authority accounts, not independent flight verification. No UAV payload certainty inferred from dash in armament field."
+  },
+  "U147": {
+    "id": "U147",
+    "publisher": "NewsIT / GEETHA",
+    "title": "Greek military daily account for 23 October 2026",
+    "url": "https://www.newsit.gr/ellada/aigaio-nees-prokliseis-apo-tin-tourkia-me-13-paraviaseis-kai-11-paravaseis-sto-fir-athinon/4805869/",
+    "dateLabel": "23 October 2026",
+    "audit": "Full article and dated table read 24 October. Six UAVs, thirteen reported national-airspace violations and nine UAV FIR infringements; excludes CN-235 and two FIR infringements. Matching published authority accounts, not independent flight verification. No UAV payload certainty inferred from dash in armament field."
+  },
+  "U150": {
+    "id": "U150",
+    "publisher": "AGERPRES / Presidential Administration",
+    "title": "Presidential press statement on 23 October",
+    "url": "https://agerpres.ro/comunicate/2026/10/23/comunicat-de-presa---administratia-prezidentiala--1606203",
+    "dateLabel": "23 October 2026",
+    "audit": "Full transcript read 24 October. President says a drone hit a ship that morning just outside territorial waters; no technical operator finding supplied."
+  },
+  "U151": {
+    "id": "U151",
+    "publisher": "AGERPRES / Romanian Interior Ministry",
+    "title": "Drone-hit vessel capsizes with imminent risk of sinking",
+    "url": "https://agerpres.ro/english/2026/10/23/incident-at-sea-drone-hit-vessel-capsizes-with-imminent-risk-of-sinking--1606166",
+    "dateLabel": "23 October 2026, 13:37",
+    "audit": "Full report read 24 October. MAI gives 13 nautical miles east of Constanța, capsize and rescue response; no precise coordinates."
+  },
+  "U152": {
+    "id": "U152",
+    "publisher": "AGERPRES / Romanian Naval Authority",
+    "title": "Nine sailors rescued after vessel sinking brought to Port of Constanța",
+    "url": "https://agerpres.ro/english/2026/10/23/incident-at-sea-nine-sailors-rescued-after-vessel-sinking-brought-to-port-of-constanta--1606234",
+    "dateLabel": "23 October 2026, 15:18",
+    "audit": "Full report read 24 October. Reports KHORYV sinking and links the presidential drone statement to this incident. ANR snapshot: thirteen crew, nine rescued, one dead, three missing."
+  },
+  "U153": {
+    "id": "U153",
+    "publisher": "Interfax-Ukraine / Ukrainian Foreign Ministry",
+    "title": "Ukrainian sailor killed in KHORYV incident",
+    "url": "https://en.interfax.com.ua/news/general/1225444-amp.html",
+    "dateLabel": "23 October 2026, 18:50",
+    "audit": "Full report read 24 October. MFA confirms Ukrainian fatality and medical outcomes; drone causation preliminary. Its fourteen-crew figure conflicts with Romanian thirteen, without a reconciled manifest."
+  },
+  "U154": {
+    "id": "U154",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Drone incident dashboard: current 2026 counters",
+    "url": "https://www.mapn.ro/",
+    "dateLabel": "Dashboard marked updated 21 October 2026; checked 24 October",
+    "audit": "Primary page read 24 October. Both table and cards show 98 nearby attacks, 77 aircraft responses, 35 unauthorized entries, 6 shoot-downs, 44 recoveries and 2 naval mines. Categories overlap; no event identities inferred."
+  },
+  "U155": {
+    "id": "U155",
+    "publisher": "Hina / Dnevnik.hr, quoting Croatian Foreign Ministry",
+    "title": "Croatian sailor missing after drone attack; search stopped",
+    "url": "https://dnevnik.hr/vijesti/svijet/u-napadu-dronom-na-brod-u-crnom-moru-nestao-hrvatski-drzavljanin-mvep---1009510.html",
+    "dateLabel": "22 October 2026, 18:29",
+    "audit": "Full report read 24 October. MVEP says search stopped owing to elapsed time; one Croatian remains missing, another hospitalized for superficial burns was discharged. Missing persons are not confirmed dead."
+  },
+  "U160": {
+    "id": "U160",
+    "publisher": "Radio Lublin",
+    "title": "Dron z Lubaczowa pod lupą lubelskiej prokuratury. Są pierwsze ustalenia",
+    "url": "https://radio.lublin.pl/2026/10/dron-z-lubaczowa-pod-lupa-lubelskiej-prokuratury-sa-pierwsze-ustalenia/amp/",
+    "audit": "23 October report opened 24 October 2026; prosecutor spokesman distinguishes drone transfer to military counterintelligence from attached package sent for testing. Preliminary range assessment is attributed, not a proved launch location."
+  },
+  "U161": {
+    "id": "U161",
+    "publisher": "Finnish Police / National Bureau of Investigation and Finnish Border Guard",
+    "title": "NBI and Border Guard conclude UAV investigations",
+    "url": "https://poliisi.fi/sv/-/centralkriminalpolisens-och-gransbevakningsvasendets-forundersokningar-kring-obemannade-luftfartyg-har-avslutats?languageId=en_US",
+    "audit": "Official release published 9 September 2026 12:00; full English body opened 24 October. Corrects historical occurrences, not new October incidents. May Virolahti attribution is not inferred from the recovered spring-drone findings."
+  },
+  "U156": {
+    "id": "U156",
+    "publisher": "Romanian Maritime Hydrographic Directorate",
+    "title": "KHORYV navigation notices ARN153–155: capsized, partially submerged and afloat",
+    "url": "https://www.dhmfn.ro/ro/informatii-de-interes-public/avize-radio-pentru-navigatori/",
+    "dateLabel": "23–25 October 2026; checked 26 October",
+    "audit": "Full current primary notice read 24 October. Cancels ARN149. Says capsized at10:06 local and remains afloat inverted; three missing. Coordinates identify capsize/navigation hazard, not necessarily strike. Takes precedence over press sinking wording. Rechecked 25 October: ARN154 cancels ARN153, with later navigation-hazard position at 11:03 local on 24 October; still afloat inverted. Earlier ARN153 coordinates retained as dated history, not the current position or a strike coordinate. ARN155 directly read 26 October, cancels ARN154. Partially submerged but still afloat inverted, dated 25 October 11:00 local position 43°55.25′N,028°57.40′E; three missing and one-nautical-mile safety distance. Does not supply strike coordinates."
+  },
+  "U157": {
+    "id": "U157",
+    "publisher": "Romanian Interior Ministry / Pentru Patrie",
+    "title": "Search and rescue response to Black Sea vessel incident",
+    "url": "https://pentrupatrie.mai.gov.ro/structurile-mai-participa-la-operatiunea-de-cautare-si-salvare-a-persoanelor-disparute-in-urma-unui-incident-naval-produs-in-marea-neagra/",
+    "dateLabel": "23 October 2026",
+    "audit": "Full primary report read 24 October: outside territorial waters, thirteen aboard, nine alive/one dead/three missing, initial merchant-vessel rescue then Coast Guard transfer, nine ashore. Does not independently identify weapon/operator."
+  },
+  "U162": {
+    "id": "U162",
+    "publisher": "Estonian Prosecutor’s Office",
+    "title": "Prokuratuur lõpetas Auvere drooni juhtumi uurimise",
+    "url": "https://www.prokuratuur.ee/uudised/prokuratuur-lopetas-auvere-drooni-juhtumi-uurimise",
+    "audit": "23 October 2026, 10:45. Primary article text read through indexed full text 25 October. Investigation closed with origin and precise circumstances unresolved; extensive destruction prevented reliable identification. Ukrainian diversion hypothesis investigated but not established. No indication of deliberate activity against Estonia; impact remains confirmed."
+  },
+  "U163": {
+    "id": "U163",
+    "publisher": "LSM.lv / Latvian National Armed Forces and State Police",
+    "title": "Mežā Alūksnes novadā atrastas ārvalstu drona atlūzas",
+    "url": "https://www.lsm.lv/raksts/zinas/latvija/24.10.2026-meza-aluksnes-novada-atrastas-arvalstu-drona-atluzas.a668930/",
+    "audit": "24 October 2026. Full Latvian report read 25 October, including embedded NBS statement and State Police confirmation. Foreign UAV found 24 October in Liepna parish. Possible airspace entry 18 October is qualified; origin and circumstances remain under investigation. Re-read 26 October, including minister section: conditional Ukrainian / hit-over-Russia / glide hypothesis only, not a finding."
+  },
+  "U164": {
+    "id": "U164",
+    "publisher": "GeoNames",
+    "title": "Liepna Parish geographic reference",
+    "url": "https://www.geonames.org/search.html?country=LV&q=Al%C5%ABksne",
+    "audit": "Checked 25 October 2026 for the broad parish map anchor only (57.348827, 27.513731), not incident confirmation or an exact recovery location."
+  },
+  "U171": {
+    "id": "U171",
+    "publisher": "G4Media / ARSVOM statement",
+    "title": "KHORYV search suspended because of reduced visibility",
+    "url": "https://www.g4media.ro/cautari-marinari-disparuti-khoryv-suspendate-vizibilitate-redusa.html",
+    "audit": "24 October 2026. Full report read25October. ARSVOM-attributed SAR ARTEMIS deployment and18:04 search suspension; retain current DHM afloat status rather than article background completed-sinking phrasing."
+  },
+  "U172": {
+    "id": "U172",
+    "publisher": "Flight / GEETHA",
+    "title": "Greek daily UAV account for 24 October",
+    "url": "https://flight.com.gr/aegean-tourkika-uav-paraviaseis-24-10-2026/",
+    "dateLabel": "25 October 2026",
+    "audit": "Full article read 26 October 2026. Matching publications of the Greek military daily account, not independent flight observations. UAV, national-airspace and FIR measures remain separate. Original GEETHA bulletin was not directly retrieved."
+  },
+  "U173": {
+    "id": "U173",
+    "publisher": "Veteranos / GEETHA",
+    "title": "Seven Turkish UAVs: eleven FIR infringements and six airspace violations",
+    "url": "https://veteranos.gr/aigaio-7-tourkika-uav-prochorisan-se-11-paravaseis-kai-6-paraviaseis-tou-eech/",
+    "dateLabel": "24 October 2026",
+    "audit": "Full article read 26 October 2026. Matching publications of the Greek military daily account, not independent flight observations. UAV, national-airspace and FIR measures remain separate. Original GEETHA bulletin was not directly retrieved."
+  },
+  "U174": {
+    "id": "U174",
+    "publisher": "Dnews / GEETHA",
+    "title": "Eighteen airspace violations from eleven Turkish UAVs",
+    "url": "https://www.dnews.gr/eidhseis/ellada/618596/aigaio-18-paraviaseis-tou-ellinikoy-enaeriou-xorou-apo-11-tourkika-uav",
+    "dateLabel": "25 October 2026",
+    "audit": "Full article read 26 October 2026. Matching publications of the Greek military daily account, not independent flight observations. UAV, national-airspace and FIR measures remain separate. Original GEETHA bulletin was not directly retrieved."
+  },
+  "U175": {
+    "id": "U175",
+    "publisher": "The Press Room / GEETHA",
+    "title": "Sunday Turkish activity in the Aegean",
+    "url": "https://www.thepressroom.gr/amyna/geetha-kyriakatikes-toyrkikes-prokliseis-sto-aigaio-me-plithos-parabaseis-kai-parabiaseis",
+    "dateLabel": "25 October 2026",
+    "audit": "Full article read 26 October 2026. Matching publications of the Greek military daily account, not independent flight observations. UAV, national-airspace and FIR measures remain separate. Original GEETHA bulletin was not directly retrieved."
+  },
+  "U176": {
+    "id": "U176",
+    "publisher": "NewsIT / GEETHA",
+    "title": "Turkish drones and aircraft activity in the Aegean on 26 October",
+    "url": "https://www.newsit.gr/ellada/nees-paraviaseis-kai-paravaseis-sto-aigaio-apo-tourkika-drones-kai-aeroskafos/4807919/amp/",
+    "dateLabel": "26 October 2026",
+    "audit": "Full dated table read 27 October 2026. Shared GEETHA account, not independent observations. Three UAVs; three airspace violations; one UAV FIR infringement. Other two FIR infringements attributed to manned ATR-72. Direct GEETHA retrieval unavailable (403)."
+  },
+  "U177": {
+    "id": "U177",
+    "publisher": "OnAlert / GEETHA",
+    "title": "Aegean daily account: Turkish UAVs and ATR-72",
+    "url": "https://www.onalert.gr/ellinotourkika/aigaio-nees-paraviaseis-kai-paravaseis-apo-tourkika-drones-kai-atr-72/828937/",
+    "dateLabel": "26 October 2026",
+    "audit": "Full dated table read 27 October 2026. Shared GEETHA account, not independent observations. Three UAVs; three airspace violations; one UAV FIR infringement. Other two FIR infringements attributed to manned ATR-72. Direct GEETHA retrieval unavailable (403)."
+  },
+  "U178": {
+    "id": "U178",
+    "publisher": "NOVA",
+    "title": "Minister: CHELSEA 3 recovered material still awaits identification",
+    "url": "https://nova.bg/news/view/2026/10/21/556132/стоянов-за-останките-на-борда-на-челси-3-предстои-да-се-установи-дали-са-от-дрон-от-кораба-или-от-нещо-друго/",
+    "dateLabel": "21 October 2026",
+    "audit": "Full article read 27 October 2026. Dated ministerial/investigation follow-up to the same attack; recovered material not conclusively identified as drone fragments. Does not establish operator or aerial/surface type."
+  },
+  "U179": {
+    "id": "U179",
+    "publisher": "BNT",
+    "title": "Partner teams investigate CHELSEA 3; fragment origin unresolved",
+    "url": "https://bntnews.bg/news/zasileni-merki-za-sigurnost-v-cherno-more-mezhdunarodni-ekipi-razsledvat-atakata-sreshtu-chelsi-3-1418108news.html?page=2",
+    "dateLabel": "21 October 2026",
+    "audit": "Full article read 27 October 2026. Dated ministerial/investigation follow-up to the same attack; recovered material not conclusively identified as drone fragments. Does not establish operator or aerial/surface type."
   }
 }

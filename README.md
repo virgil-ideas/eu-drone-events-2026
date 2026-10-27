@@ -2,7 +2,7 @@
 
 [Open the interactive map](https://droneincidents.eu/) · [Browse every record](https://droneincidents.eu/events/)
 
-A zoomable map and timeline replay of the supplied EU foreign-drone research register and deduplicated update, with targeted additions through 23 October 2026. The map contains 164 active records: 157 event records and seven unidentified/provisional candidates. Karwia’s domestic-drone discovery is excluded from the map and totals; its original page preserves the correction. The original supplement’s daily reports and precautionary alerts remain excluded, except for specifically reviewed later records such as the explicitly labelled 14 October Romanian RO-Alert, which involved no airspace entry.
+A zoomable map and timeline replay of the supplied EU foreign-drone research register and deduplicated update, with targeted additions through 26 October 2026. The map contains 170 active records: 163 event records and seven unidentified/provisional candidates. Karwia’s domestic-drone discovery is excluded from the map and totals; its original page preserves the correction. The original supplement’s daily reports and precautionary alerts remain excluded, except for specifically reviewed later records such as the explicitly labelled 14 October Romanian RO-Alert, which involved no airspace entry.
 
 Recent additions include Greek UAV activity on 21–22 October, provisional discoveries at Moșești and Lubaczów on 21 October, and KHORYV’s reported drone strike off Constanța on 23 October. KHORYV’s attack, fire, reported sinking and rescue remain one event. Operator attribution and the final vessel condition remain unresolved. The inclusive reporting cutoff accommodates reviewed occurrences; it does not certify complete EU-wide coverage. Outstanding source and coverage gaps are documented in the database’s watchlist.
 
@@ -35,3 +35,5 @@ The [editing guide](drone-map/data/README.md) documents adding events, reviewing
 ## Publish
 
 GitHub Actions runs integrity tests and checks the JavaScript and generated data on pull requests and pushes, then deploys `drone-map-revamp` to GitHub Pages on each push to `main`. The workflow can also be started manually from the Actions tab. The canonical database remains in `drone-map/data`; its build refreshes both interfaces. The previous interface remains in `drone-map/dist` and can be restored by changing the upload path in `.github/workflows/pages.yml`.
+
+The 27 October review includes Greek daily records through 26 October, the Liepna discovery and historical Iitti recovery, plus source-backed investigation corrections. Coverage remains partial; the inclusive cutoff does not certify exhaustive EU coverage.

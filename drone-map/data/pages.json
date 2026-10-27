@@ -56,14 +56,13 @@
   },
   "E006": {
     "slug": "2026-03-25-drone-hits-auvere-power-station-estonia",
-    "headline": "Drone that hit Auvere power station identified as Ukrainian by Estonia",
-    "description": "On 25 March 2026 a drone that entered Estonia from Russia hit a chimney at the Auvere power station. Estonian authorities said the drone was Ukrainian.",
+    "headline": "Auvere drone impact remains confirmed; investigation leaves origin unresolved",
+    "description": "Estonian prosecutors closed the Auvere drone investigation on 23 October without establishing origin or responsibility. The 25 March chimney impact remains confirmed.",
     "summary": [
-      "On the morning of 25 March 2026 a military drone hit a chimney of the Auvere power station in Ida-Viru County, Estonia. The drone had entered Estonia from Russia.",
-      "Estonian authorities said the drone was Ukrainian. Its intended target was reported to be in Russia, not Estonia. The incident was treated as spillover from the war, and an intentional attack on Estonia has not been established.",
-      "No injuries were reported, and there were no reports of any interruption to the plant’s operations. Authorities examined the impact site and the wreckage. A stray drone was also reported in Latvia the same day, and the Baltic defence ministers issued a joint statement on the drone incidents."
+      "A drone struck the Auvere power-station chimney on 25 March. No injuries or electricity-system interruption were reported. Early Estonian authorities described the drone as Ukrainian and reported entry from Russia.",
+      "The prosecutor’s 23 October closure did not establish the drone’s origin or precise circumstances. The Ukrainian-diversion hypothesis remained unproved. Investigators found no indication of deliberate activity against Estonia; this does not establish another intended target. The confirmed impact remains one occurrence."
     ],
-    "basis": "d8a3e293a5e16113"
+    "basis": "2786aa0f496c40a3"
   },
   "E007": {
     "slug": "2026-03-25-drone-crashes-kraslava-region-latvia",
@@ -89,25 +88,23 @@
   },
   "E009": {
     "slug": "2026-03-29-drones-crash-kouvola-southeast-finland",
-    "headline": "At least two drones crash near Kouvola, Finland, at least one Ukrainian",
-    "description": "On 29–30 March 2026 at least two drones came down in southeast Finland, including north of Kouvola. At least one was identified as Ukrainian.",
+    "headline": "Ukrainian drones crash in southeast Finland on 29 March",
+    "description": "Two drones crashed north of Kouvola and in Luumäki on 29 March 2026. Finnish investigators established Ukrainian origin and unintended entry.",
     "summary": [
-      "Reports covering 29–30 March 2026 said that at least two drones had entered Finland and come down in the southeast of the country, including north of Kouvola. The exact date and site for each drone have not been resolved. Finnish F/A-18 fighters were deployed, and a pilot reportedly held fire because of the risk on the ground.",
-      "At least one of the drones was identified as Ukrainian, and at least one as an AN-196, but the attribution of each object is not equally established. The drones were reported to have strayed during attacks on targets in Russia, and interference was considered a possible cause; that electronic-warfare explanation is not a forensic certainty.",
-      "No casualties were reported. Finland investigated the incident as a territorial violation, and wreckage was recovered."
+      "Two drones crashed in southeast Finland on 29 March 2026, north of Kouvola and in Luumäki. The September investigation findings establish Ukrainian origin and attribute the diversion to GNSS jamming and weather, not an intended attack on Finland.",
+      "The investigation concluded without further criminal liability; the entries nevertheless remained unlawful. The original grouped occurrence and published URL are retained."
     ],
-    "basis": "d1e09b9650412379"
+    "basis": "f884835efdce184b"
   },
   "E010": {
     "slug": "2026-03-31-drone-debris-tartu-county-estonia-finland",
     "headline": "Drone detections and debris finds in Estonia’s Tartu County and Finland",
     "description": "On 31 March–1 April 2026 drones and debris were reported in Tartu County, Estonia, with a separate find in Finland. Estonia assessed its cases as Ukrainian.",
     "summary": [
-      "Between 31 March and 1 April 2026 drone detections and suspected incursions were reported in Tartu County, Estonia, and debris was found at a separate, unspecified site in Finland’s border area. These dates mark a reporting window, not precise crash dates, and the number of objects involved is unresolved.",
-      "Estonia assessed the drones in its case as Ukrainian drones intended for Russia, and reporting associated the border activity with further strikes in Russia. Attribution has not been established for every find in Finland. The available detail is not enough to match each track to each recovered object, so it is not known whether the sightings involved one drone or several.",
-      "No casualties were reported. Military and border authorities carried out searches and a technical examination of the finds."
+      "This retained cluster combines Estonian activity and debris reporting with a Finnish drone recovery on 31 March 2026. The Finnish final investigation locates that recovery at Pyhäjärvi in Parikkala and establishes Ukrainian origin and unauthorized entry.",
+      "The Finnish recovery is distinct from the two 29 March crashes and the later Iitti find. Its entry time remains unknown. The Estonian component remains an unresolved cluster; its sightings and objects are not converted into additional records."
     ],
-    "basis": "72ffa3e31ef366c3"
+    "basis": "10c9661328e69b5a"
   },
   "E011": {
     "slug": "2026-04-25-drone-crash-bariera-traian-galati-romania",
@@ -155,14 +152,13 @@
   },
   "E015": {
     "slug": "2026-05-03-suspected-drone-virolahti-finland",
-    "headline": "Suspected drone incursion reported at Virolahti in southeastern Finland",
-    "description": "On 3 May 2026 a suspected drone was tracked in border airspace at Virolahti, southeastern Finland, and reportedly left toward Russia. Its origin is unresolved.",
+    "headline": "Two drones enter Finnish airspace near Virolahti",
+    "description": "Two UAVs flew in Finnish airspace near Virolahti on 3 May 2026 before crossing into Russia. Their unauthorized entries were established by investigators.",
     "summary": [
-      "On 3 May 2026 a drone track was reported in the border airspace at Virolahti in southeastern Finland. The object, described as a suspected drone, was reported to have left in the direction of Russia.",
-      "The object’s origin and model have not been resolved, and its attribution remains open. The case was treated as a suspected violation of Finnish territory rather than a confirmed one.",
-      "No impact was reported. The track was monitored and the incident was investigated."
+      "The Finnish Border Guard established that two UAVs flew in Finnish airspace near Virolahti on 3 May 2026 before crossing into Russia. The unauthorized entries met the elements of territorial violation; the investigation found no intention to violate Finnish airspace.",
+      "The occurrence remains one grouped record. Its origin and model are not established here; absence of intent does not negate the confirmed entries."
     ],
-    "basis": "a27ada4cd062fdbf"
+    "basis": "c328d940e795c40a"
   },
   "E016": {
     "slug": "2026-05-07-drones-crash-rezekne-oil-tanks-latvia",
@@ -1402,9 +1398,10 @@
       "Border Police evacuated all 15 crew, seven Ukrainians and eight Azerbaijanis, who were brought to Varna; five were treated for initially reported minor injuries, and no deaths were reported. BNR reports that the damaged ship docked at Burgas-West on 17 October; the investigation remains open. On 13 October, another vessel was reported struck and sunk east of Krapets.",
       "MaltaDaily’s account gives 12 October and four minor injuries. Those differences from the Bulgarian account remain unresolved and do not identify a second attack.",
       "On 19 October, Burgas maritime administration director Zhivko Petrov assessed the three hull breaches as blast damage, possibly from a surface drone. This conflicts with the initial aerial-drone account and remains subject to specialist investigation. The vessel was stable in port and a military-prosecutor investigation was underway.",
-      "On 20 October, the prime minister reported examination of drone remains and chemical analysis. Chernomore/BGNES specifically reported fragments aboard the vessel and no ammunition or radiation found in initial checks; the BNR/BTA account was less specific about the minister’s recovery statement. Final weapon identification and operator remain unresolved. Chernomore also gives two injured, alongside the earlier four-injured and five-treated accounts; the differing figures are not added together."
+      "On 20 October, the prime minister reported examination of drone remains and chemical analysis. Chernomore/BGNES specifically reported fragments aboard the vessel and no ammunition or radiation found in initial checks; the BNR/BTA account was less specific about the minister’s recovery statement. Final weapon identification and operator remain unresolved. Chernomore also gives two injured, alongside the earlier four-injured and five-treated accounts; the differing figures are not added together.",
+      "On 21 October, the defence minister clarified that recovered material could be from the ship, a drone or another object. NOVA and BNT reported partner teams already inspecting the vessel; fragment identification and explosive analysis were still pending. These developments update the same attack, not a new incident."
     ],
-    "basis": "d637355294bebd36"
+    "basis": "c1342be5ea7df121"
   },
   "N080": {
     "slug": "2026-10-13-drone-strike-ship-sinks-krapets-bulgaria",
@@ -1522,10 +1519,10 @@
     "description": "WINE TRADER was hit off Sulina on 15 October 2026; five crew were rescued and seven missing. A NATO source assessed the drones as Russian in origin.",
     "summary": [
       "A drone struck the San Marino-flagged tanker WINE TRADER off Sulina on 15 October 2026. Romania’s president confirmed the attack. A NATO military source cited by Reuters assessed the drones that hit this tanker and YARA J as Russian in origin; a specific operator has not been established in the reviewed reporting.",
-      "Of twelve crew, five were rescued and seven remained missing. Two survivors had scalp burns or mild smoke inhalation; all five were stable and taken to hospital. Fire damaged the vessel. Its final condition is unconfirmed, and the missing crew are not counted as confirmed dead. Heavy seas hindered the continuing rescue operation. IGSU reported that the search resumed on 16 October; its initial boarding announcement was a plan. A 19 October seafarers union statement subsequently reported that teams had boarded and searched accessible spaces, with damage hindering the search. The union reiterated five rescued and seven missing.",
+      "Of twelve crew, five were rescued and seven remained missing. Two survivors had scalp burns or mild smoke inhalation; all five were stable and taken to hospital. Fire damaged the vessel. Its final condition is unconfirmed, and the missing crew are not counted as confirmed dead. Heavy seas hindered the rescue operation. IGSU reported that the search resumed on 16 October; its initial boarding announcement was a plan. A 19 October seafarers union statement subsequently reported that teams had boarded and searched accessible spaces, with damage hindering the search. The union reiterated five rescued and seven missing. On 22 October Croatia’s Foreign Ministry said the search had stopped owing to elapsed time. One Croatian sailor remained missing; another treated for superficial burns had been discharged. This does not convert the missing into confirmed deaths.",
       "The ship was reported about 13 nautical miles southeast of Sulina, just outside Romanian territorial waters. It is included in the register’s offshore coverage. The rescue request at 06:58 is not a verified attack time. This promotes the earlier fire-only watchlist lead to one red Strike record, combining the attack, fire and rescue; it remains separate from YARA J and Sea Destiny."
     ],
-    "basis": "b4692512f9fc1c0c"
+    "basis": "5ca86be3289cd5a6"
   },
   "N091": {
     "slug": "2026-10-13-dailidziai-smuggling-drone-lithuania",
@@ -1585,10 +1582,10 @@
     "summary": [
       "A drone entered Lithuania on the morning of 18 October 2026 and reportedly exploded near Juodžionys in Pasvalys district. Debris damaged a passing car without injuring its occupants. The precise sequence of the explosion and fall remained under investigation.",
       "Defence Minister Robertas Kaunas linked the craft to Ukraine’s attack on St Petersburg and assessed that Russian electronic warfare had diverted it. On 19 October, Lithuania’s prime minister said wreckage and Ukraine’s notification supported Ukrainian origin and that the drone carried explosives. Poland’s defence ministry also identified it as Ukrainian and denied the claim that it had launched from Lithuania. The jamming explanation remained an assessment.",
-      "Lithuania’s published chronology puts first radar contact at 05:47 EEST over Poland and entry into Lithuania at 06:02. Polish radar did not independently corroborate that track. NATO fighters scrambled but did not shoot. Latvian surveillance did not indicate entry into Latvia; unverified Polish reports are not additional confirmed occurrences.",
+      "Lithuania’s published chronology puts first radar contact at 05:47 EEST over Poland and entry into Lithuania at 06:02. Polish radar did not independently corroborate that track. NATO fighters scrambled but did not shoot. The initial Latvian NBS account did not indicate entry into Latvia by this flight; unverified Polish reports are not additional confirmed occurrences.",
       "On 20 October, President Nausėda said the Lithuanian and Polish defence ministries had formed a joint investigation group. The full route and crash mechanism remained unresolved."
     ],
-    "basis": "00b33072f2d22ffe"
+    "basis": "7e803e9441ad495b"
   },
   "N097": {
     "slug": "2026-10-19-turkish-uav-activity-aegean-greece",
@@ -1744,13 +1741,13 @@
   },
   "N112": {
     "slug": "2026-10-23-khoryv-drone-strike-constanta-romania",
-    "headline": "KHORYV reports drone strike off Constanța; one dead and three missing",
-    "description": "KHORYV reported a drone attack off Constanța on 23 October 2026. One dead, nine rescued and three missing; operator unknown and sinking reported.",
+    "headline": "KHORYV drone-strike report: vessel capsized but still afloat",
+    "description": "KHORYV capsized off Constanța on 23 October. A navigation notice says it remains afloat, conflicting with sinking reports. One dead; three missing.",
     "summary": [
-      "The Comoros-flagged KHORYV reportedly came under drone attack off Constanța on 23 October 2026. Adevărul describes fire and sinking in progress, citing a drone-attack distress call. The operator is unknown.",
-      "The Naval Authority, quoted in the report, gave one dead, nine rescued and three missing. The location was outside Romanian territorial waters. The strike, fire, sinking report and rescue remain one record; a completed sinking has not been established."
+      "KHORYV capsized outside Romanian territorial waters on 23 October. AGERPRES links it to the president’s statement that a drone struck a vessel. The current primary navigation notice, ARN155, reports KHORYV partially submerged but still afloat upside down as of 25 October, despite press reports of sinking. Completed sinking is not treated as established.",
+      "Romania reports thirteen crew: nine rescued, one dead and three missing. Ukraine confirms a Ukrainian fatality but reports fourteen crew; the discrepancy remains unresolved. The notices give dated capsize and subsequent drifting-wreck positions, not a verified strike coordinate. Operator attribution and the final search outcome remain unresolved."
     ],
-    "basis": "6dd2a731092198a5"
+    "basis": "67e37b63948920d5"
   },
   "N113": {
     "slug": "2026-10-21-turkish-uav-activity-aegean-greece",
@@ -1788,8 +1785,69 @@
     "description": "A foam airframe was found in Lubaczów on 21 October 2026. Military police found no explosives; origin and any foreign connection remain unknown.",
     "summary": [
       "Wreckage was reported on an unoccupied Herzoga Street property in Lubaczów shortly after 13:00 on 21 October 2026. Nearby residents were evacuated while specialists assessed possible hazards; no injuries or property damage were reported.",
-      "On 22 October the Military Gendarmerie identified a small, unarmed foam airframe without combat characteristics. It ruled out explosives and radiological, biological and chemical hazards, and retained the object for laboratory examination. Its origin remains unknown. Both reports belong to this single provisional recovery record."
+      "Military police identified an unarmed foam airframe and excluded explosives and radiological, biological or chemical hazards on 22 October. The prosecutor’s 23 October update reports transfer of the drone to military counterintelligence and testing of its attached package in Warsaw. The preliminary short-range assessment does not establish origin or foreign entry. This remains one provisional recovery candidate."
     ],
-    "basis": "78337d5028a53371"
+    "basis": "ae3d8b0e4df30988"
+  },
+  "N117": {
+    "slug": "2026-10-23-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports six Turkish UAVs and thirteen airspace violations on 23 October",
+    "description": "Greek reporting lists six Turkish UAVs, thirteen national-airspace violations and nine Athens FIR infringements on 23 October 2026.",
+    "summary": [
+      "The Greek military account reproduced by OnAlert and NewsIT lists six Turkish UAVs, thirteen national-airspace violations and nine Athens FIR infringements in the northeastern, central and southeastern Aegean on 23 October 2026. These are distinct measures in one daily-activity record.",
+      "A CN-235 and its two FIR infringements are excluded. Identification and interception were reported, but no armed UAV engagement is established. Flight tracks, times and payloads remain unknown; the airspace assessment is attributed to Greece, and the original military bulletin was not retrieved directly."
+    ],
+    "basis": "54784a81fe72333c"
+  },
+  "N119": {
+    "slug": "2026-04-11-ukrainian-uav-recovery-iitti-finland",
+    "headline": "Ukrainian UAV found in Iitti on 11 April",
+    "description": "A military UAV recovered in Iitti on 11 April 2026 was Ukrainian in origin, Finnish investigators established. Its entry and crash dates remain unknown.",
+    "summary": [
+      "Finnish investigators identified the UAV found in Iitti on 11 April 2026 as the fourth recovered spring drone. They established Ukrainian origin and unauthorized entry, with jamming and weather causing the spring diversions rather than Finland being the intended target.",
+      "This is one recovery record, separate from the March finds. The discovery date is not an established flight or crash date; the exact site and individual disposal method remain unresolved."
+    ],
+    "basis": "e040f8010c4f440c"
+  },
+  "N120": {
+    "slug": "2026-10-24-foreign-uav-discovery-liepna-latvia",
+    "headline": "Foreign UAV wreckage found in Latvia’s Liepna parish",
+    "description": "Latvian authorities confirmed foreign UAV wreckage found in Liepna parish on 24 October. Its origin, intent and precise arrival date remain unresolved.",
+    "summary": [
+      "Latvian armed forces confirmed the discovery of a foreign UAV in Liepna parish on 24 October. Police verified wreckage in forest; no civilian injuries, infrastructure damage or continuing danger were reported.",
+      "Authorities said it may have entered Latvian airspace on 18 October. The record uses the confirmed discovery date, not an assumed crash date. National origin, operator, route and intent remain unknown.",
+      "A ministerial suggestion that a Ukrainian drone might have been damaged over Russia and glided into Latvia is explicitly conditional; it does not establish origin or route."
+    ],
+    "basis": "2180afb2b633ba9b"
+  },
+  "N121": {
+    "slug": "2026-10-24-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports 7 Turkish UAVs and 6 airspace violations on 24 October",
+    "description": "Greek reporting lists 7 Turkish UAVs, 6 national-airspace violations and 11 Athens FIR infringements on 24 October 2026.",
+    "summary": [
+      "The Greek military account for 24 October 2026 reports 7 Turkish UAVs, 6 national-airspace violations and 11 Athens FIR infringements across the northeastern, central and southeastern Aegean. This is one daily-activity record, not a sum of the three measures.",
+      "Flight and Veteranos publish matching accounts attributed to GEETHA. The original bulletin was not directly retrieved, and the publications are not independent flight observations. Identification and interception were reported, with no armed engagement reported; precise tracks, times and payloads remain unknown."
+    ],
+    "basis": "af79a0466694767f"
+  },
+  "N122": {
+    "slug": "2026-10-25-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports 11 Turkish UAVs and 18 airspace violations on 25 October",
+    "description": "Greek reporting lists 11 Turkish UAVs, 18 national-airspace violations and 13 Athens FIR infringements on 25 October 2026.",
+    "summary": [
+      "The Greek military account for 25 October 2026 reports 11 Turkish UAVs, 18 national-airspace violations and 13 Athens FIR infringements across the northeastern, central and southeastern Aegean. This is one daily-activity record, not a sum of the three measures.",
+      "Dnews and The Press Room publish matching accounts attributed to GEETHA. The original bulletin was not directly retrieved, and the publications are not independent flight observations. Identification and interception were reported, with no armed engagement reported; precise tracks, times and payloads remain unknown."
+    ],
+    "basis": "ab14548014403358"
+  },
+  "N123": {
+    "slug": "2026-10-26-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports three Turkish UAVs and three airspace violations on 26 October",
+    "description": "Greek reporting lists three UAVs, three airspace violations and one UAV FIR infringement on 26 October 2026; manned-aircraft counts stay separate.",
+    "summary": [
+      "The GEETHA-attributed account for 26 October lists three Turkish UAVs, three national-airspace violations and one UAV FIR infringement in the northeastern and southeastern Aegean. Two further FIR infringements concern a manned ATR-72, not drones.",
+      "NewsIT and OnAlert reproduce the same official account rather than independent observations. Identification and interception were reported, without armed engagement. This is one daily-activity record, not a sum of aircraft and crossing counts."
+    ],
+    "basis": "ec31efe3659a3363"
   }
 }

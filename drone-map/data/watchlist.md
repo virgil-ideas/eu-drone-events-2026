@@ -308,3 +308,85 @@ vessels and is not promoted to event rows.
 
 Greek primary GEETHA pages and precise tracks remain unretrieved. Earlier dated
 Greek coverage gaps remain unresolved; the new dates do not fill them by inference.
+
+## 24 October source review and outstanding coverage
+
+A partial EU27 source review covered 24 September–24 October (the Saturday
+30-day retrospective), with 20–24 October overlap and historical corrections.
+This does not establish exhaustive coverage or a quiet day in any country.
+The inclusive reporting cutoff remains 23 October; it is not a search-completion
+certificate. Greek primary GEETHA pages remain inaccessible; the 13–14 and
+16–18 October gaps remain open. Thin indexed coverage in several countries,
+including Sweden, Austria and Hungary, also remains a limitation.
+
+N117 adds the 23 October Greek daily account: six UAVs, thirteen reported
+national-airspace violations and nine UAV FIR infringements, as separate
+measures in one record. OnAlert and NewsIT repeat the same military account;
+this is not independent flight-track confirmation. Existing KHORYV, WINE TRADER,
+Lubaczów and Finnish occurrences receive in-place follow-ups, not new stages.
+The current Romanian dashboard's 98 near-border attacks remains non-additive
+context, with the earlier discrepant display preserved as history.
+
+**Jaslovské Bohunice, Slovakia — watchlist only.** TV JOJ / Noviny's 23 October
+report quotes the power-plant operator confirming an unauthorized overflight
+around 22:00 on 22 October, without safety or operational effects. The operator,
+purpose and any foreign crossing are unknown. This is not promoted to a foreign
+incursion, nor described as a lawful domestic flight. Source:
+https://www.noviny.sk/slovensko/1276809-prelet-dronu-nad-elektrarnou-jaslovske-bohunice
+
+Official EAC inspection flights in Cyprus (8–21 October), the Czech Drone Shield
+exercise, Belgian defensive exercises, and Slovenia's preventive Brdo airspace
+restriction are not incursions. Melilla interference reported on 22 September
+concerned the Moroccan side, not verified Spanish entry. Nuremberg and Eemshaven
+sighting leads remain unresolved; October publication dates are not automatically
+occurrence dates. No additional surface/underwater incident was verified in this
+partial review; that is not a finding that none occurred.
+
+The Finnish final investigation supports a distinct fourth recovered UAV at Iitti, found 11 April (N119). Its flight/crash date is unknown. Parikkala’s 31 March recovery is clarified within existing E010, not added again. DHM ARN153 states KHORYV remains afloat upside down after capsize; conflicting press sinking wording does not establish completed sinking.
+
+**Wunstorf discovery — reviewed lead, not mapped.** NDR's 16 September report
+quotes the LKA confirming drone parts outside the base and notification late on
+14 September. WDR's 21 October follow-up reports nearby explosive material and
+an estimated two-year ground duration. Neither a 2026 flight nor foreign entry,
+operator or final attribution is established. Preserve this as a recovery lead
+pending a clearer qualifying connection; do not describe it as an October attack
+or infer a Russian operation from general threat assessments. Sources:
+https://www.ndr.de/nachrichten/niedersachsen/hannover_weser-leinegebiet/bei-wunstorf-abgestuerzte-drohne-suche-nach-teilen-dauert-an,drohne-458.html
+and https://www.tagesschau.de/investigativ/wdr/bundeswehr-russland-102.html .
+
+Toulon/Hyères unauthorized flights during 5–16 October remain a lead: the Navy
+confirmed detections, but precise dates/counts and foreign route remain unknown.
+The 21 October publication is not a separate occurrence. Source:
+https://www.leparisien.fr/defense/toulon-plusieurs-drones-aeriens-non-autorises-ont-ete-detectes-lors-de-recentes-manoeuvres-militaires-21-10-2026-7EXKVFOT6ZAKLC2BHUCBYNQREA.php
+
+## 25 October source-review continuation
+
+Targeted EU27 searches cover 21–25 October with overlap and older unresolved leads;
+coverage remains partial. The latest reviewed reporting is not an assertion of a
+complete or incident-free 25 October. Greek October 13–14 and 16–18 gaps remain.
+
+**Greek 24 October account — historical uncorroborated lead, resolved 26 October.** Veteranos publishes a dated
+table with seven UAVs, six national-airspace violations and eleven FIR infringements
+in the northeastern, central and southeastern Aegean. No primary or second
+substantive corroboration was retrieved in this pass; the official GEETHA archive
+returned 403. Do not add one record per violation or mix this account with the
+23 October account republished on 24 October. Source:
+https://veteranos.gr/aigaio-7-tourkika-uav-prochorisan-se-11-paravaseis-kai-6-paraviaseis-tou-eech/
+
+The 25 October review confirms Liepna discovery N120 on 24 October, with only a possible 18 October arrival. Auvere E006 retains its confirmed impact but its origin remains unestablished in the prosecutor’s closure; early Ukrainian attribution is historical. KHORYV N112 retains its offshore classification, with ARN154 replacing ARN153 for current hazard status and no final missing-person outcome established. Western and eastern targeted searches found no further qualifying additions; Wunstorf, Toulon, Eemshaven and Lublin remain unresolved. Thin coverage in Malta, Luxembourg and Portugal and the Greek daily gaps remain explicit. The 24 October inclusive cutoff is not proof of exhaustive EU coverage.
+
+
+## 26 October review
+Partial EU27 public-source review from 22 October through the early 26 October check, with prior known gaps revisited. N121 (24 October) and N122 (25 October) are one Greek daily record each: respectively 7 UAVs / 6 national-airspace violations / 11 FIR infringements and 11 / 18 / 13. Matching reports reproduce a shared GEETHA account, not independent flight observations; direct GEETHA retrieval remains blocked. The earlier 24 October single-source gap is superseded, but 13–14 and 16–18 October gaps remain. Inclusive cutoff 25 October is not a claim of exhaustive coverage.
+
+Lublin: PAP/Onet and Lublin112 report that the six-day ground search ended on 23 October without a find; no confirmed Polish airspace violation. Search cessation is not investigation closure. Do not link the unconfirmed lead to Lubaczów, Wydrza or a Latvian/Lithuanian aircraft. Sources: https://wiadomosci.onet.pl/lublin/niezidentyfikowany-obiekt-na-lubelszczyznie-sluzby-zakonczyly-poszukiwania/zs6w32r ; https://www.lublin112.pl/wciaz-nie-wiadomo-co-przelecialo-noca-nad-wojewodztwem-lubelskim-wojsko-zakonczylo-dzialania-poszukiwawcze/ .
+
+KHORYV: ARN155 replaces ARN154 with a dated 25 October navigation-hazard position; vessel remains partially submerged and afloat inverted. No new strike or territorial entry follows from the drifting wreck coordinates. Liepna: ministerial Ukrainian/hit-over-Russia/glide explanation is conditional, not a national-origin or route finding.
+
+
+## 27 October review
+Partial targeted EU27 review covers 23–27 October, plus known older gaps. N123 records the Greek 26 October daily account: 3 UAVs, 3 airspace violations and only 1 UAV FIR infringement. The other 2 FIR infringements concern a manned ATR-72. NewsIT and OnAlert reproduce one GEETHA account; direct original retrieval remains unavailable. Greek 13–14 and 16–18 October gaps persist. The 26 October inclusive cutoff does not certify exhaustive coverage.
+
+CHELSEA 3: the 21 October ministerial clarification leaves recovered material unidentified, while partner inspections were reported underway. This corrects N079 in place, without a new attack or weapon attribution. KHORYV ARN155 remains the latest notice found; its dated October 25 observation is not a new October 26 movement. Liepna republications do not establish national origin.
+
+Latvia’s 22 October Krāslava/Rēzekne warning was subsequently ruled not a drone by NBS, according to LETA copies; no drone record is added. Source: https://bnn.lv/sabiedriba/trauksme-latgale-nbs-noskaidro-ka-latvijas-gaisa-telpa-fiksetais-objekts-nav-bijis-drons-c6a38hv . Planned Spangdahlem October 26–28 exercises, notified Cyprus operations, domestic policing and military training are not incursions. Wunstorf, Nuremberg, Eemshaven, Toulon and Jaslovské Bohunice leads remain unresolved. No further qualifying or surface/underwater occurrence was verified in this partial pass; thin Nordic, Luxembourg/Malta/Portugal and some central-European indexing remains a limitation, not evidence of no incidents.
