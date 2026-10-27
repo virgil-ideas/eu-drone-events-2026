@@ -390,3 +390,24 @@ Partial targeted EU27 review covers 23–27 October, plus known older gaps. N123
 CHELSEA 3: the 21 October ministerial clarification leaves recovered material unidentified, while partner inspections were reported underway. This corrects N079 in place, without a new attack or weapon attribution. KHORYV ARN155 remains the latest notice found; its dated October 25 observation is not a new October 26 movement. Liepna republications do not establish national origin.
 
 Latvia’s 22 October Krāslava/Rēzekne warning was subsequently ruled not a drone by NBS, according to LETA copies; no drone record is added. Source: https://bnn.lv/sabiedriba/trauksme-latgale-nbs-noskaidro-ka-latvijas-gaisa-telpa-fiksetais-objekts-nav-bijis-drons-c6a38hv . Planned Spangdahlem October 26–28 exercises, notified Cyprus operations, domestic policing and military training are not incursions. Wunstorf, Nuremberg, Eemshaven, Toulon and Jaslovské Bohunice leads remain unresolved. No further qualifying or surface/underwater occurrence was verified in this partial pass; thin Nordic, Luxembourg/Malta/Portugal and some central-European indexing remains a limitation, not evidence of no incidents.
+
+## 27 October midday review
+
+A partial targeted EU27 recheck through approximately 11:36 UTC revisited reporting
+since the early-morning review with a 23–27 October overlap and older leads.
+DHM ARN156, published 27 October, supersedes ARN155: KHORYV was reported at
+43°51.24′N, 028°54.54′E at 06:18 local, still inverted and partially submerged but
+afloat, with three crew missing and a one-nautical-mile safety recommendation.
+This updates N112 in place; the drifting-wreck observation is not a new strike,
+strike coordinate or established territorial incursion. Source:
+https://www.dhmfn.ro/ro/informatii-de-interes-public/avize-radio-pentru-navigatori/
+
+No additional qualifying occurrence was verified in this pass. Greek reports
+published on 27 October still describe the existing 26 October daily record.
+Greek 13–14 and 16–18 October source gaps remain: dated secondary accounts were
+revisited but no additional primary/substantive corroboration was recovered.
+Cypriot parade restrictions and municipal mosquito-control flights, and Lithuanian
+balloon-carried cigarette loads, are not drone incursions. Existing unresolved
+leads and thin Nordic, Luxembourg/Malta/Portugal and central-European indexing
+remain limitations. The unchanged 26 October inclusive occurrence cutoff does
+not imply exhaustive coverage or an incident-free 27 October.

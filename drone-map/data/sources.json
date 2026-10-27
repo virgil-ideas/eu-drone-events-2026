@@ -2449,10 +2449,10 @@
   "U156": {
     "id": "U156",
     "publisher": "Romanian Maritime Hydrographic Directorate",
-    "title": "KHORYV navigation notices ARN153–155: capsized, partially submerged and afloat",
+    "title": "KHORYV navigation notices ARN153–156: capsized, partially submerged and afloat",
     "url": "https://www.dhmfn.ro/ro/informatii-de-interes-public/avize-radio-pentru-navigatori/",
-    "dateLabel": "23–25 October 2026; checked 26 October",
-    "audit": "Full current primary notice read 24 October. Cancels ARN149. Says capsized at10:06 local and remains afloat inverted; three missing. Coordinates identify capsize/navigation hazard, not necessarily strike. Takes precedence over press sinking wording. Rechecked 25 October: ARN154 cancels ARN153, with later navigation-hazard position at 11:03 local on 24 October; still afloat inverted. Earlier ARN153 coordinates retained as dated history, not the current position or a strike coordinate. ARN155 directly read 26 October, cancels ARN154. Partially submerged but still afloat inverted, dated 25 October 11:00 local position 43°55.25′N,028°57.40′E; three missing and one-nautical-mile safety distance. Does not supply strike coordinates."
+    "dateLabel": "23–27 October 2026; checked 27 October",
+    "audit": "Full current primary notice read 24 October. Cancels ARN149. Says capsized at10:06 local and remains afloat inverted; three missing. Coordinates identify capsize/navigation hazard, not necessarily strike. Takes precedence over press sinking wording. Rechecked 25 October: ARN154 cancels ARN153, with later navigation-hazard position at 11:03 local on 24 October; still afloat inverted. Earlier ARN153 coordinates retained as dated history, not the current position or a strike coordinate. ARN155 directly read 26 October, cancels ARN154. Partially submerged but still afloat inverted, dated 25 October 11:00 local position 43°55.25′N,028°57.40′E; three missing and one-nautical-mile safety distance. Does not supply strike coordinates. ARN156 directly read 27 October at approximately 11:34 UTC, cancelling ARN155. The 27 October 06:18 local observation places the still-afloat, inverted and partially submerged vessel at 43°51.24′N, 028°54.54′E; three missing and one-nautical-mile safety recommendation remain. The position is a dated navigation hazard, not the strike coordinate or evidence of a new territorial incursion."
   },
   "U157": {
     "id": "U157",
