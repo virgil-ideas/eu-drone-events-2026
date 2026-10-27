@@ -253,5 +253,18 @@
   "revamp.darkTurnReplayBtn": "▶ Replay Oct 5–23 Escalation",
   "revamp.darkTurnModalBtn": "Timeline & Vessels →",
   "revamp.darkTurnDismissAria": "Collapse turning point banner",
-  "revamp.darkTurnVesselsTitle": "Chronological Black Sea Vessel Records (Click to inspect on map)"
+  "revamp.darkTurnVesselsTitle": "Chronological Black Sea Vessel Records (Click to inspect on map)",
+  "revamp.darkTurnEyebrow": "Turning point · Oct 2026 · Black Sea & Romanian waters",
+  "revamp.darkTurnTitle": "When Things Took a Dark Turn: Lethal Strikes on Black Sea Shipping",
+  "revamp.darkTurnBody": "After months of non-lethal airspace crossings and coastal debris, October 2026 brought a sharp escalation: 8 records cover 9 merchant vessels struck or targeted off Romania and Bulgaria—including YARA J and Sea Destiny inside Romanian territorial waters near Sulina, and KHORYV outside territorial waters off Constanța—leaving sailors killed, injured, and over 30 crew reported missing.",
+  "revamp.darkTurnModalTitle": "From Airspace Incursions to Lethal Strikes on Black Sea Shipping",
+  "revamp.darkTurnPhase1Title": "Jan – Sep 2026 · Airspace, Border & Coastal Debris",
+  "revamp.darkTurnPhase1Body": "Over 100 air, border-seizure and coastal-debris records across 10 EU states with 0 confirmed fatalities (plus 3 unresolved/unconfirmed summer shipping incidents off Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5 – 23 Oct 2026 · The Lethal Maritime Escalation",
+  "revamp.darkTurnPhase2Body": "8 records cover 9 merchant vessels struck or targeted in 19 days across the western Black Sea, including incidents in Romanian territorial waters off Sulina, with confirmed deaths (Royad Mammadov, KHORYV), crew hospitalized with burns, and over 30 sailors reported missing.",
+  "revamp.darkTurnCountingNote": "Counting note: Casualty figures come from official naval, ministerial and diplomatic statements cited in each record. Conflicting reports are never added together, and missing sailors are not recorded as confirmed dead.",
+  "revamp.territorialWaters": "{country} territorial waters",
+  "revamp.trendDialogTitle": "Monthly distribution & 90-day comparison",
+  "revamp.blackSea": "Black Sea",
+  "revamp.balticSea": "Baltic Sea"
 };

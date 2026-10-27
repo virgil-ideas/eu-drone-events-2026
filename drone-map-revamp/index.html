@@ -38,16 +38,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Manrope:wght@500;600;700;800&display=swap">
   <link rel="stylesheet" href="vendor/leaflet.css?v=20261023-revamp">
-  <link rel="stylesheet" href="styles.css?v=20261027-landmark-60">
+  <link rel="stylesheet" href="styles.css?v=20261027-trend-i18n">
   <script defer src="vendor/leaflet.js?v=20261023-revamp"></script>
   <script defer src="landmark.js?v=20261023-revamp"></script>
   <script defer src="events.js?v=20261023-revamp"></script>
   <script defer src="pages-data.js?v=20261023-revamp"></script>
   <script defer src="media.js?v=20261023-revamp"></script>
   <script defer src="trend-data.js?v=20261023-revamp"></script>
-  <script defer src="i18n/en.js?v=20261027-review"></script>
+  <script defer src="i18n/en.js?v=20261027-content-i18n"></script>
   <script defer src="replay-data.js?v=20261026-fixes"></script>
-  <script defer src="app.js?v=20261027-landmark-overlay-85"></script>
+  <script defer src="app.js?v=20261027-trend-i18n-3"></script>
   <script defer src="analytics.js?v=20261023-revamp"></script>
 </head>
 <body>
@@ -178,13 +178,13 @@
         <div class="maritime-turn-head">
           <span class="maritime-turn-eyebrow">
             <span class="maritime-turn-dot" aria-hidden="true"></span>
-            <span lang="en">TURNING POINT · OCT 2026 · BLACK SEA &amp; ROMANIAN WATERS</span>
+            <span data-i18n="revamp.darkTurnEyebrow">Turning point · Oct 2026 · Black Sea &amp; Romanian waters</span>
           </span>
           <button type="button" id="toggle-maritime-banner" class="maritime-turn-toggle" aria-expanded="true" aria-label="Collapse turning point banner" data-i18n-aria="revamp.darkTurnDismissAria">▾</button>
         </div>
-        <h2 id="maritime-turn-heading" class="maritime-turn-title" lang="en">When Things Took a Dark Turn: Lethal Strikes on Black Sea Shipping</h2>
+        <h2 id="maritime-turn-heading" class="maritime-turn-title" data-i18n="revamp.darkTurnTitle">When Things Took a Dark Turn: Lethal Strikes on Black Sea Shipping</h2>
         <div id="maritime-turn-body-wrap" class="maritime-turn-body-wrap">
-          <p class="maritime-turn-body" lang="en">After months of non-lethal airspace crossings and coastal debris, October 2026 brought a sharp escalation: 8 records cover 9 merchant vessels struck or targeted off Romania and Bulgaria—including YARA J and Sea Destiny inside Romanian territorial waters near Sulina, and KHORYV outside territorial waters off Constanța—leaving sailors killed, injured, and over 30 crew reported missing.</p>
+          <p class="maritime-turn-body" data-i18n="revamp.darkTurnBody">After months of non-lethal airspace crossings and coastal debris, October 2026 brought a sharp escalation: 8 records cover 9 merchant vessels struck or targeted off Romania and Bulgaria—including YARA J and Sea Destiny inside Romanian territorial waters near Sulina, and KHORYV outside territorial waters off Constanța—leaving sailors killed, injured, and over 30 crew reported missing.</p>
           <div class="maritime-turn-actions">
             <button type="button" id="focus-maritime-btn" class="maritime-action-btn primary">
               <span id="focus-maritime-label">Focus on Ship Incidents (11)</span>
@@ -342,7 +342,7 @@
         </div>
         <div id="recording-status-bar" class="recording-status-bar" role="status" aria-live="polite" hidden>
           <span class="rec-pulse" aria-hidden="true"></span>
-          <span id="recording-status-text">Recording interval replay…</span>
+          <span id="recording-status-text"></span>
         </div>
       </section>
 
@@ -354,21 +354,21 @@
   <!-- Black Sea Maritime Escalation ("When Things Took a Dark Turn") Dialog -->
   <dialog id="maritime-dialog" class="maritime-dialog" aria-labelledby="maritime-dialog-title" closedby="any">
     <div class="dialog-heading">
-      <p class="eyebrow maritime-eyebrow" lang="en">TURNING POINT · OCT 2026 · BLACK SEA &amp; ROMANIAN WATERS</p>
+      <p class="eyebrow maritime-eyebrow" data-i18n="revamp.darkTurnEyebrow">Turning point · Oct 2026 · Black Sea &amp; Romanian waters</p>
       <button id="close-maritime" type="button" aria-label="Close" data-i18n-aria="detail.close">×</button>
     </div>
-    <h2 id="maritime-dialog-title" lang="en">From Airspace Incursions to Lethal Strikes on Black Sea Shipping</h2>
+    <h2 id="maritime-dialog-title" data-i18n="revamp.darkTurnModalTitle">From Airspace Incursions to Lethal Strikes on Black Sea Shipping</h2>
     <div class="maritime-phases-grid">
       <div class="maritime-phase-card calm">
-        <strong lang="en">Jan – Sep 2026 · Airspace, Border &amp; Coastal Debris</strong>
-        <p lang="en">Over 100 air, border-seizure and coastal-debris records across 10 EU states with 0 confirmed fatalities (plus 3 unresolved/unconfirmed summer shipping incidents off Sfântu Gheorghe: E033, E034, E053).</p>
+        <strong data-i18n="revamp.darkTurnPhase1Title">Jan – Sep 2026 · Airspace, Border &amp; Coastal Debris</strong>
+        <p data-i18n="revamp.darkTurnPhase1Body">Over 100 air, border-seizure and coastal-debris records across 10 EU states with 0 confirmed fatalities (plus 3 unresolved/unconfirmed summer shipping incidents off Sfântu Gheorghe: E033, E034, E053).</p>
       </div>
       <div class="maritime-phase-card dark-turn">
-        <strong lang="en">5 – 23 Oct 2026 · The Lethal Maritime Escalation</strong>
-        <p lang="en">8 records cover 9 merchant vessels struck or targeted in 19 days across the western Black Sea, including incidents in Romanian territorial waters off Sulina, with confirmed deaths (Royad Mammadov, KHORYV), crew hospitalized with burns, and over 30 sailors reported missing.</p>
+        <strong data-i18n="revamp.darkTurnPhase2Title">5 – 23 Oct 2026 · The Lethal Maritime Escalation</strong>
+        <p data-i18n="revamp.darkTurnPhase2Body">8 records cover 9 merchant vessels struck or targeted in 19 days across the western Black Sea, including incidents in Romanian territorial waters off Sulina, with confirmed deaths (Royad Mammadov, KHORYV), crew hospitalized with burns, and over 30 sailors reported missing.</p>
       </div>
     </div>
-    <p class="maritime-honesty-note" lang="en">Counting note: Casualty figures come from official naval, ministerial and diplomatic statements cited in each record. Conflicting reports are never added together, and missing sailors are not recorded as confirmed dead.</p>
+    <p class="maritime-honesty-note" data-i18n="revamp.darkTurnCountingNote">Counting note: Casualty figures come from official naval, ministerial and diplomatic statements cited in each record. Conflicting reports are never added together, and missing sailors are not recorded as confirmed dead.</p>
     <div class="maritime-modal-actions">
       <button type="button" id="modal-filter-maritime-btn" class="maritime-action-btn primary">
         <span id="modal-filter-maritime-label">Focus on Ship Incidents (11)</span>
@@ -387,7 +387,7 @@
       <p class="eyebrow" data-i18n="trend.eyebrow">RECORDS PER MONTH</p>
       <button id="close-trend" type="button" aria-label="Close" data-i18n-aria="about.close">×</button>
     </div>
-    <h2 id="trend-dialog-title">Monthly Distribution &amp; 90-Day Comparison</h2>
+    <h2 id="trend-dialog-title" data-i18n="revamp.trendDialogTitle">Monthly distribution &amp; 90-day comparison</h2>
     <section class="trend" aria-label="Records per month">
       <div class="trend-figure">
         <strong id="trend-delta" class="trend-delta">+324%</strong>

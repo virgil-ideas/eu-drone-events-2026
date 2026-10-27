@@ -251,5 +251,18 @@
   "revamp.darkTurnReplayBtn": "▶ Prehrať eskaláciu 5.–23. okt.",
   "revamp.darkTurnModalBtn": "Časová os a plavidlá →",
   "revamp.darkTurnDismissAria": "Zbaliť banner bodu obratu",
-  "revamp.darkTurnVesselsTitle": "Chronologické záznamy plavidiel v Čiernom mori (kliknutím zobrazíte na mape)"
+  "revamp.darkTurnVesselsTitle": "Chronologické záznamy plavidiel v Čiernom mori (kliknutím zobrazíte na mape)",
+  "revamp.darkTurnEyebrow": "Bod obratu · október 2026 · Čierne more a rumunské vody",
+  "revamp.darkTurnTitle": "Keď sa situácia zvrtla: smrtiace útoky na lodnú dopravu v Čiernom mori",
+  "revamp.darkTurnBody": "Po mesiacoch prekročení vzdušného priestoru bez smrteľných následkov a úlomkov na pobreží priniesol október 2026 prudkú eskaláciu: 8 záznamov pokrýva 9 obchodných lodí zasiahnutých alebo cielených pri Rumunsku a Bulharsku – vrátane YARA J a Sea Destiny v rumunských teritoriálnych vodách pri Sulina a KHORYV mimo teritoriálnych vôd pri Konstanci – pričom námorníci boli zabití a zranení a viac ako 30 členov posádky bolo hlásených ako nezvestných.",
+  "revamp.darkTurnModalTitle": "Od vniknutí do vzdušného priestoru k smrtiacim útokom na lodnú dopravu v Čiernom mori",
+  "revamp.darkTurnPhase1Title": "Január – september 2026 · Vzdušný priestor, hranice a úlomky na pobreží",
+  "revamp.darkTurnPhase1Body": "Viac ako 100 záznamov o vzdušnom priestore, zhabaniach na hraniciach a úlomkoch na pobreží v 10 štátoch EÚ s 0 potvrdenými úmrtiami (plus 3 nevyriešené/nepotvrdené letné incidenty s loďami pri Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5. – 23. október 2026 · Smrtiaca námorná eskalácia",
+  "revamp.darkTurnPhase2Body": "8 záznamov pokrýva 9 obchodných lodí zasiahnutých alebo cielených za 19 dní v západnej časti Čierneho mora, vrátane incidentov v rumunských teritoriálnych vodách pri Sulina, s potvrdenými úmrtiami (Royad Mammadov, KHORYV), členmi posádky hospitalizovanými s popáleninami a viac ako 30 námorníkmi hlásenými ako nezvestní.",
+  "revamp.darkTurnCountingNote": "Poznámka k počítaniu: Údaje o obetiach pochádzajú z oficiálnych námorných, ministerských a diplomatických vyhlásení citovaných v každom zázname. Protichodné správy sa nikdy nesčítavajú a nezvestní námorníci sa nezaznamenávajú ako potvrdení mŕtvi.",
+  "revamp.territorialWaters": "teritoriálne vody ({country})",
+  "revamp.trendDialogTitle": "Mesačné rozloženie a porovnanie za 90 dní",
+  "revamp.blackSea": "Čierne more",
+  "revamp.balticSea": "Baltské more"
 };

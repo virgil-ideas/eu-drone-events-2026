@@ -251,5 +251,18 @@
   "revamp.darkTurnReplayBtn": "▶ Toista kärjistyminen 5.–23.10.",
   "revamp.darkTurnModalBtn": "Aikajana ja alukset →",
   "revamp.darkTurnDismissAria": "Pienennä käännekohtapalkki",
-  "revamp.darkTurnVesselsTitle": "Mustanmeren alusten tietueet aikajärjestyksessä (avaa kartalla napsauttamalla)"
+  "revamp.darkTurnVesselsTitle": "Mustanmeren alusten tietueet aikajärjestyksessä (avaa kartalla napsauttamalla)",
+  "revamp.darkTurnEyebrow": "Käännekohta · loka 2026 · Musta meri ja Romanian aluevedet",
+  "revamp.darkTurnTitle": "Kun tilanne kärjistyi: kuolettavat iskut Mustanmeren meriliikenteeseen",
+  "revamp.darkTurnBody": "Kuukausien ilmatilarikkomusten ja rannikolle ajautuneiden jäänteiden jälkeen lokakuu 2026 toi mukanaan jyrkän kärjistymisen: 8 merkintää koskee 9:ää kauppa-alusta, joihin Romanian ja Bulgarian edustalla on iskettu tai joita vastaan on hyökätty – muun muassa YARA J ja Sea Destiny Romanian aluevesillä lähellä Sulinaa sekä KHORYV aluevesien ulkopuolella Constanțan edustalla – ja seurauksena merimiehiä on kuollut ja loukkaantunut, ja yli 30 miehistön jäsentä on ilmoitettu kadonneiksi.",
+  "revamp.darkTurnModalTitle": "Ilmatilarikkomuksista kuolettaviin iskuihin Mustanmeren meriliikenteeseen",
+  "revamp.darkTurnPhase1Title": "Tammi–syyskuu 2026 · Ilmatila, rajalla tehdyt löydöt ja rannikon jäänteet",
+  "revamp.darkTurnPhase1Body": "Yli 100 ilmatilaa, rajalla tehtyjä haltuunottoja ja rannikon jäänteitä koskevaa merkintää 10 EU-maassa, ilman yhtään vahvistettua kuolemantapausta (lisäksi 3 selvittämätöntä tai varmentamatonta kesän meriliikennetapausta Sfântu Gheorghen edustalla: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5.–23. lokakuuta 2026 · Kuolettava merellinen kärjistyminen",
+  "revamp.darkTurnPhase2Body": "8 merkintää koskee 9:ää kauppa-alusta, joihin on iskettu tai joita vastaan on hyökätty 19 päivän aikana läntisellä Mustallamerellä, mukaan lukien tapaukset Romanian aluevesillä Sulinan edustalla. Kuolemantapauksia on vahvistettu (Royad Mammadov, KHORYV), palovammoja saanut miehistö on viety sairaalaan ja yli 30 merimiehen on ilmoitettu olevan kateissa.",
+  "revamp.darkTurnCountingNote": "Laskentahuomautus: uhriluvut perustuvat kussakin merkinnässä mainittuihin virallisiin merivoimien, ministeriöiden ja diplomaattisiin lausuntoihin. Ristiriitaisia ilmoituksia ei koskaan lasketa yhteen, eikä kateissa olevia merimiehiä merkitä vahvistetusti kuolleiksi.",
+  "revamp.territorialWaters": "{country}: aluevedet",
+  "revamp.trendDialogTitle": "Kuukausijakauma ja 90 päivän vertailu",
+  "revamp.blackSea": "Mustameri",
+  "revamp.balticSea": "Itämeri"
 };

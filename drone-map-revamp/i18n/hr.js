@@ -251,5 +251,18 @@
   "revamp.darkTurnReplayBtn": "▶ Reproduciraj eskalaciju 5.–23. lis.",
   "revamp.darkTurnModalBtn": "Vremenska crta i plovila →",
   "revamp.darkTurnDismissAria": "Sažmi natpis o prekretnici",
-  "revamp.darkTurnVesselsTitle": "Kronološki zapisi plovila u Crnom moru (kliknite za prikaz na karti)"
+  "revamp.darkTurnVesselsTitle": "Kronološki zapisi plovila u Crnom moru (kliknite za prikaz na karti)",
+  "revamp.darkTurnEyebrow": "Prekretnica · lis. 2026. · Crno more i rumunjske vode",
+  "revamp.darkTurnTitle": "Kad su stvari poprimile mračan obrat: smrtonosni udari na pomorski promet u Crnom moru",
+  "revamp.darkTurnBody": "Nakon mjeseci nesmrtonosnih prelazaka zračnog prostora i obalnih krhotina, listopad 2026. donio je oštru eskalaciju: 8 zapisa obuhvaća 9 trgovačkih brodova pogođenih ili ciljanih kod Rumunjske i Bugarske – uključujući YARA J i Sea Destiny unutar rumunjskih teritorijalnih voda kod Suline te KHORYV izvan teritorijalnih voda kod Constanțe – uz poginule i ozlijeđene mornare te više od 30 članova posade prijavljenih kao nestalih.",
+  "revamp.darkTurnModalTitle": "Od upada u zračni prostor do smrtonosnih udara na pomorski promet u Crnom moru",
+  "revamp.darkTurnPhase1Title": "Sij. – ruj. 2026. · Zračni prostor, granica i obalne krhotine",
+  "revamp.darkTurnPhase1Body": "Više od 100 zapisa o zračnim događajima, zapljenama na granici i obalnim krhotinama u 10 država EU-a bez potvrđenih smrtnih slučajeva (uz 3 nerazjašnjena/nepotvrđena ljetna incidenta s brodovima kod Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5.–23. lis. 2026. · Smrtonosna pomorska eskalacija",
+  "revamp.darkTurnPhase2Body": "8 zapisa obuhvaća 9 trgovačkih brodova pogođenih ili ciljanih u 19 dana u zapadnom dijelu Crnog mora, uključujući incidente u rumunjskim teritorijalnim vodama kod Suline, uz potvrđene smrti (Royad Mammadov, KHORYV), članove posade hospitalizirane zbog opeklina i više od 30 mornara prijavljenih kao nestalih.",
+  "revamp.darkTurnCountingNote": "Napomena o brojanju: podaci o žrtvama potječu iz službenih mornaričkih, ministarskih i diplomatskih izjava navedenih u svakom zapisu. Proturječna izvješća nikada se ne zbrajaju, a nestali mornari ne bilježe se kao potvrđeno mrtvi.",
+  "revamp.territorialWaters": "Teritorijalne vode: {country}",
+  "revamp.trendDialogTitle": "Mjesečna raspodjela i usporedba za 90 dana",
+  "revamp.blackSea": "Crno more",
+  "revamp.balticSea": "Baltičko more"
 };

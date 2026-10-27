@@ -13,6 +13,7 @@ sys.path.insert(0, str(DRONE_MAP_DIR / 'scripts'))
 
 from database import DataError, load_database, mapped_events  # noqa: E402
 from pages import copy_for, load_pages  # noqa: E402
+import translations  # noqa: E402
 
 SHARED_ASSETS = ('events.js', 'sitemap.xml', 'robots.txt', 'page.css', 'media.js', 'trend-data.js', 'landmark.js')
 
@@ -59,17 +60,26 @@ def main():
     args = parser.parse_args()
 
     content, count = render_pages_data()
+    english = translations.english_copy()
+    pages_dir = REVAMP_DIR / 'i18n' / 'pages'
+    translated = {pages_dir / f'{code}.js': translations.render(code, english) for code in translations.LANGUAGES}
     research_files = load_database(DRONE_MAP_DIR / 'data', DRONE_MAP_DIR.parent)['dataset']['researchFiles']
     out_path = REVAMP_DIR / 'pages-data.js'
 
     if args.check:
         if not out_path.exists() or out_path.read_text(encoding='utf-8') != content:
             raise DataError('drone-map-revamp/pages-data.js is stale. Run python3 drone-map-revamp/build-pages-data.py')
+        stale = [path.name for path, text in translated.items() if not path.is_file() or path.read_text(encoding='utf-8') != text]
+        if stale:
+            raise DataError('Translated record copy is stale: i18n/pages/' + ', '.join(stale) + '. Run python3 drone-map-revamp/build-pages-data.py')
         sync_assets(DRONE_MAP_DIR / 'dist', REVAMP_DIR, check=True, research_files=research_files)
         print(f'Verified {count} editorial summaries and all copied data assets and event pages.')
         return
 
     out_path.write_text(content, encoding='utf-8')
+    pages_dir.mkdir(exist_ok=True)
+    for path, text in translated.items():
+        path.write_text(text, encoding='utf-8')
     sync_assets(DRONE_MAP_DIR / 'dist', REVAMP_DIR, research_files=research_files)
     print(f'Wrote {count} compact editorial summaries to {out_path} and synced dist assets.')
 

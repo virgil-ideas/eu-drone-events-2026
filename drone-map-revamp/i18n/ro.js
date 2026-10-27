@@ -251,5 +251,18 @@
   "revamp.darkTurnReplayBtn": "▶ Redă escaladarea 5–23 Oct",
   "revamp.darkTurnModalBtn": "Cronologie & Nave →",
   "revamp.darkTurnDismissAria": "Restrânge panoul",
-  "revamp.darkTurnVesselsTitle": "Cronologia navelor din Marea Neagră (Apasă pentru localizare pe hartă)"
+  "revamp.darkTurnVesselsTitle": "Cronologia navelor din Marea Neagră (Apasă pentru localizare pe hartă)",
+  "revamp.darkTurnEyebrow": "Punct de cotitură · Oct 2026 · Marea Neagră și apele românești",
+  "revamp.darkTurnTitle": "Când situația a luat o întorsătură întunecată: lovituri letale asupra transportului maritim din Marea Neagră",
+  "revamp.darkTurnBody": "După luni de traversări neletale ale spațiului aerian și de resturi pe coastă, octombrie 2026 a adus o escaladare bruscă: 8 înregistrări acoperă 9 nave comerciale lovite sau vizate în largul României și Bulgariei — inclusiv YARA J și Sea Destiny în apele teritoriale românești, lângă Sulina, și KHORYV în afara apelor teritoriale, în largul Constanței — cu marinari uciși, răniți și peste 30 de membri ai echipajelor raportați dispăruți.",
+  "revamp.darkTurnModalTitle": "De la incursiuni în spațiul aerian la lovituri letale asupra transportului maritim din Marea Neagră",
+  "revamp.darkTurnPhase1Title": "Ian – Sep 2026 · Spațiu aerian, frontieră și resturi de pe coastă",
+  "revamp.darkTurnPhase1Body": "Peste 100 de înregistrări privind spațiul aerian, confiscări la frontieră și resturi de pe coastă, în 10 state ale UE, cu 0 decese confirmate (plus 3 incidente maritime de vară nerezolvate sau neconfirmate în largul localității Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5 – 23 Oct 2026 · Escaladarea maritimă letală",
+  "revamp.darkTurnPhase2Body": "8 înregistrări acoperă 9 nave comerciale lovite sau vizate în 19 zile în vestul Mării Negre, inclusiv incidente în apele teritoriale românești, în largul Sulinei, cu decese confirmate (Royad Mammadov, KHORYV), membri ai echipajelor spitalizați cu arsuri și peste 30 de marinari raportați dispăruți.",
+  "revamp.darkTurnCountingNote": "Notă privind numărătoarea: cifrele privind victimele provin din declarații oficiale navale, ministeriale și diplomatice citate în fiecare înregistrare. Relatările contradictorii nu se adună niciodată, iar marinarii dispăruți nu sunt înregistrați ca morți confirmați.",
+  "revamp.territorialWaters": "Ape teritoriale: {country}",
+  "revamp.trendDialogTitle": "Distribuția lunară și comparația pe 90 de zile",
+  "revamp.blackSea": "Marea Neagră",
+  "revamp.balticSea": "Marea Baltică"
 };

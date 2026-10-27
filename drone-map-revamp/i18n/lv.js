@@ -251,5 +251,18 @@
   "revamp.darkTurnReplayBtn": "▶ Atskaņot 5.–23. okt. eskalāciju",
   "revamp.darkTurnModalBtn": "Laika josla un kuģi →",
   "revamp.darkTurnDismissAria": "Sakļaut pagrieziena punkta joslu",
-  "revamp.darkTurnVesselsTitle": "Melnās jūras kuģu ieraksti hronoloģiskā secībā (klikšķiniet, lai skatītu kartē)"
+  "revamp.darkTurnVesselsTitle": "Melnās jūras kuģu ieraksti hronoloģiskā secībā (klikšķiniet, lai skatītu kartē)",
+  "revamp.darkTurnEyebrow": "Pagrieziena punkts · 2026. g. okt. · Melnā jūra un Rumānijas ūdeņi",
+  "revamp.darkTurnTitle": "Kad notikumi ieguva drūmu pavērsienu: nāvējoši triecieni Melnās jūras kuģniecībai",
+  "revamp.darkTurnBody": "Pēc vairākiem mēnešiem ar nenāvējošiem gaisa telpas šķērsojumiem un piekrastes atlūzām 2026. gada oktobris atnesa strauju eskalāciju: 8 ieraksti aptver 9 tirdzniecības kuģus, kas tika trāpīti vai kļuva par mērķi pie Rumānijas un Bulgārijas, tostarp YARA J un Sea Destiny Rumānijas teritoriālajos ūdeņos pie Sulinas un KHORYV ārpus teritoriālajiem ūdeņiem pie Konstancas – jūrnieki gāja bojā un tika ievainoti, un vairāk nekā 30 apkalpes locekļu, kā ziņots, ir pazuduši.",
+  "revamp.darkTurnModalTitle": "No gaisa telpas pārkāpumiem līdz nāvējošiem triecieniem Melnās jūras kuģniecībai",
+  "revamp.darkTurnPhase1Title": "2026. g. janv. – sept. · Gaisa telpa, robeža un piekrastes atlūzas",
+  "revamp.darkTurnPhase1Body": "Vairāk nekā 100 ieraksti par gaisa telpu, robežas konfiskācijām un piekrastes atlūzām 10 ES valstīs bez apstiprinātiem bojāgājušajiem (plus 3 neatrisināti/neapstiprināti vasaras kuģniecības incidenti pie Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "2026. g. 5.–23. okt. · Nāvējošā jūras eskalācija",
+  "revamp.darkTurnPhase2Body": "8 ieraksti aptver 9 tirdzniecības kuģus, kas 19 dienu laikā tika trāpīti vai kļuva par mērķi Melnās jūras rietumos, tostarp incidentus Rumānijas teritoriālajos ūdeņos pie Sulinas, ar apstiprinātiem bojāgājušajiem (Royad Mammadov, KHORYV), apkalpes locekļiem, kas hospitalizēti ar apdegumiem, un vairāk nekā 30 jūrniekiem, par kuriem ziņots, ka tie pazuduši.",
+  "revamp.darkTurnCountingNote": "Skaitīšanas piezīme: cietušo skaits ņemts no oficiāliem jūras spēku, ministriju un diplomātiskajiem paziņojumiem, kas minēti katrā ierakstā. Pretrunīgi ziņojumi nekad netiek saskaitīti kopā, un pazudušie jūrnieki netiek reģistrēti kā apstiprināti bojāgājušie.",
+  "revamp.territorialWaters": "Teritoriālie ūdeņi: {country}",
+  "revamp.trendDialogTitle": "Sadalījums pa mēnešiem un 90 dienu salīdzinājums",
+  "revamp.blackSea": "Melnā jūra",
+  "revamp.balticSea": "Baltijas jūra"
 };

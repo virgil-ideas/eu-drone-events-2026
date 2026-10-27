@@ -251,5 +251,18 @@
   "revamp.darkTurnReplayBtn": "▶ Esita 5.–23. okt eskalatsioon",
   "revamp.darkTurnModalBtn": "Ajajoon ja laevad →",
   "revamp.darkTurnDismissAria": "Ahenda pöördepunkti teateriba",
-  "revamp.darkTurnVesselsTitle": "Musta mere laevade kirjed ajajärjekorras (kaardil vaatamiseks klõpsa)"
+  "revamp.darkTurnVesselsTitle": "Musta mere laevade kirjed ajajärjekorras (kaardil vaatamiseks klõpsa)",
+  "revamp.darkTurnEyebrow": "Pöördepunkt · okt 2026 · Must meri ja Rumeenia vetes",
+  "revamp.darkTurnTitle": "Kui olukord võttis süngema pöörde: surmavad rünnakud Musta mere laevandusele",
+  "revamp.darkTurnBody": "Pärast kuid kestnud mittesurmavaid õhuruumi rikkumisi ja rannikule jõudnud rususid tõi 2026. aasta oktoober järsu eskalatsiooni: 8 kirjet hõlmavad 9 kaubalaeva, mida tabati või mis olid sihtmärgiks Rumeenia ja Bulgaaria rannikul – sealhulgas YARA J ja Sea Destiny Rumeenia territoriaalvetes Sulina lähedal ning KHORYV väljaspool territoriaalvetesid Constanța lähedal –, mille tagajärjel hukkus ja sai vigastada meremehi ning üle 30 meeskonnaliikme on teadete kohaselt kadunud.",
+  "revamp.darkTurnModalTitle": "Õhuruumi rikkumistest surmavate rünnakuteni Musta mere laevandusele",
+  "revamp.darkTurnPhase1Title": "Jaan – sept 2026 · Õhuruum, piir ja rannikule jõudnud rusud",
+  "revamp.darkTurnPhase1Body": "Üle 100 õhuruumi, piiril äravõetud droonide ja rannikule jõudnud rusude kirje 10 ELi riigis, ilma ühegi kinnitatud hukkunuta (lisaks 3 lahendamata või kinnitamata suvist laevandusjuhtumit Sfântu Gheorghe lähedal: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5.–23. okt 2026 · Surmav eskalatsioon merel",
+  "revamp.darkTurnPhase2Body": "8 kirjet hõlmavad 9 kaubalaeva, mida tabati või mis olid sihtmärgiks 19 päeva jooksul Musta mere lääneosas, sealhulgas juhtumid Rumeenia territoriaalvetes Sulina lähedal; kinnitatud on surmajuhtumid (Royad Mammadov, KHORYV), põletustega haiglasse viidud meeskonnaliikmed ning üle 30 teadete kohaselt kadunud meremehe.",
+  "revamp.darkTurnCountingNote": "Märkus loendamise kohta: Kannatanute arvud pärinevad ametlikest mereväe-, ministeeriumi- ja diplomaatilistest avaldustest, millele iga kirje viitab. Vasturääkivaid teateid ei liideta kunagi kokku ning kadunud meremehi ei registreerita kinnitatud hukkunutena.",
+  "revamp.territorialWaters": "{country} territoriaalveed",
+  "revamp.trendDialogTitle": "Kuude jaotus ja 90 päeva võrdlus",
+  "revamp.blackSea": "Must meri",
+  "revamp.balticSea": "Läänemeri"
 };

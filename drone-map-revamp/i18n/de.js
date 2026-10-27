@@ -251,5 +251,18 @@
   "revamp.darkTurnReplayBtn": "▶ Eskalation vom 5.–23. Okt. wiedergeben",
   "revamp.darkTurnModalBtn": "Zeitleiste und Schiffe →",
   "revamp.darkTurnDismissAria": "Eskalationshinweis einklappen",
-  "revamp.darkTurnVesselsTitle": "Schiffsvorfälle im Schwarzen Meer nach Datum (für Kartenansicht anklicken)"
+  "revamp.darkTurnVesselsTitle": "Schiffsvorfälle im Schwarzen Meer nach Datum (für Kartenansicht anklicken)",
+  "revamp.darkTurnEyebrow": "Wendepunkt · Okt. 2026 · Schwarzes Meer und rumänische Gewässer",
+  "revamp.darkTurnTitle": "Als die Lage eine dunkle Wendung nahm: Tödliche Angriffe auf die Schifffahrt im Schwarzen Meer",
+  "revamp.darkTurnBody": "Nach Monaten nicht tödlicher Luftraumüberflüge und Trümmerfunde an der Küste brachte der Oktober 2026 eine scharfe Eskalation: 8 Einträge betreffen 9 Handelsschiffe, die vor Rumänien und Bulgarien getroffen oder anvisiert wurden, darunter YARA J und Sea Destiny innerhalb der rumänischen Hoheitsgewässer bei Sulina und KHORYV außerhalb der Hoheitsgewässer vor Constanța. Seeleute wurden getötet und verletzt, und über 30 Besatzungsmitglieder wurden als vermisst gemeldet.",
+  "revamp.darkTurnModalTitle": "Von Einflügen in den Luftraum zu tödlichen Angriffen auf die Schifffahrt im Schwarzen Meer",
+  "revamp.darkTurnPhase1Title": "Jan.–Sep. 2026 · Luftraum, Grenze und Trümmer an der Küste",
+  "revamp.darkTurnPhase1Body": "Über 100 Einträge zu Luftraum, Grenzbeschlagnahmungen und Trümmern an der Küste in 10 EU-Staaten ohne bestätigte Todesopfer (zuzüglich 3 ungeklärter/unbestätigter Schiffsvorfälle im Sommer vor Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5.–23. Okt. 2026 · Die tödliche Eskalation auf See",
+  "revamp.darkTurnPhase2Body": "8 Einträge betreffen 9 Handelsschiffe, die in 19 Tagen im westlichen Schwarzen Meer getroffen oder anvisiert wurden, darunter Vorfälle in rumänischen Hoheitsgewässern vor Sulina, mit bestätigten Todesfällen (Royad Mammadov, KHORYV), mit Verbrennungen ins Krankenhaus gebrachten Besatzungsmitgliedern und über 30 als vermisst gemeldeten Seeleuten.",
+  "revamp.darkTurnCountingNote": "Hinweis zur Zählung: Die Opferzahlen stammen aus amtlichen Erklärungen von Marine, Ministerien und diplomatischen Vertretungen, die in den jeweiligen Einträgen zitiert werden. Widersprüchliche Berichte werden nie addiert, und vermisste Seeleute werden nicht als bestätigte Tote erfasst.",
+  "revamp.territorialWaters": "Hoheitsgewässer von {country}",
+  "revamp.trendDialogTitle": "Monatliche Verteilung und 90-Tage-Vergleich",
+  "revamp.blackSea": "Schwarzes Meer",
+  "revamp.balticSea": "Ostsee"
 };

@@ -251,5 +251,18 @@
   "revamp.darkTurnReplayBtn": "▶ Escalatie van 5–23 okt. afspelen",
   "revamp.darkTurnModalBtn": "Tijdlijn en schepen →",
   "revamp.darkTurnDismissAria": "Escalatiebanner inklappen",
-  "revamp.darkTurnVesselsTitle": "Scheepsincidenten in de Zwarte Zee op datum (klik voor kaartweergave)"
+  "revamp.darkTurnVesselsTitle": "Scheepsincidenten in de Zwarte Zee op datum (klik voor kaartweergave)",
+  "revamp.darkTurnEyebrow": "Keerpunt · okt. 2026 · Zwarte Zee en Roemeense wateren",
+  "revamp.darkTurnTitle": "Toen het een duistere wending nam: dodelijke aanvallen op de scheepvaart in de Zwarte Zee",
+  "revamp.darkTurnBody": "Na maanden van niet-dodelijke binnendringingen van het luchtruim en brokstukken aan de kust bracht oktober 2026 een scherpe escalatie: 8 registraties betreffen 9 koopvaardijschepen die voor de kust van Roemenië en Bulgarije werden getroffen of tot doelwit waren – onder wie YARA J en Sea Destiny binnen de Roemeense territoriale wateren bij Sulina, en KHORYV buiten de territoriale wateren voor Constanța – met dode en gewonde zeelieden en meer dan 30 bemanningsleden die als vermist werden gemeld.",
+  "revamp.darkTurnModalTitle": "Van binnendringingen van het luchtruim tot dodelijke aanvallen op de scheepvaart in de Zwarte Zee",
+  "revamp.darkTurnPhase1Title": "Jan. – sept. 2026 · Luchtruim, grens en brokstukken aan de kust",
+  "revamp.darkTurnPhase1Body": "Meer dan 100 registraties van luchtincidenten, inbeslagnames aan de grens en brokstukken aan de kust in 10 EU-landen, met 0 bevestigde doden (plus 3 onopgehelderde of onbevestigde scheepvaartincidenten in de zomer voor Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5 – 23 okt. 2026 · De dodelijke maritieme escalatie",
+  "revamp.darkTurnPhase2Body": "8 registraties betreffen 9 koopvaardijschepen die in 19 dagen in het westelijke deel van de Zwarte Zee werden getroffen of tot doelwit waren, waaronder incidenten in de Roemeense territoriale wateren voor Sulina, met bevestigde doden (Royad Mammadov, KHORYV), bemanningsleden die met brandwonden in het ziekenhuis werden opgenomen en meer dan 30 zeelieden die als vermist werden gemeld.",
+  "revamp.darkTurnCountingNote": "Opmerking over de telling: de cijfers over slachtoffers komen uit officiële verklaringen van marines, ministeries en diplomaten die in elke registratie worden aangehaald. Tegenstrijdige berichten worden nooit bij elkaar opgeteld en vermiste zeelieden worden niet als bevestigd dood geregistreerd.",
+  "revamp.territorialWaters": "Territoriale wateren van {country}",
+  "revamp.trendDialogTitle": "Verdeling per maand en vergelijking over 90 dagen",
+  "revamp.blackSea": "Zwarte Zee",
+  "revamp.balticSea": "Oostzee"
 };
