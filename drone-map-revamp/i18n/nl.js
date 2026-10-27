@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 registraties betreffen 9 koopvaardijschepen die in 19 dagen in het westelijke deel van de Zwarte Zee werden getroffen of tot doelwit waren, waaronder incidenten in de Roemeense territoriale wateren voor Sulina, met bevestigde doden (Royad Mammadov, KHORYV), bemanningsleden die met brandwonden in het ziekenhuis werden opgenomen en meer dan 30 zeelieden die als vermist werden gemeld.",
   "revamp.darkTurnCountingNote": "Opmerking over de telling: de cijfers over slachtoffers komen uit officiële verklaringen van marines, ministeries en diplomaten die in elke registratie worden aangehaald. Tegenstrijdige berichten worden nooit bij elkaar opgeteld en vermiste zeelieden worden niet als bevestigd dood geregistreerd.",
   "revamp.territorialWaters": "Territoriale wateren van {country}",
-  "revamp.trendDialogTitle": "Verdeling per maand en vergelijking over 90 dagen"
+  "revamp.trendDialogTitle": "Verdeling per maand en vergelijking over 90 dagen",
+  "revamp.blackSea": "Zwarte Zee",
+  "revamp.balticSea": "Oostzee"
 };

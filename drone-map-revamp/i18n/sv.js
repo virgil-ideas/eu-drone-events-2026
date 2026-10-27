@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 poster omfattar 9 handelsfartyg som träffats eller utsatts för angrepp under 19 dagar i västra Svarta havet, däribland incidenter i rumänskt territorialvatten utanför Sulina, med bekräftade dödsfall (Royad Mammadov, KHORYV), besättningsmedlemmar inlagda på sjukhus med brännskador och över 30 sjömän som rapporterats saknade.",
   "revamp.darkTurnCountingNote": "Räkneanmärkning: Uppgifterna om offer kommer från officiella uttalanden från marinen, ministerier och diplomater som citeras i varje post. Motstridiga rapporter läggs aldrig ihop, och saknade sjömän registreras inte som bekräftat döda.",
   "revamp.territorialWaters": "{country}s territorialvatten",
-  "revamp.trendDialogTitle": "Månadsfördelning och jämförelse av 90 dagar"
+  "revamp.trendDialogTitle": "Månadsfördelning och jämförelse av 90 dagar",
+  "revamp.blackSea": "Svarta havet",
+  "revamp.balticSea": "Östersjön"
 };

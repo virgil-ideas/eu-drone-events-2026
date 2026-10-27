@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 kirjet hõlmavad 9 kaubalaeva, mida tabati või mis olid sihtmärgiks 19 päeva jooksul Musta mere lääneosas, sealhulgas juhtumid Rumeenia territoriaalvetes Sulina lähedal; kinnitatud on surmajuhtumid (Royad Mammadov, KHORYV), põletustega haiglasse viidud meeskonnaliikmed ning üle 30 teadete kohaselt kadunud meremehe.",
   "revamp.darkTurnCountingNote": "Märkus loendamise kohta: Kannatanute arvud pärinevad ametlikest mereväe-, ministeeriumi- ja diplomaatilistest avaldustest, millele iga kirje viitab. Vasturääkivaid teateid ei liideta kunagi kokku ning kadunud meremehi ei registreerita kinnitatud hukkunutena.",
   "revamp.territorialWaters": "{country} territoriaalveed",
-  "revamp.trendDialogTitle": "Kuude jaotus ja 90 päeva võrdlus"
+  "revamp.trendDialogTitle": "Kuude jaotus ja 90 päeva võrdlus",
+  "revamp.blackSea": "Must meri",
+  "revamp.balticSea": "Läänemeri"
 };

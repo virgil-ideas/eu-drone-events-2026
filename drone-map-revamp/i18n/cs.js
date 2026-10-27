@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 záznamů se týká 9 obchodních plavidel zasažených či cílených během 19 dnů v západní části Černého moře, včetně incidentů v rumunských teritoriálních vodách u Sulina, s potvrzenými úmrtími (Royad Mammadov, KHORYV), členy posádky hospitalizovanými s popáleninami a více než 30 námořníky hlášenými jako pohřešovaní.",
   "revamp.darkTurnCountingNote": "Poznámka k počítání: Počty obětí pocházejí z oficiálních námořních, ministerských a diplomatických prohlášení citovaných u každého záznamu. Protichůdné zprávy se nikdy nesčítají a pohřešovaní námořníci se nezapisují jako potvrzení mrtví.",
   "revamp.territorialWaters": "Teritoriální vody: {country}",
-  "revamp.trendDialogTitle": "Měsíční rozložení a srovnání za 90 dní"
+  "revamp.trendDialogTitle": "Měsíční rozložení a srovnání za 90 dní",
+  "revamp.blackSea": "Černé moře",
+  "revamp.balticSea": "Baltské moře"
 };

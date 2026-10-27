@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 zapisa obuhvaća 9 trgovačkih brodova pogođenih ili ciljanih u 19 dana u zapadnom dijelu Crnog mora, uključujući incidente u rumunjskim teritorijalnim vodama kod Suline, uz potvrđene smrti (Royad Mammadov, KHORYV), članove posade hospitalizirane zbog opeklina i više od 30 mornara prijavljenih kao nestalih.",
   "revamp.darkTurnCountingNote": "Napomena o brojanju: podaci o žrtvama potječu iz službenih mornaričkih, ministarskih i diplomatskih izjava navedenih u svakom zapisu. Proturječna izvješća nikada se ne zbrajaju, a nestali mornari ne bilježe se kao potvrđeno mrtvi.",
   "revamp.territorialWaters": "Teritorijalne vode: {country}",
-  "revamp.trendDialogTitle": "Mjesečna raspodjela i usporedba za 90 dana"
+  "revamp.trendDialogTitle": "Mjesečna raspodjela i usporedba za 90 dana",
+  "revamp.blackSea": "Crno more",
+  "revamp.balticSea": "Baltičko more"
 };

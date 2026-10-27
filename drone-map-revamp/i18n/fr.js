@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 fiches couvrent 9 navires marchands touchés ou visés en 19 jours dans l’ouest de la mer Noire, dont des incidents dans les eaux territoriales roumaines au large de Sulina, avec des décès confirmés (Royad Mammadov, KHORYV), des membres d’équipage hospitalisés pour brûlures et plus de 30 marins signalés disparus.",
   "revamp.darkTurnCountingNote": "Note sur le décompte : les bilans humains proviennent de déclarations officielles de marines, de ministères et de diplomates citées dans chaque fiche. Les informations contradictoires ne sont jamais additionnées, et les marins disparus ne sont pas comptés comme morts confirmés.",
   "revamp.territorialWaters": "Eaux territoriales : {country}",
-  "revamp.trendDialogTitle": "Répartition mensuelle et comparaison sur 90 jours"
+  "revamp.trendDialogTitle": "Répartition mensuelle et comparaison sur 90 jours",
+  "revamp.blackSea": "Mer Noire",
+  "revamp.balticSea": "Mer Baltique"
 };

@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 ieraksti aptver 9 tirdzniecības kuģus, kas 19 dienu laikā tika trāpīti vai kļuva par mērķi Melnās jūras rietumos, tostarp incidentus Rumānijas teritoriālajos ūdeņos pie Sulinas, ar apstiprinātiem bojāgājušajiem (Royad Mammadov, KHORYV), apkalpes locekļiem, kas hospitalizēti ar apdegumiem, un vairāk nekā 30 jūrniekiem, par kuriem ziņots, ka tie pazuduši.",
   "revamp.darkTurnCountingNote": "Skaitīšanas piezīme: cietušo skaits ņemts no oficiāliem jūras spēku, ministriju un diplomātiskajiem paziņojumiem, kas minēti katrā ierakstā. Pretrunīgi ziņojumi nekad netiek saskaitīti kopā, un pazudušie jūrnieki netiek reģistrēti kā apstiprināti bojāgājušie.",
   "revamp.territorialWaters": "Teritoriālie ūdeņi: {country}",
-  "revamp.trendDialogTitle": "Sadalījums pa mēnešiem un 90 dienu salīdzinājums"
+  "revamp.trendDialogTitle": "Sadalījums pa mēnešiem un 90 dienu salīdzinājums",
+  "revamp.blackSea": "Melnā jūra",
+  "revamp.balticSea": "Baltijas jūra"
 };

@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 Einträge betreffen 9 Handelsschiffe, die in 19 Tagen im westlichen Schwarzen Meer getroffen oder anvisiert wurden, darunter Vorfälle in rumänischen Hoheitsgewässern vor Sulina, mit bestätigten Todesfällen (Royad Mammadov, KHORYV), mit Verbrennungen ins Krankenhaus gebrachten Besatzungsmitgliedern und über 30 als vermisst gemeldeten Seeleuten.",
   "revamp.darkTurnCountingNote": "Hinweis zur Zählung: Die Opferzahlen stammen aus amtlichen Erklärungen von Marine, Ministerien und diplomatischen Vertretungen, die in den jeweiligen Einträgen zitiert werden. Widersprüchliche Berichte werden nie addiert, und vermisste Seeleute werden nicht als bestätigte Tote erfasst.",
   "revamp.territorialWaters": "Hoheitsgewässer von {country}",
-  "revamp.trendDialogTitle": "Monatliche Verteilung und 90-Tage-Vergleich"
+  "revamp.trendDialogTitle": "Monatliche Verteilung und 90-Tage-Vergleich",
+  "revamp.blackSea": "Schwarzes Meer",
+  "revamp.balticSea": "Ostsee"
 };

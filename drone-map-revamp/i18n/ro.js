@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 înregistrări acoperă 9 nave comerciale lovite sau vizate în 19 zile în vestul Mării Negre, inclusiv incidente în apele teritoriale românești, în largul Sulinei, cu decese confirmate (Royad Mammadov, KHORYV), membri ai echipajelor spitalizați cu arsuri și peste 30 de marinari raportați dispăruți.",
   "revamp.darkTurnCountingNote": "Notă privind numărătoarea: cifrele privind victimele provin din declarații oficiale navale, ministeriale și diplomatice citate în fiecare înregistrare. Relatările contradictorii nu se adună niciodată, iar marinarii dispăruți nu sunt înregistrați ca morți confirmați.",
   "revamp.territorialWaters": "Ape teritoriale: {country}",
-  "revamp.trendDialogTitle": "Distribuția lunară și comparația pe 90 de zile"
+  "revamp.trendDialogTitle": "Distribuția lunară și comparația pe 90 de zile",
+  "revamp.blackSea": "Marea Neagră",
+  "revamp.balticSea": "Marea Baltică"
 };

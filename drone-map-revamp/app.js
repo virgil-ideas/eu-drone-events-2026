@@ -38,7 +38,7 @@
   // falls back to English record by record.
   async function loadLanguage(code) {
     const pages = code === 'en' || window.DRONE_PAGES_I18N?.[code] ? null : loadScript(`i18n/pages/${code}.js?v=20261027-pages`);
-    if (!translations[code]) await loadScript(`i18n/${code}.js?v=20261027-review`);
+    if (!translations[code]) await loadScript(`i18n/${code}.js?v=20261027-content-i18n`);
     await pages;
     return Boolean(translations[code]);
   }
@@ -967,7 +967,8 @@
       focusBesidePanel([position.lat, position.lng], position.precision === 'region' ? 6.5 : 9);
     }
     $('detail').querySelector('.close-detail').focus({preventScroll:true});
-    $('announcer').textContent = t('detail.opened', {id:event.id, title:pageCopyFor(event).headline, status:event.status});
+    const openedCopy = pageCopyFor(event);
+    $('announcer').textContent = t('detail.opened', {id:event.id, title:openedCopy.headline, status:openedCopy.lang === 'en' ? event.status : openedCopy.description});
   }
 
   function focusBesidePanel(point, zoom) {
@@ -1440,19 +1441,20 @@
     [[55.4,13.0],[56.0,12.7],[57.7,11.9],[58.9,11.1],[59.3,18.1],[56.2,16.0],[55.4,13.0]]
   ];
   const COUNTRY_LABELS = [
-    {name:'ROMANIA', lat:45.8, lng:25.2},
-    {name:'BULGARIA', lat:42.7, lng:25.5},
-    {name:'GREECE', lat:39.2, lng:22.2},
-    {name:'POLAND', lat:52.2, lng:19.4},
-    {name:'LITHUANIA', lat:55.3, lng:23.9},
-    {name:'LATVIA', lat:56.9, lng:24.6},
-    {name:'ESTONIA', lat:58.7, lng:25.5},
-    {name:'FINLAND', lat:61.2, lng:25.8},
-    {name:'SWEDEN', lat:56.8, lng:14.8},
-    {name:'GERMANY', lat:52.5, lng:12.5},
-    {name:'BLACK SEA', lat:43.6, lng:31.4, sea:true},
-    {name:'BALTIC SEA', lat:56.4, lng:19.2, sea:true}
+    {country:'Romania', lat:45.8, lng:25.2},
+    {country:'Bulgaria', lat:42.7, lng:25.5},
+    {country:'Greece', lat:39.2, lng:22.2},
+    {country:'Poland', lat:52.2, lng:19.4},
+    {country:'Lithuania', lat:55.3, lng:23.9},
+    {country:'Latvia', lat:56.9, lng:24.6},
+    {country:'Estonia', lat:58.7, lng:25.5},
+    {country:'Finland', lat:61.2, lng:25.8},
+    {country:'Sweden', lat:56.8, lng:14.8},
+    {country:'Germany', lat:52.5, lng:12.5},
+    {key:'revamp.blackSea', lat:43.6, lng:31.4, sea:true},
+    {key:'revamp.balticSea', lat:56.4, lng:19.2, sea:true}
   ];
+  const mapLabel = label => (label.key ? t(label.key) : countryName(label.country)).toLocaleUpperCase(locale);
 
   function createRecordingCanvas() {
     if (!recCanvas) {
@@ -1554,7 +1556,7 @@
       if (x < mapLeft + 30 || x > mapLeft + mapW - 30 || y < mapTop + 20 || y > mapTop + mapH - 20) return;
       ctx.font = lbl.sea ? 'italic 600 11px "DM Sans", system-ui, sans-serif' : '700 11px "DM Sans", system-ui, sans-serif';
       ctx.fillStyle = lbl.sea ? 'rgba(130, 185, 205, 0.38)' : 'rgba(205, 226, 230, 0.42)';
-      ctx.fillText(lbl.name, x, y);
+      ctx.fillText(mapLabel(lbl), x, y);
     });
 
     // 5. Draw Active Incident Markers
@@ -1613,18 +1615,18 @@
     ctx.fillStyle = '#9cd0cb';
     ctx.font = '700 12px "DM Sans", system-ui, sans-serif';
     ctx.textAlign = 'left';
-    ctx.fillText('EUROPE / FOREIGN DRONE EVENTS · 2026 RESEARCH REGISTER', 32, 26);
+    ctx.fillText(`${t('brand.primary')} ${t('brand.secondary')} · ${t('edition')}`.toLocaleUpperCase(locale), 32, 26);
 
     ctx.fillStyle = '#ffffff';
     ctx.font = '700 20px Manrope, system-ui, sans-serif';
     const intervalHeader = `${shortDateYear(dayToDate(intervalStartDay))} → ${shortDateYear(dayToDate(intervalEndDay))}`;
-    ctx.fillText(`Interval: ${intervalHeader}`, 32, 52);
+    ctx.fillText(`${t('revamp.intervalLabel')} ${intervalHeader}`, 32, 52);
 
     // Top-right current replay date & visible counter
     ctx.textAlign = 'right';
     ctx.fillStyle = '#a9e5df';
     ctx.font = '700 13px "DM Sans", system-ui, sans-serif';
-    ctx.fillText(allMode ? 'ALL INTERVAL DATES' : longDate(activeDate).toUpperCase(), W - 32, 27);
+    ctx.fillText((allMode ? t('timeline.allDates') : longDate(activeDate)).toLocaleUpperCase(locale), W - 32, 27);
     ctx.fillStyle = '#ffffff';
     ctx.font = '800 22px Manrope, system-ui, sans-serif';
     ctx.fillText(t('revamp.recordsInInterval', {n: visibleEvents.length}), W - 32, 53);
@@ -1645,11 +1647,14 @@
       ctx.textAlign = 'left';
       ctx.fillStyle = colors[latestEv.category] || '#258d86';
       ctx.font = '700 12px "DM Sans", system-ui, sans-serif';
-      ctx.fillText(`LATEST (${shortDate(latestEv.startDate)} · ${primaryCountry(latestEv).toUpperCase()} · ${latestEv.id}):`, 32, H - 84);
+      const latestLabel = `${t('revamp.tabIncidents')} (${shortDate(latestEv.startDate)} · ${countryName(primaryCountry(latestEv))} · ${latestEv.id}):`.toLocaleUpperCase(locale);
+      ctx.fillText(latestLabel, 32, H - 84);
+      const headlineX = 32 + ctx.measureText(latestLabel).width + 10;
       ctx.fillStyle = '#ffffff';
       ctx.font = '600 15px Manrope, system-ui, sans-serif';
-      const maxHeadline = latestCopy.headline.length > 98 ? latestCopy.headline.slice(0, 95) + '…' : latestCopy.headline;
-      ctx.fillText(maxHeadline, 265, H - 84);
+      let maxHeadline = latestCopy.headline;
+      while (maxHeadline.length > 10 && ctx.measureText(maxHeadline).width > W - 32 - headlineX) maxHeadline = maxHeadline.slice(0, -2).trimEnd() + '…';
+      ctx.fillText(maxHeadline, headlineX, H - 84);
     }
 
     // Timeline Progress Track on Canvas
@@ -1690,7 +1695,14 @@
     ctx.textAlign = 'right';
     ctx.fillStyle = '#89a3aa';
     ctx.font = '500 11px "DM Sans", system-ui, sans-serif';
-    ctx.fillText('droneincidents.eu · Approximate positions · Record counts ≠ confirmed attacks', W - 32, ly);
+    // The honesty line shrinks rather than run into the legend in longer languages.
+    const honesty = `droneincidents.eu · ${t('sidebar.foot')}`;
+    let honestySize = 11;
+    while (honestySize > 8 && ctx.measureText(honesty).width > W - 32 - lx - 16) {
+      honestySize -= 0.5;
+      ctx.font = `500 ${honestySize}px "DM Sans", system-ui, sans-serif`;
+    }
+    ctx.fillText(honesty, W - 32, ly);
   }
 
   function pickSupportedMimeType() {

@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 zapisov zajema 9 trgovskih plovil, zadetih ali ciljanih v 19 dneh v zahodnem Črnem morju, vključno z incidenti v romunskih teritorialnih vodah ob kraju Sulina, s potrjenimi smrtnimi žrtvami (Royad Mammadov, KHORYV), člani posadke, hospitaliziranimi z opeklinami, in več kot 30 mornarji, ki naj bi bili pogrešani.",
   "revamp.darkTurnCountingNote": "Opomba o štetju: številke o žrtvah izhajajo iz uradnih izjav mornarice, ministrstev in diplomatskih predstavništev, navedenih v posameznem zapisu. Nasprotujoča si poročila se nikoli ne seštevajo, pogrešani mornarji pa se ne beležijo kot potrjeno mrtvi.",
   "revamp.territorialWaters": "teritorialne vode ({country})",
-  "revamp.trendDialogTitle": "Mesečna porazdelitev in primerjava 90 dni"
+  "revamp.trendDialogTitle": "Mesečna porazdelitev in primerjava 90 dni",
+  "revamp.blackSea": "Črno morje",
+  "revamp.balticSea": "Baltsko morje"
 };

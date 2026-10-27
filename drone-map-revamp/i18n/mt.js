@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 rekords jkopru 9 vapuri merkantili milqutin jew immirati f’19-il jum madwar il-punent tal-Baħar l-Iswed, fosthom inċidenti fl-ilmijiet territorjali Rumeni quddiem Sulina, b’mwiet ikkonfermati (Royad Mammadov, KHORYV), ekwipaġġ fl-isptar bil-ħruq, u aktar minn 30 baħri rrappurtati nieqsin.",
   "revamp.darkTurnCountingNote": "Nota dwar l-għadd: iċ-ċifri tal-vittmi ġejjin minn stqarrijiet navali, ministerjali u diplomatiċi uffiċjali kkwotati f’kull rekord. Rapporti kontradittorji qatt ma jingħaddu flimkien, u l-baħrin nieqsin ma jiġux irreġistrati bħala mejtin ikkonfermati.",
   "revamp.territorialWaters": "Ilmijiet territorjali: {country}",
-  "revamp.trendDialogTitle": "Distribuzzjoni kull xahar u paragun ta’ 90 jum"
+  "revamp.trendDialogTitle": "Distribuzzjoni kull xahar u paragun ta’ 90 jum",
+  "revamp.blackSea": "Il-Baħar l-Iswed",
+  "revamp.balticSea": "Il-Baħar Baltiku"
 };

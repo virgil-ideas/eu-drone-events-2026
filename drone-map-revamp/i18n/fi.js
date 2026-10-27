@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 merkintää koskee 9:ää kauppa-alusta, joihin on iskettu tai joita vastaan on hyökätty 19 päivän aikana läntisellä Mustallamerellä, mukaan lukien tapaukset Romanian aluevesillä Sulinan edustalla. Kuolemantapauksia on vahvistettu (Royad Mammadov, KHORYV), palovammoja saanut miehistö on viety sairaalaan ja yli 30 merimiehen on ilmoitettu olevan kateissa.",
   "revamp.darkTurnCountingNote": "Laskentahuomautus: uhriluvut perustuvat kussakin merkinnässä mainittuihin virallisiin merivoimien, ministeriöiden ja diplomaattisiin lausuntoihin. Ristiriitaisia ilmoituksia ei koskaan lasketa yhteen, eikä kateissa olevia merimiehiä merkitä vahvistetusti kuolleiksi.",
   "revamp.territorialWaters": "{country}: aluevedet",
-  "revamp.trendDialogTitle": "Kuukausijakauma ja 90 päivän vertailu"
+  "revamp.trendDialogTitle": "Kuukausijakauma ja 90 päivän vertailu",
+  "revamp.blackSea": "Mustameri",
+  "revamp.balticSea": "Itämeri"
 };

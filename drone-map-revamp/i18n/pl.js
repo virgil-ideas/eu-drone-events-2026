@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 wpisów obejmuje 9 statków handlowych uderzonych lub obranych za cel w ciągu 19 dni na zachodnim Morzu Czarnym, w tym incydenty w rumuńskich wodach terytorialnych koło Sulina, z potwierdzonymi zgonami (Royad Mammadov, KHORYV), członkami załóg hospitalizowanymi z oparzeniami i ponad 30 zaginionymi marynarzami.",
   "revamp.darkTurnCountingNote": "Uwaga o liczeniu: dane o ofiarach pochodzą z oficjalnych oświadczeń marynarki wojennej, ministerstw i placówek dyplomatycznych, cytowanych w każdym wpisie. Sprzecznych doniesień nigdy się nie sumuje, a zaginieni marynarze nie są zapisywani jako potwierdzeni zabici.",
   "revamp.territorialWaters": "Wody terytorialne: {country}",
-  "revamp.trendDialogTitle": "Rozkład miesięczny i porównanie 90 dni"
+  "revamp.trendDialogTitle": "Rozkład miesięczny i porównanie 90 dni",
+  "revamp.blackSea": "Morze Czarne",
+  "revamp.balticSea": "Morze Bałtyckie"
 };

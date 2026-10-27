@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 registreringer omfatter 9 handelsskibe, der blev ramt eller var mål for angreb i løbet af 19 dage i det vestlige Sortehav, herunder hændelser i rumænsk territorialfarvand ud for Sulina, med bekræftede dødsfald (Royad Mammadov, KHORYV), besætningsmedlemmer indlagt med forbrændinger og over 30 søfolk meldt savnet.",
   "revamp.darkTurnCountingNote": "Bemærkning om optælling: Tallene for ofre stammer fra officielle udtalelser fra flåden, ministerier og diplomatiet, som er citeret i de enkelte registreringer. Modstridende oplysninger lægges aldrig sammen, og savnede søfolk registreres ikke som bekræftet dræbte.",
   "revamp.territorialWaters": "{country}s territorialfarvand",
-  "revamp.trendDialogTitle": "Månedlig fordeling og sammenligning af 90 dage"
+  "revamp.trendDialogTitle": "Månedlig fordeling og sammenligning af 90 dage",
+  "revamp.blackSea": "Sortehavet",
+  "revamp.balticSea": "Østersøen"
 };

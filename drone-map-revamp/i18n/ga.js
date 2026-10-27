@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "Clúdaíonn 8 dtaifead 9 long cheannaíochta a ndearnadh ionsaí orthu nó a díríodh orthu i 19 lá in iarthar na Muirí Duibhe, lena n-áirítear teagmhais in uiscí críochacha na Rómáine amach ó Sulina, agus básanna deimhnithe (Royad Mammadov, KHORYV), criú san ospidéal le dónna, agus breis agus 30 mairnéalach tuairiscithe ar iarraidh.",
   "revamp.darkTurnCountingNote": "Nóta ar an gcomhaireamh: Is as ráitis oifigiúla chabhlaigh, aireachta agus taidhleoireachta a luaitear i ngach taifead a thagann figiúirí na dtaismeach. Ní chuirtear tuairiscí contrártha le chéile riamh, agus ní thaifeadtar mairnéalaigh atá ar iarraidh mar dhaoine a bhfuil a mbás deimhnithe.",
   "revamp.territorialWaters": "Uiscí críochacha: {country}",
-  "revamp.trendDialogTitle": "Dáileadh míosúil agus comparáid 90 lá"
+  "revamp.trendDialogTitle": "Dáileadh míosúil agus comparáid 90 lá",
+  "revamp.blackSea": "An Mhuir Dhubh",
+  "revamp.balticSea": "Muir Bhailt"
 };

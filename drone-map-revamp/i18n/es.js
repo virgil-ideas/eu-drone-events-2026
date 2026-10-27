@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 registros abarcan 9 buques mercantes alcanzados o atacados en 19 días en el oeste del mar Negro, incluidos incidentes en aguas territoriales rumanas frente a Sulina, con muertes confirmadas (Royad Mammadov, KHORYV), tripulantes hospitalizados con quemaduras y más de 30 marineros notificados como desaparecidos.",
   "revamp.darkTurnCountingNote": "Nota sobre el recuento: las cifras de víctimas proceden de declaraciones oficiales navales, ministeriales y diplomáticas citadas en cada registro. Los informes contradictorios nunca se suman, y los marineros desaparecidos no se registran como muertos confirmados.",
   "revamp.territorialWaters": "Aguas territoriales de {country}",
-  "revamp.trendDialogTitle": "Distribución mensual y comparación de 90 días"
+  "revamp.trendDialogTitle": "Distribución mensual y comparación de 90 días",
+  "revamp.blackSea": "Mar Negro",
+  "revamp.balticSea": "Mar Báltico"
 };

@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 įrašai apima 9 prekybinius laivus, kuriems per 19 dienų vakarinėje Juodosios jūros dalyje buvo smogta arba kurie buvo taikinys, įskaitant incidentus Rumunijos teritoriniuose vandenyse ties Sulina; patvirtintos mirtys (Royad Mammadov, KHORYV), įgulos nariai paguldyti į ligoninę su nudegimais, o daugiau kaip 30 jūreivių, kaip pranešta, dingo.",
   "revamp.darkTurnCountingNote": "Skaičiavimo pastaba: nukentėjusiųjų skaičiai paimti iš oficialių karinio jūrų laivyno, ministerijų ir diplomatinių pareiškimų, cituojamų kiekviename įraše. Prieštaringi pranešimai niekada nesumuojami, o dingę jūreiviai nelaikomi patvirtintais žuvusiaisiais.",
   "revamp.territorialWaters": "{country}: teritoriniai vandenys",
-  "revamp.trendDialogTitle": "Mėnesinis pasiskirstymas ir 90 dienų palyginimas"
+  "revamp.trendDialogTitle": "Mėnesinis pasiskirstymas ir 90 dienų palyginimas",
+  "revamp.blackSea": "Juodoji jūra",
+  "revamp.balticSea": "Baltijos jūra"
 };

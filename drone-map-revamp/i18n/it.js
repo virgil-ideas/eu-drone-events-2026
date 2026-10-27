@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 schede riguardano 9 navi mercantili colpite o prese di mira in 19 giorni nel Mar Nero occidentale, compresi incidenti nelle acque territoriali rumene al largo di Sulina, con decessi confermati (Royad Mammadov, KHORYV), membri dell’equipaggio ricoverati per ustioni e oltre 30 marinai segnalati come dispersi.",
   "revamp.darkTurnCountingNote": "Nota sul conteggio: le cifre sulle vittime provengono da dichiarazioni ufficiali navali, ministeriali e diplomatiche citate in ciascuna scheda. I resoconti contrastanti non vengono mai sommati e i marinai dispersi non sono registrati come morti confermati.",
   "revamp.territorialWaters": "Acque territoriali: {country}",
-  "revamp.trendDialogTitle": "Distribuzione mensile e confronto a 90 giorni"
+  "revamp.trendDialogTitle": "Distribuzione mensile e confronto a 90 giorni",
+  "revamp.blackSea": "Mar Nero",
+  "revamp.balticSea": "Mar Baltico"
 };

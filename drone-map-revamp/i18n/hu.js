@@ -262,5 +262,7 @@
   "revamp.darkTurnPhase2Body": "8 bejegyzés 9 olyan kereskedelmi hajót érint, amelyet 19 nap alatt eltaláltak vagy megcéloztak a Fekete-tenger nyugati részén, köztük a Sulina előtti román felségvizeken történt incidenseket, megerősített halálesetekkel (Royad Mammadov, KHORYV), égési sérülésekkel kórházba került legénységgel és több mint 30 eltűntként jelentett tengerésszel.",
   "revamp.darkTurnCountingNote": "Számlálási megjegyzés: Az áldozati adatok az egyes bejegyzésekben hivatkozott hivatalos haditengerészeti, minisztériumi és diplomáciai nyilatkozatokból származnak. Az egymásnak ellentmondó jelentéseket soha nem adjuk össze, az eltűnt tengerészeket pedig nem rögzítjük megerősítetten halottként.",
   "revamp.territorialWaters": "{country} felségvizei",
-  "revamp.trendDialogTitle": "Havi bontás és 90 napos összehasonlítás"
+  "revamp.trendDialogTitle": "Havi bontás és 90 napos összehasonlítás",
+  "revamp.blackSea": "Fekete-tenger",
+  "revamp.balticSea": "Balti-tenger"
 };

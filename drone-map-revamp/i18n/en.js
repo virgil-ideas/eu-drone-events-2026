@@ -264,5 +264,7 @@
   "revamp.darkTurnPhase2Body": "8 records cover 9 merchant vessels struck or targeted in 19 days across the western Black Sea, including incidents in Romanian territorial waters off Sulina, with confirmed deaths (Royad Mammadov, KHORYV), crew hospitalized with burns, and over 30 sailors reported missing.",
   "revamp.darkTurnCountingNote": "Counting note: Casualty figures come from official naval, ministerial and diplomatic statements cited in each record. Conflicting reports are never added together, and missing sailors are not recorded as confirmed dead.",
   "revamp.territorialWaters": "{country} territorial waters",
-  "revamp.trendDialogTitle": "Monthly distribution & 90-day comparison"
+  "revamp.trendDialogTitle": "Monthly distribution & 90-day comparison",
+  "revamp.blackSea": "Black Sea",
+  "revamp.balticSea": "Baltic Sea"
 };
