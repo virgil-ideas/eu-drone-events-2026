@@ -1,6 +1,8 @@
 """Validate the canonical JSON database and build (or check) static map data and pages."""
 import argparse
 import json
+import subprocess
+import sys
 from pathlib import Path
 
 from database import DataError, load_database, mapped_events, render_events
@@ -67,7 +69,13 @@ def main():
     args = parser.parse_args()
     try:
         database, automatic = build(check=args.check)
-    except (DataError, OSError) as error:
+        # The proposed interface consumes the same research exports. Keep its
+        # copies current when the usual research-update command is run.
+        revamp_builder = ROOT.parent / 'drone-map-revamp' / 'build-pages-data.py'
+        if revamp_builder.is_file():
+            subprocess.run([sys.executable, str(revamp_builder)]
+                           + (['--check'] if args.check else []), check=True)
+    except (DataError, OSError, subprocess.CalledProcessError) as error:
         parser.exit(1, f'Data error: {error}\n')
     print(f"{'Checked' if args.check else 'Built'} {len(mapped_events(database))} mapped records, "
           f"{len(database['contexts'])} context records, {len(database['sources'])} sources "
