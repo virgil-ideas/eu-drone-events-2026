@@ -23,6 +23,10 @@ verifies summaries, copied event data, media, and
 every static event page. CI validates both interfaces; deployment continues to
 publish `drone-map/dist/` until the redesign is explicitly adopted.
 
+Recording pauses automatically when its tab is hidden, including unfinished audio tails,
+and resumes from the same date when the tab becomes visible again. Map framing accounts
+for the open studio; event stepping follows the selected country, outcome and date filters.
+
 Regression checks:
 
 ```sh

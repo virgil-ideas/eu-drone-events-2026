@@ -90,17 +90,38 @@ test('red and purple bells retain the exact approved waveform and duration', () 
   }
 });
 
-test('natural recording completion holds the last frame; manual stop cancels the hold', () => {
-  const trace=[], timers=new Map();let nextTimer=1;
-  const context={trace,requestAnimationFrame:()=>1,cancelAnimationFrame(){},
-    setTimeout(fn,ms){const id=nextTimer++;timers.set(id,{fn,ms});return id;},clearTimeout(id){timers.delete(id);},
-    drawRecordingFrame(){trace.push('frame');},setIntervalControlsDisabled(){},t:()=>'',
-    $:()=>({classList:{remove(){}},textContent:''})};
+function recordingHarness(withAudio = true) {
+  const trace = [], timers = new Map(), frames = new Map();
+  let nextId = 1, now = 0;
+  const recorder = {state:'recording', pause(){this.state='paused';trace.push('recorder.pause');},
+    resume(){this.state='recording';trace.push('recorder.resume');}, stop(){this.state='inactive';trace.push('stop');}};
+  const context = {trace, mediaRecorder:recorder,
+    performance:{now:()=>now}, document:{hidden:false,addEventListener(name,fn){this[name]=fn;}},
+    requestAnimationFrame(fn){const id=nextId++;frames.set(id,fn);return id;},cancelAnimationFrame(id){frames.delete(id);},
+    setTimeout(fn,ms){const id=nextId++;timers.set(id,{fn,ms});return id;},clearTimeout(id){timers.delete(id);},
+    drawRecordingFrame(){trace.push('frame');}, render(){trace.push('render');}, renderPlayhead(){},
+    setIntervalControlsDisabled(){},stopVoices(){trace.push('stopVoices');},updatePlayButton(){},
+    audioContext:withAudio ? {suspend(){trace.push('audio.suspend');return Promise.resolve();},resume(){trace.push('audio.resume');return Promise.resolve();}} : null,
+    t:()=>'', $:()=>({value:'1',classList:{remove(){}},textContent:''})};
   vm.createContext(context);
-  const finish=app.slice(app.indexOf('  function finishVideoRecording'),app.indexOf('  function downloadSnapshotPNG'));
-  vm.runInContext(`let isRecordingVideo=true,recordingFinishing=false,recordingEndTimer=null,recordingHoldFrame=null;
-    const mediaRecorder={state:'recording',stop(){trace.push('stop');}};${finish}
-    this.finish=finishVideoRecording;`,context);
+  const playback = app.slice(app.indexOf('  function pause('),app.indexOf('  function play()'));
+  const recording = app.slice(app.indexOf('  function scheduleRecordingTail'),app.indexOf('  function downloadSnapshotPNG'));
+  const visibility = app.slice(app.indexOf("  document.addEventListener('visibilitychange'"),app.indexOf('  // Let translated/wrapped headers'));
+  vm.runInContext(`let isRecordingVideo=true,recordingFinishing=false,recordingEndTimer=null,recordingHoldFrame=null,
+    recordingPausedForVisibility=false,recordingResumeToken=0,recordingTailRemaining=0,recordingTailDeadline=0,
+    playing=true,animationFrame=null,lastFrameTime=null,playbackDay=0,currentDay=0,intervalEndDay=295,visibleEvents=[];
+    const REPLAY_DAYS_PER_SECOND=8;
+    ${playback}${recording}${visibility}
+    this.finish=finishVideoRecording;this.resume=resumeVideoRecording;this.tick=tick;
+    this.snapshot=()=>({playing,currentDay,recordingPausedForVisibility,recordingFinishing,isRecordingVideo});`,context);
+  return {context,trace,timers,frames,recorder,
+    frame(timestamp){frames.clear();context.tick(timestamp);},
+    setTime(value){now=value;}, hide(){context.document.hidden=true;context.document.visibilitychange();},
+    async show(){context.document.hidden=false;await context.resume();}};
+}
+
+test('natural recording completion holds the last frame; manual stop cancels the hold', () => {
+  const {context,trace,timers}=recordingHarness();
   context.finish({drain:true});
   assert.deepEqual(trace,[]);
   assert.equal(timers.size,1);
@@ -110,13 +131,132 @@ test('natural recording completion holds the last frame; manual stop cancels the
   context.finish();
   assert.equal(timers.size,0);
   assert.deepEqual(trace,['frame','stop']);
-  // A later one-day recording must also save automatically, with no user stop.
   trace.length=0;
   vm.runInContext('isRecordingVideo=true;',context);
+  context.mediaRecorder.state='recording';
   context.finish({drain:true});
   [...timers.values()][0].fn();
   assert.deepEqual(trace,['frame','stop']);
   assert.equal(timers.size,0);
+});
+
+test('hidden recordings pause video and audio without skipping dates on return', async () => {
+  for (const withAudio of [true,false]) {
+    const h=recordingHarness(withAudio);
+    h.frame(0); h.frame(1000);
+    assert.equal(h.context.snapshot().currentDay,8);
+    h.hide();
+    assert.equal(h.recorder.state,'paused');
+    assert.equal(h.frames.size,0);
+    h.frame(21000); // Even an already queued frame must not advance while hidden.
+    assert.equal(h.context.snapshot().currentDay,8);
+    await h.show();
+    assert.equal(h.recorder.state,'recording');
+    assert.equal(h.frames.size,1);
+    h.frame(21000);
+    assert.equal(h.context.snapshot().currentDay,8);
+    h.frame(22000);
+    assert.equal(h.context.snapshot().currentDay,16);
+    assert(!h.trace.includes('stopVoices'));
+    if(withAudio) assert(h.trace.includes('audio.suspend') && h.trace.includes('audio.resume'));
+  }
+});
+
+test('the final bell tail excludes hidden time and resumes before saving', async () => {
+  const h=recordingHarness();
+  h.context.finish({drain:true});
+  h.setTime(300); h.hide();
+  assert.equal(h.timers.size,0);
+  h.setTime(20300); await h.show();
+  assert.equal(h.timers.size,1);
+  assert.equal([...h.timers.values()][0].ms,800);
+  assert(!h.trace.includes('stop'));
+  [...h.timers.values()][0].fn();
+  assert.equal(h.trace.at(-1),'stop');
+  assert.equal(h.context.snapshot().isRecordingVideo,false);
+});
+
+test('a stale audio resume cannot restart a recording after another hide or stop', async () => {
+  const h=recordingHarness();
+  h.hide();
+  let resolve;
+  h.context.audioContext.resume=()=>new Promise(r=>{resolve=r;});
+  h.context.document.hidden=false;
+  const pending=h.context.resume();
+  h.hide(); resolve(); await pending;
+  assert.equal(h.recorder.state,'paused');
+  assert.equal(h.frames.size,0);
+  h.context.audioContext.resume=()=>Promise.resolve();
+  h.context.finish();
+  await h.show();
+  assert.equal(h.recorder.state,'inactive');
+  assert.equal(h.frames.size,0);
+});
+
+test('map padding reserves the measured panel height on phones and desktops', () => {
+  const context={innerWidth:390,studioOpen:true,$:id=>({getBoundingClientRect:()=>id==='map'
+    ? {height:759,bottom:844} : {height:368,top:468}})};
+  vm.createContext(context);
+  vm.runInContext(app.slice(app.indexOf('  function mapPadding'),app.indexOf('  function fitEvents'))+'this.padding=mapPadding;',context);
+  assert.equal(context.padding().paddingBottomRight[1],392);
+  context.innerWidth=1280;
+  assert.equal(context.padding().paddingBottomRight[1],392);
+  context.studioOpen=false;
+  assert.equal(context.padding().paddingBottomRight[1],100);
+});
+
+test('event stepping follows only the filtered interval, including empty results', () => {
+  const greek=active.filter(e=>e.countries==='Greece'&&e.startDate>='2026-10-01'&&e.startDate<='2026-10-04');
+  const selected=[];
+  const context={currentDay:276,intervalEvents:()=>greek,
+    dayOf:date=>Math.round((Date.parse(date)-Date.parse('2026-01-01'))/86400000),
+    setDay(day){selected.push(day);context.currentDay=day;}};
+  vm.createContext(context);
+  vm.runInContext(app.slice(app.indexOf('  function filteredEventDays'),app.indexOf('  function setDay'))+'this.step=stepEvent;',context);
+  context.step(-1);assert.deepEqual(selected,[273]);
+  context.step(1);assert.deepEqual(selected,[273,276]);
+  context.step(1);assert.equal(selected.length,2);
+  context.intervalEvents=()=>[];
+  context.step(-1);assert.equal(selected.length,2);
+});
+
+test('mobile tabs, feed tabs and interval presets expose their actual pressed state', () => {
+  const elements=new Map();
+  const element=id=>{if(!elements.has(id))elements.set(id,{classList:{toggle(){}},attributes:{},setAttribute(k,v){this.attributes[k]=v;}});return elements.get(id);};
+  const workspace={dataset:{mobileView:'map'}};
+  const chips=['all','oct'].map(preset=>Object.assign(element(preset),{dataset:{preset}}));
+  const context={feedMode:'incidents',$:element,t:x=>x,renderNewsList(){},
+    document:{querySelector:()=>workspace,querySelectorAll:()=>chips}};
+  vm.createContext(context);
+  const mobile=app.slice(app.indexOf('  function syncMobileTabs'),app.indexOf('  let mobileMapFitted'));
+  const feed=app.slice(app.indexOf('  function setFeedMode'),app.indexOf("  $('tab-incidents').addEventListener"));
+  const presets=app.slice(app.indexOf('  function updatePresetChips'),app.indexOf('  function applyInterval'));
+  vm.runInContext(mobile+feed+presets+'syncMobileTabs();updatePresetChips("oct");',context);
+  assert.equal(element('mob-tab-feed').attributes['aria-pressed'],'false');
+  assert.equal(element('mob-tab-map').attributes['aria-pressed'],'true');
+  assert.equal(element('all').attributes['aria-pressed'],'false');
+  assert.equal(element('oct').attributes['aria-pressed'],'true');
+  workspace.dataset.mobileView='feed';
+  vm.runInContext('setFeedMode("news");',context);
+  assert.equal(element('tab-incidents').attributes['aria-pressed'],'false');
+  assert.equal(element('tab-news').attributes['aria-pressed'],'true');
+  assert.equal(element('mob-tab-news').attributes['aria-pressed'],'true');
+});
+
+test('the cumulative chart describes the filtered totals and refreshes on empty results', () => {
+  const attrs={},chart={setAttribute(k,v){attrs[k]=v;}};
+  const context={lang:'en',totalDays:295,intervalStartDay:273,intervalEndDay:276,playbackDay:276,
+    firstDateStr:'2026-01-01',cutoff:'2026-10-23',DARK_TURN_DATE:'2026-10-05',window:{DRONE_REPLAY:{cumulative}},
+    intervalEvents:()=>active.filter(e=>e.countries==='Greece'&&e.startDate>='2026-10-01'&&e.startDate<='2026-10-04'),
+    dayOf:date=>Math.round((Date.parse(date)-Date.parse('2026-01-01'))/86400000),
+    dayToDate:day=>new Date(Date.parse('2026-01-01')+day*86400000).toISOString().slice(0,10),
+    $:()=>chart,t:(key,values)=>values?JSON.stringify(values):key,shortDate:x=>x,escape:x=>x,format:{number:{format:String}}};
+  vm.createContext(context);
+  vm.runInContext(app.slice(app.indexOf("  let cumulativeKey = ''"),app.indexOf('  // Render the Black Sea Maritime Escalation'))+'renderCumulative();',context);
+  assert.deepEqual(JSON.parse(attrs['aria-label']),{first:0,firstDate:'2026-09-30',last:2,lastDate:'2026-10-04'});
+  context.intervalEvents=()=>[];
+  vm.runInContext('renderCumulative();',context);
+  assert.equal(JSON.parse(attrs['aria-label']).last,0);
 });
 
 test('new interface labels exist and are not an English fallback block', () => {

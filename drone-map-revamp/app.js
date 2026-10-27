@@ -102,7 +102,6 @@
   const dayToDate = day => new Date(firstTime + Math.max(0, Math.min(totalDays, Math.round(day))) * DAY).toISOString().slice(0, 10);
   const dayOf = date => Math.max(0, Math.min(totalDays, Math.round((dateValue(date) - firstTime) / DAY)));
 
-  const eventDays = [...new Set(events.map(e => dayOf(e.startDate)))].sort((a, b) => a - b);
 
   // State: Time Interval [intervalStartDay, intervalEndDay], Playhead, Filters, Feed Mode
   let intervalStartDay = 0;
@@ -277,7 +276,8 @@
   configureLanguage(startLanguage);
 
   // Initialize Leaflet Map
-  const map = L.map('map', {zoomControl:false, minZoom:3, maxZoom:16, scrollWheelZoom:true, zoomSnap:0.25, worldCopyJump:true});
+  // Short mobile viewports need a wider overview when the studio is open.
+  const map = L.map('map', {zoomControl:false, minZoom:1, maxZoom:16, scrollWheelZoom:true, zoomSnap:0.25, worldCopyJump:true});
   const zoomControl = L.control.zoom({position:'topright'}).addTo(map);
   L.control.scale({position:'bottomright', imperial:false}).addTo(map);
   let tileFailures = 0;
@@ -379,14 +379,21 @@
   }
 
   function mapPadding() {
-    return innerWidth <= 860
-      ? {paddingTopLeft:[24, 50], paddingBottomRight:[24, 90]}
-      : {paddingTopLeft:[50, 65], paddingBottomRight:[50, studioOpen ? 230 : 100]};
+    const mobile = innerWidth <= 860;
+    const padding = {paddingTopLeft: mobile ? [24, 50] : [50, 65], paddingBottomRight: mobile ? [24, 90] : [50, 100]};
+    if (studioOpen) {
+      const mapRect = $('map').getBoundingClientRect();
+      const panelRect = $('timeline-drawer').getBoundingClientRect();
+      if (panelRect.height && mapRect.height) {
+        padding.paddingBottomRight[1] = Math.max(padding.paddingBottomRight[1], mapRect.bottom - panelRect.top + 16);
+      }
+    }
+    return padding;
   }
 
-  function fitEvents(pool = intervalEvents()) {
+  function fitEvents(pool = intervalEvents(), animate = !reducedMotion) {
     const points = pool.flatMap(e => e.positions.map(p => [p.lat, p.lng]));
-    if (points.length) map.fitBounds(points, {...mapPadding(), maxZoom: 8, animate: !reducedMotion});
+    if (points.length) map.fitBounds(points, {...mapPadding(), maxZoom: 8, animate});
   }
 
   // Media helpers
@@ -871,11 +878,11 @@
     const isNews = view === 'feed' && feedMode === 'news';
     const isMap = view === 'map';
     $('mob-tab-feed').classList.toggle('active', isIncidents);
-    $('mob-tab-feed').setAttribute('aria-selected', String(isIncidents));
+    $('mob-tab-feed').setAttribute('aria-pressed', String(isIncidents));
     $('mob-tab-news').classList.toggle('active', isNews);
-    $('mob-tab-news').setAttribute('aria-selected', String(isNews));
+    $('mob-tab-news').setAttribute('aria-pressed', String(isNews));
     $('mob-tab-map').classList.toggle('active', isMap);
-    $('mob-tab-map').setAttribute('aria-selected', String(isMap));
+    $('mob-tab-map').setAttribute('aria-pressed', String(isMap));
   }
 
   let mobileMapFitted = window.innerWidth > 860;
@@ -1080,6 +1087,12 @@
     const turnPct = (turnX / CHART_WIDTH) * 100;
     const winStartPct = chartX(winStart) / CHART_WIDTH * 100;
     const showWinLabel = !(winStart === 0 && winEnd === totalDays) && winStartPct >= 14 && winStartPct <= 78;
+    $('cumulative').setAttribute('aria-label', t('cumulative.aria', {
+      first: winStart > 0 ? before : runningTotals[0],
+      firstDate: shortDate(dayToDate(Math.max(0, winStart - 1))),
+      last: atEnd,
+      lastDate: shortDate(dayToDate(winEnd))
+    }));
 
     $('cumulative').innerHTML = `<svg viewBox="0 0 ${CHART_WIDTH} ${CHART_HEIGHT}" preserveAspectRatio="none" aria-hidden="true"><defs><clipPath id="cumulative-progress"><rect id="cumulative-clip" x="${chartX(winStart)}" y="0" width="${Math.max(0, chartX(playbackDay) - chartX(winStart))}" height="${CHART_HEIGHT}"/></clipPath></defs><rect class="cumulative-window" x="${chartX(winStart)}" y="0" width="${Math.max(2, chartX(winEnd) - chartX(winStart))}" height="${CHART_HEIGHT}"/><path class="cumulative-area ghost" d="${area}"/><path class="cumulative-line ghost" d="${line}" vector-effect="non-scaling-stroke"/><g clip-path="url(#cumulative-progress)"><path class="cumulative-area" d="${area}"/><path class="cumulative-line" d="${line}" vector-effect="non-scaling-stroke"/></g><line class="cumulative-turn-line" x1="${turnX}" y1="0" x2="${turnX}" y2="${CHART_HEIGHT}" vector-effect="non-scaling-stroke"/></svg><span class="cumulative-title">${escape(t('cumulative.title'))}</span>${showWinLabel ? `<span class="cumulative-window-label" style="left:${winStartPct}%">${escape(intervalLabel)}</span>` : ''}<span class="cumulative-turn-label" style="left:${turnPct}%" title="${escape(t('revamp.turnMarker'))}">⚓ ${escape(shortDate(DARK_TURN_DATE))}</span><span class="cumulative-point" style="${point(winStart, before)}"><span>${format.number.format(before)}</span></span><span class="cumulative-point end" style="${point(winEnd, atEnd)}"><span>${format.number.format(atEnd)}</span></span>`;
   }
@@ -1192,8 +1205,9 @@
     $('header-interval-badge').textContent = isFullYear && allMode ? t('revamp.presetAll') : `${startStr} – ${shortDate(dayToDate(allMode ? intervalEndDay : currentDay))}`;
 
     $('show-all').setAttribute('aria-pressed', String(allMode && isFullYear));
-    $('previous').disabled = currentDay <= Math.max(intervalStartDay, eventDays[0] ?? 0);
-    $('next').disabled = currentDay >= intervalEndDay;
+    const stepDays = filteredEventDays();
+    $('previous').disabled = !stepDays.some(day => day < currentDay);
+    $('next').disabled = !stepDays.some(day => day > currentDay);
   }
 
   function renderPlayhead() {
@@ -1241,7 +1255,7 @@
   }
 
   function tick(timestamp) {
-    if (!playing) return;
+    if (!playing || recordingPausedForVisibility) return;
     const elapsed = lastFrameTime === null ? 0 : Math.max(0, (timestamp - lastFrameTime) / 1000);
     lastFrameTime = timestamp;
     playbackDay = Math.min(intervalEndDay, playbackDay + elapsed * REPLAY_DAYS_PER_SECOND * Number($('speed').value));
@@ -1264,6 +1278,7 @@
   }
 
   function play() {
+    if (recordingPausedForVisibility) return;
     if (recordingFinishing) finishVideoRecording();
     cancelAnimationFrame(animationFrame);
     animationFrame = null;
@@ -1284,6 +1299,18 @@
     updatePlayButton();
     lastFrameTime = null;
     animationFrame = requestAnimationFrame(tick);
+  }
+
+  function filteredEventDays() {
+    return [...new Set(intervalEvents().map(event => dayOf(event.startDate)))].sort((a, b) => a - b);
+  }
+
+  function stepEvent(direction) {
+    const days = filteredEventDays();
+    const next = direction < 0
+      ? days.reverse().find(day => day < currentDay)
+      : days.find(day => day > currentDay);
+    if (next !== undefined) setDay(next);
   }
 
   function setDay(day) {
@@ -1322,6 +1349,7 @@
     $('toggle-studio-btn').setAttribute('aria-expanded', String(open));
     $('open-studio-pill').setAttribute('aria-expanded', String(open));
     if (open) {
+      if ($('map').clientHeight && !selectedId && !openAreaId) fitEvents();
       $('play').focus({preventScroll: true});
     } else if (studioReturnFocus?.isConnected) {
       studioReturnFocus.focus({preventScroll: true});
@@ -1338,7 +1366,9 @@
 
   function updatePresetChips(activePreset) {
     document.querySelectorAll('.preset-chip').forEach(chip => {
-      chip.classList.toggle('active', chip.dataset.preset === activePreset);
+      const active = chip.dataset.preset === activePreset;
+      chip.classList.toggle('active', active);
+      chip.setAttribute('aria-pressed', String(active));
     });
   }
 
@@ -1364,6 +1394,10 @@
   let recordingFinishing = false;
   let recordingEndTimer = null;
   let recordingHoldFrame = null;
+  let recordingPausedForVisibility = false;
+  let recordingResumeToken = 0;
+  let recordingTailRemaining = 0;
+  let recordingTailDeadline = 0;
   let recCanvas = null;
   let recCtx = null;
 
@@ -1722,33 +1756,77 @@
     play();
   }
 
+  function scheduleRecordingTail(duration) {
+    recordingTailRemaining = duration;
+    recordingTailDeadline = performance.now() + duration;
+    const hold = () => {
+      if (!recordingFinishing || recordingPausedForVisibility) return;
+      drawRecordingFrame();
+      recordingHoldFrame = requestAnimationFrame(hold);
+    };
+    recordingHoldFrame = requestAnimationFrame(hold);
+    recordingEndTimer = setTimeout(() => finishVideoRecording(), duration);
+  }
+
+  function suspendVideoRecording() {
+    if (!isRecordingVideo) return;
+    recordingResumeToken++;
+    // A second hide can arrive while an asynchronous resume is still pending.
+    audioContext?.suspend().catch(() => {});
+    if (recordingPausedForVisibility) return;
+    recordingPausedForVisibility = true;
+    cancelAnimationFrame(animationFrame);
+    cancelAnimationFrame(recordingHoldFrame);
+    animationFrame = recordingHoldFrame = null;
+    lastFrameTime = null;
+    if (recordingFinishing) {
+      recordingTailRemaining = Math.max(0, recordingTailDeadline - performance.now());
+      clearTimeout(recordingEndTimer);
+      recordingEndTimer = null;
+    }
+    if (mediaRecorder?.state === 'recording') mediaRecorder.pause();
+    // Suspending the audio clock above preserves every unfinished bell tail.
+  }
+
+  async function resumeVideoRecording() {
+    if (!recordingPausedForVisibility) return;
+    const token = ++recordingResumeToken;
+    await audioContext?.resume().catch(() => {});
+    if (token !== recordingResumeToken || !isRecordingVideo || document.hidden) return;
+    if (mediaRecorder?.state === 'paused') mediaRecorder.resume();
+    recordingPausedForVisibility = false;
+    lastFrameTime = null;
+    if (recordingFinishing) scheduleRecordingTail(recordingTailRemaining);
+    else if (playing) animationFrame = requestAnimationFrame(tick);
+  }
+
   function finishVideoRecording({drain = false} = {}) {
     if (!isRecordingVideo) return;
     if (drain) {
       if (recordingFinishing) return;
       recordingFinishing = true;
-      // The final day's sound starts in the last replay tick. Keep capturing its
-      // full 900 ms tail, including for a one-day interval, before saving.
-      const hold = () => {
-        if (!recordingFinishing) return;
-        drawRecordingFrame();
-        recordingHoldFrame = requestAnimationFrame(hold);
-      };
-      recordingHoldFrame = requestAnimationFrame(hold);
-      recordingEndTimer = setTimeout(() => finishVideoRecording(), 1100);
+      // Capture the last day's entire 900 ms bell, excluding time spent hidden.
+      scheduleRecordingTail(1100);
       return;
     }
     clearTimeout(recordingEndTimer);
     cancelAnimationFrame(recordingHoldFrame);
     recordingEndTimer = recordingHoldFrame = null;
     recordingFinishing = false;
+    const wasSuspended = recordingPausedForVisibility;
+    recordingPausedForVisibility = false;
+    recordingResumeToken++;
     isRecordingVideo = false;
     setIntervalControlsDisabled(false);
     drawRecordingFrame();
     $('record-video-btn').classList.remove('recording');
     $('record-video-label').textContent = t('revamp.recordVideo');
-    if (mediaRecorder && mediaRecorder.state !== 'inactive') {
-      mediaRecorder.stop();
+    if (mediaRecorder && mediaRecorder.state !== 'inactive') mediaRecorder.stop();
+    if (wasSuspended) {
+      audioContext?.resume().catch(() => {});
+      lastFrameTime = null;
+      if (playing && !document.hidden) animationFrame = requestAnimationFrame(tick);
+      else if (playing) pause();
     }
   }
 
@@ -1913,9 +1991,9 @@
   function setFeedMode(mode) {
     feedMode = mode;
     $('tab-incidents').classList.toggle('active', mode === 'incidents');
-    $('tab-incidents').setAttribute('aria-selected', String(mode === 'incidents'));
+    $('tab-incidents').setAttribute('aria-pressed', String(mode === 'incidents'));
     $('tab-news').classList.toggle('active', mode === 'news');
-    $('tab-news').setAttribute('aria-selected', String(mode === 'news'));
+    $('tab-news').setAttribute('aria-pressed', String(mode === 'news'));
     $('event-list').hidden = mode !== 'incidents';
     $('news-list').hidden = mode !== 'news';
     $('list-title').textContent = mode === 'incidents'
@@ -2043,14 +2121,8 @@
     setDay(Math.max(intervalStartDay, Math.min(intervalEndDay, day)));
   });
 
-  $('previous').addEventListener('click', () => {
-    const prev = [...eventDays].reverse().find(day => day < currentDay && day >= intervalStartDay);
-    setDay(prev ?? intervalStartDay);
-  });
-  $('next').addEventListener('click', () => {
-    const nxt = eventDays.find(day => day > currentDay && day <= intervalEndDay);
-    setDay(nxt ?? intervalEndDay);
-  });
+  $('previous').addEventListener('click', () => stepEvent(-1));
+  $('next').addEventListener('click', () => stepEvent(1));
   $('show-all').addEventListener('click', showAll);
   $('fit-map').addEventListener('click', () => { closeDetail(); fitEvents(); });
 
@@ -2134,10 +2206,27 @@
     if (event.key === 'Escape' && !$('detail').hidden) closeDetail(true);
   });
   document.addEventListener('visibilitychange', () => {
-    if (document.hidden && !isRecordingVideo) pause();
+    if (isRecordingVideo) {
+      if (document.hidden) suspendVideoRecording();
+      else resumeVideoRecording();
+    } else if (document.hidden) pause();
   });
 
-  new ResizeObserver(() => map.invalidateSize()).observe($('map'));
+  // Let translated/wrapped headers and the studio determine the usable map area.
+  const header = document.querySelector('.topbar');
+  const mobileNav = document.querySelector('.mobile-view-switcher');
+  const headerObserver = new ResizeObserver(() => {
+    document.documentElement.style.setProperty('--header-height', `${header.getBoundingClientRect().height}px`);
+    document.documentElement.style.setProperty('--mobile-nav-height', `${mobileNav.getBoundingClientRect().height}px`);
+  });
+  headerObserver.observe(header);
+  headerObserver.observe(mobileNav);
+  const mapLayoutObserver = new ResizeObserver(() => {
+    map.invalidateSize({animate: false});
+    if (studioOpen && $('map').clientHeight && !selectedId && !openAreaId) fitEvents(intervalEvents(), false);
+  });
+  mapLayoutObserver.observe($('map'));
+  mapLayoutObserver.observe($('timeline-drawer'));
   new ResizeObserver(renderMonthLabels).observe(document.querySelector('.timeline-track'));
 
   localize();
