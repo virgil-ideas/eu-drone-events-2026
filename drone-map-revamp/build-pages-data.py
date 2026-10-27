@@ -3,9 +3,13 @@ from drone-map/data/pages.json + events.json into drone-map-revamp/pages-data.js
 generated static assets from drone-map/dist/ into drone-map-revamp/.
 """
 import argparse
+import hashlib
+import html
 import json
+import re
 import sys
 from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 REVAMP_DIR = Path(__file__).resolve().parent
 DRONE_MAP_DIR = REVAMP_DIR.parent / 'drone-map'
@@ -16,6 +20,50 @@ from pages import copy_for, load_pages  # noqa: E402
 import translations  # noqa: E402
 
 SHARED_ASSETS = ('events.js', 'sitemap.xml', 'robots.txt', 'page.css', 'media.js', 'trend-data.js', 'landmark.js')
+DATA_ASSETS = ('events.js', 'pages-data.js', 'media.js')
+ASSET_LINK = re.compile(r'\b(?:src|href)=(?P<quote>["\'])(?P<url>[^"\']+)(?P=quote)')
+
+
+def refresh_asset_versions(directory, check=False):
+    """Content versions for the page and lazily loaded data/languages, never dates."""
+    index = directory / 'index.html'
+    markup = index.read_text(encoding='utf-8')
+
+    def local_asset(value):
+        parsed = urlsplit(html.unescape(value))
+        if parsed.scheme or parsed.netloc or not parsed.path.endswith(('.js', '.css')):
+            return None
+        return parsed
+
+    names = set(DATA_ASSETS)
+    names.update(path.relative_to(directory).as_posix() for path in (directory / 'i18n').rglob('*.js'))
+    names.update(parsed.path for match in ASSET_LINK.finditer(markup)
+                 if (parsed := local_asset(match['url'])))
+    assets = {name: hashlib.sha256((directory / name).read_bytes()).hexdigest()[:16]
+              for name in sorted(names)}
+
+    def versioned(match):
+        parsed = local_asset(match['url'])
+        if not parsed:
+            return match[0]
+        query = [(key, value) for key, value in parse_qsl(parsed.query, keep_blank_values=True) if key != 'v']
+        query.append(('v', assets[parsed.path]))
+        target = html.escape(urlunsplit(parsed._replace(query=urlencode(query))), quote=True)
+        return match[0].replace(match['url'], target, 1)
+
+    outputs = {
+        'index.html': ASSET_LINK.sub(versioned, markup),
+        'asset-manifest.json': json.dumps({'schemaVersion': 1, 'assets': assets}, indent=2) + '\n',
+    }
+    stale = [name for name, text in outputs.items()
+             if not (directory / name).is_file() or (directory / name).read_text(encoding='utf-8') != text]
+    if check:
+        if stale:
+            raise DataError('Asset versions are stale: ' + ', '.join(stale)
+                            + '. Run python3 drone-map/scripts/build-data.py')
+        return
+    for name in stale:
+        (directory / name).write_text(outputs[name], encoding='utf-8')
 
 
 def sync_assets(source, destination, check=False, research_files=()):
@@ -73,6 +121,7 @@ def main():
         if stale:
             raise DataError('Translated record copy is stale: i18n/pages/' + ', '.join(stale) + '. Run python3 drone-map-revamp/build-pages-data.py')
         sync_assets(DRONE_MAP_DIR / 'dist', REVAMP_DIR, check=True, research_files=research_files)
+        refresh_asset_versions(REVAMP_DIR, check=True)
         print(f'Verified {count} editorial summaries and all copied data assets and event pages.')
         return
 
@@ -81,6 +130,7 @@ def main():
     for path, text in translated.items():
         path.write_text(text, encoding='utf-8')
     sync_assets(DRONE_MAP_DIR / 'dist', REVAMP_DIR, research_files=research_files)
+    refresh_asset_versions(REVAMP_DIR)
     print(f'Wrote {count} compact editorial summaries to {out_path} and synced dist assets.')
 
 

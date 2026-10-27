@@ -23,6 +23,14 @@ verifies summaries, copied event data, media, and
 every static event page. CI validates both interfaces and publishes
 `drone-map-revamp/` to GitHub Pages on validated pushes to `main`.
 
+The same build also generates `asset-manifest.json` and updates local script and
+stylesheet URLs in `index.html` using hashes of their contents. No manual date
+or cache-version changes are needed. Each page load checks a small uncached
+manifest, then loads the versioned records, news sources, summaries and media.
+Lazy language files use the same manifest, so a previously cached page can still
+load new daily data and discard outdated translations. `--check` rejects stale
+manifests or HTML asset URLs. Commit these generated changes with the data update.
+
 Recording pauses automatically when its tab is hidden, including unfinished audio tails,
 and resumes from the same date when the tab becomes visible again. Map framing accounts
 for the open studio; event stepping follows the selected country, outcome and date filters.

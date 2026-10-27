@@ -69,6 +69,10 @@ offshore incidents.
    `drone-map/dist/events/`, `sitemap.xml` and `robots.txt`. Also commit the refreshed
    summaries, copied assets and event pages in `drone-map-revamp/`, which is the
    production folder served by GitHub Pages. The same build command refreshes both.
+   It also refreshes `drone-map-revamp/asset-manifest.json` and the asset URLs in
+   `drone-map-revamp/index.html`; commit these tracked outputs too. Cache versions
+   are automatic, including translated summaries, so the daily updater needs no
+   additional command or manual version bump.
    For routine data and editorial updates, local browser preview is optional and is not a publication gate. All automated validation remains required; verify deployment for the exact commit and the live published pages after pushing. Pull requests run the checks;
    a validated push to `main` also publishes to GitHub Pages.
 
