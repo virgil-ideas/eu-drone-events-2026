@@ -26,15 +26,21 @@
   const isMaritimeVessel = event => MARITIME_SHIP_IDS.has(event.id);
   const hasCasualties = event => CASUALTY_IDS.has(event.id);
 
-  function loadLanguage(code) {
-    if (translations[code]) return Promise.resolve(true);
-    return new Promise(resolve => {
-      const script = document.createElement('script');
-      script.src = `i18n/${code}.js?v=20261027-review`;
-      script.onload = () => resolve(Boolean(translations[code]));
-      script.onerror = () => { script.remove(); resolve(false); };
-      document.head.append(script);
-    });
+  const loadScript = src => new Promise(resolve => {
+    const script = document.createElement('script');
+    script.src = src;
+    script.onload = () => resolve(true);
+    script.onerror = () => { script.remove(); resolve(false); };
+    document.head.append(script);
+  });
+
+  // Interface strings are required; translated record copy is optional and
+  // falls back to English record by record.
+  async function loadLanguage(code) {
+    const pages = code === 'en' || window.DRONE_PAGES_I18N?.[code] ? null : loadScript(`i18n/pages/${code}.js?v=20261027-pages`);
+    if (!translations[code]) await loadScript(`i18n/${code}.js?v=20261027-review`);
+    await pages;
+    return Boolean(translations[code]);
   }
 
   function configureLanguage(code) {
@@ -75,13 +81,17 @@
   const allCountriesOf = event => event.countries.split(';').map(c => c.replace(/ \(.+\)/,'').trim()).filter(Boolean);
 
   // Editorial headline, TL;DR description, and summary paragraphs for each event
+  // in the visitor's language when a current translation exists, otherwise English.
   function pageCopyFor(event) {
-    if (pagesData[event.id]) return pagesData[event.id];
+    const translated = lang !== 'en' && window.DRONE_PAGES_I18N?.[lang]?.[event.id];
+    if (translated) return {...translated, lang};
+    if (pagesData[event.id]) return {...pagesData[event.id], lang: 'en'};
     const place = allCountriesOf(event).join(', ');
     return {
       headline: `${event.title}, ${place}: ${event.status}`,
       description: `${event.circumstances} ${event.impact || ''}`.trim(),
-      summary: [event.circumstances, [event.status, event.attribution, event.uncertainty].filter(Boolean).join(' ')].filter(Boolean)
+      summary: [event.circumstances, [event.status, event.attribution, event.uncertainty].filter(Boolean).join(' ')].filter(Boolean),
+      lang: 'en'
     };
   }
 
@@ -376,9 +386,9 @@
       marker.options.title = title;
       marker.getElement()?.setAttribute('title', title);
       marker.setTooltipContent(
-        `<strong lang="en">${escape(copy.headline)}</strong>` +
+        `<strong lang="${copy.lang}">${escape(copy.headline)}</strong>` +
         `<small>${escape(event.id)} · ${escape(shortDateYear(event.startDate))} · ${escape(categoryLabel(event.category))}${escape(classNote)}</small>` +
-        `<small lang="en">${escape(event.status)}</small>` +
+        (copy.lang === 'en' ? `<small lang="en">${escape(event.status)}</small>` : '') +
         `<small>${escape(t(precision))}</small>`
       );
     }));
@@ -642,8 +652,8 @@
                 </div>
                 <span class="card-id-group">${badge}${escape(event.id)}</span>
               </div>
-              <h3 class="event-headline" lang="en">${escape(copy.headline)}</h3>
-              <p class="card-tldr" lang="en"><span class="card-tldr-label">${escape(t('revamp.tldrBadge'))}</span>${escape(copy.description)}</p>
+              <h3 class="event-headline" lang="${copy.lang}">${escape(copy.headline)}</h3>
+              <p class="card-tldr" lang="${copy.lang}"><span class="card-tldr-label">${escape(t('revamp.tldrBadge'))}</span>${escape(copy.description)}</p>
             </button>
             <div class="card-sources-row">
               <span class="card-sources-label">${escape(t('revamp.newsLabel', {n: event.sources.length}))}</span>
@@ -783,7 +793,7 @@
     const copy = pageCopyFor(event);
     const isRegional = event.positions.some(p => p.precision === 'region');
     const geoNote = [t(isRegional ? 'detail.geoRegion' : 'detail.geoLocal'), event.positions.length > 1 ? t('detail.geoTwoAnchors') : '', event.id === 'E058' ? t('detail.geoE058') : ''].filter(Boolean).join(' ');
-    const summaryParagraphs = copy.summary.map(p => `<p lang="en">${escape(p)}</p>`).join('');
+    const summaryParagraphs = copy.summary.map(p => `<p lang="${copy.lang}">${escape(p)}</p>`).join('');
     const candidateBadge = event.recordClass === 'candidate'
       ? `<span class="candidate-pill">${escape(recordClassLabel(event.recordClass))}</span>`
       : '';
@@ -802,15 +812,13 @@
           <span>${escape(event.id)} · ${escape(shortDateYear(event.startDate))} · <span lang="en">${escape(event.countries)}</span></span>
         </p>
         <button class="close-detail" type="button" aria-label="${escape(t('detail.close'))}">×</button>
-        <h2 lang="en">${escape(copy.headline)}</h2>
+        <h2 lang="${copy.lang}">${escape(copy.headline)}</h2>
         <div class="detail-head-actions">
           <div class="detail-status" lang="en">${escape(event.status)}</div>
           ${event.page ? `<a class="detail-page" href="${escape(event.page)}">${escape(t('detail.page'))} →</a>` : ''}
         </div>
       </div>
       <div class="detail-scroll">
-        ${lang !== 'en' ? `<p class="language-note">${escape(t('detail.originalLanguage'))}</p>` : ''}
-
         <!-- 1. Prominent Executive TL;DR Summary -->
         <section class="tldr-briefing-box" aria-label="${escape(t('revamp.detailTldrAria'))}">
           <div class="tldr-briefing-head">
@@ -819,6 +827,8 @@
           </div>
           <div class="tldr-paragraphs">${summaryParagraphs}</div>
         </section>
+
+        ${lang !== 'en' ? `<p class="language-note">${escape(t('detail.originalLanguage'))}</p>` : ''}
 
         <!-- 2. Structured 2x2 Key Facts At-A-Glance -->
         <section class="key-facts-grid" aria-label="${escape(t('detail.record'))}">
@@ -980,7 +990,7 @@
     openAreaId = area.id;
     const records = events.filter(event => area.match.test(event.location));
     const where = location => { const [first, ...rest] = location.split(';'); return `<strong>${escape(first)}</strong>${rest.length ? escape(';' + rest.join(';')) : ''}`; };
-    $('detail').innerHTML = `<div class="detail-head area-head"><p class="eyebrow">${escape(t('area.eyebrow'))}</p><button class="close-detail" type="button" aria-label="${escape(t('detail.close'))}">×</button><h2>${escape(area.name)}</h2><p class="area-intro" style="margin-top:6px">${escape(t(area.text))}</p></div><div class="detail-scroll"><h3 class="area-records-title">${escape(t('area.records',{n:records.length}))}</h3>${records.map(event => `<button class="area-record" type="button" data-id="${event.id}" style="--category:${colors[event.category]}"><div class="card-top-row"><span class="card-date-place">${escape(shortDateYear(event.startDate))} · ${escape(categoryLabel(event.category))}</span><span class="card-id-group">${event.id}</span></div><div class="event-headline" lang="en" style="margin:4px 0">${escape(pageCopyFor(event).headline)}</div><span class="area-where" lang="en">${where(event.location)}</span></button>`).join('')}<p class="position-note">${escape(t('area.note'))}</p></div>`;
+    $('detail').innerHTML = `<div class="detail-head area-head"><p class="eyebrow">${escape(t('area.eyebrow'))}</p><button class="close-detail" type="button" aria-label="${escape(t('detail.close'))}">×</button><h2>${escape(area.name)}</h2><p class="area-intro" style="margin-top:6px">${escape(t(area.text))}</p></div><div class="detail-scroll"><h3 class="area-records-title">${escape(t('area.records',{n:records.length}))}</h3>${records.map(event => `<button class="area-record" type="button" data-id="${event.id}" style="--category:${colors[event.category]}"><div class="card-top-row"><span class="card-date-place">${escape(shortDateYear(event.startDate))} · ${escape(categoryLabel(event.category))}</span><span class="card-id-group">${event.id}</span></div><div class="event-headline" lang="${pageCopyFor(event).lang}" style="margin:4px 0">${escape(pageCopyFor(event).headline)}</div><span class="area-where" lang="en">${where(event.location)}</span></button>`).join('')}<p class="position-note">${escape(t('area.note'))}</p></div>`;
     $('detail').querySelector('.close-detail').addEventListener('click', () => closeDetail(true));
     $('detail').querySelectorAll('.area-record').forEach(button => button.addEventListener('click', () => selectEvent(button.dataset.id)));
   }
@@ -1052,22 +1062,11 @@
       const partial = partialMonth && i === months.length - 1;
       const title = t('trend.column', {month: monthLabel(i), n: monthTotals[i]}) + (partial ? ` (${t('trend.partial', {date: shortDate(cutoff)})})` : '');
       const recent = events.some(event => event.startDate.startsWith(month) && trendGroup(event.startDate) === 'recent');
-      return `<div class="trend-column${recent ? ' recent' : ''}${partial ? ' partial' : ''}" title="${escape(title)}"><span class="trend-value">${format.number.format(monthTotals[i])}</span><span class="trend-bar" style="--h:${monthTotals[i] / maxMonthTotal}">${trendGroups.map(group => `<span class="trend-fill ${group}" data-month="${month}" data-window="${group}"></span>`).join('')}</span><span class="trend-month">${escape(columnMonths[i])}${partial ? '*' : ''}</span></div>`;
+      // Each month's bar is split by comparison window, the same split the topbar spark shows.
+      const split = trendGroups.map(group => [group, events.filter(event => event.startDate.startsWith(month) && trendGroup(event.startDate) === group).length]);
+      const fills = split.filter(([, n]) => n).map(([group, n]) => `<span class="trend-fill ${group}" style="height:${n / monthTotals[i] * 100}%"></span>`).join('');
+      return `<div class="trend-column${recent ? ' recent' : ''}${partial ? ' partial' : ''}" title="${escape(title)}"><span class="trend-value">${format.number.format(monthTotals[i])}</span><span class="trend-bar" style="--h:${monthTotals[i] / maxMonthTotal}">${fills}</span><span class="trend-month">${escape(columnMonths[i])}${partial ? '*' : ''}</span></div>`;
     }).join('')}</div><div class="trend-window-key" aria-hidden="true"><span><i class="previous"></i>${escape(t('trend.legendPrevious'))}</span><span><i class="recent"></i>${escape(t('trend.legendRecent'))}</span></div>`;
-    renderTrendProgress();
-  }
-
-  function renderTrendProgress() {
-    const counts = new Map();
-    visibleEvents.forEach(event => {
-      const key = `${event.startDate.slice(0, 7)}:${trendGroup(event.startDate)}`;
-      counts.set(key, (counts.get(key) || 0) + 1);
-    });
-    document.querySelectorAll('.trend-fill').forEach(fill => {
-      const month = fill.dataset.month;
-      const total = monthTotals[months.indexOf(month)];
-      fill.style.height = total ? `${(counts.get(`${month}:${fill.dataset.window}`) || 0) / total * 100}%` : '0';
-    });
   }
 
   // Cumulative curve above timeline scrubber (with Oct 5 maritime turning-point marker)
@@ -1131,8 +1130,10 @@
           <span>${escape(event.id)} · ${escape(shortDateYear(event.startDate))} · <span lang="en">${escape(event.countries)}</span></span>
           <span>${casualtyBadge} <span class="cat-pill" style="--category:${colors[event.category]}"><i aria-hidden="true"></i>${escape(categoryLabel(event.category))}</span></span>
         </div>
-        <div class="maritime-vessel-title" lang="en">${escape(copy.headline)}${territorialCountry ? ` · ${escape(territorialCountry)} territorial waters` : ''}</div>
-        <div class="maritime-vessel-summary" lang="en">${escape(event.status)}${event.impact ? ` — ${escape(event.impact)}` : ''}</div>
+        <div class="maritime-vessel-title" lang="${copy.lang}">${escape(copy.headline)}${territorialCountry ? ` · ${escape(t('revamp.territorialWaters', {country: countryName(territorialCountry)}))}` : ''}</div>
+        ${copy.lang === 'en'
+          ? `<div class="maritime-vessel-summary" lang="en">${escape(event.status)}${event.impact ? ` — ${escape(event.impact)}` : ''}</div>`
+          : `<div class="maritime-vessel-summary" lang="${copy.lang}">${escape(copy.description)}</div>`}
       </button>`;
     };
     container.innerHTML = [...octRecords, ...precursorRecords].map(renderItem).join('');
@@ -1199,7 +1200,6 @@
     renderNewsList();
     renderMarkers();
     renderPlayhead();
-    renderTrendProgress();
     updateFilterBanner();
 
     const startStr = shortDate(dayToDate(intervalStartDay));

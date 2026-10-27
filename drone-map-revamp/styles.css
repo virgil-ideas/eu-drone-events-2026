@@ -2878,69 +2878,114 @@ dialog details p {
   border-radius: 0 6px 6px 0;
 }
 
-/* Trend Chart inside Trend Dialog */
+/* Trend dialog: the topbar's trend pill, opened up. Same dark ground,
+   coral for the last 90 days, slate for the 90 before. */
+.trend-dialog {
+  --trend-ground: var(--ink);
+  --trend-panel: #18303a;
+  --trend-rule: #2c4a54;
+  --trend-text: #e7f0f2;
+  --trend-soft: #b7cdd2;
+  --trend-muted: #8fa9af;
+  --trend-recent: #ff8b7e;
+  --trend-previous: #6f959f;
+  --trend-earlier: #3c5a63;
+  width: min(640px, calc(100% - 24px));
+  background: var(--trend-ground);
+  color: var(--trend-text);
+  border: 1px solid #395c67;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+}
+
+.trend-dialog .eyebrow {
+  color: var(--trend-muted);
+}
+
+.trend-dialog h2 {
+  color: #fff;
+}
+
+.trend-dialog h3 {
+  color: #fff;
+}
+
+.trend-dialog p {
+  color: var(--trend-soft);
+}
+
+.trend-dialog .dialog-heading button {
+  background: #233f48;
+  color: #fff;
+  border: 1px solid #395c67;
+}
+
+.trend-dialog .dialog-heading button:hover {
+  background: #2c4e59;
+}
+
 .trend {
-  background: #f7fafa;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 14px 16px;
+  background: var(--trend-panel);
+  border: 1px solid var(--trend-rule);
+  border-radius: 10px;
+  padding: 16px 18px 14px;
   margin-bottom: 14px;
 }
 
 .trend-figure {
   display: flex;
-  align-items: center;
-  gap: 12px;
-  margin: 4px 0 6px;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  margin: 2px 0 4px;
 }
 
 .trend-delta {
   font-family: Manrope, system-ui, sans-serif;
-  font-size: 2.15rem;
+  font-size: 2.6rem;
   line-height: 1;
   font-weight: 800;
   letter-spacing: -0.05em;
-  color: var(--ink);
+  color: #fff;
 }
 
 .trend-delta.up {
-  color: var(--surge);
+  color: var(--trend-recent);
 }
 
 .trend-delta.up::before {
   content: '▲ ';
-  font-size: 0.55em;
-  vertical-align: 0.35em;
+  font-size: 0.5em;
+  vertical-align: 0.4em;
 }
 
 .trend-delta.down::before {
   content: '▼ ';
-  font-size: 0.55em;
-  vertical-align: 0.35em;
+  font-size: 0.5em;
+  vertical-align: 0.4em;
 }
 
 .trend-delta-label {
-  font-size: 0.8rem;
+  font-size: 0.84rem;
   line-height: 1.35;
-  color: var(--muted);
+  color: var(--trend-soft);
 }
 
-.trend-compare {
-  font-size: 0.82rem;
-  margin: 0 0 12px;
-  color: var(--ink-soft);
+.trend .trend-compare {
+  font-size: 0.86rem;
+  margin: 0 0 16px;
+  color: var(--trend-text);
 }
 
 .trend-columns {
   display: grid;
   grid-template-columns: repeat(var(--months, 10), minmax(0, 1fr));
-  gap: 5px;
-  height: 112px;
+  gap: 6px;
+  height: 150px;
   align-items: end;
+  border-bottom: 1px solid var(--trend-rule);
 }
 
 .trend-column {
-  --bar: #cad5d7;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2949,33 +2994,26 @@ dialog details p {
   min-width: 0;
 }
 
-.trend-fill.earlier { --bar: #cad5d7; }
-.trend-fill.previous { --bar: #8a9ca1; }
-.trend-fill.recent { --bar: var(--ink); }
-
 .trend-value {
-  font-size: 0.7rem;
-  color: #5f737a;
-  margin-bottom: 3px;
+  font-size: 0.74rem;
+  color: var(--trend-muted);
+  margin-bottom: 4px;
   font-variant-numeric: tabular-nums;
 }
 
 .trend-column.recent .trend-value {
-  color: var(--ink);
+  color: #fff;
   font-weight: 700;
 }
 
 .trend-bar {
-  position: relative;
   display: flex;
   flex-direction: column-reverse;
-  flex: 0 0 auto;
   width: 100%;
-  max-width: 26px;
-  height: calc(var(--h, 0) * 80px);
-  min-height: 2px;
+  max-width: 34px;
+  height: calc(var(--h, 0) * 112px);
+  min-height: 3px;
   border-radius: 4px 4px 0 0;
-  background: color-mix(in srgb, var(--bar) 18%, #fff);
   overflow: hidden;
 }
 
@@ -2983,49 +3021,71 @@ dialog details p {
   display: block;
   flex-shrink: 0;
   width: 100%;
-  height: 0;
-  background: var(--bar);
-  transition: height 0.12s linear;
 }
+
+.trend-fill.earlier { background: var(--trend-earlier); }
+.trend-fill.previous { background: var(--trend-previous); }
+.trend-fill.recent { background: var(--trend-recent); }
 
 .trend-month {
-  font-size: 0.68rem;
-  color: #61767d;
-  margin-top: 4px;
+  font-size: 0.72rem;
+  color: var(--trend-muted);
+  margin: 6px 0 -22px;
+  height: 16px;
 }
 
-.trend-column.partial .trend-fill {
-  background: repeating-linear-gradient(135deg, var(--bar) 0 2px, transparent 2px 4px);
+.trend-column.recent .trend-month {
+  color: var(--trend-text);
+}
+
+.trend-columns {
+  margin-bottom: 24px;
+}
+
+.trend-column.partial .trend-fill.recent {
+  background: repeating-linear-gradient(135deg, var(--trend-recent) 0 3px, #d9706a 3px 6px);
 }
 
 .trend-column.partial .trend-bar {
-  outline: 1px dashed #8a9ca1;
-  outline-offset: 1px;
+  outline: 1px dashed var(--trend-recent);
+  outline-offset: 2px;
 }
 
 .trend-window-key {
   display: flex;
   justify-content: flex-end;
-  gap: 12px;
-  margin-top: 9px;
-  font-size: 0.68rem;
-  color: var(--muted);
+  gap: 14px;
+  margin-top: 4px;
+  font-size: 0.74rem;
+  color: var(--trend-soft);
 }
 
 .trend-window-key span {
   display: inline-flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
 }
 
 .trend-window-key i {
-  width: 8px;
-  height: 8px;
-  background: #8a9ca1;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: var(--trend-previous);
 }
 
 .trend-window-key i.recent {
-  background: var(--ink);
+  background: var(--trend-recent);
+}
+
+.trend .trend-note {
+  font-size: 0.8rem;
+  margin: 10px 0 0;
+  color: var(--trend-soft);
+}
+
+.trend .trend-partial {
+  margin-top: 2px;
+  color: var(--trend-muted);
 }
 
 .about-stats {
