@@ -251,5 +251,16 @@
   "revamp.darkTurnReplayBtn": "▶ Spela upp upptrappningen 5–23 okt.",
   "revamp.darkTurnModalBtn": "Tidslinje och fartyg →",
   "revamp.darkTurnDismissAria": "Fäll ihop vändpunktsbanderollen",
-  "revamp.darkTurnVesselsTitle": "Kronologiska fartygsposter i Svarta havet (klicka för att visa på kartan)"
+  "revamp.darkTurnVesselsTitle": "Kronologiska fartygsposter i Svarta havet (klicka för att visa på kartan)",
+  "revamp.darkTurnEyebrow": "Vändpunkt · okt. 2026 · Svarta havet och rumänska vatten",
+  "revamp.darkTurnTitle": "När utvecklingen tog en mörk vändning: dödliga angrepp mot sjöfarten i Svarta havet",
+  "revamp.darkTurnBody": "Efter månader av icke-dödliga luftrumsintrång och spillror på kusten innebar oktober 2026 en kraftig upptrappning: 8 poster omfattar 9 handelsfartyg som träffats eller utsatts för angrepp utanför Rumänien och Bulgarien – bland dem YARA J och Sea Destiny inom rumänskt territorialvatten nära Sulina och KHORYV utanför territorialvatten vid Constanța – med döda och skadade sjömän och över 30 besättningsmedlemmar som rapporterats saknade.",
+  "revamp.darkTurnModalTitle": "Från luftrumsintrång till dödliga angrepp mot sjöfarten i Svarta havet",
+  "revamp.darkTurnPhase1Title": "Jan. – sep. 2026 · Luftrum, gräns och spillror på kusten",
+  "revamp.darkTurnPhase1Body": "Över 100 poster om luftrum, beslag vid gränsen och spillror på kusten i 10 EU-länder utan några bekräftade dödsfall (samt 3 olösta/obekräftade sjöfartsincidenter under sommaren utanför Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5 – 23 okt. 2026 · Den dödliga upptrappningen till havs",
+  "revamp.darkTurnPhase2Body": "8 poster omfattar 9 handelsfartyg som träffats eller utsatts för angrepp under 19 dagar i västra Svarta havet, däribland incidenter i rumänskt territorialvatten utanför Sulina, med bekräftade dödsfall (Royad Mammadov, KHORYV), besättningsmedlemmar inlagda på sjukhus med brännskador och över 30 sjömän som rapporterats saknade.",
+  "revamp.darkTurnCountingNote": "Räkneanmärkning: Uppgifterna om offer kommer från officiella uttalanden från marinen, ministerier och diplomater som citeras i varje post. Motstridiga rapporter läggs aldrig ihop, och saknade sjömän registreras inte som bekräftat döda.",
+  "revamp.territorialWaters": "{country}s territorialvatten",
+  "revamp.trendDialogTitle": "Månadsfördelning och jämförelse av 90 dagar"
 };

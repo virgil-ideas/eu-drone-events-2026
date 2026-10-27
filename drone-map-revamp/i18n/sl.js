@@ -251,5 +251,16 @@
   "revamp.darkTurnReplayBtn": "▶ Predvajaj stopnjevanje 5.–23. okt.",
   "revamp.darkTurnModalBtn": "Časovnica in plovila →",
   "revamp.darkTurnDismissAria": "Skrči pasico prelomnice",
-  "revamp.darkTurnVesselsTitle": "Kronološki zapisi plovil v Črnem morju (kliknite za prikaz na zemljevidu)"
+  "revamp.darkTurnVesselsTitle": "Kronološki zapisi plovil v Črnem morju (kliknite za prikaz na zemljevidu)",
+  "revamp.darkTurnEyebrow": "Prelomnica · okt. 2026 · Črno morje in romunske vode",
+  "revamp.darkTurnTitle": "Ko se je stanje poslabšalo: smrtonosni napadi na ladijski promet v Črnem morju",
+  "revamp.darkTurnBody": "Po mesecih nesmrtonosnih prečkanj zračnega prostora in obalnih ostankov je oktober 2026 prinesel močno stopnjevanje: 8 zapisov zajema 9 trgovskih plovil, zadetih ali ciljanih ob Romuniji in Bolgariji – med njimi YARA J in Sea Destiny v romunskih teritorialnih vodah blizu kraja Sulina ter KHORYV zunaj teritorialnih voda ob Konstanci – pri čemer so bili mornarji ubiti ali ranjeni, več kot 30 članov posadke pa naj bi bilo pogrešanih.",
+  "revamp.darkTurnModalTitle": "Od vdorov v zračni prostor do smrtonosnih napadov na ladijski promet v Črnem morju",
+  "revamp.darkTurnPhase1Title": "jan. – sep. 2026 · Zračni prostor, meja in obalni ostanki",
+  "revamp.darkTurnPhase1Body": "Več kot 100 zapisov o zračnih dogodkih, zasegih na meji in obalnih ostankih v 10 državah EU z 0 potrjenimi smrtnimi žrtvami (poleg 3 nerazrešenih/nepotrjenih poletnih incidentov z ladjami ob kraju Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5.–23. okt. 2026 · Smrtonosno pomorsko stopnjevanje",
+  "revamp.darkTurnPhase2Body": "8 zapisov zajema 9 trgovskih plovil, zadetih ali ciljanih v 19 dneh v zahodnem Črnem morju, vključno z incidenti v romunskih teritorialnih vodah ob kraju Sulina, s potrjenimi smrtnimi žrtvami (Royad Mammadov, KHORYV), člani posadke, hospitaliziranimi z opeklinami, in več kot 30 mornarji, ki naj bi bili pogrešani.",
+  "revamp.darkTurnCountingNote": "Opomba o štetju: številke o žrtvah izhajajo iz uradnih izjav mornarice, ministrstev in diplomatskih predstavništev, navedenih v posameznem zapisu. Nasprotujoča si poročila se nikoli ne seštevajo, pogrešani mornarji pa se ne beležijo kot potrjeno mrtvi.",
+  "revamp.territorialWaters": "teritorialne vode ({country})",
+  "revamp.trendDialogTitle": "Mesečna porazdelitev in primerjava 90 dni"
 };

@@ -116,7 +116,7 @@ test('maritime focus labels count the actual October interval in both locations'
     pageCopyFor:()=>({headline:'Ship'}),shortDateYear:x=>x,escape:String,colors:{},categoryLabel:x=>x,
     t:(key,vars)=>`${key}:${vars?.n ?? ''}`};
   vm.createContext(context);
-  vm.runInContext(section('  const MARITIME_SHIP_IDS','  function loadLanguage')
+  vm.runInContext(section('  const MARITIME_SHIP_IDS','  const loadScript')
     +section('  function renderMaritimeDialog','  // Focus map & feed')+'renderMaritimeDialog();',context);
   assert.equal($('focus-maritime-label').textContent,'revamp.darkTurnFocusBtn:8');
   assert.equal($('modal-filter-maritime-label').textContent,$('focus-maritime-label').textContent);
@@ -145,7 +145,7 @@ test('interval tool rejects invalid, out-of-coverage and reversed dates without 
 
 test('interval counts select locale-specific singular and plural forms', () => {
   const context={window:{}};vm.createContext(context);
-  for (const file of fs.readdirSync(path.join(__dirname,'../i18n'))) {
+  for (const file of fs.readdirSync(path.join(__dirname,'../i18n')).filter(name => name.endsWith('.js'))) {
     vm.runInContext(fs.readFileSync(path.join(__dirname,'../i18n',file),'utf8'),context);
   }
   const strings=context.window.DRONE_I18N;

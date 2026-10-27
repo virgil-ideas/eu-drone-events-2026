@@ -251,5 +251,16 @@
   "revamp.darkTurnReplayBtn": "▶ Athsheinn an géarú 5–23 DF",
   "revamp.darkTurnModalBtn": "Amlíne agus longa →",
   "revamp.darkTurnDismissAria": "Laghdaigh meirge an chasphointe",
-  "revamp.darkTurnVesselsTitle": "Taifid long sa Mhuir Dhubh in ord ama (cliceáil le feiceáil ar an léarscáil)"
+  "revamp.darkTurnVesselsTitle": "Taifid long sa Mhuir Dhubh in ord ama (cliceáil le feiceáil ar an léarscáil)",
+  "revamp.darkTurnEyebrow": "Casphointe · Deireadh Fómhair 2026 · An Mhuir Dhubh agus uiscí na Rómáine",
+  "revamp.darkTurnTitle": "Nuair a Tháinig Casadh Dorcha ar Chúrsaí: Ionsaithe Marfacha ar Loingseoireacht na Muirí Duibhe",
+  "revamp.darkTurnBody": "Tar éis míonna d’ionradh neamhmharfach ar an spás aeir agus de smionagar cósta, tháinig géarú mór i nDeireadh Fómhair 2026: clúdaíonn 8 dtaifead 9 long cheannaíochta a ndearnadh ionsaí orthu nó a díríodh orthu amach ón Rómáin agus ón mBulgáir, lena n-áirítear YARA J agus Sea Destiny laistigh d’uiscí críochacha na Rómáine in aice le Sulina, agus KHORYV lasmuigh d’uiscí críochacha amach ó Constanța. Maraíodh mairnéalaigh, gortaíodh mairnéalaigh, agus tuairiscíodh go raibh breis agus 30 duine den chriú ar iarraidh.",
+  "revamp.darkTurnModalTitle": "Ó Ionradh ar an Spás Aeir go hIonsaithe Marfacha ar Loingseoireacht na Muirí Duibhe",
+  "revamp.darkTurnPhase1Title": "Eanáir – Meán Fómhair 2026 · Spás aeir, teorainn agus smionagar cósta",
+  "revamp.darkTurnPhase1Body": "Breis agus 100 taifead ar spás aeir, ar urghabhálacha ag an teorainn agus ar smionagar cósta i 10 stát AE, gan aon bhás deimhnithe (móide 3 theagmhas loingseoireachta samhraidh gan réiteach nó gan deimhniú amach ó Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase2Title": "5 – 23 Deireadh Fómhair 2026 · An Géarú Marfach Muirí",
+  "revamp.darkTurnPhase2Body": "Clúdaíonn 8 dtaifead 9 long cheannaíochta a ndearnadh ionsaí orthu nó a díríodh orthu i 19 lá in iarthar na Muirí Duibhe, lena n-áirítear teagmhais in uiscí críochacha na Rómáine amach ó Sulina, agus básanna deimhnithe (Royad Mammadov, KHORYV), criú san ospidéal le dónna, agus breis agus 30 mairnéalach tuairiscithe ar iarraidh.",
+  "revamp.darkTurnCountingNote": "Nóta ar an gcomhaireamh: Is as ráitis oifigiúla chabhlaigh, aireachta agus taidhleoireachta a luaitear i ngach taifead a thagann figiúirí na dtaismeach. Ní chuirtear tuairiscí contrártha le chéile riamh, agus ní thaifeadtar mairnéalaigh atá ar iarraidh mar dhaoine a bhfuil a mbás deimhnithe.",
+  "revamp.territorialWaters": "Uiscí críochacha: {country}",
+  "revamp.trendDialogTitle": "Dáileadh míosúil agus comparáid 90 lá"
 };
