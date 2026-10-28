@@ -411,3 +411,28 @@ balloon-carried cigarette loads, are not drone incursions. Existing unresolved
 leads and thin Nordic, Luxembourg/Malta/Portugal and central-European indexing
 remain limitations. The unchanged 26 October inclusive occurrence cutoff does
 not imply exhaustive coverage or an incident-free 27 October.
+
+## 28 October review
+
+Partial targeted EU27 review covers 24–28 October through approximately 05:58 UTC,
+with older unresolved leads revisited. DHM ARN158, published 27 October, cancels
+ARN156 and reports KHORYV at 43°49.50′N, 028°53.37′E at 12:00 local on 27 October,
+still partially submerged and afloat inverted, with three missing. N112 is updated
+in place; this is a dated drifting-wreck position, not a new strike or established
+territorial incursion. ARN157 concerns a separate maritime exercise.
+
+No new qualifying occurrence was verified. No separate Greek 27 October daily
+account was recovered; do not interpret that as zero activity. Greek 13–14 and
+16–18 October gaps persist; the official airspace archive returned 403. UVEX
+UAV/USV/UUV exercises, domestic police surveillance, inspections and rescue flights
+are not incursions. The unchanged 26 October inclusive cutoff does not certify
+exhaustive coverage. Nordic/Irish indexing and Spain, Luxembourg, Malta and parts
+of central Europe remain thin; existing unresolved watchlist cases remain open.
+
+Poland: October 27 reporting attributes an October 24 Alpha Wing loss off Ustka to
+an unarmed civilian-company test flight and engine failure, about 6 km offshore.
+No foreign crossing is established. This is not Lubaczów, Wydrza or Rusinowo and is
+not added as a qualifying foreign-drone occurrence. Strefa Obrony and Fakt
+reproduce the same Military Gendarmerie account; the primary X post was inaccessible.
+Sources: https://strefaobrony.pl/zgubili-drona-nad-baltykiem-wojsko-apeluje-do-mieszkancow/ar/c1p2-29474673
+and https://www.fakt.pl/wydarzenia/polska/trojmiasto/dron-wpadl-do-morza-baltyckiego-zandarmeria-wojskowa-ostrzega/sz19zdp .
