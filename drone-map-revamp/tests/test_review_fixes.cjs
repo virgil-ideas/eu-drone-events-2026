@@ -7,6 +7,7 @@ const vm = require('node:vm');
 const app = fs.readFileSync(path.join(__dirname, '../app.js'), 'utf8');
 const records = JSON.parse(fs.readFileSync(path.join(__dirname, '../../drone-map/data/events.json'), 'utf8'));
 const active = records.filter(e => e.recordClass !== 'excluded');
+const replay = require('../replay-data.js');
 function section(start, end) {
   const from = app.indexOf(start), to = app.indexOf(end, from);
   assert(from >= 0 && to > from, `${start} … ${end}`);
@@ -111,15 +112,67 @@ test('localization preserves News mode and the active recording action', () => {
   assert.equal($('record-video-label').textContent,'translated:revamp.recordVideo');
 });
 
-test('maritime focus labels count the actual October interval in both locations', () => {
-  const $=elements(), context={$,events:active,cutoff:'2026-10-23',window:{DRONE_REPLAY:{territorialCountry:()=>null}},
-    pageCopyFor:()=>({headline:'Ship'}),shortDateYear:x=>x,escape:String,colors:{},categoryLabel:x=>x,
-    t:(key,vars)=>`${key}:${vars?.n ?? ''}`};
+test('maritime dates, focus counts and vessel list share the latest shipping records', () => {
+  const $=elements(), labels=['revamp.presetMaritime','revamp.darkTurnReplayBtn','revamp.darkTurnPhase2Title','revamp.darkTurnBody']
+    .map(key=>({dataset:{maritimeI18n:key},textContent:''}));
+  const context={$,events:active,cutoff:'2026-10-28',window:{DRONE_REPLAY:replay},
+    document:{querySelectorAll:()=>labels},
+    pageCopyFor:()=>({headline:'Ship'}),shortDate:x=>x,shortDateYear:x=>x,escape:String,colors:{},categoryLabel:x=>x,countryName:x=>x,
+    t:(key,vars)=>`${key}:${vars?.n ?? vars?.range ?? ''}`};
   vm.createContext(context);
-  vm.runInContext(section('  const MARITIME_SHIP_IDS','  const loadScript')
-    +section('  function renderMaritimeDialog','  // Focus map & feed')+'renderMaritimeDialog();',context);
-  assert.equal($('focus-maritime-label').textContent,'revamp.darkTurnFocusBtn:8');
+  vm.runInContext(section('  const maritimeEscalation','  const loadScript')
+    +section('  function renderMaritimeDialog','  // Replay the same dated')+'renderMaritimeDialog();',context);
+  assert.equal($('focus-maritime-label').textContent,'revamp.darkTurnFocusBtn:9');
   assert.equal($('modal-filter-maritime-label').textContent,$('focus-maritime-label').textContent);
+  assert.match($('maritime-vessel-list').innerHTML,/data-maritime-event="N124"/);
+  assert.match(labels[1].textContent,/2026-10-05 – 2026-10-28/);
+});
+
+test('maritime replay uses the last ship date and includes CONTSHIP JET through the actual filter', () => {
+  const $=elements();
+  const summary=replay.maritimeEscalation(active,'2026-10-30');
+  const context={$,maritimeEscalation:summary,DARK_TURN_DATE:summary.startDate,
+    window:{innerWidth:1200},dayOf:date=>Date.parse(date)/86400000,
+    requestAnimationFrame:fn=>fn(),intervalStartDay:0,intervalEndDay:0,currentDay:0,playbackDay:0,
+    allMode:false,selectedCountry:'Romania',selectedCategoryGroup:'',searchQuery:'old search'};
+  for(const fn of ['pause','closeDetail','syncIntervalInputs','updatePresetChips','renderCumulative',
+    'render','setMobileView','fitEvents','setStudioOpen','renderMonthLabels','play']) context[fn]=()=>{};
+  vm.createContext(context);
+  vm.runInContext(section('  function focusMaritimeEscalation','  function updateFilterBanner')+'focusMaritimeEscalation(true);',context);
+  assert.equal(context.intervalEndDay,Date.parse('2026-10-28')/86400000);
+  assert.equal(context.intervalStartDay,Date.parse('2026-10-05')/86400000);
+  assert.equal(context.selectedCategoryGroup,'maritime');
+  assert.equal(context.selectedCountry,'');
+  assert.equal(context.searchQuery,'');
+  const ids=new Set(summary.ships.map(e=>e.id));
+  const visible=replay.intervalEvents(active,summary.startDate,summary.endDate).filter(e=>ids.has(e.id));
+  assert.equal(visible.length,9);
+  assert(visible.some(e=>e.id==='N124'));
+});
+
+test('every interface language renders current maritime ranges and plural-aware counts', () => {
+  const context={window:{}};vm.createContext(context);
+  const keys=['revamp.presetMaritime','revamp.darkTurnReplayBtn','revamp.darkTurnPhase2Title','revamp.darkTurnBody','revamp.darkTurnPhase2Body'];
+  const html=fs.readFileSync(path.join(__dirname,'../index.html'),'utf8');
+  for(const key of keys) {
+    assert(html.includes(`data-maritime-i18n="${key}"`));
+    assert(!html.includes(`data-i18n="${key}"`),'static localization must not replace dynamic text');
+  }
+  for(const file of fs.readdirSync(path.join(__dirname,'../i18n')).filter(f=>f.endsWith('.js'))) {
+    vm.runInContext(fs.readFileSync(path.join(__dirname,'../i18n',file),'utf8'),context);
+  }
+  for(const [lang,strings] of Object.entries(context.window.DRONE_I18N)) {
+    const short=new Intl.DateTimeFormat(lang,{day:'numeric',month:'short',timeZone:'UTC'});
+    const end=short.format(new Date('2026-10-28'));
+    const range=`${short.format(new Date('2026-10-05'))} – ${end}`;
+    const count=strings['revamp.recordsInInterval'][new Intl.PluralRules(lang).select(9)].replace('{n}','9');
+    for(const key of keys) {
+      const text=strings[key].replace('{range}',range).replace('{rangeYear}',`${range} 2026`).replace('{count}',count);
+      assert(!/\{\w+\}/.test(text),`${lang}: ${key} has an unfilled parameter`);
+      if(/preset|Replay|Title/.test(key)) assert(text.includes(end),`${lang}: ${key} omits latest date`);
+      else assert(text.includes(count),`${lang}: ${key} omits current count`);
+    }
+  }
 });
 
 test('interval tool rejects invalid, out-of-coverage and reversed dates without changing state', () => {

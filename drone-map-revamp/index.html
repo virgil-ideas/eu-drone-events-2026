@@ -43,9 +43,9 @@
   <script defer src="landmark.js?v=3b28066123468c28"></script>
   <script defer src="asset-loader.js?v=fe87e7c8436b2ecc"></script>
   <script defer src="trend-data.js?v=bac237d0454e68e4"></script>
-  <script defer src="i18n/en.js?v=dc9c43932f0051b6"></script>
-  <script defer src="replay-data.js?v=9aa350e74d6da79e"></script>
-  <script defer src="app.js?v=95e8dd1ad980fb0d"></script>
+  <script defer src="i18n/en.js?v=e94a747dd2f2b0c9"></script>
+  <script defer src="replay-data.js?v=88e12e29da8f545a"></script>
+  <script defer src="app.js?v=c831287ef4070a94"></script>
   <script defer src="analytics.js?v=5c514d0cea945c53"></script>
 </head>
 <body>
@@ -182,13 +182,13 @@
         </div>
         <h2 id="maritime-turn-heading" class="maritime-turn-title" data-i18n="revamp.darkTurnTitle">When Things Took a Dark Turn: Lethal Strikes on Black Sea Shipping</h2>
         <div id="maritime-turn-body-wrap" class="maritime-turn-body-wrap">
-          <p class="maritime-turn-body" data-i18n="revamp.darkTurnBody">After months of non-lethal airspace crossings and coastal debris, October 2026 brought a sharp escalation: 8 records cover 9 merchant vessels struck or targeted off Romania and Bulgaria—including YARA J and Sea Destiny inside Romanian territorial waters near Sulina, and KHORYV outside territorial waters off Constanța—leaving sailors killed, injured, and over 30 crew reported missing.</p>
+          <p class="maritime-turn-body" data-maritime-i18n="revamp.darkTurnBody">Reported attacks on merchant shipping off Romania and Bulgaria.</p>
           <div class="maritime-turn-actions">
             <button type="button" id="focus-maritime-btn" class="maritime-action-btn primary">
-              <span id="focus-maritime-label">Focus on Ship Incidents (11)</span>
+              <span id="focus-maritime-label">Focus on Ship Incidents</span>
             </button>
             <button type="button" id="replay-maritime-btn" class="maritime-action-btn">
-              <span data-i18n="revamp.darkTurnReplayBtn">▶ Replay Oct 5–23 Escalation</span>
+              <span data-maritime-i18n="revamp.darkTurnReplayBtn">▶ Replay escalation</span>
             </button>
             <button type="button" id="open-maritime-modal-btn" class="maritime-action-btn ghost">
               <span data-i18n="revamp.darkTurnModalBtn">Timeline &amp; Vessels →</span>
@@ -284,7 +284,7 @@
             <button type="button" class="preset-chip" data-preset="30d" aria-pressed="false" data-i18n="revamp.preset30d">Last 30d</button>
             <button type="button" class="preset-chip" data-preset="surge" aria-pressed="false" data-i18n="revamp.presetSurge">Aug–Oct Surge</button>
             <button type="button" class="preset-chip" data-preset="oct" aria-pressed="false" data-i18n="revamp.presetOct">Oct Only</button>
-            <button type="button" class="preset-chip maritime-preset" data-preset="maritime" aria-pressed="false" data-i18n="revamp.presetMaritime">⚓ Ship Strikes (Oct 5–23)</button>
+            <button type="button" class="preset-chip maritime-preset" data-preset="maritime" aria-pressed="false" data-maritime-i18n="revamp.presetMaritime">⚓ Ship Strikes</button>
           </div>
         </div>
 
@@ -362,17 +362,17 @@
         <p data-i18n="revamp.darkTurnPhase1Body">Over 100 air, border-seizure and coastal-debris records across 10 EU states with 0 confirmed fatalities (plus 3 unresolved/unconfirmed summer shipping incidents off Sfântu Gheorghe: E033, E034, E053).</p>
       </div>
       <div class="maritime-phase-card dark-turn">
-        <strong data-i18n="revamp.darkTurnPhase2Title">5 – 23 Oct 2026 · The Lethal Maritime Escalation</strong>
-        <p data-i18n="revamp.darkTurnPhase2Body">8 records cover 9 merchant vessels struck or targeted in 19 days across the western Black Sea, including incidents in Romanian territorial waters off Sulina, with confirmed deaths (Royad Mammadov, KHORYV), crew hospitalized with burns, and over 30 sailors reported missing.</p>
+        <strong data-maritime-i18n="revamp.darkTurnPhase2Title">The Lethal Maritime Escalation</strong>
+        <p data-maritime-i18n="revamp.darkTurnPhase2Body">See each vessel record for its latest status and attribution.</p>
       </div>
     </div>
     <p class="maritime-honesty-note" data-i18n="revamp.darkTurnCountingNote">Counting note: Casualty figures come from official naval, ministerial and diplomatic statements cited in each record. Conflicting reports are never added together, and missing sailors are not recorded as confirmed dead.</p>
     <div class="maritime-modal-actions">
       <button type="button" id="modal-filter-maritime-btn" class="maritime-action-btn primary">
-        <span id="modal-filter-maritime-label">Focus on Ship Incidents (11)</span>
+        <span id="modal-filter-maritime-label">Focus on Ship Incidents</span>
       </button>
       <button type="button" id="modal-replay-maritime-btn" class="maritime-action-btn">
-        <span data-i18n="revamp.darkTurnReplayBtn">▶ Replay Oct 5–23 Escalation</span>
+        <span data-maritime-i18n="revamp.darkTurnReplayBtn">▶ Replay escalation</span>
       </button>
     </div>
     <h3 class="maritime-vessels-heading" data-i18n="revamp.darkTurnVesselsTitle">Chronological Black Sea Vessel Records (Click to inspect on map)</h3>

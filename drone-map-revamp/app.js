@@ -33,10 +33,10 @@
   let format = {};
 
   // Black Sea Maritime Escalation ("When Things Took a Dark Turn" — Oct 2026)
-  const MARITIME_SHIP_IDS = new Set(['E033', 'E034', 'E053', 'N072', 'N073', 'N079', 'N080', 'N086', 'N089', 'N090', 'N112']);
-  const OCT_MARITIME_IDS = new Set(['N072', 'N073', 'N079', 'N080', 'N086', 'N089', 'N090', 'N112']);
+  const maritimeEscalation = window.DRONE_REPLAY.maritimeEscalation(events, cutoff);
+  const MARITIME_SHIP_IDS = new Set(maritimeEscalation.ships.map(event => event.id));
   const CASUALTY_IDS = new Set(['E033', 'E053', 'N072', 'N073', 'N079', 'N080', 'N090', 'N112']);
-  const DARK_TURN_DATE = '2026-10-05';
+  const DARK_TURN_DATE = maritimeEscalation.startDate;
   const isMaritimeVessel = event => MARITIME_SHIP_IDS.has(event.id);
   const hasCasualties = event => CASUALTY_IDS.has(event.id);
 
@@ -1133,12 +1133,18 @@
   function renderMaritimeDialog() {
     const container = $('maritime-vessel-list');
     if (!container) return;
-    const focusedCount = events.filter(e => isMaritimeVessel(e) && e.startDate >= DARK_TURN_DATE && e.startDate <= cutoff).length;
+    const focusedCount = maritimeEscalation.records.length;
+    const vars = {
+      range: `${shortDate(DARK_TURN_DATE)} – ${shortDate(maritimeEscalation.endDate)}`,
+      rangeYear: `${shortDate(DARK_TURN_DATE)} – ${shortDateYear(maritimeEscalation.endDate)}`,
+      count: t('revamp.recordsInInterval', {n: focusedCount})
+    };
+    document.querySelectorAll('[data-maritime-i18n]').forEach(element => {
+      element.textContent = t(element.dataset.maritimeI18n, vars);
+    });
     for (const id of ['focus-maritime-label', 'modal-filter-maritime-label']) {
       $(id).textContent = t('revamp.darkTurnFocusBtn', {n: focusedCount});
     }
-    const octRecords = events.filter(e => OCT_MARITIME_IDS.has(e.id));
-    const precursorRecords = events.filter(e => MARITIME_SHIP_IDS.has(e.id) && !OCT_MARITIME_IDS.has(e.id));
     const renderItem = event => {
       const copy = pageCopyFor(event);
       const territorialCountry = window.DRONE_REPLAY.territorialCountry(event);
@@ -1154,15 +1160,15 @@
           : `<div class="maritime-vessel-summary" lang="${copy.lang}">${escape(copy.description)}</div>`}
       </button>`;
     };
-    container.innerHTML = [...octRecords, ...precursorRecords].map(renderItem).join('');
+    container.innerHTML = [...maritimeEscalation.records, ...maritimeEscalation.precursors].map(renderItem).join('');
   }
 
-  // Focus map & feed on the October 2026 Black Sea Maritime Escalation
+  // Replay the same dated shipping records described by the banner and dialog.
   function focusMaritimeEscalation(startReplay = false) {
     pause();
     closeDetail();
     intervalStartDay = dayOf(DARK_TURN_DATE);
-    intervalEndDay = totalDays;
+    intervalEndDay = dayOf(maritimeEscalation.endDate);
     currentDay = intervalEndDay;
     playbackDay = intervalEndDay;
     allMode = true;
