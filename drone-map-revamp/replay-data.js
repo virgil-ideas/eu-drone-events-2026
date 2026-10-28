@@ -30,5 +30,25 @@
     return /^([^()]+)\s+\(territorial waters\)$/i.exec(event.countries)?.[1].trim() || null;
   }
 
-  return {intervalEvents, cumulative, territorialCountry};
+  // Legacy research predates recordType. New shipping records use the database's
+  // existing types, so a daily addition needs no change to an interface ID list.
+  const LEGACY_SHIP_IDS = new Set(['E033', 'E034', 'E053']);
+  const SHIP_RECORD_TYPES = new Set([
+    'reported_offshore_drone_strike', 'reported_maritime_drone_strike',
+    'suspected_maritime_drone_attack'
+  ]);
+  function maritimeEscalation(events, cutoff) {
+    const startDate = '2026-10-05';
+    const ships = events.filter(event => event.recordClass !== 'excluded'
+      && event.startDate <= cutoff
+      && /^(Romania|Bulgaria)(?:\s*\(|$)/.test(event.countries)
+      && (LEGACY_SHIP_IDS.has(event.id) || SHIP_RECORD_TYPES.has(event.recordType)))
+      .sort((a, b) => a.startDate.localeCompare(b.startDate) || a.id.localeCompare(b.id));
+    const records = ships.filter(event => event.startDate >= startDate);
+    const precursors = ships.filter(event => event.startDate < startDate);
+    const endDate = records.at(-1)?.startDate || startDate;
+    return {ships, records, precursors, startDate, endDate};
+  }
+
+  return {intervalEvents, cumulative, territorialCountry, maritimeEscalation};
 });

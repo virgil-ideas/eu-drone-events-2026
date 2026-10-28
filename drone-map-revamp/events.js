@@ -7642,12 +7642,13 @@ window.DRONE_DATA = {
       "deduplication": "One CONTSHIP JET occurrence, distinct from KHORYV, CHELSEA 3 and earlier ship attacks. Three reported drones, impacts and abandonment are not separate event records.",
       "provenance": "Added 28 October after direct BGNES and Sofia Globe browser reads and Chernomore body review. Original research snapshots unchanged.",
       "classificationNote": "Red Strike for reported damaging maritime-drone attack. Offshore context explicitly separated from confirmed territorial incursions.",
-      "sourceReferences": "[U180][U180]; [U181][U181]; [U182][U182]; [U185][U185]",
+      "sourceReferences": "[U180][U180]; [U181][U181]; [U182][U182]; [U185][U185]; [U186][U186]",
       "sources": [
         "U180",
         "U181",
         "U182",
-        "U185"
+        "U185",
+        "U186"
       ],
       "page": "events/2026-10-28-contship-jet-maritime-drone-strike-kaliakra-bulgaria/"
     }
@@ -10439,6 +10440,14 @@ window.DRONE_DATA = {
       "url": "https://www.maritime.bg/157214/",
       "dateLabel": "28 October 2026, 13:56; updated 13:57",
       "audit": "Full article read by independent researcher in cloud browser. Contship management spokesperson tells Maritime.bg all 18 crew are safe and thanks Bulgaria for rapid response. Attributed manager statement, not independent medical assessment; crew nationality not disclosed."
+    },
+    "U186": {
+      "id": "U186",
+      "publisher": "Replica Online / BNT and Bulgarian Defence Minister",
+      "title": "CONTSHIP JET bound for Constanța struck by three drones off Bulgaria",
+      "url": "https://www.replicaonline.ro/inca-o-nava-a-fost-lovita-de-3-drone-in-marea-neagra-se-indrepta-spre-portul-constanta-672483",
+      "dateLabel": "28 October 2026, 14:16",
+      "audit": "Full article directly read in browser on 28 October 2026. Relays BNT evacuation reporting, the defence minister's statement that three maritime drones hit a container ship about 21 nautical miles off Shabla in Bulgaria's EEZ, and Maritime.bg's CONTSHIP JET identification and Haifa–Constanța route. These repeat existing source accounts, not an independent observation or another attack. The casualty figures in its retrospective section concern KHORYV on 23 October, not CONTSHIP JET; no operator attribution or confirmed sinking is supplied."
     }
   },
   "cutoff": "2026-10-28",
