@@ -7359,12 +7359,12 @@ window.DRONE_DATA = {
       "circumstances": "A reported drone attack and fire preceded capsize. The president said a vessel was hit by a drone outside territorial waters; AGERPRES links that statement to KHORYV. The current primary navigation notice says KHORYV remains afloat upside down, conflicting with press accounts of completed sinking.",
       "payload": "Unknown. Fire does not establish a separate explosion.",
       "impact": "Romanian authorities reported thirteen crew: nine rescued, one dead and three missing. Some reporting describes sinking, but the current navigation notice says it remains afloat inverted. Ukraine’s MFA confirmed a Ukrainian fatality and four Ukrainians hospitalized, including the captain; two others did not require medical care. Its fourteen-crew figure conflicts with Romania’s thirteen; no reconciled manifest or final missing-person outcome was retrieved.",
-      "response": "A nearby merchant vessel recovered survivors before transfer to Romanian rescue services. MRCC coordinated ARSVOM and Interior Ministry assets. Weather prevented helicopter assistance; nine survivors subsequently reached Constanța for assessment. ARSVOM, as reported on 24 October, deployed SAR ARTEMIS at 14:24; MRCC suspended the search at 18:04 because of reduced visibility. This was not a final missing-person determination. ARN158 retains three missing and a recommended one-nautical-mile safety distance as of 27 October.",
-      "uncertainty": "DHM ARN158 reports the vessel partially submerged but still afloat inverted, superseding ARN156; press accounts describe sinking. Completed sinking is not treated as established. Crew totals conflict (Romania: thirteen; Ukraine: fourteen). Operator, model, final missing-person outcome and exact strike position remain unresolved. This offshore occurrence does not establish a Romanian territorial incursion.",
+      "response": "A nearby merchant vessel recovered survivors before transfer to Romanian rescue services. MRCC coordinated ARSVOM and Interior Ministry assets. Weather prevented helicopter assistance; nine survivors subsequently reached Constanța for assessment. ARSVOM, as reported on 24 October, deployed SAR ARTEMIS at 14:24; MRCC suspended the search at 18:04 because of reduced visibility. This was not a final missing-person determination. ARN158 retains three missing and a recommended one-nautical-mile safety distance as of 27 October. Bulgaria’s transport ministry said on 27 October that institutions were monitoring the drifting wreck and would send a naval vessel for inspection. On 28 October BGNES quoted the defence minister saying it was entering Bulgarian territorial sea and that naval and transport authorities were ready to respond.",
+      "uncertainty": "DHM ARN158 reports the vessel partially submerged but still afloat inverted, superseding ARN156; press accounts describe sinking. Completed sinking is not treated as established. Crew totals conflict (Romania: thirteen; Ukraine: fourteen). Operator, model, final missing-person outcome and exact strike position remain unresolved. This offshore occurrence does not establish a Romanian territorial incursion. Bulgaria’s 27 October statement refers to a responsibility zone; the minister’s 28 October statement refers to territorial sea. Neither changes the original offshore strike location or establishes a new drone incursion; inspection completion and a precise later wreck position remain unverified.",
       "deduplication": "One new KHORYV occurrence, distinct from WINE TRADER, YARA J, Sea Destiny and the earlier offshore attacks. Strike, fire, sinking report and rescue are not separate rows.",
-      "provenance": "Added 23 October 2026 after reviewing the supplied Adevărul report. Original research snapshots unchanged. Reviewed 24 October against later Romanian official statements and Ukrainian MFA reporting; crew discrepancy retained. Current DHM ARN153 and MAI primary report reviewed 24 October; afloat/sinking conflict explicitly reconciled in favor of current competent navigation notice. Reviewed 25 October: DHM ARN154 later hazard position and 24 October ARSVOM-attributed search suspension; no new occurrence or territorial crossing inferred. Reviewed 26 October against ARN155; later wreck position is a follow-up to the same occurrence. Reviewed 27 October against current DHM ARN156; the 06:18 local observation updates the drifting-wreck position, not the occurrence date, attribution or original offshore classification. Reviewed 28 October against DHM ARN158, published 27 October: the 12:00 local drifting-wreck observation supersedes ARN156, without changing the occurrence date or original offshore classification.",
+      "provenance": "Added 23 October 2026 after reviewing the supplied Adevărul report. Original research snapshots unchanged. Reviewed 24 October against later Romanian official statements and Ukrainian MFA reporting; crew discrepancy retained. Current DHM ARN153 and MAI primary report reviewed 24 October; afloat/sinking conflict explicitly reconciled in favor of current competent navigation notice. Reviewed 25 October: DHM ARN154 later hazard position and 24 October ARSVOM-attributed search suspension; no new occurrence or territorial crossing inferred. Reviewed 26 October against ARN155; later wreck position is a follow-up to the same occurrence. Reviewed 27 October against current DHM ARN156; the 06:18 local observation updates the drifting-wreck position, not the occurrence date, attribution or original offshore classification. Reviewed 28 October against DHM ARN158, published 27 October: the 12:00 local drifting-wreck observation supersedes ARN156, without changing the occurrence date or original offshore classification. Reviewed 28 October against Bulgarian transport-ministry monitoring statement and the minister’s later territorial-sea wording; original attack classification and anchor retained.",
       "classificationNote": "Red Strike for a reported damaging drone attack; capsize confirmed by navigation authority, completed sinking not established.",
-      "sourceReferences": "[U131][U131]; [U150][U150]; [U151][U151]; [U152][U152]; [U153][U153]; [U156][U156]; [U157][U157]; [U171][U171]",
+      "sourceReferences": "[U131][U131]; [U150][U150]; [U151][U151]; [U152][U152]; [U153][U153]; [U156][U156]; [U157][U157]; [U171][U171]; [U183][U183]; [U184][U184]",
       "sources": [
         "U131",
         "U150",
@@ -7373,7 +7373,9 @@ window.DRONE_DATA = {
         "U153",
         "U156",
         "U157",
-        "U171"
+        "U171",
+        "U183",
+        "U184"
       ],
       "page": "events/2026-10-23-khoryv-drone-strike-constanta-romania/"
     },
@@ -7603,6 +7605,51 @@ window.DRONE_DATA = {
         "U177"
       ],
       "page": "events/2026-10-26-turkish-uav-activity-aegean-greece/"
+    },
+    {
+      "id": "N124",
+      "title": "CONTSHIP JET off Cape Kaliakra · Reported maritime-drone strike",
+      "recordClass": "event",
+      "recordType": "reported_offshore_drone_strike",
+      "startDate": "2026-10-28",
+      "dateLabel": "28 October 2026; during the trilateral defence-minister meeting",
+      "dateBasis": "Ministerial reporting identifies the attack as occurring during the 28 October meeting; exact strike time unestablished. Publication time is not used as strike time.",
+      "countries": "Bulgaria (offshore, reportedly outside territorial waters)",
+      "location": "Black Sea off Cape Kaliakra; preliminary reporting places the attack about 16 nautical miles from the cape. The minister described about 21 nautical miles from Shabla. Exact strike coordinates unverified.",
+      "status": "Drone strike confirmed in ministerial statement; all 18 crew safe according to ship manager; final vessel condition unverified",
+      "categories": "Reported maritime-drone strike on merchant shipping; crew abandonment",
+      "category": "strike",
+      "stages": [
+        "strike"
+      ],
+      "positions": [
+        {
+          "lat": 43.25,
+          "lng": 28.75,
+          "precision": "offshore",
+          "label": "Off Cape Kaliakra — approximate offshore editorial anchor"
+        }
+      ],
+      "positionNote": "Rounded offshore anchor, not a verified strike position. The reported distance from Cape Kaliakra places the occurrence outside territorial waters; EEZ or adjacent-water reporting is not a sovereign-territory incursion. Distances from Kaliakra and Shabla use different reference points.",
+      "vehicle": "Liberian-flagged container ship CONTSHIP JET, IMO 9348625. Bulgarian defence minister reports three maritime drones; precise platform type/model unestablished.",
+      "attribution": "Drone operator, launch origin and motive unresolved. No technical attribution finding was retrieved.",
+      "route": "Reported voyage from Haifa, Israel, toward Constanța, Romania. Drone launch point and approach route unknown.",
+      "circumstances": "The Bulgarian defence minister said three maritime drones struck a container ship during the trilateral meeting on 28 October. Maritime reporting identifies it as CONTSHIP JET. Included under the register’s existing offshore merchant-shipping treatment, not as a confirmed Bulgarian territorial incursion.",
+      "payload": "Unknown; no separately established explosion count.",
+      "impact": "Crew abandonment in life rafts was reported. A UK shipping company cited by The Sofia Globe described listing and containers lost overboard. Later, the ship manager told Maritime.bg that all 18 crew were safe. Final vessel condition and completed sinking remain unverified.",
+      "response": "Reports describe life-raft deployment. A Contship management spokesperson subsequently told Maritime.bg all 18 crew were safe and thanked Bulgaria for its rapid response; this is an attributed company statement, not an independent medical assessment.",
+      "uncertainty": "The ministerial statement supports the reported attack and maritime-drone count, not a technical model or operator identification. Vessel identity and preliminary distance are supplied by maritime reporting. Some sources repeat the same accounts. Final damage and vessel condition remain unresolved. The later all-18-safe account is attributed to the ship manager.",
+      "deduplication": "One CONTSHIP JET occurrence, distinct from KHORYV, CHELSEA 3 and earlier ship attacks. Three reported drones, impacts and abandonment are not separate event records.",
+      "provenance": "Added 28 October after direct BGNES and Sofia Globe browser reads and Chernomore body review. Original research snapshots unchanged.",
+      "classificationNote": "Red Strike for reported damaging maritime-drone attack. Offshore context explicitly separated from confirmed territorial incursions.",
+      "sourceReferences": "[U180][U180]; [U181][U181]; [U182][U182]; [U185][U185]",
+      "sources": [
+        "U180",
+        "U181",
+        "U182",
+        "U185"
+      ],
+      "page": "events/2026-10-28-contship-jet-maritime-drone-strike-kaliakra-bulgaria/"
     }
   ],
   "contexts": [
@@ -10344,9 +10391,57 @@ window.DRONE_DATA = {
       "url": "https://bntnews.bg/news/zasileni-merki-za-sigurnost-v-cherno-more-mezhdunarodni-ekipi-razsledvat-atakata-sreshtu-chelsi-3-1418108news.html?page=2",
       "dateLabel": "21 October 2026",
       "audit": "Full article read 27 October 2026. Dated ministerial/investigation follow-up to the same attack; recovered material not conclusively identified as drone fragments. Does not establish operator or aerial/surface type."
+    },
+    "U180": {
+      "id": "U180",
+      "publisher": "BGNES / Bulgarian Defence Minister",
+      "title": "Minister reports three maritime drones struck a container ship",
+      "url": "https://www.bgnes.bg/dimitar-stoqnov-tri-morski-drona-sa-udarili-konteynerovoz-v-cherno-more",
+      "dateLabel": "28 October 2026, 12:51",
+      "audit": "Full body directly read in cloud browser. Minister says the attack occurred during the trilateral meeting, about 21 nautical miles from Shabla; three maritime drones. This is an attributed official statement, not independent technical verification or operator identification."
+    },
+    "U181": {
+      "id": "U181",
+      "publisher": "The Sofia Globe",
+      "title": "Drone attack on container ship off Bulgaria’s Cape Kaliakra",
+      "url": "https://sofiaglobe.com/2026/10/28/drone-attack-on-container-ship-off-bulgarias-cape-kaliakra/",
+      "dateLabel": "28 October 2026, 12:58",
+      "audit": "Full article read in cloud browser. Names CONTSHIP JET and Haifa–Constanța route, relaying Maritime.bg distance and abandonment reporting. Separately quotes a UK shipping company with a vessel nearby describing listing, containers lost and life rafts. Final vessel condition unknown. No proven operator attribution."
+    },
+    "U182": {
+      "id": "U182",
+      "publisher": "Chernomore / Maritime.bg and defence minister",
+      "title": "CONTSHIP JET identified in Cape Kaliakra attack report",
+      "url": "https://www.chernomore.bg/a/10-bulgaria/317532-dimitar-stoyanov-potvardi-tri-morski-drona-sa-udarili-konteynerovoz-v-cherno-more",
+      "dateLabel": "28 October 2026, 13:15",
+      "audit": "Full body read. Identifies Liberian-flagged CONTSHIP JET, IMO 9348625, Haifa–Constanța route and preliminary approximately 16 nautical miles from Kaliakra. Relays Maritime.bg and ministerial accounts, not a second independent observation."
+    },
+    "U183": {
+      "id": "U183",
+      "publisher": "Bulgarian Ministry of Transport and Communications",
+      "title": "Institutions monitor drifting KHORYV and prepare navigational-safety measures",
+      "url": "https://www.mtc.government.bg/bg/category/1/instituciite-sledyat-dvizhenieto-na-preobrnatiya-korab-khoryv-i-sa-gotovi-s-merki-za-sigurnostta-na-koraboplavaneto",
+      "dateLabel": "27 October 2026",
+      "audit": "Primary statement directly read. Expected entry into Bulgarian responsibility zone within the next day; continuous monitoring, notices and a planned naval inspection. Does not itself confirm completed inspection or territorial-sea crossing."
+    },
+    "U184": {
+      "id": "U184",
+      "publisher": "BGNES / Bulgarian Defence Minister",
+      "title": "Minister says drifting KHORYV is entering Bulgarian territorial sea",
+      "url": "https://www.bgnes.bg/stoqnov-korabat-horiv-navliza-v-teritorialnite-ni-vodi-balgariq-stava-chlen-na-proekta-za-dronove",
+      "dateLabel": "28 October 2026, 09:43",
+      "audit": "Full body directly read in cloud browser. Quotes the minister saying the drifting wreck is entering territorial sea, and distinguishes territorial sovereignty from EEZ. This is a later wreck-status statement, not a relocation of the original strike or a new drone entry; no precise current position supplied."
+    },
+    "U185": {
+      "id": "U185",
+      "publisher": "Maritime.bg / Contship management spokesperson",
+      "title": "Ship manager says all 18 CONTSHIP JET crew are safe",
+      "url": "https://www.maritime.bg/157214/",
+      "dateLabel": "28 October 2026, 13:56; updated 13:57",
+      "audit": "Full article read by independent researcher in cloud browser. Contship management spokesperson tells Maritime.bg all 18 crew are safe and thanks Bulgaria for rapid response. Attributed manager statement, not independent medical assessment; crew nationality not disclosed."
     }
   },
-  "cutoff": "2026-10-26",
+  "cutoff": "2026-10-28",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

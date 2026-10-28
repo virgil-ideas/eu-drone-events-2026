@@ -436,3 +436,19 @@ not added as a qualifying foreign-drone occurrence. Strefa Obrony and Fakt
 reproduce the same Military Gendarmerie account; the primary X post was inaccessible.
 Sources: https://strefaobrony.pl/zgubili-drona-nad-baltykiem-wojsko-apeluje-do-mieszkancow/ar/c1p2-29474673
 and https://www.fakt.pl/wydarzenia/polska/trojmiasto/dron-wpadl-do-morza-baltyckiego-zandarmeria-wojskowa-ostrzega/sz19zdp .
+
+## 28 October afternoon shipping follow-up
+
+Targeted follow-up after the morning EU27 review verifies N124 CONTSHIP JET,
+reported struck by three maritime drones offshore near Cape Kaliakra on 28 October.
+The ministerial attack account is distinct from maritime reporting of vessel
+identity and preliminary distance. The manager subsequently told Maritime.bg all
+18 crew were safe. Final vessel condition and operator remain unresolved. This is
+one offshore occurrence, not three attacks or a confirmed Bulgarian territorial
+incursion. N112 KHORYV gains Bulgarian monitoring and later territorial-sea wording
+as a drifting-wreck follow-up, not a new attack or relocation of its original strike.
+
+The inclusive cutoff advances to 28 October for the new dated record. This targeted
+shipping check does not extend the morning EU27 search comprehensively. Greek
+27 October daily coverage and the older 13–14 and 16–18 October gaps remain open,
+as do the previous country/source limitations. No claim of exhaustive coverage.

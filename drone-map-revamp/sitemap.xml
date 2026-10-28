@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://droneincidents.eu/</loc><lastmod>2026-10-26</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/</loc><lastmod>2026-10-26</lastmod></url>
+  <url><loc>https://droneincidents.eu/</loc><lastmod>2026-10-28</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/</loc><lastmod>2026-10-28</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-01-27-smuggling-drone-purvenai-salcininkai-lithuania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-01-28-small-drone-falls-przasnysz-military-base-poland/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-02-23-smuggling-drone-pine-tree-milvydai-lithuania/</loc></url>
@@ -173,4 +173,5 @@
   <url><loc>https://droneincidents.eu/events/2026-10-24-turkish-uav-activity-aegean-greece/</loc><lastmod>2026-10-26</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-25-turkish-uav-activity-aegean-greece/</loc><lastmod>2026-10-26</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-26-turkish-uav-activity-aegean-greece/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-10-28-contship-jet-maritime-drone-strike-kaliakra-bulgaria/</loc><lastmod>2026-10-28</lastmod></url>
 </urlset>

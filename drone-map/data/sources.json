@@ -2553,5 +2553,53 @@
     "url": "https://bntnews.bg/news/zasileni-merki-za-sigurnost-v-cherno-more-mezhdunarodni-ekipi-razsledvat-atakata-sreshtu-chelsi-3-1418108news.html?page=2",
     "dateLabel": "21 October 2026",
     "audit": "Full article read 27 October 2026. Dated ministerial/investigation follow-up to the same attack; recovered material not conclusively identified as drone fragments. Does not establish operator or aerial/surface type."
+  },
+  "U180": {
+    "id": "U180",
+    "publisher": "BGNES / Bulgarian Defence Minister",
+    "title": "Minister reports three maritime drones struck a container ship",
+    "url": "https://www.bgnes.bg/dimitar-stoqnov-tri-morski-drona-sa-udarili-konteynerovoz-v-cherno-more",
+    "dateLabel": "28 October 2026, 12:51",
+    "audit": "Full body directly read in cloud browser. Minister says the attack occurred during the trilateral meeting, about 21 nautical miles from Shabla; three maritime drones. This is an attributed official statement, not independent technical verification or operator identification."
+  },
+  "U181": {
+    "id": "U181",
+    "publisher": "The Sofia Globe",
+    "title": "Drone attack on container ship off Bulgaria’s Cape Kaliakra",
+    "url": "https://sofiaglobe.com/2026/10/28/drone-attack-on-container-ship-off-bulgarias-cape-kaliakra/",
+    "dateLabel": "28 October 2026, 12:58",
+    "audit": "Full article read in cloud browser. Names CONTSHIP JET and Haifa–Constanța route, relaying Maritime.bg distance and abandonment reporting. Separately quotes a UK shipping company with a vessel nearby describing listing, containers lost and life rafts. Final vessel condition unknown. No proven operator attribution."
+  },
+  "U182": {
+    "id": "U182",
+    "publisher": "Chernomore / Maritime.bg and defence minister",
+    "title": "CONTSHIP JET identified in Cape Kaliakra attack report",
+    "url": "https://www.chernomore.bg/a/10-bulgaria/317532-dimitar-stoyanov-potvardi-tri-morski-drona-sa-udarili-konteynerovoz-v-cherno-more",
+    "dateLabel": "28 October 2026, 13:15",
+    "audit": "Full body read. Identifies Liberian-flagged CONTSHIP JET, IMO 9348625, Haifa–Constanța route and preliminary approximately 16 nautical miles from Kaliakra. Relays Maritime.bg and ministerial accounts, not a second independent observation."
+  },
+  "U183": {
+    "id": "U183",
+    "publisher": "Bulgarian Ministry of Transport and Communications",
+    "title": "Institutions monitor drifting KHORYV and prepare navigational-safety measures",
+    "url": "https://www.mtc.government.bg/bg/category/1/instituciite-sledyat-dvizhenieto-na-preobrnatiya-korab-khoryv-i-sa-gotovi-s-merki-za-sigurnostta-na-koraboplavaneto",
+    "dateLabel": "27 October 2026",
+    "audit": "Primary statement directly read. Expected entry into Bulgarian responsibility zone within the next day; continuous monitoring, notices and a planned naval inspection. Does not itself confirm completed inspection or territorial-sea crossing."
+  },
+  "U184": {
+    "id": "U184",
+    "publisher": "BGNES / Bulgarian Defence Minister",
+    "title": "Minister says drifting KHORYV is entering Bulgarian territorial sea",
+    "url": "https://www.bgnes.bg/stoqnov-korabat-horiv-navliza-v-teritorialnite-ni-vodi-balgariq-stava-chlen-na-proekta-za-dronove",
+    "dateLabel": "28 October 2026, 09:43",
+    "audit": "Full body directly read in cloud browser. Quotes the minister saying the drifting wreck is entering territorial sea, and distinguishes territorial sovereignty from EEZ. This is a later wreck-status statement, not a relocation of the original strike or a new drone entry; no precise current position supplied."
+  },
+  "U185": {
+    "id": "U185",
+    "publisher": "Maritime.bg / Contship management spokesperson",
+    "title": "Ship manager says all 18 CONTSHIP JET crew are safe",
+    "url": "https://www.maritime.bg/157214/",
+    "dateLabel": "28 October 2026, 13:56; updated 13:57",
+    "audit": "Full article read by independent researcher in cloud browser. Contship management spokesperson tells Maritime.bg all 18 crew are safe and thanks Bulgaria for rapid response. Attributed manager statement, not independent medical assessment; crew nationality not disclosed."
   }
 }

@@ -1745,9 +1745,10 @@
     "description": "KHORYV capsized off Constanța on 23 October. A navigation notice says it remains afloat, conflicting with sinking reports. One dead; three missing.",
     "summary": [
       "KHORYV capsized outside Romanian territorial waters on 23 October. AGERPRES links it to the president’s statement that a drone struck a vessel. The current primary navigation notice, ARN158, reports KHORYV partially submerged but still afloat upside down as of 27 October, despite press reports of sinking. Completed sinking is not treated as established.",
-      "Romania reports thirteen crew: nine rescued, one dead and three missing. Ukraine confirms a Ukrainian fatality but reports fourteen crew; the discrepancy remains unresolved. The notices give dated capsize and subsequent drifting-wreck positions, not a verified strike coordinate. Operator attribution and the final search outcome remain unresolved."
+      "Romania reports thirteen crew: nine rescued, one dead and three missing. Ukraine confirms a Ukrainian fatality but reports fourteen crew; the discrepancy remains unresolved. The notices give dated capsize and subsequent drifting-wreck positions, not a verified strike coordinate. Operator attribution and the final search outcome remain unresolved.",
+      "Bulgaria announced monitoring and a planned naval inspection on 27 October. The next morning its defence minister said the wreck was entering Bulgarian territorial sea. These are later drifting-wreck reports, not a new attack or a change to the original offshore strike location."
     ],
-    "basis": "e9b252e1c07fe68b"
+    "basis": "3f80c1f96dede827"
   },
   "N113": {
     "slug": "2026-10-21-turkish-uav-activity-aegean-greece",
@@ -1849,5 +1850,15 @@
       "NewsIT and OnAlert reproduce the same official account rather than independent observations. Identification and interception were reported, without armed engagement. This is one daily-activity record, not a sum of aircraft and crossing counts."
     ],
     "basis": "ec31efe3659a3363"
+  },
+  "N124": {
+    "slug": "2026-10-28-contship-jet-maritime-drone-strike-kaliakra-bulgaria",
+    "headline": "CONTSHIP JET hit by maritime drones off Cape Kaliakra, minister says",
+    "description": "Bulgaria’s defence minister reported three maritime drones striking CONTSHIP JET offshore on 28 October. Its manager says all 18 crew are safe.",
+    "summary": [
+      "CONTSHIP JET was reported attacked off Bulgaria’s Cape Kaliakra on 28 October while sailing from Haifa toward Constanța. Bulgaria’s defence minister said three maritime drones struck a container ship during that day’s trilateral meeting. Preliminary maritime reporting places the attack outside Bulgarian territorial waters.",
+      "The crew reportedly abandoned ship in life rafts, and the ship manager later said all 18 were safe. Listing and lost containers were reported; final vessel condition, drone model and operator remain unresolved. This is one offshore shipping occurrence, not three events or a confirmed Bulgarian territorial incursion."
+    ],
+    "basis": "95a1b208702ebe6a"
   }
 }
