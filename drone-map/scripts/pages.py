@@ -237,7 +237,7 @@ def document(*, title, description, canonical, root, body, structured, og_type='
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">
   <meta property="og:url" content="{esc(canonical)}">
-  <meta property="og:image" content="{SITE}/og-image.jpg">
+  <meta property="og:image" content="{SITE}/og-overview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta name="twitter:card" content="summary_large_image">

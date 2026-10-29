@@ -1,5 +1,6 @@
 import importlib.util
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -51,6 +52,44 @@ class ExportChecks(unittest.TestCase):
         (self.source / 'events.js').unlink()
         with self.assertRaises(FileNotFoundError):
             export.sync_assets(self.source, self.target)
+
+    def test_event_image_versions_follow_data_and_reject_stale_urls(self):
+        for name in export.OG_INPUTS:
+            asset = self.target / name
+            asset.parent.mkdir(parents=True, exist_ok=True)
+            if not asset.exists():
+                asset.write_text(f'original {name}')
+        source_page = self.source / 'events/incident/index.html'
+        source_page.write_text('<meta property="og:image" content="https://droneincidents.eu/og-overview.png">')
+        register = self.source / 'events/index.html'
+        register.write_text(source_page.read_text())
+        image_url = lambda: re.search(r'content="([^"]+)"', (self.target / 'events/incident/index.html').read_text())[1]
+        export.sync_assets(self.source, self.target)
+        first = image_url()
+        self.assertRegex(first, r'/og-overview\.png\?v=[0-9a-f]{16}$')
+        self.assertEqual((self.target / 'events/index.html').read_text(), (self.target / 'events/incident/index.html').read_text())
+
+        # Use the pending canonical data, not yesterday's destination copy.
+        (self.source / 'events.js').write_text('new daily events')
+        with self.assertRaises(export.DataError):
+            export.sync_assets(self.source, self.target, check=True)
+        self.assertEqual(image_url(), first, 'check must not repair outputs')
+        export.sync_assets(self.source, self.target)
+        self.assertNotEqual(image_url(), first)
+        expected_version = export.social_image_version(self.target)
+        self.assertTrue(image_url().endswith('?v=' + expected_version))
+        export.sync_assets(self.source, self.target, check=True)
+
+        # A template/font change must invalidate event images even with no new data.
+        (self.target / 'og/fonts.js').write_text('new font handling')
+        with self.assertRaisesRegex(export.DataError, 'events/incident/index.html'):
+            export.sync_assets(self.source, self.target, check=True)
+        export.sync_assets(self.source, self.target)
+        export.sync_assets(self.source, self.target, check=True)
+        current = (self.target / 'events/incident/index.html').read_text()
+        (self.target / 'events/incident/index.html').write_text(re.sub(r'\?v=[0-9a-f]+', '', current))
+        with self.assertRaisesRegex(export.DataError, 'events/incident/index.html'):
+            export.sync_assets(self.source, self.target, check=True)
 
     def test_checks_and_refreshes_research_downloads_and_page_styles(self):
         research_files = [{'name': 'research.md'}, {'name': 'research-update.md'}]
@@ -127,6 +166,30 @@ class AssetVersionChecks(unittest.TestCase):
         export.refresh_asset_versions(self.root)
         self.assertNotEqual(self.versions()['app.js'], old)
         self.assertIn(f'v={self.versions()["app.js"]}', (self.root / 'index.html').read_text())
+
+    def test_social_image_url_changes_with_the_card_inputs_only(self):
+        for name in export.OG_INPUTS:
+            asset = self.root / name
+            asset.parent.mkdir(parents=True, exist_ok=True)
+            if not asset.exists():
+                asset.write_text(f'original {name}', encoding='utf-8')
+        index = self.root / 'index.html'
+        index.write_text(index.read_text() + '<meta property="og:image" content="https://droneincidents.eu/og-image.png">\n')
+        version = lambda: re.search(r'og-image\.png\?v=([0-9a-f]{16})"', index.read_text())[1]
+        export.refresh_asset_versions(self.root)
+        previous = version()
+        (self.root / 'app.js').write_text('changed application')
+        export.refresh_asset_versions(self.root)
+        self.assertEqual(version(), previous)
+        for name in ('events.js', 'pages-data.js', 'og/card.js'):
+            with self.subTest(name=name):
+                (self.root / name).write_text(f'new content {name}')
+                with self.assertRaisesRegex(export.DataError, 'index.html'):
+                    export.refresh_asset_versions(self.root, check=True)
+                export.refresh_asset_versions(self.root)
+                self.assertNotEqual(version(), previous)
+                previous = version()
+        export.refresh_asset_versions(self.root, check=True)
 
     def test_missing_asset_fails_without_rewriting_manifest_or_html(self):
         export.refresh_asset_versions(self.root)

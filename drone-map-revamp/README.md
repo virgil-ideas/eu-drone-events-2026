@@ -31,6 +31,33 @@ Lazy language files use the same manifest, so a previously cached page can still
 load new daily data and discard outdated translations. `--check` rejects stale
 manifests or HTML asset URLs. Commit these generated changes with the data update.
 
+## Social preview image
+
+The image shown when someone shares the site is drawn by `og/card.html` from
+the same data files as the map. It shows the 90-day trend, a map of the
+records and the latest incident. Event links use a separate neutral overview
+with no incident headline or highlighted latest marker, so their thumbnails
+cannot name a different incident from the linked page. The deploy job renders
+both `og-image.png` and `og-overview.png` with headless Chrome before publishing.
+Each data update that reaches `main` also updates the images; neither PNG is committed.
+
+The build versions the `og:image` URLs on the homepage and every production
+event page with a hash of the card's inputs. This gives image caches a new URL
+once the data changes. `--check` also rejects stale versions on event pages.
+Platforms may separately cache page metadata until they recrawl the link.
+To preview the cards, open <http://127.0.0.1:4174/og/card.html> at 1200×630
+(append `?view=overview` for the neutral card), or render both:
+
+```sh
+python3 drone-map-revamp/og/render.py
+```
+
+The script needs Chrome (`google-chrome`, `chromium` or the macOS app, or set
+`CHROME`) and network access for the Google Fonts the cards use. It checks
+that actual font faces loaded, and validates the DOM and screenshot from the
+same navigation. Both cards must pass before either output is replaced.
+`--out /tmp/og-image.png` writes both images in `/tmp` for local checks.
+
 Recording pauses automatically when its tab is hidden, including unfinished audio tails,
 and resumes from the same date when the tab becomes visible again. Map framing accounts
 for the open studio; event stepping follows the selected country, outcome and date filters.
