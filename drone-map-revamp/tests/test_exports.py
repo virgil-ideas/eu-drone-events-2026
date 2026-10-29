@@ -1,5 +1,6 @@
 import importlib.util
 import json
+import re
 import tempfile
 import unittest
 from pathlib import Path
@@ -127,6 +128,30 @@ class AssetVersionChecks(unittest.TestCase):
         export.refresh_asset_versions(self.root)
         self.assertNotEqual(self.versions()['app.js'], old)
         self.assertIn(f'v={self.versions()["app.js"]}', (self.root / 'index.html').read_text())
+
+    def test_social_image_url_changes_with_the_card_inputs_only(self):
+        for name in export.OG_INPUTS:
+            asset = self.root / name
+            asset.parent.mkdir(parents=True, exist_ok=True)
+            if not asset.exists():
+                asset.write_text(f'original {name}', encoding='utf-8')
+        index = self.root / 'index.html'
+        index.write_text(index.read_text() + '<meta property="og:image" content="https://droneincidents.eu/og-image.png">\n')
+        version = lambda: re.search(r'og-image\.png\?v=([0-9a-f]{16})"', index.read_text())[1]
+        export.refresh_asset_versions(self.root)
+        previous = version()
+        (self.root / 'app.js').write_text('changed application')
+        export.refresh_asset_versions(self.root)
+        self.assertEqual(version(), previous)
+        for name in ('events.js', 'pages-data.js', 'og/card.js'):
+            with self.subTest(name=name):
+                (self.root / name).write_text(f'new content {name}')
+                with self.assertRaisesRegex(export.DataError, 'index.html'):
+                    export.refresh_asset_versions(self.root, check=True)
+                export.refresh_asset_versions(self.root)
+                self.assertNotEqual(version(), previous)
+                previous = version()
+        export.refresh_asset_versions(self.root, check=True)
 
     def test_missing_asset_fails_without_rewriting_manifest_or_html(self):
         export.refresh_asset_versions(self.root)

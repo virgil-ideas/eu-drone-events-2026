@@ -31,6 +31,27 @@ Lazy language files use the same manifest, so a previously cached page can still
 load new daily data and discard outdated translations. `--check` rejects stale
 manifests or HTML asset URLs. Commit these generated changes with the data update.
 
+## Social preview image
+
+The image shown when someone shares the site is drawn by `og/card.html` from
+the same data files as the map. It shows the 90-day trend, a map of the
+records and the latest incident. The deploy job renders it to `og-image.png`
+with headless Chrome before publishing, so each data update that reaches
+`main` also updates the image. The PNG is not committed.
+
+The build versions the `og:image` URL with a hash of the card's inputs.
+Facebook, LinkedIn and X cache previews by URL, so they fetch the new image
+once the data changes. To preview the card, open
+<http://127.0.0.1:4174/og/card.html> at 1200×630, or render it:
+
+```sh
+python3 drone-map-revamp/og/render.py
+```
+
+The script needs Chrome (`google-chrome`, `chromium` or the macOS app, or set
+`CHROME`) and network access for the Google Fonts the card uses. It fails
+rather than publish a card drawn in fallback fonts.
+
 Recording pauses automatically when its tab is hidden, including unfinished audio tails,
 and resumes from the same date when the tab becomes visible again. Map framing accounts
 for the open studio; event stepping follows the selected country, outcome and date filters.

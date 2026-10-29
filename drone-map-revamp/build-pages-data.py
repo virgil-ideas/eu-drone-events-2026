@@ -22,6 +22,10 @@ import translations  # noqa: E402
 SHARED_ASSETS = ('events.js', 'sitemap.xml', 'robots.txt', 'page.css', 'media.js', 'trend-data.js', 'landmark.js')
 DATA_ASSETS = ('events.js', 'pages-data.js', 'media.js')
 ASSET_LINK = re.compile(r'\b(?:src|href)=(?P<quote>["\'])(?P<url>[^"\']+)(?P=quote)')
+# The social preview card (og/card.html) is drawn from these files and rendered
+# to og-image.png when the site deploys.
+OG_IMAGE = re.compile(r'(?P<url>https://droneincidents\.eu/og-image\.png)(?:\?v=[0-9a-f]*)?')
+OG_INPUTS = ('events.js', 'pages-data.js', 'trend-data.js', 'geo-outline.js', 'i18n/en.js', 'og/card.html', 'og/card.js')
 
 
 def refresh_asset_versions(directory, check=False):
@@ -51,8 +55,17 @@ def refresh_asset_versions(directory, check=False):
         target = html.escape(urlunsplit(parsed._replace(query=urlencode(query))), quote=True)
         return match[0].replace(match['url'], target, 1)
 
+    page = ASSET_LINK.sub(versioned, markup)
+    if OG_IMAGE.search(page):
+        # Social sites cache previews by URL, so the image URL changes whenever
+        # anything the card shows changes.
+        digest = hashlib.sha256()
+        for name in OG_INPUTS:
+            digest.update(name.encode() + b'\0' + (directory / name).read_bytes())
+        page = OG_IMAGE.sub(lambda match: f"{match['url']}?v={digest.hexdigest()[:16]}", page)
+
     outputs = {
-        'index.html': ASSET_LINK.sub(versioned, markup),
+        'index.html': page,
         'asset-manifest.json': json.dumps({'schemaVersion': 1, 'assets': assets}, indent=2) + '\n',
     }
     stale = [name for name, text in outputs.items()

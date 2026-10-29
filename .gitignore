@@ -3,3 +3,4 @@ __pycache__/
 .sites-runtime/
 drone-map/.openai/
 drone-map/data/translations/parts/
+drone-map-revamp/og-image.png

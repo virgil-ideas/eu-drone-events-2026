@@ -2,9 +2,10 @@
   "schemaVersion": 1,
   "assets": {
     "analytics.js": "5c514d0cea945c53",
-    "app.js": "c831287ef4070a94",
+    "app.js": "51476f548e9deb24",
     "asset-loader.js": "fe87e7c8436b2ecc",
     "events.js": "f6831742c6d59364",
+    "geo-outline.js": "7a797e7d85757752",
     "i18n/bg.js": "d11e60e66077d27e",
     "i18n/cs.js": "82236f3d12dc3722",
     "i18n/da.js": "9428513a6c8df654",
