@@ -53,6 +53,44 @@ class ExportChecks(unittest.TestCase):
         with self.assertRaises(FileNotFoundError):
             export.sync_assets(self.source, self.target)
 
+    def test_event_image_versions_follow_data_and_reject_stale_urls(self):
+        for name in export.OG_INPUTS:
+            asset = self.target / name
+            asset.parent.mkdir(parents=True, exist_ok=True)
+            if not asset.exists():
+                asset.write_text(f'original {name}')
+        source_page = self.source / 'events/incident/index.html'
+        source_page.write_text('<meta property="og:image" content="https://droneincidents.eu/og-overview.png">')
+        register = self.source / 'events/index.html'
+        register.write_text(source_page.read_text())
+        image_url = lambda: re.search(r'content="([^"]+)"', (self.target / 'events/incident/index.html').read_text())[1]
+        export.sync_assets(self.source, self.target)
+        first = image_url()
+        self.assertRegex(first, r'/og-overview\.png\?v=[0-9a-f]{16}$')
+        self.assertEqual((self.target / 'events/index.html').read_text(), (self.target / 'events/incident/index.html').read_text())
+
+        # Use the pending canonical data, not yesterday's destination copy.
+        (self.source / 'events.js').write_text('new daily events')
+        with self.assertRaises(export.DataError):
+            export.sync_assets(self.source, self.target, check=True)
+        self.assertEqual(image_url(), first, 'check must not repair outputs')
+        export.sync_assets(self.source, self.target)
+        self.assertNotEqual(image_url(), first)
+        expected_version = export.social_image_version(self.target)
+        self.assertTrue(image_url().endswith('?v=' + expected_version))
+        export.sync_assets(self.source, self.target, check=True)
+
+        # A template/font change must invalidate event images even with no new data.
+        (self.target / 'og/fonts.js').write_text('new font handling')
+        with self.assertRaisesRegex(export.DataError, 'events/incident/index.html'):
+            export.sync_assets(self.source, self.target, check=True)
+        export.sync_assets(self.source, self.target)
+        export.sync_assets(self.source, self.target, check=True)
+        current = (self.target / 'events/incident/index.html').read_text()
+        (self.target / 'events/incident/index.html').write_text(re.sub(r'\?v=[0-9a-f]+', '', current))
+        with self.assertRaisesRegex(export.DataError, 'events/incident/index.html'):
+            export.sync_assets(self.source, self.target, check=True)
+
     def test_checks_and_refreshes_research_downloads_and_page_styles(self):
         research_files = [{'name': 'research.md'}, {'name': 'research-update.md'}]
         for item in research_files:

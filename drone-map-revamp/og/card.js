@@ -14,6 +14,7 @@
   const longDate = new Intl.DateTimeFormat('en-GB', {day:'numeric', month:'short', year:'numeric', timeZone:'UTC'});
   const day = iso => new Date(iso + 'T00:00:00Z');
   const countriesOf = event => event.countries.split(';').map(c => c.replace(/ \(.+\)/, '').trim()).filter(Boolean);
+  const overview = new URLSearchParams(window.location.search).get('view') === 'overview';
 
   $('brand-title').innerHTML = `${strings['brand.primary']} <span>${strings['brand.secondary']}</span>`;
   $('edition').textContent = strings.edition;
@@ -42,10 +43,17 @@
 
   // The map lists records oldest to newest and shows the last one first.
   const latest = events[events.length - 1];
-  const latestTags = [longDate.format(day(latest.startDate)), countriesOf(latest).join(' / ')];
-  if (latest.recordClass === 'candidate') latestTags.push(t('class.candidate'));
-  $('latest-label').innerHTML = `<i>Latest</i> · ${latestTags.map(escapeHtml).join(' · ')}`;
-  $('latest-headline').textContent = (pages[latest.id] || {}).headline || latest.title;
+  if (overview) {
+    // Event links keep their own title and description in the metadata; their
+    // image must not imply that a different, newer incident is the linked story.
+    $('latest-label').textContent = 'Across Europe · Interactive research register';
+    $('latest-headline').textContent = 'Explore the incidents, read the sources and replay the timeline.';
+  } else {
+    const latestTags = [longDate.format(day(latest.startDate)), countriesOf(latest).join(' / ')];
+    if (latest.recordClass === 'candidate') latestTags.push(t('class.candidate'));
+    $('latest-label').innerHTML = `<i>Latest</i> · ${latestTags.map(escapeHtml).join(' · ')}`;
+    $('latest-headline').textContent = (pages[latest.id] || {}).headline || latest.title;
+  }
 
   const countryCount = new Set(events.flatMap(countriesOf)).size;
   const sep = '<span class="sep">·</span>';
@@ -56,15 +64,10 @@
   ].join(sep);
   $('honesty').textContent = strings['sidebar.foot'];
 
-  try {
-    await Promise.all(['800 148px Manrope', '700 23px "DM Sans"', '600 29px "DM Sans"', '500 27px "DM Sans"', '400 19px "DM Sans"']
-      .map(font => document.fonts.load(font)));
-  } catch (error) {
-    // Reported through data-fonts below.
-  }
-  document.body.dataset.fonts = document.fonts.check('800 148px Manrope') && document.fonts.check('600 29px "DM Sans"') ? 'ok' : 'missing';
+  await window.DRONE_OG_FONTS.load(document.fonts, document.body.textContent);
+  document.body.dataset.fonts = 'ok';
   // After the fonts, so map labels measure at their final width.
-  drawMap(comparison, latest);
+  drawMap(comparison, overview ? null : latest);
   document.body.dataset.ready = '1';
 
   function drawMap(comparison, newest) {
@@ -111,7 +114,7 @@
         parts.push(`<circle class="${isRecent ? 'recent' : 'earlier'}" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${isRecent ? 6.5 : 4.5}"/>`);
       }
     }
-    for (const position of newest.positions) {
+    for (const position of newest?.positions || []) {
       const [x, y] = project(position.lat, position.lng);
       parts.push(`<circle class="newest" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="15"/>`);
     }

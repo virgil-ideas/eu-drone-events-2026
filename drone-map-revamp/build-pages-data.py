@@ -23,9 +23,26 @@ SHARED_ASSETS = ('events.js', 'sitemap.xml', 'robots.txt', 'page.css', 'media.js
 DATA_ASSETS = ('events.js', 'pages-data.js', 'media.js')
 ASSET_LINK = re.compile(r'\b(?:src|href)=(?P<quote>["\'])(?P<url>[^"\']+)(?P=quote)')
 # The social preview card (og/card.html) is drawn from these files and rendered
-# to og-image.png when the site deploys.
-OG_IMAGE = re.compile(r'(?P<url>https://droneincidents\.eu/og-image\.png)(?:\?v=[0-9a-f]*)?')
-OG_INPUTS = ('events.js', 'pages-data.js', 'trend-data.js', 'geo-outline.js', 'i18n/en.js', 'og/card.html', 'og/card.js')
+# to the home and neutral overview PNGs when the site deploys.
+OG_IMAGE = re.compile(r'(?P<url>https://droneincidents\.eu/og-(?:image|overview)\.png)(?:\?v=[0-9a-f]*)?')
+OG_INPUTS = ('events.js', 'pages-data.js', 'trend-data.js', 'geo-outline.js', 'i18n/en.js',
+             'og/card.html', 'og/card.js', 'og/fonts.js')
+
+
+def social_image_version(directory, pending_assets=None):
+    """Hash the data being published, including canonical assets not yet copied."""
+    pending_assets = pending_assets or {}
+    digest = hashlib.sha256()
+    for name in OG_INPUTS:
+        content = pending_assets.get(Path(name))
+        if content is None:
+            content = (directory / name).read_bytes()
+        digest.update(name.encode() + b'\0' + content)
+    return digest.hexdigest()[:16]
+
+
+def version_social_images(markup, version):
+    return OG_IMAGE.sub(lambda match: f"{match['url']}?v={version}", markup)
 
 
 def refresh_asset_versions(directory, check=False):
@@ -59,10 +76,7 @@ def refresh_asset_versions(directory, check=False):
     if OG_IMAGE.search(page):
         # Social sites cache previews by URL, so the image URL changes whenever
         # anything the card shows changes.
-        digest = hashlib.sha256()
-        for name in OG_INPUTS:
-            digest.update(name.encode() + b'\0' + (directory / name).read_bytes())
-        page = OG_IMAGE.sub(lambda match: f"{match['url']}?v={digest.hexdigest()[:16]}", page)
+        page = version_social_images(page, social_image_version(directory))
 
     outputs = {
         'index.html': page,
@@ -86,6 +100,12 @@ def sync_assets(source, destination, check=False, research_files=()):
     if not event_files:
         raise DataError('Canonical event pages are missing. Build drone-map first.')
     expected.update({path.relative_to(source): path.read_bytes() for path in event_files})
+    image_pages = {path: data.decode('utf-8') for path, data in expected.items()
+                   if path.suffix == '.html' and OG_IMAGE.search(data.decode('utf-8'))}
+    if image_pages:
+        version = social_image_version(destination, pending_assets=expected)
+        expected.update({path: version_social_images(markup, version).encode('utf-8')
+                         for path, markup in image_pages.items()})
     extras = {path.relative_to(destination) for path in (destination / 'events').rglob('*.html')} - expected.keys()
     if check:
         stale = [str(path) for path, data in expected.items()
