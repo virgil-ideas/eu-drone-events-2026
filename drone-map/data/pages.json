@@ -62,7 +62,7 @@
       "A drone struck the Auvere power-station chimney on 25 March. No injuries or electricity-system interruption were reported. Early Estonian authorities described the drone as Ukrainian and reported entry from Russia.",
       "The prosecutor’s 23 October closure did not establish the drone’s origin or precise circumstances. The Ukrainian-diversion hypothesis remained unproved. Investigators found no indication of deliberate activity against Estonia; this does not establish another intended target. The confirmed impact remains one occurrence."
     ],
-    "basis": "2786aa0f496c40a3"
+    "basis": "c43e8a8deee37ace"
   },
   "E007": {
     "slug": "2026-03-25-drone-crashes-kraslava-region-latvia",
@@ -189,9 +189,9 @@
     "summary": [
       "On 15 May 2026 suspected drone activity in the Helsinki metropolitan area of Finland triggered broad protective measures. Residents were warned to stay indoors, activity at the airport was suspended and fighter jets were scrambled. How many drones were involved, and of what type, has not been resolved.",
       "Foreign origin has not been proven, and the route of any drones is unknown. Finnish authorities assessed the threat, and their statement at the time did not confirm a direct military threat. The episode was an alert and disruption, not a confirmed attack.",
-      "No physical harm was reported."
+      "No physical harm was reported. Airport operator Finavia confirms that air traffic was suspended from 04:00 to 07:00 local, then resumed, with delays and cancellations that day. It gives no cancellation total and does not identify a drone."
     ],
-    "basis": "61bf328e0886f8d4"
+    "basis": "bc01874b1419384e"
   },
   "E019": {
     "slug": "2026-05-17-drone-wreckage-explosives-samane-utena-lithuania",
@@ -611,14 +611,14 @@
   },
   "E057": {
     "slug": "2026-09-14-drone-recovered-rusinowo-beach-jaroslawiec-poland",
-    "headline": "Suspected Russian military drone recovered off Rusinowo beach, Poland",
-    "description": "On 14 September 2026 Poland’s military pulled a drone from the sea off Rusinowo beach; the defence minister’s preliminary assessment is that it is Russian.",
+    "headline": "Drone recovered at Rusinowo beach; warhead disposed of safely",
+    "description": "A drone washed ashore near Rusinowo on 14 September. Prosecutors preliminarily identified a Russian-made Gerbera and described controlled warhead disposal.",
     "summary": [
-      "On 14 September 2026 the Polish military located a suspected military drone in the Baltic Sea just off Rusinowo beach, close to Jarosławiec on the coast of Poland, and pulled it from the water for examination. The date is that of the discovery and recovery; when the drone flew, and by what route it reached the Polish coast, is not known.",
-      "Poland’s defence minister said the preliminary assessment was that it was a Russian military drone. That identification is preliminary and depends on the examination of the recovered drone. No payload was reported.",
-      "No casualties or damage were reported in connection with the find."
+      "A naval crew observed a UAV drifting near Jarosławiec around 09:20 on 14 September; it washed ashore near Rusinowo around 11:25, according to the Poznań prosecutor’s 1 October statement. This is one recovery and disposal occurrence, not another event on the follow-up publication date.",
+      "Specialists separated a warhead with a potential explosive charge and destroyed it in a controlled detonation. Investigators preliminarily identified a Russian-made Gerbera. The operator, target, flight route and sea-impact circumstances remain unresolved; manufacture does not establish operator or intent.",
+      "The investigation transferred to Poznań on 25 September and specialist examinations were ordered. No casualties or damage were reported."
     ],
-    "basis": "5bc914d23a6963bd"
+    "basis": "1063d8fd1089324a"
   },
   "E058": {
     "slug": "2026-09-15-nato-fighter-downs-drone-pratkunai-lithuania",
@@ -1741,14 +1741,15 @@
   },
   "N112": {
     "slug": "2026-10-23-khoryv-drone-strike-constanta-romania",
-    "headline": "KHORYV drone-strike report: vessel capsized but still afloat",
-    "description": "KHORYV capsized off Constanța on 23 October. A navigation notice says it remains afloat, conflicting with sinking reports. One dead; three missing.",
+    "headline": "KHORYV drone-strike report: partially submerged wreck remains hazardous",
+    "description": "KHORYV was reported hit offshore on 23 October. One dead and three missing were reported; later accounts describe a partially submerged navigation hazard.",
     "summary": [
-      "KHORYV capsized outside Romanian territorial waters on 23 October. AGERPRES links it to the president’s statement that a drone struck a vessel. The current primary navigation notice, ARN158, reports KHORYV partially submerged but still afloat upside down as of 27 October, despite press reports of sinking. Completed sinking is not treated as established.",
+      "KHORYV was reported hit by a drone and caught fire offshore from Constanța on 23 October before capsizing. NAVWARN 766/26 describes the dated 28 October 18:00 UTC observation of a capsized, semi-submerged drifting wreck. On 29 October bTV, citing the Bulgarian defence ministry, reported partial submergence and continuing danger; Maritime.bg later reported the stern grounded and the bow still visible on 30 October. Completed total sinking is not established. These later wreck observations do not relocate the original offshore strike.",
       "Romania reports thirteen crew: nine rescued, one dead and three missing. Ukraine confirms a Ukrainian fatality but reports fourteen crew; the discrepancy remains unresolved. The notices give dated capsize and subsequent drifting-wreck positions, not a verified strike coordinate. Operator attribution and the final search outcome remain unresolved.",
-      "Bulgaria announced monitoring and a planned naval inspection on 27 October. The next morning its defence minister said the wreck was entering Bulgarian territorial sea. These are later drifting-wreck reports, not a new attack or a change to the original offshore strike location."
+      "Bulgaria announced monitoring and a planned naval inspection on 27 October. The next morning its defence minister said the wreck was entering Bulgarian territorial sea. These are later drifting-wreck reports, not a new attack or a change to the original offshore strike location.",
+      "bTV reported Reshitelni on scene and operations paused for bad weather; Maritime.bg described scuttling attempts. These remain follow-ups to the same occurrence, not a new attack or resolution of the missing-person outcome."
     ],
-    "basis": "3f80c1f96dede827"
+    "basis": "6eaba96a1cd81284"
   },
   "N113": {
     "slug": "2026-10-21-turkish-uav-activity-aegean-greece",
@@ -1786,9 +1787,9 @@
     "description": "A foam airframe was found in Lubaczów on 21 October 2026. Military police found no explosives; origin and any foreign connection remain unknown.",
     "summary": [
       "Wreckage was reported on an unoccupied Herzoga Street property in Lubaczów shortly after 13:00 on 21 October 2026. Nearby residents were evacuated while specialists assessed possible hazards; no injuries or property damage were reported.",
-      "Military police identified an unarmed foam airframe and excluded explosives and radiological, biological or chemical hazards on 22 October. The prosecutor’s 23 October update reports transfer of the drone to military counterintelligence and testing of its attached package in Warsaw. The preliminary short-range assessment does not establish origin or foreign entry. This remains one provisional recovery candidate."
+      "Military police identified an unarmed foam airframe and excluded explosives and radiological, biological or chemical hazards on 22 October. Radio Lublin’s 22 October article quotes the prosecutor spokesman saying the drone had been transferred to military counterintelligence and its package sent for testing; the same-day primary release still describes transfer prospectively. The preliminary short-range assessment does not establish origin or foreign entry. This remains one provisional recovery candidate."
     ],
-    "basis": "ae3d8b0e4df30988"
+    "basis": "c348e23f3a72ace3"
   },
   "N117": {
     "slug": "2026-10-23-turkish-uav-activity-aegean-greece",
@@ -1819,7 +1820,7 @@
       "Authorities said it may have entered Latvian airspace on 18 October. The record uses the confirmed discovery date, not an assumed crash date. National origin, operator, route and intent remain unknown.",
       "A ministerial suggestion that a Ukrainian drone might have been damaged over Russia and glided into Latvia is explicitly conditional; it does not establish origin or route."
     ],
-    "basis": "2180afb2b633ba9b"
+    "basis": "078e2e1451213e17"
   },
   "N121": {
     "slug": "2026-10-24-turkish-uav-activity-aegean-greece",
@@ -1853,12 +1854,63 @@
   },
   "N124": {
     "slug": "2026-10-28-contship-jet-maritime-drone-strike-kaliakra-bulgaria",
-    "headline": "CONTSHIP JET hit by maritime drones off Cape Kaliakra, minister says",
-    "description": "Bulgaria’s defence minister reported three maritime drones striking CONTSHIP JET offshore on 28 October. Its manager says all 18 crew are safe.",
+    "headline": "CONTSHIP JET struck by surface drones offshore; crew rescued, ship later sank",
+    "description": "Bulgarian authorities report a surface-drone strike on CONTSHIP JET on 28 October. All 18 crew were rescued; Varna Radio confirms its later sinking.",
     "summary": [
-      "CONTSHIP JET was reported attacked off Bulgaria’s Cape Kaliakra on 28 October while sailing from Haifa toward Constanța. Bulgaria’s defence minister said three maritime drones struck a container ship during that day’s trilateral meeting. Preliminary maritime reporting places the attack outside Bulgarian territorial waters.",
-      "The crew reportedly abandoned ship in life rafts, and the ship manager later said all 18 were safe. Listing and lost containers were reported; final vessel condition, drone model and operator remain unresolved. This is one offshore shipping occurrence, not three events or a confirmed Bulgarian territorial incursion."
+      "Bulgarian defence authorities say Navy surveillance and a French patrol aircraft observed a surface-drone attack on CONTSHIP JET at 12:00 local (10:00 UTC) on 28 October, with three hits observed. Varna Radio gives the strike position as 43°15′N, 028°48′E off Cape Kaliakra. This is one offshore merchant-shipping occurrence, not a confirmed Bulgarian territorial incursion.",
+      "Defence and transport authorities confirm all 18 crew were rescued. Varna Radio NAVWARN 768/26 confirms the ship subsequently sank at 20:30 UTC on 28 October at 43°07.80′N, 028°45.36′E, with more than 20 containers drifting, including dangerous goods. This supersedes the earlier unofficial sinking report.",
+      "The drone operator, launch origin and motive remain unknown. Reuters reports Ambrey’s provisional video-based assessment of a likely Murena-300S-derived design; this is not a confirmed model or operator identification. Three reported drones and three observed hits are not separate incidents. The later sinking position does not replace the original strike coordinate."
     ],
-    "basis": "b2933f2512604729"
+    "basis": "df370dbb741935a5"
+  },
+  "N125": {
+    "slug": "2026-05-08-osieka-reconnaissance-uav-recovery-poland",
+    "headline": "UAV recovered near Osieka after prosecutor-reported crossing from Russia",
+    "description": "Prosecutors report an unauthorized Russian–Polish border crossing on 8 May; the unarmed UAV was recovered near Osieka on 9 May. Operator remains unknown.",
+    "summary": [
+      "An unarmed reconnaissance UAV was recovered whole after a civilian field discovery near Osieka on 9 May. On 11 May the Olsztyn prosecutor spokesman said investigators were certain it had crossed the Russian–Polish border and dated the crossing under investigation to 8 May.",
+      "The evidential basis for that crossing finding was not disclosed. Operator, manufacture, intended target, precise track and crash time remain unresolved. Media claims of cameras and Cyrillic markings were not confirmed by the prosecutor. This is one retrospective occurrence, not new October activity."
+    ],
+    "basis": "a204ab672c6152ab"
+  },
+  "N126": {
+    "slug": "2026-10-21-popski-beach-tsarevo-unidentified-uav-fragments-bulgaria",
+    "headline": "UAV fragments recovered at Popski Beach; origin unresolved",
+    "description": "A Navy team recovered UAV parts at Popski Beach, Tsarevo, on 21 October, according to a MoD response. Flight date and national origin remain unknown.",
+    "summary": [
+      "OFFNews quotes the Bulgarian defence ministry confirming that a Navy team examined and collected UAV parts at Popski Beach on 21 October and transported them to base. This dates a recovery operation, not a flight or crash.",
+      "The ministry explicitly distinguished the recovery from an unverified nearby Arapya allegation. Model, origin, operator, payload and arrival mechanism remain unresolved. This provisional recovery candidate is not a confirmed foreign incursion or evidence of another distinct airframe."
+    ],
+    "basis": "59610b03d1559200"
+  },
+  "N127": {
+    "slug": "2026-10-28-listi-beach-sinemorets-unidentified-drone-fragments-bulgaria",
+    "headline": "Drone fragments reported at Listi Beach; recovery date unknown",
+    "description": "BNR reported a wing and fuselage section collected at Listi Beach near Sinemorets. The 28 October date is publication, not a verified discovery date.",
+    "summary": [
+      "BNR’s Burgas correspondent reported a wing and fuselage section found at Listi Beach and collected by Border Police after notification. The article was published on 28 October but supplies no exact discovery or recovery date; the register uses the report date as an explicit proxy.",
+      "Origin, model, operator, payload and flight or crash date remain unresolved. This provisional recovery candidate is distinct by reported location from Popski Beach, but another unique airframe is not established. The nearby Arapya attribution claim is not transferred to these fragments."
+    ],
+    "basis": "a8b25d2e825581ad"
+  },
+  "N128": {
+    "slug": "2026-10-30-turkish-uav-activity-aegean-greece",
+    "headline": "Greece reports five Turkish UAVs in 13 Aegean airspace violations",
+    "description": "Greek military reporting assigns 13 national-airspace violations to five Turkish UAVs on 30 October. One daily record; exact tracks remain unpublished.",
+    "summary": [
+      "Greek military figures reported on 30 October assign 13 national-airspace violations and 11 Athens FIR infringements to five Turkish UAVs in the northeastern, central and southeastern Aegean. The national-airspace assessment and military attribution are those of Greece; precise tracks remain unpublished.",
+      "This is one daily regional record, not 13 attacks. Manned-aircraft infringements and two engagements in the mixed daily account are not evidence of UAV armament, weapons engagement or shoot-down. Exact models, payloads and intended targets remain unknown."
+    ],
+    "basis": "64f909a26926c73f"
+  },
+  "N129": {
+    "slug": "2026-10-31-two-drone-entries-northeastern-romania",
+    "headline": "Romania confirms two unauthorized drone entries in its northeast",
+    "description": "Romania reports two drone entries on 31 October. One left; the other was last observed near Vaslui and Bacău. No crash was reported.",
+    "summary": [
+      "Romania’s defence ministry confirms two drones entered northeastern national airspace on the evening of 31 October 2026. One departed; the other was last observed between Vaslui and Bacău counties. No crash was reported at publication.",
+      "Four F-16s and an IAR-330 SOCAT launched, and public warnings ended at 19:19 local. This is one occurrence involving two drones, not two verified attacks. Operator, model, intent and targets remain unknown; the map anchor is approximate."
+    ],
+    "basis": "2805be5cb137c425"
   }
 }

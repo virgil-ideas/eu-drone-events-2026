@@ -452,3 +452,191 @@ The inclusive cutoff advances to 28 October for the new dated record. This targe
 shipping check does not extend the morning EU27 search comprehensively. Greek
 27 October daily coverage and the older 13–14 and 16–18 October gaps remain open,
 as do the previous country/source limitations. No claim of exhaustive coverage.
+
+## 29 October review
+
+Partial public-source EU27 review covers 25–29 October through approximately
+06:05 UTC, overlapping the last broad 28 October 05:58 UTC check by more than
+72 hours and revisiting older leads. No new qualifying occurrence was verified.
+N124 CONTSHIP JET gains official defence/transport rescue confirmation for all
+18 crew and Varna Radio's dated strike position/time and container hazard.
+Overnight Maritime.bg sinking reporting remains explicitly unofficial. N112
+KHORYV gains Varna Radio's 28 October 18:00 UTC drifting-wreck observation, not
+a new attack, changed original strike anchor or resolution of missing crew.
+N116 Lubaczów gains the prosecutor's primary 22 October examination statement,
+without an origin finding or a new record. The unchanged 28 October inclusive
+occurrence cutoff does not certify exhaustive coverage.
+
+Eemshaven: NOS/RTV Noord reported on 28 October that police took control of and
+seized one drone and arrested a man resident in Belgium the previous Tuesday
+(20 October inferred). He was released after questioning but remains a suspect.
+Police did not assume a connection to other recent Groningen sightings. Residence
+in Belgium is not evidence of a cross-border drone flight; this remains a
+watchlist follow-up, not a new incursion or closure of all sightings. Source:
+https://nos.nl/artikel/2637079-man-aangehouden-voor-vliegen-met-drone-boven-eemshaven
+
+The Medyka headline about a Russian drone striking a railway platform describes
+the 27 October MEDYKA 2026 emergency exercise, not an attack. Source:
+https://przemysl.naszemiasto.pl/rosyjski-dron-uderzyl-w-peron-tak-wygladaly-cwiczenia-sluzb-w-medyce-zdjecia-wideo/ar/c1p2-29475101
+Lithuanian balloon-carried cigarettes, authorized domestic policing and tests,
+and Greek UVEX UAV/USV/UUV exercises are not new drone incursions.
+
+Greek 27–28 October daily figures were not recovered; 27 October republications
+refer to the existing 26 October record. Older 13–14 and 16–18 October gaps remain.
+GEETHA's airspace archive and Finnish police/border pages were inaccessible;
+several national indexes yielded thin or stale results. Nordic, Irish,
+Luxembourg/Malta/Portugal and parts of central-European coverage remain limited.
+No new qualifying surface/underwater event was verified beyond the existing
+Black Sea follow-ups; this is not proof of zero activity. Existing unresolved
+Wunstorf, Nuremberg, Toulon and Jaslovské Bohunice leads remain open.
+
+## 30 October review
+
+Partial public-source EU 27 review covers 26–30 October through approximately
+06:10 UTC, with more than 72 hours of overlap with the previous broad check and
+historical lead revisits. Country/source gaps remain; this is not an exhaustive
+search or evidence of zero activity. The inclusive occurrence cutoff remains
+28 October, not a completeness certificate.
+
+N 125 retrospectively adds the prosecutor-reported 8 May Russian–Polish border
+crossing and 9 May Osieka UAV recovery as one occurrence; operator and intent
+remain unknown. N 126 adds the MoD-attributed 21 October Popski Beach UAV-parts
+recovery as a candidate. N 127 adds BNR's Listi Beach recovery report as a separate
+candidate, explicitly using 28 October publication as a date proxy because the
+recovery date is unknown. Distinct recovery sites do not establish distinct
+airframes. Arapya Russian/Geran social-media claims remain unverified and are
+not transferred to either recovery.
+
+N 124 CONTSHIP JET sinking is now confirmed by Varna Radio NAVWARN 768/26 for
+28 October 20:30 UTC; later sinking coordinates do not replace the strike anchor.
+N 112 KHORYV gains attributed partial-submergence/grounding and navigation-hazard
+updates; no completed total sinking, new attack or final casualty outcome inferred.
+E 057 Rusinowo is corrected from sea-retrieval shorthand to the prosecutor's sea
+observation/beach-arrival chronology, preliminary Gerbera identification and
+controlled warhead disposal. N 116 retains conflicting same-day transfer wording
+with explicit attribution; Radio Lublin publication date is corrected to 22 October.
+
+Eemshaven remains watchlist-only: Eemskrant 28 October explicitly dates the arrest
+to 20 October; NL Times 29 October reports the suspect returned to Belgium but remains
+under suspicion. Residence is not proof of foreign drone entry, and police do not
+link him to all other sightings. Drone examination remains ongoing.
+https://www.eemskrant.nl/politie-houdt-man-aan-voor-vliegen-met-drone-boven-eemshaven/
+https://nltimes.nl/2026/10/29/belgian-resident-arrested-flying-drone-groningens-eemshaven
+
+Greek 27–29 October daily coverage and older 13–14/16–18 October gaps remain open;
+GEETHA archive and homepage returned 403. Search results include reused older
+daily figures, not new occurrences. Cyprus 29 October Turkish fighter/support
+training was reported in international airspace, not a verified drone incursion.
+Ustka 24 October Alpha Wing loss was an authorized domestic test; Medyka was an
+exercise. Lithuanian cigarette balloons, authorized policing/rescue, domestic
+hospital/utility flights and preventive airport restrictions are not new drone
+incursions. Northern/central indexes, Malta, Ireland, Luxembourg, Portugal and
+Austria remained uneven or thin; several primary pages were inaccessible.
+Existing Wunstorf, Nuremberg, Toulon and Jaslovské Bohunice leads remain open.
+No additional qualifying underwater occurrence was verified; this is not proof
+of absence. Original research downloads and stable published URLs are preserved.
+
+## 31 October Saturday retrospective
+
+Partial public-source review revisited all 27 EU states for 1–31 October, including
+27–31 October overlap with the previous partial review. This is not a completed
+exhaustive search. Older unresolved country/source gaps remain open. The inclusive
+reporting cutoff advances to 30 October for the independently checked dated Greek
+record below, not as proof that all activity through that date has been recovered.
+
+N 128 adds the Greek-authority-reported 30 October daily UAV activity: five UAVs,
+13 national-airspace violations and 11 UAV FIR infringements. SKAI and ProtoThema
+report one official account, not independent tracks. Manned-aircraft infringements
+and two mixed-account engagements do not establish UAV armament or weapons engagement.
+Greek daily gaps for 13–14, 16–18 and 27–29 October remain open; GEETHA archive access
+again returned 403. Reused August articles with October page headers are not added.
+Cypriot electricity-network inspections and mosquito spraying remain ordinary
+domestic activity; no new qualifying Cyprus occurrence was verified.
+
+Komorowo Żuławskie's 28 October find remains outside the register: the police
+spokesman described a civilian drone without a pyrotechnic hazard, possibly lying
+there for some time. Ownership and route remain unknown; a foreign incursion is
+not established. Denmark's 6 October Hellebæk recovery is explained by police as
+a Defence shoot-down exercise in Øresund, not an unexplained foreign drone.
+https://radioolsztyn.pl/policja-zabezpieczyla-drona-znalezionego-w-okolicach-komorowa-zulawskiego/01898797
+https://politi.dk/nordsjaellands-politi/doegnrapporter/nordsjaellands-politi-uddrag-af-doegnrapporten-6-7-oktober-2026/2026/10/07
+
+Nuremberg airport's own account retains the 13 October sighting as unconfirmed:
+six flights affected, two diversions. Its body date is 13 October despite the
+12 October header. Neither precautionary disruption nor a sighting establishes
+foreign entry. The watchlist lead remains open.
+https://www.airport-nuernberg.de/de/moegliche-drohnensichtungen
+
+Portlaoise's 6 October prison-area drone/drugs/phones seizure is domestic criminal
+context without an established cross-border flight; it is not added as an incursion.
+https://www.garda.ie/en/about-us/our-departments/office-of-corporate-communications/press-releases/2026/october/06-10-2026-seizure-of-drone-suspected-drugs-and-mobile-phones-portlaoise-co-laois-6th-october-2026.html
+
+The 31 October Varna Radio board retains NAVWARN 768/26 confirming CONTSHIP JET's
+28 October sinking and NAVWARN 766/26's dated KHORYV drift observation. New NAVWARN
+775/26 is an advance entry-reporting procedure, not a new attack or harbour closure.
+N 124 now distinguishes Reuters' attributed, provisional Ambrey Murena-300S-derived
+design assessment from unknown operator attribution. KHORYV's 30 October afternoon
+field update still shows a protruding bow; completed total sinking is not established.
+
+The ERT/Eurovision retrospective mixes drones with other hybrid incidents and broad
+attribution claims; totals and map points are not automatically imported. Country
+indexes and primary access remain uneven, especially older Greek daily reports and
+several western/central states. No additional qualifying underwater occurrence was
+verified; this is not evidence that none occurred. Original archives remain unchanged.
+
+Romanian DHM ARN 162 reports a dangerous floating object observed on 30 October
+at 11:31 local near 44°30.94′N, 029°33.70′E. ARN 161 retains the separate dated
+29 October observation. Neither warning identifies a drone or establishes that
+both sightings concern one object; no drone record or attack attribution is added.
+https://www.dhmfn.ro/ro/informatii-de-interes-public/avize-radio-pentru-navigatori/
+
+## 1 November review
+
+Partial public-source EU27 review covers 28 October–1 November through approximately
+06:00 UTC, with at least 72 hours of overlap and targeted older-gap revisits.
+The last genuinely complete-search marker is not advanced: earlier country/source
+gaps and the 31 October partial retrospective remain unresolved. The inclusive
+reporting cutoff advances to 31 October for a verified dated incursion, not as
+proof of exhaustive EU coverage.
+
+N129 adds MApN release 352's 31 October evening northeast Romania incursion as
+one occurrence involving two reported UAVs. One departed; the other was last
+observed between Vaslui and Bacău. No crash was reported at publication. Fighter
+and helicopter launches do not establish engagement, and the 19:19 local end of
+warnings does not establish the second drone's fate. Operator, model, intent,
+precise route and target remain unknown. September 8 record E056 is separate;
+recycled Moldovan-crash reporting must not be transferred to this episode.
+https://www.mapn.ro/cpresa/19461_Comunicat-de-pres%C4%83
+
+E018 gains airport-operator corroboration of the 15 May Helsinki traffic suspension
+from 04:00 to 07:00 local and resumption with delays/cancellations. The 30 October
+retrospective is not a new incident, and third-party cancellation totals and an
+unfounded-alert claim are not adopted from inaccessible reporting. Finavia does
+not identify the suspected drone or establish foreign origin.
+https://www.finavia.fi/en/newsroom/2026/air-traffic-helsinki-airport-suspended-15-may-2026
+
+Greek 13–14, 16–18, 27–29 and 31 October daily gaps remain open; GEETHA archive
+access is unavailable. A 31 October-dated article repeats the 30 October account
+already recorded as N128, not another daily occurrence. Varna Radio's 1 November
+05:30 UTC board retains NAVWARN 768/26 and 766/26; new hydrographic-survey and
+diving-exercise notices are not attacks. KHORYV's 31 October secondary story
+recycles the 30 October field account; the original Maritime.bg report still
+shows a protruding bow and does not establish completed sinking. Popski/Listi
+recovery dates and attribution limitations remain unchanged.
+
+Northern/eastern checks found no further verified addition or material correction.
+Lithuanian warning-authority changes and delayed October 18 warnings concern the
+existing episode; balloon-smuggling reports are not drone incursions. Komorowo's
+civilian-drone find does not establish foreign entry. Sargs.lv maintenance,
+Raja.fi access limits and inaccessible Hungarian police indexing leave gaps.
+
+Western checks retain Eemshaven's 20 October arrest and unresolved route; Belgian
+residence is not cross-border flight evidence. Nuremberg's 13 October sighting
+remains unconfirmed. Toulon and Wunstorf follow-ups do not establish new occurrences.
+Jersey airport reports are outside EU27. French policing flights, Portugal REPMUS
+exercise activity, Italian anti-UAS/underwater trials, Croatian drone handover,
+Slovenian precautionary restrictions and Cyprus/Malta domestic activities are not
+qualifying incursions. Urda's filming-drone lead lacks foreign-entry evidence and
+an accessible original report. Several western/central and small-state indexes
+remain thin. No qualifying underwater occurrence was verified; this is not proof
+of absence. Original archives, stable IDs and published URLs remain unchanged.

@@ -2436,8 +2436,9 @@
     "id": "U160",
     "publisher": "Radio Lublin",
     "title": "Dron z Lubaczowa pod lupą lubelskiej prokuratury. Są pierwsze ustalenia",
-    "url": "https://radio.lublin.pl/2026/10/dron-z-lubaczowa-pod-lupa-lubelskiej-prokuratury-sa-pierwsze-ustalenia/amp/",
-    "audit": "23 October report opened 24 October 2026; prosecutor spokesman distinguishes drone transfer to military counterintelligence from attached package sent for testing. Preliminary range assessment is attributed, not a proved launch location."
+    "url": "https://radio.lublin.pl/2026/10/dron-z-lubaczowa-pod-lupa-lubelskiej-prokuratury-sa-pierwsze-ustalenia/",
+    "audit": "Originally reviewed 24 October; canonical full article reread 30 October and displays 22 October 2026, 14:27. Existing AMP version uses relative age, not a reliable absolute 23 October publication date. Prosecutor spokesman says UAV transferred to military counterintelligence and package separately sent for testing; range assessment preliminary, no launch location or foreign crossing established.",
+    "dateLabel": "22 October 2026, 14:27"
   },
   "U161": {
     "id": "U161",
@@ -2467,7 +2468,8 @@
     "publisher": "Estonian Prosecutor’s Office",
     "title": "Prokuratuur lõpetas Auvere drooni juhtumi uurimise",
     "url": "https://www.prokuratuur.ee/uudised/prokuratuur-lopetas-auvere-drooni-juhtumi-uurimise",
-    "audit": "23 October 2026, 10:45. Primary article text read through indexed full text 25 October. Investigation closed with origin and precise circumstances unresolved; extensive destruction prevented reliable identification. Ukrainian diversion hypothesis investigated but not established. No indication of deliberate activity against Estonia; impact remains confirmed."
+    "audit": "23 October 2026, 10:45. Primary article text read through indexed full text 25 October. Investigation closed with origin and precise circumstances unresolved; extensive destruction prevented reliable identification. Ukrainian diversion hypothesis investigated but not established. No indication of deliberate activity against Estonia; impact remains confirmed. Primary full body directly reopened 30 October 2026 and confirms the same unresolved-origin closure; no new occurrence or finding.",
+    "dateLabel": "23 October 2026, 10:45"
   },
   "U163": {
     "id": "U163",
@@ -2609,5 +2611,175 @@
     "url": "https://www.replicaonline.ro/inca-o-nava-a-fost-lovita-de-3-drone-in-marea-neagra-se-indrepta-spre-portul-constanta-672483",
     "dateLabel": "28 October 2026, 14:16",
     "audit": "Full article directly read in browser on 28 October 2026. Relays BNT evacuation reporting, the defence minister's statement that three maritime drones hit a container ship about 21 nautical miles off Shabla in Bulgaria's EEZ, and Maritime.bg's CONTSHIP JET identification and Haifa–Constanța route. These repeat existing source accounts, not an independent observation or another attack. The casualty figures in its retrospective section concern KHORYV on 23 October, not CONTSHIP JET; no operator attribution or confirmed sinking is supplied."
+  },
+  "U187": {
+    "id": "U187",
+    "publisher": "Varna Radio / Bulgarian VTMIS",
+    "title": "Varna Radio navigation warnings: CONTSHIP JET strike, sinking and hazardous containers; KHORYV wreck position",
+    "audit": "Primary navigation notices directly read 29 October 2026. Dated observations are distinguished from retrieval time; KHORYV drift is not the original strike position. Re-read 30 October: NAVWARN 768/26 confirms CONTSHIP JET sank 28 October at 20:30 UTC at 43°07.80′N, 028°45.36′E; more than 20 dangerous-goods containers adrift. Earlier 759/26 and 761/26 were read on 29 October but are no longer displayed in the rolling bulletin. NAVWARN 766/26 remains displayed. Re-read 31 October with a 05:30 UTC weather header: 768/26 and 766/26 remain displayed. New 775/26 concerns advance territorial-sea entry reporting, not a drone attack.",
+    "url": "https://www.vtmis.bg/wx/wx_eng.htm"
+  },
+  "U188": {
+    "id": "U188",
+    "publisher": "Bulgarian Ministry of Defence",
+    "title": "Navy and French patrol aircraft observed CONTSHIP JET strike; all 18 crew rescued, 28 October",
+    "audit": "Full primary statement directly read 29 October 2026. Official observation and rescue account, not independent technical attribution.",
+    "url": "https://www.mod.bg/news9664"
+  },
+  "U189": {
+    "id": "U189",
+    "publisher": "Bulgarian Ministry of Transport and Communications",
+    "title": "18-member crew of CONTSHIP JET rescued — 28 October 2026",
+    "audit": "Primary statement directly read 29 October 2026; alert, abandonment and rescue chronology relate to 28 October.",
+    "url": "https://www.mtc.government.bg/bg/category/1/18-chlenniyat-ekipazh-na-konteynerovoza-contship-jet-e-spasen"
+  },
+  "U190": {
+    "id": "U190",
+    "publisher": "Maritime.bg",
+    "title": "CONTSHIP JET live updates; overnight sinking reported but not officially confirmed",
+    "audit": "Live page directly read 29 October 2026. The 06:10 local update attributes sinking to two unnamed sources and explicitly lacks official confirmation; not treated as established sinking. Published 28 October; updated 29 October at 07:20 Bulgarian local time. Historical early report only; the later official NAVWARN 768/26 now independently confirms sinking.",
+    "url": "https://www.maritime.bg/157181/"
+  },
+  "U191": {
+    "id": "U191",
+    "publisher": "District Prosecutor’s Office in Lublin",
+    "title": "Investigative actions after an unmanned aircraft was found in Lubaczów — 22 October 2026",
+    "audit": "Primary 22 October statement directly read 29 October 2026. Corroborates existing discovery and preliminary examination; does not establish origin or a border crossing.",
+    "url": "https://www.gov.pl/web/po-lublin/informacja-o-czynnosciach-prokuratury-w-zwiazku-z-odnalezieniem-bezzalogowego-statku-powietrznego-w-lubaczowie"
+  },
+  "U192": {
+    "id": "U192",
+    "publisher": "District Prosecutor’s Office in Poznań",
+    "title": "Śledztwa dot. ujawnienia drona na plaży w Rusinowie przejęte do dalszego prowadzenia przez Prokuraturę Okręgową w Poznaniu",
+    "url": "https://www.gov.pl/web/po-poznan/sledztwa-dot-ujawnienia-drona-na-plazy-w-rusinowie-przejete-do-dalszego-prowadzenia-przez-prokurature-okregowa-w-poznaniu",
+    "dateLabel": "1 October 2026",
+    "audit": "Full primary body directly read 30 October. Gives 14 September sea observation and beach-arrival chronology, controlled disposal of a warhead with a potential explosive charge, preliminary Russian-made Gerbera identification, 25 September investigation transfer and unresolved launch/route/target/sea-impact circumstances. Follow-up to E057, not another event."
+  },
+  "U193": {
+    "id": "U193",
+    "publisher": "PAP via Onet",
+    "title": "Dron z napisami w cyrylicy koło Bartoszyc. Nowy ruch prokuratury",
+    "url": "https://wiadomosci.onet.pl/olsztyn/dron-z-napisami-w-cyrylicy-na-terenie-polski-nowy-ruch-prokuratury/z3ct8vr",
+    "dateLabel": "11 May 2026, 11:39",
+    "audit": "Full article directly read 30 October. Named prosecutor dates crossing under investigation to 8 May, confirms Russian–Polish border crossing without disclosing its evidential basis, and identifies unarmed reconnaissance UAV recovered whole after 9 May discovery. Cameras and Cyrillic markings remain unconfirmed media details. Same spokesman account as RMF24, not an independent flight observation."
+  },
+  "U194": {
+    "id": "U194",
+    "publisher": "RMF24 / Olsztyn prosecutor spokesman",
+    "title": "Śledczy są pewni: dron przyleciał z Rosji. Wszczęto śledztwo",
+    "url": "https://www.rmf24.pl/regiony/olsztyn/news-sledczy-sa-pewni-dron-przylecial-z-rosji-wszczeto-sledztwo,nId,8081453",
+    "dateLabel": "11 May 2026, 12:08",
+    "audit": "Full body read 30 October. Reproduces named prosecutor’s 8 May crossing / 9 May discovery chronology and unarmed observation-drone identification. Basis for border-crossing confidence not disclosed. Matching official-source account, not independent technical confirmation."
+  },
+  "U195": {
+    "id": "U195",
+    "publisher": "Radio Szczecin / IAR / PAP",
+    "title": "Niezidentyfikowany obiekt znaleziony w Warmińsko-Mazurskiem",
+    "url": "https://radioszczecin.pl/6,505046,niezidentyfikowany-obiekt-znaleziony-w-warminsko",
+    "dateLabel": "9 May 2026, 13:20",
+    "audit": "Full body directly read 30 October. Police spokesman dates the civilian field report near Osieka to about 09:00; military-police spokesman describes probable military observation UAV without combat characteristics. Country not disclosed at this initial stage; later prosecutor statement is separate evidence."
+  },
+  "U196": {
+    "id": "U196",
+    "publisher": "Mapcarta / OpenStreetMap",
+    "title": "Osieka village geographic reference",
+    "url": "https://mapcarta.com/N692610420",
+    "audit": "Read 30 October solely for approximate village anchor: 54.21134 N, 20.78472 E (OSM node 692610420); rounded to 54.21, 20.78. Not incident evidence or an exact recovery coordinate."
+  },
+  "U197": {
+    "id": "U197",
+    "publisher": "Latvian Ministry of Defence / NBS Joint Headquarters",
+    "title": "Alūksnes novadā atrasts bezpilota lidaparāts",
+    "url": "https://www.mod.gov.lv/lv/zinas/aluksnes-novada-atrasts-bezpilota-lidaparats",
+    "dateLabel": "24 October 2026",
+    "audit": "Primary body directly read 30 October. Confirms 24 October UAV find in Liepna parish, possible 18 October fall, unresolved origin, 18–19 October searches and internal review. Supports N120 chronology; no new result or nationality finding."
+  },
+  "U198": {
+    "id": "U198",
+    "publisher": "OFFNews / Bulgarian Ministry of Defence response",
+    "title": "MoD confirms 21 October Popski Beach UAV-part recovery; distinguishes Arapya claim",
+    "url": "https://offnews.bg/obshtestvo/na-plazh-kraj-tcarevo-otkriha-ostanki-ot-ruski-udaren-dron-obnovena-877421.html",
+    "dateLabel": "28 October 2026, 18:05; updated that evening; reviewed 30 October",
+    "audit": "Updated full body directly read 30 October. MoD response confirms a Burgas Navy team recovered UAV parts on 21 October at Popski Beach, Tsarevo, and transported them to base. Evening clarification says that recovery is distinct from the newly publicized Arapya claim, which the ministry had not previously been notified of. Headline Russian attribution is not a MoD finding. No final origin, model, payload, flight date or crossing supplied."
+  },
+  "U199": {
+    "id": "U199",
+    "publisher": "Bulgarian National Radio / Burgas correspondent Daniela Kostadinova",
+    "title": "Drone parts recovered at Listi Beach near Sinemorets",
+    "url": "https://bnrnews.bg/main/post/549647/chasti-ot-dron-sa-otkriti-na-plazh-kray-sinemorets",
+    "dateLabel": "28 October 2026, 20:53 local time",
+    "audit": "Full short article directly read 30 October. Reports a wing and fuselage section found at Listi Beach and seized by Border Police after a report. Does not give an exact discovery date/time, drone model, national origin, payload or flight route. Separately says official institutions have not confirmed Russian-drone reporting from Arapya. Later copies repeating BNR are not independent corroboration."
+  },
+  "U200": {
+    "id": "U200",
+    "publisher": "Kilometri.bg / Nedyalko Mihalev",
+    "title": "Listi Beach and nearby Tsarevo coastal locality reference",
+    "url": "https://kilometri.bg/en/view/listi-beach",
+    "dateLabel": "Undated location page; reviewed 30 October 2026",
+    "audit": "Direct page read supplies Listi Beach at 42.034897 N, 28.003380 E and Tsarevo central beach at 42.173176 N, 27.850792 E. Used only for rounded locality anchors: Listi 42.03/28.00, Tsarevo 42.17/27.85. Tsarevo anchor is deliberately not the exact Popski discovery site. Does not verify incident facts."
+  },
+  "U201": {
+    "id": "U201",
+    "publisher": "bTV / Bulgarian Ministry of Defence information supplied to broadcaster",
+    "title": "KHORYV partly submerged; navigation hazard and weather-paused operation",
+    "url": "https://btvnovinite.bg/bulgaria/korabat-horiv-e-napolovina-potopen-i-prodalzhava-da-zastrashava-koraboplavaneto-v-cherno-more.html",
+    "dateLabel": "29 October 2026, 19:34 local time; reviewed 30 October",
+    "audit": "Full short article directly read. bTV attributes partly submerged status to information received from MoD, describes continuing navigation danger, Reshitelni on scene and operation temporarily suspended for strong wind and rough seas. This is an attributed ministry update, not a separately retrieved ministry release. Does not establish completed total sinking or any new attack."
+  },
+  "U202": {
+    "id": "U202",
+    "publisher": "Maritime.bg / reporter and attributed defence-chief interview",
+    "title": "KHORYV partially grounded near Shabla; bow remains visible",
+    "url": "https://www.maritime.bg/157137/",
+    "dateLabel": "Live page originally 28 October; updates 29 October and 30 October 06:55 and 15:04 local; page updated 30 October 15:12",
+    "audit": "Relevant body updates directly read 30 October around 06:06 UTC. Morning 29 October entry attributes scuttling attempts to defence chief Eftimov’s bTV interview. 13:04 report says stern rests on seabed east between Tyulenovo and Shabla, bow remains above water and drift stopped; 22:30 and 30 October 06:55 entries retain protruding bow and pending further scuttling. Observational reporting, not a technical final closure. Do not substitute the live map coordinates for the official dated NAVWARN766 position or original attack anchor. Re-read 31 October: the 30 October 15:04 field update reports Reshitelni surveying the area and the bow still protruding. No completed total sinking established."
+  },
+  "U203": {
+    "id": "U203",
+    "publisher": "bTV / Admiral Emil Eftimov interview",
+    "title": "Admiral Eftimov: drones that struck CONTSHIP JET approached from the east",
+    "url": "https://btvnovinite.bg/predavania/tazi-sutrin/admiral-eftimov-dronovete-udarili-potanalija-korab-kraj-kaliakra-sa-doshli-ot-iztok.html",
+    "dateLabel": "29 October 2026, 10:29",
+    "audit": "Interview body directly read 30 October. Eastern maritime approach and roughly half-hour advance warning attributed to defence chief; exact launch point and operator remain unresolved. Approximate sinking chronology not used over precise NAVWARN768."
+  },
+  "U204": {
+    "id": "U204",
+    "publisher": "SKAI",
+    "title": "Turkish activity in the Aegean: 15 FIR infringements, 13 airspace violations and two engagements",
+    "url": "https://www.skai.gr/news/greece/tourkiki-drastiriotita-sto-aigaio-15-paravaseis-13-paraviaseis-kai-dyo-emplokes",
+    "dateLabel": "30 October 2026, 19:01 local",
+    "audit": "Full article read 31 October. Explicitly assigns 11 FIR infringements and 13 national-airspace violations to five UAVs. Four other infringements are manned aircraft; two engagements are a mixed-day total, not established UAV weapons engagement. This is the Greek account, not independent track confirmation."
+  },
+  "U205": {
+    "id": "U205",
+    "publisher": "ProtoThema / GEETHA account",
+    "title": "Five Turkish UAVs reported in 13 national-airspace violations on 30 October",
+    "url": "https://www.protothema.gr/greece/article/1903264/baraz-paraviaseon-tou-ethnikou-enaeriou-horou-apo-tourkika-mahitika-duo-eblokes-me-ellinika/",
+    "dateLabel": "30 October 2026, 20:04 local",
+    "audit": "Full body read 31 October. Explicit GEETHA attribution; five UAVs, 11 FIR infringements, 13 national-airspace violations in northeastern, central and southeastern Aegean. Identified/intercepted under routine procedures. Armed F-16s and two mock engagements must not be conflated with UAV armament or shoot-down. Same official account as SKAI, not independent observation."
+  },
+  "U206": {
+    "id": "U206",
+    "publisher": "Reuters / Ambrey interview (StreetInsider syndication)",
+    "title": "Greek container ship sinks after drone attack off Bulgaria — provisional Ambrey design assessment",
+    "url": "https://new.streetinsider.com/Reuters/Greek%2Bcontainer%2Bship%2Bsinks%2Bafter%2Bdrone%2Battack%2Boff%2BBulgaria/27252261.html",
+    "dateLabel": "29 October 2026, 06:55 EDT (10:55 UTC); strike occurred 28 October",
+    "audit": "Syndicated Reuters article body directly read 31 October. Reuters verifies attack footage and reports Tomas Alexa’s provisional Ambrey assessment of a likely Murena-300S-derived design. Attacker remains unidentified. Interview evidence, not official forensic identification. No new occurrence or casualty change."
+  },
+  "U207": {
+    "id": "U207",
+    "publisher": "Romanian Ministry of National Defence (MApN)",
+    "title": "Press release 352: two drones enter northeastern Romanian airspace",
+    "url": "https://www.mapn.ro/cpresa/19461_Comunicat-de-pres%C4%83",
+    "dateLabel": "31 October 2026",
+    "audit": "Primary statement read 1 November. Confirms two unauthorized drone entries; one departed, second last observed between Vaslui and Bacău. No crash reported at publication. Aircraft launches and alerts do not establish engagement. Operator, model and target not identified."
+  },
+  "U208": {
+    "id": "U208",
+    "publisher": "Finavia",
+    "title": "Air traffic at Helsinki Airport has resumed",
+    "url": "https://www.finavia.fi/en/newsroom/2026/air-traffic-helsinki-airport-suspended-15-may-2026",
+    "dateLabel": "15 May 2026, updated same morning",
+    "audit": "Airport-operator page read 1 November. Confirms authority-ordered traffic suspension 04:00–07:00 on 15 May, subsequent resumption and delays/cancellations; gives no cancellation total or drone identification. Its airport-open wording is not a denial of the temporary traffic suspension."
   }
 }

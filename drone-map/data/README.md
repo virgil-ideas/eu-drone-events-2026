@@ -207,3 +207,12 @@ duplicate anchors within a record, source references and HTTP(S) URLs, and resea
 file hashes. It does not infer whether two differently identified reports describe
 the same real-world incident, verify the truth of a claim, or fetch source URLs.
 Editorial review is still required for those decisions.
+
+## Latest research coverage
+
+The 1 November review is a partial EU27 public-source check for 28 October–1 November,
+with at least 72 hours of overlap and targeted older-gap revisits documented in
+watchlist.md. The inclusive reporting cutoff is 31 October because a dated Romanian
+incursion was verified; it is not a certificate of exhaustive coverage. Earlier
+source gaps and the partial Saturday retrospective remain open. Record counts
+include candidates and selected alerts and are not confirmed-attack totals.
