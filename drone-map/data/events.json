@@ -7694,5 +7694,46 @@
       "U210"
     ],
     "reviewedOn": "2026-11-02"
+  },
+  {
+    "id": "N131",
+    "title": "Northern Tulcea · RO-Alert without reported airspace entry",
+    "recordClass": "event",
+    "recordType": "civil_protection_air_alert",
+    "startDate": "2026-11-02",
+    "dateLabel": "2 November 2026, 04:11–05:26 local alert",
+    "dateBasis": "MApN release 353 dates the overnight response and warning to 2 November; times are local.",
+    "countries": "Romania",
+    "location": "Northern Tulcea County warning area; attacks reported against Ukrainian Danube ports.",
+    "status": "Official warning; no Romanian airspace entry reported",
+    "categories": "Civil-protection alert; no reported incursion",
+    "category": "alert",
+    "stages": [
+      "alert"
+    ],
+    "positions": [
+      {
+        "lat": 45.25,
+        "lng": 29.45,
+        "precision": "region",
+        "label": "Northern Tulcea warning area — approximate, not a drone position"
+      }
+    ],
+    "positionNote": "Editorial warning-area anchor, not a target location or border crossing.",
+    "vehicle": "Drone attacks reported over Ukrainian ports; number and models unspecified.",
+    "attribution": "Operator not identified in this release.",
+    "route": "No Romanian national-airspace entry reported.",
+    "circumstances": "Nearby attacks prompted a warning to northern Tulcea residents.",
+    "payload": "Unspecified.",
+    "impact": "Civil-protection alert; no Romanian damage or casualties reported in the release.",
+    "response": "F-16 aircraft and an IAR-330 Puma SOCAT helicopter deployed. RO-Alert issued at 04:11; air alert ended at 05:26 local.",
+    "uncertainty": "No reported entry is not a technical attribution finding. The source does not supply a UAV count.",
+    "deduplication": "One selected civil-protection alert, not a foreign incursion. Separate date from prior alerts; military response is not another occurrence.",
+    "provenance": "MApN release 353, directly reviewed 2 November 2026.",
+    "classificationNote": "Alert only. No strike, shoot-down or drone inside Romania inferred.",
+    "sources": [
+      "U213"
+    ],
+    "reviewedOn": "2026-11-02"
   }
 ]

@@ -7932,6 +7932,48 @@ window.DRONE_DATA = {
         "U210"
       ],
       "page": "events/2026-11-01-drone-crosses-kraslava-ludza-latvia/"
+    },
+    {
+      "id": "N131",
+      "title": "Northern Tulcea · RO-Alert without reported airspace entry",
+      "recordClass": "event",
+      "recordType": "civil_protection_air_alert",
+      "startDate": "2026-11-02",
+      "dateLabel": "2 November 2026, 04:11–05:26 local alert",
+      "dateBasis": "MApN release 353 dates the overnight response and warning to 2 November; times are local.",
+      "countries": "Romania",
+      "location": "Northern Tulcea County warning area; attacks reported against Ukrainian Danube ports.",
+      "status": "Official warning; no Romanian airspace entry reported",
+      "categories": "Civil-protection alert; no reported incursion",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.25,
+          "lng": 29.45,
+          "precision": "region",
+          "label": "Northern Tulcea warning area — approximate, not a drone position"
+        }
+      ],
+      "positionNote": "Editorial warning-area anchor, not a target location or border crossing.",
+      "vehicle": "Drone attacks reported over Ukrainian ports; number and models unspecified.",
+      "attribution": "Operator not identified in this release.",
+      "route": "No Romanian national-airspace entry reported.",
+      "circumstances": "Nearby attacks prompted a warning to northern Tulcea residents.",
+      "payload": "Unspecified.",
+      "impact": "Civil-protection alert; no Romanian damage or casualties reported in the release.",
+      "response": "F-16 aircraft and an IAR-330 Puma SOCAT helicopter deployed. RO-Alert issued at 04:11; air alert ended at 05:26 local.",
+      "uncertainty": "No reported entry is not a technical attribution finding. The source does not supply a UAV count.",
+      "deduplication": "One selected civil-protection alert, not a foreign incursion. Separate date from prior alerts; military response is not another occurrence.",
+      "provenance": "MApN release 353, directly reviewed 2 November 2026.",
+      "classificationNote": "Alert only. No strike, shoot-down or drone inside Romania inferred.",
+      "sourceReferences": "[U213][U213]",
+      "sources": [
+        "U213"
+      ],
+      "page": "events/2026-11-02-ro-alert-northern-tulcea-no-reported-airspace-entry/"
     }
   ],
   "contexts": [
@@ -10933,9 +10975,17 @@ window.DRONE_DATA = {
       "url": "https://bnrnews.bg/burgas/post/551585/dppi-ima-chetiri-dreyfashti-konteynera-iztochno-ot-burgaskiya-zaliv",
       "dateLabel": "1 November 2026, 16:00 local",
       "audit": "Read 2 November. Relays NAVWARN779 and Maritime.bg reporting; association with CONTSHIP JET is described as probable, not established by the official warning. No unique cumulative container count inferred."
+    },
+    "U213": {
+      "id": "U213",
+      "publisher": "Romanian Ministry of National Defence (MApN)",
+      "title": "Release 353: northern Tulcea warning, no reported Romanian airspace entry",
+      "url": "https://www.mapn.ro/cpresa/19462_Informa%C8%9Bie-de-pres%C4%83",
+      "dateLabel": "2 November 2026",
+      "audit": "Primary body read in browser 2 November. Ukrainian Danube port attacks prompted Romanian military response and RO-Alert at 04:11; alert ended at 05:26 local. Explicitly no reported national-airspace entries. No UAV count or Romanian impact established."
     }
   },
-  "cutoff": "2026-11-01",
+  "cutoff": "2026-11-02",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

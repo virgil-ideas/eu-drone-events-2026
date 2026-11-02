@@ -2813,5 +2813,13 @@
     "url": "https://bnrnews.bg/burgas/post/551585/dppi-ima-chetiri-dreyfashti-konteynera-iztochno-ot-burgaskiya-zaliv",
     "dateLabel": "1 November 2026, 16:00 local",
     "audit": "Read 2 November. Relays NAVWARN779 and Maritime.bg reporting; association with CONTSHIP JET is described as probable, not established by the official warning. No unique cumulative container count inferred."
+  },
+  "U213": {
+    "id": "U213",
+    "publisher": "Romanian Ministry of National Defence (MApN)",
+    "title": "Release 353: northern Tulcea warning, no reported Romanian airspace entry",
+    "url": "https://www.mapn.ro/cpresa/19462_Informa%C8%9Bie-de-pres%C4%83",
+    "dateLabel": "2 November 2026",
+    "audit": "Primary body read in browser 2 November. Ukrainian Danube port attacks prompted Romanian military response and RO-Alert at 04:11; alert ended at 05:26 local. Explicitly no reported national-airspace entries. No UAV count or Romanian impact established."
   }
 }

@@ -1924,5 +1924,15 @@
       "Latvia launched a BLAZE interceptor and destroyed its own aircraft at 19:19 to avoid a border crossing. This was not a reported shoot-down of the foreign drone. The regional map point is approximate."
     ],
     "basis": "a67cb12ec106c0bc"
+  },
+  "N131": {
+    "slug": "2026-11-02-ro-alert-northern-tulcea-no-reported-airspace-entry",
+    "headline": "Northern Tulcea warned; no Romanian airspace entry reported",
+    "description": "Romania issued a northern Tulcea warning on 2 November after nearby attacks in Ukraine. MApN reported no entry into Romanian national airspace.",
+    "summary": [
+      "Northern Tulcea received a RO-Alert at 04:11 on 2 November after drone attacks against Ukrainian Danube ports. Romania deployed F-16s and a Puma SOCAT helicopter; the alert ended at 05:26 local.",
+      "MApN reported no entry into Romanian airspace. This is a civil-protection alert, not an incursion or confirmed attack in Romania. The map point represents the warning area."
+    ],
+    "basis": "56a49263f5fbad8f"
   }
 }
