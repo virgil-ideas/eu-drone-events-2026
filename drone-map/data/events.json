@@ -6917,10 +6917,10 @@
     "circumstances": "A reported drone attack and fire preceded capsize. The president said a vessel was hit by a drone outside territorial waters; AGERPRES links that statement to KHORYV. The 28 October NAVWARN766 describes a capsized, semi-submerged drifting wreck. Later reporting describes partial grounding; no new strike is established.",
     "payload": "Unknown. Fire does not establish a separate explosion.",
     "impact": "Romanian authorities reported thirteen crew: nine rescued, one dead and three missing. The wreck’s status has evolved since the earlier afloat notices; completed total sinking is not established. Ukraine’s MFA confirmed a Ukrainian fatality and four Ukrainians hospitalized, including the captain; two others did not require medical care. Its fourteen-crew figure conflicts with Romania’s thirteen; no reconciled manifest or final missing-person outcome was retrieved.",
-    "response": "A nearby merchant vessel recovered survivors before transfer to Romanian rescue services. MRCC coordinated ARSVOM and Interior Ministry assets. Weather prevented helicopter assistance; nine survivors subsequently reached Constanța for assessment. ARSVOM, as reported on 24 October, deployed SAR ARTEMIS at 14:24; MRCC suspended the search at 18:04 because of reduced visibility. This was not a final missing-person determination. ARN158 retains three missing and a recommended one-nautical-mile safety distance as of 27 October. Bulgaria’s transport ministry said on 27 October that institutions were monitoring the drifting wreck and would send a naval vessel for inspection. On 28 October BGNES quoted the defence minister saying it was entering Bulgarian territorial sea and that naval and transport authorities were ready to respond. Varna Radio NAVWARN 766/26 subsequently warns of the uncrewed, unlit drifting wreck at 18:00 UTC on 28 October and recommends five cables of clearance; this navigation description does not resolve the missing-person outcome. On 29 October bTV, citing information supplied by MoD, reported the vessel partly submerged and still hazardous, with Reshitelni on scene and operations temporarily suspended because of bad weather. Maritime.bg reported scuttling attempts and later partial grounding, with the bow still visible on the morning of 30 October.",
-    "uncertainty": "The latest retrieved primary navigation warning, NAVWARN766/26, describes the dated 28 October 18:00 UTC drift observation; it does not establish the wreck’s current movement. bTV’s 29 October MoD-attributed update supports partial submergence and continuing navigational danger. Maritime.bg reports the stern on the seabed and drift stopped, with the bow still visible on 30 October; these later details are attributed reporting, not a new primary hydrographic position. Completed total sinking, final missing-person outcome, operator, model and exact strike position remain unresolved. Crew totals still conflict (Romania: thirteen; Ukraine: fourteen). The uncrewed wreck description is not a missing-person determination. Later wreck drift or intervention in Bulgarian waters does not move the original offshore attack or establish another drone incursion.",
+    "response": "A nearby merchant vessel recovered survivors before transfer to Romanian rescue services. MRCC coordinated ARSVOM and Interior Ministry assets. Weather prevented helicopter assistance; nine survivors subsequently reached Constanța for assessment. ARSVOM, as reported on 24 October, deployed SAR ARTEMIS at 14:24; MRCC suspended the search at 18:04 because of reduced visibility. This was not a final missing-person determination. ARN158 retains three missing and a recommended one-nautical-mile safety distance as of 27 October. Bulgaria’s transport ministry said on 27 October that institutions were monitoring the drifting wreck and would send a naval vessel for inspection. On 28 October BGNES quoted the defence minister saying it was entering Bulgarian territorial sea and that naval and transport authorities were ready to respond. Varna Radio NAVWARN 766/26 subsequently warns of the uncrewed, unlit drifting wreck at 18:00 UTC on 28 October and recommends five cables of clearance; this navigation description does not resolve the missing-person outcome. On 29 October bTV, citing information supplied by MoD, reported the vessel partly submerged and still hazardous, with Reshitelni on scene and operations temporarily suspended because of bad weather. Maritime.bg reported scuttling attempts and later partial grounding, with the bow still visible on the morning of 30 October. A 1 November Maritime.bg update reports the bow still protruding southeast of Shabla and continuing navigation warnings, supported by a photograph supplied that day by a merchant vessel.",
+    "uncertainty": "The latest retrieved primary navigation warning, NAVWARN766/26, describes the dated 28 October 18:00 UTC drift observation; it does not establish the wreck’s current movement. bTV’s 29 October MoD-attributed update supports partial submergence and continuing navigational danger. Maritime.bg reports the stern on the seabed and drift stopped, with the bow still visible in its 1 November update; these later details are attributed reporting, not a new primary hydrographic position. Completed total sinking, final missing-person outcome, operator, model and exact strike position remain unresolved. Crew totals still conflict (Romania: thirteen; Ukraine: fourteen). The uncrewed wreck description is not a missing-person determination. Later wreck drift or intervention in Bulgarian waters does not move the original offshore attack or establish another drone incursion.",
     "deduplication": "One new KHORYV occurrence, distinct from WINE TRADER, YARA J, Sea Destiny and the earlier offshore attacks. Strike, fire, sinking report and rescue are not separate rows. Later drift, partial grounding and attempts to remove the navigation hazard remain follow-ups to this same occurrence.",
-    "provenance": "Added 23 October 2026 after reviewing the supplied Adevărul report. Original research snapshots unchanged. Reviewed 24 October against later Romanian official statements and Ukrainian MFA reporting; crew discrepancy retained. Current DHM ARN153 and MAI primary report reviewed 24 October; afloat/sinking conflict explicitly reconciled in favor of current competent navigation notice. Reviewed 25 October: DHM ARN154 later hazard position and 24 October ARSVOM-attributed search suspension; no new occurrence or territorial crossing inferred. Reviewed 26 October against ARN155; later wreck position is a follow-up to the same occurrence. Reviewed 27 October against current DHM ARN156; the 06:18 local observation updates the drifting-wreck position, not the occurrence date, attribution or original offshore classification. Reviewed 28 October against DHM ARN158, published 27 October: the 12:00 local drifting-wreck observation supersedes ARN156, without changing the occurrence date or original offshore classification. Reviewed 28 October against Bulgarian transport-ministry monitoring statement and the minister’s later territorial-sea wording; original attack classification and anchor retained. Reviewed 29 October against Varna Radio NAVWARN 766/26: later dated drift position and navigation precautions added; original strike anchor and casualty uncertainty retained. Reviewed 30 October against the dated NAVWARN766 listing, bTV’s MoD-attributed 29 October status and Maritime.bg’s 29–30 October live follow-ups. Historical drift coordinates retained, newer partial-submergence/grounding reporting attributed, and the offshore attack classification unchanged.",
+    "provenance": "Added 23 October 2026 after reviewing the supplied Adevărul report. Original research snapshots unchanged. Reviewed 24 October against later Romanian official statements and Ukrainian MFA reporting; crew discrepancy retained. Current DHM ARN153 and MAI primary report reviewed 24 October; afloat/sinking conflict explicitly reconciled in favor of current competent navigation notice. Reviewed 25 October: DHM ARN154 later hazard position and 24 October ARSVOM-attributed search suspension; no new occurrence or territorial crossing inferred. Reviewed 26 October against ARN155; later wreck position is a follow-up to the same occurrence. Reviewed 27 October against current DHM ARN156; the 06:18 local observation updates the drifting-wreck position, not the occurrence date, attribution or original offshore classification. Reviewed 28 October against DHM ARN158, published 27 October: the 12:00 local drifting-wreck observation supersedes ARN156, without changing the occurrence date or original offshore classification. Reviewed 28 October against Bulgarian transport-ministry monitoring statement and the minister’s later territorial-sea wording; original attack classification and anchor retained. Reviewed 29 October against Varna Radio NAVWARN 766/26: later dated drift position and navigation precautions added; original strike anchor and casualty uncertainty retained. Reviewed 30 October against the dated NAVWARN766 listing, bTV’s MoD-attributed 29 October status and Maritime.bg’s 29–30 October live follow-ups. Historical drift coordinates retained, newer partial-submergence/grounding reporting attributed, and the offshore attack classification unchanged. Reviewed 2 November against Maritime.bg’s 1 November observation; no completed total sinking inferred.",
     "classificationNote": "Red Strike for a reported damaging drone attack. Capsize is established; later partial grounding is reported. No new attack or completed total sinking is inferred.",
     "sources": [
       "U131",
@@ -6937,7 +6937,7 @@
       "U201",
       "U202"
     ],
-    "reviewedOn": "2026-10-30"
+    "reviewedOn": "2026-11-02"
   },
   {
     "id": "N113",
@@ -7414,10 +7414,10 @@
     "circumstances": "The Bulgarian defence ministry says the Navy surveillance system and a French patrol aircraft observed the surface-drone attack at 12:00 local on 28 October and three hits were observed. Varna Radio NAVWARN 759/26 identifies CONTSHIP JET and reports a surface-drone hit at 10:00 UTC. Included under the register’s existing offshore merchant-shipping treatment, not as a confirmed Bulgarian territorial incursion.",
     "payload": "Unknown; no separately established explosion count.",
     "impact": "All 18 crew were rescued according to Bulgarian defence and transport authorities, corroborating the earlier manager account. Varna Radio NAVWARN 768/26 confirms CONTSHIP JET sank at 20:30 UTC on 28 October at 43°07.80′N, 028°45.36′E. More than 20 containers were adrift, with flammable gases and liquids and other dangerous goods among the lost cargo. This official warning supersedes the earlier explicitly unconfirmed sinking report.",
-    "response": "The transport ministry reports an alert at 12:01 local and abandonment at 12:13 on 28 October; at 12:53 eight crew were aboard a Navy cutter and ten in a lifeboat. The defence ministry says three naval ships deployed immediately and all 18 crew were rescued by 13:45 local. These official accounts supersede reliance on the manager-only safety statement. Eftimov told bTV that the Navy had warned ships in the area roughly half an hour before the attack.",
-    "uncertainty": "The official observation account and navigation warning support the attack, location and rescue, not a technical model or operator identification. Ambrey’s video-based design assessment reported by Reuters remains provisional. The minister reported three maritime drones, while the defence ministry describes three observed hits; neither creates separate occurrences. Operator, launch point and motive remain unknown. The sinking is confirmed by NAVWARN 768/26, but its later position is not the strike location. Neither the wreck nor cargo drift establishes a new drone incursion.",
+    "response": "The transport ministry reports an alert at 12:01 local and abandonment at 12:13 on 28 October; at 12:53 eight crew were aboard a Navy cutter and ten in a lifeboat. The defence ministry says three naval ships deployed immediately and all 18 crew were rescued by 13:45 local. These official accounts supersede reliance on the manager-only safety statement. Eftimov told bTV that the Navy had warned ships in the area roughly half an hour before the attack. On 1 November NAVWARN779 reported four containers east of Burgas Bay at 08:55 UTC; NAVWARN780 reported a container at 12:20 UTC. BNR described the four as probably from CONTSHIP JET, but the notices themselves do not identify a vessel.",
+    "uncertainty": "The official observation account and navigation warning support the attack, location and rescue, not a technical model or operator identification. Ambrey’s video-based design assessment reported by Reuters remains provisional. The minister reported three maritime drones, while the defence ministry describes three observed hits; neither creates separate occurrences. Operator, launch point and motive remain unknown. The sinking is confirmed by NAVWARN 768/26, but its later position is not the strike location. Neither the wreck nor cargo drift establishes a new drone incursion. The Burgas sightings are not a unique additive container total; vessel association remains provisional and no new pollution finding is established.",
     "deduplication": "One CONTSHIP JET occurrence, distinct from KHORYV, CHELSEA 3 and earlier ship attacks. Three reported drones, impacts and abandonment are not separate event records.",
-    "provenance": "Added 28 October after direct BGNES and Sofia Globe browser reads and Chernomore body review. Original research snapshots unchanged. Reviewed 29 October against Bulgarian defence and transport ministries and Varna Radio navigation warnings; official rescue and reported strike position incorporated. Overnight sinking reporting retained as unconfirmed. Reviewed 30 October against Varna Radio NAVWARN 768/26: sinking confirmed for 28 October 20:30 UTC; original strike anchor and offshore classification retained. Reviewed 31 October against Reuters’ 29 October interview reporting via its StreetInsider syndication; provisional technical assessment added without changing operator certainty, occurrence date or geography.",
+    "provenance": "Added 28 October after direct BGNES and Sofia Globe browser reads and Chernomore body review. Original research snapshots unchanged. Reviewed 29 October against Bulgarian defence and transport ministries and Varna Radio navigation warnings; official rescue and reported strike position incorporated. Overnight sinking reporting retained as unconfirmed. Reviewed 30 October against Varna Radio NAVWARN 768/26: sinking confirmed for 28 October 20:30 UTC; original strike anchor and offshore classification retained. Reviewed 31 October against Reuters’ 29 October interview reporting via its StreetInsider syndication; provisional technical assessment added without changing operator certainty, occurrence date or geography. Reviewed 2 November against current Varna Radio NAVWARN779/780 and BNR’s provisional vessel association.",
     "classificationNote": "Red Strike for reported damaging maritime-drone attack. Offshore context explicitly separated from confirmed territorial incursions.",
     "sources": [
       "U180",
@@ -7430,9 +7430,10 @@
       "U189",
       "U190",
       "U203",
-      "U206"
+      "U206",
+      "U212"
     ],
-    "reviewedOn": "2026-10-31"
+    "reviewedOn": "2026-11-02"
   },
   {
     "id": "N125",
@@ -7639,15 +7640,59 @@
     "route": "One left Romanian airspace; the other was last observed between Vaslui and Bacău. Precise tracks unpublished.",
     "circumstances": "MApN radar detected unauthorized entries that evening.",
     "payload": "Unknown.",
-    "impact": "No aerial-vehicle crash reported at publication; final outcome unresolved.",
+    "impact": "No aerial-vehicle crash reported at publication; final outcome unresolved. Iași airport director told AGERPRES that temporary county airspace closure diverted the Wizz Air Eindhoven flight, scheduled to arrive at 18:25 local, to Suceava.",
     "response": "Four F-16s and an IAR-330 SOCAT launched. Six-county public warnings ended at 19:19 local.",
     "uncertainty": "Official confirmation of entry, not of attribution, engagement or crash. End of warnings does not establish final drone fate.",
     "deduplication": "One evening occurrence with two reported UAVs. Individual drones, launches and alerts are not separate event rows without distinct-episode evidence. Separate from September 8 northeastern Romania record E056.",
-    "provenance": "MApN release 352 of 31 October, reviewed 1 November during a partial EU27 check.",
+    "provenance": "MApN release 352 of 31 October, reviewed 1 November during a partial EU27 check. Airport-disruption follow-up checked against AGERPRES on 2 November.",
     "classificationNote": "Flight only: launches do not establish weapons engagement, and last observation does not establish a crash.",
     "sources": [
-      "U207"
+      "U207",
+      "U211"
     ],
-    "reviewedOn": "2026-11-01"
+    "reviewedOn": "2026-11-02"
+  },
+  {
+    "id": "N130",
+    "title": "Krāslava–Ludza · Foreign drone crosses Latvian airspace",
+    "recordClass": "event",
+    "recordType": "reported_cross_border_incursion",
+    "startDate": "2026-11-01",
+    "dateLabel": "1 November 2026, around 19:00–19:16 local",
+    "dateBasis": "Officials describe the crossing on 1 November; times are Europe/Riga.",
+    "countries": "Latvia",
+    "location": "Krāslava and Ludza municipalities, eastern Latvia.",
+    "status": "Officially described drone incursion; exited into Russia",
+    "categories": "National-airspace incursion",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 56.2,
+        "lng": 27.7,
+        "precision": "region",
+        "label": "Eastern Latvia — approximate regional anchor, not a radar fix"
+      }
+    ],
+    "positionNote": "Broad regional anchor only; precise entry and exit coordinates unpublished.",
+    "vehicle": "One foreign drone; model unknown.",
+    "reported_UAVs": 1,
+    "attribution": "Operator, nationality, intent and intended target unknown. Ukrainian origin was explicitly speculation.",
+    "route": "Officials told LSM it entered from Belarus around 19:00 through Krāslava and exited through Ludza into Russia at 19:16 local.",
+    "circumstances": "NBS reported an unidentified flying object; direct official interviews described it as a drone.",
+    "payload": "Unknown.",
+    "impact": "Foreign UAV exited Latvian airspace; no foreign-drone crash or shoot-down reported.",
+    "response": "NBS deployed a Latvian BLAZE interceptor, then self-destructed it at 19:19 to prevent it crossing the border. Public airspace threat ended at 19:30.",
+    "uncertainty": "Drone identification rests on direct official interviews; the written NBS notice calls it unidentified. Border of entry does not establish origin or operator.",
+    "deduplication": "One foreign-UAV crossing episode. Latvian defensive interceptor deployment and self-destruction are response details, not another foreign incursion or additional foreign-UAV count.",
+    "provenance": "NBS primary statement and direct official interviews published by LSM, reviewed 2 November 2026.",
+    "classificationNote": "Flight only. Domestic interceptor self-destruction is not a shoot-down or explosion outcome of the foreign UAV.",
+    "sources": [
+      "U209",
+      "U210"
+    ],
+    "reviewedOn": "2026-11-02"
   }
 ]

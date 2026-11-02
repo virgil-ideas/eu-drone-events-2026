@@ -640,3 +640,14 @@ qualifying incursions. Urda's filming-drone lead lacks foreign-entry evidence an
 an accessible original report. Several western/central and small-state indexes
 remain thin. No qualifying underwater occurrence was verified; this is not proof
 of absence. Original archives, stable IDs and published URLs remain unchanged.
+
+
+## Coverage — 2 November 2026 daily check
+
+Partial EU27 review covered 29 October–2 November through approximately 05:58 UTC (07:58 Europe/Bucharest), with at least 72 hours of overlap and targeted older-gap revisits. All 27 states were assigned regional searches; this is not exhaustive and does not advance a genuinely complete-search marker. The inclusive reporting cutoff advances to 1 November for verified Latvian N130, not proof of complete EU coverage. No additional qualifying underwater occurrence was verified; this is not evidence of absence.
+
+N130 records one 1 November Latvian foreign-drone flight episode, not two drones from counting Latvia’s own BLAZE response. N129 adds the same 31 October episode’s airport-disruption follow-up. N112 and N124 retain their offshore occurrence dates and anchors; later bow and container reports are in-place follow-ups, not new strikes.
+
+Greek daily gaps remain for 13–14, 16–18, 27–29 and 31 October and 1 November; GEETHA remains inaccessible. Later-dated republications of 30 October are not another daily activity record. Northern and small-state primary indexing remains uneven; Danish news listing and Finnish police sources were inaccessible. A search-only 30 October Vilnius drone claim was not corroborated in an actual source, so is not added; Lithuanian border-authority balloon reports are not drone incidents. Bohunice remains unresolved. Estonia’s Auvere investigation closure and Latvia’s earlier Liepna discovery are already reflected.
+
+Western follow-ups: Nuremberg’s official account remains an unconfirmed 13 October sighting; Eemshaven remains a 20 October domestic arrest with no established foreign flight. Urda’s 31 October unauthorized accident-scene filming is now supported by an accessible syndicated EFE account (https://www.diariodesantiago.es/espana/identifican-al-propietario-de-un-dron-que-grababa-sin-autorizacion-en-la-zona-del-accidente-de-urda/); no foreign entry is established, so not added. Domestic policing, counter-UAS training, planned restrictions, authorized exercise flights and underwater trials were not reclassified as incursions. Cyprus government detail and some Irish reporting were inaccessible; Croatia, Slovenia, Malta, Belgium, Austria, Luxembourg and central/northern coverage remains thinner. Existing older gaps remain open.

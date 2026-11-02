@@ -2616,7 +2616,7 @@
     "id": "U187",
     "publisher": "Varna Radio / Bulgarian VTMIS",
     "title": "Varna Radio navigation warnings: CONTSHIP JET strike, sinking and hazardous containers; KHORYV wreck position",
-    "audit": "Primary navigation notices directly read 29 October 2026. Dated observations are distinguished from retrieval time; KHORYV drift is not the original strike position. Re-read 30 October: NAVWARN 768/26 confirms CONTSHIP JET sank 28 October at 20:30 UTC at 43°07.80′N, 028°45.36′E; more than 20 dangerous-goods containers adrift. Earlier 759/26 and 761/26 were read on 29 October but are no longer displayed in the rolling bulletin. NAVWARN 766/26 remains displayed. Re-read 31 October with a 05:30 UTC weather header: 768/26 and 766/26 remain displayed. New 775/26 concerns advance territorial-sea entry reporting, not a drone attack.",
+    "audit": "Primary navigation notices directly read 29 October 2026. Dated observations are distinguished from retrieval time; KHORYV drift is not the original strike position. Re-read 30 October: NAVWARN 768/26 confirms CONTSHIP JET sank 28 October at 20:30 UTC at 43°07.80′N, 028°45.36′E; more than 20 dangerous-goods containers adrift. Earlier 759/26 and 761/26 were read on 29 October but are no longer displayed in the rolling bulletin. NAVWARN 766/26 remains displayed. Re-read 31 October with a 05:30 UTC weather header: 768/26 and 766/26 remain displayed. New 775/26 concerns advance territorial-sea entry reporting, not a drone attack. Re-read 2 November with 05:30 UTC bulletin: NAVWARN779 lists four containers east of Burgas Bay at 08:55 UTC on 1 November; 780 lists a container at 12:20 UTC. These notices do not name their vessel of origin; sightings are not added into a unique total.",
     "url": "https://www.vtmis.bg/wx/wx_eng.htm"
   },
   "U188": {
@@ -2731,8 +2731,8 @@
     "publisher": "Maritime.bg / reporter and attributed defence-chief interview",
     "title": "KHORYV partially grounded near Shabla; bow remains visible",
     "url": "https://www.maritime.bg/157137/",
-    "dateLabel": "Live page originally 28 October; updates 29 October and 30 October 06:55 and 15:04 local; page updated 30 October 15:12",
-    "audit": "Relevant body updates directly read 30 October around 06:06 UTC. Morning 29 October entry attributes scuttling attempts to defence chief Eftimov’s bTV interview. 13:04 report says stern rests on seabed east between Tyulenovo and Shabla, bow remains above water and drift stopped; 22:30 and 30 October 06:55 entries retain protruding bow and pending further scuttling. Observational reporting, not a technical final closure. Do not substitute the live map coordinates for the official dated NAVWARN766 position or original attack anchor. Re-read 31 October: the 30 October 15:04 field update reports Reshitelni surveying the area and the bow still protruding. No completed total sinking established."
+    "dateLabel": "Live page originally 28 October; latest follow-up 1 November 13:44 local, page updated 13:48",
+    "audit": "Relevant body updates directly read 30 October around 06:06 UTC. Morning 29 October entry attributes scuttling attempts to defence chief Eftimov’s bTV interview. 13:04 report says stern rests on seabed east between Tyulenovo and Shabla, bow remains above water and drift stopped; 22:30 and 30 October 06:55 entries retain protruding bow and pending further scuttling. Observational reporting, not a technical final closure. Do not substitute the live map coordinates for the official dated NAVWARN766 position or original attack anchor. Re-read 31 October: the 30 October 15:04 field update reports Reshitelni surveying the area and the bow still protruding. No completed total sinking established. Re-read 2 November: new 1 November 13:44 entry reports bow still protruding southeast of Shabla, with photograph supplied that day by a passing merchant ship; navigation warnings continue."
   },
   "U203": {
     "id": "U203",
@@ -2781,5 +2781,37 @@
     "url": "https://www.finavia.fi/en/newsroom/2026/air-traffic-helsinki-airport-suspended-15-may-2026",
     "dateLabel": "15 May 2026, updated same morning",
     "audit": "Airport-operator page read 1 November. Confirms authority-ordered traffic suspension 04:00–07:00 on 15 May, subsequent resumption and delays/cancellations; gives no cancellation total or drone identification. Its airport-open wording is not a denial of the temporary traffic suspension."
+  },
+  "U209": {
+    "id": "U209",
+    "publisher": "Latvian National Armed Forces (NBS)",
+    "title": "Airspace threat ended: object exited and Latvian interceptor self-destructed",
+    "url": "https://www.mil.lv/lv/zinas/apdraudejums-latvijas-gaisa-telpa-nosledzies-7",
+    "dateLabel": "1 November 2026",
+    "audit": "Primary statement read 2 November. Calls the foreign object unidentified; confirms exit into Russia at 19:16, domestic BLAZE self-destruction at 19:19 to prevent crossing, and threat termination at 19:30. Does not report the foreign object shot down."
+  },
+  "U210": {
+    "id": "U210",
+    "publisher": "LSM / Latvijas Radio",
+    "title": "Airspace threat ends in Krāslava and Ludza: officials describe drone entry and exit",
+    "url": "https://www.lsm.lv/raksts/zinas/latvija/01.11.2026-beidzies-gaisa-telpas-apdraudejums-kraslavas-un-ludzas-novada.a670064/",
+    "dateLabel": "1 November 2026, updated 21:29",
+    "audit": "Direct official interviews read 2 November. Captain and minister call tracked object a drone; route from Belarus through Latvia into Russia. Ukrainian origin explicitly speculative. The self-destructed BLAZE was Latvian, not the foreign UAV."
+  },
+  "U211": {
+    "id": "U211",
+    "publisher": "AGERPRES",
+    "title": "Iași airspace closure diverts Eindhoven flight to Suceava",
+    "url": "https://agerpres.ro/english/2026/10/31/iasi-county-airspace-temporarily-closed-amid-air-raid-alert-eindhoven-flight-diverted-to-suceava--1608755",
+    "dateLabel": "31 October 2026",
+    "audit": "Read 2 November. Airport director directly attributes diversion of Wizz Air Eindhoven–Iași flight, scheduled 18:25, to temporary county airspace closure during military operation. Same October 31 incursion episode; no new drone count or final outcome."
+  },
+  "U212": {
+    "id": "U212",
+    "publisher": "Bulgarian National Radio (BNR Burgas)",
+    "title": "Four drifting containers reported east of Burgas Bay",
+    "url": "https://bnrnews.bg/burgas/post/551585/dppi-ima-chetiri-dreyfashti-konteynera-iztochno-ot-burgaskiya-zaliv",
+    "dateLabel": "1 November 2026, 16:00 local",
+    "audit": "Read 2 November. Relays NAVWARN779 and Maritime.bg reporting; association with CONTSHIP JET is described as probable, not established by the official warning. No unique cumulative container count inferred."
   }
 }

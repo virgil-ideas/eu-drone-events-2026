@@ -1744,12 +1744,12 @@
     "headline": "KHORYV drone-strike report: partially submerged wreck remains hazardous",
     "description": "KHORYV was reported hit offshore on 23 October. One dead and three missing were reported; later accounts describe a partially submerged navigation hazard.",
     "summary": [
-      "KHORYV was reported hit by a drone and caught fire offshore from Constanța on 23 October before capsizing. NAVWARN 766/26 describes the dated 28 October 18:00 UTC observation of a capsized, semi-submerged drifting wreck. On 29 October bTV, citing the Bulgarian defence ministry, reported partial submergence and continuing danger; Maritime.bg later reported the stern grounded and the bow still visible on 30 October. Completed total sinking is not established. These later wreck observations do not relocate the original offshore strike.",
+      "KHORYV was reported hit by a drone and caught fire offshore from Constanța on 23 October before capsizing. NAVWARN 766/26 describes the dated 28 October 18:00 UTC observation of a capsized, semi-submerged drifting wreck. On 29 October bTV, citing the Bulgarian defence ministry, reported partial submergence and continuing danger; Maritime.bg later reported the stern grounded and the bow still visible in a new 1 November update. Completed total sinking is not established. These later wreck observations do not relocate the original offshore strike.",
       "Romania reports thirteen crew: nine rescued, one dead and three missing. Ukraine confirms a Ukrainian fatality but reports fourteen crew; the discrepancy remains unresolved. The notices give dated capsize and subsequent drifting-wreck positions, not a verified strike coordinate. Operator attribution and the final search outcome remain unresolved.",
       "Bulgaria announced monitoring and a planned naval inspection on 27 October. The next morning its defence minister said the wreck was entering Bulgarian territorial sea. These are later drifting-wreck reports, not a new attack or a change to the original offshore strike location.",
       "bTV reported Reshitelni on scene and operations paused for bad weather; Maritime.bg described scuttling attempts. These remain follow-ups to the same occurrence, not a new attack or resolution of the missing-person outcome."
     ],
-    "basis": "6eaba96a1cd81284"
+    "basis": "b836a19fd87d4a52"
   },
   "N113": {
     "slug": "2026-10-21-turkish-uav-activity-aegean-greece",
@@ -1859,9 +1859,10 @@
     "summary": [
       "Bulgarian defence authorities say Navy surveillance and a French patrol aircraft observed a surface-drone attack on CONTSHIP JET at 12:00 local (10:00 UTC) on 28 October, with three hits observed. Varna Radio gives the strike position as 43°15′N, 028°48′E off Cape Kaliakra. This is one offshore merchant-shipping occurrence, not a confirmed Bulgarian territorial incursion.",
       "Defence and transport authorities confirm all 18 crew were rescued. Varna Radio NAVWARN 768/26 confirms the ship subsequently sank at 20:30 UTC on 28 October at 43°07.80′N, 028°45.36′E, with more than 20 containers drifting, including dangerous goods. This supersedes the earlier unofficial sinking report.",
-      "The drone operator, launch origin and motive remain unknown. Reuters reports Ambrey’s provisional video-based assessment of a likely Murena-300S-derived design; this is not a confirmed model or operator identification. Three reported drones and three observed hits are not separate incidents. The later sinking position does not replace the original strike coordinate."
+      "The drone operator, launch origin and motive remain unknown. Reuters reports Ambrey’s provisional video-based assessment of a likely Murena-300S-derived design; this is not a confirmed model or operator identification. Three reported drones and three observed hits are not separate incidents. The later sinking position does not replace the original strike coordinate.",
+      "Navigation warnings on 1 November reported drifting containers near Burgas Bay. BNR linked four of them to CONTSHIP JET only provisionally; the official notices do not name their source vessel. These are hazard follow-ups, not new attacks or a cumulative container count."
     ],
-    "basis": "df370dbb741935a5"
+    "basis": "6ff84e697146e415"
   },
   "N125": {
     "slug": "2026-05-08-osieka-reconnaissance-uav-recovery-poland",
@@ -1909,8 +1910,19 @@
     "description": "Romania reports two drone entries on 31 October. One left; the other was last observed near Vaslui and Bacău. No crash was reported.",
     "summary": [
       "Romania’s defence ministry confirms two drones entered northeastern national airspace on the evening of 31 October 2026. One departed; the other was last observed between Vaslui and Bacău counties. No crash was reported at publication.",
-      "Four F-16s and an IAR-330 SOCAT launched, and public warnings ended at 19:19 local. This is one occurrence involving two drones, not two verified attacks. Operator, model, intent and targets remain unknown; the map anchor is approximate."
+      "Four F-16s and an IAR-330 SOCAT launched, and public warnings ended at 19:19 local. This is one occurrence involving two drones, not two verified attacks. Operator, model, intent and targets remain unknown; the map anchor is approximate.",
+      "According to Iași airport’s director, a Wizz Air arrival from Eindhoven was rerouted to Suceava during the temporary airspace closure. This disruption belongs to the same episode, not another incursion."
     ],
-    "basis": "2805be5cb137c425"
+    "basis": "d8da73ec0ddb7596"
+  },
+  "N130": {
+    "slug": "2026-11-01-drone-crosses-kraslava-ludza-latvia",
+    "headline": "Drone crosses eastern Latvia and leaves for Russia",
+    "description": "Officials report a drone crossing Latvia on 1 November. It exited into Russia; Latvia later self-destructed its own interceptor. Attribution is unknown.",
+    "summary": [
+      "Officials described one drone entering eastern Latvia from Belarus around 19:00 on 1 November 2026 and leaving for Russia at 19:16. Its operator and purpose remain unestablished.",
+      "Latvia launched a BLAZE interceptor and destroyed its own aircraft at 19:19 to avoid a border crossing. This was not a reported shoot-down of the foreign drone. The regional map point is approximate."
+    ],
+    "basis": "a67cb12ec106c0bc"
   }
 }
