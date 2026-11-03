@@ -2861,5 +2861,13 @@
     "url": "https://www.lsm.lv/raksts/zinas/latvija/03.11.2026-beidzies-gaisa-telpas-apdraudejums-balvu-un-ludzas-novada-objekts-nokrita-balvu-novada.a670280/",
     "dateLabel": "3 November 2026",
     "audit": "Read 3 November; published 00:23, updated 00:52 local. Relays NBS preliminary report, not independent recovery confirmation. Warning times 00:07–00:33 differ from NBS written notices; primary times retained."
+  },
+  "U220": {
+    "id": "U220",
+    "publisher": "Latvian National Armed Forces (NBS)",
+    "title": "Further information on the 1 and 3 November Latvian airspace incidents",
+    "url": "https://www.mil.lv/lv/zinas/nacionalie-brunotie-speki-sniedza-papildu-informaciju-par-1-un-3-novembra-incidentiem",
+    "dateLabel": "3 November 2026",
+    "audit": "Primary briefing directly read on 3 November. NBS assesses the 1 November UAV as likely a Russian Geran type after sensor/interceptor analysis and Ukrainian consultation; explosive payload unknown. For 3 November it confirms UAV detection, with visual resemblance to Ukrainian military UAVs but unconfirmed type and origin. Possible fall, ongoing search, not confirmed recovery or successful interception."
   }
 }

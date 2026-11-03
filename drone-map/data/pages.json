@@ -1917,13 +1917,13 @@
   },
   "N130": {
     "slug": "2026-11-01-drone-crosses-kraslava-ludza-latvia",
-    "headline": "Drone crosses eastern Latvia and leaves for Russia",
-    "description": "Officials report a drone crossing Latvia on 1 November. It exited into Russia; Latvia later self-destructed its own interceptor. Attribution is unknown.",
+    "headline": "Latvia assesses November 1 crossing UAV as likely a Russian Geran",
+    "description": "NBS assesses the UAV that crossed Latvia on 1 November as likely a Russian Geran. It exited into Russia; explosive payload and intent remain unknown.",
     "summary": [
-      "Officials described one drone entering eastern Latvia from Belarus around 19:00 on 1 November 2026 and leaving for Russia at 19:16. Its operator and purpose remain unestablished.",
-      "Latvia launched a BLAZE interceptor and destroyed its own aircraft at 19:19 to avoid a border crossing. This was not a reported shoot-down of the foreign drone. The regional map point is approximate."
+      "Officials described a drone crossing eastern Latvia from Belarus and leaving for Russia at 19:16 on 1 November. NBS subsequently assessed it as likely a Russian Geran after analysing sensor and interceptor data and consulting Ukrainian partners.",
+      "Latvia self-destructed its own interceptor at 19:19. This was not a reported shoot-down of the detected UAV. NBS cannot establish whether that UAV carried explosives; operator, intent and target remain unconfirmed."
     ],
-    "basis": "a67cb12ec106c0bc"
+    "basis": "3776e4ff6fa4b921"
   },
   "N131": {
     "slug": "2026-11-02-ro-alert-northern-tulcea-no-reported-airspace-entry",
@@ -1937,12 +1937,12 @@
   },
   "N132": {
     "slug": "2026-11-03-balvi-ludza-alert-unidentified-object",
-    "headline": "Latvian air alert ends; reported object fall remains under investigation",
-    "description": "Latvia issued a Balvi–Ludza alert on 3 November. An initial report placed an unidentified object’s fall in Balvi; recovery and foreign origin remain unconfirmed.",
+    "headline": "Latvia confirms UAV detection; origin and possible Balvi fall unresolved",
+    "description": "NBS confirms a UAV in Latvia on 3 November. It visually resembled Ukrainian military drones, but type, origin and a possible Balvi fall remain unconfirmed.",
     "summary": [
-      "Latvian armed forces issued an airspace warning for Balvi and Ludza shortly after midnight on 3 November. The official notices place the warning between 00:10 and 00:35 local.",
-      "An unidentified object reportedly fell in Balvi municipality, but the report is preliminary and ground searches continued. This remains a candidate, not a confirmed foreign-drone incursion. The map point represents the municipality, not a verified crash site."
+      "NBS confirms a UAV was detected in Latvian airspace during the 3 November Balvi–Ludza alert. Its initial visual identification resembled Ukrainian military UAVs, but the armed forces explicitly could not confirm type or origin.",
+      "The UAV may have fallen in Balvi municipality; ground searches continued. This remains a candidate with unresolved origin and outcome, not a confirmed foreign incursion, crash or shoot-down. The regional map point is not a verified crash site."
     ],
-    "basis": "e74f7c4f5a93fc5b"
+    "basis": "f8f7836899ad1620"
   }
 }

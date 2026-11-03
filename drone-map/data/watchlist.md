@@ -712,3 +712,20 @@ are not foreign incursions. Hungarian current police indexing remains inaccessib
 unproductive. Older military and hospital-helicopter reports are not fresh occurrences.
 No additional qualifying underwater occurrence was verified; this is not evidence of
 absence. Original research archives, published URLs and stable IDs remain unchanged.
+
+
+### 3 November targeted evening Latvian correction
+
+The NBS briefing on the 1 and 3 November incidents was directly reviewed at approximately
+21:03 UTC. This is a targeted correction, not another EU-wide search; the morning
+coverage window and outstanding gaps remain unchanged. N130 now records NBS's
+assessment of a likely Russian Geran-type UAV after sensor/interceptor-data analysis
+and consultation with Ukrainian partners. Its explosive payload is unestablished;
+the Latvian interceptor's self-destruction is not the foreign UAV's shoot-down.
+
+For N132, the new briefing explicitly confirms UAV detection, superseding the initial
+unidentified-object wording. Initial visual identification resembled Ukrainian military
+UAVs, but NBS cannot confirm type or origin. A fall remains possible, not confirmed;
+ground searches continue. Candidate/alert status and the regional anchor are retained,
+with no additional occurrence, crash stage, or confirmed Ukrainian attribution.
+https://www.mil.lv/lv/zinas/nacionalie-brunotie-speki-sniedza-papildu-informaciju-par-1-un-3-novembra-incidentiem

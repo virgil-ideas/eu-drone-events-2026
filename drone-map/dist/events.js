@@ -7916,22 +7916,23 @@ window.DRONE_DATA = {
         }
       ],
       "positionNote": "Broad regional anchor only; precise entry and exit coordinates unpublished.",
-      "vehicle": "One foreign drone; model unknown.",
+      "vehicle": "One UAV; NBS now assesses it as likely a Russian Geran type.",
       "reported_UAVs": 1,
-      "attribution": "Operator, nationality, intent and intended target unknown. Ukrainian origin was explicitly speculation.",
+      "attribution": "NBS assesses a likely Russian Geran-type UAV after analysing sensor and interceptor data and consulting Ukrainian partners. This is an official assessment, not confirmed operator identification; intent and target remain unknown.",
       "route": "Officials told LSM it entered from Belarus around 19:00 through Krāslava and exited through Ludza into Russia at 19:16 local.",
-      "circumstances": "NBS reported an unidentified flying object; direct official interviews described it as a drone.",
-      "payload": "Unknown.",
+      "circumstances": "Initially described in the written notice as an unidentified flying object. NBS’s 3 November briefing confirms UAV detection and gives its later likely-Geran assessment.",
+      "payload": "NBS says available data cannot establish whether it carried explosives.",
       "impact": "Foreign UAV exited Latvian airspace; no foreign-drone crash or shoot-down reported.",
-      "response": "NBS deployed a Latvian BLAZE interceptor, then self-destructed it at 19:19 to prevent it crossing the border. Public airspace threat ended at 19:30.",
-      "uncertainty": "Drone identification rests on direct official interviews; the written NBS notice calls it unidentified. Border of entry does not establish origin or operator.",
+      "response": "NBS reports a warning from 18:57 until 19:30 local. Its interceptor self-destructed at 19:19 after the detected UAV exited at 19:16; the reported explosion was the Latvian interceptor, not the foreign UAV.",
+      "uncertainty": "The likely Russian Geran identification is NBS’s subsequent assessment. Precise operator, launch point, intended target and explosive payload remain unconfirmed. Earlier Ukrainian-origin speculation is superseded by this official assessment.",
       "deduplication": "One foreign-UAV crossing episode. Latvian defensive interceptor deployment and self-destruction are response details, not another foreign incursion or additional foreign-UAV count.",
-      "provenance": "NBS primary statement and direct official interviews published by LSM, reviewed 2 November 2026.",
+      "provenance": "NBS primary statement and direct official interviews published by LSM, reviewed 2 November 2026. Updated against the NBS 3 November briefing: subsequent likely-Geran assessment replaces earlier model/origin uncertainty without implying a foreign-drone shoot-down.",
       "classificationNote": "Flight only. Domestic interceptor self-destruction is not a shoot-down or explosion outcome of the foreign UAV.",
-      "sourceReferences": "[U209][U209]; [U210][U210]",
+      "sourceReferences": "[U209][U209]; [U210][U210]; [U220][U220]",
       "sources": [
         "U209",
-        "U210"
+        "U210",
+        "U220"
       ],
       "page": "events/2026-11-01-drone-crosses-kraslava-ludza-latvia/"
     },
@@ -7979,16 +7980,16 @@ window.DRONE_DATA = {
     },
     {
       "id": "N132",
-      "title": "Balvi–Ludza · Air alert and preliminary object-fall report",
+      "title": "Balvi–Ludza · UAV detected; possible fall under investigation",
       "recordClass": "candidate",
-      "recordType": "unidentified_object",
+      "recordType": "unidentified_uav",
       "startDate": "2026-11-03",
       "dateLabel": "3 November 2026, shortly after midnight local",
       "dateBasis": "Local occurrence date from NBS; official alert 00:10–00:35 Europe/Riga (2 November 22:10–22:35 UTC). Exact alleged fall time unknown.",
       "countries": "Latvia",
       "location": "Balvi municipality; alert also covered Ludza municipality.",
-      "status": "Official alert; preliminary object fall, identity and recovery unresolved",
-      "categories": "Airspace alert; suspected object fall",
+      "status": "UAV detection confirmed by NBS; origin and possible fall unresolved",
+      "categories": "Airspace alert; UAV detection; possible fall",
       "category": "alert",
       "stages": [
         "alert"
@@ -8002,22 +8003,23 @@ window.DRONE_DATA = {
         }
       ],
       "positionNote": "Broad regional anchor; no verified wreckage location.",
-      "vehicle": "Unidentified object; drone identity not established in primary statements.",
-      "attribution": "Origin, operator, intent and target unknown.",
+      "vehicle": "UAV confirmed by NBS; exact type and origin unconfirmed.",
+      "attribution": "NBS says its initial visual identification resembled UAVs used by Ukraine’s armed forces, but explicitly cannot confirm type or origin. Operator, intent and target remain unknown.",
       "route": "No verified entry route or border crossing.",
-      "circumstances": "NBS announced a threat to Balvi and Ludza airspace shortly after midnight.",
+      "circumstances": "NBS’s later 3 November briefing confirms detection of a UAV in Latvian airspace during the Balvi–Ludza warning.",
       "payload": "Unknown.",
-      "impact": "A fall in Balvi municipality was reported preliminarily; physical recovery and damage not established.",
-      "response": "Interceptor drones were involved and NATO air-policing fighters activated. Ground search continued.",
-      "uncertainty": "NBS calls it an object; initial fall report is not confirmed recovery or foreign-drone identification. Official warning times are used; LSM Latvian gives 00:07–00:33.",
+      "impact": "NBS says the UAV may have fallen in Balvi municipality. No recovered wreckage, confirmed crash or damage established in the briefing.",
+      "response": "Two NBS interceptors from separate launch positions assisted detection and initial identification; NATO fighters were activated. Ground searches continued.",
+      "uncertainty": "UAV detection is now confirmed, superseding the earlier unidentified-object wording. Visual resemblance does not confirm Ukrainian origin. Fall remains possible, not verified; no confirmed foreign entry route, recovery or successful interception. Primary alert times remain 00:10–00:35 local.",
       "deduplication": "One developing episode, separate from 1 November N130. Defensive drones and warning are not extra foreign-UAV occurrences.",
-      "provenance": "Two NBS statements and LSM Latvian report directly reviewed 3 November 2026.",
-      "classificationNote": "Candidate alert only pending identification/recovery; no confirmed crash-stage, incursion, shoot-down or explosion inferred.",
-      "sourceReferences": "[U215][U215]; [U216][U216]; [U217][U217]",
+      "provenance": "Two NBS statements and LSM Latvian report directly reviewed 3 November 2026. Updated against the later NBS 3 November briefing, which identifies a UAV but leaves its origin and possible fall unresolved.",
+      "classificationNote": "Candidate alert retained pending origin and outcome clarification; no confirmed foreign incursion, crash, shoot-down or explosion inferred.",
+      "sourceReferences": "[U215][U215]; [U216][U216]; [U217][U217]; [U220][U220]",
       "sources": [
         "U215",
         "U216",
-        "U217"
+        "U217",
+        "U220"
       ],
       "page": "events/2026-11-03-balvi-ludza-alert-unidentified-object/"
     }
@@ -11069,6 +11071,14 @@ window.DRONE_DATA = {
       "url": "https://www.lsm.lv/raksts/zinas/latvija/03.11.2026-beidzies-gaisa-telpas-apdraudejums-balvu-un-ludzas-novada-objekts-nokrita-balvu-novada.a670280/",
       "dateLabel": "3 November 2026",
       "audit": "Read 3 November; published 00:23, updated 00:52 local. Relays NBS preliminary report, not independent recovery confirmation. Warning times 00:07–00:33 differ from NBS written notices; primary times retained."
+    },
+    "U220": {
+      "id": "U220",
+      "publisher": "Latvian National Armed Forces (NBS)",
+      "title": "Further information on the 1 and 3 November Latvian airspace incidents",
+      "url": "https://www.mil.lv/lv/zinas/nacionalie-brunotie-speki-sniedza-papildu-informaciju-par-1-un-3-novembra-incidentiem",
+      "dateLabel": "3 November 2026",
+      "audit": "Primary briefing directly read on 3 November. NBS assesses the 1 November UAV as likely a Russian Geran type after sensor/interceptor analysis and Ukrainian consultation; explosive payload unknown. For 3 November it confirms UAV detection, with visual resemblance to Ukrainian military UAVs but unconfirmed type and origin. Possible fall, ongoing search, not confirmed recovery or successful interception."
     }
   },
   "cutoff": "2026-11-03",
