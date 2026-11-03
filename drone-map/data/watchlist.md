@@ -655,3 +655,60 @@ Western follow-ups: Nuremberg’s official account remains an unconfirmed 13 Oct
 
 ### 2 November targeted afternoon follow-up
 MApN release 353, reread at approximately 14:24 UTC, supports selected alert N131 for northern Tulcea with no reported Romanian entry. This is not a new EU-wide search; the morning partial review and all gaps remain as recorded above. Reporting cutoff 2 November reflects this dated alert, not exhaustive coverage.
+
+## Coverage — 3 November 2026 daily check
+
+Partial EU27 public-source searches covered 30 October–3 November through approximately
+06:04 UTC, with at least 72 hours of overlap from the last partial review and targeted
+revisits to older gaps. All 27 states were covered by regional searches, but source
+access and indexing remain uneven. No genuinely complete-search marker is advanced;
+the earlier country/source gaps and partial 31 October retrospective remain open.
+The inclusive cutoff advances to 3 November for the dated Latvian candidate N132,
+not as evidence of exhaustive EU coverage or a confirmed foreign-drone incursion.
+
+N132 records the 3 November Balvi–Ludza airspace alert and preliminary report of an
+unidentified object falling in Balvi municipality. NBS says ground searches continue;
+identity, foreign origin, recovery, damage and precise location remain unestablished.
+Use the primary notices' 00:10–00:35 local warning times, rather than LSM's differing
+times. The regional anchor is not a crash site; defensive interceptors and fighter
+activation are not additional occurrences or evidence of a successful shoot-down.
+https://www.mil.lv/lv/zinas/atcelts-apdraudejums-latvijas-gaisa-telpa-balvu-un-ludzas-novados
+
+N124 gains the 2 November Tsarevo container follow-up. The transport ministry confirms
+securing the area, not its source vessel or actual contents; Christmas cargo is labelled
+information. BNT later reports water samples were taken, results pending. CONTSHIP JET
+association remains provisional. Additional drifting-container sightings, including a
+tank-shaped object near Varvara/Ahtopol, are not new drone incidents or a cumulative
+cargo count. The original offshore strike date, position and confirmed sinking remain.
+
+Greek daily gaps remain for 13–14, 16–18, 27–29 and 31 October and 1–2 November.
+GEETHA October access remains unavailable and November access returned 403; searches
+of reputable reporting did not resolve those gaps. Repeated 30 October figures remain
+N128, not another record. Romania's indexed MApN release 353 is already N131; aggregate
+dashboards do not establish new dated episodes. KHORYV and CONTSHIP JET navigation
+warnings preserve historical observations, not new attacks.
+
+Poland's 1 November Ustka beach recovery was identified by the military-police spokesman
+as a domestic target drone; it is not a foreign incursion or a new mapped candidate.
+Lithuanian border-authority cigarette-balloon reports are not drone occurrences.
+https://radiogdansk.pl/wiadomosci/region/slupsk/2026/11/02/szczatki-drona-na-plazy-w-ustce-sluzby-uspokajaja/
+Finnish border and defence access limitations, Danish police indexing, thin Estonian,
+Austrian, Czech and Slovak indexing, and the unresolved Bohunice lead remain gaps.
+Germany's Nuremberg statement still calls the 13 October sighting unconfirmed; new
+user-submitted sightings are not independently verified. Swedish authorized policing
+and Czech retrospective reporting about Poland do not establish new local incursions.
+
+Western checks add no qualifying mapped occurrence. Urda's 31 October unauthorized
+filming and separate 29 October attempt remain domestic activity without foreign-flight
+evidence; La Razon/Servimedia corroborates the earlier EFE account. Eemshaven and Toulon
+follow-ups do not establish new occurrences. Dutch citizen sightings remain unverified.
+French utility inspections and Portugal's reported REPMUS UAV/USV/UUV exercise are
+authorized activity. RTÉ access returned 403 and French Navy access timed out. Belgium,
+Luxembourg and several other western indexes remain thin.
+
+Cypriot procurement/notices, Italian overseas responses and preventive restrictions,
+Maltese surveillance/shows, Croatian Slunj exercises and Slovenian preventive restrictions
+are not foreign incursions. Hungarian current police indexing remains inaccessible or
+unproductive. Older military and hospital-helicopter reports are not fresh occurrences.
+No additional qualifying underwater occurrence was verified; this is not evidence of
+absence. Original research archives, published URLs and stable IDs remain unchanged.

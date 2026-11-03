@@ -2821,5 +2821,45 @@
     "url": "https://www.mapn.ro/cpresa/19462_Informa%C8%9Bie-de-pres%C4%83",
     "dateLabel": "2 November 2026",
     "audit": "Primary body read in browser 2 November. Ukrainian Danube port attacks prompted Romanian military response and RO-Alert at 04:11; alert ended at 05:26 local. Explicitly no reported national-airspace entries. No UAV count or Romanian impact established."
+  },
+  "U214": {
+    "id": "U214",
+    "publisher": "Bulgarian Ministry of Transport and Communications",
+    "title": "Container washed ashore near Tsarevo secured",
+    "url": "https://www.mtc.government.bg/bg/category/1/obezopasen-e-izpluvaliyat-kray-carevo-koraben-konteyner",
+    "dateLabel": "2 November 2026",
+    "audit": "Primary notice directly read 3 November. Confirms shore discovery and securing of the area, not the source vessel or actual contents. Cargo is labelled Christmas decorations; origin and condition remain under investigation. Environmental sampling expected, no results reported. Retained only as provisional cargo-hazard context for N124, not an additional drone occurrence."
+  },
+  "U219": {
+    "id": "U219",
+    "publisher": "BNT",
+    "title": "Timing of Tsarevo container recovery remains unclear",
+    "url": "https://bntnews.bg/news/vse-oshte-ne-e-yasno-koga-konteinerat-krai-carevo-shte-bade-izvaden-na-brega-1420284news.html",
+    "dateLabel": "2 November 2026, 18:23 local",
+    "audit": "Direct report read 3 November. Water samples were taken; results expected within five days, not a pollution finding. The container was not yet opened; reported Christmas cargo is labelled/manifest information. Association with CONTSHIP JET is provisional. Separate tank-shaped object reported near Varvara/Ahtopol is not an additive drone event or confirmed vessel-linked cargo count."
+  },
+  "U215": {
+    "id": "U215",
+    "publisher": "Latvian National Armed Forces (NBS)",
+    "title": "Airspace threat declared in Balvi and Ludza municipalities",
+    "url": "https://www.mil.lv/lv/zinas/izsludinats-gaisa-telpas-apdraudejums-balvu-un-ludzas-novados",
+    "dateLabel": "3 November 2026",
+    "audit": "Primary read 3 November; alert began 00:10 local. NATO fighters activated. General warning about future foreign-UAV incursions does not establish this object’s origin."
+  },
+  "U216": {
+    "id": "U216",
+    "publisher": "Latvian National Armed Forces (NBS)",
+    "title": "Airspace threat cancelled in Balvi and Ludza municipalities",
+    "url": "https://www.mil.lv/lv/zinas/atcelts-apdraudejums-latvijas-gaisa-telpa-balvu-un-ludzas-novados",
+    "dateLabel": "3 November 2026",
+    "audit": "Primary read 3 November; cancelled 00:35 local. Initial information says an object fell in Balvi municipality; ground search continuing. Interceptors involved, no confirmed engagement outcome."
+  },
+  "U217": {
+    "id": "U217",
+    "publisher": "Latvian Public Media (LSM)",
+    "title": "Balvi and Ludza threat ends; initial object-fall report in Balvi",
+    "url": "https://www.lsm.lv/raksts/zinas/latvija/03.11.2026-beidzies-gaisa-telpas-apdraudejums-balvu-un-ludzas-novada-objekts-nokrita-balvu-novada.a670280/",
+    "dateLabel": "3 November 2026",
+    "audit": "Read 3 November; published 00:23, updated 00:52 local. Relays NBS preliminary report, not independent recovery confirmation. Warning times 00:07–00:33 differ from NBS written notices; primary times retained."
   }
 }

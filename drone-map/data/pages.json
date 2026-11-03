@@ -1860,9 +1860,9 @@
       "Bulgarian defence authorities say Navy surveillance and a French patrol aircraft observed a surface-drone attack on CONTSHIP JET at 12:00 local (10:00 UTC) on 28 October, with three hits observed. Varna Radio gives the strike position as 43°15′N, 028°48′E off Cape Kaliakra. This is one offshore merchant-shipping occurrence, not a confirmed Bulgarian territorial incursion.",
       "Defence and transport authorities confirm all 18 crew were rescued. Varna Radio NAVWARN 768/26 confirms the ship subsequently sank at 20:30 UTC on 28 October at 43°07.80′N, 028°45.36′E, with more than 20 containers drifting, including dangerous goods. This supersedes the earlier unofficial sinking report.",
       "The drone operator, launch origin and motive remain unknown. Reuters reports Ambrey’s provisional video-based assessment of a likely Murena-300S-derived design; this is not a confirmed model or operator identification. Three reported drones and three observed hits are not separate incidents. The later sinking position does not replace the original strike coordinate.",
-      "Navigation warnings on 1 November reported drifting containers near Burgas Bay. BNR linked four of them to CONTSHIP JET only provisionally; the official notices do not name their source vessel. These are hazard follow-ups, not new attacks or a cumulative container count."
+      "Navigation warnings on 1 November reported drifting containers near Burgas Bay. BNR linked four of them to CONTSHIP JET only provisionally; the official notices do not name their source vessel. These are hazard follow-ups, not new attacks or a cumulative container count. On 2 November the transport ministry said a container near Tsarevo was secured, with origin and condition under investigation. Cargo was labelled Christmas decorations, not independently verified contents; BNT later reported that water samples were taken, with results pending. Its association with CONTSHIP JET remains unconfirmed."
     ],
-    "basis": "6ff84e697146e415"
+    "basis": "08536de684fc9774"
   },
   "N125": {
     "slug": "2026-05-08-osieka-reconnaissance-uav-recovery-poland",
@@ -1934,5 +1934,15 @@
       "MApN reported no entry into Romanian airspace. This is a civil-protection alert, not an incursion or confirmed attack in Romania. The map point represents the warning area."
     ],
     "basis": "56a49263f5fbad8f"
+  },
+  "N132": {
+    "slug": "2026-11-03-balvi-ludza-alert-unidentified-object",
+    "headline": "Latvian air alert ends; reported object fall remains under investigation",
+    "description": "Latvia issued a Balvi–Ludza alert on 3 November. An initial report placed an unidentified object’s fall in Balvi; recovery and foreign origin remain unconfirmed.",
+    "summary": [
+      "Latvian armed forces issued an airspace warning for Balvi and Ludza shortly after midnight on 3 November. The official notices place the warning between 00:10 and 00:35 local.",
+      "An unidentified object reportedly fell in Balvi municipality, but the report is preliminary and ground searches continued. This remains a candidate, not a confirmed foreign-drone incursion. The map point represents the municipality, not a verified crash site."
+    ],
+    "basis": "e74f7c4f5a93fc5b"
   }
 }
