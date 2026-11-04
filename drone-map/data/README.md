@@ -210,10 +210,9 @@ Editorial review is still required for those decisions.
 
 ## Latest research coverage
 
-The 3 November review is a partial EU27 public-source check for 30 October–3 November
-through approximately 06:04 UTC, with at least 72 hours of overlap and targeted
-older-gap revisits documented in watchlist.md. The inclusive reporting cutoff is
-3 November for the dated Latvian candidate N132, not a certificate of exhaustive
-coverage or confirmed foreign entry. Earlier source gaps and the partial Saturday
-retrospective remain open. Record counts include candidates and selected alerts
-and are not confirmed-attack totals.
+The 4 November review is a partial EU27 public-source check for 31 October–4 November
+through approximately 06:08 UTC, with at least 72 hours of overlap and targeted
+older-gap revisits documented in watchlist.md. The inclusive reporting cutoff
+remains 3 November, not a certificate of exhaustive coverage. Earlier source gaps
+and the partial Saturday retrospective remain open. Record counts include
+candidates and selected alerts and are not confirmed-attack totals.

@@ -7734,12 +7734,12 @@ window.DRONE_DATA = {
       "circumstances": "The Bulgarian defence ministry says the Navy surveillance system and a French patrol aircraft observed the surface-drone attack at 12:00 local on 28 October and three hits were observed. Varna Radio NAVWARN 759/26 identifies CONTSHIP JET and reports a surface-drone hit at 10:00 UTC. Included under the register’s existing offshore merchant-shipping treatment, not as a confirmed Bulgarian territorial incursion.",
       "payload": "Unknown; no separately established explosion count.",
       "impact": "All 18 crew were rescued according to Bulgarian defence and transport authorities, corroborating the earlier manager account. Varna Radio NAVWARN 768/26 confirms CONTSHIP JET sank at 20:30 UTC on 28 October at 43°07.80′N, 028°45.36′E. More than 20 containers were adrift, with flammable gases and liquids and other dangerous goods among the lost cargo. This official warning supersedes the earlier explicitly unconfirmed sinking report.",
-      "response": "The transport ministry reports an alert at 12:01 local and abandonment at 12:13 on 28 October; at 12:53 eight crew were aboard a Navy cutter and ten in a lifeboat. The defence ministry says three naval ships deployed immediately and all 18 crew were rescued by 13:45 local. These official accounts supersede reliance on the manager-only safety statement. Eftimov told bTV that the Navy had warned ships in the area roughly half an hour before the attack. On 1 November NAVWARN779 reported four containers east of Burgas Bay at 08:55 UTC; NAVWARN780 reported a container at 12:20 UTC. BNR described the four as probably from CONTSHIP JET, but the notices themselves do not identify a vessel. On 2 November the Bulgarian transport ministry reported a container washed ashore near Tsarevo; border police secured the area and the military prosecutor was notified. The cargo was labelled Christmas decorations, but actual contents were not verified. Origin and condition remained under investigation; the ministry initially announced planned environmental sampling. BNT later reported that water samples had been taken on 2 November, with results expected within five days; no pollution result was reported.",
-      "uncertainty": "The official observation account and navigation warning support the attack, location and rescue, not a technical model or operator identification. Ambrey’s video-based design assessment reported by Reuters remains provisional. The minister reported three maritime drones, while the defence ministry describes three observed hits; neither creates separate occurrences. Operator, launch point and motive remain unknown. The sinking is confirmed by NAVWARN 768/26, but its later position is not the strike location. Neither the wreck nor cargo drift establishes a new drone incursion. The Burgas sightings are not a unique additive container total; vessel association remains provisional and no new pollution finding is established. The Tsarevo container is a provisional cargo-hazard follow-up, not a confirmed CONTSHIP JET container, drone recovery or pollution finding.",
+      "response": "The transport ministry reports an alert at 12:01 local and abandonment at 12:13 on 28 October; at 12:53 eight crew were aboard a Navy cutter and ten in a lifeboat. The defence ministry says three naval ships deployed immediately and all 18 crew were rescued by 13:45 local. These official accounts supersede reliance on the manager-only safety statement. Eftimov told bTV that the Navy had warned ships in the area roughly half an hour before the attack. On 1 November NAVWARN779 reported four containers east of Burgas Bay at 08:55 UTC; NAVWARN780 reported a container at 12:20 UTC. BNR described the four as probably from CONTSHIP JET, but the notices themselves do not identify a vessel. On 2 November the Bulgarian transport ministry reported a container washed ashore near Tsarevo; border police secured the area and the military prosecutor was notified. The cargo was labelled Christmas decorations, but actual contents were not verified. Origin and condition remained under investigation; the ministry initially announced planned environmental sampling. BNT later reported that water samples had been taken on 2 November, with results expected within five days; no pollution result was reported. On 3 November Burgas Regional Administration reported three objects under monitoring: the Oasis–Arapya container, a visibly empty tank at Kamennite Korabi near Sinemorets, and another container near Butamyata. It cited manifest information describing non-hazardous cargo and an empty tank, while the CONTSHIP JET association remained under investigation. Butamyata samples were taken for heavy-metal testing; no current leakage data was reported. Guarding continued while rough seas delayed removal.",
+      "uncertainty": "The official observation account and navigation warning support the attack, location and rescue, not a technical model or operator identification. Ambrey’s video-based design assessment reported by Reuters remains provisional. The minister reported three maritime drones, while the defence ministry describes three observed hits; neither creates separate occurrences. Operator, launch point and motive remain unknown. The sinking is confirmed by NAVWARN 768/26, but its later position is not the strike location. Neither the wreck nor cargo drift establishes a new drone incursion. The Burgas sightings are not a unique additive container total; vessel association remains provisional and no new pollution finding is established. The Tsarevo container is a provisional cargo-hazard follow-up, not a confirmed CONTSHIP JET container, drone recovery or pollution finding. The 3 November manifest information and visual tank assessment are attributed official reports, not verified physical contents or laboratory clearance. The three objects under monitoring are a dated operational count, not a cumulative total of lost containers. The regional authority locates the tank at Kamennite Korabi near Sinemorets; earlier Silistar reporting is not treated as a separate object.",
       "deduplication": "One CONTSHIP JET occurrence, distinct from KHORYV, CHELSEA 3 and earlier ship attacks. Three reported drones, impacts and abandonment are not separate event records.",
-      "provenance": "Added 28 October after direct BGNES and Sofia Globe browser reads and Chernomore body review. Original research snapshots unchanged. Reviewed 29 October against Bulgarian defence and transport ministries and Varna Radio navigation warnings; official rescue and reported strike position incorporated. Overnight sinking reporting retained as unconfirmed. Reviewed 30 October against Varna Radio NAVWARN 768/26: sinking confirmed for 28 October 20:30 UTC; original strike anchor and offshore classification retained. Reviewed 31 October against Reuters’ 29 October interview reporting via its StreetInsider syndication; provisional technical assessment added without changing operator certainty, occurrence date or geography. Reviewed 2 November against current Varna Radio NAVWARN779/780 and BNR’s provisional vessel association. Reviewed 3 November against the transport ministry’s 2 November Tsarevo notice; unconfirmed vessel association and labelled-versus-verified cargo distinction retained. Later BNT reporting confirms sampling took place on 2 November, with results pending.",
+      "provenance": "Added 28 October after direct BGNES and Sofia Globe browser reads and Chernomore body review. Original research snapshots unchanged. Reviewed 29 October against Bulgarian defence and transport ministries and Varna Radio navigation warnings; official rescue and reported strike position incorporated. Overnight sinking reporting retained as unconfirmed. Reviewed 30 October against Varna Radio NAVWARN 768/26: sinking confirmed for 28 October 20:30 UTC; original strike anchor and offshore classification retained. Reviewed 31 October against Reuters’ 29 October interview reporting via its StreetInsider syndication; provisional technical assessment added without changing operator certainty, occurrence date or geography. Reviewed 2 November against current Varna Radio NAVWARN779/780 and BNR’s provisional vessel association. Reviewed 3 November against the transport ministry’s 2 November Tsarevo notice; unconfirmed vessel association and labelled-versus-verified cargo distinction retained. Later BNT reporting confirms sampling took place on 2 November, with results pending. Reviewed 4 November against the 3 November Burgas Regional Administration statement; subsequent cargo-monitoring information added without changing the strike date, offshore anchor or unresolved vessel association. November 2 and November 3 sampling are distinct; no laboratory result is established.",
       "classificationNote": "Red Strike for reported damaging maritime-drone attack. Offshore context explicitly separated from confirmed territorial incursions.",
-      "sourceReferences": "[U180][U180]; [U181][U181]; [U182][U182]; [U185][U185]; [U186][U186]; [U187][U187]; [U188][U188]; [U189][U189]; [U190][U190]; [U203][U203]; [U206][U206]; [U212][U212]; [U214][U214]; [U219][U219]",
+      "sourceReferences": "[U180][U180]; [U181][U181]; [U182][U182]; [U185][U185]; [U186][U186]; [U187][U187]; [U188][U188]; [U189][U189]; [U190][U190]; [U203][U203]; [U206][U206]; [U212][U212]; [U214][U214]; [U219][U219]; [U222][U222]",
       "sources": [
         "U180",
         "U181",
@@ -7754,7 +7754,8 @@ window.DRONE_DATA = {
         "U206",
         "U212",
         "U214",
-        "U219"
+        "U219",
+        "U222"
       ],
       "page": "events/2026-10-28-contship-jet-maritime-drone-strike-kaliakra-bulgaria/"
     },
@@ -7977,6 +7978,49 @@ window.DRONE_DATA = {
         "U213"
       ],
       "page": "events/2026-11-02-ro-alert-northern-tulcea-no-reported-airspace-entry/"
+    },
+    {
+      "id": "N133",
+      "title": "Northern Tulcea · Overnight 2–3 November RO-Alert",
+      "recordClass": "event",
+      "recordType": "civil_protection_air_alert",
+      "startDate": "2026-11-02",
+      "dateLabel": "2–3 November 2026, 23:43–00:21 local alert",
+      "dateBasis": "MApN release 356 dates the episode to the night of 2–3 November. Replay uses the 2 November warning start; the alert ended after midnight on 3 November. Times are Romanian local time.",
+      "countries": "Romania",
+      "location": "Northern Tulcea County warning area; nearby aerial activity over Ukrainian territory.",
+      "status": "Official warning; no Romanian airspace entry reported",
+      "categories": "Civil-protection alert; no reported incursion",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.25,
+          "lng": 29.45,
+          "precision": "region",
+          "label": "Northern Tulcea warning area — approximate, not a drone position"
+        }
+      ],
+      "positionNote": "Editorial warning-area anchor, not a target location or border crossing.",
+      "vehicle": "Two radar targets detected over Ukraine; Ukrainian authorities reported several UAVs in the region. No total number or model established.",
+      "attribution": "Operator not identified in this release.",
+      "route": "Targets were detected on the Ukrainian side near Izmail and Chilia; Ukraine also reported UAVs near Vâlcove. No Romanian airspace entry reported.",
+      "circumstances": "Nearby aerial activity over Ukraine prompted a civil-protection warning for northern Tulcea.",
+      "payload": "Unspecified.",
+      "impact": "Civil-protection alert; no Romanian damage or casualties reported in the release.",
+      "response": "Two Spanish F-18 aircraft launched from Mihail Kogălniceanu. Northern Tulcea received RO-Alert at 23:43 on 2 November; the air alert ended at 00:21 on 3 November.",
+      "uncertainty": "Two radar targets do not establish the complete UAV count. No Romanian entry was reported, and operator, platform model and intended targets are not identified in the release.",
+      "deduplication": "One selected overnight alert, distinct from N131’s 2 November 04:11–05:26 episode. Neither the two radar targets nor the Spanish aircraft response creates additional occurrences.",
+      "provenance": "MApN release 356, directly reviewed 4 November 2026.",
+      "classificationNote": "Alert only. No strike, shoot-down or drone inside Romania inferred.",
+      "sourceReferences": "[U221][U221]",
+      "sources": [
+        "U221"
+      ],
+      "endDate": "2026-11-03",
+      "page": "events/2026-11-02-overnight-tulcea-alert-no-reported-entry/"
     },
     {
       "id": "N132",
@@ -11079,6 +11123,22 @@ window.DRONE_DATA = {
       "url": "https://www.mil.lv/lv/zinas/nacionalie-brunotie-speki-sniedza-papildu-informaciju-par-1-un-3-novembra-incidentiem",
       "dateLabel": "3 November 2026",
       "audit": "Primary briefing directly read on 3 November. NBS assesses the 1 November UAV as likely a Russian Geran type after sensor/interceptor analysis and Ukrainian consultation; explosive payload unknown. For 3 November it confirms UAV detection, with visual resemblance to Ukrainian military UAVs but unconfirmed type and origin. Possible fall, ongoing search, not confirmed recovery or successful interception."
+    },
+    "U221": {
+      "id": "U221",
+      "publisher": "Romanian Ministry of National Defence (MApN)",
+      "title": "Release 356: northern Tulcea warning during the night of 2–3 November; no Romanian entry reported",
+      "url": "https://www.mapn.ro/cpresa/19465_Informa%C8%9Bie-de-pres%C4%83",
+      "dateLabel": "3 November 2026",
+      "audit": "Primary text directly read 4 November. Two radar targets over Ukraine near Izmail and Chilia; Ukrainian authorities reported several UAVs. Spanish F-18 response and RO-Alert at 23:43, ending 00:21 local. Explicitly no Romanian national-airspace entry reported. Distinct from release 353 and the earlier 04:11 alert; two radar targets are not a complete UAV total."
+    },
+    "U222": {
+      "id": "U222",
+      "publisher": "Burgas Regional Administration",
+      "title": "Governor Diko Dikov coordinates safeguarding of containers on the southern Black Sea coast",
+      "url": "https://bs.government.bg/?p=4643",
+      "dateLabel": "3 November 2026",
+      "audit": "Primary authority statement directly read 4 November. Three objects under monitoring: Oasis–Arapya container, visibly empty tank at Kamennite Korabi, and another container near Butamyata. Manifest information describes safe cargo and an empty tank, but vessel association remains under investigation. Samples taken; no current leakage data is not a laboratory clearance. Prefer this named location over earlier Silistar reporting; neither unique cumulative container totals nor a new drone occurrence inferred."
     }
   },
   "cutoff": "2026-11-03",
