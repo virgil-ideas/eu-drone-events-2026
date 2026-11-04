@@ -2869,5 +2869,21 @@
     "url": "https://www.mil.lv/lv/zinas/nacionalie-brunotie-speki-sniedza-papildu-informaciju-par-1-un-3-novembra-incidentiem",
     "dateLabel": "3 November 2026",
     "audit": "Primary briefing directly read on 3 November. NBS assesses the 1 November UAV as likely a Russian Geran type after sensor/interceptor analysis and Ukrainian consultation; explosive payload unknown. For 3 November it confirms UAV detection, with visual resemblance to Ukrainian military UAVs but unconfirmed type and origin. Possible fall, ongoing search, not confirmed recovery or successful interception."
+  },
+  "U221": {
+    "id": "U221",
+    "publisher": "Romanian Ministry of National Defence (MApN)",
+    "title": "Release 356: northern Tulcea warning during the night of 2–3 November; no Romanian entry reported",
+    "url": "https://www.mapn.ro/cpresa/19465_Informa%C8%9Bie-de-pres%C4%83",
+    "dateLabel": "3 November 2026",
+    "audit": "Primary text directly read 4 November. Two radar targets over Ukraine near Izmail and Chilia; Ukrainian authorities reported several UAVs. Spanish F-18 response and RO-Alert at 23:43, ending 00:21 local. Explicitly no Romanian national-airspace entry reported. Distinct from release 353 and the earlier 04:11 alert; two radar targets are not a complete UAV total."
+  },
+  "U222": {
+    "id": "U222",
+    "publisher": "Burgas Regional Administration",
+    "title": "Governor Diko Dikov coordinates safeguarding of containers on the southern Black Sea coast",
+    "url": "https://bs.government.bg/?p=4643",
+    "dateLabel": "3 November 2026",
+    "audit": "Primary authority statement directly read 4 November. Three objects under monitoring: Oasis–Arapya container, visibly empty tank at Kamennite Korabi, and another container near Butamyata. Manifest information describes safe cargo and an empty tank, but vessel association remains under investigation. Samples taken; no current leakage data is not a laboratory clearance. Prefer this named location over earlier Silistar reporting; neither unique cumulative container totals nor a new drone occurrence inferred."
   }
 }
