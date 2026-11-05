@@ -3791,44 +3791,48 @@ window.DRONE_DATA = {
     },
     {
       "id": "E055",
-      "dateLabel": "2026-09-02",
-      "dateBasis": "2 September recovery date; EEST",
+      "dateLabel": "1 September 2026 discovery; findings published 2 and 10 September",
+      "dateBasis": "The Border Guard explicitly dates discovery to 1 September. The previous 2 September date was publication, not discovery. Flight and sea-fall dates remain unknown.",
       "countries": "Finland",
-      "location": "Southern Finnish coast; precise location not supplied in prior report",
-      "status": "Recovery; foreign status unresolved",
+      "location": "Pellinki archipelago, Porvoo, southern Finland; UAV found among shore rocks.",
+      "status": "Recovered UAV; likely Russia-origin assessment, investigation ongoing",
       "categories": "Coastal recovery; possible territorial violation investigation",
-      "vehicle": "Survey/mapping UAV",
-      "attribution": "Origin/operator unknown; not automatically foreign military",
-      "route": "Flight route/date unknown",
-      "circumstances": "Non-dangerous mapping drone recovered.",
-      "payload": "No hazardous payload identified in account",
-      "impact": "No damage or casualties reported",
-      "response": "Authorities recovered drone and investigated possible territorial violation.",
-      "uncertainty": "Foreign provenance unresolved.",
-      "deduplication": "One recovery; no separate flight-incursion date established.",
-      "provenance": "Prior research; not independently rechecked in full for this export",
-      "sourceReferences": "[S12][S12]; [S63][S63]",
+      "vehicle": "Recovered UAV; described as a survey/mapping drone in earlier reporting.",
+      "attribution": "The Border Guard’s 10 September preliminary assessment, based on device data, indicates likely origin from Russia. Operator and original purpose remain unconfirmed.",
+      "route": "Investigators assess loss of control, fuel exhaustion and a sea fall outside Finnish borders. No Finnish aerial entry established.",
+      "circumstances": "A civilian reported the UAV on 1 September; a Border Guard patrol confirmed the discovery.",
+      "payload": "Border Guard said the device posed no danger to bystanders.",
+      "impact": "No damage or casualties reported in the reviewed releases.",
+      "response": "Border Guard investigated with police and Defence Forces; detailed device-data analysis continued.",
+      "uncertainty": "The 10 September findings are preliminary, not a final investigation outcome. Russian origin does not establish a military operator, intent or Finnish airspace crossing. Yle reports no evidence of filming in Finland and unresolved original purpose.",
+      "deduplication": "One discovery/recovery; sea fall outside Finland is background, not a separate mapped crash or incursion.",
+      "provenance": "Prior research corrected on 5 November 2026 using official Border Guard releases of 2 and 10 September and Yle reporting. Discovery date and Pellinki locality replace the earlier publication-date/coastal description.",
+      "sourceReferences": "[S12][S12]; [S63][S63]; [U226][U226]; [U227][U227]; [U228][U228]",
       "sources": [
         "S12",
-        "S63"
+        "S63",
+        "U226",
+        "U227",
+        "U228"
       ],
-      "startDate": "2026-09-02",
-      "title": "Southern Finnish coast",
+      "startDate": "2026-09-01",
+      "title": "Pellinki · Drone discovery and preliminary Russian-origin assessment",
       "category": "recovery",
       "positions": [
         {
-          "lat": 60.1,
-          "lng": 25.0,
+          "lat": 60.2,
+          "lng": 25.8,
           "precision": "region",
-          "label": "Southern Finnish coast"
+          "label": "Pellinki archipelago — approximate regional discovery anchor"
         }
       ],
       "stages": [
         "recovery"
       ],
-      "classificationNote": "",
+      "classificationNote": "Recovery only. No Finnish-airspace flight or crash stage inferred from the preliminary offshore-fall assessment.",
       "recordClass": "event",
       "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+      "positionNote": "Approximate archipelago anchor, not the exact shore find or sea-fall location.",
       "page": "events/2026-09-02-mapping-drone-recovered-southern-coast-finland/"
     },
     {
@@ -7734,12 +7738,12 @@ window.DRONE_DATA = {
       "circumstances": "The Bulgarian defence ministry says the Navy surveillance system and a French patrol aircraft observed the surface-drone attack at 12:00 local on 28 October and three hits were observed. Varna Radio NAVWARN 759/26 identifies CONTSHIP JET and reports a surface-drone hit at 10:00 UTC. Included under the register’s existing offshore merchant-shipping treatment, not as a confirmed Bulgarian territorial incursion.",
       "payload": "Unknown; no separately established explosion count.",
       "impact": "All 18 crew were rescued according to Bulgarian defence and transport authorities, corroborating the earlier manager account. Varna Radio NAVWARN 768/26 confirms CONTSHIP JET sank at 20:30 UTC on 28 October at 43°07.80′N, 028°45.36′E. More than 20 containers were adrift, with flammable gases and liquids and other dangerous goods among the lost cargo. This official warning supersedes the earlier explicitly unconfirmed sinking report.",
-      "response": "The transport ministry reports an alert at 12:01 local and abandonment at 12:13 on 28 October; at 12:53 eight crew were aboard a Navy cutter and ten in a lifeboat. The defence ministry says three naval ships deployed immediately and all 18 crew were rescued by 13:45 local. These official accounts supersede reliance on the manager-only safety statement. Eftimov told bTV that the Navy had warned ships in the area roughly half an hour before the attack. On 1 November NAVWARN779 reported four containers east of Burgas Bay at 08:55 UTC; NAVWARN780 reported a container at 12:20 UTC. BNR described the four as probably from CONTSHIP JET, but the notices themselves do not identify a vessel. On 2 November the Bulgarian transport ministry reported a container washed ashore near Tsarevo; border police secured the area and the military prosecutor was notified. The cargo was labelled Christmas decorations, but actual contents were not verified. Origin and condition remained under investigation; the ministry initially announced planned environmental sampling. BNT later reported that water samples had been taken on 2 November, with results expected within five days; no pollution result was reported. On 3 November Burgas Regional Administration reported three objects under monitoring: the Oasis–Arapya container, a visibly empty tank at Kamennite Korabi near Sinemorets, and another container near Butamyata. It cited manifest information describing non-hazardous cargo and an empty tank, while the CONTSHIP JET association remained under investigation. Butamyata samples were taken for heavy-metal testing; no current leakage data was reported. Guarding continued while rough seas delayed removal.",
-      "uncertainty": "The official observation account and navigation warning support the attack, location and rescue, not a technical model or operator identification. Ambrey’s video-based design assessment reported by Reuters remains provisional. The minister reported three maritime drones, while the defence ministry describes three observed hits; neither creates separate occurrences. Operator, launch point and motive remain unknown. The sinking is confirmed by NAVWARN 768/26, but its later position is not the strike location. Neither the wreck nor cargo drift establishes a new drone incursion. The Burgas sightings are not a unique additive container total; vessel association remains provisional and no new pollution finding is established. The Tsarevo container is a provisional cargo-hazard follow-up, not a confirmed CONTSHIP JET container, drone recovery or pollution finding. The 3 November manifest information and visual tank assessment are attributed official reports, not verified physical contents or laboratory clearance. The three objects under monitoring are a dated operational count, not a cumulative total of lost containers. The regional authority locates the tank at Kamennite Korabi near Sinemorets; earlier Silistar reporting is not treated as a separate object.",
+      "response": "The transport ministry reports an alert at 12:01 local and abandonment at 12:13 on 28 October; at 12:53 eight crew were aboard a Navy cutter and ten in a lifeboat. The defence ministry says three naval ships deployed immediately and all 18 crew were rescued by 13:45 local. These official accounts supersede reliance on the manager-only safety statement. Eftimov told bTV that the Navy had warned ships in the area roughly half an hour before the attack. On 1 November NAVWARN779 reported four containers east of Burgas Bay at 08:55 UTC; NAVWARN780 reported a container at 12:20 UTC. BNR described the four as probably from CONTSHIP JET, but the notices themselves do not identify a vessel. On 2 November the Bulgarian transport ministry reported a container washed ashore near Tsarevo; border police secured the area and the military prosecutor was notified. The cargo was labelled Christmas decorations, but actual contents were not verified. Origin and condition remained under investigation; the ministry initially announced planned environmental sampling. BNT later reported that water samples had been taken on 2 November, with results expected within five days; no pollution result was reported. On 3 November Burgas Regional Administration reported three objects under monitoring: the Oasis–Arapya container, a visibly empty tank at Kamennite Korabi near Sinemorets, and another container near Butamyata. It cited manifest information describing non-hazardous cargo and an empty tank, while the CONTSHIP JET association remained under investigation. Butamyata samples were taken for heavy-metal testing; no current leakage data was reported. Guarding continued while rough seas delayed removal. In bTV’s 4 November interview, the Burgas governor said weather and access continued to hamper retrieval. The third drifting container’s exact position was unknown; Turkish waters were only a probable location.",
+      "uncertainty": "The official observation account and navigation warning support the attack, location and rescue, not a technical model or operator identification. Ambrey’s video-based design assessment reported by Reuters remains provisional. The minister reported three maritime drones, while the defence ministry describes three observed hits; neither creates separate occurrences. Operator, launch point and motive remain unknown. The sinking is confirmed by NAVWARN 768/26, but its later position is not the strike location. Neither the wreck nor cargo drift establishes a new drone incursion. The Burgas sightings are not a unique additive container total; vessel association remains provisional and no new pollution finding is established. The Tsarevo container is a provisional cargo-hazard follow-up, not a confirmed CONTSHIP JET container, drone recovery or pollution finding. The 3 November manifest information and visual tank assessment are attributed official reports, not verified physical contents or laboratory clearance. The three objects under monitoring are a dated operational count, not a cumulative total of lost containers. The regional authority locates the tank at Kamennite Korabi near Sinemorets; earlier Silistar reporting is not treated as a separate object. The 4 November governor interview supplies no laboratory result or confirmed position for the drifting container.",
       "deduplication": "One CONTSHIP JET occurrence, distinct from KHORYV, CHELSEA 3 and earlier ship attacks. Three reported drones, impacts and abandonment are not separate event records.",
-      "provenance": "Added 28 October after direct BGNES and Sofia Globe browser reads and Chernomore body review. Original research snapshots unchanged. Reviewed 29 October against Bulgarian defence and transport ministries and Varna Radio navigation warnings; official rescue and reported strike position incorporated. Overnight sinking reporting retained as unconfirmed. Reviewed 30 October against Varna Radio NAVWARN 768/26: sinking confirmed for 28 October 20:30 UTC; original strike anchor and offshore classification retained. Reviewed 31 October against Reuters’ 29 October interview reporting via its StreetInsider syndication; provisional technical assessment added without changing operator certainty, occurrence date or geography. Reviewed 2 November against current Varna Radio NAVWARN779/780 and BNR’s provisional vessel association. Reviewed 3 November against the transport ministry’s 2 November Tsarevo notice; unconfirmed vessel association and labelled-versus-verified cargo distinction retained. Later BNT reporting confirms sampling took place on 2 November, with results pending. Reviewed 4 November against the 3 November Burgas Regional Administration statement; subsequent cargo-monitoring information added without changing the strike date, offshore anchor or unresolved vessel association. November 2 and November 3 sampling are distinct; no laboratory result is established.",
+      "provenance": "Added 28 October after direct BGNES and Sofia Globe browser reads and Chernomore body review. Original research snapshots unchanged. Reviewed 29 October against Bulgarian defence and transport ministries and Varna Radio navigation warnings; official rescue and reported strike position incorporated. Overnight sinking reporting retained as unconfirmed. Reviewed 30 October against Varna Radio NAVWARN 768/26: sinking confirmed for 28 October 20:30 UTC; original strike anchor and offshore classification retained. Reviewed 31 October against Reuters’ 29 October interview reporting via its StreetInsider syndication; provisional technical assessment added without changing operator certainty, occurrence date or geography. Reviewed 2 November against current Varna Radio NAVWARN779/780 and BNR’s provisional vessel association. Reviewed 3 November against the transport ministry’s 2 November Tsarevo notice; unconfirmed vessel association and labelled-versus-verified cargo distinction retained. Later BNT reporting confirms sampling took place on 2 November, with results pending. Reviewed 4 November against the 3 November Burgas Regional Administration statement; subsequent cargo-monitoring information added without changing the strike date, offshore anchor or unresolved vessel association. November 2 and November 3 sampling are distinct; no laboratory result is established. Reviewed 5 November against bTV’s 4 November governor interview; cargo follow-up remains provisional and non-additive.",
       "classificationNote": "Red Strike for reported damaging maritime-drone attack. Offshore context explicitly separated from confirmed territorial incursions.",
-      "sourceReferences": "[U180][U180]; [U181][U181]; [U182][U182]; [U185][U185]; [U186][U186]; [U187][U187]; [U188][U188]; [U189][U189]; [U190][U190]; [U203][U203]; [U206][U206]; [U212][U212]; [U214][U214]; [U219][U219]; [U222][U222]",
+      "sourceReferences": "[U180][U180]; [U181][U181]; [U182][U182]; [U185][U185]; [U186][U186]; [U187][U187]; [U188][U188]; [U189][U189]; [U190][U190]; [U203][U203]; [U206][U206]; [U212][U212]; [U214][U214]; [U219][U219]; [U222][U222]; [U225][U225]",
       "sources": [
         "U180",
         "U181",
@@ -7755,7 +7759,8 @@ window.DRONE_DATA = {
         "U212",
         "U214",
         "U219",
-        "U222"
+        "U222",
+        "U225"
       ],
       "page": "events/2026-10-28-contship-jet-maritime-drone-strike-kaliakra-bulgaria/"
     },
@@ -8066,6 +8071,49 @@ window.DRONE_DATA = {
         "U220"
       ],
       "page": "events/2026-11-03-balvi-ludza-alert-unidentified-object/"
+    },
+    {
+      "id": "N134",
+      "title": "Northern Tulcea · 4 November RO-Alert without reported entry",
+      "recordClass": "event",
+      "recordType": "civil_protection_air_alert",
+      "startDate": "2026-11-04",
+      "dateLabel": "4 November 2026, RO-Alert at 10:57 local",
+      "dateBasis": "Occurrence and warning date from the MApN statement reported on 4 November; Romanian local time.",
+      "countries": "Romania",
+      "location": "Northern Tulcea County warning area.",
+      "status": "Official warning; no Romanian airspace entry reported",
+      "categories": "Civil-protection alert; no reported incursion",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.25,
+          "lng": 29.45,
+          "precision": "region",
+          "label": "Northern Tulcea warning area — approximate, not a drone position"
+        }
+      ],
+      "positionNote": "Warning-area anchor, not a radar fix.",
+      "vehicle": "One radar target described as a drone; model unspecified.",
+      "attribution": "Operator not identified.",
+      "route": "Detected north of Vîlcove on Ukrainian territory; no Romanian entry reported.",
+      "circumstances": "Nearby aerial activity prompted a civil-protection warning.",
+      "payload": "Unspecified.",
+      "impact": "Warning issued; no Romanian damage or casualties reported.",
+      "response": "Two F-16s launched from Borcea; northern Tulcea received RO-Alert at 10:57 local.",
+      "uncertainty": "No verified operator, model or intended target. Warning end time not established by the cited statement.",
+      "deduplication": "One selected alert, distinct from N131 and the overnight 2–3 November N133. Fighter launches are response, not additional occurrences.",
+      "provenance": "MApN statement carried by AGERPRES and Antena 3 CNN, directly reviewed 5 November 2026.",
+      "classificationNote": "Alert only; no incursion, engagement or strike inferred.",
+      "sourceReferences": "[U223][U223]; [U224][U224]",
+      "sources": [
+        "U223",
+        "U224"
+      ],
+      "page": "events/2026-11-04-ro-alert-northern-tulcea-no-reported-airspace-entry/"
     }
   ],
   "contexts": [
@@ -11139,9 +11187,57 @@ window.DRONE_DATA = {
       "url": "https://bs.government.bg/?p=4643",
       "dateLabel": "3 November 2026",
       "audit": "Primary authority statement directly read 4 November. Three objects under monitoring: Oasis–Arapya container, visibly empty tank at Kamennite Korabi, and another container near Butamyata. Manifest information describes safe cargo and an empty tank, but vessel association remains under investigation. Samples taken; no current leakage data is not a laboratory clearance. Prefer this named location over earlier Silistar reporting; neither unique cumulative container totals nor a new drone occurrence inferred."
+    },
+    "U223": {
+      "id": "U223",
+      "publisher": "AGERPRES, quoting Romanian MApN",
+      "title": "Target detected north of Vîlcove; northern Tulcea receives RO-Alert",
+      "url": "https://agerpres.ro/social/2026/11/04/mapn-drona-detectata-la-nord-de-localitatea-vilcove-a-fost-emis-mesaj-ro-alert--1609935",
+      "dateLabel": "4 November 2026",
+      "audit": "Directly read 5 November. MApN statement places target over Ukraine; 10:57 warning and F-16 response, explicitly no Romanian entry. Not the earlier overnight warning."
+    },
+    "U224": {
+      "id": "U224",
+      "publisher": "Antena 3 CNN, quoting Romanian MApN",
+      "title": "Two F-16s launched from Borcea after target detected near the Romanian border",
+      "url": "https://www.antena3.ro/actualitate/locale/armata-a-ridicat-doua-avioane-f-16-de-la-baza-borcea-dupa-ce-o-drona-a-fost-detectata-la-granita-romaniei-ro-alert-trimis-in-tulcea-809869.html",
+      "dateLabel": "4 November 2026, 12:10 local",
+      "audit": "Directly read 5 November. Carries the same MApN statement as AGERPRES, not independent radar evidence. No Romanian entry reported."
+    },
+    "U225": {
+      "id": "U225",
+      "publisher": "bTV",
+      "title": "Southern Black Sea container location unresolved; governor discusses recovery obstacles",
+      "url": "https://btvnovinite.bg/predavania/tazi-sutrin/nov-kontejner-se-pojavi-kraj-juzhnoto-chernomorie-stana-li-jasno-kakvo-e-sadarzhanieto-mu.html",
+      "dateLabel": "4 November 2026, 10:55 local",
+      "audit": "Direct governor interview read 5 November. Exact drifting-container position unknown; Turkish waters only probable. Weather and access hamper retrieval. Empty-tank assurance is not a laboratory result. Cargo follow-up only; source vessel remains provisional."
+    },
+    "U226": {
+      "id": "U226",
+      "publisher": "Finnish Border Guard via ePressi",
+      "title": "Border Guard investigates possible territorial violation after Pellinki UAV discovery",
+      "url": "https://www.epressi.com/tiedotteet/turvallisuus/rajavartiolaitos-tutkii-mahdollista-alueloukkausta.html",
+      "dateLabel": "2 September 2026, 13:57 local",
+      "audit": "Official publisher release directly read 5 November. Civilian discovery was 1 September in Pellinki shore rocks, confirmed by a patrol; publication on 2 September is not the discovery date. Route and violation initially unresolved."
+    },
+    "U227": {
+      "id": "U227",
+      "publisher": "Finnish Border Guard via ePressi",
+      "title": "Pellinki drone investigation: likely Russia-origin aircraft fell outside Finland",
+      "url": "https://www.epressi.com/tiedotteet/turvallisuus/rajavartiolaitoksen-esitutkinta-pellingista-loytyneesta-droonista-edennyt.html",
+      "dateLabel": "10 September 2026, 15:23 local",
+      "audit": "Official release directly read 5 November. Device data supports preliminary likely Russian departure/origin, lost control and fuel exhaustion before falling into the sea outside Finnish borders. Investigation ongoing; not proof of military operator or Finnish airspace entry."
+    },
+    "U228": {
+      "id": "U228",
+      "publisher": "Yle",
+      "title": "Border Guard: Pellinki drone fell into sea outside Finland after fuel ran out",
+      "url": "https://yle.fi/a/74-20245664",
+      "dateLabel": "10 September 2026, 16:39 local",
+      "audit": "Directly read 5 November. Corroborates the Border Guard release and quotes investigator on device route/geodata. No evidence of filming in Finland found; purpose and investigation outcome unresolved."
     }
   },
-  "cutoff": "2026-11-03",
+  "cutoff": "2026-11-04",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

@@ -589,14 +589,14 @@
   },
   "E055": {
     "slug": "2026-09-02-mapping-drone-recovered-southern-coast-finland",
-    "headline": "Mapping drone of unknown origin recovered on Finland's southern coast",
-    "description": "On 2 September 2026 a mapping drone of unknown origin was recovered on the southern Finnish coast. A possible territorial violation was investigated.",
+    "headline": "Pellinki drone found on 1 September; likely Russian origin assessed",
+    "description": "A drone found in Pellinki on 1 September was assessed as likely Russia-origin. Investigators said it fell at sea outside Finland; inquiries continued.",
     "summary": [
-      "On 2 September 2026 authorities recovered a survey or mapping drone (UAV) on the southern coast of Finland. The precise location was not given in the cited report. The date is the recovery date; when the drone flew, and along which route, is unknown.",
-      "The drone's origin and operator are unknown. It has not been established that it came from abroad, and it is not assumed to be a foreign military drone.",
-      "The drone was described as non-dangerous, with no hazardous payload identified, and no damage or casualties were reported. Authorities investigated whether the flight amounted to a territorial violation."
+      "A civilian found a UAV among Pellinki’s shore rocks on 1 September 2026; a Border Guard patrol confirmed it. The earlier register date, 2 September, was the initial release date. The published page address is preserved.",
+      "On 10 September the Border Guard said device data suggested a likely Russia-origin aircraft that lost control and ran out of fuel before falling into the sea outside Finland. The finding was preliminary and the investigation continued.",
+      "This remains one recovery, not an established aerial incursion or crash in Finland. Operator and original purpose remain unresolved. The map point is an approximate archipelago anchor."
     ],
-    "basis": "7630fcb93ae63a96"
+    "basis": "778969b9bc78438d"
   },
   "E056": {
     "slug": "2026-09-08-jet-drone-incursion-iasi-northeastern-romania",
@@ -1860,9 +1860,10 @@
       "Bulgarian defence authorities say Navy surveillance and a French patrol aircraft observed a surface-drone attack on CONTSHIP JET at 12:00 local (10:00 UTC) on 28 October, with three hits observed. Varna Radio gives the strike position as 43°15′N, 028°48′E off Cape Kaliakra. This is one offshore merchant-shipping occurrence, not a confirmed Bulgarian territorial incursion.",
       "Defence and transport authorities confirm all 18 crew were rescued. Varna Radio NAVWARN 768/26 confirms the ship subsequently sank at 20:30 UTC on 28 October at 43°07.80′N, 028°45.36′E, with more than 20 containers drifting, including dangerous goods. This supersedes the earlier unofficial sinking report.",
       "The drone operator, launch origin and motive remain unknown. Reuters reports Ambrey’s provisional video-based assessment of a likely Murena-300S-derived design; this is not a confirmed model or operator identification. Three reported drones and three observed hits are not separate incidents. The later sinking position does not replace the original strike coordinate.",
-      "Navigation warnings on 1 November reported drifting containers near Burgas Bay. Their link to CONTSHIP JET remains provisional. On 3 November Burgas Regional Administration reported three objects under monitoring near Oasis–Arapya, Kamennite Korabi at Sinemorets and Butamyata. Manifest information described non-hazardous cargo and an empty tank; physical contents and the source vessel remained under investigation. Sampling and guarding continued, with no laboratory clearance reported. These are cargo-hazard follow-ups, not new drone attacks or a cumulative container total."
+      "Navigation warnings on 1 November reported drifting containers near Burgas Bay. Their link to CONTSHIP JET remains provisional. On 3 November Burgas Regional Administration reported three objects under monitoring near Oasis–Arapya, Kamennite Korabi at Sinemorets and Butamyata. Manifest information described non-hazardous cargo and an empty tank; physical contents and the source vessel remained under investigation. Sampling and guarding continued, with no laboratory clearance reported. These are cargo-hazard follow-ups, not new drone attacks or a cumulative container total.",
+      "On 4 November the governor told bTV that weather and difficult access were delaying retrieval. The third container’s location was unknown, with Turkish waters only a possibility. No laboratory clearance was supplied."
     ],
-    "basis": "a60935135cc55b40"
+    "basis": "4f0387113aa526d4"
   },
   "N125": {
     "slug": "2026-05-08-osieka-reconnaissance-uav-recovery-poland",
@@ -1954,5 +1955,15 @@
       "No entry into Romanian airspace was reported. This is a selected civil-protection alert, separate from the earlier 2 November warning, not a confirmed incursion or attack in Romania. The map anchor represents the warning area."
     ],
     "basis": "8707737de49764a3"
+  },
+  "N134": {
+    "slug": "2026-11-04-ro-alert-northern-tulcea-no-reported-airspace-entry",
+    "headline": "Northern Tulcea warned on 4 November; no Romanian entry reported",
+    "description": "A target over Ukraine prompted two F-16 launches and a northern Tulcea warning on 4 November. MApN reported no Romanian airspace entry.",
+    "summary": [
+      "Northern Tulcea received RO-Alert at 10:57 on 4 November after a radar target was detected north of Vîlcove in Ukraine. Two F-16s launched from Borcea.",
+      "MApN reported no Romanian airspace entry. This selected alert is separate from the overnight 2–3 November warning; the map point represents the warning area."
+    ],
+    "basis": "f7cfe60a826f4453"
   }
 }

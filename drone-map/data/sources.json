@@ -2885,5 +2885,53 @@
     "url": "https://bs.government.bg/?p=4643",
     "dateLabel": "3 November 2026",
     "audit": "Primary authority statement directly read 4 November. Three objects under monitoring: Oasis–Arapya container, visibly empty tank at Kamennite Korabi, and another container near Butamyata. Manifest information describes safe cargo and an empty tank, but vessel association remains under investigation. Samples taken; no current leakage data is not a laboratory clearance. Prefer this named location over earlier Silistar reporting; neither unique cumulative container totals nor a new drone occurrence inferred."
+  },
+  "U223": {
+    "id": "U223",
+    "publisher": "AGERPRES, quoting Romanian MApN",
+    "title": "Target detected north of Vîlcove; northern Tulcea receives RO-Alert",
+    "url": "https://agerpres.ro/social/2026/11/04/mapn-drona-detectata-la-nord-de-localitatea-vilcove-a-fost-emis-mesaj-ro-alert--1609935",
+    "dateLabel": "4 November 2026",
+    "audit": "Directly read 5 November. MApN statement places target over Ukraine; 10:57 warning and F-16 response, explicitly no Romanian entry. Not the earlier overnight warning."
+  },
+  "U224": {
+    "id": "U224",
+    "publisher": "Antena 3 CNN, quoting Romanian MApN",
+    "title": "Two F-16s launched from Borcea after target detected near the Romanian border",
+    "url": "https://www.antena3.ro/actualitate/locale/armata-a-ridicat-doua-avioane-f-16-de-la-baza-borcea-dupa-ce-o-drona-a-fost-detectata-la-granita-romaniei-ro-alert-trimis-in-tulcea-809869.html",
+    "dateLabel": "4 November 2026, 12:10 local",
+    "audit": "Directly read 5 November. Carries the same MApN statement as AGERPRES, not independent radar evidence. No Romanian entry reported."
+  },
+  "U225": {
+    "id": "U225",
+    "publisher": "bTV",
+    "title": "Southern Black Sea container location unresolved; governor discusses recovery obstacles",
+    "url": "https://btvnovinite.bg/predavania/tazi-sutrin/nov-kontejner-se-pojavi-kraj-juzhnoto-chernomorie-stana-li-jasno-kakvo-e-sadarzhanieto-mu.html",
+    "dateLabel": "4 November 2026, 10:55 local",
+    "audit": "Direct governor interview read 5 November. Exact drifting-container position unknown; Turkish waters only probable. Weather and access hamper retrieval. Empty-tank assurance is not a laboratory result. Cargo follow-up only; source vessel remains provisional."
+  },
+  "U226": {
+    "id": "U226",
+    "publisher": "Finnish Border Guard via ePressi",
+    "title": "Border Guard investigates possible territorial violation after Pellinki UAV discovery",
+    "url": "https://www.epressi.com/tiedotteet/turvallisuus/rajavartiolaitos-tutkii-mahdollista-alueloukkausta.html",
+    "dateLabel": "2 September 2026, 13:57 local",
+    "audit": "Official publisher release directly read 5 November. Civilian discovery was 1 September in Pellinki shore rocks, confirmed by a patrol; publication on 2 September is not the discovery date. Route and violation initially unresolved."
+  },
+  "U227": {
+    "id": "U227",
+    "publisher": "Finnish Border Guard via ePressi",
+    "title": "Pellinki drone investigation: likely Russia-origin aircraft fell outside Finland",
+    "url": "https://www.epressi.com/tiedotteet/turvallisuus/rajavartiolaitoksen-esitutkinta-pellingista-loytyneesta-droonista-edennyt.html",
+    "dateLabel": "10 September 2026, 15:23 local",
+    "audit": "Official release directly read 5 November. Device data supports preliminary likely Russian departure/origin, lost control and fuel exhaustion before falling into the sea outside Finnish borders. Investigation ongoing; not proof of military operator or Finnish airspace entry."
+  },
+  "U228": {
+    "id": "U228",
+    "publisher": "Yle",
+    "title": "Border Guard: Pellinki drone fell into sea outside Finland after fuel ran out",
+    "url": "https://yle.fi/a/74-20245664",
+    "dateLabel": "10 September 2026, 16:39 local",
+    "audit": "Directly read 5 November. Corroborates the Border Guard release and quotes investigator on device route/geodata. No evidence of filming in Finland found; purpose and investigation outcome unresolved."
   }
 }
