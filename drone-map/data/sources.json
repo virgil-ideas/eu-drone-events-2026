@@ -2933,5 +2933,37 @@
     "url": "https://yle.fi/a/74-20245664",
     "dateLabel": "10 September 2026, 16:39 local",
     "audit": "Directly read 5 November. Corroborates the Border Guard release and quotes investigator on device route/geodata. No evidence of filming in Finland found; purpose and investigation outcome unresolved."
+  },
+  "U229": {
+    "id": "U229",
+    "publisher": "HotNews, quoting IPJ Neamț",
+    "title": "Drone fragments found across 200–300 metres in Boghicea",
+    "url": "https://hotnews.ro/fragmente-de-drona-gasite-intr-o-comuna-din-neamt-2395993",
+    "dateLabel": "5 November 2026, updated 17:33 local",
+    "audit": "Police-attributed discovery report directly read 6 November. Discovery date, scattered fragments and emergency response established; no origin, flight date or Oct31 connection established."
+  },
+  "U230": {
+    "id": "U230",
+    "publisher": "AGERPRES, quoting ISU Neamț",
+    "title": "Controlled detonation announced for ammunition at Boghicea drone-debris site",
+    "url": "https://agerpres.ro/social/2026/11/05/neamt-munitia-descoperita-in-zona-unde-au-fost-gasite-resturile-unei-drone-la-boghicea-va-fi-detonat--1610553",
+    "dateLabel": "5 November 2026, 19:30 local",
+    "audit": "Directly read 6 November. Reports ammunition in the discovery area and planned controlled disposal at Slobozia forest. Future-tense warning does not establish completed disposal."
+  },
+  "U231": {
+    "id": "U231",
+    "publisher": "TVR Info",
+    "title": "Drone debris discovered in Boghicea; link to October 31 remains unconfirmed",
+    "url": "https://tvrinfo.ro/resturi-de-drona-au-fost-descoperite-pe-un-camp-din-judetul-neamt-la-cativa-kilometri-de-municipiul-roman/",
+    "dateLabel": "5 November 2026, updated 17:56 local",
+    "audit": "Directly read 6 November. Reporter describes ongoing checks and explicitly says no official confirmation connects the debris to the October 31 incursion. Do not merge or infer a crash date from speculation."
+  },
+  "U232": {
+    "id": "U232",
+    "publisher": "Europa FM",
+    "title": "Boghicea fragments: report says detonated, while quoting an advance warning",
+    "url": "https://www.europafm.ro/neamt-fragmente-dintr-o-drona-descoperite-in-comuna-boghicea-politistii-pompierii-si-o-echipa-sri-au-intervenit-la-fata-locului/",
+    "dateLabel": "5 November 2026, update 19:00 local",
+    "audit": "Directly read 6 November. Headline and update label say detonated, but supporting text reproduces only the future-tense ISU warning. Completion not independently resolved; retain recovery-only pending a clear outcome report."
   }
 }

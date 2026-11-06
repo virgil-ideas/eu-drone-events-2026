@@ -1965,5 +1965,15 @@
       "MApN reported no Romanian airspace entry. This selected alert is separate from the overnight 2–3 November warning; the map point represents the warning area."
     ],
     "basis": "f7cfe60a826f4453"
+  },
+  "N135": {
+    "slug": "2026-11-05-drone-fragments-boghicea-neamt-romania",
+    "headline": "Drone fragments found at Boghicea; origin remains unresolved",
+    "description": "Police reported drone fragments in Boghicea on 5 November. Origin, an October 31 connection and completion of announced disposal remain unresolved.",
+    "summary": [
+      "Police reported a drone-debris discovery in Boghicea, Neamț County, on 5 November. Emergency teams attended, and authorities announced controlled disposal of ammunition found in the area.",
+      "Foreign origin and a connection to the 31 October incursion remain unconfirmed. Reports differ on whether disposal was completed, so this provisional record remains recovery-only. The map point is an approximate commune anchor."
+    ],
+    "basis": "a3bd89ad4b923ea4"
   }
 }

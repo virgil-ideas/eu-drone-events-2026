@@ -8114,6 +8114,51 @@ window.DRONE_DATA = {
         "U224"
       ],
       "page": "events/2026-11-04-ro-alert-northern-tulcea-no-reported-airspace-entry/"
+    },
+    {
+      "id": "N135",
+      "title": "Boghicea · Drone fragments discovered",
+      "recordClass": "candidate",
+      "recordType": "unattributed_drone_debris_discovery",
+      "startDate": "2026-11-05",
+      "dateLabel": "5 November 2026 (discovery)",
+      "dateBasis": "Police date the discovery report to 5 November; flight and fall dates are unknown.",
+      "countries": "Romania",
+      "location": "Boghicea commune, Neamț County; Slobozia forest named in the disposal warning.",
+      "status": "Police-reported drone debris; origin and connection to earlier flight unresolved",
+      "categories": "Drone-debris discovery; planned controlled disposal",
+      "category": "recovery",
+      "stages": [
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 47.05,
+          "lng": 27.07,
+          "precision": "locality",
+          "label": "Boghicea commune — approximate locality anchor, not the debris site"
+        }
+      ],
+      "positionNote": "Approximate commune anchor; precise discovery and disposal coordinates unpublished.",
+      "vehicle": "Fragments described by police as parts of a drone; model and operator unidentified.",
+      "attribution": "Foreign origin and operator unconfirmed. TVR says a connection to the 31 October incursion has no official confirmation.",
+      "route": "Unknown; debris discovery does not establish a flight track or entry date.",
+      "circumstances": "A resident notified Sagna rural police after finding scattered fragments in Boghicea.",
+      "payload": "ISU reported ammunition in the discovery area; type and full drone payload unestablished.",
+      "impact": "Debris discovered; reviewed reports do not establish casualties or damage to buildings.",
+      "response": "Police, firefighters and SRI specialists attended. ISU announced controlled disposal and warned residents; completion remains unresolved in the reviewed evidence.",
+      "uncertainty": "No confirmed foreign origin, fall date or link to N129. Europa FM labels disposal completed, but quotes only an advance warning; AGERPRES also reports planned disposal. A clear completion report was not retrieved.",
+      "deduplication": "One discovery record, not a newly verified flight or additional UAV count. Possible relationship to N129 remains unresolved; merge or cross-reference if evidence later establishes the same drone. Emergency response and disposal warning are not separate occurrences.",
+      "provenance": "Reviewed 6 November against HotNews, AGERPRES, TVR and Europa FM. Candidate retained pending origin, incident linkage and disposal-outcome clarification.",
+      "classificationNote": "Recovery only: verified discovery, not a dated crash or confirmed completed disposal. Candidate status preserves unresolved foreign connection.",
+      "sourceReferences": "[U229][U229]; [U230][U230]; [U231][U231]; [U232][U232]",
+      "sources": [
+        "U229",
+        "U230",
+        "U231",
+        "U232"
+      ],
+      "page": "events/2026-11-05-drone-fragments-boghicea-neamt-romania/"
     }
   ],
   "contexts": [
@@ -11235,9 +11280,41 @@ window.DRONE_DATA = {
       "url": "https://yle.fi/a/74-20245664",
       "dateLabel": "10 September 2026, 16:39 local",
       "audit": "Directly read 5 November. Corroborates the Border Guard release and quotes investigator on device route/geodata. No evidence of filming in Finland found; purpose and investigation outcome unresolved."
+    },
+    "U229": {
+      "id": "U229",
+      "publisher": "HotNews, quoting IPJ Neamț",
+      "title": "Drone fragments found across 200–300 metres in Boghicea",
+      "url": "https://hotnews.ro/fragmente-de-drona-gasite-intr-o-comuna-din-neamt-2395993",
+      "dateLabel": "5 November 2026, updated 17:33 local",
+      "audit": "Police-attributed discovery report directly read 6 November. Discovery date, scattered fragments and emergency response established; no origin, flight date or Oct31 connection established."
+    },
+    "U230": {
+      "id": "U230",
+      "publisher": "AGERPRES, quoting ISU Neamț",
+      "title": "Controlled detonation announced for ammunition at Boghicea drone-debris site",
+      "url": "https://agerpres.ro/social/2026/11/05/neamt-munitia-descoperita-in-zona-unde-au-fost-gasite-resturile-unei-drone-la-boghicea-va-fi-detonat--1610553",
+      "dateLabel": "5 November 2026, 19:30 local",
+      "audit": "Directly read 6 November. Reports ammunition in the discovery area and planned controlled disposal at Slobozia forest. Future-tense warning does not establish completed disposal."
+    },
+    "U231": {
+      "id": "U231",
+      "publisher": "TVR Info",
+      "title": "Drone debris discovered in Boghicea; link to October 31 remains unconfirmed",
+      "url": "https://tvrinfo.ro/resturi-de-drona-au-fost-descoperite-pe-un-camp-din-judetul-neamt-la-cativa-kilometri-de-municipiul-roman/",
+      "dateLabel": "5 November 2026, updated 17:56 local",
+      "audit": "Directly read 6 November. Reporter describes ongoing checks and explicitly says no official confirmation connects the debris to the October 31 incursion. Do not merge or infer a crash date from speculation."
+    },
+    "U232": {
+      "id": "U232",
+      "publisher": "Europa FM",
+      "title": "Boghicea fragments: report says detonated, while quoting an advance warning",
+      "url": "https://www.europafm.ro/neamt-fragmente-dintr-o-drona-descoperite-in-comuna-boghicea-politistii-pompierii-si-o-echipa-sri-au-intervenit-la-fata-locului/",
+      "dateLabel": "5 November 2026, update 19:00 local",
+      "audit": "Directly read 6 November. Headline and update label say detonated, but supporting text reproduces only the future-tense ISU warning. Completion not independently resolved; retain recovery-only pending a clear outcome report."
     }
   },
-  "cutoff": "2026-11-04",
+  "cutoff": "2026-11-05",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

@@ -7873,5 +7873,49 @@
       "U224"
     ],
     "reviewedOn": "2026-11-05"
+  },
+  {
+    "id": "N135",
+    "title": "Boghicea · Drone fragments discovered",
+    "recordClass": "candidate",
+    "recordType": "unattributed_drone_debris_discovery",
+    "startDate": "2026-11-05",
+    "dateLabel": "5 November 2026 (discovery)",
+    "dateBasis": "Police date the discovery report to 5 November; flight and fall dates are unknown.",
+    "countries": "Romania",
+    "location": "Boghicea commune, Neamț County; Slobozia forest named in the disposal warning.",
+    "status": "Police-reported drone debris; origin and connection to earlier flight unresolved",
+    "categories": "Drone-debris discovery; planned controlled disposal",
+    "category": "recovery",
+    "stages": [
+      "recovery"
+    ],
+    "positions": [
+      {
+        "lat": 47.05,
+        "lng": 27.07,
+        "precision": "locality",
+        "label": "Boghicea commune — approximate locality anchor, not the debris site"
+      }
+    ],
+    "positionNote": "Approximate commune anchor; precise discovery and disposal coordinates unpublished.",
+    "vehicle": "Fragments described by police as parts of a drone; model and operator unidentified.",
+    "attribution": "Foreign origin and operator unconfirmed. TVR says a connection to the 31 October incursion has no official confirmation.",
+    "route": "Unknown; debris discovery does not establish a flight track or entry date.",
+    "circumstances": "A resident notified Sagna rural police after finding scattered fragments in Boghicea.",
+    "payload": "ISU reported ammunition in the discovery area; type and full drone payload unestablished.",
+    "impact": "Debris discovered; reviewed reports do not establish casualties or damage to buildings.",
+    "response": "Police, firefighters and SRI specialists attended. ISU announced controlled disposal and warned residents; completion remains unresolved in the reviewed evidence.",
+    "uncertainty": "No confirmed foreign origin, fall date or link to N129. Europa FM labels disposal completed, but quotes only an advance warning; AGERPRES also reports planned disposal. A clear completion report was not retrieved.",
+    "deduplication": "One discovery record, not a newly verified flight or additional UAV count. Possible relationship to N129 remains unresolved; merge or cross-reference if evidence later establishes the same drone. Emergency response and disposal warning are not separate occurrences.",
+    "provenance": "Reviewed 6 November against HotNews, AGERPRES, TVR and Europa FM. Candidate retained pending origin, incident linkage and disposal-outcome clarification.",
+    "classificationNote": "Recovery only: verified discovery, not a dated crash or confirmed completed disposal. Candidate status preserves unresolved foreign connection.",
+    "sources": [
+      "U229",
+      "U230",
+      "U231",
+      "U232"
+    ],
+    "reviewedOn": "2026-11-06"
   }
 ]
