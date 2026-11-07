@@ -2965,5 +2965,85 @@
     "url": "https://www.europafm.ro/neamt-fragmente-dintr-o-drona-descoperite-in-comuna-boghicea-politistii-pompierii-si-o-echipa-sri-au-intervenit-la-fata-locului/",
     "dateLabel": "5 November 2026, update 19:00 local",
     "audit": "Directly read 6 November. Headline and update label say detonated, but supporting text reproduces only the future-tense ISU warning. Completion not independently resolved; retain recovery-only pending a clear outcome report."
+  },
+  "U233": {
+    "id": "U233",
+    "publisher": "Romanian Ministry of National Defence (MApN)",
+    "title": "Informație de presă — release 359",
+    "url": "https://www.mapn.ro/cpresa/19468_informa%C8%9Bie-de-presa",
+    "dateLabel": "6 November 2026",
+    "audit": "Directly reviewed 7 November. Overnight 5–6 November warning at 00:19–00:41; explicitly no Romanian entry. Not the separate morning Sulina episode."
+  },
+  "U234": {
+    "id": "U234",
+    "publisher": "News.ro",
+    "title": "Ţintă aeriană detectată la est de localitatea Sulina",
+    "url": "https://www.news.ro/eveniment/tinta-aeriana-detectata-la-est-de-localitatea-sulina-1922404106002026110922951984",
+    "dateLabel": "6 November 2026",
+    "audit": "Directly reviewed 7 November. Quotes MApN: morning radar target east of Sulina heading toward Vâlcove, F-16 response and 08:56–09:27 warning. No-entry statement in final paragraph refers to preceding overnight episode, not this morning target."
+  },
+  "U235": {
+    "id": "U235",
+    "publisher": "Romanian Television (TVR)",
+    "title": "RO-ALERT în nordul județului Tulcea; F-16 response near Sulina",
+    "url": "https://tvrinfo.ro/ro-alert-in-nordul-judetului-tulcea-doua-avioane-f-16-au-fost-ridicate-de-la-sol-dupa-detectarea-unei-tinte-aeriene-langa-sulina/",
+    "dateLabel": "6 November 2026",
+    "audit": "Reviewed 7 November. Corroborates morning warning times and MApN account; not independent radar evidence."
+  },
+  "U236": {
+    "id": "U236",
+    "publisher": "Bulgarian Ministry of Defence Information Centre / ArmyMedia",
+    "title": "Военнослужещи от ВМС унищожиха безпилотен летателен апарат, открит днес край Шабла",
+    "url": "https://armymedia.bg/2026/11/06/%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D0%BB%D1%83%D0%B6%D0%B5%D1%89%D0%B8-%D0%BE%D1%82-%D0%B2%D0%BC%D1%81-%D1%83%D0%BD%D0%B8%D1%89%D0%BE%D0%B6%D0%B8%D1%85%D0%B0-%D0%B1%D0%B5%D0%B7%D0%BF%D0%B8/",
+    "dateLabel": "6 November 2026",
+    "audit": "Official information-centre reproduction of mod.bg release, directly read 7 November. Navy classified the unmarked object as Russian Gerber-2, found no explosive charge and destroyed it on site. Sea fall is probable, not a dated or tracked incursion."
+  },
+  "U237": {
+    "id": "U237",
+    "publisher": "Bulgarian National Radio (BNR)",
+    "title": "Военнослужещи от ВМС унищожиха безпилотния летателен апарат, намерен край Шабла",
+    "url": "https://bnrnews.bg/main/post/554632/voennosluzheshti-ot-vms-unishtozhiha-bezpilotniya-letatelen-aparat-nameren-kray-shabla",
+    "dateLabel": "6 November 2026",
+    "audit": "Directly read 7 November. Later MoD account supersedes earlier mayor-led Shahed/charge report: no inscriptions, Russian Gerber-2 classification, no explosives, destruction completed."
+  },
+  "U238": {
+    "id": "U238",
+    "publisher": "Radio Bulgaria / BNR",
+    "title": "Drone marked ‘Shahed’ washes ashore on Bulgaria’s Black Sea coast",
+    "url": "https://bnrnews.bg/en/post/554512/drone-marked-shahed-washes-ashore-on-bulgarias-black-sea-coast",
+    "dateLabel": "6 November 2026",
+    "audit": "Directly read 7 November. Early mayor account locates discovery near Shabla lighthouse, but its claimed inscription and explosive charge are superseded by later MoD inspection. Not a second object."
+  },
+  "U239": {
+    "id": "U239",
+    "publisher": "OnAlert",
+    "title": "Παραβιάσεις από τουρκικά drones σε όλο το Αιγαίο – Δύο παραβάσεις από ATR-72",
+    "url": "https://www.onalert.gr/ellinotourkika/paraviaseis-apo-tourkika-drones-se-olo-to-aigaio-dyo-paravaseis-apo-atr-72/831878/",
+    "dateLabel": "6 November 2026",
+    "audit": "Directly read 7 November. Dated Greek daily table: seven UAVs, 15 national-airspace violations, nine UAV FIR infringements. Two additional ATR-72 FIR infringements excluded. No engagements reported."
+  },
+  "U240": {
+    "id": "U240",
+    "publisher": "CNN Greece",
+    "title": "Μπαράζ τουρκικών παραβιάσεων στο Αιγαίο με drones και κατασκοπευτικό αεροσκάφος",
+    "url": "https://www.cnn.gr/ellada/story/560730/baraz-tourkikon-paraviaseon-sto-aigaio-me-drones-kai-kataskopeftiko-aeroskafos",
+    "dateLabel": "6 November 2026",
+    "audit": "Directly read 7 November. Corroborates same 6 November Greek figures, not independent surveillance. Distinguishes nine UAV FIR infringements from two by ATR-72."
+  },
+  "U241": {
+    "id": "U241",
+    "publisher": "dpa / airliners.de",
+    "title": "Drohnenangriff: Ermittler fahnden nach verdächtiger Person",
+    "url": "https://www.airliners.de/drohnenangriff-ermittler-fahnden-verdaechtiger-person/91381",
+    "dateLabel": "6 November 2026",
+    "audit": "Directly read 7 November. Reports BKA investigation: suspected launch site and equipment, two identified suspects and appeal concerning another unknown person. Follow-up to E040, not a new occurrence; suspicions are not adjudicated findings."
+  },
+  "U242": {
+    "id": "U242",
+    "publisher": "Știrile ProTV",
+    "title": "Localnicii care au găsit resturile dronei cu explozibil în Neamț au vrut să le ia acasă",
+    "url": "https://stirileprotv.ro/stiri/actualitate/localnicii-care-au-gasit-resturile-unei-drone-cu-explozibil-intr-o-padure-din-neamt-au-vrut-sa-le-ia-acasa-am-zis-ca-e-atv-o-butelie-ceva.html",
+    "dateLabel": "6 November 2026",
+    "audit": "Directly read 7 November. Reporting published 6 November explicitly describes examination and completed detonation on Thursday evening, after warning. Resolves the prior planned/completed discrepancy as a reported outcome, not an official model/operator identification."
   }
 }

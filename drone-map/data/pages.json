@@ -428,10 +428,11 @@
     "description": "On 4–5 August 2026 an explosive drone's charge failed at Leipzig/Halle Airport, Germany. Germany blamed people acting for Russian agencies; Russia denied it.",
     "summary": [
       "Overnight on 4–5 August 2026 a drone carrying professional explosives and a detonator reached Leipzig/Halle Airport at Schkeuditz, Germany, but the charge failed. The airport was disrupted. Separately, a cargo aircraft reported encountering an object in a suspected collision and diverted to Hanover; minor aircraft damage was reported, but the object was not conclusively identified as a drone. On 14 August a further suspected attack drone was found near Kabelsketal; the find was reported on 25 August, and the object was reportedly associated with about 50 g of suspected RDX.",
-      "On 1 September Germany attributed the operation to persons acting for Russian state agencies. Russia denied responsibility. The attribution has not been accompanied by public release of all the underlying forensic and intelligence evidence, and the launch point has not been established.",
-      "No casualties were reported. Police, bomb-disposal teams with a robot and federal prosecutors investigated, the additional device was seized, and diplomatic measures followed later."
+      "On 1 September Germany attributed the operation to persons acting for Russian state agencies. Russia denied responsibility. The attribution has not been accompanied by public release of all the underlying forensic and intelligence evidence. A 6 November report describes a BKA-suspected launch site near Rabutz and Beuditz; full movements remain unestablished.",
+      "No casualties were reported. Police, bomb-disposal teams with a robot and federal prosecutors investigated, the additional device was seized, and diplomatic measures followed later.",
+      "The November investigation appeal concerns two identified suspects and another unknown person, with suspected equipment found near Radefeld and Lützschena. These remain investigative assessments, not findings of individual guilt or a new attack."
     ],
-    "basis": "7eb8a6247dacdaca"
+    "basis": "3990c1339f91684b"
   },
   "E041": {
     "slug": "2026-08-07-drones-sighted-military-base-western-germany",
@@ -1968,12 +1969,57 @@
   },
   "N135": {
     "slug": "2026-11-05-drone-fragments-boghicea-neamt-romania",
-    "headline": "Drone fragments found at Boghicea; origin remains unresolved",
-    "description": "Police reported drone fragments in Boghicea on 5 November. Origin, an October 31 connection and completion of announced disposal remain unresolved.",
+    "headline": "Boghicea drone fragments found; controlled disposal reported",
+    "description": "Drone fragments found in Boghicea on 5 November were reportedly destroyed that evening. Origin and any link to the 31 October flight remain unresolved.",
     "summary": [
-      "Police reported a drone-debris discovery in Boghicea, Neamț County, on 5 November. Emergency teams attended, and authorities announced controlled disposal of ammunition found in the area.",
-      "Foreign origin and a connection to the 31 October incursion remain unconfirmed. Reports differ on whether disposal was completed, so this provisional record remains recovery-only. The map point is an approximate commune anchor."
+      "A resident notified Sagna rural police after finding scattered fragments in Boghicea. Police, firefighters and SRI specialists attended. ProTV reports specialists detonated the remains on 5 November evening after examination and a RO-Alert warning.",
+      "Foreign origin, fall date and any link to N129 remain unconfirmed. ProTV provides a clear disposal-completion report; no direct official completion statement was retrieved. Eyewitness lettering does not establish operator or model.",
+      "One discovery record, not a newly verified flight or additional UAV count. Possible relationship to N129 remains unresolved; merge or cross-reference if evidence later establishes the same drone. Emergency response and disposal warning are not separate occurrences."
     ],
-    "basis": "a3bd89ad4b923ea4"
+    "basis": "7ec34783fc32696b"
+  },
+  "N136": {
+    "slug": "2026-11-06-tulcea-overnight-ro-alert-romania",
+    "headline": "Tulcea · Overnight 6 November RO-Alert",
+    "description": "Official warning; no Romanian airspace entry reported. Alert only; no incursion, engagement or strike inferred.",
+    "summary": [
+      "Nearby attacks on Ukrainian ports prompted a warning. RO-Alert issued at 00:19; alert ended at 00:41 local.",
+      "Drone count and model unspecified in the release. No flight track, drone count or model established.",
+      "One selected alert, separate from the later 08:56 morning N137 warning."
+    ],
+    "basis": "80f3e165817ac343"
+  },
+  "N137": {
+    "slug": "2026-11-06-sulina-morning-target-alert-romania",
+    "headline": "Northern Tulcea · Morning 6 November Sulina target alert",
+    "description": "Official radar-target warning; Romanian entry not established. Alert only; no incursion, engagement or strike inferred.",
+    "summary": [
+      "Nearby aerial activity prompted a civil-protection warning. Two F-16s launched from Borcea; northern Tulcea warning ran 08:56–09:27 local.",
+      "Aerial radar target; drone identity and model unconfirmed in the cited statement. No verified model, operator or Romanian border crossing. The overnight no-entry finding belongs to N136 and cannot be transferred to this episode.",
+      "Distinct morning warning, not the 00:19–00:41 N136 episode. Fighter response adds no occurrence."
+    ],
+    "basis": "5bb11aaa667ebefd"
+  },
+  "N138": {
+    "slug": "2026-11-06-shabla-drone-recovery-disposal-bulgaria",
+    "headline": "Shabla · Russian-classified drone washed ashore and destroyed",
+    "description": "Officially identified aerial drone recovered and destroyed. Recovery plus controlled disposal, not an attack explosion or confirmed Bulgarian aerial incursion.",
+    "summary": [
+      "Coastal discovery reported to authorities at 10:00 local. Varna naval team inspected and destroyed the drone on site.",
+      "Aerial drone classified by Bulgarian military specialists as Russian Gerber-2. Early mayor account of Shahed markings and explosives was superseded by military inspection: no inscriptions and no explosive charge. Fall date and link to any shipping attack remain unknown.",
+      "One recovery and disposal, distinct from the 28 August Shabla E082 discovery. No new flight, ship attack or unique-drone total inferred."
+    ],
+    "basis": "b0f145d028635145"
+  },
+  "N139": {
+    "slug": "2026-11-06-aegean-turkish-uav-activity-greece",
+    "headline": "Aegean · 6 November Greek-reported Turkish UAV activity",
+    "description": "Greek-authority-reported Turkish UAV airspace violations. Flight only; routine interception is not weapons engagement.",
+    "summary": [
+      "Greek daily figures assign 15 airspace violations and nine Athens FIR infringements to seven UAVs. Two further FIR infringements by an ATR-72 are excluded. Identification and routine interception reported; no engagements or shoot-downs reported.",
+      "Seven Turkish UAVs in Greek reporting; models unspecified. Two outlets reproduce the same Greek account, not independent observations. Direct GEETHA bulletin unavailable. Exact tracks, models and missions remain unknown; the Greek-Turkish airspace dispute remains relevant.",
+      "One daily regional record. Aircraft, airspace violations and FIR infringements are separate, non-additive measures. The manned aircraft is not a separate drone event."
+    ],
+    "basis": "2da350a5ac39472c"
   }
 }

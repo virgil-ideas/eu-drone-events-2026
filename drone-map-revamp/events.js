@@ -2061,22 +2061,23 @@ window.DRONE_DATA = {
       "categories": "Attempted explosive attack; airport disruption; suspected aircraft collision; subsequent recovery",
       "vehicle": "Main explosive drone; possible second collision object; further drone found 14 August",
       "attribution": "Germany attributed operation to persons acting for Russian state agencies on 1 September; Russia denied responsibility",
-      "route": "Launch point and full device movements not established",
+      "route": "BKA reportedly located a suspected launch site on the Rabutz–Beuditz connecting road; full device movements remain unestablished.",
       "circumstances": "Explosive drone reached airport but charge failed. Cargo aircraft separately reported object encounter and diverted. Additional suspected attack drone recovered near Kabelsketal.",
       "payload": "Main drone carried professional explosives and detonator; later recovered object reportedly associated with about 50 g suspected RDX",
       "impact": "No casualties; airport disruption; minor aircraft damage reported, but second object not conclusively a drone in initial account",
-      "response": "Police, bomb-disposal robot/teams and federal prosecutors investigated; additional device seized; later diplomatic measures.",
-      "uncertainty": "Official German attribution is recorded as an attribution, not public release of all underlying forensic/intelligence evidence. Russian denial retained.",
+      "response": "Police, bomb-disposal robot/teams and federal prosecutors investigated; additional device seized; later diplomatic measures. A 6 November report of the BKA appeal describes two identified suspects and a further unknown person sought, plus suspected equipment near Radefeld–Lützschena.",
+      "uncertainty": "Official German attribution is recorded as an attribution, not public release of all underlying forensic/intelligence evidence. Russian denial retained. The November launch-site and equipment findings remain investigative assessments, not proof of any individual’s guilt.",
       "deduplication": "The prior report’s separate 14 August Kabelsketal recovery is retained inside this linked cluster. Distinct physical objects are not erased, but follow-up publication/attribution is not another attack.",
-      "provenance": "Prior research consolidated; September attribution and denial sources rechecked, not every underlying technical claim",
-      "sourceReferences": "[S34][S34]; [S35][S35]; [S36][S36]; [S37][S37]; [S66][S66]; [S67][S67]",
+      "provenance": "Prior research consolidated; September attribution and denial sources rechecked, not every underlying technical claim; 6 November dpa/BKA investigation follow-up reviewed 7 November.",
+      "sourceReferences": "[S34][S34]; [S35][S35]; [S36][S36]; [S37][S37]; [S66][S66]; [S67][S67]; [U241][U241]",
       "sources": [
         "S34",
         "S35",
         "S36",
         "S37",
         "S66",
-        "S67"
+        "S67",
+        "U241"
       ],
       "startDate": "2026-08-04",
       "title": "Leipzig/Halle Airport",
@@ -8126,10 +8127,11 @@ window.DRONE_DATA = {
       "countries": "Romania",
       "location": "Boghicea commune, Neamț County; Slobozia forest named in the disposal warning.",
       "status": "Police-reported drone debris; origin and connection to earlier flight unresolved",
-      "categories": "Drone-debris discovery; planned controlled disposal",
+      "categories": "Drone-debris discovery; reported controlled disposal",
       "category": "recovery",
       "stages": [
-        "recovery"
+        "recovery",
+        "disposal"
       ],
       "positions": [
         {
@@ -8146,19 +8148,196 @@ window.DRONE_DATA = {
       "circumstances": "A resident notified Sagna rural police after finding scattered fragments in Boghicea.",
       "payload": "ISU reported ammunition in the discovery area; type and full drone payload unestablished.",
       "impact": "Debris discovered; reviewed reports do not establish casualties or damage to buildings.",
-      "response": "Police, firefighters and SRI specialists attended. ISU announced controlled disposal and warned residents; completion remains unresolved in the reviewed evidence.",
-      "uncertainty": "No confirmed foreign origin, fall date or link to N129. Europa FM labels disposal completed, but quotes only an advance warning; AGERPRES also reports planned disposal. A clear completion report was not retrieved.",
+      "response": "Police, firefighters and SRI specialists attended. ProTV reports specialists detonated the remains on 5 November evening after examination and a RO-Alert warning.",
+      "uncertainty": "Foreign origin, fall date and any link to N129 remain unconfirmed. ProTV provides a clear disposal-completion report; no direct official completion statement was retrieved. Eyewitness lettering does not establish operator or model.",
       "deduplication": "One discovery record, not a newly verified flight or additional UAV count. Possible relationship to N129 remains unresolved; merge or cross-reference if evidence later establishes the same drone. Emergency response and disposal warning are not separate occurrences.",
-      "provenance": "Reviewed 6 November against HotNews, AGERPRES, TVR and Europa FM. Candidate retained pending origin, incident linkage and disposal-outcome clarification.",
-      "classificationNote": "Recovery only: verified discovery, not a dated crash or confirmed completed disposal. Candidate status preserves unresolved foreign connection.",
-      "sourceReferences": "[U229][U229]; [U230][U230]; [U231][U231]; [U232][U232]",
+      "provenance": "Reviewed 7 November; ProTV follow-up resolves disposal as reported completed. Candidate status retained pending origin and incident linkage.",
+      "classificationNote": "Recovery with reported controlled disposal, not an attack explosion or dated crash. Foreign connection remains unresolved.",
+      "sourceReferences": "[U229][U229]; [U230][U230]; [U231][U231]; [U232][U232]; [U242][U242]",
       "sources": [
         "U229",
         "U230",
         "U231",
-        "U232"
+        "U232",
+        "U242"
       ],
       "page": "events/2026-11-05-drone-fragments-boghicea-neamt-romania/"
+    },
+    {
+      "id": "N136",
+      "title": "Tulcea · Overnight 6 November RO-Alert",
+      "recordClass": "event",
+      "recordType": "civil_protection_air_alert",
+      "startDate": "2026-11-06",
+      "dateLabel": "6 November 2026, 00:19–00:41 local alert",
+      "dateBasis": "MApN dates episode to night of 5–6 November; warning began after midnight on 6 November.",
+      "countries": "Romania",
+      "location": "Northern and eastern Tulcea County warning area.",
+      "status": "Official warning; no Romanian airspace entry reported",
+      "categories": "Civil-protection alert; no reported incursion",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.25,
+          "lng": 29.45,
+          "precision": "region",
+          "label": "Northern Tulcea warning area — approximate, not a drone position"
+        }
+      ],
+      "positionNote": "Warning-area anchor, not a radar fix.",
+      "vehicle": "Drone count and model unspecified in the release.",
+      "attribution": "MApN attributes nearby attacks on Ukrainian Danube ports to Russian forces.",
+      "route": "No Romanian airspace entry reported.",
+      "circumstances": "Nearby attacks on Ukrainian ports prompted a warning.",
+      "payload": "Unspecified.",
+      "impact": "Warning issued; no Romanian damage or casualties reported.",
+      "response": "RO-Alert issued at 00:19; alert ended at 00:41 local.",
+      "uncertainty": "No flight track, drone count or model established.",
+      "deduplication": "One selected alert, separate from the later 08:56 morning N137 warning.",
+      "provenance": "MApN release 359 directly reviewed 7 November.",
+      "classificationNote": "Alert only; no incursion, engagement or strike inferred.",
+      "sourceReferences": "[U233][U233]",
+      "sources": [
+        "U233"
+      ],
+      "page": "events/2026-11-06-tulcea-overnight-ro-alert-romania/"
+    },
+    {
+      "id": "N137",
+      "title": "Northern Tulcea · Morning 6 November Sulina target alert",
+      "recordClass": "event",
+      "recordType": "civil_protection_air_alert",
+      "startDate": "2026-11-06",
+      "dateLabel": "6 November 2026, 08:56–09:27 local alert",
+      "dateBasis": "Morning occurrence date and warning times from MApN-attributed reporting.",
+      "countries": "Romania",
+      "location": "Northern Tulcea County warning area.",
+      "status": "Official radar-target warning; Romanian entry not established",
+      "categories": "Civil-protection alert; unidentified aerial target",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.25,
+          "lng": 29.45,
+          "precision": "region",
+          "label": "Northern Tulcea warning area — approximate, not a drone position"
+        }
+      ],
+      "positionNote": "Warning-area anchor, not a radar fix.",
+      "vehicle": "Aerial radar target; drone identity and model unconfirmed in the cited statement.",
+      "attribution": "Operator not identified.",
+      "route": "Detected east of Sulina heading toward Vâlcove, Ukraine; precise track unpublished.",
+      "circumstances": "Nearby aerial activity prompted a civil-protection warning.",
+      "payload": "Unspecified.",
+      "impact": "Warning issued; no Romanian damage or casualties reported.",
+      "response": "Two F-16s launched from Borcea; northern Tulcea warning ran 08:56–09:27 local.",
+      "uncertainty": "No verified model, operator or Romanian border crossing. The overnight no-entry finding belongs to N136 and cannot be transferred to this episode.",
+      "deduplication": "Distinct morning warning, not the 00:19–00:41 N136 episode. Fighter response adds no occurrence.",
+      "provenance": "MApN account in News.ro and TVR reviewed 7 November.",
+      "classificationNote": "Alert only; no incursion, engagement or strike inferred.",
+      "sourceReferences": "[U234][U234]; [U235][U235]",
+      "sources": [
+        "U234",
+        "U235"
+      ],
+      "page": "events/2026-11-06-sulina-morning-target-alert-romania/"
+    },
+    {
+      "id": "N138",
+      "title": "Shabla · Russian-classified drone washed ashore and destroyed",
+      "recordClass": "event",
+      "recordType": "coastal_aerial_drone_recovery",
+      "startDate": "2026-11-06",
+      "dateLabel": "6 November 2026 (discovery and disposal)",
+      "dateBasis": "Official release dates discovery and destruction to 6 November; original flight/fall date unknown.",
+      "countries": "Bulgaria",
+      "location": "Beach north of Cape Shabla lighthouse.",
+      "status": "Officially identified aerial drone recovered and destroyed",
+      "categories": "Coastal recovery; controlled disposal",
+      "category": "recovery",
+      "stages": [
+        "recovery",
+        "disposal"
+      ],
+      "positions": [
+        {
+          "lat": 43.55,
+          "lng": 28.61,
+          "precision": "locality",
+          "label": "North of Shabla lighthouse — approximate coastal anchor"
+        }
+      ],
+      "positionNote": "Approximate coast location, not a flight track.",
+      "vehicle": "Aerial drone classified by Bulgarian military specialists as Russian Gerber-2.",
+      "attribution": "Russian classification is the Bulgarian inspection assessment; specific operator and mission unestablished.",
+      "route": "Probably fell into the sea and washed ashore; entry route unknown.",
+      "circumstances": "Coastal discovery reported to authorities at 10:00 local.",
+      "payload": "Military inspection found no explosive charge.",
+      "impact": "Discovery; no casualties or damage reported.",
+      "response": "Varna naval team inspected and destroyed the drone on site.",
+      "uncertainty": "Early mayor account of Shahed markings and explosives was superseded by military inspection: no inscriptions and no explosive charge. Fall date and link to any shipping attack remain unknown.",
+      "deduplication": "One recovery and disposal, distinct from the 28 August Shabla E082 discovery. No new flight, ship attack or unique-drone total inferred.",
+      "provenance": "Official MoD Information Centre release and BNR follow-up reviewed 7 November.",
+      "classificationNote": "Recovery plus controlled disposal, not an attack explosion or confirmed Bulgarian aerial incursion.",
+      "sourceReferences": "[U236][U236]; [U237][U237]; [U238][U238]",
+      "sources": [
+        "U236",
+        "U237",
+        "U238"
+      ],
+      "page": "events/2026-11-06-shabla-drone-recovery-disposal-bulgaria/"
+    },
+    {
+      "id": "N139",
+      "title": "Aegean · 6 November Greek-reported Turkish UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-11-06",
+      "dateLabel": "6 November 2026",
+      "dateBasis": "Daily account explicitly dated 6 November; sortie times unpublished.",
+      "countries": "Greece",
+      "location": "Northeastern / central / southeastern Aegean Sea; precise tracks unpublished.",
+      "status": "Greek-authority-reported Turkish UAV airspace violations",
+      "categories": "15 reported national-airspace violations and 9 UAV FIR infringements involving 7 UAVs",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 38.5,
+          "lng": 26.0,
+          "precision": "region",
+          "label": "Northeastern / central / southeastern Aegean — broad regional anchor"
+        }
+      ],
+      "positionNote": "Editorial regional anchor, not a verified crossing point or flight track. Overlapping records are not shifted.",
+      "vehicle": "Seven Turkish UAVs in Greek reporting; models unspecified.",
+      "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
+      "route": "Regional scope only; no independently verified approach tracks.",
+      "circumstances": "Greek daily figures assign 15 airspace violations and nine Athens FIR infringements to seven UAVs. Two further FIR infringements by an ATR-72 are excluded.",
+      "payload": "UAV payloads unknown; daily report lists no armed aircraft.",
+      "impact": "No casualties, damage or crashes reported.",
+      "response": "Identification and routine interception reported; no engagements or shoot-downs reported.",
+      "uncertainty": "Two outlets reproduce the same Greek account, not independent observations. Direct GEETHA bulletin unavailable. Exact tracks, models and missions remain unknown; the Greek-Turkish airspace dispute remains relevant.",
+      "deduplication": "One daily regional record. Aircraft, airspace violations and FIR infringements are separate, non-additive measures. The manned aircraft is not a separate drone event.",
+      "provenance": "OnAlert and CNN Greece reports directly reviewed 7 November.",
+      "classificationNote": "Flight only; routine interception is not weapons engagement.",
+      "reported_UAVs": 7,
+      "reported_airspace_violations": 15,
+      "reported_FIR_infractions": 9,
+      "sourceReferences": "[U239][U239]; [U240][U240]",
+      "sources": [
+        "U239",
+        "U240"
+      ],
+      "page": "events/2026-11-06-aegean-turkish-uav-activity-greece/"
     }
   ],
   "contexts": [
@@ -11312,9 +11491,89 @@ window.DRONE_DATA = {
       "url": "https://www.europafm.ro/neamt-fragmente-dintr-o-drona-descoperite-in-comuna-boghicea-politistii-pompierii-si-o-echipa-sri-au-intervenit-la-fata-locului/",
       "dateLabel": "5 November 2026, update 19:00 local",
       "audit": "Directly read 6 November. Headline and update label say detonated, but supporting text reproduces only the future-tense ISU warning. Completion not independently resolved; retain recovery-only pending a clear outcome report."
+    },
+    "U233": {
+      "id": "U233",
+      "publisher": "Romanian Ministry of National Defence (MApN)",
+      "title": "Informație de presă — release 359",
+      "url": "https://www.mapn.ro/cpresa/19468_informa%C8%9Bie-de-presa",
+      "dateLabel": "6 November 2026",
+      "audit": "Directly reviewed 7 November. Overnight 5–6 November warning at 00:19–00:41; explicitly no Romanian entry. Not the separate morning Sulina episode."
+    },
+    "U234": {
+      "id": "U234",
+      "publisher": "News.ro",
+      "title": "Ţintă aeriană detectată la est de localitatea Sulina",
+      "url": "https://www.news.ro/eveniment/tinta-aeriana-detectata-la-est-de-localitatea-sulina-1922404106002026110922951984",
+      "dateLabel": "6 November 2026",
+      "audit": "Directly reviewed 7 November. Quotes MApN: morning radar target east of Sulina heading toward Vâlcove, F-16 response and 08:56–09:27 warning. No-entry statement in final paragraph refers to preceding overnight episode, not this morning target."
+    },
+    "U235": {
+      "id": "U235",
+      "publisher": "Romanian Television (TVR)",
+      "title": "RO-ALERT în nordul județului Tulcea; F-16 response near Sulina",
+      "url": "https://tvrinfo.ro/ro-alert-in-nordul-judetului-tulcea-doua-avioane-f-16-au-fost-ridicate-de-la-sol-dupa-detectarea-unei-tinte-aeriene-langa-sulina/",
+      "dateLabel": "6 November 2026",
+      "audit": "Reviewed 7 November. Corroborates morning warning times and MApN account; not independent radar evidence."
+    },
+    "U236": {
+      "id": "U236",
+      "publisher": "Bulgarian Ministry of Defence Information Centre / ArmyMedia",
+      "title": "Военнослужещи от ВМС унищожиха безпилотен летателен апарат, открит днес край Шабла",
+      "url": "https://armymedia.bg/2026/11/06/%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D0%BB%D1%83%D0%B6%D0%B5%D1%89%D0%B8-%D0%BE%D1%82-%D0%B2%D0%BC%D1%81-%D1%83%D0%BD%D0%B8%D1%89%D0%BE%D0%B6%D0%B8%D1%85%D0%B0-%D0%B1%D0%B5%D0%B7%D0%BF%D0%B8/",
+      "dateLabel": "6 November 2026",
+      "audit": "Official information-centre reproduction of mod.bg release, directly read 7 November. Navy classified the unmarked object as Russian Gerber-2, found no explosive charge and destroyed it on site. Sea fall is probable, not a dated or tracked incursion."
+    },
+    "U237": {
+      "id": "U237",
+      "publisher": "Bulgarian National Radio (BNR)",
+      "title": "Военнослужещи от ВМС унищожиха безпилотния летателен апарат, намерен край Шабла",
+      "url": "https://bnrnews.bg/main/post/554632/voennosluzheshti-ot-vms-unishtozhiha-bezpilotniya-letatelen-aparat-nameren-kray-shabla",
+      "dateLabel": "6 November 2026",
+      "audit": "Directly read 7 November. Later MoD account supersedes earlier mayor-led Shahed/charge report: no inscriptions, Russian Gerber-2 classification, no explosives, destruction completed."
+    },
+    "U238": {
+      "id": "U238",
+      "publisher": "Radio Bulgaria / BNR",
+      "title": "Drone marked ‘Shahed’ washes ashore on Bulgaria’s Black Sea coast",
+      "url": "https://bnrnews.bg/en/post/554512/drone-marked-shahed-washes-ashore-on-bulgarias-black-sea-coast",
+      "dateLabel": "6 November 2026",
+      "audit": "Directly read 7 November. Early mayor account locates discovery near Shabla lighthouse, but its claimed inscription and explosive charge are superseded by later MoD inspection. Not a second object."
+    },
+    "U239": {
+      "id": "U239",
+      "publisher": "OnAlert",
+      "title": "Παραβιάσεις από τουρκικά drones σε όλο το Αιγαίο – Δύο παραβάσεις από ATR-72",
+      "url": "https://www.onalert.gr/ellinotourkika/paraviaseis-apo-tourkika-drones-se-olo-to-aigaio-dyo-paravaseis-apo-atr-72/831878/",
+      "dateLabel": "6 November 2026",
+      "audit": "Directly read 7 November. Dated Greek daily table: seven UAVs, 15 national-airspace violations, nine UAV FIR infringements. Two additional ATR-72 FIR infringements excluded. No engagements reported."
+    },
+    "U240": {
+      "id": "U240",
+      "publisher": "CNN Greece",
+      "title": "Μπαράζ τουρκικών παραβιάσεων στο Αιγαίο με drones και κατασκοπευτικό αεροσκάφος",
+      "url": "https://www.cnn.gr/ellada/story/560730/baraz-tourkikon-paraviaseon-sto-aigaio-me-drones-kai-kataskopeftiko-aeroskafos",
+      "dateLabel": "6 November 2026",
+      "audit": "Directly read 7 November. Corroborates same 6 November Greek figures, not independent surveillance. Distinguishes nine UAV FIR infringements from two by ATR-72."
+    },
+    "U241": {
+      "id": "U241",
+      "publisher": "dpa / airliners.de",
+      "title": "Drohnenangriff: Ermittler fahnden nach verdächtiger Person",
+      "url": "https://www.airliners.de/drohnenangriff-ermittler-fahnden-verdaechtiger-person/91381",
+      "dateLabel": "6 November 2026",
+      "audit": "Directly read 7 November. Reports BKA investigation: suspected launch site and equipment, two identified suspects and appeal concerning another unknown person. Follow-up to E040, not a new occurrence; suspicions are not adjudicated findings."
+    },
+    "U242": {
+      "id": "U242",
+      "publisher": "Știrile ProTV",
+      "title": "Localnicii care au găsit resturile dronei cu explozibil în Neamț au vrut să le ia acasă",
+      "url": "https://stirileprotv.ro/stiri/actualitate/localnicii-care-au-gasit-resturile-unei-drone-cu-explozibil-intr-o-padure-din-neamt-au-vrut-sa-le-ia-acasa-am-zis-ca-e-atv-o-butelie-ceva.html",
+      "dateLabel": "6 November 2026",
+      "audit": "Directly read 7 November. Reporting published 6 November explicitly describes examination and completed detonation on Thursday evening, after warning. Resolves the prior planned/completed discrepancy as a reported outcome, not an official model/operator identification."
     }
   },
-  "cutoff": "2026-11-05",
+  "cutoff": "2026-11-06",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

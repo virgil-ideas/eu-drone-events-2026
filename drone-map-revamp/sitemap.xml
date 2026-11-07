@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://droneincidents.eu/</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://droneincidents.eu/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/</loc><lastmod>2026-11-06</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-01-27-smuggling-drone-purvenai-salcininkai-lithuania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-01-28-small-drone-falls-przasnysz-military-base-poland/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-02-23-smuggling-drone-pine-tree-milvydai-lithuania/</loc></url>
@@ -49,7 +49,7 @@
   <url><loc>https://droneincidents.eu/events/2026-07-26-drone-shot-down-sulina-romania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-07-27-drone-incursion-southeastern-romania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-08-02-drone-debris-periprava-romania/</loc></url>
-  <url><loc>https://droneincidents.eu/events/2026-08-04-explosive-drone-leipzig-halle-airport-germany/</loc></url>
+  <url><loc>https://droneincidents.eu/events/2026-08-04-explosive-drone-leipzig-halle-airport-germany/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-08-07-drones-sighted-military-base-western-germany/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-08-08-drone-crash-explosion-kardam-bulgaria/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-08-11-drone-wreckage-neptun-deep-romania-eez/</loc></url>
@@ -184,5 +184,9 @@
   <url><loc>https://droneincidents.eu/events/2026-11-02-overnight-tulcea-alert-no-reported-entry/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-03-balvi-ludza-alert-unidentified-object/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-04-ro-alert-northern-tulcea-no-reported-airspace-entry/</loc><lastmod>2026-11-05</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/2026-11-05-drone-fragments-boghicea-neamt-romania/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-05-drone-fragments-boghicea-neamt-romania/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-06-tulcea-overnight-ro-alert-romania/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-06-sulina-morning-target-alert-romania/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-06-shabla-drone-recovery-disposal-bulgaria/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-06-aegean-turkish-uav-activity-greece/</loc><lastmod>2026-11-07</lastmod></url>
 </urlset>
