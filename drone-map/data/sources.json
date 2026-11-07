@@ -3045,5 +3045,21 @@
     "url": "https://stirileprotv.ro/stiri/actualitate/localnicii-care-au-gasit-resturile-unei-drone-cu-explozibil-intr-o-padure-din-neamt-au-vrut-sa-le-ia-acasa-am-zis-ca-e-atv-o-butelie-ceva.html",
     "dateLabel": "6 November 2026",
     "audit": "Directly read 7 November. Reporting published 6 November explicitly describes examination and completed detonation on Thursday evening, after warning. Resolves the prior planned/completed discrepancy as a reported outcome, not an official model/operator identification."
+  },
+  "U243": {
+    "id": "U243",
+    "publisher": "Prosecutor’s Office of the Republic of Bulgaria / Varna District Prosecutor’s Office",
+    "title": "Varna District Prosecutor’s Office investigates human remains found aboard a drone-hit ship received for repair",
+    "dateLabel": "7 November 2026",
+    "url": "https://prb.bg/bg/news/80197-okrazhna-prokuratura-varna-rakovodi-razsledvane-vav-vrazka-s-korab%2C-udaren-ot-dr",
+    "audit": "Full primary release text retrieved in search on 7 November 2026; direct reopening failed. Confirms severely damaged human remains found during clearance and DNA examinations ordered, but gives neither a death toll nor identities. Does not name the ship; BNR identifies WINE TRADER."
+  },
+  "U244": {
+    "id": "U244",
+    "publisher": "Bulgarian National Radio / Radio Varna",
+    "title": "Human remains found aboard WINE TRADER in Varna (updated)",
+    "dateLabel": "7 November 2026, 12:34 local publication label",
+    "url": "https://www.bnrnews.bg/varna/post/554890/silno-uvredeni-choveshki-ostanki-byaha-otkriti-na-koraba-wine-trader-vav-varna-obnovena",
+    "audit": "Updated article text retrieved in search on 7 November; direct reopening failed. Identifies WINE TRADER and reports a sailor’s body and severely damaged human remains, citing Varna prosecutors. No fixed toll adopted. Its Sierra Leone flag and territorial-water wording are not adopted over the existing source-backed record."
   }
 }

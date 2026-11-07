@@ -1516,14 +1516,15 @@
   },
   "N090": {
     "slug": "2026-10-15-wine-trader-drone-strike-fire-sulina-romania",
-    "headline": "Drone strike sets WINE TRADER on fire off Sulina; seven crew missing",
-    "description": "WINE TRADER was hit off Sulina on 15 October 2026; five crew were rescued and seven missing. A NATO source assessed the drones as Russian in origin.",
+    "headline": "WINE TRADER drone strike off Sulina; human remains later found in Varna",
+    "description": "Human remains were found during repairs to WINE TRADER in Varna after the 15 October drone strike off Sulina. DNA identification and investigations continue.",
     "summary": [
       "A drone struck the San Marino-flagged tanker WINE TRADER off Sulina on 15 October 2026. Romania’s president confirmed the attack. A NATO military source cited by Reuters assessed the drones that hit this tanker and YARA J as Russian in origin; a specific operator has not been established in the reviewed reporting.",
-      "Of twelve crew, five were rescued and seven remained missing. Two survivors had scalp burns or mild smoke inhalation; all five were stable and taken to hospital. Fire damaged the vessel. Its final condition is unconfirmed, and the missing crew are not counted as confirmed dead. Heavy seas hindered the rescue operation. IGSU reported that the search resumed on 16 October; its initial boarding announcement was a plan. A 19 October seafarers union statement subsequently reported that teams had boarded and searched accessible spaces, with damage hindering the search. The union reiterated five rescued and seven missing. On 22 October Croatia’s Foreign Ministry said the search had stopped owing to elapsed time. One Croatian sailor remained missing; another treated for superficial burns had been discharged. This does not convert the missing into confirmed deaths.",
+      "Initially, five of the twelve crew were rescued and seven were reported missing. Two survivors had scalp burns or mild smoke inhalation; all five were stable and taken to hospital. Heavy seas and damage hindered searches. A 19 October union statement reported teams had searched accessible spaces. On 22 October Croatia’s Foreign Ministry said the search had stopped owing to elapsed time.",
+      "On 7 November Varna prosecutors confirmed that severely damaged human remains had been found while clearing a drone-hit ship received for repairs in early November. BNR identifies it as WINE TRADER and reports a sailor’s body and human remains. DNA examinations were ordered to establish identities, and investigations continue in Bulgaria and Romania. The primary statement gives no death toll. Early numerical media reports conflict, so neither a final toll nor a current number still missing is inferred from the historical rescue figures.",
       "The ship was reported about 13 nautical miles southeast of Sulina, just outside Romanian territorial waters. It is included in the register’s offshore coverage. The rescue request at 06:58 is not a verified attack time. This promotes the earlier fire-only watchlist lead to one red Strike record, combining the attack, fire and rescue; it remains separate from YARA J and Sea Destiny."
     ],
-    "basis": "5ca86be3289cd5a6"
+    "basis": "90417c6eec6f07a5"
   },
   "N091": {
     "slug": "2026-10-13-dailidziai-smuggling-drone-lithuania",

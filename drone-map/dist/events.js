@@ -6863,7 +6863,7 @@ window.DRONE_DATA = {
       "page": "events/2026-10-15-turkish-uav-activity-aegean-greece/"
     },
     {
-      "provenance": "Added and reviewed 2026-10-16 for the supplied 15 October 09:09–16 October 09:26 EEST daily check. Original research snapshots unchanged. Search-response follow-up reviewed 19 October against AGERPRES's 16 October report quoting IGSU. Planned boarding is not treated as confirmed completion, and casualty totals are unchanged. Further follow-up reviewed 20 October against the 19 October union statement (U093); reported boarding is attributed to the union, without treating missing crew as dead. Search cessation and Croatian medical follow-up reviewed 24 October against Hina quoting MVEP.",
+      "provenance": "Added and reviewed 2026-10-16 for the supplied 15 October 09:09–16 October 09:26 EEST daily check. Original research snapshots unchanged. Search-response follow-up reviewed 19 October against AGERPRES's 16 October report quoting IGSU. Planned boarding is not treated as confirmed completion, and casualty totals are unchanged. Further follow-up reviewed 20 October against the 19 October union statement (U093); reported boarding is attributed to the union, without treating missing crew as dead. Search cessation and Croatian medical follow-up reviewed 24 October against Hina quoting MVEP. Human-remains recovery reviewed 7 November against the Bulgarian prosecutor’s primary release and updated BNR report retrieved in search (direct opens failed). No exact toll inferred.",
       "id": "N090",
       "title": "WINE TRADER off Sulina · Drone strike and fire",
       "recordClass": "event",
@@ -6873,7 +6873,7 @@ window.DRONE_DATA = {
       "dateBasis": "Morning of 15 October. ARSVOM’s 06:58 rescue request and SAR Apollo’s 07:10 departure are response timestamps, not verified attack times; the Naval Authority rounds the distress call to about 07:00. Union leader Adrian Mihălcioiu subsequently gave about 04:00 in a 19 October statement; this approximate attack time is not independently verified.",
       "countries": "Romania (offshore, outside territorial waters)",
       "location": "Black Sea, about 13 nautical miles southeast of Sulina, just outside Romanian territorial waters.",
-      "status": "Drone strike confirmed by Romania’s president; Russian origin assessed by a NATO military source; five rescued and seven missing",
+      "status": "Drone strike confirmed by Romania’s president; human remains recovered during repairs in Varna; final casualty count unresolved",
       "categories": "Aerial-drone strike on merchant shipping; fire; search and rescue",
       "category": "strike",
       "stages": [
@@ -6893,12 +6893,12 @@ window.DRONE_DATA = {
       "route": "Tanker reportedly bound for Moldova. No verified drone approach track. The incident occurred just outside Romanian territorial waters and is not a confirmed sovereign-territory incursion.",
       "circumstances": "Initially retained as an unexplained fire in the 15 October morning watchlist. Later reporting confirmed a drone attack and updated the rescue figures. Reuters places the ship about 13 nautical miles southeast of Sulina, just outside territorial waters; the attack, fire and rescue form one occurrence.",
       "payload": "Drone payload unestablished. A fire and damaging strike are reported, without a separately established explosion finding for this ship.",
-      "impact": "Twelve crew: five rescued and seven missing. Initial medical assessment reported scalp burns in one survivor and mild smoke inhalation in another; the other three had no visible traumatic injuries. All five were stable and taken to hospital. Fire damaged the vessel; final condition and damage extent remain unconfirmed. No confirmed sinking or death total; missing crew are not presumed dead. Croatia’s Foreign Ministry said one Croatian sailor remained missing; another treated for superficial burns had been discharged.",
-      "response": "MRCC-coordinated rescue. SAR Apollo departed at 07:10 after the 06:58 request; helicopters and rescue vessels were deployed. Five crew were evacuated by helicopter, and search preparations continued for the seven missing. Heavy seas complicated operations and forced a smaller Coast Guard craft to withdraw. IGSU said search-and-rescue operations resumed on the morning of 16 October. Its announced plans included a Black Hawk transporting four rescuers aboard WINE TRADER and FIFI MAI 0101 participating with thirteen rescuers. In a 19 October statement published by CTnews, seafarers union leader Adrian Mihălcioiu reported that specialist teams had boarded and searched accessible spaces with cutting equipment; damage impeded the search. This is a union-reported completion, distinct from IGSU’s earlier plans. On 22 October, Croatia’s Foreign Ministry told Hina that the search had stopped because of elapsed time.",
-      "uncertainty": "The presidential confirmation and NATO source’s assessment supersede the initial fire-only lead. Russian origin remains explicitly attributed to that source, without a verified operator or model. The five-rescued/seven-missing figures supersede earlier eight-missing reporting and are a reporting-time snapshot, not a final casualty count. The union reiterated five rescued and seven missing on 19 October; its Geran-model identification and attack-time account remain attributed claims. The 22 October search cessation does not establish any missing sailor’s death.",
-      "deduplication": "Promoted from watchlist.md to one new mapped record, N090. Keep the strike, fire, injuries and rescue together. Separate from YARA J (N086), Sea Destiny (N089) and the earlier Bulgarian attacks. The Wide Trader spelling in U067 refers to this vessel, not a second event.",
+      "impact": "Initial rescue accounting: twelve crew, five rescued and seven reported missing. Initial medical assessment reported scalp burns in one survivor and mild smoke inhalation in another; the other three had no visible traumatic injuries. All five were stable and taken to hospital. Fire damaged the vessel; final condition and damage extent remain unconfirmed. No confirmed sinking. On 22 October Croatia’s Foreign Ministry said one Croatian sailor remained missing; another treated for superficial burns had been discharged. On 7 November Varna prosecutors confirmed severely damaged human remains had been found during clearance of the ship. BNR identifies the vessel as WINE TRADER and reports a sailor’s body and human remains. The official release gives no death toll or identities; the current number still missing is not established.",
+      "response": "MRCC-coordinated rescue. SAR Apollo departed at 07:10 after the 06:58 request; helicopters and rescue vessels were deployed. Five crew were evacuated by helicopter, and search preparations continued for the seven missing. Heavy seas complicated operations and forced a smaller Coast Guard craft to withdraw. IGSU said search-and-rescue operations resumed on the morning of 16 October. Its announced plans included a Black Hawk transporting four rescuers aboard WINE TRADER and FIFI MAI 0101 participating with thirteen rescuers. In a 19 October statement published by CTnews, seafarers union leader Adrian Mihălcioiu reported that specialist teams had boarded and searched accessible spaces with cutting equipment; damage impeded the search. This is a union-reported completion, distinct from IGSU’s earlier plans. On 22 October, Croatia’s Foreign Ministry told Hina that the search had stopped because of elapsed time. The ship was subsequently received for repairs in Varna in early November. On 7 November Varna prosecutors announced an investigation and DNA examinations to establish the identities of the deceased; they also noted an investigation in Romania.",
+      "uncertainty": "The presidential confirmation and NATO source’s assessment supersede the initial fire-only lead. Russian origin remains explicitly attributed to that source, without a verified operator or model. The five-rescued/seven-missing figures supersede earlier eight-missing reporting and are a reporting-time snapshot, not a final casualty count. The union reiterated five rescued and seven missing on 19 October; its Geran-model identification and attack-time account remain attributed claims. The 22 October search cessation does not establish any missing sailor’s death. The 7 November recovery supersedes any implication that no deaths have been established, but does not resolve the final toll or identities. Numerical body counts in early media reports conflict and are not adopted. Do not subtract an unverified count from the historical seven missing or infer that all seven died.",
+      "deduplication": "Promoted from watchlist.md to one new mapped record, N090. Keep the strike, fire, injuries and rescue together. Separate from YARA J (N086), Sea Destiny (N089) and the earlier Bulgarian attacks. The Wide Trader spelling in U067 refers to this vessel, not a second event. The November clearance and human-remains recovery update this same attack; they are not a new Bulgarian drone occurrence.",
       "classificationNote": "Red Strike for a damaging drone attack, without inferring a confirmed explosion or sinking. Offshore proximity supports inclusion; it does not turn the location into Romanian territorial waters.",
-      "sourceReferences": "[U066][U066]; [U068][U068]; [U069][U069]; [U067][U067]; [U060][U060]; [U086][U086]; [U093][U093]; [U155][U155]",
+      "sourceReferences": "[U066][U066]; [U068][U068]; [U069][U069]; [U067][U067]; [U060][U060]; [U086][U086]; [U093][U093]; [U155][U155]; [U243][U243]; [U244][U244]",
       "sources": [
         "U066",
         "U068",
@@ -6907,7 +6907,9 @@ window.DRONE_DATA = {
         "U060",
         "U086",
         "U093",
-        "U155"
+        "U155",
+        "U243",
+        "U244"
       ],
       "page": "events/2026-10-15-wine-trader-drone-strike-fire-sulina-romania/"
     },
@@ -11571,6 +11573,22 @@ window.DRONE_DATA = {
       "url": "https://stirileprotv.ro/stiri/actualitate/localnicii-care-au-gasit-resturile-unei-drone-cu-explozibil-intr-o-padure-din-neamt-au-vrut-sa-le-ia-acasa-am-zis-ca-e-atv-o-butelie-ceva.html",
       "dateLabel": "6 November 2026",
       "audit": "Directly read 7 November. Reporting published 6 November explicitly describes examination and completed detonation on Thursday evening, after warning. Resolves the prior planned/completed discrepancy as a reported outcome, not an official model/operator identification."
+    },
+    "U243": {
+      "id": "U243",
+      "publisher": "Prosecutor’s Office of the Republic of Bulgaria / Varna District Prosecutor’s Office",
+      "title": "Varna District Prosecutor’s Office investigates human remains found aboard a drone-hit ship received for repair",
+      "dateLabel": "7 November 2026",
+      "url": "https://prb.bg/bg/news/80197-okrazhna-prokuratura-varna-rakovodi-razsledvane-vav-vrazka-s-korab%2C-udaren-ot-dr",
+      "audit": "Full primary release text retrieved in search on 7 November 2026; direct reopening failed. Confirms severely damaged human remains found during clearance and DNA examinations ordered, but gives neither a death toll nor identities. Does not name the ship; BNR identifies WINE TRADER."
+    },
+    "U244": {
+      "id": "U244",
+      "publisher": "Bulgarian National Radio / Radio Varna",
+      "title": "Human remains found aboard WINE TRADER in Varna (updated)",
+      "dateLabel": "7 November 2026, 12:34 local publication label",
+      "url": "https://www.bnrnews.bg/varna/post/554890/silno-uvredeni-choveshki-ostanki-byaha-otkriti-na-koraba-wine-trader-vav-varna-obnovena",
+      "audit": "Updated article text retrieved in search on 7 November; direct reopening failed. Identifies WINE TRADER and reports a sailor’s body and severely damaged human remains, citing Varna prosecutors. No fixed toll adopted. Its Sierra Leone flag and territorial-water wording are not adopted over the existing source-backed record."
     }
   },
   "cutoff": "2026-11-06",
