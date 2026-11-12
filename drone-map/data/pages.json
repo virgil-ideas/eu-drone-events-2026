@@ -628,9 +628,9 @@
     "summary": [
       "Overnight on 14–15 September 2026 an Italian fighter jet operating with NATO engaged and shot down a drone over Lithuania near Pratkūnai. Lithuanian authorities then examined the debris and the drone’s electronics. No casualties were reported.",
       "The drone was identified as a Gerbera, a type used by Russia. On 16 September Lithuania’s president assessed that it had likely been intended for a Ukrainian target. A possible diversion by Ukrainian electronic warfare has been put forward to explain how it reached Lithuania, but that causal account is an assessment. Neither the Russian-type identification nor the intended-target assessment is proof of a deliberate attack on Lithuania.",
-      "Whether this particular drone carried explosives was not established; Gerbera variants may be decoys or armed."
+      "Lithuanian Defence Minister Robertas Kaunas said the drone carried an explosive, Reuters reported on 15 September. This is an attributed official statement; independent forensic findings and the exact explosive load were not reviewed. It does not establish a deliberate attack on Lithuania."
     ],
-    "basis": "95fdd7f2a38174d0"
+    "basis": "fa62cfa314a08146"
   },
   "E059": {
     "slug": "2026-09-24-drone-explodes-crashes-solca-suceava-romania",
@@ -2022,5 +2022,49 @@
       "One daily regional record. Aircraft, airspace violations and FIR infringements are separate, non-additive measures. The manned aircraft is not a separate drone event."
     ],
     "basis": "2da350a5ac39472c"
+  },
+  "N150": {
+    "slug": "2026-11-11-lithuanialatvia-suspected-drone-cross-border-flight-lithuania",
+    "headline": "Lithuania–Latvia · Drone incursion and unsuccessful interception",
+    "description": "Officially confirmed drone incursion; unsuccessful interception. Southern to northern Lithuania; reported exit into Latvia near Pasvalys district.",
+    "summary": [
+      "Lithuanian defence staff chief said fighters identified the drone near Kaunas but did not engage there because of civilian risk. Two later destruction attempts failed. Latvia independently confirmed a drone entering from Lithuania and crossing its territory south to north.",
+      "NATO fighters activated in Lithuania and continued responding over Latvia; no suitable safe operational conditions for destruction in Latvia. Debris of an interceptor missile was recovered near Biržai, not drone wreckage.",
+      "Model, payload, operator, intended target and cause remain unknown. Electronic-warfare diversion is an assessment, not established fact. Estonian authorities separately confirmed brief entries that night; exact overlap with this track and other drones remains under reconciliation. No confirmed attack, drone crash, recovery or shoot-down."
+    ],
+    "basis": "9c3697879225464b"
+  },
+  "N151": {
+    "slug": "2026-11-10-latvia-two-brief-eastern-border-drone-entries-latvia",
+    "headline": "Latvia · Two brief eastern-border drone entries",
+    "description": "NBS-confirmed brief drone incursions. Ludza municipality / eastern Latvian border",
+    "summary": [
+      "Latvian NBS said two drones briefly crossed the eastern border for 1–2 minutes. It places the associated Ludza warning at approximately 23:30 on Tuesday 10 November.",
+      "Drone-interceptor and air-defence units and NATO fighters activated.",
+      "Exact crossing points, operator, payload and intent unresolved. Later Krāslava/Augšdaugava and Balvi approaches did not enter; not extra incursions."
+    ],
+    "basis": "5fb5d28f79b700d4"
+  },
+  "N152": {
+    "slug": "2026-11-11-finland-suspected-uav-entry-over-eastern-gulf-finland",
+    "headline": "Finland · Suspected UAV entry over eastern Gulf",
+    "description": "Ministry-reported suspected airspace violation; investigation open. Eastern Gulf of Finland; suspected Finnish national airspace",
+    "summary": [
+      "Finnish Defence Ministry reported a suspected UAV airspace violation after 02:00 on 11 November, lasting about five minutes before departure.",
+      "Border Guard investigates. Defence Forces imposed temporary air and maritime restrictions as precautionary measures.",
+      "Entry remains suspected, not confirmed. No identified origin, model, intent or proven connection to Baltic transits or attacks in Russia."
+    ],
+    "basis": "43b1958a05868ac0"
+  },
+  "N153": {
+    "slug": "2026-11-11-estonia-brief-drone-incursions-over-the-gulf-of",
+    "headline": "Estonia · Brief drone incursions over the Gulf of Finland",
+    "description": "Estonian authorities reported brief drone incursions over the Gulf of Finland on 11 November 2026. Exact count, tracks and payloads remain unresolved.",
+    "summary": [
+      "In an ERR interview, the defence minister distinguished brief Gulf of Finland airspace violations from a separate drone entering from Latvia at approximately 03:30. Estonia's government separately confirmed that some drones briefly entered national airspace that night.",
+      "NATO fighters were airborne. The minister said safe destruction conditions were not available, including proximity to the Russian border.",
+      "Exact drone count, crossing times and tracks unresolved. Reported Ukrainian attribution is the minister's account, not independent confirmation. No confirmed attack on Estonia, crash, recovery or shoot-down. No proven link to the suspected Finnish crossing."
+    ],
+    "basis": "bc658b976d96ecc7"
   }
 }

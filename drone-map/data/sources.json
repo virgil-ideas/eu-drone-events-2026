@@ -3061,5 +3061,316 @@
     "dateLabel": "7 November 2026, 12:34 local publication label",
     "url": "https://www.bnrnews.bg/varna/post/554890/silno-uvredeni-choveshki-ostanki-byaha-otkriti-na-koraba-wine-trader-vav-varna-obnovena",
     "audit": "Updated article text retrieved in search on 7 November; direct reopening failed. Identifies WINE TRADER and reports a sailor’s body and severely damaged human remains, citing Varna prosecutors. No fixed toll adopted. Its Sierra Leone flag and territorial-water wording are not adopted over the existing source-backed record."
+  },
+  "U245": {
+    "id": "U245",
+    "publisher": "Veteranos",
+    "title": "Four Turkish UAVs: Greek-reported Aegean activity on 5 November",
+    "url": "https://veteranos.gr/efodos-4-tourkikon-uavs-me-paravaseis-kai-paraviaseis-se-voreioanatoliko-kai-notioanatoliko-aigaio/",
+    "audit": "Directly reviewed 8 November. Reproduces GEETHA daily table: four UAVs, six FIR infringements, nine national-airspace violations, northeastern and southeastern Aegean. Primary GEETHA site inaccessible.",
+    "dateLabel": "5 November 2026"
+  },
+  "U246": {
+    "id": "U246",
+    "publisher": "Dimokratiki",
+    "title": "Report including the 5 November Greek UAV activity figures",
+    "url": "https://www.dimokratiki.gr/07-11-2026/oie-to-tourkolivyko-mnimonio-agnoi-pliros-tin-yparxi-ton-dodekanison/",
+    "audit": "Article body directly reviewed 8 November, separately from its AI summary. Explicitly dates four UAVs, six FIR infringements and nine national-airspace violations to 5 November, citing GEETHA. Corroborates reporting, not independent radar observation.",
+    "dateLabel": "7 November 2026, 08:16 displayed time"
+  },
+  "U247": {
+    "id": "U247",
+    "publisher": "OnAlert",
+    "title": "Six Turkish UAVs: eight FIR infringements and four airspace violations",
+    "url": "https://www.onalert.gr/ellinotourkika/entoni-kinitikotita-tourkikon-drones-sto-aigaio-8-paravaseis-kai-4-paraviaseis/832025/",
+    "audit": "Directly reviewed 8 November. Reproduced GEETHA table explicitly dated 7 November: six UAVs, eight FIR infringements, four national-airspace violations; northeastern, central and southeastern Aegean; no armed aircraft or engagements listed.",
+    "dateLabel": "7 November 2026, 18:26 displayed time"
+  },
+  "U248": {
+    "id": "U248",
+    "publisher": "CNN Greece",
+    "title": "Greek-reported Turkish UAV violations on 7 November",
+    "url": "https://www.cnn.gr/ellada/story/560829/baraz-tourkikon-paraviaseon-sti-skia-ton-ekselikseon-gia-tin-ilektriki-diasyndesi-elladas-kyprou",
+    "audit": "Directly reviewed 8 November. Matches six UAVs, eight FIR infringements and four national-airspace violations for 7 November. Repeats Greek military account rather than independently establishing flight tracks.",
+    "dateLabel": "7 November 2026, 19:36 displayed time"
+  },
+  "U249": {
+    "id": "U249",
+    "publisher": "Bundeskriminalamt",
+    "title": "Leipzig/Halle drone attack: BKA public information appeal",
+    "url": "https://bka.hinweisportal.de/airportleipzig/de/upload",
+    "audit": "Primary portal text directly reviewed 8 November. Confirms two identified suspects, another unknown person, suspected Rabutz–Beuditz launch site and suspected equipment near Radefeld–Lützschena. Publication date not displayed; the 6 November timing remains supported by U241. Read only; no report submitted."
+  },
+  "U250": {
+    "id": "U250",
+    "publisher": "Vesti / Maritime.bg interview",
+    "title": "CONTSHIP JET reportedly warned 40–60 minutes before strike",
+    "dateLabel": "7 November 2026, 12:12 displayed time",
+    "url": "https://www.vesti.bg/bulgaria/atakata-s-dronove-kraj-kaliakra-contship-jet-e-bil-predupreden-40-do-60-min.-predi-udara-6275581",
+    "audit": "Vesti reproduction directly reviewed 8 November. Attributes warning timing and surveillance-only capability to the unnamed French Atlantique 2 commander interviewed by Maritime.bg. Original interview returned 403. Does not establish a new attack, perpetrator or failure by other responding assets."
+  },
+  "U251": {
+    "id": "U251",
+    "publisher": "Bulgarian Ministry of Defence",
+    "title": "Naval specialists destroyed drone washed ashore near Shabla",
+    "dateLabel": "6 November 2026",
+    "url": "https://www.mod.bg/news9687",
+    "audit": "Primary ministry release directly reviewed 8 November. Confirms existing N138 facts: unmarked Russian-classified Gerber-2, no explosive charge, discovery and controlled destruction on 6 November. Supersedes early mayor-led Shahed/explosive speculation; not a new occurrence."
+  },
+  "U252": {
+    "id": "U252",
+    "publisher": "Radio România Internațional",
+    "title": "5 November target enters Romanian territorial-water airspace",
+    "url": "https://www.rri.ro/actualitate/alte-stiri/ro-alert-pentru-nord-estul-judetului-tulcea-id1080102.html",
+    "dateLabel": "5 November 2026, 14:30",
+    "audit": "Directly read 9 November. Quotes MApN: one of two targets entered national airspace over territorial waters 09:42–09:45; other did not. Target type unspecified."
+  },
+  "U253": {
+    "id": "U253",
+    "publisher": "Ziua de Constanța",
+    "title": "MApN details on the 5 November aerial targets",
+    "url": "https://www.ziuaconstanta.ro/stiri/actualitate/ro-alert-la-tulcea-detalii-de-ultim-moment-de-la-mapn-despre-tintele-aeriene-la-est-de-insula-serpilor-in-spatiul-aerian-al-ucrainei-959368.html",
+    "dateLabel": "5 November 2026, 12:55",
+    "audit": "Directly read 9 November. Matching MApN-attributed account supplies 09:46 warning and 11:10 all-clear; this is not independent radar observation."
+  },
+  "U254": {
+    "id": "U254",
+    "publisher": "Radio România Antena Satelor",
+    "title": "5 November Tulcea alert and F-16 response",
+    "url": "https://www.antenasatelor.ro/Actualitate/alerta-aeriana-in-tulcea-doua-avioane-f-16-au-decolat-de-la-borcea-id45437.html",
+    "dateLabel": "5 November 2026, 12:10",
+    "audit": "Directly read 9 November. Explicitly says MApN did not specify the object types. Prevents upgrading a confirmed target entry to confirmed drone identity."
+  },
+  "U255": {
+    "id": "U255",
+    "publisher": "Radio România Internațional",
+    "title": "8 November aerial targets near Snake Island",
+    "url": "https://www.rri.ro/actualitate/stiri/informatii-mapn-alerta-aeriana-aproape-de-insula-serpilor-id1081217.html",
+    "dateLabel": "8 November 2026, 15:24",
+    "audit": "Directly read 9 November. Two targets, 14:02 RO-Alert, Spanish F-18 and NH-90 responses. Does not establish Romanian entry or confirmed drone identity."
+  },
+  "U256": {
+    "id": "U256",
+    "publisher": "Ziua de Constanța",
+    "title": "8 November target warning with radar update",
+    "url": "https://www.ziuaconstanta.ro/stiri/actualitate/tinta-aeriana-detectata-in-apropiere-de-insula-serpilor-doua-f-18-spaniole-au-decolat-de-la-mihail-kogalniceanu-iar-populatia-din-estul-tulcei-a-fost-959719.html",
+    "dateLabel": "8 November 2026, 15:00, updated",
+    "audit": "Directly read 9 November. First target disappeared east of Sulina; second detected about 55 km west of Snake Island. Updates do not demonstrate a third separate warning or a Romanian entry."
+  },
+  "U257": {
+    "id": "U257",
+    "publisher": "Radio România Internațional",
+    "title": "Later 8 November target near Chilia Veche",
+    "url": "https://www.rri.ro/actualitate/stiri/update-o-noua-tinta-aeriana-detectata-in-apropierea-frontierei-romaniei-id1081236.html",
+    "dateLabel": "8 November 2026, 18:11",
+    "audit": "Directly read 9 November. MApN-attributed target 4 km north of Chilia Veche in Ukraine, F-16 launch. Earlier two-target episode recapped, not counted again."
+  },
+  "U258": {
+    "id": "U258",
+    "publisher": "Telegraf",
+    "title": "8 November northern Tulcea warning and all-clear",
+    "url": "https://www.telegrafonline.ro/noi-tinte-aeriene-detectate-la-granita-romaniei-avioane-f16-ridicate-de-la-sol",
+    "dateLabel": "8 November 2026, 18:07",
+    "audit": "Directly read 9 November. Supplies MApN-attributed 16:51 RO-Alert and 17:59 cessation. Three aerial targets in the day are not three verified drone incursions."
+  },
+  "U259": {
+    "id": "U259",
+    "publisher": "Bulgarian National Television / Eleana Tsanova",
+    "title": "BNT finds unidentified drone on Sinemorets coastal rocks",
+    "url": "https://bntnews.bg/news/ekip-na-bnt-se-natakna-na-dron-varhu-skalite-krai-sinemorec-snimki-i-video-1421233news.html",
+    "dateLabel": "8 November 2026, 15:00",
+    "audit": "Direct eyewitness article read 9 November. Relatively intact airframe with broken wing portion; type, origin and arrival circumstances unknown. No confirmed explosive or disposal finding."
+  },
+  "U260": {
+    "id": "U260",
+    "publisher": "Bulgarian National Television / Eleana Tsanova",
+    "title": "Lipite Beach drone, container and cargo follow-up",
+    "url": "https://bntnews.bg/news/dron-i-konteiner-byaha-otkriti-v-moreto-krai-sinemorec-sred-chuvali-s-cherven-piper-1421265news.html",
+    "dateLabel": "8 November 2026, 20:06",
+    "audit": "Directly read 9 November. Names Lipite Beach. Governor says he will issue a destruction order; completion not established. Cargo-vessel connection provisional; samples taken, results expected next week. Cargo and aircraft connection not established."
+  },
+  "U263": {
+    "id": "U263",
+    "publisher": "Kilometri.bg / Nedyalko Mihalev",
+    "title": "Listi and Lipite beach locality reference",
+    "url": "https://kilometri.bg/en/view/listi-beach",
+    "dateLabel": "Undated; reviewed 9 November 2026",
+    "audit": "Direct location page distinguishes Listi at 42.034897/28.003380 and nearby Lipite at 42.047085/27.991184. Used only for rounded anchors and deduplication geography, not incident verification."
+  },
+  "U261": {
+    "id": "U261",
+    "publisher": "Newsbomb",
+    "title": "Four Turkish UAVs reported over Aegean on 8 November",
+    "url": "https://www.newsbomb.gr/ellada/ethnika/story/1775112/nees-tourkikes-paraviaseis-sto-aigaio-me-4-uav",
+    "dateLabel": "8 November 2026, 18:52 displayed time",
+    "audit": "Body directly reviewed 9 November. Reports four UAVs, four national-airspace violations and four FIR infringements in northeastern/central Aegean on 8 November; identification/interception and no engagements."
+  },
+  "U262": {
+    "id": "U262",
+    "publisher": "Zougla",
+    "title": "Greek-reported Turkish UAV violations on 8 November",
+    "url": "https://www.zougla.gr/greece/nees-tourkikes-paraviaseis-sto-aigaio-me-4-drones/",
+    "dateLabel": "8 November 2026, 19:55; updated 20:04 displayed time",
+    "audit": "Body directly reviewed 9 November. Explicit GEETHA attribution and matching four UAVs / four airspace violations / four FIR infringements for 8 November. Corroborates the same authority account, not independent observations."
+  },
+  "U264": {
+    "id": "U264",
+    "publisher": "Bulgarian National Radio",
+    "title": "Lipite Beach drone collected by military and Border Police",
+    "url": "https://www.bnrnews.bg/main/post/555687/prodalzhava-izvozvaneto-po-voda-na-chuvalite-s-piper-ot-plazha-kray-sinemorets",
+    "dateLabel": "9 November 2026, 17:15 local",
+    "audit": "Direct body read 10 November. Attributed to deputy mayor Denis Dihanov: military and Border Police collected the drone and it posed no danger. Origin unknown. Does not establish destruction or a connection to nearby cargo."
+  },
+  "U265": {
+    "id": "U265",
+    "publisher": "Newsit",
+    "title": "Greek daily UAV activity for 9 November",
+    "url": "https://www.newsit.gr/ellada/aigaio-synexizontai-oi-paraviaseis-kai-oi-paravaseis-apo-tourkika-drones-kai-atr-72/4818730/",
+    "dateLabel": "9 November 2026, 18:15",
+    "audit": "Direct daily table read 10 November: five UAVs, two UAV national-airspace violations, five UAV FIR infringements. Two additional FIR infringements belong to an ATR-72 and are excluded from UAV count. GEETHA-attributed account; not independent track verification."
+  },
+  "U266": {
+    "id": "U266",
+    "publisher": "OnAlert",
+    "title": "9 November Turkish aircraft activity in the central and southeastern Aegean",
+    "url": "https://www.onalert.gr/ellinotourkika/aigaio-synexizontai-oi-paraviaseis-kai-oi-paravaseis-apo-tourkika-drones-kai-atr-72/832399/",
+    "dateLabel": "9 November 2026, 18:08",
+    "audit": "Direct body/table matches U265 and attributes figures to GEETHA. Same underlying authority account, not independent observation; official site returned 403."
+  },
+  "U267": {
+    "id": "U267",
+    "publisher": "Radio România Internațional",
+    "title": "MApN air target near Sulina, updated with entry",
+    "url": "https://www.rri.ro/actualitate/alte-stiri/mapn-informare-privind-detectarea-unei-tinte-aeriene-in-apropierea-spatiului-aerian-national-id1081640.html",
+    "dateLabel": "9 November 2026, 19:15",
+    "audit": "Direct updated body read 10 November. MApN-attributed entry to 20 km east of Sulina, radar loss, warning 17:19 and alert end 18:03. Radar loss does not establish a crash."
+  },
+  "U268": {
+    "id": "U268",
+    "publisher": "Radio România Târgu Mureș / RRA",
+    "title": "Drone entered Romanian airspace near Sulina",
+    "url": "https://www.radiomures.ro/stiri/o-drona-a-patruns-neautorizat-in-spatiul-aerian-al-romaniei-in-apropiere-de-sulina.html",
+    "dateLabel": "9 November 2026, 19:34",
+    "audit": "Direct body explicitly says drone entered Romanian airspace according to Ministry of Defence. Reports initial detection in Ukraine and F-16 monitoring. No operator, engagement or outcome identified."
+  },
+  "U269": {
+    "id": "U269",
+    "publisher": "Știrile ProTV",
+    "title": "Drone entered Romanian airspace east of Sulina",
+    "url": "https://stirileprotv.ro/stiri/actualitate/o-drona-a-intrat-in-spatiul-aerian-al-romaniei-dupa-ce-a-fost-detectata-la-aproximativ-30-de-kilometri-nord-est-de-sulina.html",
+    "dateLabel": "9 November 2026, 20:43; updated 20:52",
+    "audit": "Direct updated body read 10 November explicitly attributes national-airspace entry to later Ministry information, corroborating public-radio reporting. No inferred crash or mission attribution."
+  },
+  "U270": {
+    "id": "U270",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Drone and sea-mine dashboard updated 9 November 2026",
+    "url": "https://www.mapn.ro/index.php",
+    "dateLabel": "Dashboard updated 9 November 2026; read 10 November",
+    "audit": "Direct table: 2026 near-border attacks 109, aircraft-response incidents 88, unauthorized entries 39, downed drones 6, drones/fragments identified/recovered/neutralized 44, sea mines 2. Overlapping categories, not additive incidents or independently reconstructed chronology."
+  },
+  "U271": {
+    "id": "U271",
+    "publisher": "Radio România Constanța",
+    "title": "Air target detected east of Sulina on 10 November",
+    "url": "https://www.radioconstanta.ro/2026/11/10/tinta-aeriana-detectata-langa-sulina-doua-aeronave-f-16-ale-fortelor-aeriene-romane-monitorizeaza-zona/",
+    "dateLabel": "10 November 2026, 17:56 local",
+    "audit": "Body read 11 November. MApN account of target about 25 km east of Sulina, two F-16 launches and eastern Tulcea warning at 17:31. No Romanian entry established."
+  },
+  "U272": {
+    "id": "U272",
+    "publisher": "Gândul",
+    "title": "10 November Sulina target warning ends at 18:38",
+    "url": "https://www.gandul.ro/actualitate/drona-sulina-ro-alert-tulcea-avioane-f-16-ridicate-21060738",
+    "dateLabel": "10 November 2026; updated 18:59 local",
+    "audit": "Body read 11 November. Alert ended at 18:38. The separate passage describing national-airspace entry explicitly concerns 9 November, not the 10 November alert."
+  },
+  "U273": {
+    "id": "U273",
+    "publisher": "BNS",
+    "title": "NKVC: oro pavojus atšauktas visoje Lietuvoje (dar papildytas)",
+    "url": "https://bns.lt/en/naujiena/nkvc-oro-pavojus-atsauktas-visoje-lietuvoje-dar-papildytas-m8f8nr5t",
+    "dateLabel": "11 November 2026",
+    "audit": "Expanded body retrieved through search; direct open failed. Quotes NKVC director via LRT: first northeastern object did not cross Lithuania; separate southern suspected drone traversed Lithuania and exited to Latvia. Polish segment described as probable. No independent radar access."
+  },
+  "U274": {
+    "id": "U274",
+    "publisher": "LT72 / Lithuanian Armed Forces and NKVC",
+    "title": "Oro pavojus dėl galimai dronų RAUDONA",
+    "url": "https://lt72.lt/oro-pavojus-del-galimai-dronu-raudona-2/",
+    "dateLabel": "11 November 2026, 01:18 local",
+    "audit": "Direct official body read: red warning for Marijampolė county; wording 'Potentially detected drone'. Confirms warning, not aircraft identity."
+  },
+  "U275": {
+    "id": "U275",
+    "publisher": "Reuters via StreetInsider",
+    "title": "Latvia, Lithuania warn of new drone threats as Finland adopts curbs",
+    "url": "https://www.streetinsider.com/Reuters/Latvia,%2BLithuania%2Bwarn%2Bof%2Bthreat%2Bin%2Bairspace%2Bnear%2BBelarus/27324806.html",
+    "dateLabel": "10 November 2026, 17:12 EST; events overnight 10–11 November",
+    "audit": "Syndicated body read. Baltic shelter warnings, fighter activation and no injuries reported. Finnish eastern Gulf restrictions expressly precautionary, not proof of Finnish incursion."
+  },
+  "U280": {
+    "id": "U280",
+    "publisher": "Romanian Ministry of National Defence (MApN)",
+    "title": "Official drone and naval-mine incident dashboard, 11 November snapshot",
+    "url": "https://www.mapn.ro/",
+    "dateLabel": "Dashboard updated 11 November 2026; read 12 November",
+    "audit": "Direct table body read. 2026 counters: 111 near-border attacks, 90 aircraft-response incidents, 39 unauthorized entries, 6 downed drones, 44 drones/fragments and 2 naval mines. Overlapping populations, not additive mapped events."
+  },
+  "U281": {
+    "id": "U281",
+    "publisher": "LRT",
+    "title": "Neramiausia naktis: naikintuvai droną bandė numušti du kartus, tačiau nepavyko",
+    "url": "https://www.lrt.lt/naujienos/lietuvoje/2/3111046/neramiausia-naktis-naikintuvai-drona-bande-numusti-du-kartus-taciau-nepavyko",
+    "dateLabel": "2026-11-11",
+    "audit": "Full article body read; named defence staff chief briefing; drone identified near Kaunas, failed attempts, interceptor debris Biržai; attribution/payload unknown."
+  },
+  "U282": {
+    "id": "U282",
+    "publisher": "Latvian National Armed Forces",
+    "title": "Naktī uz 11. novembri Latvijas gaisa telpā ielidojuši trīs bezpilota lidaparāti",
+    "url": "https://www.mil.lv/lv/zinas/nakti-uz-11-novembri-latvijas-gaisa-telpa-ielidojusi-tris-bezpilota-lidaparati",
+    "dateLabel": "2026-11-11",
+    "audit": "Primary full body read via equivalent https://www.mil.lv/en/node/7429. Distinguishes two short eastern entries Nov10 from later Lithuania-to-Latvia traversal and non-entry warnings."
+  },
+  "U283": {
+    "id": "U283",
+    "publisher": "Reuters via ThePrint",
+    "title": "Italian NATO jet downs drone in Lithuania, minister says it probably came from Russia",
+    "url": "https://theprint.in/world/italian-nato-jet-downs-drone-in-lithuania-minister-says-it-probably-came-from-russia/3043656/",
+    "dateLabel": "2026-09-15",
+    "audit": "Full body read; Kaunas said drone carried an explosive. This is attributed official evidence, not independent forensic review; no new September event."
+  },
+  "U284": {
+    "id": "U284",
+    "publisher": "STT via Suomenmaa",
+    "title": "Droonin epäillään loukanneen Suomen ilmatilaa keskiviikkoyönä",
+    "url": "https://www.suomenmaa.fi/uutiset/droonin-epaillaan-loukanneen-suomen-ilmatilaa-keskiviikkoyona/",
+    "dateLabel": "2026-11-11",
+    "audit": "Full body read; Finnish Ministry of Defence suspected five-minute incursion after02:00. Original linked https://defmin.fi/-/epailty-alueloukkaus-itaisella-suomenlahdella returned403."
+  },
+  "U285": {
+    "id": "U285",
+    "publisher": "Lentoposti",
+    "title": "Epäilty alueloukkaus itäisellä Suomenlahdella 11.11. - kyseessä miehittämätön ilma-alus",
+    "url": "https://lentoposti.fi/uutiset/ep_ilty_alueloukkaus_it_isell_suomenlahdella_1111_kyseess_miehitt_m_t_n_ilma_alus",
+    "dateLabel": "2026-11-11",
+    "audit": "Full body read; same ministry account, not independent surveillance; suspected UAV entry five minutes; Border Guard investigation."
+  },
+  "U286": {
+    "id": "U286",
+    "publisher": "Government of Estonia",
+    "title": "Valitsuse julgeolekukabinet saab õhtul ülevaate droonijuhtumitest Eesti piiride lähistel",
+    "url": "https://www.valitsus.ee/uudised/valitsuse-julgeolekukabinet-saab-ohtul-ulevaate-droonijuhtumitest-eesti-piiride-lahistel",
+    "dateLabel": "2026-11-11",
+    "audit": "Primary full body read: some drones briefly entered Estonian airspace; no precise number or track matching. Non-additive pending reconciliation."
+  },
+  "U287": {
+    "id": "U287",
+    "publisher": "ERR",
+    "title": "Herem: droonid sisenesid Eesti õhuruumi nii kagust kui ka kirdest",
+    "url": "https://www.err.ee/1610192935/herem-droonid-sisenesid-eesti-ohuruumi-nii-kagust-kui-ka-kirdest",
+    "dateLabel": "2026-11-11",
+    "audit": "Full interview body retrieved in search; minister describes one entry from Latvia ~03:30 toward Russia and separate brief Gulf entries. Review exact track linkage before separate counting. Publication date supported by ERR country index11.11.26; article dynamic says today18:54."
   }
 }

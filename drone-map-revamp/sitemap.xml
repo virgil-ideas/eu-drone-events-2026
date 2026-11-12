@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://droneincidents.eu/</loc><lastmod>2026-11-06</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/</loc><lastmod>2026-11-06</lastmod></url>
+  <url><loc>https://droneincidents.eu/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/</loc><lastmod>2026-11-11</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-01-27-smuggling-drone-purvenai-salcininkai-lithuania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-01-28-small-drone-falls-przasnysz-military-base-poland/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-02-23-smuggling-drone-pine-tree-milvydai-lithuania/</loc></url>
@@ -49,7 +49,7 @@
   <url><loc>https://droneincidents.eu/events/2026-07-26-drone-shot-down-sulina-romania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-07-27-drone-incursion-southeastern-romania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-08-02-drone-debris-periprava-romania/</loc></url>
-  <url><loc>https://droneincidents.eu/events/2026-08-04-explosive-drone-leipzig-halle-airport-germany/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-08-04-explosive-drone-leipzig-halle-airport-germany/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-08-07-drones-sighted-military-base-western-germany/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-08-08-drone-crash-explosion-kardam-bulgaria/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-08-11-drone-wreckage-neptun-deep-romania-eez/</loc></url>
@@ -110,7 +110,7 @@
   <url><loc>https://droneincidents.eu/events/2026-09-11-explosive-drone-fragment-periteasca-beach-romania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-09-13-smuggling-drone-crash-uta-versekele-lithuania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-09-14-drone-recovered-rusinowo-beach-jaroslawiec-poland/</loc><lastmod>2026-10-30</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/2026-09-15-nato-fighter-downs-drone-pratkunai-lithuania/</loc></url>
+  <url><loc>https://droneincidents.eu/events/2026-09-15-nato-fighter-downs-drone-pratkunai-lithuania/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-09-16-old-drone-found-forest-keneliai-pasvalys-lithuania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-09-16-smuggling-drone-seized-norviliskes-lithuania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-09-17-turkish-uav-activity-aegean-greece/</loc><lastmod>2026-10-21</lastmod></url>
@@ -175,7 +175,7 @@
   <url><loc>https://droneincidents.eu/events/2026-10-24-turkish-uav-activity-aegean-greece/</loc><lastmod>2026-10-26</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-25-turkish-uav-activity-aegean-greece/</loc><lastmod>2026-10-26</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-26-turkish-uav-activity-aegean-greece/</loc><lastmod>2026-10-27</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/2026-10-28-contship-jet-maritime-drone-strike-kaliakra-bulgaria/</loc><lastmod>2026-11-05</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-10-28-contship-jet-maritime-drone-strike-kaliakra-bulgaria/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-28-listi-beach-sinemorets-unidentified-drone-fragments-bulgaria/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-30-turkish-uav-activity-aegean-greece/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-31-two-drone-entries-northeastern-romania/</loc><lastmod>2026-11-02</lastmod></url>
@@ -185,8 +185,22 @@
   <url><loc>https://droneincidents.eu/events/2026-11-03-balvi-ludza-alert-unidentified-object/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-04-ro-alert-northern-tulcea-no-reported-airspace-entry/</loc><lastmod>2026-11-05</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-05-drone-fragments-boghicea-neamt-romania/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-05-aegean-5-november-greek-reported-turkish-uav-activity/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-05-romanian-territorial-waters-unidentified-target-enters-airspace-romania/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-06-tulcea-overnight-ro-alert-romania/</loc><lastmod>2026-11-07</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-06-sulina-morning-target-alert-romania/</loc><lastmod>2026-11-07</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/2026-11-06-shabla-drone-recovery-disposal-bulgaria/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-06-shabla-drone-recovery-disposal-bulgaria/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-06-aegean-turkish-uav-activity-greece/</loc><lastmod>2026-11-07</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-07-aegean-7-november-greek-reported-turkish-uav-activity/</loc><lastmod>2026-11-08</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-08-eastern-tulcea-snake-island-target-warning-romania/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-08-northern-tulcea-chilia-veche-target-warning-romania/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-08-lipite-beach-sinemorets-unidentified-drone-discovery-bulgaria/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-08-aegean-8-november-greek-reported-turkish-uav-activity/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-09-aegean-9-november-greek-reported-turkish-uav-activity/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-09-sulina-reported-drone-airspace-entry-romania/</loc><lastmod>2026-11-10</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-10-eastern-tulcea-10-november-sulina-target-warning-romania/</loc><lastmod>2026-11-11</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-10-latvia-two-brief-eastern-border-drone-entries-latvia/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-11-lithuanialatvia-suspected-drone-cross-border-flight-lithuania/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-11-finland-suspected-uav-entry-over-eastern-gulf-finland/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-11-estonia-brief-drone-incursions-over-the-gulf-of/</loc><lastmod>2026-11-12</lastmod></url>
 </urlset>

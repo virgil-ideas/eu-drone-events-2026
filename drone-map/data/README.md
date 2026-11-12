@@ -210,4 +210,4 @@ Editorial review is still required for those decisions.
 
 ## Latest research coverage
 
-The 7 November review is a partial EU27 public-source check for 3–7 November through approximately 06:09 UTC, with more than 72 hours of overlap and a Saturday retrospective across 8 October–7 November. Details and open gaps are documented in watchlist.md. The inclusive reporting cutoff is 6 November, not a certificate of exhaustive coverage. Record counts include candidates and selected alerts and are not confirmed-attack totals.
+The 9 November review is a partial EU27 public-source check for 5–9 November through approximately 06:08 UTC, with more than 72 hours of overlap and targeted older-lead checks. Details and open gaps are documented in watchlist.md. The inclusive reporting cutoff is 8 November, not a certificate of exhaustive coverage. Earlier country/source gaps and the partial Saturday retrospective remain open. Record counts include candidates and selected alerts and are not confirmed-attack totals.
