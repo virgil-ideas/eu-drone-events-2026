@@ -6961,6 +6961,51 @@ window.DRONE_DATA = {
       "page": "events/2026-10-16-cigarette-drone-dumble-lithuania/"
     },
     {
+      "id": "N155",
+      "title": "Aegean · 16 October reported Turkish UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-10-16",
+      "dateLabel": "16 October 2026",
+      "dateBasis": "Veteranos explicitly dates both publication and occurrence to 16 October; individual flight times unpublished.",
+      "countries": "Greece",
+      "location": "Central and southeastern Aegean; exact tracks unpublished.",
+      "status": "Single-source report of Greek-authority figures for Turkish UAV airspace violations",
+      "categories": "2 reported national-airspace violations and 7 FIR infringements involving 5 UAVs",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 37.5,
+          "lng": 26.5,
+          "precision": "region",
+          "label": "Central and southeastern Aegean — representative anchor"
+        }
+      ],
+      "positionNote": "Editorial regional anchor, not a verified crossing point or flight track. Overlapping records are not shifted.",
+      "vehicle": "5 Turkish UAVs in the reported Greek account; models unspecified.",
+      "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
+      "route": "Regional scope only; no independently verified approach tracks.",
+      "circumstances": "Veteranos, citing official figures, reports 5 UAVs, 2 national-airspace violations and 7 Athens FIR infringements. The measures are non-additive.",
+      "payload": "Unknown; the 16 October report lists no armed aircraft.",
+      "impact": "No casualties, damage or crashes reported.",
+      "response": "Identification and routine interception reported. No weapons engagement established.",
+      "uncertainty": "Single secondary-source account, not independent confirmation of tracks or attribution. Direct GEETHA bulletin remains unavailable; no matching second report retrieved. Exact models, tracks, missions and intended targets unknown. Greek-Turkish airspace dispute remains relevant.",
+      "deduplication": "One daily regional record. Separate from previous dated Greek records; UAVs, violations and FIR infringements are non-additive.",
+      "provenance": "Veteranos full dated body reread 13 November; prior body review recorded in the 4 November watchlist. Official figures are attributed through this publication; unavailable primary bulletin does not imply a disproved event.",
+      "classificationNote": "Flight only; routine interception is not weapons engagement.",
+      "reported_UAVs": 5,
+      "reported_airspace_violations": 2,
+      "reported_FIR_infractions": 7,
+      "sourceReferences": "[U291][U291]",
+      "sources": [
+        "U291"
+      ],
+      "page": "events/2026-10-16-reported-turkish-uav-activity-aegean-greece/"
+    },
+    {
       "id": "N095",
       "title": "Sulina · Two attack drones shot down over territorial waters",
       "recordClass": "event",
@@ -7005,6 +7050,51 @@ window.DRONE_DATA = {
         "U089"
       ],
       "page": "events/2026-10-17-sulina-two-geran-drones-shot-down-romania/"
+    },
+    {
+      "id": "N156",
+      "title": "Aegean · 17 October reported Turkish UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-10-17",
+      "dateLabel": "17 October 2026",
+      "dateBasis": "Veteranos explicitly dates both publication and occurrence to 17 October; individual flight times unpublished.",
+      "countries": "Greece",
+      "location": "Northeastern and southeastern Aegean; exact tracks unpublished.",
+      "status": "Single-source report of Greek-authority figures for Turkish UAV airspace violations",
+      "categories": "6 reported national-airspace violations and 4 FIR infringements involving 2 UAVs",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 38.5,
+          "lng": 26.5,
+          "precision": "region",
+          "label": "Northeastern and southeastern Aegean — representative anchor"
+        }
+      ],
+      "positionNote": "Editorial regional anchor, not a verified crossing point or flight track. Overlapping records are not shifted.",
+      "vehicle": "2 Turkish UAVs in the reported Greek account; models unspecified.",
+      "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
+      "route": "Regional scope only; no independently verified approach tracks.",
+      "circumstances": "Veteranos, citing official figures, reports 2 UAVs, 6 national-airspace violations and 4 Athens FIR infringements. The measures are non-additive.",
+      "payload": "Not reported.",
+      "impact": "No casualties, damage or crashes reported.",
+      "response": "Identification and routine interception reported. No weapons engagement established.",
+      "uncertainty": "Single secondary-source account, not independent confirmation of tracks or attribution. Direct GEETHA bulletin remains unavailable; no matching second report retrieved. Exact models, tracks, missions and intended targets unknown. Greek-Turkish airspace dispute remains relevant.",
+      "deduplication": "One daily regional record. Separate from previous dated Greek records; UAVs, violations and FIR infringements are non-additive.",
+      "provenance": "Veteranos full dated body reread 13 November; prior body review recorded in the 4 November watchlist. Official figures are attributed through this publication; unavailable primary bulletin does not imply a disproved event.",
+      "classificationNote": "Flight only; routine interception is not weapons engagement.",
+      "reported_UAVs": 2,
+      "reported_airspace_violations": 6,
+      "reported_FIR_infractions": 4,
+      "sourceReferences": "[U292][U292]",
+      "sources": [
+        "U292"
+      ],
+      "page": "events/2026-10-17-reported-turkish-uav-activity-aegean-greece/"
     },
     {
       "id": "N096",
@@ -12605,6 +12695,22 @@ window.DRONE_DATA = {
       "url": "https://www.mapn.ro/",
       "dateLabel": "Dashboard updated 12 November 2026; read 13 November",
       "audit": "Primary table read. 2026: 112 nearby attacks, 91 aircraft-response incidents, 39 unauthorized entries, 6 downed drones, 44 drones/fragments and 2 mines. Overlapping non-additive counters; not new event identities."
+    },
+    "U291": {
+      "id": "U291",
+      "publisher": "Veteranos",
+      "title": "16 October 2026: 5 UAVs, 7 FIR infringements and 2 airspace violations",
+      "url": "https://veteranos.gr/nea-tourkiki-drastiriotita-sto-aigaio-5-uav-me-7-paravaseis-kai-2-paraviaseis/",
+      "dateLabel": "2026-10-16",
+      "audit": "Full dated article body retrieved 13 November; same-day occurrence explicit. Publication attributes figures to official data. Single secondary account; direct GEETHA source unavailable, no second matching account retrieved. No independent track or attribution verification claimed."
+    },
+    "U292": {
+      "id": "U292",
+      "publisher": "Veteranos",
+      "title": "17 October 2026: 2 UAVs, 4 FIR infringements and 6 airspace violations",
+      "url": "https://veteranos.gr/nees-tourkikes-paraviaseis-sto-aigaio-2-uav-prochorisan-se-4-paravaseis-kai-6-paraviaseis/",
+      "dateLabel": "2026-10-17",
+      "audit": "Full dated article body retrieved 13 November; same-day occurrence explicit. Publication attributes figures to official data. Single secondary account; direct GEETHA source unavailable, no second matching account retrieved. No independent track or attribution verification claimed."
     }
   },
   "cutoff": "2026-11-12",

@@ -2076,5 +2076,27 @@
       "A warning ran from 12:35 to 13:12 local, and two Spanish F-18s launched. This selected alert is not a confirmed Romanian incursion or attack."
     ],
     "basis": "f26e44b1d314ef96"
+  },
+  "N155": {
+    "slug": "2026-10-16-reported-turkish-uav-activity-aegean-greece",
+    "headline": "Report: 5 Turkish UAVs in 2 Greek airspace violations on 16 October",
+    "description": "Veteranos reports 5 Turkish UAVs and 2 Greek airspace violations on 16 October 2026. Single-source official-figure account; exact tracks remain unknown.",
+    "summary": [
+      "Veteranos reports 5 Turkish UAVs in the central and southeastern Aegean on 16 October, citing official figures: 2 national-airspace violations and 7 Athens FIR infringements.",
+      "Identification and routine interception were reported. This is one daily activity record, not separate events for each UAV or violation.",
+      "The original GEETHA bulletin remains unavailable and no matching second report was retrieved. These are attributed Greek figures, not independently verified tracks; the Greek-Turkish airspace dispute remains relevant."
+    ],
+    "basis": "477e8eea16371bec"
+  },
+  "N156": {
+    "slug": "2026-10-17-reported-turkish-uav-activity-aegean-greece",
+    "headline": "Report: 2 Turkish UAVs in 6 Greek airspace violations on 17 October",
+    "description": "Veteranos reports 2 Turkish UAVs and 6 Greek airspace violations on 17 October 2026. Single-source official-figure account; exact tracks remain unknown.",
+    "summary": [
+      "Veteranos reports 2 Turkish UAVs in the northeastern and southeastern Aegean on 17 October, citing official figures: 6 national-airspace violations and 4 Athens FIR infringements.",
+      "Identification and routine interception were reported. This is one daily activity record, not separate events for each UAV or violation.",
+      "The original GEETHA bulletin remains unavailable and no matching second report was retrieved. These are attributed Greek figures, not independently verified tracks; the Greek-Turkish airspace dispute remains relevant."
+    ],
+    "basis": "97cb2c6163ced8a5"
   }
 }

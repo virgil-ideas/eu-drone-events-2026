@@ -3396,5 +3396,21 @@
     "url": "https://www.mapn.ro/",
     "dateLabel": "Dashboard updated 12 November 2026; read 13 November",
     "audit": "Primary table read. 2026: 112 nearby attacks, 91 aircraft-response incidents, 39 unauthorized entries, 6 downed drones, 44 drones/fragments and 2 mines. Overlapping non-additive counters; not new event identities."
+  },
+  "U291": {
+    "id": "U291",
+    "publisher": "Veteranos",
+    "title": "16 October 2026: 5 UAVs, 7 FIR infringements and 2 airspace violations",
+    "url": "https://veteranos.gr/nea-tourkiki-drastiriotita-sto-aigaio-5-uav-me-7-paravaseis-kai-2-paraviaseis/",
+    "dateLabel": "2026-10-16",
+    "audit": "Full dated article body retrieved 13 November; same-day occurrence explicit. Publication attributes figures to official data. Single secondary account; direct GEETHA source unavailable, no second matching account retrieved. No independent track or attribution verification claimed."
+  },
+  "U292": {
+    "id": "U292",
+    "publisher": "Veteranos",
+    "title": "17 October 2026: 2 UAVs, 4 FIR infringements and 6 airspace violations",
+    "url": "https://veteranos.gr/nees-tourkikes-paraviaseis-sto-aigaio-2-uav-prochorisan-se-4-paravaseis-kai-6-paraviaseis/",
+    "dateLabel": "2026-10-17",
+    "audit": "Full dated article body retrieved 13 November; same-day occurrence explicit. Publication attributes figures to official data. Single secondary account; direct GEETHA source unavailable, no second matching account retrieved. No independent track or attribution verification claimed."
   }
 }
