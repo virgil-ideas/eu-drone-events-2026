@@ -46,16 +46,16 @@
   },
   {
     "id": "A003",
-    "dateLabel": "2026 year to date; dashboard updated 2026-11-11",
-    "dateBasis": "Dashboard explicitly dated 11 November; table read 12 November.",
+    "dateLabel": "2026 year to date; dashboard updated 2026-11-12",
+    "dateBasis": "Dashboard explicitly dated 12 November; table read 13 November.",
     "countries": "Romania",
     "location": "MApN official national dashboard; categories defined by the ministry",
     "status": "Official overlapping counters — NOT additive",
     "categories": "Near-border attacks; scrambles; unauthorized access; shoot-downs; fragments; separate mine counter",
-    "vehicle": "2026 dashboard: 111 near-border attacks; 90 aircraft-response incidents; 39 unauthorized entries; 6 downed drones; 44 drones/fragments identified, recovered or neutralized; 2 naval mines",
+    "vehicle": "2026 dashboard: 112 near-border attacks; 91 aircraft-response incidents; 39 unauthorized entries; 6 downed drones; 44 drones/fragments identified, recovered or neutralized; 2 naval mines",
     "attribution": "Different populations: nearby attacks, responses, airspace incidents and recoveries",
     "route": "Not an event-by-event route dataset",
-    "circumstances": "Current official snapshot retained separately from the research chronology. On 5 October the dashboard reported 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries and 4 shot-down drones. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 on 2, 5 and 17 October. Counter changes alone do not identify individual events; N095 separately records the confirmed 17 October interception. The 4–5 October Vâlcove alert involved no detected Romanian airspace entry and is excluded from the map (U026). The prior 21 October review recorded a display of 39 near-border attacks, differing from the previously recorded 97; no explanation or event-level reconciliation is supplied. The other listed 2026 counters are unchanged. The 21 October 03:34–04:02 Tulcea alert explicitly reported no national-airspace entry (U101). On 24 October, both the current table and cards show 98 near-border attacks. This supersedes the prior recorded 39 display, without explaining that discrepancy or identifying a new occurrence. Other counters remain unchanged. On 10 November, the dashboard dated 9 November shows 109 near-border attacks, 88 aircraft-response incidents and 39 unauthorized entries for 2026; other listed counters remain unchanged. These supersede the earlier snapshot without independently reconstructing individual events. On 12 November, the dashboard dated 11 November shows 111 near-border attacks and 90 aircraft-response incidents for 2026; other counters are unchanged. These counters do not independently establish new dated occurrences.",
+    "circumstances": "Current official snapshot retained separately from the research chronology. On 5 October the dashboard reported 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries and 4 shot-down drones. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 on 2, 5 and 17 October. Counter changes alone do not identify individual events; N095 separately records the confirmed 17 October interception. The 4–5 October Vâlcove alert involved no detected Romanian airspace entry and is excluded from the map (U026). The prior 21 October review recorded a display of 39 near-border attacks, differing from the previously recorded 97; no explanation or event-level reconciliation is supplied. The other listed 2026 counters are unchanged. The 21 October 03:34–04:02 Tulcea alert explicitly reported no national-airspace entry (U101). On 24 October, both the current table and cards show 98 near-border attacks. This supersedes the prior recorded 39 display, without explaining that discrepancy or identifying a new occurrence. Other counters remain unchanged. On 10 November, the dashboard dated 9 November shows 109 near-border attacks, 88 aircraft-response incidents and 39 unauthorized entries for 2026; other listed counters remain unchanged. These supersede the earlier snapshot without independently reconstructing individual events. On 12 November, the dashboard dated 11 November shows 111 near-border attacks and 90 aircraft-response incidents for 2026; other counters are unchanged. These counters do not independently establish new dated occurrences. On 13 November, the dashboard dated 12 November shows 112 near-border attacks and 91 aircraft-response incidents for 2026; the other counters remain unchanged. These overlapping totals do not independently establish new occurrences.",
     "payload": "Not reported",
     "impact": "Not reported",
     "response": "MApN operational/recovery categories.",
@@ -73,9 +73,10 @@
       "U101",
       "U154",
       "U270",
-      "U280"
+      "U280",
+      "U290"
     ],
-    "reviewedOn": "2026-11-12"
+    "reviewedOn": "2026-11-13"
   },
   {
     "id": "A004",

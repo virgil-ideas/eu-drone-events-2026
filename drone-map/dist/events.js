@@ -8975,6 +8975,49 @@ window.DRONE_DATA = {
         "U287"
       ],
       "page": "events/2026-11-11-estonia-brief-drone-incursions-over-the-gulf-of/"
+    },
+    {
+      "id": "N154",
+      "title": "Northeastern Tulcea · 12 November Sulina target warning",
+      "recordClass": "event",
+      "recordType": "civil_protection_air_alert",
+      "startDate": "2026-11-12",
+      "dateLabel": "12 November 2026; 12:35–13:12 local warning period",
+      "dateBasis": "Public-radio reports explicitly date the detection and warning to 12 November; warning times are not flight-duration timestamps.",
+      "countries": "Romania",
+      "location": "Offshore target approximately 28 km northeast of Sulina; warning for northeastern Tulcea, Romania.",
+      "status": "MApN-reported nearby air target; Romanian entry not established",
+      "categories": "Nearby air target; civil-protection warning",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.33,
+          "lng": 29.91,
+          "precision": "offshore",
+          "label": "Northeast of Sulina — approximate target area"
+        }
+      ],
+      "positionNote": "Approximate offshore area anchor, not a precise target coordinate.",
+      "vehicle": "Aerial target described as a possible drone; model unconfirmed.",
+      "attribution": "Operator, origin, intended target and intent unknown.",
+      "route": "Radar detection approximately 28 km northeast of Sulina. Precise track and jurisdiction not established.",
+      "circumstances": "MApN reported a nearby aerial target, prompting a public warning and Spanish fighter response.",
+      "payload": "Not reported.",
+      "impact": "No damage or casualties reported.",
+      "response": "Two Spanish F-18s launched from Mihail Kogălniceanu. RO-Alert at 12:35; alert ended at 13:12 local.",
+      "uncertainty": "The cited reports do not establish Romanian entry, an attack, interception or crash. Headline drone wording does not resolve the body’s possible-drone qualification.",
+      "deduplication": "One selected 12 November alert, distinct from N148 on 9 November and N149 on 10 November. Warning and fighter response are one episode.",
+      "provenance": "Radio România Internațional and Radio România Târgu Mureș/AGERPRES bodies read on 13 November; attributed MApN account, not independent radar verification.",
+      "classificationNote": "Selected alert only; not a confirmed incursion or attack.",
+      "sourceReferences": "[U288][U288]; [U289][U289]",
+      "sources": [
+        "U288",
+        "U289"
+      ],
+      "page": "events/2026-11-12-sulina-target-warning-romania/"
     }
   ],
   "contexts": [
@@ -9027,23 +9070,23 @@ window.DRONE_DATA = {
     },
     {
       "id": "A003",
-      "dateLabel": "2026 year to date; dashboard updated 2026-11-11",
-      "dateBasis": "Dashboard explicitly dated 11 November; table read 12 November.",
+      "dateLabel": "2026 year to date; dashboard updated 2026-11-12",
+      "dateBasis": "Dashboard explicitly dated 12 November; table read 13 November.",
       "countries": "Romania",
       "location": "MApN official national dashboard; categories defined by the ministry",
       "status": "Official overlapping counters — NOT additive",
       "categories": "Near-border attacks; scrambles; unauthorized access; shoot-downs; fragments; separate mine counter",
-      "vehicle": "2026 dashboard: 111 near-border attacks; 90 aircraft-response incidents; 39 unauthorized entries; 6 downed drones; 44 drones/fragments identified, recovered or neutralized; 2 naval mines",
+      "vehicle": "2026 dashboard: 112 near-border attacks; 91 aircraft-response incidents; 39 unauthorized entries; 6 downed drones; 44 drones/fragments identified, recovered or neutralized; 2 naval mines",
       "attribution": "Different populations: nearby attacks, responses, airspace incidents and recoveries",
       "route": "Not an event-by-event route dataset",
-      "circumstances": "Current official snapshot retained separately from the research chronology. On 5 October the dashboard reported 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries and 4 shot-down drones. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 on 2, 5 and 17 October. Counter changes alone do not identify individual events; N095 separately records the confirmed 17 October interception. The 4–5 October Vâlcove alert involved no detected Romanian airspace entry and is excluded from the map (U026). The prior 21 October review recorded a display of 39 near-border attacks, differing from the previously recorded 97; no explanation or event-level reconciliation is supplied. The other listed 2026 counters are unchanged. The 21 October 03:34–04:02 Tulcea alert explicitly reported no national-airspace entry (U101). On 24 October, both the current table and cards show 98 near-border attacks. This supersedes the prior recorded 39 display, without explaining that discrepancy or identifying a new occurrence. Other counters remain unchanged. On 10 November, the dashboard dated 9 November shows 109 near-border attacks, 88 aircraft-response incidents and 39 unauthorized entries for 2026; other listed counters remain unchanged. These supersede the earlier snapshot without independently reconstructing individual events. On 12 November, the dashboard dated 11 November shows 111 near-border attacks and 90 aircraft-response incidents for 2026; other counters are unchanged. These counters do not independently establish new dated occurrences.",
+      "circumstances": "Current official snapshot retained separately from the research chronology. On 5 October the dashboard reported 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries and 4 shot-down drones. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 on 2, 5 and 17 October. Counter changes alone do not identify individual events; N095 separately records the confirmed 17 October interception. The 4–5 October Vâlcove alert involved no detected Romanian airspace entry and is excluded from the map (U026). The prior 21 October review recorded a display of 39 near-border attacks, differing from the previously recorded 97; no explanation or event-level reconciliation is supplied. The other listed 2026 counters are unchanged. The 21 October 03:34–04:02 Tulcea alert explicitly reported no national-airspace entry (U101). On 24 October, both the current table and cards show 98 near-border attacks. This supersedes the prior recorded 39 display, without explaining that discrepancy or identifying a new occurrence. Other counters remain unchanged. On 10 November, the dashboard dated 9 November shows 109 near-border attacks, 88 aircraft-response incidents and 39 unauthorized entries for 2026; other listed counters remain unchanged. These supersede the earlier snapshot without independently reconstructing individual events. On 12 November, the dashboard dated 11 November shows 111 near-border attacks and 90 aircraft-response incidents for 2026; other counters are unchanged. These counters do not independently establish new dated occurrences. On 13 November, the dashboard dated 12 November shows 112 near-border attacks and 91 aircraft-response incidents for 2026; the other counters remain unchanged. These overlapping totals do not independently establish new occurrences.",
       "payload": "Not reported",
       "impact": "Not reported",
       "response": "MApN operational/recovery categories.",
       "uncertainty": "Overlapping ministry-specific populations, not additive incident totals. Historical display discrepancy remains unresolved. Counter changes alone do not identify individual occurrences or operators.",
       "deduplication": "All categories overlap. Mine counter is not a drone count. Do not total counters or use them to replace the incident register.",
       "provenance": "A003 refreshed on 2026-10-19 against the MApN dashboard updated 17 October (U074). Earlier snapshots remain documented in the original research and Git history (S62, U016, U020 and U027). Current dashboard and bulletin 339 reviewed 21 October (U100–U101), retaining earlier snapshots as dated history. Current dashboard rechecked 24 October (U154); prior snapshots preserved.",
-      "sourceReferences": "[S62][S62]; [U016][U016]; [U020][U020]; [U026][U026]; [U027][U027]; [U074][U074]; [U100][U100]; [U101][U101]; [U154][U154]; [U270][U270]; [U280][U280]",
+      "sourceReferences": "[S62][S62]; [U016][U016]; [U020][U020]; [U026][U026]; [U027][U027]; [U074][U074]; [U100][U100]; [U101][U101]; [U154][U154]; [U270][U270]; [U280][U280]; [U290][U290]",
       "sources": [
         "S62",
         "U016",
@@ -9055,7 +9098,8 @@ window.DRONE_DATA = {
         "U101",
         "U154",
         "U270",
-        "U280"
+        "U280",
+        "U290"
       ]
     },
     {
@@ -12537,9 +12581,33 @@ window.DRONE_DATA = {
       "url": "https://www.err.ee/1610192935/herem-droonid-sisenesid-eesti-ohuruumi-nii-kagust-kui-ka-kirdest",
       "dateLabel": "2026-11-11",
       "audit": "Full interview body retrieved in search; minister describes one entry from Latvia ~03:30 toward Russia and separate brief Gulf entries. Review exact track linkage before separate counting. Publication date supported by ERR country index11.11.26; article dynamic says today18:54."
+    },
+    "U288": {
+      "id": "U288",
+      "publisher": "Radio România Internațional",
+      "title": "Dronă detectată la 28 de kilometri est de Sulina",
+      "url": "https://www.rri.ro/actualitate/alte-stiri/drona-detectata-la-28-de-kilometri-est-de-sulina-id1083041.html",
+      "dateLabel": "2026-11-12",
+      "audit": "Full body read 13 November. MApN-attributed offshore detection and warning; no confirmed Romanian entry. RRI body qualifies target as possible drone. Two reports of the same official account, not independent radar confirmation."
+    },
+    "U289": {
+      "id": "U289",
+      "publisher": "Radio România Târgu Mureș / AGERPRES",
+      "title": "MApN: Dronă detectată de radare la aproximativ 28 km nord-est de Sulina",
+      "url": "https://www.radiomures.ro/stiri/mapn-drona-detectata-de-radare-la-aproximativ-28-km-nord-est-de-sulina.html",
+      "dateLabel": "2026-11-12",
+      "audit": "Full body read 13 November. MApN-attributed offshore detection and warning; no confirmed Romanian entry. RRI body qualifies target as possible drone. Two reports of the same official account, not independent radar confirmation."
+    },
+    "U290": {
+      "id": "U290",
+      "publisher": "Romanian Ministry of National Defence (MApN)",
+      "title": "Official drone and naval-mine incident dashboard, 12 November snapshot",
+      "url": "https://www.mapn.ro/",
+      "dateLabel": "Dashboard updated 12 November 2026; read 13 November",
+      "audit": "Primary table read. 2026: 112 nearby attacks, 91 aircraft-response incidents, 39 unauthorized entries, 6 downed drones, 44 drones/fragments and 2 mines. Overlapping non-additive counters; not new event identities."
     }
   },
-  "cutoff": "2026-11-11",
+  "cutoff": "2026-11-12",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

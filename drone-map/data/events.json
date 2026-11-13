@@ -8717,5 +8717,47 @@
       "U287"
     ],
     "reviewedOn": "2026-11-12"
+  },
+  {
+    "id": "N154",
+    "title": "Northeastern Tulcea · 12 November Sulina target warning",
+    "recordClass": "event",
+    "recordType": "civil_protection_air_alert",
+    "startDate": "2026-11-12",
+    "dateLabel": "12 November 2026; 12:35–13:12 local warning period",
+    "dateBasis": "Public-radio reports explicitly date the detection and warning to 12 November; warning times are not flight-duration timestamps.",
+    "countries": "Romania",
+    "location": "Offshore target approximately 28 km northeast of Sulina; warning for northeastern Tulcea, Romania.",
+    "status": "MApN-reported nearby air target; Romanian entry not established",
+    "categories": "Nearby air target; civil-protection warning",
+    "category": "alert",
+    "stages": [
+      "alert"
+    ],
+    "positions": [
+      {
+        "lat": 45.33,
+        "lng": 29.91,
+        "precision": "offshore",
+        "label": "Northeast of Sulina — approximate target area"
+      }
+    ],
+    "positionNote": "Approximate offshore area anchor, not a precise target coordinate.",
+    "vehicle": "Aerial target described as a possible drone; model unconfirmed.",
+    "attribution": "Operator, origin, intended target and intent unknown.",
+    "route": "Radar detection approximately 28 km northeast of Sulina. Precise track and jurisdiction not established.",
+    "circumstances": "MApN reported a nearby aerial target, prompting a public warning and Spanish fighter response.",
+    "payload": "Not reported.",
+    "impact": "No damage or casualties reported.",
+    "response": "Two Spanish F-18s launched from Mihail Kogălniceanu. RO-Alert at 12:35; alert ended at 13:12 local.",
+    "uncertainty": "The cited reports do not establish Romanian entry, an attack, interception or crash. Headline drone wording does not resolve the body’s possible-drone qualification.",
+    "deduplication": "One selected 12 November alert, distinct from N148 on 9 November and N149 on 10 November. Warning and fighter response are one episode.",
+    "provenance": "Radio România Internațional and Radio România Târgu Mureș/AGERPRES bodies read on 13 November; attributed MApN account, not independent radar verification.",
+    "classificationNote": "Selected alert only; not a confirmed incursion or attack.",
+    "sources": [
+      "U288",
+      "U289"
+    ],
+    "reviewedOn": "2026-11-13"
   }
 ]

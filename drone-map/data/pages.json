@@ -2066,5 +2066,15 @@
       "Exact drone count, crossing times and tracks unresolved. Reported Ukrainian attribution is the minister's account, not independent confirmation. No confirmed attack on Estonia, crash, recovery or shoot-down. No proven link to the suspected Finnish crossing."
     ],
     "basis": "bc658b976d96ecc7"
+  },
+  "N154": {
+    "slug": "2026-11-12-sulina-target-warning-romania",
+    "headline": "Possible drone near Sulina prompts warning; Romanian entry not established",
+    "description": "A possible drone northeast of Sulina prompted a Tulcea warning on 12 November 2026. Spanish fighters responded; Romanian entry was not established.",
+    "summary": [
+      "Romania’s defence ministry reported an aerial target about 28 km northeast of Sulina on 12 November. Public radio described it as a possible drone.",
+      "A warning ran from 12:35 to 13:12 local, and two Spanish F-18s launched. This selected alert is not a confirmed Romanian incursion or attack."
+    ],
+    "basis": "f26e44b1d314ef96"
   }
 }

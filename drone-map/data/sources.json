@@ -3372,5 +3372,29 @@
     "url": "https://www.err.ee/1610192935/herem-droonid-sisenesid-eesti-ohuruumi-nii-kagust-kui-ka-kirdest",
     "dateLabel": "2026-11-11",
     "audit": "Full interview body retrieved in search; minister describes one entry from Latvia ~03:30 toward Russia and separate brief Gulf entries. Review exact track linkage before separate counting. Publication date supported by ERR country index11.11.26; article dynamic says today18:54."
+  },
+  "U288": {
+    "id": "U288",
+    "publisher": "Radio România Internațional",
+    "title": "Dronă detectată la 28 de kilometri est de Sulina",
+    "url": "https://www.rri.ro/actualitate/alte-stiri/drona-detectata-la-28-de-kilometri-est-de-sulina-id1083041.html",
+    "dateLabel": "2026-11-12",
+    "audit": "Full body read 13 November. MApN-attributed offshore detection and warning; no confirmed Romanian entry. RRI body qualifies target as possible drone. Two reports of the same official account, not independent radar confirmation."
+  },
+  "U289": {
+    "id": "U289",
+    "publisher": "Radio România Târgu Mureș / AGERPRES",
+    "title": "MApN: Dronă detectată de radare la aproximativ 28 km nord-est de Sulina",
+    "url": "https://www.radiomures.ro/stiri/mapn-drona-detectata-de-radare-la-aproximativ-28-km-nord-est-de-sulina.html",
+    "dateLabel": "2026-11-12",
+    "audit": "Full body read 13 November. MApN-attributed offshore detection and warning; no confirmed Romanian entry. RRI body qualifies target as possible drone. Two reports of the same official account, not independent radar confirmation."
+  },
+  "U290": {
+    "id": "U290",
+    "publisher": "Romanian Ministry of National Defence (MApN)",
+    "title": "Official drone and naval-mine incident dashboard, 12 November snapshot",
+    "url": "https://www.mapn.ro/",
+    "dateLabel": "Dashboard updated 12 November 2026; read 13 November",
+    "audit": "Primary table read. 2026: 112 nearby attacks, 91 aircraft-response incidents, 39 unauthorized entries, 6 downed drones, 44 drones/fragments and 2 mines. Overlapping non-additive counters; not new event identities."
   }
 }
