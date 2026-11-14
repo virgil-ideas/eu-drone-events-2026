@@ -330,10 +330,10 @@
     "description": "On 8 June 2026 a French NATO fighter shot down a drone in Latvian airspace near Bērzgale, Latvia. Its nationality and model were not conclusively identified.",
     "summary": [
       "On 8 June 2026 a drone (UAV) entered Latvian airspace and was intercepted in the Bērzgale area of Latvia. A French fighter jet operating with NATO then shot it down.",
-      "The drone's nationality and model were not conclusively identified in contemporaneous accounts of the incident. It is treated as a foreign drone, but its origin has not been established; its route was not specified, and what, if anything, it carried remains unknown.",
+      "A Latvian military spokesperson told Reuters that the drone entered from Russia, according to Euronews. Its exact track and launch site were not established. The reported direction of entry does not identify its operator or nationality; its model, payload and intended target remained unresolved in the reviewed accounts.",
       "No casualties were reported in Latvia. After the shoot-down, a search for the wreckage and an investigation of the debris followed."
     ],
-    "basis": "b3e773e6587ae72c"
+    "basis": "37ff621ff1b47b95"
   },
   "E032": {
     "slug": "2026-06-30-drone-wreckage-destroyed-rachelu-romania",
@@ -2065,7 +2065,7 @@
       "NATO fighters were airborne. The minister said safe destruction conditions were not available, including proximity to the Russian border.",
       "Exact drone count, crossing times and tracks unresolved. Reported Ukrainian attribution is the minister's account, not independent confirmation. No confirmed attack on Estonia, crash, recovery or shoot-down. No proven link to the suspected Finnish crossing."
     ],
-    "basis": "bc658b976d96ecc7"
+    "basis": "df6711048840da65"
   },
   "N154": {
     "slug": "2026-11-12-sulina-target-warning-romania",
@@ -2098,5 +2098,16 @@
       "The original GEETHA bulletin remains unavailable and no matching second report was retrieved. These are attributed Greek figures, not independently verified tracks; the Greek-Turkish airspace dispute remains relevant."
     ],
     "basis": "97cb2c6163ced8a5"
+  },
+  "N157": {
+    "slug": "2026-11-13-northern-tulcea-aerial-target-warning-romania",
+    "headline": "Northern Tulcea warned after target detected in Ukrainian airspace",
+    "description": "Romania issued a northern Tulcea warning on 13 November after detecting a target in Ukrainian airspace. Drone identity and Romanian entry were not established.",
+    "summary": [
+      "Romanian authorities issued a warning for northern Tulcea on 13 November 2026 after radar detected an aerial target southeast of Snake Island in Ukrainian airspace.",
+      "Two Romanian F-16s launched from Fetești. The warning ran from 21:53 to 22:58 local time; these are warning times, not a verified flight duration.",
+      "The reviewed ministry account did not identify the target as a drone or establish Romanian entry. This is a selected alert, not a confirmed incursion or attack."
+    ],
+    "basis": "187a5cbc83589308"
   }
 }

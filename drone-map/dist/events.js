@@ -1587,18 +1587,20 @@ window.DRONE_DATA = {
       "categories": "Incursion; interception; NATO shoot-down; wreckage search",
       "vehicle": "1 UAV",
       "attribution": "Nationality/model not conclusively identified in contemporaneous account",
-      "route": "Route unspecified",
+      "route": "Entered Latvian airspace from Russia, according to a Latvian military spokesperson quoted by Reuters in Euronews on 8 June. Exact track and launch site not established.",
       "circumstances": "Drone intercepted in Latvian airspace.",
       "payload": "Not reported",
       "impact": "No casualties reported",
       "response": "French NATO fighter shot it down; debris investigation.",
-      "uncertainty": "Origin and payload unresolved in collected account.",
+      "uncertainty": "Nationality, operator, model, payload and intended target unresolved in the reviewed contemporaneous accounts. Reported entry from Russia does not establish who launched or operated the drone.",
       "deduplication": "One incident record; no duplicate stages added.",
-      "provenance": "Prior research; not independently rechecked in full for this export",
-      "sourceReferences": "[S12][S12]; [S63][S63]",
+      "provenance": "Existing occurrence reviewed against contemporaneous Euronews/Reuters and LSM reports on 14 November; attributed entry direction clarified without adding an occurrence.",
+      "sourceReferences": "[S12][S12]; [S63][S63]; [U293][U293]; [U294][U294]",
       "sources": [
         "S12",
-        "S63"
+        "S63",
+        "U293",
+        "U294"
       ],
       "startDate": "2026-06-08",
       "title": "Bērzgale",
@@ -9054,15 +9056,16 @@ window.DRONE_DATA = {
       "circumstances": "In an ERR interview, the defence minister distinguished brief Gulf of Finland airspace violations from a separate drone entering from Latvia at approximately 03:30. Estonia's government separately confirmed that some drones briefly entered national airspace that night.",
       "payload": "Unknown.",
       "impact": "No injury or damage established for these crossings in the reviewed sources.",
-      "response": "NATO fighters were airborne. The minister said safe destruction conditions were not available, including proximity to the Russian border.",
+      "response": "NATO fighters were airborne. The minister said safe destruction conditions were not available, including proximity to the Russian border. On 13 November, Col. Aron Kalmus told the defence briefing that drones were not engaged near the border because debris or ammunition could fall on Russian territory.",
       "uncertainty": "Exact drone count, crossing times and tracks unresolved. Reported Ukrainian attribution is the minister's account, not independent confirmation. No confirmed attack on Estonia, crash, recovery or shoot-down. No proven link to the suspected Finnish crossing.",
       "deduplication": "One grouped Gulf incursion episode with unspecified drone count. Excludes the separately described approximately 03:30 entry from Latvia associated with the southern traversal under N150. Do not add the government-wide aggregate as further occurrences. Further track reconciliation could require consolidation; no unique-airframe total inferred.",
-      "provenance": "ERR minister-interview full body retrieved in web search and Estonian government primary statement directly read on 12 November.",
+      "provenance": "ERR minister-interview full body retrieved in web search and Estonian government primary statement directly read on 12 November. ERR’s 13 November briefing report was read on 14 November; it corroborates brief crossings without resolving airframe count or tracks.",
       "classificationNote": "Confirmed territorial incursions qualify independently of target or intent; grouped record is not a count of attacks or unique drones.",
-      "sourceReferences": "[U286][U286]; [U287][U287]",
+      "sourceReferences": "[U286][U286]; [U287][U287]; [U297][U297]",
       "sources": [
         "U286",
-        "U287"
+        "U287",
+        "U297"
       ],
       "page": "events/2026-11-11-estonia-brief-drone-incursions-over-the-gulf-of/"
     },
@@ -9108,6 +9111,49 @@ window.DRONE_DATA = {
         "U289"
       ],
       "page": "events/2026-11-12-sulina-target-warning-romania/"
+    },
+    {
+      "id": "N157",
+      "title": "Northern Tulcea · 13 November aerial-target warning",
+      "recordClass": "event",
+      "recordType": "civil_protection_air_alert",
+      "startDate": "2026-11-13",
+      "dateLabel": "13 November 2026; 21:53–22:58 local warning period",
+      "dateBasis": "Same-evening public-radio report and next-day follow-up explicitly date the occurrence to 13 November. Warning times are not flight-duration timestamps.",
+      "countries": "Romania",
+      "location": "Warning for northern Tulcea; aerial target southeast of Snake Island in Ukrainian airspace.",
+      "status": "MApN-reported nearby target; drone identity and Romanian entry not established",
+      "categories": "Nearby unidentified aerial target; civil-protection warning",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.15,
+          "lng": 29.25,
+          "precision": "region",
+          "label": "Northern Tulcea — approximate warning-area anchor"
+        }
+      ],
+      "positionNote": "Broad Romanian warning-area anchor, not target coordinates or a flight path.",
+      "vehicle": "Aerial target; not identified as a drone in the reviewed ministry account.",
+      "attribution": "Operator, origin and intent unknown.",
+      "route": "Detection southeast of Snake Island in Ukrainian airspace; no detailed track or Romanian entry established.",
+      "circumstances": "Radar detection prompted a northern Tulcea warning and fighter launch.",
+      "payload": "Not reported.",
+      "impact": "No damage or casualties reported.",
+      "response": "Two Romanian F-16s launched from Fetești; warning at 21:53 and all-clear at 22:58 local.",
+      "uncertainty": "A warning is not evidence of a Romanian incursion, attack or weapons engagement. Target type remains unresolved; reports reproduce the same MApN account.",
+      "deduplication": "One selected 13 November alert; distinct from the 12 November Sulina warning N154. Detection, warning and response are not separate records.",
+      "provenance": "Actual Radio România Constanța and Canal Sud bodies reviewed 14 November 2026.",
+      "classificationNote": "Selected civil-protection alert only; not a confirmed drone incursion.",
+      "sourceReferences": "[U295][U295]; [U296][U296]",
+      "sources": [
+        "U295",
+        "U296"
+      ],
+      "page": "events/2026-11-13-northern-tulcea-aerial-target-warning-romania/"
     }
   ],
   "contexts": [
@@ -12711,9 +12757,49 @@ window.DRONE_DATA = {
       "url": "https://veteranos.gr/nees-tourkikes-paraviaseis-sto-aigaio-2-uav-prochorisan-se-4-paravaseis-kai-6-paraviaseis/",
       "dateLabel": "2026-10-17",
       "audit": "Full dated article body retrieved 13 November; same-day occurrence explicit. Publication attributes figures to official data. Single secondary account; direct GEETHA source unavailable, no second matching account retrieved. No independent track or attribution verification claimed."
+    },
+    "U293": {
+      "id": "U293",
+      "publisher": "Euronews",
+      "title": "Drone from Russia shot down in eastern Latvia, says Latvia's Foreign Affairs Minister",
+      "url": "https://www.euronews.com/2026/06/08/drone-from-russia-shot-down-in-eastern-latvia-military-spokesperson-says",
+      "dateLabel": "2026-06-08",
+      "audit": "Full contemporaneous body read 14 November. Attributes entry into Latvia from Russia to a military spokesperson speaking to Reuters. Direction of entry is not proof of nationality, operator, launch site or intent."
+    },
+    "U294": {
+      "id": "U294",
+      "publisher": "Latvian Public Media (LSM)",
+      "title": "Latvijā pirmo reizi notriec no ārzemēm ielidojušu dronu",
+      "url": "https://www.lsm.lv/raksts/zinas/latvija/08.06.2026-latvija-pirmo-reizi-notriec-no-arzemem-ielidojusu-dronu.a650545/",
+      "dateLabel": "2026-06-08",
+      "audit": "Full body read 14 November. Reports NBS chronology and shoot-down over Bērzgale at 10:05; origin/type required debris examination. Supports date and location, not independent confirmation of the route reported by Euronews/Reuters."
+    },
+    "U295": {
+      "id": "U295",
+      "publisher": "Radio România Constanța",
+      "title": "Țintă aeriană în apropiere de Insula Șerpilor. Mesaj RO Alert la Tulcea!",
+      "url": "https://www.radioconstanta.ro/2026/11/13/tinta-aeriana-in-apropiere-de-insula-serpilor-mesaj-ro-alert-la-tulcea/",
+      "dateLabel": "2026-11-13 22:20 local",
+      "audit": "Full body read 14 November. Reproduces MApN statement: aerial target in Ukrainian airspace southeast of Snake Island, Romanian F-16 response and 21:53 warning. Does not identify a drone or Romanian entry."
+    },
+    "U296": {
+      "id": "U296",
+      "publisher": "Canal Sud",
+      "title": "Alertă în nordul județului Tulcea: două F-16 au decolat de la Fetești după detectarea unei ținte aeriene",
+      "url": "https://canalsud.ro/alerta-in-nordul-judetului-tulcea-doua-f-16-au-decolat-de-la-fetesti-dupa-detectarea-unei-tinte-aeriene/",
+      "dateLabel": "2026-11-14 00:04 local; occurrence 13 November",
+      "audit": "Full body read 14 November. Quotes MApN for 13 November detection and warning and attributes 22:58 all-clear to ministry. Background references to earlier dates are not used to reconstruct separate events. Same official account, not independent radar verification."
+    },
+    "U297": {
+      "id": "U297",
+      "publisher": "ERR",
+      "title": "Officer: Russian warship hit multiple times in Baltic, with casualties",
+      "url": "https://news.err.ee/1610195272/officer-russian-warship-hit-multiple-times-in-baltic-with-casualties",
+      "dateLabel": "2026-11-13; describes 11 November",
+      "audit": "Full body read 14 November. Attributes brief southeast/Gulf crossings and non-engagement rationale to Col. Aron Kalmus. Warship damage/casualty assessments are separate official claims, not proof that individual aircraft in N150/N153 hit the ship."
     }
   },
-  "cutoff": "2026-11-12",
+  "cutoff": "2026-11-13",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

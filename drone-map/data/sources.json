@@ -3412,5 +3412,45 @@
     "url": "https://veteranos.gr/nees-tourkikes-paraviaseis-sto-aigaio-2-uav-prochorisan-se-4-paravaseis-kai-6-paraviaseis/",
     "dateLabel": "2026-10-17",
     "audit": "Full dated article body retrieved 13 November; same-day occurrence explicit. Publication attributes figures to official data. Single secondary account; direct GEETHA source unavailable, no second matching account retrieved. No independent track or attribution verification claimed."
+  },
+  "U293": {
+    "id": "U293",
+    "publisher": "Euronews",
+    "title": "Drone from Russia shot down in eastern Latvia, says Latvia's Foreign Affairs Minister",
+    "url": "https://www.euronews.com/2026/06/08/drone-from-russia-shot-down-in-eastern-latvia-military-spokesperson-says",
+    "dateLabel": "2026-06-08",
+    "audit": "Full contemporaneous body read 14 November. Attributes entry into Latvia from Russia to a military spokesperson speaking to Reuters. Direction of entry is not proof of nationality, operator, launch site or intent."
+  },
+  "U294": {
+    "id": "U294",
+    "publisher": "Latvian Public Media (LSM)",
+    "title": "Latvijā pirmo reizi notriec no ārzemēm ielidojušu dronu",
+    "url": "https://www.lsm.lv/raksts/zinas/latvija/08.06.2026-latvija-pirmo-reizi-notriec-no-arzemem-ielidojusu-dronu.a650545/",
+    "dateLabel": "2026-06-08",
+    "audit": "Full body read 14 November. Reports NBS chronology and shoot-down over Bērzgale at 10:05; origin/type required debris examination. Supports date and location, not independent confirmation of the route reported by Euronews/Reuters."
+  },
+  "U295": {
+    "id": "U295",
+    "publisher": "Radio România Constanța",
+    "title": "Țintă aeriană în apropiere de Insula Șerpilor. Mesaj RO Alert la Tulcea!",
+    "url": "https://www.radioconstanta.ro/2026/11/13/tinta-aeriana-in-apropiere-de-insula-serpilor-mesaj-ro-alert-la-tulcea/",
+    "dateLabel": "2026-11-13 22:20 local",
+    "audit": "Full body read 14 November. Reproduces MApN statement: aerial target in Ukrainian airspace southeast of Snake Island, Romanian F-16 response and 21:53 warning. Does not identify a drone or Romanian entry."
+  },
+  "U296": {
+    "id": "U296",
+    "publisher": "Canal Sud",
+    "title": "Alertă în nordul județului Tulcea: două F-16 au decolat de la Fetești după detectarea unei ținte aeriene",
+    "url": "https://canalsud.ro/alerta-in-nordul-judetului-tulcea-doua-f-16-au-decolat-de-la-fetesti-dupa-detectarea-unei-tinte-aeriene/",
+    "dateLabel": "2026-11-14 00:04 local; occurrence 13 November",
+    "audit": "Full body read 14 November. Quotes MApN for 13 November detection and warning and attributes 22:58 all-clear to ministry. Background references to earlier dates are not used to reconstruct separate events. Same official account, not independent radar verification."
+  },
+  "U297": {
+    "id": "U297",
+    "publisher": "ERR",
+    "title": "Officer: Russian warship hit multiple times in Baltic, with casualties",
+    "url": "https://news.err.ee/1610195272/officer-russian-warship-hit-multiple-times-in-baltic-with-casualties",
+    "dateLabel": "2026-11-13; describes 11 November",
+    "audit": "Full body read 14 November. Attributes brief southeast/Gulf crossings and non-engagement rationale to Col. Aron Kalmus. Warship damage/casualty assessments are separate official claims, not proof that individual aircraft in N150/N153 hit the ship."
   }
 }
