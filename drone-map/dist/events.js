@@ -9154,6 +9154,51 @@ window.DRONE_DATA = {
         "U296"
       ],
       "page": "events/2026-11-13-northern-tulcea-aerial-target-warning-romania/"
+    },
+    {
+      "id": "N158",
+      "title": "LARISSA 1 off Sfântu Gheorghe · Reported drone hit",
+      "recordClass": "event",
+      "recordType": "reported_maritime_drone_strike",
+      "startDate": "2026-11-13",
+      "dateLabel": "2026-11-13 evening (reported around 21:40 local)",
+      "dateBasis": "Reports published 14 November describe Friday evening, 13 November. Europa FM and Antena 3 describe 21:40 as the notification/report time; TVR calls it the incident time. Exact impact time is not independently established.",
+      "countries": "Romania (reported territorial waters)",
+      "location": "Black Sea, reported 6.8 nautical miles northeast of Sfântu Gheorghe, within Romanian territorial waters according to the cited reporting. Exact impact coordinates unpublished.",
+      "status": "Drone hit acknowledged by defence minister; vessel and territorial-water position identified in reporting",
+      "categories": "Reported aerial-drone hit on merchant ship; cargo-crane damage; no reported casualties or fire",
+      "category": "strike",
+      "stages": [
+        "strike"
+      ],
+      "positions": [
+        {
+          "lat": 44.98,
+          "lng": 29.71,
+          "precision": "offshore",
+          "label": "Off Sfântu Gheorghe — approximate reported maritime incident area"
+        }
+      ],
+      "positionNote": "Rounded editorial offshore estimate for the reported northeast sector; not an AIS position, verified impact coordinate or independent maritime-boundary determination. Territorial-water status follows the sources.",
+      "vehicle": "LARISSA 1, reported Palau-flagged cargo vessel. An aerial drone was reported by the captain; model and exact number are not established.",
+      "attribution": "Operator, nationality, launch location and intended target unknown. The defence minister withheld origin findings pending technical examination.",
+      "route": "No verified drone approach or border-crossing track. Europa FM and Antena 3 describe the vessel approaching Sulina anchorage before continuing toward Ukraine; its precise movement at impact is not independently verified.",
+      "circumstances": "The captain reported an aerial-drone hit to maritime authorities on 13 November. On 14 November the defence minister acknowledged an overnight ship drone hit; TVR’s associated report identifies LARISSA 1.",
+      "payload": "Payload and weapon configuration unknown; no verified explosion is assigned.",
+      "impact": "Cargo crane damaged according to TVR and reported destroyed in the captain-based account. No injuries, deaths or onboard fire reported. Other damage and final seaworthiness not independently established.",
+      "response": "Europa FM reports that Sulina traffic monitoring relayed the incident and the Romanian Naval Authority’s maritime coordination centre contacted the vessel. The minister said naval and interior/coast-guard authorities were in contact and technical findings were pending.",
+      "uncertainty": "Official acknowledgement supports drone causation but does not supply precise coordinates or responsibility. Ship identity and territorial-water position rely on reporting; repeated coverage may share underlying sources. No connection to the separate northern Tulcea warning N157 is established.",
+      "deduplication": "One vessel-impact record. Damage, maritime notification and ministerial acknowledgement are follow-ups to the same occurrence, not separate events. N157 is a distinct alert with no established common target.",
+      "classificationNote": "Strike for the reported damaging drone hit, without implying a confirmed blast, deliberate targeting or identified attacker. No separately inferred airspace-entry record.",
+      "provenance": "Added after targeted 14 November source review of TVR’s ministerial acknowledgement and vessel report, Europa FM correspondent account and Antena 3 follow-up. This targeted addition does not close unrelated EU coverage gaps.",
+      "sourceReferences": "[U298][U298]; [U299][U299]; [U300][U300]; [U301][U301]",
+      "sources": [
+        "U298",
+        "U299",
+        "U300",
+        "U301"
+      ],
+      "page": "events/2026-11-13-larissa-1-drone-hit-sfantu-gheorghe-romania/"
     }
   ],
   "contexts": [
@@ -12797,6 +12842,38 @@ window.DRONE_DATA = {
       "url": "https://news.err.ee/1610195272/officer-russian-warship-hit-multiple-times-in-baltic-with-casualties",
       "dateLabel": "2026-11-13; describes 11 November",
       "audit": "Full body read 14 November. Attributes brief southeast/Gulf crossings and non-engagement rationale to Col. Aron Kalmus. Warship damage/casualty assessments are separate official claims, not proof that individual aircraft in N150/N153 hit the ship."
+    },
+    "U298": {
+      "id": "U298",
+      "publisher": "TVR Info",
+      "title": "Radu Oprea, despre nava lovită de o dronă în apropiere de Sfântu Gheorghe",
+      "url": "https://tvrinfo.ro/radu-oprea-despre-nava-lovita-de-o-drona-in-apropiere-de-sfantu-gheorghe-suntem-informati-tot-timpul-nu-sunt-raniti-sau-pierderi-de-vieti-omenesti/",
+      "dateLabel": "2026-11-14 10:37 local; updated 10:40",
+      "audit": "Actual body read. Quotes defence minister acknowledging an overnight ship drone hit and no injuries or deaths. His quoted words do not identify the vessel, coordinates, operator or connection to an alert."
+    },
+    "U299": {
+      "id": "U299",
+      "publisher": "TVR Info",
+      "title": "Navă lovită de o dronă în apropiere de Sfântu Gheorghe. Macaraua de marfă a fost avariată, nu sunt răniți",
+      "url": "https://tvrinfo.ro/nava-lovita-de-o-drona-in-apropiere-de-sfantu-gheorghe-macaraua-de-marfa-a-fost-avariata-nu-sunt-raniti/",
+      "dateLabel": "2026-11-14 08:46 local; updated 12:02",
+      "audit": "Actual body read. Identifies MV LARISSA 1 and reports Friday evening damage to its cargo crane. Territorial-water location about seven nautical miles offshore is attributed to unnamed sources, not a published coordinate."
+    },
+    "U300": {
+      "id": "U300",
+      "publisher": "Europa FM",
+      "title": "Un nou atac în apele teritoriale române. O navă străină a fost lovită de o dronă aeriană",
+      "url": "https://www.europafm.ro/un-nou-atac-in-apele-teritoriale-romane-o-nava-straina-a-fost-lovita-de-o-drona-aeriana/",
+      "dateLabel": "2026-11-14; occurrence evening 13 November",
+      "audit": "Actual correspondent body read. Reports Sulina traffic-monitoring notification around 21:40, MRCC contact with the Palau-flagged Larissa and the captain’s aerial-drone account. Describes position as 6.8 nautical miles northeast of Sfântu Gheorghe. Timing proximity to the air alert does not establish a common drone."
+    },
+    "U301": {
+      "id": "U301",
+      "publisher": "Antena 3 CNN",
+      "title": "O navă cargo cu destinația Ucraina a fost lovită de o dronă lângă Sf. Gheorghe",
+      "url": "https://www.antena3.ro/actualitate/o-nava-cargo-cu-destinatia-ucraina-a-fost-lovita-de-o-drona-langa-sf-gheorghe-in-apele-teritoriale-ale-romaniei-811141.html",
+      "dateLabel": "2026-11-14 09:43 local; updated 13:39",
+      "audit": "Actual body read. Quotes minister withholding origin findings pending technical investigation. Incident location relies on outlet sources; illustrative Getty image is not incident footage."
     }
   },
   "cutoff": "2026-11-13",

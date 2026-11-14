@@ -2109,5 +2109,16 @@
       "The reviewed ministry account did not identify the target as a drone or establish Romanian entry. This is a selected alert, not a confirmed incursion or attack."
     ],
     "basis": "187a5cbc83589308"
+  },
+  "N158": {
+    "slug": "2026-11-13-larissa-1-drone-hit-sfantu-gheorghe-romania",
+    "headline": "LARISSA 1 damaged in reported drone hit off Romania; crew safe",
+    "description": "A drone hit damaged LARISSA 1 off Sfântu Gheorghe on 13 November. Romania’s minister acknowledged the incident; operator and precise position remain unresolved.",
+    "summary": [
+      "A reported aerial-drone hit damaged the cargo crane of LARISSA 1 near Sfântu Gheorghe on the evening of 13 November 2026. Maritime authorities were notified around 21:40 local time. No injuries, deaths or fire were reported.",
+      "Romania’s defence minister acknowledged the overnight hit on 14 November. TVR identifies the vessel, while Europa FM places the reported incident 6.8 nautical miles northeast of Sfântu Gheorghe in Romanian territorial waters. Exact impact coordinates have not been published.",
+      "The operator, origin and intended target remain unknown. Technical findings were pending, and no link to the separate Tulcea aerial-target alert has been established."
+    ],
+    "basis": "01f210a6d125057d"
   }
 }
