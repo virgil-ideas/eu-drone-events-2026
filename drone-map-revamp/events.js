@@ -443,6 +443,50 @@ window.DRONE_DATA = {
       "page": "events/2026-03-25-drone-transit-eastern-latvia-belarus-russia/"
     },
     {
+      "id": "N166",
+      "title": "Parcheș · 26 March incursion and crash",
+      "recordClass": "event",
+      "recordType": "confirmed_airspace_incursion",
+      "startDate": "2026-03-26",
+      "dateLabel": "26 March 2026; entry at 00:44 Romanian local time",
+      "dateBasis": "Occurrence date and entry time stated in MApN release no.78 of 26 March 2026.",
+      "countries": "Romania",
+      "location": "Approximately 2 km from Parcheș, Tulcea County, outside the inhabited area.",
+      "status": "Officially confirmed drone incursion and crash",
+      "categories": "National-airspace entry; crash; debris discovery",
+      "category": "crash",
+      "stages": [
+        "crash",
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 45.2,
+          "lng": 28.6,
+          "precision": "region",
+          "label": "Parcheș area — approximate anchor"
+        }
+      ],
+      "positionNote": "Broad area anchor, not the exact crash location or flight path.",
+      "vehicle": "One drone; model unspecified.",
+      "attribution": "Specific operator and intended target not established in the release. MApN described the surrounding Russian attacks on Ukraine.",
+      "route": "MApN reported about 4 km of penetration into national airspace. No exact flight path established.",
+      "circumstances": "MApN said Ukrainian air defence diverted the drone before its 00:44 entry and subsequent crash near Parcheș. That causal account is attributed to the ministry, not independently established.",
+      "payload": "Not specified.",
+      "impact": "Burned vegetation and drone debris found; no material damage or casualties reported by MApN.",
+      "response": "Two F-16s launched at 00:16; RO-Alert at 00:35. IGSU and MApN teams attended and secured the site; MApN/SRI investigation announced.",
+      "uncertainty": "Operator, model, payload and intention remain unestablished. Confirmed entry and crash do not establish an intentional attack on Romania.",
+      "deduplication": "One occurrence joining entry, crash and debris discovery; no matching Parcheș occurrence in the register.",
+      "provenance": "Primary MApN release read 15 November 2026 following a historical lead.",
+      "classificationNote": "Confirmed national-airspace incursion and crash; no Romanian shoot-down or intentional attack inferred.",
+      "sourceReferences": "[U310][U310]",
+      "sources": [
+        "U310"
+      ],
+      "page": "events/2026-03-26-drone-incursion-crash-parches-romania/"
+    },
+    {
       "id": "E009",
       "dateLabel": "2026-03-29",
       "dateBasis": "Both crashes dated 29 March by the final investigation release of 9 September; earlier reporting spanned 29–30 March.",
@@ -13239,6 +13283,14 @@ window.DRONE_DATA = {
       "url": "https://mediafax.ro/english/russian-drone-detected-by-radar-in-romanian-airspace-near-chilia-23732955",
       "dateLabel": "2026-05-07; read 2026-11-15",
       "audit": "Full article read. Reports Romanian defence ministry radar confirmation; authority-attributed evidence, not an independent radar observation. EODI used only as a discovery lead."
+    },
+    "U310": {
+      "id": "U310",
+      "publisher": "Romanian Ministry of National Defence",
+      "title": "Informație de Presă — Parcheș drone incursion and crash",
+      "url": "https://www.mapn.ro/cpresa/19185_informa%C8%9Bie-de-presa",
+      "dateLabel": "26 March 2026, release no.78; read 15 November 2026",
+      "audit": "Primary body confirms 00:44 national-airspace entry, approximately 4 km penetration, crash 2 km from Parcheș, debris/burned vegetation and no reported damage or casualties. Ministry attributes diversion to Ukrainian air defence; operator/model not specified."
     }
   },
   "cutoff": "2026-11-15",

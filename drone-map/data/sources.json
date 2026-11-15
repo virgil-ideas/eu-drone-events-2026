@@ -3548,5 +3548,13 @@
     "url": "https://mediafax.ro/english/russian-drone-detected-by-radar-in-romanian-airspace-near-chilia-23732955",
     "dateLabel": "2026-05-07; read 2026-11-15",
     "audit": "Full article read. Reports Romanian defence ministry radar confirmation; authority-attributed evidence, not an independent radar observation. EODI used only as a discovery lead."
+  },
+  "U310": {
+    "id": "U310",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Informație de Presă — Parcheș drone incursion and crash",
+    "url": "https://www.mapn.ro/cpresa/19185_informa%C8%9Bie-de-presa",
+    "dateLabel": "26 March 2026, release no.78; read 15 November 2026",
+    "audit": "Primary body confirms 00:44 national-airspace entry, approximately 4 km penetration, crash 2 km from Parcheș, debris/burned vegetation and no reported damage or casualties. Ministry attributes diversion to Ukrainian air defence; operator/model not specified."
   }
 }
