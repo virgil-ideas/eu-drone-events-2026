@@ -3612,5 +3612,37 @@
     "url": "https://www.ziuaconstanta.ro/stiri/eveniment/mesaj-ro-alert-de-alarma-aeriana-in-judetul-tulcea-populatia-avertizata-cu-privire-la-o-posibila-incursiune-de-drone-960555.html",
     "dateLabel": "15 November 2026",
     "audit": "Actual body cites ISU for16:56 municipality extension; not a second event."
+  },
+  "U318": {
+    "id": "U318",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Press Information —26February UAV entry",
+    "url": "https://english.mapn.ro/cpresa/6714_Press-Information",
+    "dateLabel": "27February2026; release40",
+    "audit": "Actual primary body distinguishes afternoon no-entry from new evening brief UAV entry, exiting north of Sulina around18:30."
+  },
+  "U319": {
+    "id": "U319",
+    "publisher": "MApN statement via Agerpres",
+    "title": "Comunicat de presă —Tănăsoaia fragments investigation",
+    "url": "https://agerpres.ro/comunicate/2026/01/18/comunicat-de-presa---ministerul-apararii-nationale--1519740",
+    "dateLabel": "18January2026",
+    "audit": "Actual ministry statement confirms specialist attendance and fragment collection; only possible aerial-vehicle origin, not confirmed drone or fall date."
+  },
+  "U320": {
+    "id": "U320",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Informație de presă —12September crash discovery",
+    "url": "https://www.mapn.ro/cpresa/19400_informa%C8%9Bie-de-presa",
+    "dateLabel": "12September2026; release292",
+    "audit": "Actual primary body reports foreign drone-transit notification,112 sighting and MAI crash discovery; no explicit continuous same-airframe identification."
+  },
+  "U321": {
+    "id": "U321",
+    "publisher": "Ziarul de Gardă, reporting Trans-Oil",
+    "title": "EVIAPETROL V incident and planned sunflower-oil shipment",
+    "url": "https://www.zdg.md/stiri/o-drona-a-lovit-un-petrolier-aflat-in-drum-spre-giurgiulesti-ce-se-intampla-cu-exportul-a-6500-de-tone-de-ulei/",
+    "dateLabel": "15November2026",
+    "audit": "Actual article reviewed by research pass. Company-attributed planned voyage prevented;~6500tonnes was cargo to be loaded, not confirmed onboard. Future delays/costs are risks, not measured losses."
   }
 }

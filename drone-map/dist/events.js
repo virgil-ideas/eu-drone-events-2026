@@ -1,6 +1,48 @@
 window.DRONE_DATA = {
   "events": [
     {
+      "id": "N171",
+      "title": "Tănăsoaia · possible aerial-vehicle fragments recovered",
+      "recordClass": "candidate",
+      "recordType": "unidentified_aerial_object_discovery",
+      "startDate": "2026-01-18",
+      "dateLabel": "2026-01-18",
+      "dateBasis": "18 January is the official investigation/recovery date, not an established fall or discovery date.",
+      "countries": "Romania",
+      "location": "Tănăsoaia, Vrancea County; exact discovery site unspecified.",
+      "status": "Official investigation of unidentified possible aerial-vehicle fragments",
+      "categories": "Tănăsoaia · possible aerial-vehicle fragments recovered",
+      "category": "recovery",
+      "stages": [
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 46.1,
+          "lng": 27.37,
+          "precision": "region",
+          "label": "Tănăsoaia — approximate area"
+        }
+      ],
+      "positionNote": "Broad locality reference, not exact incident coordinates or a flight path.",
+      "vehicle": "Metal fragments indicating a possible aerial vehicle; drone identity unconfirmed.",
+      "attribution": "Operator, origin and intended target not established.",
+      "route": "No independently established flight path.",
+      "circumstances": "MApN sent specialists on 18 January after police requested a joint investigation of metal fragments.",
+      "payload": "Unspecified.",
+      "impact": "No injury or damage assessment supplied by the statement.",
+      "response": "Fragments collected for analysis by the investigating teams.",
+      "uncertainty": "Discovery and fall dates unknown. The statement does not establish a military drone, foreign origin, route, payload or crash circumstances.",
+      "deduplication": "Single occurrence; no matching canonical record found during historical review.",
+      "provenance": "Primary ministry statement read 15 November 2026.",
+      "classificationNote": "Provisional candidate; drone identity and foreign origin not established.",
+      "sourceReferences": "[U319][U319]",
+      "sources": [
+        "U319"
+      ],
+      "page": "events/2026-01-18-possible-aerial-fragments-tanasoaia-romania/"
+    },
+    {
       "id": "N004",
       "importAction": "ADD_EVENT",
       "recordType": "cross_border_seizure",
@@ -222,6 +264,48 @@ window.DRONE_DATA = {
       "recordClass": "event",
       "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
       "page": "events/2026-02-25-drone-french-carrier-oresund-malmo-sweden/"
+    },
+    {
+      "id": "N170",
+      "title": "North of Sulina · brief 26 February drone entry",
+      "recordClass": "event",
+      "recordType": "confirmed_airspace_incursion",
+      "startDate": "2026-02-26",
+      "dateLabel": "2026-02-26",
+      "dateBasis": "Occurrence 26 February; official release 40 published 27 February. Response times are not flight duration.",
+      "countries": "Romania",
+      "location": "Romanian national airspace; exit reported north of Sulina.",
+      "status": "MApN-confirmed brief UAV entry",
+      "categories": "North of Sulina · brief 26 February drone entry",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 45.2,
+          "lng": 29.65,
+          "precision": "region",
+          "label": "North of Sulina — approximate area"
+        }
+      ],
+      "positionNote": "Broad locality reference, not exact incident coordinates or a flight path.",
+      "vehicle": "One unmanned aircraft; model unspecified.",
+      "attribution": "Operator, origin and intended target not established.",
+      "route": "No independently established flight path.",
+      "circumstances": "A new evening UAV briefly entered and exited north of Sulina around 18:30 local. An earlier afternoon target explicitly did not enter.",
+      "payload": "Unspecified.",
+      "impact": "No Romanian damage or casualties reported in the release.",
+      "response": "German and Spanish Eurofighter Typhoons scrambled at 18:00; a new northeastern Tulcea RO-Alert followed.",
+      "uncertainty": "Entry time and duration unspecified; 18:00 is the aircraft launch time and 18:30 the approximate exit. No crash, engagement or deliberate targeting established.",
+      "deduplication": "Single occurrence; no matching canonical record found during historical review.",
+      "provenance": "Primary ministry statement read 15 November 2026.",
+      "classificationNote": "Confirmed drone entry, not an established deliberate attack.",
+      "sourceReferences": "[U318][U318]",
+      "sources": [
+        "U318"
+      ],
+      "page": "events/2026-02-26-brief-drone-entry-north-sulina-romania/"
     },
     {
       "id": "E004",
@@ -4828,6 +4912,49 @@ window.DRONE_DATA = {
       ],
       "matchKey": "RO::2026-09-11::periteasca-beach",
       "page": "events/2026-09-11-explosive-drone-fragment-periteasca-beach-romania/"
+    },
+    {
+      "id": "N172",
+      "title": "Botoșenița Mare · unidentified flying object crash",
+      "recordClass": "candidate",
+      "recordType": "unidentified_aerial_object_discovery",
+      "startDate": "2026-09-12",
+      "dateLabel": "2026-09-12",
+      "dateBasis": "Occurrence and ministry release 292 dated 12 September; exact crash time unspecified.",
+      "countries": "Romania",
+      "location": "Cornfield near Botoșenița Mare, Suceava County; exact coordinates unavailable.",
+      "status": "MApN-reported crashed object; identity linkage unresolved",
+      "categories": "Botoșenița Mare · unidentified flying object crash",
+      "category": "crash",
+      "stages": [
+        "crash",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 47.9,
+          "lng": 25.99,
+          "precision": "region",
+          "label": "Botoșenița Mare — approximate area"
+        }
+      ],
+      "positionNote": "Broad locality reference, not exact incident coordinates or a flight path.",
+      "vehicle": "Crashed flying object; drone identity not explicitly established at the site.",
+      "attribution": "Operator, origin and intended target not established.",
+      "route": "No independently established flight path.",
+      "circumstances": "MApN relayed foreign reports of drone transit through Ukraine/Moldova toward northeastern Romania and a 112 drone sighting over Știubieni. Separately, MAI reconnaissance found a crashed flying object near Botoșenița Mare.",
+      "payload": "Unspecified.",
+      "impact": "Small fire and cavity about 1 m across and 30 cm deep reported; no casualties.",
+      "response": "Two F-16 s launched; Botoșani RO-Alert 16:20; SRI pyrotechnic team sent to assess crash site.",
+      "uncertainty": "No continuous track establishes that the foreign-reported drone,112 sighting and crashed object were the same airframe. Model, operator and payload unresolved; cavity/fire do not prove explosives.",
+      "deduplication": "Single occurrence; no matching canonical record found during historical review.",
+      "provenance": "Primary ministry statement read 15 November 2026.",
+      "classificationNote": "Provisional candidate; drone identity and foreign origin not established.",
+      "sourceReferences": "[U320][U320]",
+      "sources": [
+        "U320"
+      ],
+      "page": "events/2026-09-12-unidentified-object-crash-botosenita-mare-romania/"
     },
     {
       "id": "N049",
@@ -9446,17 +9573,18 @@ window.DRONE_DATA = {
       "route": "Approach and launch location unknown; reported vessel location is not a drone route.",
       "circumstances": "News.ro reports that MApN, citing civilian maritime authorities, recorded a drone hit on EVIA PETROL V at about 21:10 local. The vessel is described as a Greek-flagged tanker. Maritime.bg identifies EVIAPETROL V (IMO 9358503), spelling also reported as EVIA PETROL V.",
       "payload": "Not reported; fire does not establish an explosive payload.",
-      "impact": "Onboard fire reported; extinguished by crew. No casualties reported.",
+      "impact": "Onboard fire reported; extinguished by crew. No casualties reported. Trans-Oil said damage prevented the planned voyage to Giurgiulești to load about 6,500 tonnes of sunflower oil; it warned of possible loading delays and additional logistics costs.",
       "response": "Crew firefighting; further technical assessment not established in the reviewed account.",
-      "uncertainty": "Exact position and jurisdiction not independently verified. Ministry account accessed through News.ro, not a direct evening release. Maritime reporting chains may share provenance. No established link to nearby aerial-target alerts, another vessel hit or the previous day’s LARISSA 1 incident. Maritime.bg relays nearby seafarers’ account of VHF no-injury reports; the transmission itself was not verified. Its coordinated-attack characterization is not established.",
+      "uncertainty": "Exact position and jurisdiction not independently verified. Ministry account accessed through News.ro, not a direct evening release. Maritime reporting chains may share provenance. No established link to nearby aerial-target alerts, another vessel hit or the previous day’s LARISSA 1 incident. Maritime.bg relays nearby seafarers’ account of VHF no-injury reports; the transmission itself was not verified. Its coordinated-attack characterization is not established. The cargo was planned for loading, not established aboard; company forecasts of delays/costs are not quantified incurred losses.",
       "deduplication": "One separately named vessel occurrence, distinct in time and location from the other 14 November Sulina hit. Do not add alert detections or fire response as extra drone occurrences. Distinct from LARISSA 1 N158 and morning alert N159.",
       "provenance": "Targeted review of actual News.ro and Radio România Constanța article bodies; reviewed 15 November 2026.",
       "classificationNote": "Reported damaging drone impact supports Strike; onboard fire is not by itself a confirmed explosion. Territorial-water wording remains source-attributed, not independently verified.",
-      "sourceReferences": "[U304][U304]; [U305][U305]; [U306][U306]",
+      "sourceReferences": "[U304][U304]; [U305][U305]; [U306][U306]; [U321][U321]",
       "sources": [
         "U304",
         "U305",
-        "U306"
+        "U306",
+        "U321"
       ],
       "page": "events/2026-11-14-evia-petrol-v-reported-drone-hit-sulina-romania/"
     },
@@ -13480,6 +13608,38 @@ window.DRONE_DATA = {
       "url": "https://www.ziuaconstanta.ro/stiri/eveniment/mesaj-ro-alert-de-alarma-aeriana-in-judetul-tulcea-populatia-avertizata-cu-privire-la-o-posibila-incursiune-de-drone-960555.html",
       "dateLabel": "15 November 2026",
       "audit": "Actual body cites ISU for16:56 municipality extension; not a second event."
+    },
+    "U318": {
+      "id": "U318",
+      "publisher": "Romanian Ministry of National Defence",
+      "title": "Press Information —26February UAV entry",
+      "url": "https://english.mapn.ro/cpresa/6714_Press-Information",
+      "dateLabel": "27February2026; release40",
+      "audit": "Actual primary body distinguishes afternoon no-entry from new evening brief UAV entry, exiting north of Sulina around18:30."
+    },
+    "U319": {
+      "id": "U319",
+      "publisher": "MApN statement via Agerpres",
+      "title": "Comunicat de presă —Tănăsoaia fragments investigation",
+      "url": "https://agerpres.ro/comunicate/2026/01/18/comunicat-de-presa---ministerul-apararii-nationale--1519740",
+      "dateLabel": "18January2026",
+      "audit": "Actual ministry statement confirms specialist attendance and fragment collection; only possible aerial-vehicle origin, not confirmed drone or fall date."
+    },
+    "U320": {
+      "id": "U320",
+      "publisher": "Romanian Ministry of National Defence",
+      "title": "Informație de presă —12September crash discovery",
+      "url": "https://www.mapn.ro/cpresa/19400_informa%C8%9Bie-de-presa",
+      "dateLabel": "12September2026; release292",
+      "audit": "Actual primary body reports foreign drone-transit notification,112 sighting and MAI crash discovery; no explicit continuous same-airframe identification."
+    },
+    "U321": {
+      "id": "U321",
+      "publisher": "Ziarul de Gardă, reporting Trans-Oil",
+      "title": "EVIAPETROL V incident and planned sunflower-oil shipment",
+      "url": "https://www.zdg.md/stiri/o-drona-a-lovit-un-petrolier-aflat-in-drum-spre-giurgiulesti-ce-se-intampla-cu-exportul-a-6500-de-tone-de-ulei/",
+      "dateLabel": "15November2026",
+      "audit": "Actual article reviewed by research pass. Company-attributed planned voyage prevented;~6500tonnes was cargo to be loaded, not confirmed onboard. Future delays/costs are risks, not measured losses."
     }
   },
   "cutoff": "2026-11-15",

@@ -2139,9 +2139,10 @@
     "summary": [
       "EVIA PETROL V was hit by a drone at about 21:10 local on 14 November 2026, according to News.ro’s account of MApN information from civilian maritime authorities. The reported location was approximately 4 nautical miles east-southeast of Sulina.",
       "The crew extinguished an onboard fire; no casualties were reported. Radio România Constanța describes Romanian territorial waters, but exact impact coordinates and jurisdiction have not been independently verified.",
-      "Operator, origin, intent and any connection to other vessel hits or nearby alerts remain unknown."
+      "Operator, origin, intent and any connection to other vessel hits or nearby alerts remain unknown.",
+      "Trans-Oil said the planned Giurgiulești loading voyage could not take place. About 6,500 tonnes of sunflower oil were due to be loaded, not confirmed aboard; possible logistical delays and costs remain company warnings."
     ],
-    "basis": "a0563dce14508b94"
+    "basis": "5ba1b939eab67a92"
   },
   "N161": {
     "slug": "2026-11-14-marsol-reported-drone-hit-sulina-romania",
@@ -2233,5 +2234,35 @@
       "The extension belongs to the same warning episode. Neither drone identity nor Romanian airspace entry is established; no link to vessel impacts is inferred."
     ],
     "basis": "9f1fffe617077455"
+  },
+  "N170": {
+    "slug": "2026-02-26-brief-drone-entry-north-sulina-romania",
+    "headline": "North of Sulina · brief 26 February drone entry",
+    "description": "MApN confirmed a brief drone entry on the evening of 26 February, ending north of Sulina around 18:30.",
+    "summary": [
+      "MApN confirmed a brief drone entry on the evening of 26 February, ending north of Sulina around 18:30.",
+      "This was distinct from the earlier no-entry alert and the 25 February occurrence. Operator, model and intention remain unspecified."
+    ],
+    "basis": "10c4f6161f7c2e1b"
+  },
+  "N171": {
+    "slug": "2026-01-18-possible-aerial-fragments-tanasoaia-romania",
+    "headline": "Tănăsoaia · possible aerial-vehicle fragments recovered",
+    "description": "Defence specialists investigated and collected metal fragments in Tănăsoaia on 18 January. They indicated a possible aerial vehicle.",
+    "summary": [
+      "Defence specialists investigated and collected metal fragments in Tănăsoaia on 18 January. They indicated a possible aerial vehicle.",
+      "Drone identity, origin and fall date remain unconfirmed; this is a discovery candidate, not a confirmed incursion."
+    ],
+    "basis": "f421e7a73209f519"
+  },
+  "N172": {
+    "slug": "2026-09-12-unidentified-object-crash-botosenita-mare-romania",
+    "headline": "Botoșenița Mare · unidentified flying object crash",
+    "description": "MApN reported a crashed flying object in a cornfield near Botoșenița Mare on 12 September, with a small fire and no casualties.",
+    "summary": [
+      "MApN reported a crashed flying object in a cornfield near Botoșenița Mare on 12 September, with a small fire and no casualties.",
+      "Foreign authorities also reported drone transit and a 112 sighting was logged elsewhere. A continuous link to the recovered object is not established."
+    ],
+    "basis": "6d3ff9df7ce787f3"
   }
 }

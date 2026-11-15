@@ -944,3 +944,7 @@ Western/southern follow-up: partial multilingual indexed-source checks for Germa
 EODI's CSV was used as a lead list, not imported as evidence. Original dated HotNews and Mediafax reports attributing radar confirmation to MApN establish the separate 2 May and 7 May Chilia entries, now N164–N165. The 7 May occurrence was in the morning, not an assumed overnight 6–7 May window. Shared reporting of a ministry statement is not independent radar corroboration. The existing early 14 October no-entry classification remains unchanged.
 
 The export is not a completeness benchmark: its Greek coverage differs from the country page. Other unmatched historical dates/discoveries, including the January Vrancea and October Slivnitsa leads, still require source/date and duplicate checks. This targeted pass does not close the outstanding Greek or EU-wide coverage gaps and does not advance the last completed EU27 search.
+
+### Historical lead reconciliation,15 November 2026
+
+N 170 adds the distinct 26 February evening UAV entry; the earlier afternoon no-entry is not duplicated. N 171 retains Tănăsoaia only as an unidentified fragment candidate, with 18 January investigation/recovery date and unknown fall date. N 172 retains the 12 September Botoșenița Mare crash as a candidate without assuming a continuous link to foreign drone-transit reports. May 4 Constanța tourist/cruise-crew local drone activity is excluded as domestic activity, not a verified foreign incursion. These targeted resolutions do not close the remaining coverage gaps.
