@@ -3532,5 +3532,21 @@
     "url": "https://www.mapn.ro/",
     "dateLabel": "2026-11-14 dashboard; read 2026-11-15",
     "audit": "Actual primary dashboard read: 2026 counters 114 near-border attacks, 93 aircraft-response incidents, 39 unauthorized entries, 6 downed, 44 drones/fragments, 2 mines. Overlapping categories, not reconstructed individual occurrences."
+  },
+  "U308": {
+    "id": "U308",
+    "publisher": "HotNews.ro",
+    "title": "Brief drone incursion near Chilia on 2 May",
+    "url": "https://hotnews.ro/drona-ruseasca-intrata-in-spatiul-aerian-romanesc-la-chilia-avioane-f-16-ridicate-de-la-sol-2234875",
+    "dateLabel": "2026-05-02; read 2026-11-15",
+    "audit": "Full article read. Reports Romanian defence ministry radar confirmation; authority-attributed evidence, not an independent radar observation. EODI used only as a discovery lead."
+  },
+  "U309": {
+    "id": "U309",
+    "publisher": "Mediafax",
+    "title": "Brief drone incursion near Chilia on 7 May",
+    "url": "https://mediafax.ro/english/russian-drone-detected-by-radar-in-romanian-airspace-near-chilia-23732955",
+    "dateLabel": "2026-05-07; read 2026-11-15",
+    "audit": "Full article read. Reports Romanian defence ministry radar confirmation; authority-attributed evidence, not an independent radar observation. EODI used only as a discovery lead."
   }
 }

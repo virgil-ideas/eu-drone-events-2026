@@ -2173,5 +2173,25 @@
       "Quoted ministry terminology does not confirm a drone, entry, attack or engagement. No demonstrated link to vessel strikes."
     ],
     "basis": "88ea01578c27ac99"
+  },
+  "N164": {
+    "slug": "2026-05-02-brief-drone-incursion-chilia-romania",
+    "headline": "Brief drone incursion near Chilia on 2 May",
+    "description": "Romanian defence authorities reported a brief drone entry near Chilia. Target and intent remain unestablished; no attack on Romania is inferred.",
+    "summary": [
+      "MApN reported a brief radar-confirmed entry near Chilia, followed by movement toward Ismail. Two F-16s launched around 02:00; the northern Tulcea warning ran from 02:03 to 02:50 local.",
+      "The entry is recorded separately from the wider attack on Ukraine. Intent and the specific target remain unestablished; no Romanian impact is reported."
+    ],
+    "basis": "6f65e93bc9b1cde3"
+  },
+  "N165": {
+    "slug": "2026-05-07-brief-drone-incursion-chilia-romania",
+    "headline": "Brief drone incursion near Chilia on 7 May",
+    "description": "Romanian defence authorities reported a brief drone entry near Chilia. Target and intent remain unestablished; no attack on Romania is inferred.",
+    "summary": [
+      "MApN reported a brief radar-confirmed entry near Chilia on the morning of 7 May. Two F-16s launched at 08:37; the northern Tulcea warning ran from 08:40 to 09:40 local.",
+      "The entry is recorded separately from the wider attack on Ukraine. Intent and the specific target remain unestablished; no Romanian impact is reported."
+    ],
+    "basis": "e6ce7bcfdd7f5a84"
   }
 }

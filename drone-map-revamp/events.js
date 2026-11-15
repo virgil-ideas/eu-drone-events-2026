@@ -756,6 +756,48 @@ window.DRONE_DATA = {
       "page": "events/2026-04-26-explosive-drone-debris-luncavita-vacareni-romania/"
     },
     {
+      "id": "N164",
+      "title": "Chilia · 2026-05-02",
+      "recordClass": "event",
+      "recordType": "confirmed_airspace_incursion",
+      "startDate": "2026-05-02",
+      "dateLabel": "2026-05-02 (Romanian local time)",
+      "dateBasis": "Occurrence and publication on this date; response times are not flight duration.",
+      "countries": "Romania",
+      "location": "Chilia area, northern Tulcea; Romanian national airspace. Exact crossing coordinates unavailable.",
+      "status": "MApN-confirmed brief drone incursion, reported by HotNews.ro",
+      "categories": "National-airspace entry; air-policing response",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 45.42,
+          "lng": 29.29,
+          "precision": "region",
+          "label": "Chilia area — approximate anchor"
+        }
+      ],
+      "positionNote": "Representative Chilia area anchor, not an observed track or exact crossing point.",
+      "vehicle": "One drone reported entering; model unspecified.",
+      "attribution": "Reported in the context of Russian attacks on Ukraine. Specific operator, intended target and reason for entry not independently established.",
+      "route": "MApN reported movement onward toward Ismail after the brief Chilia entry; no reconstructed flight path.",
+      "circumstances": "MApN reported a brief radar-confirmed entry near Chilia, followed by movement toward Ismail. Two F-16s launched around 02:00; the northern Tulcea warning ran from 02:03 to 02:50 local.",
+      "payload": "Not established.",
+      "impact": "No Romanian damage or casualties reported in the cited account.",
+      "response": "F-16 air policing and civil-protection warning.",
+      "uncertainty": "Verified entry does not establish an intentional attack on Romania. No crash, recovery or shoot-down reported.",
+      "deduplication": "Distinct dated Chilia entry; no matching Romanian occurrence in the current register. Regional attack totals are not entry counts.",
+      "provenance": "Historical gap found through EODI, then checked against the original dated news report quoting MApN.",
+      "classificationNote": "Confirmed incursion qualifies regardless of intended target; not classified as a confirmed attack.",
+      "sourceReferences": "[U308][U308]",
+      "sources": [
+        "U308"
+      ],
+      "page": "events/2026-05-02-brief-drone-incursion-chilia-romania/"
+    },
+    {
       "id": "E014",
       "dateLabel": "2026-05-03",
       "dateBasis": "Discovery/report 3 May; EEST",
@@ -976,6 +1018,48 @@ window.DRONE_DATA = {
       ],
       "matchKey": "LT::2026-05-07::krupaviesai",
       "page": "events/2026-05-07-smuggling-drone-krupaviesai-lithuania/"
+    },
+    {
+      "id": "N165",
+      "title": "Chilia · 2026-05-07",
+      "recordClass": "event",
+      "recordType": "confirmed_airspace_incursion",
+      "startDate": "2026-05-07",
+      "dateLabel": "2026-05-07 (Romanian local time)",
+      "dateBasis": "Occurrence and publication on this date; response times are not flight duration.",
+      "countries": "Romania",
+      "location": "Chilia area, northern Tulcea; Romanian national airspace. Exact crossing coordinates unavailable.",
+      "status": "MApN-confirmed brief drone incursion, reported by Mediafax",
+      "categories": "National-airspace entry; air-policing response",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 45.42,
+          "lng": 29.29,
+          "precision": "region",
+          "label": "Chilia area — approximate anchor"
+        }
+      ],
+      "positionNote": "Representative Chilia area anchor, not an observed track or exact crossing point.",
+      "vehicle": "One drone reported entering; model unspecified.",
+      "attribution": "Reported in the context of Russian attacks on Ukraine. Specific operator, intended target and reason for entry not independently established.",
+      "route": "Brief entry in the Chilia area; no reconstructed flight path.",
+      "circumstances": "MApN reported a brief radar-confirmed entry near Chilia on the morning of 7 May. Two F-16s launched at 08:37; the northern Tulcea warning ran from 08:40 to 09:40 local.",
+      "payload": "Not established.",
+      "impact": "No Romanian damage or casualties reported in the cited account.",
+      "response": "F-16 air policing and civil-protection warning.",
+      "uncertainty": "Verified entry does not establish an intentional attack on Romania. No crash, recovery or shoot-down reported.",
+      "deduplication": "Distinct dated Chilia entry; no matching Romanian occurrence in the current register. Regional attack totals are not entry counts.",
+      "provenance": "Historical gap found through EODI, then checked against the original dated news report quoting MApN.",
+      "classificationNote": "Confirmed incursion qualifies regardless of intended target; not classified as a confirmed attack.",
+      "sourceReferences": "[U309][U309]",
+      "sources": [
+        "U309"
+      ],
+      "page": "events/2026-05-07-brief-drone-incursion-chilia-romania/"
     },
     {
       "id": "N125",
@@ -13139,6 +13223,22 @@ window.DRONE_DATA = {
       "url": "https://www.mapn.ro/",
       "dateLabel": "2026-11-14 dashboard; read 2026-11-15",
       "audit": "Actual primary dashboard read: 2026 counters 114 near-border attacks, 93 aircraft-response incidents, 39 unauthorized entries, 6 downed, 44 drones/fragments, 2 mines. Overlapping categories, not reconstructed individual occurrences."
+    },
+    "U308": {
+      "id": "U308",
+      "publisher": "HotNews.ro",
+      "title": "Brief drone incursion near Chilia on 2 May",
+      "url": "https://hotnews.ro/drona-ruseasca-intrata-in-spatiul-aerian-romanesc-la-chilia-avioane-f-16-ridicate-de-la-sol-2234875",
+      "dateLabel": "2026-05-02; read 2026-11-15",
+      "audit": "Full article read. Reports Romanian defence ministry radar confirmation; authority-attributed evidence, not an independent radar observation. EODI used only as a discovery lead."
+    },
+    "U309": {
+      "id": "U309",
+      "publisher": "Mediafax",
+      "title": "Brief drone incursion near Chilia on 7 May",
+      "url": "https://mediafax.ro/english/russian-drone-detected-by-radar-in-romanian-airspace-near-chilia-23732955",
+      "dateLabel": "2026-05-07; read 2026-11-15",
+      "audit": "Full article read. Reports Romanian defence ministry radar confirmation; authority-attributed evidence, not an independent radar observation. EODI used only as a discovery lead."
     }
   },
   "cutoff": "2026-11-15",
