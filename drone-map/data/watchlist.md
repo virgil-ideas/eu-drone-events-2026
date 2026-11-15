@@ -918,3 +918,7 @@ Nonadditive Baltic context: Yle and Janes report Finland observing a November 11
 ## Targeted 14 November Larissa review
 
 N158 adds the 13 November LARISSA 1 maritime drone-hit account after the defence minister’s acknowledgement reported by TVR. Territorial-water location remains attributed to reporting, not independently determined from a published coordinate. Operator, intended target, exact approach and any link to N157 remain unknown. Pending technical findings should update N158 in place. Counts increase by one vessel occurrence; no separate airspace crossing is inferred. The inclusive cutoff remains 13 November and all unrelated coverage gaps remain open.
+
+## Targeted 14 November morning-alert follow-up
+
+N159 adds MApN release 367: one morning Snake Island-area aerial-target episode with eastern Tulcea RO-Alert at 04:45, northern warning at 05:39 and all-clear at 05:52 local. Two F-16s launched from Fetești. Drone identity, exact position/jurisdiction, Romanian entry and links to N157/N158 are not established. Two messages are not two occurrences. Inclusive cutoff advances to 14 November solely for this dated selected alert; this targeted source check does not advance the completed EU-wide search marker or close Greek/other gaps. Active total 206 is not an attack or unique-drone count.

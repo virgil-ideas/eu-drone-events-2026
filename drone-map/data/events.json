@@ -8937,5 +8937,47 @@
       "U300",
       "U301"
     ]
+  },
+  {
+    "id": "N159",
+    "title": "Eastern and northern Tulcea · 14 November morning warning",
+    "recordClass": "event",
+    "recordType": "civil_protection_air_alert",
+    "startDate": "2026-11-14",
+    "dateLabel": "14 November 2026; warnings at 04:45 and 05:39, all-clear 05:52 local",
+    "dateBasis": "MApN release 367 explicitly dates the morning occurrence to 14 November. Times are warning messages and all-clear, not target flight duration.",
+    "countries": "Romania",
+    "location": "Warning areas in eastern and northern Tulcea; aerial target in the Snake Island area, exact position not supplied.",
+    "status": "Officially reported aerial-target alert; drone identity and Romanian entry not established",
+    "categories": "Nearby unidentified aerial target; civil-protection warning",
+    "category": "alert",
+    "stages": [
+      "alert"
+    ],
+    "positions": [
+      {
+        "lat": 45.15,
+        "lng": 29.25,
+        "precision": "region",
+        "label": "Eastern/northern Tulcea — approximate warning-area anchor"
+      }
+    ],
+    "positionNote": "Broad Romanian warning-area anchor, not target coordinates or a flight path.",
+    "vehicle": "Aerial target; not identified as a drone in the reviewed ministry account.",
+    "attribution": "Operator, origin and intent unknown.",
+    "route": "Detection in the Snake Island area; exact track, jurisdiction and Romanian entry not established.",
+    "circumstances": "MApN reported a radar target in the Snake Island area; two successive civil-protection messages covered eastern then northern Tulcea.",
+    "payload": "Not reported.",
+    "impact": "No damage or casualties reported.",
+    "response": "Two Romanian F-16s launched from Fetești. RO-Alert messages at 04:45 and 05:39 local; all-clear at 05:52.",
+    "uncertainty": "MApN does not identify the target as a drone or confirm Romanian entry, engagement, crash or damage. The two warning messages do not establish two targets or separate occurrences.",
+    "deduplication": "One selected morning episode on 14 November with two warning messages. Distinct from N157 on the previous evening; no established link to the Larissa 1 hit N158.",
+    "provenance": "MApN release 367 and TVR full article bodies read 14 November 2026.",
+    "classificationNote": "Selected civil-protection alert only; not a confirmed drone incursion.",
+    "sources": [
+      "U302",
+      "U303"
+    ],
+    "reviewedOn": "2026-11-14"
   }
 ]

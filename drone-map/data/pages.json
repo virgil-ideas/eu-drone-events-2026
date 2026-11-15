@@ -2120,5 +2120,16 @@
       "The operator, origin and intended target remain unknown. Technical findings were pending, and no link to the separate Tulcea aerial-target alert has been established."
     ],
     "basis": "01f210a6d125057d"
+  },
+  "N159": {
+    "slug": "2026-11-14-tulcea-morning-aerial-target-warning-romania",
+    "headline": "Tulcea receives two warnings during one morning aerial-target alert",
+    "description": "Romania issued two Tulcea warnings on 14 November after a target detection near Snake Island. Drone identity and Romanian entry were not established.",
+    "summary": [
+      "MApN reported an aerial target in the Snake Island area on the morning of 14 November 2026. Two Romanian F-16s launched from Fetești.",
+      "Eastern Tulcea received a warning at 04:45 local, followed by northern Tulcea at 05:39. The all-clear came at 05:52. These messages belong to one alert episode, not two confirmed drone occurrences.",
+      "The statement did not identify the target as a drone or confirm Romanian entry. This selected alert is separate from the previous evening’s warning; no connection to the Larissa 1 hit is established."
+    ],
+    "basis": "eb1c264de7573c09"
   }
 }

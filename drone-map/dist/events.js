@@ -9199,6 +9199,49 @@ window.DRONE_DATA = {
         "U301"
       ],
       "page": "events/2026-11-13-larissa-1-drone-hit-sfantu-gheorghe-romania/"
+    },
+    {
+      "id": "N159",
+      "title": "Eastern and northern Tulcea · 14 November morning warning",
+      "recordClass": "event",
+      "recordType": "civil_protection_air_alert",
+      "startDate": "2026-11-14",
+      "dateLabel": "14 November 2026; warnings at 04:45 and 05:39, all-clear 05:52 local",
+      "dateBasis": "MApN release 367 explicitly dates the morning occurrence to 14 November. Times are warning messages and all-clear, not target flight duration.",
+      "countries": "Romania",
+      "location": "Warning areas in eastern and northern Tulcea; aerial target in the Snake Island area, exact position not supplied.",
+      "status": "Officially reported aerial-target alert; drone identity and Romanian entry not established",
+      "categories": "Nearby unidentified aerial target; civil-protection warning",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.15,
+          "lng": 29.25,
+          "precision": "region",
+          "label": "Eastern/northern Tulcea — approximate warning-area anchor"
+        }
+      ],
+      "positionNote": "Broad Romanian warning-area anchor, not target coordinates or a flight path.",
+      "vehicle": "Aerial target; not identified as a drone in the reviewed ministry account.",
+      "attribution": "Operator, origin and intent unknown.",
+      "route": "Detection in the Snake Island area; exact track, jurisdiction and Romanian entry not established.",
+      "circumstances": "MApN reported a radar target in the Snake Island area; two successive civil-protection messages covered eastern then northern Tulcea.",
+      "payload": "Not reported.",
+      "impact": "No damage or casualties reported.",
+      "response": "Two Romanian F-16s launched from Fetești. RO-Alert messages at 04:45 and 05:39 local; all-clear at 05:52.",
+      "uncertainty": "MApN does not identify the target as a drone or confirm Romanian entry, engagement, crash or damage. The two warning messages do not establish two targets or separate occurrences.",
+      "deduplication": "One selected morning episode on 14 November with two warning messages. Distinct from N157 on the previous evening; no established link to the Larissa 1 hit N158.",
+      "provenance": "MApN release 367 and TVR full article bodies read 14 November 2026.",
+      "classificationNote": "Selected civil-protection alert only; not a confirmed drone incursion.",
+      "sourceReferences": "[U302][U302]; [U303][U303]",
+      "sources": [
+        "U302",
+        "U303"
+      ],
+      "page": "events/2026-11-14-tulcea-morning-aerial-target-warning-romania/"
     }
   ],
   "contexts": [
@@ -12874,9 +12917,25 @@ window.DRONE_DATA = {
       "url": "https://www.antena3.ro/actualitate/o-nava-cargo-cu-destinatia-ucraina-a-fost-lovita-de-o-drona-langa-sf-gheorghe-in-apele-teritoriale-ale-romaniei-811141.html",
       "dateLabel": "2026-11-14 09:43 local; updated 13:39",
       "audit": "Actual body read. Quotes minister withholding origin findings pending technical investigation. Incident location relies on outlet sources; illustrative Getty image is not incident footage."
+    },
+    "U302": {
+      "id": "U302",
+      "publisher": "Romanian Ministry of National Defence (MApN)",
+      "title": "Informație de presă — release 367",
+      "url": "https://www.mapn.ro/cpresa/19476_Informa%C8%9Bie-de-presa",
+      "dateLabel": "2026-11-14",
+      "audit": "Full primary statement read. One morning aerial target in Snake Island area, two F-16s, warnings 04:45 and 05:39, all-clear 05:52. Does not identify a drone or establish Romanian entry; no target coordinate supplied."
+    },
+    "U303": {
+      "id": "U303",
+      "publisher": "TVR",
+      "title": "Țintă aeriană în zona Insulei Șerpilor. Mesaje RO-ALERT pentru populația din județul Tulcea",
+      "url": "https://tvrinfo.ro/tinta-aeriana-in-zona-insulei-serpilor-mesaje-ro-alert-pentru-populatia-din-judetul-tulcea-doua-avioane-f-16-au-decolat-de-la-baza-86-aeriana-fetesti/",
+      "dateLabel": "2026-11-14",
+      "audit": "Full article read. Reproduces MApN account, not independent target identification. Stock image/tag wording is not evidence that the target was a drone."
     }
   },
-  "cutoff": "2026-11-13",
+  "cutoff": "2026-11-14",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

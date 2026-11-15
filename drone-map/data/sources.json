@@ -3484,5 +3484,21 @@
     "url": "https://www.antena3.ro/actualitate/o-nava-cargo-cu-destinatia-ucraina-a-fost-lovita-de-o-drona-langa-sf-gheorghe-in-apele-teritoriale-ale-romaniei-811141.html",
     "dateLabel": "2026-11-14 09:43 local; updated 13:39",
     "audit": "Actual body read. Quotes minister withholding origin findings pending technical investigation. Incident location relies on outlet sources; illustrative Getty image is not incident footage."
+  },
+  "U302": {
+    "id": "U302",
+    "publisher": "Romanian Ministry of National Defence (MApN)",
+    "title": "Informație de presă — release 367",
+    "url": "https://www.mapn.ro/cpresa/19476_Informa%C8%9Bie-de-presa",
+    "dateLabel": "2026-11-14",
+    "audit": "Full primary statement read. One morning aerial target in Snake Island area, two F-16s, warnings 04:45 and 05:39, all-clear 05:52. Does not identify a drone or establish Romanian entry; no target coordinate supplied."
+  },
+  "U303": {
+    "id": "U303",
+    "publisher": "TVR",
+    "title": "Țintă aeriană în zona Insulei Șerpilor. Mesaje RO-ALERT pentru populația din județul Tulcea",
+    "url": "https://tvrinfo.ro/tinta-aeriana-in-zona-insulei-serpilor-mesaje-ro-alert-pentru-populatia-din-judetul-tulcea-doua-avioane-f-16-au-decolat-de-la-baza-86-aeriana-fetesti/",
+    "dateLabel": "2026-11-14",
+    "audit": "Full article read. Reproduces MApN account, not independent target identification. Stock image/tag wording is not evidence that the target was a drone."
   }
 }
