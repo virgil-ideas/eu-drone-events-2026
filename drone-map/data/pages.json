@@ -2131,5 +2131,47 @@
       "The statement did not identify the target as a drone or confirm Romanian entry. This selected alert is separate from the previous evening’s warning; no connection to the Larissa 1 hit is established."
     ],
     "basis": "eb1c264de7573c09"
+  },
+  "N160": {
+    "slug": "2026-11-14-evia-petrol-v-reported-drone-hit-sulina-romania",
+    "headline": "EVIA PETROL V hit by drone off Sulina, according to reported ministry account",
+    "description": "EVIA PETROL V was reportedly hit off Sulina on 14 November. Crew extinguished a fire; no casualties were reported. Operator and exact position remain unknown.",
+    "summary": [
+      "EVIA PETROL V was hit by a drone at about 21:10 local on 14 November 2026, according to News.ro’s account of MApN information from civilian maritime authorities. The reported location was approximately 4 nautical miles east-southeast of Sulina.",
+      "The crew extinguished an onboard fire; no casualties were reported. Radio România Constanța describes Romanian territorial waters, but exact impact coordinates and jurisdiction have not been independently verified.",
+      "Operator, origin, intent and any connection to other vessel hits or nearby alerts remain unknown."
+    ],
+    "basis": "a0563dce14508b94"
+  },
+  "N161": {
+    "slug": "2026-11-14-marsol-reported-drone-hit-sulina-romania",
+    "headline": "MARSOL hit by drone off Sulina, according to reported ministry account",
+    "description": "MARSOL was reportedly hit off Sulina on 14 November. Crew extinguished a fire; no casualties were reported. Operator and exact position remain unknown.",
+    "summary": [
+      "MARSOL was hit by a drone at about 21:45 local on 14 November 2026, according to News.ro’s account of MApN information from civilian maritime authorities. The reported location was approximately 5 nautical miles southeast of the Sulina Canal.",
+      "The crew extinguished an onboard fire; no casualties were reported. Radio România Constanța describes Romanian territorial waters, but exact impact coordinates and jurisdiction have not been independently verified.",
+      "Operator, origin, intent and any connection to other vessel hits or nearby alerts remain unknown. An earlier maritime report gives 21:29 CET instead; that timing discrepancy remains unresolved."
+    ],
+    "basis": "c8aaae751e1e30dd"
+  },
+  "N162": {
+    "slug": "2026-11-14-tulcea-evening-aerial-target-warning-romania",
+    "headline": "Eastern Tulcea · 14 November evening warning",
+    "description": "Romanian authorities issued a civil-protection warning after an aerial detection. Drone identity and Romanian entry remain unconfirmed.",
+    "summary": [
+      "Two Romanian F-16s launched from Fetești; eastern Tulcea warning at 20:51, all-clear 21:37.",
+      "Quoted ministry terminology does not confirm a drone, entry, attack or engagement. No demonstrated link to vessel strikes."
+    ],
+    "basis": "3a364c82c1c53acd"
+  },
+  "N163": {
+    "slug": "2026-11-14-sulina-late-radar-contact-warning-romania",
+    "headline": "Sulina area · late 14 November radar-contact warning",
+    "description": "Romanian authorities issued a civil-protection warning after an aerial detection. Drone identity and Romanian entry remain unconfirmed.",
+    "summary": [
+      "New eastern Tulcea warning at 23:19; all-clear at 00:27 the next day. A separate launch is not established.",
+      "Quoted ministry terminology does not confirm a drone, entry, attack or engagement. No demonstrated link to vessel strikes."
+    ],
+    "basis": "88ea01578c27ac99"
   }
 }

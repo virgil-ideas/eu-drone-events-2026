@@ -9242,6 +9242,179 @@ window.DRONE_DATA = {
         "U303"
       ],
       "page": "events/2026-11-14-tulcea-morning-aerial-target-warning-romania/"
+    },
+    {
+      "id": "N160",
+      "title": "EVIA PETROL V · reported drone hit off Sulina",
+      "recordClass": "event",
+      "recordType": "reported_maritime_drone_strike",
+      "startDate": "2026-11-14",
+      "dateLabel": "14 November 2026; about 21:10 local",
+      "dateBasis": "Occurrence on the evening of 14 November, reported the same day. Time follows the MApN-attributed account in News.ro.",
+      "countries": "Romania",
+      "location": "approximately 4 nautical miles east-southeast of Sulina; Romanian territorial waters according to Radio România Constanța, not independently determined from a published coordinate. Maritime.bg also reports an anchorage inside Romanian territorial waters.",
+      "status": "Drone hit reported by MApN via News.ro, relaying civilian maritime authorities",
+      "categories": "Reported maritime drone impact; onboard fire",
+      "category": "strike",
+      "stages": [
+        "strike"
+      ],
+      "positions": [
+        {
+          "lat": 45.13,
+          "lng": 29.77,
+          "precision": "offshore",
+          "label": "EVIA PETROL V — approximate Sulina offshore anchor"
+        }
+      ],
+      "positionNote": "Rounded editorial anchor reflecting the reported Sulina-area distance and direction; not AIS, impact coordinates, a flight path or a verified maritime boundary determination.",
+      "vehicle": "Maritime.bg describes aerial drones; type, number and origin not independently established.",
+      "attribution": "Operator, nationality, intended target and intent unknown.",
+      "route": "Approach and launch location unknown; reported vessel location is not a drone route.",
+      "circumstances": "News.ro reports that MApN, citing civilian maritime authorities, recorded a drone hit on EVIA PETROL V at about 21:10 local. The vessel is described as a Greek-flagged tanker. Maritime.bg identifies EVIAPETROL V (IMO 9358503), spelling also reported as EVIA PETROL V.",
+      "payload": "Not reported; fire does not establish an explosive payload.",
+      "impact": "Onboard fire reported; extinguished by crew. No casualties reported.",
+      "response": "Crew firefighting; further technical assessment not established in the reviewed account.",
+      "uncertainty": "Exact position and jurisdiction not independently verified. Ministry account accessed through News.ro, not a direct evening release. Maritime reporting chains may share provenance. No established link to nearby aerial-target alerts, another vessel hit or the previous day’s LARISSA 1 incident. Maritime.bg relays nearby seafarers’ account of VHF no-injury reports; the transmission itself was not verified. Its coordinated-attack characterization is not established.",
+      "deduplication": "One separately named vessel occurrence, distinct in time and location from the other 14 November Sulina hit. Do not add alert detections or fire response as extra drone occurrences. Distinct from LARISSA 1 N158 and morning alert N159.",
+      "provenance": "Targeted review of actual News.ro and Radio România Constanța article bodies; reviewed 15 November 2026.",
+      "classificationNote": "Reported damaging drone impact supports Strike; onboard fire is not by itself a confirmed explosion. Territorial-water wording remains source-attributed, not independently verified.",
+      "sourceReferences": "[U304][U304]; [U305][U305]; [U306][U306]",
+      "sources": [
+        "U304",
+        "U305",
+        "U306"
+      ],
+      "page": "events/2026-11-14-evia-petrol-v-reported-drone-hit-sulina-romania/"
+    },
+    {
+      "id": "N161",
+      "title": "MARSOL · reported drone hit off Sulina",
+      "recordClass": "event",
+      "recordType": "reported_maritime_drone_strike",
+      "startDate": "2026-11-14",
+      "dateLabel": "14 November 2026; about 21:45 local",
+      "dateBasis": "Occurrence on the evening of 14 November, reported the same day. Time follows the MApN-attributed account in News.ro. Earlier Radio România Constanța, citing Vesseltracker, gives 21:29 CET; discrepancy unresolved and not a second occurrence.",
+      "countries": "Romania",
+      "location": "approximately 5 nautical miles southeast of the Sulina Canal; Romanian territorial waters according to Radio România Constanța, not independently determined from a published coordinate. Maritime.bg also reports an anchorage inside Romanian territorial waters.",
+      "status": "Drone hit reported by MApN via News.ro, relaying civilian maritime authorities",
+      "categories": "Reported maritime drone impact; onboard fire",
+      "category": "strike",
+      "stages": [
+        "strike"
+      ],
+      "positions": [
+        {
+          "lat": 45.1,
+          "lng": 29.76,
+          "precision": "offshore",
+          "label": "MARSOL — approximate Sulina offshore anchor"
+        }
+      ],
+      "positionNote": "Rounded editorial anchor reflecting the reported Sulina-area distance and direction; not AIS, impact coordinates, a flight path or a verified maritime boundary determination.",
+      "vehicle": "Maritime.bg describes aerial drones; type, number and origin not independently established.",
+      "attribution": "Operator, nationality, intended target and intent unknown.",
+      "route": "Approach and launch location unknown; reported vessel location is not a drone route.",
+      "circumstances": "News.ro reports that MApN, citing civilian maritime authorities, recorded a drone hit on MARSOL at about 21:45 local. Maritime.bg identifies MARSOL (IMO 9109512), a Saint Kitts and Nevis-flagged bulk carrier.",
+      "payload": "Not reported; fire does not establish an explosive payload.",
+      "impact": "Onboard fire reported; extinguished by crew. No casualties reported. Earlier maritime reporting cited by Radio România Constanța describes a cargo-crane and hold hit; full damage extent remains unknown.",
+      "response": "Crew firefighting; further technical assessment not established in the reviewed account.",
+      "uncertainty": "Exact position and jurisdiction not independently verified. Ministry account accessed through News.ro, not a direct evening release. Maritime reporting chains may share provenance. No established link to nearby aerial-target alerts, another vessel hit or the previous day’s LARISSA 1 incident. Maritime.bg relays nearby seafarers’ account of VHF no-injury reports; the transmission itself was not verified. Its coordinated-attack characterization is not established.",
+      "deduplication": "One separately named vessel occurrence, distinct in time and location from the other 14 November Sulina hit. Do not add alert detections or fire response as extra drone occurrences. Distinct from LARISSA 1 N158 and morning alert N159.",
+      "provenance": "Targeted review of actual News.ro and Radio România Constanța article bodies; reviewed 15 November 2026.",
+      "classificationNote": "Reported damaging drone impact supports Strike; onboard fire is not by itself a confirmed explosion. Territorial-water wording remains source-attributed, not independently verified.",
+      "sourceReferences": "[U304][U304]; [U305][U305]; [U306][U306]",
+      "sources": [
+        "U304",
+        "U305",
+        "U306"
+      ],
+      "page": "events/2026-11-14-marsol-reported-drone-hit-sulina-romania/"
+    },
+    {
+      "id": "N162",
+      "title": "Eastern Tulcea · 14 November evening warning",
+      "recordClass": "event",
+      "recordType": "civil_protection_air_alert",
+      "startDate": "2026-11-14",
+      "dateLabel": "14 November 2026; 20:51–21:37 local",
+      "dateBasis": "Warning and all-clear times reported by News.ro with MApN attribution; these are not flight duration.",
+      "countries": "Romania",
+      "location": "East of Snake Island; exact position and jurisdiction unspecified.",
+      "status": "Ministry-attributed aerial-target warning; drone identity and Romanian entry unconfirmed",
+      "categories": "Nearby unidentified aerial target; civil-protection warning",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.15,
+          "lng": 29.25,
+          "precision": "region",
+          "label": "Eastern/northern Tulcea — approximate warning-area anchor"
+        }
+      ],
+      "positionNote": "Broad Romanian warning-area anchor, not target coordinates or a flight path.",
+      "vehicle": "Unidentified aerial target/radar contact.",
+      "attribution": "Operator, origin and intent unknown.",
+      "route": "No verified flight path or Romanian crossing.",
+      "circumstances": "Selected civil-protection alert following a reported radar detection.",
+      "payload": "Not reported.",
+      "impact": "No damage or casualties reported.",
+      "response": "Two Romanian F-16s launched from Fetești; eastern Tulcea warning at 20:51, all-clear 21:37.",
+      "uncertainty": "Quoted ministry terminology does not confirm a drone, entry, attack or engagement. No demonstrated link to vessel strikes.",
+      "deduplication": "Separate from the morning N159 episode and the other evening warning after a distinct all-clear/new contact. No vessel-hit linkage inferred.",
+      "provenance": "News.ro updated body read 15 November 2026.",
+      "classificationNote": "Selected civil-protection alert only; not a confirmed drone incursion.",
+      "sourceReferences": "[U304][U304]",
+      "sources": [
+        "U304"
+      ],
+      "page": "events/2026-11-14-tulcea-evening-aerial-target-warning-romania/"
+    },
+    {
+      "id": "N163",
+      "title": "Sulina area · late 14 November radar-contact warning",
+      "recordClass": "event",
+      "recordType": "civil_protection_air_alert",
+      "startDate": "2026-11-14",
+      "dateLabel": "14 November 2026; 23:19 local on 14 November to 00:27 on 15 November",
+      "dateBasis": "Warning and all-clear times reported by News.ro with MApN attribution; these are not flight duration.",
+      "countries": "Romania",
+      "location": "Southeast of Sulina; exact target position and jurisdiction unspecified.",
+      "status": "Ministry-attributed aerial-target warning; drone identity and Romanian entry unconfirmed",
+      "categories": "Nearby unidentified aerial target; civil-protection warning",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.15,
+          "lng": 29.25,
+          "precision": "region",
+          "label": "Eastern/northern Tulcea — approximate warning-area anchor"
+        }
+      ],
+      "positionNote": "Broad Romanian warning-area anchor, not target coordinates or a flight path.",
+      "vehicle": "Unidentified aerial target/radar contact.",
+      "attribution": "Operator, origin and intent unknown.",
+      "route": "No verified flight path or Romanian crossing.",
+      "circumstances": "Selected civil-protection alert following a reported radar detection.",
+      "payload": "Not reported.",
+      "impact": "No damage or casualties reported.",
+      "response": "New eastern Tulcea warning at 23:19; all-clear at 00:27 the next day. A separate launch is not established.",
+      "uncertainty": "Quoted ministry terminology does not confirm a drone, entry, attack or engagement. No demonstrated link to vessel strikes.",
+      "deduplication": "Separate from the morning N159 episode and the other evening warning after a distinct all-clear/new contact. No vessel-hit linkage inferred.",
+      "provenance": "News.ro updated body read 15 November 2026.",
+      "classificationNote": "Selected civil-protection alert only; not a confirmed drone incursion.",
+      "sourceReferences": "[U304][U304]",
+      "sources": [
+        "U304"
+      ],
+      "endDate": "2026-11-15",
+      "page": "events/2026-11-14-sulina-late-radar-contact-warning-romania/"
     }
   ],
   "contexts": [
@@ -9294,23 +9467,23 @@ window.DRONE_DATA = {
     },
     {
       "id": "A003",
-      "dateLabel": "2026 year to date; dashboard updated 2026-11-12",
-      "dateBasis": "Dashboard explicitly dated 12 November; table read 13 November.",
+      "dateLabel": "2026 year to date; dashboard updated 2026-11-14",
+      "dateBasis": "Primary dashboard explicitly dated 14 November, read 15 November.",
       "countries": "Romania",
       "location": "MApN official national dashboard; categories defined by the ministry",
       "status": "Official overlapping counters — NOT additive",
       "categories": "Near-border attacks; scrambles; unauthorized access; shoot-downs; fragments; separate mine counter",
-      "vehicle": "2026 dashboard: 112 near-border attacks; 91 aircraft-response incidents; 39 unauthorized entries; 6 downed drones; 44 drones/fragments identified, recovered or neutralized; 2 naval mines",
+      "vehicle": "2026 dashboard: 114 near-border attacks; 93 aircraft-response incidents; 39 unauthorized entries; 6 downed drones; 44 drones/fragments identified, recovered or neutralized; 2 naval mines",
       "attribution": "Different populations: nearby attacks, responses, airspace incidents and recoveries",
       "route": "Not an event-by-event route dataset",
-      "circumstances": "Current official snapshot retained separately from the research chronology. On 5 October the dashboard reported 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries and 4 shot-down drones. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 on 2, 5 and 17 October. Counter changes alone do not identify individual events; N095 separately records the confirmed 17 October interception. The 4–5 October Vâlcove alert involved no detected Romanian airspace entry and is excluded from the map (U026). The prior 21 October review recorded a display of 39 near-border attacks, differing from the previously recorded 97; no explanation or event-level reconciliation is supplied. The other listed 2026 counters are unchanged. The 21 October 03:34–04:02 Tulcea alert explicitly reported no national-airspace entry (U101). On 24 October, both the current table and cards show 98 near-border attacks. This supersedes the prior recorded 39 display, without explaining that discrepancy or identifying a new occurrence. Other counters remain unchanged. On 10 November, the dashboard dated 9 November shows 109 near-border attacks, 88 aircraft-response incidents and 39 unauthorized entries for 2026; other listed counters remain unchanged. These supersede the earlier snapshot without independently reconstructing individual events. On 12 November, the dashboard dated 11 November shows 111 near-border attacks and 90 aircraft-response incidents for 2026; other counters are unchanged. These counters do not independently establish new dated occurrences. On 13 November, the dashboard dated 12 November shows 112 near-border attacks and 91 aircraft-response incidents for 2026; the other counters remain unchanged. These overlapping totals do not independently establish new occurrences.",
+      "circumstances": "Current official snapshot retained separately from the research chronology. On 5 October the dashboard reported 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries and 4 shot-down drones. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 on 2, 5 and 17 October. Counter changes alone do not identify individual events; N095 separately records the confirmed 17 October interception. The 4–5 October Vâlcove alert involved no detected Romanian airspace entry and is excluded from the map (U026). The prior 21 October review recorded a display of 39 near-border attacks, differing from the previously recorded 97; no explanation or event-level reconciliation is supplied. The other listed 2026 counters are unchanged. The 21 October 03:34–04:02 Tulcea alert explicitly reported no national-airspace entry (U101). On 24 October, both the current table and cards show 98 near-border attacks. This supersedes the prior recorded 39 display, without explaining that discrepancy or identifying a new occurrence. Other counters remain unchanged. On 10 November, the dashboard dated 9 November shows 109 near-border attacks, 88 aircraft-response incidents and 39 unauthorized entries for 2026; other listed counters remain unchanged. These supersede the earlier snapshot without independently reconstructing individual events. On 12 November, the dashboard dated 11 November shows 111 near-border attacks and 90 aircraft-response incidents for 2026; other counters are unchanged. These counters do not independently establish new dated occurrences. On 13 November, the dashboard dated 12 November shows 112 near-border attacks and 91 aircraft-response incidents for 2026; the other counters remain unchanged. These overlapping totals do not independently establish new occurrences. On 15 November the dashboard dated 14 November shows 114 near-border attacks and 93 aircraft-response incidents; other counters unchanged. No individual event is inferred from these totals.",
       "payload": "Not reported",
       "impact": "Not reported",
       "response": "MApN operational/recovery categories.",
       "uncertainty": "Overlapping ministry-specific populations, not additive incident totals. Historical display discrepancy remains unresolved. Counter changes alone do not identify individual occurrences or operators.",
       "deduplication": "All categories overlap. Mine counter is not a drone count. Do not total counters or use them to replace the incident register.",
       "provenance": "A003 refreshed on 2026-10-19 against the MApN dashboard updated 17 October (U074). Earlier snapshots remain documented in the original research and Git history (S62, U016, U020 and U027). Current dashboard and bulletin 339 reviewed 21 October (U100–U101), retaining earlier snapshots as dated history. Current dashboard rechecked 24 October (U154); prior snapshots preserved.",
-      "sourceReferences": "[S62][S62]; [U016][U016]; [U020][U020]; [U026][U026]; [U027][U027]; [U074][U074]; [U100][U100]; [U101][U101]; [U154][U154]; [U270][U270]; [U280][U280]; [U290][U290]",
+      "sourceReferences": "[S62][S62]; [U016][U016]; [U020][U020]; [U026][U026]; [U027][U027]; [U074][U074]; [U100][U100]; [U101][U101]; [U154][U154]; [U270][U270]; [U280][U280]; [U290][U290]; [U307][U307]",
       "sources": [
         "S62",
         "U016",
@@ -9323,7 +9496,8 @@ window.DRONE_DATA = {
         "U154",
         "U270",
         "U280",
-        "U290"
+        "U290",
+        "U307"
       ]
     },
     {
@@ -12933,9 +13107,41 @@ window.DRONE_DATA = {
       "url": "https://tvrinfo.ro/tinta-aeriana-in-zona-insulei-serpilor-mesaje-ro-alert-pentru-populatia-din-judetul-tulcea-doua-avioane-f-16-au-decolat-de-la-baza-86-aeriana-fetesti/",
       "dateLabel": "2026-11-14",
       "audit": "Full article read. Reproduces MApN account, not independent target identification. Stock image/tag wording is not evidence that the target was a drone."
+    },
+    "U304": {
+      "id": "U304",
+      "publisher": "News.ro",
+      "title": "MApN: two commercial vessels hit by drones near Sulina; fires extinguished, no casualties",
+      "url": "https://www.news.ro/social/update-mapn-tinta-aeriana-detectata-est-insula-serpilor-doua-nave-comerciale-lovite-drone-au-provocat-incendii-bord-victime-mesaje-alert-judetul-tulcea-drona-detectata-sud-est-sulina-1922402614002026112122988299",
+      "dateLabel": "2026-11-14; updated evening account",
+      "audit": "Actual article body read in targeted review. Attributes vessel-hit details to MApN relaying civilian maritime authorities: EVIA PETROL V about 21:10, 4 nm ESE Sulina; MARSOL about 21:45, 5 nm SE canal. No casualties, crew-extinguished fires. Direct evening ministry statement not located; this is a reported official account, not independent technical verification. Separate alert detections do not establish attack tracks or identity. Updated body re-read 15 November: separate evening warning and later new radar contact; final all-clear 00:27 the following day. Headline drone wording is stronger than quoted ministry target/contact terminology."
+    },
+    "U305": {
+      "id": "U305",
+      "publisher": "Radio România Constanța",
+      "title": "Nave atacate cu drone în apropiere de Sulina — presa bulgară",
+      "url": "https://www.radioconstanta.ro/2026/11/14/nave-atacate-cu-drone-in-apropiere-de-sulina-presa-bulgara/",
+      "dateLabel": "2026-11-14 23:01 local",
+      "audit": "Actual body read. Earlier account cites Maritime.bg and Vesseltracker, reports Romanian territorial waters and MARSOL crane/hold hit. At publication it said Romanian authorities had not confirmed. Vesseltracker-linked timing 21:29 CET differs from later MApN-attributed 21:45 local. Shared maritime reporting is not counted as independent confirmations; vessel positions and jurisdiction not independently determined."
+    },
+    "U306": {
+      "id": "U306",
+      "publisher": "Maritime.bg",
+      "title": "Drone Strikes Hit Tanker EVIAPETROL V and Bulker MARSOL off Sulina, Romania",
+      "url": "https://www.maritime.bg/158131/",
+      "dateLabel": "2026-11-14 23:07",
+      "audit": "Full indexed article text read after direct open failed. Identifies vessels and reports anchorage within Romanian territorial waters. Nearby seafarers relay VHF no-injury reports; no direct VHF recording verified. Earlier coverage also cites this outlet, not independent corroboration. Coordinated-attack/campaign wording is not adopted; ministry confirmation was unavailable at this article publication."
+    },
+    "U307": {
+      "id": "U307",
+      "publisher": "Romanian Ministry of National Defence",
+      "title": "Drone and naval-mine dashboard, updated 14 November 2026",
+      "url": "https://www.mapn.ro/",
+      "dateLabel": "2026-11-14 dashboard; read 2026-11-15",
+      "audit": "Actual primary dashboard read: 2026 counters 114 near-border attacks, 93 aircraft-response incidents, 39 unauthorized entries, 6 downed, 44 drones/fragments, 2 mines. Overlapping categories, not reconstructed individual occurrences."
     }
   },
-  "cutoff": "2026-11-14",
+  "cutoff": "2026-11-15",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

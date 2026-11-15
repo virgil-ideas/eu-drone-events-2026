@@ -3500,5 +3500,37 @@
     "url": "https://tvrinfo.ro/tinta-aeriana-in-zona-insulei-serpilor-mesaje-ro-alert-pentru-populatia-din-judetul-tulcea-doua-avioane-f-16-au-decolat-de-la-baza-86-aeriana-fetesti/",
     "dateLabel": "2026-11-14",
     "audit": "Full article read. Reproduces MApN account, not independent target identification. Stock image/tag wording is not evidence that the target was a drone."
+  },
+  "U304": {
+    "id": "U304",
+    "publisher": "News.ro",
+    "title": "MApN: two commercial vessels hit by drones near Sulina; fires extinguished, no casualties",
+    "url": "https://www.news.ro/social/update-mapn-tinta-aeriana-detectata-est-insula-serpilor-doua-nave-comerciale-lovite-drone-au-provocat-incendii-bord-victime-mesaje-alert-judetul-tulcea-drona-detectata-sud-est-sulina-1922402614002026112122988299",
+    "dateLabel": "2026-11-14; updated evening account",
+    "audit": "Actual article body read in targeted review. Attributes vessel-hit details to MApN relaying civilian maritime authorities: EVIA PETROL V about 21:10, 4 nm ESE Sulina; MARSOL about 21:45, 5 nm SE canal. No casualties, crew-extinguished fires. Direct evening ministry statement not located; this is a reported official account, not independent technical verification. Separate alert detections do not establish attack tracks or identity. Updated body re-read 15 November: separate evening warning and later new radar contact; final all-clear 00:27 the following day. Headline drone wording is stronger than quoted ministry target/contact terminology."
+  },
+  "U305": {
+    "id": "U305",
+    "publisher": "Radio România Constanța",
+    "title": "Nave atacate cu drone în apropiere de Sulina — presa bulgară",
+    "url": "https://www.radioconstanta.ro/2026/11/14/nave-atacate-cu-drone-in-apropiere-de-sulina-presa-bulgara/",
+    "dateLabel": "2026-11-14 23:01 local",
+    "audit": "Actual body read. Earlier account cites Maritime.bg and Vesseltracker, reports Romanian territorial waters and MARSOL crane/hold hit. At publication it said Romanian authorities had not confirmed. Vesseltracker-linked timing 21:29 CET differs from later MApN-attributed 21:45 local. Shared maritime reporting is not counted as independent confirmations; vessel positions and jurisdiction not independently determined."
+  },
+  "U306": {
+    "id": "U306",
+    "publisher": "Maritime.bg",
+    "title": "Drone Strikes Hit Tanker EVIAPETROL V and Bulker MARSOL off Sulina, Romania",
+    "url": "https://www.maritime.bg/158131/",
+    "dateLabel": "2026-11-14 23:07",
+    "audit": "Full indexed article text read after direct open failed. Identifies vessels and reports anchorage within Romanian territorial waters. Nearby seafarers relay VHF no-injury reports; no direct VHF recording verified. Earlier coverage also cites this outlet, not independent corroboration. Coordinated-attack/campaign wording is not adopted; ministry confirmation was unavailable at this article publication."
+  },
+  "U307": {
+    "id": "U307",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Drone and naval-mine dashboard, updated 14 November 2026",
+    "url": "https://www.mapn.ro/",
+    "dateLabel": "2026-11-14 dashboard; read 2026-11-15",
+    "audit": "Actual primary dashboard read: 2026 counters 114 near-border attacks, 93 aircraft-response incidents, 39 unauthorized entries, 6 downed, 44 drones/fragments, 2 mines. Overlapping categories, not reconstructed individual occurrences."
   }
 }
