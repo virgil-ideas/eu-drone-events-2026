@@ -3556,5 +3556,61 @@
     "url": "https://www.mapn.ro/cpresa/19185_informa%C8%9Bie-de-presa",
     "dateLabel": "26 March 2026, release no.78; read 15 November 2026",
     "audit": "Primary body confirms 00:44 national-airspace entry, approximately 4 km penetration, crash 2 km from Parcheș, debris/burned vegetation and no reported damage or casualties. Ministry attributes diversion to Ukrainian air defence; operator/model not specified."
+  },
+  "U311": {
+    "id": "U311",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Press Information — overnight Chilia Veche target entry",
+    "url": "https://english.mapn.ro/cpresa/6747_Press-Information",
+    "dateLabel": "17 April 2026, release no.73; read 15 November 2026",
+    "audit": "Primary body confirms national-airspace entry by one aerial target and radar loss southeast of Chilia Veche. It does not explicitly identify the target as a drone or confirm a crash."
+  },
+  "U312": {
+    "id": "U312",
+    "publisher": "Radio România",
+    "title": "Alertă în nordul Dobrogei: O dronă de război a pătruns în spațiul aerian românesc, în apropiere de Chilia Veche",
+    "url": "https://www.radioromania.ro/Actualitate/alerta-in-nordul-dobrogei-o-drona-de-razboi-a-patruns-in-spatiul-aerian-romanesc-in-apropiere-de-chilia-veche-id171421.html",
+    "dateLabel": "17 April 2026, 07:41; updated07:45; read15 November2026",
+    "audit": "Headline labels a drone; article body calls it an aerial target and repeats MApN. Shared ministry provenance, not independent identity verification."
+  },
+  "U313": {
+    "publisher": "Reuters via Internazionale",
+    "title": "Three ships struck by drones in Black Sea near Romanian shipping canal, PM says",
+    "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/15/three-ships-struck-by-drones-in-black-sea-near-romanian-shipping-canal-pm-says",
+    "audit": "Actual English Reuters body read 15 November 2026, by Luiza Ilie. Identifies tanker/flag, late-Saturday timing, crew-controlled fires and no casualties; origin unidentified. Territorial-water sentence concerns only Evia Petrol V and Marsol.",
+    "id": "U313",
+    "dateLabel": "15 November 2026"
+  },
+  "U314": {
+    "publisher": "News.ro, quoting MApN",
+    "title": "MApN: another commercial ship reported hit by a drone near the Danube mouths",
+    "url": "https://www.news.ro/social/mapn-nava-comerciala-lovita-drona-noaptea-trecuta-apropierea-gurilor-dunarii-au-victime-anterior-doua-nave-s-au-confruntat-incendii-bord-dupa-au-lovite-drone-1922402915072026111222989347",
+    "audit": "Full indexed article body read 15 November 2026; published 12:29. Direct reopening unavailable. MApN explicitly relays ALI NAJAFOV's own report of being hit overnight, extinguished onboard fire and no reported casualties. No precise time or position.",
+    "id": "U314",
+    "dateLabel": "15 November 2026"
+  },
+  "U315": {
+    "id": "U315",
+    "publisher": "Agerpres",
+    "title": "MApN: radar target northeast of Valkove; Tulcea warning",
+    "url": "https://agerpres.ro/social/2026/11/15/mapn-sistemul-de-supraveghere-radar-a-detectat-o-tinta-aeriana-la-aproximativ-20-de-kilometri-nord-e--1613499",
+    "dateLabel": "15 November 2026",
+    "audit": "Actual body quotes MApN: radar target in Ukraine, two F-16s,15:02 warning. No confirmed national entry."
+  },
+  "U316": {
+    "id": "U316",
+    "publisher": "Agerpres",
+    "title": "Tulcea: extreme alert ended",
+    "url": "https://agerpres.ro/social/2026/11/15/tulcea-starea-de-alerta-extrema-a-incetat--1613512",
+    "dateLabel": "15 November 2026",
+    "audit": "Actual body describes the same warning extended to the municipality and ended for all affected communities17:05."
+  },
+  "U317": {
+    "id": "U317",
+    "publisher": "Ziua de Constanța",
+    "title": "Tulcea RO-Alert warning and extension",
+    "url": "https://www.ziuaconstanta.ro/stiri/eveniment/mesaj-ro-alert-de-alarma-aeriana-in-judetul-tulcea-populatia-avertizata-cu-privire-la-o-posibila-incursiune-de-drone-960555.html",
+    "dateLabel": "15 November 2026",
+    "audit": "Actual body cites ISU for16:56 municipality extension; not a second event."
   }
 }

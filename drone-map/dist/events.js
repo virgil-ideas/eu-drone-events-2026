@@ -674,6 +674,51 @@ window.DRONE_DATA = {
       "page": "events/2026-04-11-ukrainian-uav-recovery-iitti-finland/"
     },
     {
+      "id": "N167",
+      "title": "Chilia Veche · overnight unidentified target entry",
+      "recordClass": "candidate",
+      "recordType": "unidentified_airspace_entry",
+      "startDate": "2026-04-16",
+      "endDate": "2026-04-17",
+      "dateLabel": "Night of 16–17 April 2026; exact entry time unspecified",
+      "dateBasis": "MApN dates the episode to the night of 16–17 April. The 00:43 warning and 02:48 all-clear are response times, not entry time or flight duration.",
+      "countries": "Romania",
+      "location": "Romanian national airspace; radar contact lost about 16 km southeast of Chilia Veche above an uninhabited area.",
+      "status": "MApN-confirmed aerial-target entry; drone identity unconfirmed",
+      "categories": "Unidentified aerial-target entry; civil-protection alert",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.42,
+          "lng": 29.29,
+          "precision": "region",
+          "label": "Chilia Veche area — broad reference anchor"
+        }
+      ],
+      "positionNote": "Locality reference, not the target coordinates, contact-loss position or flight path.",
+      "vehicle": "One unidentified aerial target entered; two were monitored near the border.",
+      "attribution": "Specific operator, origin and intent not established.",
+      "route": "One of two monitored targets entered national airspace; radar contact subsequently lost southeast of Chilia Veche.",
+      "circumstances": "MApN reported the entry during nearby Russian drone attacks on Ukraine. Radio România called the object a drone in its headline, but its body repeats the ministry’s aerial-target description.",
+      "payload": "Unspecified.",
+      "impact": "No damage, casualties, crash or debris recovery established in the cited release.",
+      "response": "Northern Tulcea RO-Alert at 00:43; all-clear at 02:48. A ministry search team was preparing to depart that morning.",
+      "uncertainty": "Radar-contact loss does not establish a crash. Drone identity, model and operator remain unconfirmed; no intentional attack on Romania inferred.",
+      "deduplication": "Single overnight entry/response episode, no matching existing occurrence. The second monitored target is not counted as another entry.",
+      "provenance": "Primary ministry release and Radio România body read 15 November 2026.",
+      "classificationNote": "Provisional unidentified-target flight/alert record, not a confirmed drone incursion or attack.",
+      "sourceReferences": "[U311][U311]; [U312][U312]",
+      "sources": [
+        "U311",
+        "U312"
+      ],
+      "page": "events/2026-04-16-17-unidentified-target-entry-chilia-veche-romania/"
+    },
+    {
       "id": "E011",
       "dateLabel": "2026-04-25",
       "dateBasis": "Crash and disposal 25 April; EEST",
@@ -9543,6 +9588,94 @@ window.DRONE_DATA = {
       ],
       "endDate": "2026-11-15",
       "page": "events/2026-11-14-sulina-late-radar-contact-warning-romania/"
+    },
+    {
+      "title": "ALI NAJAFOV · reported drone hit near the Danube mouths",
+      "recordClass": "event",
+      "recordType": "reported_maritime_drone_strike",
+      "startDate": "2026-11-14",
+      "endDate": "2026-11-15",
+      "dateLabel": "Night of 14–15 November 2026; exact time unreported",
+      "dateBasis": "News.ro's 15 November MApN account describes the preceding night; Reuters dates the episode to late Saturday 14 November. Exact midnight boundary is not established.",
+      "countries": "Romania",
+      "location": "Black Sea near the Danube mouths / Sulina Canal; exact position and maritime jurisdiction unestablished.",
+      "status": "Reported maritime drone impact, relayed by Romanian authorities",
+      "categories": "Reported maritime drone impact; onboard fire",
+      "category": "strike",
+      "stages": [
+        "strike"
+      ],
+      "positions": [
+        {
+          "lat": 45.15,
+          "lng": 29.8,
+          "precision": "offshore",
+          "label": "Sulina offshore area — representative anchor only"
+        }
+      ],
+      "positionNote": "Broad editorial Sulina-area anchor, not impact coordinates, AIS or a maritime-boundary determination; no precise distance or direction is supplied for this vessel.",
+      "vehicle": "Drone reported; type, number and origin unknown.",
+      "attribution": "Operator, nationality, intent and intended target unknown.",
+      "route": "Launch site and approach unknown.",
+      "circumstances": "News.ro relays MApN's statement that ALI NAJAFOV reported a drone hit near the Danube mouths overnight. Reuters identifies the ship as a Saint Kitts and Nevis-flagged oil-products tanker.",
+      "payload": "Unreported; fire alone does not establish explosive payload.",
+      "impact": "Fire reported aboard; crew extinguished it. No casualties reported; damage extent unknown.",
+      "response": "Crew firefighting; further technical assessment not established.",
+      "uncertainty": "Vessel report relayed through official accounts, not an independently observed impact. No exact impact time or coordinates available. Romanian territorial-water wording in Reuters applies to EVIA PETROL V and MARSOL, not ALI NAJAFOV. No established common operator or link to alerts or other ship incidents; reports may share official provenance.",
+      "deduplication": "Separate named vessel, distinct from N160 EVIA PETROL V and N161 MARSOL and prior-day N158 LARISSA 1. Fire response and nearby alerts are not additional occurrences. No ALI NAJAFOV match in canonical events read through N166 on 15 November; recheck before writing.",
+      "classificationNote": "Reported maritime impact under the existing offshore-event treatment; no inference of a confirmed EU territorial incursion or proven deliberate attack.",
+      "provenance": "Actual Reuters syndicated article read; News.ro full indexed article text reviewed, with direct article reopening unavailable. Reviewed 15 November 2026.",
+      "id": "N168",
+      "sourceReferences": "[U313][U313]; [U314][U314]",
+      "sources": [
+        "U313",
+        "U314"
+      ],
+      "page": "events/2026-11-14-15-ali-najafov-reported-drone-hit-sulina-romania/"
+    },
+    {
+      "id": "N169",
+      "title": "Northern/eastern Tulcea · 15 November afternoon warning",
+      "recordClass": "event",
+      "recordType": "civil_protection_air_alert",
+      "startDate": "2026-11-15",
+      "dateLabel": "15 November 2026; warning 15:02–17:05 local",
+      "dateBasis": "Warning/all-clear times from reports quoting MApN and ISU; not flight duration.",
+      "countries": "Romania",
+      "location": "Northern/eastern Tulcea warning area, extended to Tulcea municipality; aerial target reported northeast of Valkove, Ukraine.",
+      "status": "Selected civil-protection warning; Romanian entry unconfirmed",
+      "categories": "Nearby unidentified aerial target; civil-protection warning",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.2,
+          "lng": 28.8,
+          "precision": "region",
+          "label": "Tulcea warning area — representative anchor"
+        }
+      ],
+      "positionNote": "Warning-area reference, not target coordinates or a flight path.",
+      "vehicle": "Unidentified aerial target.",
+      "attribution": "Operator, origin and intent unknown.",
+      "route": "MApN reported a target about 20km northeast of Valkove in Ukraine; no verified Romanian crossing.",
+      "circumstances": "Authorities issued a warning after the radar detection, later extending it to Tulcea municipality before a common all-clear.",
+      "payload": "Unreported.",
+      "impact": "No Romanian impact established in the warning reports.",
+      "response": "Two F-16s from 86th Air Base Fetești; first RO-Alert 15:02; municipality extension 16:56; all affected communities cleared 17:05.",
+      "uncertainty": "Target identity, Romanian entry and link to vessel incidents are unestablished. Aircraft response does not establish engagement.",
+      "deduplication": "One continuous afternoon warning episode; municipality extension is not a separate occurrence. Distinct from N163 previous-night warning, which ended 00:27.",
+      "provenance": "Actual Agerpres and Ziua Constanța bodies reviewed 15 November 2026.",
+      "classificationNote": "Selected alert only; not a confirmed drone incursion or attack.",
+      "sourceReferences": "[U315][U315]; [U316][U316]; [U317][U317]",
+      "sources": [
+        "U315",
+        "U316",
+        "U317"
+      ],
+      "page": "events/2026-11-15-tulcea-afternoon-aerial-target-warning-romania/"
     }
   ],
   "contexts": [
@@ -13291,6 +13424,62 @@ window.DRONE_DATA = {
       "url": "https://www.mapn.ro/cpresa/19185_informa%C8%9Bie-de-presa",
       "dateLabel": "26 March 2026, release no.78; read 15 November 2026",
       "audit": "Primary body confirms 00:44 national-airspace entry, approximately 4 km penetration, crash 2 km from Parcheș, debris/burned vegetation and no reported damage or casualties. Ministry attributes diversion to Ukrainian air defence; operator/model not specified."
+    },
+    "U311": {
+      "id": "U311",
+      "publisher": "Romanian Ministry of National Defence",
+      "title": "Press Information — overnight Chilia Veche target entry",
+      "url": "https://english.mapn.ro/cpresa/6747_Press-Information",
+      "dateLabel": "17 April 2026, release no.73; read 15 November 2026",
+      "audit": "Primary body confirms national-airspace entry by one aerial target and radar loss southeast of Chilia Veche. It does not explicitly identify the target as a drone or confirm a crash."
+    },
+    "U312": {
+      "id": "U312",
+      "publisher": "Radio România",
+      "title": "Alertă în nordul Dobrogei: O dronă de război a pătruns în spațiul aerian românesc, în apropiere de Chilia Veche",
+      "url": "https://www.radioromania.ro/Actualitate/alerta-in-nordul-dobrogei-o-drona-de-razboi-a-patruns-in-spatiul-aerian-romanesc-in-apropiere-de-chilia-veche-id171421.html",
+      "dateLabel": "17 April 2026, 07:41; updated07:45; read15 November2026",
+      "audit": "Headline labels a drone; article body calls it an aerial target and repeats MApN. Shared ministry provenance, not independent identity verification."
+    },
+    "U313": {
+      "publisher": "Reuters via Internazionale",
+      "title": "Three ships struck by drones in Black Sea near Romanian shipping canal, PM says",
+      "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/11/15/three-ships-struck-by-drones-in-black-sea-near-romanian-shipping-canal-pm-says",
+      "audit": "Actual English Reuters body read 15 November 2026, by Luiza Ilie. Identifies tanker/flag, late-Saturday timing, crew-controlled fires and no casualties; origin unidentified. Territorial-water sentence concerns only Evia Petrol V and Marsol.",
+      "id": "U313",
+      "dateLabel": "15 November 2026"
+    },
+    "U314": {
+      "publisher": "News.ro, quoting MApN",
+      "title": "MApN: another commercial ship reported hit by a drone near the Danube mouths",
+      "url": "https://www.news.ro/social/mapn-nava-comerciala-lovita-drona-noaptea-trecuta-apropierea-gurilor-dunarii-au-victime-anterior-doua-nave-s-au-confruntat-incendii-bord-dupa-au-lovite-drone-1922402915072026111222989347",
+      "audit": "Full indexed article body read 15 November 2026; published 12:29. Direct reopening unavailable. MApN explicitly relays ALI NAJAFOV's own report of being hit overnight, extinguished onboard fire and no reported casualties. No precise time or position.",
+      "id": "U314",
+      "dateLabel": "15 November 2026"
+    },
+    "U315": {
+      "id": "U315",
+      "publisher": "Agerpres",
+      "title": "MApN: radar target northeast of Valkove; Tulcea warning",
+      "url": "https://agerpres.ro/social/2026/11/15/mapn-sistemul-de-supraveghere-radar-a-detectat-o-tinta-aeriana-la-aproximativ-20-de-kilometri-nord-e--1613499",
+      "dateLabel": "15 November 2026",
+      "audit": "Actual body quotes MApN: radar target in Ukraine, two F-16s,15:02 warning. No confirmed national entry."
+    },
+    "U316": {
+      "id": "U316",
+      "publisher": "Agerpres",
+      "title": "Tulcea: extreme alert ended",
+      "url": "https://agerpres.ro/social/2026/11/15/tulcea-starea-de-alerta-extrema-a-incetat--1613512",
+      "dateLabel": "15 November 2026",
+      "audit": "Actual body describes the same warning extended to the municipality and ended for all affected communities17:05."
+    },
+    "U317": {
+      "id": "U317",
+      "publisher": "Ziua de Constanța",
+      "title": "Tulcea RO-Alert warning and extension",
+      "url": "https://www.ziuaconstanta.ro/stiri/eveniment/mesaj-ro-alert-de-alarma-aeriana-in-judetul-tulcea-populatia-avertizata-cu-privire-la-o-posibila-incursiune-de-drone-960555.html",
+      "dateLabel": "15 November 2026",
+      "audit": "Actual body cites ISU for16:56 municipality extension; not a second event."
     }
   },
   "cutoff": "2026-11-15",

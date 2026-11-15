@@ -2203,5 +2203,35 @@
       "The ministry said Ukrainian air defence diverted the drone. This account remains attributed to MApN; the release does not establish its operator, model or an intention to attack Romania."
     ],
     "basis": "2cb9f076551bab30"
+  },
+  "N167": {
+    "slug": "2026-04-16-17-unidentified-target-entry-chilia-veche-romania",
+    "headline": "Unidentified target enters Romanian airspace near Chilia Veche",
+    "description": "MApN confirmed an aerial-target entry overnight on 16–17 April. Drone identity and a crash remain unconfirmed despite subsequent radar-contact loss.",
+    "summary": [
+      "MApN reported one national-airspace entry during the night of 16–17 April. Contact was lost around 16 km southeast of Chilia Veche, and a search mission was announced.",
+      "The official release describes an aerial target, not an identified drone. Neither radar-contact loss nor a planned search establishes a crash or debris recovery."
+    ],
+    "basis": "40c7daaa727e1c47"
+  },
+  "N168": {
+    "slug": "2026-11-14-15-ali-najafov-reported-drone-hit-sulina-romania",
+    "headline": "ALI NAJAFOV reports overnight drone hit near Danube mouths",
+    "description": "Romanian authorities relayed a drone-hit report from ALI NAJAFOV. Its crew extinguished a fire; precise position, jurisdiction and attribution remain unknown.",
+    "summary": [
+      "ALI NAJAFOV reported a drone hit during the night of 14–15 November near the Danube mouths. Romanian authorities relayed the vessel report; the crew extinguished a fire and no casualties were reported.",
+      "This is a separate vessel from EVIA PETROL V and MARSOL. Its exact location and maritime jurisdiction remain unresolved; no common operator or deliberate targeting is established."
+    ],
+    "basis": "32e50640361d8eb3"
+  },
+  "N169": {
+    "slug": "2026-11-15-tulcea-afternoon-aerial-target-warning-romania",
+    "headline": "Tulcea afternoon warning extended to city, then lifted",
+    "description": "Aerial-target detection near Ukraine prompted a 15:02 Tulcea warning, extended to the city before 17:05 all-clear. Romanian entry remains unconfirmed.",
+    "summary": [
+      "A warning following an aerial-target detection in Ukraine began at 15:02 on 15 November. It was extended to Tulcea municipality at 16:56 and lifted for all affected communities at 17:05.",
+      "The extension belongs to the same warning episode. Neither drone identity nor Romanian airspace entry is established; no link to vessel impacts is inferred."
+    ],
+    "basis": "9f1fffe617077455"
   }
 }
