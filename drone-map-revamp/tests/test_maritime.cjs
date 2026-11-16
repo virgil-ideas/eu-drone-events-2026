@@ -31,6 +31,20 @@ test('later shipping additions advance labels and counts without editing interfa
   assert.equal(maritimeEscalation(input,'2026-10-28').records.length,9,'future records stay outside cutoff');
 });
 
+test('overnight Sulina reports extend the replay through 15 November and count each ship record once', () => {
+  const summary = maritimeEscalation(events, '2026-11-15');
+  assert.equal(summary.endDate, '2026-11-15');
+  assert.equal(summary.records.length, 13);
+  assert.deepEqual(summary.records.filter(event => event.startDate >= '2026-11-13').map(event => event.id),
+    ['N158', 'N160', 'N161', 'N168']);
+  assert.equal(maritimeEscalation(events, '2026-11-14').endDate, '2026-11-14');
+  const overnight = events.find(event => event.id === 'N168');
+  const sameDay = events.find(event => event.id === 'N161');
+  const later = {...sameDay, id: 'N999', startDate: '2026-11-15'};
+  const overlap = {...overnight, endDate: '2026-11-16'};
+  assert.equal(maritimeEscalation([overlap, later], '2026-11-18').endDate, '2026-11-16');
+});
+
 test('excluded and non-Black-Sea records do not extend the shipping escalation', () => {
   const ship=events.find(e=>e.id==='N124');
   const additions=[

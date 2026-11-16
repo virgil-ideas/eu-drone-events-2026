@@ -31,10 +31,11 @@ test('filtering a hidden mobile map defers framing until it is visible again', (
     map:{invalidateSize(){},fitBounds(points){fits.push(points);}}};
   vm.createContext(context);
   vm.runInContext(section('  let pendingMapFit', '  // Media helpers')
-    + section('  let mobileMapFitted', '  function selectEvent')
+    + section('  function setMobileView', '  function selectEvent')
     + 'this.fit=fitEvents;this.show=()=>setMobileView("map");', context);
+  context.fit(); // The map is visible and framed at startup.
   context.show();
-  assert.equal(fits.length, 1);
+  assert.equal(fits.length, 1, 'opening the map tab preserves the initial framing');
   workspace.dataset.mobileView='feed'; size.clientWidth=size.clientHeight=0;
   pool=active.filter(e=>e.countries==='Greece');
   context.fit();
@@ -115,17 +116,18 @@ test('localization preserves News mode and the active recording action', () => {
 test('maritime dates, focus counts and vessel list share the latest shipping records', () => {
   const $=elements(), labels=['revamp.presetMaritime','revamp.darkTurnReplayBtn','revamp.darkTurnPhase2Title','revamp.darkTurnBody']
     .map(key=>({dataset:{maritimeI18n:key},textContent:''}));
-  const context={$,events:active,cutoff:'2026-10-28',window:{DRONE_REPLAY:replay},
+  const context={$,events:active,cutoff:'2026-11-15',window:{DRONE_REPLAY:replay},
     document:{querySelectorAll:()=>labels},
     pageCopyFor:()=>({headline:'Ship'}),shortDate:x=>x,shortDateYear:x=>x,escape:String,colors:{},categoryLabel:x=>x,countryName:x=>x,
     t:(key,vars)=>`${key}:${vars?.n ?? vars?.range ?? ''}`};
   vm.createContext(context);
   vm.runInContext(section('  const maritimeEscalation','  const loadScript')
     +section('  function renderMaritimeDialog','  // Replay the same dated')+'renderMaritimeDialog();',context);
-  assert.equal($('focus-maritime-label').textContent,'revamp.darkTurnFocusBtn:9');
+  assert.equal($('focus-maritime-label').textContent,'revamp.darkTurnFocusBtn:13');
   assert.equal($('modal-filter-maritime-label').textContent,$('focus-maritime-label').textContent);
   assert.match($('maritime-vessel-list').innerHTML,/data-maritime-event="N124"/);
-  assert.match(labels[1].textContent,/2026-10-05 – 2026-10-28/);
+  assert.match($('maritime-vessel-list').innerHTML,/N168 · 2026-11-14 – 2026-11-15/);
+  assert.match(labels[1].textContent,/2026-10-05 – 2026-11-15/);
 });
 
 test('maritime replay uses the last ship date and includes CONTSHIP JET through the actual filter', () => {

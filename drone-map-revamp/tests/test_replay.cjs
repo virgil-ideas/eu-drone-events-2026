@@ -229,7 +229,7 @@ test('mobile tabs, feed tabs and interval presets expose their actual pressed st
   const context={feedMode:'incidents',$:element,t:x=>x,renderNewsList(){},
     document:{querySelector:()=>workspace,querySelectorAll:()=>chips}};
   vm.createContext(context);
-  const mobile=app.slice(app.indexOf('  function syncMobileTabs'),app.indexOf('  let mobileMapFitted'));
+  const mobile=app.slice(app.indexOf('  function syncMobileTabs'),app.indexOf('  function setMobileView'));
   const feed=app.slice(app.indexOf('  function setFeedMode'),app.indexOf("  $('tab-incidents').addEventListener"));
   const presets=app.slice(app.indexOf('  function updatePresetChips'),app.indexOf('  function applyInterval'));
   vm.runInContext(mobile+feed+presets+'syncMobileTabs();updatePresetChips("oct");',context);

@@ -46,7 +46,13 @@
       .sort((a, b) => a.startDate.localeCompare(b.startDate) || a.id.localeCompare(b.id));
     const records = ships.filter(event => event.startDate >= startDate);
     const precursors = ships.filter(event => event.startDate < startDate);
-    const endDate = records.at(-1)?.startDate || startDate;
+    // A ship report can span midnight. Count the record once on its start day,
+    // but let the replay cover its full reported window up to the cutoff.
+    let endDate = startDate;
+    for (const record of records) {
+      const reportedEnd = record.endDate || record.startDate;
+      if (reportedEnd > endDate) endDate = reportedEnd > cutoff ? cutoff : reportedEnd;
+    }
     return {ships, records, precursors, startDate, endDate};
   }
 

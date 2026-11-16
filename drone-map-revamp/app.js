@@ -915,7 +915,7 @@
 
   function syncMobileTabs() {
     const workspace = document.querySelector('.workspace');
-    const view = workspace.dataset.mobileView || 'feed';
+    const view = workspace.dataset.mobileView;
     const isIncidents = view === 'feed' && feedMode === 'incidents';
     const isNews = view === 'feed' && feedMode === 'news';
     const isMap = view === 'map';
@@ -927,8 +927,6 @@
     $('mob-tab-map').setAttribute('aria-pressed', String(isMap));
   }
 
-  let mobileMapFitted = window.innerWidth > 860;
-
   function setMobileView(view, targetFeedMode) {
     const workspace = document.querySelector('.workspace');
     workspace.dataset.mobileView = view;
@@ -936,10 +934,7 @@
     syncMobileTabs();
     if (view === 'map') {
       map.invalidateSize({animate: false});
-      if (!mobileMapFitted || pendingMapFit) {
-        mobileMapFitted = true;
-        if (!selectedId && !openAreaId) fitEvents();
-      }
+      if (pendingMapFit && !selectedId && !openAreaId) fitEvents();
       requestAnimationFrame(() => {
         map.invalidateSize({animate: false});
       });
@@ -1147,11 +1142,14 @@
     }
     const renderItem = event => {
       const copy = pageCopyFor(event);
+      const vesselDate = event.endDate && event.endDate !== event.startDate
+        ? `${shortDate(event.startDate)} – ${shortDateYear(event.endDate)}`
+        : shortDateYear(event.startDate);
       const territorialCountry = window.DRONE_REPLAY.territorialCountry(event);
       const casualtyBadge = hasCasualties(event) ? `<span class="casualty-badge">${escape(t('revamp.casualtyBadge'))}</span>` : '';
       return `<button type="button" class="maritime-vessel-item" data-maritime-event="${event.id}" style="--category:${colors[event.category]}">
         <div class="maritime-vessel-top">
-          <span>${escape(event.id)} · ${escape(shortDateYear(event.startDate))} · <span lang="en">${escape(event.countries)}</span></span>
+          <span>${escape(event.id)} · ${escape(vesselDate)} · <span lang="en">${escape(event.countries)}</span></span>
           <span>${casualtyBadge} <span class="cat-pill" style="--category:${colors[event.category]}"><i aria-hidden="true"></i>${escape(categoryLabel(event.category))}</span></span>
         </div>
         <div class="maritime-vessel-title" lang="${copy.lang}">${escape(copy.headline)}${territorialCountry ? ` · ${escape(t('revamp.territorialWaters', {country: countryName(territorialCountry)}))}` : ''}</div>

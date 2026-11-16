@@ -47,8 +47,8 @@
   <script defer src="trend-data.js?v=bac237d0454e68e4"></script>
   <script defer src="i18n/en.js?v=e94a747dd2f2b0c9"></script>
   <script defer src="geo-outline.js?v=7a797e7d85757752"></script>
-  <script defer src="replay-data.js?v=88e12e29da8f545a"></script>
-  <script defer src="app.js?v=51476f548e9deb24"></script>
+  <script defer src="replay-data.js?v=5c97dc0e837e66d3"></script>
+  <script defer src="app.js?v=e190c6830ad45b54"></script>
   <script defer src="analytics.js?v=5c514d0cea945c53"></script>
 </head>
 <body>
@@ -111,18 +111,18 @@
 
   <!-- Unified 3-Button Mobile View Switcher (Incidents | News | Map & Replay) -->
   <nav class="mobile-view-switcher" aria-label="Mobile view switcher">
-    <button type="button" id="mob-tab-feed" class="mob-tab active" aria-pressed="true">
+    <button type="button" id="mob-tab-feed" class="mob-tab" aria-pressed="false">
       <span data-i18n="revamp.mobIncidents">Incidents</span> <small id="mob-feed-count">164</small>
     </button>
     <button type="button" id="mob-tab-news" class="mob-tab" aria-pressed="false">
       <span data-i18n="revamp.mobNews">News</span> <small id="mob-news-count">215</small>
     </button>
-    <button type="button" id="mob-tab-map" class="mob-tab" aria-pressed="false">
+    <button type="button" id="mob-tab-map" class="mob-tab active" aria-pressed="true">
       <span data-i18n="revamp.mobMap">Map &amp; Replay</span>
     </button>
   </nav>
 
-  <main class="workspace" id="top" data-mobile-view="feed">
+  <main class="workspace" id="top" data-mobile-view="map">
     <!-- Left Column: Immediate Latest Incidents & Cited News Feed -->
     <aside class="sidebar" aria-label="Event register and news feed" data-i18n-aria="register.aria">
       <h1 class="sr-only" data-i18n="meta.title">Europe Foreign Drone Events · 2026</h1>
@@ -315,7 +315,7 @@
               <span class="sr-only" data-i18n="speed.label">Playback speed</span>
               <select id="speed" aria-label="Playback speed" data-i18n-aria="speed.label">
                 <option value="1">1×</option>
-                <option value="2">2×</option>
+                <option value="2" selected>2×</option>
                 <option value="4">4×</option>
               </select>
             </label>
