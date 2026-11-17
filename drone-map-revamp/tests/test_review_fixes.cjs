@@ -22,6 +22,19 @@ function elements() {
   };
 }
 
+test('the mobile homepage offers Map once per browser and falls back to Incidents if storage is blocked', () => {
+  const saved = new Map();
+  const storage = {getItem: key => saved.get(key), setItem: (key, value) => saved.set(key, value)};
+  const openHome = localStorage => vm.runInNewContext(
+    section('  function mobileHomeView()', '  function syncMobileTabs') + 'mobileHomeView();',
+    {localStorage}
+  );
+  assert.equal(openHome(storage), 'map');
+  assert.equal(openHome(storage), 'feed');
+  assert.equal(openHome({getItem() { throw new Error('Storage disabled'); }}), 'feed');
+  assert.equal(openHome({getItem() { return null; }, setItem() { throw new Error('Storage full'); }}), 'feed');
+});
+
 test('filtering a hidden mobile map defers framing until it is visible again', () => {
   const size = {clientWidth:390,clientHeight:700}, workspace = {dataset:{mobileView:'map'}};
   let pool = [active[0]], fits = [];

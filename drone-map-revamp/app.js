@@ -296,6 +296,11 @@
     playArrivalSound(arrivals);
   }
 
+  if (window.matchMedia('(max-width: 860px)').matches && (!location.hash || location.hash === '#top')) {
+    $('top').dataset.mobileView = mobileHomeView();
+    syncMobileTabs();
+  }
+
   const startLanguage = Object.hasOwn(LANGUAGES, window.DRONE_LANG) && await loadLanguage(window.DRONE_LANG) ? window.DRONE_LANG : 'en';
   configureLanguage(startLanguage);
 
@@ -911,6 +916,17 @@
       slug = location.hash.slice(1);
     }
     return slug ? events.find(event => slugOf(event) === slug) : null;
+  }
+
+  function mobileHomeView() {
+    const key = 'drone-events-mobile-map-seen';
+    try {
+      if (!localStorage.getItem(key)) {
+        localStorage.setItem(key, '1');
+        return 'map';
+      }
+    } catch { /* Use Incidents when the browser cannot remember a visit. */ }
+    return 'feed';
   }
 
   function syncMobileTabs() {
