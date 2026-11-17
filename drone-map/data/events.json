@@ -9528,5 +9528,180 @@
       "U320"
     ],
     "reviewedOn": "2026-11-15"
+  },
+  {
+    "id": "N173",
+    "title": "East of Mangalia · drifting aerial-drone discovery",
+    "recordClass": "event",
+    "recordType": "offshore_drone_discovery",
+    "startDate": "2026-11-15",
+    "dateLabel": "2026-11-15",
+    "dateBasis": "Ministry statement published 16 November explicitly dates the ATL-2 discovery to 15 November. Flight and fall dates unknown.",
+    "countries": "Romania",
+    "location": "Black Sea, approximately 45 nautical miles east of Mangalia; offshore, beyond the coastal territorial sea. Exact coordinates and EEZ jurisdiction not supplied.",
+    "status": "Officially reported offshore drifting aerial-drone discovery; not a confirmed territorial incursion",
+    "categories": "Offshore discovery; drifting aerial-drone elements; maritime hazard assessment",
+    "category": "recovery",
+    "stages": [
+      "recovery"
+    ],
+    "positions": [
+      {
+        "lat": 43.82,
+        "lng": 29.62,
+        "precision": "offshore",
+        "label": "Approx. 45 nautical miles east of Mangalia"
+      }
+    ],
+    "positionNote": "Broad editorial anchor estimated from the reported eastward distance; not measured coordinates, a flight path or a jurisdiction boundary.",
+    "vehicle": "One reported aerial drone or its elements floating in the sea; model not supplied. Not a maritime drone/USV.",
+    "attribution": "Origin, operator and intended target unknown.",
+    "route": "Flight path and place of entry into the water unknown.",
+    "circumstances": "MApN said a French Navy ATLANTIQUE 2 observed two aerial drones drifting on 15 November; this record covers the one approximately 45 nautical miles east of Mangalia.",
+    "payload": "Not established; an EOD deployment does not confirm explosives.",
+    "impact": "Potential navigation hazard; damage or casualties not reported for this discovery.",
+    "response": "Naval EOD team planned a 16 November pyrotechnic assessment aboard Coast Guard vessel MAI 3064. Later on 16 November, MApN reported both EOD boats returned without assessments because of adverse weather and sea conditions; operations would resume when safe.",
+    "uncertainty": "No completed recovery, disposal, flight through Romanian airspace or connection to the recent vessel hits established. Exact position and mission outcome remain unconfirmed.",
+    "deduplication": "One of two geographically distinct discoveries explicitly reported on 15 November. Not the September Midia recovery N042. The separately worded Sfântu Gheorghe intervention is retained as a follow-up lead, not a third mapped occurrence or an assumed match.",
+    "provenance": "Primary MApN release 369, indexed full text, corroborated by the public broadcaster; reviewed 16 November 2026.",
+    "classificationNote": "Recovery color represents discovery only, not completed retrieval. Offshore context retained under established discovery policy; not counted as a confirmed sovereign-airspace incursion or attack.",
+    "sources": [
+      "U330",
+      "U331",
+      "U344"
+    ],
+    "reviewedOn": "2026-11-17"
+  },
+  {
+    "id": "N174",
+    "title": "East of Chituc · drifting aerial-drone discovery",
+    "recordClass": "event",
+    "recordType": "offshore_drone_discovery",
+    "startDate": "2026-11-15",
+    "dateLabel": "2026-11-15",
+    "dateBasis": "Ministry statement published 16 November explicitly dates the ATL-2 discovery to 15 November. Flight and fall dates unknown.",
+    "countries": "Romania",
+    "location": "Black Sea, approximately 53 nautical miles east of Chituc; offshore, beyond the coastal territorial sea. Exact coordinates and EEZ jurisdiction not supplied.",
+    "status": "Officially reported offshore drifting aerial-drone discovery; not a confirmed territorial incursion",
+    "categories": "Offshore discovery; drifting aerial-drone elements; maritime hazard assessment",
+    "category": "recovery",
+    "stages": [
+      "recovery"
+    ],
+    "positions": [
+      {
+        "lat": 44.52,
+        "lng": 30.04,
+        "precision": "offshore",
+        "label": "Approx. 53 nautical miles east of Chituc"
+      }
+    ],
+    "positionNote": "Broad editorial anchor estimated from the reported eastward distance; not measured coordinates, a flight path or a jurisdiction boundary.",
+    "vehicle": "One reported aerial drone or its elements floating in the sea; model not supplied. Not a maritime drone/USV.",
+    "attribution": "Origin, operator and intended target unknown.",
+    "route": "Flight path and place of entry into the water unknown.",
+    "circumstances": "MApN said a French Navy ATLANTIQUE 2 observed two aerial drones drifting on 15 November; this record covers the one approximately 53 nautical miles east of Chituc.",
+    "payload": "Not established; an EOD deployment does not confirm explosives.",
+    "impact": "Potential navigation hazard; damage or casualties not reported for this discovery.",
+    "response": "Ministry announced a separate EOD deployment to the Sfântu Gheorghe area, but did not explicitly identify that object as the Chituc discovery. No outcome for this sighting established. Later on 16 November, MApN reported both EOD boats returned without assessments because of adverse weather and sea conditions; operations would resume when safe.",
+    "uncertainty": "No completed recovery, disposal, flight through Romanian airspace or connection to the recent vessel hits established. Exact position and mission outcome remain unconfirmed.",
+    "deduplication": "One of two geographically distinct discoveries explicitly reported on 15 November. Not the September Midia recovery N042. The separately worded Sfântu Gheorghe intervention is retained as a follow-up lead, not a third mapped occurrence or an assumed match.",
+    "provenance": "Primary MApN release 369, indexed full text, corroborated by the public broadcaster; reviewed 16 November 2026.",
+    "classificationNote": "Recovery color represents discovery only, not completed retrieval. Offshore context retained under established discovery policy; not counted as a confirmed sovereign-airspace incursion or attack.",
+    "sources": [
+      "U330",
+      "U331",
+      "U344"
+    ],
+    "reviewedOn": "2026-11-17"
+  },
+  {
+    "id": "N175",
+    "title": "BETUL 8 · capsizing with unconfirmed sea-drone claim",
+    "recordClass": "candidate",
+    "recordType": "unconfirmed_offshore_drone_strike",
+    "startDate": "2026-11-16",
+    "dateLabel": "2026-11-16",
+    "dateBasis": "Capsizing and distress on 16 November. NAVWARN gives 07:10 UTC; ministry gives distress receipt 09:15 local. Neither establishes the exact time of the alleged attack.",
+    "countries": "Bulgaria",
+    "location": "Bulgarian exclusive economic zone, approximately 40 nautical miles southeast of Cape Kaliakra; offshore, not territorial waters.",
+    "status": "Capsizing and rescue confirmed; sea-drone attack alleged by a crew member",
+    "categories": "Offshore maritime casualty; unconfirmed sea-drone claim; rescue",
+    "category": "alert",
+    "stages": [
+      "alert"
+    ],
+    "positions": [
+      {
+        "lat": 43.055,
+        "lng": 29.258333,
+        "precision": "offshore",
+        "label": "BETUL 8 — 16 November 12:00 UTC casualty position"
+      }
+    ],
+    "positionNote": "Primary VTMIS NAVWARN852/26 position at 12:00 UTC. Earlier NAVWARN851/26 gave 43.075 N,29.33 E at07:10 UTC; neither fixes the alleged attack location or establishes a route.",
+    "vehicle": "BETUL 8 cargo vessel (IMO 8817198); two sea drones alleged, identification unverified.",
+    "attribution": "No drone operator, nationality or responsibility established.",
+    "route": "Vessel reportedly travelling from Tulcea to Egypt; no drone route established.",
+    "circumstances": "The transport ministry confirmed a distress report and aerially observed capsizing. BNR subsequently reported one rescued sailor saying two sea drones attacked the ship; the cause remains under investigation.",
+    "payload": "Drone payload and mechanism unconfirmed.",
+    "impact": "All 12 crew evacuated; ministry reported no serious injuries, though crew were cold. Ship capsized; full sinking and pollution outcome not established by the primary statements.",
+    "response": "Bulgarian authorities coordinated naval and helicopter rescue; a warship was sent to assess possible marine pollution.",
+    "uncertainty": "A crew-reported drone attack is not independently or officially confirmed. No established link to other Black Sea ship incidents or separately discovered drifting aerial drones. Bulgarian EEZ is not equivalent to territorial waters.",
+    "deduplication": "One maritime casualty with an unconfirmed drone claim, not two records for the alleged drones. No matching existing BETUL 8 record on fresh main.",
+    "provenance": "Primary ministry reports and BNR article read 16 November 2026; NAVWARN text checked in third-party reproduction. Primary VTMIS NAVWARN852/26 read 17 November.",
+    "classificationNote": "Provisional offshore candidate, Alert/other: confirmed casualty does not establish a drone strike or EU territorial incursion.",
+    "sources": [
+      "U340",
+      "U341",
+      "U342",
+      "U343",
+      "U345"
+    ],
+    "reviewedOn": "2026-11-17"
+  },
+  {
+    "id": "N176",
+    "title": "Aegean · 16 November reported Turkish UAV activity",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-11-16",
+    "dateLabel": "16 November 2026",
+    "dateBasis": "GEETHA daily table reproduced by Parapolitika expressly dated 16 November; individual flight times unpublished.",
+    "countries": "Greece",
+    "location": "Northeastern, central and southeastern Aegean; exact tracks unpublished.",
+    "status": "Reported Greek-authority daily figures for Turkish UAV airspace violations",
+    "categories": "6 reported national-airspace violations and 9 FIR infringements involving 7 UAVs",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.5,
+        "precision": "region",
+        "label": "Aegean — representative regional anchor"
+      }
+    ],
+    "positionNote": "Editorial regional anchor, not a verified crossing point or flight track. Overlapping records are not shifted.",
+    "vehicle": "7 Turkish UAVs in the Greek account; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified approach tracks.",
+    "circumstances": "Parapolitika reproduces GEETHA figures: 7 UAVs, 6 national-airspace violations and 9 Athens FIR infringements; these measures are not additive.",
+    "payload": "Not reported.",
+    "impact": "No casualties, damage or crashes reported.",
+    "response": "Identification and routine interception reported. No weapons engagement established.",
+    "uncertainty": "Greek-authority account reproduced in reporting, not independent track verification. Direct GEETHA archive remains inaccessible. Flight tracks, missions and intended targets unknown; Greek-Turkish airspace dispute remains relevant.",
+    "deduplication": "One daily regional record. Separate from previous dated Greek records; UAVs, violations and FIR infringements are non-additive.",
+    "provenance": "Dated full Parapolitika report and reproduced GEETHA table read 17 November 2026.",
+    "classificationNote": "Flight only; routine interception is not weapons engagement.",
+    "reported_UAVs": 7,
+    "reported_airspace_violations": 6,
+    "reported_FIR_infractions": 9,
+    "sources": [
+      "U346"
+    ],
+    "reviewedOn": "2026-11-17"
   }
 ]

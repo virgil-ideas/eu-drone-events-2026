@@ -2264,5 +2264,47 @@
       "Foreign authorities also reported drone transit and a 112 sighting was logged elsewhere. A continuous link to the recovered object is not established."
     ],
     "basis": "6d3ff9df7ce787f3"
+  },
+  "N173": {
+    "slug": "2026-11-15-drifting-aerial-drone-east-mangalia-black-sea",
+    "headline": "East of Mangalia · drifting aerial-drone discovery",
+    "description": "MApN reported an aerial drone drifting about 45 nautical miles east of Mangalia on 15 November. Origin and mission outcome remain unknown.",
+    "summary": [
+      "A French Navy ATLANTIQUE 2 reported an aerial drone drifting approximately 45 nautical miles east of Mangalia on 15 November, according to Romania’s defence ministry.",
+      "The planned 16 November EOD assessment was delayed by adverse weather: MApN said both boats returned without completing their assessments. No recovery or neutralization is established.",
+      "This is an offshore discovery, not proof of a Romanian territorial-airspace incursion. The drone’s origin, flight and fall dates, payload and any connection to recent ship hits remain unknown."
+    ],
+    "basis": "39d90dac9252ca54"
+  },
+  "N174": {
+    "slug": "2026-11-15-drifting-aerial-drone-east-chituc-black-sea",
+    "headline": "East of Chituc · drifting aerial-drone discovery",
+    "description": "MApN reported an aerial drone drifting about 53 nautical miles east of Chituc on 15 November. Origin and mission outcome remain unknown.",
+    "summary": [
+      "A French Navy ATLANTIQUE 2 reported an aerial drone drifting approximately 53 nautical miles east of Chituc on 15 November, according to Romania’s defence ministry.",
+      "The planned 16 November EOD assessment was delayed by adverse weather: MApN said both boats returned without completing their assessments. No recovery or neutralization is established.",
+      "This is an offshore discovery, not proof of a Romanian territorial-airspace incursion. The drone’s origin, flight and fall dates, payload and any connection to recent ship hits remain unknown."
+    ],
+    "basis": "d89eb2a3002cb099"
+  },
+  "N175": {
+    "slug": "2026-11-16-betul-8-capsizing-unconfirmed-sea-drone-claim-bulgaria",
+    "headline": "BETUL 8 capsizes off Bulgaria; crew member alleges sea-drone attack",
+    "description": "All 12 BETUL 8 crew were rescued after capsizing in Bulgaria’s EEZ on 16 November. A sea-drone attack claim remains unconfirmed.",
+    "summary": [
+      "Bulgarian authorities confirmed that BETUL 8 capsized in the country’s exclusive economic zone on 16 November. All 12 crew were evacuated; the ministry reported no serious injuries.",
+      "BNR quoted one rescued sailor alleging an attack by two sea drones. Authorities had not confirmed that cause in the statements reviewed. The offshore casualty is retained as a candidate, not a confirmed drone strike or territorial incursion."
+    ],
+    "basis": "4c2f1a89cb5e5815"
+  },
+  "N176": {
+    "slug": "2026-11-16-aegean-16-november-reported-turkish-uav-activity-greece",
+    "headline": "Aegean · seven UAVs in Greek daily report for 16 November",
+    "description": "Greek-authority figures report seven UAVs, six national-airspace violations and nine FIR infringements on 16 November. Counts are non-additive.",
+    "summary": [
+      "Parapolitika reproduced GEETHA’s 16 November daily table reporting seven Turkish UAVs, six national-airspace violations and nine Athens FIR traffic-rule infringements in the northeastern, central and southeastern Aegean.",
+      "The account reports identification and routine interception, with no engagements. This is one daily regional record, not six separate incidents or fifteen incursions. Exact tracks and intended targets remain unknown; the Greek-Turkish airspace dispute remains relevant."
+    ],
+    "basis": "3f96c88abd1165b4"
   }
 }

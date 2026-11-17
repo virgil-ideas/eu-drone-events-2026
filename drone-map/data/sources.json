@@ -3644,5 +3644,125 @@
     "url": "https://www.zdg.md/stiri/o-drona-a-lovit-un-petrolier-aflat-in-drum-spre-giurgiulesti-ce-se-intampla-cu-exportul-a-6500-de-tone-de-ulei/",
     "dateLabel": "15November2026",
     "audit": "Actual article reviewed by research pass. Company-attributed planned voyage prevented;~6500tonnes was cargo to be loaded, not confirmed onboard. Future delays/costs are risks, not measured losses."
+  },
+  "U322": {
+    "id": "U322",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Drone and maritime-mine dashboard dated 15 November",
+    "url": "https://www.mapn.ro/",
+    "dateLabel": "15 November 2026; read 16 November",
+    "audit": "Primary table and cards read: 2026 counters 117 near-border attacks, 95 aircraft-response incidents, 39 unauthorized entries, 6 downed drones, 44 recoveries/identifications/neutralizations and 2 naval mines. Overlapping categories; no new individual occurrence inferred."
+  },
+  "U323": {
+    "id": "U323",
+    "publisher": "European Commission",
+    "title": "Black Sea Maritime Security Hub: briefing and planned funding",
+    "url": "https://audiovisual.ec.europa.eu/en/media/video/I-297107",
+    "dateLabel": "10 November 2026",
+    "audit": "Official transcript read 16 November: up to EUR 50 million, joint planning working group and operational objective in 2027. Not deployed protection; announcement predates 14–15 November hits."
+  },
+  "U324": {
+    "id": "U324",
+    "publisher": "European Commission",
+    "title": "Black Sea Maritime Security Hub: intended co-hosting",
+    "url": "https://audiovisual.ec.europa.eu/en/media/video/I-297544",
+    "dateLabel": "10 November 2026",
+    "audit": "Official follow-up transcript read 16 November: Romania/Bulgaria co-hosting across Constanța/Varna coastal and naval facilities; further details pending."
+  },
+  "U325": {
+    "id": "U325",
+    "publisher": "Romanian Maritime Hydrographic Directorate",
+    "title": "ARN172/2026: dangerous navigation area due to floating objects",
+    "url": "https://www.dhmfn.ro/ro/informatii-de-interes-public/avize-radio-pentru-navigatori/",
+    "dateLabel": "15 November 2026; checked 16 November",
+    "audit": "Primary notice list read; ARN172 remains displayed, avoidance advice until new notice. Floating objects not identified as drones; no new attack or navigation closure established. Separate ARN173 concerns drifting MARIAM M and cancels 171, not 172."
+  },
+  "U326": {
+    "id": "U326",
+    "publisher": "Cyprus Mail",
+    "title": "Cyprus complains to UN of more than 500 airspace violations by Turkey",
+    "url": "https://www.cyprus-mail.com/2026/06/25/cyprus-complains-to-un-of-more-than-500-airspace-violations-by-turkey",
+    "dateLabel": "25 June 2026",
+    "audit": "Full report read 16 November. Attributed March–May complaint:520 mixed aerial violations including 103 UAV-related and 23 naval separately. Original letter/annex not obtained; neither UN verification nor unique drone count."
+  },
+  "U327": {
+    "id": "U327",
+    "publisher": "Cyprus News Agency",
+    "title": "Cyprus protests Turkish air and naval violations to the UN",
+    "url": "https://www.cna.org.cy/en/article/10504770/cyprus-protests-turkish-air-and-naval-violations-to-the-un",
+    "dateLabel": "25 June 2026",
+    "audit": "Public lead confirms March–May period and complaint to UN. Full CNA text paywalled; numerical details sourced to readable Cyprus Mail report, not inferred from this lead."
+  },
+  "U330": {
+    "id": "U330",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Informație de presă — offshore aerial-drone discoveries and planned EOD missions",
+    "url": "https://www.mapn.ro/cpresa/19478_Informa%C8%9Bie-de-presa",
+    "dateLabel": "16 November 2026; release 369",
+    "audit": "Full indexed primary statement read 16 November; direct site access blocked. Corroborated by Radio România Constanța. Explicitly dates two ATL-2 discoveries to 15 November, at 45 nautical miles east of Mangalia and 53 east of Chituc. EOD missions described in future tense; no completed recovery or disposal established. Sfântu Gheorghe intervention is not explicitly identified with the Chituc discovery."
+  },
+  "U331": {
+    "id": "U331",
+    "publisher": "Radio România Constanța, quoting MApN",
+    "title": "Scafandrii EOD desfășoară misiuni de intervenție asupra unor drone aeriene aflate în derivă în Marea Neagră",
+    "url": "https://www.radioconstanta.ro/2026/11/16/scafandrii-eod-desfasoara-misiuni-de-interventie-asupra-unor-drone-aeriene-aflate-in-deriva-in-marea-neagra/",
+    "dateLabel": "16 November 2026, 11:31",
+    "audit": "Actual indexed article reproduces ministry account. Same official provenance, not independent identification or a final mission outcome."
+  },
+  "U340": {
+    "id": "U340",
+    "publisher": "Bulgarian Ministry of Transport and Communications",
+    "title": "BETUL 8 distress in Bulgaria’s exclusive economic zone",
+    "url": "https://www.mtc.government.bg/bg/category/1/incident-s-tovaren-korab-v-blgarskata-ikonomicheska-zona-na-cherno-more",
+    "dateLabel": "16 November 2026",
+    "audit": "Primary statement read 16 November: distress received 09:15 local, approximate location and response. No drone-cause confirmation. Cargo tonnage omitted because reporting differs."
+  },
+  "U341": {
+    "id": "U341",
+    "publisher": "Bulgarian Ministry of Transport and Communications",
+    "title": "All 12 BETUL 8 crew successfully evacuated",
+    "url": "https://www.mtc.government.bg/bg/category/1/vsichki-12-dushi-ot-ekipazha-na-tovarniya-korab-betul-8-sa-uspeshno-evakuirani",
+    "dateLabel": "16 November 2026",
+    "audit": "Primary statement read directly 16 November: all 12 evacuated, cold but no serious injuries; aerial survey confirmed capsizing, pollution check pending. Does not establish attack cause."
+  },
+  "U342": {
+    "id": "U342",
+    "publisher": "Bulgarian National Radio / Radio Varna",
+    "title": "Rescued BETUL 8 sailors arrive at Chaika airbase",
+    "url": "https://bnrnews.bg/varna/post/558791/spasenite-moryatsi-ot-betul-8-katsnaha-na-aviobaza-chayka",
+    "dateLabel": "16 November 2026",
+    "audit": "Report dated 16 November 12:53 explicitly attributes two sea-drone attack claim to one sailor; also says cause is under investigation. This is not official or independent confirmation of a drone strike."
+  },
+  "U343": {
+    "id": "U343",
+    "publisher": "SeaLagom, reproducing Bulgaria coastal NAVWARN 851/26",
+    "title": "BETUL 8 capsized and sinking southeast of Cape Kaliakra",
+    "url": "https://www.sealagom.com/coastal/127/message/55432/851-26-black-sea/",
+    "dateLabel": "16 November 2026",
+    "audit": "Original warning text reproduced by third-party aggregator: 160710 UTC NOV 2026, IMO 8817198, 43-04.50N 029-19.80E, crew 12. Distinguish warning position/time from unverified alleged attack location/time; no drone claim in warning."
+  },
+  "U344": {
+    "id": "U344",
+    "publisher": "Radio România Constanța / AGERPRES quoting MApN",
+    "title": "Weather delays assessment of drifting aerial-drone elements",
+    "url": "https://www.radioconstanta.ro/2026/11/16/mapn-misiunea-de-evaluare-a-dronelor-care-plutesc-in-marea-neagra-amanata-din-cauza-conditiilor-meteorologice/",
+    "dateLabel": "16 November 2026",
+    "audit": "Full report read 17 November. EOD boats returned without assessments; resumption conditional on weather. No completed recovery or neutralization."
+  },
+  "U345": {
+    "id": "U345",
+    "publisher": "Bulgarian VTMIS / Varna Radio",
+    "title": "NAVWARN 852/26 — BETUL 8 capsized",
+    "url": "https://www.vtmis.bg/wx/wx_eng.htm",
+    "dateLabel": "16 November 2026",
+    "audit": "Primary warning read 17 November: 16 November 12:00 UTC, 43-03.3 N 029-15.5 E, crew evacuated ashore. Position is not proof of attack location/time."
+  },
+  "U346": {
+    "id": "U346",
+    "publisher": "Parapolitika, reproducing GEETHA daily figures",
+    "title": "16 November Aegean activity: seven UAVs, six airspace violations, nine FIR infringements",
+    "url": "https://www.parapolitika.gr/ellada/article/1822590/aigaio-neo-baraz-tourkikon-prokliseon-me-7-drones-exi-paraviaseis-tou-ethnikou-enaeriou-horou-kai-ennea-paravaseis/",
+    "dateLabel": "16 November 2026",
+    "audit": "Full dated report and reproduced daily table read 17 November. Greek authority account; counts non-additive, no engagements."
   }
 }

@@ -46,16 +46,16 @@
   },
   {
     "id": "A003",
-    "dateLabel": "2026 year to date; dashboard updated 2026-11-14",
-    "dateBasis": "Primary dashboard explicitly dated 14 November, read 15 November.",
+    "dateLabel": "2026 year to date; dashboard updated 2026-11-15",
+    "dateBasis": "Primary dashboard explicitly dated 15 November, read 16 November.",
     "countries": "Romania",
     "location": "MApN official national dashboard; categories defined by the ministry",
     "status": "Official overlapping counters — NOT additive",
     "categories": "Near-border attacks; scrambles; unauthorized access; shoot-downs; fragments; separate mine counter",
-    "vehicle": "2026 dashboard: 114 near-border attacks; 93 aircraft-response incidents; 39 unauthorized entries; 6 downed drones; 44 drones/fragments identified, recovered or neutralized; 2 naval mines",
+    "vehicle": "2026 dashboard: 117 near-border attacks; 95 aircraft-response incidents; 39 unauthorized entries; 6 downed drones; 44 drones/fragments identified, recovered or neutralized; 2 naval mines",
     "attribution": "Different populations: nearby attacks, responses, airspace incidents and recoveries",
     "route": "Not an event-by-event route dataset",
-    "circumstances": "Current official snapshot retained separately from the research chronology. On 5 October the dashboard reported 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries and 4 shot-down drones. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 on 2, 5 and 17 October. Counter changes alone do not identify individual events; N095 separately records the confirmed 17 October interception. The 4–5 October Vâlcove alert involved no detected Romanian airspace entry and is excluded from the map (U026). The prior 21 October review recorded a display of 39 near-border attacks, differing from the previously recorded 97; no explanation or event-level reconciliation is supplied. The other listed 2026 counters are unchanged. The 21 October 03:34–04:02 Tulcea alert explicitly reported no national-airspace entry (U101). On 24 October, both the current table and cards show 98 near-border attacks. This supersedes the prior recorded 39 display, without explaining that discrepancy or identifying a new occurrence. Other counters remain unchanged. On 10 November, the dashboard dated 9 November shows 109 near-border attacks, 88 aircraft-response incidents and 39 unauthorized entries for 2026; other listed counters remain unchanged. These supersede the earlier snapshot without independently reconstructing individual events. On 12 November, the dashboard dated 11 November shows 111 near-border attacks and 90 aircraft-response incidents for 2026; other counters are unchanged. These counters do not independently establish new dated occurrences. On 13 November, the dashboard dated 12 November shows 112 near-border attacks and 91 aircraft-response incidents for 2026; the other counters remain unchanged. These overlapping totals do not independently establish new occurrences. On 15 November the dashboard dated 14 November shows 114 near-border attacks and 93 aircraft-response incidents; other counters unchanged. No individual event is inferred from these totals.",
+    "circumstances": "Current official snapshot retained separately from the research chronology. On 5 October the dashboard reported 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries and 4 shot-down drones. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 on 2, 5 and 17 October. Counter changes alone do not identify individual events; N095 separately records the confirmed 17 October interception. The 4–5 October Vâlcove alert involved no detected Romanian airspace entry and is excluded from the map (U026). The prior 21 October review recorded a display of 39 near-border attacks, differing from the previously recorded 97; no explanation or event-level reconciliation is supplied. The other listed 2026 counters are unchanged. The 21 October 03:34–04:02 Tulcea alert explicitly reported no national-airspace entry (U101). On 24 October, both the current table and cards show 98 near-border attacks. This supersedes the prior recorded 39 display, without explaining that discrepancy or identifying a new occurrence. Other counters remain unchanged. On 10 November, the dashboard dated 9 November shows 109 near-border attacks, 88 aircraft-response incidents and 39 unauthorized entries for 2026; other listed counters remain unchanged. These supersede the earlier snapshot without independently reconstructing individual events. On 12 November, the dashboard dated 11 November shows 111 near-border attacks and 90 aircraft-response incidents for 2026; other counters are unchanged. These counters do not independently establish new dated occurrences. On 13 November, the dashboard dated 12 November shows 112 near-border attacks and 91 aircraft-response incidents for 2026; the other counters remain unchanged. These overlapping totals do not independently establish new occurrences. On 15 November the dashboard dated 14 November shows 114 near-border attacks and 93 aircraft-response incidents; other counters unchanged. No individual event is inferred from these totals. On 16 November the dashboard dated 15 November shows 117 near-border attacks and 95 aircraft-response incidents; remaining 2026 counters are unchanged. These overlapping totals do not identify new individual occurrences.",
     "payload": "Not reported",
     "impact": "Not reported",
     "response": "MApN operational/recovery categories.",
@@ -75,9 +75,10 @@
       "U270",
       "U280",
       "U290",
-      "U307"
+      "U307",
+      "U322"
     ],
-    "reviewedOn": "2026-11-15"
+    "reviewedOn": "2026-11-16"
   },
   {
     "id": "A004",
@@ -177,5 +178,51 @@
     ],
     "provenance": "Added from the CNA report published 12 October and read 19 October 2026.",
     "reviewedOn": "2026-10-19"
+  },
+  {
+    "id": "NA006",
+    "countries": "Cyprus",
+    "dateLabel": "2026-03-01–2026-05-31; reported 2026-06-25",
+    "vehicle": "Cyprus alleged 520 mixed aerial violations, including 103 UAV-related;23 naval violations reported separately.",
+    "status": "Cypriot aggregate allegations — NOT additive or independently UN verified",
+    "attribution": "Turkish military involvement as alleged by Cyprus; reporting the complaint is not independent verification.",
+    "uncertainty": "Original letter and individual annex entries not obtained. Mixed sovereign-airspace/FIR figures do not establish 103 distinct UAVs or 103 independently verified sovereign-airspace entries.",
+    "deduplication": "Fills the period between NA002 and NA005 as non-additive attributed context, not new mapped events. May overlap NA003. Publication date is not occurrence date.",
+    "sources": [
+      "U326",
+      "U327"
+    ],
+    "reviewedOn": "2026-11-16"
+  },
+  {
+    "id": "NA007",
+    "countries": "Romania; Bulgaria",
+    "dateLabel": "2026-11-10; planned 2027 operational objective",
+    "vehicle": "No aircraft or incident count.",
+    "status": "Planned regional security response — NOT an incident",
+    "attribution": "European Commission policy announcement.",
+    "circumstances": "The Commission announced up to EUR 50 million for a Black Sea Maritime Security Hub, with a joint working group to develop its concept and work plan. Romania and Bulgaria are intended co-hosts, across Constanța and Varna facilities.",
+    "uncertainty": "2027 is an operational objective, not confirmation of current protection or deployment. Further implementation details remain pending.",
+    "deduplication": "Non-additive policy context. Predates 14–15 November Sulina vessel reports; no causal link to those later occurrences or common attacker inferred.",
+    "sources": [
+      "U323",
+      "U324"
+    ],
+    "reviewedOn": "2026-11-16"
+  },
+  {
+    "id": "NA008",
+    "countries": "Romania",
+    "dateLabel": "2026-11-15; active notice checked 2026-11-16",
+    "vehicle": "Unidentified floating objects; no drone count established.",
+    "status": "Navigation warning — NOT a new drone incident",
+    "attribution": "Romanian Maritime Hydrographic Directorate ARN172/2026.",
+    "circumstances": "Notice declares a defined Sulina–Sfântu Gheorghe offshore area dangerous because of floating objects from the north, advising vessels to avoid entry until a new notice.",
+    "uncertainty": "Objects are not identified as drones. This is avoidance advice, not evidence of a closure, a fresh impact or confirmed drone route.",
+    "deduplication": "Non-additive context only. Does not add to N158,N160,N161,N168 or establish links between them. Separate ARN173 on drifting MARIAM M is not a verified drone incident.",
+    "sources": [
+      "U325"
+    ],
+    "reviewedOn": "2026-11-16"
   }
 ]
