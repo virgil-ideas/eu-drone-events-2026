@@ -985,3 +985,8 @@ Research window: 14–17 November, overlapping the preceding completed review by
 - Denmark Nov14 Als/Sønderborg reported drone ruled out by police: small two-seat manned aircraft from Odense. https://via.ritzau.dk/pressemeddelelse/15288880/anmeldelse-om-drone-i-dronezone-pa-als?lang=da . No drone row.
 - Sweden announced police drone surveillance is lawful domestic activity; Estonia Threod arson/sabotage follow-up is not a drone incursion; Polish updated articles recount September/October occurrences, not fresh November events.
 - MARIAM M: ARN176/2026 records Nov16 grounding at44.41055N28.7575E; ARSVOM report places grounding between Cape Midia and Vadu. No new drone cause established; retain as non-additive maritime aftermath research, not an added drone occurrence. Primary notice: https://www.dhmfn.ro/ro/informatii-de-interes-public/avize-radio-pentru-navigatori/ .
+
+
+## GAS HUSKY — targeted 17 November follow-up
+
+N178 records the confirmed offshore casualty/rescue as a provisional candidate, not a confirmed drone attack. Resolve original ANR claim and Bulgarian investigation, vessel status after NAVWARN854/26 (10:50UTC listing/adrift, not complete sinking), and pollution/medical outcomes. Do not link to BETUL8 or infer an operator. This targeted update advances the inclusive cutoff to17November; it does not close any EU27 or Greek archive coverage gap.

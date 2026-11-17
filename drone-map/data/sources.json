@@ -3764,5 +3764,45 @@
     "url": "https://www.parapolitika.gr/ellada/article/1822590/aigaio-neo-baraz-tourkikon-prokliseon-me-7-drones-exi-paraviaseis-tou-ethnikou-enaeriou-horou-kai-ennea-paravaseis/",
     "dateLabel": "16 November 2026",
     "audit": "Full dated report and reproduced daily table read 17 November. Greek authority account; counts non-additive, no engagements."
+  },
+  "U360": {
+    "id": "U360",
+    "publisher": "Bulgarian Ministry of Transport and Communications",
+    "title": "Maritime Administration coordinates GAS HUSKY search and rescue",
+    "url": "https://www.mtc.government.bg/bg/category/1/ia-morska-administraciya-koordinira-operaciya-po-trsene-i-spasyavane-na-ekipazha-na-koraba-gas-husky",
+    "dateLabel": "17 November 2026",
+    "audit": "Primary full statement read 17 November: radar loss shortly after midnight, beacon08:02 local, presumed overturned vessel and raft, approximately50nm east Byala;19crew and3400t LPG; no drone cause stated."
+  },
+  "U361": {
+    "id": "U361",
+    "publisher": "Bulgarian Ministry of Transport and Communications",
+    "title": "All GAS HUSKY crew rescued",
+    "url": "https://www.mtc.government.bg/bg/category/1/spasen-e-celiyat-ekipazh-na-mk-gas-husky",
+    "dateLabel": "17 November 2026",
+    "audit": "Primary full statement read17November: all19 evacuated by helicopter to Chaika; SAR ended13:15 local."
+  },
+  "U362": {
+    "id": "U362",
+    "publisher": "Varna Radio / Bulgarian VTMIS",
+    "title": "NAVWARN854/26: GAS HUSKY listing with submerged bridge and adrift",
+    "url": "https://www.vtmis.bg/wx/wx_eng.htm",
+    "dateLabel": "17 November 2026",
+    "audit": "Distinct dated notice in rolling primary bulletin read17November:17November10:50UTC,42-50.96N029-05.23E; listing45degrees, bridge submerged, unmanned/not under command. Not an impact position or proof of complete sinking."
+  },
+  "U363": {
+    "id": "U363",
+    "publisher": "Bulgarian National Radio / Radio Varna",
+    "title": "All GAS HUSKY sailors rescued; cause unresolved and no pollution reported",
+    "url": "https://bnrnews.bg/main/post/559337/spaseni-sa-vsichki-moryatsi-ot-koraba-gas-husky-nyama-danni-za-zamarsyavane",
+    "dateLabel": "17 November 2026",
+    "audit": "Updated report read17November via search full text: governor Mario Smarkov says ship not yet sunk and drone cause unclear; two sailors to hospital, no pollution data. Distinguish from earlier sinking headlines."
+  },
+  "U364": {
+    "id": "U364",
+    "publisher": "FLANK, citing Nova Varna and Sega",
+    "title": "Romanian Naval Authority reports drone strike on gas carrier in Bulgarian EEZ",
+    "url": "https://flank.bg/en/news/romanian-naval-authority-reports-drone-strike-on-gas-carrier-in-bulgarias-exclusive-economic-zone",
+    "dateLabel": "17 November 2026",
+    "audit": "Full article read through search17November. Drone-strike claim attributed indirectly to Romanian authority; original statement not located. Its linked primary ministry source concerns BETUL8, not confirmation of GAS HUSKY drone cause. Do not infer weapon type/operator or common cause."
   }
 }

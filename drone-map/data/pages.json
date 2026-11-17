@@ -2306,5 +2306,15 @@
       "The account reports identification and routine interception, with no engagements. This is one daily regional record, not six separate incidents or fifteen incursions. Exact tracks and intended targets remain unknown; the Greek-Turkish airspace dispute remains relevant."
     ],
     "basis": "3f96c88abd1165b4"
+  },
+  "N178": {
+    "slug": "2026-11-17-gas-husky-offshore-casualty-unconfirmed-drone-claim-bulgaria",
+    "headline": "GAS HUSKY crew rescued after offshore casualty; drone cause unconfirmed",
+    "description": "All 19 GAS HUSKY crew rescued off Bulgaria on 17 November. Official warning describes a listing, drifting ship; drone claims remain unconfirmed.",
+    "summary": [
+      "Bulgarian authorities rescued all 19 crew from GAS HUSKY on 17 November 2026 after an offshore maritime casualty. The Liberian-flagged LPG carrier was travelling from Egypt to Romania. The location is in Bulgaria’s exclusive economic zone, not its territorial waters.",
+      "A 10:50 UTC navigation warning described a 45-degree list, submerged bridge and unmanned vessel adrift. It did not establish complete sinking, despite early reports. Media attribute a drone-strike claim to the Romanian Naval Authority, but the original statement was not located and the cause remains unresolved. No operator or connection to BETUL 8 is established."
+    ],
+    "basis": "3dd7db0ad0df47df"
   }
 }
