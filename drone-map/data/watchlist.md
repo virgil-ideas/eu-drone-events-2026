@@ -996,3 +996,7 @@ N178 follow-up: AP now cites Maritime.bg quoting the rescued captain alleging fo
 N178 manager follow-up: Stealth Maritime statement reproduced by Naftemporiki reports a strike early 17 November in Bulgarian EEZ, without mechanism or final condition. Alexandria–Midia LPG voyage clarified. Ministry source independently retains3400 tonnes propane-butane; no evidence for an empty-vessel correction. Candidate classification unchanged.
 
 N17818:06 follow-up: Maritime.bg158415 alleges combined USV/UAV attack via unnamed management-company source. Indexed original read; republications cite same source, not independent corroboration. No first-such-attack, operator or proven-coordination claim adopted; manager public statement remains mechanism-unspecified. One candidate occurrence retained.
+
+
+## 17 November Aegean daily follow-up
+N179 adds one dated Greek-authority aggregate reproduced in Eleftheros Typos and OnAlert: 5 UAVs, 4 national-airspace violations, 7 separate FIR infringements. The two reports share the official account, not independent verification. The fighter encounter does not establish a drone shoot-down. No duplicate of N176: November 17 publications of November 16 figures remain N176. Direct GEETHA archive and earlier daily gaps remain unresolved; this targeted update is not exhaustive coverage.

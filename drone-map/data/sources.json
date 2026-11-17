@@ -3828,5 +3828,21 @@
     "url": "https://www.maritime.bg/158415/",
     "dateLabel": "17 November 2026, 18:06 local publication",
     "audit": "Indexed article text read17 November: unnamed source at Greece-based management company alleges combined surface-drone boats (USV) and aerial drones (UAV). No independent confirmation, named witness, operator or technical evidence supplied. Not equivalent to manager public statement, which leaves mechanism unspecified. First-such-attack claim not adopted; republication repeating same source is not corroboration."
+  },
+  "U368": {
+    "id": "U368",
+    "publisher": "Eleftheros Typos, reproducing GEETHA daily figures",
+    "title": "Νέες τουρκικές προκλήσεις στο Αιγαίο: Οπλισμένα τουρκικά F-16 και μία εμπλοκή",
+    "url": "https://www.eleftherostypos.gr/ellada/nees-tourkikes-prokliseis-sto-aigaio-oplismena-tourkika-f-16-kai-mia-ebloki",
+    "dateLabel": "17 November 2026, 19:27 local publication",
+    "audit": "Full indexed report/table read 17 November: five UAVs, four national-airspace violations and seven FIR infringements. Fighter counts separately six violations/two infringements; one engagement not proof of a drone shoot-down. Greek-authority attribution, not independent tracks; primary table unavailable."
+  },
+  "U369": {
+    "id": "U369",
+    "publisher": "OnAlert, reproducing GEETHA daily figures",
+    "title": "Νέες παραβιάσεις στο Αιγαίο από τουρκικά drones και οπλισμένα F-16: Μία εμπλοκή με ελληνικά μαχητικά",
+    "url": "https://www.onalert.gr/ellinotourkika/nees-paraviaseis-sto-aigaio-apo-tourkika-drones-kai-oplismena-f-16-mia-emploki-me-ellinika-maxitika/834205/",
+    "dateLabel": "17 November 2026, 18:31 local publication",
+    "audit": "Actual article HTML retrieved and read 17 November (HTTP 200). Same GEETHA table: five UAVs, four airspace violations, seven FIR infringements; fighter mock engagement not a drone shoot-down. Not independent corroboration of Greek-authority claims."
   }
 }

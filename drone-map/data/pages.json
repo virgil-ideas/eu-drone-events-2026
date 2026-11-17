@@ -2318,5 +2318,15 @@
       "A later Maritime.bg report attributes a combined surface- and aerial-drone attack to an unnamed source at the management company. This remains an unconfirmed account; the manager’s public statement does not specify a mechanism."
     ],
     "basis": "bbf21170ae47ea0b"
+  },
+  "N179": {
+    "slug": "2026-11-17-aegean-reported-turkish-uav-activity-greece",
+    "headline": "Aegean · five UAVs in Greek daily report for 17 November",
+    "description": "Greek daily figures report five UAVs, four national-airspace violations and seven separate FIR infringements on 17 November. One regional record.",
+    "summary": [
+      "Greek reporting reproduces GEETHA’s 17 November table listing five Turkish UAVs, four national-airspace violations and seven Athens FIR traffic-rule infringements across the Aegean.",
+      "This is one daily regional record; aircraft and crossing figures are non-additive. The fighter encounter in the same bulletin does not establish a drone shoot-down. Exact tracks and intended targets remain unknown; the primary archive gap and Greek-Turkish airspace dispute remain relevant."
+    ],
+    "basis": "d8e3ef5693037b68"
   }
 }

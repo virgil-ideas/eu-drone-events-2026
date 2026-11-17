@@ -9751,5 +9751,50 @@
       "U367"
     ],
     "reviewedOn": "2026-11-17"
+  },
+  {
+    "id": "N179",
+    "title": "Aegean · 17 November reported Turkish UAV activity",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-11-17",
+    "dateLabel": "17 November 2026",
+    "dateBasis": "GEETHA daily table reproduced by Eleftheros Typos expressly dated 17 November; individual flight times unpublished.",
+    "countries": "Greece",
+    "location": "Northeastern, central and southeastern Aegean; exact tracks unpublished.",
+    "status": "Reported Greek-authority daily figures for Turkish UAV airspace violations",
+    "categories": "4 reported national-airspace violations and 7 FIR infringements involving 5 UAVs",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 38.5,
+        "lng": 26.5,
+        "precision": "region",
+        "label": "Aegean — representative regional anchor"
+      }
+    ],
+    "positionNote": "Editorial regional anchor, not a verified crossing point or flight track. Overlapping records are not shifted.",
+    "vehicle": "5 Turkish UAVs in the Greek account; models unspecified.",
+    "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
+    "route": "Regional scope only; no independently verified approach tracks.",
+    "circumstances": "The reproduced GEETHA table assigns 4 national-airspace violations and 7 Athens FIR traffic-rule infringements to 5 UAVs. Four manned F-16s account for 6 further airspace violations and 2 FIR infringements, excluded from the UAV figures.",
+    "payload": "Not reported.",
+    "impact": "No casualties, damage or crashes reported.",
+    "response": "Identification and interception reported. The reported fighter engagement does not establish weapons use against a UAV or a drone shoot-down.",
+    "uncertainty": "Greek-authority account reproduced in reporting, not independent track verification. Direct GEETHA archive remains inaccessible. Flight tracks, missions and intended targets unknown; Greek-Turkish airspace dispute remains relevant.",
+    "deduplication": "One daily regional record, distinct from N176 on 16 November. UAV, airspace-violation and FIR counts are non-additive; republication of the same official table is not independent confirmation.",
+    "provenance": "Dated Eleftheros Typos report/table and actual OnAlert article read 17 November 2026. Both reproduce the Greek-authority account; primary archive not retrieved.",
+    "classificationNote": "Flight only. Daily aggregate, not four separate mapped incursions; the fighter encounter is not classified as a drone engagement.",
+    "reported_UAVs": 5,
+    "reported_airspace_violations": 4,
+    "reported_FIR_infractions": 7,
+    "sources": [
+      "U368",
+      "U369"
+    ],
+    "reviewedOn": "2026-11-17"
   }
 ]

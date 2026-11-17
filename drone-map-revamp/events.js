@@ -10032,6 +10032,52 @@ window.DRONE_DATA = {
         "U367"
       ],
       "page": "events/2026-11-17-gas-husky-offshore-casualty-unconfirmed-drone-claim-bulgaria/"
+    },
+    {
+      "id": "N179",
+      "title": "Aegean · 17 November reported Turkish UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-11-17",
+      "dateLabel": "17 November 2026",
+      "dateBasis": "GEETHA daily table reproduced by Eleftheros Typos expressly dated 17 November; individual flight times unpublished.",
+      "countries": "Greece",
+      "location": "Northeastern, central and southeastern Aegean; exact tracks unpublished.",
+      "status": "Reported Greek-authority daily figures for Turkish UAV airspace violations",
+      "categories": "4 reported national-airspace violations and 7 FIR infringements involving 5 UAVs",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 38.5,
+          "lng": 26.5,
+          "precision": "region",
+          "label": "Aegean — representative regional anchor"
+        }
+      ],
+      "positionNote": "Editorial regional anchor, not a verified crossing point or flight track. Overlapping records are not shifted.",
+      "vehicle": "5 Turkish UAVs in the Greek account; models unspecified.",
+      "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
+      "route": "Regional scope only; no independently verified approach tracks.",
+      "circumstances": "The reproduced GEETHA table assigns 4 national-airspace violations and 7 Athens FIR traffic-rule infringements to 5 UAVs. Four manned F-16s account for 6 further airspace violations and 2 FIR infringements, excluded from the UAV figures.",
+      "payload": "Not reported.",
+      "impact": "No casualties, damage or crashes reported.",
+      "response": "Identification and interception reported. The reported fighter engagement does not establish weapons use against a UAV or a drone shoot-down.",
+      "uncertainty": "Greek-authority account reproduced in reporting, not independent track verification. Direct GEETHA archive remains inaccessible. Flight tracks, missions and intended targets unknown; Greek-Turkish airspace dispute remains relevant.",
+      "deduplication": "One daily regional record, distinct from N176 on 16 November. UAV, airspace-violation and FIR counts are non-additive; republication of the same official table is not independent confirmation.",
+      "provenance": "Dated Eleftheros Typos report/table and actual OnAlert article read 17 November 2026. Both reproduce the Greek-authority account; primary archive not retrieved.",
+      "classificationNote": "Flight only. Daily aggregate, not four separate mapped incursions; the fighter encounter is not classified as a drone engagement.",
+      "reported_UAVs": 5,
+      "reported_airspace_violations": 4,
+      "reported_FIR_infractions": 7,
+      "sourceReferences": "[U368][U368]; [U369][U369]",
+      "sources": [
+        "U368",
+        "U369"
+      ],
+      "page": "events/2026-11-17-aegean-reported-turkish-uav-activity-greece/"
     }
   ],
   "contexts": [
@@ -14099,6 +14145,22 @@ window.DRONE_DATA = {
       "url": "https://www.maritime.bg/158415/",
       "dateLabel": "17 November 2026, 18:06 local publication",
       "audit": "Indexed article text read17 November: unnamed source at Greece-based management company alleges combined surface-drone boats (USV) and aerial drones (UAV). No independent confirmation, named witness, operator or technical evidence supplied. Not equivalent to manager public statement, which leaves mechanism unspecified. First-such-attack claim not adopted; republication repeating same source is not corroboration."
+    },
+    "U368": {
+      "id": "U368",
+      "publisher": "Eleftheros Typos, reproducing GEETHA daily figures",
+      "title": "Νέες τουρκικές προκλήσεις στο Αιγαίο: Οπλισμένα τουρκικά F-16 και μία εμπλοκή",
+      "url": "https://www.eleftherostypos.gr/ellada/nees-tourkikes-prokliseis-sto-aigaio-oplismena-tourkika-f-16-kai-mia-ebloki",
+      "dateLabel": "17 November 2026, 19:27 local publication",
+      "audit": "Full indexed report/table read 17 November: five UAVs, four national-airspace violations and seven FIR infringements. Fighter counts separately six violations/two infringements; one engagement not proof of a drone shoot-down. Greek-authority attribution, not independent tracks; primary table unavailable."
+    },
+    "U369": {
+      "id": "U369",
+      "publisher": "OnAlert, reproducing GEETHA daily figures",
+      "title": "Νέες παραβιάσεις στο Αιγαίο από τουρκικά drones και οπλισμένα F-16: Μία εμπλοκή με ελληνικά μαχητικά",
+      "url": "https://www.onalert.gr/ellinotourkika/nees-paraviaseis-sto-aigaio-apo-tourkika-drones-kai-oplismena-f-16-mia-emploki-me-ellinika-maxitika/834205/",
+      "dateLabel": "17 November 2026, 18:31 local publication",
+      "audit": "Actual article HTML retrieved and read 17 November (HTTP 200). Same GEETHA table: five UAVs, four airspace violations, seven FIR infringements; fighter mock engagement not a drone shoot-down. Not independent corroboration of Greek-authority claims."
     }
   },
   "cutoff": "2026-11-17",
