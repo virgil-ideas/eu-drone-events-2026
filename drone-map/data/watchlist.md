@@ -990,3 +990,5 @@ Research window: 14–17 November, overlapping the preceding completed review by
 ## GAS HUSKY — targeted 17 November follow-up
 
 N178 records the confirmed offshore casualty/rescue as a provisional candidate, not a confirmed drone attack. Resolve original ANR claim and Bulgarian investigation, vessel status after NAVWARN854/26 (10:50UTC listing/adrift, not complete sinking), and pollution/medical outcomes. Do not link to BETUL8 or infer an operator. This targeted update advances the inclusive cutoff to17November; it does not close any EU27 or Greek archive coverage gap.
+
+N178 follow-up: AP now cites Maritime.bg quoting the rescued captain alleging four drone hits; this remains an attributed unverified claim, not four occurrence records. Original Maritime.bg inaccessible. NAVWARN854/26 was rechecked unchanged.

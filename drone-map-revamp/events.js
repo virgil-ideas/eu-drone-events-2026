@@ -9994,7 +9994,7 @@ window.DRONE_DATA = {
       "dateBasis": "Radar contact lost shortly after midnight; emergency beacon activated 08:02 local (06:02 UTC). NAVWARN 854/26 describes condition at 10:50 UTC, not an established attack time.",
       "countries": "Bulgaria",
       "location": "Bulgarian exclusive economic zone, approximately 50 nautical miles east of Byala; offshore, not Bulgarian territorial waters.",
-      "status": "Maritime casualty and rescue confirmed; drone cause unconfirmed",
+      "status": "Maritime casualty and rescue confirmed; captain alleges four drone hits, cause unconfirmed",
       "categories": "Offshore maritime casualty; unconfirmed drone claim; rescue",
       "category": "alert",
       "stages": [
@@ -10009,24 +10009,25 @@ window.DRONE_DATA = {
         }
       ],
       "positionNote": "Primary NAVWARN 854/26 casualty observation converted from 42°50.96′N 29°05.23′E. Not an alleged attack position or drone route.",
-      "vehicle": "Liberian-flagged LPG carrier GAS HUSKY (IMO 9507764); alleged drone type and number unestablished.",
+      "vehicle": "Liberian-flagged LPG carrier GAS HUSKY (IMO 9507764); four drones alleged by its rescued captain in Maritime.bg reporting cited by AP; type unestablished.",
       "attribution": "No drone operator, nationality or responsibility established.",
       "route": "Merchant vessel travelling Egypt–Romania; no drone route established.",
-      "circumstances": "Bulgarian authorities located an overturned vessel presumed to be GAS HUSKY and a nearby life raft. Media attribute a drone-strike claim to the Romanian Naval Authority, but its original statement was not located and Bulgarian reporting leaves cause unresolved.",
+      "circumstances": "Bulgarian authorities located an overturned vessel presumed to be GAS HUSKY and a nearby life raft. AP, citing Maritime.bg, reports the rescued captain saying four drones hit the vessel, while explicitly noting no official confirmation of the cause. Separate media attribute a drone-strike claim to the Romanian Naval Authority; its original statement was not located.",
       "payload": "Alleged drone payload unknown. Bulgarian transport ministry reports 3400 tonnes of propane-butane cargo; cargo is not a drone payload.",
       "impact": "All 19 crew rescued. At 10:50 UTC the primary warning described 45-degree listing, submerged bridge and an unmanned drifting vessel. This does not establish complete sinking, despite early reports. BNR reports two sailors to hospital and no pollution recorded at the briefing.",
       "response": "Bulgarian air and maritime agencies mounted rescue; crew evacuated by helicopter to Chaika naval airbase. Transport ministry says search and rescue ended 13:15 local. Navigation warning remains distinct from rescue completion.",
       "uncertainty": "Drone involvement, weapon type, operator and precise attack time/location remain unconfirmed. No established link to BETUL 8 or other Black Sea casualties. EEZ is not equivalent to territorial waters; no EU territorial incursion established.",
       "deduplication": "One separate GAS HUSKY casualty, not BETUL 8; beacon, rescue and later casualty observation are stages of one occurrence.",
-      "provenance": "Primary transport-ministry statements and VTMIS NAVWARN 854/26 read 17 November 2026; BNR updated briefing and media-attributed ANR claim separately reviewed.",
+      "provenance": "Primary transport-ministry statements and VTMIS NAVWARN 854/26 read 17 November 2026; BNR updated briefing and media-attributed ANR claim separately reviewed. Updated AP account of captain’s four-drone claim reviewed 17 November; original Maritime.bg inaccessible. Primary NAVWARN854/26 rechecked unchanged.",
       "classificationNote": "Provisional offshore candidate, Alert/other; confirmed maritime casualty is not a confirmed drone strike.",
-      "sourceReferences": "[U360][U360]; [U361][U361]; [U362][U362]; [U363][U363]; [U364][U364]",
+      "sourceReferences": "[U360][U360]; [U361][U361]; [U362][U362]; [U363][U363]; [U364][U364]; [U365][U365]",
       "sources": [
         "U360",
         "U361",
         "U362",
         "U363",
-        "U364"
+        "U364",
+        "U365"
       ],
       "page": "events/2026-11-17-gas-husky-offshore-casualty-unconfirmed-drone-claim-bulgaria/"
     }
@@ -14072,6 +14073,14 @@ window.DRONE_DATA = {
       "url": "https://flank.bg/en/news/romanian-naval-authority-reports-drone-strike-on-gas-carrier-in-bulgarias-exclusive-economic-zone",
       "dateLabel": "17 November 2026",
       "audit": "Full article read through search17November. Drone-strike claim attributed indirectly to Romanian authority; original statement not located. Its linked primary ministry source concerns BETUL8, not confirmation of GAS HUSKY drone cause. Do not infer weapon type/operator or common cause."
+    },
+    "U365": {
+      "id": "U365",
+      "publisher": "Associated Press, citing Maritime.bg and the rescued captain",
+      "title": "For a second day running, a merchant ship sinks off Bulgaria's Black Sea coast",
+      "url": "https://apnews.com/article/3265b6f9e84eb28b349dceb3223fd37f",
+      "dateLabel": "17 November 2026",
+      "audit": "Updated AP text read through search 17 November: Maritime.bg quoted the rescued captain saying four drones hit GAS HUSKY. AP explicitly says no official cause confirmation and an investigation underway. Original Maritime.bg unavailable (403). Retain primary NAVWARN854/26 listing/adrift status rather than adopt AP sinking headline as conclusive."
     }
   },
   "cutoff": "2026-11-17",

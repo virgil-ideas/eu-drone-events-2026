@@ -3804,5 +3804,13 @@
     "url": "https://flank.bg/en/news/romanian-naval-authority-reports-drone-strike-on-gas-carrier-in-bulgarias-exclusive-economic-zone",
     "dateLabel": "17 November 2026",
     "audit": "Full article read through search17November. Drone-strike claim attributed indirectly to Romanian authority; original statement not located. Its linked primary ministry source concerns BETUL8, not confirmation of GAS HUSKY drone cause. Do not infer weapon type/operator or common cause."
+  },
+  "U365": {
+    "id": "U365",
+    "publisher": "Associated Press, citing Maritime.bg and the rescued captain",
+    "title": "For a second day running, a merchant ship sinks off Bulgaria's Black Sea coast",
+    "url": "https://apnews.com/article/3265b6f9e84eb28b349dceb3223fd37f",
+    "dateLabel": "17 November 2026",
+    "audit": "Updated AP text read through search 17 November: Maritime.bg quoted the rescued captain saying four drones hit GAS HUSKY. AP explicitly says no official cause confirmation and an investigation underway. Original Maritime.bg unavailable (403). Retain primary NAVWARN854/26 listing/adrift status rather than adopt AP sinking headline as conclusive."
   }
 }
