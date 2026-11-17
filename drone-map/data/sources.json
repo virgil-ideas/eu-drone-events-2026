@@ -3812,5 +3812,13 @@
     "url": "https://apnews.com/article/3265b6f9e84eb28b349dceb3223fd37f",
     "dateLabel": "17 November 2026",
     "audit": "Updated AP text read through search 17 November: Maritime.bg quoted the rescued captain saying four drones hit GAS HUSKY. AP explicitly says no official cause confirmation and an investigation underway. Original Maritime.bg unavailable (403). Retain primary NAVWARN854/26 listing/adrift status rather than adopt AP sinking headline as conclusive."
+  },
+  "U366": {
+    "id": "U366",
+    "publisher": "Naftemporiki, reproducing Stealth Maritime Corporation statement",
+    "title": "Greek-managed LPG tanker sinks off Bulgaria after being hit; all 19 crew members rescued",
+    "url": "https://www.naftemporiki.gr/english/2190413/greek-managed-lpg-tanker-sinks-off-bulgaria-after-being-hit-all-19-crew-members-rescued/",
+    "dateLabel": "17 November 2026",
+    "audit": "Full reproduced manager statement read via search on 17 November: struck early that morning in Bulgarian EEZ, mechanism unspecified and vessel condition explicitly unknown. LPG loaded Alexandria, bound Midia; all19 rescued. Headline sinking is not adopted as a conclusive manager assessment."
   }
 }
