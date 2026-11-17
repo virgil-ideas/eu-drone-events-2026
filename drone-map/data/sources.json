@@ -3820,5 +3820,13 @@
     "url": "https://www.naftemporiki.gr/english/2190413/greek-managed-lpg-tanker-sinks-off-bulgaria-after-being-hit-all-19-crew-members-rescued/",
     "dateLabel": "17 November 2026",
     "audit": "Full reproduced manager statement read via search on 17 November: struck early that morning in Bulgarian EEZ, mechanism unspecified and vessel condition explicitly unknown. LPG loaded Alexandria, bound Midia; all19 rescued. Headline sinking is not adopted as a conclusive manager assessment."
+  },
+  "U367": {
+    "id": "U367",
+    "publisher": "Maritime.bg, citing an unnamed source at the vessel management company",
+    "title": "Кораб „Gas Husky“ е атакуван от морски и въздушни дронове",
+    "url": "https://www.maritime.bg/158415/",
+    "dateLabel": "17 November 2026, 18:06 local publication",
+    "audit": "Indexed article text read17 November: unnamed source at Greece-based management company alleges combined surface-drone boats (USV) and aerial drones (UAV). No independent confirmation, named witness, operator or technical evidence supplied. Not equivalent to manager public statement, which leaves mechanism unspecified. First-such-attack claim not adopted; republication repeating same source is not corroboration."
   }
 }

@@ -994,3 +994,5 @@ N178 records the confirmed offshore casualty/rescue as a provisional candidate, 
 N178 follow-up: AP now cites Maritime.bg quoting the rescued captain alleging four drone hits; this remains an attributed unverified claim, not four occurrence records. Original Maritime.bg inaccessible. NAVWARN854/26 was rechecked unchanged.
 
 N178 manager follow-up: Stealth Maritime statement reproduced by Naftemporiki reports a strike early 17 November in Bulgarian EEZ, without mechanism or final condition. Alexandria–Midia LPG voyage clarified. Ministry source independently retains3400 tonnes propane-butane; no evidence for an empty-vessel correction. Candidate classification unchanged.
+
+N17818:06 follow-up: Maritime.bg158415 alleges combined USV/UAV attack via unnamed management-company source. Indexed original read; republications cite same source, not independent corroboration. No first-such-attack, operator or proven-coordination claim adopted; manager public statement remains mechanism-unspecified. One candidate occurrence retained.
