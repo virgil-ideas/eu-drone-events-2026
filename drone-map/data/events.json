@@ -9882,5 +9882,49 @@
       "U376"
     ],
     "reviewedOn": "2026-11-18"
+  },
+  {
+    "id": "N181",
+    "title": "MARIAM M · drifting vessel grounds at Vadu",
+    "recordClass": "event",
+    "recordType": "drone_damaged_vessel_grounding",
+    "startDate": "2026-11-16",
+    "dateLabel": "16 November 2026 grounding; drift began 14 November",
+    "dateBasis": "Grounding date from ARSVOM and ANR. Drift began on 14 November after the anchor broke; the exact time of entry into Romanian waters is not established.",
+    "countries": "Romania",
+    "location": "Vadu coast, between Cape Midia and Vadu, Constanța County; earlier drift through Romanian waters.",
+    "status": "Officially reported grounding of a previously drone-damaged vessel",
+    "categories": "Drifting vessel; grounding; navigation hazard; aftermath of an earlier drone attack",
+    "category": "alert",
+    "stages": [
+      "alert"
+    ],
+    "positions": [
+      {
+        "lat": 44.41055,
+        "lng": 28.7575,
+        "precision": "locality",
+        "label": "MARIAM M grounding — ARN176/2026 position"
+      }
+    ],
+    "positionNote": "Approximate map anchor converted from ARN176/2026 coordinates; marks the grounding, not the September attack or a reconstructed drift track.",
+    "vehicle": "MARIAM M, Tanzania-flagged cargo vessel, reported abandoned without crew or cargo aboard.",
+    "attribution": "Operator responsible for the earlier drone strike is unresolved in the reviewed sources. Romanian drift and grounding are not attributed to a new attack.",
+    "route": "Ukrainian anchorage → Romanian waters → Vadu coast. Intermediate track not reconstructed.",
+    "circumstances": "ANR says a September drone strike in Ukrainian territorial waters left the vessel anchored. Its anchor broke on 14 November. Currents carried it into Romanian waters, where MRCC monitored it. It grounded at Vadu on 16 November before towing could begin.",
+    "payload": "No new drone or explosive payload reported in the Romanian grounding.",
+    "impact": "Vessel grounded and became a navigation hazard. No new casualties reported in Romania; September attack casualties are not counted here.",
+    "response": "Navigation warning issued. SAR ARTEMIS dispatched on 16 November and found the vessel already grounded. Owner contracted COREMAR for refloating; completion not established.",
+    "uncertainty": "Exact Romanian entry time, complete drift track and final salvage outcome unknown. The shared shoreline video depicts the aftermath, not a strike.",
+    "deduplication": "One Romanian drift-and-grounding occurrence. The September Ukrainian attack is background, not an additional EU strike. Later salvage or condition reports update this record.",
+    "provenance": "Added 18 November from ARN176, ANR/ARSVOM reporting and user-shared video. Promoted from watchlist after explicit inclusion of the vessel’s arrival in Romanian waters.",
+    "classificationNote": "Alert / other (gray): drone-related maritime aftermath within Romania. Not classified as a strike, drone crash or fresh drone incursion.",
+    "sources": [
+      "U379",
+      "U380",
+      "U381",
+      "U382"
+    ],
+    "reviewedOn": "2026-11-18"
   }
 ]

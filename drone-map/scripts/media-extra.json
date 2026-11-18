@@ -735,5 +735,22 @@
         "kind": "youtube"
       }
     }
+  ],
+  "N181": [
+    {
+      "title": "MARIAM M at Vadu — ARSVOM footage",
+      "publisher": "ARSVOM / Ziarul Amprenta",
+      "url": "https://ziarulamprenta.ro/stirile-zilei/foto-video-arsvom-in-misiune-de-salvare-pe-mare-nava-mariam-m-esuata-pe-plaje-intre-capul-midia-si-vadu/603223/",
+      "alt": "MARIAM M off the Romanian shore in footage published during the 16 November response.",
+      "date": "2026-11-16",
+      "note": "Footage credited to ARSVOM. Shows the vessel during the drift-and-grounding response, not a drone strike. The separate user-shared shoreline video is linked as source U382.",
+      "video": {
+        "kind": "file",
+        "url": "https://ziarulamprenta.ro/wp-content/uploads/2026/11/WhatsApp-Video-2026-11-16-at-15.55.36.mp4",
+        "type": "video/mp4",
+        "width": 854,
+        "height": 480
+      }
+    }
   ]
 }

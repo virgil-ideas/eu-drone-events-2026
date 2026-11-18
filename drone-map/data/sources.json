@@ -3900,5 +3900,36 @@
     "url": "https://btvnovinite.bg/predavania/tazi-sutrin/tankerat-gas-husky-e-udaren-v-cherno-more-chetiri-pati-morjacite-davat-protivorechivi-pokazanija.html",
     "dateLabel": "18 November 2026, 07:47 local publication",
     "audit": "Indexed original interview report read18November: governor asserts four impacts, describes contradictory sailors accounts and no confirmation of drone types. Says vessels not yet sunk and no pollution detected at that time. Four impacts are not four independently verified drones or occurrences. Do not infer operator or validate anonymous combined-USV/UAV claim."
+  },
+  "U379": {
+    "id": "U379",
+    "publisher": "Romanian Maritime Hydrographic Directorate",
+    "title": "ARN176/2026: MARIAM M grounded; navigation hazard",
+    "url": "https://www.dhmfn.ro/ro/informatii-de-interes-public/avize-radio-pentru-navigatori/",
+    "dateLabel": "16 November 2026",
+    "audit": "Primary navigation notice read 18 November. ARN176 cancels ARN175 and locates the grounded vessel at 44-24.633 N, 028-45.450 E. This is a grounding notice, not a new strike report; the live archive also contains unrelated notices."
+  },
+  "U380": {
+    "id": "U380",
+    "publisher": "Radio România Constanța, citing the Romanian Naval Authority (ANR)",
+    "title": "Authorities explain how drone-damaged MARIAM M drifted from Ukraine and grounded at Vadu",
+    "url": "https://www.radioconstanta.ro/2026/11/17/autoritatile-explica-modul-in-care-cargoul-mariam-m-avariat-de-o-drona-in-ucraina-a-ajuns-sa-esueze-la-vadu/",
+    "dateLabel": "17 November 2026, 10:14",
+    "audit": "ANR chronology: September strike in Ukrainian territorial waters, anchored until 14 November, then drift into Romanian waters and grounding on 16 November. COREMAR contracted to refloat; completion not established. September casualty figures are not assigned to the Romanian event."
+  },
+  "U381": {
+    "id": "U381",
+    "publisher": "Ziarul Amprenta, citing ARSVOM and ANR",
+    "title": "ARSVOM response and video: MARIAM M grounded between Cape Midia and Vadu",
+    "url": "https://ziarulamprenta.ro/stirile-zilei/foto-video-arsvom-in-misiune-de-salvare-pe-mare-nava-mariam-m-esuata-pe-plaje-intre-capul-midia-si-vadu/603223/",
+    "dateLabel": "16 November 2026; updated with ANR account on 17 November",
+    "audit": "Read 18 November. ARSVOM response requested at 13:55 and SAR ARTEMIS departed at 14:12 on 16 November; grounding reported by 18:00. Article credits ARSVOM for footage; the linked 8.8-second MP4 was loaded and visually checked. Earlier attack casualty figures differ from Radio România; no new Romanian casualties inferred."
+  },
+  "U382": {
+    "id": "U382",
+    "publisher": "r/Constangeles; video watermarked @NECONVENTIONAL_",
+    "title": "Video: abandoned drone-damaged vessel stranded at Vadu",
+    "url": "https://www.reddit.com/r/Constangeles/comments/1xyhgeo/nava_atacat%C4%83_de_drone_%C8%99i_abandonat%C4%83_acum_e%C8%99uat%C4%83/",
+    "audit": "User-supplied screenshot of this indexed Reddit post shows shoreline footage and the @NECONVENTIONAL_ watermark. Publication and filming times not independently established. Reddit requires a browser challenge, so the post is linked and separately verified ARSVOM footage is embedded. Video does not show a new strike; chronology and location rely on U379–U381."
   }
 }

@@ -21,6 +21,14 @@ Alert / other, with an explicit no-incursion finding where applicable. The
 14 October northern Tulcea RO-Alert is included on that basis; it does not
 restore previously excluded records or imply a confirmed foreign incursion.
 
+Selected aftermath of foreign drone attacks can also be mapped when it reaches
+Romania: MARIAM M's drift into Romanian waters and 16 November grounding is one
+`drone_damaged_vessel_grounding` record under Alert / other. Date and position refer
+to the documented Romanian occurrence; its September Ukrainian strike remains
+background, with no new strike or transferred casualties counted. Subsequent
+salvage updates belong to the same record. This type is included in the Black Sea
+shipping replay, retaining its gray category.
+
 The migration preserved all 112 mapped records, eight context records, 169 sources
 and 114 anchors, including the reviewed Solca and Neptun Deep classifications.
 Those are migration totals, not hard-coded limits. All browser record fields were

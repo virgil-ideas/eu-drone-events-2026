@@ -444,7 +444,8 @@
   const brokenMedia = new Set();
   function mediaFor(event) {
     const cited = event.sources.filter(id => sourceMedia[id] && sources[id]).map(id => ({...sourceMedia[id], url:sources[id].url, publisher:sources[id].publisher}));
-    const extra = (extraMedia[event.id] || []).map(item => ({...item, extra:true}));
+    const citedUrls = new Set(event.sources.map(id => sources[id]?.url));
+    const extra = (extraMedia[event.id] || []).map(item => ({...item, extra:!citedUrls.has(item.url)}));
     const seen = new Set();
     const playable = item => Boolean(playableVideo(item.video));
     const linked = item => Boolean(externalVideo(item.video));

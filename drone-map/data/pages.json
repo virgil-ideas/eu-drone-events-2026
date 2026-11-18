@@ -2349,5 +2349,16 @@
       "This is one selected alert, not a confirmed drone incursion."
     ],
     "basis": "4d274644a4b48ea9"
+  },
+  "N181": {
+    "slug": "2026-11-16-mariam-m-drifts-ashore-vadu-romania",
+    "headline": "Drone-damaged MARIAM M drifts into Romanian waters and grounds at Vadu",
+    "description": "MARIAM M grounded at Vadu on 16 November after drifting from Ukraine. Recorded as maritime aftermath, with video; no new Romanian strike reported.",
+    "summary": [
+      "MARIAM M grounded on Romania’s Vadu coast on 16 November 2026. The abandoned, Tanzania-flagged cargo vessel had drifted into Romanian waters after its anchor broke on 14 November.",
+      "Romanian authorities say a September drone strike in Ukrainian territorial waters had left the ship anchored there. This record covers its subsequent arrival and grounding in Romania, classified as Alert / other. It does not count a new drone strike or transfer casualties from the September attack.",
+      "MRCC monitored the drift and a navigation warning was issued. SAR ARTEMIS found the vessel already grounded; the owner contracted COREMAR to refloat it. Salvage completion remains unconfirmed. The record includes ARSVOM footage and a link to the shared shoreline video."
+    ],
+    "basis": "9478af16fce43194"
   }
 }

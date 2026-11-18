@@ -2455,6 +2455,7 @@ html[data-i18n-pending] body {
 
 /* Media Player in Detail */
 .detail-media {
+  flex-shrink: 0;
   margin: 0;
   border-radius: 7px;
   overflow: hidden;
