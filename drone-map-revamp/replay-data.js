@@ -35,7 +35,7 @@
   const LEGACY_SHIP_IDS = new Set(['E033', 'E034', 'E053']);
   const SHIP_RECORD_TYPES = new Set([
     'reported_offshore_drone_strike', 'reported_maritime_drone_strike',
-    'suspected_maritime_drone_attack'
+    'suspected_maritime_drone_attack', 'unconfirmed_offshore_drone_strike'
   ]);
   function maritimeEscalation(events, cutoff) {
     const startDate = '2026-10-05';

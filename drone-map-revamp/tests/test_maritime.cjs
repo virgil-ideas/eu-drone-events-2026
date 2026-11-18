@@ -45,6 +45,25 @@ test('overnight Sulina reports extend the replay through 15 November and count e
   assert.equal(maritimeEscalation([overlap, later], '2026-11-18').endDate, '2026-11-16');
 });
 
+test('provisional November vessel incidents extend replay while keeping their evidence status', () => {
+  const summary = maritimeEscalation(events, '2026-11-17');
+  assert.equal(summary.endDate, '2026-11-17');
+  assert.equal(summary.records.length, 15);
+  for (const id of ['N175', 'N178']) {
+    const records = summary.records.filter(event => event.id === id);
+    assert.equal(records.length, 1);
+    assert.equal(records[0].recordClass, 'candidate');
+    assert.equal(records[0].category, 'alert');
+  }
+  for (const id of ['N173', 'N174', 'N177', 'N179']) {
+    assert(!summary.ships.some(event => event.id === id), 'debris, warnings and Aegean flights stay outside vessel replay');
+  }
+  assert.equal(maritimeEscalation(events, '2026-11-16').records.length, 14);
+  assert.equal(maritimeEscalation(events, '2026-11-15').records.length, 13);
+  const excluded = events.map(event => event.id === 'N178' ? {...event, recordClass: 'excluded'} : event);
+  assert.equal(maritimeEscalation(excluded, '2026-11-17').endDate, '2026-11-16');
+});
+
 test('excluded and non-Black-Sea records do not extend the shipping escalation', () => {
   const ship=events.find(e=>e.id==='N124');
   const additions=[
