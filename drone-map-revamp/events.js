@@ -2270,6 +2270,50 @@ window.DRONE_DATA = {
       "page": "events/2026-07-27-drone-incursion-southeastern-romania/"
     },
     {
+      "id": "N180",
+      "title": "Farmakonisi · reported Turkish UAV overflight",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-07-30",
+      "dateLabel": "2026-07-30",
+      "dateBasis": "Occurrence and contemporary reports: 30 July 2026. Ministerial answer dated 1 November and posted 16 November is a follow-up, not a new flight.",
+      "countries": "Greece",
+      "location": "Farmakonisi and southeastern Aegean; reported Greek national airspace",
+      "status": "Greek-authority account of Turkish UAV overflight",
+      "categories": "National-airspace violations; island overflight; routine interception",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 37.29,
+          "lng": 27.14,
+          "precision": "region",
+          "label": "Farmakonisi — approximate island reference"
+        }
+      ],
+      "positionNote": "Approximate island anchor, not exact flight track or aircraft position.",
+      "vehicle": "Two Turkish UAVs in the daily account; models unspecified.",
+      "attribution": "Turkish UAVs according to GEETHA as reported by CNN Greece and in.gr. Greek ministry later acknowledged the overflight.",
+      "route": "Island overflight reported; precise routes and intended targets unknown.",
+      "circumstances": "Greek daily figures attribute eight national-airspace violations, including the Farmakonisi overflight, and four separate Athens FIR infringements to UAVs. A manned CN-235 accounts for two further FIR infringements, excluded from the UAV figures.",
+      "payload": "No armed aircraft reported in the daily account; payload details unknown.",
+      "impact": "No injury or physical damage reported.",
+      "response": "Routine identification/interception reported, without engagements. In its answer dated 1 November, the Greek ministry said it had submitted an official report to NATO concerning the July 30 overflight and expected NATO information/analysis soon at that time.",
+      "uncertainty": "Greek-authority account, not independent flight-track confirmation. The answer supplies no NATO finding and does not establish whether a response remains pending today. Exact tracks and intent unknown; Greek-Turkish airspace dispute remains relevant.",
+      "deduplication": "One regional daily occurrence including the island overflight; eight violations and four FIR infringements are non-additive, not twelve incidents. No matching canonical July 30 record. November parliamentary follow-up does not create another occurrence.",
+      "provenance": "Primary ministerial answer and contemporary CNN Greece/in.gr reports read 18 November 2026.",
+      "classificationNote": "Reported foreign UAV incursion/overflight, not a confirmed attack, crash or shoot-down. FIR traffic infringements remain distinct from national-airspace violations.",
+      "sourceReferences": "[U373][U373]; [U374][U374]; [U375][U375]",
+      "sources": [
+        "U373",
+        "U374",
+        "U375"
+      ],
+      "page": "events/2026-07-30-farmakonisi-reported-turkish-uav-overflight-greece/"
+    },
+    {
       "id": "E039",
       "dateLabel": "2026-08-02",
       "dateBasis": "2 August; detection 15:09, F-16 scramble 15:17, alert ended 16:05 EEST, as reported",
@@ -14170,6 +14214,30 @@ window.DRONE_DATA = {
       "url": "https://www.dhmfn.ro/ro/informatii-de-interes-public/avize-radio-pentru-navigatori/",
       "dateLabel": "17 November 2026",
       "audit": "Primary notices read 18 November: ARN177 cancels ARN172 but maintains broader caution; ARN178 reproduces NAVAREA III 0175/26. Response context, not a new occurrence or proof of a prior closure."
+    },
+    "U373": {
+      "id": "U373",
+      "publisher": "Hellenic Ministry of National Defence",
+      "title": "Written answer to parliamentary question 7676/18-08-2026",
+      "url": "https://www.mod.mil.gr/wp-content/uploads/2026/11/20260511031814modtpent_7676-ΤΟΥΡΚΙΚΗ-ΣΤΡΑΤΙΩΤΙΚΗ-ΑΕΡΟΠΟΡΙΚΗ-ΔΡΑΣΤΗΡΙΟΤΗΤΑ-ΣΤΟ-ΑΙΓΑΙΟ-ΜΕ-ΧΡΗΣΗ-UAV.pdf",
+      "dateLabel": "Answer dated 1 November 2026; ministry page published 16 November 2026",
+      "audit": "Primary PDF read 18 November via corrected same-host attachment URL. Acknowledges July 30 Farmakonisi overflight and formal NATO reporting. NATO material was awaited as of November1, not a current pending-status claim. Landing page: https://www.mod.mil.gr/apantisi-yetha-nikoy-georgioy-s-dendia-se-erotisi-koinovoyleytikoy-129/"
+    },
+    "U374": {
+      "id": "U374",
+      "publisher": "CNN Greece, citing GEETHA",
+      "title": "Turkish UAV overflight over Farmakonisi",
+      "url": "https://www.cnn.gr/politiki/story/545999/yperptisi-tourkikoy-uav-pano-apo-to-farmakonisi-nea-klimakosi-apo-tin-agkyra",
+      "dateLabel": "30 July 2026, 21:52",
+      "audit": "Full report read 18 November. Two UAVs: eight national-airspace violations and four FIR infringements; separate CN235 accounts for two additional FIR infringements. Greek authority account, not independently verified tracks."
+    },
+    "U375": {
+      "id": "U375",
+      "publisher": "in.gr, citing GEETHA",
+      "title": "One overflight and eight violations by Turkish UAVs",
+      "url": "https://www.in.gr/2026/07/30/politics/diplomatia/i-tourkia-epistrefei-stin-politiki-ton-yperptiseon-mia-yperptisi-kai-okto-paraviaseis-apo-tourkika-uav/",
+      "dateLabel": "30 July 2026, 21:06",
+      "audit": "Full report read 18 November. Farmakonisi overflight is included in eight airspace violations, not an additional ninth. Reports routine identification/interception and no engagements; same underlying Greek authority account."
     }
   },
   "cutoff": "2026-11-17",

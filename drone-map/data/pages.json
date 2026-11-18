@@ -2328,5 +2328,15 @@
       "This is one daily regional record; aircraft and crossing figures are non-additive. The fighter encounter in the same bulletin does not establish a drone shoot-down. Exact tracks and intended targets remain unknown; the primary archive gap and Greek-Turkish airspace dispute remain relevant."
     ],
     "basis": "d8e3ef5693037b68"
+  },
+  "N180": {
+    "slug": "2026-07-30-farmakonisi-reported-turkish-uav-overflight-greece",
+    "headline": "Farmakonisi · Turkish UAV overflight reported on 30 July",
+    "description": "Greek authorities reported a July 30 UAV overflight of Farmakonisi. A November ministerial answer confirms official NATO reporting, not a NATO finding.",
+    "summary": [
+      "Greek reports attributed eight national-airspace violations to two Turkish UAVs on 30 July 2026, including an overflight of Farmakonisi. Four separate Athens FIR infringements were attributed to the UAVs. This is one daily record, not twelve incidents.",
+      "A ministerial answer dated 1 November and published 16 November acknowledges the overflight and says Greece sent an official report to NATO. It said NATO analysis was expected at that time; it provides neither a NATO finding nor evidence that a response is still pending. Exact flight tracks and intent remain unknown."
+    ],
+    "basis": "91991836e30070bf"
   }
 }

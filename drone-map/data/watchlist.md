@@ -1003,3 +1003,7 @@ N179 adds one dated Greek-authority aggregate reproduced in Eleftheros Typos and
 
 ## 18 November navigation-notice follow-up
 NA008 now reflects ARN177 cancellation of ARN172 on 17 November, retaining wider caution and ARN178. ARN179 reports an unidentified floating hazard, not an established drone; no mapped event added. Bulgarian NAVWARN854/26 rechecked unchanged: dated 17 November 10:50 UTC, GAS HUSKY listing with submerged bridge and adrift. Do not infer complete sinking from earlier ministry/media wording or treat a carried warning as a new observation.
+
+
+### Farmakonisi 30 July: historical gap narrowed (18 November)
+N180 adds the July 30 reported UAV daily occurrence, including the island overflight, from contemporary GEETHA-based reporting and the ministry answer dated November1/published November16 (U373–U375). No new November flight or NATO finding is implied. Check any later NATO response only if publicly evidenced; the answer’s expectation applies to November1. Other dates cited in the parliamentary question remain research leads, not verified additions or proof of complete Greek coverage.

@@ -3852,5 +3852,29 @@
     "url": "https://www.dhmfn.ro/ro/informatii-de-interes-public/avize-radio-pentru-navigatori/",
     "dateLabel": "17 November 2026",
     "audit": "Primary notices read 18 November: ARN177 cancels ARN172 but maintains broader caution; ARN178 reproduces NAVAREA III 0175/26. Response context, not a new occurrence or proof of a prior closure."
+  },
+  "U373": {
+    "id": "U373",
+    "publisher": "Hellenic Ministry of National Defence",
+    "title": "Written answer to parliamentary question 7676/18-08-2026",
+    "url": "https://www.mod.mil.gr/wp-content/uploads/2026/11/20260511031814modtpent_7676-ΤΟΥΡΚΙΚΗ-ΣΤΡΑΤΙΩΤΙΚΗ-ΑΕΡΟΠΟΡΙΚΗ-ΔΡΑΣΤΗΡΙΟΤΗΤΑ-ΣΤΟ-ΑΙΓΑΙΟ-ΜΕ-ΧΡΗΣΗ-UAV.pdf",
+    "dateLabel": "Answer dated 1 November 2026; ministry page published 16 November 2026",
+    "audit": "Primary PDF read 18 November via corrected same-host attachment URL. Acknowledges July 30 Farmakonisi overflight and formal NATO reporting. NATO material was awaited as of November1, not a current pending-status claim. Landing page: https://www.mod.mil.gr/apantisi-yetha-nikoy-georgioy-s-dendia-se-erotisi-koinovoyleytikoy-129/"
+  },
+  "U374": {
+    "id": "U374",
+    "publisher": "CNN Greece, citing GEETHA",
+    "title": "Turkish UAV overflight over Farmakonisi",
+    "url": "https://www.cnn.gr/politiki/story/545999/yperptisi-tourkikoy-uav-pano-apo-to-farmakonisi-nea-klimakosi-apo-tin-agkyra",
+    "dateLabel": "30 July 2026, 21:52",
+    "audit": "Full report read 18 November. Two UAVs: eight national-airspace violations and four FIR infringements; separate CN235 accounts for two additional FIR infringements. Greek authority account, not independently verified tracks."
+  },
+  "U375": {
+    "id": "U375",
+    "publisher": "in.gr, citing GEETHA",
+    "title": "One overflight and eight violations by Turkish UAVs",
+    "url": "https://www.in.gr/2026/07/30/politics/diplomatia/i-tourkia-epistrefei-stin-politiki-ton-yperptiseon-mia-yperptisi-kai-okto-paraviaseis-apo-tourkika-uav/",
+    "dateLabel": "30 July 2026, 21:06",
+    "audit": "Full report read 18 November. Farmakonisi overflight is included in eight airspace violations, not an additional ninth. Reports routine identification/interception and no engagements; same underlying Greek authority account."
   }
 }
