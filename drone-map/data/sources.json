@@ -3876,5 +3876,21 @@
     "url": "https://www.in.gr/2026/07/30/politics/diplomatia/i-tourkia-epistrefei-stin-politiki-ton-yperptiseon-mia-yperptisi-kai-okto-paraviaseis-apo-tourkika-uav/",
     "dateLabel": "30 July 2026, 21:06",
     "audit": "Full report read 18 November. Farmakonisi overflight is included in eight airspace violations, not an additional ninth. Reports routine identification/interception and no engagements; same underlying Greek authority account."
+  },
+  "U376": {
+    "id": "U376",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Press release 371: overnight northern Tulcea alert",
+    "url": "https://www.mapn.ro/cpresa/19480_Informa%C8%9Bie-de-pres%C4%83",
+    "dateLabel": "17 November 2026",
+    "audit": "Primary statement read 18 November. Selected alert, explicitly no unauthorized Romanian entry; target type unspecified."
+  },
+  "U377": {
+    "id": "U377",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Drone and naval-mine dashboard: 17 November snapshot",
+    "url": "https://www.mapn.ro/",
+    "dateLabel": "Updated 17 November 2026; read 18 November",
+    "audit": "2026 row: 118 nearby attacks, 96 aircraft-response incidents, 39 unauthorized entries, 6 downed drones, 44 drones/fragments identified/recovered/neutralized and 2 mines. Overlapping categories, not separate occurrences."
   }
 }

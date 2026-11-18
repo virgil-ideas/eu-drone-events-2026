@@ -9839,5 +9839,47 @@
       "U375"
     ],
     "reviewedOn": "2026-11-18"
+  },
+  {
+    "id": "N177",
+    "title": "Northern Tulcea · overnight alert without airspace entry",
+    "recordClass": "event",
+    "recordType": "selected_civil_protection_alert",
+    "startDate": "2026-11-16",
+    "endDate": "2026-11-17",
+    "dateLabel": "2026-11-16–17",
+    "dateBasis": "RO-Alert 23:36 on 16 November to 00:07 on 17 November, local time; statement published 17 November.",
+    "countries": "Romania",
+    "location": "Northern Tulcea County; targets detected over Ukraine.",
+    "status": "Official selected alert; no unauthorized national-airspace entry",
+    "categories": "Civil-protection alert; fighter response",
+    "category": "alert",
+    "stages": [
+      "alert"
+    ],
+    "positions": [
+      {
+        "lat": 45.2,
+        "lng": 29.1,
+        "precision": "region",
+        "label": "Northern Tulcea — alert region"
+      }
+    ],
+    "positionNote": "Approximate alert-area anchor, not a target location or flight path.",
+    "vehicle": "Aerial targets; drone identity unspecified.",
+    "attribution": "Operator and target types not established by the statement.",
+    "route": "Four targets east of Vâlcove, then seven northeast of Ismail, in Ukraine; not an established continuous route.",
+    "circumstances": "Radar detections near the border triggered an alert.",
+    "payload": "Not specified.",
+    "impact": "No unauthorized Romanian airspace entry recorded.",
+    "response": "Two F-16s scrambled; northern Tulcea residents alerted.",
+    "uncertainty": "Target groups are not eleven confirmed distinct drones.",
+    "deduplication": "One overnight alert, not a confirmed incursion.",
+    "provenance": "Primary MApN statement reviewed.",
+    "classificationNote": "Selected alert only.",
+    "sources": [
+      "U376"
+    ],
+    "reviewedOn": "2026-11-18"
   }
 ]

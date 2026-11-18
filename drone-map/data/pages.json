@@ -2338,5 +2338,15 @@
       "A ministerial answer dated 1 November and published 16 November acknowledges the overflight and says Greece sent an official report to NATO. It said NATO analysis was expected at that time; it provides neither a NATO finding nor evidence that a response is still pending. Exact flight tracks and intent remain unknown."
     ],
     "basis": "91991836e30070bf"
+  },
+  "N177": {
+    "slug": "2026-11-16-17-northern-tulcea-alert-no-airspace-entry-romania",
+    "headline": "Northern Tulcea alerted overnight; no Romanian airspace entry recorded",
+    "description": "Romania issued an overnight alert on 16–17 November after radar detections over Ukraine. MApN reported no unauthorized Romanian airspace entry.",
+    "summary": [
+      "Romania issued a civil-protection alert after radar detections over Ukraine. No unauthorized entry into Romanian airspace was recorded.",
+      "This is one selected alert, not a confirmed drone incursion."
+    ],
+    "basis": "4d274644a4b48ea9"
   }
 }
