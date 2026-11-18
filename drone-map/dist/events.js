@@ -10420,17 +10420,18 @@ window.DRONE_DATA = {
     {
       "id": "NA007",
       "countries": "Romania; Bulgaria",
-      "dateLabel": "2026-11-10; planned 2027 operational objective",
+      "dateLabel": "Announcements 2026-11-10 and 2026-11-17; planned 2027–2028 milestones",
       "vehicle": "No aircraft or incident count.",
       "status": "Planned regional security response — NOT an incident",
-      "attribution": "European Commission policy announcement.",
-      "circumstances": "The Commission announced up to EUR 50 million for a Black Sea Maritime Security Hub, with a joint working group to develop its concept and work plan. Romania and Bulgaria are intended co-hosts, across Constanța and Varna facilities.",
-      "uncertainty": "2027 is an operational objective, not confirmation of current protection or deployment. Further implementation details remain pending.",
+      "attribution": "European Commission announcement and deputy prime minister Marian Neacșu interview.",
+      "circumstances": "The Commission announced up to EUR 50 million for a Black Sea Maritime Security Hub, with a joint working group to develop its concept and work plan. Romania and Bulgaria are intended co-hosts, across Constanța and Varna facilities. In his 17 November interview, Neacșu said a building had been identified and projected partial operation around summer 2027 and full operation in early 2028.",
+      "uncertainty": "Both timetables are prospective, not evidence of an operational system. The Commission’s 2027 objective and Neacșu’s phased milestones are not explicitly reconciled; a confirmed delay cannot be inferred.",
       "deduplication": "Non-additive policy context. Predates 14–15 November Sulina vessel reports; no causal link to those later occurrences or common attacker inferred.",
-      "sourceReferences": "[U323][U323]; [U324][U324]",
+      "sourceReferences": "[U323][U323]; [U324][U324]; [U383][U383]",
       "sources": [
         "U323",
-        "U324"
+        "U324",
+        "U383"
       ]
     },
     {
@@ -14383,6 +14384,14 @@ window.DRONE_DATA = {
       "title": "Video: abandoned drone-damaged vessel stranded at Vadu",
       "url": "https://www.reddit.com/r/Constangeles/comments/1xyhgeo/nava_atacat%C4%83_de_drone_%C8%99i_abandonat%C4%83_acum_e%C8%99uat%C4%83/",
       "audit": "User-supplied screenshot of this indexed Reddit post shows shoreline footage and the @NECONVENTIONAL_ watermark. Publication and filming times not independently established. Reddit requires a browser challenge, so the post is linked and separately verified ARSVOM footage is embedded. Video does not show a new strike; chronology and location rely on U379–U381."
+    },
+    "U383": {
+      "id": "U383",
+      "publisher": "Antena 3 CNN",
+      "title": "Marian Neacșu interview: planned Black Sea hub milestones",
+      "url": "https://www.antena3.ro/politica/avertismentul-vicepremierului-neacsu-razboiul-din-ucraina-a-intrat-intr-o-noua-etapa-trebuie-sa-fim-pregatiti-pentru-orice-811576.html",
+      "dateLabel": "Published 17 November 2026 23:32; updated 18 November 00:17",
+      "audit": "Interview outlet’s transcript read 18 November. Future milestones attributed to the speaker; no independently verified operational completion or reconciled Commission timetable."
     }
   },
   "cutoff": "2026-11-17",

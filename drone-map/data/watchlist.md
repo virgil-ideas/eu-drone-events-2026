@@ -1024,3 +1024,7 @@ N17818November governor follow-up: bTV07:47 report attributes four impacts, cont
 ### 18 November — MARIAM M promoted to mapped Romanian aftermath (N181)
 
 Supersedes the earlier non-additive watchlist treatment above following explicit editorial scope clarification: the drone-damaged vessel's arrival in Romanian waters and grounding belong in the register even though no new strike occurred. N181 maps one Alert / other (gray) event on 16 November, the documented grounding date. The anchor broke on 14 November; exact Romanian entry time is unknown. ARN176/2026 supplies the grounding position at Vadu. September's Ukrainian strike is background, not a new Romanian attack; earlier casualties are not transferred. Later refloating, salvage and condition developments update N181, not another event. Sources U379–U382 retain the primary notice, ANR/ARSVOM reports and shared Reddit video; playable ARSVOM footage is attached because Reddit requires a browser challenge. Cutoff remains 17 November.
+
+
+## 18 November targeted hub-context follow-up
+NA007 adds the dated, attributed phased plan from the 17 November interview (U383); no new occurrence or confirmed delay. The same interview cites 466 national alerts since February 2022, including 422 in 2026, with an approximate cutoff and unexplained counting method. These are not verified incursions or unique drones and are not comparable with MApN counters. Seek underlying methodology before using as a trend. This targeted context review does not advance EU27 coverage clearance.

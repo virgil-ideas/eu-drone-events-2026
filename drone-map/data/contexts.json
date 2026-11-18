@@ -198,18 +198,19 @@
   {
     "id": "NA007",
     "countries": "Romania; Bulgaria",
-    "dateLabel": "2026-11-10; planned 2027 operational objective",
+    "dateLabel": "Announcements 2026-11-10 and 2026-11-17; planned 2027–2028 milestones",
     "vehicle": "No aircraft or incident count.",
     "status": "Planned regional security response — NOT an incident",
-    "attribution": "European Commission policy announcement.",
-    "circumstances": "The Commission announced up to EUR 50 million for a Black Sea Maritime Security Hub, with a joint working group to develop its concept and work plan. Romania and Bulgaria are intended co-hosts, across Constanța and Varna facilities.",
-    "uncertainty": "2027 is an operational objective, not confirmation of current protection or deployment. Further implementation details remain pending.",
+    "attribution": "European Commission announcement and deputy prime minister Marian Neacșu interview.",
+    "circumstances": "The Commission announced up to EUR 50 million for a Black Sea Maritime Security Hub, with a joint working group to develop its concept and work plan. Romania and Bulgaria are intended co-hosts, across Constanța and Varna facilities. In his 17 November interview, Neacșu said a building had been identified and projected partial operation around summer 2027 and full operation in early 2028.",
+    "uncertainty": "Both timetables are prospective, not evidence of an operational system. The Commission’s 2027 objective and Neacșu’s phased milestones are not explicitly reconciled; a confirmed delay cannot be inferred.",
     "deduplication": "Non-additive policy context. Predates 14–15 November Sulina vessel reports; no causal link to those later occurrences or common attacker inferred.",
     "sources": [
       "U323",
-      "U324"
+      "U324",
+      "U383"
     ],
-    "reviewedOn": "2026-11-16"
+    "reviewedOn": "2026-11-18"
   },
   {
     "id": "NA008",
