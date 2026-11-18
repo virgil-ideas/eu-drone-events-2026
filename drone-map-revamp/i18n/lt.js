@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Įrašai pagal mėnesius: {list}',
   'trend.column': {one: '{month}: {n} įrašas', few: '{month}: {n} įrašai', many: '{month}: {n} įrašo', other: '{month}: {n} įrašų'},
   'trend.how': 'Kaip skaičiuojama',
+  'trend.records': {"one": "įrašas", "few": "įrašai", "many": "įrašo", "other": "įrašų"},
+  'trend.dailyAverage': "{rate} / dieną",
+  'trend.latest': "Naujausias",
+  'trend.partialBlock': "Dalinis",
+  'trend.blocksNote': "Spalvos žymi iš eilės einančius 90 dienų laikotarpius, skaičiuojamus atgal nuo aprėpties pabaigos datos, be tarpų ar persidengimų. Pirmasis laikotarpis prasideda sausio 1 d. Dienos vidurkiai apskaičiuojami pagal tikrąjį kiekvieno laikotarpio dienų skaičių.",
 
   'cumulative.title': 'Kaupiamoji suma',
   'cumulative.aria': 'Kaupiamoji įrašų suma: {first} iki {firstDate}, {last} iki {lastDate}.',

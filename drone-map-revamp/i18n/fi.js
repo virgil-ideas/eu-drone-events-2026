@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Merkinnät kuukausittain: {list}',
   'trend.column': {one: '{month}: {n} merkintä', other: '{month}: {n} merkintää'},
   'trend.how': 'Miten tämä lasketaan',
+  'trend.records': {"one": "tietue", "other": "tietuetta"},
+  'trend.dailyAverage': "{rate} / päivä",
+  'trend.latest': "Uusin",
+  'trend.partialBlock': "Osittainen",
+  'trend.blocksNote': "Värit osoittavat peräkkäiset 90 päivän jaksot laskettuna taaksepäin kattavuuden päättymispäivästä ilman aukkoja tai päällekkäisyyksiä. Ensimmäinen jakso alkaa 1. tammikuuta. Päiväkeskiarvot perustuvat kunkin jakson todelliseen päivien määrään.",
 
   'cumulative.title': 'Kertymä',
   'cumulative.aria': 'Merkintöjen kertymä: {first} {firstDate} mennessä, {last} {lastDate} mennessä.',

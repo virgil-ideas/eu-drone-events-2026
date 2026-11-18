@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Registreringer pr. måned: {list}',
   'trend.column': {one: '{month}: {n} registrering', other: '{month}: {n} registreringer'},
   'trend.how': 'Sådan tælles der',
+  'trend.records': {"one": "registrering", "other": "registreringer"},
+  'trend.dailyAverage': "{rate} / dag",
+  'trend.latest': "Seneste",
+  'trend.partialBlock': "Delvis",
+  'trend.blocksNote': "Farverne viser sammenhængende perioder på 90 dage regnet baglæns fra dækningens slutdato, uden huller eller overlap. Den første periode begynder 1. januar. Dagsgennemsnit beregnes ud fra det faktiske antal dage i hver periode.",
 
   'cumulative.title': 'Løbende total',
   'cumulative.aria': 'Løbende total af registreringer: {first} frem til {firstDate}, {last} frem til {lastDate}.',

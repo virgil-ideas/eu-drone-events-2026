@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Bejegyzések havonta: {list}',
   'trend.column': {one: '{month}: {n} bejegyzés', other: '{month}: {n} bejegyzés'},
   'trend.how': 'A számítás módja',
+  'trend.records': {"one": "bejegyzés", "other": "bejegyzés"},
+  'trend.dailyAverage': "{rate} / nap",
+  'trend.latest': "Legutóbbi",
+  'trend.partialBlock': "Részleges",
+  'trend.blocksNote': "A színek egymást követő 90 napos időszakokat jelölnek, a lefedettség zárónapjától visszafelé számítva, hézagok és átfedések nélkül. Az első időszak január 1-jén kezdődik. A napi átlagok az egyes időszakok tényleges napszámán alapulnak.",
 
   'cumulative.title': 'Halmozott összeg',
   'cumulative.aria': 'A bejegyzések halmozott száma – {firstDate}: {first}; {lastDate}: {last}.',

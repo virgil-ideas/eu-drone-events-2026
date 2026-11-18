@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Einträge pro Monat: {list}',
   'trend.column': {one: '{month}: {n} Eintrag', other: '{month}: {n} Einträge'},
   'trend.how': 'So wird gezählt',
+  'trend.records': {"one": "Eintrag", "other": "Einträge"},
+  'trend.dailyAverage': "{rate} / Tag",
+  'trend.latest': "Aktuellster",
+  'trend.partialBlock': "Teilzeitraum",
+  'trend.blocksNote': "Die Farben zeigen aufeinanderfolgende 90-Tage-Zeiträume, rückwärts vom Ende der Abdeckung gerechnet, ohne Lücken oder Überschneidungen. Der erste Zeitraum beginnt am 1. Januar. Tagesdurchschnitte beruhen auf der tatsächlichen Anzahl der Tage im jeweiligen Zeitraum.",
 
   'cumulative.title': 'Laufende Summe',
   'cumulative.aria': 'Laufende Summe der Einträge: {first} bis {firstDate}, {last} bis {lastDate}.',

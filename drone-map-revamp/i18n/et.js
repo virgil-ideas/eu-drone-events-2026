@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Kirjed kuude kaupa: {list}',
   'trend.column': {one: '{month}: {n} kirje', other: '{month}: {n} kirjet'},
   'trend.how': 'Kuidas seda loendatakse',
+  'trend.records': {"one": "kirje", "other": "kirjet"},
+  'trend.dailyAverage': "{rate} / päev",
+  'trend.latest': "Uusim",
+  'trend.partialBlock': "Osaline",
+  'trend.blocksNote': "Värvid tähistavad järjestikuseid 90-päevaseid perioode, mida loetakse katvuse lõppkuupäevast tagasi, ilma lünkade ja kattumisteta. Esimene periood algab 1. jaanuaril. Päevakeskmised põhinevad iga perioodi tegelikul päevade arvul.",
 
   'cumulative.title': 'Kumulatiivne summa',
   'cumulative.aria': 'Kirjete kumulatiivne summa: {first} kuni {firstDate}, {last} kuni {lastDate}.',

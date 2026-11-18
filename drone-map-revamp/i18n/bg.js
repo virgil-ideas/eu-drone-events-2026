@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Записи по месеци: {list}',
   'trend.column': {one: '{month}: {n} запис', other: '{month}: {n} записа'},
   'trend.how': 'Как се брои',
+  'trend.records': {"one": "запис", "other": "записа"},
+  'trend.dailyAverage': "{rate} / ден",
+  'trend.latest': "Последен",
+  'trend.partialBlock': "Непълен",
+  'trend.blocksNote': "Цветовете показват последователни 90-дневни периоди назад от крайната дата на покритието, без пропуски или припокриване. Първият период започва на 1 януари. Дневните средни стойности използват действителния брой дни във всеки период.",
 
   'cumulative.title': 'Натрупан общ брой',
   'cumulative.aria': 'Натрупан общ брой записи: {first} към {firstDate}, {last} към {lastDate}.',

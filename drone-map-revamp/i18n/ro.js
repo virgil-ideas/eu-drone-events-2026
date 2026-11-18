@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Înregistrări pe lună: {list}',
   'trend.column': {one: '{month}: {n} înregistrare', few: '{month}: {n} înregistrări', other: '{month}: {n} de înregistrări'},
   'trend.how': 'Cum se numără',
+  'trend.records': {"one": "înregistrare", "few": "înregistrări", "other": "de înregistrări"},
+  'trend.dailyAverage': "{rate} / zi",
+  'trend.latest': "Cel mai recent",
+  'trend.partialBlock': "Parțial",
+  'trend.blocksNote': "Culorile indică perioade consecutive de 90 de zile, calculate înapoi de la ultima zi acoperită, fără pauze sau suprapuneri. Prima perioadă începe la 1 ianuarie. Mediile zilnice folosesc numărul real de zile din fiecare perioadă.",
 
   'cumulative.title': 'Total cumulat',
   'cumulative.aria': 'Totalul cumulat al înregistrărilor: {first} până la {firstDate}, {last} până la {lastDate}.',

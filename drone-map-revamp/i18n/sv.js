@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Registreringar per månad: {list}',
   'trend.column': {one: '{month}: {n} registrering', other: '{month}: {n} registreringar'},
   'trend.how': 'Så räknas det',
+  'trend.records': {"one": "post", "other": "poster"},
+  'trend.dailyAverage': "{rate} / dag",
+  'trend.latest': "Senaste",
+  'trend.partialBlock': "Delvis",
+  'trend.blocksNote': "Färgerna visar sammanhängande 90-dagarsperioder räknade bakåt från täckningens slutdatum, utan luckor eller överlapp. Den första perioden börjar den 1 januari. Dagsgenomsnitten använder det faktiska antalet dagar i varje period.",
 
   'cumulative.title': 'Löpande summa',
   'cumulative.aria': 'Löpande summa av registreringar: {first} fram till {firstDate}, {last} fram till {lastDate}.',

@@ -67,6 +67,8 @@
     format = {
       plural: new Intl.PluralRules(code),
       number: new Intl.NumberFormat(locale),
+      dailyAverage: new Intl.NumberFormat(locale, {minimumFractionDigits:2, maximumFractionDigits:2}),
+      days: new Intl.NumberFormat(locale, {style:'unit', unit:'day', unitDisplay:'long'}),
       percent: new Intl.NumberFormat(locale, {style:'percent', maximumFractionDigits:0}),
       delta: new Intl.NumberFormat(locale, {style:'percent', maximumFractionDigits:0, signDisplay:'exceptZero'}),
       list: new Intl.ListFormat(locale, {style:'narrow', type:'unit'}),
@@ -1043,13 +1045,13 @@
 
   // Monthly bars & rolling 90-day trend comparison
   const year = Number(cutoff.slice(0, 4));
-  const months = Array.from({length: Number(cutoff.slice(5, 7))}, (_, i) => `${year}-${String(i + 1).padStart(2, '0')}`);
-  const monthTotals = months.map(month => events.filter(event => event.startDate.startsWith(month)).length);
+  const breakdown = window.DRONE_TREND.ninetyDayBreakdown(events, cutoff);
+  const months = breakdown.months.map(item => item.month);
+  const monthTotals = breakdown.months.map(item => item.total);
   const maxMonthTotal = Math.max(1, ...monthTotals);
   const comparison = window.DRONE_TREND.rollingComparison(events, cutoff);
   const {recentTotal, previousTotal, change, hasComparison} = comparison;
   const trendGroup = date => window.DRONE_TREND.windowForDate(date, comparison);
-  const trendGroups = ['earlier', 'previous', 'recent'];
   const monthStart = index => new Date(Date.UTC(year, index, 1));
   const monthEnd = index => new Date(Date.UTC(year, index + 1, 0));
   const formatRange = (from, to) => format.short.formatRange ? format.short.formatRange(from, to) : `${format.short.format(from)} – ${format.short.format(to)}`;
@@ -1078,25 +1080,40 @@
       recentRange: formatRange(utcDate(comparison.recentStart), utcDate(comparison.recentEnd)),
       previousRange: formatRange(utcDate(comparison.previousStart), utcDate(comparison.previousEnd))
     });
-    $('trend-share').textContent = t('trend.share', {share: format.percent.format(recentTotal / events.length)});
     const partialMonth = cutoff !== monthEnd(months.length - 1).toISOString().slice(0, 10);
     const monthLabel = index => format.monthLong.format(monthStart(index));
     const partialNote = t('trend.partialNote', {month: monthLabel(months.length - 1), date: shortDate(cutoff)});
     $('trend-partial').hidden = !partialMonth;
-    $('trend-partial').textContent = `* ${partialNote}`;
+    $('trend-partial').textContent = partialNote;
     const shortMonths = months.map((_, i) => format.month.format(monthStart(i)).replace(/\.$/, ''));
     const columnMonths = shortMonths.some(name => name.length > 4) ? months.map((_, i) => format.monthNarrow.format(monthStart(i))) : shortMonths;
     $('trend-chart').style.setProperty('--months', months.length);
-    $('trend-chart').setAttribute('aria-label', t('trend.chartLabel', {list: format.list.format(months.map((_, i) => `${monthLabel(i)} ${format.number.format(monthTotals[i])}`))}) + (partialMonth ? `. ${partialNote}` : ''));
+    const blockRange = block => formatRange(utcDate(block.start), utcDate(block.end));
+    const monthDescription = i => {
+      const total = t('trend.column', {month: monthLabel(i), n: monthTotals[i]});
+      const segments = breakdown.blocks.map((block, j) => `${blockRange(block)}: ${format.number.format(breakdown.months[i].counts[j])}`);
+      return `${total} (${segments.join('; ')})`;
+    };
+    $('trend-chart').setAttribute('aria-label', t('trend.chartLabel', {list: months.map((_, i) => monthDescription(i)).join('. ')}) + (partialMonth ? `. ${partialNote}` : ''));
     $('trend-chart').innerHTML = `<div class="trend-columns" aria-hidden="true">${months.map((month, i) => {
       const partial = partialMonth && i === months.length - 1;
-      const title = t('trend.column', {month: monthLabel(i), n: monthTotals[i]}) + (partial ? ` (${t('trend.partial', {date: shortDate(cutoff)})})` : '');
-      const recent = events.some(event => event.startDate.startsWith(month) && trendGroup(event.startDate) === 'recent');
-      // Each month's bar is split by comparison window, the same split the topbar spark shows.
-      const split = trendGroups.map(group => [group, events.filter(event => event.startDate.startsWith(month) && trendGroup(event.startDate) === group).length]);
-      const fills = split.filter(([, n]) => n).map(([group, n]) => `<span class="trend-fill ${group}" style="height:${n / monthTotals[i] * 100}%"></span>`).join('');
-      return `<div class="trend-column${recent ? ' recent' : ''}${partial ? ' partial' : ''}" title="${escape(title)}"><span class="trend-value">${format.number.format(monthTotals[i])}</span><span class="trend-bar" style="--h:${monthTotals[i] / maxMonthTotal}">${fills}</span><span class="trend-month">${escape(columnMonths[i])}${partial ? '*' : ''}</span></div>`;
-    }).join('')}</div><div class="trend-window-key" aria-hidden="true"><span><i class="previous"></i>${escape(t('trend.legendPrevious'))}</span><span><i class="recent"></i>${escape(t('trend.legendRecent'))}</span></div>`;
+      const title = monthDescription(i) + (partial ? ` (${t('trend.partial', {date: shortDate(cutoff)})})` : '');
+      const recent = breakdown.months[i].counts.at(-1) > 0;
+      const fills = breakdown.blocks.map((block, j) => {
+        const n = breakdown.months[i].counts[j];
+        return n ? `<span class="trend-fill" data-age="${block.age}" style="height:${n / monthTotals[i] * 100}%"></span>` : '';
+      }).join('');
+      return `<div class="trend-column${recent ? ' recent' : ''}${partial ? ' partial' : ''}" title="${escape(title)}"><span class="trend-value">${format.number.format(monthTotals[i])}</span><span class="trend-bar" style="--h:${monthTotals[i] / maxMonthTotal}">${fills}</span><span class="trend-month">${escape(columnMonths[i])}</span></div>`;
+    }).join('')}</div>`;
+    $('trend-blocks').innerHTML = breakdown.blocks.map(block => {
+      const flags = [block.partial ? t('trend.partialBlock') : '', block.age === 0 ? t('trend.latest') : ''].filter(Boolean);
+      return `<li class="trend-block" data-age="${block.age}">
+        <span class="trend-block-range">${escape(blockRange(block))}</span>
+        <span class="trend-block-days">${escape([format.days.format(block.days), ...flags].join(' · '))}</span>
+        <div class="trend-block-total"><strong>${format.number.format(block.total)}</strong> <span>${escape(t('trend.records', {n:block.total}))}</span></div>
+        <span class="trend-block-rate">${escape(t('trend.dailyAverage', {rate:format.dailyAverage.format(block.dailyAverage)}))}</span>
+      </li>`;
+    }).join('');
   }
 
   // Cumulative curve above timeline scrubber (with Oct 5 maritime turning-point marker)

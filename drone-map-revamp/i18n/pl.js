@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Wpisy w poszczególnych miesiącach: {list}',
   'trend.column': {one: '{month}: {n} wpis', few: '{month}: {n} wpisy', many: '{month}: {n} wpisów', other: '{month}: {n} wpisu'},
   'trend.how': 'Sposób liczenia',
+  'trend.records': {"one": "wpis", "few": "wpisy", "many": "wpisów", "other": "wpisu"},
+  'trend.dailyAverage': "{rate} / dzień",
+  'trend.latest': "Najnowszy",
+  'trend.partialBlock': "Niepełny",
+  'trend.blocksNote': "Kolory oznaczają kolejne okresy 90-dniowe liczone wstecz od końca zakresu danych, bez przerw ani nakładania się. Pierwszy okres zaczyna się 1 stycznia. Średnie dzienne uwzględniają rzeczywistą liczbę dni w każdym okresie.",
 
   'cumulative.title': 'Suma narastająca',
   'cumulative.aria': 'Suma narastająca wpisów: {first} do {firstDate}, {last} do {lastDate}.',

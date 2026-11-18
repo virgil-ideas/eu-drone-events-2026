@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Schede per mese: {list}',
   'trend.column': {one: '{month}: {n} scheda', many: '{month}: {n} schede', other: '{month}: {n} schede'},
   'trend.how': 'Come viene fatto il conteggio',
+  'trend.records': {"one": "record", "many": "record", "other": "record"},
+  'trend.dailyAverage': "{rate} / giorno",
+  'trend.latest': "Più recente",
+  'trend.partialBlock': "Parziale",
+  'trend.blocksNote': "I colori indicano periodi consecutivi di 90 giorni calcolati a ritroso dalla data di fine copertura, senza lacune né sovrapposizioni. Il primo periodo inizia il 1° gennaio. Le medie giornaliere usano il numero effettivo di giorni di ciascun periodo.",
 
   'cumulative.title': 'Totale cumulativo',
   'cumulative.aria': 'Totale cumulativo delle schede: {first} al {firstDate}, {last} al {lastDate}.',

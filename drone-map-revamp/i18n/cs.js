@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Záznamy po měsících: {list}',
   'trend.column': {one: '{month}: {n} záznam', few: '{month}: {n} záznamy', many: '{month}: {n} záznamu', other: '{month}: {n} záznamů'},
   'trend.how': 'Jak se počítá',
+  'trend.records': {"one": "záznam", "few": "záznamy", "many": "záznamu", "other": "záznamů"},
+  'trend.dailyAverage': "{rate} / den",
+  'trend.latest': "Nejnovější",
+  'trend.partialBlock': "Neúplné",
+  'trend.blocksNote': "Barvy označují navazující 90denní období počítaná zpětně od konce pokrytí, bez mezer a překryvů. První období začíná 1. ledna. Denní průměry vycházejí ze skutečného počtu dní v každém období.",
 
   'cumulative.title': 'Průběžný součet',
   'cumulative.aria': 'Průběžný součet záznamů: {first} do {firstDate}, {last} do {lastDate}.',

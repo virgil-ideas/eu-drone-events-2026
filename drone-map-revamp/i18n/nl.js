@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Registraties per maand: {list}',
   'trend.column': {one: '{month}: {n} registratie', other: '{month}: {n} registraties'},
   'trend.how': 'Hoe dit wordt geteld',
+  'trend.records': {"one": "registratie", "other": "registraties"},
+  'trend.dailyAverage': "{rate} / dag",
+  'trend.latest': "Nieuwste",
+  'trend.partialBlock': "Gedeeltelijk",
+  'trend.blocksNote': "De kleuren tonen opeenvolgende perioden van 90 dagen, teruggerekend vanaf de einddatum van de dekking, zonder hiaten of overlap. De eerste periode begint op 1 januari. Daggemiddelden gebruiken het werkelijke aantal dagen per periode.",
 
   'cumulative.title': 'Cumulatief totaal',
   'cumulative.aria': 'Cumulatief totaal van registraties: {first} tot en met {firstDate}, {last} tot en met {lastDate}.',

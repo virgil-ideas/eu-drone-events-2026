@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Registros por mes: {list}',
   'trend.column': {one: '{month}: {n} registro', many: '{month}: {n} registros', other: '{month}: {n} registros'},
   'trend.how': 'Cómo se hace el recuento',
+  'trend.records': {"one": "registro", "many": "registros", "other": "registros"},
+  'trend.dailyAverage': "{rate} / día",
+  'trend.latest': "Más reciente",
+  'trend.partialBlock': "Parcial",
+  'trend.blocksNote': "Los colores indican periodos consecutivos de 90 días contados hacia atrás desde la fecha de corte, sin huecos ni solapamientos. El primer periodo comienza el 1 de enero. Los promedios diarios utilizan el número real de días de cada periodo.",
 
   'cumulative.title': 'Total acumulado',
   'cumulative.aria': 'Total acumulado de registros: {first} hasta el {firstDate}, {last} hasta el {lastDate}.',

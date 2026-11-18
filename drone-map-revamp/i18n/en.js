@@ -41,6 +41,11 @@
   'trend.chartLabel': 'Records per month: {list}',
   'trend.column': {one: '{month}: {n} record', other: '{month}: {n} records'},
   'trend.how': 'How this is counted',
+  'trend.records': {"one": "record", "other": "records"},
+  'trend.dailyAverage': "{rate} / day",
+  'trend.latest': "Latest",
+  'trend.partialBlock': "Partial",
+  'trend.blocksNote': "Colors mark consecutive 90-day periods counted back from the coverage cutoff, without gaps or overlap. The first period stops at 1 January. Daily averages use each period’s actual number of days.",
 
   'cumulative.title': 'Running total',
   'cumulative.aria': 'Running total of records: {first} by {firstDate}, {last} by {lastDate}.',

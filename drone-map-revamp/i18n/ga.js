@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Taifid in aghaidh na míosa: {list}',
   'trend.column': {one: '{month}: {n} taifead', two: '{month}: {n} thaifead', few: '{month}: {n} thaifead', many: '{month}: {n} dtaifead', other: '{month}: {n} taifead'},
   'trend.how': 'Conas a dhéantar an comhaireamh',
+  'trend.records': {"one": "taifead", "two": "thaifead", "few": "dtaifead", "many": "dtaifead", "other": "taifead"},
+  'trend.dailyAverage': "{rate} / lá",
+  'trend.latest': "Is déanaí",
+  'trend.partialBlock': "Páirteach",
+  'trend.blocksNote': "Léiríonn na dathanna tréimhsí as a chéile de 90 lá, á gcomhaireamh siar ó dháta deiridh an chlúdaigh, gan bhearnaí ná forluí. Tosaíonn an chéad tréimhse ar an 1 Eanáir. Úsáideann na meáin laethúla líon iarbhír na laethanta i ngach tréimhse.",
 
   'cumulative.title': 'Iomlán reatha',
   'cumulative.aria': 'Iomlán reatha na dtaifead: {first} go dtí {firstDate}, {last} go dtí {lastDate}.',

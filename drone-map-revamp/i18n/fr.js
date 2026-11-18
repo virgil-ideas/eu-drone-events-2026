@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Fiches par mois : {list}',
   'trend.column': {one: '{month} : {n} fiche', many: '{month} : {n} fiches', other: '{month} : {n} fiches'},
   'trend.how': 'Méthode de comptage',
+  'trend.records': {"one": "entrée", "many": "entrées", "other": "entrées"},
+  'trend.dailyAverage': "{rate} / jour",
+  'trend.latest': "Plus récente",
+  'trend.partialBlock': "Partielle",
+  'trend.blocksNote': "Les couleurs indiquent des périodes consécutives de 90 jours, calculées à rebours depuis la date de fin de couverture, sans lacune ni chevauchement. La première période commence le 1er janvier. Les moyennes quotidiennes utilisent le nombre réel de jours de chaque période.",
 
   'cumulative.title': 'Total cumulé',
   'cumulative.aria': 'Total cumulé des fiches : {first} au {firstDate}, {last} au {lastDate}.',

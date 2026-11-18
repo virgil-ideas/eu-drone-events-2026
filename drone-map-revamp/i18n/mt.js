@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Rekords kull xahar: {list}',
   'trend.column': {one: '{month}: {n} rekord', two: '{month}: {n} rekords', few: '{month}: {n} rekords', many: '{month}: {n} rekord', other: '{month}: {n} rekord'},
   'trend.how': 'Kif isir l-għadd',
+  'trend.records': {"one": "entrata", "two": "entrati", "few": "entrati", "many": "entrata", "other": "entrata"},
+  'trend.dailyAverage': "{rate} / jum",
+  'trend.latest': "L-aktar reċenti",
+  'trend.partialBlock': "Parzjali",
+  'trend.blocksNote': "Il-kuluri juru perjodi konsekuttivi ta’ 90 jum magħduda lura mid-data tat-tmiem tal-kopertura, mingħajr lakuni jew sovrappożizzjoni. L-ewwel perjodu jibda fl-1 ta’ Jannar. Il-medji ta’ kuljum jużaw in-numru reali ta’ jiem f’kull perjodu.",
 
   'cumulative.title': 'Total kumulattiv',
   'cumulative.aria': 'Total kumulattiv tar-rekords: {first} sa {firstDate}, {last} sa {lastDate}.',

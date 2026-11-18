@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Registos por mês: {list}',
   'trend.column': {one: '{month}: {n} registo', many: '{month}: {n} registos', other: '{month}: {n} registos'},
   'trend.how': 'Como é feita a contagem',
+  'trend.records': {"one": "registo", "many": "registos", "other": "registos"},
+  'trend.dailyAverage': "{rate} / dia",
+  'trend.latest': "Mais recente",
+  'trend.partialBlock': "Parcial",
+  'trend.blocksNote': "As cores indicam períodos consecutivos de 90 dias contados para trás a partir da data de fim da cobertura, sem lacunas nem sobreposições. O primeiro período começa a 1 de janeiro. As médias diárias usam o número real de dias de cada período.",
 
   'cumulative.title': 'Total acumulado',
   'cumulative.aria': 'Total acumulado de registos: {first} até {firstDate}, {last} até {lastDate}.',

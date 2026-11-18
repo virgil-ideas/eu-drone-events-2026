@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Ieraksti pa mēnešiem: {list}',
   'trend.column': {zero: '{month}: {n} ieraksti', one: '{month}: {n} ieraksts', other: '{month}: {n} ieraksti'},
   'trend.how': 'Kā tiek skaitīts',
+  'trend.records': {"zero": "ierakstu", "one": "ieraksts", "other": "ieraksti"},
+  'trend.dailyAverage': "{rate} / dienā",
+  'trend.latest': "Jaunākais",
+  'trend.partialBlock': "Daļējs",
+  'trend.blocksNote': "Krāsas apzīmē secīgus 90 dienu periodus, kas skaitīti atpakaļ no aptvēruma beigu datuma, bez pārtraukumiem vai pārklāšanās. Pirmais periods sākas 1. janvārī. Dienas vidējie rādītāji izmanto katra perioda faktisko dienu skaitu.",
 
   'cumulative.title': 'Kumulatīvais kopskaits',
   'cumulative.aria': 'Kumulatīvais ierakstu skaits – {firstDate}: {first}; {lastDate}: {last}.',

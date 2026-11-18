@@ -39,6 +39,11 @@
   'trend.chartLabel': 'Zapisi po mesecih: {list}',
   'trend.column': {one: '{month}: {n} zapis', two: '{month}: {n} zapisa', few: '{month}: {n} zapisi', other: '{month}: {n} zapisov'},
   'trend.how': 'Kako štejemo',
+  'trend.records': {"one": "zapis", "two": "zapisa", "few": "zapisi", "other": "zapisov"},
+  'trend.dailyAverage': "{rate} / dan",
+  'trend.latest': "Najnovejše",
+  'trend.partialBlock': "Delno",
+  'trend.blocksNote': "Barve označujejo zaporedna 90-dnevna obdobja, šteta nazaj od končnega datuma zajema, brez vrzeli ali prekrivanja. Prvo obdobje se začne 1. januarja. Dnevna povprečja temeljijo na dejanskem številu dni v posameznem obdobju.",
 
   'cumulative.title': 'Kumulativni seštevek',
   'cumulative.aria': 'Kumulativni seštevek zapisov: {first} do {firstDate}, {last} do {lastDate}.',
