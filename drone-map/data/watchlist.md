@@ -1000,3 +1000,6 @@ N17818:06 follow-up: Maritime.bg158415 alleges combined USV/UAV attack via unnam
 
 ## 17 November Aegean daily follow-up
 N179 adds one dated Greek-authority aggregate reproduced in Eleftheros Typos and OnAlert: 5 UAVs, 4 national-airspace violations, 7 separate FIR infringements. The two reports share the official account, not independent verification. The fighter encounter does not establish a drone shoot-down. No duplicate of N176: November 17 publications of November 16 figures remain N176. Direct GEETHA archive and earlier daily gaps remain unresolved; this targeted update is not exhaustive coverage.
+
+## 18 November navigation-notice follow-up
+NA008 now reflects ARN177 cancellation of ARN172 on 17 November, retaining wider caution and ARN178. ARN179 reports an unidentified floating hazard, not an established drone; no mapped event added. Bulgarian NAVWARN854/26 rechecked unchanged: dated 17 November 10:50 UTC, GAS HUSKY listing with submerged bridge and adrift. Do not infer complete sinking from earlier ministry/media wording or treat a carried warning as a new observation.

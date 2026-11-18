@@ -10302,16 +10302,17 @@ window.DRONE_DATA = {
     {
       "id": "NA008",
       "countries": "Romania",
-      "dateLabel": "2026-11-15; active notice checked 2026-11-16",
+      "dateLabel": "2026-11-15 warning; superseded 2026-11-17",
       "vehicle": "Unidentified floating objects; no drone count established.",
       "status": "Navigation warning — NOT a new drone incident",
-      "attribution": "Romanian Maritime Hydrographic Directorate ARN172/2026.",
-      "circumstances": "Notice declares a defined Sulina–Sfântu Gheorghe offshore area dangerous because of floating objects from the north, advising vessels to avoid entry until a new notice.",
-      "uncertainty": "Objects are not identified as drones. This is avoidance advice, not evidence of a closure, a fresh impact or confirmed drone route.",
-      "deduplication": "Non-additive context only. Does not add to N158,N160,N161,N168 or establish links between them. Separate ARN173 on drifting MARIAM M is not a verified drone incident.",
-      "sourceReferences": "[U325][U325]",
+      "attribution": "Romanian Maritime Hydrographic Directorate ARN172, ARN177 and ARN178/2026.",
+      "circumstances": "ARN177 of 17 November cancels the specific ARN172 Sulina–Sfântu Gheorghe floating-object warning. Wider caution during navigation and anchoring remains, especially in the northwest. ARN178 reproduces NAVAREA III 0175/26 on possible drifting mines and reported aerial/surface-drone attacks on merchant vessels.",
+      "uncertainty": "Cancellation is not an all-clear. These advisories do not establish a new incident, identify the earlier floating objects as drones, or prove an earlier navigation closure.",
+      "deduplication": "Non-additive response context; no extra occurrence or common operator inferred.",
+      "sourceReferences": "[U325][U325]; [U370][U370]",
       "sources": [
-        "U325"
+        "U325",
+        "U370"
       ]
     }
   ],
@@ -14161,6 +14162,14 @@ window.DRONE_DATA = {
       "url": "https://www.onalert.gr/ellinotourkika/nees-paraviaseis-sto-aigaio-apo-tourkika-drones-kai-oplismena-f-16-mia-emploki-me-ellinika-maxitika/834205/",
       "dateLabel": "17 November 2026, 18:31 local publication",
       "audit": "Actual article HTML retrieved and read 17 November (HTTP 200). Same GEETHA table: five UAVs, four airspace violations, seven FIR infringements; fighter mock engagement not a drone shoot-down. Not independent corroboration of Greek-authority claims."
+    },
+    "U370": {
+      "id": "U370",
+      "publisher": "Romanian Maritime Hydrographic Directorate",
+      "title": "ARN177/2026 cancellation and ARN178/2026 NAVAREA III warning",
+      "url": "https://www.dhmfn.ro/ro/informatii-de-interes-public/avize-radio-pentru-navigatori/",
+      "dateLabel": "17 November 2026",
+      "audit": "Primary notices read 18 November: ARN177 cancels ARN172 but maintains broader caution; ARN178 reproduces NAVAREA III 0175/26. Response context, not a new occurrence or proof of a prior closure."
     }
   },
   "cutoff": "2026-11-17",

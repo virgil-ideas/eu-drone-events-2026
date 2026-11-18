@@ -3844,5 +3844,13 @@
     "url": "https://www.onalert.gr/ellinotourkika/nees-paraviaseis-sto-aigaio-apo-tourkika-drones-kai-oplismena-f-16-mia-emploki-me-ellinika-maxitika/834205/",
     "dateLabel": "17 November 2026, 18:31 local publication",
     "audit": "Actual article HTML retrieved and read 17 November (HTTP 200). Same GEETHA table: five UAVs, four airspace violations, seven FIR infringements; fighter mock engagement not a drone shoot-down. Not independent corroboration of Greek-authority claims."
+  },
+  "U370": {
+    "id": "U370",
+    "publisher": "Romanian Maritime Hydrographic Directorate",
+    "title": "ARN177/2026 cancellation and ARN178/2026 NAVAREA III warning",
+    "url": "https://www.dhmfn.ro/ro/informatii-de-interes-public/avize-radio-pentru-navigatori/",
+    "dateLabel": "17 November 2026",
+    "audit": "Primary notices read 18 November: ARN177 cancels ARN172 but maintains broader caution; ARN178 reproduces NAVAREA III 0175/26. Response context, not a new occurrence or proof of a prior closure."
   }
 }
