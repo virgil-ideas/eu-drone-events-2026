@@ -3892,5 +3892,13 @@
     "url": "https://www.mapn.ro/",
     "dateLabel": "Updated 17 November 2026; read 18 November",
     "audit": "2026 row: 118 nearby attacks, 96 aircraft-response incidents, 39 unauthorized entries, 6 downed drones, 44 drones/fragments identified/recovered/neutralized and 2 mines. Overlapping categories, not separate occurrences."
+  },
+  "U378": {
+    "id": "U378",
+    "publisher": "bTV, interview with Varna Regional Governor Mario Smurkov",
+    "title": "Танкерът GAS HUSKY е ударен в Черно море четири пъти, моряците дават противоречиви показания",
+    "url": "https://btvnovinite.bg/predavania/tazi-sutrin/tankerat-gas-husky-e-udaren-v-cherno-more-chetiri-pati-morjacite-davat-protivorechivi-pokazanija.html",
+    "dateLabel": "18 November 2026, 07:47 local publication",
+    "audit": "Indexed original interview report read18November: governor asserts four impacts, describes contradictory sailors accounts and no confirmation of drone types. Says vessels not yet sunk and no pollution detected at that time. Four impacts are not four independently verified drones or occurrences. Do not infer operator or validate anonymous combined-USV/UAV claim."
   }
 }
