@@ -3939,5 +3939,21 @@
     "url": "https://www.antena3.ro/politica/avertismentul-vicepremierului-neacsu-razboiul-din-ucraina-a-intrat-intr-o-noua-etapa-trebuie-sa-fim-pregatiti-pentru-orice-811576.html",
     "dateLabel": "Published 17 November 2026 23:32; updated 18 November 00:17",
     "audit": "Interview outlet’s transcript read 18 November. Future milestones attributed to the speaker; no independently verified operational completion or reconciled Commission timetable."
+  },
+  "U384": {
+    "id": "U384",
+    "publisher": "OnAlert, reproducing GEETHA figures",
+    "title": "Τουρκικό CN-235 και drone παραβίασαν τον εθνικό εναέριο χώρο στο Αιγαίο",
+    "url": "https://www.onalert.gr/ellinotourkika/tourkiko-cn-235-kai-drone-paraviasan-ton-ethniko-enaerio-xoro-sto-aigaio/834519/",
+    "dateLabel": "18 November 2026, 18:55 local publication",
+    "audit": "Actual full HTML and dated table read 18 November. One UAV: one national-airspace violation and one FIR infringement. Manned CN-235 figures excluded. No engagements; same underlying Greek-authority report, not independent confirmation."
+  },
+  "U385": {
+    "id": "U385",
+    "publisher": "NewsIT, reproducing GEETHA figures",
+    "title": "Νέες παραβιάσεις στο Αιγαίο από τουρκικό CN-235 και drone",
+    "url": "https://www.newsit.gr/ellada/nees-paraviaseis-sto-aigaio-apo-tourkiko-cn-235-kai-drone/4825698/amp/",
+    "dateLabel": "18 November 2026, 19:02 local publication",
+    "audit": "Actual full HTML and dated table read 18 November. One UAV: one national-airspace violation and one FIR infringement. Manned CN-235 figures excluded. No engagements; same underlying Greek-authority report, not independent confirmation."
   }
 }

@@ -10211,6 +10211,52 @@ window.DRONE_DATA = {
         "U369"
       ],
       "page": "events/2026-11-17-aegean-reported-turkish-uav-activity-greece/"
+    },
+    {
+      "id": "N182",
+      "title": "Aegean · 18 November reported Turkish UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-11-18",
+      "dateLabel": "2026-11-18",
+      "dateBasis": "Daily activity and publication: 18 November 2026, Greek local date.",
+      "countries": "Greece",
+      "location": "Northeastern and central Aegean; reported Greek national airspace",
+      "status": "Reported Greek-authority daily figures for Turkish UAV airspace violations",
+      "categories": "One reported national-airspace violation and one FIR infringement involving one UAV",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 38.5,
+          "lng": 25.5,
+          "precision": "region",
+          "label": "Aegean — broad regional reference"
+        }
+      ],
+      "positionNote": "Broad Aegean reference, not a verified drone location or flight path.",
+      "vehicle": "One Turkish UAV; model unspecified.",
+      "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
+      "route": "Regional scope only; no independently verified approach tracks.",
+      "circumstances": "GEETHA figures reproduced by OnAlert and NewsIT attribute one national-airspace violation and one distinct Athens FIR traffic-rule infringement to a UAV. The manned CN-235 accounts for four additional violations and two infringements, excluded from UAV figures.",
+      "payload": "Not reported.",
+      "impact": "No casualties, damage or crashes reported.",
+      "response": "Routine identification and interception reported; no engagements in the daily table.",
+      "uncertainty": "Greek-authority account reproduced by two outlets, not independent flight-track confirmation. Exact track, UAV model and intended target unknown. The primary daily archive was not retrieved; Greek-Turkish airspace dispute remains relevant.",
+      "deduplication": "One daily regional record. One airspace violation and one FIR infringement are distinct measures, not two incursions. Separate from November 16/17 activity; manned CN-235 excluded.",
+      "provenance": "Full OnAlert and NewsIT articles and reproduced table read 18 November 2026.",
+      "classificationNote": "Reported UAV national-airspace violation; FIR infringement separately labelled. No confirmed attack, crash or shoot-down.",
+      "reported_UAVs": 1,
+      "reported_airspace_violations": 1,
+      "reported_FIR_infractions": 1,
+      "sourceReferences": "[U384][U384]; [U385][U385]",
+      "sources": [
+        "U384",
+        "U385"
+      ],
+      "page": "events/2026-11-18-aegean-reported-turkish-uav-activity-greece/"
     }
   ],
   "contexts": [
@@ -14392,9 +14438,25 @@ window.DRONE_DATA = {
       "url": "https://www.antena3.ro/politica/avertismentul-vicepremierului-neacsu-razboiul-din-ucraina-a-intrat-intr-o-noua-etapa-trebuie-sa-fim-pregatiti-pentru-orice-811576.html",
       "dateLabel": "Published 17 November 2026 23:32; updated 18 November 00:17",
       "audit": "Interview outlet’s transcript read 18 November. Future milestones attributed to the speaker; no independently verified operational completion or reconciled Commission timetable."
+    },
+    "U384": {
+      "id": "U384",
+      "publisher": "OnAlert, reproducing GEETHA figures",
+      "title": "Τουρκικό CN-235 και drone παραβίασαν τον εθνικό εναέριο χώρο στο Αιγαίο",
+      "url": "https://www.onalert.gr/ellinotourkika/tourkiko-cn-235-kai-drone-paraviasan-ton-ethniko-enaerio-xoro-sto-aigaio/834519/",
+      "dateLabel": "18 November 2026, 18:55 local publication",
+      "audit": "Actual full HTML and dated table read 18 November. One UAV: one national-airspace violation and one FIR infringement. Manned CN-235 figures excluded. No engagements; same underlying Greek-authority report, not independent confirmation."
+    },
+    "U385": {
+      "id": "U385",
+      "publisher": "NewsIT, reproducing GEETHA figures",
+      "title": "Νέες παραβιάσεις στο Αιγαίο από τουρκικό CN-235 και drone",
+      "url": "https://www.newsit.gr/ellada/nees-paraviaseis-sto-aigaio-apo-tourkiko-cn-235-kai-drone/4825698/amp/",
+      "dateLabel": "18 November 2026, 19:02 local publication",
+      "audit": "Actual full HTML and dated table read 18 November. One UAV: one national-airspace violation and one FIR infringement. Manned CN-235 figures excluded. No engagements; same underlying Greek-authority report, not independent confirmation."
     }
   },
-  "cutoff": "2026-11-17",
+  "cutoff": "2026-11-18",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

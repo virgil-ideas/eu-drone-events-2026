@@ -2360,5 +2360,15 @@
       "MRCC monitored the drift and a navigation warning was issued. SAR ARTEMIS found the vessel already grounded; the owner contracted COREMAR to refloat it. Salvage completion remains unconfirmed. The record includes ARSVOM footage and a link to the shared shoreline video."
     ],
     "basis": "9478af16fce43194"
+  },
+  "N182": {
+    "slug": "2026-11-18-aegean-reported-turkish-uav-activity-greece",
+    "headline": "Aegean · one UAV in Greek daily report for 18 November",
+    "description": "Greek figures attribute one national-airspace violation and one separate FIR infringement to a UAV on 18 November. One regional record, no reported engagement.",
+    "summary": [
+      "GEETHA figures reproduced by OnAlert and NewsIT attribute one national-airspace violation and one separate Athens FIR infringement to a Turkish UAV on 18 November in the northeastern and central Aegean.",
+      "The manned CN-235 in the same table is excluded from UAV counts. Routine interception is reported, with no engagements. These outlets reproduce the same authority account, not independent tracks; the precise route, model and intent remain unknown."
+    ],
+    "basis": "c93673122fd0337f"
   }
 }

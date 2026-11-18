@@ -1028,3 +1028,7 @@ Supersedes the earlier non-additive watchlist treatment above following explicit
 
 ## 18 November targeted hub-context follow-up
 NA007 adds the dated, attributed phased plan from the 17 November interview (U383); no new occurrence or confirmed delay. The same interview cites 466 national alerts since February 2022, including 422 in 2026, with an approximate cutoff and unexplained counting method. These are not verified incursions or unique drones and are not comparable with MApN counters. Seek underlying methodology before using as a trend. This targeted context review does not advance EU27 coverage clearance.
+
+
+### Greek daily report: 18 November 2026
+N182 adds the GEETHA-attributed November18 UAV daily record from full OnAlert and NewsIT reports (U384–U385), which reproduce the same table. Primary daily archive access and historical Greek coverage gaps remain open. The inclusive cutoff advances to November18 for this dated record only; this is not an exhaustive all-EU coverage claim.
