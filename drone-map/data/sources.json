@@ -3955,5 +3955,29 @@
     "url": "https://www.newsit.gr/ellada/nees-paraviaseis-sto-aigaio-apo-tourkiko-cn-235-kai-drone/4825698/amp/",
     "dateLabel": "18 November 2026, 19:02 local publication",
     "audit": "Actual full HTML and dated table read 18 November. One UAV: one national-airspace violation and one FIR infringement. Manned CN-235 figures excluded. No engagements; same underlying Greek-authority report, not independent confirmation."
+  },
+  "U386": {
+    "id": "U386",
+    "publisher": "Romanian Ministry of National Defence (MApN)",
+    "title": "Retrospective identification of earlier Geran-2 incidents, including Luncavița",
+    "url": "https://www.mapn.ro/cpresa/19275_informa%C8%9Bie-de-presa",
+    "dateLabel": "31 May 2026",
+    "audit": "Primary release 167 read 19 November 2026. Names Luncavița 26 April among prior Geran-2 incidents attributed to Russia. Technical details and tracking in the main May incident discussion are not transferred to this April recovery."
+  },
+  "U387": {
+    "id": "U387",
+    "publisher": "Romanian Ministry of National Defence (MApN)",
+    "title": "Drone fragments reported between Luncavița and Văcăreni",
+    "url": "https://www.mapn.ro/cpresa/19222_Informa%C8%9Bie-de-pres%C4%83",
+    "dateLabel": "26 April 2026",
+    "audit": "Primary release 115 read 19 November 2026. Contemporaneous recovery/disposal account; no original flight route or date established."
+  },
+  "U388": {
+    "id": "U388",
+    "publisher": "Romanian Ministry of National Defence (MApN)",
+    "title": "Explosive charge confirmed in Luncavița–Văcăreni fragments",
+    "url": "https://www.mapn.ro/cpresa/19223_Comunicat-de-presa",
+    "dateLabel": "26 April 2026",
+    "audit": "Primary release 116 read 19 November 2026. Contemporaneous recovery/disposal account; no original flight route or date established."
   }
 }

@@ -131,13 +131,13 @@
   "E013": {
     "slug": "2026-04-26-explosive-drone-debris-luncavita-vacareni-romania",
     "headline": "Drone fragments with explosive charge destroyed near Luncavița, Romania",
-    "description": "On 26 April 2026 drone fragments with an explosive charge were found between Luncavița and Văcăreni, Romania, and destroyed. Their origin is being investigated.",
+    "description": "Drone fragments found near Luncavița on 26 April 2026 were later identified by Romania’s defence ministry as part of a Geran-2 incident attributed to Russia.",
     "summary": [
       "On 26 April 2026 further drone fragments were reported between Luncavița and Văcăreni in Tulcea County, Romania, a day after fragments were found near a farm at Văcăreni. An explosive charge was confirmed among the material, and an RO-Alert safety warning was issued.",
-      "The provenance of the fragments is under investigation, and an investigation by prosecutors at the Constanța Court of Appeal was reported. When the drone flew or came down is unknown. The fragments are not confirmed as a second complete drone, and it has not been established whether they and the previous day’s find came from one airframe or more.",
+      "In a 31 May statement, MApN retrospectively listed Luncavița on 26 April among earlier Geran-2 incidents attributed to Russia. This updates the initial unresolved provenance, but does not establish when the drone flew or came down, its route or intended target. The fragments are not confirmed as a second complete drone, and their airframe linkage to the previous day’s find remains unresolved.",
       "Pyrotechnicians from the SRI and specialists from Romania’s defence ministry (MApN) assessed the material, which was then destroyed in a controlled detonation on site under the prosecutor’s authority. No casualties were reported."
     ],
-    "basis": "bf2c011804083e56"
+    "basis": "e60032407a97b79e"
   },
   "E014": {
     "slug": "2026-05-03-drone-found-serbauti-suceava-romania",

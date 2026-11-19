@@ -893,21 +893,24 @@ window.DRONE_DATA = {
       "dateBasis": "Discovery/disposal 26 April; EEST",
       "countries": "Romania",
       "location": "Between Luncavița and Văcăreni, Tulcea County; EU land",
-      "status": "Recovery; origin unresolved",
+      "status": "Recovery; retrospectively attributed to Russia by MApN",
       "categories": "Additional debris discovery; explosive confirmation; controlled detonation",
-      "vehicle": "Drone fragments; parent-airframe count unknown",
-      "attribution": "Provenance under investigation",
+      "vehicle": "Drone fragments; MApN retrospectively identifies Geran-2; parent-airframe count unknown",
+      "attribution": "MApN’s 31 May 2026 statement lists Luncavița, 26 April 2026, among earlier Geran-2 incidents attributed to Russia.",
       "route": "Original flight/crash date unknown",
       "circumstances": "Additional fragments reported the day after the farm-area discovery.",
       "payload": "Explosive charge confirmed",
       "impact": "No casualties reported; RO-Alert safety warning",
       "response": "SRI pyrotechnicians and MApN assessed material; controlled on-site disposal under prosecutor authority.",
-      "uncertainty": "Constanța Court of Appeal prosecutor investigation reported.",
+      "uncertainty": "Retrospective ministry identification; original flight/crash date, route, intended target and linkage to E012 remain unestablished.",
       "deduplication": "Do not call this a confirmed second complete drone. E012 and E013 are two recovery records with unresolved airframe linkage.",
-      "provenance": "Prior research; relevant event source rechecked during export",
-      "sourceReferences": "[S15][S15]",
+      "provenance": "26 April releases and 31 May retrospective MApN statement read 19 November 2026.",
+      "sourceReferences": "[S15][S15]; [U386][U386]; [U387][U387]; [U388][U388]",
       "sources": [
-        "S15"
+        "S15",
+        "U386",
+        "U387",
+        "U388"
       ],
       "startDate": "2026-04-26",
       "title": "Luncavița · Văcăreni",
@@ -14454,6 +14457,30 @@ window.DRONE_DATA = {
       "url": "https://www.newsit.gr/ellada/nees-paraviaseis-sto-aigaio-apo-tourkiko-cn-235-kai-drone/4825698/amp/",
       "dateLabel": "18 November 2026, 19:02 local publication",
       "audit": "Actual full HTML and dated table read 18 November. One UAV: one national-airspace violation and one FIR infringement. Manned CN-235 figures excluded. No engagements; same underlying Greek-authority report, not independent confirmation."
+    },
+    "U386": {
+      "id": "U386",
+      "publisher": "Romanian Ministry of National Defence (MApN)",
+      "title": "Retrospective identification of earlier Geran-2 incidents, including Luncavița",
+      "url": "https://www.mapn.ro/cpresa/19275_informa%C8%9Bie-de-presa",
+      "dateLabel": "31 May 2026",
+      "audit": "Primary release 167 read 19 November 2026. Names Luncavița 26 April among prior Geran-2 incidents attributed to Russia. Technical details and tracking in the main May incident discussion are not transferred to this April recovery."
+    },
+    "U387": {
+      "id": "U387",
+      "publisher": "Romanian Ministry of National Defence (MApN)",
+      "title": "Drone fragments reported between Luncavița and Văcăreni",
+      "url": "https://www.mapn.ro/cpresa/19222_Informa%C8%9Bie-de-pres%C4%83",
+      "dateLabel": "26 April 2026",
+      "audit": "Primary release 115 read 19 November 2026. Contemporaneous recovery/disposal account; no original flight route or date established."
+    },
+    "U388": {
+      "id": "U388",
+      "publisher": "Romanian Ministry of National Defence (MApN)",
+      "title": "Explosive charge confirmed in Luncavița–Văcăreni fragments",
+      "url": "https://www.mapn.ro/cpresa/19223_Comunicat-de-presa",
+      "dateLabel": "26 April 2026",
+      "audit": "Primary release 116 read 19 November 2026. Contemporaneous recovery/disposal account; no original flight route or date established."
     }
   },
   "cutoff": "2026-11-18",

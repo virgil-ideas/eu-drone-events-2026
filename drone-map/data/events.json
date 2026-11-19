@@ -512,20 +512,23 @@
     "dateBasis": "Discovery/disposal 26 April; EEST",
     "countries": "Romania",
     "location": "Between Luncavița and Văcăreni, Tulcea County; EU land",
-    "status": "Recovery; origin unresolved",
+    "status": "Recovery; retrospectively attributed to Russia by MApN",
     "categories": "Additional debris discovery; explosive confirmation; controlled detonation",
-    "vehicle": "Drone fragments; parent-airframe count unknown",
-    "attribution": "Provenance under investigation",
+    "vehicle": "Drone fragments; MApN retrospectively identifies Geran-2; parent-airframe count unknown",
+    "attribution": "MApN’s 31 May 2026 statement lists Luncavița, 26 April 2026, among earlier Geran-2 incidents attributed to Russia.",
     "route": "Original flight/crash date unknown",
     "circumstances": "Additional fragments reported the day after the farm-area discovery.",
     "payload": "Explosive charge confirmed",
     "impact": "No casualties reported; RO-Alert safety warning",
     "response": "SRI pyrotechnicians and MApN assessed material; controlled on-site disposal under prosecutor authority.",
-    "uncertainty": "Constanța Court of Appeal prosecutor investigation reported.",
+    "uncertainty": "Retrospective ministry identification; original flight/crash date, route, intended target and linkage to E012 remain unestablished.",
     "deduplication": "Do not call this a confirmed second complete drone. E012 and E013 are two recovery records with unresolved airframe linkage.",
-    "provenance": "Prior research; relevant event source rechecked during export",
+    "provenance": "26 April releases and 31 May retrospective MApN statement read 19 November 2026.",
     "sources": [
-      "S15"
+      "S15",
+      "U386",
+      "U387",
+      "U388"
     ],
     "startDate": "2026-04-26",
     "title": "Luncavița · Văcăreni",
@@ -543,7 +546,8 @@
     ],
     "classificationNote": "Controlled disposal by authorities; kept separate from incident explosions.",
     "recordClass": "event",
-    "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+    "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+    "reviewedOn": "2026-11-19"
   },
   {
     "id": "E014",
