@@ -1047,3 +1047,7 @@ N181 adds the on-scene ProTV observation of vessel movement during the recovery 
 
 ### November Greek register reconciliation (19 November)
 Primary monthly HTML now retrieved for rows through November18 (U393). N176 and N179 reconcile differences from earlier bulletins without inventing an explanation or assigning mixed-aircraft totals to UAVs. N182 matches the register’s combined counts; its UAV-only allocation remains sourced to the daily bulletin. Primary access is resolved for this snapshot only, not all historical gaps or later updates. Preserve all other outstanding gaps.
+
+
+### GAS HUSKY — Reuters follow-up reviewed 19 November
+N178 adds U395, the 18 November Reuters dispatch. No additional occurrence; weapon type, operator and final-condition chronology remain unresolved.

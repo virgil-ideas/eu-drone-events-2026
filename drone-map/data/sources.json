@@ -4011,5 +4011,13 @@
     "url": "https://www.turkishminute.com/2026/11/18/greece-accuses-turkey-of-airspace-violations-with-its-jets-and-drones/",
     "dateLabel": "18 November 2026",
     "audit": "Full report read 19 November. Explicitly contrasts November17 GEETHA monthly register with earlier media bulletin. Register independently retrieved and row checked; no independent tracks or UAV-only revision established."
+  },
+  "U395": {
+    "id": "U395",
+    "publisher": "Reuters, republished by The Star",
+    "title": "LPG tanker that sank off Bulgaria on Tuesday was hit by projectiles, official says",
+    "url": "https://www.thestar.com.my/news/world/2026/11/18/lpg-tanker-that-sank-off-bulgaria-on-tuesday-was-hit-by-projectiles-official-says",
+    "dateLabel": "18 November 2026, 18:41 MYT (10:41 UTC) republication",
+    "audit": "Reuters dispatch read 19 November via The Star. Governor reiterates four impacts; two unnamed maritime-security sources attribute an unmanned-system strike. Drone type/operator unspecified. Sinking wording carries no newer observation timestamp resolving earlier status reports."
   }
 }

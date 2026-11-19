@@ -10150,15 +10150,15 @@ window.DRONE_DATA = {
       "vehicle": "Liberian-flagged LPG carrier GAS HUSKY (IMO 9507764); four drones alleged by its rescued captain in Maritime.bg reporting cited by AP; type unestablished.",
       "attribution": "No drone operator, nationality or responsibility established.",
       "route": "Manager reports LPG loaded at Alexandria, Egypt, bound for Midia, Romania; no drone route established.",
-      "circumstances": "Bulgarian authorities located an overturned vessel presumed to be GAS HUSKY and a nearby life raft. AP, citing Maritime.bg, reports the rescued captain saying four drones hit the vessel, while explicitly noting no official confirmation of the cause. Separate media attribute a drone-strike claim to the Romanian Naval Authority; its original statement was not located. Stealth Maritime, in a statement reproduced by Naftemporiki, says the vessel was struck early on 17 November in Bulgaria’s EEZ, without identifying the mechanism; its condition was unknown to the manager at the time. In an 18:06 report, Maritime.bg cites an unnamed source at the Greece-based management company alleging a combined surface- and aerial-drone attack; this more specific mechanism is not independently confirmed. In a bTV interview published 18 November, Varna governor Mario Smurkov asserted four impacts but described contradictory sailors’ accounts and said the drone types were not confirmed.",
+      "circumstances": "Bulgarian authorities located an overturned vessel presumed to be GAS HUSKY and a nearby life raft. AP, citing Maritime.bg, reports the rescued captain saying four drones hit the vessel, while explicitly noting no official confirmation of the cause. Separate media attribute a drone-strike claim to the Romanian Naval Authority; its original statement was not located. Stealth Maritime, in a statement reproduced by Naftemporiki, says the vessel was struck early on 17 November in Bulgaria’s EEZ, without identifying the mechanism; its condition was unknown to the manager at the time. In an 18:06 report, Maritime.bg cites an unnamed source at the Greece-based management company alleging a combined surface- and aerial-drone attack; this more specific mechanism is not independently confirmed. In a bTV interview published 18 November, Varna governor Mario Smurkov asserted four impacts but described contradictory sailors’ accounts and said the drone types were not confirmed. Reuters’ 18 November dispatch additionally cites two unnamed maritime-security sources attributing the casualty to an unmanned-system strike; the governor reiterates four impacts without identifying drone types.",
       "payload": "Alleged drone payload unknown. Bulgarian transport ministry reports 3400 tonnes of propane-butane cargo; cargo is not a drone payload.",
-      "impact": "All 19 crew rescued. At 10:50 UTC the primary warning described 45-degree listing, submerged bridge and an unmanned drifting vessel. This does not establish complete sinking, despite early reports. BNR reports two sailors to hospital and no pollution recorded at the briefing. In the 18 November morning bTV report, the governor said the vessels had not yet sunk and no pollution had been detected; this is a dated assessment, not a guarantee of later condition.",
+      "impact": "All 19 crew rescued. At 10:50 UTC the primary warning described 45-degree listing, submerged bridge and an unmanned drifting vessel. This does not establish complete sinking, despite early reports. BNR reports two sailors to hospital and no pollution recorded at the briefing. In the 18 November morning bTV report, the governor said the vessels had not yet sunk and no pollution had been detected; this is a dated assessment, not a guarantee of later condition. The 18 November Reuters report describes the vessel as sunk, without a newer observation timestamp to reconcile the earlier reports.",
       "response": "Bulgarian air and maritime agencies mounted rescue; crew evacuated by helicopter to Chaika naval airbase. Transport ministry says search and rescue ended 13:15 local. Navigation warning remains distinct from rescue completion.",
       "uncertainty": "Drone involvement, weapon type, operator and precise attack time/location remain unconfirmed. No established link to BETUL 8 or other Black Sea casualties. EEZ is not equivalent to territorial waters; no EU territorial incursion established. The anonymous-source combined USV/UAV account is distinct from the public manager statement; neither drone types nor coordination are independently established. The governor’s four-impact account does not independently establish four drones or the anonymous-source combined mechanism.",
       "deduplication": "One separate GAS HUSKY casualty, not BETUL 8; beacon, rescue and later casualty observation are stages of one occurrence.",
-      "provenance": "Primary transport-ministry statements and VTMIS NAVWARN 854/26 read 17 November 2026; BNR updated briefing and media-attributed ANR claim separately reviewed. Updated AP account of captain’s four-drone claim reviewed 17 November; original Maritime.bg inaccessible. Primary NAVWARN854/26 rechecked unchanged. Manager statement reproduced by Naftemporiki reviewed 17 November; does not confirm drone mechanism or final condition. Maritime.bg18:06 anonymous management-source report read via indexed text; no independent corroboration of combined mechanism located. Governor interview reported by bTV18November reviewed as attributed follow-up, not a new occurrence.",
+      "provenance": "Primary transport-ministry statements and VTMIS NAVWARN 854/26 read 17 November 2026; BNR updated briefing and media-attributed ANR claim separately reviewed. Updated AP account of captain’s four-drone claim reviewed 17 November; original Maritime.bg inaccessible. Primary NAVWARN854/26 rechecked unchanged. Manager statement reproduced by Naftemporiki reviewed 17 November; does not confirm drone mechanism or final condition. Maritime.bg18:06 anonymous management-source report read via indexed text; no independent corroboration of combined mechanism located. Governor interview reported by bTV18November reviewed as attributed follow-up, not a new occurrence. Reuters follow-up reviewed 19 November via The Star; same occurrence.",
       "classificationNote": "Provisional offshore candidate, Alert/other; confirmed maritime casualty is not a confirmed drone strike.",
-      "sourceReferences": "[U360][U360]; [U361][U361]; [U362][U362]; [U363][U363]; [U364][U364]; [U365][U365]; [U366][U366]; [U367][U367]; [U378][U378]",
+      "sourceReferences": "[U360][U360]; [U361][U361]; [U362][U362]; [U363][U363]; [U364][U364]; [U365][U365]; [U366][U366]; [U367][U367]; [U378][U378]; [U395][U395]",
       "sources": [
         "U360",
         "U361",
@@ -10168,7 +10168,8 @@ window.DRONE_DATA = {
         "U365",
         "U366",
         "U367",
-        "U378"
+        "U378",
+        "U395"
       ],
       "page": "events/2026-11-17-gas-husky-offshore-casualty-unconfirmed-drone-claim-bulgaria/"
     },
@@ -14517,6 +14518,14 @@ window.DRONE_DATA = {
       "url": "https://www.turkishminute.com/2026/11/18/greece-accuses-turkey-of-airspace-violations-with-its-jets-and-drones/",
       "dateLabel": "18 November 2026",
       "audit": "Full report read 19 November. Explicitly contrasts November17 GEETHA monthly register with earlier media bulletin. Register independently retrieved and row checked; no independent tracks or UAV-only revision established."
+    },
+    "U395": {
+      "id": "U395",
+      "publisher": "Reuters, republished by The Star",
+      "title": "LPG tanker that sank off Bulgaria on Tuesday was hit by projectiles, official says",
+      "url": "https://www.thestar.com.my/news/world/2026/11/18/lpg-tanker-that-sank-off-bulgaria-on-tuesday-was-hit-by-projectiles-official-says",
+      "dateLabel": "18 November 2026, 18:41 MYT (10:41 UTC) republication",
+      "audit": "Reuters dispatch read 19 November via The Star. Governor reiterates four impacts; two unnamed maritime-security sources attribute an unmanned-system strike. Drone type/operator unspecified. Sinking wording carries no newer observation timestamp resolving earlier status reports."
     }
   },
   "cutoff": "2026-11-18",
