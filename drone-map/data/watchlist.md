@@ -1043,3 +1043,7 @@ No additional verified qualifying occurrence emerged in the bounded public-sourc
 
 ### MARIAM M — 19 November recovery follow-up
 N181 adds the on-scene ProTV observation of vessel movement during the recovery and Replica Online's report that two tugs pulled it clear of the Vadu grounding area. Final berth and environmental outcome not established; no newer authority or salvor completion statement located. This updates the 16 November aftermath record, not its occurrence date or the strike count.
+
+
+### November Greek register reconciliation (19 November)
+Primary monthly HTML now retrieved for rows through November18 (U393). N176 and N179 reconcile differences from earlier bulletins without inventing an explanation or assigning mixed-aircraft totals to UAVs. N182 matches the register’s combined counts; its UAV-only allocation remains sourced to the daily bulletin. Primary access is resolved for this snapshot only, not all historical gaps or later updates. Preserve all other outstanding gaps.

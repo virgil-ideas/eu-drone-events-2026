@@ -2299,13 +2299,13 @@
   },
   "N176": {
     "slug": "2026-11-16-aegean-16-november-reported-turkish-uav-activity-greece",
-    "headline": "Aegean · seven UAVs in Greek daily report for 16 November",
-    "description": "Greek-authority figures report seven UAVs, six national-airspace violations and nine FIR infringements on 16 November. Counts are non-additive.",
+    "headline": "Aegean · seven UAVs in Greek register for 16 November",
+    "description": "GEETHA’s November register lists seven UAVs, seven airspace violations and ten FIR infringements for 16 November, differing from the earlier bulletin.",
     "summary": [
-      "Parapolitika reproduced GEETHA’s 16 November daily table reporting seven Turkish UAVs, six national-airspace violations and nine Athens FIR traffic-rule infringements in the northeastern, central and southeastern Aegean.",
-      "The account reports identification and routine interception, with no engagements. This is one daily regional record, not six separate incidents or fifteen incursions. Exact tracks and intended targets remain unknown; the Greek-Turkish airspace dispute remains relevant."
+      "GEETHA’s monthly register lists seven UAVs as all aircraft reported for 16 November, with seven national-airspace violations and ten Athens FIR infringements. The earlier Parapolitika bulletin gave six violations and nine infringements; the difference is unexplained.",
+      "This remains one daily regional record. The figures are not additive or an independently verified flight count; no weapons engagement is established."
     ],
-    "basis": "3f96c88abd1165b4"
+    "basis": "bb9baf2a9cfb15d1"
   },
   "N178": {
     "slug": "2026-11-17-gas-husky-offshore-casualty-unconfirmed-drone-claim-bulgaria",
@@ -2322,13 +2322,13 @@
   },
   "N179": {
     "slug": "2026-11-17-aegean-reported-turkish-uav-activity-greece",
-    "headline": "Aegean · five UAVs in Greek daily report for 17 November",
-    "description": "Greek daily figures report five UAVs, four national-airspace violations and seven separate FIR infringements on 17 November. One regional record.",
+    "headline": "Aegean · six UAVs in Greek register for 17 November",
+    "description": "GEETHA’s register lists six UAVs on 17 November, differing from the initial five. Combined airspace totals cannot be assigned solely to drones.",
     "summary": [
-      "Greek reporting reproduces GEETHA’s 17 November table listing five Turkish UAVs, four national-airspace violations and seven Athens FIR traffic-rule infringements across the Aegean.",
-      "This is one daily regional record; aircraft and crossing figures are non-additive. The fighter encounter in the same bulletin does not establish a drone shoot-down. Exact tracks and intended targets remain unknown; the primary archive gap and Greek-Turkish airspace dispute remain relevant."
+      "GEETHA’s monthly register lists six UAVs and four manned aircraft for 17 November, with seventeen combined national-airspace violations and ten combined Athens FIR infringements. It does not allocate these totals by aircraft type.",
+      "The earlier bulletin listed five UAVs with four airspace violations and seven FIR infringements. That original account remains cited, but the register differs and provides no explanation. Neither version independently establishes flight tracks; the fighter encounter is not a drone shoot-down."
     ],
-    "basis": "d8e3ef5693037b68"
+    "basis": "388eb7555dc5af1b"
   },
   "N180": {
     "slug": "2026-07-30-farmakonisi-reported-turkish-uav-overflight-greece",
@@ -2369,6 +2369,6 @@
       "GEETHA figures reproduced by OnAlert and NewsIT attribute one national-airspace violation and one separate Athens FIR infringement to a Turkish UAV on 18 November in the northeastern and central Aegean.",
       "The manned CN-235 in the same table is excluded from UAV counts. Routine interception is reported, with no engagements. These outlets reproduce the same authority account, not independent tracks; the precise route, model and intent remain unknown."
     ],
-    "basis": "c93673122fd0337f"
+    "basis": "b3cab8bb6803dcc5"
   }
 }

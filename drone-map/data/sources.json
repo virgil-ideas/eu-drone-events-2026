@@ -3995,5 +3995,21 @@
     "url": "https://www.replicaonline.ro/operatiune-de-recuperare-in-zona-vadu-nava-mariam-m-a-fost-scoasa-din-zona-in-care-ramasese-blocata-674721?z=b",
     "dateLabel": "19 November 2026",
     "audit": "Published 14:10 local; reports two tugs pulled the vessel clear. Does not establish final berth or environmental outcome."
+  },
+  "U393": {
+    "id": "U393",
+    "publisher": "Hellenic National Defence General Staff (GEETHA)",
+    "title": "November 2026 daily airspace violations and air-traffic infringements register",
+    "url": "https://geetha.mil.gr/noemvrios-2026-stoicheia-ana-imera-paraviaseon-eech-kai-paravaseon-kek-icao/",
+    "dateLabel": "November 2026 register; rows through 18 November read 19 November",
+    "audit": "Primary HTML retrieved 19 November. Headers and rows checked: November16 seven UAVs only, ten FIR infringements/seven airspace violations; November17 six UAVs plus four manned aircraft, combined ten FIR/seventeen airspace/one engagement; November18 one UAV plus CN235, combined three FIR/five airspace. Mixed-aircraft rows do not split violations by aircraft type. Figures differ from earlier media bulletins for November16/17; reason not given."
+  },
+  "U394": {
+    "id": "U394",
+    "publisher": "Turkish Minute",
+    "title": "Greece accuses Turkey of airspace violations with its jets and drones",
+    "url": "https://www.turkishminute.com/2026/11/18/greece-accuses-turkey-of-airspace-violations-with-its-jets-and-drones/",
+    "dateLabel": "18 November 2026",
+    "audit": "Full report read 19 November. Explicitly contrasts November17 GEETHA monthly register with earlier media bulletin. Register independently retrieved and row checked; no independent tracks or UAV-only revision established."
   }
 }
