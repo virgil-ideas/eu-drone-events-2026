@@ -1032,3 +1032,11 @@ NA007 adds the dated, attributed phased plan from the 17 November interview (U38
 
 ### Greek daily report: 18 November 2026
 N182 adds the GEETHA-attributed November18 UAV daily record from full OnAlert and NewsIT reports (U384–U385), which reproduce the same table. Primary daily archive access and historical Greek coverage gaps remain open. The inclusive cutoff advances to November18 for this dated record only; this is not an exhaustive all-EU coverage claim.
+
+## 19 November 2026 EU27 review
+
+No additional verified qualifying occurrence emerged in the bounded public-source search with overlap from 15 November. Existing November 18 Aegean daily record N182 and the separate historical E013 attribution correction were already published. The occurrence cutoff remains 18 November. Greek primary archive, Cyprus jurisdiction, Baltic investigation, and offshore final-outcome gaps remain open.
+
+- Poland, 17 November: Radio Lublin's 12:25 CET update reports that PANSA said Lublin and Rzeszów had resumed operations by then; this is not an exact reopening time. Polish Operational Command reported ending its protective operation and observing no Polish airspace violation. Precautionary disruption only. Source: https://radio.lublin.pl/2026/11/lotniska-w-lublinie-i-rzeszowie-wstrzymaly-operacje-lotnicze/
+- Moldova, 17 November: the civil aviation authority reports closure at 14:27 UTC and central-sector reopening to civil traffic at 15:03 UTC; a Sharm el-Sheikh–Chișinău flight held near the Romanian border, side unspecified. Neither the aviation bulletin nor the earlier lost track near Leova establishes a Romanian crossing. The ministry's seven-drone figure is countrywide, not a count at the airport. Source: https://caa.md/ro/print/pdf/node/1196
+- GAS HUSKY, N178: original signed 18 November company filing reports the prior day's strike and all 19 crew safe ashore, with vessel condition unknown at the time; it does not identify a mechanism and is not an independent SEC finding. No newer dated official condition assessment located in this review. Source: https://www.sec.gov/Archives/edgar/data/1328919/000119312526466263/d185301d6k.htm
