@@ -10105,17 +10105,19 @@ window.DRONE_DATA = {
       "circumstances": "ANR says a September drone strike in Ukrainian territorial waters left the vessel anchored. Its anchor broke on 14 November. Currents carried it into Romanian waters, where MRCC monitored it. It grounded at Vadu on 16 November before towing could begin.",
       "payload": "No new drone or explosive payload reported in the Romanian grounding.",
       "impact": "Vessel grounded and became a navigation hazard. No new casualties reported in Romania; September attack casualties are not counted here.",
-      "response": "Navigation warning issued. SAR ARTEMIS dispatched on 16 November and found the vessel already grounded. Owner contracted COREMAR for refloating; completion not established.",
-      "uncertainty": "Exact Romanian entry time, complete drift track and final salvage outcome unknown. The shared shoreline video depicts the aftermath, not a strike.",
+      "response": "Navigation warning issued. SAR ARTEMIS found the ship already grounded on 16 November. The owner contracted COREMAR for refloating. On 19 November, ProTV observed the ship begin moving during the recovery operation; Replica Online subsequently reported that two tugs pulled it clear of the grounding area.",
+      "uncertainty": "Exact Romanian entry time and complete drift track unknown. The 19 November press accounts do not establish final berth, salvage disposition or environmental outcome. The shoreline video shows aftermath, not a strike.",
       "deduplication": "One Romanian drift-and-grounding occurrence. The September Ukrainian attack is background, not an additional EU strike. Later salvage or condition reports update this record.",
-      "provenance": "Added 18 November from ARN176, ANR/ARSVOM reporting and user-shared video. Promoted from watchlist after explicit inclusion of the vessel’s arrival in Romanian waters.",
+      "provenance": "Added 18 November from ARN176, ANR/ARSVOM reporting and user-shared video. Promoted from watchlist after explicit inclusion of the vessel’s arrival in Romanian waters. Full ProTV and Replica Online recovery reports read 19 November; no separate authority or salvor completion statement located.",
       "classificationNote": "Alert / other (gray): drone-related maritime aftermath within Romania. Not classified as a strike, drone crash or fresh drone incursion.",
-      "sourceReferences": "[U379][U379]; [U380][U380]; [U381][U381]; [U382][U382]",
+      "sourceReferences": "[U379][U379]; [U380][U380]; [U381][U381]; [U382][U382]; [U390][U390]; [U391][U391]",
       "sources": [
         "U379",
         "U380",
         "U381",
-        "U382"
+        "U382",
+        "U390",
+        "U391"
       ],
       "page": "events/2026-11-16-mariam-m-drifts-ashore-vadu-romania/"
     },
@@ -14481,6 +14483,22 @@ window.DRONE_DATA = {
       "url": "https://www.mapn.ro/cpresa/19223_Comunicat-de-presa",
       "dateLabel": "26 April 2026",
       "audit": "Primary release 116 read 19 November 2026. Contemporaneous recovery/disposal account; no original flight route or date established."
+    },
+    "U390": {
+      "id": "U390",
+      "publisher": "Știrile ProTV",
+      "title": "On-scene report: MARIAM M moves during Vadu recovery",
+      "url": "https://stirileprotv.ro/stiri/actualitate/nava-mariam-m-se-deplaseaza-usor-a-inceput-operatiunea-de-scoatere-din-nisip-de-pe-plaja-vadu.html",
+      "dateLabel": "19 November 2026",
+      "audit": "On-scene report published 14:09 local describes movement during recovery, not completion."
+    },
+    "U391": {
+      "id": "U391",
+      "publisher": "Replica Online",
+      "title": "MARIAM M reported pulled clear of grounding area near Vadu",
+      "url": "https://www.replicaonline.ro/operatiune-de-recuperare-in-zona-vadu-nava-mariam-m-a-fost-scoasa-din-zona-in-care-ramasese-blocata-674721?z=b",
+      "dateLabel": "19 November 2026",
+      "audit": "Published 14:10 local; reports two tugs pulled the vessel clear. Does not establish final berth or environmental outcome."
     }
   },
   "cutoff": "2026-11-18",

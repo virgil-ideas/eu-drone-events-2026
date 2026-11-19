@@ -3979,5 +3979,21 @@
     "url": "https://www.mapn.ro/cpresa/19223_Comunicat-de-presa",
     "dateLabel": "26 April 2026",
     "audit": "Primary release 116 read 19 November 2026. Contemporaneous recovery/disposal account; no original flight route or date established."
+  },
+  "U390": {
+    "id": "U390",
+    "publisher": "Știrile ProTV",
+    "title": "On-scene report: MARIAM M moves during Vadu recovery",
+    "url": "https://stirileprotv.ro/stiri/actualitate/nava-mariam-m-se-deplaseaza-usor-a-inceput-operatiunea-de-scoatere-din-nisip-de-pe-plaja-vadu.html",
+    "dateLabel": "19 November 2026",
+    "audit": "On-scene report published 14:09 local describes movement during recovery, not completion."
+  },
+  "U391": {
+    "id": "U391",
+    "publisher": "Replica Online",
+    "title": "MARIAM M reported pulled clear of grounding area near Vadu",
+    "url": "https://www.replicaonline.ro/operatiune-de-recuperare-in-zona-vadu-nava-mariam-m-a-fost-scoasa-din-zona-in-care-ramasese-blocata-674721?z=b",
+    "dateLabel": "19 November 2026",
+    "audit": "Published 14:10 local; reports two tugs pulled the vessel clear. Does not establish final berth or environmental outcome."
   }
 }

@@ -9918,18 +9918,20 @@
     "circumstances": "ANR says a September drone strike in Ukrainian territorial waters left the vessel anchored. Its anchor broke on 14 November. Currents carried it into Romanian waters, where MRCC monitored it. It grounded at Vadu on 16 November before towing could begin.",
     "payload": "No new drone or explosive payload reported in the Romanian grounding.",
     "impact": "Vessel grounded and became a navigation hazard. No new casualties reported in Romania; September attack casualties are not counted here.",
-    "response": "Navigation warning issued. SAR ARTEMIS dispatched on 16 November and found the vessel already grounded. Owner contracted COREMAR for refloating; completion not established.",
-    "uncertainty": "Exact Romanian entry time, complete drift track and final salvage outcome unknown. The shared shoreline video depicts the aftermath, not a strike.",
+    "response": "Navigation warning issued. SAR ARTEMIS found the ship already grounded on 16 November. The owner contracted COREMAR for refloating. On 19 November, ProTV observed the ship begin moving during the recovery operation; Replica Online subsequently reported that two tugs pulled it clear of the grounding area.",
+    "uncertainty": "Exact Romanian entry time and complete drift track unknown. The 19 November press accounts do not establish final berth, salvage disposition or environmental outcome. The shoreline video shows aftermath, not a strike.",
     "deduplication": "One Romanian drift-and-grounding occurrence. The September Ukrainian attack is background, not an additional EU strike. Later salvage or condition reports update this record.",
-    "provenance": "Added 18 November from ARN176, ANR/ARSVOM reporting and user-shared video. Promoted from watchlist after explicit inclusion of the vessel’s arrival in Romanian waters.",
+    "provenance": "Added 18 November from ARN176, ANR/ARSVOM reporting and user-shared video. Promoted from watchlist after explicit inclusion of the vessel’s arrival in Romanian waters. Full ProTV and Replica Online recovery reports read 19 November; no separate authority or salvor completion statement located.",
     "classificationNote": "Alert / other (gray): drone-related maritime aftermath within Romania. Not classified as a strike, drone crash or fresh drone incursion.",
     "sources": [
       "U379",
       "U380",
       "U381",
-      "U382"
+      "U382",
+      "U390",
+      "U391"
     ],
-    "reviewedOn": "2026-11-18"
+    "reviewedOn": "2026-11-19"
   },
   {
     "id": "N182",
