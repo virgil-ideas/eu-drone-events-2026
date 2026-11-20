@@ -298,9 +298,10 @@
     "summary": [
       "Overnight on 29 May 2026 a drone struck the roof of an apartment block in the Mazepa district of Galați, Romania, and started a fire. Two people suffered minor injuries, residents were evacuated and homes were damaged. Officials estimated that the drone carried at least 30 kg of explosives.",
       "Based on an official radar and debris assessment, Romanian authorities identified it as a Russian Geran-2 drone. It was associated with a wider wave of 43 drones in attacks on Ukraine and made a brief flight over Romania before the impact. Moscow disputed the attribution. Romania did not describe the strike as an intentional attack directed at Romania.",
-      "Two Romanian F-16s and a helicopter were scrambled but did not engage over the city, and the site was examined. The Russian consul was expelled and the consulate closed in response. The incident is separate from a drone crash in Galați on 25 April 2026."
+      "Two Romanian F-16s and a helicopter were scrambled but did not engage over the city, and the site was examined. The Russian consul was expelled and the consulate closed in response. The incident is separate from a drone crash in Galați on 25 April 2026.",
+      "In its 29 May letter to the UN Security Council, Romania reported radar tracking into southern Galați, a residential roof impact, fire, two injuries and evacuation. The letter attributes the drone to Russia without identifying the model or payload weight."
     ],
-    "basis": "0f18939d7addb8ca"
+    "basis": "5c4ceafabe290eee"
   },
   "E029": {
     "slug": "2026-06-03-suspected-drone-alerts-latvia-estonia-border",
@@ -503,13 +504,13 @@
   "E047": {
     "slug": "2026-08-20-explosive-naval-drone-neptun-deep-romania",
     "headline": "Romanian F-16 fires on explosive naval drone near Neptun Deep works",
-    "description": "On 20 August 2026 a Romanian F-16 damaged an explosive sea drone near Neptun Deep, in Romania’s EEZ, before the Navy neutralised it. Its origin is unresolved.",
+    "description": "Romania neutralised an explosive sea drone near Neptun Deep on 20 August. Its president later attributed it to Russia’s Navy.",
     "summary": [
       "On 20 August 2026 an unmanned surface vessel, or sea drone, carrying explosives was detected a few hundred metres from the Neptun Deep offshore works, roughly 80 nautical miles east of Constanța in Romania’s exclusive economic zone. Whether it approached or drifted towards the works, and what it was intended to do, is unresolved.",
       "A Romanian F-16 fired on it with its cannon, damaging but not fully destroying it, and a Navy explosive ordnance disposal team then neutralised it. Official reporting confirmed an explosive charge of unspecified size. The defence ministry initially described two drones and later corrected this to one. No casualties or damage to the infrastructure were reported.",
-      "The drone’s launch point and operator are unknown. Romania’s defence minister said Ukraine had confirmed it was not Ukrainian; that statement does not establish who did launch it. The case is separate from the aerial drone that crashed near Grindu the same day."
+      "On 23 September President Nicușor Dan told the UN Security Council that the 20 August drone was a Russian Navy drone. He did not disclose the evidence behind the attribution. The launch point and intended target remain unverified. The case is separate from the aerial drone crash near Grindu on the same day."
     ],
-    "basis": "c73d4d96d14ce0d5"
+    "basis": "faf62b853decc2af"
   },
   "E048": {
     "slug": "2026-08-22-explosive-drone-debris-tuzla-beach-romania",
@@ -2014,14 +2015,13 @@
   },
   "N139": {
     "slug": "2026-11-06-aegean-turkish-uav-activity-greece",
-    "headline": "Aegean · 6 November Greek-reported Turkish UAV activity",
-    "description": "Greek-authority-reported Turkish UAV airspace violations. Flight only; routine interception is not weapons engagement.",
+    "headline": "Aegean · 6 November reported Turkish UAV activity",
+    "description": "Greek register reports 10 Turkish UAVs on 6 November. The combined aircraft figures are not drone-only.",
     "summary": [
-      "Greek daily figures assign 15 airspace violations and nine Athens FIR infringements to seven UAVs. Two further FIR infringements by an ATR-72 are excluded. Identification and routine interception reported; no engagements or shoot-downs reported.",
-      "Seven Turkish UAVs in Greek reporting; models unspecified. Two outlets reproduce the same Greek account, not independent observations. Direct GEETHA bulletin unavailable. Exact tracks, models and missions remain unknown; the Greek-Turkish airspace dispute remains relevant.",
-      "One daily regional record. Aircraft, airspace violations and FIR infringements are separate, non-additive measures. The manned aircraft is not a separate drone event."
+      "The primary GEETHA monthly register lists 10 UAVs and one ATR-72, with 15 combined FIR infringements and 23 combined national-airspace violations. The register does not allocate the mixed totals by aircraft type.",
+      "The earlier reproduced daily bulletin allocated 9 FIR infringements and 15 national-airspace violations to 7 UAVs. The reason for the difference is not stated. These figures come from Greek authorities; they are not independently verified tracks or a confirmed attack count."
     ],
-    "basis": "2da350a5ac39472c"
+    "basis": "6dc3f823c5a1378c"
   },
   "N150": {
     "slug": "2026-11-11-lithuanialatvia-suspected-drone-cross-border-flight-lithuania",
@@ -2358,9 +2358,9 @@
     "summary": [
       "MARIAM M grounded on Romania’s Vadu coast on 16 November 2026. The abandoned, Tanzania-flagged cargo vessel had drifted into Romanian waters after its anchor broke on 14 November.",
       "Romanian authorities say a September drone strike in Ukrainian territorial waters had left the ship anchored there. This record covers its subsequent arrival and grounding in Romania, classified as Alert / other. It does not count a new drone strike or transfer casualties from the September attack.",
-      "SAR ARTEMIS found the ship already grounded on 16 November. On 19 November, ProTV saw the ship start moving during salvage, and Replica Online reported it was pulled clear of the grounding area. The final berth and environmental outcome are not established. The page includes earlier ARSVOM response footage and a link to a shoreline video."
+      "On 19 November tugs freed the vessel from its original sandbank. ProTV later reported that it moved about 100 metres before grounding on another sandbar, after which the crew anchored it and paused salvage around nightfall. Final berth and environmental outcome are not established. The page includes earlier ARSVOM response footage and a shoreline video link."
     ],
-    "basis": "1119d2d669aa74bb"
+    "basis": "cd30202958950982"
   },
   "N182": {
     "slug": "2026-11-18-aegean-reported-turkish-uav-activity-greece",
@@ -2371,5 +2371,65 @@
       "The manned CN-235 in the same table is excluded from UAV counts. Routine interception is reported, with no engagements. These outlets reproduce the same authority account, not independent tracks; the precise route, model and intent remain unknown."
     ],
     "basis": "b3cab8bb6803dcc5"
+  },
+  "N140": {
+    "slug": "2026-11-05-aegean-5-november-greek-reported-turkish-uav-activity",
+    "headline": "Aegean · 5 November reported Turkish UAV activity",
+    "description": "Greek register reports 5 Turkish UAVs on 5 November. Earlier daily figures differed.",
+    "summary": [
+      "The primary GEETHA monthly register lists 5 UAVs and no manned aircraft, with 8 FIR infringements and 17 national-airspace violations. All reported aircraft that day were UAVs.",
+      "The earlier reproduced daily bulletin allocated 6 FIR infringements and 9 national-airspace violations to 4 UAVs. The reason for the difference is not stated. These figures come from Greek authorities; they are not independently verified tracks or a confirmed attack count."
+    ],
+    "basis": "9ac1bebed01c1f7c"
+  },
+  "N141": {
+    "slug": "2026-11-07-aegean-7-november-greek-reported-turkish-uav-activity",
+    "headline": "Aegean · 7 November reported Turkish UAV activity",
+    "description": "Greek register reports 8 Turkish UAVs on 7 November. Earlier daily figures differed.",
+    "summary": [
+      "The primary GEETHA monthly register lists 8 UAVs and no manned aircraft, with 10 FIR infringements and 8 national-airspace violations. All reported aircraft that day were UAVs.",
+      "The earlier reproduced daily bulletin allocated 8 FIR infringements and 4 national-airspace violations to 6 UAVs. The reason for the difference is not stated. These figures come from Greek authorities; they are not independently verified tracks or a confirmed attack count."
+    ],
+    "basis": "20afe9e4b2aec3b4"
+  },
+  "N146": {
+    "slug": "2026-11-08-aegean-8-november-greek-reported-turkish-uav-activity",
+    "headline": "Aegean · 8 November reported Turkish UAV activity",
+    "description": "Greek register reports 5 Turkish UAVs on 8 November. Earlier daily figures differed.",
+    "summary": [
+      "The primary GEETHA monthly register lists 5 UAVs and no manned aircraft, with 6 FIR infringements and 6 national-airspace violations. All reported aircraft that day were UAVs.",
+      "The earlier reproduced daily bulletin allocated 4 FIR infringements and 4 national-airspace violations to 4 UAVs. The reason for the difference is not stated. These figures come from Greek authorities; they are not independently verified tracks or a confirmed attack count."
+    ],
+    "basis": "8042cbed556f0700"
+  },
+  "N147": {
+    "slug": "2026-11-09-aegean-9-november-greek-reported-turkish-uav-activity",
+    "headline": "Aegean · 9 November reported Turkish UAV activity",
+    "description": "Greek register reports 5 Turkish UAVs on 9 November. The combined aircraft figures are not drone-only.",
+    "summary": [
+      "The primary GEETHA monthly register lists 5 UAVs and one ATR-72, with 7 combined FIR infringements and 3 combined national-airspace violations. The register does not allocate the mixed totals by aircraft type.",
+      "The earlier reproduced daily bulletin allocated 5 FIR infringements and 2 national-airspace violations to 5 UAVs. The reason for the difference is not stated. These figures come from Greek authorities; they are not independently verified tracks or a confirmed attack count."
+    ],
+    "basis": "f51a6f7b191383b5"
+  },
+  "N183": {
+    "slug": "2026-11-14-aegean-reported-turkish-uav-activity-greece",
+    "headline": "Aegean · 14 November reported Turkish UAV activity",
+    "description": "Greek authorities list 2 Turkish UAVs on 14 November, with separately reported national-airspace and FIR figures.",
+    "summary": [
+      "GEETHA’s November register lists 2 UAVs and no manned aircraft for 14 November in the southeastern aegean.",
+      "The register reports one national-airspace violation and 2 separate Athens FIR infringements. These are Greek-authority figures, not independently verified tracks, unique event counts or attacks. No engagement was listed."
+    ],
+    "basis": "b2986ce980d04fc5"
+  },
+  "N184": {
+    "slug": "2026-11-15-aegean-reported-turkish-uav-activity-greece",
+    "headline": "Aegean · 15 November reported Turkish UAV activity",
+    "description": "Greek authorities list 3 Turkish UAVs on 15 November, with separately reported national-airspace and FIR figures.",
+    "summary": [
+      "GEETHA’s November register lists 3 UAVs and no manned aircraft for 15 November in the central and southeastern aegean.",
+      "The register reports 4 national-airspace violations and 4 separate Athens FIR infringements. These are Greek-authority figures, not independently verified tracks, unique event counts or attacks. No engagement was listed."
+    ],
+    "basis": "86bf7a8ace460d82"
   }
 }

@@ -1717,11 +1717,12 @@ window.DRONE_DATA = {
       "response": "Two Romanian F-16s and helicopter scrambled; no engagement over city. Site examined.",
       "uncertainty": "Official radar/debris assessment; Romania did not characterize it as an intentional attack directed at Romania. Russian consul expelled and consulate closed in response.",
       "deduplication": "Distinct from 25 April Galați crash E011. Wider 43-drone wave is not 43 Romanian incursions.",
-      "provenance": "Prior research; not independently rechecked in full for this export",
-      "sourceReferences": "[S25][S25]; [S26][S26]",
+      "provenance": "Prior reporting supplemented by Romania’s 29 May letter to the UN Security Council, reviewed 20 November. The letter does not specify the reported model or payload weight.",
+      "sourceReferences": "[S25][S25]; [S26][S26]; [U398][U398]",
       "sources": [
         "S25",
-        "S26"
+        "S26",
+        "U398"
       ],
       "startDate": "2026-05-29",
       "title": "Mazepa, Galați",
@@ -3007,22 +3008,23 @@ window.DRONE_DATA = {
       "dateBasis": "20 August; EEST; aircraft engagement and later naval disposal same event",
       "countries": "Romania (offshore EEZ)",
       "location": "Few hundred metres from Neptun Deep works; roughly 80 nautical miles east of Constanța; Romanian EEZ",
-      "status": "Explosive military-USV incident; origin unresolved",
+      "status": "Explosive sea-drone incident; later attributed to Russia’s Navy by Romania’s president",
       "categories": "Offshore energy-infrastructure proximity; aircraft engagement; naval explosive disposal",
       "vehicle": "1 maritime unmanned surface vessel (USV), not 2",
-      "attribution": "Defence minister said Ukraine confirmed it was not Ukrainian; that does not positively establish another operator",
+      "attribution": "On 23 September President Nicușor Dan told the UN Security Council that the 20 August sea drone was a Russian Navy drone. The defence minister had earlier said Ukraine told Romania it was not Ukrainian.",
       "route": "Detected at sea near offshore works; launch point unknown",
       "circumstances": "Explosive-laden sea drone approached/drifted near works; exact intent unresolved.",
       "payload": "Explosive charge confirmed in official reporting; quantity unspecified",
       "impact": "No casualties or infrastructure damage reported in collected account",
       "response": "Romanian F-16 cannon fire damaged but did not fully destroy drone; Navy EOD subsequently neutralized it.",
-      "uncertainty": "MApN reconciled aircraft and vessel observations and corrected initial two-drone account to one.",
+      "uncertainty": "The contemporaneous defence ministry correction established one drone, not two, but did not name an operator. Dan’s speech did not disclose the evidence behind his attribution; model, launch point and intended target remain unverified.",
       "deduplication": "MANDATORY RESTORED EVENT. One USV with two intervention stages. Not the 11 August aerial-drone cluster E043 or Grindu crash E046.",
-      "provenance": "Restored from correction; relevant sources rechecked during export",
-      "sourceReferences": "[S51][S51]; [S70][S70]",
+      "provenance": "Restored from correction; relevant sources rechecked during export UN verbatim record reviewed 20 November; attribution applies only to 20 August.",
+      "sourceReferences": "[S51][S51]; [S70][S70]; [U397][U397]",
       "sources": [
         "S51",
-        "S70"
+        "S70",
+        "U397"
       ],
       "startDate": "2026-08-20",
       "title": "Neptun Deep · maritime drone",
@@ -8615,11 +8617,11 @@ window.DRONE_DATA = {
       "recordType": "reported_foreign_uav_activity",
       "startDate": "2026-11-05",
       "dateLabel": "5 November 2026",
-      "dateBasis": "Daily account explicitly dated 5 November; sortie times unpublished.",
+      "dateBasis": "5 November activity; primary monthly register checked 20 November alongside the earlier reproduced daily bulletin.",
       "countries": "Greece",
       "location": "Northeastern / southeastern Aegean Sea; precise tracks unpublished.",
       "status": "Greek-authority-reported Turkish UAV airspace violations",
-      "categories": "9 reported national-airspace violations and 6 UAV FIR infringements involving 4 UAVs",
+      "categories": "Greek-reported UAV national-airspace violations and separate Athens FIR infringements",
       "category": "flight",
       "stages": [
         "flight"
@@ -8633,24 +8635,25 @@ window.DRONE_DATA = {
         }
       ],
       "positionNote": "Editorial regional anchor, not a verified crossing point or flight track. Overlapping records are not shifted.",
-      "vehicle": "Four Turkish UAVs in Greek reporting; models unspecified.",
+      "vehicle": "5 Turkish UAVs listed by GEETHA; models unspecified.",
       "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
       "route": "Regional scope only; no independently verified approach tracks.",
-      "circumstances": "Greek daily figures assign 9 national-airspace violations and 6 Athens FIR infringements to 4 UAVs.",
+      "circumstances": "The primary GEETHA monthly register lists 5 UAVs and no manned aircraft, with 8 FIR infringements and 17 national-airspace violations. All reported aircraft that day were UAVs. The earlier reproduced daily bulletin allocated 6 FIR infringements and 9 national-airspace violations to 4 UAVs.",
       "payload": "UAV payloads unknown; daily report lists no armed aircraft.",
       "impact": "No casualties, damage or crashes reported.",
       "response": "Identification and routine interception reported; no engagements or shoot-downs reported.",
-      "uncertainty": "Two outlets reproduce the same Greek account, not independent observations. Direct GEETHA bulletin unavailable. Exact tracks, models and missions remain unknown; the Greek-Turkish airspace dispute remains relevant.",
+      "uncertainty": "The reason for the discrepancy is not stated. Primary register and earlier reporting are Greek-authority accounts, not independent tracks. Exact routes, models and intent remain unknown; the Greek–Turkish airspace dispute remains relevant.",
       "deduplication": "One daily regional record, distinct from the 6 November N139 account. Aircraft, airspace violations and FIR infringements are separate, non-additive measures, not additional event rows.",
-      "provenance": "Veteranos and Dimokratiki article bodies directly reviewed 8 November.",
-      "classificationNote": "Flight only; routine interception is not weapons engagement.",
-      "reported_UAVs": 4,
-      "reported_airspace_violations": 9,
-      "reported_FIR_infractions": 6,
-      "sourceReferences": "[U245][U245]; [U246][U246]",
+      "provenance": "November GEETHA register reviewed 20 November. Earlier media bulletins retained as historical source accounts.",
+      "classificationNote": "One daily regional record. Counts are not additive or a tally of independently verified flights or attacks. No engagement or shoot-down established.",
+      "reported_UAVs": 5,
+      "reported_airspace_violations": 17,
+      "reported_FIR_infractions": 8,
+      "sourceReferences": "[U245][U245]; [U246][U246]; [U401][U401]",
       "sources": [
         "U245",
-        "U246"
+        "U246",
+        "U401"
       ],
       "page": "events/2026-11-05-aegean-5-november-greek-reported-turkish-uav-activity/"
     },
@@ -8837,11 +8840,11 @@ window.DRONE_DATA = {
       "recordType": "reported_foreign_uav_activity",
       "startDate": "2026-11-06",
       "dateLabel": "6 November 2026",
-      "dateBasis": "Daily account explicitly dated 6 November; sortie times unpublished.",
+      "dateBasis": "6 November activity; primary monthly register checked 20 November alongside the earlier reproduced daily bulletin.",
       "countries": "Greece",
       "location": "Northeastern / central / southeastern Aegean Sea; precise tracks unpublished.",
       "status": "Greek-authority-reported Turkish UAV airspace violations",
-      "categories": "15 reported national-airspace violations and 9 UAV FIR infringements involving 7 UAVs",
+      "categories": "UAVs in Greek daily register; combined violations not allocated by aircraft type",
       "category": "flight",
       "stages": [
         "flight"
@@ -8855,24 +8858,23 @@ window.DRONE_DATA = {
         }
       ],
       "positionNote": "Editorial regional anchor, not a verified crossing point or flight track. Overlapping records are not shifted.",
-      "vehicle": "Seven Turkish UAVs in Greek reporting; models unspecified.",
+      "vehicle": "10 Turkish UAVs listed by GEETHA; models unspecified.",
       "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
       "route": "Regional scope only; no independently verified approach tracks.",
-      "circumstances": "Greek daily figures assign 15 airspace violations and nine Athens FIR infringements to seven UAVs. Two further FIR infringements by an ATR-72 are excluded.",
+      "circumstances": "The primary GEETHA monthly register lists 10 UAVs and one ATR-72, with 15 combined FIR infringements and 23 combined national-airspace violations. The register does not allocate the mixed totals by aircraft type. The earlier reproduced daily bulletin allocated 9 FIR infringements and 15 national-airspace violations to 7 UAVs.",
       "payload": "UAV payloads unknown; daily report lists no armed aircraft.",
       "impact": "No casualties, damage or crashes reported.",
       "response": "Identification and routine interception reported; no engagements or shoot-downs reported.",
-      "uncertainty": "Two outlets reproduce the same Greek account, not independent observations. Direct GEETHA bulletin unavailable. Exact tracks, models and missions remain unknown; the Greek-Turkish airspace dispute remains relevant.",
+      "uncertainty": "The reason for the discrepancy is not stated. Primary register and earlier reporting are Greek-authority accounts, not independent tracks. Exact routes, models and intent remain unknown; the Greek–Turkish airspace dispute remains relevant.",
       "deduplication": "One daily regional record. Aircraft, airspace violations and FIR infringements are separate, non-additive measures. The manned aircraft is not a separate drone event.",
-      "provenance": "OnAlert and CNN Greece reports directly reviewed 7 November.",
-      "classificationNote": "Flight only; routine interception is not weapons engagement.",
-      "reported_UAVs": 7,
-      "reported_airspace_violations": 15,
-      "reported_FIR_infractions": 9,
-      "sourceReferences": "[U239][U239]; [U240][U240]",
+      "provenance": "November GEETHA register reviewed 20 November. Earlier media bulletins retained as historical source accounts.",
+      "classificationNote": "One daily regional record. Counts are not additive or a tally of independently verified flights or attacks. No engagement or shoot-down established.",
+      "reported_UAVs": 10,
+      "sourceReferences": "[U239][U239]; [U240][U240]; [U401][U401]",
       "sources": [
         "U239",
-        "U240"
+        "U240",
+        "U401"
       ],
       "page": "events/2026-11-06-aegean-turkish-uav-activity-greece/"
     },
@@ -8883,11 +8885,11 @@ window.DRONE_DATA = {
       "recordType": "reported_foreign_uav_activity",
       "startDate": "2026-11-07",
       "dateLabel": "7 November 2026",
-      "dateBasis": "Daily account explicitly dated 7 November; sortie times unpublished.",
+      "dateBasis": "7 November activity; primary monthly register checked 20 November alongside the earlier reproduced daily bulletin.",
       "countries": "Greece",
       "location": "Northeastern / central / southeastern Aegean Sea; precise tracks unpublished.",
       "status": "Greek-authority-reported Turkish UAV airspace violations",
-      "categories": "4 reported national-airspace violations and 8 UAV FIR infringements involving 6 UAVs",
+      "categories": "Greek-reported UAV national-airspace violations and separate Athens FIR infringements",
       "category": "flight",
       "stages": [
         "flight"
@@ -8901,24 +8903,25 @@ window.DRONE_DATA = {
         }
       ],
       "positionNote": "Editorial regional anchor, not a verified crossing point or flight track. Overlapping records are not shifted.",
-      "vehicle": "Six Turkish UAVs in Greek reporting; models unspecified.",
+      "vehicle": "8 Turkish UAVs listed by GEETHA; models unspecified.",
       "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
       "route": "Regional scope only; no independently verified approach tracks.",
-      "circumstances": "Greek daily figures assign 4 national-airspace violations and 8 Athens FIR infringements to 6 UAVs.",
+      "circumstances": "The primary GEETHA monthly register lists 8 UAVs and no manned aircraft, with 10 FIR infringements and 8 national-airspace violations. All reported aircraft that day were UAVs. The earlier reproduced daily bulletin allocated 8 FIR infringements and 4 national-airspace violations to 6 UAVs.",
       "payload": "UAV payloads unknown; daily report lists no armed aircraft.",
       "impact": "No casualties, damage or crashes reported.",
       "response": "Identification and routine interception reported; no engagements or shoot-downs reported.",
-      "uncertainty": "Two outlets reproduce the same Greek account, not independent observations. Direct GEETHA bulletin unavailable. Exact tracks, models and missions remain unknown; the Greek-Turkish airspace dispute remains relevant.",
+      "uncertainty": "The reason for the discrepancy is not stated. Primary register and earlier reporting are Greek-authority accounts, not independent tracks. Exact routes, models and intent remain unknown; the Greek–Turkish airspace dispute remains relevant.",
       "deduplication": "One daily regional record, distinct from the 6 November N139 account. Aircraft, airspace violations and FIR infringements are separate, non-additive measures, not additional event rows.",
-      "provenance": "OnAlert and CNN Greece reports directly reviewed 8 November.",
-      "classificationNote": "Flight only; routine interception is not weapons engagement.",
-      "reported_UAVs": 6,
-      "reported_airspace_violations": 4,
-      "reported_FIR_infractions": 8,
-      "sourceReferences": "[U247][U247]; [U248][U248]",
+      "provenance": "November GEETHA register reviewed 20 November. Earlier media bulletins retained as historical source accounts.",
+      "classificationNote": "One daily regional record. Counts are not additive or a tally of independently verified flights or attacks. No engagement or shoot-down established.",
+      "reported_UAVs": 8,
+      "reported_airspace_violations": 8,
+      "reported_FIR_infractions": 10,
+      "sourceReferences": "[U247][U247]; [U248][U248]; [U401][U401]",
       "sources": [
         "U247",
-        "U248"
+        "U248",
+        "U401"
       ],
       "page": "events/2026-11-07-aegean-7-november-greek-reported-turkish-uav-activity/"
     },
@@ -9061,11 +9064,11 @@ window.DRONE_DATA = {
       "recordType": "reported_foreign_uav_activity",
       "startDate": "2026-11-08",
       "dateLabel": "8 November 2026",
-      "dateBasis": "Daily account explicitly dated 8 November; sortie times unpublished.",
+      "dateBasis": "8 November activity; primary monthly register checked 20 November alongside the earlier reproduced daily bulletin.",
       "countries": "Greece",
       "location": "Northeastern / central Aegean Sea; precise tracks unpublished.",
       "status": "Greek-authority-reported Turkish UAV airspace violations",
-      "categories": "4 reported national-airspace violations and 4 UAV FIR infringements involving 4 UAVs",
+      "categories": "Greek-reported UAV national-airspace violations and separate Athens FIR infringements",
       "category": "flight",
       "stages": [
         "flight"
@@ -9079,24 +9082,25 @@ window.DRONE_DATA = {
         }
       ],
       "positionNote": "Editorial regional anchor, not a verified crossing point or flight track. Overlapping records are not shifted.",
-      "vehicle": "Four Turkish UAVs in Greek reporting; models unspecified.",
+      "vehicle": "5 Turkish UAVs listed by GEETHA; models unspecified.",
       "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
       "route": "Regional scope only; no independently verified approach tracks.",
-      "circumstances": "Greek daily figures assign four national-airspace violations and four Athens FIR infringements to four UAVs.",
+      "circumstances": "The primary GEETHA monthly register lists 5 UAVs and no manned aircraft, with 6 FIR infringements and 6 national-airspace violations. All reported aircraft that day were UAVs. The earlier reproduced daily bulletin allocated 4 FIR infringements and 4 national-airspace violations to 4 UAVs.",
       "payload": "UAV payloads unknown; daily report lists no armed aircraft.",
       "impact": "No casualties, damage or crashes reported.",
       "response": "Identification and routine interception reported; no engagements or shoot-downs reported.",
-      "uncertainty": "Two outlets reproduce the same Greek account, not independent observations. Direct GEETHA bulletin unavailable. Exact tracks, models and missions remain unknown; the Greek-Turkish airspace dispute remains relevant.",
+      "uncertainty": "The reason for the discrepancy is not stated. Primary register and earlier reporting are Greek-authority accounts, not independent tracks. Exact routes, models and intent remain unknown; the Greek–Turkish airspace dispute remains relevant.",
       "deduplication": "One daily regional record, distinct from N140, N139 and N141. Aircraft and crossing counts are separate, non-additive measures.",
-      "provenance": "Newsbomb and Zougla article bodies directly reviewed 9 November.",
-      "classificationNote": "Flight only; routine interception is not weapons engagement.",
-      "reported_UAVs": 4,
-      "reported_airspace_violations": 4,
-      "reported_FIR_infractions": 4,
-      "sourceReferences": "[U261][U261]; [U262][U262]",
+      "provenance": "November GEETHA register reviewed 20 November. Earlier media bulletins retained as historical source accounts.",
+      "classificationNote": "One daily regional record. Counts are not additive or a tally of independently verified flights or attacks. No engagement or shoot-down established.",
+      "reported_UAVs": 5,
+      "reported_airspace_violations": 6,
+      "reported_FIR_infractions": 6,
+      "sourceReferences": "[U261][U261]; [U262][U262]; [U401][U401]",
       "sources": [
         "U261",
-        "U262"
+        "U262",
+        "U401"
       ],
       "page": "events/2026-11-08-aegean-8-november-greek-reported-turkish-uav-activity/"
     },
@@ -9107,11 +9111,11 @@ window.DRONE_DATA = {
       "recordType": "reported_foreign_uav_activity",
       "startDate": "2026-11-09",
       "dateLabel": "9 November 2026",
-      "dateBasis": "Greek daily table explicitly dated 9 November; individual sortie times not supplied.",
+      "dateBasis": "9 November activity; primary monthly register checked 20 November alongside the earlier reproduced daily bulletin.",
       "countries": "Greece",
       "location": "Central and southeastern Aegean; precise tracks unpublished.",
       "status": "Greek-authority-reported Turkish UAV airspace violations",
-      "categories": "2 reported national-airspace violations and 5 UAV FIR infringements involving 5 UAVs",
+      "categories": "UAVs in Greek daily register; combined violations not allocated by aircraft type",
       "category": "flight",
       "stages": [
         "flight"
@@ -9125,24 +9129,23 @@ window.DRONE_DATA = {
         }
       ],
       "positionNote": "Editorial regional anchor, not a verified crossing point or flight track. Overlapping records are not shifted.",
-      "vehicle": "Five Turkish UAVs in the Greek account; models unspecified.",
+      "vehicle": "5 Turkish UAVs listed by GEETHA; models unspecified.",
       "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities. The Greek-Turkish airspace dispute remains relevant.",
       "route": "Regional scope only; no independently verified approach tracks.",
-      "circumstances": "Greek daily figures assign two national-airspace violations and five FIR infringements to five UAVs. Two additional FIR infringements involve an ATR-72, not a drone.",
+      "circumstances": "The primary GEETHA monthly register lists 5 UAVs and one ATR-72, with 7 combined FIR infringements and 3 combined national-airspace violations. The register does not allocate the mixed totals by aircraft type. The earlier reproduced daily bulletin allocated 5 FIR infringements and 2 national-airspace violations to 5 UAVs.",
       "payload": "UAV payloads unknown; daily report lists no armed aircraft.",
       "impact": "No casualties, damage or crashes reported.",
       "response": "Identification and routine interception reported; no engagements or shoot-downs reported.",
-      "uncertainty": "Two outlets reproduce the same Greek account, not independent observations. Direct GEETHA bulletin unavailable. Exact tracks, models and missions remain unknown; the Greek-Turkish airspace dispute remains relevant.",
+      "uncertainty": "The reason for the discrepancy is not stated. Primary register and earlier reporting are Greek-authority accounts, not independent tracks. Exact routes, models and intent remain unknown; the Greek–Turkish airspace dispute remains relevant.",
       "deduplication": "One daily regional record. Separate from previous dated Greek records; UAVs, violations and FIR infringements are non-additive.",
-      "provenance": "Newsit and OnAlert bodies and tables directly reviewed 10 November. Same underlying GEETHA account; official site inaccessible.",
-      "classificationNote": "Flight only; routine interception is not weapons engagement.",
+      "provenance": "November GEETHA register reviewed 20 November. Earlier media bulletins retained as historical source accounts.",
+      "classificationNote": "One daily regional record. Counts are not additive or a tally of independently verified flights or attacks. No engagement or shoot-down established.",
       "reported_UAVs": 5,
-      "reported_airspace_violations": 2,
-      "reported_FIR_infractions": 5,
-      "sourceReferences": "[U265][U265]; [U266][U266]",
+      "sourceReferences": "[U265][U265]; [U266][U266]; [U401][U401]",
       "sources": [
         "U265",
-        "U266"
+        "U266",
+        "U401"
       ],
       "page": "events/2026-11-09-aegean-9-november-greek-reported-turkish-uav-activity/"
     },
@@ -9809,6 +9812,51 @@ window.DRONE_DATA = {
       "page": "events/2026-11-14-15-ali-najafov-reported-drone-hit-sulina-romania/"
     },
     {
+      "id": "N183",
+      "title": "Aegean · 14 November reported Turkish UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-11-14",
+      "dateLabel": "2026-11-14",
+      "dateBasis": "14 November 2026 activity in Greek local time; November register reviewed 20 November.",
+      "countries": "Greece",
+      "location": "Southeastern Aegean; reported Greek national airspace and Athens FIR.",
+      "status": "Reported Greek-authority daily figures for Turkish UAV airspace activity",
+      "categories": "Reported national-airspace violations and separate Athens FIR infringements",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 37.5,
+          "lng": 26.0,
+          "precision": "region",
+          "label": "Aegean — broad regional reference"
+        }
+      ],
+      "positionNote": "Broad regional display anchor, not a verified aircraft location or flight path.",
+      "vehicle": "2 Turkish UAVs in the Greek register; no manned aircraft listed.",
+      "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities; the Greek–Turkish airspace dispute remains relevant.",
+      "route": "No established track.",
+      "circumstances": "GEETHA lists 2 UAVs, 1 national-airspace violations and 2 distinct Athens FIR infringements in a UAV-only row.",
+      "payload": "Not reported.",
+      "impact": "No casualties or damage reported in the daily register.",
+      "response": "No engagement or overflight listed in the daily register.",
+      "uncertainty": "Official aggregate, not independently verified flight tracks. Locations, models and intended targets are not established.",
+      "deduplication": "One dated regional daily record. Aircraft, national-airspace violations and FIR infringements are separate, non-additive measures.",
+      "provenance": "Primary GEETHA November monthly register read 20 November.",
+      "classificationNote": "Daily regional flight record, not an attack, crash or shoot-down.",
+      "reported_UAVs": 2,
+      "reported_airspace_violations": 1,
+      "reported_FIR_infractions": 2,
+      "sourceReferences": "[U401][U401]",
+      "sources": [
+        "U401"
+      ],
+      "page": "events/2026-11-14-aegean-reported-turkish-uav-activity-greece/"
+    },
+    {
       "id": "N169",
       "title": "Northern/eastern Tulcea · 15 November afternoon warning",
       "recordClass": "event",
@@ -9939,6 +9987,51 @@ window.DRONE_DATA = {
         "U344"
       ],
       "page": "events/2026-11-15-drifting-aerial-drone-east-chituc-black-sea/"
+    },
+    {
+      "id": "N184",
+      "title": "Aegean · 15 November reported Turkish UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-11-15",
+      "dateLabel": "2026-11-15",
+      "dateBasis": "15 November 2026 activity in Greek local time; November register reviewed 20 November.",
+      "countries": "Greece",
+      "location": "Central and southeastern Aegean; reported Greek national airspace and Athens FIR.",
+      "status": "Reported Greek-authority daily figures for Turkish UAV airspace activity",
+      "categories": "Reported national-airspace violations and separate Athens FIR infringements",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 37.5,
+          "lng": 26.0,
+          "precision": "region",
+          "label": "Aegean — broad regional reference"
+        }
+      ],
+      "positionNote": "Broad regional display anchor, not a verified aircraft location or flight path.",
+      "vehicle": "3 Turkish UAVs in the Greek register; no manned aircraft listed.",
+      "attribution": "Turkish military attribution and national-airspace assessment are those of Greek authorities; the Greek–Turkish airspace dispute remains relevant.",
+      "route": "No established track.",
+      "circumstances": "GEETHA lists 3 UAVs, 4 national-airspace violations and 4 distinct Athens FIR infringements in a UAV-only row.",
+      "payload": "Not reported.",
+      "impact": "No casualties or damage reported in the daily register.",
+      "response": "No engagement or overflight listed in the daily register.",
+      "uncertainty": "Official aggregate, not independently verified flight tracks. Locations, models and intended targets are not established.",
+      "deduplication": "One dated regional daily record. Aircraft, national-airspace violations and FIR infringements are separate, non-additive measures.",
+      "provenance": "Primary GEETHA November monthly register read 20 November.",
+      "classificationNote": "Daily regional flight record, not an attack, crash or shoot-down.",
+      "reported_UAVs": 3,
+      "reported_airspace_violations": 4,
+      "reported_FIR_infractions": 4,
+      "sourceReferences": "[U401][U401]",
+      "sources": [
+        "U401"
+      ],
+      "page": "events/2026-11-15-aegean-reported-turkish-uav-activity-greece/"
     },
     {
       "id": "N175",
@@ -10106,19 +10199,20 @@ window.DRONE_DATA = {
       "circumstances": "ANR says a September drone strike in Ukrainian territorial waters left the vessel anchored. Its anchor broke on 14 November. Currents carried it into Romanian waters, where MRCC monitored it. It grounded at Vadu on 16 November before towing could begin.",
       "payload": "No new drone or explosive payload reported in the Romanian grounding.",
       "impact": "Vessel grounded and became a navigation hazard. No new casualties reported in Romania; September attack casualties are not counted here.",
-      "response": "Navigation warning issued. SAR ARTEMIS found the ship already grounded on 16 November. The owner contracted COREMAR for refloating. On 19 November, ProTV observed the ship begin moving during the recovery operation; Replica Online subsequently reported that two tugs pulled it clear of the grounding area.",
-      "uncertainty": "Exact Romanian entry time and complete drift track unknown. The 19 November press accounts do not establish final berth, salvage disposition or environmental outcome. The shoreline video shows aftermath, not a strike.",
+      "response": "Navigation warning issued. SAR ARTEMIS found the ship already grounded on 16 November. The owner contracted COREMAR for refloating. On 19 November, ProTV observed the ship begin moving during the recovery operation; Replica Online subsequently reported that two tugs pulled it clear of the grounding area. Later on 19 November, ProTV reported that it moved about 100 metres before grounding again on another sandbar. The ship agent said the stern remained on sand. The vessel was anchored and salvage paused around nightfall.",
+      "uncertainty": "Exact Romanian entry time and complete drift track unknown. The later 19 November report describes a pause, not salvage completion; any restart was weather-dependent. Final berth and environmental outcome remain unverified. Shoreline video shows aftermath, not a strike.",
       "deduplication": "One Romanian drift-and-grounding occurrence. The September Ukrainian attack is background, not an additional EU strike. Later salvage or condition reports update this record.",
-      "provenance": "Added 18 November from ARN176, ANR/ARSVOM reporting and user-shared video. Promoted from watchlist after explicit inclusion of the vessel’s arrival in Romanian waters. Full ProTV and Replica Online recovery reports read 19 November; no separate authority or salvor completion statement located.",
+      "provenance": "Added 18 November from ARN176, ANR/ARSVOM reporting and user-shared video. Promoted from watchlist after explicit inclusion of the vessel’s arrival in Romanian waters. Full ProTV and Replica Online recovery reports read 19 November; no separate authority or salvor completion statement located. Evening ProTV follow-up read 20 November; it supersedes any implication that the first pull completed salvage.",
       "classificationNote": "Alert / other (gray): drone-related maritime aftermath within Romania. Not classified as a strike, drone crash or fresh drone incursion.",
-      "sourceReferences": "[U379][U379]; [U380][U380]; [U381][U381]; [U382][U382]; [U390][U390]; [U391][U391]",
+      "sourceReferences": "[U379][U379]; [U380][U380]; [U381][U381]; [U382][U382]; [U390][U390]; [U391][U391]; [U396][U396]",
       "sources": [
         "U379",
         "U380",
         "U381",
         "U382",
         "U390",
-        "U391"
+        "U391",
+        "U396"
       ],
       "page": "events/2026-11-16-mariam-m-drifts-ashore-vadu-romania/"
     },
@@ -10396,16 +10490,17 @@ window.DRONE_DATA = {
       "importAction": "KEEP_CONTEXT",
       "countries": "Cyprus",
       "dateLabel": "2026-01-01–2026-02-28; submission reported 2026-03-30",
-      "vehicle": "Cyprus reported 305 mixed airspace/FIR violations, including 81 involving Turkish military UAVs.",
-      "deduplication": "Cypriot allegation circulated to the UN, not a UN verification. Drone-specific dates/tracks in annex S/2026/240 were not individually extracted here. Do not count 305 as drones or 81 as 81 independently verified sovereign-airspace entries.",
-      "sourceReferences": "[C01][C01]; [C02][C02]",
+      "vehicle": "Cyprus alleged 305 mixed airspace/FIR violations, including 81 involving Turkish military UAVs. Its annexes give 37 UAV-related entries in January and 44 in February.",
+      "deduplication": "Non-additive figures. Do not count 305 as drones or 81 as independently verified individual incursions or unique aircraft.",
+      "sourceReferences": "[C01][C01]; [C02][C02]; [U400][U400]",
       "sources": [
         "C01",
-        "C02"
+        "C02",
+        "U400"
       ],
       "status": "Aggregate / pattern context",
-      "attribution": "",
-      "uncertainty": "",
+      "attribution": "Turkish military involvement alleged by Cyprus’s permanent representative in S/2026/240.",
+      "uncertainty": "Monthly aircraft-type rows allege FIR and sovereign-airspace entry but give no individual UAV dates, tracks or airframe identifiers. UN circulation is not verification.",
       "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md"
     },
     {
@@ -10447,12 +10542,13 @@ window.DRONE_DATA = {
       "dateBasis": "June–July activity; Cypriot letter dated 29 September and circulated at the UN on 2 October.",
       "vehicle": "Cyprus alleged 626 mixed airspace/FIR violations, including 203 involving Turkish military UAVs; another 33 maritime violations were reported separately.",
       "status": "Cypriot aggregate allegations — NOT additive or independently UN verified",
-      "attribution": "Turkish military involvement as alleged by Cyprus's permanent representative; circulation by the UN is not UN verification.",
-      "uncertainty": "Underlying individual annex entries were not obtained or extracted. The mixed airspace/FIR categories do not establish 203 distinct UAVs or 203 independently verified sovereign-airspace incursions.",
+      "attribution": "Turkish military involvement as alleged by Cyprus's permanent representative; circulation by the UN is not UN verification. In a 2 November letter transmitted by Türkiye, Turkish Cypriot representative Murat Soysal rejected Cyprus’s airspace and jurisdiction allegations.",
+      "uncertainty": "Underlying individual annex entries were not obtained or extracted. The mixed airspace/FIR categories do not establish 203 distinct UAVs or 203 independently verified sovereign-airspace incursions. The rebuttal does not give an incident-by-incident account of the UAV tally.",
       "deduplication": "Different period from NA002; may overlap NA003. These mixed-category totals are not additional drone events. October publication does not date the flights to October.",
-      "sourceReferences": "[U090][U090]",
+      "sourceReferences": "[U090][U090]; [U399][U399]",
       "sources": [
-        "U090"
+        "U090",
+        "U399"
       ],
       "provenance": "Added from the CNA report published 12 October and read 19 October 2026."
     },
@@ -10460,7 +10556,7 @@ window.DRONE_DATA = {
       "id": "NA006",
       "countries": "Cyprus",
       "dateLabel": "2026-03-01–2026-05-31; reported 2026-06-25",
-      "vehicle": "Cyprus alleged 520 mixed aerial violations, including 103 UAV-related;23 naval violations reported separately.",
+      "vehicle": "Cyprus alleged 520 mixed aerial violations, including 103 UAV-related; 23 naval violations reported separately.",
       "status": "Cypriot aggregate allegations — NOT additive or independently UN verified",
       "attribution": "Turkish military involvement as alleged by Cyprus; reporting the complaint is not independent verification.",
       "uncertainty": "Original letter and individual annex entries not obtained. Mixed sovereign-airspace/FIR figures do not establish 103 distinct UAVs or 103 independently verified sovereign-airspace entries.",
@@ -14526,6 +14622,54 @@ window.DRONE_DATA = {
       "url": "https://www.thestar.com.my/news/world/2026/11/18/lpg-tanker-that-sank-off-bulgaria-on-tuesday-was-hit-by-projectiles-official-says",
       "dateLabel": "18 November 2026, 18:41 MYT (10:41 UTC) republication",
       "audit": "Reuters dispatch read 19 November via The Star. Governor reiterates four impacts; two unnamed maritime-security sources attribute an unmanned-system strike. Drone type/operator unspecified. Sinking wording carries no newer observation timestamp resolving earlier status reports."
+    },
+    "U396": {
+      "id": "U396",
+      "publisher": "Știrile ProTV",
+      "title": "MARIAM M grounded again after initial movement",
+      "url": "https://stirileprotv.ro/stiri/actualitate/nava-mariam-m-blocata-din-nou-in-nisip-dupa-ce-a-fost-mutata-100-de-metri-operatiunea-de-dezesuare-a-fost-suspendata.html",
+      "dateLabel": "19 November 2026, 19:21 EET",
+      "audit": "On-site follow-up read 20 November. Reports about 100 metres of movement, re-grounding and suspension around nightfall; quotes the ship agent on the stern remaining on sand. Possible restart was conditional, not completion."
+    },
+    "U397": {
+      "id": "U397",
+      "publisher": "United Nations Security Council, recording Romanian President Nicușor Dan",
+      "title": "Maintenance of peace and security of Ukraine, S/PV.10227, p. 29",
+      "url": "https://digitallibrary.un.org/record/4130200/files/S_PV.10227-EN.pdf#page=29",
+      "dateLabel": "23 September 2026 meeting",
+      "audit": "Official verbatim record identifies Dan and explicitly attributes the 20 August Neptun Deep sea drone to the Russian Navy. Records a presidential attribution, not a UN or forensic finding; no model, launch point or intended target established."
+    },
+    "U398": {
+      "id": "U398",
+      "publisher": "Permanent Representative of Romania to the United Nations",
+      "title": "Romanian letter on the Galați apartment-block impact, S/2026/447",
+      "url": "https://digitallibrary.un.org/record/4115242?v=pdf",
+      "dateLabel": "29 May 2026 letter",
+      "audit": "Primary English text read via UN archive. Romania reported radar-tracked entry by a Russian explosive-carrying drone, roof impact, fire, two injuries and evacuation. It does not specify model, payload weight or deliberate targeting of Romania."
+    },
+    "U399": {
+      "id": "U399",
+      "publisher": "Permanent Representative of Türkiye to the United Nations, transmitting Murat Soysal’s response",
+      "title": "Response to Cyprus’s September letter, A/81/476–S/2026/881",
+      "url": "https://www.tanea.gr/app/uploads/2026/11/n2628770.pdf#page=2",
+      "dateLabel": "2 November 2026 letter; circulated 4 November",
+      "audit": "Full primary document read in Ta Nea mirror. Explicitly answers A/81/406–S/2026/772 and rejects Cyprus’s airspace and jurisdiction claims. Does not provide incident-by-incident UAV evidence or a numerical rebuttal."
+    },
+    "U400": {
+      "id": "U400",
+      "publisher": "Permanent Representative of Cyprus to the United Nations",
+      "title": "Cyprus January–February submissions and annexes, A/80/688–S/2026/240",
+      "url": "https://digitallibrary.un.org/record/4108289",
+      "dateLabel": "27 March 2026 letter",
+      "audit": "Primary annexes I and II give monthly aircraft-type totals. UAV rows sum to 37 in January and 44 in February, matching 81 in the cover letter. Rows allege FIR and national-airspace entry, with no individually timed or tracked UAV sorties."
+    },
+    "U401": {
+      "id": "U401",
+      "publisher": "Hellenic National Defence General Staff (GEETHA)",
+      "title": "November daily register: historical row review for 5–15 November",
+      "url": "https://geetha.mil.gr/noemvrios-2026-stoicheia-ana-imera-paraviaseon-eech-kai-paravaseon-kek-icao/",
+      "dateLabel": "November 2026 register; rows 5–15 reviewed 20 November",
+      "audit": "Primary HTML table and separate UAV, total, FIR and national-airspace columns read. UAV-only rows: November 5 five/8/17; 7 eight/10/8; 8 five/6/6; 14 two/2/1; 15 three/4/4 (UAV/FIR/airspace). Mixed rows: November 6 ten UAVs and one ATR-72 with 15 FIR and 23 national-airspace violations; November 9 five UAVs and one ATR-72 with seven FIR and three national-airspace violations. Mixed totals do not allocate by aircraft type."
     }
   },
   "cutoff": "2026-11-18",

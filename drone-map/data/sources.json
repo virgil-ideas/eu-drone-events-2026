@@ -4019,5 +4019,53 @@
     "url": "https://www.thestar.com.my/news/world/2026/11/18/lpg-tanker-that-sank-off-bulgaria-on-tuesday-was-hit-by-projectiles-official-says",
     "dateLabel": "18 November 2026, 18:41 MYT (10:41 UTC) republication",
     "audit": "Reuters dispatch read 19 November via The Star. Governor reiterates four impacts; two unnamed maritime-security sources attribute an unmanned-system strike. Drone type/operator unspecified. Sinking wording carries no newer observation timestamp resolving earlier status reports."
+  },
+  "U396": {
+    "id": "U396",
+    "publisher": "Știrile ProTV",
+    "title": "MARIAM M grounded again after initial movement",
+    "url": "https://stirileprotv.ro/stiri/actualitate/nava-mariam-m-blocata-din-nou-in-nisip-dupa-ce-a-fost-mutata-100-de-metri-operatiunea-de-dezesuare-a-fost-suspendata.html",
+    "dateLabel": "19 November 2026, 19:21 EET",
+    "audit": "On-site follow-up read 20 November. Reports about 100 metres of movement, re-grounding and suspension around nightfall; quotes the ship agent on the stern remaining on sand. Possible restart was conditional, not completion."
+  },
+  "U397": {
+    "id": "U397",
+    "publisher": "United Nations Security Council, recording Romanian President Nicușor Dan",
+    "title": "Maintenance of peace and security of Ukraine, S/PV.10227, p. 29",
+    "url": "https://digitallibrary.un.org/record/4130200/files/S_PV.10227-EN.pdf#page=29",
+    "dateLabel": "23 September 2026 meeting",
+    "audit": "Official verbatim record identifies Dan and explicitly attributes the 20 August Neptun Deep sea drone to the Russian Navy. Records a presidential attribution, not a UN or forensic finding; no model, launch point or intended target established."
+  },
+  "U398": {
+    "id": "U398",
+    "publisher": "Permanent Representative of Romania to the United Nations",
+    "title": "Romanian letter on the Galați apartment-block impact, S/2026/447",
+    "url": "https://digitallibrary.un.org/record/4115242?v=pdf",
+    "dateLabel": "29 May 2026 letter",
+    "audit": "Primary English text read via UN archive. Romania reported radar-tracked entry by a Russian explosive-carrying drone, roof impact, fire, two injuries and evacuation. It does not specify model, payload weight or deliberate targeting of Romania."
+  },
+  "U399": {
+    "id": "U399",
+    "publisher": "Permanent Representative of Türkiye to the United Nations, transmitting Murat Soysal’s response",
+    "title": "Response to Cyprus’s September letter, A/81/476–S/2026/881",
+    "url": "https://www.tanea.gr/app/uploads/2026/11/n2628770.pdf#page=2",
+    "dateLabel": "2 November 2026 letter; circulated 4 November",
+    "audit": "Full primary document read in Ta Nea mirror. Explicitly answers A/81/406–S/2026/772 and rejects Cyprus’s airspace and jurisdiction claims. Does not provide incident-by-incident UAV evidence or a numerical rebuttal."
+  },
+  "U400": {
+    "id": "U400",
+    "publisher": "Permanent Representative of Cyprus to the United Nations",
+    "title": "Cyprus January–February submissions and annexes, A/80/688–S/2026/240",
+    "url": "https://digitallibrary.un.org/record/4108289",
+    "dateLabel": "27 March 2026 letter",
+    "audit": "Primary annexes I and II give monthly aircraft-type totals. UAV rows sum to 37 in January and 44 in February, matching 81 in the cover letter. Rows allege FIR and national-airspace entry, with no individually timed or tracked UAV sorties."
+  },
+  "U401": {
+    "id": "U401",
+    "publisher": "Hellenic National Defence General Staff (GEETHA)",
+    "title": "November daily register: historical row review for 5–15 November",
+    "url": "https://geetha.mil.gr/noemvrios-2026-stoicheia-ana-imera-paraviaseon-eech-kai-paravaseon-kek-icao/",
+    "dateLabel": "November 2026 register; rows 5–15 reviewed 20 November",
+    "audit": "Primary HTML table and separate UAV, total, FIR and national-airspace columns read. UAV-only rows: November 5 five/8/17; 7 eight/10/8; 8 five/6/6; 14 two/2/1; 15 three/4/4 (UAV/FIR/airspace). Mixed rows: November 6 ten UAVs and one ATR-72 with 15 FIR and 23 national-airspace violations; November 9 five UAVs and one ATR-72 with seven FIR and three national-airspace violations. Mixed totals do not allocate by aircraft type."
   }
 }
