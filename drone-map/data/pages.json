@@ -1744,15 +1744,15 @@
   },
   "N112": {
     "slug": "2026-10-23-khoryv-drone-strike-constanta-romania",
-    "headline": "KHORYV drone-strike report: partially submerged wreck remains hazardous",
-    "description": "KHORYV was reported hit offshore on 23 October. One dead and three missing were reported; later accounts describe a partially submerged navigation hazard.",
+    "headline": "KHORYV drone-strike report: Navy survey finds wreck fully submerged",
+    "description": "KHORYV was reportedly hit offshore on 23 October. A 19 November naval survey reportedly found the wreck fully submerged. The final search outcome is unknown.",
     "summary": [
-      "KHORYV was reported hit by a drone and caught fire offshore from Constanța on 23 October before capsizing. NAVWARN 766/26 describes the dated 28 October 18:00 UTC observation of a capsized, semi-submerged drifting wreck. On 29 October bTV, citing the Bulgarian defence ministry, reported partial submergence and continuing danger; Maritime.bg later reported the stern grounded and the bow still visible in a new 1 November update. Completed total sinking is not established. These later wreck observations do not relocate the original offshore strike.",
+      "KHORYV was reported hit by a drone and caught fire offshore from Constanța on 23 October before capsizing. NAVWARN 766/26 describes the dated 28 October 18:00 UTC observation of a capsized, semi-submerged drifting wreck. On 29 October bTV, citing the Bulgarian defence ministry, reported partial submergence and continuing danger; Maritime.bg later reported the stern grounded and the bow still visible in a new 1 November update. Maritime.bg, citing confirmation from the Bulgarian Defence Ministry press office, reported a 19 November naval survey found the wreck fully submerged off Shabla, under about 50 metres of water. The precise sinking time and cancellation of the earlier warning were not verified. These later wreck observations do not relocate the original offshore strike.",
       "Romania reports thirteen crew: nine rescued, one dead and three missing. Ukraine confirms a Ukrainian fatality but reports fourteen crew; the discrepancy remains unresolved. The notices give dated capsize and subsequent drifting-wreck positions, not a verified strike coordinate. Operator attribution and the final search outcome remain unresolved.",
       "Bulgaria announced monitoring and a planned naval inspection on 27 October. The next morning its defence minister said the wreck was entering Bulgarian territorial sea. These are later drifting-wreck reports, not a new attack or a change to the original offshore strike location.",
       "bTV reported Reshitelni on scene and operations paused for bad weather; Maritime.bg described scuttling attempts. These remain follow-ups to the same occurrence, not a new attack or resolution of the missing-person outcome."
     ],
-    "basis": "b836a19fd87d4a52"
+    "basis": "82603584c2812774"
   },
   "N113": {
     "slug": "2026-10-21-turkish-uav-activity-aegean-greece",
@@ -2293,9 +2293,10 @@
     "description": "All 12 BETUL 8 crew were rescued after capsizing in Bulgaria’s EEZ on 16 November. A sea-drone attack claim remains unconfirmed.",
     "summary": [
       "Bulgarian authorities confirmed that BETUL 8 capsized in the country’s exclusive economic zone on 16 November. All 12 crew were evacuated; the ministry reported no serious injuries.",
-      "BNR quoted one rescued sailor alleging an attack by two sea drones. Authorities had not confirmed that cause in the statements reviewed. The offshore casualty is retained as a candidate, not a confirmed drone strike or territorial incursion."
+      "BNR quoted one rescued sailor alleging an attack by two sea drones. Authorities had not confirmed that cause in the statements reviewed. The offshore casualty is retained as a candidate, not a confirmed drone strike or territorial incursion.",
+      "Bulgarian NAVWARN 860/26 gives a later observation at 14:45 UTC on 19 November: the vessel was capsized and drifting without crew or control. This is not a final-condition or cause determination."
     ],
-    "basis": "4c2f1a89cb5e5815"
+    "basis": "e021f4cf461d7b13"
   },
   "N176": {
     "slug": "2026-11-16-aegean-16-november-reported-turkish-uav-activity-greece",
@@ -2317,9 +2318,10 @@
       "Manager Stealth Maritime says the vessel was struck early on 17 November in Bulgaria’s EEZ, but does not specify what struck it and says its condition was unknown at the time. Its statement, reproduced by Naftemporiki, confirms LPG loaded at Alexandria for Midia.",
       "A later Maritime.bg report attributes a combined surface- and aerial-drone attack to an unnamed source at the management company. This remains an unconfirmed account; the manager’s public statement does not specify a mechanism.",
       "On 18 November, Varna governor Mario Smurkov told bTV that there had been four impacts, but sailors’ accounts conflicted and drone types remained unconfirmed. He said the vessels had not yet sunk and no pollution had been detected at that time. Four impacts do not establish four independently verified drones.",
-      "Reuters reported on 18 November that two unnamed maritime-security sources attributed the strike to an unmanned system. It repeated the governor’s four-impact account without establishing drone type or operator. Reuters described the ship as sunk but provided no newer observation time to resolve the earlier condition reports."
+      "Reuters reported on 18 November that two unnamed maritime-security sources attributed the strike to an unmanned system. It repeated the governor’s four-impact account without establishing drone type or operator. Reuters described the ship as sunk but provided no newer observation time to resolve the earlier condition reports.",
+      "Bulgarian NAVWARN 858/26 gives a later observation at 13:30 UTC on 19 November: the vessel was listing about 45 degrees, bridge submerged, drifting without crew or control. This is not a final-condition or cause determination."
     ],
-    "basis": "7c59ffd5a4aa1699"
+    "basis": "9c79a52db54bd1cc"
   },
   "N179": {
     "slug": "2026-11-17-aegean-reported-turkish-uav-activity-greece",
@@ -2431,5 +2433,36 @@
       "The register reports 4 national-airspace violations and 4 separate Athens FIR infringements. These are Greek-authority figures, not independently verified tracks, unique event counts or attacks. No engagement was listed."
     ],
     "basis": "86bf7a8ace460d82"
+  },
+  "N185": {
+    "slug": "2026-11-20-molodycz-likely-drone-debris-poland",
+    "headline": "Likely drone debris found at Mołodycz after Polish airspace breach",
+    "description": "Poland confirmed three objects entered on 20 November. Mołodycz debris was provisionally identified as likely from a drone. No casualties were reported.",
+    "summary": [
+      "Poland’s National Security Bureau confirmed that three objects entered Polish airspace on 20 November. Authorities preliminarily identified the debris near Mołodycz as likely from a jet-powered drone. This page covers the Mołodycz object, not a count of drones in the broader breach.",
+      "Nowy Lipowiec was identified as a cruise missile. Rudnik nad Sanem is a separate case with conflicting provisional missile and drone assessments. Prime Minister Donald Tusk attributed the objects to Russia and reported no casualties or damage. The intended target is not established.",
+      "Military prosecutors began investigative work at all three sites. The regional office said the precise fall time and final type of the Mołodycz object remain under investigation."
+    ],
+    "basis": "c2f41808fbb2082f"
+  },
+  "N186": {
+    "slug": "2026-11-20-aegean-reported-turkish-uav-activity-greece",
+    "headline": "Aegean · 20 November reported Turkish UAV activity",
+    "description": "Greek authorities reported three Turkish UAVs and three national-airspace violations on 20 November. Separate FIR figures are not incident counts.",
+    "summary": [
+      "OnAlert reproduces Greek General Staff figures for the southeastern Aegean on 20 November: three Turkish UAVs, three UAV national-airspace violations and three separate UAV Athens FIR infringements. One manned ATR-72 accounted for another two FIR infringements.",
+      "These are attributed Greek-authority daily figures, not independent flight tracks or three separate mapped incidents. The primary monthly register row was not independently verified."
+    ],
+    "basis": "0fcc4ee8e0f594c1"
+  },
+  "N187": {
+    "slug": "2026-11-20-rudnik-nad-sanem-disputed-object-poland",
+    "headline": "Object fell near Rudnik nad Sanem; drone and missile assessments differ",
+    "description": "Poland confirmed a breach on 20 November. Officials initially assessed a probable missile at Rudnik nad Sanem, but the governor later reported a UAV.",
+    "summary": [
+      "Poland confirmed three objects entered its airspace on 20 November, one of which fell near Rudnik nad Sanem. The National Security Bureau initially assessed this object as a probable missile.",
+      "Later that day, Podkarpackie governor Teresa Kubas-Hul described it as an unmanned aircraft in remarks reported by RMF24. Investigators had not conclusively established the type at review. This is a separate provisional case within the same wider breach as Mołodycz, not a confirmed drone attack."
+    ],
+    "basis": "1c9541c490d26fec"
   }
 }

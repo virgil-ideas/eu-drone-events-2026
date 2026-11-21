@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://droneincidents.eu/</loc><lastmod>2026-11-18</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/</loc><lastmod>2026-11-18</lastmod></url>
+  <url><loc>https://droneincidents.eu/</loc><lastmod>2026-11-20</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/</loc><lastmod>2026-11-20</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-01-18-possible-aerial-fragments-tanasoaia-romania/</loc><lastmod>2026-11-15</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-01-27-smuggling-drone-purvenai-salcininkai-lithuania/</loc></url>
   <url><loc>https://droneincidents.eu/events/2026-01-28-small-drone-falls-przasnysz-military-base-poland/</loc></url>
@@ -179,7 +179,7 @@
   <url><loc>https://droneincidents.eu/events/2026-10-21-lubaczow-foam-drone-discovery-poland/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-21-popski-beach-tsarevo-unidentified-uav-fragments-bulgaria/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-22-turkish-uav-activity-aegean-greece/</loc><lastmod>2026-10-23</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/2026-10-23-khoryv-drone-strike-constanta-romania/</loc><lastmod>2026-11-02</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-10-23-khoryv-drone-strike-constanta-romania/</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-23-turkish-uav-activity-aegean-greece/</loc><lastmod>2026-10-24</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-24-foreign-uav-discovery-liepna-latvia/</loc><lastmod>2026-10-30</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-10-24-turkish-uav-activity-aegean-greece/</loc><lastmod>2026-10-26</lastmod></url>
@@ -227,11 +227,14 @@
   <url><loc>https://droneincidents.eu/events/2026-11-15-drifting-aerial-drone-east-mangalia-black-sea/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-15-drifting-aerial-drone-east-chituc-black-sea/</loc><lastmod>2026-11-17</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-15-aegean-reported-turkish-uav-activity-greece/</loc><lastmod>2026-11-20</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/2026-11-16-betul-8-capsizing-unconfirmed-sea-drone-claim-bulgaria/</loc><lastmod>2026-11-17</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-16-betul-8-capsizing-unconfirmed-sea-drone-claim-bulgaria/</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-16-aegean-16-november-reported-turkish-uav-activity-greece/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-16-17-northern-tulcea-alert-no-airspace-entry-romania/</loc><lastmod>2026-11-18</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-16-mariam-m-drifts-ashore-vadu-romania/</loc><lastmod>2026-11-20</lastmod></url>
-  <url><loc>https://droneincidents.eu/events/2026-11-17-gas-husky-offshore-casualty-unconfirmed-drone-claim-bulgaria/</loc><lastmod>2026-11-19</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-17-gas-husky-offshore-casualty-unconfirmed-drone-claim-bulgaria/</loc><lastmod>2026-11-21</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-17-aegean-reported-turkish-uav-activity-greece/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://droneincidents.eu/events/2026-11-18-aegean-reported-turkish-uav-activity-greece/</loc><lastmod>2026-11-19</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-20-molodycz-likely-drone-debris-poland/</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-20-aegean-reported-turkish-uav-activity-greece/</loc><lastmod>2026-11-21</lastmod></url>
+  <url><loc>https://droneincidents.eu/events/2026-11-20-rudnik-nad-sanem-disputed-object-poland/</loc><lastmod>2026-11-21</lastmod></url>
 </urlset>

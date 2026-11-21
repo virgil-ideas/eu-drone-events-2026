@@ -4067,5 +4067,93 @@
     "url": "https://geetha.mil.gr/noemvrios-2026-stoicheia-ana-imera-paraviaseon-eech-kai-paravaseon-kek-icao/",
     "dateLabel": "November 2026 register; rows 5–15 reviewed 20 November",
     "audit": "Primary HTML table and separate UAV, total, FIR and national-airspace columns read. UAV-only rows: November 5 five/8/17; 7 eight/10/8; 8 five/6/6; 14 two/2/1; 15 three/4/4 (UAV/FIR/airspace). Mixed rows: November 6 ten UAVs and one ATR-72 with 15 FIR and 23 national-airspace violations; November 9 five UAVs and one ATR-72 with seven FIR and three national-airspace violations. Mixed totals do not allocate by aircraft type."
+  },
+  "U402": {
+    "id": "U402",
+    "publisher": "Poland’s National Security Bureau (BBN)",
+    "title": "Comment on the 20 November Polish airspace breach",
+    "url": "https://www.bbn.gov.pl/pl/wydarzenia/10584,Naruszenie-polskiej-przestrzeni-powietrznej-Komentarz-Szefa-BBN.html",
+    "dateLabel": "20 November 2026",
+    "audit": "Official confirmation of three objects entering Polish airspace. Preliminary object types; Mołodycz likely drone."
+  },
+  "U403": {
+    "id": "U403",
+    "publisher": "Polish Prime Minister’s Office",
+    "title": "Polish airspace breach and the government’s initial findings",
+    "url": "https://www.gov.pl/web/premier/rosyjskie-obiekty-naruszyly-polska-przestrzen-powietrzna-kolejna-odslona-rosyjskiej-eskalacji",
+    "dateLabel": "20 November 2026",
+    "audit": "Initial Mołodycz debris identification. Government origin attribution is not proof of an intended target."
+  },
+  "U404": {
+    "id": "U404",
+    "publisher": "Podkarpackie Provincial Office",
+    "title": "Summary of the response to the Polish airspace breach",
+    "url": "https://rzeszow.uw.gov.pl/aktualnosci/podsumowanie-dzialan-sluzb-po-naruszeniu-polskiej-przestrzeni-powietrznej",
+    "dateLabel": "20 November 2026",
+    "audit": "Regional official account: type and exact Mołodycz fall time not yet confirmed."
+  },
+  "U405": {
+    "id": "U405",
+    "publisher": "Lublin District Prosecutor’s Office",
+    "title": "Investigation update covering all three sites",
+    "url": "https://x.com/Prok_Okreg_Lub/status/2123779094231888300",
+    "dateLabel": "20 November 2026",
+    "audit": "Published via official account; text verified in readable mirror. Records proceedings, not final type identification."
+  },
+  "U406": {
+    "id": "U406",
+    "publisher": "OnAlert, reproducing Greek General Staff daily figures",
+    "title": "Reported 20 November Aegean UAV and manned-aircraft activity",
+    "url": "https://www.onalert.gr/ellinotourkika/i-tourkia-synexizei-tis-paraviaseis-sto-aigaio-me-drones-kai-atr-72/835067/",
+    "dateLabel": "20 November 2026",
+    "audit": "Read daily-source reproduction: three UAV national-airspace violations and three UAV FIR infringements, two additional manned-aircraft FIR infringements. Monthly archive row not independently retrieved."
+  },
+  "U407": {
+    "id": "U407",
+    "publisher": "Maritime.bg, citing Bulgarian Defence Ministry press office",
+    "title": "Navy survey finds KHORYV wreck fully submerged near Shabla",
+    "url": "https://www.maritime.bg/158520/",
+    "dateLabel": "20 November 2026",
+    "audit": "Reports a 19 November Bulgarian Navy survey and says the ministry press office confirmed the finding. Exact time the bow sank is not established."
+  },
+  "U408": {
+    "id": "U408",
+    "publisher": "Bulgarian maritime navigation bulletin (VTMIS)",
+    "title": "NAVWARN 858/26 and 860/26: dated GAS HUSKY and BETUL 8 observations",
+    "url": "https://www.vtmis.bg/wx/wx_eng.htm",
+    "dateLabel": "19 November 2026 observations",
+    "audit": "Primary rotating bulletin read with both warnings. Later drift observations do not provide attack locations or final vessel outcomes."
+  },
+  "U409": {
+    "id": "U409",
+    "publisher": "International Bargaining Forum, published by ITF",
+    "title": "Black Sea High Risk Area, Designation 6 and Chart 3",
+    "url": "https://www.itfseafarers.org/sites/default/files/node/resources/files/IBF%20List%20of%20Designated%20Risk%20Areas%20with%20applicable%20benefits%20%28as%20of%2018th%20November%202026%29%20JNG.pdf#page=9",
+    "dateLabel": "18 November 2026 list",
+    "audit": "Compared actual Designation 6 and Chart 3 with the 29 October list. Do not state a precise expiry because cover and section dates conflict."
+  },
+  "U410": {
+    "id": "U410",
+    "publisher": "Bulgarian Ministry of Defence",
+    "title": "Romania and Bulgaria plan a memorandum on their maritime security partnership",
+    "url": "https://www.mod.bg/news9729",
+    "dateLabel": "20 November 2026",
+    "audit": "The Bulgarian ministry describes the memorandum as expected to be signed. This is not evidence of signature or an operational hub."
+  },
+  "U411": {
+    "id": "U411",
+    "publisher": "Radio România Constanța, citing direct emergency inspectorate (IGSU) response",
+    "title": "Tulcea wartime RO-ALERT totals, 2022–2026",
+    "url": "https://www.radioconstanta.ro/2026/11/19/tulcea-peste-140-de-mesaje-ro-alert-de-la-inceputul-anului-fata-de-50-in-perioada-2022-2025/",
+    "dateLabel": "19 November 2026",
+    "audit": "IGSU direct reply gave 133 conflict-related messages through 8 November. The broadcaster separately counted 12 subsequent authority-reported messages."
+  },
+  "U412": {
+    "id": "U412",
+    "publisher": "RMF24, quoting Podkarpackie governor Teresa Kubas-Hul",
+    "title": "Later governor briefing calls Rudnik nad Sanem object an unmanned aircraft",
+    "url": "https://www.rmf24.pl/regiony/rzeszow/news-drony-czy-rakiety-najnowsze-ustalenia-po-porannych-incydenta,nIdn,1027051",
+    "dateLabel": "20 November 2026 evening",
+    "audit": "Body quotes the governor calling the Rudnik object an unmanned aircraft. Earlier BBN called it a probable missile; no conclusive identification reported."
   }
 }

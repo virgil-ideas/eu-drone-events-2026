@@ -205,15 +205,16 @@
     "vehicle": "No aircraft or incident count.",
     "status": "Planned regional security response — NOT an incident",
     "attribution": "European Commission announcement and deputy prime minister Marian Neacșu interview.",
-    "circumstances": "The Commission announced up to EUR 50 million for a Black Sea Maritime Security Hub, with a joint working group to develop its concept and work plan. Romania and Bulgaria are intended co-hosts, across Constanța and Varna facilities. In his 17 November interview, Neacșu said a building had been identified and projected partial operation around summer 2027 and full operation in early 2028.",
+    "circumstances": "The Commission announced up to EUR 50 million for a Black Sea Maritime Security Hub, with a joint working group to develop its concept and work plan. Romania and Bulgaria are intended co-hosts, across Constanța and Varna facilities. In his 17 November interview, Neacșu said a building had been identified and projected partial operation around summer 2027 and full operation in early 2028. On 20 November Bulgaria’s Defence Ministry said a bilateral memorandum was still due to be signed; no signing date or operational launch was reported.",
     "uncertainty": "Both timetables are prospective, not evidence of an operational system. The Commission’s 2027 objective and Neacșu’s phased milestones are not explicitly reconciled; a confirmed delay cannot be inferred.",
     "deduplication": "Non-additive policy context. Predates 14–15 November Sulina vessel reports; no causal link to those later occurrences or common attacker inferred.",
     "sources": [
       "U323",
       "U324",
-      "U383"
+      "U383",
+      "U410"
     ],
-    "reviewedOn": "2026-11-18"
+    "reviewedOn": "2026-11-21"
   },
   {
     "id": "NA008",
@@ -230,5 +231,35 @@
       "U370"
     ],
     "reviewedOn": "2026-11-18"
+  },
+  {
+    "id": "NA009",
+    "countries": "Romania and Bulgaria (offshore)",
+    "dateLabel": "18 November 2026 IBF list",
+    "vehicle": "Commercial shipping and crews covered by applicable IBF agreements.",
+    "status": "Non-additive maritime safety and labour context",
+    "attribution": "International Bargaining Forum, Designation 6 / Chart 3.",
+    "circumstances": "The revised High Risk Area extends offshore off Romania and Bulgaria, excluding their 12-nautical-mile coastal strip. For covered seafarers, benefits include transit-duration bonus pay and the right to decline passage.",
+    "uncertainty": "Designation is contractual, not a territorial claim, prohibition on navigation, attack count, or finding on any vessel’s fate or attack cause. The list prints inconsistent validity dates; no designation expiry established here.",
+    "deduplication": "Context only. Do not add another incident, infer linkage between vessels, or use this boundary as a strike position.",
+    "sources": [
+      "U409"
+    ],
+    "reviewedOn": "2026-11-21"
+  },
+  {
+    "id": "NA010",
+    "countries": "Romania",
+    "dateLabel": "2022–2025 comparison; 2026 through 19 November report",
+    "vehicle": "Civil protection notifications, not aircraft.",
+    "status": "Non-additive aggregate of wartime phone warnings in Tulcea County",
+    "attribution": "IGSU figures supplied to Radio România Constanța; later split-count by broadcaster.",
+    "circumstances": "IGSU listed 0 in 2022, 10 in 2023, 14 in 2024 and 26 in 2025: 50 across four years. IGSU listed 133 from 1 January through 8 November 2026; the broadcaster found 12 later notices, for at least 145 messages as of its 19 November report.",
+    "uncertainty": "The later combined figure is not a new official full-period total. One episode can generate multiple warnings; an alert does not prove Romanian entry.",
+    "deduplication": "Aggregate context only; not an incident, attack, incursion or aircraft count. Do not add it to mapped alerts.",
+    "sources": [
+      "U411"
+    ],
+    "reviewedOn": "2026-11-21"
   }
 ]
