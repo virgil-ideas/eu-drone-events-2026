@@ -10213,5 +10213,50 @@
       "U412"
     ],
     "reviewedOn": "2026-11-21"
+  },
+  {
+    "id": "N188",
+    "title": "SPARTA II · reported drone strike and Finnish maritime rescue",
+    "recordClass": "event",
+    "recordType": "reported_offshore_drone_strike",
+    "startDate": "2026-11-21",
+    "dateLabel": "21 November 2026",
+    "dateBasis": "Date of the reported strike and first maritime rescue response.",
+    "countries": "Finland (later maritime rescue; strike outside Finnish territorial waters)",
+    "location": "Eastern Gulf of Finland. Finnish accounts differ on whether the strike was in international waters or Russian territorial waters. The damaged ship later drifted into Finnish territorial waters.",
+    "status": "Reported offshore drone strike; crew evacuated; firefighting ongoing at last primary update",
+    "categories": "Reported drone strike on merchant shipping; vessel fire; crew evacuation; maritime rescue",
+    "category": "strike",
+    "stages": [
+      "strike"
+    ],
+    "positions": [
+      {
+        "lat": 60.02,
+        "lng": 26.4,
+        "precision": "offshore",
+        "label": "Eastern Gulf of Finland — broad sea-area reference"
+      }
+    ],
+    "positionNote": "Regional editorial anchor only; not an impact point, vessel position, or route.",
+    "vehicle": "SPARTA II, Russian cargo vessel. Two drones were reported by the Leningrad regional governor; number and type not independently established.",
+    "attribution": "Finnish Defence Forces communications director Aki-Mauri Huhtinen assessed Ukraine was likely responsible. Finnish Border Guard commander Ilja Iljin attributed the strike to Ukrainian drones. The specific operator and reason the vessel was targeted were not independently established.",
+    "route": "No verified drone route or entry into EU territory. The damaged vessel later drifted into Finnish territorial waters.",
+    "circumstances": "Finland’s Defence Forces reported a drone strike in the eastern Gulf of Finland. The damaged ship caught fire and later drifted into Finnish waters.",
+    "payload": "Drone payload and cargo on this voyage were not established.",
+    "impact": "The Finnish Border Guard confirmed completed crew evacuation. Iljin told Yle there were no injuries and the fire was no longer spreading at 18:30 UTC, but it had not been extinguished.",
+    "response": "Finland led the maritime rescue. The crew left in lifeboats and transferred to another cargo vessel. Firefighting continued at the Guard’s 18:55 UTC update, and pollution response was prepared. A tow to the Russian maritime rescue area was planned, not confirmed complete.",
+    "uncertainty": "Finnish military reporting placed the strike in international waters; Iljin separately told Yle it occurred in Russian territorial waters. Neither account places it in Finnish waters. No confirmed final fire, tow or pollution outcome in the cited updates. No established link to separate precautionary alerts or the suspected manned helicopter airspace episode.",
+    "deduplication": "One vessel strike and its subsequent rescue. Neither the ship’s drift nor the crew’s evacuation is a second strike or a drone incursion.",
+    "provenance": "Reviewed 21 November against Finnish Border Guard bulletins, a named commander’s interviews, and Reuters reporting from the Finnish military briefing.",
+    "classificationNote": "Offshore reported strike with subsequent Finnish maritime response, not a verified EU territorial drone incursion.",
+    "sources": [
+      "U413",
+      "U414",
+      "U415",
+      "U416",
+      "U417"
+    ],
+    "reviewedOn": "2026-11-21"
   }
 ]

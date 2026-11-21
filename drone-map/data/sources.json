@@ -4155,5 +4155,45 @@
     "url": "https://www.rmf24.pl/regiony/rzeszow/news-drony-czy-rakiety-najnowsze-ustalenia-po-porannych-incydenta,nIdn,1027051",
     "dateLabel": "20 November 2026 evening",
     "audit": "Body quotes the governor calling the Rudnik object an unmanned aircraft. Earlier BBN called it a probable missile; no conclusive identification reported."
+  },
+  "U413": {
+    "id": "U413",
+    "publisher": "Finnish Border Guard",
+    "title": "The Finnish Border Guard continues to lead rescue operations in the Gulf of Finland",
+    "url": "https://www.epressi.com/tiedotteet/turvallisuus/the-finnish-border-guard-continues-to-lead-the-rescue-operations-in-the-gulf-of-finland..html",
+    "dateLabel": "21 November 2026, 18:55 UTC",
+    "audit": "Issuer-distributed bulletin confirms evacuation to a nearby cargo vessel and ongoing firefighting. A tow to the Russian rescue area was planned; final fire and environmental status were not established."
+  },
+  "U414": {
+    "id": "U414",
+    "publisher": "Reuters",
+    "title": "Russian cargo ship hit by drones in Baltic, Finland tightens security",
+    "url": "https://www.reuters.com/world/russia-says-cargo-vessel-struck-by-drones-finland-says-it-is-fire-its-waters-2026-11-21/",
+    "dateLabel": "21 November 2026",
+    "audit": "Quotes Finnish Defence Forces communications director Aki-Mauri Huhtinen assessing Ukraine was likely responsible. Finnish military places strike in international waters. Governor’s drone count remains attributed."
+  },
+  "U415": {
+    "id": "U415",
+    "publisher": "Yle",
+    "title": "Burning cargo vessel Sparta II drifted into Finnish territorial waters",
+    "url": "https://yle.fi/a/74-20258273",
+    "dateLabel": "21 November 2026",
+    "audit": "Border Guard commander Ilja Iljin placed the reported strike in Russian territorial waters and attributed it to Ukrainian drones. The strike location differs from the Finnish Defence Forces account."
+  },
+  "U416": {
+    "id": "U416",
+    "publisher": "Yle",
+    "title": "Rescue and firefighting updates on Sparta II",
+    "url": "https://yle.fi/a/74-20258284/64-3-313875",
+    "dateLabel": "21 November 2026",
+    "audit": "Later interview with Iljin confirms evacuation without injuries and fire no longer spreading but not extinguished at 18:30 UTC. The dated update supersedes the older live summary."
+  },
+  "U417": {
+    "id": "U417",
+    "publisher": "Finnish Border Guard",
+    "title": "Damaged Russian cargo ship in the Gulf of Finland",
+    "url": "https://www.epressi.com/tiedotteet/turvallisuus/damaged-russian-cargo-ship-in-the-gulf-of-finland.html?c=Laki",
+    "dateLabel": "21 November 2026, 11:17 UTC",
+    "audit": "Issuer-distributed bulletin confirms the damaged vessel drifted into Finnish territorial waters and the Guard led rescue. It does not establish a drone crossing."
   }
 }
