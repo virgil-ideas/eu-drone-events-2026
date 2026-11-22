@@ -10083,16 +10083,16 @@
   },
   {
     "id": "N185",
-    "title": "Mołodycz · likely drone debris after Polish airspace breach",
-    "recordClass": "candidate",
-    "recordType": "unidentified_aerial_object_discovery",
+    "title": "Mołodycz · preliminarily identified cruise-missile debris",
+    "recordClass": "excluded",
+    "recordType": "excluded_provisional_missile_debris",
     "startDate": "2026-11-20",
     "dateLabel": "20 November 2026",
     "dateBasis": "Date of confirmed Polish airspace breach and debris discovery. Exact fall time not established.",
     "countries": "Poland",
     "location": "Mołodycz, Jarosław County, southeastern Poland.",
-    "status": "Airspace breach confirmed; likely drone identification remains preliminary",
-    "categories": "Confirmed multi-object airspace breach; suspected drone debris; investigation",
+    "status": "Airspace breach confirmed; preliminary missile-fragment identification; excluded from active drone totals",
+    "categories": "Confirmed multi-object airspace breach; preliminary cruise-missile debris identification; investigation",
     "category": "recovery",
     "stages": [
       "recovery",
@@ -10107,17 +10107,17 @@
       }
     ],
     "positionNote": "Broad locality reference for debris discovery, not the precise find site or a flight track.",
-    "vehicle": "Fragments preliminarily identified by Polish authorities as likely from a jet-powered drone; final type and model unknown.",
+    "vehicle": "Lublin prosecutors said on 22 November that preliminary site examinations found Kh-101 cruise-missile fragments at Mołodycz. Further expert examination is pending.",
     "attribution": "Prime Minister Donald Tusk attributed the three objects to Russia. The intended target and whether the breach was deliberate are not established.",
     "route": "Confirmed entry into Polish airspace as part of the three-object episode. Exact path and launch point unknown.",
-    "circumstances": "Poland’s National Security Bureau confirmed entry by three objects and assessed Mołodycz debris as likely drone. It identified a cruise missile at Nowy Lipowiec. The third object, at Rudnik nad Sanem, has conflicting provisional identifications and a separate candidate record.",
+    "circumstances": "Poland confirmed three objects entered its airspace on 20 November. Poland’s National Security Bureau initially assessed the debris as likely from a jet-powered drone. The Lublin District Prosecutor’s Office subsequently reported preliminary identification of Kh-101 cruise-missile debris at Mołodycz, as well as at the two other recovery sites.",
     "payload": "Not established for the Mołodycz object.",
     "impact": "The Prime Minister reported no casualties or damage in the broader episode.",
-    "response": "Authorities secured the recovery site. Lublin military prosecutors and gendarmerie began investigative work at all three sites on 20 November. The Military Gendarmerie said initial specialist checks had ruled out radiological, chemical and explosive hazards at the recovery sites. On 21 November prosecutors said they had paused fieldwork at Mołodycz for the evening and planned to resume the next morning. The objects’ identities remained under investigation.",
-    "uncertainty": "Regional officials say final type and exact fall time remain under investigation. No precise track, intended target or deliberate targeting established.",
-    "deduplication": "Only the Mołodycz object is counted here. The distinct Rudnik nad Sanem candidate is part of the same broader three-object breach; Nowy Lipowiec missile is context only.",
-    "provenance": "Polish BBN, Prime Minister’s office, provincial recap and prosecutor’s statement reviewed 21 November. Scene-safety and examination progress rechecked 22 November.",
-    "classificationNote": "Candidate/recovery; a verified airspace breach is distinct from a confirmed drone type or attack.",
+    "response": "Authorities secured the recovery site and reported initial safety checks. The Lublin prosecutor announced the preliminary missile-fragment findings on 22 November. Prosecutors said they planned to resume the Mołodycz site examination on 23 November. Recovered fragments and forensic traces are due for further expert examination.",
+    "uncertainty": "The findings are preliminary, not final laboratory results. They supersede the earlier drone suspicion for this debris, but do not by themselves establish the identity or count of every object in flight, its precise track, its intent or its intended target.",
+    "deduplication": "This is the existing Mołodycz recovery site within the 20 November breach, not a new occurrence. The page is preserved with its original date and URL, but is not part of active drone totals.",
+    "provenance": "Original Polish official and contemporary accounts retained. Classification updated after reading the Lublin District Prosecutor’s Office statement of 22 November 2026.",
+    "classificationNote": "Superseded drone candidate retained as an exclusion/correction. The confirmed airspace breach is not a confirmed drone attack.",
     "sources": [
       "U402",
       "U403",
@@ -10125,9 +10125,11 @@
       "U405",
       "U412",
       "U424",
-      "U425"
+      "U425",
+      "U429"
     ],
-    "reviewedOn": "2026-11-22"
+    "reviewedOn": "2026-11-22",
+    "exclusionReason": "Lublin prosecutors’ preliminary 22 November examination identified Kh-101 cruise-missile fragments at Mołodycz, superseding the earlier drone suspicion. Expert examination is pending; current evidence does not support counting this as a drone event."
   },
   {
     "id": "N186",
@@ -10175,16 +10177,16 @@
   },
   {
     "id": "N187",
-    "title": "Rudnik nad Sanem · disputed object identification after Polish airspace breach",
-    "recordClass": "candidate",
-    "recordType": "unidentified_aerial_object_discovery",
+    "title": "Rudnik nad Sanem · preliminarily identified cruise-missile debris",
+    "recordClass": "excluded",
+    "recordType": "excluded_provisional_missile_debris",
     "startDate": "2026-11-20",
     "dateLabel": "20 November 2026",
     "dateBasis": "Date of the confirmed Polish airspace breach. The Podkarpackie Provincial Office put the fall at 06:38 CET (05:38 UTC) on 20 November.",
     "countries": "Poland",
     "location": "Rudnik nad Sanem area, Nisko County, southeastern Poland.",
-    "status": "Confirmed airspace breach and fall; authorities differ on object type",
-    "categories": "Confirmed multi-object airspace breach; suspected drone debris; investigation",
+    "status": "Airspace breach confirmed; preliminary missile-fragment identification; excluded from active drone totals",
+    "categories": "Confirmed multi-object airspace breach; preliminary cruise-missile debris identification; investigation",
     "category": "recovery",
     "stages": [
       "recovery",
@@ -10199,17 +10201,17 @@
       }
     ],
     "positionNote": "Rounded locality reference, not the exact recovery site or a flight track.",
-    "vehicle": "Unidentified aerial object. BBN initially assessed a probable missile; the provincial governor later described it as an unmanned aircraft.",
+    "vehicle": "Lublin prosecutors said on 22 November that preliminary site examinations found Kh-101 cruise-missile fragments at Rudnik nad Sanem. Further expert examination is pending.",
     "attribution": "Prime Minister Donald Tusk attributed the three objects to Russia. The intended target and whether the breach was deliberate are not established.",
     "route": "Confirmed entry into Polish airspace as part of the three-object episode. Exact path and launch point unknown.",
-    "circumstances": "One of three objects in the confirmed Polish airspace breach. A distinct fall was documented at Rudnik nad Sanem. In an evening briefing quoted by RMF24, the governor described it as an unmanned aircraft; the National Security Bureau had earlier assessed probable missile.",
+    "circumstances": "Poland confirmed three objects entered its airspace on 20 November. The National Security Bureau initially assessed a probable missile; the provincial governor later described an unmanned aircraft. The Lublin District Prosecutor’s Office subsequently reported preliminary identification of Kh-101 cruise-missile debris at Rudnik nad Sanem, as well as at the two other recovery sites.",
     "payload": "Not established for the Rudnik nad Sanem object.",
     "impact": "The Prime Minister reported no casualties or damage in the broader episode.",
-    "response": "Authorities secured the recovery site. Lublin military prosecutors and gendarmerie began investigative work at all three sites on 20 November. The Military Gendarmerie said initial specialist checks had ruled out radiological, chemical and explosive hazards at the recovery sites. On 21 November prosecutors reported that they had recovered and secured all located traces and object fragments at Rudnik. That did not establish the object type.",
-    "uncertainty": "Conflicting provisional official assessments; no conclusive drone or missile identification, model, payload, intended target or precise track.",
-    "deduplication": "Separate fall site within the same three-object breach; distinct from the Mołodycz candidate and the Nowy Lipowiec missile. Not a confirmed drone count.",
-    "provenance": "Polish BBN, Prime Minister’s office, provincial recap and prosecutor’s statement reviewed 21 November. Scene-safety and examination progress rechecked 22 November.",
-    "classificationNote": "Provisional candidate due to conflicting drone and missile assessments; confirmed entry is separate from object identity.",
+    "response": "Authorities secured the recovery site and reported initial safety checks. The Lublin prosecutor announced the preliminary missile-fragment findings on 22 November. Prosecutors said the Rudnik site examination was complete. Recovered fragments and forensic traces are due for further expert examination.",
+    "uncertainty": "The findings are preliminary, not final laboratory results. They supersede the earlier drone suspicion for this debris, but do not by themselves establish the identity or count of every object in flight, its precise track, its intent or its intended target.",
+    "deduplication": "This is the existing Rudnik nad Sanem recovery site within the 20 November breach, not a new occurrence. The page is preserved with its original date and URL, but is not part of active drone totals.",
+    "provenance": "Original Polish official and contemporary accounts retained. Classification updated after reading the Lublin District Prosecutor’s Office statement of 22 November 2026.",
+    "classificationNote": "Superseded drone candidate retained as an exclusion/correction. The confirmed airspace breach is not a confirmed drone attack.",
     "sources": [
       "U402",
       "U403",
@@ -10217,9 +10219,11 @@
       "U405",
       "U412",
       "U424",
-      "U425"
+      "U425",
+      "U429"
     ],
-    "reviewedOn": "2026-11-22"
+    "reviewedOn": "2026-11-22",
+    "exclusionReason": "Lublin prosecutors’ preliminary 22 November examination identified Kh-101 cruise-missile fragments at Rudnik nad Sanem, superseding the earlier drone suspicion. Expert examination is pending; current evidence does not support counting this as a drone event."
   },
   {
     "id": "N188",

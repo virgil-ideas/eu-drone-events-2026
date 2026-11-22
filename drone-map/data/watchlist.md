@@ -1095,3 +1095,7 @@ Country-targeted public-source searches covered November 18–22 through approxi
 ### Targeted SPARTA II correction — 22 November 2026
 
 The Finnish Border Guard’s afternoon briefing reported one crew member injured, superseding the earlier no-injury account. The crew was evacuated. Firefighting continued after visible flames were suppressed; towing was still in preparation and no oil had been observed at sea as of the briefing. These are dated updates, not final outcomes. N188 remains one offshore record. No change to the inclusion cutoff or EU27 coverage status. https://yle.fi/a/74-20258284/64-3-313949
+
+### Targeted Polish identification correction — 22 November 2026
+
+Lublin prosecutors said preliminary specialist examinations identified Kh-101 cruise-missile fragments at Nowy Lipowiec, Rudnik nad Sanem and Mołodycz. Further expert examination is pending. This supersedes the earlier likely-drone assessment at Mołodycz and the disputed drone assessment at Rudnik; N185 and N187 leave active drone totals, retaining dated correction pages and original slugs. The confirmed 20 November three-object breach is unchanged. This is not a final identification or a newly observed occurrence. No change to the reporting cutoff or EU27 coverage status. https://www.gov.pl/web/po-lublin/aktualny-stan-czynnosci-procesowych-w-sprawie-ujawnienia-obiektow-latajacych-na-na-terenie-wojewodztwa-lubelskiego-i-podkarpackiego-22112026-r

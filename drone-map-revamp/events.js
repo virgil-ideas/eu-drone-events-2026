@@ -10367,55 +10367,6 @@ window.DRONE_DATA = {
       "page": "events/2026-11-18-aegean-reported-turkish-uav-activity-greece/"
     },
     {
-      "id": "N185",
-      "title": "Mołodycz · likely drone debris after Polish airspace breach",
-      "recordClass": "candidate",
-      "recordType": "unidentified_aerial_object_discovery",
-      "startDate": "2026-11-20",
-      "dateLabel": "20 November 2026",
-      "dateBasis": "Date of confirmed Polish airspace breach and debris discovery. Exact fall time not established.",
-      "countries": "Poland",
-      "location": "Mołodycz, Jarosław County, southeastern Poland.",
-      "status": "Airspace breach confirmed; likely drone identification remains preliminary",
-      "categories": "Confirmed multi-object airspace breach; suspected drone debris; investigation",
-      "category": "recovery",
-      "stages": [
-        "recovery",
-        "flight"
-      ],
-      "positions": [
-        {
-          "lat": 50.16,
-          "lng": 22.83,
-          "precision": "locality",
-          "label": "Mołodycz — approximate locality"
-        }
-      ],
-      "positionNote": "Broad locality reference for debris discovery, not the precise find site or a flight track.",
-      "vehicle": "Fragments preliminarily identified by Polish authorities as likely from a jet-powered drone; final type and model unknown.",
-      "attribution": "Prime Minister Donald Tusk attributed the three objects to Russia. The intended target and whether the breach was deliberate are not established.",
-      "route": "Confirmed entry into Polish airspace as part of the three-object episode. Exact path and launch point unknown.",
-      "circumstances": "Poland’s National Security Bureau confirmed entry by three objects and assessed Mołodycz debris as likely drone. It identified a cruise missile at Nowy Lipowiec. The third object, at Rudnik nad Sanem, has conflicting provisional identifications and a separate candidate record.",
-      "payload": "Not established for the Mołodycz object.",
-      "impact": "The Prime Minister reported no casualties or damage in the broader episode.",
-      "response": "Authorities secured the recovery site. Lublin military prosecutors and gendarmerie began investigative work at all three sites on 20 November. The Military Gendarmerie said initial specialist checks had ruled out radiological, chemical and explosive hazards at the recovery sites. On 21 November prosecutors said they had paused fieldwork at Mołodycz for the evening and planned to resume the next morning. The objects’ identities remained under investigation.",
-      "uncertainty": "Regional officials say final type and exact fall time remain under investigation. No precise track, intended target or deliberate targeting established.",
-      "deduplication": "Only the Mołodycz object is counted here. The distinct Rudnik nad Sanem candidate is part of the same broader three-object breach; Nowy Lipowiec missile is context only.",
-      "provenance": "Polish BBN, Prime Minister’s office, provincial recap and prosecutor’s statement reviewed 21 November. Scene-safety and examination progress rechecked 22 November.",
-      "classificationNote": "Candidate/recovery; a verified airspace breach is distinct from a confirmed drone type or attack.",
-      "sourceReferences": "[U402][U402]; [U403][U403]; [U404][U404]; [U405][U405]; [U412][U412]; [U424][U424]; [U425][U425]",
-      "sources": [
-        "U402",
-        "U403",
-        "U404",
-        "U405",
-        "U412",
-        "U424",
-        "U425"
-      ],
-      "page": "events/2026-11-20-molodycz-likely-drone-debris-poland/"
-    },
-    {
       "id": "N186",
       "title": "Aegean · 20 November reported Turkish UAV activity",
       "recordClass": "event",
@@ -10459,55 +10410,6 @@ window.DRONE_DATA = {
         "U406"
       ],
       "page": "events/2026-11-20-aegean-reported-turkish-uav-activity-greece/"
-    },
-    {
-      "id": "N187",
-      "title": "Rudnik nad Sanem · disputed object identification after Polish airspace breach",
-      "recordClass": "candidate",
-      "recordType": "unidentified_aerial_object_discovery",
-      "startDate": "2026-11-20",
-      "dateLabel": "20 November 2026",
-      "dateBasis": "Date of the confirmed Polish airspace breach. The Podkarpackie Provincial Office put the fall at 06:38 CET (05:38 UTC) on 20 November.",
-      "countries": "Poland",
-      "location": "Rudnik nad Sanem area, Nisko County, southeastern Poland.",
-      "status": "Confirmed airspace breach and fall; authorities differ on object type",
-      "categories": "Confirmed multi-object airspace breach; suspected drone debris; investigation",
-      "category": "recovery",
-      "stages": [
-        "recovery",
-        "flight"
-      ],
-      "positions": [
-        {
-          "lat": 50.44,
-          "lng": 22.25,
-          "precision": "locality",
-          "label": "Rudnik nad Sanem — approximate locality"
-        }
-      ],
-      "positionNote": "Rounded locality reference, not the exact recovery site or a flight track.",
-      "vehicle": "Unidentified aerial object. BBN initially assessed a probable missile; the provincial governor later described it as an unmanned aircraft.",
-      "attribution": "Prime Minister Donald Tusk attributed the three objects to Russia. The intended target and whether the breach was deliberate are not established.",
-      "route": "Confirmed entry into Polish airspace as part of the three-object episode. Exact path and launch point unknown.",
-      "circumstances": "One of three objects in the confirmed Polish airspace breach. A distinct fall was documented at Rudnik nad Sanem. In an evening briefing quoted by RMF24, the governor described it as an unmanned aircraft; the National Security Bureau had earlier assessed probable missile.",
-      "payload": "Not established for the Rudnik nad Sanem object.",
-      "impact": "The Prime Minister reported no casualties or damage in the broader episode.",
-      "response": "Authorities secured the recovery site. Lublin military prosecutors and gendarmerie began investigative work at all three sites on 20 November. The Military Gendarmerie said initial specialist checks had ruled out radiological, chemical and explosive hazards at the recovery sites. On 21 November prosecutors reported that they had recovered and secured all located traces and object fragments at Rudnik. That did not establish the object type.",
-      "uncertainty": "Conflicting provisional official assessments; no conclusive drone or missile identification, model, payload, intended target or precise track.",
-      "deduplication": "Separate fall site within the same three-object breach; distinct from the Mołodycz candidate and the Nowy Lipowiec missile. Not a confirmed drone count.",
-      "provenance": "Polish BBN, Prime Minister’s office, provincial recap and prosecutor’s statement reviewed 21 November. Scene-safety and examination progress rechecked 22 November.",
-      "classificationNote": "Provisional candidate due to conflicting drone and missile assessments; confirmed entry is separate from object identity.",
-      "sourceReferences": "[U402][U402]; [U403][U403]; [U404][U404]; [U405][U405]; [U412][U412]; [U424][U424]; [U425][U425]",
-      "sources": [
-        "U402",
-        "U403",
-        "U404",
-        "U405",
-        "U412",
-        "U424",
-        "U425"
-      ],
-      "page": "events/2026-11-20-rudnik-nad-sanem-disputed-object-poland/"
     },
     {
       "id": "N188",
@@ -15200,6 +15102,14 @@ window.DRONE_DATA = {
       "url": "https://yle.fi/a/74-20258284/64-3-313949",
       "dateLabel": "22 November 2026",
       "audit": "Maritime operations director Jukka-Pekka Lumilahti reported one crew member injured, superseding the earlier no-injury account. The briefing reported continued firefighting after visible flames were suppressed, tow preparations, and no oil observed at sea as of the briefing. This is not a final casualty, tow or pollution assessment."
+    },
+    "U429": {
+      "id": "U429",
+      "publisher": "Lublin District Prosecutor’s Office",
+      "title": "Updated proceedings on aerial objects recovered in the Lubelskie and Podkarpackie regions",
+      "url": "https://www.gov.pl/web/po-lublin/aktualny-stan-czynnosci-procesowych-w-sprawie-ujawnienia-obiektow-latajacych-na-na-terenie-wojewodztwa-lubelskiego-i-podkarpackiego-22112026-r",
+      "dateLabel": "22 November 2026",
+      "audit": "Preliminary specialist scene examinations identified Kh-101 cruise-missile fragments at all three recovery sites. Rudnik and Nowy Lipowiec scene work was complete. Mołodycz fieldwork was due to resume on 23 November. Further expert examination remains pending."
     }
   },
   "cutoff": "2026-11-22",
