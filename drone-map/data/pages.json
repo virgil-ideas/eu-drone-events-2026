@@ -1864,9 +1864,10 @@
       "Defence and transport authorities confirm all 18 crew were rescued. Varna Radio NAVWARN 768/26 confirms the ship subsequently sank at 20:30 UTC on 28 October at 43°07.80′N, 028°45.36′E, with more than 20 containers drifting, including dangerous goods. This supersedes the earlier unofficial sinking report.",
       "The drone operator, launch origin and motive remain unknown. Reuters reports Ambrey’s provisional video-based assessment of a likely Murena-300S-derived design; this is not a confirmed model or operator identification. Three reported drones and three observed hits are not separate incidents. The later sinking position does not replace the original strike coordinate.",
       "Navigation warnings on 1 November reported drifting containers near Burgas Bay. Their link to CONTSHIP JET remains provisional. On 3 November Burgas Regional Administration reported three objects under monitoring near Oasis–Arapya, Kamennite Korabi at Sinemorets and Butamyata. Manifest information described non-hazardous cargo and an empty tank; physical contents and the source vessel remained under investigation. Sampling and guarding continued, with no laboratory clearance reported. These are cargo-hazard follow-ups, not new drone attacks or a cumulative container total.",
-      "On 4 November the governor told bTV that weather and difficult access were delaying retrieval. The third container’s location was unknown, with Turkish waters only a possibility. No laboratory clearance was supplied."
+      "On 4 November the governor told bTV that weather and difficult access were delaying retrieval. The third container’s location was unknown, with Turkish waters only a possibility. No laboratory clearance was supplied.",
+      "Liberia’s maritime authority reported that the crew were safe, with no injuries reported, in a bulletin describing an unnamed vessel whose date, flag, class and reported three hits match the named Bulgarian accounts. Tsarevo municipality reported on 12 November that crews had cleared bags of red pepper from both Lipite beaches. The cargo’s association with CONTSHIP JET remained provisional, and the announcement did not provide laboratory results."
     ],
-    "basis": "4f0387113aa526d4"
+    "basis": "5893958b224f46a1"
   },
   "N125": {
     "slug": "2026-05-08-osieka-reconnaissance-uav-recovery-poland",
@@ -2319,9 +2320,10 @@
       "A later Maritime.bg report attributes a combined surface- and aerial-drone attack to an unnamed source at the management company. This remains an unconfirmed account; the manager’s public statement does not specify a mechanism.",
       "On 18 November, Varna governor Mario Smurkov told bTV that there had been four impacts, but sailors’ accounts conflicted and drone types remained unconfirmed. He said the vessels had not yet sunk and no pollution had been detected at that time. Four impacts do not establish four independently verified drones.",
       "Reuters reported on 18 November that two unnamed maritime-security sources attributed the strike to an unmanned system. It repeated the governor’s four-impact account without establishing drone type or operator. Reuters described the ship as sunk but provided no newer observation time to resolve the earlier condition reports.",
-      "Bulgarian NAVWARN 858/26 gives a later observation at 13:30 UTC on 19 November: the vessel was listing about 45 degrees, bridge submerged, drifting without crew or control. This is not a final-condition or cause determination."
+      "Bulgarian NAVWARN 858/26 gives a later observation at 13:30 UTC on 19 November: the vessel was listing about 45 degrees, bridge submerged, drifting without crew or control. This is not a final-condition or cause determination.",
+      "NAVWARN 865/26 reports that at 12:38 UTC on 21 November, GAS HUSKY was still uncrewed and adrift, heavily listing and with its bridge submerged. The observation does not establish a sinking or the original mechanism."
     ],
-    "basis": "9c79a52db54bd1cc"
+    "basis": "694e42fd221114d7"
   },
   "N179": {
     "slug": "2026-11-17-aegean-reported-turkish-uav-activity-greece",
@@ -2441,9 +2443,10 @@
     "summary": [
       "Poland’s National Security Bureau confirmed that three objects entered Polish airspace on 20 November. Authorities preliminarily identified the debris near Mołodycz as likely from a jet-powered drone. This page covers the Mołodycz object, not a count of drones in the broader breach.",
       "Nowy Lipowiec was identified as a cruise missile. Rudnik nad Sanem is a separate case with conflicting provisional missile and drone assessments. Prime Minister Donald Tusk attributed the objects to Russia and reported no casualties or damage. The intended target is not established.",
-      "Military prosecutors began investigative work at all three sites. The regional office said the precise fall time and final type of the Mołodycz object remain under investigation."
+      "Military prosecutors began investigative work at all three sites. The regional office said the precise fall time and final type of the Mołodycz object remain under investigation.",
+      "The Military Gendarmerie said initial specialist checks had ruled out radiological, chemical and explosive hazards at the recovery sites. On 21 November prosecutors said they had paused fieldwork at Mołodycz for the evening and planned to resume the next morning. The objects’ identities remained under investigation."
     ],
-    "basis": "c2f41808fbb2082f"
+    "basis": "ed64a37770b0b815"
   },
   "N186": {
     "slug": "2026-11-20-aegean-reported-turkish-uav-activity-greece",
@@ -2460,10 +2463,11 @@
     "headline": "Object fell near Rudnik nad Sanem; drone and missile assessments differ",
     "description": "Poland confirmed a breach on 20 November. Officials initially assessed a probable missile at Rudnik nad Sanem, but the governor later reported a UAV.",
     "summary": [
-      "Poland confirmed three objects entered its airspace on 20 November, one of which fell near Rudnik nad Sanem. The National Security Bureau initially assessed this object as a probable missile.",
-      "Later that day, Podkarpackie governor Teresa Kubas-Hul described it as an unmanned aircraft in remarks reported by RMF24. Investigators had not conclusively established the type at review. This is a separate provisional case within the same wider breach as Mołodycz, not a confirmed drone attack."
+      "Poland confirmed three objects entered its airspace on 20 November, one of which fell near Rudnik nad Sanem. The National Security Bureau initially assessed this object as a probable missile. The Podkarpackie Provincial Office reported the fall at 06:38 local time.",
+      "Later that day, Podkarpackie governor Teresa Kubas-Hul described it as an unmanned aircraft in remarks reported by RMF24. Investigators had not conclusively established the type at review. This is a separate provisional case within the same wider breach as Mołodycz, not a confirmed drone attack.",
+      "The Military Gendarmerie said initial specialist checks had ruled out radiological, chemical and explosive hazards at the recovery sites. On 21 November prosecutors reported that they had recovered and secured all located traces and object fragments at Rudnik. That did not establish the object type."
     ],
-    "basis": "1c9541c490d26fec"
+    "basis": "cb8821ce6a7aff58"
   },
   "N188": {
     "slug": "2026-11-21-sparta-ii-reported-drone-strike-gulf-of-finland",
@@ -2472,8 +2476,27 @@
     "summary": [
       "Finland’s Defence Forces reported a drone strike on 21 November in the eastern Gulf of Finland. The military placed it in international waters, while Border Guard commander Ilja Iljin said it happened in Russian territorial waters. The burning ship later drifted into Finnish territorial waters. That does not establish a drone crossing into Finland.",
       "The Finnish Border Guard confirmed that the crew left by lifeboat and transferred to another cargo vessel. Iljin reported no injuries. Firefighting continued at the Guard’s 18:55 UTC update; a tow was planned. Final fire, tow and pollution outcomes were not established in that update.",
-      "Finnish Defence Forces communications director Aki-Mauri Huhtinen assessed Ukraine was likely responsible. The specific operator, intent and cargo were not independently established."
+      "Finnish Defence Forces communications director Aki-Mauri Huhtinen assessed Ukraine was likely responsible. The specific operator, intent and cargo were not independently established.",
+      "Estonia’s Foreign Ministry says the damaged vessel drifted from Estonia’s exclusive economic zone into Finland’s exclusive economic zone, then into Finnish territorial waters. Estonia assisted at Finland’s request; the Finnish Border Guard confirmed Estonian participation in firefighting and cooling. The rescue accounts do not establish the strike location or route of a drone."
     ],
-    "basis": "4e5f8299a6cb51b3"
+    "basis": "99d875349a430251"
+  },
+  "N189": {
+    "slug": "2026-11-21-northeastern-estonia-air-threat-warning",
+    "headline": "Estonia issued and lifted an air-threat warning in two northeastern counties",
+    "description": "Estonia warned residents in Lääne-Viru and Ida-Viru of a possible air threat on 21 November. The alert does not establish a drone incursion.",
+    "summary": [
+      "Estonia’s Defence Forces issued a possible air-threat warning for Lääne-Viru and Ida-Viru on 21 November at 04:42 local time. The message advised taking shelter if a drone was seen. An all-clear followed at 06:49 local time. This is one warning episode, not a verified incursion."
+    ],
+    "basis": "cebb11de7a1ceacc"
+  },
+  "N190": {
+    "slug": "2026-11-22-tulcea-overnight-ro-alert-romania",
+    "headline": "Tulcea residents warned overnight; Romania reported no airspace entry",
+    "description": "Authorities issued a RO-Alert at 00:46 local time on 22 November and launched two F-16s. The Defence Ministry reported no Romanian airspace entry.",
+    "summary": [
+      "An overnight warning went to northern and eastern Tulcea at 00:46 local time on 22 November. Romania’s Defence Ministry reported one aerial target outside national airspace and said two F-16s took off. It reported no national-airspace entry. The ministry said the air alert ended at 02:14, while ISU Delta Tulcea gave 02:16 and reported no requests or problems. These are accounts of one warning episode."
+    ],
+    "basis": "4ab6e949c8443d7b"
   }
 }

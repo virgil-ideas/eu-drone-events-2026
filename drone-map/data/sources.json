@@ -4195,5 +4195,85 @@
     "url": "https://www.epressi.com/tiedotteet/turvallisuus/damaged-russian-cargo-ship-in-the-gulf-of-finland.html?c=Laki",
     "dateLabel": "21 November 2026, 11:17 UTC",
     "audit": "Issuer-distributed bulletin confirms the damaged vessel drifted into Finnish territorial waters and the Guard led rescue. It does not establish a drone crossing."
+  },
+  "U418": {
+    "id": "U418",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Air target near Ukraine and Tulcea warning, release 386",
+    "url": "https://www.mapn.ro/cpresa/19495_Informa%C8%9Bie-de-pres%C4%83",
+    "dateLabel": "22 November 2026",
+    "audit": "Primary account says two F-16s took off; no national-airspace entry reported. Military all-clear at 02:14 local; civil authority gave 02:16."
+  },
+  "U419": {
+    "id": "U419",
+    "publisher": "Radio România Constanța",
+    "title": "Tulcea civil-protection alert and all-clear",
+    "url": "https://www.radioconstanta.ro/2026/11/22/tulcea-mesaj-ro-alert-privind-o-posibila-incursiune-de-drone-pentru-nordul-si-estul-judetului/",
+    "dateLabel": "22 November 2026",
+    "audit": "ISU Delta Tulcea account gives 00:46–02:16 EET in northern and eastern Tulcea, no calls or problems."
+  },
+  "U420": {
+    "id": "U420",
+    "publisher": "Estonian Defence Forces via EE-ALARM",
+    "title": "Potential air threat in Lääne-Viru and Ida-Viru",
+    "url": "https://www.olevalmis.ee/en/alerts/ee-alarm-595/",
+    "dateLabel": "21 November 2026, 04:42 EET",
+    "audit": "Official warning advised taking shelter if a drone was spotted. It is not an observation of a border crossing."
+  },
+  "U421": {
+    "id": "U421",
+    "publisher": "Estonian Defence Forces via EE-ALARM",
+    "title": "All-clear for Lääne-Viru and Ida-Viru",
+    "url": "https://www.olevalmis.ee/en/alerts/ee-alarm-598/",
+    "dateLabel": "21 November 2026, 06:49 EET",
+    "audit": "Official all-clear for the same episode."
+  },
+  "U422": {
+    "id": "U422",
+    "publisher": "Estonian Ministry of Foreign Affairs",
+    "title": "Tsahkna on cooperation in the Gulf of Finland",
+    "url": "https://vm.ee/uudised/valisminister-tsahkna-laevaintsidendist-teeme-soome-lahel-koostood-pohjanaabrite-ja",
+    "dateLabel": "21 November 2026, 18:22 UTC",
+    "audit": "Ship drifted through Estonian and Finnish EEZs before reaching Finnish territorial waters; Estonia assisted at Finland’s request. This does not locate the strike."
+  },
+  "U423": {
+    "id": "U423",
+    "publisher": "Varna Radio navigation warning, archived by SeaLagom",
+    "title": "NAVWARN 865/26: GAS HUSKY adrift with bridge submerged",
+    "url": "https://www.sealagom.com/coastal/127/message/58484/865-26-black-sea/",
+    "dateLabel": "21 November 2026, observation at 12:38 UTC",
+    "audit": "Read against the issuer’s rolling bulletin. Vessel uncrewed and adrift with heavy list; neither sinking nor weapon type established."
+  },
+  "U424": {
+    "id": "U424",
+    "publisher": "Lublin District Prosecutor’s Office, via TVP Info",
+    "title": "Site examination completed at Rudnik nad Sanem",
+    "url": "https://www.tvp.info/96609819/rosyjskie-obiekty-w-nowym-lipowcu-rudniku-nad-sanem-i-molodyczu-prokuratura-zakonczyla-czynnosci",
+    "dateLabel": "21 November 2026",
+    "audit": "Reports all located Rudnik fragments and traces recovered; Mołodycz examination was paused with Sunday resumption planned. No laboratory identification."
+  },
+  "U425": {
+    "id": "U425",
+    "publisher": "Military Gendarmerie, via PAP",
+    "title": "Initial checks found no hazards at the object recovery sites",
+    "url": "https://www.powiempolsce.pl/articles/article?id=81610&slug=zandarmeria-wojskowa-wykluczono-zagrozenie-w-miejscach-odnalezienia-obiektow-powietrznych",
+    "dateLabel": "21 November 2026",
+    "audit": "Gendarmerie describes scene-safety checks at the three sites, not the original payload or object identification."
+  },
+  "U426": {
+    "id": "U426",
+    "publisher": "Liberia Maritime Authority",
+    "title": "Marine Security Bulletin 44/2026: Multiple vessel attacks in the Black Sea",
+    "url": "https://www.liscr.com/marketing/liscr/media/liscr/online%20library/maritime/msb-44_2026.pdf",
+    "dateLabel": "2 November 2026",
+    "audit": "Unnamed Liberian container ship matches the Bulgarian reports on date, flag, class, reported three hits and evacuation. Crew safe; no injuries reported. Location descriptions differ."
+  },
+  "U427": {
+    "id": "U427",
+    "publisher": "Tsarevo Municipality",
+    "title": "Both Lipite beaches cleared of washed-up red pepper bags",
+    "url": "https://tsarevo.bg/aktualno/novini/s-obshti-usiliya-dvata-plazha-lipite-kray-sinemorets-sa-pochisteni-ot-izhvarlenite-na-brega-chuvali-s-cherven-piper",
+    "dateLabel": "12 November 2026",
+    "audit": "Confirms cleanup; does not certify cargo origin or give laboratory results."
   }
 }
