@@ -4275,5 +4275,13 @@
     "url": "https://tsarevo.bg/aktualno/novini/s-obshti-usiliya-dvata-plazha-lipite-kray-sinemorets-sa-pochisteni-ot-izhvarlenite-na-brega-chuvali-s-cherven-piper",
     "dateLabel": "12 November 2026",
     "audit": "Confirms cleanup; does not certify cargo origin or give laboratory results."
+  },
+  "U428": {
+    "id": "U428",
+    "publisher": "Yle, reporting the Finnish Border Guard briefing",
+    "title": "Finnish Border Guard briefing on the SPARTA II rescue",
+    "url": "https://yle.fi/a/74-20258284/64-3-313949",
+    "dateLabel": "22 November 2026",
+    "audit": "Maritime operations director Jukka-Pekka Lumilahti reported one crew member injured, superseding the earlier no-injury account. The briefing reported continued firefighting after visible flames were suppressed, tow preparations, and no oil observed at sea as of the briefing. This is not a final casualty, tow or pollution assessment."
   }
 }
