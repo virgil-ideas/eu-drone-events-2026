@@ -10203,12 +10203,12 @@ window.DRONE_DATA = {
       "circumstances": "ANR says a September drone strike in Ukrainian territorial waters left the vessel anchored. Its anchor broke on 14 November. Currents carried it into Romanian waters, where MRCC monitored it. It grounded at Vadu on 16 November before towing could begin.",
       "payload": "No new drone or explosive payload reported in the Romanian grounding.",
       "impact": "Vessel grounded and became a navigation hazard. No new casualties reported in Romania; September attack casualties are not counted here.",
-      "response": "Navigation warning issued. SAR ARTEMIS found the ship already grounded on 16 November. The owner contracted COREMAR for refloating. On 19 November, ProTV observed the ship begin moving during the recovery operation; Replica Online subsequently reported that two tugs pulled it clear of the grounding area. Later on 19 November, ProTV reported that it moved about 100 metres before grounding again on another sandbar. The ship agent said the stern remained on sand. The vessel was anchored and salvage paused around nightfall.",
-      "uncertainty": "Exact Romanian entry time and complete drift track unknown. The later 19 November report describes a pause, not salvage completion; any restart was weather-dependent. Final berth and environmental outcome remain unverified. Shoreline video shows aftermath, not a strike.",
+      "response": "Navigation warning issued. SAR ARTEMIS found the ship already grounded on 16 November. The owner contracted COREMAR for refloating. On 19 November, ProTV observed the ship begin moving during the recovery operation; Replica Online subsequently reported that two tugs pulled it clear of the grounding area. Later on 19 November, ProTV reported that it moved about 100 metres before grounding again on another sandbar. The ship agent said the stern remained on sand. The vessel was anchored and salvage paused around nightfall. On 22 November, ProTV reported that three tugs turned the vessel toward open water, but it partially grounded again and work paused at nightfall.",
+      "uncertainty": "Exact Romanian entry time and complete drift track unknown. The 19 and 22 November operations did not establish salvage completion. Final berth and environmental outcome remain unverified. Shoreline video shows aftermath, not a strike.",
       "deduplication": "One Romanian drift-and-grounding occurrence. The September Ukrainian attack is background, not an additional EU strike. Later salvage or condition reports update this record.",
-      "provenance": "Added 18 November from ARN176, ANR/ARSVOM reporting and user-shared video. Promoted from watchlist after explicit inclusion of the vessel’s arrival in Romanian waters. Full ProTV and Replica Online recovery reports read 19 November; no separate authority or salvor completion statement located. Evening ProTV follow-up read 20 November; it supersedes any implication that the first pull completed salvage.",
+      "provenance": "Added 18 November from ARN176, ANR/ARSVOM reporting and user-shared video. Promoted from watchlist after explicit inclusion of the vessel’s arrival in Romanian waters. Full ProTV and Replica Online recovery reports read 19 November; no separate authority or salvor completion statement located. Evening ProTV follow-up read 20 November; it supersedes any implication that the first pull completed salvage. Later 22 November response developments reviewed 23 November.",
       "classificationNote": "Alert / other (gray): drone-related maritime aftermath within Romania. Not classified as a strike, drone crash or fresh drone incursion.",
-      "sourceReferences": "[U379][U379]; [U380][U380]; [U381][U381]; [U382][U382]; [U390][U390]; [U391][U391]; [U396][U396]",
+      "sourceReferences": "[U379][U379]; [U380][U380]; [U381][U381]; [U382][U382]; [U390][U390]; [U391][U391]; [U396][U396]; [U433][U433]",
       "sources": [
         "U379",
         "U380",
@@ -10216,7 +10216,8 @@ window.DRONE_DATA = {
         "U382",
         "U390",
         "U391",
-        "U396"
+        "U396",
+        "U433"
       ],
       "page": "events/2026-11-16-mariam-m-drifts-ashore-vadu-romania/"
     },
@@ -10442,12 +10443,12 @@ window.DRONE_DATA = {
       "circumstances": "Finland’s Defence Forces reported a drone strike in the eastern Gulf of Finland. The damaged ship caught fire and later drifted into Finnish waters.",
       "payload": "Drone payload and cargo on this voyage were not established.",
       "impact": "The Finnish Border Guard confirmed the crew was evacuated. At the 22 November briefing, maritime operations director Jukka-Pekka Lumilahti reported one crew member injured, superseding the earlier no-injury account. Injury severity was not reported in the briefing coverage.",
-      "response": "Finland led the maritime rescue. The crew left in lifeboats and transferred to another cargo vessel. Estonia assisted at Finland’s request. The Guard said on 22 November that visible flames had been suppressed the previous evening but firefighting continued. It reported tow preparations and no oil observed at sea as of the briefing; pollution-response readiness was increased.",
-      "uncertainty": "Finnish military reporting placed the strike in international waters; Iljin separately told Yle it occurred in Russian territorial waters. Neither account places it in Finnish waters. The 22 November briefing did not establish full extinguishment, a completed tow or a final pollution outcome. No established link to separate precautionary alerts or the suspected manned helicopter airspace episode.",
+      "response": "Finland led the maritime rescue. The crew left in lifeboats and transferred to another cargo vessel. Estonia assisted at Finland’s request. The Guard said on 22 November that visible flames had been suppressed the previous evening but firefighting continued. It reported tow preparations and no oil observed at sea as of the briefing; pollution-response readiness was increased. Later on 22 November the Finnish Border Guard confirmed towing had begun. The Helsinki City Rescue Department announced that precautionary oil-spill standby had ended. The Gulf of Finland Coast Guard then said the ship had been towed beyond Finland’s EEZ and environmental-response area, Finland’s mission had ended and temporary maritime and aviation restrictions had been lifted.",
+      "uncertainty": "Finland’s military placed the strike in international waters; Iljin separately told Yle it occurred in Russian territorial waters. Neither account places it in Finnish waters. Port arrival, full extinguishment and final environmental outcome remain unverified. No established link to separate precautionary alerts or the suspected manned helicopter airspace episode.",
       "deduplication": "One vessel strike and its subsequent rescue. Neither the ship’s drift nor the crew’s evacuation is a second strike or a drone incursion.",
-      "provenance": "Reviewed against Finnish and Estonian official accounts and interviews and reporting by Reuters and Yle. Casualty and rescue account updated after the Finnish Border Guard’s 22 November briefing.",
+      "provenance": "Reviewed against Finnish and Estonian official accounts and interviews and reporting by Reuters and Yle. Casualty and rescue account updated after the Finnish Border Guard’s 22 November briefing. Later 22 November response developments reviewed 23 November.",
       "classificationNote": "Offshore reported strike with subsequent Finnish maritime response, not a verified EU territorial drone incursion.",
-      "sourceReferences": "[U413][U413]; [U414][U414]; [U415][U415]; [U416][U416]; [U417][U417]; [U422][U422]; [U428][U428]",
+      "sourceReferences": "[U413][U413]; [U414][U414]; [U415][U415]; [U416][U416]; [U417][U417]; [U422][U422]; [U428][U428]; [U430][U430]; [U431][U431]; [U432][U432]",
       "sources": [
         "U413",
         "U414",
@@ -10455,7 +10456,10 @@ window.DRONE_DATA = {
         "U416",
         "U417",
         "U422",
-        "U428"
+        "U428",
+        "U430",
+        "U431",
+        "U432"
       ],
       "page": "events/2026-11-21-sparta-ii-reported-drone-strike-gulf-of-finland/"
     },
@@ -10544,6 +10548,136 @@ window.DRONE_DATA = {
         "U419"
       ],
       "page": "events/2026-11-22-tulcea-overnight-ro-alert-romania/"
+    },
+    {
+      "id": "N191",
+      "title": "Aegean · 22 November reported Turkish UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-11-22",
+      "dateLabel": "22 November 2026",
+      "dateBasis": "22 November Greek local date, from GEETHA figures reproduced in Greek media.",
+      "countries": "Greece",
+      "location": "Northeastern, central and southeastern Aegean, per Greek daily reporting.",
+      "status": "Greek-authority daily airspace figures as reproduced in the Greek press",
+      "categories": "Reported national-airspace violations and separate Athens FIR infringements",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 37.5,
+          "lng": 26.0,
+          "precision": "region",
+          "label": "Aegean — broad regional reference"
+        }
+      ],
+      "positionNote": "Broad regional display anchor, not aircraft location or flight path.",
+      "vehicle": "Seven UAVs described as Turkish in Greek reporting; models not established.",
+      "attribution": "Attributed to Turkey by the Greek military, as reported in Greek media; Greek–Turkish airspace dispute remains relevant.",
+      "route": "Not established.",
+      "circumstances": "Seven Turkish UAVs, seven reported Greek national-airspace violations and seven Athens FIR infringements, as attributed to GEETHA.",
+      "payload": "Not reported.",
+      "impact": "No harm or damage reported in this bulletin reproduction.",
+      "response": "Routine identification and interception reported. No engagement or shoot-down established.",
+      "uncertainty": "Original date row inaccessible at review. The published counts are attributed, and exact tracks, identity details and intent remain unverified.",
+      "deduplication": "One regional daily aggregate. Do not add the aircraft, national airspace and FIR figures or map each as a separate occurrence.",
+      "provenance": "Full NewsIT and Dedomeno accounts read; shared Greek military attribution.",
+      "classificationNote": "Daily regional flight record, not a confirmed attack, crash or shoot-down.",
+      "reported_UAVs": 7,
+      "reported_airspace_violations": 7,
+      "reported_FIR_infractions": 7,
+      "sourceReferences": "[U434][U434]; [U435][U435]",
+      "sources": [
+        "U434",
+        "U435"
+      ],
+      "page": "events/2026-11-22-aegean-reported-turkish-uav-activity-greece/"
+    },
+    {
+      "id": "N192",
+      "title": "Northern Tulcea · afternoon RO-Alert",
+      "recordClass": "event",
+      "recordType": "selected_civil_protection_alert",
+      "startDate": "2026-11-22",
+      "dateLabel": "22 November 2026",
+      "dateBasis": "RO-Alert issued at 15:06 EET and lifted at 15:42 EET on 22 November.",
+      "countries": "Romania",
+      "location": "Northern Tulcea County; map anchor represents the warning area, not a radar location.",
+      "status": "Selected RO-Alert; no entry into Romanian airspace reported",
+      "categories": "Selected civil-protection alert",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.17,
+          "lng": 29.15,
+          "precision": "region",
+          "label": "Romania — approximate warning area"
+        }
+      ],
+      "positionNote": "Regional reference for the warning area, not an aircraft position or track.",
+      "vehicle": "One aerial target, identity unresolved.",
+      "attribution": "Operator and intended target not established.",
+      "route": "No verified drone track across the national boundary.",
+      "circumstances": "Romania’s Defence Ministry reported one aerial target north of Vâlcove, Ukraine and a northern Tulcea RO-Alert from 15:06 to 15:42 local time on 22 November. No Romanian airspace entry was reported.",
+      "payload": "Not established.",
+      "impact": "No entry into Romanian airspace reported.",
+      "response": "RO-Alert at 15:06 EET; alert ended at 15:42 EET.",
+      "uncertainty": "No confirmed drone identity, route, operator, intended target or Romanian incursion.",
+      "deduplication": "One afternoon alert and all-clear, distinct from the other warnings that day. Not an incursion count.",
+      "provenance": "Romanian Defence Ministry statement read directly.",
+      "classificationNote": "Selected alert only, not an established territorial drone incursion or attack.",
+      "sourceReferences": "[U436][U436]",
+      "sources": [
+        "U436"
+      ],
+      "page": "events/2026-11-22-northern-tulcea-afternoon-ro-alert-romania/"
+    },
+    {
+      "id": "N193",
+      "title": "Northern Tulcea · evening RO-Alert",
+      "recordClass": "event",
+      "recordType": "selected_civil_protection_alert",
+      "startDate": "2026-11-22",
+      "dateLabel": "22 November 2026",
+      "dateBasis": "RO-Alert issued at 20:01 EET and lifted at 21:15 EET on 22 November.",
+      "countries": "Romania",
+      "location": "Northern Tulcea County; map anchor represents the warning area, not a radar location.",
+      "status": "Selected RO-Alert; no entry into Romanian airspace reported",
+      "categories": "Selected civil-protection alert",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.17,
+          "lng": 29.15,
+          "precision": "region",
+          "label": "Romania — approximate warning area"
+        }
+      ],
+      "positionNote": "Regional reference for the warning area, not an aircraft position or track.",
+      "vehicle": "Aerial targets, exact count and type not established.",
+      "attribution": "Operator and intended target not established.",
+      "route": "No verified drone track across the national boundary.",
+      "circumstances": "Romania’s Defence Ministry reported aerial targets east of Snake Island and a northern Tulcea RO-Alert from 20:01 to 21:15 local time on 22 November. No Romanian airspace entry was reported.",
+      "payload": "Not established.",
+      "impact": "No entry into Romanian airspace reported.",
+      "response": "RO-Alert at 20:01 EET; alert ended at 21:15 EET.",
+      "uncertainty": "No confirmed drone identity, route, operator, intended target or Romanian incursion.",
+      "deduplication": "One evening alert and all-clear, distinct from the other warnings that day. Not an incursion count.",
+      "provenance": "AGERPRES published the Romanian Defence Ministry’s account.",
+      "classificationNote": "Selected alert only, not an established territorial drone incursion or attack.",
+      "sourceReferences": "[U437][U437]",
+      "sources": [
+        "U437"
+      ],
+      "page": "events/2026-11-22-northern-tulcea-evening-ro-alert-romania/"
     }
   ],
   "contexts": [
@@ -15110,6 +15244,70 @@ window.DRONE_DATA = {
       "url": "https://www.gov.pl/web/po-lublin/aktualny-stan-czynnosci-procesowych-w-sprawie-ujawnienia-obiektow-latajacych-na-na-terenie-wojewodztwa-lubelskiego-i-podkarpackiego-22112026-r",
       "dateLabel": "22 November 2026",
       "audit": "Preliminary specialist scene examinations identified Kh-101 cruise-missile fragments at all three recovery sites. Rudnik and Nowy Lipowiec scene work was complete. Mołodycz fieldwork was due to resume on 23 November. Further expert examination remains pending."
+    },
+    "U430": {
+      "id": "U430",
+      "publisher": "Finnish Border Guard",
+      "title": "Rescue operation continues with the towing of SPARTA II",
+      "url": "https://www.epressi.com/tiedotteet/turvallisuus/rescue-operation-continues-with-the-towing-of-the-vessel-sparta-ii.html",
+      "dateLabel": "22 November 2026",
+      "audit": "Official bulletin confirms the tow began on 22 November and no fuel or hazardous substance leak had been detected at that point."
+    },
+    "U431": {
+      "id": "U431",
+      "publisher": "Helsinki City Rescue Department",
+      "title": "Precautionary SPARTA II oil-spill standby ends",
+      "url": "https://www.sttinfo.fi/tiedote/72525266/sparta-ii-alukseen-liittyva-pelastustoimen-varautumistehtava-suomenlahdella-on-paattynyt?lang=fi",
+      "dateLabel": "22 November 2026, 19:38 EET",
+      "audit": "Finnish Interior Ministry ended the precautionary standby; rescue agencies returned to normal readiness. Not a final pollution assessment."
+    },
+    "U432": {
+      "id": "U432",
+      "publisher": "Yle, citing the Gulf of Finland Coast Guard",
+      "title": "SPARTA II towed out of Finland’s exclusive economic zone",
+      "url": "https://yle.fi/a/74-20258284",
+      "dateLabel": "22 November 2026",
+      "audit": "Attributes to the Coast Guard that the ship left Finland’s EEZ and environmental-response area, the Border Guard’s mission ended and temporary sea and air restrictions were lifted."
+    },
+    "U433": {
+      "id": "U433",
+      "publisher": "Știrile ProTV",
+      "title": "MARIAM M partially grounds again during a fresh three-tug salvage attempt",
+      "url": "https://stirileprotv.ro/stiri/actualitate/nava-sub-pavilion-tanzania-esuata-la-vadu-s-a-impotmolit-din-nou-in-nisip-dupa-ce-a-fost-trasa-in-larg-de-trei-remorchere.html",
+      "dateLabel": "22 November 2026, 19:20 EET; updated 19:54 EET",
+      "audit": "On-scene reporting and ship-agent account: three tugs turned the ship seaward; it partially grounded again before work paused at nightfall."
+    },
+    "U434": {
+      "id": "U434",
+      "publisher": "NewsIT, citing GEETHA",
+      "title": "Greek military figures for reported Turkish UAV activity on 22 November",
+      "url": "https://www.newsit.gr/ellada/aigaio-nees-prokliseis-tis-tourkias-me-7-paraviaseis-kai-7-paravaseis-apo-7-mi-epandromena-aeroskafi/4828870/",
+      "dateLabel": "22 November 2026",
+      "audit": "Attributes seven UAVs, seven national-airspace violations and seven Athens FIR infringements to Greek military reporting; no independently verified tracks."
+    },
+    "U435": {
+      "id": "U435",
+      "publisher": "Dedomeno, citing GEETHA",
+      "title": "Greek military reports seven Turkish UAVs over the Aegean on 22 November",
+      "url": "https://www.dedomeno.gr/amyna/872006/toyrkia-nea-proklisi-sto-aigaio-me-7-paraviaseis-kai-7-paravaseis-apo-7-mi-epandromena-aeroskafi/",
+      "dateLabel": "22 November 2026",
+      "audit": "Reproduces the same figures; shared underlying attribution, not independent track evidence."
+    },
+    "U436": {
+      "id": "U436",
+      "publisher": "Romanian Ministry of National Defence",
+      "title": "Release 387: afternoon RO-Alert for northern Tulcea",
+      "url": "https://www.mapn.ro/cpresa/19496_Informa%C8%9Bie-de-presa",
+      "dateLabel": "22 November 2026",
+      "audit": "Romanian military statement confirms a single aerial target north of Vâlcove, the 15:06–15:42 EET alert and no reported national airspace entry."
+    },
+    "U437": {
+      "id": "U437",
+      "publisher": "AGERPRES, citing the Romanian Ministry of National Defence",
+      "title": "Evening RO-Alert ends without reported Romanian airspace entry",
+      "url": "https://agerpres.ro/justitie/2026/11/22/update-mapn-alerta-aeriana-a-incetat-nu-au-fost-raportate-patrunderi-in-spatiul-aerian-national--1615727",
+      "dateLabel": "22 November 2026",
+      "audit": "MApN reported aerial targets east of Snake Island, warning at 20:01 and all-clear at 21:15 EET; the exact number and type were not specified."
     }
   },
   "cutoff": "2026-11-22",

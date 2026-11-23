@@ -1099,3 +1099,38 @@ The Finnish Border Guard’s afternoon briefing reported one crew member injured
 ### Targeted Polish identification correction — 22 November 2026
 
 Lublin prosecutors said preliminary specialist examinations identified Kh-101 cruise-missile fragments at Nowy Lipowiec, Rudnik nad Sanem and Mołodycz. Further expert examination is pending. This supersedes the earlier likely-drone assessment at Mołodycz and the disputed drone assessment at Rudnik; N185 and N187 leave active drone totals, retaining dated correction pages and original slugs. The confirmed 20 November three-object breach is unchanged. This is not a final identification or a newly observed occurrence. No change to the reporting cutoff or EU27 coverage status. https://www.gov.pl/web/po-lublin/aktualny-stan-czynnosci-procesowych-w-sprawie-ujawnienia-obiektow-latajacych-na-na-terenie-wojewodztwa-lubelskiego-i-podkarpackiego-22112026-r
+
+## 23 November 2026 EU27 review
+
+Bounded country-targeted searches covered 19–23 November, checked through the
+23 November morning review (06:05 UTC), with more than 72 hours' overlap.
+All 27 member states were screened, not exhaustively. No additional
+independently verified territorial drone incursion surfaced in the review.
+Inclusive occurrence cutoff remains 22 November.
+
+- Greece, 22 November: N191 records one attributed GEETHA daily report with
+  seven UAVs, seven reported national-airspace violations and seven separate
+  Athens FIR infringements. The primary register remains inaccessible on this
+  check. The 21 November single press lead (one UAV, three claimed national
+  violations, one FIR infringement) remains unpromoted; the 19 November
+  recovered report gives zero national violations and remains FIR-only. The
+  historical official-register gaps remain open.
+- Northern Tulcea, 22 November: N192 and N193 document separate afternoon and
+  evening warning windows, distinct from N190's overnight warning. Romanian
+  authorities reported no national-airspace entry in either later window.
+- SPARTA II and MARIAM M: the Finnish mission and precautionary oil standby
+  ended; MARIAM M partly re-grounded in a separate 22 November salvage attempt.
+  Both follow-ups update existing records only. Final fire, berth and pollution
+  outcomes were not established. No fresher GAS HUSKY or BETUL 8 endpoint was
+  found in the Bulgarian notices reviewed. Polish lab findings and the NATO
+  meeting outcome were still pending in sources reviewed.
+- Paris CDG, 19 November: airport operator Groupe ADP told Actu Paris that
+  crews reported a possible drone and arrivals were paused as a precaution for
+  about 20 minutes, with no departure halt and normal service restored.
+  Confirmed disruption, not confirmed drone identity or foreign entry; remains
+  on the watchlist, as do the separate Genoa and Sigonella cases.
+  https://actu.fr/ile-de-france/tremblay-en-france_93073/un-drone-signale-pres-de-l-aeroport-roissy-charles-de-gaulle-le-trafic-aerien-perturbe_65084825.html
+- Lithuania, 21 November: the National Crisis Management Centre said no
+  objects were detected in Lithuania in connection with the unverified
+  Kaliningrad claim. No evidence of a Lithuanian incursion.
+  https://www.lrt.lt/naujienos/lietuvoje/2/3121191/vitkauskas-apie-pranesimus-del-dronu-kaliningrade-negavome-patvirtinimu-del-sprogimu

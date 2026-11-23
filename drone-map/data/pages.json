@@ -2362,9 +2362,10 @@
     "summary": [
       "MARIAM M grounded on Romania’s Vadu coast on 16 November 2026. The abandoned, Tanzania-flagged cargo vessel had drifted into Romanian waters after its anchor broke on 14 November.",
       "Romanian authorities say a September drone strike in Ukrainian territorial waters had left the ship anchored there. This record covers its subsequent arrival and grounding in Romania, classified as Alert / other. It does not count a new drone strike or transfer casualties from the September attack.",
-      "On 19 November tugs freed the vessel from its original sandbank. ProTV later reported that it moved about 100 metres before grounding on another sandbar, after which the crew anchored it and paused salvage around nightfall. Final berth and environmental outcome are not established. The page includes earlier ARSVOM response footage and a shoreline video link."
+      "On 19 November tugs freed the vessel from its original sandbank. ProTV later reported that it moved about 100 metres before grounding on another sandbar, after which the crew anchored it and paused salvage around nightfall. The page includes earlier ARSVOM response footage and a shoreline video link.",
+      "In a separate attempt on 22 November, Știrile ProTV reported that three tugs turned MARIAM M toward open water but it partially grounded again and work paused at nightfall. Final berth and environmental outcome remain unverified."
     ],
-    "basis": "cd30202958950982"
+    "basis": "26d8354c51f7595e"
   },
   "N182": {
     "slug": "2026-11-18-aegean-reported-turkish-uav-activity-greece",
@@ -2476,9 +2477,10 @@
       "Finland’s Defence Forces reported a drone strike on 21 November in the eastern Gulf of Finland. The military placed it in international waters, while Border Guard commander Ilja Iljin said it happened in Russian territorial waters. The burning ship later drifted into Finnish territorial waters. That does not establish a drone crossing into Finland.",
       "The Finnish Border Guard confirmed the crew evacuated by lifeboat and transferred to another cargo vessel. At its 22 November briefing, the Guard reported one crew member injured, superseding the earlier no-injury account. Firefighting continued after visible flames were suppressed. A tow was being prepared; no oil had been observed at sea as of the briefing. That was not a final assessment.",
       "Finnish Defence Forces communications director Aki-Mauri Huhtinen assessed Ukraine was likely responsible. The specific operator, intent and cargo were not independently established.",
-      "Estonia’s Foreign Ministry says the damaged vessel drifted from Estonia’s exclusive economic zone into Finland’s exclusive economic zone, then into Finnish territorial waters. Estonia assisted at Finland’s request; the Finnish Border Guard confirmed Estonian participation in firefighting and cooling. The rescue accounts do not establish the strike location or route of a drone."
+      "Estonia’s Foreign Ministry says the damaged vessel drifted from Estonia’s exclusive economic zone into Finland’s exclusive economic zone, then into Finnish territorial waters. Estonia assisted at Finland’s request; the Finnish Border Guard confirmed Estonian participation in firefighting and cooling. The rescue accounts do not establish the strike location or route of a drone.",
+      "Later on 22 November the Finnish Border Guard confirmed the tow had begun, and Helsinki’s Rescue Department announced the end of precautionary oil-response standby. The Gulf of Finland Coast Guard then reported that the vessel had been towed beyond Finland’s EEZ and environmental-response area. Finland ended its mission and lifted temporary maritime and aviation restrictions. Port arrival, final fire status and environmental outcome remain unverified."
     ],
-    "basis": "51025985c2f2a8ab"
+    "basis": "89db18009ec1fe94"
   },
   "N189": {
     "slug": "2026-11-21-northeastern-estonia-air-threat-warning",
@@ -2497,5 +2499,35 @@
       "An overnight warning went to northern and eastern Tulcea at 00:46 local time on 22 November. Romania’s Defence Ministry reported one aerial target outside national airspace and said two F-16s took off. It reported no national-airspace entry. The ministry said the air alert ended at 02:14, while ISU Delta Tulcea gave 02:16 and reported no requests or problems. These are accounts of one warning episode."
     ],
     "basis": "4ab6e949c8443d7b"
+  },
+  "N191": {
+    "slug": "2026-11-22-aegean-reported-turkish-uav-activity-greece",
+    "headline": "Aegean · 22 November reported Turkish UAV activity",
+    "description": "Greek-authority figures reported seven Turkish UAVs, seven national-airspace violations and seven separate Athens FIR infringements.",
+    "summary": [
+      "Greek outlets citing the Hellenic National Defence General Staff reported seven Turkish UAVs, seven Greek national-airspace violations and seven Athens FIR infringements across the northeastern, central and southeastern Aegean on 22 November. They reported routine identification and interception.",
+      "The three figures are separate measures in one daily report. They do not establish independent flight tracks, a shoot-down or an attack. The original daily register row could not be verified."
+    ],
+    "basis": "6d70849024cc862d"
+  },
+  "N192": {
+    "slug": "2026-11-22-northern-tulcea-afternoon-ro-alert-romania",
+    "headline": "Northern Tulcea afternoon RO-Alert ended without reported airspace entry",
+    "description": "Northern Tulcea received a separate afternoon warning at 15:06 local time on 22 November. No Romanian airspace entry was reported.",
+    "summary": [
+      "Romania’s Defence Ministry reported one aerial target north of Vâlcove, Ukraine and a northern Tulcea RO-Alert from 15:06 to 15:42 local time on 22 November. No Romanian airspace entry was reported.",
+      "This is a civil-protection warning, not a confirmed drone incursion or attack. Target type and operator were not established."
+    ],
+    "basis": "e024b99b8500425f"
+  },
+  "N193": {
+    "slug": "2026-11-22-northern-tulcea-evening-ro-alert-romania",
+    "headline": "Northern Tulcea evening RO-Alert ended without reported airspace entry",
+    "description": "Northern Tulcea received a separate evening warning at 20:01 local time on 22 November. No Romanian airspace entry was reported.",
+    "summary": [
+      "Romania’s Defence Ministry reported aerial targets east of Snake Island and a northern Tulcea RO-Alert from 20:01 to 21:15 local time on 22 November. No Romanian airspace entry was reported.",
+      "This is a civil-protection warning, not a confirmed drone incursion or attack. Target type and operator were not established."
+    ],
+    "basis": "b08c623f2ea030e0"
   }
 }

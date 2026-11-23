@@ -4291,5 +4291,69 @@
     "url": "https://www.gov.pl/web/po-lublin/aktualny-stan-czynnosci-procesowych-w-sprawie-ujawnienia-obiektow-latajacych-na-na-terenie-wojewodztwa-lubelskiego-i-podkarpackiego-22112026-r",
     "dateLabel": "22 November 2026",
     "audit": "Preliminary specialist scene examinations identified Kh-101 cruise-missile fragments at all three recovery sites. Rudnik and Nowy Lipowiec scene work was complete. Mołodycz fieldwork was due to resume on 23 November. Further expert examination remains pending."
+  },
+  "U430": {
+    "id": "U430",
+    "publisher": "Finnish Border Guard",
+    "title": "Rescue operation continues with the towing of SPARTA II",
+    "url": "https://www.epressi.com/tiedotteet/turvallisuus/rescue-operation-continues-with-the-towing-of-the-vessel-sparta-ii.html",
+    "dateLabel": "22 November 2026",
+    "audit": "Official bulletin confirms the tow began on 22 November and no fuel or hazardous substance leak had been detected at that point."
+  },
+  "U431": {
+    "id": "U431",
+    "publisher": "Helsinki City Rescue Department",
+    "title": "Precautionary SPARTA II oil-spill standby ends",
+    "url": "https://www.sttinfo.fi/tiedote/72525266/sparta-ii-alukseen-liittyva-pelastustoimen-varautumistehtava-suomenlahdella-on-paattynyt?lang=fi",
+    "dateLabel": "22 November 2026, 19:38 EET",
+    "audit": "Finnish Interior Ministry ended the precautionary standby; rescue agencies returned to normal readiness. Not a final pollution assessment."
+  },
+  "U432": {
+    "id": "U432",
+    "publisher": "Yle, citing the Gulf of Finland Coast Guard",
+    "title": "SPARTA II towed out of Finland’s exclusive economic zone",
+    "url": "https://yle.fi/a/74-20258284",
+    "dateLabel": "22 November 2026",
+    "audit": "Attributes to the Coast Guard that the ship left Finland’s EEZ and environmental-response area, the Border Guard’s mission ended and temporary sea and air restrictions were lifted."
+  },
+  "U433": {
+    "id": "U433",
+    "publisher": "Știrile ProTV",
+    "title": "MARIAM M partially grounds again during a fresh three-tug salvage attempt",
+    "url": "https://stirileprotv.ro/stiri/actualitate/nava-sub-pavilion-tanzania-esuata-la-vadu-s-a-impotmolit-din-nou-in-nisip-dupa-ce-a-fost-trasa-in-larg-de-trei-remorchere.html",
+    "dateLabel": "22 November 2026, 19:20 EET; updated 19:54 EET",
+    "audit": "On-scene reporting and ship-agent account: three tugs turned the ship seaward; it partially grounded again before work paused at nightfall."
+  },
+  "U434": {
+    "id": "U434",
+    "publisher": "NewsIT, citing GEETHA",
+    "title": "Greek military figures for reported Turkish UAV activity on 22 November",
+    "url": "https://www.newsit.gr/ellada/aigaio-nees-prokliseis-tis-tourkias-me-7-paraviaseis-kai-7-paravaseis-apo-7-mi-epandromena-aeroskafi/4828870/",
+    "dateLabel": "22 November 2026",
+    "audit": "Attributes seven UAVs, seven national-airspace violations and seven Athens FIR infringements to Greek military reporting; no independently verified tracks."
+  },
+  "U435": {
+    "id": "U435",
+    "publisher": "Dedomeno, citing GEETHA",
+    "title": "Greek military reports seven Turkish UAVs over the Aegean on 22 November",
+    "url": "https://www.dedomeno.gr/amyna/872006/toyrkia-nea-proklisi-sto-aigaio-me-7-paraviaseis-kai-7-paravaseis-apo-7-mi-epandromena-aeroskafi/",
+    "dateLabel": "22 November 2026",
+    "audit": "Reproduces the same figures; shared underlying attribution, not independent track evidence."
+  },
+  "U436": {
+    "id": "U436",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Release 387: afternoon RO-Alert for northern Tulcea",
+    "url": "https://www.mapn.ro/cpresa/19496_Informa%C8%9Bie-de-presa",
+    "dateLabel": "22 November 2026",
+    "audit": "Romanian military statement confirms a single aerial target north of Vâlcove, the 15:06–15:42 EET alert and no reported national airspace entry."
+  },
+  "U437": {
+    "id": "U437",
+    "publisher": "AGERPRES, citing the Romanian Ministry of National Defence",
+    "title": "Evening RO-Alert ends without reported Romanian airspace entry",
+    "url": "https://agerpres.ro/justitie/2026/11/22/update-mapn-alerta-aeriana-a-incetat-nu-au-fost-raportate-patrunderi-in-spatiul-aerian-national--1615727",
+    "dateLabel": "22 November 2026",
+    "audit": "MApN reported aerial targets east of Snake Island, warning at 20:01 and all-clear at 21:15 EET; the exact number and type were not specified."
   }
 }
