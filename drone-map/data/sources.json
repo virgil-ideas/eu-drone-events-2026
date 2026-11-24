@@ -4367,10 +4367,10 @@
   "U439": {
     "id": "U439",
     "publisher": "Radio Lublin / Polish Radio IAR",
-    "title": "Polish military confirms a brief drone crossing and exit",
+    "title": "Drone enters Polish airspace; military authorized a shoot-down",
     "url": "https://radio.lublin.pl/2026/11/wojsko-doszlo-do-krotkotrwalego-naruszenia-polskiej-przestrzeni-powietrznej/",
-    "dateLabel": "23 November 2026",
-    "audit": "Directly read. Named Operational Command spokesperson Lt Col Jacek Goryszewski says one object was registered, weapons were not used, and the object left Polish airspace."
+    "dateLabel": "23 November 2026; updated account reviewed 24 November",
+    "audit": "Directly reread on 24 November. Named spokesperson confirms one crossing, exit and no weapons use. Expanded account reports continuous tracking, authorization and withholding fire after the eastward turn, considering civilian safety. Separate PAP anonymous-source claims about cameras/reconnaissance are not confirmed identification."
   },
   "U440": {
     "id": "U440",
@@ -4483,5 +4483,21 @@
     "url": "https://spotmedia.ro/stiri/opinii-si-analize/exclusiv-romania-la-un-pas-de-o-confruntare-cu-rusia-in-marea-neagra-criza-neptun-deep",
     "dateLabel": "24 November 2026",
     "audit": "Retrospective ministerial account reported by SpotMedia; the original flight-restriction notification was not independently reviewed. The contemporaneous MApN correction governs the one-drone engagement/EOD sequence."
+  },
+  "U454": {
+    "id": "U454",
+    "publisher": "UNITED24 Media",
+    "title": "Poland withholds fire as Russian-attributed drone turns back toward Ukraine",
+    "url": "https://united24media.com/war-in-ukraine/russian-drone-enters-nato-airspace-poland-decides-not-to-shoot-as-it-heads-back-toward-ukraine-24656",
+    "dateLabel": "24 November 2026; updated 12:39 (site display)",
+    "audit": "Directly read in browser. Follow-up to the 23 November crossing, not a new occurrence. Reports authorization and civilian-risk considerations. Geran-5 is a secondary-media suggestion, not a confirmed model; the lead photograph is illustrative."
+  },
+  "U455": {
+    "id": "U455",
+    "publisher": "Rzeczpospolita, quoting Polish Operational Command spokesperson Jacek Goryszewski",
+    "title": "Military spokesperson describes Dorohusk crossing, return to Ukraine and decision not to fire",
+    "url": "https://www.rp.pl/wojsko/art45533201-rosyjski-dron-latal-nad-wschodnia-polska-w-poblizu-nie-bylo-samolotow",
+    "dateLabel": "24 November 2026; published 10:01, updated 13:12 (site display)",
+    "audit": "Directly read named-spokesperson account. Reports 22:50 entry near Dorohusk, about 20 km penetration and 8–9 minutes in Polish airspace. Jet propulsion assessed from speed; cameras/reconnaissance role not confirmed. Ground systems were authorized; no weapons used."
   }
 }

@@ -10500,14 +10500,14 @@
   },
   {
     "id": "N194",
-    "title": "Lubelskie · confirmed brief drone incursion",
+    "title": "Dorohusk · confirmed drone incursion",
     "recordClass": "event",
     "recordType": "confirmed_airspace_incursion",
     "startDate": "2026-11-23",
     "dateLabel": "23 November 2026 (Polish local date)",
-    "dateBasis": "Poland’s military confirmed the crossing on the evening of 23 November. Public warning and statement times are not crossing times.",
+    "dateBasis": "23 November local date. Rzeczpospolita, citing Operational Command on 24 November, reports entry at 22:50 CET; warning and statement timestamps are separate.",
     "countries": "Poland",
-    "location": "Eastern Poland. Map anchor is a broad Lubelskie reference for the public warning, not the crossing location.",
+    "location": "Dorohusk border area, Lubelskie, eastern Poland; approximate regional reference for the reported entry area.",
     "status": "Polish Operational Command confirmed one brief drone entry and later exit",
     "categories": "Confirmed national-airspace entry; public warnings",
     "category": "flight",
@@ -10516,29 +10516,31 @@
     ],
     "positions": [
       {
-        "lat": 51.2,
-        "lng": 22.9,
+        "lat": 51.15,
+        "lng": 23.8,
         "precision": "region",
-        "label": "Lubelskie — approximate public-warning region"
+        "label": "Dorohusk — approximate reported border-crossing area"
       }
     ],
-    "positionNote": "Broad regional reference only. Not a radar position, crossing point or flight track.",
-    "vehicle": "One unmanned aircraft recorded by Poland’s military. Model not established.",
+    "positionNote": "Updated from a broad Lubelskie warning-area anchor after the military spokesperson’s Dorohusk account. Rounded regional reference only, not a radar coordinate or a plotted flight track.",
+    "vehicle": "One jet-powered UAV, according to Operational Command spokesperson Jacek Goryszewski’s assessment from its flight speed. Model unconfirmed; he did not confirm the reported reconnaissance role or cameras.",
     "attribution": "Polish Operational Command attributed the drone to Russia. Operator details, intended target and reason for entry were not independently established.",
-    "route": "Operational Command spokesperson Lt Col Jacek Goryszewski said the object left Polish airspace. Exact crossing and exit locations, times and onward destination were not established.",
+    "route": "Rzeczpospolita’s 24 November account places entry near Dorohusk at 22:50 CET. The drone reportedly travelled about 20 km inland, turned before Chełm and returned to Ukraine. Spokesperson Jacek Goryszewski gave a duration of 8–9 minutes; no precise radar track was published.",
     "circumstances": "Poland’s military confirmed a brief breach during Russian strikes on western Ukraine. No strike on Poland was established.",
     "payload": "Not established.",
     "impact": "No impact, debris recovery, damage or casualties reported in the reviewed accounts.",
-    "response": "Polish Operational Command tracked the drone. Weapons were not used. The Government Security Centre first issued a readiness advisory for part of Lubelskie, then a wider shelter warning. An all-clear followed before midnight local time.",
-    "uncertainty": "No published precise track, exact duration, model, payload or intended target in the reviewed sources. Public warning and all-clear times do not establish a crossing or exit time.",
+    "response": "Military radar continuously tracked the drone and the operational commander authorized a shoot-down. Radio Lublin and UNITED24 report that fire was withheld after it turned east, with civilian safety considered. Goryszewski told Rzeczpospolita that authorization concerned ground systems, Polish aircraft were not operating near the border because of weather, and the drone left before weapons were used. Readiness, shelter and all-clear notices belong to the same event.",
+    "uncertainty": "Model, payload, intended target and reason for entry remain unestablished. The reported reconnaissance role and cameras were not confirmed by the named military spokesperson; Geran-5 is an unconfirmed media suggestion. The published route and duration are reported military information, not independently reviewed radar data. The exact exit time is unknown.",
     "deduplication": "One flight and its related warnings. Distinct from the 20 November Polish breach and the missile-debris correction pages N185 and N187.",
-    "provenance": "Polish Armed Forces Operational Command statement, named spokesperson quoted by IAR via Radio Lublin, and Radio Lublin’s staged warning coverage; Reuters reports the same official account.",
+    "provenance": "Original Polish Operational Command, Radio Lublin/IAR and Reuters accounts retained. Updated 24 November with UNITED24’s follow-up, the expanded Radio Lublin report and Rzeczpospolita’s named-spokesperson account. Same occurrence and permanent URL; approximate anchor refined to Dorohusk.",
     "classificationNote": "Confirmed airspace incursion. Not a confirmed attack, weapons engagement, crash or shoot-down.",
     "sources": [
       "U438",
       "U439",
       "U440",
-      "U441"
+      "U441",
+      "U454",
+      "U455"
     ],
     "reviewedOn": "2026-11-24"
   }

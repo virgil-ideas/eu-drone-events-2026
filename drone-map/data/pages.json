@@ -2537,13 +2537,13 @@
   },
   "N194": {
     "slug": "2026-11-23-lubelskie-confirmed-drone-incursion-poland",
-    "headline": "Poland confirms brief drone incursion on 23 November",
-    "description": "Poland’s military attributed one drone to Russia and confirmed it left Polish airspace. No weapons were used; public warnings were lifted that evening.",
+    "headline": "Russian-attributed drone enters Poland near Dorohusk and returns to Ukraine",
+    "description": "Poland reports a drone crossing near Dorohusk on 23 November. A shoot-down was authorized, but no weapons were used before it returned to Ukraine.",
     "summary": [
-      "Poland’s Operational Command confirmed that one drone briefly entered Polish airspace on the evening of 23 November during Russian strikes on western Ukraine. The military attributed the drone to Russia.",
-      "Operational Command spokesperson Lt Col Jacek Goryszewski said the object left Polish airspace without weapons being used. The exact crossing location and timing, model, payload and intended target are unknown. The map marker shows a broad Lubelskie warning-area reference, not a flight path.",
-      "The Government Security Centre issued a readiness advisory, followed by a wider shelter warning and an all-clear before midnight. These warnings are part of the same occurrence. This entry is distinct from the 20 November breach and does not establish an attack on Poland."
+      "Poland’s Operational Command confirmed one Russian-attributed drone entered Polish airspace on 23 November during strikes on western Ukraine. Rzeczpospolita’s follow-up, citing the command and spokesperson Jacek Goryszewski, places entry near Dorohusk at 22:50 local time, with a roughly 20 km incursion lasting 8–9 minutes before the drone turned back to Ukraine.",
+      "A shoot-down was authorized, but no weapons were used. Radio Lublin and UNITED24 report that commanders withheld fire after the eastward turn, taking civilian safety into account. Goryszewski said ground systems had authorization; Polish aircraft were not operating near the border because of weather. No casualties, impact or debris recovery were reported.",
+      "The spokesperson assessed jet propulsion from flight speed but did not confirm cameras or a reconnaissance role. The model, payload and intended target remain unknown. The Dorohusk marker is an approximate reference, not a verified crossing coordinate. Public warnings are part of this one occurrence, distinct from the 20 November missile incident."
     ],
-    "basis": "f6a0ba3ff8ef691c"
+    "basis": "2655189421e56540"
   }
 }
