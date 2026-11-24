@@ -1914,17 +1914,18 @@
     "vehicle": "1 maritime unmanned surface vessel (USV), not 2",
     "attribution": "On 23 September President Nicușor Dan told the UN Security Council that the 20 August sea drone was a Russian Navy drone. The defence minister had earlier said Ukraine told Romania it was not Ukrainian.",
     "route": "Detected at sea near offshore works; launch point unknown",
-    "circumstances": "Explosive-laden sea drone approached/drifted near works; exact intent unresolved.",
+    "circumstances": "Explosive-laden sea drone approached the offshore works. In an account published by SpotMedia on 24 November, former defence minister Radu Miruță said workers sent live video showing it close to the platform supports, a tug used propeller wash to keep it away, and Russia notified Romania of a flight restriction in the area after he ordered the fighters to engage.",
     "payload": "Explosive charge confirmed in official reporting; quantity unspecified",
     "impact": "No casualties or infrastructure damage reported in collected account",
     "response": "Romanian F-16 cannon fire damaged but did not fully destroy drone; Navy EOD subsequently neutralized it.",
-    "uncertainty": "The contemporaneous defence ministry correction established one drone, not two, but did not name an operator. Dan’s speech did not disclose the evidence behind his attribution; model, launch point and intended target remain unverified.",
+    "uncertainty": "The contemporaneous defence ministry correction established one drone, not two, but did not name an operator. Dan’s speech did not disclose the evidence behind his attribution; model, launch point and intended target remain unverified. The reported Russian flight-restriction notice is attributed to Miruță; its original text was not independently reviewed. His retrospective account does not establish whether the purpose was a strike or intimidation.",
     "deduplication": "MANDATORY RESTORED EVENT. One USV with two intervention stages. Not the 11 August aerial-drone cluster E043 or Grindu crash E046.",
-    "provenance": "Restored from correction; relevant sources rechecked during export UN verbatim record reviewed 20 November; attribution applies only to 20 August.",
+    "provenance": "Restored from correction; relevant sources rechecked during export. UN verbatim record reviewed 20 November; attribution applies only to 20 August. SpotMedia’s retrospective interview account added 24 November; contemporaneous MApN correction rechecked and retained.",
     "sources": [
       "S51",
       "S70",
-      "U397"
+      "U397",
+      "U453"
     ],
     "startDate": "2026-08-20",
     "title": "Neptun Deep · maritime drone",
@@ -1944,7 +1945,7 @@
     "classificationNote": "The supplied Observator footage appears to show the maritime drone approaching the platform. This is a visual interpretation of the footage, rather than a verified track. F-16 cannon fire hit and damaged the explosive drone, then Navy EOD neutralized it. The military engagement determines the map color; disposal was the subsequent stage.",
     "recordClass": "event",
     "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
-    "reviewedOn": "2026-11-20"
+    "reviewedOn": "2026-11-24"
   },
   {
     "id": "E048",

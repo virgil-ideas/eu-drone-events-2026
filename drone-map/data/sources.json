@@ -4475,5 +4475,13 @@
     "url": "https://english.mapn.ro/cpresa/6915_Press-Release",
     "dateLabel": "23 November 2026",
     "audit": "Companion translation of U436. Describes the aircraft response to the 22 November afternoon alert and no reported national-airspace entry; not independent evidence or another occurrence."
+  },
+  "U453": {
+    "id": "U453",
+    "publisher": "SpotMedia / Radu Miruță interview",
+    "title": "Former defence minister recounts the 20 August Neptun Deep crisis",
+    "url": "https://spotmedia.ro/stiri/opinii-si-analize/exclusiv-romania-la-un-pas-de-o-confruntare-cu-rusia-in-marea-neagra-criza-neptun-deep",
+    "dateLabel": "24 November 2026",
+    "audit": "Retrospective ministerial account reported by SpotMedia; the original flight-restriction notification was not independently reviewed. The contemporaneous MApN correction governs the one-drone engagement/EOD sequence."
   }
 }

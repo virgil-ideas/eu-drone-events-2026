@@ -3013,18 +3013,19 @@ window.DRONE_DATA = {
       "vehicle": "1 maritime unmanned surface vessel (USV), not 2",
       "attribution": "On 23 September President Nicușor Dan told the UN Security Council that the 20 August sea drone was a Russian Navy drone. The defence minister had earlier said Ukraine told Romania it was not Ukrainian.",
       "route": "Detected at sea near offshore works; launch point unknown",
-      "circumstances": "Explosive-laden sea drone approached/drifted near works; exact intent unresolved.",
+      "circumstances": "Explosive-laden sea drone approached the offshore works. In an account published by SpotMedia on 24 November, former defence minister Radu Miruță said workers sent live video showing it close to the platform supports, a tug used propeller wash to keep it away, and Russia notified Romania of a flight restriction in the area after he ordered the fighters to engage.",
       "payload": "Explosive charge confirmed in official reporting; quantity unspecified",
       "impact": "No casualties or infrastructure damage reported in collected account",
       "response": "Romanian F-16 cannon fire damaged but did not fully destroy drone; Navy EOD subsequently neutralized it.",
-      "uncertainty": "The contemporaneous defence ministry correction established one drone, not two, but did not name an operator. Dan’s speech did not disclose the evidence behind his attribution; model, launch point and intended target remain unverified.",
+      "uncertainty": "The contemporaneous defence ministry correction established one drone, not two, but did not name an operator. Dan’s speech did not disclose the evidence behind his attribution; model, launch point and intended target remain unverified. The reported Russian flight-restriction notice is attributed to Miruță; its original text was not independently reviewed. His retrospective account does not establish whether the purpose was a strike or intimidation.",
       "deduplication": "MANDATORY RESTORED EVENT. One USV with two intervention stages. Not the 11 August aerial-drone cluster E043 or Grindu crash E046.",
-      "provenance": "Restored from correction; relevant sources rechecked during export UN verbatim record reviewed 20 November; attribution applies only to 20 August.",
-      "sourceReferences": "[S51][S51]; [S70][S70]; [U397][U397]",
+      "provenance": "Restored from correction; relevant sources rechecked during export. UN verbatim record reviewed 20 November; attribution applies only to 20 August. SpotMedia’s retrospective interview account added 24 November; contemporaneous MApN correction rechecked and retained.",
+      "sourceReferences": "[S51][S51]; [S70][S70]; [U397][U397]; [U453][U453]",
       "sources": [
         "S51",
         "S70",
-        "U397"
+        "U397",
+        "U453"
       ],
       "startDate": "2026-08-20",
       "title": "Neptun Deep · maritime drone",
@@ -15482,6 +15483,14 @@ window.DRONE_DATA = {
       "url": "https://english.mapn.ro/cpresa/6915_Press-Release",
       "dateLabel": "23 November 2026",
       "audit": "Companion translation of U436. Describes the aircraft response to the 22 November afternoon alert and no reported national-airspace entry; not independent evidence or another occurrence."
+    },
+    "U453": {
+      "id": "U453",
+      "publisher": "SpotMedia / Radu Miruță interview",
+      "title": "Former defence minister recounts the 20 August Neptun Deep crisis",
+      "url": "https://spotmedia.ro/stiri/opinii-si-analize/exclusiv-romania-la-un-pas-de-o-confruntare-cu-rusia-in-marea-neagra-criza-neptun-deep",
+      "dateLabel": "24 November 2026",
+      "audit": "Retrospective ministerial account reported by SpotMedia; the original flight-restriction notification was not independently reviewed. The contemporaneous MApN correction governs the one-drone engagement/EOD sequence."
     }
   },
   "cutoff": "2026-11-23",
