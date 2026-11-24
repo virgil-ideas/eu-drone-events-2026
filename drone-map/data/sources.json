@@ -4355,5 +4355,125 @@
     "url": "https://agerpres.ro/justitie/2026/11/22/update-mapn-alerta-aeriana-a-incetat-nu-au-fost-raportate-patrunderi-in-spatiul-aerian-national--1615727",
     "dateLabel": "22 November 2026",
     "audit": "MApN reported aerial targets east of Snake Island, warning at 20:01 and all-clear at 21:15 EET; the exact number and type were not specified."
+  },
+  "U438": {
+    "id": "U438",
+    "publisher": "Polish Armed Forces Operational Command",
+    "title": "Statement confirming a short Polish airspace breach by a drone",
+    "url": "https://x.com/DowOperSZ/status/2124983170944634979",
+    "dateLabel": "23 November 2026",
+    "audit": "Official statement reproduced in Radio Lublin and Reuters. A brief crossing was confirmed and attributed to Russia. No weapons were used. No exact crossing time or location in the cited statement."
+  },
+  "U439": {
+    "id": "U439",
+    "publisher": "Radio Lublin / Polish Radio IAR",
+    "title": "Polish military confirms a brief drone crossing and exit",
+    "url": "https://radio.lublin.pl/2026/11/wojsko-doszlo-do-krotkotrwalego-naruszenia-polskiej-przestrzeni-powietrznej/",
+    "dateLabel": "23 November 2026",
+    "audit": "Directly read. Named Operational Command spokesperson Lt Col Jacek Goryszewski says one object was registered, weapons were not used, and the object left Polish airspace."
+  },
+  "U440": {
+    "id": "U440",
+    "publisher": "Radio Lublin",
+    "title": "Lubelskie public warnings and all-clear",
+    "url": "https://radio.lublin.pl/2026/11/rosyjski-atak-powietrzny-na-ukrainie-alert-dla-czesci-regionu/",
+    "dateLabel": "23 November 2026",
+    "audit": "Directly read. Reproduces the initial readiness notice, wider shelter notice and all-clear. Article update times are not exact SMS delivery, crossing or exit times."
+  },
+  "U441": {
+    "id": "U441",
+    "publisher": "Reuters, citing the Polish Armed Forces Operational Command",
+    "title": "Poland reports brief entry by a Russian unmanned aircraft",
+    "url": "https://www.reuters.com/business/aerospace-defense/russian-unmanned-aerial-vehicle-briefly-violated-polish-airspace-polish-armed-2026-11-23/",
+    "dateLabel": "23 November 2026",
+    "audit": "Reports the same Polish military account, not independent surveillance or a verified flight track."
+  },
+  "U442": {
+    "id": "U442",
+    "publisher": "Gulf of Finland Coast Guard",
+    "title": "Week 47 summary: reported Gulf of Finland drone strike and evacuation",
+    "url": "https://www.epressi.com/tiedotteet/turvallisuus/suomenlahden-merivartioston-viikko-47-venajan-federaation-rahtialus-joutui-miehittamattomien-ilma-alusten-hyokkaysten-kohteeksi-suomenlahdella-ja-syttyi-tuleen.html?c=Urheilu",
+    "dateLabel": "23 November 2026",
+    "audit": "Primary Coast Guard bulletin names KAPITAN SAKHAROV as the receiving vessel, and confirms the tow left Finland’s EEZ and environmental-response area on 22 November."
+  },
+  "U443": {
+    "id": "U443",
+    "publisher": "National Enforcement Authority of Finland",
+    "title": "Interim restriction on transfer of SPARTA II",
+    "url": "https://www.sttinfo.fi/tiedote/72525692/ulosottolaitos-selvitti-sparta-ii-rahtialuksen-yhteytta-eun-pakotelistattuihin?lang=fi&publisherId=69821596",
+    "dateLabel": "23 November 2026",
+    "audit": "Primary release says the agency assessed the vessel as belonging to an EU-sanctioned company and imposed an interim transfer restriction after entry into Finnish territorial waters on 21 November. Safety and rescue exceptions applied; no final seizure or cargo identification reported."
+  },
+  "U444": {
+    "id": "U444",
+    "publisher": "Leningrad regional governor Alexander Drozdenko",
+    "title": "Governor reports SPARTA II and crew at St Petersburg",
+    "url": "https://t.me/drozdenko_au_lo/13378",
+    "dateLabel": "23 November 2026",
+    "audit": "Governor states that the crew went ashore at 20:00 Moscow time and the ship reached the same port afloat with cargo. No exact ship-arrival time or independent port finding. His no-injury assertion differs from the Finnish Border Guard report."
+  },
+  "U445": {
+    "id": "U445",
+    "publisher": "Reuters, citing the Leningrad regional governor",
+    "title": "SPARTA II reported at St Petersburg after tow",
+    "url": "https://www.reuters.com/world/russian-cargo-ship-under-tow-after-being-hit-by-drones-arrives-st-petersburg-2026-11-23/",
+    "dateLabel": "23 November 2026",
+    "audit": "Reports the same governor’s ship-arrival account, not independently confirmed port arrival or cargo identification."
+  },
+  "U446": {
+    "id": "U446",
+    "publisher": "Svenska Yle",
+    "title": "Finland’s SPARTA II maritime rescue operation concluded",
+    "url": "https://yle.fi/a/7-10109176",
+    "dateLabel": "22 November 2026",
+    "audit": "Reports Russia assumed responsibility for maritime rescue after the vessel left Finland’s response area; not a port-arrival report."
+  },
+  "U447": {
+    "id": "U447",
+    "publisher": "Radyo Pilipinas, citing the Philippine Department of Migrant Workers",
+    "title": "GAS HUSKY crew awaiting repatriation",
+    "url": "https://radyopilipinas.ph/2026/11/23/19-na-pinoy-seafarers-ng-lpg-tanker-gas-husky-nakatakdang-umuwi-sa-pilipinas-dmw/",
+    "dateLabel": "23 November 2026",
+    "audit": "Department account says all 19 Filipino crew were in Varna preparing for repatriation and two were recovering after treatment. 26 November was an expected arrival, not a completed return; not a newer hull observation."
+  },
+  "U448": {
+    "id": "U448",
+    "publisher": "Aragvi Finance International directors (RNS 9482D)",
+    "title": "Issuer disclosure on EVIAPETROL V and planned cargo loading",
+    "url": "https://www.tradingview.com/news/reuters.com%2C2026-11-19%3Anewsml_RSS9482Da%3A0-rcs-aragvi-finance-intnl-announcements-of-solicitations-of-consent/",
+    "dateLabel": "19 November 2026",
+    "audit": "Direct company account syndicated by TradingView/RCS, not independent Reuters reporting. Ship said to be anchored awaiting authorization; planned sunflower oil loading did not occur. Does not establish jurisdiction, mechanism, or cargo aboard."
+  },
+  "U449": {
+    "id": "U449",
+    "publisher": "Lublin District Prosecutor’s Office",
+    "title": "Completion of on-site examinations in Mołodycz",
+    "url": "https://x.com/Prok_Okreg_Lub/status/2124870142362275923",
+    "dateLabel": "23 November 2026",
+    "audit": "Completion of Mołodycz on-site examination concluded fieldwork at all three sites. Evidence goes for further expert analysis; no final object or intent finding."
+  },
+  "U450": {
+    "id": "U450",
+    "publisher": "Radio Lublin",
+    "title": "Prosecutors conclude on-site work at three Polish recovery sites",
+    "url": "https://radio.lublin.pl/2026/11/rosyjskie-rakiety-w-polsce-prokuratura-zakonczyla-prace-w-miejscach-upadku/",
+    "dateLabel": "23 November 2026",
+    "audit": "Directly read. Reports the prosecutor’s Mołodycz completion and further laboratory/specialist testing, not a final identification."
+  },
+  "U451": {
+    "id": "U451",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Drone and naval-mine dashboard: 23 November snapshot",
+    "url": "https://english.mapn.ro/",
+    "dateLabel": "Updated 23 November 2026; read 24 November",
+    "audit": "2026 row: 121 nearby attacks, 99 situations involving aircraft scrambles, 39 unauthorized entries, six downed drones, 44 drone/fragment cases and two naval mines. The Romanian and English versions agree; overlapping categories, not separate occurrences."
+  },
+  "U452": {
+    "id": "U452",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Press release 235: afternoon Tulcea warning, English translation",
+    "url": "https://english.mapn.ro/cpresa/6915_Press-Release",
+    "dateLabel": "23 November 2026",
+    "audit": "Companion translation of U436. Describes the aircraft response to the 22 November afternoon alert and no reported national-airspace entry; not independent evidence or another occurrence."
   }
 }

@@ -2141,9 +2141,9 @@
       "EVIA PETROL V was hit by a drone at about 21:10 local on 14 November 2026, according to News.ro’s account of MApN information from civilian maritime authorities. The reported location was approximately 4 nautical miles east-southeast of Sulina.",
       "The crew extinguished an onboard fire; no casualties were reported. Radio România Constanța describes Romanian territorial waters, but exact impact coordinates and jurisdiction have not been independently verified.",
       "Operator, origin, intent and any connection to other vessel hits or nearby alerts remain unknown.",
-      "Trans-Oil said the planned Giurgiulești loading voyage could not take place. About 6,500 tonnes of sunflower oil were due to be loaded, not confirmed aboard; possible logistical delays and costs remain company warnings."
+      "In a 19 November issuer disclosure, Trans-Oil’s group said the ship was anchored at the Sulina Canal entrance awaiting authorization to proceed to Giurgiulești. Damage prevented the planned voyage to load about 6,500 tonnes of sunflower oil. That cargo was not confirmed aboard; possible logistical delays and costs remain company warnings."
     ],
-    "basis": "5ba1b939eab67a92"
+    "basis": "e226ecf51f19239c"
   },
   "N161": {
     "slug": "2026-11-14-marsol-reported-drone-hit-sulina-romania",
@@ -2321,9 +2321,10 @@
       "On 18 November, Varna governor Mario Smurkov told bTV that there had been four impacts, but sailors’ accounts conflicted and drone types remained unconfirmed. He said the vessels had not yet sunk and no pollution had been detected at that time. Four impacts do not establish four independently verified drones.",
       "Reuters reported on 18 November that two unnamed maritime-security sources attributed the strike to an unmanned system. It repeated the governor’s four-impact account without establishing drone type or operator. Reuters described the ship as sunk but provided no newer observation time to resolve the earlier condition reports.",
       "Bulgarian NAVWARN 858/26 gives a later observation at 13:30 UTC on 19 November: the vessel was listing about 45 degrees, bridge submerged, drifting without crew or control. This is not a final-condition or cause determination.",
-      "NAVWARN 865/26 reports that at 12:38 UTC on 21 November, GAS HUSKY was still uncrewed and adrift, heavily listing and with its bridge submerged. The observation does not establish a sinking or the original mechanism."
+      "NAVWARN 865/26 reports that at 12:38 UTC on 21 November, GAS HUSKY was still uncrewed and adrift, heavily listing and with its bridge submerged. The observation does not establish a sinking or the original mechanism.",
+      "The Philippine Department of Migrant Workers said all 19 Filipino crew were in Varna awaiting repatriation and two injured crew were recovering. Arrival in the Philippines was expected on 26 November, not yet verified. This does not establish the vessel’s final condition."
     ],
-    "basis": "694e42fd221114d7"
+    "basis": "f84a4685c363dda4"
   },
   "N179": {
     "slug": "2026-11-17-aegean-reported-turkish-uav-activity-greece",
@@ -2443,10 +2444,10 @@
     "description": "The 20 November Polish airspace breach remains confirmed. Preliminary findings at all three recovery sites supersede earlier drone suspicions; further testing is pending.",
     "summary": [
       "Poland confirmed that three objects entered its airspace on 20 November. Poland’s National Security Bureau initially assessed the debris as likely from a jet-powered drone. The separate airspace breach is a confirmed occurrence, not proof that a drone was among the objects.",
-      "On 22 November, the Lublin District Prosecutor’s Office said preliminary specialist examinations found Kh-101 cruise-missile fragments at all three recovery sites: Nowy Lipowiec, Rudnik nad Sanem and Mołodycz. Prosecutors said they planned to resume the Mołodycz site examination on 23 November. Further expert examination of the recovered fragments and traces is pending.",
+      "On 22 November, the Lublin District Prosecutor’s Office said preliminary specialist examinations found Kh-101 cruise-missile fragments at all three recovery sites: Nowy Lipowiec, Rudnik nad Sanem and Mołodycz. On 23 November it reported completing the Mołodycz examination, ending fieldwork at all three sites. Laboratory and specialist analysis remains pending.",
       "This page keeps the original date and URL to document the correction. The record is excluded from active drone totals because the latest evidence does not support the earlier drone assessment. The intended target and whether the border crossing was deliberate remain unestablished."
     ],
-    "basis": "eb2140c09f29b707"
+    "basis": "23e3ca7e14788f9a"
   },
   "N186": {
     "slug": "2026-11-20-aegean-reported-turkish-uav-activity-greece",
@@ -2472,15 +2473,17 @@
   "N188": {
     "slug": "2026-11-21-sparta-ii-reported-drone-strike-gulf-of-finland",
     "headline": "SPARTA II crew evacuated after reported drone strike in the Gulf of Finland",
-    "description": "Finland led the rescue after the damaged cargo ship drifted into its territorial waters. The Border Guard later reported one crew member injured.",
+    "description": "Finland led the rescue. Its Border Guard reported one injury. A Russian regional governor later said the crew and damaged vessel reached St Petersburg.",
     "summary": [
       "Finland’s Defence Forces reported a drone strike on 21 November in the eastern Gulf of Finland. The military placed it in international waters, while Border Guard commander Ilja Iljin said it happened in Russian territorial waters. The burning ship later drifted into Finnish territorial waters. That does not establish a drone crossing into Finland.",
-      "The Finnish Border Guard confirmed the crew evacuated by lifeboat and transferred to another cargo vessel. At its 22 November briefing, the Guard reported one crew member injured, superseding the earlier no-injury account. Firefighting continued after visible flames were suppressed. A tow was being prepared; no oil had been observed at sea as of the briefing. That was not a final assessment.",
+      "The Finnish Coast Guard confirmed the crew evacuated to KAPITAN SAKHAROV. At its 22 November briefing the Finnish Border Guard reported one crew member injured. Firefighting continued after visible flames were suppressed; no oil had been observed at sea as of that briefing. That was not a final assessment.",
       "Finnish Defence Forces communications director Aki-Mauri Huhtinen assessed Ukraine was likely responsible. The specific operator, intent and cargo were not independently established.",
       "Estonia’s Foreign Ministry says the damaged vessel drifted from Estonia’s exclusive economic zone into Finland’s exclusive economic zone, then into Finnish territorial waters. Estonia assisted at Finland’s request; the Finnish Border Guard confirmed Estonian participation in firefighting and cooling. The rescue accounts do not establish the strike location or route of a drone.",
-      "Later on 22 November the Finnish Border Guard confirmed the tow had begun, and Helsinki’s Rescue Department announced the end of precautionary oil-response standby. The Gulf of Finland Coast Guard then reported that the vessel had been towed beyond Finland’s EEZ and environmental-response area. Finland ended its mission and lifted temporary maritime and aviation restrictions. Port arrival, final fire status and environmental outcome remain unverified."
+      "On 22 November the tow left Finland’s exclusive economic zone and environmental-response area, Finland ended its mission and temporary restrictions were lifted. Helsinki ended precautionary oil-response standby separately. Svenska Yle reported Russia assumed maritime rescue responsibility.",
+      "On 23 November Leningrad regional governor Alexander Drozdenko said the crew went ashore at St Petersburg at 20:00 Moscow time. He said the ship reached the same port afloat with its cargo, without giving the ship’s arrival time. His report of no injuries conflicts with the Finnish Border Guard’s report. Final fire and pollution outcomes and the cargo’s identity remain unverified.",
+      "Finland’s National Enforcement Authority said it assessed the ship as belonging to an EU-sanctioned company and imposed an interim transfer restriction after it entered Finnish territorial waters on 21 November. The restriction had rescue, safety and environmental exceptions. Final legal disposition was not established."
     ],
-    "basis": "89db18009ec1fe94"
+    "basis": "ad2bf66f20a59b8a"
   },
   "N189": {
     "slug": "2026-11-21-northeastern-estonia-air-threat-warning",
@@ -2516,9 +2519,10 @@
     "description": "Northern Tulcea received a separate afternoon warning at 15:06 local time on 22 November. No Romanian airspace entry was reported.",
     "summary": [
       "Romania’s Defence Ministry reported one aerial target north of Vâlcove, Ukraine and a northern Tulcea RO-Alert from 15:06 to 15:42 local time on 22 November. No Romanian airspace entry was reported.",
+      "The ministry said Spanish fighter aircraft and helicopters took off in response. It did not report an interception.",
       "This is a civil-protection warning, not a confirmed drone incursion or attack. Target type and operator were not established."
     ],
-    "basis": "e024b99b8500425f"
+    "basis": "dfeb701d95f5c7f6"
   },
   "N193": {
     "slug": "2026-11-22-northern-tulcea-evening-ro-alert-romania",
@@ -2529,5 +2533,16 @@
       "This is a civil-protection warning, not a confirmed drone incursion or attack. Target type and operator were not established."
     ],
     "basis": "b08c623f2ea030e0"
+  },
+  "N194": {
+    "slug": "2026-11-23-lubelskie-confirmed-drone-incursion-poland",
+    "headline": "Poland confirms brief drone incursion on 23 November",
+    "description": "Poland’s military attributed one drone to Russia and confirmed it left Polish airspace. No weapons were used; public warnings were lifted that evening.",
+    "summary": [
+      "Poland’s Operational Command confirmed that one drone briefly entered Polish airspace on the evening of 23 November during Russian strikes on western Ukraine. The military attributed the drone to Russia.",
+      "Operational Command spokesperson Lt Col Jacek Goryszewski said the object left Polish airspace without weapons being used. The exact crossing location and timing, model, payload and intended target are unknown. The map marker shows a broad Lubelskie warning-area reference, not a flight path.",
+      "The Government Security Centre issued a readiness advisory, followed by a wider shelter warning and an all-clear before midnight. These warnings are part of the same occurrence. This entry is distinct from the 20 November breach and does not establish an attack on Poland."
+    ],
+    "basis": "f6a0ba3ff8ef691c"
   }
 }

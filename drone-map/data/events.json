@@ -9020,21 +9020,22 @@
     "vehicle": "Maritime.bg describes aerial drones; type, number and origin not independently established.",
     "attribution": "Operator, nationality, intended target and intent unknown.",
     "route": "Approach and launch location unknown; reported vessel location is not a drone route.",
-    "circumstances": "News.ro reports that MApN, citing civilian maritime authorities, recorded a drone hit on EVIA PETROL V at about 21:10 local. The vessel is described as a Greek-flagged tanker. Maritime.bg identifies EVIAPETROL V (IMO 9358503), spelling also reported as EVIA PETROL V.",
+    "circumstances": "News.ro reports that MApN, citing civilian maritime authorities, recorded a drone hit on EVIA PETROL V at about 21:10 local. The vessel is described as a Greek-flagged tanker. Maritime.bg identifies EVIAPETROL V (IMO 9358503), spelling also reported as EVIA PETROL V. The issuer disclosure says the ship was anchored at the Sulina Canal entrance awaiting authorization to continue to Giurgiulești.",
     "payload": "Not reported; fire does not establish an explosive payload.",
     "impact": "Onboard fire reported; extinguished by crew. No casualties reported. Trans-Oil said damage prevented the planned voyage to Giurgiulești to load about 6,500 tonnes of sunflower oil; it warned of possible loading delays and additional logistics costs.",
     "response": "Crew firefighting; further technical assessment not established in the reviewed account.",
     "uncertainty": "Exact position and jurisdiction not independently verified. Ministry account accessed through News.ro, not a direct evening release. Maritime reporting chains may share provenance. No established link to nearby aerial-target alerts, another vessel hit or the previous day’s LARISSA 1 incident. Maritime.bg relays nearby seafarers’ account of VHF no-injury reports; the transmission itself was not verified. Its coordinated-attack characterization is not established. The cargo was planned for loading, not established aboard; company forecasts of delays/costs are not quantified incurred losses.",
     "deduplication": "One separately named vessel occurrence, distinct in time and location from the other 14 November Sulina hit. Do not add alert detections or fire response as extra drone occurrences. Distinct from LARISSA 1 N158 and morning alert N159.",
-    "provenance": "Targeted review of actual News.ro and Radio România Constanța article bodies; reviewed 15 November 2026.",
+    "provenance": "Targeted review of actual News.ro and Radio România Constanța article bodies; reviewed 15 November 2026. The 19 November issuer disclosure corroborates the same company account of the planned voyage; it is not independent tracking.",
     "classificationNote": "Reported damaging drone impact supports Strike; onboard fire is not by itself a confirmed explosion. Territorial-water wording remains source-attributed, not independently verified.",
     "sources": [
       "U304",
       "U305",
       "U306",
-      "U321"
+      "U321",
+      "U448"
     ],
-    "reviewedOn": "2026-11-15"
+    "reviewedOn": "2026-11-24"
   },
   {
     "id": "N161",
@@ -9749,10 +9750,10 @@
     "circumstances": "Bulgarian authorities located an overturned vessel presumed to be GAS HUSKY and a nearby life raft. AP, citing Maritime.bg, reports the rescued captain saying four drones hit the vessel, while explicitly noting no official confirmation of the cause. Separate media attribute a drone-strike claim to the Romanian Naval Authority; its original statement was not located. Stealth Maritime, in a statement reproduced by Naftemporiki, says the vessel was struck early on 17 November in Bulgaria’s EEZ, without identifying the mechanism; its condition was unknown to the manager at the time. In an 18:06 report, Maritime.bg cites an unnamed source at the Greece-based management company alleging a combined surface- and aerial-drone attack; this more specific mechanism is not independently confirmed. In a bTV interview published 18 November, Varna governor Mario Smurkov asserted four impacts but described contradictory sailors’ accounts and said the drone types were not confirmed. Reuters’ 18 November dispatch additionally cites two unnamed maritime-security sources attributing the casualty to an unmanned-system strike; the governor reiterates four impacts without identifying drone types.",
     "payload": "Alleged drone payload unknown. Bulgarian transport ministry reports 3400 tonnes of propane-butane cargo; cargo is not a drone payload.",
     "impact": "All 19 crew rescued. At 10:50 UTC the primary warning described 45-degree listing, submerged bridge and an unmanned drifting vessel. This does not establish complete sinking, despite early reports. BNR reports two sailors to hospital and no pollution recorded at the briefing. In the 18 November morning bTV report, the governor said the vessels had not yet sunk and no pollution had been detected; this is a dated assessment, not a guarantee of later condition. The 18 November Reuters report describes the vessel as sunk, without a newer observation timestamp to reconcile the earlier reports. Bulgarian NAVWARN 858/26 gives a later observation at 13:30 UTC on 19 November: the vessel was listing about 45 degrees, bridge submerged, drifting without crew or control. This is not a final-condition or cause determination. NAVWARN 865/26 reports that at 12:38 UTC on 21 November, GAS HUSKY was still uncrewed and adrift, heavily listing and with its bridge submerged. The observation does not establish a sinking or the original mechanism.",
-    "response": "Bulgarian air and maritime agencies mounted rescue; crew evacuated by helicopter to Chaika naval airbase. Transport ministry says search and rescue ended 13:15 local. Navigation warning remains distinct from rescue completion.",
+    "response": "Bulgarian air and maritime agencies mounted rescue; crew evacuated by helicopter to Chaika naval airbase. Transport ministry says search and rescue ended 13:15 local. Navigation warning remains distinct from rescue completion. The Philippine Department of Migrant Workers reported all 19 Filipino crew were in Varna awaiting repatriation and two injured crew were recovering after treatment. Their arrival in the Philippines was expected on 26 November, not yet verified.",
     "uncertainty": "Drone involvement, weapon type, operator and precise attack time/location remain unconfirmed. No established link to BETUL 8 or other Black Sea casualties. EEZ is not equivalent to territorial waters; no EU territorial incursion established. The anonymous-source combined USV/UAV account is distinct from the public manager statement; neither drone types nor coordination are independently established. The governor’s four-impact account does not independently establish four drones or the anonymous-source combined mechanism.",
     "deduplication": "One separate GAS HUSKY casualty, not BETUL 8; beacon, rescue and later casualty observation are stages of one occurrence.",
-    "provenance": "Primary transport-ministry statements and VTMIS NAVWARN 854/26 read 17 November 2026; BNR updated briefing and media-attributed ANR claim separately reviewed. Updated AP account of captain’s four-drone claim reviewed 17 November; original Maritime.bg inaccessible. Primary NAVWARN854/26 rechecked unchanged. Manager statement reproduced by Naftemporiki reviewed 17 November; does not confirm drone mechanism or final condition. Maritime.bg18:06 anonymous management-source report read via indexed text; no independent corroboration of combined mechanism located. Governor interview reported by bTV18November reviewed as attributed follow-up, not a new occurrence. Reuters follow-up reviewed 19 November via The Star; same occurrence. Primary NAVWARN 858/26 read for its dated 19 November follow-up. Read issuer NAVWARN 865/26 and its dated archive on 22 November.",
+    "provenance": "Primary transport-ministry statements and VTMIS NAVWARN 854/26 read 17 November 2026; BNR updated briefing and media-attributed ANR claim separately reviewed. Updated AP account of captain’s four-drone claim reviewed 17 November; original Maritime.bg inaccessible. Primary NAVWARN854/26 rechecked unchanged. Manager statement reproduced by Naftemporiki reviewed 17 November; does not confirm drone mechanism or final condition. Maritime.bg18:06 anonymous management-source report read via indexed text; no independent corroboration of combined mechanism located. Governor interview reported by bTV18November reviewed as attributed follow-up, not a new occurrence. Reuters follow-up reviewed 19 November via The Star; same occurrence. Primary NAVWARN 858/26 read for its dated 19 November follow-up. Read issuer NAVWARN 865/26 and its dated archive on 22 November. Philippine crew-welfare reporting reviewed 24 November; not a newer hull observation.",
     "classificationNote": "Provisional offshore candidate, Alert/other; confirmed maritime casualty is not a confirmed drone strike.",
     "sources": [
       "U360",
@@ -9766,9 +9767,10 @@
       "U378",
       "U395",
       "U408",
-      "U423"
+      "U423",
+      "U447"
     ],
-    "reviewedOn": "2026-11-22"
+    "reviewedOn": "2026-11-24"
   },
   {
     "id": "N179",
@@ -10114,10 +10116,10 @@
     "circumstances": "Poland confirmed three objects entered its airspace on 20 November. Poland’s National Security Bureau initially assessed the debris as likely from a jet-powered drone. The Lublin District Prosecutor’s Office subsequently reported preliminary identification of Kh-101 cruise-missile debris at Mołodycz, as well as at the two other recovery sites.",
     "payload": "Not established for the Mołodycz object.",
     "impact": "The Prime Minister reported no casualties or damage in the broader episode.",
-    "response": "Authorities secured the recovery site and reported initial safety checks. The Lublin prosecutor announced the preliminary missile-fragment findings on 22 November. Prosecutors said they planned to resume the Mołodycz site examination on 23 November. Recovered fragments and forensic traces are due for further expert examination.",
+    "response": "Authorities secured the recovery site and reported initial safety checks. The Lublin prosecutor announced preliminary missile-fragment findings on 22 November. The office reported completing the Mołodycz scene examination on 23 November, ending fieldwork at all three sites. Recovered evidence goes for further laboratory and specialist examination.",
     "uncertainty": "The findings are preliminary, not final laboratory results. They supersede the earlier drone suspicion for this debris, but do not by themselves establish the identity or count of every object in flight, its precise track, its intent or its intended target.",
     "deduplication": "This is the existing Mołodycz recovery site within the 20 November breach, not a new occurrence. The page is preserved with its original date and URL, but is not part of active drone totals.",
-    "provenance": "Original Polish official and contemporary accounts retained. Classification updated after reading the Lublin District Prosecutor’s Office statement of 22 November 2026.",
+    "provenance": "Original Polish official and contemporary accounts retained. Classification updated after reading the Lublin District Prosecutor’s Office statement of 22 November 2026. On-site completion confirmed in the prosecutor’s 23 November update; final identification remains pending.",
     "classificationNote": "Superseded drone candidate retained as an exclusion/correction. The confirmed airspace breach is not a confirmed drone attack.",
     "sources": [
       "U402",
@@ -10127,9 +10129,11 @@
       "U412",
       "U424",
       "U425",
-      "U429"
+      "U429",
+      "U449",
+      "U450"
     ],
-    "reviewedOn": "2026-11-22",
+    "reviewedOn": "2026-11-24",
     "exclusionReason": "Lublin prosecutors’ preliminary 22 November examination identified Kh-101 cruise-missile fragments at Mołodycz, superseding the earlier drone suspicion. Expert examination is pending; current evidence does not support counting this as a drone event."
   },
   {
@@ -10236,7 +10240,7 @@
     "dateBasis": "Date of the reported strike and first maritime rescue response.",
     "countries": "Finland (later maritime rescue; strike outside Finnish territorial waters)",
     "location": "Eastern Gulf of Finland. Finnish accounts differ on whether the strike was in international waters or Russian territorial waters. The damaged ship later drifted into Finnish territorial waters.",
-    "status": "Reported offshore drone strike; crew evacuated, one injury reported; firefighting continued on 22 November",
+    "status": "Reported offshore drone strike; crew evacuated; Russian governor reports arrival at St Petersburg",
     "categories": "Reported drone strike on merchant shipping; vessel fire; crew evacuation; maritime rescue",
     "category": "strike",
     "stages": [
@@ -10256,11 +10260,11 @@
     "route": "Estonia’s Foreign Ministry says the damaged vessel drifted from Estonia’s exclusive economic zone into Finland’s exclusive economic zone, then into Finnish territorial waters. This was the ship’s movement, not a verified drone route or territorial entry.",
     "circumstances": "Finland’s Defence Forces reported a drone strike in the eastern Gulf of Finland. The damaged ship caught fire and later drifted into Finnish waters.",
     "payload": "Drone payload and cargo on this voyage were not established.",
-    "impact": "The Finnish Border Guard confirmed the crew was evacuated. At the 22 November briefing, maritime operations director Jukka-Pekka Lumilahti reported one crew member injured, superseding the earlier no-injury account. Injury severity was not reported in the briefing coverage.",
-    "response": "Finland led the maritime rescue. The crew left in lifeboats and transferred to another cargo vessel. Estonia assisted at Finland’s request. The Guard said on 22 November that visible flames had been suppressed the previous evening but firefighting continued. It reported tow preparations and no oil observed at sea as of the briefing; pollution-response readiness was increased. Later on 22 November the Finnish Border Guard confirmed towing had begun. The Helsinki City Rescue Department announced that precautionary oil-spill standby had ended. The Gulf of Finland Coast Guard then said the ship had been towed beyond Finland’s EEZ and environmental-response area, Finland’s mission had ended and temporary maritime and aviation restrictions had been lifted.",
-    "uncertainty": "Finland’s military placed the strike in international waters; Iljin separately told Yle it occurred in Russian territorial waters. Neither account places it in Finnish waters. Port arrival, full extinguishment and final environmental outcome remain unverified. No established link to separate precautionary alerts or the suspected manned helicopter airspace episode.",
+    "impact": "The Finnish Border Guard confirmed the crew was evacuated. Maritime operations director Jukka-Pekka Lumilahti reported one injured crew member at the 22 November briefing, superseding the earlier no-injury account. On 23 November Leningrad regional governor Alexander Drozdenko said the crew went ashore in St Petersburg at 20:00 Moscow time and claimed no injuries. The accounts differ; injury severity was not given in the Finnish briefing coverage.",
+    "response": "Finland led the maritime rescue with Estonian assistance. The Gulf of Finland Coast Guard confirmed the crew evacuated to KAPITAN SAKHAROV. The Border Guard reported continued firefighting after suppression of visible flames and no oil observed as of its 22 November briefing. Helsinki ended precautionary oil-spill standby separately. By later on 22 November Finland confirmed the tow had left its EEZ and environmental-response area, ended its mission and lifted temporary restrictions. Svenska Yle reported that Russia assumed maritime rescue responsibility. On 23 November Drozdenko said SPARTA II reached St Petersburg afloat with its cargo, without giving the ship’s arrival time. Separately, Finland’s National Enforcement Authority said it assessed the ship as belonging to an EU-sanctioned company and imposed an interim transfer restriction after entry to Finnish territorial waters on 21 November, with rescue, safety and environmental exceptions.",
+    "uncertainty": "Finland’s military placed the strike in international waters; Iljin separately told Yle it occurred in Russian territorial waters. Neither account places it in Finnish waters. The ship’s arrival is governor-attributed; exact arrival time, final fire or pollution outcome, specific cargo and final legal disposition are unverified. No established link to separate precautionary alerts or the suspected manned helicopter airspace episode.",
     "deduplication": "One vessel strike and its subsequent rescue. Neither the ship’s drift nor the crew’s evacuation is a second strike or a drone incursion.",
-    "provenance": "Reviewed against Finnish and Estonian official accounts and interviews and reporting by Reuters and Yle. Casualty and rescue account updated after the Finnish Border Guard’s 22 November briefing. Later 22 November response developments reviewed 23 November.",
+    "provenance": "Reviewed against Finnish and Estonian official accounts and interviews and reporting by Reuters and Yle. Casualty and rescue account updated after the Finnish Border Guard’s 22 November briefing. Later 22 November response developments reviewed 23 November. Coast Guard week 47 bulletin and Finnish enforcement disclosure reviewed, alongside the regional governor’s arrival account as also reported by Reuters.",
     "classificationNote": "Offshore reported strike with subsequent Finnish maritime response, not a verified EU territorial drone incursion.",
     "sources": [
       "U413",
@@ -10272,9 +10276,14 @@
       "U428",
       "U430",
       "U431",
-      "U432"
+      "U432",
+      "U442",
+      "U443",
+      "U444",
+      "U445",
+      "U446"
     ],
-    "reviewedOn": "2026-11-23"
+    "reviewedOn": "2026-11-24"
   },
   {
     "id": "N189",
@@ -10436,15 +10445,16 @@
     "circumstances": "Romania’s Defence Ministry reported one aerial target north of Vâlcove, Ukraine and a northern Tulcea RO-Alert from 15:06 to 15:42 local time on 22 November. No Romanian airspace entry was reported.",
     "payload": "Not established.",
     "impact": "No entry into Romanian airspace reported.",
-    "response": "RO-Alert at 15:06 EET; alert ended at 15:42 EET.",
+    "response": "RO-Alert at 15:06 EET; alert ended at 15:42 EET. The Defence Ministry said Spanish fighter aircraft and helicopters took off in response. No interception reported.",
     "uncertainty": "No confirmed drone identity, route, operator, intended target or Romanian incursion.",
     "deduplication": "One afternoon alert and all-clear, distinct from the other warnings that day. Not an incursion count.",
-    "provenance": "Romanian Defence Ministry statement read directly.",
+    "provenance": "Romanian Defence Ministry statement and its companion English translation read; both describe the same episode.",
     "classificationNote": "Selected alert only, not an established territorial drone incursion or attack.",
     "sources": [
-      "U436"
+      "U436",
+      "U452"
     ],
-    "reviewedOn": "2026-11-23"
+    "reviewedOn": "2026-11-24"
   },
   {
     "id": "N193",
@@ -10486,5 +10496,49 @@
       "U437"
     ],
     "reviewedOn": "2026-11-23"
+  },
+  {
+    "id": "N194",
+    "title": "Lubelskie · confirmed brief drone incursion",
+    "recordClass": "event",
+    "recordType": "confirmed_airspace_incursion",
+    "startDate": "2026-11-23",
+    "dateLabel": "23 November 2026 (Polish local date)",
+    "dateBasis": "Poland’s military confirmed the crossing on the evening of 23 November. Public warning and statement times are not crossing times.",
+    "countries": "Poland",
+    "location": "Eastern Poland. Map anchor is a broad Lubelskie reference for the public warning, not the crossing location.",
+    "status": "Polish Operational Command confirmed one brief drone entry and later exit",
+    "categories": "Confirmed national-airspace entry; public warnings",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 51.2,
+        "lng": 22.9,
+        "precision": "region",
+        "label": "Lubelskie — approximate public-warning region"
+      }
+    ],
+    "positionNote": "Broad regional reference only. Not a radar position, crossing point or flight track.",
+    "vehicle": "One unmanned aircraft recorded by Poland’s military. Model not established.",
+    "attribution": "Polish Operational Command attributed the drone to Russia. Operator details, intended target and reason for entry were not independently established.",
+    "route": "Operational Command spokesperson Lt Col Jacek Goryszewski said the object left Polish airspace. Exact crossing and exit locations, times and onward destination were not established.",
+    "circumstances": "Poland’s military confirmed a brief breach during Russian strikes on western Ukraine. No strike on Poland was established.",
+    "payload": "Not established.",
+    "impact": "No impact, debris recovery, damage or casualties reported in the reviewed accounts.",
+    "response": "Polish Operational Command tracked the drone. Weapons were not used. The Government Security Centre first issued a readiness advisory for part of Lubelskie, then a wider shelter warning. An all-clear followed before midnight local time.",
+    "uncertainty": "No published precise track, exact duration, model, payload or intended target in the reviewed sources. Public warning and all-clear times do not establish a crossing or exit time.",
+    "deduplication": "One flight and its related warnings. Distinct from the 20 November Polish breach and the missile-debris correction pages N185 and N187.",
+    "provenance": "Polish Armed Forces Operational Command statement, named spokesperson quoted by IAR via Radio Lublin, and Radio Lublin’s staged warning coverage; Reuters reports the same official account.",
+    "classificationNote": "Confirmed airspace incursion. Not a confirmed attack, weapons engagement, crash or shoot-down.",
+    "sources": [
+      "U438",
+      "U439",
+      "U440",
+      "U441"
+    ],
+    "reviewedOn": "2026-11-24"
   }
 ]

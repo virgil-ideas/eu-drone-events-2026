@@ -1134,3 +1134,61 @@ Inclusive occurrence cutoff remains 22 November.
   objects were detected in Lithuania in connection with the unverified
   Kaliningrad claim. No evidence of a Lithuanian incursion.
   https://www.lrt.lt/naujienos/lietuvoje/2/3121191/vitkauskas-apie-pranesimus-del-dronu-kaliningrade-negavome-patvirtinimu-del-sprogimu
+
+## 24 November 2026 EU27 review
+
+Bounded public-source searches screened all 27 EU states with at least 72
+hours of overlap, from 20 November at approximately 06:05 UTC through
+24 November at 06:06 UTC, with targeted spot-checks through 06:08 UTC.
+Country screening is partial and does not clear historical or local-archive
+gaps. The inclusive occurrence cutoff advances to 23 November
+for one confirmed drone flight, N194. This does not certify coverage through
+that date. No additional occurrence is inferred from source follow-ups.
+
+- **Poland:** The military confirmed one brief drone crossing on the evening
+  of 23 November and attributed it to Russia. A named military spokesperson
+  said the object left Polish airspace; weapons were not used. The readiness
+  notice, wider shelter warning and all-clear are part of that same event.
+  The warning region and public notice times are not a track or crossing
+  times. Separately, prosecutors finished on-site examinations at Mołodycz
+  on 23 November, ending fieldwork on the 20 November breach. Laboratory
+  analysis remains pending; N185 and N187 remain excluded as preliminary
+  cruise-missile debris corrections.
+- **SPARTA II:** N188 adds the Finnish Coast Guard’s confirmation of the
+  receiving ship and completed Finland response, a separate interim transfer
+  restriction, and the regional governor’s 23 November report of crew and
+  ship arrival in St Petersburg. The governor’s no-injury assertion conflicts
+  with the Finnish Border Guard report of one injured crew member. Final fire
+  and pollution outcomes remain unverified. None is a new strike or evidence
+  of a Finnish territorial drone entry.
+- **Other source follow-ups:** N178 adds the Philippine crew-welfare account,
+  not a new hull observation. N160 gains the issuer disclosure for the missed
+  loading voyage; planned cargo is not cargo aboard. N192 adds the official
+  Spanish aircraft response without an interception or reported Romanian
+  entry. The dated Romanian ministry dashboard updates A003’s overlapping
+  2026 figures, not the count of mapped occurrences.
+- **Greece:** No reliable date-specific figures for 23 November were verified;
+  the primary register remained inaccessible. The 21 November single-source
+  lead and earlier archive gaps remain open. FIR infringements are separate
+  from national-airspace violations.
+- **Italy:** For the 20 November Sigonella episode, [Stars and Stripes reports
+  three detections](https://www.stripes.com/branches/navy/2026-11-23/drones-sigonella-iran-sicily-navy-23552110.html),
+  citing the U.S. Naval Forces Europe-Africa spokesperson, who said there
+  was no impact to base residents or critical infrastructure and the
+  investigation was open. [ANSA cites Italian Air Force sources](https://www.ansa.it/sito/notizie/mondo/2026/11/21/a-sigonella-accertamenti-in-corso-dopo-il-possibile-sorvolo-di-droni_f2d335b7-be89-4930-bb82-a4ab490d0a88.html)
+  for one apparently civilian quadcopter and a temporary flight suspension.
+  Whether the accounts describe matching detections, and whether foreign
+  entry occurred, remain unresolved. No established link to Genoa.
+- **Luxembourg:** In a 23 November account, [RTL reports the government's
+  response](https://infos.rtl.lu/news/luxembourg/le-gouvernement-ignore-sil-sagissait-de-drones-1572691068)
+  that investigators could neither confirm nor rule out drones in the
+  distinct September Findel and Medernach reports. No technical identification
+  or established foreign entry; watchlist only. The earlier [government
+  briefing](https://gouvernement.lu/fr/actualites/toutes_actualites/communiques/2026/09-septembre/19-point-presse.html)
+  is contemporaneous context.
+- **Other screened leads:** The [22 November Hamburg disruption](https://www.rtl.de/news/hamburger-flughafen-drohne-zwingt-eurowings-maschine-zum-durchstarten-id31565437.html)
+  involved an apparent local operation, no verified foreign entry. The
+  [22 November Baraque Michel crash](https://brf.be/regional/2127871/)
+  was a domestic military exercise accident without reported injuries. The
+  separately confirmed [23 November Moldovan incursion](https://www.army.md/ro/comunicate-de-presa/informeaza-43)
+  is outside the EU and does not establish a Romanian or Polish link.
