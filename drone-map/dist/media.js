@@ -267,10 +267,10 @@ window.DRONE_MEDIA = {
         }
       },
       {
-        "alt": "Cuget Liber video presenting testimony from the crew of the tanker Gas Lisbon about the night-time drone attack.",
+        "alt": "Cuget Liber video presenting testimony from the crew of the tanker Gas Lisbon about the reported night-time drone attack.",
         "date": "2026-07-22",
         "image": "https://i.ytimg.com/vi/0_dZsKBuSRM/hqdefault.jpg",
-        "note": "Cuget Liber video of 22 July 2026 with crew testimony from the Gas Lisbon, the LPG tanker attacked by drones off Sfântu Gheorghe the night of 20-21 July.",
+        "note": "Cuget Liber video of 22 July 2026 with crew testimony from the Gas Lisbon, the LPG tanker involved in a reported drone attack off Sfântu Gheorghe the night of 20-21 July.",
         "publisher": "Cuget Liber",
         "title": "Ce-au spus marinarii aflați pe nava atacată cu drone.\"A fost o lovitură foarte puternică la tribord\"",
         "url": "https://www.youtube.com/watch?v=0_dZsKBuSRM",

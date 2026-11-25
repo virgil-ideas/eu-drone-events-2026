@@ -44,6 +44,21 @@ class PageTests(unittest.TestCase):
                          {'E001': '2026-01-02-example-romania'})
         self.build(check=True)
 
+    def test_index_counts_country_without_losing_offshore_note(self):
+        a = self.database['events'][0]
+        a['countries'] = 'Finland (later rescue; strike outside Finnish territorial waters)'
+        self.database['events'].append({**a, 'id': 'E002', 'startDate': '2026-01-03',
+                                        'countries': 'Lithuania; Latvia'})
+        self.save()
+        self.build()
+        index = self.published()['events/index.html'].decode()
+        for country in ('Finland', 'Lithuania', 'Latvia'):
+            self.assertIn(f'<li><strong>1</strong> {country}</li>', index)
+        self.assertIn('associated with 3 EU countries', index)
+        self.assertIn(a['countries'], index)
+        self.assertIn('Lithuania, Latvia', index)
+        self.assertNotIn('<strong>1</strong> strike outside', index)
+
     def test_reviewed_copy_is_used_until_its_facts_change(self):
         self.save()
         self.save_pages(self.reviewed())

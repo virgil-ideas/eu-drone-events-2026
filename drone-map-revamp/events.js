@@ -2025,27 +2025,31 @@ window.DRONE_DATA = {
     {
       "id": "E033",
       "dateLabel": "2026-07-21",
-      "dateBasis": "Night/morning 21 July; crew interviews published 21 July; EEST",
+      "dateBasis": "21 July local date; distress alert 00:05 EEST (21:05 UTC on 20 July), not the exact explosion time.",
       "countries": "Romania (adjacent maritime case)",
-      "location": "Black Sea, approximately 26 km off Sfântu Gheorghe; reported outside territorial waters",
+      "location": "Black Sea off Sfântu Gheorghe, in Romania’s EEZ outside territorial waters; official accounts give differing approximate distances.",
       "status": "Suspected maritime attack; drone cause unconfirmed",
       "categories": "Reported strike; ship explosion/fire; crew rescue",
-      "vehicle": "LPG-carrying merchant vessel; crew described 3 attacking drones; drone type unresolved",
+      "vehicle": "Liberia-flagged LPG tanker GAS LISBON; crew described three attacking drones, not independently established.",
       "attribution": "Operator/nationality unidentified",
       "route": "Approach and launch point not established",
       "circumstances": "Two crew members described a night-time drone attack.",
       "payload": "Explosions reported; device type and charges unidentified",
-      "impact": "Vessel badly damaged; crew rescued; injuries reported, including burns",
-      "response": "Romanian maritime rescue intervention; crew brought to safety.",
+      "impact": "Vessel badly damaged. All 17 crew were evacuated. Three were injured; one of those three died on 23 July in Tulcea hospital, Romania’s Health Ministry told AGERPRES. Philippine government reporting corroborated the death and the return home of the other two injured seafarers. The casualty outcome does not establish a drone cause.",
+      "response": "Romania’s Naval Authority confirmed all 17 crew evacuated from life rafts, including three taken for treatment.",
       "uncertainty": "Eyewitness drone account retained as an allegation, not a final weapon identification.",
       "deduplication": "Distinct from 24 July bulk-carrier emergency E034 and August Progress IV E053. Not three separate incidents merely because crew reported three drones.",
       "provenance": "Prior research; relevant event source rechecked during export",
-      "sourceReferences": "[S57][S57]",
+      "sourceReferences": "[S57][S57]; [U471][U471]; [U472][U472]; [U473][U473]; [U474][U474]",
       "sources": [
-        "S57"
+        "S57",
+        "U471",
+        "U472",
+        "U473",
+        "U474"
       ],
       "startDate": "2026-07-21",
-      "title": "Off Sfântu Gheorghe",
+      "title": "Off Sfântu Gheorghe · GAS LISBON",
       "category": "explosion",
       "positions": [
         {
@@ -3680,23 +3684,26 @@ window.DRONE_DATA = {
       "dateBasis": "27 August: distress around 17:55, rescue by 20:47 EEST; prior register incorrectly used 28 August (publication date)",
       "countries": "Romania (adjacent maritime case)",
       "location": "Black Sea, about 15–20 nautical miles off Sfântu Gheorghe; Romanian EEZ",
-      "status": "Ship casualty; alleged drone strike unconfirmed",
+      "status": "Ship casualty; reported drone strike assessment not independently established",
       "categories": "Reported impact; fire; sinking; maritime rescue",
       "vehicle": "Merchant vessel Progress IV; suspected attacking device unidentified",
       "attribution": "Attacker/weapon unknown; flag reported Dominican Republic, while shipping-industry source cites Dominica",
       "route": "Ship route and alleged weapon approach not independently resolved",
-      "circumstances": "Vessel caught fire and sank; authorities said cause of alleged impact required investigation.",
+      "circumstances": "Vessel caught fire and sank; authorities said cause of alleged impact required investigation. Libertatea subsequently attributed an assessment of a drone hit to the Romanian Maritime Hydrographic Directorate.",
       "payload": "Weapon/explosive or incendiary mechanism unconfirmed",
       "impact": "All 12 crew rescued; one injured, reportedly fractured arm; ship lost",
       "response": "MRCC coordinated commercial vessel, Border Police and rescue ships.",
-      "uncertainty": "Drone attack remained a hypothesis. Earlier report’s “seriously injured” wording is not substantiated by rechecked accounts.",
+      "uncertainty": "The published navigation notices give no cause. The attributed assessment in Libertatea does not establish a forensic conclusion or identify a weapon or operator. Drone attack remained a hypothesis. Earlier report’s “seriously injured” wording is not substantiated by rechecked accounts.",
       "deduplication": "One ship casualty, not an additional incident on 28 or 29 August. Distinct from July tanker E033 and bulk carrier E034.",
       "provenance": "Prior research; relevant event source rechecked during export",
-      "sourceReferences": "[S59][S59]; [S74][S74]; [S75][S75]",
+      "sourceReferences": "[S59][S59]; [S74][S74]; [S75][S75]; [U468][U468]; [U469][U469]; [U470][U470]",
       "sources": [
         "S59",
         "S74",
-        "S75"
+        "S75",
+        "U468",
+        "U469",
+        "U470"
       ],
       "startDate": "2026-08-27",
       "title": "Off Sfântu Gheorghe · Progress IV",
@@ -5843,6 +5850,93 @@ window.DRONE_DATA = {
       "page": "events/2026-09-27-possible-uav-airspace-ceatalchioi-somova-romania/"
     },
     {
+      "title": "Tausiūnai–Aukštalaukis · cross-border smuggling drone",
+      "recordType": "cross_border_seizure",
+      "startDate": "2026-09-27",
+      "dateLabel": "27 September 2026",
+      "dateBasis": "Sunday evening in Lithuania (EEST), from the dated 28 September official release; exact time unpublished.",
+      "countries": "Lithuania",
+      "location": "Tausiūnai–Aukštalaukis area, Šalčininkai district, Lithuania",
+      "status": "Officially reported cross-border smuggling-drone incident",
+      "categories": "Cross-border entry; electronic intervention; cargo seizure",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.17,
+          "lng": 25.08,
+          "precision": "region",
+          "label": "Tausiūnai–Aukštalaukis — approximate locality"
+        }
+      ],
+      "positionNote": "Approximate display reference only, not a crossing, interception or recovery coordinate.",
+      "vehicle": "One cargo UAV; model unspecified.",
+      "attribution": "VSAT reported a smuggling flight from Belarus; operator and state sponsorship not established.",
+      "route": "Cross-border entry reported by VSAT. Exact track unknown.",
+      "circumstances": "VSAT reported a cigarette-carrying drone from Belarus late Sunday evening, local time, on 27 September. The drone was detected near Tausiūnai and recovered near Aukštalaukis after a forced descent. It was badly damaged.",
+      "payload": "250 packs of Belarus-stamped cigarettes; no explosive payload reported.",
+      "impact": "Drone badly damaged; no definite crash wording in the official body.",
+      "response": "Border guards used counter-drone equipment, recovered the drone and cargo and opened administrative proceedings.",
+      "uncertainty": "Official border-enforcement account, not evidence of a military attack or state involvement.",
+      "deduplication": "Separate patrol, airframe, cargo and administrative proceedings from the other September 27 entry; no additional count from the cumulative statistics in the same release.",
+      "provenance": "Original VSAT statement read on 25 November.",
+      "classificationNote": "Forced descent and recovery; no kinetic shoot-down or independently established crash.",
+      "sourceReferences": "[U456][U456]",
+      "sources": [
+        "U456"
+      ],
+      "id": "N195",
+      "recordClass": "event",
+      "page": "events/2026-09-27-smuggling-drone-tausiunai-aukstalaukis-lithuania/"
+    },
+    {
+      "title": "Eišiškės · cross-border smuggling drone",
+      "recordType": "cross_border_seizure",
+      "startDate": "2026-09-27",
+      "dateLabel": "27 September 2026",
+      "dateBasis": "Sunday evening in Lithuania (EEST), from the dated 28 September official release; exact time unpublished.",
+      "countries": "Lithuania",
+      "location": "Eišiškės area, Šalčininkai district, Lithuania",
+      "status": "Officially reported cross-border smuggling-drone incident",
+      "categories": "Cross-border entry; electronic intervention; cargo seizure",
+      "category": "crash",
+      "stages": [
+        "crash",
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.17,
+          "lng": 25.0,
+          "precision": "region",
+          "label": "Eišiškės — approximate locality"
+        }
+      ],
+      "positionNote": "Approximate display reference only, not a crossing, interception or recovery coordinate.",
+      "vehicle": "One cargo UAV; model unspecified.",
+      "attribution": "VSAT reported a smuggling flight from Belarus; operator and state sponsorship not established.",
+      "route": "Cross-border entry reported by VSAT. Exact track unknown.",
+      "circumstances": "VSAT reported a cigarette-carrying drone from Belarus before midnight, local time, on 27 September. A different patrol intercepted the drone near Eišiškės several hours after the first incident. The drone fell in the town area and was recovered.",
+      "payload": "100 packs of Belarus-stamped cigarettes; no explosive payload reported.",
+      "impact": "Drone fell after intervention.",
+      "response": "Border guards used counter-drone equipment, recovered the drone and cargo and opened administrative proceedings.",
+      "uncertainty": "Official border-enforcement account, not evidence of a military attack or state involvement.",
+      "deduplication": "Separate patrol, airframe, cargo and administrative proceedings from the other September 27 entry; no additional count from the cumulative statistics in the same release.",
+      "provenance": "Original VSAT statement read on 25 November.",
+      "classificationNote": "Reported fall and recovery; no kinetic shoot-down established.",
+      "sourceReferences": "[U456][U456]",
+      "sources": [
+        "U456"
+      ],
+      "id": "N196",
+      "recordClass": "event",
+      "page": "events/2026-09-27-smuggling-drone-eisiskes-lithuania/"
+    },
+    {
       "provenance": "Added and reviewed 2026-10-21 against matching published accounts in OnAlert and VoiceNews. Original GEETHA bulletin not retrieved directly.",
       "id": "N107",
       "title": "Southeastern Aegean · Greek-reported Turkish UAV",
@@ -6257,19 +6351,19 @@ window.DRONE_DATA = {
       "dateBasis": "ARSVOM places the rescue request at 10:37; MAI/ANR describe notifications around 11:00. These are response timestamps, not a verified exact strike time.",
       "countries": "Romania (offshore EEZ)",
       "location": "Black Sea near Pescăruș platform; MAI places the ship about 30 nautical miles south of Sfântu Gheorghe, in Romania’s EEZ. ANR explicitly places the incident outside territorial waters.",
-      "status": "Fatal drone attack reported; ship later reported afloat; casualty accounts conflict",
-      "categories": "Reported drone strike and onboard explosion; fire and severe damage; rescue; initial sinking report corrected",
+      "status": "Fatal drone attack reported; later wreck charted; casualty accounts conflict",
+      "categories": "Reported drone strike and explosion; fire; rescue; later charted wreck",
       "vehicle": "Grain carrier Royad Mammadov, reported Turkish-owned and Saint Kitts and Nevis-flagged. Crew included Azerbaijani and Indian nationals. Witnesses cited by G4Media and Zelensky allege two drones; MRCC director describes an apparent multiple-drone attack. Models and aerial-versus-maritime type remain unestablished.",
       "attribution": "Russian responsibility alleged by Ukrainian President Volodymyr Zelensky, who said two Russian drones struck the vessel (Reuters, 5 October). This is an explicit Ukrainian official attribution, not independent verification or a published Romanian attribution finding. Launch point and operators remain unestablished in the reviewed Romanian accounts.",
       "route": "Reported ship voyage: Izmail, Ukraine, to Ravenna, Italy. Drone route unknown.",
       "circumstances": "Reported drone strike, onboard blast and fire damaged the ship. On 6 October, Radio România Actualități explicitly reported that it had not sunk and was awaiting tow to Midia, correcting the initial MAI sinking report. MRCC director Marius Roibu described apparent multiple-drone damage to the engine room and aft cargo hold.",
       "payload": "Not established; no identified drone or explosive charge.",
-      "impact": "Severe vessel damage; later reported afloat, with tow completion unverified. Initial MAI account: two dead and eleven rescued. Azerbaijan’s MFA, via APA on 6 October: captain Rustam Ismayil Hasanov killed, Mahammad Hamza Suleymanzade missing, other Azerbaijani crew rescued and three hospitalized. These accounts conflict and must not be added together. India’s embassy separately confirmed three Indian survivors, one injured; this does not establish an additional injury total. Petrom reported Pescăruș personnel and operations unaffected.",
+      "impact": "Severe vessel damage; reported afloat on 6 October and subsequently listed as a dangerous wreck by the hydrographic authority. Initial MAI account: two dead and eleven rescued. Azerbaijan’s MFA, via APA on 6 October: captain Rustam Ismayil Hasanov killed, Mahammad Hamza Suleymanzade missing, other Azerbaijani crew rescued and three hospitalized. These accounts conflict and must not be added together. India’s embassy separately confirmed three Indian survivors, one injured; this does not establish an additional injury total. Petrom reported Pescăruș personnel and operations unaffected.",
       "response": "MRCC Constanța coordinated rescue with Coast Guard, SAR Apollo, SAR Artemis and a request for SAR Ares; Interior Ministry aviation evacuated injured survivors. A tow to Midia was planned in the 6 October Radio România report; completion was not established. Azerbaijan and India provided consular assistance.",
-      "uncertainty": "Treat the initial sinking description as superseded by the 6 October afloat report; no completed tow verified. Drone attack is supported by the MRCC director’s account and official Ukrainian/Azerbaijani statements, but exact weapons and Russian attribution lack independently verified forensic confirmation here. Retain conflicting two-dead versus one-dead/one-missing accounts without inventing a reconciled toll. Early thirteen-missing reports predate rescues.",
+      "uncertainty": "The 6 October afloat report was interim. The later wreck listing does not establish exact sinking time, tow outcome, or the exact strike point. Drone attack is supported by the MRCC director’s account and official Ukrainian/Azerbaijani statements, but exact weapons and Russian attribution lack independently verified forensic confirmation here. Retain conflicting two-dead versus one-dead/one-missing accounts without inventing a reconciled toll. Early thirteen-missing reports predate rescues.",
       "deduplication": "One 5 October event combines the reported attack, blast, fire, vessel damage and rescue, including later corrections and attribution. No extra row for an alleged second drone, the afloat correction or planned tow. Earlier Neptun Deep wording was corrected to Pescăruș; distinct from E047, E053 and the 6 October Bulgarian two-ship attack N073.",
       "provenance": "Reviewed 2026-10-09 using the original 5 October sources and follow-ups U033–U036. The 6 October public-radio account corrects sinking; APA reproduces Azerbaijan’s official casualty statement; Reuters carries Zelensky’s attribution; ANI quotes India’s embassy. Stable ID, occurrence date and approximate anchor retained. Earlier descriptions remain traceable through sources and Git.",
-      "sourceReferences": "[U028][U028]; [U029][U029]; [U030][U030]; [U031][U031]; [U032][U032]; [U033][U033]; [U034][U034]; [U035][U035]; [U036][U036]",
+      "sourceReferences": "[U028][U028]; [U029][U029]; [U030][U030]; [U031][U031]; [U032][U032]; [U033][U033]; [U034][U034]; [U035][U035]; [U036][U036]; [U468][U468]; [U469][U469]; [U470][U470]",
       "sources": [
         "U028",
         "U029",
@@ -6279,7 +6373,10 @@ window.DRONE_DATA = {
         "U033",
         "U034",
         "U035",
-        "U036"
+        "U036",
+        "U468",
+        "U469",
+        "U470"
       ],
       "title": "Royad Mammadov · reported drone attack",
       "category": "explosion",
@@ -6294,7 +6391,7 @@ window.DRONE_DATA = {
       "stages": [
         "explosion"
       ],
-      "classificationNote": "Red Explosion marker retained for the source-reported onboard blast. Fatalities and severe damage belong to this one attack record. The corrected afloat status does not erase the reported explosion; disputed attribution does not reduce the outcome classification.",
+      "classificationNote": "Reported onboard explosion and subsequent wreck are outcomes of the same record. Wreck position does not establish the strike point or its operator.",
       "positionNote": "Rounded editorial anchor for the reported offshore area, not verified ship coordinates or a position on the platform. EEZ coverage does not make this a Romanian sovereign-territory incursion.",
       "recordClass": "event",
       "recordType": "reported_offshore_drone_strike",
@@ -7550,6 +7647,51 @@ window.DRONE_DATA = {
       "page": "events/2026-10-18-cigarette-drone-daugidonys-berziskes-lithuania/"
     },
     {
+      "title": "Aegean · 18 October reported Turkish UAV activity",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-10-18",
+      "dateLabel": "18 October 2026",
+      "dateBasis": "Occurrence explicitly dated in the body of the same-day report; Greece local date.",
+      "countries": "Greece",
+      "location": "Central and southeastern aegean; exact tracks unpublished.",
+      "status": "Single-source report of Greek-authority figures for Turkish UAV airspace violations",
+      "categories": "Reported Greek national-airspace violations; separately reported Athens FIR infringements",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 37.5,
+          "lng": 26,
+          "precision": "region",
+          "label": "Aegean — broad regional reference"
+        }
+      ],
+      "positionNote": "Regional display anchor, not an aircraft location or path.",
+      "vehicle": "5 Turkish UAVs in the Greek account; model not established.",
+      "attribution": "Turkish attribution and national-airspace assessment are those of Greek military reporting, via Veteranos.",
+      "route": "No independently verified track.",
+      "circumstances": "Veteranos, citing Greek military reporting, described 5 Turkish UAVs in the central and southeastern Aegean on 18 October 2026, with 6 reported national-airspace violations and, separately, 10 Athens FIR traffic-rule infringements.",
+      "payload": "No weapon load reported.",
+      "impact": "No harm or damage reported in the account.",
+      "response": "Routine identification and interception reported; no engagement or shoot-down established.",
+      "uncertainty": "This is one attributed daily record, not a count of separate confirmed incursions. The original Greek military register entry was not obtained, and tracks, exact locations, intent and operator details are unverified. The Greek–Turkish airspace dispute remains relevant.",
+      "deduplication": "One attributed regional daily report. Aircraft, reported violations and FIR counts are not additive.",
+      "provenance": "Full dated Veteranos text read on 25 November.",
+      "classificationNote": "Flight-only daily aggregate; FIR traffic-rule infringements are not national-airspace entries.",
+      "reported_UAVs": 5,
+      "reported_airspace_violations": 6,
+      "reported_FIR_infractions": 10,
+      "sourceReferences": "[U457][U457]",
+      "sources": [
+        "U457"
+      ],
+      "id": "N197",
+      "recordClass": "event",
+      "page": "events/2026-10-18-reported-turkish-uav-activity-aegean-greece/"
+    },
+    {
       "provenance": "Added and reviewed 2026-10-20 against the contemporaneous OnAlert report, NewsIT republication and matching Veteranos account. Original GEETHA bulletin was not retrieved directly.",
       "id": "N097",
       "title": "Northeastern / southeastern Aegean · Greek-reported Turkish UAVs",
@@ -8186,12 +8328,12 @@ window.DRONE_DATA = {
       "circumstances": "The Bulgarian defence ministry says the Navy surveillance system and a French patrol aircraft observed the surface-drone attack at 12:00 local on 28 October and three hits were observed. Varna Radio NAVWARN 759/26 identifies CONTSHIP JET and reports a surface-drone hit at 10:00 UTC. Included under the register’s existing offshore merchant-shipping treatment, not as a confirmed Bulgarian territorial incursion.",
       "payload": "Unknown; no separately established explosion count.",
       "impact": "All 18 crew were rescued according to Bulgarian defence and transport authorities, corroborating the earlier manager account. Varna Radio NAVWARN 768/26 confirms CONTSHIP JET sank at 20:30 UTC on 28 October at 43°07.80′N, 028°45.36′E. More than 20 containers were adrift, with flammable gases and liquids and other dangerous goods among the lost cargo. This official warning supersedes the earlier explicitly unconfirmed sinking report. Liberia’s maritime authority reported that the crew were safe, with no injuries reported, in a bulletin describing an unnamed vessel whose date, flag, class and reported three hits match the named Bulgarian accounts.",
-      "response": "The transport ministry reports an alert at 12:01 local and abandonment at 12:13 on 28 October; at 12:53 eight crew were aboard a Navy cutter and ten in a lifeboat. The defence ministry says three naval ships deployed immediately and all 18 crew were rescued by 13:45 local. These official accounts supersede reliance on the manager-only safety statement. Eftimov told bTV that the Navy had warned ships in the area roughly half an hour before the attack. On 1 November NAVWARN779 reported four containers east of Burgas Bay at 08:55 UTC; NAVWARN780 reported a container at 12:20 UTC. BNR described the four as probably from CONTSHIP JET, but the notices themselves do not identify a vessel. On 2 November the Bulgarian transport ministry reported a container washed ashore near Tsarevo; border police secured the area and the military prosecutor was notified. The cargo was labelled Christmas decorations, but actual contents were not verified. Origin and condition remained under investigation; the ministry initially announced planned environmental sampling. BNT later reported that water samples had been taken on 2 November, with results expected within five days; no pollution result was reported. On 3 November Burgas Regional Administration reported three objects under monitoring: the Oasis–Arapya container, a visibly empty tank at Kamennite Korabi near Sinemorets, and another container near Butamyata. It cited manifest information describing non-hazardous cargo and an empty tank, while the CONTSHIP JET association remained under investigation. Butamyata samples were taken for heavy-metal testing; no current leakage data was reported. Guarding continued while rough seas delayed removal. In bTV’s 4 November interview, the Burgas governor said weather and access continued to hamper retrieval. The third drifting container’s exact position was unknown; Turkish waters were only a probable location. In a Maritime.bg interview reproduced by Vesti on 7 November, the unnamed French Atlantique 2 commander said the vessel and Varna coordination center were warned about 40–60 minutes before the strike and advised the crew to prepare and leave the engine room. He described the aircraft as surveillance-only, unable to intercept. On 8 November BNT reported that environmental and basin authorities had sampled seawater and bag contents at Lipite Beach, with results expected the following week. Tsarevo municipality reported on 12 November that crews had cleared bags of red pepper from both Lipite beaches. The cargo’s association with CONTSHIP JET remained provisional, and the announcement did not provide laboratory results.",
-      "uncertainty": "The official observation account and navigation warning support the attack, location and rescue, not a technical model or operator identification. Ambrey’s video-based design assessment reported by Reuters remains provisional. The minister reported three maritime drones, while the defence ministry describes three observed hits; neither creates separate occurrences. Operator, launch point and motive remain unknown. The sinking is confirmed by NAVWARN 768/26, but its later position is not the strike location. Neither the wreck nor cargo drift establishes a new drone incursion. The Burgas sightings are not a unique additive container total; vessel association remains provisional and no new pollution finding is established. The Tsarevo container is a provisional cargo-hazard follow-up, not a confirmed CONTSHIP JET container, drone recovery or pollution finding. The 3 November manifest information and visual tank assessment are attributed official reports, not verified physical contents or laboratory clearance. The three objects under monitoring are a dated operational count, not a cumulative total of lost containers. The regional authority locates the tank at Kamennite Korabi near Sinemorets; earlier Silistar reporting is not treated as a separate object. The 4 November governor interview supplies no laboratory result or confirmed position for the drifting container. The French commander’s warning interval is an attributed interview account, not a reconciled operational timeline; he could not assess whether other assets had time to respond. The 8 November Lipite bags and damaged container remain only provisionally associated with this vessel; the governor said investigators must establish the connection. Sampling is not laboratory clearance, and the nearby aircraft discovery N145 is not evidence of a connection to this attack.",
+      "response": "The transport ministry reports an alert at 12:01 local and abandonment at 12:13 on 28 October; at 12:53 eight crew were aboard a Navy cutter and ten in a lifeboat. The defence ministry says three naval ships deployed immediately and all 18 crew were rescued by 13:45 local. These official accounts supersede reliance on the manager-only safety statement. Eftimov told bTV that the Navy had warned ships in the area roughly half an hour before the attack. On 1 November NAVWARN779 reported four containers east of Burgas Bay at 08:55 UTC; NAVWARN780 reported a container at 12:20 UTC. BNR described the four as probably from CONTSHIP JET, but the notices themselves do not identify a vessel. On 2 November the Bulgarian transport ministry reported a container washed ashore near Tsarevo; border police secured the area and the military prosecutor was notified. At the time the cargo was identified only from the label. Origin and condition remained under investigation; the ministry initially announced planned environmental sampling. BNT later reported that water samples had been taken on 2 November, with results expected within five days; no pollution result was reported. On 3 November Burgas Regional Administration reported three objects under monitoring: the Oasis–Arapya container, a visibly empty tank at Kamennite Korabi near Sinemorets, and another container near Butamyata. It cited manifest information describing non-hazardous cargo and an empty tank, while the CONTSHIP JET association remained under investigation. Butamyata samples were taken for heavy-metal testing; no current leakage data was reported. Guarding continued while rough seas delayed removal. In bTV’s 4 November interview, the Burgas governor said weather and access continued to hamper retrieval. The third drifting container’s exact position was unknown; Turkish waters were only a probable location. In a Maritime.bg interview reproduced by Vesti on 7 November, the unnamed French Atlantique 2 commander said the vessel and Varna coordination center were warned about 40–60 minutes before the strike and advised the crew to prepare and leave the engine room. He described the aircraft as surveillance-only, unable to intercept. On 8 November BNT reported that environmental and basin authorities had sampled seawater and bag contents at Lipite Beach, with results expected the following week. Tsarevo municipality reported on 12 November that crews had cleared bags of red pepper from both Lipite beaches. The cargo’s association with CONTSHIP JET remained provisional, and the announcement did not provide laboratory results. On 24 November authorities opened the container that had washed ashore near Tsarevo on 2 November. The Burgas governor told BTA it held about 80 boxes of Christmas decorations matching the manifest. Contships Management told Reuters it could not confirm the container had been aboard CONTSHIP JET. The opening does not establish the source ship, other cargo or pollution results.",
+      "uncertainty": "The official observation account and navigation warning support the attack, location and rescue, not a technical model or operator identification. Ambrey’s video-based design assessment reported by Reuters remains provisional. The minister reported three maritime drones, while the defence ministry describes three observed hits; neither creates separate occurrences. Operator, launch point and motive remain unknown. The sinking is confirmed by NAVWARN 768/26, but its later position is not the strike location. Neither the wreck nor cargo drift establishes a new drone incursion. The Burgas sightings are not a unique additive container total; vessel association remains provisional and no new pollution finding is established. The Tsarevo container is a provisional cargo-hazard follow-up, not a confirmed CONTSHIP JET container, drone recovery or pollution finding. The 3 November manifest information and visual tank assessment are attributed official reports, not verified physical contents or laboratory clearance. The three objects under monitoring are a dated operational count, not a cumulative total of lost containers. The regional authority locates the tank at Kamennite Korabi near Sinemorets; earlier Silistar reporting is not treated as a separate object. The 4 November governor interview supplies no laboratory result or confirmed position for the drifting container. The French commander’s warning interval is an attributed interview account, not a reconciled operational timeline; he could not assess whether other assets had time to respond. The 8 November Lipite bags and damaged container remain only provisionally associated with this vessel; the governor said investigators must establish the connection. Sampling is not laboratory clearance, and the nearby aircraft discovery N145 is not evidence of a connection to this attack. The 24 November opening establishes only the contents of the Oasis–Arapya container, not its origin or environmental findings.",
       "deduplication": "One CONTSHIP JET occurrence, distinct from KHORYV, CHELSEA 3 and earlier ship attacks. Three reported drones, impacts and abandonment are not separate event records.",
       "provenance": "Added 28 October after direct BGNES and Sofia Globe browser reads and Chernomore body review. Original research snapshots unchanged. Reviewed 29 October against Bulgarian defence and transport ministries and Varna Radio navigation warnings; official rescue and reported strike position incorporated. Overnight sinking reporting retained as unconfirmed. Reviewed 30 October against Varna Radio NAVWARN 768/26: sinking confirmed for 28 October 20:30 UTC; original strike anchor and offshore classification retained. Reviewed 31 October against Reuters’ 29 October interview reporting via its StreetInsider syndication; provisional technical assessment added without changing operator certainty, occurrence date or geography. Reviewed 2 November against current Varna Radio NAVWARN779/780 and BNR’s provisional vessel association. Reviewed 3 November against the transport ministry’s 2 November Tsarevo notice; unconfirmed vessel association and labelled-versus-verified cargo distinction retained. Later BNT reporting confirms sampling took place on 2 November, with results pending. Reviewed 4 November against the 3 November Burgas Regional Administration statement; subsequent cargo-monitoring information added without changing the strike date, offshore anchor or unresolved vessel association. November 2 and November 3 sampling are distinct; no laboratory result is established. Reviewed 5 November against bTV’s 4 November governor interview; cargo follow-up remains provisional and non-additive. Vesti’s 7 November reproduction reviewed 8 November; original Maritime.bg interview unavailable. Lipite cargo follow-up directly reviewed 9 November against BNT. Reviewed the November 2 flag-state bulletin and November 12 municipal report on 22 November. The flag-state location description differs; the existing offshore anchor is unchanged.",
       "classificationNote": "Red Strike for reported damaging maritime-drone attack. Offshore context explicitly separated from confirmed territorial incursions.",
-      "sourceReferences": "[U180][U180]; [U181][U181]; [U182][U182]; [U185][U185]; [U186][U186]; [U187][U187]; [U188][U188]; [U189][U189]; [U190][U190]; [U203][U203]; [U206][U206]; [U212][U212]; [U214][U214]; [U219][U219]; [U222][U222]; [U225][U225]; [U250][U250]; [U260][U260]; [U426][U426]; [U427][U427]",
+      "sourceReferences": "[U180][U180]; [U181][U181]; [U182][U182]; [U185][U185]; [U186][U186]; [U187][U187]; [U188][U188]; [U189][U189]; [U190][U190]; [U203][U203]; [U206][U206]; [U212][U212]; [U214][U214]; [U219][U219]; [U222][U222]; [U225][U225]; [U250][U250]; [U260][U260]; [U426][U426]; [U427][U427]; [U466][U466]; [U467][U467]",
       "sources": [
         "U180",
         "U181",
@@ -8212,7 +8354,9 @@ window.DRONE_DATA = {
         "U250",
         "U260",
         "U426",
-        "U427"
+        "U427",
+        "U466",
+        "U467"
       ],
       "page": "events/2026-10-28-contship-jet-maritime-drone-strike-kaliakra-bulgaria/"
     },
@@ -10424,8 +10568,8 @@ window.DRONE_DATA = {
       "dateLabel": "21 November 2026",
       "dateBasis": "Date of the reported strike and first maritime rescue response.",
       "countries": "Finland (later maritime rescue; strike outside Finnish territorial waters)",
-      "location": "Eastern Gulf of Finland. Finnish accounts differ on whether the strike was in international waters or Russian territorial waters. The damaged ship later drifted into Finnish territorial waters.",
-      "status": "Reported offshore drone strike; crew evacuated; Russian governor reports arrival at St Petersburg",
+      "location": "Eastern Gulf of Finland, outside Finnish territorial waters according to reviewed accounts; exact strike point disputed. The damaged ship later drifted into Finnish territorial waters.",
+      "status": "Ukraine acknowledges SPARTA II strike; exact strike location disputed",
       "categories": "Reported drone strike on merchant shipping; vessel fire; crew evacuation; maritime rescue",
       "category": "strike",
       "stages": [
@@ -10441,17 +10585,17 @@ window.DRONE_DATA = {
       ],
       "positionNote": "Regional editorial anchor only; not an impact point, vessel position, or route.",
       "vehicle": "SPARTA II, Russian cargo vessel. Two drones were reported by the Leningrad regional governor; number and type not independently established.",
-      "attribution": "Finnish Defence Forces communications director Aki-Mauri Huhtinen assessed Ukraine was likely responsible. Finnish Border Guard commander Ilja Iljin attributed the strike to Ukrainian drones. The specific operator and reason the vessel was targeted were not independently established.",
+      "attribution": "President Volodymyr Zelenskyy publicly acknowledged Ukraine carried out the strike in an interview published on 24 November. The specific unit and exact weapon are unverified.",
       "route": "Estonia’s Foreign Ministry says the damaged vessel drifted from Estonia’s exclusive economic zone into Finland’s exclusive economic zone, then into Finnish territorial waters. This was the ship’s movement, not a verified drone route or territorial entry.",
       "circumstances": "Finland’s Defence Forces reported a drone strike in the eastern Gulf of Finland. The damaged ship caught fire and later drifted into Finnish waters.",
-      "payload": "Drone payload and cargo on this voyage were not established.",
+      "payload": "Zelenskyy claimed the ship was carrying weapons; Bloomberg could not independently verify that claim. Drone payload not established.",
       "impact": "The Finnish Border Guard confirmed the crew was evacuated. Maritime operations director Jukka-Pekka Lumilahti reported one injured crew member at the 22 November briefing, superseding the earlier no-injury account. On 23 November Leningrad regional governor Alexander Drozdenko said the crew went ashore in St Petersburg at 20:00 Moscow time and claimed no injuries. The accounts differ; injury severity was not given in the Finnish briefing coverage.",
       "response": "Finland led the maritime rescue with Estonian assistance. The Gulf of Finland Coast Guard confirmed the crew evacuated to KAPITAN SAKHAROV. The Border Guard reported continued firefighting after suppression of visible flames and no oil observed as of its 22 November briefing. Helsinki ended precautionary oil-spill standby separately. By later on 22 November Finland confirmed the tow had left its EEZ and environmental-response area, ended its mission and lifted temporary restrictions. Svenska Yle reported that Russia assumed maritime rescue responsibility. On 23 November Drozdenko said SPARTA II reached St Petersburg afloat with its cargo, without giving the ship’s arrival time. Separately, Finland’s National Enforcement Authority said it assessed the ship as belonging to an EU-sanctioned company and imposed an interim transfer restriction after entry to Finnish territorial waters on 21 November, with rescue, safety and environmental exceptions.",
-      "uncertainty": "Finland’s military placed the strike in international waters; Iljin separately told Yle it occurred in Russian territorial waters. Neither account places it in Finnish waters. The ship’s arrival is governor-attributed; exact arrival time, final fire or pollution outcome, specific cargo and final legal disposition are unverified. No established link to separate precautionary alerts or the suspected manned helicopter airspace episode.",
+      "uncertainty": "Zelenskyy claimed Russian territorial waters; ERR reported Estonia’s EEZ; Finland’s military described international waters and a Border Guard officer cited Russian territorial waters. Exact impact point, cargo and final legal disposition are unverified. No established link to separate alerts or the suspected manned helicopter episode.",
       "deduplication": "One vessel strike and its subsequent rescue. Neither the ship’s drift nor the crew’s evacuation is a second strike or a drone incursion.",
       "provenance": "Reviewed against Finnish and Estonian official accounts and interviews and reporting by Reuters and Yle. Casualty and rescue account updated after the Finnish Border Guard’s 22 November briefing. Later 22 November response developments reviewed 23 November. Coast Guard week 47 bulletin and Finnish enforcement disclosure reviewed, alongside the regional governor’s arrival account as also reported by Reuters.",
       "classificationNote": "Offshore reported strike with subsequent Finnish maritime response, not a verified EU territorial drone incursion.",
-      "sourceReferences": "[U413][U413]; [U414][U414]; [U415][U415]; [U416][U416]; [U417][U417]; [U422][U422]; [U428][U428]; [U430][U430]; [U431][U431]; [U432][U432]; [U442][U442]; [U443][U443]; [U444][U444]; [U445][U445]; [U446][U446]",
+      "sourceReferences": "[U413][U413]; [U414][U414]; [U415][U415]; [U416][U416]; [U417][U417]; [U422][U422]; [U428][U428]; [U430][U430]; [U431][U431]; [U432][U432]; [U442][U442]; [U443][U443]; [U444][U444]; [U445][U445]; [U446][U446]; [U463][U463]; [U464][U464]; [U465][U465]",
       "sources": [
         "U413",
         "U414",
@@ -10467,7 +10611,10 @@ window.DRONE_DATA = {
         "U443",
         "U444",
         "U445",
-        "U446"
+        "U446",
+        "U463",
+        "U464",
+        "U465"
       ],
       "page": "events/2026-11-21-sparta-ii-reported-drone-strike-gulf-of-finland/"
     },
@@ -10513,6 +10660,51 @@ window.DRONE_DATA = {
         "U421"
       ],
       "page": "events/2026-11-21-northeastern-estonia-air-threat-warning/"
+    },
+    {
+      "title": "Aegean · 21 November reported Turkish UAV activity",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-11-21",
+      "dateLabel": "21 November 2026",
+      "dateBasis": "Occurrence explicitly dated in the body of the same-day report; Greece local date.",
+      "countries": "Greece",
+      "location": "Central aegean; exact tracks unpublished.",
+      "status": "Single-source report of Greek-authority figures for Turkish UAV airspace violations",
+      "categories": "Reported Greek national-airspace violations; separately reported Athens FIR infringements",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 37.5,
+          "lng": 26,
+          "precision": "region",
+          "label": "Aegean — broad regional reference"
+        }
+      ],
+      "positionNote": "Regional display anchor, not an aircraft location or path.",
+      "vehicle": "one Turkish UAV in the Greek account; model not established.",
+      "attribution": "Turkish attribution and national-airspace assessment are those of Greek military reporting, via Veteranos.",
+      "route": "No independently verified track.",
+      "circumstances": "Veteranos, citing Greek military reporting, described one Turkish UAV in the central Aegean on 21 November 2026, with 3 reported national-airspace violations and, separately, 1 Athens FIR traffic-rule infringement.",
+      "payload": "No weapon load reported.",
+      "impact": "No harm or damage reported in the account.",
+      "response": "Routine identification and interception reported; no engagement or shoot-down established.",
+      "uncertainty": "This is one attributed daily record, not a count of separate confirmed incursions. The original Greek military register entry was not obtained, and tracks, exact locations, intent and operator details are unverified. The Greek–Turkish airspace dispute remains relevant.",
+      "deduplication": "One attributed regional daily report. Aircraft, reported violations and FIR counts are not additive.",
+      "provenance": "Full dated Veteranos text read on 25 November.",
+      "classificationNote": "Flight-only daily aggregate; FIR traffic-rule infringements are not national-airspace entries.",
+      "reported_UAVs": 1,
+      "reported_airspace_violations": 3,
+      "reported_FIR_infractions": 1,
+      "sourceReferences": "[U458][U458]",
+      "sources": [
+        "U458"
+      ],
+      "id": "N198",
+      "recordClass": "event",
+      "page": "events/2026-11-21-reported-turkish-uav-activity-aegean-greece/"
     },
     {
       "id": "N190",
@@ -10734,6 +10926,92 @@ window.DRONE_DATA = {
         "U455"
       ],
       "page": "events/2026-11-23-lubelskie-confirmed-drone-incursion-poland/"
+    },
+    {
+      "id": "N199",
+      "title": "Northern Tulcea · morning RO-Alert",
+      "recordClass": "event",
+      "recordType": "selected_civil_protection_alert",
+      "startDate": "2026-11-24",
+      "dateLabel": "24 November 2026",
+      "dateBasis": "24 November local morning; 11:51 EET all-clear, reported alert start differs.",
+      "countries": "Romania",
+      "location": "Northern Tulcea County; target reported north of Tulcea in Ukrainian airspace.",
+      "status": "Selected RO-Alert; no entry into Romanian airspace reported",
+      "categories": "Selected civil-protection alert",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.17,
+          "lng": 29.15,
+          "precision": "region",
+          "label": "Romania — approximate warning area"
+        }
+      ],
+      "positionNote": "Regional reference for the warning area, not an aircraft position or track.",
+      "vehicle": "One aerial target detected in Ukrainian airspace; exact identity unresolved.",
+      "attribution": "Operator and intended target not established.",
+      "route": "No verified drone track across the national boundary.",
+      "circumstances": "Romania warned northern Tulcea on the morning of 24 November after a target was detected in Ukrainian airspace. No Romanian airspace entry was reported.",
+      "payload": "Not established.",
+      "impact": "No entry into Romanian airspace reported.",
+      "response": "The Defence Ministry reported a warning at 11:11 EET, monitoring by Spanish aircraft and an all-clear at 11:51 EET.",
+      "uncertainty": "Target identity, operator and intended target not established. The local emergency account quoted a 10:11 phone receipt time. This discrepancy does not indicate a second morning alert.",
+      "deduplication": "One precautionary warning episode and its all-clear, separate from the other 24 November episode.",
+      "provenance": "Full statements as quoted in Romanian reporting read on 25 November.",
+      "classificationNote": "Selected alert only, not an established territorial drone incursion or attack.",
+      "sourceReferences": "[U459][U459]; [U460][U460]",
+      "sources": [
+        "U459",
+        "U460"
+      ],
+      "page": "events/2026-11-24-northern-tulcea-morning-ro-alert-romania/"
+    },
+    {
+      "id": "N200",
+      "title": "Northern Tulcea · afternoon RO-Alert",
+      "recordClass": "event",
+      "recordType": "selected_civil_protection_alert",
+      "startDate": "2026-11-24",
+      "dateLabel": "24 November 2026",
+      "dateBasis": "24 November 14:37–15:40 EET per Defence Ministry; separate local Galați all-clear reported at 15:46 EET.",
+      "countries": "Romania",
+      "location": "Northern Tulcea County and reported Galați warning area; target reported in Ukrainian airspace.",
+      "status": "Selected RO-Alert; no entry into Romanian airspace reported",
+      "categories": "Selected civil-protection alert",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.17,
+          "lng": 29.15,
+          "precision": "region",
+          "label": "Romania — approximate warning area"
+        }
+      ],
+      "positionNote": "Regional reference for the warning area, not an aircraft position or track.",
+      "vehicle": "One aerial target detected in Ukrainian airspace; exact identity unresolved.",
+      "attribution": "Operator and intended target not established.",
+      "route": "No verified drone track across the national boundary.",
+      "circumstances": "Romania warned northern Tulcea again on 24 November after a target was detected near the Chilia branch in Ukrainian airspace. No Romanian airspace entry was reported.",
+      "payload": "Not established.",
+      "impact": "No entry into Romanian airspace reported.",
+      "response": "The Defence Ministry reported a 14:37 EET alert, Romanian aircraft monitoring and a 15:40 EET all-clear. A Galați outlet reported a local all-clear at 15:46 EET, citing emergency services.",
+      "uncertainty": "Target identity, operator and intended target not established. No evidence establishes an additional target or links the morning and afternoon detections.",
+      "deduplication": "One precautionary warning episode and its all-clear, separate from the other 24 November episode.",
+      "provenance": "Full statements as quoted in Romanian reporting read on 25 November.",
+      "classificationNote": "Selected alert only, not an established territorial drone incursion or attack.",
+      "sourceReferences": "[U461][U461]; [U462][U462]",
+      "sources": [
+        "U461",
+        "U462"
+      ],
+      "page": "events/2026-11-24-northern-tulcea-afternoon-ro-alert-romania/"
     }
   ],
   "contexts": [
@@ -15509,9 +15787,161 @@ window.DRONE_DATA = {
       "url": "https://www.rp.pl/wojsko/art45533201-rosyjski-dron-latal-nad-wschodnia-polska-w-poblizu-nie-bylo-samolotow",
       "dateLabel": "24 November 2026; published 10:01, updated 13:12 (site display)",
       "audit": "Directly read named-spokesperson account. Reports 22:50 entry near Dorohusk, about 20 km penetration and 8–9 minutes in Polish airspace. Jet propulsion assessed from speed; cameras/reconnaissance role not confirmed. Ground systems were authorized; no weapons used."
+    },
+    "U456": {
+      "id": "U456",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Border guards report two separate cigarette-carrying drone entries from Belarus",
+      "url": "https://vsat.lrv.lt/lt/naujienos/per-kelias-valandas-purvenu-pasienieciai-nukove-du-is-baltarusijos-skridusius-dronus-su-cigareciu-kroviniu-foto-xjM/",
+      "dateLabel": "28 September 2026",
+      "audit": "Original release read. Sunday was 27 September locally. Reports separate patrols, seizures and administrative proceedings. Does not identify exact occurrence times or operators."
+    },
+    "U457": {
+      "id": "U457",
+      "publisher": "Veteranos, citing Greek military figures",
+      "title": "Reported Turkish UAV activity on 18 October 2026",
+      "url": "https://veteranos.gr/tourkikes-paraviaseis-sto-aigaio-5-uav-me-10-paravaseis-kai-6-paraviaseis-tou-eech/",
+      "dateLabel": "18 October 2026",
+      "audit": "Full dated account read. Single accessible Greek secondary source; original bulletin and tracks not obtained. National-airspace violations and Athens FIR infringements are distinct measures."
+    },
+    "U458": {
+      "id": "U458",
+      "publisher": "Veteranos, citing Greek military figures",
+      "title": "Reported Turkish UAV activity on 21 November 2026",
+      "url": "https://veteranos.gr/tourkiko-uav-sto-kentriko-aigaio-treis-paraviaseis-tou-ethnikou-enaeriou-chorou-anachaitistike-apo-tin-polemiki-aeroporia/",
+      "dateLabel": "21 November 2026",
+      "audit": "Full dated account read. Single accessible Greek secondary source; original bulletin and tracks not obtained. National-airspace violations and Athens FIR infringements are distinct measures."
+    },
+    "U459": {
+      "id": "U459",
+      "publisher": "Radio România Internațional, citing the Romanian Defence Ministry",
+      "title": "Morning northern Tulcea warning and all-clear",
+      "url": "https://www.rri.ro/actualitate/stiri/alerta-aeriana-in-nordul-judetului-tulcea-doua-avioane-f-18-spaniole-au-decolat-de-la-mihail-kogalniceanu-id1087164.html",
+      "dateLabel": "24 November 2026",
+      "audit": "Full account read. Ministry times 11:11 and 11:51 local; target in Ukraine, Spanish aircraft response, no Romanian entry."
+    },
+    "U460": {
+      "id": "U460",
+      "publisher": "Kanal D, quoting emergency authorities",
+      "title": "Same morning Tulcea warning; earlier phone receipt time",
+      "url": "https://www.stirilekanald.ro/mesaj-ro-alert-in-nordul-judetului-tulcea-posibile-incursiuni-de-drone-20866488",
+      "dateLabel": "24 November 2026",
+      "audit": "Emergency service quotes 10:11 phone receipt versus Defence Ministry 11:11; both give 11:51 all-clear. Does not establish a separate warning."
+    },
+    "U461": {
+      "id": "U461",
+      "publisher": "Digi24, quoting Romania’s Defence Ministry",
+      "title": "Afternoon Tulcea RO-Alert and national-airspace all-clear",
+      "url": "https://www.digi24.ro/stiri/alerta-aeriana-la-tulcea-doua-avioane-f-16-au-fost-ridicate-de-la-sol-dupa-ce-o-tinta-a-fost-detectata-la-nord-de-bratul-chilia-4050807",
+      "dateLabel": "24 November 2026",
+      "audit": "Read ministry statement and end update. Aircraft monitored a target detected in Ukrainian airspace, no Romanian entry."
+    },
+    "U462": {
+      "id": "U462",
+      "publisher": "Viața Liberă Galați, quoting IGSU",
+      "title": "Galați warning and local all-clear",
+      "url": "https://viata-libera.ro/prima-pagina/265903-mesaj-ro-alert-la-galati-locuitorii,-indemnati-sa-se-adaposteasca",
+      "dateLabel": "24 November 2026",
+      "audit": "Local warning coverage; IGSU all-clear reported at 15:46. No additional target established."
+    },
+    "U463": {
+      "id": "U463",
+      "publisher": "Bloomberg interview with Volodymyr Zelenskyy, via gCaptain",
+      "title": "Ukraine publicly acknowledges SPARTA II strike",
+      "url": "https://gcaptain.com/zelenskyy-confirms-ukraine-hit-russian-ship-in-gulf-of-finland/",
+      "dateLabel": "24 November 2026; interview on 23 November",
+      "audit": "Read full interview report. Zelenskyy acknowledged Ukraine carried out the strike, claimed Russian territorial waters and weapons aboard; Bloomberg did not verify the cargo."
+    },
+    "U464": {
+      "id": "U464",
+      "publisher": "ERR",
+      "title": "SPARTA II aftermath and competing location account",
+      "url": "https://www.err.ee/1610203654/herem-soome-laht-ei-ole-ohtlikumaks-muutunud",
+      "dateLabel": "24 November 2026",
+      "audit": "ERR narration places the hit in Estonia’s EEZ, not attributed as a direct quote by the minister."
+    },
+    "U465": {
+      "id": "U465",
+      "publisher": "ERR, quoting Estonia Police and Border Guard Board",
+      "title": "Estonian rescue official locates ship at the time of the fire and explosion",
+      "url": "https://www.err.ee/1610200237/err-i-teleuudised-kell-9-00",
+      "dateLabel": "21 November 2026",
+      "audit": "Official quoted placing the ship in Estonia’s EEZ when fire and explosion occurred. That is not independently verified impact-point evidence."
+    },
+    "U466": {
+      "id": "U466",
+      "publisher": "Bulgarian News Agency via Vesti, quoting the Burgas governor",
+      "title": "Tsarevo container opened; Christmas decorations found",
+      "url": "https://www.vesti.bg/bulgaria/kontejneryt-izpluval-kraj-carevo-se-okaza-pylen-s-koledna-ukrasa-6277151",
+      "dateLabel": "24 November 2026",
+      "audit": "Diko Dikov reports 80 boxes matching the manifest, only for the container ashore since 2 November."
+    },
+    "U467": {
+      "id": "U467",
+      "publisher": "Reuters",
+      "title": "CONTSHIP JET operator cannot confirm container origin",
+      "url": "https://www.reuters.com/world/santas-polar-bear-emerge-washed-up-container-bulgarian-beach-2026-11-24/",
+      "dateLabel": "24 November 2026",
+      "audit": "Direct operator response does not confirm the ship association."
+    },
+    "U468": {
+      "id": "U468",
+      "publisher": "Romanian Maritime Hydrographic Directorate",
+      "title": "Chart 1.500.06: ROYAD MAMMADOV and PROGRESS IV wrecks",
+      "url": "https://www.dhmfn.ro/an/1.500.06.pdf",
+      "dateLabel": "Chart revision 22 October 2026",
+      "audit": "Read Notices 10/65/26, 9/58/26 and 10/68/26. Chart establishes the wrecks, not strike cause or positions."
+    },
+    "U469": {
+      "id": "U469",
+      "publisher": "Romanian Maritime Hydrographic Directorate",
+      "title": "Navigational warnings for both vessels",
+      "url": "https://www.dhmfn.ro/en/public-information/radio-navigational-warnings/",
+      "dateLabel": "10 September and 7 October 2026",
+      "audit": "ARN 118/2026 gives the PROGRESS IV wreck and hazards, no cause. ARN 141/2026 reports ROYAD MAMMADOV in danger of sinking."
+    },
+    "U470": {
+      "id": "U470",
+      "publisher": "Libertatea, citing the Maritime Hydrographic Directorate",
+      "title": "Hydrographic authority assessment of two merchant wrecks",
+      "url": "https://www.libertatea.ro/stiri/navigatia-in-vestul-marii-negre-tot-mai-afectata-de-razboi-181-de-avertismente-radio-pentru-navigatori-emise-directia-hidrografica-maritima-in-2026-c8kpjpv",
+      "dateLabel": "24 November 2026",
+      "audit": "Attributes drone-hit assessment on both ships to the Directorate. No published case-level forensic basis for PROGRESS IV."
+    },
+    "U471": {
+      "id": "U471",
+      "publisher": "Romanian Naval Authority",
+      "title": "GAS LISBON fire and evacuation off Sfântu Gheorghe",
+      "url": "https://portal.rna.ro/wp-content/uploads/2026/09/Comunicat-de-presa-21.07.2026-Incendiu-Nava-Sf.-Gheorghe.pdf",
+      "dateLabel": "21 July 2026",
+      "audit": "Original PDF read. Names ship, gives 00:05 local distress call, confirms all 17 evacuated, three injured."
+    },
+    "U472": {
+      "id": "U472",
+      "publisher": "AGERPRES quoting Romania’s Health Ministry",
+      "title": "One of three injured GAS LISBON sailors dies in hospital",
+      "url": "https://agerpres.ro/justitie/2026/07/23/incendiu-petrolier-constanta-unul-dintre-cei-trei-marinari-raniti-a-murit-la-spital--1578577",
+      "dateLabel": "23 July 2026",
+      "audit": "The ministry confirmed one of the three injured died at Tulcea County Emergency Hospital on 23 July."
+    },
+    "U473": {
+      "id": "U473",
+      "publisher": "Philippine News Agency citing OWWA and DMW",
+      "title": "GAS LISBON sailor’s remains repatriated",
+      "url": "https://www.pna.gov.ph/articles/1281898",
+      "dateLabel": "14 August 2026",
+      "audit": "Corroborates death and repatriation of the two surviving injured seafarers, not a forensic confirmation of cause."
+    },
+    "U474": {
+      "id": "U474",
+      "publisher": "Romanian Ministry of National Defence",
+      "title": "GAS LISBON casualty occurred in the Romanian EEZ",
+      "url": "https://english.mapn.ro/cpresa/6819_press-release",
+      "dateLabel": "21 July 2026",
+      "audit": "Official release identifies vessel and EEZ. Distance differs from Naval Authority; position remains approximate."
     }
   },
-  "cutoff": "2026-11-23",
+  "cutoff": "2026-11-24",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

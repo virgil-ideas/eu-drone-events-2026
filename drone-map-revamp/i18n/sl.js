@@ -262,7 +262,7 @@
   "revamp.darkTurnBody": "{count}. Trgovske ladje so bile zadete ali po poročilih tarče napadov ob Romuniji in Bolgariji, z mrtvimi, ranjenimi in pogrešanimi člani posadk. Vsak zapis razlikuje teritorialne vode od območij zunaj njih in ohranja negotovost glede napadalca.",
   "revamp.darkTurnModalTitle": "Od vdorov v zračni prostor do smrtonosnih napadov na ladijski promet v Črnem morju",
   "revamp.darkTurnPhase1Title": "jan. – sep. 2026 · Zračni prostor, meja in obalni ostanki",
-  "revamp.darkTurnPhase1Body": "Več kot 100 zapisov o zračnih dogodkih, zasegih na meji in obalnih ostankih v 10 državah EU z 0 potrjenimi smrtnimi žrtvami (poleg 3 nerazrešenih/nepotrjenih poletnih incidentov z ladjami ob kraju Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase1Body": "Več kot 100 zapisov o zračnih dogodkih, zasegih na meji in obalnih ostankih v 10 državah EU z 0 potrjenimi smrtnimi žrtvami (poleg 3 nerazrešenih/nepotrjenih poletnih incidentov z ladjami ob kraju Sfântu Gheorghe: E033, E034, E053). En član posadke ladje GAS LISBON je pozneje umrl zaradi poškodb (E033); napad z dronom ni potrjen.",
   "revamp.darkTurnPhase2Title": "{rangeYear} · Smrtonosno pomorsko stopnjevanje",
   "revamp.darkTurnPhase2Body": "{count}. Trgovske ladje so bile zadete ali po poročilih tarče napadov ob Romuniji in Bolgariji, z mrtvimi, ranjenimi in pogrešanimi člani posadk. Vsak zapis razlikuje teritorialne vode od območij zunaj njih in ohranja negotovost glede napadalca.",
   "revamp.darkTurnCountingNote": "Opomba o štetju: številke o žrtvah izhajajo iz uradnih izjav mornarice, ministrstev in diplomatskih predstavništev, navedenih v posameznem zapisu. Nasprotujoča si poročila se nikoli ne seštevajo, pogrešani mornarji pa se ne beležijo kot potrjeno mrtvi.",

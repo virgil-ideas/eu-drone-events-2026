@@ -264,7 +264,7 @@
   "revamp.darkTurnBody": "{count}. Merchant ships have been struck or reportedly targeted off Romania and Bulgaria, with deaths, injuries and missing crew. Each record distinguishes territorial waters from offshore locations and preserves uncertainty about the attacker.",
   "revamp.darkTurnModalTitle": "From Airspace Incursions to Lethal Strikes on Black Sea Shipping",
   "revamp.darkTurnPhase1Title": "Jan – Sep 2026 · Airspace, Border & Coastal Debris",
-  "revamp.darkTurnPhase1Body": "Over 100 air, border-seizure and coastal-debris records across 10 EU states with 0 confirmed fatalities (plus 3 unresolved/unconfirmed summer shipping incidents off Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase1Body": "Over 100 air, border-seizure and coastal-debris records across 10 EU states with 0 confirmed fatalities (plus 3 unresolved/unconfirmed summer shipping incidents off Sfântu Gheorghe: E033, E034, E053). One GAS LISBON crew member later died of injuries (E033); a drone strike remains unconfirmed.",
   "revamp.darkTurnPhase2Title": "{rangeYear} · The Lethal Maritime Escalation",
   "revamp.darkTurnPhase2Body": "{count}. Merchant ships have been struck or reportedly targeted off Romania and Bulgaria, with deaths, injuries and missing crew. Each record distinguishes territorial waters from offshore locations and preserves uncertainty about the attacker.",
   "revamp.darkTurnCountingNote": "Counting note: Casualty figures come from official naval, ministerial and diplomatic statements cited in each record. Conflicting reports are never added together, and missing sailors are not recorded as confirmed dead.",

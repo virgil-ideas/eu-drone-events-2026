@@ -93,8 +93,8 @@
   }
 
   const countryName = name => (COUNTRY_CODES[name] && format.regions?.of(COUNTRY_CODES[name])) || name;
-  const primaryCountry = event => event.countries.split(';')[0].replace(/ \(.+\)/,'').trim();
-  const allCountriesOf = event => event.countries.split(';').map(c => c.replace(/ \(.+\)/,'').trim()).filter(Boolean);
+  const allCountriesOf = event => event.countries.replace(/\([^()]*\)/g, '').split(';').map(c => c.trim()).filter(Boolean);
+  const primaryCountry = event => allCountriesOf(event)[0];
 
   // Editorial headline, TL;DR description, and summary paragraphs for each event
   // in the visitor's language when a current translation exists, otherwise English.

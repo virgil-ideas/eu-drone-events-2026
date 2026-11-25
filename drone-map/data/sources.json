@@ -4499,5 +4499,157 @@
     "url": "https://www.rp.pl/wojsko/art45533201-rosyjski-dron-latal-nad-wschodnia-polska-w-poblizu-nie-bylo-samolotow",
     "dateLabel": "24 November 2026; published 10:01, updated 13:12 (site display)",
     "audit": "Directly read named-spokesperson account. Reports 22:50 entry near Dorohusk, about 20 km penetration and 8–9 minutes in Polish airspace. Jet propulsion assessed from speed; cameras/reconnaissance role not confirmed. Ground systems were authorized; no weapons used."
+  },
+  "U456": {
+    "id": "U456",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Border guards report two separate cigarette-carrying drone entries from Belarus",
+    "url": "https://vsat.lrv.lt/lt/naujienos/per-kelias-valandas-purvenu-pasienieciai-nukove-du-is-baltarusijos-skridusius-dronus-su-cigareciu-kroviniu-foto-xjM/",
+    "dateLabel": "28 September 2026",
+    "audit": "Original release read. Sunday was 27 September locally. Reports separate patrols, seizures and administrative proceedings. Does not identify exact occurrence times or operators."
+  },
+  "U457": {
+    "id": "U457",
+    "publisher": "Veteranos, citing Greek military figures",
+    "title": "Reported Turkish UAV activity on 18 October 2026",
+    "url": "https://veteranos.gr/tourkikes-paraviaseis-sto-aigaio-5-uav-me-10-paravaseis-kai-6-paraviaseis-tou-eech/",
+    "dateLabel": "18 October 2026",
+    "audit": "Full dated account read. Single accessible Greek secondary source; original bulletin and tracks not obtained. National-airspace violations and Athens FIR infringements are distinct measures."
+  },
+  "U458": {
+    "id": "U458",
+    "publisher": "Veteranos, citing Greek military figures",
+    "title": "Reported Turkish UAV activity on 21 November 2026",
+    "url": "https://veteranos.gr/tourkiko-uav-sto-kentriko-aigaio-treis-paraviaseis-tou-ethnikou-enaeriou-chorou-anachaitistike-apo-tin-polemiki-aeroporia/",
+    "dateLabel": "21 November 2026",
+    "audit": "Full dated account read. Single accessible Greek secondary source; original bulletin and tracks not obtained. National-airspace violations and Athens FIR infringements are distinct measures."
+  },
+  "U459": {
+    "id": "U459",
+    "publisher": "Radio România Internațional, citing the Romanian Defence Ministry",
+    "title": "Morning northern Tulcea warning and all-clear",
+    "url": "https://www.rri.ro/actualitate/stiri/alerta-aeriana-in-nordul-judetului-tulcea-doua-avioane-f-18-spaniole-au-decolat-de-la-mihail-kogalniceanu-id1087164.html",
+    "dateLabel": "24 November 2026",
+    "audit": "Full account read. Ministry times 11:11 and 11:51 local; target in Ukraine, Spanish aircraft response, no Romanian entry."
+  },
+  "U460": {
+    "id": "U460",
+    "publisher": "Kanal D, quoting emergency authorities",
+    "title": "Same morning Tulcea warning; earlier phone receipt time",
+    "url": "https://www.stirilekanald.ro/mesaj-ro-alert-in-nordul-judetului-tulcea-posibile-incursiuni-de-drone-20866488",
+    "dateLabel": "24 November 2026",
+    "audit": "Emergency service quotes 10:11 phone receipt versus Defence Ministry 11:11; both give 11:51 all-clear. Does not establish a separate warning."
+  },
+  "U461": {
+    "id": "U461",
+    "publisher": "Digi24, quoting Romania’s Defence Ministry",
+    "title": "Afternoon Tulcea RO-Alert and national-airspace all-clear",
+    "url": "https://www.digi24.ro/stiri/alerta-aeriana-la-tulcea-doua-avioane-f-16-au-fost-ridicate-de-la-sol-dupa-ce-o-tinta-a-fost-detectata-la-nord-de-bratul-chilia-4050807",
+    "dateLabel": "24 November 2026",
+    "audit": "Read ministry statement and end update. Aircraft monitored a target detected in Ukrainian airspace, no Romanian entry."
+  },
+  "U462": {
+    "id": "U462",
+    "publisher": "Viața Liberă Galați, quoting IGSU",
+    "title": "Galați warning and local all-clear",
+    "url": "https://viata-libera.ro/prima-pagina/265903-mesaj-ro-alert-la-galati-locuitorii,-indemnati-sa-se-adaposteasca",
+    "dateLabel": "24 November 2026",
+    "audit": "Local warning coverage; IGSU all-clear reported at 15:46. No additional target established."
+  },
+  "U463": {
+    "id": "U463",
+    "publisher": "Bloomberg interview with Volodymyr Zelenskyy, via gCaptain",
+    "title": "Ukraine publicly acknowledges SPARTA II strike",
+    "url": "https://gcaptain.com/zelenskyy-confirms-ukraine-hit-russian-ship-in-gulf-of-finland/",
+    "dateLabel": "24 November 2026; interview on 23 November",
+    "audit": "Read full interview report. Zelenskyy acknowledged Ukraine carried out the strike, claimed Russian territorial waters and weapons aboard; Bloomberg did not verify the cargo."
+  },
+  "U464": {
+    "id": "U464",
+    "publisher": "ERR",
+    "title": "SPARTA II aftermath and competing location account",
+    "url": "https://www.err.ee/1610203654/herem-soome-laht-ei-ole-ohtlikumaks-muutunud",
+    "dateLabel": "24 November 2026",
+    "audit": "ERR narration places the hit in Estonia’s EEZ, not attributed as a direct quote by the minister."
+  },
+  "U465": {
+    "id": "U465",
+    "publisher": "ERR, quoting Estonia Police and Border Guard Board",
+    "title": "Estonian rescue official locates ship at the time of the fire and explosion",
+    "url": "https://www.err.ee/1610200237/err-i-teleuudised-kell-9-00",
+    "dateLabel": "21 November 2026",
+    "audit": "Official quoted placing the ship in Estonia’s EEZ when fire and explosion occurred. That is not independently verified impact-point evidence."
+  },
+  "U466": {
+    "id": "U466",
+    "publisher": "Bulgarian News Agency via Vesti, quoting the Burgas governor",
+    "title": "Tsarevo container opened; Christmas decorations found",
+    "url": "https://www.vesti.bg/bulgaria/kontejneryt-izpluval-kraj-carevo-se-okaza-pylen-s-koledna-ukrasa-6277151",
+    "dateLabel": "24 November 2026",
+    "audit": "Diko Dikov reports 80 boxes matching the manifest, only for the container ashore since 2 November."
+  },
+  "U467": {
+    "id": "U467",
+    "publisher": "Reuters",
+    "title": "CONTSHIP JET operator cannot confirm container origin",
+    "url": "https://www.reuters.com/world/santas-polar-bear-emerge-washed-up-container-bulgarian-beach-2026-11-24/",
+    "dateLabel": "24 November 2026",
+    "audit": "Direct operator response does not confirm the ship association."
+  },
+  "U468": {
+    "id": "U468",
+    "publisher": "Romanian Maritime Hydrographic Directorate",
+    "title": "Chart 1.500.06: ROYAD MAMMADOV and PROGRESS IV wrecks",
+    "url": "https://www.dhmfn.ro/an/1.500.06.pdf",
+    "dateLabel": "Chart revision 22 October 2026",
+    "audit": "Read Notices 10/65/26, 9/58/26 and 10/68/26. Chart establishes the wrecks, not strike cause or positions."
+  },
+  "U469": {
+    "id": "U469",
+    "publisher": "Romanian Maritime Hydrographic Directorate",
+    "title": "Navigational warnings for both vessels",
+    "url": "https://www.dhmfn.ro/en/public-information/radio-navigational-warnings/",
+    "dateLabel": "10 September and 7 October 2026",
+    "audit": "ARN 118/2026 gives the PROGRESS IV wreck and hazards, no cause. ARN 141/2026 reports ROYAD MAMMADOV in danger of sinking."
+  },
+  "U470": {
+    "id": "U470",
+    "publisher": "Libertatea, citing the Maritime Hydrographic Directorate",
+    "title": "Hydrographic authority assessment of two merchant wrecks",
+    "url": "https://www.libertatea.ro/stiri/navigatia-in-vestul-marii-negre-tot-mai-afectata-de-razboi-181-de-avertismente-radio-pentru-navigatori-emise-directia-hidrografica-maritima-in-2026-c8kpjpv",
+    "dateLabel": "24 November 2026",
+    "audit": "Attributes drone-hit assessment on both ships to the Directorate. No published case-level forensic basis for PROGRESS IV."
+  },
+  "U471": {
+    "id": "U471",
+    "publisher": "Romanian Naval Authority",
+    "title": "GAS LISBON fire and evacuation off Sfântu Gheorghe",
+    "url": "https://portal.rna.ro/wp-content/uploads/2026/09/Comunicat-de-presa-21.07.2026-Incendiu-Nava-Sf.-Gheorghe.pdf",
+    "dateLabel": "21 July 2026",
+    "audit": "Original PDF read. Names ship, gives 00:05 local distress call, confirms all 17 evacuated, three injured."
+  },
+  "U472": {
+    "id": "U472",
+    "publisher": "AGERPRES quoting Romania’s Health Ministry",
+    "title": "One of three injured GAS LISBON sailors dies in hospital",
+    "url": "https://agerpres.ro/justitie/2026/07/23/incendiu-petrolier-constanta-unul-dintre-cei-trei-marinari-raniti-a-murit-la-spital--1578577",
+    "dateLabel": "23 July 2026",
+    "audit": "The ministry confirmed one of the three injured died at Tulcea County Emergency Hospital on 23 July."
+  },
+  "U473": {
+    "id": "U473",
+    "publisher": "Philippine News Agency citing OWWA and DMW",
+    "title": "GAS LISBON sailor’s remains repatriated",
+    "url": "https://www.pna.gov.ph/articles/1281898",
+    "dateLabel": "14 August 2026",
+    "audit": "Corroborates death and repatriation of the two surviving injured seafarers, not a forensic confirmation of cause."
+  },
+  "U474": {
+    "id": "U474",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "GAS LISBON casualty occurred in the Romanian EEZ",
+    "url": "https://english.mapn.ro/cpresa/6819_press-release",
+    "dateLabel": "21 July 2026",
+    "audit": "Official release identifies vessel and EEZ. Distance differs from Naval Authority; position remains approximate."
   }
 }

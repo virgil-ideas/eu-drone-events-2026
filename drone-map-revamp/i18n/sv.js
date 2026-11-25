@@ -262,7 +262,7 @@
   "revamp.darkTurnBody": "{count}. Handelsfartyg har träffats eller enligt uppgifter varit måltavlor utanför Rumänien och Bulgarien, med döda, skadade och saknade besättningsmedlemmar. Varje post skiljer territorialvatten från områden utanför och bevarar osäkerheten om angriparen.",
   "revamp.darkTurnModalTitle": "Från luftrumsintrång till dödliga angrepp mot sjöfarten i Svarta havet",
   "revamp.darkTurnPhase1Title": "Jan. – sep. 2026 · Luftrum, gräns och spillror på kusten",
-  "revamp.darkTurnPhase1Body": "Över 100 poster om luftrum, beslag vid gränsen och spillror på kusten i 10 EU-länder utan några bekräftade dödsfall (samt 3 olösta/obekräftade sjöfartsincidenter under sommaren utanför Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase1Body": "Över 100 poster om luftrum, beslag vid gränsen och spillror på kusten i 10 EU-länder utan några bekräftade dödsfall (samt 3 olösta/obekräftade sjöfartsincidenter under sommaren utanför Sfântu Gheorghe: E033, E034, E053). En besättningsmedlem på GAS LISBON dog senare av sina skador (E033); en drönarattack har inte bekräftats.",
   "revamp.darkTurnPhase2Title": "{rangeYear} · Den dödliga upptrappningen till havs",
   "revamp.darkTurnPhase2Body": "{count}. Handelsfartyg har träffats eller enligt uppgifter varit måltavlor utanför Rumänien och Bulgarien, med döda, skadade och saknade besättningsmedlemmar. Varje post skiljer territorialvatten från områden utanför och bevarar osäkerheten om angriparen.",
   "revamp.darkTurnCountingNote": "Räkneanmärkning: Uppgifterna om offer kommer från officiella uttalanden från marinen, ministerier och diplomater som citeras i varje post. Motstridiga rapporter läggs aldrig ihop, och saknade sjömän registreras inte som bekräftat döda.",

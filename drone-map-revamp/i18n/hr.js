@@ -262,7 +262,7 @@
   "revamp.darkTurnBody": "{count}. Trgovački brodovi pogođeni su ili su prema izvješćima bili mete napada kod Rumunjske i Bugarske, uz poginule, ozlijeđene i nestale članove posada. Svaki zapis razlikuje teritorijalne vode od područja izvan njih i zadržava neizvjesnost o napadaču.",
   "revamp.darkTurnModalTitle": "Od upada u zračni prostor do smrtonosnih udara na pomorski promet u Crnom moru",
   "revamp.darkTurnPhase1Title": "Sij. – ruj. 2026. · Zračni prostor, granica i obalne krhotine",
-  "revamp.darkTurnPhase1Body": "Više od 100 zapisa o zračnim događajima, zapljenama na granici i obalnim krhotinama u 10 država EU-a bez potvrđenih smrtnih slučajeva (uz 3 nerazjašnjena/nepotvrđena ljetna incidenta s brodovima kod Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase1Body": "Više od 100 zapisa o zračnim događajima, zapljenama na granici i obalnim krhotinama u 10 država EU-a bez potvrđenih smrtnih slučajeva (uz 3 nerazjašnjena/nepotvrđena ljetna incidenta s brodovima kod Sfântu Gheorghe: E033, E034, E053). Jedan član posade broda GAS LISBON kasnije je preminuo od ozljeda (E033); napad dronom nije potvrđen.",
   "revamp.darkTurnPhase2Title": "{rangeYear} · Smrtonosna pomorska eskalacija",
   "revamp.darkTurnPhase2Body": "{count}. Trgovački brodovi pogođeni su ili su prema izvješćima bili mete napada kod Rumunjske i Bugarske, uz poginule, ozlijeđene i nestale članove posada. Svaki zapis razlikuje teritorijalne vode od područja izvan njih i zadržava neizvjesnost o napadaču.",
   "revamp.darkTurnCountingNote": "Napomena o brojanju: podaci o žrtvama potječu iz službenih mornaričkih, ministarskih i diplomatskih izjava navedenih u svakom zapisu. Proturječna izvješća nikada se ne zbrajaju, a nestali mornari ne bilježe se kao potvrđeno mrtvi.",

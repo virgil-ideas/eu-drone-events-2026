@@ -416,7 +416,7 @@
         const items = mediaFor(event);
         const hasVideo = items.some(item => playableVideo(item.video) || externalVideo(item.video));
         const badge = items.length ? `<span class="media-badge${hasVideo ? ' video' : ''}" title="${escape(t(hasVideo ? 'card.video' : 'card.photo'))}"><span class="sr-only">${escape(t(hasVideo ? 'card.video' : 'card.photo'))}</span></span>` : '';
-        return `${heading}<button class="event-card${!allMode && event.startDate === dayToDate(currentDay) ? ' current' : ''}" id="card-${event.id}" data-id="${event.id}" data-date="${event.startDate}" style="--category:${colors[event.category]}" aria-pressed="${selectedId === event.id}"><span class="event-dot" aria-hidden="true"></span><span class="event-meta"><span>${escape(dayLabel)} · ${escape(countryName(event.countries.split(';')[0].replace(/ \(.+\)/,'')))}</span><span class="event-id">${badge}${event.id}</span></span><span class="event-title" lang="en">${escape(event.title)}</span>${event.recordClass !== 'event' ? `<span class="record-kind">${escape(recordClassLabel(event.recordClass))}</span>` : ''}<span class="event-type" lang="en">${escape(event.status)}</span></button>`;
+        return `${heading}<button class="event-card${!allMode && event.startDate === dayToDate(currentDay) ? ' current' : ''}" id="card-${event.id}" data-id="${event.id}" data-date="${event.startDate}" style="--category:${colors[event.category]}" aria-pressed="${selectedId === event.id}"><span class="event-dot" aria-hidden="true"></span><span class="event-meta"><span>${escape(dayLabel)} · ${escape(countryName(event.countries.replace(/\([^()]*\)/g, '').split(';')[0].trim()))}</span><span class="event-id">${badge}${event.id}</span></span><span class="event-title" lang="en">${escape(event.title)}</span>${event.recordClass !== 'event' ? `<span class="record-kind">${escape(recordClassLabel(event.recordClass))}</span>` : ''}<span class="event-type" lang="en">${escape(event.status)}</span></button>`;
       }).join('');
       renderedRecordKey = recordKey;
     }
@@ -748,7 +748,7 @@
   const baseCount = events.filter(event => event.id.startsWith('E')).length;
   const eventCount = events.filter(event => event.recordClass === 'event').length;
   const candidateCount = events.filter(event => event.recordClass === 'candidate').length;
-  const countryCount = new Set(events.flatMap(event => event.countries.split(';').map(country => country.replace(/ \(.+\)/,'').trim()))).size;
+  const countryCount = new Set(events.flatMap(event => event.countries.replace(/\([^()]*\)/g, '').split(';').map(country => country.trim()))).size;
   function renderAbout() {
     const rows = [['about.statTotal',events.length], ['about.statBase',baseCount], ['about.statAdded',eventCount - baseCount], ['about.statCandidates',candidateCount], ['about.statContexts',contexts.length], ['about.statSources',Object.keys(sources).length], ['about.statCutoff',longDate(cutoff)]];
     $('register-summary').innerHTML = rows.map(([key,value]) => `<div><dt>${escape(t(key))}</dt><dd>${escape(typeof value === 'number' ? format.number.format(value) : value)}</dd></div>`).join('');

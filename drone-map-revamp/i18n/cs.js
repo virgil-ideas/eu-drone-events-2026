@@ -262,7 +262,7 @@
   "revamp.darkTurnBody": "{count}. Obchodní lodě byly zasaženy nebo se podle zpráv staly cílem útoků u Rumunska a Bulharska, s mrtvými, zraněnými a pohřešovanými členy posádek. Každý záznam rozlišuje teritoriální vody od oblastí mimo ně a zachovává nejistotu ohledně útočníka.",
   "revamp.darkTurnModalTitle": "Od narušení vzdušného prostoru ke smrtícím úderům na lodní dopravu v Černém moři",
   "revamp.darkTurnPhase1Title": "Leden – září 2026 · Vzdušný prostor, hranice a pobřežní trosky",
-  "revamp.darkTurnPhase1Body": "Více než 100 záznamů o vzdušném prostoru, zabaveních na hranicích a pobřežních troskách v 10 státech EU s 0 potvrzenými úmrtími (a 3 nevyřešené či nepotvrzené letní incidenty v lodní dopravě u Sfântu Gheorghe: E033, E034, E053).",
+  "revamp.darkTurnPhase1Body": "Více než 100 záznamů o vzdušném prostoru, zabaveních na hranicích a pobřežních troskách v 10 státech EU s 0 potvrzenými úmrtími (a 3 nevyřešené či nepotvrzené letní incidenty v lodní dopravě u Sfântu Gheorghe: E033, E034, E053). Jeden člen posádky GAS LISBON později zemřel na následky zranění (E033); zásah dronem nebyl potvrzen.",
   "revamp.darkTurnPhase2Title": "{rangeYear} · Smrtící námořní eskalace",
   "revamp.darkTurnPhase2Body": "{count}. Obchodní lodě byly zasaženy nebo se podle zpráv staly cílem útoků u Rumunska a Bulharska, s mrtvými, zraněnými a pohřešovanými členy posádek. Každý záznam rozlišuje teritoriální vody od oblastí mimo ně a zachovává nejistotu ohledně útočníka.",
   "revamp.darkTurnCountingNote": "Poznámka k počítání: Počty obětí pocházejí z oficiálních námořních, ministerských a diplomatických prohlášení citovaných u každého záznamu. Protichůdné zprávy se nikdy nesčítají a pohřešovaní námořníci se nezapisují jako potvrzení mrtví.",

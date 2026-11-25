@@ -1192,3 +1192,33 @@ that date. No additional occurrence is inferred from source follow-ups.
   was a domestic military exercise accident without reported injuries. The
   separately confirmed [23 November Moldovan incursion](https://www.army.md/ro/comunicate-de-presa/informeaza-43)
   is outside the EU and does not establish a Romanian or Polish link.
+
+## 25 November 2026 routine review
+
+- Bounded public-source screen across all 27 EU states, with queries from
+  21 November 06:08 UTC to approximately 25 November 06:05 UTC (overlap with
+  the preceding completed search), plus targeted archive checks. Not exhaustive.
+  The inclusive register cutoff of 24 November does not certify complete coverage.
+- Two separate northern Tulcea civil-protection alerts on 24 November. The
+  Defence Ministry reported detections in Ukrainian airspace and no Romanian
+  entry in either case. The morning warning time differs between cited agency
+  accounts; the reported afternoon Galați all-clear does not establish an extra
+  target or episode.
+- Added two separately documented cross-border smuggling incidents in Lithuania
+  on 27 September, and two Greek daily reports (18 October and 21 November).
+  The Greek entries are single-source reproductions of attributed figures, not
+  independently verified tracks or attack counts. The public GEETHA November
+  register was inaccessible; no corroborated date-specific totals for 23–25
+  November in this pass. Other Greek and Cyprus archive gaps are still open.
+- SPARTA II: Ukraine publicly acknowledged responsibility. Sources disagree on
+  the strike location. Finland’s rescue is documented separately; what the
+  ship carried remains unverified. N124 adds the identified Tsarevo container
+  contents, not its source vessel or pollution results. N072 adds the later
+  official wreck listing, E053 a qualified authority assessment, and E033
+  the GAS LISBON identification and documented death among the initially injured.
+- Poland's NATO delegation identifies the 23 November Council meeting as a
+  response to the separate 20 November cruise-missile breach, not the
+  23 November Dorohusk drone. Prosecutors reported missile debris at all
+  three Nov 20 crash sites. The possible second Sigonella episode remains
+  undated independently and no foreign crossing is established. The Hamburg
+  airport lead points to a locally operated drone, not a verified incursion.

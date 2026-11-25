@@ -140,7 +140,9 @@ def slugify(text):
 
 
 def countries(record):
-    return [re.sub(r' \(.+\)', '', name).strip() for name in record['countries'].split(';')]
+    # Parenthetical jurisdiction notes can contain their own semicolons.
+    labels = re.sub(r'\([^()]*\)', '', record['countries'])
+    return [name.strip() for name in labels.split(';') if name.strip()]
 
 
 def page_slugs(database, pages, published):
@@ -388,7 +390,7 @@ def event_page(record, index, ordered, database, pages, slugs, media):
 def index_item(record, pages, slugs, sources):
     day = date.fromisoformat(record['startDate'])
     kind = 'Unidentified object' if record['recordClass'] == 'candidate' else CATEGORIES[record['category']][0]
-    place = ', '.join(dict.fromkeys(countries(record)))
+    place = ', '.join(part.strip() for part in re.split(r';(?![^()]*\))', record['countries']))
     return (f'<li style="--category:{CATEGORIES[record["category"]][1]}"><time datetime="{record["startDate"]}">'
             f'{day.day} {MONTHS[day.month - 1][:3]}</time>{record_link(record, slugs, copy_for(record, pages, sources)[0], root="")}'
             f'<span>{esc(place)} · {esc(kind)}</span></li>')
@@ -411,14 +413,14 @@ def index_page(database, pages, slugs):
     country_list = ''.join(f'<li><strong>{count}</strong> {esc(name)}</li>'
                            for name, count in sorted(tally.items(), key=lambda item: (-item[1], item[0])))
     total = len(ordered)
-    description = (f'All {total} records of drones that reached EU countries from abroad in 2026, newest first: '
-                   f'incursions, shoot-downs, crashes, strikes and wreckage in {len(tally)} countries.')
+    description = (f'All {total} records associated with {len(tally)} EU countries in 2026: '
+                   'incursions, alerts, discoveries and selected offshore incidents, newest first.')
     body = f"""  <main class="page">
     <nav class="crumbs" aria-label="Breadcrumb"><a href="../">Map</a><span aria-hidden="true">/</span><span>All records</span></nav>
     <header class="index-head">
       <p class="eyebrow">THE EVENT REGISTER · 1 JANUARY – {cutoff.upper()}</p>
       <h1>Foreign drone incidents in the EU, 2026</h1>
-      <p class="lede">{total} records of drones that reached EU countries from abroad: incursions, shoot-downs, crashes, strikes and wreckage, including drones whose operator is unknown. Each record has its own page with a summary, the attribution as reported and its sources. Ordinary drone sightings, like most airport disruptions, are not included.</p>
+      <p class="lede">{total} records associated with EU countries, including incursions, alerts without confirmed entry, discoveries and selected offshore incidents. Each record has its own page with a summary, the attribution as reported and its sources. Ordinary drone sightings, like most airport disruptions, are not included.</p>
       <p class="map-cta"><a class="button" href="../">Open the interactive map →</a></p>
       <ul class="country-tally" aria-label="Records per country">{country_list}</ul>
     </header>

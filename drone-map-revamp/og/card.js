@@ -13,7 +13,7 @@
   const shortDate = new Intl.DateTimeFormat('en-GB', {day:'numeric', month:'short', timeZone:'UTC'});
   const longDate = new Intl.DateTimeFormat('en-GB', {day:'numeric', month:'short', year:'numeric', timeZone:'UTC'});
   const day = iso => new Date(iso + 'T00:00:00Z');
-  const countriesOf = event => event.countries.split(';').map(c => c.replace(/ \(.+\)/, '').trim()).filter(Boolean);
+  const countriesOf = event => event.countries.replace(/\([^()]*\)/g, '').split(';').map(c => c.trim()).filter(Boolean);
   const overview = new URLSearchParams(window.location.search).get('view') === 'overview';
 
   $('brand-title').innerHTML = `${strings['brand.primary']} <span>${strings['brand.secondary']}</span>`;
