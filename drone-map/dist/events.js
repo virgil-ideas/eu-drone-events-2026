@@ -803,6 +803,51 @@ window.DRONE_DATA = {
       "page": "events/2026-04-16-17-unidentified-target-entry-chilia-veche-romania/"
     },
     {
+      "id": "N204",
+      "title": "Kiemėnai · cross-border smuggling drone",
+      "recordClass": "event",
+      "recordType": "cross_border_seizure",
+      "startDate": "2026-04-16",
+      "endDate": "2026-04-17",
+      "dateLabel": "16–17 April 2026 (overnight)",
+      "dateBasis": "VSAT’s 17 April 2026 release describes Thursday into Friday. Local overnight window retained; exact time not established.",
+      "countries": "Lithuania",
+      "location": "Kiemėnai area, Vilnius district, Lithuania",
+      "status": "Officially reported cross-border smuggling-drone operation",
+      "categories": "Reported border entry; counter-drone intervention; fall and recovery; cargo seizure",
+      "category": "crash",
+      "stages": [
+        "crash",
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.69,
+          "lng": 25.28,
+          "precision": "region",
+          "label": "Vilnius — representative district anchor"
+        }
+      ],
+      "positionNote": "District reference only, not an entry, interception or recovery point.",
+      "vehicle": "One cargo drone; model not established.",
+      "attribution": "VSAT describes cigarette smuggling; operator and state sponsorship not established.",
+      "route": "VSAT said it detected the drone flying into Lithuania from Belarus.",
+      "circumstances": "VSAT said it detected the drone flying into Lithuania from Belarus. The drone fell after border guards intervened and was recovered near Kiemėnai.",
+      "payload": "750 packs of Belarus-stamped cigarettes recovered; no explosive payload reported.",
+      "impact": "No third-party harm reported.",
+      "response": "Border guards recovered the drone and cargo. Administrative proceedings were opened.",
+      "uncertainty": "No operator, state sponsorship or exact flight track was established. This is a border-smuggling record, not a military attack.",
+      "deduplication": "One operation; detection, fall and recovery are not separate incidents.",
+      "provenance": "Original VSAT statement of 17 April 2026, read on 25 November.",
+      "classificationNote": "Reported fall and recovery; no kinetic shoot-down.",
+      "sourceReferences": "[U478][U478]",
+      "sources": [
+        "U478"
+      ],
+      "page": "events/2026-04-16-smuggling-drone-kiemenai-lithuania/"
+    },
+    {
       "id": "E011",
       "dateLabel": "2026-04-25",
       "dateBasis": "Crash and disposal 25 April; EEST",
@@ -1666,24 +1711,25 @@ window.DRONE_DATA = {
       "countries": "Lithuania",
       "location": "Dumblė, Šalčininkai district, Belarus border; EU land",
       "status": "Cross-border smuggling",
-      "categories": "Cargo-drone interception; forced landing; seizure",
-      "vehicle": "1 homemade cargo UAV",
+      "categories": "Smuggling-drone interception; fall and recovery",
+      "vehicle": "One homemade drone; model not established.",
       "attribution": "Reported arrival from Belarus; criminal operator unidentified",
       "route": "Belarus → Lithuania",
-      "circumstances": "Cargo-bearing drone reportedly forced down.",
-      "payload": "Smuggled cargo; explosive payload not reported",
-      "impact": "No casualties reported",
-      "response": "Border-enforcement interception and seizure.",
-      "uncertainty": "Individual cargo/technical details not available in prior research.",
-      "deduplication": "Included within aggregate A001 (18 cargo drones by this date); do not add the aggregate as 18 further events.",
-      "provenance": "Prior research; not independently rechecked in full for this export",
-      "sourceReferences": "[S24][S24]",
+      "circumstances": "VSAT reported entry from Belarus. The drone fell near Dumblė after border guards intervened.",
+      "payload": "No cargo on the recovered aircraft, according to VSAT.",
+      "impact": "VSAT reported substantial damage to the aircraft on impact. No casualties reported.",
+      "response": "Border guards recovered the aircraft and took it into custody.",
+      "uncertainty": "The operator, purpose of this particular flight and exact track are not established. VSAT described the aircraft as belonging to smugglers.",
+      "deduplication": "Included in the VSAT aggregate cited in A001. Do not add the aggregate as separate incidents.",
+      "provenance": "Original VSAT release of 25 May supersedes earlier cargo and landing summaries.",
+      "sourceReferences": "[S24][S24]; [U480][U480]",
       "sources": [
-        "S24"
+        "S24",
+        "U480"
       ],
       "startDate": "2026-05-23",
       "title": "Šalčininkai border district",
-      "category": "flight",
+      "category": "crash",
       "positions": [
         {
           "lat": 54.29,
@@ -1693,9 +1739,11 @@ window.DRONE_DATA = {
         }
       ],
       "stages": [
-        "flight"
+        "crash",
+        "flight",
+        "recovery"
       ],
-      "classificationNote": "Forced landing and seizure; the register does not describe a kinetic shoot-down or crash.",
+      "classificationNote": "VSAT reports a fall with impact damage and subsequent recovery; no kinetic shoot-down.",
       "recordClass": "event",
       "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
       "page": "events/2026-05-23-smuggling-drone-forced-down-salcininkai-lithuania/"
@@ -1907,9 +1955,10 @@ window.DRONE_DATA = {
       "deduplication": "No matching baseline event. Detection near Daugidonys and recovery at Dimitrai are one linked episode. Separate from September N036.",
       "provenance": "New finding; LRT/ELTA reporting of VSAT account.",
       "recordClass": "event",
-      "sourceReferences": "[L05][L05]",
+      "sourceReferences": "[L05][L05]; [U481][U481]",
       "sources": [
-        "L05"
+        "L05",
+        "U481"
       ],
       "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
       "title": "Daugidonys–Dimitrai",
@@ -1974,6 +2023,95 @@ window.DRONE_DATA = {
       "page": "events/2026-06-30-drone-wreckage-destroyed-rachelu-romania/"
     },
     {
+      "id": "N205",
+      "title": "Prūdelis · cross-border smuggling drone",
+      "recordClass": "event",
+      "recordType": "cross_border_seizure",
+      "startDate": "2026-07-08",
+      "endDate": "2026-07-09",
+      "dateLabel": "8–9 July 2026 (overnight)",
+      "dateBasis": "VSAT’s 9 July 2026 release describes Wednesday night with daylight recovery. Local overnight window retained; exact time not established.",
+      "countries": "Lithuania",
+      "location": "Prūdelis area, Šalčininkai district, Lithuania",
+      "status": "Officially reported cross-border smuggling-drone operation",
+      "categories": "Reported border entry; counter-drone intervention; fall and recovery; cargo seizure",
+      "category": "crash",
+      "stages": [
+        "crash",
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Šalčininkai — representative district anchor"
+        }
+      ],
+      "positionNote": "District reference only, not an entry, interception or recovery point.",
+      "vehicle": "One cargo drone; model not established.",
+      "attribution": "VSAT describes cigarette smuggling; operator and state sponsorship not established.",
+      "route": "VSAT reported the drone flying inland from the Belarus border; it did not publish the exact crossing point or track.",
+      "circumstances": "VSAT reported the drone flying inland from the Belarus border; it did not publish the exact crossing point or track. The drone fell after border guards intervened and was recovered near Prūdelis.",
+      "payload": "1,000 packs of Belarus-stamped cigarettes recovered; no explosive payload reported.",
+      "impact": "No third-party harm reported. VSAT reported substantial impact damage to the drone.",
+      "response": "Border guards recovered the drone and cargo. Administrative proceedings were opened.",
+      "uncertainty": "No operator, state sponsorship or exact flight track was established. This is a border-smuggling record, not a military attack.",
+      "deduplication": "One operation; detection, fall and recovery are not separate incidents. Distinct from the 9–10 July Žaltūnai–Girdijauskai operation.",
+      "provenance": "Original VSAT statement of 9 July 2026, read on 25 November.",
+      "classificationNote": "Reported fall and recovery; no kinetic shoot-down.",
+      "sourceReferences": "[U479][U479]",
+      "sources": [
+        "U479"
+      ],
+      "page": "events/2026-07-08-smuggling-drone-prudelis-lithuania/"
+    },
+    {
+      "id": "N201",
+      "title": "Žaltūnai–Girdijauskai · cross-border smuggling drones",
+      "recordClass": "event",
+      "recordType": "cross_border_seizure",
+      "startDate": "2026-07-09",
+      "endDate": "2026-07-10",
+      "dateLabel": "9–10 July 2026 (overnight)",
+      "dateBasis": "VSAT’s 10 July release refers to Thursday night with daylight recovery. Local overnight window retained; no exact time or midnight boundary established.",
+      "countries": "Lithuania",
+      "location": "Žaltūnai–Girdijauskai area, Šalčininkai district, Lithuania",
+      "status": "Officially reported cross-border smuggling-drone operation",
+      "categories": "Reported border entry; counter-drone intervention; recovery and cargo seizure",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Šalčininkai — representative district anchor"
+        }
+      ],
+      "positionNote": "District-level display reference, not an entry, interception or recovery point.",
+      "vehicle": "2 aircraft; model unconfirmed.",
+      "attribution": "VSAT describes cross-border cigarette smuggling; operators and state sponsorship not established.",
+      "route": "VSAT reports entry from Belarus. Exact crossing points and flight tracks unknown.",
+      "circumstances": "The border guard says it detected drones from Belarus overnight. Officers recovered two cargo drones near Žaltūnai and Girdijauskai after searches resumed in daylight.",
+      "payload": "2,000 packs of Belarus-stamped cigarettes recovered; no explosive payload reported.",
+      "impact": "No third-party harm reported. Cargo drones were recovered.",
+      "response": "Border guards intervened and recovered drone cargo. A criminal investigation was opened.",
+      "uncertainty": "The operator and exact crossing point and track are unknown. The operation is recorded as cross-border smuggling, not a military attack.",
+      "deduplication": "One operation involving 2 aircraft. Detection and recovery are not additional operations; cumulative VSAT aircraft figures overlap and are not added.",
+      "provenance": "Full original VSAT statement of 10 July read on 25 November.",
+      "classificationNote": "Forced descent and recovery; this entry does not assert a kinetic shoot-down.",
+      "sourceReferences": "[U475][U475]",
+      "sources": [
+        "U475"
+      ],
+      "page": "events/2026-07-09-smuggling-drone-zaltunai-girdijauskai-lithuania/"
+    },
+    {
       "id": "N015",
       "importAction": "ADD_EVENT",
       "recordType": "suspected_espionage",
@@ -2021,6 +2159,51 @@ window.DRONE_DATA = {
       ],
       "matchKey": "DE::2026-07-15::munich-defence-manufacturer-site",
       "page": "events/2026-07-15-drone-espionage-arrest-munich-germany/"
+    },
+    {
+      "id": "N202",
+      "title": "Šiulgiai–Šumskas · cross-border smuggling drone",
+      "recordClass": "event",
+      "recordType": "cross_border_seizure",
+      "startDate": "2026-07-17",
+      "endDate": "2026-07-18",
+      "dateLabel": "17–18 July 2026 (overnight)",
+      "dateBasis": "VSAT’s 20 July release refers to Friday night with daylight recovery. Local overnight window retained; no exact time or midnight boundary established.",
+      "countries": "Lithuania",
+      "location": "Šiulgiai–Šumskas area, Vilnius district, Lithuania",
+      "status": "Officially reported cross-border smuggling-drone operation",
+      "categories": "Reported border entry; counter-drone intervention; recovery and cargo seizure",
+      "category": "crash",
+      "stages": [
+        "crash",
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.69,
+          "lng": 25.28,
+          "precision": "region",
+          "label": "Vilnius — representative district anchor"
+        }
+      ],
+      "positionNote": "District-level display reference, not an entry, interception or recovery point.",
+      "vehicle": "One aircraft; model unconfirmed.",
+      "attribution": "VSAT describes cross-border cigarette smuggling; operators and state sponsorship not established.",
+      "route": "VSAT reports entry into Lithuania; it does not give a visible cross-border track or a precise crossing point.",
+      "circumstances": "The border guard reported one cargo drone entered Lithuania. Officers heard but did not see the drone near Šiulgiai. After intervention it fell, and the damaged aircraft was recovered near Šumskas in daylight.",
+      "payload": "340 packs of Belarus-stamped cigarettes recovered; no explosive payload reported.",
+      "impact": "No third-party harm reported. The drone was damaged on falling.",
+      "response": "Border guards intervened and recovered drone cargo. Administrative proceedings were opened.",
+      "uncertainty": "The operator and exact crossing point and track are unknown. The operation is recorded as cross-border smuggling, not a military attack.",
+      "deduplication": "One operation involving one aircraft. Detection and recovery are not additional operations; cumulative VSAT aircraft figures overlap and are not added.",
+      "provenance": "Full original VSAT statement of 20 July read on 25 November.",
+      "classificationNote": "Reported fall and recovery; no kinetic shoot-down.",
+      "sourceReferences": "[U476][U476]",
+      "sources": [
+        "U476"
+      ],
+      "page": "events/2026-07-17-smuggling-drone-siulgiai-sumskas-lithuania/"
     },
     {
       "id": "E033",
@@ -2278,6 +2461,50 @@ window.DRONE_DATA = {
       "page": "events/2026-07-27-drone-incursion-southeastern-romania/"
     },
     {
+      "id": "N203",
+      "title": "Norviliškės–Daulėnai · cross-border smuggling drones",
+      "recordClass": "event",
+      "recordType": "cross_border_seizure",
+      "startDate": "2026-07-29",
+      "endDate": "2026-07-30",
+      "dateLabel": "29–30 July 2026 (overnight)",
+      "dateBasis": "VSAT’s 30 July release refers to Wednesday night with daylight recovery. Local overnight window retained; no exact time or midnight boundary established.",
+      "countries": "Lithuania",
+      "location": "Norviliškės–Daulėnai area, Šalčininkai district, Lithuania",
+      "status": "Officially reported cross-border smuggling-drone operation",
+      "categories": "Reported border entry; counter-drone intervention; recovery and cargo seizure",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Šalčininkai — representative district anchor"
+        }
+      ],
+      "positionNote": "District-level display reference, not an entry, interception or recovery point.",
+      "vehicle": "3 aircraft; model unconfirmed.",
+      "attribution": "VSAT describes cross-border cigarette smuggling; operators and state sponsorship not established.",
+      "route": "VSAT reports entry from Belarus. Exact crossing points and flight tracks unknown.",
+      "circumstances": "The border guard reported cargo drones entering Lithuania from Belarus. Two aircraft were recovered near Norviliškės and one near Daulėnai during a single overnight operation, with the final recovery in daylight.",
+      "payload": "3,000 packs of Belarus-stamped cigarettes recovered; no explosive payload reported.",
+      "impact": "No third-party harm reported. Cargo drones were recovered.",
+      "response": "Border guards intervened and recovered drone cargo. A criminal investigation was opened.",
+      "uncertainty": "The operator and exact crossing point and track are unknown. The operation is recorded as cross-border smuggling, not a military attack.",
+      "deduplication": "One operation involving 3 aircraft. Detection and recovery are not additional operations; cumulative VSAT aircraft figures overlap and are not added.",
+      "provenance": "Full original VSAT statement of 30 July read on 25 November.",
+      "classificationNote": "Forced descent and recovery; this entry does not assert a kinetic shoot-down.",
+      "sourceReferences": "[U477][U477]",
+      "sources": [
+        "U477"
+      ],
+      "page": "events/2026-07-29-smuggling-drone-norviliskes-daulenai-lithuania/"
+    },
+    {
       "id": "N180",
       "title": "Farmakonisi · reported Turkish UAV overflight",
       "recordClass": "event",
@@ -2320,6 +2547,50 @@ window.DRONE_DATA = {
         "U375"
       ],
       "page": "events/2026-07-30-farmakonisi-reported-turkish-uav-overflight-greece/"
+    },
+    {
+      "id": "N207",
+      "title": "Kuodžiai · four cross-border smuggling drones",
+      "recordClass": "event",
+      "recordType": "cross_border_seizure",
+      "startDate": "2026-07-30",
+      "dateLabel": "30 July 2026 (evening)",
+      "dateBasis": "The 3 August VSAT release says Thursday evening; Regionų žinios identifies 30 July explicitly. Exact times not established.",
+      "countries": "Lithuania",
+      "location": "Kuodžiai area, Lazdijai district, Lithuania",
+      "status": "Officially reported cross-border smuggling-drone operation",
+      "categories": "Reported border entry; interception; recovery and cargo seizure",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.23,
+          "lng": 23.52,
+          "precision": "region",
+          "label": "Lazdijai — representative district anchor"
+        }
+      ],
+      "positionNote": "District reference only, not an entry, interception or recovery point.",
+      "vehicle": "Four cargo drones; models not established.",
+      "attribution": "VSAT describes cigarette smuggling. Operator and state sponsorship not established.",
+      "route": "VSAT reported entry from Belarus into Lithuania. Exact crossing points and tracks unknown.",
+      "circumstances": "Lithuania’s State Border Guard Service (VSAT) reported that four cargo drones entered from Belarus and were brought down and recovered in one operation near Kuodžiai, in Lazdijai district.",
+      "payload": "4,000 packs of Belarus-stamped cigarettes recovered in total; no explosive payload reported.",
+      "impact": "Four drones and their cargo recovered; no third-party harm reported.",
+      "response": "Border guards recovered the aircraft and cargo and opened a criminal investigation.",
+      "uncertainty": "No exact flight track, operator identity or state sponsorship was established. This is a criminal smuggling case, not a military attack.",
+      "deduplication": "One operation involving four aircraft, separate from the previous overnight Norviliškės–Daulėnai operation in Šalčininkai district. Cumulative VSAT figures are not added.",
+      "provenance": "Original VSAT statement of 3 August and Regionų žinios account read on 26 November.",
+      "classificationNote": "Border-enforcement interception and recovery. The account does not establish a kinetic shoot-down.",
+      "sourceReferences": "[U486][U486]; [U487][U487]",
+      "sources": [
+        "U486",
+        "U487"
+      ],
+      "page": "events/2026-07-30-smuggling-drones-kuodziai-lithuania/"
     },
     {
       "id": "E039",
@@ -10398,12 +10669,12 @@ window.DRONE_DATA = {
       "circumstances": "Bulgarian authorities located an overturned vessel presumed to be GAS HUSKY and a nearby life raft. AP, citing Maritime.bg, reports the rescued captain saying four drones hit the vessel, while explicitly noting no official confirmation of the cause. Separate media attribute a drone-strike claim to the Romanian Naval Authority; its original statement was not located. Stealth Maritime, in a statement reproduced by Naftemporiki, says the vessel was struck early on 17 November in Bulgaria’s EEZ, without identifying the mechanism; its condition was unknown to the manager at the time. In an 18:06 report, Maritime.bg cites an unnamed source at the Greece-based management company alleging a combined surface- and aerial-drone attack; this more specific mechanism is not independently confirmed. In a bTV interview published 18 November, Varna governor Mario Smurkov asserted four impacts but described contradictory sailors’ accounts and said the drone types were not confirmed. Reuters’ 18 November dispatch additionally cites two unnamed maritime-security sources attributing the casualty to an unmanned-system strike; the governor reiterates four impacts without identifying drone types.",
       "payload": "Alleged drone payload unknown. Bulgarian transport ministry reports 3400 tonnes of propane-butane cargo; cargo is not a drone payload.",
       "impact": "All 19 crew rescued. At 10:50 UTC the primary warning described 45-degree listing, submerged bridge and an unmanned drifting vessel. This does not establish complete sinking, despite early reports. BNR reports two sailors to hospital and no pollution recorded at the briefing. In the 18 November morning bTV report, the governor said the vessels had not yet sunk and no pollution had been detected; this is a dated assessment, not a guarantee of later condition. The 18 November Reuters report describes the vessel as sunk, without a newer observation timestamp to reconcile the earlier reports. Bulgarian NAVWARN 858/26 gives a later observation at 13:30 UTC on 19 November: the vessel was listing about 45 degrees, bridge submerged, drifting without crew or control. This is not a final-condition or cause determination. NAVWARN 865/26 reports that at 12:38 UTC on 21 November, GAS HUSKY was still uncrewed and adrift, heavily listing and with its bridge submerged. The observation does not establish a sinking or the original mechanism.",
-      "response": "Bulgarian air and maritime agencies mounted rescue; crew evacuated by helicopter to Chaika naval airbase. Transport ministry says search and rescue ended 13:15 local. Navigation warning remains distinct from rescue completion. The Philippine Department of Migrant Workers reported all 19 Filipino crew were in Varna awaiting repatriation and two injured crew were recovering after treatment. Their arrival in the Philippines was expected on 26 November, not yet verified.",
+      "response": "Bulgarian air and maritime agencies mounted rescue; crew evacuated by helicopter to Chaika naval airbase. Transport ministry says search and rescue ended 13:15 local. Navigation warning remains distinct from rescue completion. Philippine authorities had reported two injured crew recovering after treatment. The Manila Times, citing the Philippine Department of Migrant Workers, reported the airport send-off in Varna for the 19 Filipino crew on 25 November. Two groups were expected to reach Manila on 26 November, Philippines time; their arrival was not independently confirmed at this review.",
       "uncertainty": "Drone involvement, weapon type, operator and precise attack time/location remain unconfirmed. No established link to BETUL 8 or other Black Sea casualties. EEZ is not equivalent to territorial waters; no EU territorial incursion established. The anonymous-source combined USV/UAV account is distinct from the public manager statement; neither drone types nor coordination are independently established. The governor’s four-impact account does not independently establish four drones or the anonymous-source combined mechanism.",
       "deduplication": "One separate GAS HUSKY casualty, not BETUL 8; beacon, rescue and later casualty observation are stages of one occurrence.",
-      "provenance": "Primary transport-ministry statements and VTMIS NAVWARN 854/26 read 17 November 2026; BNR updated briefing and media-attributed ANR claim separately reviewed. Updated AP account of captain’s four-drone claim reviewed 17 November; original Maritime.bg inaccessible. Primary NAVWARN854/26 rechecked unchanged. Manager statement reproduced by Naftemporiki reviewed 17 November; does not confirm drone mechanism or final condition. Maritime.bg18:06 anonymous management-source report read via indexed text; no independent corroboration of combined mechanism located. Governor interview reported by bTV18November reviewed as attributed follow-up, not a new occurrence. Reuters follow-up reviewed 19 November via The Star; same occurrence. Primary NAVWARN 858/26 read for its dated 19 November follow-up. Read issuer NAVWARN 865/26 and its dated archive on 22 November. Philippine crew-welfare reporting reviewed 24 November; not a newer hull observation.",
+      "provenance": "Primary transport-ministry statements and VTMIS NAVWARN 854/26 read 17 November 2026; BNR updated briefing and media-attributed ANR claim separately reviewed. Updated AP account of captain’s four-drone claim reviewed 17 November; original Maritime.bg inaccessible. Primary NAVWARN854/26 rechecked unchanged. Manager statement reproduced by Naftemporiki reviewed 17 November; does not confirm drone mechanism or final condition. Maritime.bg18:06 anonymous management-source report read via indexed text; no independent corroboration of combined mechanism located. Governor interview reported by bTV18November reviewed as attributed follow-up, not a new occurrence. Reuters follow-up reviewed 19 November via The Star; same occurrence. Primary NAVWARN 858/26 read for its dated 19 November follow-up. Read issuer NAVWARN 865/26 and its dated archive on 22 November. Philippine crew-welfare reporting reviewed 24 November; not a newer hull observation. The 26 November Manila Times report supplies an attributed airport send-off and expected arrivals, not a new hull observation.",
       "classificationNote": "Provisional offshore candidate, Alert/other; confirmed maritime casualty is not a confirmed drone strike.",
-      "sourceReferences": "[U360][U360]; [U361][U361]; [U362][U362]; [U363][U363]; [U364][U364]; [U365][U365]; [U366][U366]; [U367][U367]; [U378][U378]; [U395][U395]; [U408][U408]; [U423][U423]; [U447][U447]",
+      "sourceReferences": "[U360][U360]; [U361][U361]; [U362][U362]; [U363][U363]; [U364][U364]; [U365][U365]; [U366][U366]; [U367][U367]; [U378][U378]; [U395][U395]; [U408][U408]; [U423][U423]; [U447][U447]; [U488][U488]",
       "sources": [
         "U360",
         "U361",
@@ -10417,7 +10688,8 @@ window.DRONE_DATA = {
         "U395",
         "U408",
         "U423",
-        "U447"
+        "U447",
+        "U488"
       ],
       "page": "events/2026-11-17-gas-husky-offshore-casualty-unconfirmed-drone-claim-bulgaria/"
     },
@@ -11012,6 +11284,52 @@ window.DRONE_DATA = {
         "U462"
       ],
       "page": "events/2026-11-24-northern-tulcea-afternoon-ro-alert-romania/"
+    },
+    {
+      "id": "N206",
+      "title": "Aegean · 25 November reported Turkish UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-11-25",
+      "dateLabel": "25 November 2026",
+      "dateBasis": "25 November Greek local date, from GEETHA figures reproduced in Greek media.",
+      "countries": "Greece",
+      "location": "Northeastern, central and southeastern Aegean, per Greek daily reporting.",
+      "status": "Greek-authority daily airspace figures as reproduced in the Greek press",
+      "categories": "Reported national-airspace violations and separate Athens FIR infringements",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 37.5,
+          "lng": 26.0,
+          "precision": "region",
+          "label": "Aegean — broad regional reference"
+        }
+      ],
+      "positionNote": "Broad regional display anchor, not aircraft location or flight path.",
+      "vehicle": "Three UAVs described as Turkish; models not reported.",
+      "attribution": "Attributed to Turkey by the Greek military, as reported in Greek media; Greek–Turkish airspace dispute remains relevant.",
+      "route": "Not established.",
+      "circumstances": "The Hellenic National Defence General Staff (GEETHA), as reported by OnAlert and Veteranos, listed three Turkish UAVs, four reported Greek national-airspace violations and three separate Athens FIR traffic-rule infringements on 25 November.",
+      "payload": "No armed aircraft listed; payload details not reported.",
+      "impact": "No harm or damage reported in this bulletin reproduction.",
+      "response": "Routine identification and interception reported. The table listed no engagement.",
+      "uncertainty": "The figures are separate measures in one daily military bulletin, not verified individual flight tracks or attack counts. Both reports cite the same bulletin; the official monthly table was not directly accessible at review.",
+      "deduplication": "One regional daily aggregate. Do not add the aircraft, national airspace and FIR figures or map each as a separate occurrence.",
+      "provenance": "OnAlert’s full GEETHA table reproduction reviewed; Veteranos cites the same military source.",
+      "classificationNote": "Daily regional flight record, not a confirmed attack, crash or shoot-down.",
+      "reported_UAVs": 3,
+      "reported_airspace_violations": 4,
+      "reported_FIR_infractions": 3,
+      "sourceReferences": "[U484][U484]; [U485][U485]",
+      "sources": [
+        "U484",
+        "U485"
+      ],
+      "page": "events/2026-11-25-aegean-reported-turkish-uav-activity-greece/"
     }
   ],
   "contexts": [
@@ -11064,23 +11382,23 @@ window.DRONE_DATA = {
     },
     {
       "id": "A003",
-      "dateLabel": "2026 year to date; dashboard updated 2026-11-23",
-      "dateBasis": "Primary dashboard dated 23 November, read 24 November in Romanian and English.",
+      "dateLabel": "2026 year to date; dashboard updated 2026-11-24",
+      "dateBasis": "English MApN dashboard dated 24 November, read 26 November.",
       "countries": "Romania",
       "location": "MApN official national dashboard; categories defined by the ministry",
       "status": "Official overlapping counters — NOT additive",
       "categories": "Near-border attacks; scrambles; unauthorized access; shoot-downs; fragments; separate mine counter",
-      "vehicle": "2026 dashboard: 121 near-border attacks; 99 situations involving aircraft scrambles; 39 unauthorized entries; 6 downed drones; 44 drone/fragment cases; 2 naval mines",
+      "vehicle": "2026 dashboard: 123 near-border attacks; 101 situations involving aircraft scrambles; 39 unauthorized entries; 6 downed drones; 44 drone/fragment cases; 2 naval mines",
       "attribution": "Different populations: nearby attacks, responses, airspace incidents and recoveries",
       "route": "Not an event-by-event route dataset",
-      "circumstances": "Current official snapshot retained separately from the research chronology. On 5 October the dashboard reported 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries and 4 shot-down drones. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 on 2, 5 and 17 October. Counter changes alone do not identify individual events; N095 separately records the confirmed 17 October interception. The 4–5 October Vâlcove alert involved no detected Romanian airspace entry and is excluded from the map (U026). The prior 21 October review recorded a display of 39 near-border attacks, differing from the previously recorded 97; no explanation or event-level reconciliation is supplied. The other listed 2026 counters are unchanged. The 21 October 03:34–04:02 Tulcea alert explicitly reported no national-airspace entry (U101). On 24 October, both the current table and cards show 98 near-border attacks. This supersedes the prior recorded 39 display, without explaining that discrepancy or identifying a new occurrence. Other counters remain unchanged. On 10 November, the dashboard dated 9 November shows 109 near-border attacks, 88 aircraft-response incidents and 39 unauthorized entries for 2026; other listed counters remain unchanged. These supersede the earlier snapshot without independently reconstructing individual events. On 12 November, the dashboard dated 11 November shows 111 near-border attacks and 90 aircraft-response incidents for 2026; other counters are unchanged. These counters do not independently establish new dated occurrences. On 13 November, the dashboard dated 12 November shows 112 near-border attacks and 91 aircraft-response incidents for 2026; the other counters remain unchanged. These overlapping totals do not independently establish new occurrences. On 15 November the dashboard dated 14 November shows 114 near-border attacks and 93 aircraft-response incidents; other counters unchanged. No individual event is inferred from these totals. On 16 November the dashboard dated 15 November shows 117 near-border attacks and 95 aircraft-response incidents; remaining 2026 counters are unchanged. These overlapping totals do not identify new individual occurrences. On 18 November the dashboard dated 17 November shows 118 nearby attacks and 96 aircraft-response incidents; the other 2026 counters remain unchanged. No individual occurrence is inferred. The 23 November dashboard reports 121 near-border attacks and 99 situations involving aircraft scrambles in 2026; all other 2026 counters listed above remain unchanged. The 99 counts situations, not individual aircraft. No dated incident is inferred from the changes.",
+      "circumstances": "Current official snapshot retained separately from the research chronology. On 5 October the dashboard reported 85 nearby attacks, 67 aircraft-response incidents, 30 unauthorized entries and 4 shot-down drones. The identification/recovery counter was 42 on 24 September, 43 on 29 September and 44 on 2, 5 and 17 October. Counter changes alone do not identify individual events; N095 separately records the confirmed 17 October interception. The 4–5 October Vâlcove alert involved no detected Romanian airspace entry and is excluded from the map (U026). The prior 21 October review recorded a display of 39 near-border attacks, differing from the previously recorded 97; no explanation or event-level reconciliation is supplied. The other listed 2026 counters are unchanged. The 21 October 03:34–04:02 Tulcea alert explicitly reported no national-airspace entry (U101). On 24 October, both the current table and cards show 98 near-border attacks. This supersedes the prior recorded 39 display, without explaining that discrepancy or identifying a new occurrence. Other counters remain unchanged. On 10 November, the dashboard dated 9 November shows 109 near-border attacks, 88 aircraft-response incidents and 39 unauthorized entries for 2026; other listed counters remain unchanged. These supersede the earlier snapshot without independently reconstructing individual events. On 12 November, the dashboard dated 11 November shows 111 near-border attacks and 90 aircraft-response incidents for 2026; other counters are unchanged. These counters do not independently establish new dated occurrences. On 13 November, the dashboard dated 12 November shows 112 near-border attacks and 91 aircraft-response incidents for 2026; the other counters remain unchanged. These overlapping totals do not independently establish new occurrences. On 15 November the dashboard dated 14 November shows 114 near-border attacks and 93 aircraft-response incidents; other counters unchanged. No individual event is inferred from these totals. On 16 November the dashboard dated 15 November shows 117 near-border attacks and 95 aircraft-response incidents; remaining 2026 counters are unchanged. These overlapping totals do not identify new individual occurrences. On 18 November the dashboard dated 17 November shows 118 nearby attacks and 96 aircraft-response incidents; the other 2026 counters remain unchanged. No individual occurrence is inferred. The 23 November dashboard reports 121 near-border attacks and 99 situations involving aircraft scrambles in 2026; all other 2026 counters listed above remain unchanged. The 99 counts situations, not individual aircraft. No dated incident is inferred from the changes. The 24 November dashboard reports 123 near-border attacks and 101 situations involving aircraft scrambles in 2026. The four other 2026 counters did not change. No additional occurrence is inferred.",
       "payload": "Not reported",
       "impact": "Not reported",
       "response": "MApN operational/recovery categories.",
       "uncertainty": "Overlapping ministry-specific populations, not additive incident totals. Historical display discrepancy remains unresolved. Counter changes alone do not identify individual occurrences or operators.",
       "deduplication": "All categories overlap. Mine counter is not a drone count. Do not total counters or use them to replace the incident register.",
-      "provenance": "A003 refreshed on 2026-10-19 against the MApN dashboard updated 17 October (U074). Earlier snapshots remain documented in the original research and Git history (S62, U016, U020 and U027). Current dashboard and bulletin 339 reviewed 21 October (U100–U101), retaining earlier snapshots as dated history. Current dashboard rechecked 24 October (U154); prior snapshots preserved. The 23 November Romanian and English dashboards were checked on 24 November; the 17 November snapshot remains in the source register.",
-      "sourceReferences": "[S62][S62]; [U016][U016]; [U020][U020]; [U026][U026]; [U027][U027]; [U074][U074]; [U100][U100]; [U101][U101]; [U154][U154]; [U270][U270]; [U280][U280]; [U290][U290]; [U307][U307]; [U322][U322]; [U377][U377]; [U451][U451]",
+      "provenance": "A003 refreshed on 2026-10-19 against the MApN dashboard updated 17 October (U074). Earlier snapshots remain documented in the original research and Git history (S62, U016, U020 and U027). Current dashboard and bulletin 339 reviewed 21 October (U100–U101), retaining earlier snapshots as dated history. Current dashboard rechecked 24 October (U154); prior snapshots preserved. The 23 November Romanian and English dashboards were checked on 24 November; the 17 November snapshot remains in the source register. English dashboard dated 24 November read on 26 November; previous dated source entries retained.",
+      "sourceReferences": "[S62][S62]; [U016][U016]; [U020][U020]; [U026][U026]; [U027][U027]; [U074][U074]; [U100][U100]; [U101][U101]; [U154][U154]; [U270][U270]; [U280][U280]; [U290][U290]; [U307][U307]; [U322][U322]; [U377][U377]; [U451][U451]; [U489][U489]",
       "sources": [
         "S62",
         "U016",
@@ -11097,7 +11415,8 @@ window.DRONE_DATA = {
         "U307",
         "U322",
         "U377",
-        "U451"
+        "U451",
+        "U489"
       ]
     },
     {
@@ -15939,9 +16258,129 @@ window.DRONE_DATA = {
       "url": "https://english.mapn.ro/cpresa/6819_press-release",
       "dateLabel": "21 July 2026",
       "audit": "Official release identifies vessel and EEZ. Distance differs from Naval Authority; position remains approximate."
+    },
+    "U475": {
+      "id": "U475",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Border guard reports 2 smuggling aircraft in the Žaltūnai–Girdijauskai operation",
+      "url": "https://vsat.lrv.lt/lt/naujienos/salcininku-rajone-vsat-pareigunai-nutupde-dvi-skraidykles-su-11-tukst-euru-vertes-cigareciu-kroviniu-foto-jQK/",
+      "dateLabel": "10 July 2026",
+      "audit": "Full VSAT release read. Describes Thursday night and daylight recovery, with no exact occurrence times. 2 aircraft and 2,000 cigarette packs in one documented operation; cumulative figures not additive."
+    },
+    "U476": {
+      "id": "U476",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Border guard reports 1 smuggling aircraft in the Šiulgiai–Šumskas operation",
+      "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciu-perimta-skraidykle-su-kroviniu-miske-aptiko-kinologas-su-tarnybiniu-sunimi-foto-W8x/",
+      "dateLabel": "20 July 2026",
+      "audit": "Full VSAT release read. Describes Friday night and daylight recovery, with no exact occurrence times. 1 aircraft and 340 cigarette packs in one documented operation; cumulative figures not additive."
+    },
+    "U477": {
+      "id": "U477",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Border guard reports 3 smuggling aircraft in the Norviliškės–Daulėnai operation",
+      "url": "https://vsat.lrv.lt/lt/naujienos/dieveniskiu-kilpoje-vsat-pareigunai-nutupde-tris-kontrabandininku-bepilocius-orlaivius-su-kroviniais-foto-J1p/",
+      "dateLabel": "30 July 2026",
+      "audit": "Full VSAT release read. Describes Wednesday night and daylight recovery, with no exact occurrence times. 3 aircraft and 3,000 cigarette packs in one documented operation; cumulative figures not additive."
+    },
+    "U478": {
+      "id": "U478",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Border guard reports smuggling drone recovered near Kiemėnai",
+      "url": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-kontrabandininkai-neteko-dar-vieno-nelegalius-rukalus-skraidinusio-drono-foto-qH9/",
+      "dateLabel": "17 April 2026",
+      "audit": "Full original release read. Single aircraft and 750 cigarette packs. Local overnight operation; no precise time or operator given."
+    },
+    "U479": {
+      "id": "U479",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Border guard reports smuggling drone recovered near Prūdelis",
+      "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciams-peremus-kontrabandininku-skraidykles-su-rukalais-valdyma-si-teskesi-i-zeme-foto-S7x/",
+      "dateLabel": "9 July 2026",
+      "audit": "Full original release read. Single aircraft and 1,000 cigarette packs. Local overnight operation; no precise time or operator given."
+    },
+    "U480": {
+      "id": "U480",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Border guard recovers damaged smuggling drone without cargo near Dumblė",
+      "url": "https://vsat.lrv.lt/lt/naujienos/is-baltarusijos-skridusia-savadarbe-skraidykle-pasienieciai-nutupde-salcininku-rajone-foto-ktP/",
+      "dateLabel": "25 May 2026",
+      "audit": "Full original account matches May 23, Dumblė. The recovered aircraft was carrying no cargo and was badly damaged when it hit the ground."
+    },
+    "U481": {
+      "id": "U481",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Border guard recovers drone with 200 cigarette packs at Dimitrai",
+      "url": "https://vsat.lrv.lt/lt/naujienos/is-baltarusijos-skridusia-savadarbe-skraidykle-pasienieciai-nutupde-salcininku-rajone-foto-6tX/",
+      "dateLabel": "15 June 2026",
+      "audit": "Full original notice corroborates June 14 detection near Daugidonys and recovery at Dimitrai, with 200 packs. Supplements the reporting derived from the same agency; not a separate source of observation."
+    },
+    "U482": {
+      "id": "U482",
+      "publisher": "Lublin District Prosecutor’s Office",
+      "title": "Mołodycz cleanup and site handback completed",
+      "url": "https://x.com/Prok_Okreg_Lub/status/2125251144020615542",
+      "dateLabel": "24 November 2026",
+      "audit": "Official post read via mirror and checked against Wirtualna Polska’s attributed account. Site cleared, safety-checked and handed back. Laboratory and expert analysis underway across the three sites; no final findings announced."
+    },
+    "U483": {
+      "id": "U483",
+      "publisher": "Wirtualna Polska",
+      "title": "Investigators complete work at Mołodycz",
+      "url": "https://wiadomosci.wp.pl/sledczy-zakonczyli-prace-w-molodyczu-teren-uprzatniety-7354522514233344a",
+      "dateLabel": "24 November 2026",
+      "audit": "Quotes the prosecutor’s statement, confirming publication and wording, not independently reporting laboratory findings."
+    },
+    "U484": {
+      "id": "U484",
+      "publisher": "OnAlert",
+      "title": "25 November Aegean UAV figures attributed to the Greek General Staff",
+      "url": "https://www.onalert.gr/ellinotourkika/nees-paraviaseis-kai-paravaseis-sto-aigaio-apo-tria-tourkika-drones/836130/",
+      "dateLabel": "25 November 2026",
+      "audit": "Full November 25 GEETHA table reproduction read: three UAVs, no armed aircraft listed, three FIR traffic-rule infringements, four national-airspace violations and no engagements."
+    },
+    "U485": {
+      "id": "U485",
+      "publisher": "Veteranos",
+      "title": "25 November Aegean UAV figures attributed to the Greek General Staff",
+      "url": "https://veteranos.gr/tourkika-uav-sto-aigaio-tesseris-paraviaseis-tou-ethnikou-enaeriou-chorou-2/",
+      "dateLabel": "25 November 2026",
+      "audit": "November 25 account attributes the figures to GEETHA. Same military bulletin, not independent corroboration."
+    },
+    "U486": {
+      "id": "U486",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Four smuggling drones recovered in Lazdijai district",
+      "url": "https://vsat.lrv.lt/lt/naujienos/taiklus-pasienieciu-suviai-vos-per-keliolika-minuciu-keturi-kontrabandininku-dronai-su-rukalais-foto-uVV/",
+      "dateLabel": "3 August 2026",
+      "audit": "Full original read. Describes Thursday evening, four aircraft and 4,000 cigarette packs in one operation. Its running count is an aircraft tally; not additive."
+    },
+    "U487": {
+      "id": "U487",
+      "publisher": "Regionų žinios",
+      "title": "Four cigarette-smuggling drones recovered near Kuodžiai",
+      "url": "https://regionuzinios.lt/lazdiju-rajone-pasienieciai-nutupde-keturis-kontrabandininku-dronus-su-cigaretemis/",
+      "dateLabel": "3 August 2026",
+      "audit": "Explicitly dates the operation to July 30. Reports the same VSAT account, not an independent observation."
+    },
+    "U488": {
+      "id": "U488",
+      "publisher": "The Manila Times (syndicated by Newswav)",
+      "title": "GAS HUSKY crew sent off from Varna airport",
+      "url": "https://newswav.com/article/19-filipino-seafarers-from-drone-hit-tanker-on-way-home-to-ph-A2611_KMgO3K",
+      "dateLabel": "26 November 2026 (Philippines time)",
+      "audit": "Full article read in syndication. Quotes Philippine DMW on the airport send-off and two expected arrivals, not actual arrivals or a new hull observation."
+    },
+    "U489": {
+      "id": "U489",
+      "publisher": "Romanian Ministry of National Defence",
+      "title": "Drone and naval-mine dashboard: 24 November snapshot",
+      "url": "https://english.mapn.ro/index.php",
+      "dateLabel": "Updated 24 November 2026; read 26 November",
+      "audit": "2026 row: 123 nearby attacks, 101 aircraft-response situations, 39 unauthorized entries, six downed drones, 44 drone/fragment cases and two mines. Overlapping categories; not separate occurrences."
     }
   },
-  "cutoff": "2026-11-24",
+  "cutoff": "2026-11-25",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

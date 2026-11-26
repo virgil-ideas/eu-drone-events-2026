@@ -282,14 +282,14 @@
   },
   "E027": {
     "slug": "2026-05-23-smuggling-drone-forced-down-salcininkai-lithuania",
-    "headline": "Homemade smuggling drone forced down near Belarus border in Lithuania",
-    "description": "On 23 May 2026 a homemade cargo drone reported arriving from Belarus was forced down and seized at Dumblė, Šalčininkai district, Lithuania, in a smuggling case.",
+    "headline": "Smuggling drone recovered without cargo near Dumblė",
+    "description": "Lithuanian border guards say the homemade drone that fell near Dumblė on 23 May 2026 carried no cargo and was badly damaged on impact.",
     "summary": [
-      "On 23 May 2026 a homemade cargo drone carrying smuggled goods was reportedly forced down at Dumblė, in Lithuania's Šalčininkai district on the border with Belarus. Border enforcement officers intercepted the drone and seized it.",
-      "The drone was reported to have arrived from Belarus. It was a criminal smuggling flight, not a military one, and the operator has not been identified. Details of the cargo and of the drone itself were not available.",
-      "No explosive payload and no casualties were reported. Reports describe a forced landing and seizure, not a shoot-down or a crash."
+      "On 23 May 2026 a homemade drone reported by Lithuania’s border guard service (VSAT) to have entered from Belarus fell near Dumblė, in Šalčininkai district, after border guards intervened.",
+      "When officers recovered the aircraft, it was badly damaged and had no cargo. The original VSAT notice corrects the earlier description of a loaded drone.",
+      "VSAT described the aircraft as belonging to smugglers. The operator is not known. No casualties or kinetic shoot-down were reported."
     ],
-    "basis": "b28b9aa81dcf4ea4"
+    "basis": "f354c71eb8169e02"
   },
   "E028": {
     "slug": "2026-05-29-drone-hits-apartment-block-galati-romania",
@@ -973,7 +973,7 @@
       "According to Lithuania's border guard service (VSAT), the drone was flown by smugglers operating from or across the Belarus border. The operator's nationality has not been established, and nor has any state sponsorship; the official account describes a criminal cargo operation, not a military strike, and is not evidence of a foreign-state attack.",
       "No casualties or third-party damage were reported. The drone was brought down by electronic means, recovered and seized, and administrative proceedings followed. It is not classified as a shoot-down or a confirmed crash."
     ],
-    "basis": "80dfe4d277b221d0"
+    "basis": "421535cfdf479340"
   },
   "N015": {
     "slug": "2026-07-15-drone-espionage-arrest-munich-germany",
@@ -2327,9 +2327,9 @@
       "Reuters reported on 18 November that two unnamed maritime-security sources attributed the strike to an unmanned system. It repeated the governor’s four-impact account without establishing drone type or operator. Reuters described the ship as sunk but provided no newer observation time to resolve the earlier condition reports.",
       "Bulgarian NAVWARN 858/26 gives a later observation at 13:30 UTC on 19 November: the vessel was listing about 45 degrees, bridge submerged, drifting without crew or control. This is not a final-condition or cause determination.",
       "NAVWARN 865/26 reports that at 12:38 UTC on 21 November, GAS HUSKY was still uncrewed and adrift, heavily listing and with its bridge submerged. The observation does not establish a sinking or the original mechanism.",
-      "The Philippine Department of Migrant Workers said all 19 Filipino crew were in Varna awaiting repatriation and two injured crew were recovering. Arrival in the Philippines was expected on 26 November, not yet verified. This does not establish the vessel’s final condition."
+      "Philippine authorities had reported two injured crew recovering after treatment. The Manila Times, citing the Philippine Department of Migrant Workers, reported the airport send-off in Varna for the 19 Filipino crew on 25 November. Two groups were expected to reach Manila on 26 November, Philippines time; their arrival was not independently confirmed at this review. This does not establish the vessel’s final condition or the original cause."
     ],
-    "basis": "f84a4685c363dda4"
+    "basis": "6022d57d2cdefa58"
   },
   "N179": {
     "slug": "2026-11-17-aegean-reported-turkish-uav-activity-greece",
@@ -2446,13 +2446,13 @@
   "N185": {
     "slug": "2026-11-20-molodycz-likely-drone-debris-poland",
     "headline": "Mołodycz: prosecutors preliminarily identify cruise-missile debris",
-    "description": "The 20 November Polish airspace breach remains confirmed. Preliminary findings at all three recovery sites supersede earlier drone suspicions; further testing is pending.",
+    "description": "Preliminary missile findings supersede earlier drone suspicions from the 20 November Polish airspace breach. Laboratory and expert analysis is underway.",
     "summary": [
       "Poland confirmed that three objects entered its airspace on 20 November. Poland’s National Security Bureau initially assessed the debris as likely from a jet-powered drone. The separate airspace breach is a confirmed occurrence, not proof that a drone was among the objects.",
-      "On 22 November, the Lublin District Prosecutor’s Office said preliminary specialist examinations found Kh-101 cruise-missile fragments at all three recovery sites: Nowy Lipowiec, Rudnik nad Sanem and Mołodycz. On 23 November it reported completing the Mołodycz examination, ending fieldwork at all three sites. Laboratory and specialist analysis remains pending.",
+      "On 22 November, the Lublin District Prosecutor’s Office said preliminary specialist examinations found Kh-101 cruise-missile fragments at Nowy Lipowiec, Rudnik nad Sanem and Mołodycz. Mołodycz scene examination ended on 23 November. The site was cleared, checked for safety and handed back on 24 November. On 24 November the prosecutor’s office said that crews had left all three sites and that laboratory and expert analysis was underway.",
       "This page keeps the original date and URL to document the correction. The record is excluded from active drone totals because the latest evidence does not support the earlier drone assessment. The intended target and whether the border crossing was deliberate remain unestablished."
     ],
-    "basis": "23e3ca7e14788f9a"
+    "basis": "c931323e8b45ea28"
   },
   "N186": {
     "slug": "2026-11-20-aegean-reported-turkish-uav-activity-greece",
@@ -2467,13 +2467,13 @@
   "N187": {
     "slug": "2026-11-20-rudnik-nad-sanem-disputed-object-poland",
     "headline": "Rudnik nad Sanem: prosecutors preliminarily identify cruise-missile debris",
-    "description": "The 20 November Polish airspace breach remains confirmed. Preliminary findings at all three recovery sites supersede earlier drone suspicions; further testing is pending.",
+    "description": "Preliminary missile findings supersede earlier drone suspicions from the 20 November Polish airspace breach. Laboratory and expert analysis is underway.",
     "summary": [
       "Poland confirmed that three objects entered its airspace on 20 November. The National Security Bureau initially assessed a probable missile; the provincial governor later described an unmanned aircraft. The separate airspace breach is a confirmed occurrence, not proof that a drone was among the objects. The Podkarpackie Provincial Office reported the Rudnik fall at 06:38 local time.",
-      "On 22 November, the Lublin District Prosecutor’s Office said preliminary specialist examinations found Kh-101 cruise-missile fragments at all three recovery sites: Nowy Lipowiec, Rudnik nad Sanem and Mołodycz. Prosecutors said the Rudnik site examination was complete. Further expert examination of the recovered fragments and traces is pending.",
+      "On 22 November, the Lublin District Prosecutor’s Office said preliminary specialist examinations found Kh-101 cruise-missile fragments at Nowy Lipowiec, Rudnik nad Sanem and Mołodycz. The Rudnik scene examination was already complete by 22 November. On 24 November the prosecutor’s office said that crews had left all three sites and that laboratory and expert analysis was underway.",
       "This page keeps the original date and URL to document the correction. The record is excluded from active drone totals because the latest evidence does not support the earlier drone assessment. The intended target and whether the border crossing was deliberate remain unestablished."
     ],
-    "basis": "ef6e69dc094fde88"
+    "basis": "26f44709eb575a5c"
   },
   "N188": {
     "slug": "2026-11-21-sparta-ii-reported-drone-strike-gulf-of-finland",
@@ -2616,5 +2616,81 @@
       "This is a precautionary alert, not a confirmed Romanian incursion."
     ],
     "basis": "983be662e85ca761"
+  },
+  "N201": {
+    "slug": "2026-07-09-smuggling-drone-zaltunai-girdijauskai-lithuania",
+    "headline": "Žaltūnai–Girdijauskai: Lithuania reports cross-border smuggling by drone",
+    "description": "Lithuanian border guards recovered 2 aircraft and 2,000 packs of cigarettes after an overnight July operation near Žaltūnai–Girdijauskai.",
+    "summary": [
+      "9–10 July 2026 (overnight). The border guard says it detected drones from Belarus overnight. Officers recovered two cargo drones near Žaltūnai and Girdijauskai after searches resumed in daylight.",
+      "Officers recovered 2,000 packs of Belarus-stamped cigarettes from 2 aircraft. A criminal investigation was opened.",
+      "The operator and exact crossing point and track are unknown. The operation is recorded as cross-border smuggling, not a military attack."
+    ],
+    "basis": "a59bafa3912ae8b4"
+  },
+  "N202": {
+    "slug": "2026-07-17-smuggling-drone-siulgiai-sumskas-lithuania",
+    "headline": "Šiulgiai–Šumskas: Lithuania reports cross-border smuggling by drone",
+    "description": "Lithuanian border guards recovered one aircraft and 340 packs of cigarettes after an overnight July operation near Šiulgiai–Šumskas.",
+    "summary": [
+      "17–18 July 2026 (overnight). The border guard reported one cargo drone entered Lithuania. Officers heard but did not see the drone near Šiulgiai. After intervention it fell, and the damaged aircraft was recovered near Šumskas in daylight.",
+      "Officers recovered 340 packs of Belarus-stamped cigarettes from one aircraft. Administrative proceedings were opened.",
+      "The operator and exact crossing point and track are unknown. The operation is recorded as cross-border smuggling, not a military attack."
+    ],
+    "basis": "2c1decbcd478fff0"
+  },
+  "N203": {
+    "slug": "2026-07-29-smuggling-drone-norviliskes-daulenai-lithuania",
+    "headline": "Norviliškės–Daulėnai: Lithuania reports cross-border smuggling by drone",
+    "description": "Lithuanian border guards recovered 3 aircraft and 3,000 packs of cigarettes after an overnight July operation near Norviliškės–Daulėnai.",
+    "summary": [
+      "29–30 July 2026 (overnight). The border guard reported cargo drones entering Lithuania from Belarus. Two aircraft were recovered near Norviliškės and one near Daulėnai during a single overnight operation, with the final recovery in daylight.",
+      "Officers recovered 3,000 packs of Belarus-stamped cigarettes from 3 aircraft. A criminal investigation was opened.",
+      "The operator and exact crossing point and track are unknown. The operation is recorded as cross-border smuggling, not a military attack."
+    ],
+    "basis": "5fe5f937453f5559"
+  },
+  "N204": {
+    "slug": "2026-04-16-smuggling-drone-kiemenai-lithuania",
+    "headline": "Kiemėnai: Lithuanian border guards recover smuggling drone",
+    "description": "Lithuanian border guards recovered a drone and 750 cigarette packs after an overnight operation near Kiemėnai.",
+    "summary": [
+      "16–17 April 2026. VSAT said it detected the drone flying into Lithuania from Belarus. The drone fell after border guards intervened and was recovered near Kiemėnai.",
+      "Officers recovered 750 packs of Belarus-stamped cigarettes and opened administrative proceedings.",
+      "No operator, state sponsorship or exact flight track was established. This is a border-smuggling record, not a military attack."
+    ],
+    "basis": "b06a92691fd2bfac"
+  },
+  "N205": {
+    "slug": "2026-07-08-smuggling-drone-prudelis-lithuania",
+    "headline": "Prūdelis: Lithuanian border guards recover smuggling drone",
+    "description": "Lithuanian border guards recovered a drone and 1,000 cigarette packs after an overnight operation near Prūdelis.",
+    "summary": [
+      "8–9 July 2026. VSAT reported the drone flying inland from the Belarus border; it did not publish the exact crossing point or track. The drone fell after border guards intervened and was recovered near Prūdelis.",
+      "Officers recovered 1,000 packs of Belarus-stamped cigarettes and opened administrative proceedings.",
+      "No operator, state sponsorship or exact flight track was established. This is a border-smuggling record, not a military attack."
+    ],
+    "basis": "70f620adba11347d"
+  },
+  "N206": {
+    "slug": "2026-11-25-aegean-reported-turkish-uav-activity-greece",
+    "headline": "Aegean · 25 November reported Turkish UAV activity",
+    "description": "Greek-authority figures list three Turkish UAVs, four national-airspace violations and three separate Athens FIR infringements.",
+    "summary": [
+      "The Hellenic National Defence General Staff (GEETHA), as reported by OnAlert and Veteranos, listed three Turkish UAVs, four reported Greek national-airspace violations and three separate Athens FIR traffic-rule infringements on 25 November. The report covered the northeastern, central and southeastern Aegean. Routine identification and interception were reported; no engagement was listed.",
+      "The figures are separate measures in one daily military bulletin, not verified individual flight tracks or attack counts. Both reports cite the same bulletin; the official monthly table was not directly accessible at review."
+    ],
+    "basis": "12b16530bd6bd09b"
+  },
+  "N207": {
+    "slug": "2026-07-30-smuggling-drones-kuodziai-lithuania",
+    "headline": "Kuodžiai: Lithuania reports four smuggling drones in one operation",
+    "description": "Lithuanian border guards recovered four drones and 4,000 packs of cigarettes after a July 30 operation near Kuodžiai.",
+    "summary": [
+      "30 July 2026, evening. Lithuania’s State Border Guard Service (VSAT) reported that four cargo drones entered from Belarus and were brought down and recovered in one operation near Kuodžiai, in Lazdijai district.",
+      "The recovered cargo totalled 4,000 packs of Belarus-stamped cigarettes. VSAT said a criminal investigation was opened. This is one documented operation, not four separate incident records.",
+      "No exact flight track, operator identity or state sponsorship was established. This is a criminal smuggling case, not a military attack."
+    ],
+    "basis": "db80c247345da721"
   }
 }

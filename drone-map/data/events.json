@@ -1081,23 +1081,24 @@
     "countries": "Lithuania",
     "location": "Dumblė, Šalčininkai district, Belarus border; EU land",
     "status": "Cross-border smuggling",
-    "categories": "Cargo-drone interception; forced landing; seizure",
-    "vehicle": "1 homemade cargo UAV",
+    "categories": "Smuggling-drone interception; fall and recovery",
+    "vehicle": "One homemade drone; model not established.",
     "attribution": "Reported arrival from Belarus; criminal operator unidentified",
     "route": "Belarus → Lithuania",
-    "circumstances": "Cargo-bearing drone reportedly forced down.",
-    "payload": "Smuggled cargo; explosive payload not reported",
-    "impact": "No casualties reported",
-    "response": "Border-enforcement interception and seizure.",
-    "uncertainty": "Individual cargo/technical details not available in prior research.",
-    "deduplication": "Included within aggregate A001 (18 cargo drones by this date); do not add the aggregate as 18 further events.",
-    "provenance": "Prior research; not independently rechecked in full for this export",
+    "circumstances": "VSAT reported entry from Belarus. The drone fell near Dumblė after border guards intervened.",
+    "payload": "No cargo on the recovered aircraft, according to VSAT.",
+    "impact": "VSAT reported substantial damage to the aircraft on impact. No casualties reported.",
+    "response": "Border guards recovered the aircraft and took it into custody.",
+    "uncertainty": "The operator, purpose of this particular flight and exact track are not established. VSAT described the aircraft as belonging to smugglers.",
+    "deduplication": "Included in the VSAT aggregate cited in A001. Do not add the aggregate as separate incidents.",
+    "provenance": "Original VSAT release of 25 May supersedes earlier cargo and landing summaries.",
     "sources": [
-      "S24"
+      "S24",
+      "U480"
     ],
     "startDate": "2026-05-23",
     "title": "Šalčininkai border district",
-    "category": "flight",
+    "category": "crash",
     "positions": [
       {
         "lat": 54.29,
@@ -1107,11 +1108,14 @@
       }
     ],
     "stages": [
-      "flight"
+      "crash",
+      "flight",
+      "recovery"
     ],
-    "classificationNote": "Forced landing and seizure; the register does not describe a kinetic shoot-down or crash.",
+    "classificationNote": "VSAT reports a fall with impact damage and subsequent recovery; no kinetic shoot-down.",
     "recordClass": "event",
-    "sourceFile": "eu_foreign_drone_events_2026_consolidated.md"
+    "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": "E028",
@@ -3663,7 +3667,8 @@
     "provenance": "New finding; LRT/ELTA reporting of VSAT account.",
     "recordClass": "event",
     "sources": [
-      "L05"
+      "L05",
+      "U481"
     ],
     "sourceFile": "eu_foreign_drone_events_2026_final_update_deduped.md",
     "title": "Daugidonys–Dimitrai",
@@ -3682,7 +3687,8 @@
       "flight",
       "recovery"
     ],
-    "matchKey": "LT::2026-06-14::daugidonys-dimitrai"
+    "matchKey": "LT::2026-06-14::daugidonys-dimitrai",
+    "reviewedOn": "2026-11-25"
   },
   {
     "id": "N015",
@@ -9765,10 +9771,10 @@
     "circumstances": "Bulgarian authorities located an overturned vessel presumed to be GAS HUSKY and a nearby life raft. AP, citing Maritime.bg, reports the rescued captain saying four drones hit the vessel, while explicitly noting no official confirmation of the cause. Separate media attribute a drone-strike claim to the Romanian Naval Authority; its original statement was not located. Stealth Maritime, in a statement reproduced by Naftemporiki, says the vessel was struck early on 17 November in Bulgaria’s EEZ, without identifying the mechanism; its condition was unknown to the manager at the time. In an 18:06 report, Maritime.bg cites an unnamed source at the Greece-based management company alleging a combined surface- and aerial-drone attack; this more specific mechanism is not independently confirmed. In a bTV interview published 18 November, Varna governor Mario Smurkov asserted four impacts but described contradictory sailors’ accounts and said the drone types were not confirmed. Reuters’ 18 November dispatch additionally cites two unnamed maritime-security sources attributing the casualty to an unmanned-system strike; the governor reiterates four impacts without identifying drone types.",
     "payload": "Alleged drone payload unknown. Bulgarian transport ministry reports 3400 tonnes of propane-butane cargo; cargo is not a drone payload.",
     "impact": "All 19 crew rescued. At 10:50 UTC the primary warning described 45-degree listing, submerged bridge and an unmanned drifting vessel. This does not establish complete sinking, despite early reports. BNR reports two sailors to hospital and no pollution recorded at the briefing. In the 18 November morning bTV report, the governor said the vessels had not yet sunk and no pollution had been detected; this is a dated assessment, not a guarantee of later condition. The 18 November Reuters report describes the vessel as sunk, without a newer observation timestamp to reconcile the earlier reports. Bulgarian NAVWARN 858/26 gives a later observation at 13:30 UTC on 19 November: the vessel was listing about 45 degrees, bridge submerged, drifting without crew or control. This is not a final-condition or cause determination. NAVWARN 865/26 reports that at 12:38 UTC on 21 November, GAS HUSKY was still uncrewed and adrift, heavily listing and with its bridge submerged. The observation does not establish a sinking or the original mechanism.",
-    "response": "Bulgarian air and maritime agencies mounted rescue; crew evacuated by helicopter to Chaika naval airbase. Transport ministry says search and rescue ended 13:15 local. Navigation warning remains distinct from rescue completion. The Philippine Department of Migrant Workers reported all 19 Filipino crew were in Varna awaiting repatriation and two injured crew were recovering after treatment. Their arrival in the Philippines was expected on 26 November, not yet verified.",
+    "response": "Bulgarian air and maritime agencies mounted rescue; crew evacuated by helicopter to Chaika naval airbase. Transport ministry says search and rescue ended 13:15 local. Navigation warning remains distinct from rescue completion. Philippine authorities had reported two injured crew recovering after treatment. The Manila Times, citing the Philippine Department of Migrant Workers, reported the airport send-off in Varna for the 19 Filipino crew on 25 November. Two groups were expected to reach Manila on 26 November, Philippines time; their arrival was not independently confirmed at this review.",
     "uncertainty": "Drone involvement, weapon type, operator and precise attack time/location remain unconfirmed. No established link to BETUL 8 or other Black Sea casualties. EEZ is not equivalent to territorial waters; no EU territorial incursion established. The anonymous-source combined USV/UAV account is distinct from the public manager statement; neither drone types nor coordination are independently established. The governor’s four-impact account does not independently establish four drones or the anonymous-source combined mechanism.",
     "deduplication": "One separate GAS HUSKY casualty, not BETUL 8; beacon, rescue and later casualty observation are stages of one occurrence.",
-    "provenance": "Primary transport-ministry statements and VTMIS NAVWARN 854/26 read 17 November 2026; BNR updated briefing and media-attributed ANR claim separately reviewed. Updated AP account of captain’s four-drone claim reviewed 17 November; original Maritime.bg inaccessible. Primary NAVWARN854/26 rechecked unchanged. Manager statement reproduced by Naftemporiki reviewed 17 November; does not confirm drone mechanism or final condition. Maritime.bg18:06 anonymous management-source report read via indexed text; no independent corroboration of combined mechanism located. Governor interview reported by bTV18November reviewed as attributed follow-up, not a new occurrence. Reuters follow-up reviewed 19 November via The Star; same occurrence. Primary NAVWARN 858/26 read for its dated 19 November follow-up. Read issuer NAVWARN 865/26 and its dated archive on 22 November. Philippine crew-welfare reporting reviewed 24 November; not a newer hull observation.",
+    "provenance": "Primary transport-ministry statements and VTMIS NAVWARN 854/26 read 17 November 2026; BNR updated briefing and media-attributed ANR claim separately reviewed. Updated AP account of captain’s four-drone claim reviewed 17 November; original Maritime.bg inaccessible. Primary NAVWARN854/26 rechecked unchanged. Manager statement reproduced by Naftemporiki reviewed 17 November; does not confirm drone mechanism or final condition. Maritime.bg18:06 anonymous management-source report read via indexed text; no independent corroboration of combined mechanism located. Governor interview reported by bTV18November reviewed as attributed follow-up, not a new occurrence. Reuters follow-up reviewed 19 November via The Star; same occurrence. Primary NAVWARN 858/26 read for its dated 19 November follow-up. Read issuer NAVWARN 865/26 and its dated archive on 22 November. Philippine crew-welfare reporting reviewed 24 November; not a newer hull observation. The 26 November Manila Times report supplies an attributed airport send-off and expected arrivals, not a new hull observation.",
     "classificationNote": "Provisional offshore candidate, Alert/other; confirmed maritime casualty is not a confirmed drone strike.",
     "sources": [
       "U360",
@@ -9783,9 +9789,10 @@
       "U395",
       "U408",
       "U423",
-      "U447"
+      "U447",
+      "U488"
     ],
-    "reviewedOn": "2026-11-24"
+    "reviewedOn": "2026-11-26"
   },
   {
     "id": "N179",
@@ -10125,13 +10132,13 @@
       }
     ],
     "positionNote": "Broad locality reference for debris discovery, not the precise find site or a flight track.",
-    "vehicle": "Lublin prosecutors said on 22 November that preliminary site examinations found Kh-101 cruise-missile fragments at Mołodycz. Further expert examination is pending.",
+    "vehicle": "Lublin prosecutors said on 22 November that preliminary site examinations found Kh-101 cruise-missile fragments at Mołodycz. Laboratory and expert work is underway; no final findings were announced on 24 November.",
     "attribution": "Prime Minister Donald Tusk attributed the three objects to Russia. The intended target and whether the breach was deliberate are not established.",
     "route": "Confirmed entry into Polish airspace as part of the three-object episode. Exact path and launch point unknown.",
     "circumstances": "Poland confirmed three objects entered its airspace on 20 November. Poland’s National Security Bureau initially assessed the debris as likely from a jet-powered drone. The Lublin District Prosecutor’s Office subsequently reported preliminary identification of Kh-101 cruise-missile debris at Mołodycz, as well as at the two other recovery sites.",
     "payload": "Not established for the Mołodycz object.",
     "impact": "The Prime Minister reported no casualties or damage in the broader episode.",
-    "response": "Authorities secured the recovery site and reported initial safety checks. The Lublin prosecutor announced preliminary missile-fragment findings on 22 November. The office reported completing the Mołodycz scene examination on 23 November, ending fieldwork at all three sites. Recovered evidence goes for further laboratory and specialist examination.",
+    "response": "The Lublin prosecutor announced preliminary missile-fragment findings on 22 November. Scene examination at Mołodycz ended on 23 November. On 24 November officials finished cleanup, checked the site for safety and handed it back. On 24 November the prosecutor’s office said that crews had left all three sites and that laboratory and expert analysis was underway.",
     "uncertainty": "The findings are preliminary, not final laboratory results. They supersede the earlier drone suspicion for this debris, but do not by themselves establish the identity or count of every object in flight, its precise track, its intent or its intended target.",
     "deduplication": "This is the existing Mołodycz recovery site within the 20 November breach, not a new occurrence. The page is preserved with its original date and URL, but is not part of active drone totals.",
     "provenance": "Original Polish official and contemporary accounts retained. Classification updated after reading the Lublin District Prosecutor’s Office statement of 22 November 2026. On-site completion confirmed in the prosecutor’s 23 November update; final identification remains pending.",
@@ -10146,9 +10153,11 @@
       "U425",
       "U429",
       "U449",
-      "U450"
+      "U450",
+      "U482",
+      "U483"
     ],
-    "reviewedOn": "2026-11-24",
+    "reviewedOn": "2026-11-25",
     "exclusionReason": "Lublin prosecutors’ preliminary 22 November examination identified Kh-101 cruise-missile fragments at Mołodycz, superseding the earlier drone suspicion. Expert examination is pending; current evidence does not support counting this as a drone event."
   },
   {
@@ -10221,13 +10230,13 @@
       }
     ],
     "positionNote": "Rounded locality reference, not the exact recovery site or a flight track.",
-    "vehicle": "Lublin prosecutors said on 22 November that preliminary site examinations found Kh-101 cruise-missile fragments at Rudnik nad Sanem. Further expert examination is pending.",
+    "vehicle": "Lublin prosecutors said on 22 November that preliminary site examinations found Kh-101 cruise-missile fragments at Rudnik nad Sanem. Laboratory and expert work is underway; no final findings were announced on 24 November.",
     "attribution": "Prime Minister Donald Tusk attributed the three objects to Russia. The intended target and whether the breach was deliberate are not established.",
     "route": "Confirmed entry into Polish airspace as part of the three-object episode. Exact path and launch point unknown.",
     "circumstances": "Poland confirmed three objects entered its airspace on 20 November. The National Security Bureau initially assessed a probable missile; the provincial governor later described an unmanned aircraft. The Lublin District Prosecutor’s Office subsequently reported preliminary identification of Kh-101 cruise-missile debris at Rudnik nad Sanem, as well as at the two other recovery sites.",
     "payload": "Not established for the Rudnik nad Sanem object.",
     "impact": "The Prime Minister reported no casualties or damage in the broader episode.",
-    "response": "Authorities secured the recovery site and reported initial safety checks. The Lublin prosecutor announced the preliminary missile-fragment findings on 22 November. Prosecutors said the Rudnik site examination was complete. Recovered fragments and forensic traces are due for further expert examination.",
+    "response": "Prosecutors announced preliminary missile-fragment findings on 22 November, by which time Rudnik scene examination was complete. On 24 November the prosecutor’s office said that crews had left all three sites and that laboratory and expert analysis was underway.",
     "uncertainty": "The findings are preliminary, not final laboratory results. They supersede the earlier drone suspicion for this debris, but do not by themselves establish the identity or count of every object in flight, its precise track, its intent or its intended target.",
     "deduplication": "This is the existing Rudnik nad Sanem recovery site within the 20 November breach, not a new occurrence. The page is preserved with its original date and URL, but is not part of active drone totals.",
     "provenance": "Original Polish official and contemporary accounts retained. Classification updated after reading the Lublin District Prosecutor’s Office statement of 22 November 2026.",
@@ -10240,9 +10249,11 @@
       "U412",
       "U424",
       "U425",
-      "U429"
+      "U429",
+      "U482",
+      "U483"
     ],
-    "reviewedOn": "2026-11-22",
+    "reviewedOn": "2026-11-25",
     "exclusionReason": "Lublin prosecutors’ preliminary 22 November examination identified Kh-101 cruise-missile fragments at Rudnik nad Sanem, superseding the earlier drone suspicion. Expert examination is pending; current evidence does not support counting this as a drone event."
   },
   {
@@ -10817,5 +10828,311 @@
       "U462"
     ],
     "reviewedOn": "2026-11-25"
+  },
+  {
+    "id": "N201",
+    "title": "Žaltūnai–Girdijauskai · cross-border smuggling drones",
+    "recordClass": "event",
+    "recordType": "cross_border_seizure",
+    "startDate": "2026-07-09",
+    "endDate": "2026-07-10",
+    "dateLabel": "9–10 July 2026 (overnight)",
+    "dateBasis": "VSAT’s 10 July release refers to Thursday night with daylight recovery. Local overnight window retained; no exact time or midnight boundary established.",
+    "countries": "Lithuania",
+    "location": "Žaltūnai–Girdijauskai area, Šalčininkai district, Lithuania",
+    "status": "Officially reported cross-border smuggling-drone operation",
+    "categories": "Reported border entry; counter-drone intervention; recovery and cargo seizure",
+    "category": "flight",
+    "stages": [
+      "flight",
+      "recovery"
+    ],
+    "positions": [
+      {
+        "lat": 54.29,
+        "lng": 25.39,
+        "precision": "region",
+        "label": "Šalčininkai — representative district anchor"
+      }
+    ],
+    "positionNote": "District-level display reference, not an entry, interception or recovery point.",
+    "vehicle": "2 aircraft; model unconfirmed.",
+    "attribution": "VSAT describes cross-border cigarette smuggling; operators and state sponsorship not established.",
+    "route": "VSAT reports entry from Belarus. Exact crossing points and flight tracks unknown.",
+    "circumstances": "The border guard says it detected drones from Belarus overnight. Officers recovered two cargo drones near Žaltūnai and Girdijauskai after searches resumed in daylight.",
+    "payload": "2,000 packs of Belarus-stamped cigarettes recovered; no explosive payload reported.",
+    "impact": "No third-party harm reported. Cargo drones were recovered.",
+    "response": "Border guards intervened and recovered drone cargo. A criminal investigation was opened.",
+    "uncertainty": "The operator and exact crossing point and track are unknown. The operation is recorded as cross-border smuggling, not a military attack.",
+    "deduplication": "One operation involving 2 aircraft. Detection and recovery are not additional operations; cumulative VSAT aircraft figures overlap and are not added.",
+    "provenance": "Full original VSAT statement of 10 July read on 25 November.",
+    "classificationNote": "Forced descent and recovery; this entry does not assert a kinetic shoot-down.",
+    "sources": [
+      "U475"
+    ],
+    "reviewedOn": "2026-11-25"
+  },
+  {
+    "id": "N202",
+    "title": "Šiulgiai–Šumskas · cross-border smuggling drone",
+    "recordClass": "event",
+    "recordType": "cross_border_seizure",
+    "startDate": "2026-07-17",
+    "endDate": "2026-07-18",
+    "dateLabel": "17–18 July 2026 (overnight)",
+    "dateBasis": "VSAT’s 20 July release refers to Friday night with daylight recovery. Local overnight window retained; no exact time or midnight boundary established.",
+    "countries": "Lithuania",
+    "location": "Šiulgiai–Šumskas area, Vilnius district, Lithuania",
+    "status": "Officially reported cross-border smuggling-drone operation",
+    "categories": "Reported border entry; counter-drone intervention; recovery and cargo seizure",
+    "category": "crash",
+    "stages": [
+      "crash",
+      "flight",
+      "recovery"
+    ],
+    "positions": [
+      {
+        "lat": 54.69,
+        "lng": 25.28,
+        "precision": "region",
+        "label": "Vilnius — representative district anchor"
+      }
+    ],
+    "positionNote": "District-level display reference, not an entry, interception or recovery point.",
+    "vehicle": "One aircraft; model unconfirmed.",
+    "attribution": "VSAT describes cross-border cigarette smuggling; operators and state sponsorship not established.",
+    "route": "VSAT reports entry into Lithuania; it does not give a visible cross-border track or a precise crossing point.",
+    "circumstances": "The border guard reported one cargo drone entered Lithuania. Officers heard but did not see the drone near Šiulgiai. After intervention it fell, and the damaged aircraft was recovered near Šumskas in daylight.",
+    "payload": "340 packs of Belarus-stamped cigarettes recovered; no explosive payload reported.",
+    "impact": "No third-party harm reported. The drone was damaged on falling.",
+    "response": "Border guards intervened and recovered drone cargo. Administrative proceedings were opened.",
+    "uncertainty": "The operator and exact crossing point and track are unknown. The operation is recorded as cross-border smuggling, not a military attack.",
+    "deduplication": "One operation involving one aircraft. Detection and recovery are not additional operations; cumulative VSAT aircraft figures overlap and are not added.",
+    "provenance": "Full original VSAT statement of 20 July read on 25 November.",
+    "classificationNote": "Reported fall and recovery; no kinetic shoot-down.",
+    "sources": [
+      "U476"
+    ],
+    "reviewedOn": "2026-11-25"
+  },
+  {
+    "id": "N203",
+    "title": "Norviliškės–Daulėnai · cross-border smuggling drones",
+    "recordClass": "event",
+    "recordType": "cross_border_seizure",
+    "startDate": "2026-07-29",
+    "endDate": "2026-07-30",
+    "dateLabel": "29–30 July 2026 (overnight)",
+    "dateBasis": "VSAT’s 30 July release refers to Wednesday night with daylight recovery. Local overnight window retained; no exact time or midnight boundary established.",
+    "countries": "Lithuania",
+    "location": "Norviliškės–Daulėnai area, Šalčininkai district, Lithuania",
+    "status": "Officially reported cross-border smuggling-drone operation",
+    "categories": "Reported border entry; counter-drone intervention; recovery and cargo seizure",
+    "category": "flight",
+    "stages": [
+      "flight",
+      "recovery"
+    ],
+    "positions": [
+      {
+        "lat": 54.29,
+        "lng": 25.39,
+        "precision": "region",
+        "label": "Šalčininkai — representative district anchor"
+      }
+    ],
+    "positionNote": "District-level display reference, not an entry, interception or recovery point.",
+    "vehicle": "3 aircraft; model unconfirmed.",
+    "attribution": "VSAT describes cross-border cigarette smuggling; operators and state sponsorship not established.",
+    "route": "VSAT reports entry from Belarus. Exact crossing points and flight tracks unknown.",
+    "circumstances": "The border guard reported cargo drones entering Lithuania from Belarus. Two aircraft were recovered near Norviliškės and one near Daulėnai during a single overnight operation, with the final recovery in daylight.",
+    "payload": "3,000 packs of Belarus-stamped cigarettes recovered; no explosive payload reported.",
+    "impact": "No third-party harm reported. Cargo drones were recovered.",
+    "response": "Border guards intervened and recovered drone cargo. A criminal investigation was opened.",
+    "uncertainty": "The operator and exact crossing point and track are unknown. The operation is recorded as cross-border smuggling, not a military attack.",
+    "deduplication": "One operation involving 3 aircraft. Detection and recovery are not additional operations; cumulative VSAT aircraft figures overlap and are not added.",
+    "provenance": "Full original VSAT statement of 30 July read on 25 November.",
+    "classificationNote": "Forced descent and recovery; this entry does not assert a kinetic shoot-down.",
+    "sources": [
+      "U477"
+    ],
+    "reviewedOn": "2026-11-25"
+  },
+  {
+    "id": "N204",
+    "title": "Kiemėnai · cross-border smuggling drone",
+    "recordClass": "event",
+    "recordType": "cross_border_seizure",
+    "startDate": "2026-04-16",
+    "endDate": "2026-04-17",
+    "dateLabel": "16–17 April 2026 (overnight)",
+    "dateBasis": "VSAT’s 17 April 2026 release describes Thursday into Friday. Local overnight window retained; exact time not established.",
+    "countries": "Lithuania",
+    "location": "Kiemėnai area, Vilnius district, Lithuania",
+    "status": "Officially reported cross-border smuggling-drone operation",
+    "categories": "Reported border entry; counter-drone intervention; fall and recovery; cargo seizure",
+    "category": "crash",
+    "stages": [
+      "crash",
+      "flight",
+      "recovery"
+    ],
+    "positions": [
+      {
+        "lat": 54.69,
+        "lng": 25.28,
+        "precision": "region",
+        "label": "Vilnius — representative district anchor"
+      }
+    ],
+    "positionNote": "District reference only, not an entry, interception or recovery point.",
+    "vehicle": "One cargo drone; model not established.",
+    "attribution": "VSAT describes cigarette smuggling; operator and state sponsorship not established.",
+    "route": "VSAT said it detected the drone flying into Lithuania from Belarus.",
+    "circumstances": "VSAT said it detected the drone flying into Lithuania from Belarus. The drone fell after border guards intervened and was recovered near Kiemėnai.",
+    "payload": "750 packs of Belarus-stamped cigarettes recovered; no explosive payload reported.",
+    "impact": "No third-party harm reported.",
+    "response": "Border guards recovered the drone and cargo. Administrative proceedings were opened.",
+    "uncertainty": "No operator, state sponsorship or exact flight track was established. This is a border-smuggling record, not a military attack.",
+    "deduplication": "One operation; detection, fall and recovery are not separate incidents.",
+    "provenance": "Original VSAT statement of 17 April 2026, read on 25 November.",
+    "classificationNote": "Reported fall and recovery; no kinetic shoot-down.",
+    "sources": [
+      "U478"
+    ],
+    "reviewedOn": "2026-11-25"
+  },
+  {
+    "id": "N205",
+    "title": "Prūdelis · cross-border smuggling drone",
+    "recordClass": "event",
+    "recordType": "cross_border_seizure",
+    "startDate": "2026-07-08",
+    "endDate": "2026-07-09",
+    "dateLabel": "8–9 July 2026 (overnight)",
+    "dateBasis": "VSAT’s 9 July 2026 release describes Wednesday night with daylight recovery. Local overnight window retained; exact time not established.",
+    "countries": "Lithuania",
+    "location": "Prūdelis area, Šalčininkai district, Lithuania",
+    "status": "Officially reported cross-border smuggling-drone operation",
+    "categories": "Reported border entry; counter-drone intervention; fall and recovery; cargo seizure",
+    "category": "crash",
+    "stages": [
+      "crash",
+      "flight",
+      "recovery"
+    ],
+    "positions": [
+      {
+        "lat": 54.29,
+        "lng": 25.39,
+        "precision": "region",
+        "label": "Šalčininkai — representative district anchor"
+      }
+    ],
+    "positionNote": "District reference only, not an entry, interception or recovery point.",
+    "vehicle": "One cargo drone; model not established.",
+    "attribution": "VSAT describes cigarette smuggling; operator and state sponsorship not established.",
+    "route": "VSAT reported the drone flying inland from the Belarus border; it did not publish the exact crossing point or track.",
+    "circumstances": "VSAT reported the drone flying inland from the Belarus border; it did not publish the exact crossing point or track. The drone fell after border guards intervened and was recovered near Prūdelis.",
+    "payload": "1,000 packs of Belarus-stamped cigarettes recovered; no explosive payload reported.",
+    "impact": "No third-party harm reported. VSAT reported substantial impact damage to the drone.",
+    "response": "Border guards recovered the drone and cargo. Administrative proceedings were opened.",
+    "uncertainty": "No operator, state sponsorship or exact flight track was established. This is a border-smuggling record, not a military attack.",
+    "deduplication": "One operation; detection, fall and recovery are not separate incidents. Distinct from the 9–10 July Žaltūnai–Girdijauskai operation.",
+    "provenance": "Original VSAT statement of 9 July 2026, read on 25 November.",
+    "classificationNote": "Reported fall and recovery; no kinetic shoot-down.",
+    "sources": [
+      "U479"
+    ],
+    "reviewedOn": "2026-11-25"
+  },
+  {
+    "id": "N206",
+    "title": "Aegean · 25 November reported Turkish UAV activity",
+    "recordClass": "event",
+    "recordType": "reported_foreign_uav_activity",
+    "startDate": "2026-11-25",
+    "dateLabel": "25 November 2026",
+    "dateBasis": "25 November Greek local date, from GEETHA figures reproduced in Greek media.",
+    "countries": "Greece",
+    "location": "Northeastern, central and southeastern Aegean, per Greek daily reporting.",
+    "status": "Greek-authority daily airspace figures as reproduced in the Greek press",
+    "categories": "Reported national-airspace violations and separate Athens FIR infringements",
+    "category": "flight",
+    "stages": [
+      "flight"
+    ],
+    "positions": [
+      {
+        "lat": 37.5,
+        "lng": 26.0,
+        "precision": "region",
+        "label": "Aegean — broad regional reference"
+      }
+    ],
+    "positionNote": "Broad regional display anchor, not aircraft location or flight path.",
+    "vehicle": "Three UAVs described as Turkish; models not reported.",
+    "attribution": "Attributed to Turkey by the Greek military, as reported in Greek media; Greek–Turkish airspace dispute remains relevant.",
+    "route": "Not established.",
+    "circumstances": "The Hellenic National Defence General Staff (GEETHA), as reported by OnAlert and Veteranos, listed three Turkish UAVs, four reported Greek national-airspace violations and three separate Athens FIR traffic-rule infringements on 25 November.",
+    "payload": "No armed aircraft listed; payload details not reported.",
+    "impact": "No harm or damage reported in this bulletin reproduction.",
+    "response": "Routine identification and interception reported. The table listed no engagement.",
+    "uncertainty": "The figures are separate measures in one daily military bulletin, not verified individual flight tracks or attack counts. Both reports cite the same bulletin; the official monthly table was not directly accessible at review.",
+    "deduplication": "One regional daily aggregate. Do not add the aircraft, national airspace and FIR figures or map each as a separate occurrence.",
+    "provenance": "OnAlert’s full GEETHA table reproduction reviewed; Veteranos cites the same military source.",
+    "classificationNote": "Daily regional flight record, not a confirmed attack, crash or shoot-down.",
+    "reported_UAVs": 3,
+    "reported_airspace_violations": 4,
+    "reported_FIR_infractions": 3,
+    "sources": [
+      "U484",
+      "U485"
+    ],
+    "reviewedOn": "2026-11-25"
+  },
+  {
+    "id": "N207",
+    "title": "Kuodžiai · four cross-border smuggling drones",
+    "recordClass": "event",
+    "recordType": "cross_border_seizure",
+    "startDate": "2026-07-30",
+    "dateLabel": "30 July 2026 (evening)",
+    "dateBasis": "The 3 August VSAT release says Thursday evening; Regionų žinios identifies 30 July explicitly. Exact times not established.",
+    "countries": "Lithuania",
+    "location": "Kuodžiai area, Lazdijai district, Lithuania",
+    "status": "Officially reported cross-border smuggling-drone operation",
+    "categories": "Reported border entry; interception; recovery and cargo seizure",
+    "category": "flight",
+    "stages": [
+      "flight",
+      "recovery"
+    ],
+    "positions": [
+      {
+        "lat": 54.23,
+        "lng": 23.52,
+        "precision": "region",
+        "label": "Lazdijai — representative district anchor"
+      }
+    ],
+    "positionNote": "District reference only, not an entry, interception or recovery point.",
+    "vehicle": "Four cargo drones; models not established.",
+    "attribution": "VSAT describes cigarette smuggling. Operator and state sponsorship not established.",
+    "route": "VSAT reported entry from Belarus into Lithuania. Exact crossing points and tracks unknown.",
+    "circumstances": "Lithuania’s State Border Guard Service (VSAT) reported that four cargo drones entered from Belarus and were brought down and recovered in one operation near Kuodžiai, in Lazdijai district.",
+    "payload": "4,000 packs of Belarus-stamped cigarettes recovered in total; no explosive payload reported.",
+    "impact": "Four drones and their cargo recovered; no third-party harm reported.",
+    "response": "Border guards recovered the aircraft and cargo and opened a criminal investigation.",
+    "uncertainty": "No exact flight track, operator identity or state sponsorship was established. This is a criminal smuggling case, not a military attack.",
+    "deduplication": "One operation involving four aircraft, separate from the previous overnight Norviliškės–Daulėnai operation in Šalčininkai district. Cumulative VSAT figures are not added.",
+    "provenance": "Original VSAT statement of 3 August and Regionų žinios account read on 26 November.",
+    "classificationNote": "Border-enforcement interception and recovery. The account does not establish a kinetic shoot-down.",
+    "sources": [
+      "U486",
+      "U487"
+    ],
+    "reviewedOn": "2026-11-26"
   }
 ]

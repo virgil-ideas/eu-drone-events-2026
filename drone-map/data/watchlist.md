@@ -1222,3 +1222,29 @@ that date. No additional occurrence is inferred from source follow-ups.
   three Nov 20 crash sites. The possible second Sigonella episode remains
   undated independently and no foreign crossing is established. The Hamburg
   airport lead points to a locally operated drone, not a verified incursion.
+
+### 26 November bounded public-source check
+
+- Screened public sources by country across the EU-27 for 22–26 November,
+  including at least 72 hours of overlap, and checked targeted Greek, Baltic,
+  Romanian, Polish, Italian and maritime leads. This is not exhaustive local
+  or official archive coverage. No new independently verified territorial
+  drone entry was found beyond attributed Greek daily reporting.
+- Added one 25 November Aegean daily row from two reproductions of one GEETHA
+  bulletin: three UAVs, four reported Greek national-airspace violations and
+  three separate Athens FIR infringements. The primary monthly table remained
+  inaccessible and 23–24 November date-specific rows remain unresolved. The
+  inclusive reporting cutoff advances to 25 November, not a completeness claim.
+- Backfilled six Lithuanian border-smuggling operations involving 12 aircraft
+  from April and July. No duplicated stages or cumulative counts. E027 now
+  reflects the primary finding of no cargo and impact damage; N012 retains its
+  existing occurrence with the primary citation added.
+- GAS HUSKY: reported airport send-off for 19 crew, without reliable arrival
+  confirmation at review. Varna Radio still carries the 21 November hull
+  observation, not a new hull status. Cause and operator remain unresolved.
+- The Polish archive distinguishes the 23 November Mołodycz examination from
+  24 November cleanup and handback. Expert analysis is underway; the existing
+  exclusions remain in place. The 24 November MApN dashboard is non-additive.
+- The possible 23 November Sigonella follow-up was dated by Sky TG24 from a
+  social-source account; no independent confirmation of a distinct event or
+  foreign entry was found. The Cyprus June 22 annex remains unlocated.

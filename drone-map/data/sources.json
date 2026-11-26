@@ -4651,5 +4651,125 @@
     "url": "https://english.mapn.ro/cpresa/6819_press-release",
     "dateLabel": "21 July 2026",
     "audit": "Official release identifies vessel and EEZ. Distance differs from Naval Authority; position remains approximate."
+  },
+  "U475": {
+    "id": "U475",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Border guard reports 2 smuggling aircraft in the Žaltūnai–Girdijauskai operation",
+    "url": "https://vsat.lrv.lt/lt/naujienos/salcininku-rajone-vsat-pareigunai-nutupde-dvi-skraidykles-su-11-tukst-euru-vertes-cigareciu-kroviniu-foto-jQK/",
+    "dateLabel": "10 July 2026",
+    "audit": "Full VSAT release read. Describes Thursday night and daylight recovery, with no exact occurrence times. 2 aircraft and 2,000 cigarette packs in one documented operation; cumulative figures not additive."
+  },
+  "U476": {
+    "id": "U476",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Border guard reports 1 smuggling aircraft in the Šiulgiai–Šumskas operation",
+    "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciu-perimta-skraidykle-su-kroviniu-miske-aptiko-kinologas-su-tarnybiniu-sunimi-foto-W8x/",
+    "dateLabel": "20 July 2026",
+    "audit": "Full VSAT release read. Describes Friday night and daylight recovery, with no exact occurrence times. 1 aircraft and 340 cigarette packs in one documented operation; cumulative figures not additive."
+  },
+  "U477": {
+    "id": "U477",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Border guard reports 3 smuggling aircraft in the Norviliškės–Daulėnai operation",
+    "url": "https://vsat.lrv.lt/lt/naujienos/dieveniskiu-kilpoje-vsat-pareigunai-nutupde-tris-kontrabandininku-bepilocius-orlaivius-su-kroviniais-foto-J1p/",
+    "dateLabel": "30 July 2026",
+    "audit": "Full VSAT release read. Describes Wednesday night and daylight recovery, with no exact occurrence times. 3 aircraft and 3,000 cigarette packs in one documented operation; cumulative figures not additive."
+  },
+  "U478": {
+    "id": "U478",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Border guard reports smuggling drone recovered near Kiemėnai",
+    "url": "https://vsat.lrv.lt/lt/naujienos/baltarusijos-pasienyje-kontrabandininkai-neteko-dar-vieno-nelegalius-rukalus-skraidinusio-drono-foto-qH9/",
+    "dateLabel": "17 April 2026",
+    "audit": "Full original release read. Single aircraft and 750 cigarette packs. Local overnight operation; no precise time or operator given."
+  },
+  "U479": {
+    "id": "U479",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Border guard reports smuggling drone recovered near Prūdelis",
+    "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciams-peremus-kontrabandininku-skraidykles-su-rukalais-valdyma-si-teskesi-i-zeme-foto-S7x/",
+    "dateLabel": "9 July 2026",
+    "audit": "Full original release read. Single aircraft and 1,000 cigarette packs. Local overnight operation; no precise time or operator given."
+  },
+  "U480": {
+    "id": "U480",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Border guard recovers damaged smuggling drone without cargo near Dumblė",
+    "url": "https://vsat.lrv.lt/lt/naujienos/is-baltarusijos-skridusia-savadarbe-skraidykle-pasienieciai-nutupde-salcininku-rajone-foto-ktP/",
+    "dateLabel": "25 May 2026",
+    "audit": "Full original account matches May 23, Dumblė. The recovered aircraft was carrying no cargo and was badly damaged when it hit the ground."
+  },
+  "U481": {
+    "id": "U481",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Border guard recovers drone with 200 cigarette packs at Dimitrai",
+    "url": "https://vsat.lrv.lt/lt/naujienos/is-baltarusijos-skridusia-savadarbe-skraidykle-pasienieciai-nutupde-salcininku-rajone-foto-6tX/",
+    "dateLabel": "15 June 2026",
+    "audit": "Full original notice corroborates June 14 detection near Daugidonys and recovery at Dimitrai, with 200 packs. Supplements the reporting derived from the same agency; not a separate source of observation."
+  },
+  "U482": {
+    "id": "U482",
+    "publisher": "Lublin District Prosecutor’s Office",
+    "title": "Mołodycz cleanup and site handback completed",
+    "url": "https://x.com/Prok_Okreg_Lub/status/2125251144020615542",
+    "dateLabel": "24 November 2026",
+    "audit": "Official post read via mirror and checked against Wirtualna Polska’s attributed account. Site cleared, safety-checked and handed back. Laboratory and expert analysis underway across the three sites; no final findings announced."
+  },
+  "U483": {
+    "id": "U483",
+    "publisher": "Wirtualna Polska",
+    "title": "Investigators complete work at Mołodycz",
+    "url": "https://wiadomosci.wp.pl/sledczy-zakonczyli-prace-w-molodyczu-teren-uprzatniety-7354522514233344a",
+    "dateLabel": "24 November 2026",
+    "audit": "Quotes the prosecutor’s statement, confirming publication and wording, not independently reporting laboratory findings."
+  },
+  "U484": {
+    "id": "U484",
+    "publisher": "OnAlert",
+    "title": "25 November Aegean UAV figures attributed to the Greek General Staff",
+    "url": "https://www.onalert.gr/ellinotourkika/nees-paraviaseis-kai-paravaseis-sto-aigaio-apo-tria-tourkika-drones/836130/",
+    "dateLabel": "25 November 2026",
+    "audit": "Full November 25 GEETHA table reproduction read: three UAVs, no armed aircraft listed, three FIR traffic-rule infringements, four national-airspace violations and no engagements."
+  },
+  "U485": {
+    "id": "U485",
+    "publisher": "Veteranos",
+    "title": "25 November Aegean UAV figures attributed to the Greek General Staff",
+    "url": "https://veteranos.gr/tourkika-uav-sto-aigaio-tesseris-paraviaseis-tou-ethnikou-enaeriou-chorou-2/",
+    "dateLabel": "25 November 2026",
+    "audit": "November 25 account attributes the figures to GEETHA. Same military bulletin, not independent corroboration."
+  },
+  "U486": {
+    "id": "U486",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Four smuggling drones recovered in Lazdijai district",
+    "url": "https://vsat.lrv.lt/lt/naujienos/taiklus-pasienieciu-suviai-vos-per-keliolika-minuciu-keturi-kontrabandininku-dronai-su-rukalais-foto-uVV/",
+    "dateLabel": "3 August 2026",
+    "audit": "Full original read. Describes Thursday evening, four aircraft and 4,000 cigarette packs in one operation. Its running count is an aircraft tally; not additive."
+  },
+  "U487": {
+    "id": "U487",
+    "publisher": "Regionų žinios",
+    "title": "Four cigarette-smuggling drones recovered near Kuodžiai",
+    "url": "https://regionuzinios.lt/lazdiju-rajone-pasienieciai-nutupde-keturis-kontrabandininku-dronus-su-cigaretemis/",
+    "dateLabel": "3 August 2026",
+    "audit": "Explicitly dates the operation to July 30. Reports the same VSAT account, not an independent observation."
+  },
+  "U488": {
+    "id": "U488",
+    "publisher": "The Manila Times (syndicated by Newswav)",
+    "title": "GAS HUSKY crew sent off from Varna airport",
+    "url": "https://newswav.com/article/19-filipino-seafarers-from-drone-hit-tanker-on-way-home-to-ph-A2611_KMgO3K",
+    "dateLabel": "26 November 2026 (Philippines time)",
+    "audit": "Full article read in syndication. Quotes Philippine DMW on the airport send-off and two expected arrivals, not actual arrivals or a new hull observation."
+  },
+  "U489": {
+    "id": "U489",
+    "publisher": "Romanian Ministry of National Defence",
+    "title": "Drone and naval-mine dashboard: 24 November snapshot",
+    "url": "https://english.mapn.ro/index.php",
+    "dateLabel": "Updated 24 November 2026; read 26 November",
+    "audit": "2026 row: 123 nearby attacks, 101 aircraft-response situations, 39 unauthorized entries, six downed drones, 44 drone/fragment cases and two mines. Overlapping categories; not separate occurrences."
   }
 }
