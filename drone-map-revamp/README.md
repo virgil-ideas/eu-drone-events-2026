@@ -55,6 +55,29 @@ manifests or HTML asset URLs. Commit these generated changes with the data updat
 - **Casualty badges** come from `casualties: true` on records in
   `drone-map/data/events.json`, not from a list in the interface.
 
+## Charts & figures
+
+*Charts & figures* (from Press, from the trend dialog, or at `/#stats`) holds the
+register's numbers for reporters. Everything is computed in the browser from the
+same records as the map, so it updates with every data commit.
+
+- **By the numbers.** Headline figures, each with a sentence to quote that
+  already names the source. The month figure compares the current month so far
+  with the same days of the previous month. Four of them also appear in Press.
+- **Charts.** Records per month (by outcome), records by country, what happened
+  (stages), Black Sea ship incidents, a calendar of every day, sources per record
+  and the most cited publishers. Each chart has a one-line takeaway, a table, a
+  CSV and a PNG download with title, notes and credit. Selecting a month, day or
+  vessel shows those records on the map.
+- **Country.** The selector at the top scopes every figure, chart and card.
+- **Share cards.** Square (1080×1080) or story (1080×1920) images for any month
+  or the year so far, drawn in the visitor's language.
+
+The code is split three ways: `stats.js` computes the figures (pure functions,
+tested in `tests/test_stats.cjs`), `charts.js` lays charts out as scenes that it
+draws as SVG on the page and onto a canvas for downloads, and `app.js` builds the
+view and its sentences. Strings are the `charts.*` keys in `i18n/<lang>.js`.
+
 ## Social preview image
 
 The image shown when someone shares the site is drawn by `og/card.html` from

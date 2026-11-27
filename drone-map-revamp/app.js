@@ -72,6 +72,7 @@
       percent: new Intl.NumberFormat(locale, {style:'percent', maximumFractionDigits:0}),
       delta: new Intl.NumberFormat(locale, {style:'percent', maximumFractionDigits:0, signDisplay:'exceptZero'}),
       list: new Intl.ListFormat(locale, {style:'narrow', type:'unit'}),
+      and: new Intl.ListFormat(locale, {style:'long', type:'conjunction'}),
       short: date({day:'numeric', month:'short'}),
       shortYear: date({day:'numeric', month:'short', year:'numeric'}),
       long: date({day:'numeric', month:'long', year:'numeric'}),
@@ -79,6 +80,7 @@
       monthNarrow: date({month:'narrow'}),
       monthLong: date({month:'long'}),
       monthYear: date({month:'long', year:'numeric'}),
+      dayMonth: date({day:'numeric', month:'long'}),
       regions
     };
   }
@@ -2133,6 +2135,505 @@
     $('context-title').textContent = t('about.contextTitle', {n: contexts.length});
   }
 
+  // ==========================================================================
+  // Charts & figures: the register's numbers for the press, drawn from the same
+  // records as the map. Each figure has a quotable sentence; each chart has a
+  // takeaway, a table and PNG and CSV downloads. Share cards render in the
+  // visitor's language for any country and month.
+  // ==========================================================================
+  const STATS = window.DRONE_STATS;
+  const CHARTS = window.DRONE_CHARTS;
+  const statsMonths = STATS.monthsBetween(events, cutoff);
+  const dataYear = cutoff.slice(0, 4);
+  let chartsScope = '';
+  let chartsRegistry = {};
+  let chartsDirty = true;
+  let chartsWidths = new Map();
+  let chartsHashBefore = '';
+  let shareFormat = 'square';
+  const monthDate = month => utcDate(`${month}-01`);
+  const monthName = month => format.monthLong.format(monthDate(month));
+  const capitalize = value => value.charAt(0).toLocaleUpperCase(locale) + value.slice(1);
+  // Intl gives some country names with a lowercase article ("an Rómáin", "ir-Rumanija");
+  // capitalise them where they start a label or sentence.
+  const countryLabel = name => capitalize(countryName(name));
+  const leading = (text, country) => country && text.startsWith(country) ? capitalize(text) : text;
+  const dateRange = (from, to) => from === to ? shortDateYear(from)
+    : format.shortYear.formatRange ? format.shortYear.formatRange(utcDate(from), utcDate(to)) : `${shortDateYear(from)} – ${shortDateYear(to)}`;
+  const shortRange = (from, to) => from === to ? shortDate(from)
+    : format.short.formatRange ? format.short.formatRange(utcDate(from), utcDate(to)) : `${shortDate(from)} – ${shortDate(to)}`;
+  const monthEndDate = month => { const end = `${month}-${String(STATS.lastDayOf(month)).padStart(2, '0')}`; return end > cutoff ? cutoff : end; };
+  const share = (n, total) => format.percent.format(total ? n / total : 0);
+  const scopeSlug = () => (chartsScope || 'eu').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+  const scopedEvents = () => STATS.inScope(events, chartsScope);
+  const shipsInScope = () => maritimeEscalation.records.filter(event => !chartsScope || STATS.countriesOf(event).includes(chartsScope));
+  const shortMonth = month => format.month.format(monthDate(month)).replace(/\.$/, '');
+
+  // The figures behind "By the numbers", each with a sentence that names the source.
+  function figureTiles(records, scope, compact = false) {
+    const k = STATS.keyFigures(records, cutoff);
+    const year = dataYear;
+    const country = scope ? countryName(scope) : '';
+    const scoped = (key, vars) => leading(t(scope ? `${key}Country` : key, {...vars, country}), country);
+    const tiles = [];
+    tiles.push({id: 'total', label: t('charts.tile.total', {year}), value: format.number.format(k.total),
+      meta: shortRange(k.firstDate, cutoff), sentence: scoped('charts.sentence.total', {n: k.total, year, date: longDate(cutoff)})});
+
+    const previousEnd = `${k.previousMonth}-${String(Math.min(Number(cutoff.slice(8)), STATS.lastDayOf(k.previousMonth))).padStart(2, '0')}`;
+    const previousRange = shortRange(`${k.previousMonth}-01`, previousEnd);
+    let monthSentence = scoped('charts.sentence.month', {n: k.monthTotal, start: format.dayMonth.format(monthDate(k.month)), end: longDate(cutoff)});
+    if (k.previousSameDays) monthSentence += ` ${t('charts.sentence.monthCompare', {delta: format.delta.format(k.monthChange), month: monthName(k.previousMonth), previous: k.previousSameDays})}`;
+    if (k.monthIsRecord) monthSentence += ` ${t('charts.sentence.monthRecord')}`;
+    tiles.push({id: 'month', label: k.monthComplete ? capitalize(monthName(k.month)) : t('charts.tile.month', {month: monthName(k.month)}),
+      value: format.number.format(k.monthTotal),
+      meta: [k.monthChange === null ? '' : format.delta.format(k.monthChange), t('charts.tile.monthVs', {n: k.previousSameDays, range: previousRange})].filter(Boolean).join(' · '),
+      sentence: monthSentence});
+
+    const comparison = window.DRONE_TREND.rollingComparison(records, cutoff);
+    if (comparison.change) {
+      tiles.push({id: 'trend', label: t('charts.tile.trend'), value: format.delta.format(comparison.change),
+        meta: t('charts.tile.trendMeta', {recent: comparison.recentTotal, previous: comparison.previousTotal}),
+        sentence: scoped(comparison.change > 0 ? 'charts.sentence.trendUp' : 'charts.sentence.trendDown',
+          {pct: format.percent.format(Math.abs(comparison.change)), date: longDate(cutoff), recent: comparison.recentTotal, previous: comparison.previousTotal})});
+    }
+
+    const ships = maritimeEscalation.records.filter(event => !scope || STATS.countriesOf(event).includes(scope));
+    if (ships.length) {
+      const casualties = ships.filter(hasCasualties).length;
+      tiles.push({id: 'ships', label: t('charts.tile.ships'), value: format.number.format(ships.length),
+        meta: t('charts.tile.shipsMeta', {date: shortDate(DARK_TURN_DATE), n: casualties}),
+        sentence: scoped('charts.sentence.ships', {n: ships.length, date: longDate(DARK_TURN_DATE), casualties: format.number.format(casualties)})});
+    }
+    if (compact) return tiles;
+
+    tiles.push({id: 'shotdown', label: t('charts.tile.shotdown'), value: format.number.format(k.shotdown),
+      meta: t('charts.tile.ofTotal', {total: k.total, n: k.total}), sentence: scoped('charts.sentence.shotdown', {n: k.shotdown, total: k.total, year})});
+    tiles.push({id: 'casualties', label: t('charts.tile.casualties'), value: format.number.format(k.casualties),
+      meta: t('charts.tile.casualtiesMeta'), sentence: scoped('charts.sentence.casualties', {n: k.casualties, total: k.total, year})});
+    if (scope) {
+      tiles.push({id: 'share', label: t('charts.tile.share'), value: share(k.total, events.length),
+        meta: t('charts.tile.shareMeta', {n: k.total, total: events.length}),
+        sentence: leading(t('charts.sentence.share', {country, n: k.total, total: events.length, year, share: share(k.total, events.length)}), country)});
+    } else {
+      tiles.push({id: 'countries', label: t('charts.tile.countries'), value: format.number.format(k.countries.length),
+        meta: k.countries.slice(0, 3).map(countryLabel).join(', ') + (k.countries.length > 3 ? ', …' : ''),
+        sentence: t('charts.sentence.countries', {n: k.countries.length, year, list: format.and.format(k.countries.map(countryName))})});
+    }
+    if (k.latest) {
+      const copy = pageCopyFor(k.latest);
+      tiles.push({id: 'latest', label: t('charts.tile.latest'), value: shortDate(k.latest.startDate), meta: copy.headline, metaLang: copy.lang,
+        sentence: t('charts.sentence.latest', {date: longDate(k.latest.startDate), headline: copy.headline})});
+    }
+    return tiles;
+  }
+
+  const tileHTML = tile => `<div class="figure-tile" data-tile="${tile.id}">
+      <span class="figure-label">${escape(tile.label)}</span>
+      <strong class="figure-value">${escape(tile.value)}</strong>
+      <span class="figure-meta"${tile.metaLang ? ` lang="${tile.metaLang}"` : ''}>${escape(tile.meta)}</span>
+      <p class="figure-sentence">${escape(tile.sentence)}</p>
+      <button type="button" class="figure-copy" data-copy-sentence>${escape(t('charts.copySentence'))}</button>
+    </div>`;
+
+  function renderPressFigures() {
+    $('press-figures').innerHTML = figureTiles(events, '', true).map(tileHTML).join('');
+  }
+
+  // Each chart: what it shows, how to draw it at a width, and its table.
+  function buildChartsRegistry() {
+    const records = scopedEvents();
+    const total = records.length;
+    const place = chartsScope ? countryName(chartsScope) : '';
+    const registry = {};
+    const monthLabels = width => {
+      const band = width / statsMonths.length;
+      return statsMonths.map(month => band >= 40 ? shortMonth(month) : format.monthNarrow.format(monthDate(month)));
+    };
+
+    // Records per month, split by what happened.
+    const series = STATS.monthly(records, statsMonths);
+    const busiest = series.reduce((best, item) => item.total > best.total ? item : best, series[0]);
+    const current = series.at(-1);
+    const k = STATS.keyFigures(records, cutoff);
+    registry.monthly = {
+      title: t('charts.monthly.title'),
+      take: k.monthIsRecord
+        ? t('charts.monthly.takeRecord', {month: capitalize(monthName(current.month)), n: current.total, date: shortDate(cutoff)})
+        : t('charts.monthly.takeBusiest', {month: monthName(busiest.month), n: busiest.total}),
+      legend: [{label: t('revamp.outcomeImpact'), color: CHARTS.C.impact}, {label: t('revamp.outcomeQuiet'), color: CHARTS.C.quiet}],
+      note: [t('charts.monthly.note'), k.monthComplete ? '' : t('trend.partialNote', {month: capitalize(monthName(current.month)), date: shortDate(cutoff)})].filter(Boolean).join(' '),
+      scene: width => {
+        const labels = monthLabels(width);
+        return CHARTS.columns({width, height: width < 480 ? 220 : 260, valueText: n => format.number.format(n), items: series.map((item, i) => ({
+          label: labels[i], total: item.total,
+          segments: [{value: item.impact, color: CHARTS.C.impact}, {value: item.quiet, color: CHARTS.C.quiet}],
+          tip: t('charts.monthly.tip', {month: format.monthYear.format(monthDate(item.month)), n: item.total, impact: item.impact}),
+          data: item.total ? {month: item.month} : {}
+        }))});
+      },
+      table: () => ({headers: [t('charts.table.month'), t('charts.table.records'), t('charts.table.impact'), t('charts.table.quiet')],
+        rows: series.map(item => [format.monthYear.format(monthDate(item.month)), item.total, item.impact, item.quiet])})
+    };
+
+    // What happened: records that include each stage.
+    const stageRows = STATS.stages(records);
+    const shotdown = stageRows.find(row => row.key === 'shotdown')?.count || 0;
+    const recovery = stageRows.find(row => row.key === 'recovery')?.count || 0;
+    const stageColor = {flight: colors.flight, alert: colors.alert, shotdown: colors.shotdown, crash: colors.crash, strike: colors.strike, recovery: colors.recovery, disposal: colors.disposal};
+    registry.outcomes = {
+      title: t('charts.outcomes.title'),
+      take: t('charts.outcomes.take', {n: shotdown, total, recovery}),
+      note: t('charts.outcomes.note'),
+      legend: [],
+      scene: width => CHARTS.rankedBars({width, max: total, rows: stageRows.map(row => ({
+        label: t(`charts.stage.${row.key}`), value: row.count, dot: stageColor[row.key],
+        valueText: `${format.number.format(row.count)} · ${share(row.count, total)}`,
+        tip: t('charts.stage.tip', {stage: t(`charts.stage.${row.key}`), n: row.count, total, share: share(row.count, total)})
+      }))}),
+      table: () => ({headers: [t('charts.table.stage'), t('charts.table.records'), t('charts.table.share')],
+        rows: stageRows.map(row => [t(`charts.stage.${row.key}`), row.count, share(row.count, total)])})
+    };
+
+    // Countries: one small chart each, all on the same scale.
+    const countryRows = STATS.byCountry(events, statsMonths);
+    const leader = countryRows[0];
+    const scopedRow = countryRows.find(row => row.country === chartsScope);
+    registry.countries = {
+      title: t('charts.countries.title'),
+      take: scopedRow
+        ? leading(t('charts.countries.takeScope', {country: place, n: scopedRow.total, total: events.length, share: share(scopedRow.total, events.length)}), place)
+        : leading(t('charts.countries.take', {country: countryName(leader.country), n: leader.total, total: events.length, share: share(leader.total, events.length)}), countryName(leader.country)),
+      note: t('charts.countries.note', {month: monthName(statsMonths.at(-1))}),
+      legend: [],
+      scene: width => CHARTS.smallMultiples({width, firstLabel: shortMonth(statsMonths[0]), lastLabel: shortMonth(statsMonths.at(-1)),
+        rows: countryRows.map(row => ({label: `${flagEmoji(row.country)} ${countryLabel(row.country)}`, total: row.total, totalText: format.number.format(row.total),
+          values: row.months, dim: Boolean(chartsScope) && row.country !== chartsScope, country: row.country,
+          data: i => row.months[i] ? {month: statsMonths[i], country: row.country} : {}})),
+        tipFor: (row, i) => leading(t('charts.countries.tip', {country: countryName(row.country), month: format.monthYear.format(monthDate(statsMonths[i])), n: row.values[i]}), countryName(row.country))}),
+      table: () => ({headers: [t('charts.table.country'), t('charts.table.records'), ...statsMonths.map(shortMonth)],
+        rows: countryRows.map(row => [countryLabel(row.country), row.total, ...row.months])})
+    };
+
+    // Every day of the year.
+    const days = STATS.daily(records, cutoff);
+    const activeDays = days.filter(day => day.n).length;
+    const busiestDay = days.reduce((best, day) => day.n > best.n ? day : best, days[0]);
+    registry.calendar = {
+      title: t('charts.calendar.title'),
+      take: busiestDay.n ? t('charts.calendar.take', {days: activeDays, totalDays: days.length, date: longDate(busiestDay.date), n: busiestDay.n}) : '',
+      note: '',
+      legend: [{label: '0', color: CHARTS.C.empty}, ...CHARTS.C.ramp.map((color, i) => ({label: i === 3 ? '4+' : String(i + 1), color}))],
+      legendTitle: t('charts.calendar.legend'),
+      scene: width => CHARTS.calendar({width, days, monthLabel: month => capitalize(monthName(month)),
+        tipFor: day => day.n ? t('charts.calendar.tip', {date: longDate(day.date), n: day.n}) : t('charts.calendar.tipNone', {date: longDate(day.date)})}),
+      table: () => ({headers: [t('charts.table.date'), t('charts.table.records'), t('charts.table.ids')],
+        rows: days.filter(day => day.n).map(day => [day.date, day.n, day.ids.join(' ')])})
+    };
+
+    // Black Sea ship incidents.
+    const shipItems = STATS.ships(shipsInScope());
+    if (shipItems.length) {
+      const casualties = shipItems.filter(item => item.casualties).length;
+      const end = shipItems.at(-1).date > cutoff ? shipItems.at(-1).date : cutoff;
+      const ticks = [];
+      for (let time = Date.parse(`${DARK_TURN_DATE}T00:00:00Z`); time <= Date.parse(`${end}T00:00:00Z`); time += 14 * DAY) {
+        const date = new Date(time).toISOString().slice(0, 10);
+        ticks.push({date, text: shortDate(date)});
+      }
+      const status = item => [t(item.confirmed ? 'charts.ships.confirmed' : 'charts.ships.unconfirmed'), item.casualties ? t('charts.ships.casualties') : ''].filter(Boolean).join(' · ');
+      registry.ships = {
+        title: t('charts.ships.title'),
+        take: t('charts.ships.take', {n: shipItems.length, date: longDate(DARK_TURN_DATE), casualties: format.number.format(casualties)}),
+        note: t('charts.ships.note', {date: longDate(DARK_TURN_DATE)}),
+        legend: [{label: t('charts.ships.confirmed'), color: CHARTS.C.impact, kind: 'dot'}, {label: t('charts.ships.unconfirmed'), color: CHARTS.C.impact, kind: 'ring'}, {label: t('charts.ships.casualties'), color: CHARTS.C.impact, kind: 'halo'}],
+        scene: width => CHARTS.shipRows({width, start: DARK_TURN_DATE, end, ticks, items: shipItems.map(item => ({
+          ...item, code: COUNTRY_CODES[item.country] || '', dateText: shortDate(item.date),
+          tip: `${item.name} · ${longDate(item.date)} · ${status(item)}`
+        }))}),
+        table: () => ({headers: [t('charts.table.date'), t('charts.table.vessel'), t('charts.table.country'), t('charts.table.status'), t('charts.table.ids')],
+          rows: shipItems.map(item => [item.date, item.name, countryLabel(item.country), status(item), item.id])})
+      };
+    }
+
+    // Sourcing: sources per record and the most cited publishers.
+    const sourcing = STATS.sourcing(records, sources);
+    const binLabel = size => size === 5 ? t('charts.sources.binMore', {n: 5}) : t('charts.sources.bin', {n: size});
+    registry.sources = {
+      title: t('charts.sources.title'),
+      take: t('charts.sources.take', {n: sourcing.multiple, total, share: share(sourcing.multiple, total)}),
+      note: t('charts.sources.note'),
+      legend: [],
+      scene: width => CHARTS.columns({width, height: 236, valueText: n => format.number.format(n), items: sourcing.bins.map(bin => ({
+        label: bin.size === 5 ? '5+' : String(bin.size), total: bin.count,
+        segments: [{value: bin.count, color: CHARTS.C.teal}],
+        tip: t('charts.sources.tip', {size: binLabel(bin.size), n: bin.count})
+      }))}),
+      table: () => ({headers: [t('charts.table.sources'), t('charts.table.records'), t('charts.table.share')],
+        rows: sourcing.bins.map(bin => [binLabel(bin.size), bin.count, share(bin.count, total)])})
+    };
+    const publishers = sourcing.publishers.slice(0, 8);
+    registry.publishers = {
+      title: t('charts.sources.publishersTitle'),
+      take: '',
+      note: '',
+      legend: [],
+      scene: width => CHARTS.rankedBars({width, rows: publishers.map(row => ({
+        label: row.name, value: row.count, valueText: format.number.format(row.count),
+        tip: t('charts.sources.publisherTip', {publisher: row.name, n: row.count})
+      }))}),
+      table: () => ({headers: [t('charts.table.publisher'), t('charts.table.records')], rows: sourcing.publishers.map(row => [row.name, row.count])})
+    };
+    return registry;
+  }
+
+  const flagEmoji = country => COUNTRY_CODES[country] ? [...COUNTRY_CODES[country]].map(c => String.fromCodePoint(0x1f1e6 + c.charCodeAt(0) - 65)).join('') : '';
+
+  function legendHTML(entry) {
+    if (!entry.legend?.length) return '';
+    const key = item => item.kind === 'ring' ? `<i class="legend-ring" style="--key:${item.color}"></i>`
+      : item.kind === 'halo' ? `<i class="legend-halo" style="--key:${item.color}"></i>`
+      : item.kind === 'dot' ? `<i class="legend-dot" style="--key:${item.color}"></i>`
+      : `<i class="legend-swatch" style="--key:${item.color}"></i>`;
+    return `<div class="stats-legend">${entry.legendTitle ? `<span class="stats-legend-title">${escape(entry.legendTitle)}</span>` : ''}${entry.legend.map(item => `<span>${key(item)}${escape(item.label)}</span>`).join('')}</div>`;
+  }
+
+  function cardHTML(id, {wide = false} = {}) {
+    const entry = chartsRegistry[id];
+    if (!entry) return '';
+    return `<article class="stats-card${wide ? ' wide' : ''}" data-chart="${id}" aria-labelledby="chart-${id}-title">
+      <header class="stats-card-head">
+        <h3 id="chart-${id}-title">${escape(entry.title)}</h3>
+        ${entry.take ? `<p class="stats-take">${escape(entry.take)}</p>` : ''}
+      </header>
+      ${legendHTML(entry)}
+      <div class="stats-figure" data-figure="${id}"></div>
+      <div class="stats-table" data-table="${id}" hidden></div>
+      <footer class="stats-card-foot">
+        ${entry.note ? `<p class="stats-note">${escape(entry.note)}</p>` : '<span></span>'}
+        <div class="stats-tools" role="group" aria-label="${escape(entry.title)}">
+          <button type="button" data-chart-act="png" title="${escape(t('charts.pngTitle'))}">${escape(t('charts.png'))}</button>
+          <button type="button" data-chart-act="csv" title="${escape(t('charts.csvTitle'))}">${escape(t('charts.csv'))}</button>
+          <button type="button" data-chart-act="table" aria-pressed="false" title="${escape(t('charts.tableTitle'))}">${escape(t('charts.table'))}</button>
+        </div>
+      </footer>
+    </article>`;
+  }
+
+  function renderChartsView() {
+    renderPressFigures();
+    if (!$('stats-dialog').open) { chartsDirty = true; return; }
+    chartsDirty = false;
+    const countries = STATS.byCountry(events, statsMonths);
+    $('stats-scope').innerHTML = `<option value="">${escape(t('charts.scopeAll'))}</option>`
+      + countries.map(row => `<option value="${escape(row.country)}">${escape(countryLabel(row.country))} (${format.number.format(row.total)})</option>`).join('');
+    $('stats-scope').value = chartsScope;
+    const records = scopedEvents();
+    $('stats-sub').textContent = t('charts.sub', {n: records.length, range: dateRange(STATS.keyFigures(records, cutoff).firstDate, cutoff)});
+    chartsRegistry = buildChartsRegistry();
+    chartsWidths = new Map();
+    $('stats-body').innerHTML = `
+      <section class="stats-numbers" aria-labelledby="stats-numbers-title">
+        <div class="stats-section-head">
+          <h3 id="stats-numbers-title">${escape(t('charts.numbersTitle'))}</h3>
+          <p>${escape(t('charts.numbersIntro'))}</p>
+        </div>
+        <div class="figure-grid">${figureTiles(records, chartsScope).map(tileHTML).join('')}</div>
+      </section>
+      <p class="stats-hint">${escape(t('charts.mapHint'))}</p>
+      <div class="stats-grid">
+        ${cardHTML('monthly', {wide: true})}
+        ${cardHTML('countries', {wide: true})}
+        ${cardHTML('outcomes')}
+        ${cardHTML('sources')}
+        ${cardHTML('ships', {wide: true})}
+        ${cardHTML('calendar', {wide: true})}
+        ${cardHTML('publishers', {wide: true})}
+        ${shareCardHTML()}
+      </div>
+      <p class="stats-foot">${escape(t('sidebar.foot'))} ${escape(t('press.creditLine'))} · ${escape(t('charts.dataTo', {date: longDate(cutoff)}))}</p>`;
+    drawCharts();
+    renderShareCard();
+  }
+
+  function drawCharts() {
+    for (const figure of $('stats-body').querySelectorAll('[data-figure]')) {
+      const id = figure.dataset.figure;
+      const width = Math.floor(figure.clientWidth);
+      if (!width || chartsWidths.get(id) === width) continue;
+      chartsWidths.set(id, width);
+      figure.innerHTML = CHARTS.toSVG(chartsRegistry[id].scene(width), chartsRegistry[id].take || chartsRegistry[id].title);
+    }
+  }
+
+  function chartTableHTML(id) {
+    const {headers, rows} = chartsRegistry[id].table();
+    const cell = value => typeof value === 'number' ? format.number.format(value) : escape(value);
+    return `<table><thead><tr>${headers.map(header => `<th scope="col">${escape(header)}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${row.map((value, i) => i ? `<td>${cell(value)}</td>` : `<th scope="row">${cell(value)}</th>`).join('')}</tr>`).join('')}</tbody></table>`;
+  }
+
+  function downloadBlob(blob, filename) {
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.append(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 5000);
+  }
+
+  const csvCell = value => {
+    const str = String(value ?? '');
+    const safe = /^[=+\-@\t\r]/.test(str) ? `'${str}` : str;
+    return `"${safe.replace(/"/g, '""')}"`;
+  };
+
+  async function chartAction(id, action, button) {
+    const entry = chartsRegistry[id];
+    const name = `droneincidents-eu-${id}-${scopeSlug()}-${cutoff}`;
+    if (action === 'table') {
+      const table = $('stats-body').querySelector(`[data-table="${id}"]`);
+      const open = table.hidden;
+      if (open) table.innerHTML = chartTableHTML(id);
+      table.hidden = !open;
+      button.setAttribute('aria-pressed', String(open));
+    } else if (action === 'csv') {
+      const {headers, rows} = entry.table();
+      downloadBlob(new Blob(['﻿', [headers, ...rows].map(row => row.map(csvCell).join(',')).join('\n')], {type: 'text/csv;charset=utf-8'}), `${name}.csv`);
+    } else if (action === 'png') {
+      button.disabled = true;
+      try {
+        const title = chartsScope ? `${entry.title} · ${countryLabel(chartsScope)}` : entry.title;
+        const canvas = await CHARTS.chartImage(entry.scene(1100), {
+          title, subtitle: entry.take, legend: entry.legend || [],
+          notes: [entry.note, t('sidebar.foot')].filter(Boolean),
+          credit: `${t('press.creditLine')} · ${t('charts.dataTo', {date: longDate(cutoff)})}`
+        });
+        const blob = await new Promise(resolve => canvas.toBlob(resolve, 'image/png'));
+        if (blob) downloadBlob(blob, `${name}.png`);
+      } finally {
+        button.disabled = false;
+      }
+    }
+  }
+
+  // Share cards: one number for a country and period, drawn on a canvas.
+  function shareCardHTML() {
+    const months = [...statsMonths].reverse();
+    return `<article class="stats-card wide share-card" data-share aria-labelledby="share-title">
+      <header class="stats-card-head">
+        <h3 id="share-title">${escape(t('charts.share.title'))}</h3>
+        <p class="stats-take">${escape(t('charts.share.intro'))}</p>
+      </header>
+      <div class="share-layout">
+        <div class="share-controls">
+          <label class="share-field"><span>${escape(t('charts.share.period'))}</span>
+            <select id="share-period">
+              <option value="year">${escape(t('charts.share.year', {year: dataYear}))}</option>
+              ${months.map(month => `<option value="${month}">${escape(capitalize(format.monthYear.format(monthDate(month))))}</option>`).join('')}
+            </select>
+          </label>
+          <div class="share-field" role="group" aria-labelledby="share-format-label">
+            <span id="share-format-label">${escape(t('charts.share.format'))}</span>
+            <div class="share-formats">
+              ${['square', 'story'].map(name => `<button type="button" data-share-format="${name}" aria-pressed="${shareFormat === name}">${escape(t(`charts.share.${name}`))}</button>`).join('')}
+            </div>
+          </div>
+          <button type="button" id="share-download" class="share-download">${escape(t('charts.share.download'))}</button>
+        </div>
+        <div class="share-preview" data-format="${shareFormat}"><canvas id="share-canvas" role="img"></canvas></div>
+      </div>
+    </article>`;
+  }
+
+  function shareCardModel() {
+    const period = $('share-period')?.value || 'year';
+    const records = scopedEvents();
+    const counted = period === 'year' ? records : records.filter(event => event.startDate.startsWith(period));
+    const countedIds = new Set(counted.map(event => event.id));
+    const n = counted.length;
+    let detail = period === 'year' ? dateRange(`${dataYear}-01-01`, cutoff) : dateRange(`${period}-01`, monthEndDate(period));
+    if (period !== 'year') {
+      const previous = STATS.previousMonth(period);
+      const partial = monthEndDate(period) === cutoff && Number(cutoff.slice(8)) < STATS.lastDayOf(period);
+      const before = records.filter(event => event.startDate.startsWith(previous) && (!partial || Number(event.startDate.slice(8)) <= Number(cutoff.slice(8)))).length;
+      if (before && statsMonths.includes(previous)) {
+        detail += ` · ${t(partial ? 'charts.share.vsSameDays' : 'charts.share.vsMonth', {delta: format.delta.format(n / before - 1), month: monthName(previous)})}`;
+      }
+    }
+    const impact = counted.filter(event => STATS.outcomeOf(event) === 'impact').length;
+    const positions = events.flatMap(event => event.positions);
+    const lats = positions.map(p => p.lat), lngs = positions.map(p => p.lng);
+    const periodLabel = period === 'year' ? dataYear : format.monthYear.format(monthDate(period));
+    return {
+      format: shareFormat,
+      brand: 'droneincidents.eu',
+      eyebrow: `${(chartsScope ? countryName(chartsScope) : t('charts.scopeAll'))} · ${periodLabel}`.toLocaleUpperCase(locale),
+      value: format.number.format(n),
+      label: t('charts.share.label', {n}),
+      detail,
+      months: STATS.monthly(records, statsMonths).map(item => ({
+        label: statsMonths.length > 12 ? format.monthNarrow.format(monthDate(item.month)) : shortMonth(item.month),
+        value: item.total, valueText: format.number.format(item.total),
+        highlight: period === 'year' || item.month === period
+      })),
+      breakdown: [
+        {label: t('revamp.outcomeImpact'), valueText: format.number.format(impact), color: null},
+        {label: t('revamp.outcomeQuiet'), valueText: format.number.format(n - impact), color: null}
+      ],
+      map: {
+        bounds: {minLat: Math.max(34, Math.min(...lats) - 1.2), maxLat: Math.min(66, Math.max(...lats) + 1.2),
+          minLng: Math.max(8, Math.min(...lngs) - 2), maxLng: Math.min(38, Math.max(...lngs) + 2)},
+        lines: GEO_LINES,
+        labels: COUNTRY_LABELS.map(label => ({...label, text: mapLabel(label)})),
+        points: events.flatMap(event => event.positions.map(position => ({lat: position.lat, lng: position.lng, hot: countedIds.has(event.id)})))
+      },
+      credit: t('press.creditLine'),
+      dataNote: t('charts.dataTo', {date: shortDateYear(cutoff)}),
+      honesty: t('sidebar.foot')
+    };
+  }
+
+  let shareDrawToken = 0;
+  async function renderShareCard() {
+    const canvas = $('share-canvas');
+    if (!canvas) return;
+    const token = ++shareDrawToken;
+    const model = shareCardModel();
+    const scratch = document.createElement('canvas');
+    await CHARTS.drawShareCard(scratch, model);
+    if (token !== shareDrawToken) return;
+    canvas.width = scratch.width;
+    canvas.height = scratch.height;
+    canvas.getContext('2d').drawImage(scratch, 0, 0);
+    canvas.setAttribute('aria-label', `${model.eyebrow}: ${model.value} ${model.label}. ${model.detail}`);
+    canvas.parentElement.dataset.format = model.format;
+  }
+
+  function showChartRecordsOnMap({day, month, country, event}) {
+    $('stats-dialog').close();
+    if (event) { selectEvent(event); return; }
+    closeDetail();
+    clearFilters();
+    const place = country || chartsScope;
+    if (place) selectedCountries = new Set([place]);
+    if (day) applyInterval(dayOf(day), dayOf(day), '');
+    else if (month) applyInterval(dayOf(`${month}-01`), dayOf(monthEndDate(month)), '');
+    else render();
+    if (window.innerWidth <= 860) setMobileView('map');
+  }
+
+  function openCharts() {
+    pause();
+    if (!$('stats-dialog').open) {
+      chartsHashBefore = location.hash === '#stats' ? '' : location.hash.slice(1);
+      $('stats-dialog').showModal();
+    }
+    setHash('stats');
+    renderChartsView();
+    $('stats-body').scrollTop = 0;
+  }
+
   function renderLegend() {
     const sharedLegendLabels = {shotdown: 'legend.shotdownEngaged', explosion: 'legend.strikeExplosion'};
     $('map-legend').innerHTML = Object.keys(colors)
@@ -2179,6 +2680,7 @@
     renderLegend();
     renderMonthLabels();
     renderAbout();
+    renderChartsView();
     renderMaritimeDialog();
     scheduleTopbarFit();
     renderTrend();
@@ -2469,6 +2971,85 @@
     });
   }
   $('press-clean-mode').addEventListener('click', () => setCleanMode(true));
+
+  // Charts & figures
+  $('press-charts').addEventListener('click', () => { $('press-dialog').close(); openCharts(); });
+  $('press-charts-link').addEventListener('click', () => { $('press-dialog').close(); openCharts(); });
+  $('trend-charts-link').addEventListener('click', () => { $('trend-dialog').close(); openCharts(); });
+  $('close-stats').addEventListener('click', () => $('stats-dialog').close());
+  $('stats-dialog').addEventListener('close', () => {
+    $('stats-tip').hidden = true;
+    if (location.hash === '#stats') setHash(chartsHashBefore);
+  });
+  $('stats-scope').addEventListener('change', event => {
+    chartsScope = event.target.value;
+    const scroll = $('stats-body').scrollTop;
+    renderChartsView();
+    $('stats-body').scrollTop = scroll;
+  });
+  new ResizeObserver(() => { if ($('stats-dialog').open) requestAnimationFrame(drawCharts); }).observe($('stats-body'));
+
+  // Copy a figure's sentence; falls back to selecting it.
+  async function copySentence(button) {
+    const sentence = button.closest('.figure-tile').querySelector('.figure-sentence');
+    try {
+      await navigator.clipboard.writeText(sentence.textContent);
+      button.textContent = t('press.copied');
+    } catch {
+      getSelection().selectAllChildren(sentence);
+      button.textContent = t('press.copyManual');
+    }
+    setTimeout(() => { button.textContent = t('charts.copySentence'); }, 2000);
+  }
+  $('press-figures').addEventListener('click', event => {
+    const button = event.target.closest('[data-copy-sentence]');
+    if (button) copySentence(button);
+  });
+  $('stats-body').addEventListener('click', event => {
+    const copy = event.target.closest('[data-copy-sentence]');
+    if (copy) { copySentence(copy); return; }
+    const tool = event.target.closest('[data-chart-act]');
+    if (tool) { chartAction(tool.closest('[data-chart]').dataset.chart, tool.dataset.chartAct, tool); return; }
+    const formatButton = event.target.closest('[data-share-format]');
+    if (formatButton) {
+      shareFormat = formatButton.dataset.shareFormat;
+      $('stats-body').querySelectorAll('[data-share-format]').forEach(button => button.setAttribute('aria-pressed', String(button === formatButton)));
+      renderShareCard();
+      return;
+    }
+    if (event.target.closest('#share-download')) {
+      const canvas = $('share-canvas');
+      canvas.toBlob(blob => blob && downloadBlob(blob, `droneincidents-eu-${scopeSlug()}-${$('share-period').value === 'year' ? dataYear : $('share-period').value}-${shareFormat}.png`), 'image/png');
+      return;
+    }
+    const target = event.target.closest('.hit');
+    if (target && (target.dataset.day || target.dataset.month || target.dataset.event)) {
+      showChartRecordsOnMap({day: target.dataset.day, month: target.dataset.month, country: target.dataset.country, event: target.dataset.event});
+    }
+  });
+  $('stats-body').addEventListener('change', event => {
+    if (event.target.id === 'share-period') renderShareCard();
+  });
+  // One tooltip for every chart mark; tables carry the same values.
+  const statsTip = $('stats-tip');
+  function moveStatsTip(event) {
+    const box = statsTip.getBoundingClientRect();
+    const x = Math.min(window.innerWidth - box.width - 8, Math.max(8, event.clientX - box.width / 2));
+    const y = event.clientY - box.height - 14 < 8 ? event.clientY + 18 : event.clientY - box.height - 14;
+    statsTip.style.transform = `translate(${Math.round(x)}px, ${Math.round(y)}px)`;
+  }
+  $('stats-body').addEventListener('pointerover', event => {
+    const target = event.target.closest('[data-tip]');
+    if (!target) return;
+    statsTip.textContent = target.dataset.tip;
+    statsTip.hidden = false;
+    moveStatsTip(event);
+  });
+  $('stats-body').addEventListener('pointermove', event => { if (!statsTip.hidden) moveStatsTip(event); });
+  $('stats-body').addEventListener('pointerout', event => {
+    if (event.target.closest('[data-tip]') && !event.relatedTarget?.closest?.('[data-tip]')) statsTip.hidden = true;
+  });
+  $('stats-body').addEventListener('scroll', () => { statsTip.hidden = true; }, {passive: true});
   $('exit-clean-mode').addEventListener('click', () => setCleanMode(false));
   $('sidebar-scope-btn').addEventListener('click', () => { pause(); $('about-dialog').showModal(); });
   $('close-about').addEventListener('click', () => $('about-dialog').close());
@@ -2551,12 +3132,14 @@
   const linkedEvent = eventFromHash(), linkedArea = areaFromHash();
   if (linkedEvent) selectEvent(linkedEvent.id);
   else if (linkedArea) openArea(linkedArea);
+  else if (location.hash === '#stats') openCharts();
   else setRecordHash(null);
 
   window.addEventListener('hashchange', () => {
     const event = eventFromHash(), area = areaFromHash();
     if (event && event.id !== selectedId) selectEvent(event.id);
     else if (area) openArea(area);
+    else if (location.hash === '#stats') openCharts();
     else if (!event && !$('detail').hidden) closeDetail();
   });
 

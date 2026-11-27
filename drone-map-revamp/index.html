@@ -12,7 +12,7 @@
   <meta property="og:title" content="Europe Foreign Drone Events · 2026">
   <meta property="og:description" content="Interactive map and latest incident briefings of drones that reached EU countries from abroad in 2026, with TL;DR summaries, sources, and custom interval video export.">
   <meta property="og:url" content="https://droneincidents.eu/">
-  <meta property="og:image" content="https://droneincidents.eu/og-image.png?v=439ef449c34ea302">
+  <meta property="og:image" content="https://droneincidents.eu/og-image.png?v=e36346e6c99820bd">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -40,15 +40,17 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Manrope:wght@500;600;700;800&display=swap">
   <link rel="stylesheet" href="vendor/leaflet.css?v=a783710282418482">
-  <link rel="stylesheet" href="styles.css?v=e2dfc4d88493ce48">
+  <link rel="stylesheet" href="styles.css?v=8b94dcaf45fe0c83">
   <script defer src="vendor/leaflet.js?v=db49d009c841f5ca"></script>
   <script defer src="landmark.js?v=3b28066123468c28"></script>
   <script defer src="asset-loader.js?v=fe87e7c8436b2ecc"></script>
   <script defer src="trend-data.js?v=0bfa97d9cfa5c0c8"></script>
-  <script defer src="i18n/en.js?v=795020826749a8df"></script>
+  <script defer src="i18n/en.js?v=8932bfcde6d679cb"></script>
   <script defer src="geo-outline.js?v=7a797e7d85757752"></script>
+  <script defer src="stats.js?v=2f5c518b0fe8fc07"></script>
+  <script defer src="charts.js?v=f8b9de8fd69cf6ba"></script>
   <script defer src="replay-data.js?v=0166423b9c3fb68c"></script>
-  <script defer src="app.js?v=0c6c60d2f4b94a3f"></script>
+  <script defer src="app.js?v=a7fc18ea540faa86"></script>
   <script defer src="analytics.js?v=5c514d0cea945c53"></script>
 </head>
 <body>
@@ -412,6 +414,7 @@
     <h3 data-i18n="about.trendTitle">Reading the trend</h3>
     <p data-i18n="trend.blocksNote"></p>
     <p data-i18n="about.trend"></p>
+    <button type="button" id="trend-charts-link" class="charts-link" data-i18n="charts.allLink">All charts &amp; figures →</button>
   </dialog>
 
   <!-- About the Data & Scope Dialog -->
@@ -455,8 +458,20 @@
       <code id="press-credit-text">Source: droneincidents.eu</code>
       <button type="button" id="copy-credit" class="press-copy" data-i18n="press.copy">Copy</button>
     </div>
+    <section class="press-numbers" aria-labelledby="press-numbers-title">
+      <div class="press-numbers-head">
+        <h3 id="press-numbers-title" data-i18n="charts.numbersTitle">By the numbers</h3>
+        <button type="button" id="press-charts-link" class="charts-link" data-i18n="charts.allLink">All charts &amp; figures →</button>
+      </div>
+      <p class="press-numbers-intro" data-i18n="charts.numbersIntro">Each figure comes with a sentence you can quote as it is. It already names the source.</p>
+      <div id="press-figures" class="figure-grid compact"></div>
+    </section>
     <h3 data-i18n="press.imagesTitle">Images, video and data</h3>
     <div class="press-actions">
+      <button type="button" id="press-charts" class="press-action featured">
+        <strong data-i18n="charts.open">Charts &amp; figures</strong>
+        <span data-i18n="charts.openBody">Every chart with a one-line takeaway, a table, PNG and CSV downloads, and share cards in your language.</span>
+      </button>
       <button type="button" id="press-clean-mode" class="press-action">
         <strong data-i18n="press.cleanTitle">Clean screenshot mode</strong>
         <span data-i18n="press.cleanBody">Hides the controls, leaving the map, legend and credit. Press Esc to return.</span>
@@ -485,6 +500,26 @@
       <li data-i18n="press.noteCounts">This is a research register, not a count of confirmed attacks. Please keep words such as “reported” and “suspected” as they appear.</li>
     </ul>
     <p id="press-project" class="press-project"></p>
+  </dialog>
+
+  <!-- Charts & figures: drawn by charts.js from the same records as the map -->
+  <dialog id="stats-dialog" class="stats-dialog" aria-labelledby="stats-title">
+    <div class="stats-shell">
+      <header class="stats-head">
+        <div class="stats-heading">
+          <p class="eyebrow" data-i18n="charts.eyebrow">CHARTS &amp; FIGURES</p>
+          <h2 id="stats-title" data-i18n="charts.title">The register in numbers</h2>
+          <p id="stats-sub" class="stats-sub"></p>
+        </div>
+        <label class="stats-scope">
+          <span data-i18n="charts.scope">Country</span>
+          <select id="stats-scope"></select>
+        </label>
+        <button id="close-stats" class="stats-close" type="button" aria-label="Close charts and figures" data-i18n-aria="charts.close">×</button>
+      </header>
+      <div id="stats-body" class="stats-body"></div>
+    </div>
+    <div id="stats-tip" class="stats-tip" aria-hidden="true" hidden></div>
   </dialog>
 
   <!-- Shown only in clean screenshot mode -->

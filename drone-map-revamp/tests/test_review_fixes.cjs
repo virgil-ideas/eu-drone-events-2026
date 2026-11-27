@@ -114,7 +114,7 @@ test('localization preserves News mode and the active recording action', () => {
     applyStaticText(){ $('list-title').textContent='Incidents';$('record-video-label').textContent='Record Video'; }};
   for (const name of ['populateFilterDropdowns','renderLegend','renderMonthLabels','renderAbout','renderMaritimeDialog',
     'renderTrend','renderCumulative','labelMarkers','labelAreas','updatePlayButton','updateSoundButton','render',
-    'renderNewsList','syncMobileTabs','labelMonthPresets','scheduleTopbarFit']) context[name]=()=>{};
+    'renderNewsList','syncMobileTabs','labelMonthPresets','scheduleTopbarFit','renderChartsView']) context[name]=()=>{};
   vm.createContext(context);
   vm.runInContext(section('  function localize()', '  async function changeLanguage')
     + section('  function setFeedMode', "  $('tab-incidents').addEventListener")+'localize();',context);
