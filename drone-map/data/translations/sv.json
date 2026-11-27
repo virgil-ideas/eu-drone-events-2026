@@ -117,14 +117,14 @@
     "basis": "086d0bcd117f6781"
   },
   "E013": {
-    "headline": "Drönarfragment med sprängladdning oskadliggjorda nära Luncavița i Rumänien",
-    "description": "Den 26 april 2026 hittades drönarfragment med en sprängladdning mellan Luncavița och Văcăreni i Rumänien och förstördes. Deras ursprung utreds.",
+    "headline": "Drönarfragment med sprängladdning förstörda nära Luncavița i Rumänien",
+    "description": "Drönarfragment som hittades nära Luncavița den 26 april 2026 identifierades senare av Rumäniens försvarsministerium som en del av en Geran-2-händelse som tillskrivs Ryssland.",
     "summary": [
       "Den 26 april 2026 rapporterades ytterligare drönarfragment mellan Luncavița och Văcăreni i distriktet Tulcea i Rumänien, en dag efter att fragment hittats nära en gård i Văcăreni. En sprängladdning bekräftades finnas bland materialet, och en RO-Alert-säkerhetsvarning utfärdades.",
-      "Fragmentens proveniens utreds, och en utredning av åklagare vid appellationsdomstolen i Constanța rapporterades. När drönaren flög eller föll ned är okänt. Fragmenten är inte bekräftade som en andra hel drönare, och det har inte fastställts om de och föregående dags fynd härrör från en eller flera farkoster.",
+      "I ett uttalande den 31 maj tog MApN i efterhand upp Luncavița den 26 april bland tidigare Geran-2-händelser som tillskrivs Ryssland. Detta uppdaterar den inledningsvis olösta frågan om proveniens, men fastställer inte när drönaren flög eller föll ned, dess färdväg eller dess avsedda mål. Fragmenten är inte bekräftade som en andra hel drönare, och om de härrör från samma farkost som föregående dags fynd är fortfarande olöst.",
       "Pyrotekniker från SRI och specialister från Rumäniens försvarsministerium (MApN) bedömde materialet, som därefter förstördes genom en kontrollerad sprängning på plats med åklagarens bemyndigande. Inga offer rapporterades."
     ],
-    "basis": "88e415a73fd8096d"
+    "basis": "b590e35104316219"
   },
   "E014": {
     "headline": "Drönare av okänt ursprung hittad nära Șerbăuți i distriktet Suceava i Rumänien",
@@ -171,9 +171,9 @@
     "summary": [
       "Den 15 maj 2026 utlöste misstänkt drönaraktivitet i huvudstadsregionen Helsingfors i Finland omfattande skyddsåtgärder. Invånare uppmanades att hålla sig inomhus, verksamheten på flygplatsen stoppades och stridsflygplan skickades upp. Hur många drönare som var inblandade, och av vilken typ, har inte klarlagts.",
       "Utländskt ursprung har inte bevisats, och eventuella drönares färdväg är okänd. Finska myndigheter bedömde hotet, och deras uttalande vid den tidpunkten bekräftade inte något direkt militärt hot. Händelsen var ett larm och en störning, inte ett bekräftat angrepp.",
-      "Ingen fysisk skada rapporterades."
+      "Ingen fysisk skada rapporterades. Flygplatsoperatören Finavia bekräftar att flygtrafiken stoppades mellan klockan 04:00 och 07:00 lokal tid och därefter återupptogs, med förseningar och inställda flygningar den dagen. Operatören anger inget totalt antal inställda flygningar och identifierar ingen drönare."
     ],
-    "basis": "8dcd29f016872e0a"
+    "basis": "22793f6506f0bdbc"
   },
   "E019": {
     "headline": "Vrakdelar av misstänkt ukrainsk drönare hittade nära Utena i Litauen",
@@ -255,14 +255,14 @@
     "basis": "a18eddeece7bbecb"
   },
   "E027": {
-    "headline": "Hemgjord smugglingsdrönare tvingas ned nära gränsen till Belarus i Litauen",
-    "description": "Den 23 maj 2026 tvingades en hemgjord fraktdrönare som uppgavs ha kommit från Belarus ned och beslagtogs i Dumblė i distriktet Šalčininkai i Litauen, i ett smugglingsärende.",
+    "headline": "Smugglingsdrönare bärgad utan last nära Dumblė",
+    "description": "Litauiska gränsvakter uppger att den hemgjorda drönare som föll ned nära Dumblė den 23 maj 2026 inte bar någon last och skadades svårt vid nedslaget.",
     "summary": [
-      "Den 23 maj 2026 tvingades en hemgjord fraktdrönare med smugglade varor enligt uppgift ned i Dumblė, i Litauens distrikt Šalčininkai vid gränsen till Belarus. Gränsbevakningstjänstemän avfångade drönaren och beslagtog den.",
-      "Drönaren uppgavs ha kommit från Belarus. Det var en kriminell smugglingsflygning, inte en militär, och operatören har inte identifierats. Uppgifter om lasten och om själva drönaren fanns inte tillgängliga.",
-      "Ingen sprängladdning och inga offer rapporterades. Rapporterna beskriver en tvångslandning och ett beslag, inte en nedskjutning eller en nedstörtning."
+      "Den 23 maj 2026 föll en hemgjord drönare, som enligt Litauens statliga gränsbevakning (VSAT) hade kommit in från Belarus, ned nära Dumblė i distriktet Šalčininkai efter att gränsvakter ingripit.",
+      "När tjänstemännen bärgade farkosten var den svårt skadad och saknade last. VSAT:s ursprungliga meddelande korrigerar den tidigare beskrivningen av en lastad drönare.",
+      "VSAT beskrev farkosten som tillhörande smugglare. Operatören är inte känd. Inga offer och ingen kinetisk nedskjutning rapporterades."
     ],
-    "basis": "e9db67cdbd535522"
+    "basis": "9db105cbb575f730"
   },
   "E028": {
     "headline": "Rumänien: rysk drönare träffade flerbostadshus i Galați, två skadade",
@@ -270,9 +270,10 @@
     "summary": [
       "Under natten den 29 maj 2026 träffade en drönare taket på ett flerbostadshus i stadsdelen Mazepa i Galați i Rumänien och orsakade en brand. Två personer fick lindriga skador, invånare evakuerades och bostäder skadades. Tjänstemän uppskattade att drönaren bar minst 30 kg sprängämnen.",
       "På grundval av en officiell radar- och spillrebedömning identifierade rumänska myndigheter den som en rysk Geran-2-drönare. Den förknippades med en bredare våg av 43 drönare i angrepp mot Ukraina och gjorde en kort flygning över Rumänien före nedslaget. Moskva bestred tillskrivningen. Rumänien beskrev inte angreppet som ett avsiktligt angrepp riktat mot Rumänien.",
-      "Två rumänska F-16-plan och en helikopter skickades upp men ingrep inte över staden, och platsen undersöktes. Rysslands konsul utvisades och konsulatet stängdes som svar. Händelsen är skild från en drönarnedstörtning i Galați den 25 april 2026."
+      "Två rumänska F-16-plan och en helikopter skickades upp men ingrep inte över staden, och platsen undersöktes. Rysslands konsul utvisades och konsulatet stängdes som svar. Händelsen är skild från en drönarnedstörtning i Galați den 25 april 2026.",
+      "I sitt brev till FN:s säkerhetsråd den 29 maj rapporterade Rumänien radarspårning in över södra Galați, ett nedslag på ett bostadstak, brand, två skadade och evakuering. Brevet tillskriver drönaren Ryssland utan att identifiera modellen eller nyttolastens vikt."
     ],
-    "basis": "867f5d0e86da38f7"
+    "basis": "839ef0ac20cfdff4"
   },
   "E029": {
     "headline": "Misstänkt drönaraktivitet utlöser larm vid gränserna mot Lettland och Estland",
@@ -299,10 +300,10 @@
     "description": "Den 8 juni 2026 sköt ett franskt NATO-stridsflygplan ned en drönare i lettiskt luftrum nära Bērzgale i Lettland. Dess nationalitet och modell identifierades inte slutgiltigt.",
     "summary": [
       "Den 8 juni 2026 flög en drönare (UAV) in i lettiskt luftrum och avfångades i området Bērzgale i Lettland. Ett franskt stridsflygplan som opererade med NATO sköt därefter ned den.",
-      "Drönarens nationalitet och modell identifierades inte slutgiltigt i samtida redogörelser för händelsen. Den behandlas som en utländsk drönare, men dess ursprung har inte fastställts; dess färdväg angavs inte, och vad den eventuellt bar på är fortfarande okänt.",
+      "En talesperson för den lettiska militären sade till Reuters att drönaren kom in från Ryssland, enligt Euronews. Dess exakta färdväg och startplats fastställdes inte. Den rapporterade inflygningsriktningen identifierar inte dess operatör eller nationalitet; dess modell, nyttolast och avsedda mål förblev olösta i de granskade redogörelserna.",
       "Inga offer rapporterades i Lettland. Efter nedskjutningen följde en sökning efter vrakdelarna och en undersökning av spillrorna."
     ],
-    "basis": "74bcaba3125d8355"
+    "basis": "c7ae1c343f0f6430"
   },
   "E032": {
     "headline": "Rumänien förstör drönarfragment nära Rachelu som landet identifierade som ryska",
@@ -315,14 +316,15 @@
     "basis": "a2522d4f06337eee"
   },
   "E033": {
-    "headline": "Besättning på LPG-fartyg rapporterar drönarangrepp utanför Sfântu Gheorghe i Rumänien",
-    "description": "Den 21 juli 2026 skadade explosioner ett LPG-fartyg i Svarta havet utanför Sfântu Gheorghe i Rumänien svårt. Besättningen beskrev tre drönare; en drönarorsak är obekräftad.",
+    "headline": "Brand på GAS LISBON utanför Rumänien: en sjöman dog; drönarorsak obekräftad",
+    "description": "Alla 17 evakuerades från GAS LISBON utanför Rumänien den 21 juli. En av tre skadade dog två dagar senare. En drönarorsak är fortfarande obekräftad.",
     "summary": [
-      "Under natten och morgonen den 21 juli 2026 skadade explosioner ett handelsfartyg lastat med LPG i Svarta havet svårt, omkring 26 km utanför Sfântu Gheorghe i Rumänien, och fartyget fattade eld. Positionen uppgavs ligga utanför Rumäniens territorialvatten.",
+      "Det Liberiaflaggade LPG-tankfartyget GAS LISBON drabbades av en explosion och brand utanför Sfântu Gheorghe i Rumäniens EEZ, utanför landets territorialvatten. Sjöfartsmyndigheten loggade nödlarmet klockan 00:05 lokal tid den 21 juli, vilket inte är den verifierade tidpunkten för explosionen.",
       "Två besättningsmedlemmar beskrev ett nattligt angrepp av tre drönare. Deras redogörelse behandlas som en anklagelse, inte som en slutgiltig identifiering av vapnet: drönartypen, de anordningar och laddningar som användes, startplatsen och operatören eller nationaliteten har inte identifierats, och en drönarorsak har inte bekräftats.",
-      "Rumänska sjöräddningstjänster ingrep och förde besättningen i säkerhet. Skador rapporterades, bland annat brännskador. Händelsen är skild från ett nödläge för ett bulkfartyg utanför samma kust den 24 juli och från Progress IV-incidenten i augusti."
+      "Detta är skilt från nödläget för bulkfartyget den 24 juli och från PROGRESS IV-haveriet i augusti.",
+      "Alla 17 i besättningen evakuerades. Tre skadades; en av dessa tre dog den 23 juli på sjukhuset i Tulcea, sade Rumäniens hälsoministerium till AGERPRES. Rapportering från den filippinska regeringen styrkte dödsfallet och att de två andra skadade sjömännen hade återvänt hem. Utfallet i fråga om offer fastställer inte någon drönarorsak."
     ],
-    "basis": "6f6ef8fc3dd8a8e7"
+    "basis": "5b25f8a67d378d86"
   },
   "E034": {
     "headline": "Bulkfartyget Christina B skadat utanför Rumänien; mina eller drönare olöst",
@@ -384,14 +386,13 @@
     "basis": "ea7f019b9a1f4ed6"
   },
   "E040": {
-    "headline": "Tyskland kopplar drönare vid Leipzigs flygplats till personer som agerade för ryska organ",
-    "description": "Den 4–5 augusti 2026 misslyckades laddningen på en sprängladdad drönare vid Leipzig/Halle flygplats i Tyskland. Tyskland pekade ut personer som agerade för ryska organ; Ryssland förnekade det.",
+    "headline": "Drönarflygning: Leipzig/Halle flygplats, Tyskland",
+    "description": "4 augusti 2026, Leipzig/Halle flygplats, Tyskland. Kluster av angrepp med sprängladdade drönare; officiell statlig tillskrivning. Sprängladdad drönare nådde flygplatsen men laddningen fungerade inte.…",
     "summary": [
-      "Under natten mellan den 4 och 5 augusti 2026 nådde en drönare med professionella sprängämnen och en detonator Leipzig/Halle flygplats i Schkeuditz i Tyskland, men laddningen misslyckades. Flygplatsen stördes. Separat rapporterade ett fraktflygplan att det hade stött på ett föremål i en misstänkt kollision och omdirigerades till Hannover; lindrig skada på flygplanet rapporterades, men föremålet identifierades inte slutgiltigt som en drönare. Den 14 augusti hittades ytterligare en misstänkt attackdrönare nära Kabelsketal; fyndet rapporterades den 25 augusti, och föremålet förknippades enligt uppgift med omkring 50 g misstänkt RDX.",
-      "Den 1 september hänförde Tyskland operationen till personer som agerade för ryska statliga organ. Ryssland förnekade ansvar. Tillskrivningen har inte åtföljts av ett offentliggörande av all underliggande kriminalteknisk bevisning och underrättelsebevisning, och startplatsen har inte fastställts.",
-      "Inga offer rapporterades. Polis, bombröjningsteam med robot och federala åklagare utredde, den ytterligare anordningen beslagtogs och diplomatiska åtgärder följde senare."
+      "Sprängladdad drönare nådde flygplatsen men laddningen fungerade inte. Ett fraktflygplan rapporterade separat ett möte med ett föremål och omdirigerades. Ytterligare en misstänkt attackdrönare bärgad nära Kabelsketal.",
+      "Kluster av angrepp med sprängladdade drönare; officiell statlig tillskrivning. Tyskland tillskrev den 1 september operationen personer som agerade för ryska statliga organ; Ryssland förnekade ansvar. Den officiella tyska tillskrivningen registreras som en tillskrivning, inte som ett offentliggörande av all underliggande kriminalteknisk bevisning och underrättelsebevisning. Det ryska förnekandet behålls. Novemberfynden om startplats och utrustning är fortfarande utredningsmässiga bedömningar, inte bevis för någon enskild persons skuld."
     ],
-    "basis": "fd5d244bb50c3706"
+    "basis": "cc6d63474657af35"
   },
   "E041": {
     "headline": "Två drönare observerade över militäranläggning i västra Tyskland",
@@ -455,13 +456,14 @@
   },
   "E047": {
     "headline": "Rumänskt F-16 öppnar eld mot sprängladdad marin drönare nära Neptun Deeps arbetsområde",
-    "description": "Den 20 augusti 2026 skadade ett rumänskt F-16 en sprängladdad havsdrönare nära Neptun Deep, i Rumäniens EEZ, innan marinen oskadliggjorde den. Dess ursprung är olöst.",
+    "description": "Rumänien oskadliggjorde en sprängladdad havsdrönare nära Neptun Deep den 20 augusti. Landets president tillskrev den senare Rysslands marin.",
     "summary": [
-      "Den 20 augusti 2026 upptäcktes ett obemannat ytfartyg, eller en havsdrönare, med sprängämnen några hundra meter från Neptun Deeps arbeten till havs, ungefär 80 sjömil öster om Constanța i Rumäniens exklusiva ekonomiska zon. Om den närmade sig eller drev mot arbetsområdet, och vad den var avsedd att göra, är olöst.",
+      "Den 20 augusti 2026 upptäcktes ett obemannat ytfartyg, eller en havsdrönare, med sprängämnen några hundra meter från Neptun Deeps arbeten till havs, ungefär 80 sjömil öster om Constanța i Rumäniens exklusiva ekonomiska zon.",
       "Ett rumänskt F-16 sköt mot den med sin kanon och skadade men förstörde den inte helt, och ett ammunitionsröjningsteam från marinen oskadliggjorde den därefter. Officiell rapportering bekräftade en sprängladdning av ospecificerad storlek. Försvarsministeriet beskrev först två drönare och korrigerade därefter detta till en. Inga offer eller skador på infrastrukturen rapporterades.",
-      "Drönarens startplats och operatör är okända. Rumäniens försvarsminister sade att Ukraina hade bekräftat att den inte var ukrainsk; det uttalandet fastställer inte vem som satte ut den. Fallet är skilt från den flygdrönare som störtade nära Grindu samma dag."
+      "Den 23 september sade president Nicușor Dan till FN:s säkerhetsråd att drönaren den 20 augusti var en drönare från den ryska marinen. Han redovisade inte bevisen bakom tillskrivningen. Startplatsen och det avsedda målet är fortfarande overifierade. Fallet är skilt från den flygdrönare som störtade nära Grindu samma dag.",
+      "I en retrospektiv redogörelse som SpotMedia publicerade den 24 november beskrev förre försvarsministern Radu Miruță hur arbetare filmade drönaren nära plattformens stöd och hur en bogserbåt försökte hålla den borta. Han rapporterade också att han fått ett ryskt meddelande om flygrestriktioner efter att ha beordrat insatsen med stridsflygplan. Det ursprungliga meddelandet granskades inte oberoende; dessa uppgifter uppdaterar händelsen i augusti och utgör ingen ny händelse."
     ],
-    "basis": "d752991b133cd913"
+    "basis": "d09904239858514b"
   },
   "E048": {
     "headline": "Marinen förstör sprängladdade drönarrester som hittats på stranden i Tuzla i Rumänien",
@@ -519,9 +521,10 @@
     "summary": [
       "Den 27 augusti 2026 fattade handelsfartyget Progress IV eld och sjönk i Svarta havet, omkring 15–20 sjömil utanför Sfântu Gheorghe i Rumäniens exklusiva ekonomiska zon. Ett nödanrop kom omkring klockan 17:55 lokal tid, och alla 12 besättningsmedlemmar hade räddats klockan 20:47.",
       "Ett nedslag på fartyget hävdades, och myndigheterna sade att orsaken krävde utredning. Ett drönarangrepp förblev en hypotes: ingen drönare eller annat vapen har identifierats, och ingen explosion eller något drönarangrepp har fastställts. Fartygets flagga uppgavs vara Dominikanska republiken, medan en källa inom sjöfartsbranschen angav Dominica.",
-      "En besättningsmedlem skadades, enligt uppgift med en bruten arm; tidigare beskrivningar av en allvarlig skada stöds inte av senare redogörelser. Sjöräddningscentralen (MRCC) samordnade ett handelsfartyg, gränspolisen och räddningsfartyg."
+      "En besättningsmedlem skadades, enligt uppgift med en bruten arm; tidigare beskrivningar av en allvarlig skada stöds inte av senare redogörelser. Sjöräddningscentralen (MRCC) samordnade ett handelsfartyg, gränspolisen och räddningsfartyg.",
+      "Den 24 november rapporterade Libertatea att Rumäniens sjöhydrografiska direktorat bedömde att fartyget hade träffats av en drönare. Direktoratets publicerade navigationsmeddelanden fastställer vraket och rapporterar faror men anger ingen orsak. Inget kriminaltekniskt fynd, vapen eller operatör är fastställt."
     ],
-    "basis": "f4b55e178bf70b3a"
+    "basis": "7df77fa9b948d455"
   },
   "E054": {
     "headline": "Herde hittar sprängladdad drönare nära Viișoara i Rumänien; ursprunget omstritt",
@@ -534,14 +537,14 @@
     "basis": "cfac143f34b000e0"
   },
   "E055": {
-    "headline": "Kartläggningsdrönare av okänt ursprung bärgad på Finlands sydkust",
-    "description": "Den 2 september 2026 bärgades en kartläggningsdrönare av okänt ursprung på den södra finska kusten. En möjlig territorialkränkning utreddes.",
+    "headline": "Drönare hittad i Pellinki den 1 september bedöms sannolikt vara av ryskt ursprung",
+    "description": "En drönare som hittades i Pellinki den 1 september bedömdes sannolikt vara av ryskt ursprung. Utredarna sade att den föll i havet utanför Finland; undersökningarna fortsatte.",
     "summary": [
-      "Den 2 september 2026 bärgade myndigheterna en mätnings- eller kartläggningsdrönare (UAV) på Finlands sydkust. Den exakta platsen angavs inte i den citerade rapporten. Datumet är bärgningsdatumet; när drönaren flög, och längs vilken väg, är okänt.",
-      "Drönarens ursprung och operatör är okända. Det har inte fastställts att den kom från utlandet, och den antas inte vara en utländsk militärdrönare.",
-      "Drönaren beskrevs som ofarlig, utan någon identifierad farlig nyttolast, och inga skador eller offer rapporterades. Myndigheterna utredde om flygningen utgjorde en territorialkränkning."
+      "En privatperson hittade en UAV bland strandklipporna i Pellinki den 1 september 2026; en patrull från gränsbevakningen bekräftade fyndet. Registrets tidigare datum, den 2 september, var datumet för det första offentliggörandet. Den publicerade sidadressen behålls.",
+      "Den 10 september sade gränsbevakningen att data från anordningen tydde på ett luftfartyg av sannolikt ryskt ursprung som förlorade kontrollen och fick slut på bränsle innan det föll i havet utanför Finland. Slutsatsen var preliminär och utredningen fortsatte.",
+      "Detta är fortsatt en enda bärgning, inte ett fastställt luftintrång eller en fastställd nedstörtning i Finland. Operatören och det ursprungliga syftet är fortfarande olösta. Kartpunkten är en ungefärlig förankringspunkt i skärgården."
     ],
-    "basis": "30e03e74f6707d09"
+    "basis": "de38e633c3a7e190"
   },
   "E056": {
     "headline": "Jetdrönare som uppges vara rysk flyger in i nordöstra Rumänien från Moldavien",
@@ -554,14 +557,14 @@
     "basis": "7b1f8e2c4bb81edb"
   },
   "E057": {
-    "headline": "Misstänkt rysk militärdrönare bärgad utanför stranden i Rusinowo i Polen",
-    "description": "Den 14 september 2026 drog Polens militär upp en drönare ur havet utanför stranden i Rusinowo; försvarsministerns preliminära bedömning är att den är rysk.",
+    "headline": "Drönare bärgad på stranden i Rusinowo; stridsspetsen oskadliggjord på ett säkert sätt",
+    "description": "En drönare spolades i land nära Rusinowo den 14 september. Åklagare identifierade preliminärt en ryskttillverkad Gerbera och beskrev ett kontrollerat oskadliggörande av stridsspetsen.",
     "summary": [
-      "Den 14 september 2026 lokaliserade den polska militären en misstänkt militärdrönare i Östersjön strax utanför stranden i Rusinowo, nära Jarosławiec på Polens kust, och drog upp den ur vattnet för undersökning. Datumet är det för fyndet och bärgningen; när drönaren flög, och längs vilken väg den nådde den polska kusten, är inte känt.",
-      "Polens försvarsminister sade att den preliminära bedömningen var att det var en rysk militärdrönare. Den identifieringen är preliminär och beror på undersökningen av den bärgade drönaren. Ingen nyttolast rapporterades.",
-      "Inga offer eller skador rapporterades i samband med fyndet."
+      "En marinbesättning observerade en UAV som drev nära Jarosławiec omkring klockan 09:20 den 14 september; den spolades i land nära Rusinowo omkring klockan 11:25, enligt ett uttalande från åklagaren i Poznań den 1 oktober. Detta är en enda händelse med bärgning och oskadliggörande, inte ytterligare en händelse på datumet för den uppföljande publiceringen.",
+      "Specialister separerade en stridsspets med en potentiell sprängladdning och förstörde den genom en kontrollerad sprängning. Utredarna identifierade preliminärt en ryskttillverkad Gerbera. Operatören, målet, färdvägen och omständigheterna kring nedslaget i havet är fortfarande olösta; tillverkningen fastställer inte operatör eller avsikt.",
+      "Utredningen överfördes till Poznań den 25 september och specialistundersökningar beordrades. Inga offer eller skador rapporterades."
     ],
-    "basis": "5071f4361b5692d3"
+    "basis": "4c37729989b9a2c5"
   },
   "E058": {
     "headline": "Italienskt NATO-stridsflygplan skjuter ned Gerbera-drönare nära Pratkūnai i Litauen",
@@ -569,9 +572,9 @@
     "summary": [
       "Under natten mellan den 14 och 15 september 2026 bekämpade och sköt ett italienskt stridsflygplan som opererade med NATO ned en drönare över Litauen nära Pratkūnai. Litauiska myndigheter undersökte därefter spillrorna och drönarens elektronik. Inga offer rapporterades.",
       "Drönaren identifierades som en Gerbera, en typ som används av Ryssland. Den 16 september bedömde Litauens president att den sannolikt hade varit avsedd för ett ukrainskt mål. En möjlig avledning genom ukrainsk elektronisk krigföring har framförts för att förklara hur den kom till Litauen, men den orsaksförklaringen är en bedömning. Varken identifieringen av en rysk typ eller bedömningen av det avsedda målet är bevis för ett avsiktligt angrepp mot Litauen.",
-      "Huruvida just den här drönaren bar sprängämnen fastställdes inte; Gerbera-varianter kan vara lockdrönare eller beväpnade."
+      "Litauens försvarsminister Robertas Kaunas sade att drönaren bar en sprängladdning, rapporterade Reuters den 15 september. Detta är ett tillskrivet officiellt uttalande; oberoende kriminaltekniska fynd och den exakta sprängämnesmängden granskades inte. Det fastställer inte ett avsiktligt angrepp mot Litauen."
     ],
-    "basis": "fce04ead6c652cda"
+    "basis": "2f29e9a25cf1baa8"
   },
   "E059": {
     "headline": "Rumänien: rysk drönares nyttolast detonerade i luften före nedstörtningen vid Solca",
@@ -1196,9 +1199,10 @@
     "summary": [
       "Den 5 oktober 2026 skadades spannmålsfartyget Royad Mammadov, på väg från Izmail i Ukraina till Ravenna i Italien, av ett rapporterat drönarangrepp, en explosion ombord och brand i Svarta havet nära plattformen Pescăruș, omkring 30 sjömil söder om Sfântu Gheorghe. Platsen låg i Rumäniens exklusiva ekonomiska zon (EEZ), utanför dess territorialvatten. En begäran om räddning loggades klockan 10:37 lokal tid; den exakta tidpunkten för angreppet är inte verifierad.",
       "Ukrainas president Volodymyr Zelenskyj sade att två ryska drönare träffade fartyget. Det är ett ukrainskt påstående, inte oberoende verifiering, och Rumänien har inte offentliggjort något tillskrivningsresultat. Marius Roibu, chef för sjöräddningscentralen MRCC Constanța, beskrev ett uppenbart angrepp med flera drönare; drönarnas typ, startplats och operatörer är ofastställda.",
-      "Uppgifterna om offer går isär. Rumäniens inrikesministerium rapporterade inledningsvis två döda och elva räddade; den 6 oktober sade Azerbajdzjans utrikesministerium att kaptenen hade dödats och att ytterligare en azerbajdzjansk besättningsmedlem var saknad. Indiens ambassad sade att tre indiska besättningsmedlemmar överlevde, varav en skadad. En första rapport om att fartyget sjunkit korrigerades den 6 oktober, då det rapporterades flyta och vänta på bogsering till Midia. Petrom sade att plattformen Pescăruș inte påverkats."
+      "Uppgifterna om offer går isär. Rumäniens inrikesministerium rapporterade inledningsvis två döda och elva räddade; den 6 oktober sade Azerbajdzjans utrikesministerium att kaptenen hade dödats och att ytterligare en azerbajdzjansk besättningsmedlem var saknad. Indiens ambassad sade att tre indiska besättningsmedlemmar överlevde, varav en skadad. En första rapport om att fartyget sjunkit korrigerades den 6 oktober, då det rapporterades flyta och vänta på bogsering till Midia. Petrom sade att plattformen Pescăruș inte påverkats.",
+      "Rumänien utfärdade en varning för sjunkningsrisk den 7 oktober. Underrättelse för sjöfarande 10/65/26, i sjökortsrättelsen daterad den 22 oktober, angav senare fartyget som ett farligt vrak. Detta fastställer dess senare skick, inte när det sjönk, om någon bogsering ägde rum eller den exakta platsen för angreppet."
     ],
-    "basis": "f110d36fc131a5b5"
+    "basis": "93c08958dbb972eb"
   },
   "N073": {
     "headline": "Drönarangrepp utanför Bulgarien sänker ALFA WATAN och sätter ABLE i brand",
@@ -1366,14 +1370,15 @@
     "basis": "534d215b86c0e039"
   },
   "N090": {
-    "headline": "Drönarangrepp sätter WINE TRADER i brand utanför Sulina; sju i besättningen saknas",
-    "description": "WINE TRADER träffades utanför Sulina den 15 oktober 2026; fem i besättningen räddades och sju saknas. En NATO-källa bedömde drönarna som av ryskt ursprung.",
+    "headline": "Drönarangrepp mot WINE TRADER utanför Sulina; mänskliga kvarlevor hittades senare i Varna",
+    "description": "Mänskliga kvarlevor hittades under reparationer av WINE TRADER i Varna efter drönarangreppet utanför Sulina den 15 oktober. DNA-identifiering och utredningar pågår.",
     "summary": [
       "En drönare träffade tankfartyget WINE TRADER, som seglar under San Marinos flagg, utanför Sulina den 15 oktober 2026. Rumäniens president bekräftade angreppet. En militär NATO-källa som citeras av Reuters bedömde att drönarna som träffade detta tankfartyg och YARA J var av ryskt ursprung; någon särskild operatör har inte fastställts i den granskade rapporteringen.",
-      "Av tolv i besättningen räddades fem och sju förblev saknade. Två överlevande hade brännskador i hårbotten eller lindrig rökinhalation; alla fem var stabila och fördes till sjukhus. Brand skadade fartyget. Dess slutliga skick är obekräftat, och den saknade besättningen räknas inte som bekräftat död. Hög sjögång försvårade räddningsinsatsen. IGSU rapporterade att sökandet återupptogs den 16 oktober; dess första tillkännagivande om bordning var en plan. Ett uttalande från ett sjöfolksförbund den 19 oktober rapporterade därefter att team hade bordat fartyget och genomsökt åtkomliga utrymmen, med skadorna som försvårade sökandet. Förbundet upprepade fem räddade och sju saknade. Den 22 oktober sade Kroatiens utrikesministerium att sökandet hade avbrutits på grund av den förflutna tiden. En kroatisk sjöman förblev saknad; en annan som behandlats för ytliga brännskador hade skrivits ut. Detta omvandlar inte de saknade till bekräftade dödsfall.",
+      "Inledningsvis räddades fem av de tolv i besättningen och sju rapporterades saknade. Två överlevande hade brännskador i hårbotten eller lindrig rökinhalation; alla fem var stabila och fördes till sjukhus. Hög sjögång och skador försvårade sökandet. Ett uttalande från ett fackförbund den 19 oktober rapporterade att team hade genomsökt åtkomliga utrymmen. Den 22 oktober sade Kroatiens utrikesministerium att sökandet hade avbrutits på grund av den tid som förflutit.",
+      "Den 7 november bekräftade åklagare i Varna att svårt skadade mänskliga kvarlevor hade hittats vid röjningen av ett drönarträffat fartyg som tagits emot för reparation i början av november. BNR identifierar det som WINE TRADER och rapporterar om en sjömans kropp och mänskliga kvarlevor. DNA-undersökningar beordrades för att fastställa identiteter, och utredningar pågår i Bulgarien och Rumänien. Det primära uttalandet anger ingen dödssiffra. Tidiga medierapporter med siffror går isär, så varken en slutlig dödssiffra eller ett aktuellt antal fortfarande saknade härleds ur de historiska räddningssiffrorna.",
       "Fartyget rapporterades befinna sig omkring 13 sjömil sydost om Sulina, strax utanför rumänskt territorialvatten. Det ingår i registrets täckning av havsområden utanför kusten. Räddningsbegäran klockan 06:58 är inte en verifierad tidpunkt för angreppet. Detta uppgraderar det tidigare spåret på bevakningslistan som gällde enbart brand till en röd registrering av typen Angrepp, som kombinerar angreppet, branden och räddningen; den är fortsatt skild från YARA J och Sea Destiny."
     ],
-    "basis": "186f434beac254b7"
+    "basis": "5f5c3c23d1d87774"
   },
   "N091": {
     "headline": "Dailidžiai: gränsvakter bärgar gränsöverskridande cigarettdrönare",
@@ -1570,13 +1575,15 @@
     "basis": "fcab4114f04792bb"
   },
   "N112": {
-    "headline": "Rapport om drönarangrepp mot KHORYV: fartyget kantrade men flyter fortfarande",
-    "description": "KHORYV kantrade utanför Constanța den 23 oktober. En navigationsvarning uppger att det fortfarande flyter, vilket strider mot rapporter om sjunkning. En död; tre saknade.",
+    "headline": "Rapport om drönarangrepp mot KHORYV: marinens undersökning finner vraket helt under vatten",
+    "description": "KHORYV träffades enligt uppgift till havs den 23 oktober. En marin undersökning den 19 november fann enligt uppgift vraket helt under vatten. Sökandets slutliga resultat är okänt.",
     "summary": [
-      "KHORYV kantrade utanför rumänskt territorialvatten den 23 oktober. AGERPRES kopplar det till presidentens uttalande om att en drönare träffade ett fartyg. Den aktuella primära navigationsvarningen, ARN155, rapporterar att KHORYV var delvis nedsänkt men fortfarande flöt upp och ned den 25 oktober, trots pressrapporter om sjunkning. En fullbordad sjunkning behandlas inte som fastställd.",
-      "Rumänien rapporterar tretton i besättningen: nio räddade, en död och tre saknade. Ukraina bekräftar ett ukrainskt dödsfall men rapporterar fjorton i besättningen; avvikelsen är fortsatt olöst. Varningarna anger daterade positioner för kantringen och för det drivande vraket, inte någon verifierad koordinat för angreppet. Tillskrivning till en operatör och det slutliga resultatet av sökandet är fortsatt olösta."
+      "KHORYV rapporterades ha träffats av en drönare och fattat eld till havs utanför Constanța den 23 oktober innan fartyget kantrade. NAVWARN 766/26 beskriver den daterade observationen den 28 oktober klockan 18:00 UTC av ett kantrat, delvis nedsänkt drivande vrak. Den 29 oktober rapporterade bTV, med hänvisning till det bulgariska försvarsministeriet, att vraket var delvis nedsänkt och fortfarande utgjorde en fara; Maritime.bg rapporterade senare, i en ny uppdatering den 1 november, att aktern hade gått på grund och att fören fortfarande var synlig. Maritime.bg rapporterade, med hänvisning till en bekräftelse från det bulgariska försvarsministeriets pressavdelning, att en marin undersökning den 19 november fann vraket helt under vatten utanför Shabla, under omkring 50 meter vatten. Den exakta tidpunkten för sjunkningen och upphävandet av den tidigare varningen verifierades inte. Dessa senare observationer av vraket flyttar inte platsen för det ursprungliga angreppet till havs.",
+      "Rumänien rapporterar tretton i besättningen: nio räddade, en död och tre saknade. Ukraina bekräftar ett ukrainskt dödsfall men rapporterar fjorton i besättningen; avvikelsen är fortsatt olöst. Varningarna anger daterade positioner för kantringen och för det drivande vraket därefter, inte någon verifierad koordinat för angreppet. Tillskrivning till en operatör och det slutliga resultatet av sökandet är fortsatt olösta.",
+      "Bulgarien tillkännagav övervakning och en planerad marin inspektion den 27 oktober. Följande morgon sade landets försvarsminister att vraket var på väg in i bulgariskt territorialvatten. Detta är senare rapporter om det drivande vraket, inte ett nytt angrepp eller en ändring av platsen för det ursprungliga angreppet till havs.",
+      "bTV rapporterade att Reshitelni var på plats och att insatserna hade pausats på grund av dåligt väder; Maritime.bg beskrev försök att sänka vraket. Detta är fortsatt uppföljningar av samma händelse, inte ett nytt angrepp eller ett avgörande i frågan om de saknade personerna."
     ],
-    "basis": "5f8e6ad7a2fd7810"
+    "basis": "63b1a3f055a1d63d"
   },
   "N113": {
     "headline": "Grekland rapporterar 8 turkiska UAV och 12 luftrumskränkningar den 21 oktober",
@@ -1610,9 +1617,9 @@
     "description": "En flygkropp av skumplast hittades i Lubaczów den 21 oktober 2026. Militärpolisen fann inga sprängämnen; ursprung och eventuell utländsk koppling är fortsatt okända.",
     "summary": [
       "Vrakdelar rapporterades på en obebodd fastighet på Herzoga-gatan i Lubaczów strax efter klockan 13:00 den 21 oktober 2026. Boende i närheten evakuerades medan specialister bedömde möjliga faror; inga skador på människor eller egendom rapporterades.",
-      "Militärpolisen identifierade en obeväpnad flygkropp av skumplast och uteslöt sprängämnen samt radiologiska, biologiska eller kemiska faror den 22 oktober. Åklagarens uppdatering den 23 oktober rapporterar att drönaren överlämnats till militär kontraspionage och att dess fastsatta paket provas i Warszawa. Den preliminära bedömningen av kort räckvidd fastställer inte ursprung eller utländsk inflygning. Detta är fortsatt en preliminär bärgningskandidat."
+      "Militärpolisen identifierade en obeväpnad flygkropp av skumplast och uteslöt sprängämnen samt radiologiska, biologiska eller kemiska faror den 22 oktober. Radio Lublins artikel den 22 oktober citerar åklagarens talesperson, som säger att drönaren hade överlämnats till det militära kontraspionaget och att dess paket hade skickats för provning; det primära pressmeddelandet samma dag beskriver fortfarande överlämnandet som något som ska ske. Den preliminära bedömningen av kort räckvidd fastställer inte ursprung eller utländsk inflygning. Detta är fortsatt en enda preliminär bärgningskandidat."
     ],
-    "basis": "fab6a30cef996170"
+    "basis": "2f669bcaffd204ab"
   },
   "N117": {
     "headline": "Grekland rapporterar sex turkiska UAV och tretton luftrumskränkningar den 23 oktober",
@@ -1668,5 +1675,861 @@
       "NewsIT och OnAlert återger samma officiella redogörelse snarare än oberoende observationer. Identifiering och avfångning rapporterades, utan väpnat ingripande. Detta är en enda registrering av dagens aktivitet, inte en summa av antalen luftfartyg och kränkningar."
     ],
     "basis": "b6d8a69eda200b68"
+  },
+  "N124": {
+    "headline": "CONTSHIP JET träffat av ytdrönare till havs; besättningen räddad, fartyget sjönk senare",
+    "description": "Bulgariska myndigheter rapporterar ett angrepp med ytdrönare mot CONTSHIP JET den 28 oktober. Alla 18 i besättningen räddades; Varna Radio bekräftar att fartyget senare sjönk.",
+    "summary": [
+      "Bulgariska försvarsmyndigheter uppger att marinens övervakning och ett franskt patrullflygplan observerade ett angrepp med ytdrönare mot CONTSHIP JET klockan 12:00 lokal tid (10:00 UTC) den 28 oktober, med tre observerade träffar. Varna Radio anger angreppets position som 43°15′N, 028°48′E utanför Kap Kaliakra. Detta är en enda händelse som rör handelssjöfart till havs, inte ett bekräftat intrång på bulgariskt territorium.",
+      "Försvars- och transportmyndigheterna bekräftar att alla 18 i besättningen räddades. Varna Radios NAVWARN 768/26 bekräftar att fartyget därefter sjönk klockan 20:30 UTC den 28 oktober vid 43°07.80′N, 028°45.36′E, med mer än 20 containrar på drift, däribland farligt gods. Detta ersätter den tidigare inofficiella rapporten om sjunkningen.",
+      "Drönaroperatören, startplatsen och motivet är fortfarande okända. Reuters rapporterar Ambreys preliminära, videobaserade bedömning av en konstruktion som sannolikt är härledd från Murena-300S; detta är ingen bekräftad identifiering av modell eller operatör. Tre rapporterade drönare och tre observerade träffar är inte separata incidenter. Den senare sjunkningspositionen ersätter inte den ursprungliga koordinaten för angreppet.",
+      "Navigationsvarningar den 1 november rapporterade drivande containrar nära Burgasbukten. Deras koppling till CONTSHIP JET är fortfarande preliminär. Den 3 november rapporterade regionförvaltningen i Burgas att tre föremål övervakades nära Oasis–Arapya, Kamennite Korabi vid Sinemorets och Butamyata. Lastmanifestet beskrev ofarlig last och en tom tank; vid den tidpunkten utreddes fortfarande det fysiska innehållet och vilket fartyg föremålen kom från. Provtagning och bevakning fortsatte, och ingen friklassning efter laboratorieanalys rapporterades. Detta är uppföljningar om risker med lasten, inte nya drönarangrepp eller ett sammanlagt antal containrar.",
+      "Den 4 november sade guvernören till bTV att vädret och svår åtkomst försenade bärgningen. Var den tredje containern befann sig var okänt; turkiska vatten var endast en möjlighet. Ingen friklassning efter laboratorieanalys lämnades.",
+      "Liberias sjöfartsmyndighet rapporterade att besättningen var i säkerhet, utan rapporterade skador, i en bulletin som beskrev ett icke namngivet fartyg vars datum, flagg, klass och tre rapporterade träffar stämmer överens med de namngivna bulgariska redogörelserna. Tsarevo kommun rapporterade den 12 november att arbetslag hade röjt bort påsar med röd paprika från båda Lipite-stränderna. Lastens koppling till CONTSHIP JET var fortfarande preliminär, och tillkännagivandet innehöll inga laboratorieresultat.",
+      "Den 24 november öppnade myndigheterna den container som hade spolats i land nära Tsarevo den 2 november. Guvernören i Burgas sade till BTA att den innehöll omkring 80 lådor med juldekorationer, vilket stämde med lastmanifestet. Contships Management sade till Reuters att bolaget inte kunde bekräfta att containern hade funnits ombord på CONTSHIP JET. Öppnandet fastställer inte vilket fartyg containern kom från, övrig last eller resultat avseende föroreningar."
+    ],
+    "basis": "7eebe0feab2ab6ff"
+  },
+  "N125": {
+    "headline": "UAV bärgad nära Osieka efter gränspassage från Ryssland enligt åklagare",
+    "description": "Åklagare rapporterar en otillåten passage av den rysk-polska gränsen den 8 maj; den obeväpnade drönaren bärgades nära Osieka den 9 maj. Operatören är fortfarande okänd.",
+    "summary": [
+      "En obeväpnad spanings-UAV bärgades hel efter att en privatperson hittat den på en åker nära Osieka den 9 maj. Den 11 maj sade åklagarmyndighetens talesperson i Olsztyn att utredarna var säkra på att den hade passerat den rysk-polska gränsen, och daterade den passage som utreds till den 8 maj.",
+      "Underlaget för slutsatsen om gränspassagen redovisades inte. Operatör, tillverkning, avsett mål, exakt färdväg och tidpunkt för nedstörtningen är fortfarande olösta. Medieuppgifter om kameror och kyrilliska märkningar bekräftades inte av åklagaren. Detta är en enda retrospektiv händelse, inte ny aktivitet i oktober."
+    ],
+    "basis": "9df76f2823d89cb7"
+  },
+  "N126": {
+    "headline": "UAV-fragment bärgade på Popski-stranden; ursprunget olöst",
+    "description": "Ett marinteam bärgade UAV-delar på Popski-stranden i Tsarevo den 21 oktober, enligt ett svar från försvarsministeriet. Flygdatum och nationellt ursprung är fortfarande okända.",
+    "summary": [
+      "OFFNews citerar det bulgariska försvarsministeriet, som bekräftar att ett marinteam undersökte och samlade in UAV-delar på Popski-stranden den 21 oktober och transporterade dem till basen. Detta daterar en bärgningsinsats, inte en flygning eller nedstörtning.",
+      "Ministeriet skilde uttryckligen bärgningen från ett overifierat påstående om Arapya i närheten. Modell, ursprung, operatör, nyttolast och hur delarna hamnade där är fortfarande olösta. Denna preliminära bärgningskandidat är inte ett bekräftat utländskt intrång eller bevis för ytterligare en separat farkost."
+    ],
+    "basis": "3572d703997e5cd9"
+  },
+  "N127": {
+    "headline": "Drönarfragment rapporterade på Listi-stranden; bärgningsdatum okänt",
+    "description": "BNR rapporterade att en vinge och en del av en flygkropp samlades in på Listi-stranden nära Sinemorets. Datumet 28 oktober är publiceringsdatumet, inte ett verifierat fynddatum.",
+    "summary": [
+      "BNR:s korrespondent i Burgas rapporterade att en vinge och en del av en flygkropp hittats på Listi-stranden och samlats in av gränspolisen efter en anmälan. Artikeln publicerades den 28 oktober men anger inget exakt datum för fyndet eller bärgningen; registret använder rapportdatumet som en uttryckligen angiven ersättning.",
+      "Ursprung, modell, operatör, nyttolast och datum för flygning eller nedstörtning är fortfarande olösta. Denna preliminära bärgningskandidat skiljer sig från Popski-stranden genom den rapporterade platsen, men det är inte fastställt att det rör sig om ytterligare en unik farkost. Påståendet om tillskrivning i närliggande Arapya överförs inte till dessa fragment."
+    ],
+    "basis": "22e8ad26c842d4a6"
+  },
+  "N128": {
+    "headline": "Grekland rapporterar fem turkiska UAV i 13 luftrumskränkningar i Egeiska havet",
+    "description": "Grekisk militär rapportering tillskriver fem turkiska UAV 13 kränkningar av nationellt luftrum den 30 oktober. En registrering per dag; exakta flygbanor har inte offentliggjorts.",
+    "summary": [
+      "Grekiska militära siffror som rapporterades den 30 oktober tillskriver fem turkiska UAV 13 kränkningar av nationellt luftrum och 11 överträdelser av Atens FIR i nordöstra, centrala och sydöstra Egeiska havet. Bedömningen av nationellt luftrum och den militära tillskrivningen är Greklands; exakta flygbanor har inte offentliggjorts.",
+      "Detta är en enda daglig regional registrering, inte 13 angrepp. Överträdelser av bemannade luftfartyg och två insatser i den blandade dagliga redogörelsen är inte bevis för beväpnade UAV, vapeninsats eller nedskjutning. Exakta modeller, nyttolaster och avsedda mål är fortfarande okända."
+    ],
+    "basis": "8d16fbffeee972eb"
+  },
+  "N129": {
+    "headline": "Rumänien bekräftar två otillåtna drönarinflygningar i landets nordöstra del",
+    "description": "Rumänien rapporterar två drönarinflygningar den 31 oktober. Den ena lämnade luftrummet; den andra observerades senast nära Vaslui och Bacău. Ingen nedstörtning rapporterades.",
+    "summary": [
+      "Rumäniens försvarsministerium bekräftar att två drönare flög in i det nationella luftrummet i nordost på kvällen den 31 oktober 2026. Den ena lämnade det; den andra observerades senast mellan distrikten Vaslui och Bacău. Ingen nedstörtning hade rapporterats vid publiceringen.",
+      "Fyra F-16 och en IAR-330 SOCAT startade, och de offentliga varningarna upphörde klockan 19:19 lokal tid. Detta är en enda händelse med två drönare, inte två verifierade angrepp. Operatör, modell, avsikt och mål är fortfarande okända; kartpunkten är ungefärlig.",
+      "Enligt direktören för flygplatsen i Iași omdirigerades ett ankommande Wizz Air-plan från Eindhoven till Suceava medan luftrummet var tillfälligt stängt. Denna störning hör till samma episod och är inte ytterligare ett intrång."
+    ],
+    "basis": "5c2d0df27e180a9b"
+  },
+  "N130": {
+    "headline": "Lettland bedömer att UAV som korsade landet den 1 november sannolikt var en rysk Geran",
+    "description": "NBS bedömer att den UAV som korsade Lettland den 1 november sannolikt var en rysk Geran. Den flög ut till Ryssland; eventuell sprängladdning och avsikt är fortfarande okända.",
+    "summary": [
+      "Tjänstemän beskrev en drönare som korsade östra Lettland från Belarus och lämnade landet mot Ryssland klockan 19:16 den 1 november. NBS bedömde därefter att det sannolikt var en rysk Geran, efter att ha analyserat sensor- och interceptordata och samrått med ukrainska partner.",
+      "Lettland lät sin egen interceptor självförstöras klockan 19:19. Detta var inte en rapporterad nedskjutning av den upptäckta UAV:n. NBS kan inte fastställa om den UAV:n bar sprängämnen; operatör, avsikt och mål är fortfarande obekräftade."
+    ],
+    "basis": "c77fff5610f5734e"
+  },
+  "N131": {
+    "headline": "Varning i norra Tulcea; ingen inflygning i rumänskt luftrum rapporterad",
+    "description": "Rumänien utfärdade en varning för norra Tulcea den 2 november efter angrepp i närheten i Ukraina. MApN rapporterade ingen inflygning i Rumäniens nationella luftrum.",
+    "summary": [
+      "Norra Tulcea fick ett RO-Alert klockan 04:11 den 2 november efter drönarangrepp mot ukrainska hamnar vid Donau. Rumänien satte in F-16 och en Puma SOCAT-helikopter; larmet upphörde klockan 05:26 lokal tid.",
+      "MApN rapporterade ingen inflygning i rumänskt luftrum. Detta är ett civilskyddslarm, inte ett intrång eller ett bekräftat angrepp i Rumänien. Kartpunkten representerar varningsområdet."
+    ],
+    "basis": "b3d536ba24881e16"
+  },
+  "N132": {
+    "headline": "Lettland bekräftar upptäckt av UAV; ursprung och möjligt nedfall i Balvi olösta",
+    "description": "NBS bekräftar en UAV i Lettland den 3 november. Den liknade visuellt ukrainska militärdrönare, men typ, ursprung och ett möjligt nedfall i Balvi är fortfarande obekräftade.",
+    "summary": [
+      "NBS bekräftar att en UAV upptäcktes i lettiskt luftrum under larmet i Balvi–Ludza den 3 november. Vid den första visuella identifieringen liknade den ukrainska militära UAV, men försvarsmakten kunde uttryckligen inte bekräfta typ eller ursprung.",
+      "UAV:n kan ha fallit ned i Balvi kommun; sökningarna på marken fortsatte. Detta är fortsatt en kandidat med olöst ursprung och utfall, inte ett bekräftat utländskt intrång, en bekräftad nedstörtning eller nedskjutning. Den regionala kartpunkten är inte en verifierad nedslagsplats."
+    ],
+    "basis": "505a6db792d85d51"
+  },
+  "N133": {
+    "headline": "Nattlig varning i Tulcea: ingen inflygning i rumänskt luftrum rapporterad",
+    "description": "Norra Tulcea fick en varning sent den 2 november efter luftaktivitet över Ukraina. MApN rapporterade ingen inflygning i Rumänien; larmet upphörde efter midnatt.",
+    "summary": [
+      "MApN rapporterade två radarmål över Ukraina nära Izmail och Chilia under natten mellan den 2 och 3 november. Norra Tulcea fick RO-Alert klockan 23:43; varningen upphörde klockan 00:21 lokal tid. Två spanska F-18 startade som svar.",
+      "Ingen inflygning i rumänskt luftrum rapporterades. Detta är ett utvalt civilskyddslarm, skilt från den tidigare varningen den 2 november, inte ett bekräftat intrång eller angrepp i Rumänien. Kartpunkten representerar varningsområdet."
+    ],
+    "basis": "a90d1dcd244ae758"
+  },
+  "N134": {
+    "headline": "Varning i norra Tulcea den 4 november; ingen inflygning i Rumänien rapporterad",
+    "description": "Ett mål över Ukraina ledde till att två F-16 startade och till en varning för norra Tulcea den 4 november. MApN rapporterade ingen inflygning i rumänskt luftrum.",
+    "summary": [
+      "Norra Tulcea fick RO-Alert klockan 10:57 den 4 november efter att ett radarmål upptäckts norr om Vîlcove i Ukraina. Två F-16 startade från Borcea.",
+      "MApN rapporterade ingen inflygning i rumänskt luftrum. Detta utvalda larm är skilt från den nattliga varningen den 2–3 november; kartpunkten representerar varningsområdet."
+    ],
+    "basis": "eefa3af945e0c8ca"
+  },
+  "N135": {
+    "headline": "Drönarfragment hittade i Boghicea; kontrollerat oskadliggörande rapporterat",
+    "description": "Drönarfragment som hittades i Boghicea den 5 november förstördes enligt uppgift samma kväll. Ursprung och eventuell koppling till flygningen den 31 oktober är fortfarande olösta.",
+    "summary": [
+      "En invånare underrättade landsbygdspolisen i Sagna efter att ha hittat utspridda fragment i Boghicea. Polis, brandmän och specialister från SRI kom till platsen. ProTV rapporterar att specialister sprängde resterna på kvällen den 5 november efter undersökning och en RO-Alert-varning.",
+      "Utländskt ursprung, datum för nedfallet och eventuell koppling till N129 är fortfarande obekräftade. ProTV lämnar en tydlig rapport om att oskadliggörandet slutfördes; inget direkt officiellt uttalande om slutförandet hämtades. Bokstäver som ögonvittnen beskrivit fastställer inte operatör eller modell.",
+      "En enda fyndregistrering, inte en nyligen verifierad flygning eller ytterligare en UAV i räkningen. En möjlig koppling till N129 är fortfarande olöst; slå samman eller korshänvisa om bevis senare fastställer att det är samma drönare. Räddningsinsatsen och varningen inför oskadliggörandet är inte separata händelser."
+    ],
+    "basis": "b1fd2b840a7ff077"
+  },
+  "N136": {
+    "headline": "Tulcea · Nattligt RO-Alert den 6 november",
+    "description": "Officiell varning; ingen inflygning i rumänskt luftrum rapporterad. Endast larm; inget intrång, ingripande eller angrepp härleds.",
+    "summary": [
+      "Angrepp i närheten mot ukrainska hamnar ledde till en varning. RO-Alert utfärdades klockan 00:19; larmet upphörde klockan 00:41 lokal tid.",
+      "Antal drönare och modell angavs inte i meddelandet. Ingen flygbana, inget antal drönare och ingen modell fastställd.",
+      "Ett enda utvalt larm, skilt från den senare morgonvarningen N137 klockan 08:56."
+    ],
+    "basis": "42bf1e8a50a620f5"
+  },
+  "N137": {
+    "headline": "Norra Tulcea · Morgonlarm om mål vid Sulina den 6 november",
+    "description": "Officiell varning om radarmål; inflygning i Rumänien inte fastställd. Endast larm; inget intrång, ingripande eller angrepp härleds.",
+    "summary": [
+      "Luftaktivitet i närheten ledde till en civilskyddsvarning. Två F-16 startade från Borcea; varningen för norra Tulcea gällde 08:56–09:27 lokal tid.",
+      "Radarmål i luften; drönaridentitet och modell obekräftade i det citerade uttalandet. Ingen verifierad modell, operatör eller passage av den rumänska gränsen. Den nattliga slutsatsen om att ingen inflygning skett hör till N136 och kan inte överföras till denna episod.",
+      "Separat morgonvarning, inte episoden N136 klockan 00:19–00:41. Insatsen med stridsflygplan lägger inte till någon händelse."
+    ],
+    "basis": "7a65445d491a71de"
+  },
+  "N138": {
+    "headline": "Drönarbärgning: Shabla · Drönare klassad som rysk spolades i land och förstördes, Bulgarien",
+    "description": "6 november 2026, Shabla · Drönare klassad som rysk spolades i land och förstördes, Bulgarien. Officiellt identifierad flygdrönare bärgad och förstörd. Fynd vid kusten…",
+    "summary": [
+      "Fynd vid kusten rapporterat till myndigheterna klockan 10:00 lokal tid.",
+      "Officiellt identifierad flygdrönare bärgad och förstörd. Den ryska klassificeringen är den bulgariska inspektionens bedömning; specifik operatör och uppdrag ofastställda. Borgmästarens tidiga uppgift om Shahed-märkningar och sprängämnen ersattes av den militära inspektionen: inga inskriptioner och ingen sprängladdning. Datum för nedfallet och koppling till något angrepp mot sjöfarten är fortfarande okända."
+    ],
+    "basis": "de692ebadb5d7d7f"
+  },
+  "N139": {
+    "headline": "Egeiska havet · Rapporterad turkisk UAV-aktivitet den 6 november",
+    "description": "Grekiskt register rapporterar 10 turkiska UAV den 6 november. De sammanlagda siffrorna för luftfartyg gäller inte enbart drönare.",
+    "summary": [
+      "GEETHA:s primära månadsregister anger 10 UAV och en ATR-72, med 15 sammanlagda FIR-överträdelser och 23 sammanlagda kränkningar av nationellt luftrum. Registret fördelar inte de blandade totalerna efter typ av luftfartyg.",
+      "Den tidigare återgivna dagliga bulletinen fördelade 9 FIR-överträdelser och 15 kränkningar av nationellt luftrum på 7 UAV. Orsaken till skillnaden anges inte. Siffrorna kommer från grekiska myndigheter; de är inte oberoende verifierade flygbanor eller en bekräftad räkning av angrepp."
+    ],
+    "basis": "fd5cda8f3a302eca"
+  },
+  "N140": {
+    "headline": "Egeiska havet · Rapporterad turkisk UAV-aktivitet den 5 november",
+    "description": "Grekiskt register rapporterar 5 turkiska UAV den 5 november. Tidigare dagliga siffror skilde sig åt.",
+    "summary": [
+      "GEETHA:s primära månadsregister anger 5 UAV och inga bemannade luftfartyg, med 8 FIR-överträdelser och 17 kränkningar av nationellt luftrum. Alla rapporterade luftfartyg den dagen var UAV.",
+      "Den tidigare återgivna dagliga bulletinen fördelade 6 FIR-överträdelser och 9 kränkningar av nationellt luftrum på 4 UAV. Orsaken till skillnaden anges inte. Siffrorna kommer från grekiska myndigheter; de är inte oberoende verifierade flygbanor eller en bekräftad räkning av angrepp."
+    ],
+    "basis": "5f5e69b30526d99c"
+  },
+  "N141": {
+    "headline": "Egeiska havet · Rapporterad turkisk UAV-aktivitet den 7 november",
+    "description": "Grekiskt register rapporterar 8 turkiska UAV den 7 november. Tidigare dagliga siffror skilde sig åt.",
+    "summary": [
+      "GEETHA:s primära månadsregister anger 8 UAV och inga bemannade luftfartyg, med 10 FIR-överträdelser och 8 kränkningar av nationellt luftrum. Alla rapporterade luftfartyg den dagen var UAV.",
+      "Den tidigare återgivna dagliga bulletinen fördelade 8 FIR-överträdelser och 4 kränkningar av nationellt luftrum på 6 UAV. Orsaken till skillnaden anges inte. Siffrorna kommer från grekiska myndigheter; de är inte oberoende verifierade flygbanor eller en bekräftad räkning av angrepp."
+    ],
+    "basis": "10e6e252c784d0ee"
+  },
+  "N142": {
+    "headline": "Oidentifierat föremål: rumänskt territorialvatten · Oidentifierat mål flyger in i luftrummet, Rumänien",
+    "description": "5 november 2026, rumänskt territorialvatten · Oidentifierat mål flyger in i luftrummet, Rumänien. Inflygning i luftrummet rapporterad av MApN; drönaridentitet obekräftad. En…",
+    "summary": [
+      "En tre minuter lång inflygning i det nationella luftrummet rapporterades av MApN.",
+      "Inflygning i luftrummet rapporterad av MApN; drönaridentitet obekräftad. Operatör inte identifierad. Inflygningen rapporteras av myndigheten, men drönaridentitet, modell, operatör och avsikt är fortfarande olösta. Medieredogörelser återger samma officiella uttalande. Ingen koppling fastställd till Boghicea N135."
+    ],
+    "basis": "59712b8a83097feb"
+  },
+  "N143": {
+    "headline": "Drönarlarm: östra Tulcea · Målvarning vid Ormön, Rumänien",
+    "description": "8 november 2026, östra Tulcea · Målvarning vid Ormön, Rumänien. Officiell varning om radarmål; inflygning i Rumänien inte fastställd. Två upptäckter av mål…",
+    "summary": [
+      "Två upptäckter av mål i närheten ledde till varning och militär övervakning.",
+      "Officiell varning om radarmål; inflygning i Rumänien inte fastställd. Operatör inte identifierad. De citerade uttalandena fastställer inte inflygning i Rumänien, drönartyp eller operatör. Att det första målet försvann från radarn är inte en nedstörtning. Ingen uttrycklig bedömning om att ingen inflygning skett härleds ur tystnad."
+    ],
+    "basis": "4cff8ae9f4cbdedb"
+  },
+  "N144": {
+    "headline": "Drönarlarm: norra Tulcea · Målvarning vid Chilia Veche, Rumänien",
+    "description": "8 november 2026, norra Tulcea · Målvarning vid Chilia Veche, Rumänien. Officiell varning om radarmål; inflygning i Rumänien inte fastställd. En senare, separat…",
+    "summary": [
+      "En senare, separat upptäckt av ett mål ledde till en varning för norra Tulcea.",
+      "Officiell varning om radarmål; inflygning i Rumänien inte fastställd. Operatör inte identifierad. Måltyp, operatör och eventuell passage av den rumänska gränsen är fortfarande ofastställda. En varning och en start av stridsflygplan utgör inte i sig ett intrång eller ett ingripande."
+    ],
+    "basis": "51af4b15dda166f7"
+  },
+  "N145": {
+    "headline": "Oidentifierat föremål: Lipite-stranden, Sinemorets · Fynd av oidentifierad drönare, Bulgarien",
+    "description": "8 november 2026, Lipite-stranden, Sinemorets · Fynd av oidentifierad drönare, Bulgarien. Drönarfynd och tillskriven officiell insamling; ursprung olöst. Ett BNT-team…",
+    "summary": [
+      "Ett BNT-team hittade luftfartyget när det rapporterade om last som spolats i land.",
+      "Drönarfynd och tillskriven officiell insamling; ursprung olöst. Nationellt ursprung och operatör olösta; ingen bekräftad utländsk flygning eller gränsöverskridande inflygning. Ursprung, operatör, nyttolast och ankomstväg är fortfarande olösta. Last i närheten är inte bevis som kopplar drönaren till ett fartyg eller ett angrepp. Guvernörens bedömning utifrån krigssammanhanget är ingen teknisk identifiering. Inget slutfört oskadliggörande fastställt."
+    ],
+    "basis": "8994bcc4baaa422f"
+  },
+  "N146": {
+    "headline": "Egeiska havet · Rapporterad turkisk UAV-aktivitet den 8 november",
+    "description": "Grekiskt register rapporterar 5 turkiska UAV den 8 november. Tidigare dagliga siffror skilde sig åt.",
+    "summary": [
+      "GEETHA:s primära månadsregister anger 5 UAV och inga bemannade luftfartyg, med 6 FIR-överträdelser och 6 kränkningar av nationellt luftrum. Alla rapporterade luftfartyg den dagen var UAV.",
+      "Den tidigare återgivna dagliga bulletinen fördelade 4 FIR-överträdelser och 4 kränkningar av nationellt luftrum på 4 UAV. Orsaken till skillnaden anges inte. Siffrorna kommer från grekiska myndigheter; de är inte oberoende verifierade flygbanor eller en bekräftad räkning av angrepp."
+    ],
+    "basis": "e9cdcb8a8e0ac546"
+  },
+  "N147": {
+    "headline": "Egeiska havet · Rapporterad turkisk UAV-aktivitet den 9 november",
+    "description": "Grekiskt register rapporterar 5 turkiska UAV den 9 november. De sammanlagda siffrorna för luftfartyg gäller inte enbart drönare.",
+    "summary": [
+      "GEETHA:s primära månadsregister anger 5 UAV och en ATR-72, med 7 sammanlagda FIR-överträdelser och 3 sammanlagda kränkningar av nationellt luftrum. Registret fördelar inte de blandade totalerna efter typ av luftfartyg.",
+      "Den tidigare återgivna dagliga bulletinen fördelade 5 FIR-överträdelser och 2 kränkningar av nationellt luftrum på 5 UAV. Orsaken till skillnaden anges inte. Siffrorna kommer från grekiska myndigheter; de är inte oberoende verifierade flygbanor eller en bekräftad räkning av angrepp."
+    ],
+    "basis": "05f7be48ee62885b"
+  },
+  "N148": {
+    "headline": "Drönarflygning: Sulina · Rapporterad drönarinflygning i luftrummet, Rumänien",
+    "description": "9 november 2026, Sulina · Rapporterad drönarinflygning i luftrummet, Rumänien. Drönarinflygning i Rumäniens nationella luftrum rapporterad av MApN. Senare rapportering bekräftar…",
+    "summary": [
+      "Senare rapportering bekräftar uttryckligen inflygning efter den första varningen om ett mål i närheten. Spåret försvann därefter från radarn.",
+      "Drönarinflygning i Rumäniens nationella luftrum rapporterad av MApN. Operatör, nationellt ursprung, avsett mål och avsikt inte fastställda. Källorna förmedlar uppgifter från försvarsministeriet, inte oberoende verifierade radarspår. Tidpunkt och varaktighet för inflygningen, modell, operatör, mål och slutligt utfall okända. Radarförlust är inte bevis för nedstörtning, nedskjutning eller utflygning."
+    ],
+    "basis": "ffa47195c16e1a8e"
+  },
+  "N149": {
+    "headline": "Drönarlarm: östra Tulcea · Målvarning vid Sulina den 10 november, Rumänien",
+    "description": "10 november 2026, östra Tulcea · Målvarning vid Sulina den 10 november, Rumänien. Luftmål i närheten rapporterat av MApN; inflygning i Rumänien inte fastställd. Mål i närheten…",
+    "summary": [
+      "Mål i närheten ledde till att två F-16 startade och till en offentlig varning för östra Tulcea.",
+      "Luftmål i närheten rapporterat av MApN; inflygning i Rumänien inte fastställd. Operatör, ursprung, avsett mål och avsikt okända. Ingen bekräftad inflygning i Rumänien, inget angrepp, ingen avfångning och ingen nedstörtning fastställd för denna episod. Rapporteringen om inflygning den 9 november hör till N148 och kan inte överföras till detta larm."
+    ],
+    "basis": "1ae15c2e27e8853c"
+  },
+  "N150": {
+    "headline": "Litauen–Lettland · Drönarintrång och misslyckad avfångning",
+    "description": "Officiellt bekräftat drönarintrång; misslyckad avfångning. Från södra till norra Litauen; rapporterad utflygning till Lettland nära distriktet Pasvalys.",
+    "summary": [
+      "Chefen för Litauens försvarsstab sade att stridsflygplan identifierade drönaren nära Kaunas men inte ingrep där på grund av risken för civila. Två senare försök att förstöra den misslyckades. Lettland bekräftade oberoende att en drönare kom in från Litauen och korsade landets territorium från söder till norr.",
+      "NATO-stridsflygplan aktiverades i Litauen och fortsatte insatsen över Lettland; inga lämpliga säkra operativa förhållanden för att förstöra den i Lettland. Spillror av en avfångningsrobot bärgades nära Biržai, inte vrakdelar från drönaren.",
+      "Modell, nyttolast, operatör, avsett mål och orsak är fortfarande okända. Avledning genom elektronisk krigföring är en bedömning, inte ett fastställt faktum. Estniska myndigheter bekräftade separat korta inflygningar samma natt; den exakta överlappningen med denna färdväg och med andra drönare håller fortfarande på att stämmas av. Inget bekräftat angrepp, ingen bekräftad drönarnedstörtning, bärgning eller nedskjutning."
+    ],
+    "basis": "b3d7c837ed9779e1"
+  },
+  "N151": {
+    "headline": "Lettland · Två korta drönarinflygningar över den östra gränsen",
+    "description": "Korta drönarintrång bekräftade av NBS. Ludza kommun / Lettlands östra gräns",
+    "summary": [
+      "Lettlands NBS sade att två drönare kortvarigt korsade den östra gränsen under 1–2 minuter. Den förlägger den tillhörande varningen i Ludza till omkring klockan 23:30 tisdagen den 10 november.",
+      "Enheter för drönaravfångning och luftvärn samt NATO-stridsflygplan aktiverades.",
+      "Exakta passagepunkter, operatör, nyttolast och avsikt olösta. Senare närmanden mot Krāslava/Augšdaugava och Balvi ledde inte till någon inflygning; de utgör inga ytterligare intrång."
+    ],
+    "basis": "99971f22c80bd30f"
+  },
+  "N152": {
+    "headline": "Finland · Misstänkt UAV-inflygning över östra Finska viken",
+    "description": "Misstänkt luftrumskränkning rapporterad av ministeriet; utredning pågår. Östra Finska viken; misstänkt finskt nationellt luftrum",
+    "summary": [
+      "Finlands försvarsministerium rapporterade en misstänkt luftrumskränkning av en UAV efter klockan 02:00 den 11 november, som varade i omkring fem minuter innan den lämnade luftrummet.",
+      "Gränsbevakningen utreder. Försvarsmakten införde tillfälliga restriktioner i luften och till sjöss som försiktighetsåtgärder.",
+      "Inflygningen är fortfarande misstänkt, inte bekräftad. Inget identifierat ursprung, ingen modell, avsikt eller bevisad koppling till baltiska transitflygningar eller angrepp i Ryssland."
+    ],
+    "basis": "68f7b98f4dfcbc62"
+  },
+  "N153": {
+    "headline": "Estland · Korta drönarintrång över Finska viken",
+    "description": "Estniska myndigheter rapporterade korta drönarintrång över Finska viken den 11 november 2026. Exakt antal, flygbanor och nyttolaster är fortfarande olösta.",
+    "summary": [
+      "I en intervju med ERR skilde försvarsministern mellan korta luftrumskränkningar över Finska viken och en separat drönare som kom in från Lettland omkring klockan 03:30. Estlands regering bekräftade separat att några drönare kortvarigt flög in i det nationella luftrummet den natten.",
+      "NATO-stridsflygplan var i luften. Ministern sade att det inte fanns förutsättningar för att förstöra dem på ett säkert sätt, bland annat på grund av närheten till den ryska gränsen.",
+      "Exakt antal drönare, passagetider och flygbanor olösta. Den rapporterade ukrainska tillskrivningen är ministerns redogörelse, inte oberoende bekräftelse. Inget bekräftat angrepp mot Estland, ingen bekräftad nedstörtning, bärgning eller nedskjutning. Ingen bevisad koppling till den misstänkta finska passagen."
+    ],
+    "basis": "0988f0038c13eff7"
+  },
+  "N154": {
+    "headline": "Möjlig drönare nära Sulina utlöser varning; inflygning i Rumänien inte fastställd",
+    "description": "En möjlig drönare nordost om Sulina utlöste en varning i Tulcea den 12 november 2026. Spanska stridsflygplan svarade; inflygning i Rumänien fastställdes inte.",
+    "summary": [
+      "Rumäniens försvarsministerium rapporterade ett luftmål omkring 28 km nordost om Sulina den 12 november. Public service-radion beskrev det som en möjlig drönare.",
+      "En varning gällde från klockan 12:35 till 13:12 lokal tid, och två spanska F-18 startade. Detta utvalda larm är inte ett bekräftat intrång i eller angrepp mot Rumänien."
+    ],
+    "basis": "e621e2b415355314"
+  },
+  "N155": {
+    "headline": "Rapport: 5 turkiska UAV i 2 kränkningar av grekiskt luftrum den 16 oktober",
+    "description": "Veteranos rapporterar 5 turkiska UAV och 2 kränkningar av grekiskt luftrum den 16 oktober 2026. Redogörelse från en enda källa med officiella siffror; exakta flygbanor är fortfarande okända.",
+    "summary": [
+      "Veteranos rapporterar 5 turkiska UAV i centrala och sydöstra Egeiska havet den 16 oktober, med hänvisning till officiella siffror: 2 kränkningar av nationellt luftrum och 7 överträdelser av Atens FIR.",
+      "Identifiering och rutinmässig avfångning rapporterades. Detta är en enda daglig aktivitetsregistrering, inte separata händelser för varje UAV eller kränkning.",
+      "Det ursprungliga GEETHA-meddelandet är fortfarande inte tillgängligt, och ingen motsvarande andra rapport hämtades. Detta är tillskrivna grekiska siffror, inte oberoende verifierade flygbanor; den grekisk-turkiska luftrumstvisten är fortfarande relevant."
+    ],
+    "basis": "7eab620af97e56d5"
+  },
+  "N156": {
+    "headline": "Rapport: 2 turkiska UAV i 6 kränkningar av grekiskt luftrum den 17 oktober",
+    "description": "Veteranos rapporterar 2 turkiska UAV och 6 kränkningar av grekiskt luftrum den 17 oktober 2026. Redogörelse från en enda källa med officiella siffror; exakta flygbanor är fortfarande okända.",
+    "summary": [
+      "Veteranos rapporterar 2 turkiska UAV i nordöstra och sydöstra Egeiska havet den 17 oktober, med hänvisning till officiella siffror: 6 kränkningar av nationellt luftrum och 4 överträdelser av Atens FIR.",
+      "Identifiering och rutinmässig avfångning rapporterades. Detta är en enda daglig aktivitetsregistrering, inte separata händelser för varje UAV eller kränkning.",
+      "Det ursprungliga GEETHA-meddelandet är fortfarande inte tillgängligt, och ingen motsvarande andra rapport hämtades. Detta är tillskrivna grekiska siffror, inte oberoende verifierade flygbanor; den grekisk-turkiska luftrumstvisten är fortfarande relevant."
+    ],
+    "basis": "41c5a49d0eb8c357"
+  },
+  "N157": {
+    "headline": "Varning i norra Tulcea efter att mål upptäckts i ukrainskt luftrum",
+    "description": "Rumänien utfärdade en varning för norra Tulcea den 13 november efter att ha upptäckt ett mål i ukrainskt luftrum. Drönaridentitet och inflygning i Rumänien fastställdes inte.",
+    "summary": [
+      "Rumänska myndigheter utfärdade en varning för norra Tulcea den 13 november 2026 efter att radar upptäckt ett luftmål sydost om Ormön i ukrainskt luftrum.",
+      "Två rumänska F-16 startade från Fetești. Varningen gällde från klockan 21:53 till 22:58 lokal tid; detta är varningstider, inte en verifierad varaktighet för någon flygning.",
+      "Den granskade redogörelsen från ministeriet identifierade inte målet som en drönare och fastställde inte någon inflygning i Rumänien. Detta är ett utvalt larm, inte ett bekräftat intrång eller angrepp."
+    ],
+    "basis": "bdbe3aeea261bfb7"
+  },
+  "N158": {
+    "headline": "LARISSA 1 skadat i rapporterad drönarträff utanför Rumänien; besättningen i säkerhet",
+    "description": "En drönarträff skadade LARISSA 1 utanför Sfântu Gheorghe den 13 november. Rumäniens minister bekräftade händelsen; operatör och exakt position är fortfarande olösta.",
+    "summary": [
+      "En rapporterad träff av en flygdrönare skadade lastkranen på LARISSA 1 nära Sfântu Gheorghe på kvällen den 13 november 2026. Sjöfartsmyndigheterna underrättades omkring klockan 21:40 lokal tid. Inga personskador, dödsfall eller bränder rapporterades.",
+      "Rumäniens försvarsminister bekräftade den nattliga träffen den 14 november. TVR identifierar fartyget, medan Europa FM förlägger den rapporterade händelsen 6,8 sjömil nordost om Sfântu Gheorghe i rumänskt territorialvatten. Exakta koordinater för nedslaget har inte offentliggjorts.",
+      "Operatören, ursprunget och det avsedda målet är fortfarande okända. Tekniska slutsatser väntades fortfarande, och ingen koppling till det separata larmet om ett luftmål i Tulcea har fastställts."
+    ],
+    "basis": "f08b96a541b68222"
+  },
+  "N159": {
+    "headline": "Tulcea får två varningar under ett och samma morgonlarm om luftmål",
+    "description": "Rumänien utfärdade två varningar i Tulcea den 14 november efter att ett mål upptäckts nära Ormön. Drönaridentitet och inflygning i Rumänien fastställdes inte.",
+    "summary": [
+      "MApN rapporterade ett luftmål i området kring Ormön på morgonen den 14 november 2026. Två rumänska F-16 startade från Fetești.",
+      "Östra Tulcea fick en varning klockan 04:45 lokal tid, följd av norra Tulcea klockan 05:39. Faran över meddelades klockan 05:52. Dessa meddelanden hör till en enda larmepisod, inte till två bekräftade drönarhändelser.",
+      "Uttalandet identifierade inte målet som en drönare och bekräftade inte någon inflygning i Rumänien. Detta utvalda larm är skilt från föregående kvälls varning; ingen koppling till träffen mot Larissa 1 är fastställd."
+    ],
+    "basis": "485c5fe876331a03"
+  },
+  "N160": {
+    "headline": "EVIA PETROL V träffat av drönare utanför Sulina, enligt rapporterad redogörelse från ministeriet",
+    "description": "EVIA PETROL V träffades enligt uppgift utanför Sulina den 14 november. Besättningen släckte en brand; inga offer rapporterades. Operatör och exakt position är fortfarande okända.",
+    "summary": [
+      "EVIA PETROL V träffades av en drönare omkring klockan 21:10 lokal tid den 14 november 2026, enligt News.ro:s återgivning av uppgifter från MApN som härrörde från civila sjöfartsmyndigheter. Den rapporterade platsen låg omkring 4 sjömil östsydost om Sulina.",
+      "Besättningen släckte en brand ombord; inga offer rapporterades. Radio România Constanța beskriver platsen som rumänskt territorialvatten, men exakta koordinater för nedslaget och jurisdiktionen har inte oberoende verifierats.",
+      "Operatör, ursprung, avsikt och eventuell koppling till andra fartygsträffar eller larm i närheten är fortfarande okända.",
+      "I ett emittentmeddelande den 19 november uppgav Trans-Oil-koncernen att fartyget låg för ankar vid Sulinakanalens inlopp i väntan på tillstånd att fortsätta till Giurgiulești. Skadorna förhindrade den planerade resan för att lasta omkring 6 500 ton solrosolja. Det bekräftades inte att den lasten fanns ombord; möjliga logistiska förseningar och kostnader är fortfarande varningar från bolaget."
+    ],
+    "basis": "111f4b44af58fb36"
+  },
+  "N161": {
+    "headline": "MARSOL träffat av drönare utanför Sulina, enligt rapporterad redogörelse från ministeriet",
+    "description": "MARSOL träffades enligt uppgift utanför Sulina den 14 november. Besättningen släckte en brand; inga offer rapporterades. Operatör och exakt position är fortfarande okända.",
+    "summary": [
+      "MARSOL träffades av en drönare omkring klockan 21:45 lokal tid den 14 november 2026, enligt News.ro:s återgivning av uppgifter från MApN som härrörde från civila sjöfartsmyndigheter. Den rapporterade platsen låg omkring 5 sjömil sydost om Sulinakanalen.",
+      "Besättningen släckte en brand ombord; inga offer rapporterades. Radio România Constanța beskriver platsen som rumänskt territorialvatten, men exakta koordinater för nedslaget och jurisdiktionen har inte oberoende verifierats.",
+      "Operatör, ursprung, avsikt och eventuell koppling till andra fartygsträffar eller larm i närheten är fortfarande okända. En tidigare sjöfartsrapport anger i stället 21:29 CET; den tidsavvikelsen är fortfarande olöst."
+    ],
+    "basis": "bc90d74246cb5145"
+  },
+  "N162": {
+    "headline": "Östra Tulcea · Kvällsvarning den 14 november",
+    "description": "Rumänska myndigheter utfärdade en civilskyddsvarning efter en upptäckt i luften. Drönaridentitet och inflygning i Rumänien är fortfarande obekräftade.",
+    "summary": [
+      "Två rumänska F-16 startade från Fetești; varning för östra Tulcea klockan 20:51, faran över klockan 21:37.",
+      "Den citerade terminologin från ministeriet bekräftar inte en drönare, en inflygning, ett angrepp eller ett ingripande. Ingen påvisad koppling till angreppen mot fartyg."
+    ],
+    "basis": "9e036c65d9b1d1c9"
+  },
+  "N163": {
+    "headline": "Området kring Sulina · Varning om radarkontakt sent den 14 november",
+    "description": "Rumänska myndigheter utfärdade en civilskyddsvarning efter en upptäckt i luften. Drönaridentitet och inflygning i Rumänien är fortfarande obekräftade.",
+    "summary": [
+      "Ny varning för östra Tulcea klockan 23:19; faran över klockan 00:27 följande dag. En separat start är inte fastställd.",
+      "Den citerade terminologin från ministeriet bekräftar inte en drönare, en inflygning, ett angrepp eller ett ingripande. Ingen påvisad koppling till angreppen mot fartyg."
+    ],
+    "basis": "146d9d719613c6b5"
+  },
+  "N164": {
+    "headline": "Kort drönarintrång nära Chilia den 2 maj",
+    "description": "Rumänska försvarsmyndigheter rapporterade en kort drönarinflygning nära Chilia. Mål och avsikt är fortfarande ofastställda; inget angrepp mot Rumänien härleds.",
+    "summary": [
+      "MApN rapporterade en kort, radarbekräftad inflygning nära Chilia, följd av förflyttning mot Ismail. Två F-16 startade omkring klockan 02:00; varningen för norra Tulcea gällde från klockan 02:03 till 02:50 lokal tid.",
+      "Inflygningen registreras separat från det bredare angreppet mot Ukraina. Avsikten och det specifika målet är fortfarande ofastställda; inget nedslag i Rumänien rapporteras."
+    ],
+    "basis": "82fa985c2e506266"
+  },
+  "N165": {
+    "headline": "Kort drönarintrång nära Chilia den 7 maj",
+    "description": "Rumänska försvarsmyndigheter rapporterade en kort drönarinflygning nära Chilia. Mål och avsikt är fortfarande ofastställda; inget angrepp mot Rumänien härleds.",
+    "summary": [
+      "MApN rapporterade en kort, radarbekräftad inflygning nära Chilia på morgonen den 7 maj. Två F-16 startade klockan 08:37; varningen för norra Tulcea gällde från klockan 08:40 till 09:40 lokal tid.",
+      "Inflygningen registreras separat från det bredare angreppet mot Ukraina. Avsikten och det specifika målet är fortfarande ofastställda; inget nedslag i Rumänien rapporteras."
+    ],
+    "basis": "438dcccd398f3603"
+  },
+  "N166": {
+    "headline": "Drönare flyger in i rumänskt luftrum och störtar nära Parcheș",
+    "description": "MApN bekräftade en drönarinflygning och nedstörtning utanför Parcheș den 26 mars. Spillror hittades; operatör, modell och avsett mål har inte angetts.",
+    "summary": [
+      "MApN rapporterade att en drönare flög in klockan 00:44 den 26 mars, trängde in omkring 4 km och störtade utanför Parcheș. Team hittade spillror och bränd vegetation; inga materiella skador eller offer rapporterades.",
+      "Ministeriet sade att ukrainskt luftvärn hade avlett drönaren. Denna redogörelse tillskrivs fortsatt MApN; meddelandet fastställer inte drönarens operatör, modell eller någon avsikt att angripa Rumänien."
+    ],
+    "basis": "89eac726d6b9440e"
+  },
+  "N167": {
+    "headline": "Oidentifierat mål flyger in i rumänskt luftrum nära Chilia Veche",
+    "description": "MApN bekräftade att ett luftmål flög in under natten mellan den 16 och 17 april. Drönaridentitet och nedstörtning är fortfarande obekräftade trots att radarkontakten senare förlorades.",
+    "summary": [
+      "MApN rapporterade en inflygning i det nationella luftrummet under natten mellan den 16 och 17 april. Kontakten förlorades omkring 16 km sydost om Chilia Veche, och ett sökuppdrag tillkännagavs.",
+      "Det officiella meddelandet beskriver ett luftmål, inte en identifierad drönare. Varken förlorad radarkontakt eller en planerad sökning fastställer en nedstörtning eller en bärgning av spillror."
+    ],
+    "basis": "23dfc89d5a63cde0"
+  },
+  "N168": {
+    "headline": "ALI NAJAFOV rapporterar nattlig drönarträff nära Donaus mynningar",
+    "description": "Rumänska myndigheter förmedlade en rapport om en drönarträff från ALI NAJAFOV. Besättningen släckte en brand; exakt position, jurisdiktion och tillskrivning är fortfarande okända.",
+    "summary": [
+      "ALI NAJAFOV rapporterade en drönarträff under natten mellan den 14 och 15 november nära Donaus mynningar. Rumänska myndigheter förmedlade fartygets rapport; besättningen släckte en brand och inga offer rapporterades.",
+      "Detta är ett annat fartyg än EVIA PETROL V och MARSOL. Dess exakta position och maritima jurisdiktion är fortfarande olösta; ingen gemensam operatör eller avsiktlig målinriktning är fastställd."
+    ],
+    "basis": "8b86269bf206800f"
+  },
+  "N169": {
+    "headline": "Eftermiddagsvarning i Tulcea utvidgades till staden och hävdes sedan",
+    "description": "Upptäckt av ett luftmål nära Ukraina ledde till en varning i Tulcea klockan 15:02, som utvidgades till staden innan faran över klockan 17:05. Inflygning i Rumänien är fortfarande obekräftad.",
+    "summary": [
+      "En varning efter upptäckten av ett luftmål i Ukraina inleddes klockan 15:02 den 15 november. Den utvidgades till Tulcea kommun klockan 16:56 och hävdes för alla berörda orter klockan 17:05.",
+      "Utvidgningen hör till samma varningsepisod. Varken drönaridentitet eller inflygning i rumänskt luftrum är fastställd; ingen koppling till nedslagen på fartyg härleds."
+    ],
+    "basis": "229b1930ed3783f0"
+  },
+  "N170": {
+    "headline": "Norr om Sulina · Kort drönarinflygning den 26 februari",
+    "description": "MApN bekräftade en kort drönarinflygning på kvällen den 26 februari, som slutade norr om Sulina omkring klockan 18:30.",
+    "summary": [
+      "MApN bekräftade en kort drönarinflygning på kvällen den 26 februari, som slutade norr om Sulina omkring klockan 18:30.",
+      "Den var skild från det tidigare larmet utan inflygning och från händelsen den 25 februari. Operatör, modell och avsikt har inte angetts."
+    ],
+    "basis": "c289f5664d4e1a20"
+  },
+  "N171": {
+    "headline": "Tănăsoaia · Möjliga fragment av en luftfarkost bärgade",
+    "description": "Försvarsspecialister undersökte och samlade in metallfragment i Tănăsoaia den 18 januari. De tydde på en möjlig luftfarkost.",
+    "summary": [
+      "Försvarsspecialister undersökte och samlade in metallfragment i Tănăsoaia den 18 januari. De tydde på en möjlig luftfarkost.",
+      "Drönaridentitet, ursprung och datum för nedfallet är fortfarande obekräftade; detta är en fyndkandidat, inte ett bekräftat intrång."
+    ],
+    "basis": "b7ad8cb376460adb"
+  },
+  "N172": {
+    "headline": "Botoșenița Mare · Nedstörtning av oidentifierat flygande föremål",
+    "description": "MApN rapporterade ett nedstörtat flygande föremål på en majsåker nära Botoșenița Mare den 12 september, med en mindre brand och inga offer.",
+    "summary": [
+      "MApN rapporterade ett nedstörtat flygande föremål på en majsåker nära Botoșenița Mare den 12 september, med en mindre brand och inga offer.",
+      "Utländska myndigheter rapporterade också drönartransit, och en observation som anmälts till 112 registrerades på annat håll. En sammanhängande koppling till det bärgade föremålet är inte fastställd."
+    ],
+    "basis": "678aa5f2a1e03414"
+  },
+  "N173": {
+    "headline": "Öster om Mangalia · Fynd av drivande flygdrönare",
+    "description": "MApN rapporterade en flygdrönare som drev omkring 45 sjömil öster om Mangalia den 15 november. Ursprung och uppdragets utfall är fortfarande okända.",
+    "summary": [
+      "Ett ATLANTIQUE 2 från franska marinen rapporterade en flygdrönare som drev omkring 45 sjömil öster om Mangalia den 15 november, enligt Rumäniens försvarsministerium.",
+      "Den planerade ammunitionsröjningsbedömningen (EOD) den 16 november försenades av dåligt väder: MApN sade att båda båtarna återvände utan att ha slutfört sina bedömningar. Ingen bärgning och inget oskadliggörande är fastställt.",
+      "Detta är ett fynd till havs, inte bevis för ett intrång i rumänskt territoriellt luftrum. Drönarens ursprung, datum för flygning och nedfall, nyttolast och eventuell koppling till de senaste fartygsträffarna är fortfarande okända."
+    ],
+    "basis": "875f004d900296a2"
+  },
+  "N174": {
+    "headline": "Öster om Chituc · Fynd av drivande flygdrönare",
+    "description": "MApN rapporterade en flygdrönare som drev omkring 53 sjömil öster om Chituc den 15 november. Ursprung och uppdragets utfall är fortfarande okända.",
+    "summary": [
+      "Ett ATLANTIQUE 2 från franska marinen rapporterade en flygdrönare som drev omkring 53 sjömil öster om Chituc den 15 november, enligt Rumäniens försvarsministerium.",
+      "Den planerade ammunitionsröjningsbedömningen (EOD) den 16 november försenades av dåligt väder: MApN sade att båda båtarna återvände utan att ha slutfört sina bedömningar. Ingen bärgning och inget oskadliggörande är fastställt.",
+      "Detta är ett fynd till havs, inte bevis för ett intrång i rumänskt territoriellt luftrum. Drönarens ursprung, datum för flygning och nedfall, nyttolast och eventuell koppling till de senaste fartygsträffarna är fortfarande okända."
+    ],
+    "basis": "328155b1bc112d37"
+  },
+  "N175": {
+    "headline": "BETUL 8 kantrar utanför Bulgarien; besättningsmedlem hävdar angrepp med havsdrönare",
+    "description": "Alla 12 i besättningen på BETUL 8 räddades efter kantringen i Bulgariens EEZ den 16 november. Ett påstående om angrepp med havsdrönare är fortfarande obekräftat.",
+    "summary": [
+      "Bulgariska myndigheter bekräftade att BETUL 8 kantrade i landets exklusiva ekonomiska zon den 16 november. Alla 12 i besättningen evakuerades; ministeriet rapporterade inga allvarliga skador.",
+      "BNR citerade en räddad sjöman som hävdade att två havsdrönare hade angripit fartyget. Myndigheterna hade inte bekräftat den orsaken i de granskade uttalandena. Fartygsolyckan till havs behålls som en kandidat, inte som ett bekräftat drönarangrepp eller territoriellt intrång.",
+      "Bulgariens NAVWARN 860/26 anger en senare observation klockan 14:45 UTC den 19 november: fartyget hade kantrat och drev utan besättning eller styrning. Detta är inget fastställande av slutligt skick eller orsak."
+    ],
+    "basis": "aad7a84948b3f2bc"
+  },
+  "N176": {
+    "headline": "Egeiska havet · Sju UAV i grekiskt register för den 16 november",
+    "description": "GEETHA:s novemberregister anger sju UAV, sju luftrumskränkningar och tio FIR-överträdelser för den 16 november, vilket skiljer sig från den tidigare bulletinen.",
+    "summary": [
+      "GEETHA:s månadsregister anger sju UAV som samtliga rapporterade luftfartyg för den 16 november, med sju kränkningar av nationellt luftrum och tio överträdelser av Atens FIR. Den tidigare bulletinen från Parapolitika angav sex kränkningar och nio överträdelser; skillnaden är oförklarad.",
+      "Detta är fortsatt en enda daglig regional registrering. Siffrorna är inte additiva och inte en oberoende verifierad räkning av flygningar; ingen vapeninsats är fastställd."
+    ],
+    "basis": "1392b1b1c36513b7"
+  },
+  "N177": {
+    "headline": "Larm i norra Tulcea under natten; ingen inflygning i rumänskt luftrum registrerad",
+    "description": "Rumänien utfärdade ett nattligt larm den 16–17 november efter radarupptäckter över Ukraina. MApN rapporterade ingen otillåten inflygning i rumänskt luftrum.",
+    "summary": [
+      "Rumänien utfärdade ett civilskyddslarm efter radarupptäckter över Ukraina. Ingen otillåten inflygning i rumänskt luftrum registrerades.",
+      "Detta är ett enda utvalt larm, inte ett bekräftat drönarintrång."
+    ],
+    "basis": "016739f3dca934f0"
+  },
+  "N178": {
+    "headline": "Besättningen på GAS HUSKY räddad efter fartygsolycka till havs; drönarorsak obekräftad",
+    "description": "Alla 19 i besättningen på GAS HUSKY räddades utanför Bulgarien den 17 november. En officiell varning beskriver ett krängande, drivande fartyg; påståenden om drönare är obekräftade.",
+    "summary": [
+      "Bulgariska myndigheter räddade alla 19 i besättningen från GAS HUSKY den 17 november 2026 efter en fartygsolycka till havs. Det Liberiaflaggade LPG-fartyget var på väg från Egypten till Rumänien. Platsen ligger i Bulgariens exklusiva ekonomiska zon, inte i dess territorialvatten.",
+      "En navigationsvarning klockan 10:50 UTC beskrev 45 graders slagsida, en brygga under vatten och ett obemannat fartyg på drift. Den fastställde inte någon fullständig sjunkning, trots tidiga rapporter. AP rapporterar, med hänvisning till Maritime.bg, att den räddade kaptenen sade att fyra drönare träffade fartyget; AP uppger också att det inte finns någon officiell bekräftelse av orsaken. Påståendet är inte oberoende verifierat, och ingen operatör eller koppling till BETUL 8 är fastställd.",
+      "Fartygsförvaltaren Stealth Maritime uppger att fartyget träffades tidigt den 17 november i Bulgariens EEZ, men anger inte vad som träffade det och säger att dess skick var okänt vid tidpunkten. Uttalandet, återgivet av Naftemporiki, bekräftar att LPG hade lastats i Alexandria med destination Midia.",
+      "En senare rapport från Maritime.bg tillskriver en icke namngiven källa vid förvaltningsbolaget uppgiften om ett kombinerat angrepp med yt- och flygdrönare. Detta är fortfarande en obekräftad redogörelse; förvaltarens offentliga uttalande anger ingen mekanism.",
+      "Den 18 november sade guvernören i Varna, Mario Smurkov, till bTV att det hade förekommit fyra nedslag, men att sjömännens redogörelser gick isär och att drönartyperna fortfarande var obekräftade. Han sade att fartygen ännu inte hade sjunkit och att ingen förorening hade upptäckts vid den tidpunkten. Fyra nedslag fastställer inte fyra oberoende verifierade drönare.",
+      "Reuters rapporterade den 18 november att två icke namngivna källor inom sjösäkerhet tillskrev angreppet ett obemannat system. Byrån upprepade guvernörens redogörelse om fyra nedslag utan att fastställa drönartyp eller operatör. Reuters beskrev fartyget som sjunket men angav ingen nyare observationstid som kunde lösa de tidigare rapporterna om dess skick.",
+      "Bulgariens NAVWARN 858/26 anger en senare observation klockan 13:30 UTC den 19 november: fartyget hade omkring 45 graders slagsida, bryggan var under vatten och det drev utan besättning eller styrning. Detta är inget fastställande av slutligt skick eller orsak.",
+      "NAVWARN 865/26 rapporterar att GAS HUSKY klockan 12:38 UTC den 21 november fortfarande var obemannat och på drift, med kraftig slagsida och bryggan under vatten. Observationen fastställer inte någon sjunkning eller den ursprungliga mekanismen.",
+      "Filippinska myndigheter hade rapporterat att två skadade besättningsmedlemmar återhämtade sig efter behandling. The Manila Times rapporterade, med hänvisning till Filippinernas departement för migrantarbetare, om avskedet på flygplatsen i Varna för de 19 filippinska besättningsmedlemmarna den 25 november. Två grupper väntades nå Manila den 26 november, filippinsk tid; deras ankomst var inte oberoende bekräftad vid denna granskning. Detta fastställer inte fartygets slutliga skick eller den ursprungliga orsaken."
+    ],
+    "basis": "2e8a41b9e0e20de5"
+  },
+  "N179": {
+    "headline": "Egeiska havet · Sex UAV i grekiskt register för den 17 november",
+    "description": "GEETHA:s register anger sex UAV den 17 november, vilket skiljer sig från de ursprungliga fem. Sammanlagda luftrumssiffror kan inte tillskrivas enbart drönare.",
+    "summary": [
+      "GEETHA:s månadsregister anger sex UAV och fyra bemannade luftfartyg för den 17 november, med sjutton sammanlagda kränkningar av nationellt luftrum och tio sammanlagda överträdelser av Atens FIR. Det fördelar inte dessa totaler efter typ av luftfartyg.",
+      "Den tidigare bulletinen angav fem UAV med fyra luftrumskränkningar och sju FIR-överträdelser. Den ursprungliga redogörelsen citeras fortfarande, men registret skiljer sig och ger ingen förklaring. Ingen av versionerna fastställer oberoende flygbanor; mötet med stridsflygplan är inte en nedskjutning av en drönare."
+    ],
+    "basis": "87dcaf1584079e1c"
+  },
+  "N180": {
+    "headline": "Farmakonisi · Överflygning av turkisk UAV rapporterad den 30 juli",
+    "description": "Grekiska myndigheter rapporterade en överflygning av Farmakonisi med UAV den 30 juli. Ett ministersvar i november bekräftar officiell rapportering till NATO, inte en slutsats från NATO.",
+    "summary": [
+      "Grekiska rapporter tillskrev två turkiska UAV åtta kränkningar av nationellt luftrum den 30 juli 2026, däribland en överflygning av Farmakonisi. Fyra separata överträdelser av Atens FIR tillskrevs UAV:erna. Detta är en enda daglig registrering, inte tolv incidenter.",
+      "Ett ministersvar daterat den 1 november och publicerat den 16 november bekräftar överflygningen och uppger att Grekland skickade en officiell rapport till NATO. Där sades att en analys från NATO väntades vid den tidpunkten; svaret innehåller varken en slutsats från NATO eller belägg för att ett svar fortfarande väntas. Exakta flygbanor och avsikt är fortfarande okända."
+    ],
+    "basis": "1ce7f990ce68d0c0"
+  },
+  "N181": {
+    "headline": "Drönarskadade MARIAM M driver in i rumänska vatten och går på grund vid Vadu",
+    "description": "MARIAM M gick på grund vid Vadu den 16 november efter att ha drivit från Ukraina. Registrerad som maritimt efterspel, med video; inget nytt angrepp i Rumänien rapporterat.",
+    "summary": [
+      "MARIAM M gick på grund vid Vadu på Rumäniens kust den 16 november 2026. Det övergivna, Tanzaniaflaggade lastfartyget hade drivit in i rumänska vatten efter att dess ankare brustit den 14 november.",
+      "Rumänska myndigheter uppger att ett drönarangrepp i september i ukrainskt territorialvatten hade lämnat fartyget ankrat där. Denna registrering omfattar dess efterföljande ankomst och grundstötning i Rumänien, klassificerad som Larm / övrigt. Den räknar inte något nytt drönarangrepp och överför inte offer från angreppet i september.",
+      "Den 19 november frigjorde bogserbåtar fartyget från den ursprungliga sandbanken. ProTV rapporterade senare att det rörde sig omkring 100 meter innan det gick på grund på en annan sandrevel, varefter besättningen ankrade det och avbröt bärgningen vid mörkrets inbrott. Sidan innehåller tidigare filmmaterial från ARSVOM:s insats och en länk till en video från strandlinjen.",
+      "Vid ett separat försök den 22 november rapporterade Știrile ProTV att tre bogserbåtar vände MARIAM M mot öppet vatten, men att fartyget delvis gick på grund igen och att arbetet avbröts vid mörkrets inbrott. Slutlig förtöjningsplats och miljömässigt utfall är fortfarande overifierade."
+    ],
+    "basis": "9fa9d16fcb95d141"
+  },
+  "N182": {
+    "headline": "Egeiska havet · En UAV i grekisk daglig rapport för den 18 november",
+    "description": "Grekiska siffror tillskriver en UAV en kränkning av nationellt luftrum och en separat FIR-överträdelse den 18 november. En regional registrering, inget rapporterat ingripande.",
+    "summary": [
+      "GEETHA-siffror som återges av OnAlert och NewsIT tillskriver en turkisk UAV en kränkning av nationellt luftrum och en separat överträdelse av Atens FIR den 18 november i nordöstra och centrala Egeiska havet.",
+      "Det bemannade CN-235-planet i samma tabell är undantaget från UAV-siffrorna. Rutinmässig avfångning rapporteras, utan ingripanden. Dessa medier återger samma myndighetsredogörelse, inte oberoende flygbanor; exakt färdväg, modell och avsikt är fortfarande okända."
+    ],
+    "basis": "9fecf75febc5fc69"
+  },
+  "N183": {
+    "headline": "Egeiska havet · Rapporterad turkisk UAV-aktivitet den 14 november",
+    "description": "Grekiska myndigheter anger 2 turkiska UAV den 14 november, med separat rapporterade siffror för nationellt luftrum och FIR.",
+    "summary": [
+      "GEETHA:s novemberregister anger 2 UAV och inga bemannade luftfartyg för den 14 november i sydöstra Egeiska havet.",
+      "Registret rapporterar en kränkning av nationellt luftrum och 2 separata överträdelser av Atens FIR. Detta är siffror från grekiska myndigheter, inte oberoende verifierade flygbanor, räkningar av unika händelser eller angrepp. Inget ingripande angavs."
+    ],
+    "basis": "7a977838703818f5"
+  },
+  "N184": {
+    "headline": "Egeiska havet · Rapporterad turkisk UAV-aktivitet den 15 november",
+    "description": "Grekiska myndigheter anger 3 turkiska UAV den 15 november, med separat rapporterade siffror för nationellt luftrum och FIR.",
+    "summary": [
+      "GEETHA:s novemberregister anger 3 UAV och inga bemannade luftfartyg för den 15 november i centrala och sydöstra Egeiska havet.",
+      "Registret rapporterar 4 kränkningar av nationellt luftrum och 4 separata överträdelser av Atens FIR. Detta är siffror från grekiska myndigheter, inte oberoende verifierade flygbanor, räkningar av unika händelser eller angrepp. Inget ingripande angavs."
+    ],
+    "basis": "9348fe0fa7d38f26"
+  },
+  "N186": {
+    "headline": "Egeiska havet · Rapporterad turkisk UAV-aktivitet den 20 november",
+    "description": "Grekiska myndigheter rapporterade tre turkiska UAV och tre kränkningar av nationellt luftrum den 20 november. Separata FIR-siffror är inte antal incidenter.",
+    "summary": [
+      "OnAlert återger siffror från den grekiska generalstaben för sydöstra Egeiska havet den 20 november: tre turkiska UAV, tre kränkningar av nationellt luftrum av UAV och tre separata överträdelser av Atens FIR av UAV. Ett bemannat ATR-72 svarade för ytterligare två FIR-överträdelser.",
+      "Detta är tillskrivna dagliga siffror från grekiska myndigheter, inte oberoende flygbanor eller tre separata kartlagda incidenter. Raden i det primära månadsregistret verifierades inte oberoende."
+    ],
+    "basis": "394520276666d168"
+  },
+  "N188": {
+    "headline": "Ukraina erkänner angreppet mot SPARTA II; Finland ledde den senare räddningen",
+    "description": "Ukraina erkände drönarangreppet i Finska viken den 21 november. Uppgifterna går isär om var fartyget träffades. Finland ledde senare räddningen.",
+    "summary": [
+      "Finlands försvarsmakt rapporterade ett drönarangrepp den 21 november i östra Finska viken. Militären förlade det till internationellt vatten, medan gränsbevakningens befälhavare Ilja Iljin sade att det skedde i ryskt territorialvatten. Det brinnande fartyget drev senare in i finskt territorialvatten. Det fastställer inte att en drönare korsade in i Finland.",
+      "Finska sjöbevakningen bekräftade att besättningen evakuerades till KAPITAN SAKHAROV. Vid sin pressträff den 22 november rapporterade den finska gränsbevakningen att en besättningsmedlem hade skadats. Brandbekämpningen fortsatte efter att de synliga lågorna hade slagits ned; ingen olja hade observerats på havet vid tidpunkten för pressträffen. Det var ingen slutlig bedömning.",
+      "Kommunikationsdirektören vid Finlands försvarsmakt, Aki-Mauri Huhtinen, bedömde att Ukraina sannolikt var ansvarigt. Den specifika operatören, avsikten och lasten fastställdes inte oberoende.",
+      "Estlands utrikesministerium uppger att det skadade fartyget drev från Estlands exklusiva ekonomiska zon in i Finlands exklusiva ekonomiska zon och därefter in i finskt territorialvatten. Estland bistod på Finlands begäran; den finska gränsbevakningen bekräftade estniskt deltagande i brandbekämpning och kylning. Räddningsredogörelserna fastställer inte platsen för angreppet eller en drönares färdväg.",
+      "Den 22 november lämnade bogseringen Finlands exklusiva ekonomiska zon och miljöinsatsområdet, Finland avslutade sitt uppdrag och tillfälliga restriktioner hävdes. Helsingfors avslutade separat sin förebyggande oljeskyddsberedskap. Svenska Yle rapporterade att Ryssland tog över ansvaret för sjöräddningen.",
+      "Den 23 november sade guvernören i Leningrad oblast, Aleksandr Drozdenko, att besättningen gick i land i Sankt Petersburg klockan 20:00 Moskvatid. Han sade att fartyget nådde samma hamn flytande med sin last, utan att ange fartygets ankomsttid. Hans uppgift om att ingen skadats strider mot den finska gränsbevakningens rapport. Slutligt utfall i fråga om brand och förorening samt lastens identitet är fortfarande overifierade.",
+      "Finlands Utsökningsverk sade att det bedömde att fartyget tillhörde ett EU-sanktionerat bolag och införde en tillfällig överlåtelsebegränsning efter att fartyget kommit in i finskt territorialvatten den 21 november. Begränsningen hade undantag för räddning, säkerhet och miljö. Slutligt rättsligt avgörande fastställdes inte.",
+      "I en intervju med Bloomberg som publicerades den 24 november erkände president Volodymyr Zelenskyj att Ukraina genomförde angreppet och hävdade att det skedde i ryskt territorialvatten. ERR rapporterade att träffen skedde i Estlands EEZ; en estnisk räddningstjänsteman förlade fartyget till den EEZ:n när brand och explosion inträffade. Finlands militär betecknade området för angreppet som internationellt vatten. Den exakta platsen för angreppet och Zelenskyjs påstående om vapen ombord har inte oberoende verifierats. Finlands senare räddningsinsats är ett separat dokumenterat faktum."
+    ],
+    "basis": "672fe12e4e10cab6"
+  },
+  "N189": {
+    "headline": "Estland utfärdade och hävde en varning för lufthot i två nordöstra landskap",
+    "description": "Estland varnade invånare i Lääne-Viru och Ida-Viru för ett möjligt lufthot den 21 november. Larmet fastställer inte något drönarintrång.",
+    "summary": [
+      "Estlands försvarsmakt utfärdade en varning för möjligt lufthot för Lääne-Viru och Ida-Viru den 21 november klockan 04:42 lokal tid. Meddelandet rådde människor att söka skydd om en drönare sågs. Faran över följde klockan 06:49 lokal tid. Detta är en enda varningsepisod, inte ett verifierat intrång."
+    ],
+    "basis": "c7c59339eb4400db"
+  },
+  "N190": {
+    "headline": "Invånare i Tulcea varnades under natten; Rumänien rapporterade ingen inflygning i luftrummet",
+    "description": "Myndigheterna utfärdade ett RO-Alert klockan 00:46 lokal tid den 22 november och skickade upp två F-16. Försvarsministeriet rapporterade ingen inflygning i rumänskt luftrum.",
+    "summary": [
+      "En nattlig varning gick ut till norra och östra Tulcea klockan 00:46 lokal tid den 22 november. Rumäniens försvarsministerium rapporterade ett luftmål utanför det nationella luftrummet och sade att två F-16 lyfte. Det rapporterade ingen inflygning i det nationella luftrummet. Ministeriet sade att flyglarmet upphörde klockan 02:14, medan ISU Delta Tulcea angav 02:16 och rapporterade inga förfrågningar eller problem. Detta är redogörelser för en enda varningsepisod."
+    ],
+    "basis": "bb330334fdeedf43"
+  },
+  "N191": {
+    "headline": "Egeiska havet · Rapporterad turkisk UAV-aktivitet den 22 november",
+    "description": "Siffror från grekiska myndigheter angav sju turkiska UAV, sju kränkningar av nationellt luftrum och sju separata överträdelser av Atens FIR.",
+    "summary": [
+      "Grekiska medier som hänvisade till Greklands nationella försvarsstab rapporterade sju turkiska UAV, sju kränkningar av grekiskt nationellt luftrum och sju överträdelser av Atens FIR över nordöstra, centrala och sydöstra Egeiska havet den 22 november. De rapporterade rutinmässig identifiering och avfångning.",
+      "De tre siffrorna är separata mått i en enda daglig rapport. De fastställer inte oberoende flygbanor, en nedskjutning eller ett angrepp. Raden i det ursprungliga dagliga registret kunde inte verifieras."
+    ],
+    "basis": "0eec6e747256d451"
+  },
+  "N192": {
+    "headline": "Eftermiddagens RO-Alert i norra Tulcea upphörde utan rapporterad inflygning i luftrummet",
+    "description": "Norra Tulcea fick en separat eftermiddagsvarning klockan 15:06 lokal tid den 22 november. Ingen inflygning i rumänskt luftrum rapporterades.",
+    "summary": [
+      "Rumäniens försvarsministerium rapporterade ett luftmål norr om Vâlcove i Ukraina och ett RO-Alert för norra Tulcea från klockan 15:06 till 15:42 lokal tid den 22 november. Ingen inflygning i rumänskt luftrum rapporterades.",
+      "Ministeriet sade att spanska stridsflygplan och helikoptrar lyfte som svar. Det rapporterade ingen avfångning.",
+      "Detta är en civilskyddsvarning, inte ett bekräftat drönarintrång eller angrepp. Måltyp och operatör fastställdes inte."
+    ],
+    "basis": "1fce4c3f1e26c381"
+  },
+  "N193": {
+    "headline": "Kvällens RO-Alert i norra Tulcea upphörde utan rapporterad inflygning i luftrummet",
+    "description": "Norra Tulcea fick en separat kvällsvarning klockan 20:01 lokal tid den 22 november. Ingen inflygning i rumänskt luftrum rapporterades.",
+    "summary": [
+      "Rumäniens försvarsministerium rapporterade luftmål öster om Ormön och ett RO-Alert för norra Tulcea från klockan 20:01 till 21:15 lokal tid den 22 november. Ingen inflygning i rumänskt luftrum rapporterades.",
+      "Detta är en civilskyddsvarning, inte ett bekräftat drönarintrång eller angrepp. Måltyp och operatör fastställdes inte."
+    ],
+    "basis": "6ac4b0c86f4adf5a"
+  },
+  "N194": {
+    "headline": "Drönare som tillskrivs Ryssland flyger in i Polen nära Dorohusk och återvänder till Ukraina",
+    "description": "Polen rapporterar att en drönare korsade gränsen nära Dorohusk den 23 november. Nedskjutning godkändes, men inga vapen användes innan den återvände till Ukraina.",
+    "summary": [
+      "Polens operativa ledning bekräftade att en drönare som tillskrivs Ryssland flög in i polskt luftrum den 23 november under angrepp mot västra Ukraina. Rzeczpospolitas uppföljning, med hänvisning till ledningen och talespersonen Jacek Goryszewski, förlägger inflygningen nära Dorohusk klockan 22:50 lokal tid, med ett intrång på omkring 20 km som varade i 8–9 minuter innan drönaren vände tillbaka mot Ukraina.",
+      "En nedskjutning godkändes, men inga vapen användes. Radio Lublin och UNITED24 rapporterar att befälhavarna avstod från att öppna eld efter vändningen österut, med hänsyn till civilbefolkningens säkerhet. Goryszewski sade att markbaserade system hade tillstånd; polska flygplan opererade inte nära gränsen på grund av vädret. Inga offer, nedslag eller bärgade spillror rapporterades.",
+      "Talespersonen bedömde utifrån flyghastigheten att drönaren var jetdriven men bekräftade inte kameror eller en spaningsroll. Modell, nyttolast och avsett mål är fortfarande okända. Markören vid Dorohusk är en ungefärlig referens, inte en verifierad koordinat för gränspassagen. Offentliga varningar ingår i denna enda händelse, som är skild från robotincidenten den 20 november.",
+      "Regeringens säkerhetscentrum loggade uppdateringen om att söka skydd klockan 22:56 CET och faran över klockan 23:54 CET. Detta är varningstider, inte flygtider."
+    ],
+    "basis": "d2d4fb5622cf3ffd"
+  },
+  "N195": {
+    "headline": "Tausiūnai–Aukštalaukis: gränsvakter bärgar drönare med cigaretter från Belarus",
+    "description": "Litauen rapporterar ett separat drönarintrång nära Tausiūnai–Aukštalaukis den 27 september, där 250 paket cigaretter bärgades. Operatören är okänd.",
+    "summary": [
+      "VSAT rapporterade en drönare med cigaretter från Belarus sent på söndagskvällen, lokal tid, den 27 september. Drönaren upptäcktes nära Tausiūnai och bärgades nära Aukštalaukis efter att ha tvingats ned. Den var svårt skadad.",
+      "Gränsvakterna bärgade 250 paket cigaretter och inledde administrativa förfaranden. Operatören identifierades inte. Detta är ett gränsöverskridande smugglingsärende, inte ett fastställt statligt angrepp."
+    ],
+    "basis": "075b2a5c83a9ffc2"
+  },
+  "N196": {
+    "headline": "Eišiškės: gränsvakter bärgar drönare med cigaretter från Belarus",
+    "description": "Litauen rapporterar ett separat drönarintrång nära Eišiškės den 27 september, där 100 paket cigaretter bärgades. Operatören är okänd.",
+    "summary": [
+      "VSAT rapporterade en drönare med cigaretter från Belarus före midnatt, lokal tid, den 27 september. En annan patrull avfångade drönaren nära Eišiškės flera timmar efter den första händelsen. Drönaren föll ned i tätortsområdet och bärgades.",
+      "Gränsvakterna bärgade 100 paket cigaretter och inledde administrativa förfaranden. Operatören identifierades inte. Detta är ett gränsöverskridande smugglingsärende, inte ett fastställt statligt angrepp."
+    ],
+    "basis": "0184a774707cec6e"
+  },
+  "N197": {
+    "headline": "Egeiska havet: 6 rapporterade luftrumskränkningar den 18 oktober",
+    "description": "Veteranos beskrev, med hänvisning till grekisk militär rapportering, 5 turkiska UAV i centrala och sydöstra Egeiska havet den 18 oktober 2026, med 6 rapporterade kränkningar av nationellt luftrum och, separat, 10 överträdelser av flygtrafikreglerna i Atens FIR.",
+    "summary": [
+      "Veteranos beskrev, med hänvisning till grekisk militär rapportering, 5 turkiska UAV i centrala och sydöstra Egeiska havet den 18 oktober 2026, med 6 rapporterade kränkningar av nationellt luftrum och, separat, 10 överträdelser av flygtrafikreglerna i Atens FIR.",
+      "Redogörelsen rapporterar identifiering och rutinmässig avfångning, inte en vapeninsats eller en nedskjutning.",
+      "Detta är en enda tillskriven daglig registrering, inte en räkning av separata bekräftade intrång. Den ursprungliga posten i det grekiska militära registret erhölls inte, och flygbanor, exakta platser, avsikt och uppgifter om operatören är overifierade. Den grekisk-turkiska luftrumstvisten är fortfarande relevant."
+    ],
+    "basis": "b78a96fd3dd18174"
+  },
+  "N198": {
+    "headline": "Egeiska havet: 3 rapporterade luftrumskränkningar den 21 november",
+    "description": "Veteranos beskrev, med hänvisning till grekisk militär rapportering, en turkisk UAV i centrala Egeiska havet den 21 november 2026, med 3 rapporterade kränkningar av nationellt luftrum och, separat, 1 överträdelse av flygtrafikreglerna i Atens FIR.",
+    "summary": [
+      "Veteranos beskrev, med hänvisning till grekisk militär rapportering, en turkisk UAV i centrala Egeiska havet den 21 november 2026, med 3 rapporterade kränkningar av nationellt luftrum och, separat, 1 överträdelse av flygtrafikreglerna i Atens FIR.",
+      "Redogörelsen rapporterar identifiering och rutinmässig avfångning, inte en vapeninsats eller en nedskjutning.",
+      "Detta är en enda tillskriven daglig registrering, inte en räkning av separata bekräftade intrång. Den ursprungliga posten i det grekiska militära registret erhölls inte, och flygbanor, exakta platser, avsikt och uppgifter om operatören är overifierade. Den grekisk-turkiska luftrumstvisten är fortfarande relevant."
+    ],
+    "basis": "4035154a2ead9d19"
+  },
+  "N199": {
+    "headline": "Morgonens RO-Alert i norra Tulcea hävdes utan rapporterad inflygning i rumänskt luftrum",
+    "description": "Rumänien varnade norra Tulcea på morgonen den 24 november efter att ett mål upptäckts i ukrainskt luftrum. Ingen inflygning i rumänskt luftrum rapporterades.",
+    "summary": [
+      "Rumänien varnade norra Tulcea på morgonen den 24 november efter att ett mål upptäckts i ukrainskt luftrum. Ingen inflygning i rumänskt luftrum rapporterades.",
+      "Försvarsministeriet rapporterade en varning klockan 11:11 EET, övervakning av spanska flygplan och faran över klockan 11:51 EET.",
+      "Den lokala räddningstjänstens redogörelse angav 10:11 som tidpunkt för mottagandet per telefon. Denna avvikelse tyder inte på ett andra morgonlarm.",
+      "Detta är ett förebyggande larm, inte ett bekräftat intrång i Rumänien."
+    ],
+    "basis": "0198614f7d30239f"
+  },
+  "N200": {
+    "headline": "Eftermiddagens RO-Alert i norra Tulcea hävdes utan rapporterad inflygning i rumänskt luftrum",
+    "description": "Rumänien varnade norra Tulcea igen den 24 november efter att ett mål upptäckts nära Chilia-armen i ukrainskt luftrum. Ingen inflygning i rumänskt luftrum rapporterades.",
+    "summary": [
+      "Rumänien varnade norra Tulcea igen den 24 november efter att ett mål upptäckts nära Chilia-armen i ukrainskt luftrum. Ingen inflygning i rumänskt luftrum rapporterades.",
+      "Försvarsministeriet rapporterade en varning klockan 14:37 EET, övervakning med flygplan och faran över klockan 15:40 för norra Tulcea. ProTV rapporterar att flyglarmsfasen i Galați inleddes klockan 14:52 EET efter en rapport om en oidentifierad drönare på väg mot distriktet. Den lokala IGSU:s faran över rapporterades klockan 15:46 EET.",
+      "Målets identitet, operatör och avsedda mål är okända. Det är inte fastställt om varningarna i Tulcea och Galați gällde samma mål. Morgonvarningen är fortsatt separat.",
+      "Detta är ett förebyggande larm, inte ett bekräftat intrång i Rumänien."
+    ],
+    "basis": "faba06a8d0d3b2db"
+  },
+  "N201": {
+    "headline": "Žaltūnai–Girdijauskai: Litauen rapporterar gränsöverskridande smuggling med drönare",
+    "description": "Litauiska gränsvakter bärgade 2 luftfartyg och 2 000 paket cigaretter efter en nattlig insats i juli nära Žaltūnai–Girdijauskai.",
+    "summary": [
+      "9–10 juli 2026 (natt). Gränsbevakningen uppger att den upptäckte drönare från Belarus under natten. Tjänstemännen bärgade två fraktdrönare nära Žaltūnai och Girdijauskai efter att sökandet återupptagits i dagsljus.",
+      "Tjänstemännen bärgade 2 000 paket cigaretter med belarusisk stämpel från 2 luftfartyg. En brottsutredning inleddes.",
+      "Operatören samt den exakta passagepunkten och färdvägen är okända. Insatsen registreras som gränsöverskridande smuggling, inte som ett militärt angrepp."
+    ],
+    "basis": "a335379fd80fd841"
+  },
+  "N202": {
+    "headline": "Šiulgiai–Šumskas: Litauen rapporterar gränsöverskridande smuggling med drönare",
+    "description": "Litauiska gränsvakter bärgade ett luftfartyg och 340 paket cigaretter efter en nattlig insats i juli nära Šiulgiai–Šumskas.",
+    "summary": [
+      "17–18 juli 2026 (natt). Gränsbevakningen rapporterade att en fraktdrönare flög in i Litauen. Tjänstemännen hörde men såg inte drönaren nära Šiulgiai. Efter ett ingripande föll den ned, och det skadade luftfartyget bärgades nära Šumskas i dagsljus.",
+      "Tjänstemännen bärgade 340 paket cigaretter med belarusisk stämpel från ett luftfartyg. Administrativa förfaranden inleddes.",
+      "Operatören samt den exakta passagepunkten och färdvägen är okända. Insatsen registreras som gränsöverskridande smuggling, inte som ett militärt angrepp."
+    ],
+    "basis": "0eba63dd63dc7160"
+  },
+  "N203": {
+    "headline": "Norviliškės–Daulėnai: Litauen rapporterar gränsöverskridande smuggling med drönare",
+    "description": "Litauiska gränsvakter bärgade 3 luftfartyg och 3 000 paket cigaretter efter en nattlig insats i juli nära Norviliškės–Daulėnai.",
+    "summary": [
+      "29–30 juli 2026 (natt). Gränsbevakningen rapporterade fraktdrönare som flög in i Litauen från Belarus. Två luftfartyg bärgades nära Norviliškės och ett nära Daulėnai under en och samma nattliga insats, med den sista bärgningen i dagsljus.",
+      "Tjänstemännen bärgade 3 000 paket cigaretter med belarusisk stämpel från 3 luftfartyg. En brottsutredning inleddes.",
+      "Operatören samt den exakta passagepunkten och färdvägen är okända. Insatsen registreras som gränsöverskridande smuggling, inte som ett militärt angrepp."
+    ],
+    "basis": "20d845bfb0acadf0"
+  },
+  "N204": {
+    "headline": "Kiemėnai: litauiska gränsvakter bärgar smugglingsdrönare",
+    "description": "Litauiska gränsvakter bärgade en drönare och 750 cigarettpaket efter en nattlig insats nära Kiemėnai.",
+    "summary": [
+      "16–17 april 2026. VSAT uppgav att den upptäckte drönaren när den flög in i Litauen från Belarus. Drönaren föll ned efter att gränsvakter ingripit och bärgades nära Kiemėnai.",
+      "Tjänstemännen bärgade 750 paket cigaretter med belarusisk stämpel och inledde administrativa förfaranden.",
+      "Ingen operatör, inget statligt stöd och ingen exakt färdväg fastställdes. Detta är en registrering av gränssmuggling, inte ett militärt angrepp."
+    ],
+    "basis": "1738bd94e1620fe1"
+  },
+  "N205": {
+    "headline": "Prūdelis: litauiska gränsvakter bärgar smugglingsdrönare",
+    "description": "Litauiska gränsvakter bärgade en drönare och 1 000 cigarettpaket efter en nattlig insats nära Prūdelis.",
+    "summary": [
+      "8–9 juli 2026. VSAT rapporterade att drönaren flög inåt landet från gränsen mot Belarus; den offentliggjorde inte den exakta passagepunkten eller färdvägen. Drönaren föll ned efter att gränsvakter ingripit och bärgades nära Prūdelis.",
+      "Tjänstemännen bärgade 1 000 paket cigaretter med belarusisk stämpel och inledde administrativa förfaranden.",
+      "Ingen operatör, inget statligt stöd och ingen exakt färdväg fastställdes. Detta är en registrering av gränssmuggling, inte ett militärt angrepp."
+    ],
+    "basis": "1c7fd61759b9aa98"
+  },
+  "N206": {
+    "headline": "Egeiska havet · Rapporterad turkisk UAV-aktivitet den 25 november",
+    "description": "Siffror från grekiska myndigheter anger tre turkiska UAV, fyra kränkningar av nationellt luftrum och tre separata överträdelser av Atens FIR.",
+    "summary": [
+      "Greklands nationella försvarsstab (GEETHA) angav, enligt OnAlert och Veteranos, tre turkiska UAV, fyra rapporterade kränkningar av grekiskt nationellt luftrum och tre separata överträdelser av flygtrafikreglerna i Atens FIR den 25 november. Rapporten omfattade nordöstra, centrala och sydöstra Egeiska havet. Rutinmässig identifiering och avfångning rapporterades; inget ingripande angavs.",
+      "Siffrorna är separata mått i en enda daglig militär bulletin, inte verifierade enskilda flygbanor eller räkningar av angrepp. Båda rapporterna hänvisar till samma bulletin; den officiella månadstabellen var inte direkt tillgänglig vid granskningen."
+    ],
+    "basis": "0e4f136f9c21f1b4"
+  },
+  "N207": {
+    "headline": "Kuodžiai: Litauen rapporterar fyra smugglingsdrönare i en och samma insats",
+    "description": "Litauiska gränsvakter bärgade fyra drönare och 4 000 paket cigaretter efter en insats nära Kuodžiai den 30 juli.",
+    "summary": [
+      "30 juli 2026, kväll. Litauens statliga gränsbevakning (VSAT) rapporterade att fyra fraktdrönare flög in från Belarus och togs ned och bärgades i en och samma insats nära Kuodžiai i distriktet Lazdijai.",
+      "Den bärgade lasten uppgick till totalt 4 000 paket cigaretter med belarusisk stämpel. VSAT uppgav att en brottsutredning hade inletts. Detta är en enda dokumenterad insats, inte fyra separata incidentregistreringar.",
+      "Ingen exakt färdväg, operatörsidentitet eller statligt stöd fastställdes. Detta är ett kriminellt smugglingsärende, inte ett militärt angrepp."
+    ],
+    "basis": "f3ab912199253de4"
+  },
+  "N208": {
+    "headline": "Litauiska gränsvakter bärgar en smugglingsdrönare och 500 cigarettpaket nära Jurgionys",
+    "description": "Litauiska gränsvakter rapporterade en drönarinflygning från Belarus nära Jurgionys före midnatt den 24 november och bärgade 500 paket cigaretter.",
+    "summary": [
+      "Litauiska gränsvakter rapporterade en drönarinflygning från Belarus nära Jurgionys före midnatt den 24 november och bärgade 500 paket cigaretter.",
+      "Pressmeddelandet den 26 november uppger att luftfartyget skadades vid nedslaget. Det var det 74:e luftfartyget som avfångats inom den tillsynskategorin under 2026 vid tidpunkten för meddelandet, inte den 74:e registreringen i detta register."
+    ],
+    "basis": "67a42221ac53e32e"
+  },
+  "N209": {
+    "headline": "Litauiska gränsvakter rapporterar drönarinflygning nära Purvėnai och bärgning nära Geismantai",
+    "description": "Litauens gränsbevakning rapporterade en drönarinflygning den 24 januari och bärgade drönaren nära Geismantai med 1 000 paket cigaretter.",
+    "summary": [
+      "Litauens gränsbevakning rapporterade en drönarinflygning den 24 januari och bärgade drönaren nära Geismantai med 1 000 paket cigaretter.",
+      "Detta är skilt från den separat rapporterade händelsen i Purvėnai den 27 januari."
+    ],
+    "basis": "da169e0f9823eba4"
+  },
+  "N210": {
+    "headline": "Litauiska åklagare dokumenterar drönarsmuggling i maj i distriktet Švenčionys",
+    "description": "Litauiska åklagare uppgav att drönare förde 35 500 cigarettpaket över gränsen från Belarus under natten den 27 maj. Antalet luftfartyg är okänt.",
+    "summary": [
+      "Litauiska åklagare uppgav att drönare förde 35 500 cigarettpaket över gränsen från Belarus under natten den 27 maj. Antalet luftfartyg är okänt.",
+      "Gränsvakterna bärgade cigaretter efter att de hade flyttats på marken. Ingen avfångning eller bärgning av drönare rapporterades. Domstolsbeslutet hade inte vunnit laga kraft vid tidpunkten för tillkännagivandet den 20 november."
+    ],
+    "basis": "55b583cfae9bda20"
+  },
+  "N211": {
+    "headline": "Litauiska gränsvakter rapporterar att de tog ned fyra smugglingsdrönare nära Jaskonys",
+    "description": "Litauiska gränsvakter rapporterade att de tog ned fyra inkommande drönare i en och samma insats nära Jaskonys och bärgade luftfartygen och 4 998 cigarettpaket.",
+    "summary": [
+      "Litauiska gränsvakter rapporterade att de tog ned fyra inkommande drönare i en och samma insats nära Jaskonys och bärgade luftfartygen och 4 998 cigarettpaket.",
+      "Pressmeddelandet den 7 juli hänvisar till fredagsnatten, med bärgningar som fortsatte in i dagsljus. Det anger inte om det var före eller efter midnatt. Detta är inte den senare insatsen vid Kuodžiai."
+    ],
+    "basis": "bdc463b805195983"
+  },
+  "N212": {
+    "headline": "Kvällsvarning i norra Tulcea upphör utan rapporterad inflygning i rumänskt luftrum",
+    "description": "Rumäniens försvarsministerium rapporterade radarupptäckt av ett oidentifierat luftmål öster om Vâlcove i Ukraina. Norra Tulcea fick en varning. Ingen inflygning i rumänskt luftrum rapporterades.",
+    "summary": [
+      "Rumäniens försvarsministerium rapporterade radarupptäckt av ett oidentifierat luftmål öster om Vâlcove i Ukraina. Norra Tulcea fick en varning. Ingen inflygning i rumänskt luftrum rapporterades.",
+      "RO-Alert klockan 18:52 EET upphörde klockan 19:11. Spanska flygplan som redan var i luften på övning dirigerades om för att övervaka.",
+      "Detta är en civil varning, inte ett bekräftat drönarintrång."
+    ],
+    "basis": "6379cdfa337a493b"
+  },
+  "N213": {
+    "headline": "Grekisk daglig rapport anger sex turkiska UAV i Egeiska havet den 26 november",
+    "description": "Veteranos rapporterade sex turkiska UAV, nio rapporterade kränkningar av grekiskt nationellt luftrum och nio separata överträdelser av flygtrafikreglerna i Atens FIR.",
+    "summary": [
+      "Veteranos rapporterade sex turkiska UAV, nio rapporterade kränkningar av grekiskt nationellt luftrum och nio separata överträdelser av flygtrafikreglerna i Atens FIR.",
+      "Tabellen omfattar nordöstra, centrala och sydöstra Egeiska havet och anger inga beväpnade luftfartyg eller ingripanden.",
+      "Siffrorna är separata mått från en enda publicerad daglig rapport, inte verifierade flygbanor eller räkningar av angrepp."
+    ],
+    "basis": "4cb6890e53c1739e"
+  },
+  "N214": {
+    "headline": "Lettlands militär bekräftar kort drönarinflygning nära landets östra gräns",
+    "description": "Lettlands försvarsmakt uppgav att ett obemannat luftfartyg kortvarigt befann sig på lettiskt territorium under natten den 27 november. Ingen andra inflygning bekräftades i Balvi.",
+    "summary": [
+      "Lettlands försvarsmakt uppgav att ett obemannat luftfartyg kortvarigt befann sig på lettiskt territorium under natten den 27 november. Ingen andra inflygning bekräftades i Balvi.",
+      "Den orange varningen i Ludza gällde 02:30–02:55 EET. Den gula varningen i Balvi inleddes klockan 02:55 och upphörde omkring klockan 03:30. NATO-stridsflygplan aktiverades, och en lettisk avfångningsdrönare sattes in och återvände.",
+      "Militären identifierade inte drönarens operatör, ursprung eller mål och rapporterade ingen nedskjutning."
+    ],
+    "basis": "669b6dce3baee574"
   }
 }

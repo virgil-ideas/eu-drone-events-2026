@@ -114,7 +114,7 @@ test('localization preserves News mode and the active recording action', () => {
     applyStaticText(){ $('list-title').textContent='Incidents';$('record-video-label').textContent='Record Video'; }};
   for (const name of ['populateFilterDropdowns','renderLegend','renderMonthLabels','renderAbout','renderMaritimeDialog',
     'renderTrend','renderCumulative','labelMarkers','labelAreas','updatePlayButton','updateSoundButton','render',
-    'renderNewsList','syncMobileTabs']) context[name]=()=>{};
+    'renderNewsList','syncMobileTabs','labelMonthPresets','scheduleTopbarFit']) context[name]=()=>{};
   vm.createContext(context);
   vm.runInContext(section('  function localize()', '  async function changeLanguage')
     + section('  function setFeedMode', "  $('tab-incidents').addEventListener")+'localize();',context);
@@ -149,15 +149,16 @@ test('maritime replay uses the last ship date and includes CONTSHIP JET through 
   const context={$,maritimeEscalation:summary,DARK_TURN_DATE:summary.startDate,
     window:{innerWidth:1200},dayOf:date=>Date.parse(date)/86400000,
     requestAnimationFrame:fn=>fn(),intervalStartDay:0,intervalEndDay:0,currentDay:0,playbackDay:0,
-    allMode:false,selectedCountry:'Romania',selectedCategoryGroup:'',searchQuery:'old search'};
+    allMode:false,selectedCountries:new Set(['Romania']),selectedCategories:new Set(['crash']),searchQuery:'old search'};
+  context.clearFilters=()=>{context.selectedCountries=new Set();context.selectedCategories=new Set();context.searchQuery='';};
   for(const fn of ['pause','closeDetail','syncIntervalInputs','updatePresetChips','renderCumulative',
     'render','setMobileView','fitEvents','setStudioOpen','renderMonthLabels','play']) context[fn]=()=>{};
   vm.createContext(context);
   vm.runInContext(section('  function focusMaritimeEscalation','  function updateFilterBanner')+'focusMaritimeEscalation(true);',context);
   assert.equal(context.intervalEndDay,Date.parse('2026-10-28')/86400000);
   assert.equal(context.intervalStartDay,Date.parse('2026-10-05')/86400000);
-  assert.equal(context.selectedCategoryGroup,'maritime');
-  assert.equal(context.selectedCountry,'');
+  assert.deepEqual([...context.selectedCategories],['maritime']);
+  assert.equal(context.selectedCountries.size,0);
   assert.equal(context.searchQuery,'');
   const ids=new Set(summary.ships.map(e=>e.id));
   const visible=replay.intervalEvents(active,summary.startDate,summary.endDate).filter(e=>ids.has(e.id));
@@ -224,4 +225,46 @@ test('interval counts select locale-specific singular and plural forms', () => {
   assert.equal(count('pl',2),'2 wpisy w okresie');
   assert.equal(count('pl',5),'5 wpisów w okresie');
   for (const lang of Object.keys(strings)) for(const n of [0,1,2,5,21,100]) assert(count(lang,n));
+});
+
+test('outcome presets split records into strikes and crashes versus the rest, and chips combine', () => {
+  const context={events:active,searchQuery:'',selectedCountries:new Set(),selectedCategories:new Set(),
+    isMaritimeVessel:()=>false,matchesSearch:()=>true,
+    allCountriesOf:event=>event.countries.replace(/\([^()]*\)/g,'').split(';').map(c=>c.trim()).filter(Boolean)};
+  vm.createContext(context);
+  vm.runInContext(section('  function matchesCategoryGroup','  function matchesSearch')
+    +section('  const matchesCountries','  function intervalEvents')
+    +section('  const CATEGORY_GROUPS','  const groupColor')
+    +'this.OUTCOME_PRESETS=OUTCOME_PRESETS;this.filteredBy=filteredBy;',context);
+  const {impact,quiet}=context.OUTCOME_PRESETS;
+  context.selectedCategories=new Set(impact);
+  const hits=context.filteredBy();
+  assert(hits.length > 0);
+  assert(hits.every(e=>['strike','explosion','shotdown','engaged','crash'].includes(e.category)));
+  context.selectedCategories=new Set(quiet);
+  const rest=context.filteredBy();
+  assert(rest.every(e=>['flight','alert','recovery','disposal'].includes(e.category)));
+  assert.equal(hits.length+rest.length,active.length,'the two presets cover every record exactly once');
+  context.selectedCountries=new Set(['Romania','Bulgaria']);
+  const coast=context.filteredBy();
+  assert(coast.length > 0 && coast.every(e=>/Romania|Bulgaria/.test(e.countries)));
+  assert(context.filteredBy({countries:false}).length===rest.length,'a row can be left out for its own chip counts');
+});
+
+test('month presets cover the cutoff month so far and the whole month before it', () => {
+  const firstTime=Date.parse('2026-01-01T00:00:00Z'),totalDays=330;
+  const context={cutoff:'2026-11-27',year:2026,
+    dayOf:date=>Math.round((Date.parse(date+'T00:00:00Z')-firstTime)/86400000),
+    dayToDate:day=>new Date(firstTime+day*86400000).toISOString().slice(0,10)};
+  vm.createContext(context);
+  vm.runInContext(section('  function presetMonth','  function labelMonthPresets')+'this.presetMonth=presetMonth;',context);
+  assert.deepEqual(Array.from(context.presetMonth('month'),context.dayToDate),['2026-11-01','2026-11-27']);
+  assert.deepEqual(Array.from(context.presetMonth('prevmonth'),context.dayToDate),['2026-10-01','2026-10-31']);
+  assert.equal(totalDays,context.dayOf('2026-11-27'));
+});
+
+test('casualty badges come from the database flag, not an ID list in the interface', () => {
+  assert(!/CASUALTY_IDS/.test(app));
+  const flagged=active.filter(e=>e.casualties===true).map(e=>e.id);
+  for(const id of ['E033','N080','N112','N188']) assert(flagged.includes(id),`${id} reports casualties`);
 });

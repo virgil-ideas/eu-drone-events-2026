@@ -35,10 +35,10 @@
   // Black Sea Maritime Escalation ("When Things Took a Dark Turn" — Oct 2026)
   const maritimeEscalation = window.DRONE_REPLAY.maritimeEscalation(events, cutoff);
   const MARITIME_SHIP_IDS = new Set(maritimeEscalation.ships.map(event => event.id));
-  const CASUALTY_IDS = new Set(['E033', 'E053', 'N072', 'N073', 'N079', 'N080', 'N090', 'N112']);
   const DARK_TURN_DATE = maritimeEscalation.startDate;
   const isMaritimeVessel = event => MARITIME_SHIP_IDS.has(event.id);
-  const hasCasualties = event => CASUALTY_IDS.has(event.id);
+  // The database flags records whose sources report deaths, injuries or missing people.
+  const hasCasualties = event => event.casualties === true;
 
   const loadScript = src => new Promise(resolve => {
     const script = document.createElement('script');
@@ -140,8 +140,9 @@
   let studioReturnFocus = null;
   let feedMode = 'incidents'; // 'incidents' | 'news'
   let searchQuery = '';
-  let selectedCountry = '';
-  let selectedCategoryGroup = '';
+  // Empty sets mean no filter. Several chips can be on at once.
+  let selectedCountries = new Set();
+  let selectedCategories = new Set();
   let animationFrame = null;
   let lastFrameTime = null;
   let renderedRecordKey = '';
@@ -566,11 +567,27 @@
     });
   }
 
-  function matchingEvents() {
+  const matchesCountries = event => !selectedCountries.size || allCountriesOf(event).some(country => selectedCountries.has(country));
+  const matchesCategories = event => !selectedCategories.size || [...selectedCategories].some(group => matchesCategoryGroup(event, group));
+
+  // Chip counts leave out their own row, so each count says what clicking it would show.
+  function filteredBy({countries = true, categories = true} = {}) {
     return events.filter(event =>
-      (!selectedCountry || allCountriesOf(event).includes(selectedCountry)) &&
-      (!selectedCategoryGroup || matchesCategoryGroup(event, selectedCategoryGroup)) &&
+      (!countries || matchesCountries(event)) &&
+      (!categories || matchesCategories(event)) &&
       (!searchQuery || matchesSearch(event, searchQuery)));
+  }
+
+  function matchingEvents() {
+    return filteredBy();
+  }
+
+  function clearFilters() {
+    selectedCountries = new Set();
+    selectedCategories = new Set();
+    searchQuery = '';
+    $('feed-search').value = '';
+    $('clear-search').hidden = true;
   }
 
   function intervalEvents() {
@@ -582,34 +599,72 @@
     return intervalEvents().filter(event => event.startDate <= endCapDate);
   }
 
-  // Populate Country & Category filter dropdowns
+  // Outcome and country chips. The two outcome presets split the register into
+  // records where something hit, crashed or was shot down, and the rest.
+  const CATEGORY_GROUPS = ['strike_explosion', 'shotdown_engaged', 'crash', 'flight', 'alert', 'recovery', 'disposal', 'maritime'];
+  const OUTCOME_PRESETS = {
+    impact: ['strike_explosion', 'shotdown_engaged', 'crash'],
+    quiet: ['flight', 'alert', 'recovery', 'disposal']
+  };
+  const groupColor = group => ({strike_explosion: colors.strike, shotdown_engaged: colors.shotdown, maritime: '#b92517'})[group] || colors[group];
+  const groupLabel = group => ({
+    strike_explosion: t('legend.strikeExplosion'),
+    shotdown_engaged: t('legend.shotdownEngaged'),
+    maritime: t('revamp.chipShips')
+  })[group] || categoryLabel(group);
+  const sameSet = (set, list) => set.size === list.length && list.every(item => set.has(item));
+  const flagOf = country => (COUNTRY_CODES[country] || '').replace(/./g, letter => String.fromCodePoint(127397 + letter.charCodeAt(0)));
+  let countryOrder = [];
+
   function populateFilterDropdowns() {
     const countryTotals = new Map();
     events.forEach(event => {
       allCountriesOf(event).forEach(c => countryTotals.set(c, (countryTotals.get(c) || 0) + 1));
     });
-    const sortedCountries = [...countryTotals.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
-    const countrySelect = $('country-filter');
-    const prevCountry = countrySelect.value;
-    countrySelect.innerHTML = `<option value="">${escape(t('revamp.allCountries', {n: events.length}))}</option>` +
-      sortedCountries.map(([c, count]) => `<option value="${escape(c)}">${escape(countryName(c))} (${format.number.format(count)})</option>`).join('');
-    countrySelect.value = prevCountry;
+    countryOrder = [...countryTotals.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0])).map(([country]) => country);
+    const chip = (attrs, dot, label) => `<button type="button" class="filter-chip" ${attrs} aria-pressed="false">${dot}<span class="chip-label">${escape(label)}</span> <span class="chip-count"></span></button>`;
+    $('outcome-presets').innerHTML = [
+      ['all', t('revamp.outcomeAll')],
+      ['impact', t('revamp.outcomeImpact')],
+      ['quiet', t('revamp.outcomeQuiet')]
+    ].map(([preset, label]) => `<button type="button" class="outcome-option" data-outcome="${preset}" aria-pressed="false"><span class="chip-label">${escape(label)}</span> <span class="chip-count"></span></button>`).join('');
+    $('category-chips').innerHTML = CATEGORY_GROUPS.map(group =>
+      chip(`data-category="${group}" style="--category:${groupColor(group)}"`, '<i aria-hidden="true"></i>', groupLabel(group))).join('');
+    $('country-chips').innerHTML = chip('data-country=""', '', t('revamp.allCountriesChip')) +
+      countryOrder.map(country => chip(`data-country="${escape(country)}"`, `<span class="chip-flag" aria-hidden="true">${flagOf(country)}</span>`, countryName(country))).join('');
+    $('outcome-presets').title = t('revamp.outcomeImpactHint');
+    updateFilterChips();
+  }
 
-    const categoryGroups = [
-      ['maritime', t('revamp.filterMaritime', {n: MARITIME_SHIP_IDS.size})],
-      ['strike_explosion', t('legend.strikeExplosion')],
-      ['shotdown_engaged', t('legend.shotdownEngaged')],
-      ['crash', categoryLabel('crash')],
-      ['flight', categoryLabel('flight')],
-      ['disposal', categoryLabel('disposal')],
-      ['recovery', categoryLabel('recovery')],
-      ['alert', categoryLabel('alert')]
-    ];
-    const catSelect = $('category-filter');
-    const prevCat = catSelect.value;
-    catSelect.innerHTML = `<option value="">${escape(t('revamp.allOutcomes', {n: events.length}))}</option>` +
-      categoryGroups.map(([val, label]) => `<option value="${val}">${escape(label)}</option>`).join('');
-    catSelect.value = prevCat;
+  function updateFilterChips() {
+    const start = dayToDate(intervalStartDay), end = dayToDate(intervalEndDay);
+    const inInterval = list => window.DRONE_REPLAY.intervalEvents(list, start, end);
+    const byCategory = inInterval(filteredBy({categories: false}));
+    const byCountry = inInterval(filteredBy({countries: false}));
+    const count = (element, n) => { element.querySelector('.chip-count').textContent = format.number.format(n); };
+    document.querySelectorAll('#outcome-presets .outcome-option').forEach(option => {
+      const preset = option.dataset.outcome;
+      const groups = OUTCOME_PRESETS[preset];
+      count(option, groups ? byCategory.filter(event => groups.some(group => matchesCategoryGroup(event, group))).length : byCategory.length);
+      option.setAttribute('aria-pressed', String(groups ? sameSet(selectedCategories, groups) : !selectedCategories.size));
+    });
+    document.querySelectorAll('#category-chips .filter-chip').forEach(chip => {
+      const group = chip.dataset.category;
+      count(chip, byCategory.filter(event => matchesCategoryGroup(event, group)).length);
+      chip.setAttribute('aria-pressed', String(selectedCategories.has(group)));
+    });
+    document.querySelectorAll('#country-chips .filter-chip').forEach(chip => {
+      const country = chip.dataset.country;
+      count(chip, country ? byCountry.filter(event => allCountriesOf(event).includes(country)).length : byCountry.length);
+      chip.setAttribute('aria-pressed', String(country ? selectedCountries.has(country) : !selectedCountries.size));
+    });
+  }
+
+  function toggleIn(set, value) {
+    const next = new Set(set);
+    if (next.has(value)) next.delete(value);
+    else next.add(value);
+    return next;
   }
 
   // Render Rich Incident Cards with Headlines, Visible TL;DRs & Clickable News Chips
@@ -970,13 +1025,7 @@
       if (evDay < intervalStartDay) intervalStartDay = evDay;
       if (evDay > intervalEndDay) intervalEndDay = evDay;
       if (!allMode && currentDay < evDay) currentDay = playbackDay = evDay;
-      selectedCountry = '';
-      selectedCategoryGroup = '';
-      searchQuery = '';
-      $('country-filter').value = '';
-      $('category-filter').value = '';
-      $('feed-search').value = '';
-      $('clear-search').hidden = true;
+      clearFilters();
       syncIntervalInputs();
       render();
     }
@@ -1130,15 +1179,16 @@
     cumulativeKey = key;
     const runningTotals = window.DRONE_REPLAY.cumulative(pool, firstDateStr, cutoff);
     const chartY = count => CHART_HEIGHT - count / Math.max(1, pool.length) * (CHART_HEIGHT - 6);
-    let line = `M0 ${chartY(runningTotals[0])}`;
-    for (let day = 1; day <= totalDays; day++) {
-      if (runningTotals[day] !== runningTotals[day - 1]) line += `H${chartX(day).toFixed(2)}V${chartY(runningTotals[day]).toFixed(2)}`;
-    }
-    line += `H${CHART_WIDTH}`;
-    const area = `${line}V${CHART_HEIGHT}H0Z`;
     const winStart = intervalStartDay;
     const winEnd = intervalEndDay;
     const before = winStart > 0 ? runningTotals[winStart - 1] : 0;
+    // Only the selected range: outside it the running total is flat by definition.
+    let line = `M${chartX(winStart).toFixed(2)} ${chartY(before).toFixed(2)}`;
+    for (let day = winStart, previous = before; day <= winEnd; previous = runningTotals[day], day++) {
+      if (runningTotals[day] !== previous) line += `H${chartX(day).toFixed(2)}V${chartY(runningTotals[day]).toFixed(2)}`;
+    }
+    line += `H${chartX(winEnd).toFixed(2)}`;
+    const area = `${line}V${CHART_HEIGHT}H${chartX(winStart).toFixed(2)}Z`;
     const atEnd = runningTotals[winEnd];
     const point = (day, count) => `left:${chartX(day) / CHART_WIDTH * 100}%;bottom:${(CHART_HEIGHT - chartY(count)) / CHART_HEIGHT * 100}%`;
     const intervalLabel = (winStart === 0 && winEnd === totalDays)
@@ -1204,13 +1254,8 @@
     currentDay = intervalEndDay;
     playbackDay = intervalEndDay;
     allMode = true;
-    selectedCountry = '';
-    selectedCategoryGroup = 'maritime';
-    searchQuery = '';
-    $('country-filter').value = '';
-    $('category-filter').value = 'maritime';
-    $('feed-search').value = '';
-    $('clear-search').hidden = true;
+    clearFilters();
+    selectedCategories = new Set(['maritime']);
     syncIntervalInputs();
     updatePresetChips('maritime');
     renderCumulative();
@@ -1226,7 +1271,7 @@
 
   function updateFilterBanner() {
     const isCustomInterval = intervalStartDay > 0 || intervalEndDay < totalDays || !allMode;
-    const hasDropdownFilter = Boolean(selectedCountry) || Boolean(selectedCategoryGroup);
+    const hasDropdownFilter = selectedCountries.size > 0 || selectedCategories.size > 0;
     const hasFilter = isCustomInterval || hasDropdownFilter || Boolean(searchQuery);
     $('active-filter-banner').hidden = !hasFilter;
     $('mobile-filter-dot').hidden = !hasDropdownFilter;
@@ -1236,8 +1281,10 @@
         const endD = allMode ? intervalEndDay : Math.min(intervalEndDay, currentDay);
         parts.push(`${shortDate(dayToDate(intervalStartDay))} – ${shortDateYear(dayToDate(endD))}`);
       }
-      if (selectedCountry) parts.push(countryName(selectedCountry));
-      if (selectedCategoryGroup) parts.push($('category-filter').selectedOptions[0]?.textContent || selectedCategoryGroup);
+      const preset = Object.keys(OUTCOME_PRESETS).find(name => sameSet(selectedCategories, OUTCOME_PRESETS[name]));
+      if (preset) parts.push(t(preset === 'impact' ? 'revamp.outcomeImpact' : 'revamp.outcomeQuiet'));
+      else if (selectedCategories.size) parts.push([...selectedCategories].map(groupLabel).join(', '));
+      if (selectedCountries.size) parts.push([...selectedCountries].map(countryName).join(', '));
       if (searchQuery) parts.push(`"${searchQuery}"`);
       $('active-filter-text').textContent = t('revamp.showingFiltered', {
         visible: visibleEvents.length,
@@ -1257,6 +1304,7 @@
     renderMarkers();
     renderPlayhead();
     updateFilterBanner();
+    updateFilterChips();
 
     const startStr = shortDate(dayToDate(intervalStartDay));
     const endStr = shortDateYear(dayToDate(intervalEndDay));
@@ -1276,7 +1324,11 @@
     $('map-period').textContent = periodText;
     $('map-visible-summary').textContent = t('timeline.visible', {n: visibleEvents.length});
     $('launcher-date-label').textContent = periodText;
-    $('header-interval-badge').textContent = isFullYear && allMode ? t('revamp.presetAll') : `${startStr} – ${shortDate(dayToDate(allMode ? intervalEndDay : currentDay))}`;
+    const badge = isFullYear && allMode ? t('revamp.presetAll') : `${startStr} – ${shortDate(dayToDate(allMode ? intervalEndDay : currentDay))}`;
+    if ($('header-interval-badge').textContent !== badge) {
+      $('header-interval-badge').textContent = badge;
+      scheduleTopbarFit();
+    }
 
     $('show-all').setAttribute('aria-pressed', String(allMode && isFullYear));
     const stepDays = filteredEventDays();
@@ -1292,6 +1344,7 @@
     $('timeline-range').style.setProperty('--interval-start-pct', `${startPct}%`);
     $('timeline-range').style.setProperty('--interval-end-pct', `${endPct}%`);
     $('timeline-range').style.setProperty('--progress', `${progPct}%`);
+    positionBrush();
     const clip = $('cumulative-clip');
     if (clip) {
       clip.setAttribute('x', chartX(intervalStartDay));
@@ -1427,6 +1480,113 @@
       $('play').focus({preventScroll: true});
     } else if (studioReturnFocus?.isConnected) {
       studioReturnFocus.focus({preventScroll: true});
+    }
+  }
+
+  // Range handles on the running-total chart. Drag either end to change the
+  // interval, or drag the shaded window between them to move it.
+  function positionBrush() {
+    const pct = day => `${(day / totalDays) * 100}%`;
+    $('brush-window').style.left = pct(intervalStartDay);
+    $('brush-window').style.width = `${((intervalEndDay - intervalStartDay) / totalDays) * 100}%`;
+    for (const [id, day] of [['brush-start', intervalStartDay], ['brush-end', intervalEndDay]]) {
+      const handle = $(id);
+      handle.style.left = pct(day);
+      handle.setAttribute('aria-valuenow', String(day));
+      handle.setAttribute('aria-valuetext', longDate(dayToDate(day)));
+      handle.dataset.date = shortDate(dayToDate(day));
+    }
+    $('brush-start').setAttribute('aria-valuemax', String(intervalEndDay));
+    $('brush-end').setAttribute('aria-valuemin', String(intervalStartDay));
+  }
+
+  let brushFrame = null;
+  function setBrushInterval(start, end) {
+    start = Math.max(0, Math.min(totalDays, start));
+    end = Math.max(start, Math.min(totalDays, end));
+    if (start === intervalStartDay && end === intervalEndDay) return;
+    pause();
+    intervalStartDay = start;
+    intervalEndDay = end;
+    currentDay = playbackDay = end;
+    allMode = true;
+    syncIntervalInputs();
+    updatePresetChips('');
+    positionBrush();
+    if (!brushFrame) brushFrame = requestAnimationFrame(() => { brushFrame = null; render(); });
+  }
+
+  function initRangeBrush() {
+    const brush = $('range-brush');
+    let drag = null;
+    const dayAt = clientX => {
+      const rect = brush.getBoundingClientRect();
+      return Math.round(Math.max(0, Math.min(1, (clientX - rect.left) / rect.width)) * totalDays);
+    };
+    brush.addEventListener('pointerdown', e => {
+      const part = e.target.closest('.brush-handle, .brush-window');
+      if (!part || isRecordingVideo || e.button !== 0) return;
+      e.preventDefault();
+      part.setPointerCapture(e.pointerId);
+      drag = {part: part.id, grab: dayAt(e.clientX), start: intervalStartDay, end: intervalEndDay};
+      brush.classList.add('dragging');
+      part.focus({preventScroll: true});
+    });
+    brush.addEventListener('pointermove', e => {
+      if (!drag) return;
+      const day = dayAt(e.clientX);
+      if (drag.part === 'brush-start') setBrushInterval(Math.min(day, intervalEndDay), intervalEndDay);
+      else if (drag.part === 'brush-end') setBrushInterval(intervalStartDay, Math.max(day, intervalStartDay));
+      else {
+        const span = drag.end - drag.start;
+        const start = Math.max(0, Math.min(totalDays - span, drag.start + day - drag.grab));
+        setBrushInterval(start, start + span);
+      }
+    });
+    const finish = () => {
+      if (!drag) return;
+      drag = null;
+      brush.classList.remove('dragging');
+      render();
+      fitEvents();
+    };
+    brush.addEventListener('pointerup', finish);
+    brush.addEventListener('pointercancel', finish);
+    for (const id of ['brush-start', 'brush-end']) {
+      $(id).addEventListener('keydown', e => {
+        const steps = {ArrowLeft:-1, ArrowDown:-1, ArrowRight:1, ArrowUp:1, PageDown:-7, PageUp:7};
+        const isStart = id === 'brush-start';
+        const value = isStart ? intervalStartDay : intervalEndDay;
+        let day;
+        if (Object.hasOwn(steps, e.key)) day = value + steps[e.key];
+        else if (e.key === 'Home') day = isStart ? 0 : intervalStartDay;
+        else if (e.key === 'End') day = isStart ? intervalEndDay : totalDays;
+        else return;
+        e.preventDefault();
+        if (isStart) setBrushInterval(Math.min(day, intervalEndDay), intervalEndDay);
+        else setBrushInterval(intervalStartDay, Math.max(day, intervalStartDay));
+        fitEvents();
+      });
+    }
+  }
+
+  // The cutoff's month so far, and the whole month before it.
+  function presetMonth(preset) {
+    const month = Number(cutoff.slice(5, 7)) - (preset === 'prevmonth' ? 1 : 0);
+    if (month < 1) return [0, 0];
+    const first = `${year}-${String(month).padStart(2, '0')}-01`;
+    const last = new Date(Date.UTC(year, month, 0)).toISOString().slice(0, 10);
+    return [dayOf(first), dayOf(last < cutoff ? last : cutoff)];
+  }
+
+  function labelMonthPresets() {
+    const name = new Intl.DateTimeFormat(locale, {month: 'long', timeZone: 'UTC'});
+    for (const preset of ['month', 'prevmonth']) {
+      const chip = document.querySelector(`.preset-chip[data-preset="${preset}"]`);
+      const [start] = presetMonth(preset);
+      const text = name.format(utcDate(dayToDate(start)));
+      chip.textContent = text.charAt(0).toLocaleUpperCase(locale) + text.slice(1);
+      chip.hidden = preset === 'prevmonth' && Number(cutoff.slice(5, 7)) === 1;
     }
   }
 
@@ -1719,7 +1879,7 @@
     ctx.fillStyle = '#89a3aa';
     ctx.font = '500 11px "DM Sans", system-ui, sans-serif';
     // The honesty line shrinks rather than run into the legend in longer languages.
-    const honesty = `droneincidents.eu · ${t('sidebar.foot')}`;
+    const honesty = `droneincidents.eu · CC BY 4.0 · ${t('sidebar.foot')}`;
     let honestySize = 11;
     while (honestySize > 8 && ctx.measureText(honesty).width > W - 32 - lx - 16) {
       honestySize -= 0.5;
@@ -1742,8 +1902,8 @@
   function setIntervalControlsDisabled(disabled) {
     $('interval-start').disabled = disabled;
     $('interval-end').disabled = disabled;
-    ['country-filter', 'category-filter', 'feed-search', 'clear-search'].forEach(id => { $(id).disabled = disabled; });
-    document.querySelectorAll('.preset-chip').forEach(chip => { chip.disabled = disabled; });
+    ['feed-search', 'clear-search'].forEach(id => { $(id).disabled = disabled; });
+    document.querySelectorAll('.preset-chip, .filter-chip, .outcome-option, .brush-handle').forEach(chip => { chip.disabled = disabled; });
   }
 
   function startVideoRecording() {
@@ -1944,7 +2104,21 @@
   const candidateCount = events.filter(event => event.recordClass === 'candidate').length;
   const countryCount = new Set(events.flatMap(allCountriesOf)).size;
 
+  // The project's authors and licence, linked inside translated sentences.
+  const PROJECT_LINKS = {
+    license: ['CC BY 4.0', 'https://creativecommons.org/licenses/by/4.0/'],
+    virgil: ['Virgil', 'https://github.com/virgil-ideas'],
+    radu: ['Radu-Sebastian Amarie', 'https://github.com/eek'],
+    github: ['GitHub', 'https://github.com/virgil-ideas/eu-drone-events-2026']
+  };
+  const withProjectLinks = key => escape(t(key)).replace(/\{(license|virgil|radu|github)\}/g, (_, name) =>
+    `<a href="${PROJECT_LINKS[name][1]}" target="_blank" rel="noopener noreferrer">${PROJECT_LINKS[name][0]}</a>`);
+
   function renderAbout() {
+    $('about-project-lead').innerHTML = withProjectLinks('about.project');
+    $('about-project-reuse').innerHTML = withProjectLinks('about.projectReuse');
+    $('press-project').innerHTML = withProjectLinks('about.project');
+    $('press-credit-text').textContent = t('press.creditLine');
     const rows = [
       ['about.statTotal', events.length],
       ['about.statBase', baseCount],
@@ -2001,10 +2175,12 @@
     $('record-video-label').textContent = t(isRecordingVideo ? 'revamp.stopSaveVideo' : 'revamp.recordVideo');
     $('cutoff-label').textContent = shortDate(cutoff);
     populateFilterDropdowns();
+    labelMonthPresets();
     renderLegend();
     renderMonthLabels();
     renderAbout();
     renderMaritimeDialog();
+    scheduleTopbarFit();
     renderTrend();
     renderCumulative();
     labelMarkers();
@@ -2082,24 +2258,36 @@
     const isOpen = $('filter-selects').classList.toggle('mobile-open');
     $('mobile-filter-toggle').setAttribute('aria-expanded', String(isOpen));
   });
-  $('country-filter').addEventListener('change', e => {
-    selectedCountry = e.target.value;
+  $('outcome-presets').addEventListener('click', e => {
+    const option = e.target.closest('.outcome-option');
+    if (!option) return;
+    const groups = OUTCOME_PRESETS[option.dataset.outcome];
+    selectedCategories = groups && !sameSet(selectedCategories, groups) ? new Set(groups) : new Set();
     render();
     fitEvents();
   });
-  $('category-filter').addEventListener('change', e => {
-    selectedCategoryGroup = e.target.value;
+  $('category-chips').addEventListener('click', e => {
+    const chip = e.target.closest('.filter-chip');
+    if (!chip) return;
+    selectedCategories = toggleIn(selectedCategories, chip.dataset.category);
     render();
     fitEvents();
   });
+  $('country-chips').addEventListener('click', e => {
+    const chip = e.target.closest('.filter-chip');
+    if (!chip) return;
+    selectedCountries = chip.dataset.country ? toggleIn(selectedCountries, chip.dataset.country) : new Set();
+    render();
+    fitEvents();
+  });
+  // A mouse wheel scrolls a chip row sideways.
+  document.querySelectorAll('.chip-scroll').forEach(row => row.addEventListener('wheel', e => {
+    if (Math.abs(e.deltaX) >= Math.abs(e.deltaY) || row.scrollWidth <= row.clientWidth) return;
+    row.scrollLeft += e.deltaY;
+    e.preventDefault();
+  }, {passive: false}));
   $('reset-all-filters').addEventListener('click', () => {
-    searchQuery = '';
-    selectedCountry = '';
-    selectedCategoryGroup = '';
-    $('feed-search').value = '';
-    $('clear-search').hidden = true;
-    $('country-filter').value = '';
-    $('category-filter').value = '';
+    clearFilters();
     $('filter-selects').classList.remove('mobile-open');
     $('mobile-filter-toggle').setAttribute('aria-expanded', 'false');
     showAll();
@@ -2199,16 +2387,12 @@
     chip.addEventListener('click', () => {
       const p = chip.dataset.preset;
       if (p === 'all') {
-        if (selectedCategoryGroup === 'maritime') {
-          selectedCategoryGroup = '';
-          $('category-filter').value = '';
-        }
+        if (selectedCategories.has('maritime')) selectedCategories = toggleIn(selectedCategories, 'maritime');
         applyInterval(0, totalDays, 'all');
       }
       else if (p === '30d') applyInterval(Math.max(0, totalDays - 29), totalDays, '30d');
       else if (p === '90d') applyInterval(Math.max(0, totalDays - 89), totalDays, '90d');
-      else if (p === 'surge') applyInterval(dayOf(`${year}-08-01`), totalDays, 'surge');
-      else if (p === 'oct') applyInterval(dayOf(`${year}-10-01`), totalDays, 'oct');
+      else if (p === 'month' || p === 'prevmonth') applyInterval(...presetMonth(p), p);
       else if (p === 'maritime') focusMaritimeEscalation(false);
     });
   });
@@ -2242,6 +2426,50 @@
   $('close-trend').addEventListener('click', () => $('trend-dialog').close());
 
   $('about-button').addEventListener('click', () => { pause(); $('about-dialog').showModal(); });
+
+  // Press & media: reuse terms, a copyable credit line and screenshot helpers.
+  $('press-button').addEventListener('click', () => { pause(); $('press-dialog').showModal(); });
+  $('close-press').addEventListener('click', () => $('press-dialog').close());
+  $('about-press-link').addEventListener('click', () => { $('about-dialog').close(); $('press-dialog').showModal(); });
+  $('copy-credit').addEventListener('click', async () => {
+    const button = $('copy-credit');
+    try {
+      await navigator.clipboard.writeText(t('press.creditLine'));
+      button.textContent = t('press.copied');
+    } catch {
+      getSelection().selectAllChildren($('press-credit-text'));
+      button.textContent = t('press.copyManual');
+    }
+    setTimeout(() => { button.textContent = t('press.copy'); }, 2000);
+  });
+  $('press-snapshot').addEventListener('click', downloadSnapshotPNG);
+  $('press-data').addEventListener('click', downloadIntervalCSV);
+  $('press-video').addEventListener('click', () => {
+    $('press-dialog').close();
+    if (window.innerWidth <= 860) setMobileView('map');
+    setStudioOpen(true);
+    requestAnimationFrame(renderMonthLabels);
+  });
+  function setCleanMode(on) {
+    document.body.classList.toggle('press-mode', on);
+    $('press-overlay').hidden = !on;
+    if (on) {
+      $('press-dialog').close();
+      closeDetail();
+      setStudioOpen(false);
+      if (window.innerWidth <= 860) setMobileView('map');
+      $('announcer').textContent = t('press.cleanAnnounce');
+      $('exit-clean-mode').focus({preventScroll: true});
+    } else if (window.innerWidth > 860) {
+      $('press-button').focus({preventScroll: true});
+    }
+    requestAnimationFrame(() => {
+      map.invalidateSize({animate: false});
+      fitEvents();
+    });
+  }
+  $('press-clean-mode').addEventListener('click', () => setCleanMode(true));
+  $('exit-clean-mode').addEventListener('click', () => setCleanMode(false));
   $('sidebar-scope-btn').addEventListener('click', () => { pause(); $('about-dialog').showModal(); });
   $('close-about').addEventListener('click', () => $('about-dialog').close());
 
@@ -2263,7 +2491,8 @@
   }
 
   document.addEventListener('keydown', event => {
-    if (event.key === 'Escape' && !$('detail').hidden) closeDetail(true);
+    if (event.key === 'Escape' && document.body.classList.contains('press-mode')) setCleanMode(false);
+    else if (event.key === 'Escape' && !$('detail').hidden) closeDetail(true);
   });
   document.addEventListener('visibilitychange', () => {
     if (isRecordingVideo) {
@@ -2281,6 +2510,31 @@
   });
   headerObserver.observe(header);
   headerObserver.observe(mobileNav);
+
+  // Long languages get a simpler one-row top bar instead of a wrapped one: each
+  // level hides a little more (see styles.css), and the stats move to a second
+  // row only when even the simplest row does not fit.
+  const TOPBAR_LEVELS = 6;
+  function fitTopbar() {
+    const bar = document.querySelector('.topbar');
+    delete bar.dataset.layout;
+    if (window.innerWidth <= 860) { bar.dataset.compact = '0'; return; }
+    const overflows = () => [bar, ...bar.querySelectorAll('.topbar-pulse, .brand-title, .brand-sub')]
+      .some(element => element.offsetParent !== null && element.scrollWidth > element.clientWidth + 1);
+    for (let level = 0; level <= TOPBAR_LEVELS; level++) {
+      bar.dataset.compact = String(level);
+      if (!overflows()) return;
+    }
+    bar.dataset.compact = '1';
+    bar.dataset.layout = 'stacked';
+  }
+  // A declaration, so render() and localize() can ask for a refit before this line runs.
+  function scheduleTopbarFit() {
+    if (scheduleTopbarFit.frame) return;
+    scheduleTopbarFit.frame = requestAnimationFrame(() => { scheduleTopbarFit.frame = null; fitTopbar(); });
+  }
+  window.addEventListener('resize', scheduleTopbarFit);
+  document.fonts?.ready.then(scheduleTopbarFit);
   const mapLayoutObserver = new ResizeObserver(() => {
     map.invalidateSize({animate: false});
     if ((studioOpen || pendingMapFit) && $('map').clientHeight && !selectedId && !openAreaId) fitEvents(intervalEvents(), false);
@@ -2288,6 +2542,9 @@
   mapLayoutObserver.observe($('map'));
   mapLayoutObserver.observe($('timeline-drawer'));
   new ResizeObserver(renderMonthLabels).observe(document.querySelector('.timeline-track'));
+  $('brush-start').setAttribute('aria-valuemin', '0');
+  $('brush-end').setAttribute('aria-valuemax', String(totalDays));
+  initRangeBrush();
 
   localize();
   fitEvents();

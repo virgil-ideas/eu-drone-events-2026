@@ -118,13 +118,13 @@
   },
   "E013": {
     "headline": "Fragmenty drona z ładunkiem wybuchowym zniszczone koło Luncavița w Rumunii",
-    "description": "26 kwietnia 2026 r. między Luncavița a Văcăreni w Rumunii znaleziono fragmenty drona z ładunkiem wybuchowym i zniszczono je. Ich pochodzenie jest badane.",
+    "description": "Fragmenty drona znalezione koło Luncavița 26 kwietnia 2026 r. rumuńskie ministerstwo obrony zidentyfikowało później jako część incydentu z Geran-2 przypisywanego Rosji.",
     "summary": [
       "26 kwietnia 2026 r. zgłoszono kolejne fragmenty drona między Luncavița a Văcăreni w okręgu Tulcea w Rumunii, dzień po znalezieniu fragmentów koło gospodarstwa w Văcăreni. Wśród materiału potwierdzono ładunek wybuchowy i wydano ostrzeżenie bezpieczeństwa RO-Alert.",
-      "Pochodzenie fragmentów jest badane; poinformowano o śledztwie prokuratorów przy Sądzie Apelacyjnym w Konstancy. Kiedy dron leciał lub spadł, nie wiadomo. Fragmenty nie zostały potwierdzone jako drugi kompletny dron i nie ustalono, czy one oraz znalezisko z poprzedniego dnia pochodzą z jednego płatowca, czy z kilku.",
+      "W oświadczeniu z 31 maja MApN retrospektywnie wymieniło Luncavița 26 kwietnia wśród wcześniejszych incydentów z Geran-2 przypisywanych Rosji. To aktualizuje pierwotnie nierozstrzygnięte pochodzenie, ale nie ustala, kiedy dron leciał lub spadł, jaką trasą ani jaki był jego zamierzony cel. Fragmenty nie zostały potwierdzone jako drugi kompletny dron, a ich powiązanie z płatowcem ze znaleziska z poprzedniego dnia pozostaje nierozstrzygnięte.",
       "Pirotechnicy z SRI i specjaliści rumuńskiego ministerstwa obrony (MApN) ocenili materiał, który następnie zniszczono w kontrolowanej detonacji na miejscu z upoważnienia prokuratora. Nie zgłoszono ofiar."
     ],
-    "basis": "88e415a73fd8096d"
+    "basis": "b590e35104316219"
   },
   "E014": {
     "headline": "Dron nieznanego pochodzenia znaleziony koło Șerbăuți w okręgu Suceava w Rumunii",
@@ -171,9 +171,9 @@
     "summary": [
       "15 maja 2026 r. podejrzewana aktywność dronów w aglomeracji helsińskiej w Finlandii uruchomiła szerokie środki ochronne. Mieszkańców ostrzeżono, by pozostali w domach, działalność lotniska wstrzymano, a myśliwce poderwano. Ile dronów było zaangażowanych i jakiego typu, nie rozstrzygnięto.",
       "Zagraniczne pochodzenie nie zostało udowodnione, a trasa ewentualnych dronów jest nieznana. Fińskie władze oceniły zagrożenie, a ich ówczesne oświadczenie nie potwierdziło bezpośredniego zagrożenia wojskowego. Epizod był alarmem i zakłóceniem, a nie potwierdzonym atakiem.",
-      "Nie zgłoszono szkód fizycznych."
+      "Nie zgłoszono szkód fizycznych. Operator lotniska Finavia potwierdza, że ruch lotniczy był wstrzymany od 04:00 do 07:00 czasu lokalnego, a następnie wznowiony, z opóźnieniami i odwołanymi lotami tego dnia. Nie podaje łącznej liczby odwołanych lotów i nie identyfikuje drona."
     ],
-    "basis": "8dcd29f016872e0a"
+    "basis": "22793f6506f0bdbc"
   },
   "E019": {
     "headline": "Szczątki podejrzewanego ukraińskiego drona znalezione w rejonie Utena na Litwie",
@@ -255,14 +255,14 @@
     "basis": "a18eddeece7bbecb"
   },
   "E027": {
-    "headline": "Samodziałowy dron przemytniczy zmuszony do lądowania koło granicy z Białorusią na Litwie",
-    "description": "23 maja 2026 r. samodziałowy dron transportowy, zgłoszony jako nadlatujący z Białorusi, został zmuszony do lądowania i zajęty w Dumblė w rejonie Šalčininkai na Litwie w sprawie przemytniczej.",
+    "headline": "Dron przemytniczy odzyskany bez ładunku koło Dumblė",
+    "description": "Litewscy pogranicznicy podają, że dron domowej roboty, który spadł koło Dumblė 23 maja 2026 r., nie przewoził ładunku i został poważnie uszkodzony przy upadku.",
     "summary": [
-      "23 maja 2026 r. samodziałowy dron transportowy przewożący przemycane towary został według doniesień zmuszony do lądowania w Dumblė w litewskim rejonie Šalčininkai, przy granicy z Białorusią. Funkcjonariusze straży granicznej przechwycili dron i go zajęli.",
-      "Dron zgłoszono jako nadlatujący z Białorusi. Był to przestępczy lot przemytniczy, a nie wojskowy, a operatora nie zidentyfikowano. Szczegóły ładunku i samego drona nie były dostępne.",
-      "Nie zgłoszono ładunku wybuchowego ani ofiar. Doniesienia opisują przymusowe lądowanie i zajęcie, a nie zestrzelenie czy rozbicie."
+      "23 maja 2026 r. dron domowej roboty, który według litewskiej straży granicznej (VSAT) wleciał z Białorusi, spadł koło Dumblė w rejonie Šalčininkai po interwencji pograniczników.",
+      "Gdy funkcjonariusze odzyskali statek powietrzny, był on poważnie uszkodzony i nie miał ładunku. Pierwotny komunikat VSAT koryguje wcześniejszy opis drona z ładunkiem.",
+      "Według VSAT statek powietrzny należał do przemytników. Operator nie jest znany. Nie zgłoszono ofiar ani kinetycznego zestrzelenia."
     ],
-    "basis": "e9db67cdbd535522"
+    "basis": "9db105cbb575f730"
   },
   "E028": {
     "headline": "Rumunia podaje, że rosyjski dron uderzył w blok mieszkalny w Galați i ranił dwie osoby",
@@ -270,9 +270,10 @@
     "summary": [
       "W nocy 29 maja 2026 r. dron uderzył w dach bloku mieszkalnego w dzielnicy Mazepa w Galați w Rumunii i wywołał pożar. Dwie osoby doznały lekkich obrażeń, mieszkańców ewakuowano, a mieszkania uszkodzono. Urzędnicy oszacowali, że dron przenosił co najmniej 30 kg materiałów wybuchowych.",
       "Na podstawie oficjalnej oceny radarowej i szczątków rumuńskie władze zidentyfikowały go jako rosyjski dron Geran-2. Wiązano go z szerszą falą 43 dronów w atakach na Ukrainę; przed uderzeniem odbył krótki lot nad Rumunią. Moskwa zakwestionowała przypisanie. Rumunia nie opisała uderzenia jako zamierzonego ataku skierowanego na Rumunię.",
-      "Dwa rumuńskie F-16 i śmigłowiec poderwano, ale nie podjęły działań bojowych nad miastem, a miejsce zbadano. W odpowiedzi wydalono rosyjskiego konsula i zamknięto konsulat. Incydent jest odrębny od upadku drona w Galați 25 kwietnia 2026 r."
+      "Dwa rumuńskie F-16 i śmigłowiec poderwano, ale nie podjęły działań bojowych nad miastem, a miejsce zbadano. W odpowiedzi wydalono rosyjskiego konsula i zamknięto konsulat. Incydent jest odrębny od upadku drona w Galați 25 kwietnia 2026 r.",
+      "W piśmie do Rady Bezpieczeństwa ONZ z 29 maja Rumunia zgłosiła śledzenie radarowe do południowej części Galați, uderzenie w dach budynku mieszkalnego, pożar, dwie osoby ranne i ewakuację. Pismo przypisuje drona Rosji, nie identyfikując modelu ani masy ładunku."
     ],
-    "basis": "867f5d0e86da38f7"
+    "basis": "839ef0ac20cfdff4"
   },
   "E029": {
     "headline": "Podejrzewana aktywność dronów wywołuje alarmy na granicach Łotwy i Estonii",
@@ -295,14 +296,14 @@
     "basis": "063363d8f1a30b72"
   },
   "E031": {
-    "headline": "Francuski myśliwiec NATO zestrzeliwuje dron koło Bērzgale na Łotwie",
-    "description": "8 czerwca 2026 r. francuski myśliwiec NATO zestrzelił dron w łotewskiej przestrzeni powietrznej koło Bērzgale. Jego narodowości i modelu nie zidentyfikowano jednoznacznie.",
+    "headline": "Francuski myśliwiec NATO zestrzeliwuje drona koło Bērzgale na Łotwie",
+    "description": "8 czerwca 2026 r. francuski myśliwiec NATO zestrzelił drona w łotewskiej przestrzeni powietrznej koło Bērzgale na Łotwie. Jego narodowości i modelu nie zidentyfikowano jednoznacznie.",
     "summary": [
       "8 czerwca 2026 r. dron (BSP) wleciał w łotewską przestrzeń powietrzną i został przechwycony w rejonie Bērzgale na Łotwie. Następnie zestrzelił go francuski myśliwiec działający w ramach NATO.",
-      "Narodowości i modelu drona nie zidentyfikowano jednoznacznie w ówczesnych relacjach z incydentu. Traktuje się go jako obcego drona, ale jego pochodzenia nie ustalono; jego trasy nie określono, a to, co ewentualnie przenosił, pozostaje nieznane.",
+      "Rzecznik łotewskiego wojska powiedział Reutersowi, że dron wleciał z Rosji, podaje Euronews. Jego dokładnej trasy i miejsca startu nie ustalono. Zgłoszony kierunek wlotu nie identyfikuje operatora ani narodowości; model, ładunek i zamierzony cel pozostały nierozstrzygnięte w przeanalizowanych relacjach.",
       "Na Łotwie nie zgłoszono ofiar. Po zestrzeleniu nastąpiły poszukiwania szczątków i badanie odłamków."
     ],
-    "basis": "74bcaba3125d8355"
+    "basis": "c7ae1c343f0f6430"
   },
   "E032": {
     "headline": "Rumunia niszczy fragmenty drona koło Rachelu, które zidentyfikowała jako rosyjskie",
@@ -315,14 +316,15 @@
     "basis": "a2522d4f06337eee"
   },
   "E033": {
-    "headline": "Załoga gazowca LPG zgłasza atak dronów koło Sfântu Gheorghe w Rumunii",
-    "description": "21 lipca 2026 r. eksplozje poważnie uszkodziły gazowiec LPG na Morzu Czarnym koło Sfântu Gheorghe w Rumunii. Załoga opisała trzy drony; przyczyna w postaci drona jest niepotwierdzona.",
+    "headline": "Pożar na GAS LISBON koło Rumunii: zmarł jeden marynarz; przyczyna w postaci drona niepotwierdzona",
+    "description": "Wszystkie 17 osób z GAS LISBON ewakuowano koło Rumunii 21 lipca. Jedna z trzech rannych osób zmarła dwa dni później. Przyczyna w postaci drona pozostaje niepotwierdzona.",
     "summary": [
-      "W nocy i rankiem 21 lipca 2026 r. eksplozje poważnie uszkodziły statek handlowy przewożący LPG na Morzu Czarnym, około 26 km od Sfântu Gheorghe w Rumunii, a jednostka zapaliła się. Pozycję podano jako leżącą poza wodami terytorialnymi Rumunii.",
+      "Na gazowcu LPG GAS LISBON pod banderą Liberii doszło do eksplozji i pożaru koło Sfântu Gheorghe w wyłącznej strefie ekonomicznej Rumunii, poza jej wodami terytorialnymi. Urząd Morski zarejestrował alarm o niebezpieczeństwie o 00:05 czasu lokalnego 21 lipca; nie jest to zweryfikowany czas eksplozji.",
       "Dwóch członków załogi opisało nocny atak trzech dronów. Ich relację traktuje się jako zarzut, a nie ostateczną identyfikację broni: typu drona, użytych urządzeń i ładunków, miejsca startu oraz operatora lub narodowości nie zidentyfikowano, a przyczyny w postaci drona nie potwierdzono.",
-      "Rumuńskie morskie służby ratownicze interweniowały i doprowadziły załogę w bezpieczne miejsce. Zgłoszono obrażenia, w tym oparzenia. Incydent jest odrębny od wezwania pomocy przez masowiec u tego samego wybrzeża 24 lipca i od incydentu z Progress IV w sierpniu."
+      "Jest to odrębne od sytuacji awaryjnej masowca 24 lipca i od sierpniowego wypadku PROGRESS IV.",
+      "Wszystkich 17 członków załogi ewakuowano. Trzy osoby zostały ranne; jedna z nich zmarła 23 lipca w szpitalu w Tulcea, jak rumuńskie Ministerstwo Zdrowia przekazało AGERPRES. Doniesienia rządu Filipin potwierdziły zgon oraz powrót do domu dwóch pozostałych rannych marynarzy. Bilans ofiar nie ustala przyczyny w postaci drona."
     ],
-    "basis": "6f6ef8fc3dd8a8e7"
+    "basis": "5b25f8a67d378d86"
   },
   "E034": {
     "headline": "Masowiec Christina B uszkodzony koło Rumunii; mina czy dron – nierozstrzygnięte",
@@ -384,14 +386,13 @@
     "basis": "ea7f019b9a1f4ed6"
   },
   "E040": {
-    "headline": "Niemcy wiążą dron nad lotniskiem w Lipsku z osobami działającymi na rzecz rosyjskich służb",
-    "description": "4–5 sierpnia 2026 r. ładunek wybuchowy drona zawiódł na lotnisku Lipsk/Halle w Niemczech. Niemcy obwiniły osoby działające na rzecz rosyjskich służb; Rosja zaprzeczyła.",
+    "headline": "Przelot drona: lotnisko Lipsk/Halle, Niemcy",
+    "description": "4 sierpnia 2026 r., lotnisko Lipsk/Halle, Niemcy. Seria ataków dronami z ładunkami wybuchowymi; oficjalne przypisanie państwu. Dron z ładunkiem wybuchowym dotarł na lotnisko, ale ładunek zawiódł.…",
     "summary": [
-      "W nocy z 4 na 5 sierpnia 2026 r. dron z profesjonalnymi materiałami wybuchowymi i detonatorem dotarł na lotnisko Lipsk/Halle w Schkeuditz w Niemczech, ale ładunek zawiódł. Działalność lotniska została zakłócona. Osobno samolot towarowy zgłosił napotkanie obiektu w podejrzewanej kolizji i zmienił kurs na Hanower; zgłoszono niewielkie uszkodzenia samolotu, ale obiektu nie zidentyfikowano jednoznacznie jako drona. 14 sierpnia znaleziono kolejnego podejrzewanego drona uderzeniowego koło Kabelsketal; znalezisko zgłoszono 25 sierpnia, a obiekt według doniesień wiązano z około 50 g podejrzewanego RDX.",
-      "1 września Niemcy przypisały operację osobom działającym na rzecz rosyjskich służb państwowych. Rosja zaprzeczyła odpowiedzialności. Przypisaniu nie towarzyszyło publiczne ujawnienie wszystkich leżących u jego podstaw dowodów kryminalistycznych i wywiadowczych, a miejsca startu nie ustalono.",
-      "Nie zgłoszono ofiar. Dochodzenie prowadzili policja, zespoły rozbrajania bomb z robotem i federalni prokuratorzy; dodatkowe urządzenie zajęto, a później podjęto środki dyplomatyczne."
+      "Dron z ładunkiem wybuchowym dotarł na lotnisko, ale ładunek zawiódł. Samolot towarowy osobno zgłosił napotkanie obiektu i zmienił kurs. Koło Kabelsketal odzyskano kolejnego podejrzewanego drona uderzeniowego.",
+      "Seria ataków dronami z ładunkami wybuchowymi; oficjalne przypisanie państwu. 1 września Niemcy przypisały operację osobom działającym na rzecz rosyjskich służb państwowych; Rosja zaprzeczyła odpowiedzialności. Oficjalne przypisanie przez Niemcy odnotowano jako przypisanie, a nie publiczne ujawnienie wszystkich leżących u jego podstaw dowodów kryminalistycznych i wywiadowczych. Rosyjskie zaprzeczenie zostaje odnotowane. Listopadowe ustalenia dotyczące miejsca startu i sprzętu pozostają ocenami śledczych, a nie dowodem winy jakiejkolwiek osoby."
     ],
-    "basis": "fd5d244bb50c3706"
+    "basis": "cc6d63474657af35"
   },
   "E041": {
     "headline": "Dwa drony zaobserwowane nad obiektem wojskowym w zachodnich Niemczech",
@@ -455,13 +456,14 @@
   },
   "E047": {
     "headline": "Rumuński F-16 ostrzeliwuje wybuchowy dron morski koło prac Neptun Deep",
-    "description": "20 sierpnia 2026 r. rumuński F-16 uszkodził wybuchowy dron morski koło Neptun Deep w rumuńskiej wyłącznej strefie ekonomicznej, zanim unieszkodliwiła go Marynarka Wojenna. Jego pochodzenie jest nierozstrzygnięte.",
+    "description": "Rumunia unieszkodliwiła wybuchowy dron morski koło Neptun Deep 20 sierpnia. Jej prezydent przypisał go później Marynarce Wojennej Rosji.",
     "summary": [
-      "20 sierpnia 2026 r. bezzałogową jednostkę nawodną, czyli dron morski, przewożącą materiały wybuchowe wykryto kilkaset metrów od morskich prac Neptun Deep, około 80 mil morskich na wschód od Konstancy w wyłącznej strefie ekonomicznej (WSE) Rumunii. Czy zbliżał się do prac, czy dryfował w ich stronę i co miał zrobić, pozostaje nierozstrzygnięte.",
+      "20 sierpnia 2026 r. bezzałogową jednostkę nawodną, czyli dron morski, przewożącą materiały wybuchowe wykryto kilkaset metrów od morskich prac Neptun Deep, około 80 mil morskich na wschód od Konstancy w wyłącznej strefie ekonomicznej Rumunii.",
       "Rumuński F-16 ostrzelał go z działka, uszkadzając go, ale nie niszcząc całkowicie, a następnie unieszkodliwił go zespół EOD Marynarki Wojennej. Oficjalne doniesienia potwierdziły ładunek wybuchowy o nieokreślonej wielkości. Ministerstwo obrony początkowo opisało dwa drony, a później sprostowało to na jeden. Nie zgłoszono ofiar ani szkód w infrastrukturze.",
-      "Miejsce startu i operator drona są nieznani. Rumuński minister obrony powiedział, że Ukraina potwierdziła, iż dron nie był ukraiński; to oświadczenie nie ustala, kto go faktycznie wystrzelił. Przypadek jest odrębny od drona powietrznego, który rozbił się koło Grindu tego samego dnia."
+      "23 września prezydent Nicușor Dan powiedział Radzie Bezpieczeństwa ONZ, że dron z 20 sierpnia był dronem Marynarki Wojennej Rosji. Nie ujawnił dowodów, na których opiera się to przypisanie. Miejsce startu i zamierzony cel pozostają niezweryfikowane. Przypadek jest odrębny od drona powietrznego, który rozbił się koło Grindu tego samego dnia.",
+      "W retrospektywnej relacji opublikowanej przez SpotMedia 24 listopada były minister obrony Radu Miruță opisał pracowników filmujących drona w pobliżu podpór platformy oraz holownik próbujący utrzymać go z dala. Relacjonował też, że po wydaniu rozkazu reakcji myśliwców otrzymał rosyjskie zawiadomienie o ograniczeniach lotów. Oryginalnego zawiadomienia nie przeanalizowano niezależnie; te szczegóły aktualizują sierpniowy incydent i nie dotyczą nowego zdarzenia."
     ],
-    "basis": "d752991b133cd913"
+    "basis": "d09904239858514b"
   },
   "E048": {
     "headline": "Marynarka Wojenna niszczy wybuchowe szczątki drona znalezione na plaży Tuzla w Rumunii",
@@ -519,9 +521,10 @@
     "summary": [
       "27 sierpnia 2026 r. statek handlowy Progress IV zapalił się i zatonął na Morzu Czarnym, około 15–20 mil morskich od Sfântu Gheorghe, w wyłącznej strefie ekonomicznej Rumunii. Wezwanie o pomoc nadeszło około 17:55 czasu lokalnego, a do 20:47 uratowano wszystkich 12 członków załogi.",
       "Zarzucono uderzenie w statek, a władze stwierdziły, że jego przyczyna wymaga zbadania. Atak drona pozostawał hipotezą: nie zidentyfikowano drona ani innej broni i nie ustalono eksplozji ani uderzenia drona. Banderę statku podano jako Republikę Dominikańską, podczas gdy źródło z branży żeglugowej wskazało Dominikę.",
-      "Jeden członek załogi został ranny, według doniesień ze złamaną ręką; wcześniejsze opisy poważnego urazu nie znajdują potwierdzenia w późniejszych relacjach. Morskie centrum koordynacji ratownictwa (MRCC) koordynowało działania statku handlowego, Policji Granicznej i jednostek ratowniczych."
+      "Jeden członek załogi został ranny, według doniesień ze złamaną ręką; wcześniejsze opisy poważnego urazu nie znajdują potwierdzenia w późniejszych relacjach. Morskie centrum koordynacji ratownictwa (MRCC) koordynowało działania statku handlowego, Policji Granicznej i jednostek ratowniczych.",
+      "24 listopada Libertatea podała, że rumuńska Morska Dyrekcja Hydrograficzna oceniła, iż w jednostkę uderzył dron. Opublikowane przez Dyrekcję komunikaty nawigacyjne potwierdzają istnienie wraku i informują o zagrożeniach, ale nie podają przyczyny. Nie ustalono wyników badań kryminalistycznych, broni ani operatora."
     ],
-    "basis": "f4b55e178bf70b3a"
+    "basis": "7df77fa9b948d455"
   },
   "E054": {
     "headline": "Pasterz znajduje wybuchowego drona koło Viișoara w Rumunii; pochodzenie sporne",
@@ -534,14 +537,14 @@
     "basis": "cfac143f34b000e0"
   },
   "E055": {
-    "headline": "Dron do mapowania nieznanego pochodzenia odzyskany na południowym wybrzeżu Finlandii",
-    "description": "2 września 2026 r. na południowym wybrzeżu Finlandii odzyskano dron do mapowania nieznanego pochodzenia. Badano możliwe naruszenie terytorium.",
+    "headline": "Dron z Pellinki znaleziony 1 września; oceniono prawdopodobne rosyjskie pochodzenie",
+    "description": "Dron znaleziony w Pellinki 1 września oceniono jako prawdopodobnie pochodzenia rosyjskiego. Według śledczych spadł do morza poza Finlandią; dochodzenie trwało dalej.",
     "summary": [
-      "2 września 2026 r. władze odzyskały dron pomiarowy lub do mapowania (BSP) na południowym wybrzeżu Finlandii. Dokładnego miejsca nie podano w cytowanym doniesieniu. Data jest datą odzyskania; kiedy dron leciał i jaką trasą, jest nieznane.",
-      "Pochodzenie i operator drona są nieznani. Nie ustalono, że przybył z zagranicy, i nie zakłada się, że jest zagranicznym dronem wojskowym.",
-      "Dron opisano jako niegroźny, bez zidentyfikowanego niebezpiecznego ładunku, i nie zgłoszono szkód ani ofiar. Władze badały, czy lot stanowił naruszenie terytorium."
+      "Cywil znalazł BSP wśród przybrzeżnych skał Pellinki 1 września 2026 r.; patrol Straży Granicznej to potwierdził. Wcześniejsza data w rejestrze, 2 września, była datą pierwszego komunikatu. Opublikowany adres strony został zachowany.",
+      "10 września Straż Graniczna podała, że dane z urządzenia wskazują na statek powietrzny prawdopodobnie pochodzenia rosyjskiego, który stracił kontrolę i wyczerpał paliwo, zanim spadł do morza poza Finlandią. Ustalenie było wstępne, a dochodzenie trwało.",
+      "Pozostaje to jednym przypadkiem zabezpieczenia drona, a nie ustalonym wtargnięciem w przestrzeń powietrzną ani upadkiem w Finlandii. Operator i pierwotne przeznaczenie pozostają nierozstrzygnięte. Punkt na mapie jest przybliżonym punktem zakotwiczenia w archipelagu."
     ],
-    "basis": "30e03e74f6707d09"
+    "basis": "de38e633c3a7e190"
   },
   "E056": {
     "headline": "Odrzutowy dron wskazywany jako rosyjski wlatuje do północno-wschodniej Rumunii z Mołdawii",
@@ -554,14 +557,14 @@
     "basis": "7b1f8e2c4bb81edb"
   },
   "E057": {
-    "headline": "Podejrzewany rosyjski wojskowy dron wyłowiony koło plaży Rusinowo w Polsce",
-    "description": "14 września 2026 r. polskie wojsko wyłowiło z morza dron koło plaży Rusinowo; wstępna ocena ministra obrony jest taka, że jest rosyjski.",
+    "headline": "Dron odzyskany na plaży w Rusinowie; głowicę bezpiecznie zneutralizowano",
+    "description": "14 września koło Rusinowa morze wyrzuciło na brzeg drona. Prokuratura wstępnie zidentyfikowała Gerberę rosyjskiej produkcji i opisała kontrolowaną neutralizację głowicy.",
     "summary": [
-      "14 września 2026 r. polskie wojsko zlokalizowało podejrzewanego wojskowego drona na Morzu Bałtyckim tuż przy plaży Rusinowo, blisko Jarosławca na polskim wybrzeżu, i wyłowiło go z wody do zbadania. Data jest datą znalezienia i wyłowienia; kiedy dron leciał i jaką trasą dotarł do polskiego wybrzeża, nie wiadomo.",
-      "Polski minister obrony powiedział, że wstępna ocena jest taka, że był to rosyjski dron wojskowy. Ta identyfikacja jest wstępna i zależy od zbadania wyłowionego drona. Nie zgłoszono ładunku.",
-      "W związku ze znaleziskiem nie zgłoszono ofiar ani szkód."
+      "Według oświadczenia poznańskiej prokuratury z 1 października załoga marynarki wojennej zauważyła BSP dryfujący koło Jarosławca około 09:20 14 września; około 11:25 został wyrzucony na brzeg koło Rusinowa. To jedno zdarzenie obejmujące zabezpieczenie i neutralizację, a nie kolejne zdarzenie z dnia późniejszej publikacji.",
+      "Specjaliści oddzielili głowicę z potencjalnym ładunkiem wybuchowym i zniszczyli ją w kontrolowanej detonacji. Śledczy wstępnie zidentyfikowali Gerberę rosyjskiej produkcji. Operator, cel, trasa lotu i okoliczności upadku do morza pozostają nierozstrzygnięte; miejsce produkcji nie ustala operatora ani zamiaru.",
+      "Śledztwo przekazano do Poznania 25 września i zlecono badania specjalistyczne. Nie zgłoszono ofiar ani szkód."
     ],
-    "basis": "5071f4361b5692d3"
+    "basis": "4c37729989b9a2c5"
   },
   "E058": {
     "headline": "Włoski myśliwiec NATO zestrzeliwuje drona Gerbera koło Pratkūnai na Litwie",
@@ -569,9 +572,9 @@
     "summary": [
       "W nocy z 14 na 15 września 2026 r. włoski myśliwiec działający w ramach NATO zwalczył i zestrzelił drona nad Litwą koło Pratkūnai. Litewskie władze zbadały następnie szczątki i elektronikę drona. Nie zgłoszono ofiar.",
       "Dron zidentyfikowano jako Gerberę, typ używany przez Rosję. 16 września prezydent Litwy ocenił, że prawdopodobnie był przeznaczony do ukraińskiego celu. Możliwe odchylenie od kursu przez ukraińską walkę elektroniczną przedstawiono jako wyjaśnienie, jak dotarł na Litwę, ale ta przyczynowa relacja jest oceną. Ani identyfikacja jako typu rosyjskiego, ani ocena zamierzonego celu nie są dowodem celowego ataku na Litwę.",
-      "Nie ustalono, czy ten konkretny dron przenosił materiały wybuchowe; warianty Gerbera mogą być wabikami lub uzbrojone."
+      "Litewski minister obrony Robertas Kaunas powiedział, że dron przenosił materiał wybuchowy, podał Reuters 15 września. To oficjalne oświadczenie przytaczane ze wskazaniem autora; niezależnych ustaleń kryminalistycznych ani dokładnej ilości materiału wybuchowego nie przeanalizowano. Nie ustala ono celowego ataku na Litwę."
     ],
-    "basis": "fce04ead6c652cda"
+    "basis": "2f29e9a25cf1baa8"
   },
   "E059": {
     "headline": "Rumunia podaje, że ładunek rosyjskiego drona zdetonował w powietrzu przed rozbiciem koło Solca",
@@ -1195,10 +1198,11 @@
     "description": "5 października 2026 r. drony według doniesień uderzyły w statek zbożowy Royad Mammadov w rumuńskiej wyłącznej strefie ekonomicznej na Morzu Czarnym. Relacje o zabitych są sprzeczne; Ukraina obwiniła Rosję.",
     "summary": [
       "5 października 2026 r. zbożowiec Royad Mammadov, płynący z Izmaiłu na Ukrainie do Rawenny we Włoszech, został uszkodzony w wyniku zgłoszonego uderzenia drona, eksplozji na pokładzie i pożaru na Morzu Czarnym koło platformy Pescăruș, około 30 mil morskich na południe od Sfântu Gheorghe. Miejsce znajdowało się w wyłącznej strefie ekonomicznej (WSE) Rumunii, poza jej wodami terytorialnymi. Prośbę o ratunek zarejestrowano o 10:37 czasu lokalnego; dokładny czas uderzenia nie jest zweryfikowany.",
-      "Prezydent Ukrainy Wołodymyr Zełenski powiedział, że statek uderzyły dwa rosyjskie drony. To twierdzenie ukraińskie, a nie niezależna weryfikacja, a Rumunia nie opublikowała ustaleń dotyczących przypisania. Marius Roibu, dyrektor centrum ratownictwa MRCC Konstanca, opisał pozorny atak wielu dronów; typ dronów, miejsce startu i operatorzy nie zostały ustalone.",
-      "Relacje o ofiarach są sprzeczne. Rumuńskie Ministerstwo Spraw Wewnętrznych początkowo zgłosiło dwie osoby zabite i jedenaście uratowanych; 6 października azerskie Ministerstwo Spraw Zagranicznych powiedziało, że kapitan zginął, a inny azerski członek załogi zaginął. Ambasada Indii podała, że trzech indyjskich członków załogi przeżyło, z których jeden został ranny. Wstępne doniesienie, że statek zatonął, sprostowano 6 października, gdy zgłoszono, że unosi się na wodzie i czeka na holowanie do Midia. Petrom podał, że platforma Pescăruș nie została dotknięta."
+      "Prezydent Ukrainy Wołodymyr Zełenski powiedział, że w statek uderzyły dwa rosyjskie drony. To twierdzenie ukraińskie, a nie niezależna weryfikacja, a Rumunia nie opublikowała ustaleń dotyczących przypisania. Marius Roibu, dyrektor centrum ratownictwa MRCC Konstanca, opisał to, co wyglądało na atak wielu dronów; typ dronów, miejsce startu i operatorzy nie zostały ustalone.",
+      "Relacje o ofiarach są sprzeczne. Rumuńskie Ministerstwo Spraw Wewnętrznych początkowo zgłosiło dwie osoby zabite i jedenaście uratowanych; 6 października azerskie Ministerstwo Spraw Zagranicznych podało, że kapitan zginął, a inny azerski członek załogi zaginął. Ambasada Indii podała, że trzech indyjskich członków załogi przeżyło, z których jeden został ranny. Wstępne doniesienie, że statek zatonął, sprostowano 6 października, gdy zgłoszono, że unosi się na wodzie i czeka na holowanie do Midia. Petrom podał, że platforma Pescăruș nie została dotknięta.",
+      "Rumunia wydała ostrzeżenie o niebezpieczeństwie zatonięcia 7 października. Komunikat dla żeglarzy 10/65/26, w korekcie map z 22 października, wymienił później statek jako niebezpieczny wrak. To ustala jego późniejszy stan, a nie to, kiedy zatonął, czy doszło do holowania ani dokładne miejsce uderzenia."
     ],
-    "basis": "f110d36fc131a5b5"
+    "basis": "93c08958dbb972eb"
   },
   "N073": {
     "headline": "Atak dronów koło Bułgarii zatapia ALFA WATAN i podpala ABLE",
@@ -1366,14 +1370,15 @@
     "basis": "534d215b86c0e039"
   },
   "N090": {
-    "headline": "Uderzenie drona podpala WINE TRADER koło Sulina; siedmiu członków załogi zaginionych",
-    "description": "WINE TRADER został uderzony koło Sulina 15 października 2026 r.; pięciu członków załogi uratowano, siedmiu zaginęło. Źródło NATO oceniło drony jako pochodzenia rosyjskiego.",
+    "headline": "Uderzenie drona w WINE TRADER koło Sulina; szczątki ludzkie znalezione później w Warnie",
+    "description": "Podczas remontu WINE TRADER w Warnie, po uderzeniu drona 15 października koło Sulina, znaleziono szczątki ludzkie. Identyfikacja DNA i postępowania trwają.",
     "summary": [
       "Dron uderzył w zbiornikowiec WINE TRADER pod banderą San Marino koło Sulina 15 października 2026 r. Prezydent Rumunii potwierdził atak. Wojskowe źródło NATO cytowane przez Reutersa oceniło drony, które uderzyły w ten zbiornikowiec i YARA J, jako pochodzenia rosyjskiego; konkretny operator nie został ustalony w przeanalizowanych doniesieniach.",
-      "Z dwunastu członków załogi pięciu uratowano, a siedmiu pozostawało zaginionych. U dwóch rozbitków stwierdzono oparzenia skóry głowy lub lekkie zatrucie dymem; wszyscy pięciu byli w stanie stabilnym i zostali zabrani do szpitala. Pożar uszkodził jednostkę. Jej ostateczny stan jest niepotwierdzony, a zaginieni członkowie załogi nie są liczeni jako potwierdzeni zabici. Wzburzone morze utrudniało akcję ratunkową. IGSU zgłosiło, że poszukiwania wznowiono 16 października; jego początkowe ogłoszenie o wejściu na pokład było planem. Oświadczenie związku zawodowego marynarzy z 19 października zgłosiło następnie, że zespoły weszły na pokład i przeszukały dostępne pomieszczenia, a uszkodzenia utrudniały poszukiwania. Związek powtórzył pięciu uratowanych i siedmiu zaginionych. 22 października Ministerstwo Spraw Zagranicznych Chorwacji powiedziało, że poszukiwania zakończono z powodu upływu czasu. Jeden chorwacki marynarz pozostawał zaginiony; inny, leczony z powierzchownych oparzeń, został wypisany. To nie zamienia zaginionych w potwierdzonych zmarłych.",
-      "Statek znajdował się według doniesień około 13 mil morskich na południowy wschód od Sulina, tuż poza rumuńskimi wodami terytorialnymi. Jest uwzględniony w zakresie rejestru na morzu. Prośba o ratunek o 06:58 nie jest zweryfikowanym czasem ataku. Ten wpis awansuje wcześniejszą wskazówkę z listy obserwacyjnej dotyczącą samego pożaru do jednego czerwonego wpisu „Uderzenie”, łączącego atak, pożar i ratownictwo; pozostaje odrębny od YARA J i Sea Destiny."
+      "Początkowo pięciu z dwunastu członków załogi uratowano, a siedmiu zgłoszono jako zaginionych. U dwóch rozbitków stwierdzono oparzenia skóry głowy lub lekkie zatrucie dymem; wszystkich pięciu było w stanie stabilnym i zabrano ich do szpitala. Wzburzone morze i uszkodzenia utrudniały poszukiwania. Oświadczenie związku zawodowego z 19 października podało, że zespoły przeszukały dostępne pomieszczenia. 22 października Ministerstwo Spraw Zagranicznych Chorwacji podało, że poszukiwania przerwano z powodu upływu czasu.",
+      "7 listopada prokuratura w Warnie potwierdziła, że poważnie uszkodzone szczątki ludzkie znaleziono podczas oczyszczania trafionego przez drona statku, przyjętego do remontu na początku listopada. BNR identyfikuje go jako WINE TRADER i informuje o ciele marynarza i szczątkach ludzkich. Zlecono badania DNA w celu ustalenia tożsamości, a postępowania trwają w Bułgarii i Rumunii. Podstawowe oświadczenie nie podaje liczby ofiar. Wczesne liczbowe doniesienia mediów są sprzeczne, dlatego z historycznych danych o akcji ratunkowej nie wywodzi się ani ostatecznej liczby ofiar, ani obecnej liczby osób wciąż zaginionych.",
+      "Statek znajdował się według doniesień około 13 mil morskich na południowy wschód od Sulina, tuż poza rumuńskimi wodami terytorialnymi. Jest uwzględniony w zakresie rejestru obejmującym obszary morskie. Prośba o ratunek o 06:58 nie jest zweryfikowanym czasem ataku. Ten wpis podnosi wcześniejszą wskazówkę z listy obserwacyjnej, dotyczącą samego pożaru, do jednego czerwonego wpisu „Uderzenie”, łączącego atak, pożar i akcję ratunkową; pozostaje on odrębny od YARA J i Sea Destiny."
     ],
-    "basis": "186f434beac254b7"
+    "basis": "5f5c3c23d1d87774"
   },
   "N091": {
     "headline": "Dailidžiai: pogranicznicy odzyskują transgraniczny dron z papierosami",
@@ -1570,13 +1575,15 @@
     "basis": "fcab4114f04792bb"
   },
   "N112": {
-    "headline": "Doniesienie o uderzeniu drona w KHORYV: jednostka wywróciła się, ale nadal unosi się na wodzie",
-    "description": "KHORYV wywrócił się koło Konstancy 23 października. Komunikat nawigacyjny podaje, że nadal unosi się na wodzie, co jest sprzeczne z doniesieniami o zatonięciu. Jedna osoba nie żyje; trzy zaginęły.",
+    "headline": "Doniesienie o uderzeniu drona w KHORYV: badanie marynarki wykazuje całkowite zanurzenie wraku",
+    "description": "KHORYV został według doniesień trafiony na morzu 23 października. Badanie marynarki wojennej z 19 listopada według doniesień wykazało całkowite zanurzenie wraku. Ostateczny wynik poszukiwań nie jest znany.",
     "summary": [
-      "KHORYV wywrócił się poza rumuńskimi wodami terytorialnymi 23 października. AGERPRES wiąże to z oświadczeniem prezydenta, że dron uderzył w jednostkę. Obecny podstawowy komunikat nawigacyjny, ARN155, zgłasza, że KHORYV jest częściowo zanurzony, ale nadal unosi się do góry dnem według stanu na 25 października, mimo doniesień prasowych o zatonięciu. Dokonanego zatonięcia nie traktuje się jako ustalonego.",
-      "Rumunia podaje trzynastu członków załogi: dziewięciu uratowanych, jednego zabitego i trzech zaginionych. Ukraina potwierdza ukraińską ofiarę śmiertelną, ale podaje czternastu członków załogi; rozbieżność pozostaje nierozstrzygnięta. Komunikaty podają datowane pozycje wywrócenia i późniejszego dryfującego wraku, a nie zweryfikowane współrzędne uderzenia. Przypisanie operatora i ostateczny wynik poszukiwań pozostają nierozstrzygnięte."
+      "KHORYV został według doniesień trafiony przez drona i zapalił się na morzu na wysokości Konstancy 23 października, zanim się wywrócił. NAVWARN 766/26 opisuje obserwację z 28 października, godz. 18:00 UTC, wywróconego, częściowo zanurzonego, dryfującego wraku. 29 października bTV, powołując się na bułgarskie ministerstwo obrony, podała informację o częściowym zanurzeniu i utrzymującym się zagrożeniu; Maritime.bg podał później, w nowej aktualizacji z 1 listopada, że rufa osiadła na dnie, a dziób jest nadal widoczny. Maritime.bg, powołując się na potwierdzenie biura prasowego bułgarskiego ministerstwa obrony, podał, że badanie marynarki wojennej z 19 listopada wykazało całkowite zanurzenie wraku koło Shabla, pod około 50 metrami wody. Dokładnego czasu zatonięcia ani odwołania wcześniejszego ostrzeżenia nie zweryfikowano. Te późniejsze obserwacje wraku nie zmieniają lokalizacji pierwotnego uderzenia na morzu.",
+      "Rumunia podaje trzynastu członków załogi: dziewięciu uratowanych, jednego zabitego i trzech zaginionych. Ukraina potwierdza ukraińską ofiarę śmiertelną, ale podaje czternastu członków załogi; rozbieżność pozostaje nierozstrzygnięta. Komunikaty podają datowane pozycje wywrócenia i późniejszego dryfującego wraku, a nie zweryfikowane współrzędne uderzenia. Przypisanie operatora i ostateczny wynik poszukiwań pozostają nierozstrzygnięte.",
+      "Bułgaria ogłosiła monitorowanie i planowaną inspekcję marynarki wojennej 27 października. Następnego ranka jej minister obrony powiedział, że wrak wpływa na bułgarskie morze terytorialne. Są to późniejsze doniesienia o dryfującym wraku, a nie nowy atak ani zmiana pierwotnej lokalizacji uderzenia na morzu.",
+      "bTV podała, że na miejscu był Reshitelni, a działania wstrzymano z powodu złej pogody; Maritime.bg opisał próby celowego zatopienia wraku. Pozostają one działaniami następczymi w ramach tego samego zdarzenia, a nie nowym atakiem ani rozstrzygnięciem losu zaginionych."
     ],
-    "basis": "5f8e6ad7a2fd7810"
+    "basis": "63b1a3f055a1d63d"
   },
   "N113": {
     "headline": "Grecja zgłasza 8 tureckich BSP i 12 naruszeń przestrzeni powietrznej 21 października",
@@ -1610,9 +1617,9 @@
     "description": "21 października 2026 r. w Lubaczowie znaleziono płatowiec z pianki. Żandarmeria Wojskowa nie znalazła materiałów wybuchowych; pochodzenie i ewentualne powiązanie zagraniczne pozostają nieznane.",
     "summary": [
       "Szczątki zgłoszono na niezamieszkanej posesji przy ul. Herzoga w Lubaczowie krótko po 13:00 21 października 2026 r. Pobliskich mieszkańców ewakuowano, podczas gdy specjaliści oceniali możliwe zagrożenia; nie zgłoszono rannych ani szkód materialnych.",
-      "Żandarmeria Wojskowa zidentyfikowała nieuzbrojony płatowiec z pianki i 22 października wykluczyła materiały wybuchowe oraz zagrożenia radiologiczne, biologiczne i chemiczne. Aktualizacja prokuratora z 23 października informuje o przekazaniu drona wojskowemu kontrwywiadowi i badaniu dołączonej paczki w Warszawie. Wstępna ocena krótkiego zasięgu nie ustala pochodzenia ani zagranicznego wlotu. Pozostaje to jednym tymczasowym kandydatem na wpis o odzyskaniu."
+      "Żandarmeria Wojskowa zidentyfikowała nieuzbrojony płatowiec z pianki i 22 października wykluczyła materiały wybuchowe oraz zagrożenia radiologiczne, biologiczne i chemiczne. Artykuł Radia Lublin z 22 października przytacza rzecznika prokuratury, według którego dron przekazano kontrwywiadowi wojskowemu, a jego pakunek wysłano do badań; podstawowy komunikat z tego samego dnia wciąż opisuje przekazanie jako planowane. Wstępna ocena wskazująca na krótki zasięg nie ustala pochodzenia ani zagranicznego wlotu. Pozostaje to jednym tymczasowym kandydatem na wpis o zabezpieczeniu."
     ],
-    "basis": "fab6a30cef996170"
+    "basis": "2f669bcaffd204ab"
   },
   "N117": {
     "headline": "Grecja zgłasza sześć tureckich BSP i trzynaście naruszeń przestrzeni powietrznej 23 października",
@@ -1668,5 +1675,861 @@
       "NewsIT i OnAlert powtarzają tę samą oficjalną relację, a nie niezależne obserwacje. Zgłoszono identyfikację i przechwycenie, bez użycia broni. To jeden wpis o aktywności dziennej, a nie suma liczb statków powietrznych i przekroczeń."
     ],
     "basis": "b6d8a69eda200b68"
+  },
+  "N124": {
+    "headline": "CONTSHIP JET trafiony przez drony nawodne na morzu; załogę uratowano, statek później zatonął",
+    "description": "Bułgarskie władze zgłaszają uderzenie drona nawodnego w CONTSHIP JET 28 października. Wszystkich 18 członków załogi uratowano; Varna Radio potwierdza późniejsze zatonięcie.",
+    "summary": [
+      "Bułgarskie władze obronne podają, że dozór Marynarki Wojennej i francuski samolot patrolowy zaobserwowały atak drona nawodnego na CONTSHIP JET o 12:00 czasu lokalnego (10:00 UTC) 28 października; zaobserwowano trzy trafienia. Varna Radio podaje pozycję uderzenia jako 43°15′N, 028°48′E u przylądka Kaliakra. To jedno zdarzenie na morzu z udziałem żeglugi handlowej, a nie potwierdzone wtargnięcie na terytorium Bułgarii.",
+      "Władze obronne i transportowe potwierdzają, że wszystkich 18 członków załogi uratowano. NAVWARN 768/26 stacji Varna Radio potwierdza, że statek następnie zatonął o 20:30 UTC 28 października na pozycji 43°07.80′N, 028°45.36′E, a ponad 20 kontenerów dryfuje, w tym z towarami niebezpiecznymi. Zastępuje to wcześniejsze nieoficjalne doniesienie o zatonięciu.",
+      "Operator drona, miejsce startu i motyw pozostają nieznane. Reuters podaje wstępną, opartą na nagraniu wideo ocenę firmy Ambrey, wskazującą na konstrukcję prawdopodobnie wywodzącą się z Murena-300S; nie jest to potwierdzona identyfikacja modelu ani operatora. Trzy zgłoszone drony i trzy zaobserwowane trafienia nie są odrębnymi incydentami. Późniejsza pozycja zatonięcia nie zastępuje pierwotnych współrzędnych uderzenia.",
+      "Ostrzeżenia nawigacyjne z 1 listopada informowały o dryfujących kontenerach w pobliżu Zatoki Burgaskiej. Ich związek z CONTSHIP JET pozostaje tymczasowy. 3 listopada administracja obwodu Burgas zgłosiła trzy obiekty objęte monitoringiem w pobliżu Oasis–Arapya, Kamennite Korabi w Sinemorets i Butamyata. Informacje z manifestu opisywały ładunek inny niż niebezpieczny i pusty zbiornik; w tym czasie fizyczna zawartość i statek, z którego pochodziły, były nadal badane. Pobieranie próbek i pilnowanie trwały, nie zgłoszono laboratoryjnego potwierdzenia braku zagrożenia. Są to działania następcze dotyczące zagrożeń ze strony ładunku, a nie nowe ataki dronów ani łączna liczba kontenerów.",
+      "4 listopada gubernator obwodu powiedział bTV, że pogoda i trudny dostęp opóźniają wydobycie. Lokalizacja trzeciego kontenera była nieznana; wody tureckie były jedynie jedną z możliwości. Nie przedstawiono laboratoryjnego potwierdzenia braku zagrożenia.",
+      "Liberyjski urząd morski podał, że załoga jest bezpieczna i nie zgłoszono obrażeń, w biuletynie opisującym niewymieniony z nazwy statek, którego data, bandera, klasa i trzy zgłoszone trafienia odpowiadają bułgarskim relacjom podającym nazwę. Gmina Tsarevo podała 12 listopada, że ekipy usunęły worki z czerwoną papryką z obu plaż Lipite. Związek ładunku z CONTSHIP JET pozostawał tymczasowy, a komunikat nie zawierał wyników laboratoryjnych.",
+      "24 listopada władze otworzyły kontener, który 2 listopada został wyrzucony na brzeg koło Tsarevo. Gubernator obwodu Burgas powiedział BTA, że zawierał on około 80 pudeł ozdób bożonarodzeniowych zgodnych z manifestem. Contships Management powiedziało Reutersowi, że nie może potwierdzić, iż kontener był na pokładzie CONTSHIP JET. Otwarcie nie ustala statku pochodzenia, innego ładunku ani wyników badań zanieczyszczeń."
+    ],
+    "basis": "7eebe0feab2ab6ff"
+  },
+  "N125": {
+    "headline": "BSP odzyskany koło Osieki po zgłoszonym przez prokuraturę przekroczeniu granicy z Rosji",
+    "description": "Prokuratura zgłasza nieuprawnione przekroczenie granicy rosyjsko-polskiej 8 maja; nieuzbrojony BSP odzyskano koło Osieki 9 maja. Operator pozostaje nieznany.",
+    "summary": [
+      "Nieuzbrojony rozpoznawczy BSP odzyskano w całości po tym, jak cywil znalazł go na polu koło Osieki 9 maja. 11 maja rzecznik prokuratury w Olsztynie powiedział, że śledczy mają pewność, iż przekroczył on granicę rosyjsko-polską, i datował badane przekroczenie na 8 maja.",
+      "Podstawy dowodowej tego ustalenia dotyczącego przekroczenia granicy nie ujawniono. Operator, producent, zamierzony cel, dokładna trasa i czas upadku pozostają nierozstrzygnięte. Doniesień medialnych o kamerach i oznaczeniach cyrylicą prokurator nie potwierdził. To jedno zdarzenie odnotowane retrospektywnie, a nie nowa aktywność w październiku."
+    ],
+    "basis": "9df76f2823d89cb7"
+  },
+  "N126": {
+    "headline": "Fragmenty BSP odzyskane na plaży Popski; pochodzenie nierozstrzygnięte",
+    "description": "Według odpowiedzi ministerstwa obrony zespół Marynarki Wojennej odzyskał części BSP na plaży Popski w Tsarevo 21 października. Data lotu i pochodzenie narodowe pozostają nieznane.",
+    "summary": [
+      "OFFNews cytuje bułgarskie ministerstwo obrony, które potwierdziło, że zespół Marynarki Wojennej zbadał i zebrał części BSP na plaży Popski 21 października i przewiózł je do bazy. Ta data dotyczy operacji odzyskania, a nie lotu ani upadku.",
+      "Ministerstwo wyraźnie odróżniło to odzyskanie od niezweryfikowanego zarzutu dotyczącego pobliskiej Arapya. Model, pochodzenie, operator, ładunek i sposób, w jaki części tam trafiły, pozostają nierozstrzygnięte. Ten tymczasowy kandydat na wpis o zabezpieczeniu nie jest potwierdzonym zagranicznym wtargnięciem ani dowodem na istnienie kolejnego odrębnego płatowca."
+    ],
+    "basis": "3572d703997e5cd9"
+  },
+  "N127": {
+    "headline": "Fragmenty drona zgłoszone na plaży Listi; data odzyskania nieznana",
+    "description": "BNR podało, że na plaży Listi koło Sinemorets zebrano skrzydło i fragment kadłuba. Data 28 października to data publikacji, a nie zweryfikowana data znalezienia.",
+    "summary": [
+      "Korespondent BNR w Burgasie podał, że skrzydło i fragment kadłuba znaleziono na plaży Listi i zebrała je Policja Graniczna po powiadomieniu. Artykuł opublikowano 28 października, ale nie podaje on dokładnej daty znalezienia ani odzyskania; rejestr wyraźnie używa daty doniesienia jako przybliżenia.",
+      "Pochodzenie, model, operator, ładunek i data lotu lub upadku pozostają nierozstrzygnięte. Ten tymczasowy kandydat na wpis o zabezpieczeniu różni się od plaży Popski zgłoszoną lokalizacją, ale nie ustalono, że chodzi o kolejny, odrębny płatowiec. Twierdzenie o przypisaniu dotyczące pobliskiej Arapya nie jest przenoszone na te fragmenty."
+    ],
+    "basis": "22e8ad26c842d4a6"
+  },
+  "N128": {
+    "headline": "Grecja zgłasza pięć tureckich BSP w 13 naruszeniach przestrzeni powietrznej nad Morzem Egejskim",
+    "description": "Greckie doniesienia wojskowe przypisują 13 naruszeń krajowej przestrzeni powietrznej pięciu tureckim BSP 30 października. Jeden wpis dzienny; dokładne trasy nie zostały opublikowane.",
+    "summary": [
+      "Greckie dane wojskowe podane 30 października przypisują 13 naruszeń krajowej przestrzeni powietrznej i 11 naruszeń FIR Ateny pięciu tureckim BSP w północno-wschodniej, środkowej i południowo-wschodniej części Morza Egejskiego. Ocena dotycząca krajowej przestrzeni powietrznej i przypisanie wojskowe pochodzą od Grecji; dokładne trasy pozostają nieopublikowane.",
+      "To jeden dzienny wpis regionalny, a nie 13 ataków. Naruszenia przez załogowe statki powietrzne i dwa starcia w mieszanym dziennym zestawieniu nie są dowodem uzbrojenia BSP, użycia broni ani zestrzelenia. Dokładne modele, ładunki i zamierzone cele pozostają nieznane."
+    ],
+    "basis": "8d16fbffeee972eb"
+  },
+  "N129": {
+    "headline": "Rumunia potwierdza dwa nieuprawnione wloty dronów na północnym wschodzie kraju",
+    "description": "Rumunia zgłasza dwa wloty dronów 31 października. Jeden odleciał; drugi zaobserwowano po raz ostatni w pobliżu Vaslui i Bacău. Nie zgłoszono upadku.",
+    "summary": [
+      "Rumuńskie ministerstwo obrony potwierdza, że wieczorem 31 października 2026 r. dwa drony wleciały w przestrzeń powietrzną kraju na północnym wschodzie. Jeden odleciał; drugi zaobserwowano po raz ostatni między okręgami Vaslui i Bacău. Do chwili publikacji nie zgłoszono upadku.",
+      "Wystartowały cztery F-16 i śmigłowiec IAR-330 SOCAT, a ostrzeżenia dla ludności zakończyły się o 19:19 czasu lokalnego. To jedno zdarzenie z udziałem dwóch dronów, a nie dwa zweryfikowane ataki. Operator, model, zamiar i cele pozostają nieznane; punkt zakotwiczenia na mapie jest przybliżony.",
+      "Według dyrektora lotniska w Jassach samolot Wizz Air lecący z Eindhoven skierowano do Suczawy podczas tymczasowego zamknięcia przestrzeni powietrznej. To zakłócenie należy do tego samego epizodu, a nie do kolejnego wtargnięcia."
+    ],
+    "basis": "5c2d0df27e180a9b"
+  },
+  "N130": {
+    "headline": "Łotwa ocenia, że BSP przelatujący 1 listopada to prawdopodobnie rosyjski Geran",
+    "description": "NBS oceniają, że BSP, który przeleciał nad Łotwą 1 listopada, to prawdopodobnie rosyjski Geran. Wyleciał do Rosji; ładunek wybuchowy i zamiar pozostają nieznane.",
+    "summary": [
+      "Urzędnicy opisali drona, który przeleciał nad wschodnią Łotwą z Białorusi i wyleciał do Rosji o 19:16 1 listopada. NBS oceniły go następnie jako prawdopodobnie rosyjskiego drona Geran po analizie danych z czujników i przechwytywacza oraz konsultacjach z ukraińskimi partnerami.",
+      "Łotwa dokonała samozniszczenia własnego przechwytywacza o 19:19. Nie było to zgłoszone zestrzelenie wykrytego BSP. NBS nie mogą ustalić, czy ten BSP przenosił materiały wybuchowe; operator, zamiar i cel pozostają niepotwierdzone."
+    ],
+    "basis": "c77fff5610f5734e"
+  },
+  "N131": {
+    "headline": "Ostrzeżenie dla północnego Tulcea; nie zgłoszono wlotu w rumuńską przestrzeń powietrzną",
+    "description": "Rumunia wydała ostrzeżenie dla północnej części Tulcea 2 listopada po atakach w pobliżu, na Ukrainie. MApN zgłosiło brak wlotu w krajową przestrzeń powietrzną Rumunii.",
+    "summary": [
+      "Północna część Tulcea otrzymała RO-Alert o 04:11 2 listopada po atakach dronów na ukraińskie porty dunajskie. Rumunia skierowała do działań F-16 i śmigłowiec Puma SOCAT; alert zakończył się o 05:26 czasu lokalnego.",
+      "MApN zgłosiło brak wlotu w rumuńską przestrzeń powietrzną. To alert obrony cywilnej, a nie wtargnięcie ani potwierdzony atak w Rumunii. Punkt na mapie przedstawia obszar ostrzeżenia."
+    ],
+    "basis": "b3d536ba24881e16"
+  },
+  "N132": {
+    "headline": "Łotwa potwierdza wykrycie BSP; pochodzenie i możliwy upadek w Balvi nierozstrzygnięte",
+    "description": "NBS potwierdzają obecność BSP na Łotwie 3 listopada. Wizualnie przypominał ukraińskie drony wojskowe, ale typ, pochodzenie i możliwy upadek w Balvi pozostają niepotwierdzone.",
+    "summary": [
+      "NBS potwierdzają, że podczas alertu w rejonie Balvi–Ludza 3 listopada w łotewskiej przestrzeni powietrznej wykryto BSP. Według wstępnej identyfikacji wizualnej przypominał ukraińskie wojskowe BSP, ale siły zbrojne wyraźnie stwierdziły, że nie mogą potwierdzić typu ani pochodzenia.",
+      "BSP mógł spaść w gminie Balvi; poszukiwania naziemne trwały. Pozostaje to kandydatem na wpis z nierozstrzygniętym pochodzeniem i skutkiem, a nie potwierdzonym zagranicznym wtargnięciem, upadkiem czy zestrzeleniem. Regionalny punkt na mapie nie jest zweryfikowanym miejscem upadku."
+    ],
+    "basis": "505a6db792d85d51"
+  },
+  "N133": {
+    "headline": "Nocne ostrzeżenie dla Tulcea: nie zgłoszono wlotu w rumuńską przestrzeń powietrzną",
+    "description": "Północna część Tulcea otrzymała ostrzeżenie późnym wieczorem 2 listopada po aktywności powietrznej nad Ukrainą. MApN zgłosiło brak wlotu do Rumunii; alert zakończył się po północy.",
+    "summary": [
+      "MApN zgłosiło dwa cele radarowe nad Ukrainą w rejonie Izmaiłu i Chilia w nocy z 2 na 3 listopada. Północna część Tulcea otrzymała RO-Alert o 23:43; ostrzeżenie zakończyło się o 00:21 czasu lokalnego. W odpowiedzi wystartowały dwa hiszpańskie F-18.",
+      "Nie zgłoszono wlotu w rumuńską przestrzeń powietrzną. To wybrany alert obrony cywilnej, odrębny od wcześniejszego ostrzeżenia z 2 listopada, a nie potwierdzone wtargnięcie ani atak w Rumunii. Punkt zakotwiczenia na mapie przedstawia obszar ostrzeżenia."
+    ],
+    "basis": "a90d1dcd244ae758"
+  },
+  "N134": {
+    "headline": "Ostrzeżenie dla północnego Tulcea 4 listopada; nie zgłoszono wlotu do Rumunii",
+    "description": "Cel nad Ukrainą spowodował start dwóch F-16 i ostrzeżenie dla północnej części Tulcea 4 listopada. MApN zgłosiło brak wlotu w rumuńską przestrzeń powietrzną.",
+    "summary": [
+      "Północna część Tulcea otrzymała RO-Alert o 10:57 4 listopada po wykryciu celu radarowego na północ od Vîlcove na Ukrainie. Dwa F-16 wystartowały z Borcea.",
+      "MApN zgłosiło brak wlotu w rumuńską przestrzeń powietrzną. Ten wybrany alert jest odrębny od nocnego ostrzeżenia z 2–3 listopada; punkt na mapie przedstawia obszar ostrzeżenia."
+    ],
+    "basis": "eefa3af945e0c8ca"
+  },
+  "N135": {
+    "headline": "Fragmenty drona znalezione w Boghicea; zgłoszono kontrolowaną neutralizację",
+    "description": "Fragmenty drona znalezione w Boghicea 5 listopada zostały według doniesień zniszczone tego samego wieczoru. Pochodzenie i ewentualny związek z przelotem z 31 października pozostają nierozstrzygnięte.",
+    "summary": [
+      "Mieszkaniec powiadomił wiejską policję w Sagna po znalezieniu rozrzuconych fragmentów w Boghicea. Na miejsce przybyli policjanci, strażacy i specjaliści SRI. ProTV podaje, że specjaliści zdetonowali szczątki wieczorem 5 listopada po ich zbadaniu i ostrzeżeniu RO-Alert.",
+      "Zagraniczne pochodzenie, data upadku i ewentualny związek z N129 pozostają niepotwierdzone. ProTV podaje jednoznaczną informację o zakończeniu neutralizacji; nie pozyskano bezpośredniego oficjalnego oświadczenia o jej zakończeniu. Napisy opisane przez naocznych świadków nie ustalają operatora ani modelu.",
+      "Jeden wpis o znalezisku, a nie nowo zweryfikowany przelot ani dodatkowy BSP w zestawieniu. Możliwy związek z N129 pozostaje nierozstrzygnięty; wpisy należy połączyć lub powiązać odsyłaczem, jeśli dowody wykażą później, że chodzi o tego samego drona. Reakcja służb ratunkowych i ostrzeżenie o neutralizacji nie są odrębnymi zdarzeniami."
+    ],
+    "basis": "b1fd2b840a7ff077"
+  },
+  "N136": {
+    "headline": "Tulcea · nocny RO-Alert 6 listopada",
+    "description": "Oficjalne ostrzeżenie; nie zgłoszono wlotu w rumuńską przestrzeń powietrzną. Wyłącznie alert; nie zakłada się wtargnięcia, interwencji wojskowej ani uderzenia.",
+    "summary": [
+      "Ataki w pobliżu na ukraińskie porty spowodowały wydanie ostrzeżenia. RO-Alert wydano o 00:19; alert zakończył się o 00:41 czasu lokalnego.",
+      "Liczba i model dronów nie zostały określone w komunikacie. Nie ustalono trasy lotu, liczby dronów ani modelu.",
+      "Jeden wybrany alert, odrębny od późniejszego porannego ostrzeżenia N137 z 08:56."
+    ],
+    "basis": "42bf1e8a50a620f5"
+  },
+  "N137": {
+    "headline": "Północne Tulcea · poranny alert 6 listopada dotyczący celu koło Sulina",
+    "description": "Oficjalne ostrzeżenie o celu radarowym; wlotu do Rumunii nie ustalono. Wyłącznie alert; nie zakłada się wtargnięcia, interwencji wojskowej ani uderzenia.",
+    "summary": [
+      "Aktywność powietrzna w pobliżu spowodowała wydanie ostrzeżenia obrony cywilnej. Dwa F-16 wystartowały z Borcea; ostrzeżenie dla północnej części Tulcea obowiązywało od 08:56 do 09:27 czasu lokalnego.",
+      "Powietrzny cel radarowy; tożsamość drona i model niepotwierdzone w cytowanym oświadczeniu. Brak zweryfikowanego modelu, operatora czy przekroczenia rumuńskiej granicy. Nocne ustalenie o braku wlotu dotyczy N136 i nie może być przeniesione na ten epizod.",
+      "Odrębne poranne ostrzeżenie, a nie epizod N136 z 00:19–00:41. Reakcja myśliwców nie stanowi dodatkowego zdarzenia."
+    ],
+    "basis": "7a65445d491a71de"
+  },
+  "N138": {
+    "headline": "Zabezpieczenie drona: Shabla · dron sklasyfikowany jako rosyjski wyrzucony na brzeg i zniszczony, Bułgaria",
+    "description": "6 listopada 2026 r., Shabla · dron sklasyfikowany jako rosyjski wyrzucony na brzeg i zniszczony, Bułgaria. Oficjalnie zidentyfikowany dron powietrzny zabezpieczony i zniszczony. Znalezisko…",
+    "summary": [
+      "Znalezisko na wybrzeżu zgłoszono władzom o 10:00 czasu lokalnego.",
+      "Oficjalnie zidentyfikowany dron powietrzny zabezpieczony i zniszczony. Klasyfikacja jako rosyjski to ocena z bułgarskiej inspekcji; konkretnego operatora i misji nie ustalono. Wczesna relacja burmistrza o oznaczeniach Shahed i materiałach wybuchowych została zastąpiona wynikami inspekcji wojskowej: brak napisów i brak ładunku wybuchowego. Data upadku i związek z jakimkolwiek atakiem na żeglugę pozostają nieznane."
+    ],
+    "basis": "de692ebadb5d7d7f"
+  },
+  "N139": {
+    "headline": "Morze Egejskie · zgłoszona aktywność tureckich BSP 6 listopada",
+    "description": "Grecki rejestr podaje 10 tureckich BSP 6 listopada. Łączne dane dotyczące statków powietrznych nie odnoszą się wyłącznie do dronów.",
+    "summary": [
+      "Podstawowy miesięczny rejestr GEETHA wymienia 10 BSP i jeden ATR-72, z łącznie 15 naruszeniami FIR i łącznie 23 naruszeniami krajowej przestrzeni powietrznej. Rejestr nie przypisuje mieszanych sum do typów statków powietrznych.",
+      "Wcześniejszy przedrukowany biuletyn dzienny przypisywał 9 naruszeń FIR i 15 naruszeń krajowej przestrzeni powietrznej 7 BSP. Przyczyny różnicy nie podano. Dane te pochodzą od greckich władz; nie są niezależnie zweryfikowanymi trasami ani potwierdzoną liczbą ataków."
+    ],
+    "basis": "fd5cda8f3a302eca"
+  },
+  "N140": {
+    "headline": "Morze Egejskie · zgłoszona aktywność tureckich BSP 5 listopada",
+    "description": "Grecki rejestr podaje 5 tureckich BSP 5 listopada. Wcześniejsze dane dzienne były inne.",
+    "summary": [
+      "Podstawowy miesięczny rejestr GEETHA wymienia 5 BSP i żadnych załogowych statków powietrznych, z 8 naruszeniami FIR i 17 naruszeniami krajowej przestrzeni powietrznej. Wszystkie zgłoszone tego dnia statki powietrzne były BSP.",
+      "Wcześniejszy przedrukowany biuletyn dzienny przypisywał 6 naruszeń FIR i 9 naruszeń krajowej przestrzeni powietrznej 4 BSP. Przyczyny różnicy nie podano. Dane te pochodzą od greckich władz; nie są niezależnie zweryfikowanymi trasami ani potwierdzoną liczbą ataków."
+    ],
+    "basis": "5f5e69b30526d99c"
+  },
+  "N141": {
+    "headline": "Morze Egejskie · zgłoszona aktywność tureckich BSP 7 listopada",
+    "description": "Grecki rejestr podaje 8 tureckich BSP 7 listopada. Wcześniejsze dane dzienne były inne.",
+    "summary": [
+      "Podstawowy miesięczny rejestr GEETHA wymienia 8 BSP i żadnych załogowych statków powietrznych, z 10 naruszeniami FIR i 8 naruszeniami krajowej przestrzeni powietrznej. Wszystkie zgłoszone tego dnia statki powietrzne były BSP.",
+      "Wcześniejszy przedrukowany biuletyn dzienny przypisywał 8 naruszeń FIR i 4 naruszenia krajowej przestrzeni powietrznej 6 BSP. Przyczyny różnicy nie podano. Dane te pochodzą od greckich władz; nie są niezależnie zweryfikowanymi trasami ani potwierdzoną liczbą ataków."
+    ],
+    "basis": "10e6e252c784d0ee"
+  },
+  "N142": {
+    "headline": "Niezidentyfikowany obiekt: rumuńskie wody terytorialne · niezidentyfikowany cel wlatuje w przestrzeń powietrzną, Rumunia",
+    "description": "5 listopada 2026 r., rumuńskie wody terytorialne · niezidentyfikowany cel wlatuje w przestrzeń powietrzną, Rumunia. Wlot w przestrzeń powietrzną zgłoszony przez MApN; tożsamość drona niepotwierdzona. Trzyminutowy…",
+    "summary": [
+      "Trzyminutowy wlot w krajową przestrzeń powietrzną zgłosiło MApN.",
+      "Wlot w przestrzeń powietrzną zgłoszony przez MApN; tożsamość drona niepotwierdzona. Operatora nie zidentyfikowano. Wlot zgłasza właściwy organ, ale tożsamość drona, model, operator i zamiar pozostają nierozstrzygnięte. Relacje medialne powielają to samo oficjalne oświadczenie. Nie ustalono związku z Boghicea N135."
+    ],
+    "basis": "59712b8a83097feb"
+  },
+  "N143": {
+    "headline": "Ostrzeżenie przed dronem: wschodnie Tulcea · ostrzeżenie o celu koło Wyspy Węży, Rumunia",
+    "description": "8 listopada 2026 r., wschodnie Tulcea · ostrzeżenie o celu koło Wyspy Węży, Rumunia. Oficjalne ostrzeżenie o celu radarowym; wlotu do Rumunii nie ustalono. Dwa wykrycia…",
+    "summary": [
+      "Dwa wykrycia celów w pobliżu spowodowały ostrzeżenie i nadzór wojskowy.",
+      "Oficjalne ostrzeżenie o celu radarowym; wlotu do Rumunii nie ustalono. Operatora nie zidentyfikowano. Cytowane oświadczenia nie ustalają wlotu do Rumunii, typu drona ani operatora. Zniknięcie pierwszego celu z radaru nie oznacza upadku. Z braku informacji nie wywodzi się wyraźnej oceny o braku wlotu."
+    ],
+    "basis": "4cff8ae9f4cbdedb"
+  },
+  "N144": {
+    "headline": "Ostrzeżenie przed dronem: północne Tulcea · ostrzeżenie o celu koło Chilia Veche, Rumunia",
+    "description": "8 listopada 2026 r., północne Tulcea · ostrzeżenie o celu koło Chilia Veche, Rumunia. Oficjalne ostrzeżenie o celu radarowym; wlotu do Rumunii nie ustalono. Późniejsze, odrębne…",
+    "summary": [
+      "Późniejsze, odrębne wykrycie celu spowodowało ostrzeżenie dla północnej części Tulcea.",
+      "Oficjalne ostrzeżenie o celu radarowym; wlotu do Rumunii nie ustalono. Operatora nie zidentyfikowano. Typ celu, operator i ewentualne przekroczenie rumuńskiej granicy pozostają nieustalone. Samo ostrzeżenie i start myśliwców nie stanowią wtargnięcia ani interwencji wojskowej."
+    ],
+    "basis": "51af4b15dda166f7"
+  },
+  "N145": {
+    "headline": "Niezidentyfikowany obiekt: plaża Lipite, Sinemorets · znalezienie niezidentyfikowanego drona, Bułgaria",
+    "description": "8 listopada 2026 r., plaża Lipite, Sinemorets · znalezienie niezidentyfikowanego drona, Bułgaria. Znalezienie drona i zebranie go przez służby według źródeł; pochodzenie nierozstrzygnięte. Ekipa BNT…",
+    "summary": [
+      "Ekipa BNT znalazła statek powietrzny, relacjonując sprawę ładunku wyrzuconego na brzeg.",
+      "Znalezienie drona i zebranie go przez służby według źródeł; pochodzenie nierozstrzygnięte. Pochodzenie narodowe i operator nierozstrzygnięte; brak potwierdzonego zagranicznego lotu lub przekroczenia granicy. Pochodzenie, operator, ładunek i trasa dotarcia pozostają nierozstrzygnięte. Pobliski ładunek nie jest dowodem łączącym drona ze statkiem lub atakiem. Ocena gubernatora odwołująca się do kontekstu wojny nie jest identyfikacją techniczną. Nie ustalono zakończonej neutralizacji."
+    ],
+    "basis": "8994bcc4baaa422f"
+  },
+  "N146": {
+    "headline": "Morze Egejskie · zgłoszona aktywność tureckich BSP 8 listopada",
+    "description": "Grecki rejestr podaje 5 tureckich BSP 8 listopada. Wcześniejsze dane dzienne były inne.",
+    "summary": [
+      "Podstawowy miesięczny rejestr GEETHA wymienia 5 BSP i żadnych załogowych statków powietrznych, z 6 naruszeniami FIR i 6 naruszeniami krajowej przestrzeni powietrznej. Wszystkie zgłoszone tego dnia statki powietrzne były BSP.",
+      "Wcześniejszy przedrukowany biuletyn dzienny przypisywał 4 naruszenia FIR i 4 naruszenia krajowej przestrzeni powietrznej 4 BSP. Przyczyny różnicy nie podano. Dane te pochodzą od greckich władz; nie są niezależnie zweryfikowanymi trasami ani potwierdzoną liczbą ataków."
+    ],
+    "basis": "e9cdcb8a8e0ac546"
+  },
+  "N147": {
+    "headline": "Morze Egejskie · zgłoszona aktywność tureckich BSP 9 listopada",
+    "description": "Grecki rejestr podaje 5 tureckich BSP 9 listopada. Łączne dane dotyczące statków powietrznych nie odnoszą się wyłącznie do dronów.",
+    "summary": [
+      "Podstawowy miesięczny rejestr GEETHA wymienia 5 BSP i jeden ATR-72, z łącznie 7 naruszeniami FIR i łącznie 3 naruszeniami krajowej przestrzeni powietrznej. Rejestr nie przypisuje mieszanych sum do typów statków powietrznych.",
+      "Wcześniejszy przedrukowany biuletyn dzienny przypisywał 5 naruszeń FIR i 2 naruszenia krajowej przestrzeni powietrznej 5 BSP. Przyczyny różnicy nie podano. Dane te pochodzą od greckich władz; nie są niezależnie zweryfikowanymi trasami ani potwierdzoną liczbą ataków."
+    ],
+    "basis": "05f7be48ee62885b"
+  },
+  "N148": {
+    "headline": "Przelot drona: Sulina · zgłoszony wlot drona w przestrzeń powietrzną, Rumunia",
+    "description": "9 listopada 2026 r., Sulina · zgłoszony wlot drona w przestrzeń powietrzną, Rumunia. Wlot drona w krajową przestrzeń powietrzną Rumunii zgłoszony przez MApN. Późniejsze doniesienia wyraźnie…",
+    "summary": [
+      "Późniejsze doniesienia wyraźnie potwierdzają wlot po pierwszym ostrzeżeniu o celu w pobliżu. Ślad następnie zniknął z radaru.",
+      "Wlot drona w krajową przestrzeń powietrzną Rumunii zgłoszony przez MApN. Operatora, pochodzenia narodowego, zamierzonego celu i zamiaru nie ustalono. Źródła przekazują informacje Ministerstwa Obrony, a nie niezależnie zweryfikowane ślady radarowe. Czas i długość wlotu, model, operator, cel i ostateczny wynik są nieznane. Utrata kontaktu radarowego nie dowodzi upadku, zestrzelenia ani wylotu."
+    ],
+    "basis": "ffa47195c16e1a8e"
+  },
+  "N149": {
+    "headline": "Ostrzeżenie przed dronem: wschodnie Tulcea · ostrzeżenie 10 listopada o celu koło Sulina, Rumunia",
+    "description": "10 listopada 2026 r., wschodnie Tulcea · ostrzeżenie 10 listopada o celu koło Sulina, Rumunia. Cel powietrzny w pobliżu zgłoszony przez MApN; wlotu do Rumunii nie ustalono. Cel w pobliżu…",
+    "summary": [
+      "Cel w pobliżu spowodował start dwóch F-16 i publiczne ostrzeżenie dla wschodniej części Tulcea.",
+      "Cel powietrzny w pobliżu zgłoszony przez MApN; wlotu do Rumunii nie ustalono. Operator, pochodzenie, zamierzony cel i zamiar są nieznane. Dla tego epizodu nie ustalono potwierdzonego wlotu do Rumunii, ataku, przechwycenia ani upadku. Doniesienia o wlocie 9 listopada dotyczą N148 i nie mogą być przeniesione na ten alert."
+    ],
+    "basis": "1ae15c2e27e8853c"
+  },
+  "N150": {
+    "headline": "Litwa–Łotwa · wtargnięcie drona i nieudane przechwycenie",
+    "description": "Oficjalnie potwierdzone wtargnięcie drona; nieudane przechwycenie. Z południowej na północną Litwę; zgłoszony wylot na Łotwę w pobliżu rejonu Pasvalys.",
+    "summary": [
+      "Szef litewskiego sztabu obrony powiedział, że myśliwce zidentyfikowały drona w pobliżu Kowna, ale nie zaatakowały go tam ze względu na ryzyko dla cywilów. Dwie późniejsze próby zniszczenia nie powiodły się. Łotwa niezależnie potwierdziła, że dron wleciał z Litwy i przeleciał nad jej terytorium z południa na północ.",
+      "Myśliwce NATO poderwano na Litwie i kontynuowały reakcję nad Łotwą; na Łotwie nie było odpowiednich, bezpiecznych warunków operacyjnych do zniszczenia drona. Koło Biržai odzyskano szczątki pocisku przechwytującego, a nie wrak drona.",
+      "Model, ładunek, operator, zamierzony cel i przyczyna pozostają nieznane. Odchylenie od kursu wskutek walki elektronicznej jest oceną, a nie ustalonym faktem. Estońskie władze osobno potwierdziły krótkie wloty tej nocy; dokładne pokrywanie się z tą trasą i innymi dronami jest nadal wyjaśniane. Brak potwierdzonego ataku, upadku drona, zabezpieczenia czy zestrzelenia."
+    ],
+    "basis": "b3d7c837ed9779e1"
+  },
+  "N151": {
+    "headline": "Łotwa · dwa krótkie wloty dronów przez wschodnią granicę",
+    "description": "Krótkie wtargnięcia dronów potwierdzone przez NBS. Gmina Ludza / wschodnia granica Łotwy",
+    "summary": [
+      "Łotewskie NBS podały, że dwa drony na krótko, na 1–2 minuty, przekroczyły wschodnią granicę. Powiązane ostrzeżenie w gminie Ludza datują na około 23:30 we wtorek 10 listopada.",
+      "Uruchomiono jednostki dronów przechwytujących i obrony powietrznej oraz myśliwce NATO.",
+      "Dokładne miejsca przekroczenia, operator, ładunek i zamiar nierozstrzygnięte. Późniejsze zbliżenia w rejonie Krāslava/Augšdaugava i Balvi nie zakończyły się wlotem; nie są to dodatkowe wtargnięcia."
+    ],
+    "basis": "99971f22c80bd30f"
+  },
+  "N152": {
+    "headline": "Finlandia · podejrzewany wlot BSP nad wschodnią częścią Zatoki Fińskiej",
+    "description": "Podejrzewane naruszenie przestrzeni powietrznej zgłoszone przez ministerstwo; dochodzenie w toku. Wschodnia część Zatoki Fińskiej; podejrzewana fińska przestrzeń powietrzna",
+    "summary": [
+      "Fińskie Ministerstwo Obrony zgłosiło podejrzewane naruszenie przestrzeni powietrznej przez BSP po 02:00 11 listopada, trwające około pięciu minut, zanim obiekt odleciał.",
+      "Straż Graniczna prowadzi dochodzenie. Siły Obronne wprowadziły tymczasowe ograniczenia w ruchu lotniczym i morskim jako środki ostrożności.",
+      "Wlot pozostaje podejrzewany, a nie potwierdzony. Nie zidentyfikowano pochodzenia, modelu ani zamiaru i nie udowodniono związku z przelotami tranzytowymi nad krajami bałtyckimi ani z atakami w Rosji."
+    ],
+    "basis": "68f7b98f4dfcbc62"
+  },
+  "N153": {
+    "headline": "Estonia · krótkie wtargnięcia dronów nad Zatoką Fińską",
+    "description": "Estońskie władze zgłosiły krótkie wtargnięcia dronów nad Zatoką Fińską 11 listopada 2026 r. Dokładna liczba, trasy i ładunki pozostają nierozstrzygnięte.",
+    "summary": [
+      "W wywiadzie dla ERR minister obrony odróżnił krótkie naruszenia przestrzeni powietrznej nad Zatoką Fińską od odrębnego drona, który wleciał z Łotwy około 03:30. Rząd Estonii osobno potwierdził, że część dronów tej nocy na krótko wleciała w przestrzeń powietrzną kraju.",
+      "Myśliwce NATO były w powietrzu. Minister powiedział, że nie było bezpiecznych warunków do zniszczenia dronów, m.in. ze względu na bliskość granicy z Rosją.",
+      "Dokładna liczba dronów, czasy przekroczenia i trasy nierozstrzygnięte. Zgłoszone przypisanie Ukrainie to relacja ministra, a nie niezależne potwierdzenie. Brak potwierdzonego ataku na Estonię, upadku, zabezpieczenia czy zestrzelenia. Nie udowodniono związku z podejrzewanym przekroczeniem granicy Finlandii."
+    ],
+    "basis": "0988f0038c13eff7"
+  },
+  "N154": {
+    "headline": "Możliwy dron koło Sulina powoduje ostrzeżenie; wlotu do Rumunii nie ustalono",
+    "description": "Możliwy dron na północny wschód od Sulina spowodował ostrzeżenie dla Tulcea 12 listopada 2026 r. Zareagowały hiszpańskie myśliwce; wlotu do Rumunii nie ustalono.",
+    "summary": [
+      "Rumuńskie ministerstwo obrony zgłosiło cel powietrzny około 28 km na północny wschód od Sulina 12 listopada. Radio publiczne opisało go jako możliwego drona.",
+      "Ostrzeżenie obowiązywało od 12:35 do 13:12 czasu lokalnego, a dwa hiszpańskie F-18 wystartowały. Ten wybrany alert nie jest potwierdzonym wtargnięciem do Rumunii ani atakiem."
+    ],
+    "basis": "e621e2b415355314"
+  },
+  "N155": {
+    "headline": "Doniesienie: 5 tureckich BSP w 2 naruszeniach greckiej przestrzeni powietrznej 16 października",
+    "description": "Veteranos podaje 5 tureckich BSP i 2 naruszenia greckiej przestrzeni powietrznej 16 października 2026 r. Relacja z jednego źródła oparta na oficjalnych danych; dokładne trasy pozostają nieznane.",
+    "summary": [
+      "Veteranos podaje, powołując się na oficjalne dane, 5 tureckich BSP w środkowej i południowo-wschodniej części Morza Egejskiego 16 października: 2 naruszenia krajowej przestrzeni powietrznej i 7 naruszeń FIR Ateny.",
+      "Zgłoszono identyfikację i rutynowe przechwycenie. To jeden dzienny wpis o aktywności, a nie odrębne zdarzenia dla każdego BSP czy naruszenia.",
+      "Oryginalny biuletyn GEETHA pozostaje niedostępny i nie pozyskano zgodnego drugiego doniesienia. Są to dane przypisywane stronie greckiej, a nie niezależnie zweryfikowane trasy; spór grecko-turecki o przestrzeń powietrzną pozostaje istotny."
+    ],
+    "basis": "7eab620af97e56d5"
+  },
+  "N156": {
+    "headline": "Doniesienie: 2 tureckie BSP w 6 naruszeniach greckiej przestrzeni powietrznej 17 października",
+    "description": "Veteranos podaje 2 tureckie BSP i 6 naruszeń greckiej przestrzeni powietrznej 17 października 2026 r. Relacja z jednego źródła oparta na oficjalnych danych; dokładne trasy pozostają nieznane.",
+    "summary": [
+      "Veteranos podaje, powołując się na oficjalne dane, 2 tureckie BSP w północno-wschodniej i południowo-wschodniej części Morza Egejskiego 17 października: 6 naruszeń krajowej przestrzeni powietrznej i 4 naruszenia FIR Ateny.",
+      "Zgłoszono identyfikację i rutynowe przechwycenie. To jeden dzienny wpis o aktywności, a nie odrębne zdarzenia dla każdego BSP czy naruszenia.",
+      "Oryginalny biuletyn GEETHA pozostaje niedostępny i nie pozyskano zgodnego drugiego doniesienia. Są to dane przypisywane stronie greckiej, a nie niezależnie zweryfikowane trasy; spór grecko-turecki o przestrzeń powietrzną pozostaje istotny."
+    ],
+    "basis": "41c5a49d0eb8c357"
+  },
+  "N157": {
+    "headline": "Ostrzeżenie dla północnego Tulcea po wykryciu celu w ukraińskiej przestrzeni powietrznej",
+    "description": "Rumunia wydała ostrzeżenie dla północnej części Tulcea 13 listopada po wykryciu celu w ukraińskiej przestrzeni powietrznej. Tożsamości drona ani wlotu do Rumunii nie ustalono.",
+    "summary": [
+      "Rumuńskie władze wydały ostrzeżenie dla północnej części Tulcea 13 listopada 2026 r. po tym, jak radar wykrył cel powietrzny na południowy wschód od Wyspy Węży, w ukraińskiej przestrzeni powietrznej.",
+      "Dwa rumuńskie F-16 wystartowały z Fetești. Ostrzeżenie obowiązywało od 21:53 do 22:58 czasu lokalnego; są to godziny ostrzeżenia, a nie zweryfikowany czas trwania lotu.",
+      "Przeanalizowana relacja ministerstwa nie zidentyfikowała celu jako drona ani nie ustaliła wlotu do Rumunii. To wybrany alert, a nie potwierdzone wtargnięcie ani atak."
+    ],
+    "basis": "bdbe3aeea261bfb7"
+  },
+  "N158": {
+    "headline": "LARISSA 1 uszkodzona w zgłoszonym trafieniu dronem koło Rumunii; załoga bezpieczna",
+    "description": "Trafienie dronem uszkodziło LARISSA 1 koło Sfântu Gheorghe 13 listopada. Rumuński minister potwierdził incydent; operator i dokładna pozycja pozostają nierozstrzygnięte.",
+    "summary": [
+      "Zgłoszone trafienie dronem powietrznym uszkodziło dźwig ładunkowy LARISSA 1 w pobliżu Sfântu Gheorghe wieczorem 13 listopada 2026 r. Władze morskie powiadomiono około 21:40 czasu lokalnego. Nie zgłoszono rannych, zabitych ani pożaru.",
+      "Rumuński minister obrony potwierdził nocne trafienie 14 listopada. TVR identyfikuje jednostkę, a Europa FM umiejscawia zgłoszony incydent 6,8 mili morskiej na północny wschód od Sfântu Gheorghe, na rumuńskich wodach terytorialnych. Dokładnych współrzędnych uderzenia nie opublikowano.",
+      "Operator, pochodzenie i zamierzony cel pozostają nieznane. Ustalenia techniczne były w toku i nie ustalono związku z odrębnym alertem o celu powietrznym w Tulcea."
+    ],
+    "basis": "f08b96a541b68222"
+  },
+  "N159": {
+    "headline": "Tulcea otrzymuje dwa ostrzeżenia podczas jednego porannego alertu o celu powietrznym",
+    "description": "Rumunia wydała dwa ostrzeżenia dla Tulcea 14 listopada po wykryciu celu w pobliżu Wyspy Węży. Tożsamości drona ani wlotu do Rumunii nie ustalono.",
+    "summary": [
+      "MApN zgłosiło cel powietrzny w rejonie Wyspy Węży rankiem 14 listopada 2026 r. Dwa rumuńskie F-16 wystartowały z Fetești.",
+      "Wschodnia część Tulcea otrzymała ostrzeżenie o 04:45 czasu lokalnego, a następnie północna część Tulcea o 05:39. Odwołanie alarmu nastąpiło o 05:52. Komunikaty te należą do jednego epizodu alertu, a nie do dwóch potwierdzonych zdarzeń z dronami.",
+      "Oświadczenie nie zidentyfikowało celu jako drona ani nie potwierdziło wlotu do Rumunii. Ten wybrany alert jest odrębny od ostrzeżenia z poprzedniego wieczoru; nie ustalono związku z trafieniem Larissa 1."
+    ],
+    "basis": "485c5fe876331a03"
+  },
+  "N160": {
+    "headline": "EVIA PETROL V trafiony przez drona koło Sulina według zgłoszonej relacji ministerstwa",
+    "description": "EVIA PETROL V został według doniesień trafiony koło Sulina 14 listopada. Załoga ugasiła pożar; nie zgłoszono ofiar. Operator i dokładna pozycja pozostają nieznane.",
+    "summary": [
+      "EVIA PETROL V został trafiony przez drona około 21:10 czasu lokalnego 14 listopada 2026 r., według relacji News.ro przytaczającej informacje MApN pochodzące od cywilnych władz morskich. Zgłoszone miejsce znajdowało się około 4 mil morskich na wschód-południowy wschód od Sulina.",
+      "Załoga ugasiła pożar na pokładzie; nie zgłoszono ofiar. Radio România Constanța mówi o rumuńskich wodach terytorialnych, ale dokładne współrzędne uderzenia i jurysdykcja nie zostały niezależnie zweryfikowane.",
+      "Operator, pochodzenie, zamiar i ewentualny związek z innymi trafieniami statków lub pobliskimi alertami pozostają nieznane.",
+      "W komunikacie emitenta z 19 listopada grupa Trans-Oil podała, że statek stał na kotwicy u wejścia do Kanału Sulina, oczekując na zgodę na rejs do Giurgiulești. Uszkodzenia uniemożliwiły planowany rejs w celu załadunku około 6500 ton oleju słonecznikowego. Nie potwierdzono, że ten ładunek był na pokładzie; możliwe opóźnienia logistyczne i koszty pozostają ostrzeżeniami spółki."
+    ],
+    "basis": "111f4b44af58fb36"
+  },
+  "N161": {
+    "headline": "MARSOL trafiony przez drona koło Sulina według zgłoszonej relacji ministerstwa",
+    "description": "MARSOL został według doniesień trafiony koło Sulina 14 listopada. Załoga ugasiła pożar; nie zgłoszono ofiar. Operator i dokładna pozycja pozostają nieznane.",
+    "summary": [
+      "MARSOL został trafiony przez drona około 21:45 czasu lokalnego 14 listopada 2026 r., według relacji News.ro przytaczającej informacje MApN pochodzące od cywilnych władz morskich. Zgłoszone miejsce znajdowało się około 5 mil morskich na południowy wschód od Kanału Sulina.",
+      "Załoga ugasiła pożar na pokładzie; nie zgłoszono ofiar. Radio România Constanța mówi o rumuńskich wodach terytorialnych, ale dokładne współrzędne uderzenia i jurysdykcja nie zostały niezależnie zweryfikowane.",
+      "Operator, pochodzenie, zamiar i ewentualny związek z innymi trafieniami statków lub pobliskimi alertami pozostają nieznane. Wcześniejsze doniesienie morskie podaje zamiast tego 21:29 CET; ta rozbieżność czasowa pozostaje nierozstrzygnięta."
+    ],
+    "basis": "bc90d74246cb5145"
+  },
+  "N162": {
+    "headline": "Wschodnie Tulcea · wieczorne ostrzeżenie 14 listopada",
+    "description": "Rumuńskie władze wydały ostrzeżenie obrony cywilnej po wykryciu obiektu w powietrzu. Tożsamość drona i wlot do Rumunii pozostają niepotwierdzone.",
+    "summary": [
+      "Dwa rumuńskie F-16 wystartowały z Fetești; ostrzeżenie dla wschodniej części Tulcea o 20:51, odwołanie alarmu o 21:37.",
+      "Cytowana terminologia ministerstwa nie potwierdza drona, wlotu, ataku ani interwencji wojskowej. Nie wykazano związku z uderzeniami w statki."
+    ],
+    "basis": "9e036c65d9b1d1c9"
+  },
+  "N163": {
+    "headline": "Rejon Sulina · późne ostrzeżenie 14 listopada po kontakcie radarowym",
+    "description": "Rumuńskie władze wydały ostrzeżenie obrony cywilnej po wykryciu obiektu w powietrzu. Tożsamość drona i wlot do Rumunii pozostają niepotwierdzone.",
+    "summary": [
+      "Nowe ostrzeżenie dla wschodniej części Tulcea o 23:19; odwołanie alarmu o 00:27 następnego dnia. Odrębnego startu nie ustalono.",
+      "Cytowana terminologia ministerstwa nie potwierdza drona, wlotu, ataku ani interwencji wojskowej. Nie wykazano związku z uderzeniami w statki."
+    ],
+    "basis": "146d9d719613c6b5"
+  },
+  "N164": {
+    "headline": "Krótkie wtargnięcie drona koło Chilia 2 maja",
+    "description": "Rumuńskie władze obronne zgłosiły krótki wlot drona koło Chilia. Cel i zamiar pozostają nieustalone; nie zakłada się ataku na Rumunię.",
+    "summary": [
+      "MApN zgłosiło krótki, potwierdzony radarowo wlot koło Chilia, po którym obiekt przemieścił się w kierunku Izmaiłu. Dwa F-16 wystartowały około 02:00; ostrzeżenie dla północnej części Tulcea obowiązywało od 02:03 do 02:50 czasu lokalnego.",
+      "Wlot odnotowano odrębnie od szerszego ataku na Ukrainę. Zamiar i konkretny cel pozostają nieustalone; nie zgłoszono uderzenia na terytorium Rumunii."
+    ],
+    "basis": "82fa985c2e506266"
+  },
+  "N165": {
+    "headline": "Krótkie wtargnięcie drona koło Chilia 7 maja",
+    "description": "Rumuńskie władze obronne zgłosiły krótki wlot drona koło Chilia. Cel i zamiar pozostają nieustalone; nie zakłada się ataku na Rumunię.",
+    "summary": [
+      "MApN zgłosiło krótki, potwierdzony radarowo wlot koło Chilia rankiem 7 maja. Dwa F-16 wystartowały o 08:37; ostrzeżenie dla północnej części Tulcea obowiązywało od 08:40 do 09:40 czasu lokalnego.",
+      "Wlot odnotowano odrębnie od szerszego ataku na Ukrainę. Zamiar i konkretny cel pozostają nieustalone; nie zgłoszono uderzenia na terytorium Rumunii."
+    ],
+    "basis": "438dcccd398f3603"
+  },
+  "N166": {
+    "headline": "Dron wlatuje w rumuńską przestrzeń powietrzną i rozbija się koło Parcheș",
+    "description": "MApN potwierdziło wlot drona 26 marca i jego upadek pod Parcheș. Znaleziono szczątki; operator, model i zamierzony cel pozostają nieokreślone.",
+    "summary": [
+      "MApN zgłosiło, że dron wleciał o 00:44 26 marca, wniknął na około 4 km i rozbił się pod Parcheș. Zespoły znalazły szczątki i spaloną roślinność; nie zgłoszono szkód materialnych ani ofiar.",
+      "Ministerstwo podało, że ukraińska obrona powietrzna spowodowała zboczenie drona z kursu. Ta relacja pozostaje przypisana MApN; komunikat nie ustala operatora drona, modelu ani zamiaru zaatakowania Rumunii."
+    ],
+    "basis": "89eac726d6b9440e"
+  },
+  "N167": {
+    "headline": "Niezidentyfikowany cel wlatuje w rumuńską przestrzeń powietrzną koło Chilia Veche",
+    "description": "MApN potwierdziło wlot celu powietrznego w nocy z 16 na 17 kwietnia. Tożsamość drona i upadek pozostają niepotwierdzone mimo późniejszej utraty kontaktu radarowego.",
+    "summary": [
+      "MApN zgłosiło jeden wlot w krajową przestrzeń powietrzną w nocy z 16 na 17 kwietnia. Kontakt utracono około 16 km na południowy wschód od Chilia Veche i ogłoszono misję poszukiwawczą.",
+      "Oficjalny komunikat opisuje cel powietrzny, a nie zidentyfikowanego drona. Ani utrata kontaktu radarowego, ani planowane poszukiwania nie ustalają upadku ani odzyskania szczątków."
+    ],
+    "basis": "23dfc89d5a63cde0"
+  },
+  "N168": {
+    "headline": "ALI NAJAFOV zgłasza nocne trafienie dronem w pobliżu ujścia Dunaju",
+    "description": "Rumuńskie władze przekazały zgłoszenie trafienia dronem z ALI NAJAFOV. Załoga ugasiła pożar; dokładna pozycja, jurysdykcja i przypisanie pozostają nieznane.",
+    "summary": [
+      "ALI NAJAFOV zgłosił trafienie dronem w nocy z 14 na 15 listopada w pobliżu ujścia Dunaju. Rumuńskie władze przekazały zgłoszenie jednostki; załoga ugasiła pożar i nie zgłoszono ofiar.",
+      "To statek inny niż EVIA PETROL V i MARSOL. Jego dokładna lokalizacja i jurysdykcja morska pozostają nierozstrzygnięte; nie ustalono wspólnego operatora ani celowego obrania jednostek za cel."
+    ],
+    "basis": "8b86269bf206800f"
+  },
+  "N169": {
+    "headline": "Popołudniowe ostrzeżenie w Tulcea rozszerzone na miasto, następnie odwołane",
+    "description": "Wykrycie celu powietrznego w pobliżu Ukrainy spowodowało ostrzeżenie dla Tulcea o 15:02, rozszerzone na miasto przed odwołaniem o 17:05. Wlot do Rumunii pozostaje niepotwierdzony.",
+    "summary": [
+      "Ostrzeżenie po wykryciu celu powietrznego na Ukrainie rozpoczęło się o 15:02 15 listopada. O 16:56 rozszerzono je na gminę miejską Tulcea, a o 17:05 odwołano dla wszystkich objętych nim miejscowości.",
+      "Rozszerzenie należy do tego samego epizodu ostrzeżenia. Nie ustalono ani tożsamości drona, ani wlotu w rumuńską przestrzeń powietrzną; nie zakłada się związku z trafieniami statków."
+    ],
+    "basis": "229b1930ed3783f0"
+  },
+  "N170": {
+    "headline": "Na północ od Sulina · krótki wlot drona 26 lutego",
+    "description": "MApN potwierdziło krótki wlot drona wieczorem 26 lutego, zakończony na północ od Sulina około 18:30.",
+    "summary": [
+      "MApN potwierdziło krótki wlot drona wieczorem 26 lutego, zakończony na północ od Sulina około 18:30.",
+      "Był on odrębny od wcześniejszego alertu bez wlotu i od zdarzenia z 25 lutego. Operator, model i zamiar pozostają nieokreślone."
+    ],
+    "basis": "c289f5664d4e1a20"
+  },
+  "N171": {
+    "headline": "Tănăsoaia · odzyskane możliwe fragmenty statku powietrznego",
+    "description": "Specjaliści resortu obrony zbadali i zebrali metalowe fragmenty w Tănăsoaia 18 stycznia. Wskazywały one na możliwy statek powietrzny.",
+    "summary": [
+      "Specjaliści resortu obrony zbadali i zebrali metalowe fragmenty w Tănăsoaia 18 stycznia. Wskazywały one na możliwy statek powietrzny.",
+      "Tożsamość drona, pochodzenie i data upadku pozostają niepotwierdzone; jest to kandydat na wpis o znalezisku, a nie potwierdzone wtargnięcie."
+    ],
+    "basis": "b7ad8cb376460adb"
+  },
+  "N172": {
+    "headline": "Botoșenița Mare · upadek niezidentyfikowanego obiektu latającego",
+    "description": "MApN zgłosiło obiekt latający, który spadł na pole kukurydzy koło Botoșenița Mare 12 września; doszło do niewielkiego pożaru, bez ofiar.",
+    "summary": [
+      "MApN zgłosiło obiekt latający, który spadł na pole kukurydzy koło Botoșenița Mare 12 września; doszło do niewielkiego pożaru, bez ofiar.",
+      "Władze zagraniczne zgłosiły też tranzytowy przelot drona, a w innym miejscu odnotowano zgłoszenie na numer 112. Nie ustalono ciągłego powiązania z odzyskanym obiektem."
+    ],
+    "basis": "678aa5f2a1e03414"
+  },
+  "N173": {
+    "headline": "Na wschód od Mangalii · znalezienie dryfującego drona powietrznego",
+    "description": "MApN zgłosiło drona powietrznego dryfującego około 45 mil morskich na wschód od Mangalii 15 listopada. Pochodzenie i wynik misji pozostają nieznane.",
+    "summary": [
+      "Według rumuńskiego ministerstwa obrony samolot ATLANTIQUE 2 francuskiej marynarki wojennej zgłosił drona powietrznego dryfującego około 45 mil morskich na wschód od Mangalii 15 listopada.",
+      "Zaplanowaną na 16 listopada ocenę EOD opóźniły niekorzystne warunki pogodowe: MApN podało, że obie łodzie wróciły bez zakończenia ocen. Nie ustalono zabezpieczenia ani neutralizacji.",
+      "To znalezisko na morzu, a nie dowód wtargnięcia w rumuńską terytorialną przestrzeń powietrzną. Pochodzenie drona, daty lotu i upadku, ładunek i ewentualny związek z niedawnymi trafieniami statków pozostają nieznane."
+    ],
+    "basis": "875f004d900296a2"
+  },
+  "N174": {
+    "headline": "Na wschód od Chituc · znalezienie dryfującego drona powietrznego",
+    "description": "MApN zgłosiło drona powietrznego dryfującego około 53 mil morskich na wschód od Chituc 15 listopada. Pochodzenie i wynik misji pozostają nieznane.",
+    "summary": [
+      "Według rumuńskiego ministerstwa obrony samolot ATLANTIQUE 2 francuskiej marynarki wojennej zgłosił drona powietrznego dryfującego około 53 mil morskich na wschód od Chituc 15 listopada.",
+      "Zaplanowaną na 16 listopada ocenę EOD opóźniły niekorzystne warunki pogodowe: MApN podało, że obie łodzie wróciły bez zakończenia ocen. Nie ustalono zabezpieczenia ani neutralizacji.",
+      "To znalezisko na morzu, a nie dowód wtargnięcia w rumuńską terytorialną przestrzeń powietrzną. Pochodzenie drona, daty lotu i upadku, ładunek i ewentualny związek z niedawnymi trafieniami statków pozostają nieznane."
+    ],
+    "basis": "328155b1bc112d37"
+  },
+  "N175": {
+    "headline": "Statek BETUL 8 wywraca się koło Bułgarii; członek załogi twierdzi, że doszło do ataku dronów morskich",
+    "description": "Wszystkich 12 członków załogi BETUL 8 uratowano po wywróceniu się statku w bułgarskiej wyłącznej strefie ekonomicznej 16 listopada. Twierdzenie o ataku drona morskiego pozostaje niepotwierdzone.",
+    "summary": [
+      "Bułgarskie władze potwierdziły, że statek BETUL 8 wywrócił się w wyłącznej strefie ekonomicznej kraju 16 listopada. Wszystkich 12 członków załogi ewakuowano; ministerstwo nie zgłosiło poważnych obrażeń.",
+      "BNR zacytowało jednego z uratowanych marynarzy, który twierdził, że doszło do ataku dwóch dronów morskich. W przeanalizowanych oświadczeniach władze nie potwierdziły tej przyczyny. Wypadek morski zachowano jako kandydata na wpis, a nie potwierdzone uderzenie drona ani wtargnięcie na terytorium.",
+      "Bułgarski NAVWARN 860/26 podaje późniejszą obserwację z 19 listopada, godz. 14:45 UTC: jednostka była wywrócona i dryfowała bez załogi i bez sterowania. Nie jest to ustalenie stanu końcowego ani przyczyny."
+    ],
+    "basis": "aad7a84948b3f2bc"
+  },
+  "N176": {
+    "headline": "Morze Egejskie · siedem BSP w greckim rejestrze za 16 listopada",
+    "description": "Listopadowy rejestr GEETHA wymienia siedem BSP, siedem naruszeń przestrzeni powietrznej i dziesięć naruszeń FIR za 16 listopada, co różni się od wcześniejszego biuletynu.",
+    "summary": [
+      "Miesięczny rejestr GEETHA wymienia siedem BSP jako wszystkie statki powietrzne zgłoszone 16 listopada, z siedmioma naruszeniami krajowej przestrzeni powietrznej i dziesięcioma naruszeniami FIR Ateny. Wcześniejszy biuletyn Parapolitika podawał sześć naruszeń przestrzeni powietrznej i dziewięć naruszeń FIR; różnica nie została wyjaśniona.",
+      "Pozostaje to jednym dziennym wpisem regionalnym. Liczby nie sumują się i nie są niezależnie zweryfikowaną liczbą lotów; nie ustalono użycia broni."
+    ],
+    "basis": "1392b1b1c36513b7"
+  },
+  "N177": {
+    "headline": "Nocny alert dla północnego Tulcea; nie odnotowano wlotu w rumuńską przestrzeń powietrzną",
+    "description": "Rumunia wydała alert w nocy z 16 na 17 listopada po wykryciach radarowych nad Ukrainą. MApN zgłosiło brak nieuprawnionego wlotu w rumuńską przestrzeń powietrzną.",
+    "summary": [
+      "Rumunia wydała alert obrony cywilnej po wykryciach radarowych nad Ukrainą. Nie odnotowano nieuprawnionego wlotu w rumuńską przestrzeń powietrzną.",
+      "To jeden wybrany alert, a nie potwierdzone wtargnięcie drona."
+    ],
+    "basis": "016739f3dca934f0"
+  },
+  "N178": {
+    "headline": "Załoga GAS HUSKY uratowana po wypadku na morzu; przyczyna w postaci drona niepotwierdzona",
+    "description": "Wszystkich 19 członków załogi GAS HUSKY uratowano koło Bułgarii 17 listopada. Oficjalne ostrzeżenie opisuje przechylony, dryfujący statek; doniesienia o dronach pozostają niepotwierdzone.",
+    "summary": [
+      "Bułgarskie władze uratowały wszystkich 19 członków załogi GAS HUSKY 17 listopada 2026 r. po wypadku morskim na otwartym morzu. Gazowiec LPG pod banderą Liberii płynął z Egiptu do Rumunii. Miejsce znajduje się w wyłącznej strefie ekonomicznej Bułgarii, a nie na jej wodach terytorialnych.",
+      "Ostrzeżenie nawigacyjne z 10:50 UTC opisywało przechył 45 stopni, zanurzony mostek i dryfującą jednostkę bez załogi. Nie ustaliło całkowitego zatonięcia, wbrew wczesnym doniesieniom. AP, powołując się na Maritime.bg, podaje, że uratowany kapitan powiedział, iż w jednostkę uderzyły cztery drony; AP zaznacza też, że nie ma oficjalnego potwierdzenia przyczyny. Twierdzenie nie zostało niezależnie zweryfikowane i nie ustalono operatora ani związku z BETUL 8.",
+      "Zarządca statku, Stealth Maritime, podaje, że jednostka została trafiona we wczesnych godzinach 17 listopada w bułgarskiej WSE, ale nie precyzuje, co ją trafiło, i podaje, że jej stan był wówczas nieznany. Jego oświadczenie, przedrukowane przez Naftemporiki, potwierdza załadunek LPG w Aleksandrii z przeznaczeniem do Midia.",
+      "Późniejsze doniesienie Maritime.bg przypisuje nienazwanemu źródłu w spółce zarządzającej informację o połączonym ataku dronów nawodnych i powietrznych. Pozostaje to niepotwierdzoną relacją; publiczne oświadczenie zarządcy nie określa mechanizmu.",
+      "18 listopada gubernator obwodu Warna Mario Smurkov powiedział bTV, że doszło do czterech uderzeń, ale relacje marynarzy były sprzeczne, a typy dronów pozostały niepotwierdzone. Powiedział, że jednostki jeszcze nie zatonęły i w tym czasie nie wykryto zanieczyszczeń. Cztery uderzenia nie ustalają czterech niezależnie zweryfikowanych dronów.",
+      "Reuters podał 18 listopada, że dwa nienazwane źródła z zakresu bezpieczeństwa morskiego przypisały uderzenie systemowi bezzałogowemu. Powtórzył relację gubernatora o czterech uderzeniach, nie ustalając typu drona ani operatora. Reuters napisał, że statek zatonął, ale nie podał nowszego czasu obserwacji, który rozstrzygałby wcześniejsze doniesienia o jego stanie.",
+      "Bułgarski NAVWARN 858/26 podaje późniejszą obserwację z 19 listopada, godz. 13:30 UTC: jednostka miała przechył około 45 stopni i zanurzony mostek oraz dryfowała bez załogi i bez sterowania. Nie jest to ustalenie stanu końcowego ani przyczyny.",
+      "NAVWARN 865/26 podaje, że 21 listopada o 12:38 UTC GAS HUSKY nadal był bez załogi i dryfował, mocno przechylony, z zanurzonym mostkiem. Obserwacja nie ustala zatonięcia ani pierwotnego mechanizmu.",
+      "Filipińskie władze informowały wcześniej, że dwóch rannych członków załogi wraca do zdrowia po leczeniu. The Manila Times, powołując się na filipiński Departament Pracowników Migrujących, opisał pożegnanie 19 filipińskich członków załogi na lotnisku w Warnie 25 listopada. Dwie grupy miały dotrzeć do Manili 26 listopada czasu filipińskiego; ich przylotu nie potwierdzono niezależnie w chwili tego przeglądu. Nie ustala to stanu końcowego jednostki ani pierwotnej przyczyny."
+    ],
+    "basis": "2e8a41b9e0e20de5"
+  },
+  "N179": {
+    "headline": "Morze Egejskie · sześć BSP w greckim rejestrze za 17 listopada",
+    "description": "Rejestr GEETHA wymienia sześć BSP 17 listopada, inaczej niż pierwotnie podane pięć. Łącznych sum naruszeń przestrzeni powietrznej nie można przypisać wyłącznie dronom.",
+    "summary": [
+      "Miesięczny rejestr GEETHA wymienia sześć BSP i cztery załogowe statki powietrzne za 17 listopada, z łącznie siedemnastoma naruszeniami krajowej przestrzeni powietrznej i łącznie dziesięcioma naruszeniami FIR Ateny. Nie przypisuje tych sum do typów statków powietrznych.",
+      "Wcześniejszy biuletyn wymieniał pięć BSP z czterema naruszeniami przestrzeni powietrznej i siedmioma naruszeniami FIR. Ta pierwotna relacja pozostaje cytowana, ale rejestr się od niej różni i nie podaje wyjaśnienia. Żadna z wersji nie ustala niezależnie tras lotów; spotkanie z myśliwcami nie jest zestrzeleniem drona."
+    ],
+    "basis": "87dcaf1584079e1c"
+  },
+  "N180": {
+    "headline": "Farmakonisi · zgłoszony przelot tureckiego BSP 30 lipca",
+    "description": "Greckie władze zgłosiły przelot BSP nad Farmakonisi 30 lipca. Listopadowa odpowiedź ministerialna potwierdza oficjalne zgłoszenie do NATO, a nie ustalenia NATO.",
+    "summary": [
+      "Greckie doniesienia przypisały osiem naruszeń krajowej przestrzeni powietrznej dwóm tureckim BSP 30 lipca 2026 r., w tym przelot nad Farmakonisi. BSP przypisano też cztery odrębne naruszenia FIR Ateny. To jeden wpis dzienny, a nie dwanaście incydentów.",
+      "Odpowiedź ministerialna z 1 listopada, opublikowana 16 listopada, potwierdza przelot i podaje, że Grecja przesłała oficjalny raport do NATO. Stwierdzono w niej, że analiza NATO była wówczas oczekiwana; nie przedstawia ani ustaleń NATO, ani dowodu, że odpowiedź wciąż jest oczekiwana. Dokładne trasy lotu i zamiar pozostają nieznane."
+    ],
+    "basis": "1ce7f990ce68d0c0"
+  },
+  "N181": {
+    "headline": "Uszkodzony przez drona statek MARIAM M dryfuje na rumuńskie wody i osiada na mieliźnie w Vadu",
+    "description": "Statek MARIAM M osiadł na mieliźnie w Vadu 16 listopada po dryfie od strony Ukrainy. Odnotowany jako następstwo zdarzenia morskiego, z nagraniem wideo; nie zgłoszono nowego uderzenia w Rumunii.",
+    "summary": [
+      "Statek MARIAM M osiadł na mieliźnie u rumuńskiego wybrzeża w Vadu 16 listopada 2026 r. Opuszczony drobnicowiec pod banderą Tanzanii zdryfował na rumuńskie wody po tym, jak 14 listopada pękła jego kotwica.",
+      "Rumuńskie władze podają, że po wrześniowym uderzeniu drona na ukraińskich wodach terytorialnych statek pozostał tam na kotwicy. Ten wpis obejmuje jego późniejsze przybycie i osadzenie na mieliźnie w Rumunii, sklasyfikowane jako „Ostrzeżenie / inne”. Nie liczy nowego uderzenia drona ani nie przenosi ofiar z wrześniowego ataku.",
+      "19 listopada holowniki ściągnęły jednostkę z pierwotnej mielizny. ProTV podało później, że przesunęła się o około 100 metrów i osiadła na innej łasze piaskowej, po czym załoga ją zakotwiczyła i około zmroku wstrzymała akcję ratowniczą. Strona zawiera wcześniejsze nagrania z akcji ARSVOM i link do nagrania z linii brzegowej.",
+      "Podczas odrębnej próby 22 listopada Știrile ProTV podały, że trzy holowniki obróciły MARIAM M w stronę otwartego morza, ale jednostka ponownie częściowo osiadła na mieliźnie, a prace wstrzymano o zmroku. Ostateczne miejsce postoju i skutki dla środowiska pozostają niezweryfikowane."
+    ],
+    "basis": "9fa9d16fcb95d141"
+  },
+  "N182": {
+    "headline": "Morze Egejskie · jeden BSP w greckim raporcie dziennym za 18 listopada",
+    "description": "Greckie dane przypisują jedno naruszenie krajowej przestrzeni powietrznej i jedno odrębne naruszenie FIR jednemu BSP 18 listopada. Jeden wpis regionalny, bez zgłoszonych starć.",
+    "summary": [
+      "Dane GEETHA przedrukowane przez OnAlert i NewsIT przypisują jedno naruszenie krajowej przestrzeni powietrznej i jedno odrębne naruszenie FIR Ateny tureckiemu BSP 18 listopada w północno-wschodniej i środkowej części Morza Egejskiego.",
+      "Załogowy CN-235 w tej samej tabeli jest wyłączony z liczby BSP. Zgłoszono rutynowe przechwycenie, bez starć. Te serwisy powielają tę samą relację władz, a nie niezależne trasy; dokładna trasa, model i zamiar pozostają nieznane."
+    ],
+    "basis": "9fecf75febc5fc69"
+  },
+  "N183": {
+    "headline": "Morze Egejskie · zgłoszona aktywność tureckich BSP 14 listopada",
+    "description": "Greckie władze wymieniają 2 tureckie BSP 14 listopada, z odrębnie podanymi danymi o naruszeniach krajowej przestrzeni powietrznej i FIR.",
+    "summary": [
+      "Listopadowy rejestr GEETHA wymienia 2 BSP i żadnych załogowych statków powietrznych za 14 listopada w południowo-wschodniej części Morza Egejskiego.",
+      "Rejestr podaje jedno naruszenie krajowej przestrzeni powietrznej i 2 odrębne naruszenia FIR Ateny. Są to dane greckich władz, a nie niezależnie zweryfikowane trasy, liczby odrębnych zdarzeń ani ataki. Nie wymieniono żadnych starć."
+    ],
+    "basis": "7a977838703818f5"
+  },
+  "N184": {
+    "headline": "Morze Egejskie · zgłoszona aktywność tureckich BSP 15 listopada",
+    "description": "Greckie władze wymieniają 3 tureckie BSP 15 listopada, z odrębnie podanymi danymi o naruszeniach krajowej przestrzeni powietrznej i FIR.",
+    "summary": [
+      "Listopadowy rejestr GEETHA wymienia 3 BSP i żadnych załogowych statków powietrznych za 15 listopada w środkowej i południowo-wschodniej części Morza Egejskiego.",
+      "Rejestr podaje 4 naruszenia krajowej przestrzeni powietrznej i 4 odrębne naruszenia FIR Ateny. Są to dane greckich władz, a nie niezależnie zweryfikowane trasy, liczby odrębnych zdarzeń ani ataki. Nie wymieniono żadnych starć."
+    ],
+    "basis": "9348fe0fa7d38f26"
+  },
+  "N186": {
+    "headline": "Morze Egejskie · zgłoszona aktywność tureckich BSP 20 listopada",
+    "description": "Greckie władze zgłosiły trzy tureckie BSP i trzy naruszenia krajowej przestrzeni powietrznej 20 listopada. Odrębne dane o FIR nie są liczbą incydentów.",
+    "summary": [
+      "OnAlert przedrukowuje dane greckiego Sztabu Generalnego dla południowo-wschodniej części Morza Egejskiego za 20 listopada: trzy tureckie BSP, trzy naruszenia krajowej przestrzeni powietrznej przez BSP i trzy odrębne naruszenia FIR Ateny przez BSP. Jeden załogowy ATR-72 odpowiadał za kolejne dwa naruszenia FIR.",
+      "Są to przypisywane greckim władzom dane dzienne, a nie niezależne trasy lotów ani trzy odrębne incydenty naniesione na mapę. Podstawowego wiersza miesięcznego rejestru nie zweryfikowano niezależnie."
+    ],
+    "basis": "394520276666d168"
+  },
+  "N188": {
+    "headline": "Ukraina przyznaje się do uderzenia w SPARTA II; Finlandia pokierowała późniejszą akcją ratunkową",
+    "description": "Ukraina przyznała się do uderzenia drona 21 listopada w Zatoce Fińskiej. Relacje co do miejsca trafienia statku się różnią. Finlandia pokierowała później akcją ratunkową.",
+    "summary": [
+      "Fińskie Siły Obronne zgłosiły uderzenie drona 21 listopada we wschodniej części Zatoki Fińskiej. Wojsko umiejscowiło je na wodach międzynarodowych, natomiast dowódca Straży Granicznej Ilja Iljin powiedział, że doszło do niego na rosyjskich wodach terytorialnych. Płonący statek zdryfował później na fińskie wody terytorialne. Nie ustala to przelotu drona do Finlandii.",
+      "Fińska Straż Przybrzeżna potwierdziła ewakuację załogi na KAPITAN SAKHAROV. Na briefingu 22 listopada fińska Straż Graniczna poinformowała o jednym rannym członku załogi. Gaszenie pożaru trwało po stłumieniu widocznych płomieni; do czasu briefingu nie zaobserwowano ropy na morzu. Nie była to ocena ostateczna.",
+      "Dyrektor ds. komunikacji fińskich Sił Obronnych Aki-Mauri Huhtinen ocenił, że odpowiedzialna jest prawdopodobnie Ukraina. Konkretnego operatora, zamiaru ani ładunku nie ustalono niezależnie.",
+      "Ministerstwo Spraw Zagranicznych Estonii podaje, że uszkodzona jednostka zdryfowała z wyłącznej strefy ekonomicznej Estonii do wyłącznej strefy ekonomicznej Finlandii, a następnie na fińskie wody terytorialne. Estonia udzieliła pomocy na prośbę Finlandii; fińska Straż Graniczna potwierdziła udział Estończyków w gaszeniu i chłodzeniu. Relacje z akcji ratunkowej nie ustalają miejsca uderzenia ani trasy drona.",
+      "22 listopada holowany statek opuścił wyłączną strefę ekonomiczną Finlandii i obszar reagowania środowiskowego, Finlandia zakończyła misję, a tymczasowe ograniczenia zniesiono. Helsinki osobno zakończyły prewencyjną gotowość do zwalczania rozlewów ropy. Svenska Yle podało, że Rosja przejęła odpowiedzialność za ratownictwo morskie.",
+      "23 listopada gubernator obwodu leningradzkiego Aleksandr Drozdienko powiedział, że załoga zeszła na ląd w Petersburgu o 20:00 czasu moskiewskiego. Powiedział, że statek dotarł do tego samego portu, utrzymując się na wodzie, wraz z ładunkiem, nie podając godziny jego przybycia. Jego informacja o braku rannych jest sprzeczna z relacją fińskiej Straży Granicznej. Ostateczne skutki pożaru i zanieczyszczenia oraz rodzaj ładunku pozostają niezweryfikowane.",
+      "Fiński Krajowy Urząd Egzekucyjny podał, że ocenił statek jako należący do spółki objętej sankcjami UE, i nałożył tymczasowy zakaz przeniesienia po jego wejściu na fińskie wody terytorialne 21 listopada. Zakaz przewidywał wyjątki ze względów ratowniczych, bezpieczeństwa i ochrony środowiska. Ostatecznego rozstrzygnięcia prawnego nie ustalono.",
+      "W wywiadzie dla Bloomberga opublikowanym 24 listopada prezydent Wołodymyr Zełenski przyznał, że Ukraina przeprowadziła uderzenie, i twierdził, że doszło do niego na rosyjskich wodach terytorialnych. ERR podało, że do trafienia doszło w estońskiej WSE; estoński urzędnik ds. ratownictwa umiejscowił statek w tej WSE w chwili pożaru i eksplozji. Fińskie wojsko określiło obszar uderzenia jako wody międzynarodowe. Dokładne miejsce uderzenia i twierdzenie Zełenskiego o broni na pokładzie nie zostały niezależnie zweryfikowane. Późniejsza akcja ratunkowa Finlandii jest odrębnym udokumentowanym faktem."
+    ],
+    "basis": "672fe12e4e10cab6"
+  },
+  "N189": {
+    "headline": "Estonia wydała i odwołała ostrzeżenie o zagrożeniu z powietrza w dwóch północno-wschodnich prowincjach",
+    "description": "Estonia ostrzegła mieszkańców prowincji Lääne-Viru i Ida-Viru przed możliwym zagrożeniem z powietrza 21 listopada. Alert nie ustala wtargnięcia drona.",
+    "summary": [
+      "Estońskie Siły Obronne wydały ostrzeżenie o możliwym zagrożeniu z powietrza dla prowincji Lääne-Viru i Ida-Viru 21 listopada o 04:42 czasu lokalnego. Komunikat zalecał schronienie się w razie zauważenia drona. Odwołanie alarmu nastąpiło o 06:49 czasu lokalnego. To jeden epizod ostrzeżenia, a nie zweryfikowane wtargnięcie."
+    ],
+    "basis": "c7c59339eb4400db"
+  },
+  "N190": {
+    "headline": "Mieszkańcy Tulcea ostrzeżeni w nocy; Rumunia nie zgłosiła wlotu w przestrzeń powietrzną",
+    "description": "Władze wydały RO-Alert o 00:46 czasu lokalnego 22 listopada i poderwały dwa F-16. Ministerstwo Obrony zgłosiło brak wlotu w rumuńską przestrzeń powietrzną.",
+    "summary": [
+      "Nocne ostrzeżenie trafiło do północnej i wschodniej części Tulcea o 00:46 czasu lokalnego 22 listopada. Rumuńskie Ministerstwo Obrony zgłosiło jeden cel powietrzny poza przestrzenią powietrzną kraju i podało, że wystartowały dwa F-16. Nie zgłosiło wlotu w krajową przestrzeń powietrzną. Ministerstwo podało, że alarm lotniczy zakończył się o 02:14, natomiast ISU Delta Tulcea podało 02:16 i nie zgłosiło żadnych wezwań ani problemów. Są to relacje dotyczące jednego epizodu ostrzeżenia."
+    ],
+    "basis": "bb330334fdeedf43"
+  },
+  "N191": {
+    "headline": "Morze Egejskie · zgłoszona aktywność tureckich BSP 22 listopada",
+    "description": "Dane greckich władz wskazują siedem tureckich BSP, siedem naruszeń krajowej przestrzeni powietrznej i siedem odrębnych naruszeń FIR Ateny.",
+    "summary": [
+      "Greckie serwisy, powołując się na Sztab Generalny Greckich Sił Zbrojnych, podały siedem tureckich BSP, siedem naruszeń greckiej krajowej przestrzeni powietrznej i siedem naruszeń FIR Ateny w północno-wschodniej, środkowej i południowo-wschodniej części Morza Egejskiego 22 listopada. Zgłosiły rutynową identyfikację i przechwycenie.",
+      "Te trzy liczby to odrębne miary w jednym raporcie dziennym. Nie ustalają niezależnych tras lotów, zestrzelenia ani ataku. Oryginalnego wiersza rejestru dziennego nie udało się zweryfikować."
+    ],
+    "basis": "0eec6e747256d451"
+  },
+  "N192": {
+    "headline": "Popołudniowy RO-Alert dla północnego Tulcea zakończony bez zgłoszonego wlotu w przestrzeń powietrzną",
+    "description": "Północna część Tulcea otrzymała odrębne popołudniowe ostrzeżenie o 15:06 czasu lokalnego 22 listopada. Nie zgłoszono wlotu w rumuńską przestrzeń powietrzną.",
+    "summary": [
+      "Rumuńskie Ministerstwo Obrony zgłosiło jeden cel powietrzny na północ od Vâlcove na Ukrainie oraz RO-Alert dla północnej części Tulcea od 15:06 do 15:42 czasu lokalnego 22 listopada. Nie zgłoszono wlotu w rumuńską przestrzeń powietrzną.",
+      "Ministerstwo podało, że w odpowiedzi wystartowały hiszpańskie samoloty myśliwskie i śmigłowce. Nie zgłosiło przechwycenia.",
+      "To ostrzeżenie obrony cywilnej, a nie potwierdzone wtargnięcie drona ani atak. Typu celu i operatora nie ustalono."
+    ],
+    "basis": "1fce4c3f1e26c381"
+  },
+  "N193": {
+    "headline": "Wieczorny RO-Alert dla północnego Tulcea zakończony bez zgłoszonego wlotu w przestrzeń powietrzną",
+    "description": "Północna część Tulcea otrzymała odrębne wieczorne ostrzeżenie o 20:01 czasu lokalnego 22 listopada. Nie zgłoszono wlotu w rumuńską przestrzeń powietrzną.",
+    "summary": [
+      "Rumuńskie Ministerstwo Obrony zgłosiło cele powietrzne na wschód od Wyspy Węży oraz RO-Alert dla północnej części Tulcea od 20:01 do 21:15 czasu lokalnego 22 listopada. Nie zgłoszono wlotu w rumuńską przestrzeń powietrzną.",
+      "To ostrzeżenie obrony cywilnej, a nie potwierdzone wtargnięcie drona ani atak. Typu celu i operatora nie ustalono."
+    ],
+    "basis": "6ac4b0c86f4adf5a"
+  },
+  "N194": {
+    "headline": "Dron przypisywany Rosji wlatuje do Polski koło Dorohuska i wraca na Ukrainę",
+    "description": "Polska zgłasza przelot drona koło Dorohuska 23 listopada. Wydano zgodę na zestrzelenie, ale nie użyto broni, zanim dron wrócił na Ukrainę.",
+    "summary": [
+      "Dowództwo Operacyjne potwierdziło, że jeden dron przypisywany Rosji wleciał w polską przestrzeń powietrzną 23 listopada podczas uderzeń na zachodnią Ukrainę. Późniejszy artykuł „Rzeczpospolitej”, powołujący się na dowództwo i rzecznika Jacka Goryszewskiego, umiejscawia wlot koło Dorohuska o 22:50 czasu lokalnego; dron wniknął na około 20 km, a wtargnięcie trwało 8–9 minut, zanim zawrócił na Ukrainę.",
+      "Wydano zgodę na zestrzelenie, ale nie użyto broni. Radio Lublin i UNITED24 podają, że dowódcy wstrzymali ogień po zwrocie drona na wschód, biorąc pod uwagę bezpieczeństwo cywilów. Goryszewski powiedział, że systemy naziemne miały zgodę; polskie samoloty nie działały w pobliżu granicy z powodu pogody. Nie zgłoszono ofiar, uderzenia ani odzyskania szczątków.",
+      "Rzecznik ocenił na podstawie prędkości lotu, że dron miał napęd odrzutowy, ale nie potwierdził obecności kamer ani roli rozpoznawczej. Model, ładunek i zamierzony cel pozostają nieznane. Znacznik w Dorohusku jest przybliżonym punktem odniesienia, a nie zweryfikowanymi współrzędnymi przekroczenia granicy. Ostrzeżenia dla ludności są częścią tego jednego zdarzenia, odrębnego od incydentu rakietowego z 20 listopada.",
+      "Rządowe Centrum Bezpieczeństwa odnotowało aktualizację dotyczącą schronienia się o 22:56 CET i odwołanie alarmu o 23:54 CET. Są to godziny ostrzeżeń, a nie czasy lotu."
+    ],
+    "basis": "d2d4fb5622cf3ffd"
+  },
+  "N195": {
+    "headline": "Tausiūnai–Aukštalaukis: pogranicznicy odzyskują drona przewożącego papierosy z Białorusi",
+    "description": "Litwa zgłasza odrębne wtargnięcie drona w pobliżu Tausiūnai–Aukštalaukis 27 września; odzyskano 250 paczek papierosów. Operator nieznany.",
+    "summary": [
+      "VSAT zgłosiła drona przewożącego papierosy z Białorusi późnym niedzielnym wieczorem czasu lokalnego, 27 września. Drona wykryto koło Tausiūnai i odzyskano koło Aukštalaukis po wymuszonym sprowadzeniu na ziemię. Był poważnie uszkodzony.",
+      "Pogranicznicy odzyskali 250 paczek papierosów i wszczęli postępowanie administracyjne. Operatora nie zidentyfikowano. To transgraniczna sprawa przemytnicza, a nie ustalony atak państwowy."
+    ],
+    "basis": "075b2a5c83a9ffc2"
+  },
+  "N196": {
+    "headline": "Eišiškės: pogranicznicy odzyskują drona przewożącego papierosy z Białorusi",
+    "description": "Litwa zgłasza odrębne wtargnięcie drona w pobliżu Eišiškės 27 września; odzyskano 100 paczek papierosów. Operator nieznany.",
+    "summary": [
+      "VSAT zgłosiła drona przewożącego papierosy z Białorusi przed północą czasu lokalnego 27 września. Inny patrol przechwycił drona w pobliżu Eišiškės kilka godzin po pierwszym incydencie. Dron spadł na terenie miasta i został odzyskany.",
+      "Pogranicznicy odzyskali 100 paczek papierosów i wszczęli postępowanie administracyjne. Operatora nie zidentyfikowano. To transgraniczna sprawa przemytnicza, a nie ustalony atak państwowy."
+    ],
+    "basis": "0184a774707cec6e"
+  },
+  "N197": {
+    "headline": "Morze Egejskie: 6 zgłoszonych naruszeń przestrzeni powietrznej 18 października",
+    "description": "Veteranos, powołując się na greckie doniesienia wojskowe, opisał 5 tureckich BSP w środkowej i południowo-wschodniej części Morza Egejskiego 18 października 2026 r., z 6 zgłoszonymi naruszeniami krajowej przestrzeni powietrznej i, odrębnie, 10 naruszeniami przepisów ruchu w FIR Ateny.",
+    "summary": [
+      "Veteranos, powołując się na greckie doniesienia wojskowe, opisał 5 tureckich BSP w środkowej i południowo-wschodniej części Morza Egejskiego 18 października 2026 r., z 6 zgłoszonymi naruszeniami krajowej przestrzeni powietrznej i, odrębnie, 10 naruszeniami przepisów ruchu w FIR Ateny.",
+      "Relacja mówi o identyfikacji i rutynowym przechwyceniu, a nie o użyciu broni czy zestrzeleniu.",
+      "To jeden wpis dzienny oparty na przytaczanym źródle, a nie liczba odrębnych potwierdzonych wtargnięć. Oryginalnego wpisu w greckim rejestrze wojskowym nie pozyskano, a trasy, dokładne lokalizacje, zamiar i szczegóły dotyczące operatora są niezweryfikowane. Spór grecko-turecki o przestrzeń powietrzną pozostaje istotny."
+    ],
+    "basis": "b78a96fd3dd18174"
+  },
+  "N198": {
+    "headline": "Morze Egejskie: 3 zgłoszone naruszenia przestrzeni powietrznej 21 listopada",
+    "description": "Veteranos, powołując się na greckie doniesienia wojskowe, opisał jeden turecki BSP w środkowej części Morza Egejskiego 21 listopada 2026 r., z 3 zgłoszonymi naruszeniami krajowej przestrzeni powietrznej i, odrębnie, 1 naruszeniem przepisów ruchu w FIR Ateny.",
+    "summary": [
+      "Veteranos, powołując się na greckie doniesienia wojskowe, opisał jeden turecki BSP w środkowej części Morza Egejskiego 21 listopada 2026 r., z 3 zgłoszonymi naruszeniami krajowej przestrzeni powietrznej i, odrębnie, 1 naruszeniem przepisów ruchu w FIR Ateny.",
+      "Relacja mówi o identyfikacji i rutynowym przechwyceniu, a nie o użyciu broni czy zestrzeleniu.",
+      "To jeden wpis dzienny oparty na przytaczanym źródle, a nie liczba odrębnych potwierdzonych wtargnięć. Oryginalnego wpisu w greckim rejestrze wojskowym nie pozyskano, a trasy, dokładne lokalizacje, zamiar i szczegóły dotyczące operatora są niezweryfikowane. Spór grecko-turecki o przestrzeń powietrzną pozostaje istotny."
+    ],
+    "basis": "4035154a2ead9d19"
+  },
+  "N199": {
+    "headline": "Poranny RO-Alert dla północnego Tulcea odwołany bez zgłoszonego wlotu w rumuńską przestrzeń powietrzną",
+    "description": "Rumunia ostrzegła północną część Tulcea rankiem 24 listopada po wykryciu celu w ukraińskiej przestrzeni powietrznej. Nie zgłoszono wlotu w rumuńską przestrzeń powietrzną.",
+    "summary": [
+      "Rumunia ostrzegła północną część Tulcea rankiem 24 listopada po wykryciu celu w ukraińskiej przestrzeni powietrznej. Nie zgłoszono wlotu w rumuńską przestrzeń powietrzną.",
+      "Ministerstwo Obrony podało ostrzeżenie o 11:11 EET, monitorowanie przez hiszpańskie samoloty i odwołanie alarmu o 11:51 EET.",
+      "Lokalna relacja służb ratunkowych podawała 10:11 jako godzinę przyjęcia zgłoszenia telefonicznego. Ta rozbieżność nie wskazuje na drugi poranny alert.",
+      "To alert prewencyjny, a nie potwierdzone wtargnięcie do Rumunii."
+    ],
+    "basis": "0198614f7d30239f"
+  },
+  "N200": {
+    "headline": "Popołudniowy RO-Alert dla północnego Tulcea odwołany bez zgłoszonego wlotu w rumuńską przestrzeń powietrzną",
+    "description": "Rumunia ponownie ostrzegła północną część Tulcea 24 listopada po wykryciu celu w pobliżu odnogi Chilia w ukraińskiej przestrzeni powietrznej. Nie zgłoszono wlotu w rumuńską przestrzeń powietrzną.",
+    "summary": [
+      "Rumunia ponownie ostrzegła północną część Tulcea 24 listopada po wykryciu celu w pobliżu odnogi Chilia w ukraińskiej przestrzeni powietrznej. Nie zgłoszono wlotu w rumuńską przestrzeń powietrzną.",
+      "Ministerstwo Obrony podało ostrzeżenie o 14:37 EET, monitorowanie przez samoloty i odwołanie alarmu dla północnej części Tulcea o 15:40. ProTV podaje, że faza alarmu lotniczego w Galați rozpoczęła się o 14:52 EET po zgłoszeniu niezidentyfikowanego drona kierującego się w stronę okręgu. Lokalne odwołanie alarmu przez IGSU podano o 15:46 EET.",
+      "Tożsamość celu, operator i zamierzony cel są nieznane. Nie ustalono, czy ostrzeżenia w Tulcea i Galați dotyczyły tego samego celu. Poranne ostrzeżenie pozostaje odrębne.",
+      "To alert prewencyjny, a nie potwierdzone wtargnięcie do Rumunii."
+    ],
+    "basis": "faba06a8d0d3b2db"
+  },
+  "N201": {
+    "headline": "Žaltūnai–Girdijauskai: Litwa zgłasza transgraniczny przemyt dronem",
+    "description": "Litewscy pogranicznicy odzyskali 2 statki powietrzne i 2000 paczek papierosów po nocnej lipcowej operacji w pobliżu Žaltūnai–Girdijauskai.",
+    "summary": [
+      "9–10 lipca 2026 r. (w nocy). Straż graniczna podaje, że w nocy wykryła drony z Białorusi. Funkcjonariusze odzyskali dwa drony transportowe w pobliżu Žaltūnai i Girdijauskai po wznowieniu poszukiwań za dnia.",
+      "Funkcjonariusze odzyskali z 2 statków powietrznych 2000 paczek papierosów z białoruskimi banderolami. Wszczęto śledztwo karne.",
+      "Operator oraz dokładne miejsce przekroczenia granicy i trasa są nieznane. Operację odnotowano jako transgraniczny przemyt, a nie atak wojskowy."
+    ],
+    "basis": "a335379fd80fd841"
+  },
+  "N202": {
+    "headline": "Šiulgiai–Šumskas: Litwa zgłasza transgraniczny przemyt dronem",
+    "description": "Litewscy pogranicznicy odzyskali jeden statek powietrzny i 340 paczek papierosów po nocnej lipcowej operacji w pobliżu Šiulgiai–Šumskas.",
+    "summary": [
+      "17–18 lipca 2026 r. (w nocy). Straż graniczna zgłosiła, że jeden dron transportowy wleciał na Litwę. Funkcjonariusze słyszeli, ale nie widzieli drona w pobliżu Šiulgiai. Po interwencji dron spadł, a uszkodzony statek powietrzny odzyskano za dnia w pobliżu Šumskas.",
+      "Funkcjonariusze odzyskali z jednego statku powietrznego 340 paczek papierosów z białoruskimi banderolami. Wszczęto postępowanie administracyjne.",
+      "Operator oraz dokładne miejsce przekroczenia granicy i trasa są nieznane. Operację odnotowano jako transgraniczny przemyt, a nie atak wojskowy."
+    ],
+    "basis": "0eba63dd63dc7160"
+  },
+  "N203": {
+    "headline": "Norviliškės–Daulėnai: Litwa zgłasza transgraniczny przemyt dronem",
+    "description": "Litewscy pogranicznicy odzyskali 3 statki powietrzne i 3000 paczek papierosów po nocnej lipcowej operacji w pobliżu Norviliškės–Daulėnai.",
+    "summary": [
+      "29–30 lipca 2026 r. (w nocy). Straż graniczna zgłosiła drony transportowe wlatujące na Litwę z Białorusi. Podczas jednej nocnej operacji odzyskano dwa statki powietrzne w pobliżu Norviliškės i jeden w pobliżu Daulėnai; ostatni odzyskano za dnia.",
+      "Funkcjonariusze odzyskali z 3 statków powietrznych 3000 paczek papierosów z białoruskimi banderolami. Wszczęto śledztwo karne.",
+      "Operator oraz dokładne miejsce przekroczenia granicy i trasa są nieznane. Operację odnotowano jako transgraniczny przemyt, a nie atak wojskowy."
+    ],
+    "basis": "20d845bfb0acadf0"
+  },
+  "N204": {
+    "headline": "Kiemėnai: litewscy pogranicznicy odzyskują drona przemytniczego",
+    "description": "Litewscy pogranicznicy odzyskali drona i 750 paczek papierosów po nocnej operacji w pobliżu Kiemėnai.",
+    "summary": [
+      "16–17 kwietnia 2026 r. VSAT podała, że wykryła drona wlatującego na Litwę z Białorusi. Dron spadł po interwencji pograniczników i został odzyskany w pobliżu Kiemėnai.",
+      "Funkcjonariusze odzyskali 750 paczek papierosów z białoruskimi banderolami i wszczęli postępowanie administracyjne.",
+      "Nie ustalono operatora, wsparcia państwowego ani dokładnej trasy lotu. To wpis o przemycie przez granicę, a nie atak wojskowy."
+    ],
+    "basis": "1738bd94e1620fe1"
+  },
+  "N205": {
+    "headline": "Prūdelis: litewscy pogranicznicy odzyskują drona przemytniczego",
+    "description": "Litewscy pogranicznicy odzyskali drona i 1000 paczek papierosów po nocnej operacji w pobliżu Prūdelis.",
+    "summary": [
+      "8–9 lipca 2026 r. VSAT zgłosiła drona lecącego w głąb kraju od granicy z Białorusią; nie opublikowała dokładnego miejsca przekroczenia granicy ani trasy. Dron spadł po interwencji pograniczników i został odzyskany w pobliżu Prūdelis.",
+      "Funkcjonariusze odzyskali 1000 paczek papierosów z białoruskimi banderolami i wszczęli postępowanie administracyjne.",
+      "Nie ustalono operatora, wsparcia państwowego ani dokładnej trasy lotu. To wpis o przemycie przez granicę, a nie atak wojskowy."
+    ],
+    "basis": "1c7fd61759b9aa98"
+  },
+  "N206": {
+    "headline": "Morze Egejskie · zgłoszona aktywność tureckich BSP 25 listopada",
+    "description": "Dane greckich władz wymieniają trzy tureckie BSP, cztery naruszenia krajowej przestrzeni powietrznej i trzy odrębne naruszenia FIR Ateny.",
+    "summary": [
+      "Sztab Generalny Greckich Sił Zbrojnych (GEETHA), według relacji OnAlert i Veteranos, wymienił trzy tureckie BSP, cztery zgłoszone naruszenia greckiej krajowej przestrzeni powietrznej i trzy odrębne naruszenia przepisów ruchu w FIR Ateny 25 listopada. Raport obejmował północno-wschodnią, środkową i południowo-wschodnią część Morza Egejskiego. Zgłoszono rutynową identyfikację i przechwycenie; nie wymieniono żadnych starć.",
+      "Liczby to odrębne miary w jednym dziennym biuletynie wojskowym, a nie zweryfikowane trasy poszczególnych lotów ani liczby ataków. Oba doniesienia cytują ten sam biuletyn; oficjalna tabela miesięczna nie była bezpośrednio dostępna w chwili przeglądu."
+    ],
+    "basis": "0e4f136f9c21f1b4"
+  },
+  "N207": {
+    "headline": "Kuodžiai: Litwa zgłasza cztery drony przemytnicze w jednej operacji",
+    "description": "Litewscy pogranicznicy odzyskali cztery drony i 4000 paczek papierosów po operacji 30 lipca w pobliżu Kuodžiai.",
+    "summary": [
+      "30 lipca 2026 r., wieczór. Litewska Państwowa Służba Ochrony Granicy (VSAT) podała, że cztery drony transportowe wleciały z Białorusi i zostały sprowadzone na ziemię oraz odzyskane w jednej operacji w pobliżu Kuodžiai w rejonie Lazdijai.",
+      "Odzyskany ładunek wyniósł łącznie 4000 paczek papierosów z białoruskimi banderolami. VSAT podała, że wszczęto śledztwo karne. To jedna udokumentowana operacja, a nie cztery odrębne wpisy o incydentach.",
+      "Nie ustalono dokładnej trasy lotu, tożsamości operatora ani wsparcia państwowego. To sprawa karna dotycząca przemytu, a nie atak wojskowy."
+    ],
+    "basis": "f3ab912199253de4"
+  },
+  "N208": {
+    "headline": "Litewscy pogranicznicy odzyskują drona przemytniczego i 500 paczek papierosów w pobliżu Jurgionys",
+    "description": "Litewscy pogranicznicy zgłosili wlot drona z Białorusi w pobliżu Jurgionys przed północą 24 listopada i odzyskali 500 paczek papierosów.",
+    "summary": [
+      "Litewscy pogranicznicy zgłosili wlot drona z Białorusi w pobliżu Jurgionys przed północą 24 listopada i odzyskali 500 paczek papierosów.",
+      "Komunikat z 26 listopada podaje, że statek powietrzny został uszkodzony przy upadku. Był to 74. statek powietrzny przechwycony w tej kategorii działań egzekwowania prawa w 2026 r. według stanu na dzień komunikatu, a nie 74. wpis w tym rejestrze."
+    ],
+    "basis": "67a42221ac53e32e"
+  },
+  "N209": {
+    "headline": "Litewscy pogranicznicy zgłaszają wlot drona w pobliżu Purvėnai i odzyskanie go w pobliżu Geismantai",
+    "description": "Litewska straż graniczna zgłosiła wlot drona 24 stycznia i odzyskała go w pobliżu Geismantai wraz z 1000 paczek papierosów.",
+    "summary": [
+      "Litewska straż graniczna zgłosiła wlot drona 24 stycznia i odzyskała go w pobliżu Geismantai wraz z 1000 paczek papierosów.",
+      "Jest to zdarzenie odrębne od osobno zgłoszonego incydentu w Purvėnai z 27 stycznia."
+    ],
+    "basis": "da169e0f9823eba4"
+  },
+  "N210": {
+    "headline": "Litewska prokuratura dokumentuje majową operację przemytu dronami w rejonie Švenčionys",
+    "description": "Litewska prokuratura podała, że w nocy 27 maja drony przeniosły przez granicę z Białorusi 35 500 paczek papierosów. Liczba statków powietrznych nie jest znana.",
+    "summary": [
+      "Litewska prokuratura podała, że w nocy 27 maja drony przeniosły przez granicę z Białorusi 35 500 paczek papierosów. Liczba statków powietrznych nie jest znana.",
+      "Pogranicznicy odzyskali papierosy po tym, jak zostały przemieszczone na lądzie. Nie zgłoszono przechwycenia ani odzyskania drona. W chwili ogłoszenia z 20 listopada postanowienie sądu nie było prawomocne."
+    ],
+    "basis": "55b583cfae9bda20"
+  },
+  "N211": {
+    "headline": "Litewscy pogranicznicy zgłaszają sprowadzenie na ziemię czterech dronów przemytniczych w pobliżu Jaskonys",
+    "description": "Litewscy pogranicznicy zgłosili sprowadzenie na ziemię czterech nadlatujących dronów w jednej operacji w pobliżu Jaskonys oraz odzyskanie statków powietrznych i 4998 paczek papierosów.",
+    "summary": [
+      "Litewscy pogranicznicy zgłosili sprowadzenie na ziemię czterech nadlatujących dronów w jednej operacji w pobliżu Jaskonys oraz odzyskanie statków powietrznych i 4998 paczek papierosów.",
+      "Komunikat z 7 lipca mówi o piątkowej nocy, a odzyskiwanie trwało jeszcze za dnia. Nie określa, czy chodzi o czas przed północą, czy po niej. To nie jest późniejsza operacja w Kuodžiai."
+    ],
+    "basis": "bdc463b805195983"
+  },
+  "N212": {
+    "headline": "Wieczorne ostrzeżenie dla północnego Tulcea zakończone bez zgłoszonego wlotu w rumuńską przestrzeń powietrzną",
+    "description": "Rumuńskie Ministerstwo Obrony zgłosiło radarowe wykrycie niezidentyfikowanego celu powietrznego na wschód od Vâlcove na Ukrainie. Północna część Tulcea otrzymała ostrzeżenie. Nie zgłoszono wlotu w rumuńską przestrzeń powietrzną.",
+    "summary": [
+      "Rumuńskie Ministerstwo Obrony zgłosiło radarowe wykrycie niezidentyfikowanego celu powietrznego na wschód od Vâlcove na Ukrainie. Północna część Tulcea otrzymała ostrzeżenie. Nie zgłoszono wlotu w rumuńską przestrzeń powietrzną.",
+      "RO-Alert z 18:52 EET zakończył się o 19:11. Hiszpańskie samoloty, które były już w powietrzu podczas szkolenia, skierowano do monitorowania.",
+      "To ostrzeżenie cywilne, a nie potwierdzone wtargnięcie drona."
+    ],
+    "basis": "6379cdfa337a493b"
+  },
+  "N213": {
+    "headline": "Grecki raport dzienny wymienia sześć tureckich BSP nad Morzem Egejskim 26 listopada",
+    "description": "Veteranos podał sześć tureckich BSP, dziewięć zgłoszonych naruszeń greckiej krajowej przestrzeni powietrznej i dziewięć odrębnych naruszeń przepisów ruchu w FIR Ateny.",
+    "summary": [
+      "Veteranos podał sześć tureckich BSP, dziewięć zgłoszonych naruszeń greckiej krajowej przestrzeni powietrznej i dziewięć odrębnych naruszeń przepisów ruchu w FIR Ateny.",
+      "Tabela obejmuje północno-wschodnią, środkową i południowo-wschodnią część Morza Egejskiego i nie wymienia uzbrojonych statków powietrznych ani starć.",
+      "Liczby to odrębne miary z jednego opublikowanego raportu dziennego, a nie zweryfikowane trasy lotów ani liczby ataków."
+    ],
+    "basis": "4cb6890e53c1739e"
+  },
+  "N214": {
+    "headline": "Łotewskie wojsko potwierdza krótki wlot drona w pobliżu wschodniej granicy",
+    "description": "Łotewskie Narodowe Siły Zbrojne podały, że jeden bezzałogowy statek powietrzny przebywał krótko na terytorium Łotwy w nocy 27 listopada. Nie potwierdzono drugiego wlotu w Balvi.",
+    "summary": [
+      "Łotewskie Narodowe Siły Zbrojne podały, że jeden bezzałogowy statek powietrzny przebywał krótko na terytorium Łotwy w nocy 27 listopada. Nie potwierdzono drugiego wlotu w Balvi.",
+      "Pomarańczowe ostrzeżenie w Ludzy obowiązywało od 02:30 do 02:55 EET. Żółte ostrzeżenie w Balvi rozpoczęło się o 02:55 i zakończyło około 03:30. Poderwano myśliwce NATO, a łotewski dron przechwytujący został wysłany i powrócił.",
+      "Wojsko nie zidentyfikowało operatora, pochodzenia ani celu drona i nie zgłosiło zestrzelenia."
+    ],
+    "basis": "669b6dce3baee574"
   }
 }

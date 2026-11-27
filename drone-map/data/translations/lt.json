@@ -117,14 +117,14 @@
     "basis": "086d0bcd117f6781"
   },
   "E013": {
+    "basis": "b590e35104316219",
     "headline": "Netoli Luncavița (Rumunija) sunaikintos drono nuolaužos su sprogstamuoju užtaisu",
-    "description": "2026 m. balandžio 26 d. tarp Luncavița ir Văcăreni (Rumunija) rastos drono nuolaužos su sprogstamuoju užtaisu buvo sunaikintos. Jų kilmė tiriama.",
+    "description": "2026 m. balandžio 26 d. netoli Luncavița rastas drono nuolaužas Rumunijos gynybos ministerija vėliau įvardijo kaip Rusijai priskirto Geran-2 incidento dalį.",
     "summary": [
-      "2026 m. balandžio 26 d. pranešta apie daugiau drono nuolaužų tarp Luncavița ir Văcăreni Tulčėjos apskrityje, Rumunijoje, praėjus dienai po to, kai nuolaužų rasta prie ūkio Văcăreni. Tarp medžiagos patvirtintas sprogstamasis užtaisas ir paskelbtas RO-Alert saugumo perspėjimas.",
-      "Nuolaužų kilmė tiriama, pranešta apie Konstancos apeliacinio teismo prokurorų tyrimą. Kada dronas skrido ar nukrito, nežinoma. Nuolaužos nepatvirtintos kaip antras visas dronas, ir nenustatyta, ar jos bei ankstesnės dienos radinys kilo iš vieno, ar iš kelių orlaivių korpusų.",
-      "SRI pirotechnikai ir Rumunijos gynybos ministerijos (MApN) specialistai įvertino medžiagą, kuri vėliau buvo sunaikinta kontroliuojamu susprogdinimu vietoje, prokuroro įgaliojimu. Nukentėjusiųjų nepranešta."
-    ],
-    "basis": "88e415a73fd8096d"
+      "2026 m. balandžio 26 d. pranešta apie daugiau drono nuolaužų tarp Luncavița ir Văcăreni Tulčėjos apskrityje, Rumunijoje, praėjus dienai po to, kai nuolaužų rasta prie ūkio Văcăreni. Tarp medžiagos patvirtintas sprogstamasis užtaisas, paskelbtas RO-Alert saugumo perspėjimas.",
+      "Gegužės 31 d. pareiškime MApN retrospektyviai įtraukė balandžio 26 d. Luncavița atvejį į ankstesnių Rusijai priskirtų Geran-2 incidentų sąrašą. Tai atnaujina iš pradžių neišaiškintą kilmę, tačiau nenustato, kada dronas skrido ar nukrito, nei jo maršruto ar numatyto taikinio. Nuolaužos nepatvirtintos kaip antras visas dronas, o jų korpuso sąsaja su ankstesnės dienos radiniu lieka neišaiškinta.",
+      "SRI pirotechnikai ir Rumunijos gynybos ministerijos (MApN) specialistai įvertino medžiagą, kuri vėliau prokuroro įgaliojimu buvo sunaikinta kontroliuojamu susprogdinimu vietoje. Nukentėjusiųjų nepranešta."
+    ]
   },
   "E014": {
     "headline": "Nežinomos kilmės dronas rastas netoli Șerbăuți Sučavos apskrityje, Rumunijoje",
@@ -166,14 +166,14 @@
     "basis": "565c21f60c6549a3"
   },
   "E018": {
+    "basis": "22793f6506f0bdbc",
     "headline": "Įtariamų dronų pavojus sustabdė Helsinkio oro uosto veiklą Suomijoje",
     "description": "2026 m. gegužės 15 d. įtariami dronai prie Helsinkio (Suomija) sukėlė įspėjimą likti patalpose ir sustabdė oro uosto veiklą. Jų užsienio kilmė neįrodyta.",
     "summary": [
       "2026 m. gegužės 15 d. įtariama dronų veikla Suomijos Helsinkio didmiestyje sukėlė plataus masto apsaugos priemones. Gyventojai buvo perspėti likti patalpose, oro uosto veikla sustabdyta, o naikintuvai pakelti. Kiek dronų dalyvavo ir kokio tipo, neišaiškinta.",
       "Užsienio kilmė neįrodyta, o galimų dronų maršrutas nežinomas. Suomijos institucijos įvertino grėsmę, o jų tuometiniame pareiškime tiesioginė karinė grėsmė nebuvo patvirtinta. Epizodas buvo pavojaus signalas ir sutrikimas, o ne patvirtinta ataka.",
-      "Fizinės žalos nepranešta."
-    ],
-    "basis": "8dcd29f016872e0a"
+      "Fizinės žalos nepranešta. Oro uosto operatorė Finavia patvirtina, kad oro eismas buvo sustabdytas nuo 04:00 iki 07:00 vietos laiku, vėliau atnaujintas, o tą dieną būta vėlavimų ir atšaukimų. Ji nenurodo bendro atšauktų skrydžių skaičiaus ir neidentifikuoja drono."
+    ]
   },
   "E019": {
     "headline": "Prie Utenos (Lietuva) rastos įtariamo ukrainietiško drono nuolaužos",
@@ -255,24 +255,25 @@
     "basis": "a18eddeece7bbecb"
   },
   "E027": {
-    "headline": "Prie Baltarusijos sienos Lietuvoje priverstas nusileisti namų gamybos kontrabandos dronas",
-    "description": "2026 m. gegužės 23 d. Dumblėje, Šalčininkų rajone (Lietuva), kontrabandos byloje priverstas nusileisti ir paimtas namų gamybos krovininis dronas, apie kurį pranešta, kad atskrido iš Baltarusijos.",
+    "basis": "9db105cbb575f730",
+    "headline": "Prie Dumblės paimtas kontrabandos dronas be krovinio",
+    "description": "Lietuvos pasieniečiai teigia, kad 2026 m. gegužės 23 d. prie Dumblės nukritęs namų gamybos dronas krovinio neturėjo ir smūgio metu buvo smarkiai apgadintas.",
     "summary": [
-      "2026 m. gegužės 23 d. namų gamybos krovininis dronas su kontrabanda, kaip pranešama, buvo priverstas nusileisti Dumblėje, Lietuvos Šalčininkų rajone, prie sienos su Baltarusija. Pasienio kontrolės pareigūnai droną perėmė ir jį paėmė.",
-      "Pranešta, kad dronas atskrido iš Baltarusijos. Tai buvo nusikalstamas kontrabandos, o ne karinis skrydis, o operatorius nenustatytas. Duomenų apie krovinį ir patį droną nebuvo.",
-      "Sprogstamojo užtaiso ir nukentėjusiųjų nepranešta. Pranešimuose aprašomas priverstinis nusileidimas ir paėmimas, o ne numušimas ar sudužimas."
-    ],
-    "basis": "e9db67cdbd535522"
+      "2026 m. gegužės 23 d. namų gamybos dronas, kuris, kaip pranešė Lietuvos valstybės sienos apsaugos tarnyba (VSAT), įskrido iš Baltarusijos, po pasieniečių įsikišimo nukrito prie Dumblės, Šalčininkų rajone.",
+      "Pareigūnams paėmus orlaivį, jis buvo smarkiai apgadintas ir be krovinio. Originalus VSAT pranešimas pataiso ankstesnį aprašymą, kad dronas buvo su kroviniu.",
+      "VSAT orlaivį apibūdino kaip priklausantį kontrabandininkams. Operatorius nežinomas. Nukentėjusiųjų ar kinetinio numušimo nepranešta."
+    ]
   },
   "E028": {
+    "basis": "839ef0ac20cfdff4",
     "headline": "Rumunija: Rusijos dronas pataikė į Galaco daugiabutį ir sužeidė du žmones",
     "description": "2026 m. gegužės 29 d. per naktį dronas pataikė į daugiabutį Galace (Rumunija) ir sužeidė du žmones. Rumunijos institucijos nustatė, kad jis rusiškas; Maskva tai ginčijo.",
     "summary": [
       "2026 m. gegužės 29 d. per naktį dronas smogė daugiabučio stogui Galaco Mazepa rajone (Rumunija) ir sukėlė gaisrą. Du žmonės patyrė lengvų sužalojimų, gyventojai buvo evakuoti, o būstai apgadinti. Pareigūnai įvertino, kad dronas gabeno bent 30 kg sprogmenų.",
       "Remdamosi oficialiu radaro ir nuolaužų vertinimu, Rumunijos institucijos nustatė, kad tai rusiškas dronas Geran-2. Jis buvo susietas su platesne 43 dronų banga per atakas prieš Ukrainą ir prieš smūgį trumpai skrido virš Rumunijos. Maskva ginčijo priskyrimą. Rumunija smūgio neapibūdino kaip tyčinės atakos prieš Rumuniją.",
-      "Du Rumunijos F-16 ir sraigtasparnis buvo pakelti, bet virš miesto neįsikišo, o vieta ištirta. Atsakydama Rumunija išsiuntė Rusijos konsulą ir uždarė konsulatą. Incidentas atskiras nuo drono sudužimo Galace 2026 m. balandžio 25 d."
-    ],
-    "basis": "867f5d0e86da38f7"
+      "Du Rumunijos F-16 ir sraigtasparnis buvo pakelti, bet virš miesto neįsikišo, o vieta ištirta. Atsakydama Rumunija išsiuntė Rusijos konsulą ir uždarė konsulatą. Incidentas atskiras nuo drono sudužimo Galace 2026 m. balandžio 25 d.",
+      "Gegužės 29 d. laiške JT Saugumo Tarybai Rumunija nurodė radaro sekimą iki pietinės Galaco dalies, smūgį į gyvenamojo namo stogą, gaisrą, du sužeistuosius ir evakuaciją. Laiške dronas priskiriamas Rusijai, nenurodant nei modelio, nei krovinio svorio."
+    ]
   },
   "E029": {
     "headline": "Įtariama dronų veikla sukėlė pavojų Latvijos ir Estijos pasienyje",
@@ -295,14 +296,14 @@
     "basis": "063363d8f1a30b72"
   },
   "E031": {
+    "basis": "c7ae1c343f0f6430",
     "headline": "Prancūzijos NATO naikintuvas numušė droną netoli Bērzgalės Latvijoje",
     "description": "2026 m. birželio 8 d. Prancūzijos NATO naikintuvas numušė droną Latvijos oro erdvėje netoli Bērzgalės. Jo tautybė ir modelis galutinai nenustatyti.",
     "summary": [
-      "2026 m. birželio 8 d. dronas (bepilotis orlaivis) įskrido į Latvijos oro erdvę ir buvo perimtas Bērzgalės apylinkėse Latvijoje. Prancūzijos naikintuvas, veikiantis kartu su NATO, jį numušė.",
-      "Tuometiniuose incidento pranešimuose drono tautybė ir modelis galutinai nenustatyti. Jis laikomas užsienio dronu, tačiau jo kilmė nenustatyta; jo maršrutas nenurodytas, o ką, jei ką nors, jis gabeno, lieka nežinoma.",
+      "2026 m. birželio 8 d. dronas (bepilotis orlaivis) įskrido į Latvijos oro erdvę ir buvo perimtas Bērzgalės apylinkėse Latvijoje. Tada jį numušė Prancūzijos naikintuvas, veikiantis kartu su NATO.",
+      "Kaip skelbia Euronews, Latvijos kariuomenės atstovas spaudai Reuters sakė, kad dronas įskrido iš Rusijos. Tikslus jo maršrutas ir paleidimo vieta nenustatyti. Pranešta įskridimo kryptis nenustato jo operatoriaus ar tautybės; peržiūrėtuose pranešimuose jo modelis, krovinys ir numatytas taikinys liko neišaiškinti.",
       "Latvijoje nukentėjusiųjų nepranešta. Po numušimo vyko nuolaužų paieška ir nuolaužų tyrimas."
-    ],
-    "basis": "74bcaba3125d8355"
+    ]
   },
   "E032": {
     "headline": "Rumunija sunaikino drono nuolaužas netoli Rachelu, kurias nustatė kaip rusiškas",
@@ -315,14 +316,15 @@
     "basis": "a2522d4f06337eee"
   },
   "E033": {
-    "headline": "LPG laivo įgula praneša apie dronų ataką prie Sfântu Gheorghe, Rumunijoje",
-    "description": "2026 m. liepos 21 d. sprogimai smarkiai apgadino LPG laivą Juodojoje jūroje prie Sfântu Gheorghe, Rumunijoje. Įgula aprašė tris dronus; dronų kaip priežastis nepatvirtinta.",
+    "basis": "5b25f8a67d378d86",
+    "headline": "Gaisras laive GAS LISBON prie Rumunijos: mirė vienas jūreivis, dronų kaip priežastis nepatvirtinta",
+    "description": "Liepos 21 d. prie Rumunijos iš GAS LISBON evakuoti visi 17 žmonių. Vienas iš trijų sužeistųjų po dviejų dienų mirė. Dronų kaip priežastis lieka nepatvirtinta.",
     "summary": [
-      "2026 m. liepos 21 d. naktį ir rytą sprogimai smarkiai apgadino LPG gabenantį prekybinį laivą Juodojoje jūroje, maždaug už 26 km nuo Sfântu Gheorghe, Rumunijoje, ir laivas užsiliepsnojo. Pranešta, kad jo padėtis buvo už Rumunijos teritorinių vandenų ribų.",
+      "Liberijos vėliava plaukiojančiame LPG tanklaivyje GAS LISBON prie Sfântu Gheorghe Rumunijos IEZ, už jos teritorinių vandenų ribų, įvyko sprogimas ir kilo gaisras. Jūrų administracija pagalbos signalą užregistravo liepos 21 d. 00:05 vietos laiku; tai nėra patikrintas sprogimo laikas.",
       "Du įgulos nariai aprašė naktinę trijų dronų ataką. Jų pasakojimas laikomas teiginiu, o ne galutiniu ginklo nustatymu: drono tipas, naudoti prietaisai ir užtaisai, paleidimo vieta bei operatorius ar tautybė nenustatyti, o dronų kaip priežastis nepatvirtinta.",
-      "Rumunijos jūrų gelbėjimo tarnybos įsikišo ir išgelbėjo įgulą. Pranešta apie sužeistuosius, įskaitant nudegimus. Incidentas atskiras nuo birių krovinių laivo avarinės situacijos prie to paties kranto liepos 24 d. ir nuo Progress IV incidento rugpjūtį."
-    ],
-    "basis": "6f6ef8fc3dd8a8e7"
+      "Šis atvejis atskiras nuo liepos 24 d. birių krovinių laivo avarinės situacijos ir rugpjūčio mėn. PROGRESS IV avarijos.",
+      "Visi 17 įgulos narių evakuoti. Trys buvo sužeisti; vienas iš jų liepos 23 d. mirė Tulčėjos ligoninėje, AGERPRES nurodė Rumunijos sveikatos apsaugos ministerija. Filipinų vyriausybės pranešimai patvirtino mirtį ir kitų dviejų sužeistų jūrininkų grįžimą namo. Nukentėjusiųjų duomenys nenustato dronų kaip priežasties."
+    ]
   },
   "E034": {
     "headline": "Birių krovinių laivas Christina B apgadintas prie Rumunijos; mina ar dronas – neišaiškinta",
@@ -384,14 +386,13 @@
     "basis": "ea7f019b9a1f4ed6"
   },
   "E040": {
-    "headline": "Vokietija sieja Leipcigo oro uosto droną su Rusijos agentūrų vardu veikusiais asmenimis",
-    "description": "2026 m. rugpjūčio 4–5 d. Leipcigo/Halės oro uoste (Vokietija) nesuveikė sprogstamojo drono užtaisas. Vokietija kaltino Rusijos agentūrų vardu veikusius asmenis; Rusija tai neigė.",
+    "basis": "cc6d63474657af35",
+    "headline": "Drono skrydis: Leipcigo/Halės oro uostas, Vokietija",
+    "description": "2026 m. rugpjūčio 4 d., Leipcigo/Halės oro uostas, Vokietija. Sprogstamųjų dronų atakų grupė; oficialus valstybės priskyrimas. Sprogstamasis dronas pasiekė oro uostą, bet užtaisas nesuveikė.…",
     "summary": [
-      "2026 m. rugpjūčio 4–5 d. per naktį į Leipcigo/Halės oro uostą Schkeuditz mieste (Vokietija) atskrido dronas su profesionaliais sprogmenimis ir detonatoriumi, tačiau užtaisas nesuveikė. Oro uosto veikla sutrikdyta. Atskirai krovininis orlaivis pranešė, kad įtariamame susidūrime susidūrė su objektu, ir nukreipė skrydį į Hanoverį; pranešta apie nedidelę orlaivio žalą, tačiau objektas galutinai nebuvo nustatytas kaip dronas. Rugpjūčio 14 d. netoli Kabelsketal rastas dar vienas įtariamas atakos dronas; radinys paviešintas rugpjūčio 25 d., o objektas, kaip pranešama, buvo susietas su maždaug 50 g įtariamo RDX.",
-      "Rugsėjo 1 d. Vokietija operaciją priskyrė asmenims, veikusiems Rusijos valstybinių agentūrų vardu. Rusija neigė atsakomybę. Kartu su priskyrimu viešai nebuvo paskelbti visi pagrindžiantys kriminalistiniai ir žvalgybos įrodymai, o paleidimo vieta nenustatyta.",
-      "Nukentėjusiųjų nepranešta. Tyrimą atliko policija, sprogmenų neutralizavimo komandos su robotu ir federaliniai prokurorai, papildomas prietaisas paimtas, o vėliau sekė diplomatinės priemonės."
-    ],
-    "basis": "fd5d244bb50c3706"
+      "Sprogstamasis dronas pasiekė oro uostą, bet užtaisas nesuveikė. Krovininis orlaivis atskirai pranešė apie incidentą su objektu ir pakeitė maršrutą. Netoli Kabelsketal paimtas dar vienas įtariamas atakos dronas.",
+      "Sprogstamųjų dronų atakų grupė; oficialus valstybės priskyrimas. Rugsėjo 1 d. Vokietija operaciją priskyrė asmenims, veikusiems Rusijos valstybės agentūrų vardu; Rusija atsakomybę neigė. Oficialus Vokietijos priskyrimas įrašytas kaip priskyrimas, o ne kaip visų jį pagrindžiančių kriminalistinių ir žvalgybos įrodymų paviešinimas. Rusijos neigimas išlaikomas. Lapkričio mėn. išvados dėl paleidimo vietos ir įrangos lieka tyrimo vertinimais, o ne kurio nors asmens kaltės įrodymu."
+    ]
   },
   "E041": {
     "headline": "Virš karinio objekto vakarų Vokietijoje pastebėti du dronai",
@@ -454,14 +455,15 @@
     "basis": "50523dd5cc3e058e"
   },
   "E047": {
+    "basis": "d09904239858514b",
     "headline": "Rumunijos F-16 apšaudė sprogstamąjį karinį jūrų droną prie Neptun Deep darbų",
-    "description": "2026 m. rugpjūčio 20 d. Rumunijos F-16 apgadino sprogstamąjį jūrų droną prie Neptun Deep Rumunijos IEZ, o laivynas jį neutralizavo. Kilmė neišaiškinta.",
+    "description": "Rugpjūčio 20 d. Rumunija neutralizavo sprogstamąjį jūrų droną prie Neptun Deep. Šalies prezidentas vėliau jį priskyrė Rusijos karinėms jūrų pajėgoms.",
     "summary": [
-      "2026 m. rugpjūčio 20 d. bepilotis paviršinis laivas, arba jūrų dronas, gabenantis sprogmenis, aptiktas už kelių šimtų metrų nuo jūrinių Neptun Deep darbų, maždaug 80 jūrmylių į rytus nuo Konstancos Rumunijos išskirtinėje ekonominėje zonoje. Ar jis plaukė, ar dreifavo link darbų ir ką jis buvo numatytas daryti, neišaiškinta.",
-      "Rumunijos F-16 apšaudė jį patranka, apgadino, bet visiškai nesunaikino, o karinio jūrų laivyno sprogmenų neutralizavimo grupė jį neutralizavo. Oficialūs pranešimai patvirtino sprogstamąjį užtaisą nenurodyto dydžio. Gynybos ministerija iš pradžių aprašė du dronus, o vėliau tai ištaisė į vieną. Nukentėjusiųjų ar infrastruktūros žalos nepranešta.",
-      "Drono paleidimo vieta ir operatorius nežinomi. Rumunijos gynybos ministras teigė, kad Ukraina patvirtino, jog jis nėra ukrainietiškas; šis teiginys nenustato, kas jį iš tikrųjų paleido. Atvejis atskiras nuo tą pačią dieną prie Grindu sudužusio oro drono."
-    ],
-    "basis": "d752991b133cd913"
+      "2026 m. rugpjūčio 20 d. už kelių šimtų metrų nuo jūrinių Neptun Deep darbų, maždaug 80 jūrmylių į rytus nuo Konstancos Rumunijos išskirtinėje ekonominėje zonoje, aptiktas sprogmenis gabenantis bepilotis paviršinis laivas, arba jūrų dronas.",
+      "Rumunijos F-16 apšaudė jį iš patrankos ir apgadino, bet visiškai nesunaikino, o tada karinio jūrų laivyno sprogmenų neutralizavimo grupė jį neutralizavo. Oficialūs pranešimai patvirtino nenurodyto dydžio sprogstamąjį užtaisą. Gynybos ministerija iš pradžių aprašė du dronus, vėliau tai pataisė į vieną. Nukentėjusiųjų ar infrastruktūros žalos nepranešta.",
+      "Rugsėjo 23 d. prezidentas Nicușor Dan JT Saugumo Tarybai pareiškė, kad rugpjūčio 20 d. dronas buvo Rusijos karinių jūrų pajėgų dronas. Priskyrimą pagrindžiančių įrodymų jis neatskleidė. Paleidimo vieta ir numatytas taikinys lieka nepatikrinti. Atvejis atskiras nuo tą pačią dieną prie Grindu sudužusio oro drono.",
+      "Lapkričio 24 d. SpotMedia paskelbtame retrospektyviame pasakojime buvęs gynybos ministras Radu Miruță aprašė, kaip darbuotojai filmavo droną prie platformos atramų, o vilkikas bandė jį atitolinti. Jis taip pat nurodė, kad, įsakęs naikintuvams reaguoti, gavo Rusijos pranešimą apie skrydžių apribojimus. Originalus pranešimas nepriklausomai neperžiūrėtas; šios detalės papildo rugpjūčio incidentą, o ne žymi naują atvejį."
+    ]
   },
   "E048": {
     "headline": "Karinis jūrų laivynas sunaikino sprogstamojo drono nuolaužas, rastas Tuzlos paplūdimyje Rumunijoje",
@@ -514,14 +516,15 @@
     "basis": "23724b1f273b7c25"
   },
   "E053": {
+    "basis": "7df77fa9b948d455",
     "headline": "Prekybinis laivas Progress IV nuskendo prie Rumunijos; drono smūgis nepatvirtintas",
     "description": "2026 m. rugpjūčio 27 d. laivas Progress IV užsiliepsnojo ir nuskendo prie Sfântu Gheorghe Rumunijos IEZ. Visi 12 įgulos narių išgelbėti; drono smūgis nepatvirtintas.",
     "summary": [
       "2026 m. rugpjūčio 27 d. prekybinis laivas Progress IV užsiliepsnojo ir nuskendo Juodojoje jūroje, maždaug 15–20 jūrmylių nuo Sfântu Gheorghe Rumunijos išskirtinėje ekonominėje zonoje. Pagalbos šauksmas gautas apie 17:55 vietos laiku, o visi 12 įgulos narių buvo išgelbėti iki 20:47.",
-      "Teigta apie smūgį laivui, o institucijos teigė, kad jo priežastį reikia ištirti. Dronų ataka tebebuvo hipotezė: joks dronas ar kitas ginklas nenustatytas, o sprogimas ar drono smūgis nenustatytas. Laivo vėliava pranešta kaip Dominikos Respublikos, o laivybos pramonės šaltinis nurodė Dominiką.",
-      "Vienas įgulos narys buvo sužeistas, kaip pranešama, lūžo ranka; ankstesni aprašymai apie sunkią traumą vėlesniuose pranešimuose nepagrįsti. Jūrų gelbėjimo koordinavimo centras (MRCC) koordinavo komercinį laivą, Pasienio policiją ir gelbėjimo laivus."
-    ],
-    "basis": "f4b55e178bf70b3a"
+      "Teigta apie smūgį laivui, o institucijos teigė, kad jo priežastį reikia ištirti. Dronų ataka tebebuvo hipotezė: nenustatytas joks dronas ar kitas ginklas, taip pat nenustatyta, kad būtų įvykęs sprogimas ar drono smūgis. Laivo vėliava pranešta kaip Dominikos Respublikos, o laivybos pramonės šaltinis nurodė Dominiką.",
+      "Vienas įgulos narys buvo sužeistas, kaip pranešama, lūžo ranka; ankstesni aprašymai apie sunkią traumą vėlesniuose pranešimuose nepagrįsti. Jūrų gelbėjimo koordinavimo centras (MRCC) koordinavo komercinį laivą, Pasienio policiją ir gelbėjimo laivus.",
+      "Lapkričio 24 d. Libertatea pranešė, kad Rumunijos jūrų hidrografijos direkcija įvertino, jog į laivą pataikė dronas. Direkcijos paskelbti navigaciniai pranešimai patvirtina nuskendusio laivo buvimą ir praneša apie pavojus, tačiau priežasties nenurodo. Jokia kriminalistinė išvada, ginklas ar operatorius nenustatyti."
+    ]
   },
   "E054": {
     "headline": "Piemuo rado sprogstamąjį droną netoli Viișoara Rumunijoje; kilmė ginčijama",
@@ -534,14 +537,14 @@
     "basis": "cfac143f34b000e0"
   },
   "E055": {
-    "headline": "Pietinėje Suomijos pakrantėje paimtas nežinomos kilmės kartografavimo dronas",
-    "description": "2026 m. rugsėjo 2 d. pietinėje Suomijos pakrantėje paimtas nežinomos kilmės kartografavimo dronas. Tirtas galimas teritorijos pažeidimas.",
+    "basis": "de38e633c3a7e190",
+    "headline": "Pellinki vietovėje rugsėjo 1 d. rastas dronas; įvertinta tikėtina Rusijos kilmė",
+    "description": "Rugsėjo 1 d. Pellinki vietovėje rastas dronas įvertintas kaip tikėtinai Rusijos kilmės. Tyrėjai teigė, kad jis nukrito į jūrą už Suomijos ribų; tyrimas tęsėsi.",
     "summary": [
-      "2026 m. rugsėjo 2 d. institucijos paėmė tyrimų ar kartografavimo droną (bepilotį orlaivį) pietinėje Suomijos pakrantėje. Tiksli vieta cituotame pranešime nenurodyta. Data yra paėmimo data; kada dronas skrido ir kokiu maršrutu, nežinoma.",
-      "Drono kilmė ir operatorius nežinomi. Nenustatyta, kad jis atskrido iš užsienio, ir jis nelaikomas užsienio kariniu dronu.",
-      "Dronas apibūdintas kaip nepavojingas, pavojingo krovinio nenustatyta, o žalos ar nukentėjusiųjų nepranešta. Institucijos tyrė, ar skrydis sudarė teritorijos pažeidimą."
-    ],
-    "basis": "30e03e74f6707d09"
+      "2026 m. rugsėjo 1 d. civilis Pellinki pakrantės uolose rado bepilotį orlaivį; tai patvirtino Pasienio apsaugos patrulis. Ankstesnė registro data, rugsėjo 2 d., buvo pirminio pranešimo paskelbimo data. Paskelbto puslapio adresas išsaugotas.",
+      "Rugsėjo 10 d. Pasienio apsauga teigė, kad prietaiso duomenys leidžia manyti, jog tai tikėtinai Rusijos kilmės orlaivis, kuris prarado valdymą ir pritrūko degalų, prieš nukrisdamas į jūrą už Suomijos ribų. Išvada buvo preliminari, o tyrimas tęsėsi.",
+      "Tai lieka vienas paėmimo atvejis, o ne nustatytas įsiveržimas į oro erdvę ar sudužimas Suomijoje. Operatorius ir pirminė paskirtis lieka neišaiškinti. Žemėlapio taškas – apytikslis inkaras salyne."
+    ]
   },
   "E056": {
     "headline": "Reaktyvinis dronas, apie kurį pranešta kaip apie rusišką, iš Moldovos įskrido į šiaurės rytų Rumuniją",
@@ -554,24 +557,24 @@
     "basis": "7b1f8e2c4bb81edb"
   },
   "E057": {
-    "headline": "Prie Rusinowo paplūdimio Lenkijoje ištrauktas įtariamas Rusijos karinis dronas",
-    "description": "2026 m. rugsėjo 14 d. Lenkijos kariuomenė iš jūros prie Rusinowo paplūdimio ištraukė droną; gynybos ministro preliminarus vertinimas – jis rusiškas.",
+    "basis": "4c37729989b9a2c5",
+    "headline": "Prie Rusinowo paplūdimio paimtas dronas; kovinė galvutė saugiai sunaikinta",
+    "description": "Rugsėjo 14 d. prie Rusinowo į krantą išplovė droną. Prokurorai preliminariai nustatė, kad tai Rusijos gamybos Gerbera, ir aprašė kontroliuojamą kovinės galvutės sunaikinimą.",
     "summary": [
-      "2026 m. rugsėjo 14 d. Lenkijos kariuomenė Baltijos jūroje, visai prie Rusinowo paplūdimio netoli Jarosławiec Lenkijos pakrantėje, aptiko įtariamą karinį droną ir ištraukė jį iš vandens tyrimui. Data yra radimo ir paėmimo data; kada dronas skrido ir kokiu maršrutu pasiekė Lenkijos pakrantę, nežinoma.",
-      "Lenkijos gynybos ministras teigė, kad preliminarus vertinimas rodo, jog tai Rusijos karinis dronas. Šis nustatymas preliminarus ir priklauso nuo paimto drono tyrimo. Krovinio nepranešta.",
-      "Dėl radinio nukentėjusiųjų ar žalos nepranešta."
-    ],
-    "basis": "5071f4361b5692d3"
+      "Pasak spalio 1 d. Poznanės prokuratūros pareiškimo, rugsėjo 14 d. apie 09:20 karinio laivyno įgula pastebėjo prie Jarosławiec dreifuojantį bepilotį orlaivį; apie 11:25 jį išplovė į krantą prie Rusinowo. Tai vienas paėmimo ir sunaikinimo atvejis, o ne dar vienas įvykis vėlesnio pranešimo paskelbimo dieną.",
+      "Specialistai atskyrė kovinę galvutę su galimu sprogstamuoju užtaisu ir ją sunaikino kontroliuojamu susprogdinimu. Tyrėjai preliminariai nustatė, kad tai Rusijos gamybos Gerbera. Operatorius, taikinys, skrydžio maršrutas ir nukritimo į jūrą aplinkybės lieka neišaiškinti; pagaminimo vieta nenustato operatoriaus ar ketinimų.",
+      "Rugsėjo 25 d. tyrimas perduotas Poznanei, paskirtos specialistų ekspertizės. Nukentėjusiųjų ar žalos nepranešta."
+    ]
   },
   "E058": {
+    "basis": "2f29e9a25cf1baa8",
     "headline": "Italijos NATO naikintuvas numušė Gerbera droną netoli Pratkūnų Lietuvoje",
     "description": "2026 m. rugsėjo 14–15 d. per naktį Italijos NATO naikintuvas numušė Gerbera droną, Rusijos naudojamo tipo, netoli Pratkūnų Lietuvoje. Nukentėjusiųjų nepranešta.",
     "summary": [
       "2026 m. rugsėjo 14–15 d. per naktį Italijos naikintuvas, veikiantis kartu su NATO, perėmė ir numušė droną virš Lietuvos netoli Pratkūnų. Lietuvos institucijos tada ištyrė nuolaužas ir drono elektroniką. Nukentėjusiųjų nepranešta.",
       "Dronas nustatytas kaip Gerbera, Rusijos naudojamo tipo. Rugsėjo 16 d. Lietuvos prezidentas įvertino, kad jis tikriausiai buvo skirtas Ukrainos taikiniui. Siekiant paaiškinti, kaip jis pasiekė Lietuvą, pateikta galima Ukrainos elektroninio karo sukelta kurso nuokrypa, tačiau šis priežastinis paaiškinimas yra vertinimas. Nei Rusijos tipo nustatymas, nei numatyto taikinio vertinimas nėra tyčinės atakos prieš Lietuvą įrodymas.",
-      "Nenustatyta, ar būtent šis dronas gabeno sprogmenis; Gerbera variantai gali būti klaidinamieji arba ginkluoti."
-    ],
-    "basis": "fce04ead6c652cda"
+      "Kaip rugsėjo 15 d. pranešė Reuters, Lietuvos krašto apsaugos ministras Robertas Kaunas sakė, kad dronas gabeno sprogmenų. Tai oficialus, konkrečiam pareigūnui priskiriamas pareiškimas; nepriklausomos kriminalistinės išvados ir tikslus sprogmenų kiekis neperžiūrėti. Tai nenustato tyčinės atakos prieš Lietuvą."
+    ]
   },
   "E059": {
     "headline": "Rumunija: Rusijos drono krovinys sprogo ore prieš sudužimą prie Solca",
@@ -1191,14 +1194,15 @@
     "basis": "55b4ffe71706102d"
   },
   "N072": {
+    "basis": "93c08958dbb972eb",
     "headline": "Pranešta apie mirtiną dronų ataką prieš grūdų laivą Royad Mammadov prie Rumunijos",
     "description": "2026 m. spalio 5 d. dronai, kaip pranešama, smogė grūdų laivui Royad Mammadov Rumunijos Juodosios jūros IEZ. Pranešimai apie žuvusiuosius prieštarauja; Ukraina kaltino Rusiją.",
     "summary": [
-      "2026 m. spalio 5 d. grūdų gabentuvas Royad Mammadov, plaukęs iš Izmailo Ukrainoje į Ravenną Italijoje, buvo apgadintas dėl pranešto drono smūgio, sprogimo laive ir gaisro Juodojoje jūroje netoli Pescăruș platformos, maždaug 30 jūrmylių į pietus nuo Sfântu Gheorghe. Vieta buvo Rumunijos išskirtinėje ekonominėje zonoje (IEZ), už jos teritorinių vandenų ribų. Prašymas gelbėti užregistruotas 10:37 vietos laiku; tikslus smūgio laikas nepatikrintas.",
+      "2026 m. spalio 5 d. grūdus gabenantis laivas Royad Mammadov, plaukęs iš Izmailo Ukrainoje į Raveną Italijoje, buvo apgadintas dėl pranešto drono smūgio, sprogimo laive ir gaisro Juodojoje jūroje netoli Pescăruș platformos, maždaug 30 jūrmylių į pietus nuo Sfântu Gheorghe. Vieta buvo Rumunijos išskirtinėje ekonominėje zonoje (IEZ), už jos teritorinių vandenų ribų. Prašymas gelbėti užregistruotas 10:37 vietos laiku; tikslus smūgio laikas nepatikrintas.",
       "Ukrainos prezidentas Volodymyras Zelenskis teigė, kad laivui smogė du Rusijos dronai. Tai Ukrainos teiginys, o ne nepriklausomas patikrinimas, ir Rumunija nepaskelbė jokios priskyrimo išvados. Marius Roibu, MRCC Constanța gelbėjimo centro direktorius, aprašė akivaizdžią kelių dronų ataką; dronų tipas, paleidimo vieta ir operatoriai nenustatyti.",
-      "Pranešimai apie nukentėjusiuosius prieštarauja. Rumunijos vidaus reikalų ministerija iš pradžių pranešė apie du žuvusius ir vienuolika išgelbėtų; spalio 6 d. Azerbaidžano užsienio reikalų ministerija teigė, kad kapitonas žuvo, o dar vienas Azerbaidžano įgulos narys dingo. Indijos ambasada teigė, kad trys Indijos įgulos nariai išgyveno, vienas jų sužeistas. Pradinis pranešimas, kad laivas nuskendo, buvo pataisytas spalio 6 d., kai pranešta, kad jis plūduriuoja ir laukia vilkimo į Midia. Petrom teigė, kad Pescăruș platforma nepaveikta."
-    ],
-    "basis": "f110d36fc131a5b5"
+      "Pranešimai apie nukentėjusiuosius prieštarauja. Rumunijos vidaus reikalų ministerija iš pradžių pranešė apie du žuvusius ir vienuolika išgelbėtų; spalio 6 d. Azerbaidžano užsienio reikalų ministerija teigė, kad kapitonas žuvo, o dar vienas Azerbaidžano įgulos narys dingo. Indijos ambasada teigė, kad trys Indijos įgulos nariai išgyveno, vienas jų sužeistas. Pradinis pranešimas, kad laivas nuskendo, buvo pataisytas spalio 6 d., kai pranešta, kad jis plūduriuoja ir laukia vilkimo į Midia. Petrom teigė, kad Pescăruș platforma nepaveikta.",
+      "Spalio 7 d. Rumunija paskelbė įspėjimą apie nuskendimo pavojų. Pranešimas jūrininkams 10/65/26, įtrauktas į spalio 22 d. jūrlapių pataisą, vėliau nurodė laivą kaip pavojingą nuskendusį laivą. Tai nustato vėlesnę jo būklę, bet ne tai, kada jis nuskendo, ar jis buvo vilktas, ar tikslią smūgio vietą."
+    ]
   },
   "N073": {
     "headline": "Dronų ataka prie Bulgarijos nuskandino ALFA WATAN ir padegė ABLE",
@@ -1366,14 +1370,15 @@
     "basis": "534d215b86c0e039"
   },
   "N090": {
-    "headline": "Drono smūgis padegė WINE TRADER prie Sulinos; septyni įgulos nariai dingę",
-    "description": "WINE TRADER pataikyta prie Sulinos 2026 m. spalio 15 d.; penki įgulos nariai išgelbėti, septyni dingo. NATO šaltinis dronus įvertino kaip Rusijos kilmės.",
+    "basis": "5f5c3c23d1d87774",
+    "headline": "Drono smūgis WINE TRADER prie Sulinos; vėliau Varnoje rasta žmonių palaikų",
+    "description": "Po spalio 15 d. drono smūgio prie Sulinos Varnoje remontuojant WINE TRADER rasta žmonių palaikų. DNR identifikavimas ir tyrimai tęsiasi.",
     "summary": [
       "Dronas 2026 m. spalio 15 d. pataikė į San Marino vėliava plaukiojantį tanklaivį WINE TRADER prie Sulinos. Rumunijos prezidentas ataką patvirtino. NATO karinis šaltinis, kurį cituoja Reuters, dronus, pataikiusius į šį tanklaivį ir YARA J, įvertino kaip Rusijos kilmės; konkretus operatorius peržiūrėtuose pranešimuose nenustatytas.",
-      "Iš dvylikos įgulos narių penki išgelbėti, o septyni liko dingę. Du išgyvenusieji turėjo galvos odos nudegimų arba lengvą apsinuodijimą dūmais; visi penki buvo stabilios būklės ir nugabenti į ligoninę. Gaisras apgadino laivą. Jo galutinė būklė nepatvirtinta, o dingę įgulos nariai nelaikomi patvirtintais žuvusiaisiais. Stiprus jūros bangavimas trukdė gelbėjimo operacijai. IGSU pranešė, kad paieškos atnaujintos spalio 16 d.; jos pradinis pranešimas apie lipimą į laivą buvo planas. Spalio 19 d. jūrininkų profesinės sąjungos pareiškime vėliau pranešta, kad komandos įlipo į laivą ir apieškojo prieinamas patalpas, o žala trukdė paieškas. Profesinė sąjunga pakartojo: penki išgelbėti ir septyni dingę. Spalio 22 d. Kroatijos užsienio reikalų ministerija teigė, kad paieška nutraukta dėl praėjusio laiko. Vienas Kroatijos jūreivis liko dingęs; kitas, gydytas dėl paviršinių nudegimų, išrašytas. Tai nepaverčia dingusiųjų patvirtintomis mirtimis.",
+      "Iš pradžių iš dvylikos įgulos narių penki buvo išgelbėti, o apie septynis pranešta kaip apie dingusius. Du išgyvenusieji patyrė galvos odos nudegimų arba lengvai apsinuodijo dūmais; visi penki buvo stabilios būklės ir nugabenti į ligoninę. Paieškas trukdė stiprus bangavimas ir laivo apgadinimai. Spalio 19 d. profesinės sąjungos pareiškime pranešta, kad komandos apieškojo prieinamas patalpas. Spalio 22 d. Kroatijos užsienio reikalų ministerija teigė, kad paieška nutraukta dėl praėjusio laiko.",
+      "Lapkričio 7 d. Varnos prokurorai patvirtino, kad valant lapkričio pradžioje remontui priimtą drono pataikytą laivą rasta smarkiai apgadintų žmonių palaikų. BNR nurodo, kad tai WINE TRADER, ir praneša apie jūreivio kūną bei žmonių palaikus. Asmenybėms nustatyti paskirtos DNR ekspertizės, o tyrimai tęsiasi Bulgarijoje ir Rumunijoje. Pirminiame pareiškime žuvusiųjų skaičius nenurodytas. Ankstyvi žiniasklaidos pranešimai su skaičiais vienas kitam prieštarauja, todėl iš ankstesnių gelbėjimo duomenų nedaroma išvada nei apie galutinį žuvusiųjų skaičių, nei apie tai, kiek žmonių dar laikoma dingusiais.",
       "Pranešta, kad laivas buvo maždaug 13 jūrmylių į pietryčius nuo Sulinos, vos už Rumunijos teritorinių vandenų ribų. Jis įtrauktas į registro aprėptį jūroje. Prašymas gelbėti 06:58 nėra patikrintas atakos laikas. Tai paverčia ankstesnę tik gaisru grįstą stebimų atvejų užuominą vienu raudonu Smūgio įrašu, jungiančiu ataką, gaisrą ir gelbėjimą; jis lieka atskiras nuo YARA J ir Sea Destiny."
-    ],
-    "basis": "186f434beac254b7"
+    ]
   },
   "N091": {
     "headline": "Dailidžiai: pasieniečiai paėmė per sieną atskridusį cigarečių droną",
@@ -1570,13 +1575,15 @@
     "basis": "fcab4114f04792bb"
   },
   "N112": {
-    "headline": "Pranešimas apie drono smūgį laivui KHORYV: laivas apvirto, bet vis dar plūduriuoja",
-    "description": "KHORYV spalio 23 d. apvirto prie Konstancos. Navigacinis pranešimas nurodo, kad jis vis dar plūduriuoja, o tai prieštarauja pranešimams apie nuskendimą. Vienas žuvęs; trys dingę.",
+    "basis": "63b1a3f055a1d63d",
+    "headline": "Pranešimas apie drono smūgį KHORYV: karinio laivyno tyrimas rodo visiškai panirusį laivą",
+    "description": "Pranešama, kad spalio 23 d. į KHORYV jūroje buvo pataikyta. Pranešama, kad lapkričio 19 d. karinio laivyno tyrimas rado laivą visiškai panirusį. Galutinis paieškos rezultatas nežinomas.",
     "summary": [
-      "KHORYV spalio 23 d. apvirto už Rumunijos teritorinių vandenų ribų. AGERPRES tai sieja su prezidento pareiškimu, kad dronas smogė laivui. Dabartinis pirminis navigacinis pranešimas ARN155 nurodo, kad KHORYV iki spalio 25 d. buvo iš dalies paniręs, bet vis dar plūduriavo apverstas, nepaisant spaudos pranešimų apie nuskendimą. Pilnas nuskendimas nelaikomas nustatytu.",
-      "Rumunija nurodo trylika įgulos narių: devyni išgelbėti, vienas žuvęs ir trys dingę. Ukraina patvirtina ukrainiečio žūtį, bet nurodo keturiolika įgulos narių; neatitikimas lieka neišaiškintas. Pranešimuose pateikiamos datuotos apvirtimo ir vėlesnės dreifuojančių nuolaužų pozicijos, o ne patikrintos smūgio koordinatės. Operatoriaus priskyrimas ir galutinis paieškos rezultatas lieka neišaiškinti."
-    ],
-    "basis": "5f8e6ad7a2fd7810"
+      "Pranešta, kad spalio 23 d. jūroje prie Konstancos į KHORYV pataikė dronas ir laivas užsiliepsnojo, o vėliau apvirto. NAVWARN 766/26 aprašo spalio 28 d. 18:00 UTC datuotą stebėjimą: apvirtęs, iš dalies paniręs dreifuojantis laivas. Spalio 29 d. bTV, remdamasi Bulgarijos gynybos ministerija, pranešė apie dalinį panirimą ir išliekantį pavojų; Maritime.bg vėliau, naujame lapkričio 1 d. atnaujinime, pranešė, kad laivagalis atsigulė ant dugno, o laivapriekis vis dar matomas. Maritime.bg, remdamasis Bulgarijos gynybos ministerijos spaudos tarnybos patvirtinimu, pranešė, kad lapkričio 19 d. karinio laivyno tyrimas rado laivą visiškai panirusį netoli Shabla, maždaug 50 metrų gylyje. Tikslus nuskendimo laikas ir ankstesnio įspėjimo atšaukimas nepatikrinti. Šie vėlesni laivo stebėjimai nekeičia pirminio smūgio jūroje vietos.",
+      "Rumunija nurodo trylika įgulos narių: devyni išgelbėti, vienas žuvęs ir trys dingę. Ukraina patvirtina ukrainiečio žūtį, bet nurodo keturiolika įgulos narių; neatitikimas lieka neišaiškintas. Pranešimuose pateikiamos datuotos apvirtimo ir vėlesnės dreifuojančio laivo pozicijos, o ne patikrintos smūgio koordinatės. Operatoriaus priskyrimas ir galutinis paieškos rezultatas lieka neišaiškinti.",
+      "Spalio 27 d. Bulgarija paskelbė apie stebėseną ir planuojamą karinio laivyno apžiūrą. Kitą rytą jos gynybos ministras teigė, kad laivas įplaukia į Bulgarijos teritorinę jūrą. Tai vėlesni pranešimai apie dreifuojantį laivą, o ne nauja ataka ar pirminės smūgio jūroje vietos pakeitimas.",
+      "bTV pranešė, kad vietoje buvo Reshitelni, o operacijos sustabdytos dėl blogo oro; Maritime.bg aprašė bandymus laivą nuskandinti. Tai lieka to paties atvejo tęsiniai, o ne nauja ataka ar dingusiųjų likimo išaiškinimas."
+    ]
   },
   "N113": {
     "headline": "Graikija praneša apie 8 Turkijos bepiločius orlaivius ir 12 oro erdvės pažeidimų spalio 21 d.",
@@ -1606,13 +1613,13 @@
     "basis": "8eef8377bae58edc"
   },
   "N116": {
+    "basis": "2f669bcaffd204ab",
     "headline": "Lubaczów rastas neginkluotas putplasčio orlaivis; kilmė neišaiškinta",
     "description": "2026 m. spalio 21 d. Lubaczów rastas putplasčio orlaivio korpusas. Karo policija sprogmenų nerado; kilmė ir bet koks ryšys su užsieniu nežinomi.",
     "summary": [
       "Apie nuolaužas pranešta nenaudojamame sklype Herzoga gatvėje Lubaczów netrukus po 13:00 2026 m. spalio 21 d. Netoliese gyvenantys žmonės buvo evakuoti, kol specialistai vertino galimus pavojus; sužeistųjų ar turto žalos nepranešta.",
-      "Karo policija spalio 22 d. nustatė neginkluotą putplasčio orlaivio korpusą ir atmetė sprogmenis bei radiologinį, biologinį ar cheminį pavojų. Prokuroro spalio 23 d. pranešime nurodoma, kad dronas perduotas karinei kontržvalgybai, o prie jo pritvirtintas paketas tiriamas Varšuvoje. Preliminarus trumpo nuotolio vertinimas nenustato kilmės ar įskridimo iš užsienio. Tai lieka vienu preliminariu paėmimo kandidatu."
-    ],
-    "basis": "fab6a30cef996170"
+      "Spalio 22 d. karo policija nustatė neginkluotą putplasčio orlaivio korpusą ir atmetė sprogmenų bei radiologinį, biologinį ar cheminį pavojų. Radio Lublin spalio 22 d. straipsnyje cituojamas prokuratūros atstovas, sakęs, kad dronas perduotas karinei kontržvalgybai, o jo paketas išsiųstas tirti; tos pačios dienos pirminiame pranešime perdavimas vis dar aprašomas kaip būsimas. Preliminarus trumpo nuotolio vertinimas nenustato kilmės ar įskridimo iš užsienio. Tai lieka vienu preliminariu paėmimo kandidatu."
+    ]
   },
   "N117": {
     "headline": "Graikija praneša apie šešis Turkijos bepiločius orlaivius ir trylika oro erdvės pažeidimų spalio 23 d.",
@@ -1668,5 +1675,861 @@
       "NewsIT ir OnAlert perspausdina tą patį oficialų pasakojimą, o ne nepriklausomus stebėjimus. Pranešta apie nustatymą ir perėmimą, be kovinio įsikišimo. Tai vienas dienos veiklos įrašas, o ne orlaivių ir kirtimų skaičių suma."
     ],
     "basis": "b6d8a69eda200b68"
+  },
+  "N124": {
+    "basis": "7eebe0feab2ab6ff",
+    "headline": "Į CONTSHIP JET jūroje pataikė paviršiniai dronai; įgula išgelbėta, laivas vėliau nuskendo",
+    "description": "Bulgarijos institucijos praneša apie spalio 28 d. paviršinių dronų smūgį CONTSHIP JET. Visi 18 įgulos narių išgelbėti; Varna Radio patvirtina, kad laivas vėliau nuskendo.",
+    "summary": [
+      "Bulgarijos gynybos institucijos teigia, kad karinio laivyno stebėjimo priemonės ir Prancūzijos patrulinis orlaivis spalio 28 d. 12:00 vietos laiku (10:00 UTC) stebėjo paviršinių dronų ataką prieš CONTSHIP JET ir užfiksavo tris pataikymus. Varna Radio smūgio vietą nurodo kaip 43°15′N, 028°48′E prie Kaliakros kyšulio. Tai vienas prekybinės laivybos atvejis jūroje, o ne patvirtintas įsiveržimas į Bulgarijos teritoriją.",
+      "Gynybos ir transporto institucijos patvirtina, kad visi 18 įgulos narių išgelbėti. Varna Radio NAVWARN 768/26 patvirtina, kad laivas vėliau, spalio 28 d. 20:30 UTC, nuskendo ties 43°07.80′N, 028°45.36′E, o dreifuoja daugiau kaip 20 konteinerių, tarp jų su pavojingais kroviniais. Tai pakeičia ankstesnį neoficialų pranešimą apie nuskendimą.",
+      "Drono operatorius, paleidimo vieta ir motyvas lieka nežinomi. Reuters praneša apie preliminarų, vaizdo įrašu pagrįstą Ambrey vertinimą, kad tai tikėtinai Murena-300S pagrindu sukurta konstrukcija; tai nėra patvirtintas modelio ar operatoriaus nustatymas. Trys pranešti dronai ir trys užfiksuoti pataikymai nėra atskiri incidentai. Vėlesnė nuskendimo vieta nepakeičia pirminių smūgio koordinačių.",
+      "Lapkričio 1 d. navigaciniuose įspėjimuose pranešta apie dreifuojančius konteinerius netoli Burgaso įlankos. Jų sąsaja su CONTSHIP JET lieka preliminari. Lapkričio 3 d. Burgaso srities administracija pranešė apie tris stebimus objektus netoli Oasis–Arapya, Kamennite Korabi ties Sinemorets ir Butamyata. Pagal krovinio manifestą tai buvo nepavojingas krovinys ir tuščia talpa; tuo metu faktinis turinys ir laivas, iš kurio objektai kilo, dar buvo tiriami. Mėginių ėmimas ir saugojimas tęsėsi, laboratorinio patvirtinimo, kad pavojaus nėra, nepranešta. Tai su krovinio pavojumi susiję tęsiniai, o ne naujos dronų atakos ar bendras konteinerių skaičius.",
+      "Lapkričio 4 d. gubernatorius bTV sakė, kad ištraukimą vilkina oras ir sudėtinga prieiga. Trečiojo konteinerio vieta buvo nežinoma, o Turkijos vandenys – tik viena iš galimybių. Laboratorinio patvirtinimo, kad pavojaus nėra, nepateikta.",
+      "Liberijos jūrų administracija biuletenyje apie neįvardytą laivą, kurio data, vėliava, klasė ir pranešti trys pataikymai atitinka Bulgarijos pranešimus su laivo pavadinimu, nurodė, kad įgula saugi ir sužeistųjų nepranešta. Lapkričio 12 d. Tsarevo savivaldybė pranešė, kad darbininkų brigados iš abiejų Lipite paplūdimių surinko raudonųjų pipirų maišus. Krovinio sąsaja su CONTSHIP JET liko preliminari, o pranešime laboratorinių rezultatų nepateikta.",
+      "Lapkričio 24 d. institucijos atidarė konteinerį, kurį lapkričio 2 d. išplovė į krantą prie Tsarevo. Burgaso gubernatorius BTA sakė, kad jame buvo apie 80 dėžių kalėdinių dekoracijų, atitinkančių manifestą. Contships Management Reuters sakė negalinti patvirtinti, kad konteineris buvo CONTSHIP JET laive. Atidarymas nenustato nei laivo, iš kurio konteineris kilo, nei kito krovinio, nei taršos tyrimų rezultatų."
+    ]
+  },
+  "N125": {
+    "basis": "9df76f2823d89cb7",
+    "headline": "Netoli Osieka paimtas bepilotis orlaivis; prokuratūra praneša apie sienos kirtimą iš Rusijos",
+    "description": "Prokurorai praneša apie gegužės 8 d. neleistiną Rusijos ir Lenkijos sienos kirtimą; neginkluotas bepilotis orlaivis paimtas netoli Osieka gegužės 9 d. Operatorius lieka nežinomas.",
+    "summary": [
+      "Gegužės 9 d., civiliui radus jį lauke netoli Osieka, sveikas paimtas neginkluotas žvalgybinis bepilotis orlaivis. Gegužės 11 d. Olštyno prokuratūros atstovas teigė, kad tyrėjai yra tikri, jog jis kirto Rusijos ir Lenkijos sieną, o tiriamą kirtimą datavo gegužės 8 d.",
+      "Šios išvados apie sienos kirtimą įrodymų pagrindas neatskleistas. Operatorius, gamintojas, numatytas taikinys, tikslus maršrutas ir sudužimo laikas lieka neišaiškinti. Žiniasklaidos teiginių apie kameras ir kirilicos žymėjimus prokuratūra nepatvirtino. Tai vienas retrospektyvus atvejis, o ne nauja spalio veikla."
+    ]
+  },
+  "N126": {
+    "basis": "3572d703997e5cd9",
+    "headline": "Popski paplūdimyje paimtos bepiločio orlaivio nuolaužos; kilmė neišaiškinta",
+    "description": "Pasak Gynybos ministerijos atsakymo, spalio 21 d. karinio laivyno grupė Popski paplūdimyje, Tsarevo, paėmė bepiločio orlaivio dalis. Skrydžio data ir nacionalinė kilmė nežinomos.",
+    "summary": [
+      "OFFNews cituoja Bulgarijos gynybos ministeriją, patvirtinusią, kad spalio 21 d. karinio laivyno grupė Popski paplūdimyje apžiūrėjo ir surinko bepiločio orlaivio dalis bei nugabeno jas į bazę. Ši data žymi paėmimo operaciją, o ne skrydį ar sudužimą.",
+      "Ministerija aiškiai atskyrė šį paėmimą nuo nepatikrinto teiginio dėl netoliese esančios Arapya. Modelis, kilmė, operatorius, krovinys ir tai, kaip dalys čia pateko, lieka neišaiškinti. Šis preliminarus paėmimo kandidatas nėra patvirtintas įsiveržimas iš užsienio ar įrodymas, kad buvo dar vienas atskiras orlaivis."
+    ]
+  },
+  "N127": {
+    "basis": "22e8ad26c842d4a6",
+    "headline": "Pranešta apie drono nuolaužas Listi paplūdimyje; paėmimo data nežinoma",
+    "description": "BNR pranešė, kad Listi paplūdimyje netoli Sinemorets surinktas sparnas ir fiuzeliažo dalis. Spalio 28 d. – paskelbimo, o ne patikrinta radimo data.",
+    "summary": [
+      "BNR korespondentas Burgase pranešė, kad Listi paplūdimyje rastas sparnas ir fiuzeliažo dalis, kuriuos, gavusi pranešimą, surinko Pasienio policija. Straipsnis paskelbtas spalio 28 d., tačiau jame nenurodyta tiksli radimo ar paėmimo data; registras aiškiai naudoja pranešimo datą kaip pakaitinę.",
+      "Kilmė, modelis, operatorius, krovinys ir skrydžio ar sudužimo data lieka neišaiškinti. Šis preliminarus paėmimo kandidatas pagal praneštą vietą skiriasi nuo Popski paplūdimio atvejo, tačiau nenustatyta, kad tai dar vienas atskiras orlaivis. Su netoliese esančia Arapya susijęs priskyrimo teiginys šioms nuolaužoms netaikomas."
+    ]
+  },
+  "N128": {
+    "basis": "8d16fbffeee972eb",
+    "headline": "Graikija praneša apie penkis Turkijos bepiločius orlaivius ir 13 oro erdvės pažeidimų Egėjo jūroje",
+    "description": "Graikijos kariuomenės pranešimuose spalio 30 d. 13 nacionalinės oro erdvės pažeidimų priskiriama penkiems Turkijos bepiločiams orlaiviams. Vienas dienos įrašas; tikslūs takai nepaskelbti.",
+    "summary": [
+      "Spalio 30 d. paskelbtuose Graikijos kariuomenės duomenyse 13 nacionalinės oro erdvės pažeidimų ir 11 Atėnų FIR pažeidimų priskiriama penkiems Turkijos bepiločiams orlaiviams šiaurės rytų, centrinėje ir pietryčių Egėjo jūroje. Nacionalinės oro erdvės vertinimas ir karinis priskyrimas yra Graikijos; tikslūs takai lieka nepaskelbti.",
+      "Tai vienas dienos regioninis įrašas, o ne 13 atakų. Pilotuojamų orlaivių pažeidimai ir du mišriame dienos pranešime minimi įsikišimai nėra bepiločių orlaivių ginkluotės, ginklų panaudojimo ar numušimo įrodymas. Tikslūs modeliai, kroviniai ir numatyti taikiniai lieka nežinomi."
+    ]
+  },
+  "N129": {
+    "basis": "5c2d0df27e180a9b",
+    "headline": "Rumunija patvirtina du neleistinus dronų įskridimus šalies šiaurės rytuose",
+    "description": "Rumunija praneša apie du dronų įskridimus spalio 31 d. Vienas išskrido; kitas paskutinį kartą stebėtas netoli Vaslui ir Bacău. Sudužimo nepranešta.",
+    "summary": [
+      "Rumunijos gynybos ministerija patvirtina, kad 2026 m. spalio 31 d. vakarą du dronai įskrido į šiaurės rytinę nacionalinę oro erdvę. Vienas išskrido; kitas paskutinį kartą stebėtas tarp Vaslui ir Bacău apskričių. Paskelbimo metu sudužimo nepranešta.",
+      "Pakilo keturi F-16 ir IAR-330 SOCAT, o viešieji perspėjimai baigėsi 19:19 vietos laiku. Tai vienas atvejis, apimantis du dronus, o ne dvi patikrintos atakos. Operatorius, modelis, ketinimai ir taikiniai lieka nežinomi; žemėlapio inkaras apytikslis.",
+      "Pasak Jasų oro uosto direktoriaus, laikinai uždarius oro erdvę, iš Eindhoveno atskrendantis Wizz Air reisas nukreiptas į Suceavą. Šis sutrikimas priklauso tam pačiam epizodui, o ne kitam įsiveržimui."
+    ]
+  },
+  "N130": {
+    "basis": "c77fff5610f5734e",
+    "headline": "Latvija lapkričio 1 d. per šalį praskridusį bepilotį orlaivį vertina kaip tikėtiną Rusijos Geran",
+    "description": "NBS lapkričio 1 d. per Latviją praskridusį bepilotį orlaivį vertina kaip tikėtiną Rusijos Geran. Jis išskrido į Rusiją; ar gabeno sprogmenų, ir ketinimai nežinomi.",
+    "summary": [
+      "Pareigūnai aprašė droną, kuris lapkričio 1 d. iš Baltarusijos perskrido rytinę Latviją ir 19:16 išskrido į Rusiją. Išanalizavus jutiklių ir perėmėjų duomenis bei pasikonsultavus su Ukrainos partneriais, NBS vėliau jį įvertino kaip tikėtiną Rusijos Geran.",
+      "19:19 Latvija aktyvavo savo perėmėjo savinaiką. Tai nebuvo praneštas aptikto bepiločio orlaivio numušimas. NBS negali nustatyti, ar tas bepilotis orlaivis gabeno sprogmenų; operatorius, ketinimai ir taikinys lieka nepatvirtinti."
+    ]
+  },
+  "N131": {
+    "basis": "b3d536ba24881e16",
+    "headline": "Šiaurinei Tulčėjos apskričiai paskelbtas perspėjimas; įskridimo į Rumunijos oro erdvę nepranešta",
+    "description": "Lapkričio 2 d., po netoliese vykusių atakų Ukrainoje, Rumunija paskelbė perspėjimą šiaurinei Tulčėjos apskričiai. MApN pranešė, kad į nacionalinę oro erdvę neįskrista.",
+    "summary": [
+      "Lapkričio 2 d. 04:11, po dronų atakų prieš Ukrainos Dunojaus uostus, šiaurinei Tulčėjos apskričiai paskelbtas RO-Alert perspėjimas. Rumunija pakėlė F-16 ir sraigtasparnį Puma SOCAT; pavojus baigėsi 05:26 vietos laiku.",
+      "MApN pranešė, kad į Rumunijos oro erdvę neįskrista. Tai civilinės saugos pavojus, o ne įsiveržimas ar patvirtinta ataka Rumunijoje. Žemėlapio taškas žymi perspėjimo zoną."
+    ]
+  },
+  "N132": {
+    "basis": "505a6db792d85d51",
+    "headline": "Latvija patvirtina aptikusi bepilotį orlaivį; kilmė ir galimas nukritimas Balvių savivaldybėje neišaiškinti",
+    "description": "NBS patvirtina lapkričio 3 d. Latvijoje buvusį bepilotį orlaivį. Jis vizualiai priminė Ukrainos karinius dronus, tačiau tipas, kilmė ir galimas nukritimas Balviuose nepatvirtinti.",
+    "summary": [
+      "NBS patvirtina, kad per lapkričio 3 d. Balvių–Ludzos pavojų Latvijos oro erdvėje aptiktas bepilotis orlaivis. Pagal pirminį vizualinį atpažinimą jis priminė Ukrainos karinius bepiločius orlaivius, tačiau ginkluotosios pajėgos aiškiai nurodė negalinčios patvirtinti tipo ar kilmės.",
+      "Bepilotis orlaivis galėjo nukristi Balvių savivaldybėje; paieškos ant žemės tęsėsi. Tai lieka kandidatas su neišaiškinta kilme ir baigtimi, o ne patvirtintas įsiveržimas iš užsienio, sudužimas ar numušimas. Regioninis žemėlapio taškas nėra patikrinta sudužimo vieta."
+    ]
+  },
+  "N133": {
+    "basis": "a90d1dcd244ae758",
+    "headline": "Naktinis perspėjimas Tulčėjoje: įskridimo į Rumunijos oro erdvę nepranešta",
+    "description": "Lapkričio 2 d. vėlai vakare, po oro veiklos virš Ukrainos, šiaurinei Tulčėjos apskričiai paskelbtas perspėjimas. MApN pranešė, kad į Rumuniją neįskrista; pavojus baigėsi po vidurnakčio.",
+    "summary": [
+      "MApN pranešė apie du radaro taikinius virš Ukrainos netoli Izmailo ir Chilia lapkričio 2–3 d. naktį. Šiaurinei Tulčėjos apskričiai 23:43 paskelbtas RO-Alert; perspėjimas baigėsi 00:21 vietos laiku. Reaguodami pakilo du Ispanijos F-18.",
+      "Apie įskridimą į Rumunijos oro erdvę nepranešta. Tai atrinktas civilinės saugos pavojus, atskiras nuo ankstesnio lapkričio 2 d. perspėjimo, o ne patvirtintas įsiveržimas ar ataka Rumunijoje. Žemėlapio inkaras žymi perspėjimo zoną."
+    ]
+  },
+  "N134": {
+    "basis": "eefa3af945e0c8ca",
+    "headline": "Lapkričio 4 d. perspėjimas šiaurinei Tulčėjos apskričiai; įskridimo į Rumuniją nepranešta",
+    "description": "Lapkričio 4 d. dėl taikinio virš Ukrainos pakilo du F-16 ir paskelbtas perspėjimas šiaurinei Tulčėjos apskričiai. MApN pranešė, kad į Rumunijos oro erdvę neįskrista.",
+    "summary": [
+      "Lapkričio 4 d. 10:57, į šiaurę nuo Vîlcove Ukrainoje aptikus radaro taikinį, šiaurinei Tulčėjos apskričiai paskelbtas RO-Alert. Iš Borcea pakilo du F-16.",
+      "MApN pranešė, kad į Rumunijos oro erdvę neįskrista. Šis atrinktas pavojus atskiras nuo naktinio lapkričio 2–3 d. perspėjimo; žemėlapio taškas žymi perspėjimo zoną."
+    ]
+  },
+  "N135": {
+    "basis": "b1fd2b840a7ff077",
+    "headline": "Boghicea rastos drono nuolaužos; pranešta apie kontroliuojamą sunaikinimą",
+    "description": "Pranešama, kad lapkričio 5 d. Boghicea rastos drono nuolaužos tą patį vakarą sunaikintos. Kilmė ir bet koks ryšys su spalio 31 d. skrydžiu lieka neišaiškinti.",
+    "summary": [
+      "Gyventojas, Boghicea radęs išmėtytų nuolaužų, pranešė Sagna kaimo policijai. Atvyko policija, ugniagesiai ir SRI specialistai. ProTV praneša, kad po apžiūros ir RO-Alert perspėjimo specialistai lapkričio 5 d. vakarą liekanas susprogdino.",
+      "Užsienio kilmė, nukritimo data ir bet koks ryšys su N129 lieka nepatvirtinti. ProTV pateikia aiškų pranešimą apie užbaigtą sunaikinimą; tiesioginis oficialus pareiškimas apie užbaigimą nebuvo gautas. Liudininkų minimi užrašai nenustato operatoriaus ar modelio.",
+      "Vienas radinio įrašas, o ne naujai patikrintas skrydis ar papildomas bepiločių orlaivių skaičius. Galimas ryšys su N129 lieka neišaiškintas; įrašus sujungti arba susieti nuorodomis, jei vėliau įrodymai nustatytų, kad tai tas pats dronas. Skubus reagavimas ir perspėjimas dėl sunaikinimo nėra atskiri atvejai."
+    ]
+  },
+  "N136": {
+    "basis": "42bf1e8a50a620f5",
+    "headline": "Tulčėja · naktinis lapkričio 6 d. RO-Alert",
+    "description": "Oficialus perspėjimas; įskridimo į Rumunijos oro erdvę nepranešta. Tik pavojus; išvada apie įsiveržimą, karinį įsikišimą ar smūgį nedaroma.",
+    "summary": [
+      "Dėl netoliese vykusių atakų prieš Ukrainos uostus paskelbtas perspėjimas. RO-Alert paskelbtas 00:19; pavojus baigėsi 00:41 vietos laiku.",
+      "Pranešime dronų skaičius ir modelis nenurodyti. Skrydžio takas, dronų skaičius ar modelis nenustatyti.",
+      "Vienas atrinktas pavojus, atskiras nuo vėlesnio 08:56 rytinio N137 perspėjimo."
+    ]
+  },
+  "N137": {
+    "basis": "7a65445d491a71de",
+    "headline": "Šiaurinė Tulčėja · lapkričio 6 d. rytinis pavojus dėl taikinio prie Sulinos",
+    "description": "Oficialus perspėjimas dėl radaro taikinio; įskridimas į Rumuniją nenustatytas. Tik pavojus; išvada apie įsiveržimą, karinį įsikišimą ar smūgį nedaroma.",
+    "summary": [
+      "Dėl netoliese vykusios oro veiklos paskelbtas civilinės saugos perspėjimas. Iš Borcea pakilo du F-16; perspėjimas šiaurinėje Tulčėjos apskrityje galiojo 08:56–09:27 vietos laiku.",
+      "Oro radaro taikinys; cituotame pareiškime drono tapatybė ir modelis nepatvirtinti. Nėra patikrinto modelio, operatoriaus ar Rumunijos sienos kirtimo. Naktinė išvada, kad įskridimo nebuvo, priklauso N136 ir negali būti perkelta šiam epizodui.",
+      "Atskiras rytinis perspėjimas, o ne 00:19–00:41 N136 epizodas. Naikintuvų reagavimas naujo atvejo nesudaro."
+    ]
+  },
+  "N138": {
+    "basis": "de692ebadb5d7d7f",
+    "headline": "Drono paėmimas: Shabla · kaip rusiškas įvertintas dronas išplautas į krantą ir sunaikintas, Bulgarija",
+    "description": "2026 m. lapkričio 6 d., Shabla · kaip rusiškas įvertintas dronas išplautas į krantą ir sunaikintas, Bulgarija. Oficialiai identifikuotas oro dronas paimtas ir sunaikintas. Pakrantėje…",
+    "summary": [
+      "Apie radinį pakrantėje institucijoms pranešta 10:00 vietos laiku.",
+      "Oficialiai identifikuotas oro dronas paimtas ir sunaikintas. Klasifikacija kaip rusiško drono yra Bulgarijos apžiūros vertinimas; konkretus operatorius ir užduotis nenustatyti. Ankstyvą mero pasakojimą apie Shahed žymėjimus ir sprogmenis pakeitė karinė apžiūra: užrašų ir sprogstamojo užtaiso nėra. Nukritimo data ir ryšys su kokia nors laivybos ataka lieka nežinomi."
+    ]
+  },
+  "N139": {
+    "basis": "fd5cda8f3a302eca",
+    "headline": "Egėjo jūra · pranešta Turkijos bepiločių orlaivių veikla lapkričio 6 d.",
+    "description": "Graikijos registras lapkričio 6 d. nurodo 10 Turkijos bepiločių orlaivių. Bendri orlaivių skaičiai apima ne vien dronus.",
+    "summary": [
+      "Pirminiame GEETHA mėnesio registre nurodyta 10 bepiločių orlaivių ir vienas ATR-72, iš viso 15 FIR pažeidimų ir 23 nacionalinės oro erdvės pažeidimai. Registras mišrių sumų nepaskirsto pagal orlaivių tipą.",
+      "Anksčiau perspausdintame dienos biuletenyje 9 FIR pažeidimai ir 15 nacionalinės oro erdvės pažeidimų priskirti 7 bepiločiams orlaiviams. Skirtumo priežastis nenurodyta. Šie skaičiai gauti iš Graikijos institucijų; tai nėra nepriklausomai patikrinti takai ar patvirtintas atakų skaičius."
+    ]
+  },
+  "N140": {
+    "basis": "5f5e69b30526d99c",
+    "headline": "Egėjo jūra · pranešta Turkijos bepiločių orlaivių veikla lapkričio 5 d.",
+    "description": "Graikijos registras lapkričio 5 d. nurodo 5 Turkijos bepiločius orlaivius. Ankstesni dienos skaičiai skyrėsi.",
+    "summary": [
+      "Pirminiame GEETHA mėnesio registre nurodyti 5 bepiločiai orlaiviai ir jokių pilotuojamų orlaivių, 8 FIR pažeidimai ir 17 nacionalinės oro erdvės pažeidimų. Visi tą dieną nurodyti orlaiviai buvo bepiločiai.",
+      "Anksčiau perspausdintame dienos biuletenyje 6 FIR pažeidimai ir 9 nacionalinės oro erdvės pažeidimai priskirti 4 bepiločiams orlaiviams. Skirtumo priežastis nenurodyta. Šie skaičiai gauti iš Graikijos institucijų; tai nėra nepriklausomai patikrinti takai ar patvirtintas atakų skaičius."
+    ]
+  },
+  "N141": {
+    "basis": "10e6e252c784d0ee",
+    "headline": "Egėjo jūra · pranešta Turkijos bepiločių orlaivių veikla lapkričio 7 d.",
+    "description": "Graikijos registras lapkričio 7 d. nurodo 8 Turkijos bepiločius orlaivius. Ankstesni dienos skaičiai skyrėsi.",
+    "summary": [
+      "Pirminiame GEETHA mėnesio registre nurodyti 8 bepiločiai orlaiviai ir jokių pilotuojamų orlaivių, 10 FIR pažeidimų ir 8 nacionalinės oro erdvės pažeidimai. Visi tą dieną nurodyti orlaiviai buvo bepiločiai.",
+      "Anksčiau perspausdintame dienos biuletenyje 8 FIR pažeidimai ir 4 nacionalinės oro erdvės pažeidimai priskirti 6 bepiločiams orlaiviams. Skirtumo priežastis nenurodyta. Šie skaičiai gauti iš Graikijos institucijų; tai nėra nepriklausomai patikrinti takai ar patvirtintas atakų skaičius."
+    ]
+  },
+  "N142": {
+    "basis": "59712b8a83097feb",
+    "headline": "Nenustatytas objektas: Rumunijos teritoriniai vandenys · nenustatytas taikinys įskrido į oro erdvę, Rumunija",
+    "description": "2026 m. lapkričio 5 d., Rumunijos teritoriniai vandenys · nenustatytas taikinys įskrido į oro erdvę, Rumunija. MApN praneša apie įskridimą; drono tapatybė nepatvirtinta. MApN…",
+    "summary": [
+      "MApN pranešė apie trijų minučių įskridimą į nacionalinę oro erdvę.",
+      "MApN praneša apie įskridimą į oro erdvę; drono tapatybė nepatvirtinta. Operatorius nenustatytas. Apie įskridimą praneša institucija, tačiau drono tapatybė, modelis, operatorius ir ketinimai lieka neišaiškinti. Žiniasklaidos pranešimai atkartoja tą patį oficialų pareiškimą. Ryšys su Boghicea N135 nenustatytas."
+    ]
+  },
+  "N143": {
+    "basis": "4cff8ae9f4cbdedb",
+    "headline": "Įspėjimas dėl drono: rytinė Tulčėja · perspėjimas dėl taikinio prie Žalčių salos, Rumunija",
+    "description": "2026 m. lapkričio 8 d., rytinė Tulčėja · perspėjimas dėl taikinio prie Žalčių salos, Rumunija. Oficialus perspėjimas dėl radaro taikinio; įskridimas į Rumuniją nenustatytas. Du netoliese…",
+    "summary": [
+      "Du netoliese aptikti taikiniai paskatino perspėjimą ir karinį stebėjimą.",
+      "Oficialus perspėjimas dėl radaro taikinio; įskridimas į Rumuniją nenustatytas. Operatorius nenustatytas. Cituoti pareiškimai nenustato nei įskridimo į Rumuniją, nei drono tipo, nei operatoriaus. Pirmojo taikinio dingimas iš radaro nėra sudužimas. Iš tylos nedaroma aiški išvada, kad įskridimo nebuvo."
+    ]
+  },
+  "N144": {
+    "basis": "51af4b15dda166f7",
+    "headline": "Įspėjimas dėl drono: šiaurinė Tulčėja · perspėjimas dėl taikinio prie Chilia Veche, Rumunija",
+    "description": "2026 m. lapkričio 8 d., šiaurinė Tulčėja · perspėjimas dėl taikinio prie Chilia Veche, Rumunija. Oficialus perspėjimas dėl radaro taikinio; įskridimas į Rumuniją nenustatytas. Vėlesnis, atskiras…",
+    "summary": [
+      "Vėlesnis, atskiras taikinio aptikimas paskatino perspėjimą šiaurinėje Tulčėjos apskrityje.",
+      "Oficialus perspėjimas dėl radaro taikinio; įskridimas į Rumuniją nenustatytas. Operatorius nenustatytas. Taikinio tipas, operatorius ir bet koks Rumunijos sienos kirtimas lieka nenustatyti. Vien perspėjimas ir naikintuvų pakilimas nėra nei įsiveržimas, nei karinis įsikišimas."
+    ]
+  },
+  "N145": {
+    "basis": "8994bcc4baaa422f",
+    "headline": "Nenustatytas objektas: Lipite paplūdimys, Sinemorets · rastas nenustatytas dronas, Bulgarija",
+    "description": "2026 m. lapkričio 8 d., Lipite paplūdimys, Sinemorets · rastas nenustatytas dronas, Bulgarija. Drono radinys ir, kaip nurodoma, oficialus jo surinkimas; kilmė neišaiškinta. BNT…",
+    "summary": [
+      "BNT filmavimo grupė orlaivį rado rengdama reportažą apie į krantą išplautą krovinį.",
+      "Drono radinys ir, kaip nurodoma, oficialus jo surinkimas; kilmė neišaiškinta. Nacionalinė kilmė ir operatorius neišaiškinti; nėra patvirtinto skrydžio iš užsienio ar sienos kirtimo. Kilmė, operatorius, krovinys ir atvykimo maršrutas lieka neišaiškinti. Netoliese išplautas krovinys nėra įrodymas, siejantis droną su laivu ar ataka. Gubernatoriaus vertinimas karo kontekste nėra techninis identifikavimas. Užbaigtas sunaikinimas nenustatytas."
+    ]
+  },
+  "N146": {
+    "basis": "e9cdcb8a8e0ac546",
+    "headline": "Egėjo jūra · pranešta Turkijos bepiločių orlaivių veikla lapkričio 8 d.",
+    "description": "Graikijos registras lapkričio 8 d. nurodo 5 Turkijos bepiločius orlaivius. Ankstesni dienos skaičiai skyrėsi.",
+    "summary": [
+      "Pirminiame GEETHA mėnesio registre nurodyti 5 bepiločiai orlaiviai ir jokių pilotuojamų orlaivių, 6 FIR pažeidimai ir 6 nacionalinės oro erdvės pažeidimai. Visi tą dieną nurodyti orlaiviai buvo bepiločiai.",
+      "Anksčiau perspausdintame dienos biuletenyje 4 FIR pažeidimai ir 4 nacionalinės oro erdvės pažeidimai priskirti 4 bepiločiams orlaiviams. Skirtumo priežastis nenurodyta. Šie skaičiai gauti iš Graikijos institucijų; tai nėra nepriklausomai patikrinti takai ar patvirtintas atakų skaičius."
+    ]
+  },
+  "N147": {
+    "basis": "05f7be48ee62885b",
+    "headline": "Egėjo jūra · pranešta Turkijos bepiločių orlaivių veikla lapkričio 9 d.",
+    "description": "Graikijos registras lapkričio 9 d. nurodo 5 Turkijos bepiločius orlaivius. Bendri orlaivių skaičiai apima ne vien dronus.",
+    "summary": [
+      "Pirminiame GEETHA mėnesio registre nurodyti 5 bepiločiai orlaiviai ir vienas ATR-72, iš viso 7 FIR pažeidimai ir 3 nacionalinės oro erdvės pažeidimai. Registras mišrių sumų nepaskirsto pagal orlaivių tipą.",
+      "Anksčiau perspausdintame dienos biuletenyje 5 FIR pažeidimai ir 2 nacionalinės oro erdvės pažeidimai priskirti 5 bepiločiams orlaiviams. Skirtumo priežastis nenurodyta. Šie skaičiai gauti iš Graikijos institucijų; tai nėra nepriklausomai patikrinti takai ar patvirtintas atakų skaičius."
+    ]
+  },
+  "N148": {
+    "basis": "ffa47195c16e1a8e",
+    "headline": "Drono skrydis: Sulina · pranešta apie drono įskridimą į oro erdvę, Rumunija",
+    "description": "2026 m. lapkričio 9 d., Sulina · pranešta apie drono įskridimą į oro erdvę, Rumunija. MApN praneša apie drono įskridimą į Rumunijos nacionalinę oro erdvę. Vėlesniuose pranešimuose aiškiai…",
+    "summary": [
+      "Vėlesniuose pranešimuose aiškiai patvirtinamas įskridimas po pirminio perspėjimo dėl netoliese esančio taikinio. Vėliau takas dingo iš radaro.",
+      "MApN praneša apie drono įskridimą į Rumunijos nacionalinę oro erdvę. Operatorius, nacionalinė kilmė, numatytas taikinys ir ketinimai nenustatyti. Šaltiniai perduoda Gynybos ministerijos informaciją, o ne nepriklausomai patikrintus radaro takus. Įskridimo laikas ir trukmė, modelis, operatorius, taikinys ir galutinė baigtis nežinomi. Radaro ryšio praradimas neįrodo nei sudužimo, nei numušimo, nei išskridimo."
+    ]
+  },
+  "N149": {
+    "basis": "1ae15c2e27e8853c",
+    "headline": "Įspėjimas dėl drono: rytinė Tulčėja · lapkričio 10 d. perspėjimas dėl taikinio prie Sulinos, Rumunija",
+    "description": "2026 m. lapkričio 10 d., rytinė Tulčėja · lapkričio 10 d. perspėjimas dėl taikinio prie Sulinos, Rumunija. MApN praneša apie netoliese esantį oro taikinį; įskridimas į Rumuniją nenustatytas. Dėl netoliese…",
+    "summary": [
+      "Dėl netoliese esančio taikinio pakilo du F-16 ir paskelbtas viešas perspėjimas rytinėje Tulčėjos apskrityje.",
+      "MApN praneša apie netoliese esantį oro taikinį; įskridimas į Rumuniją nenustatytas. Operatorius, kilmė, numatytas taikinys ir ketinimai nežinomi. Šiam epizodui nenustatytas joks patvirtintas įskridimas į Rumuniją, ataka, perėmimas ar sudužimas. Pranešimai apie lapkričio 9 d. įskridimą priklauso N148 ir negali būti perkelti šiam pavojui."
+    ]
+  },
+  "N150": {
+    "basis": "b3d7c837ed9779e1",
+    "headline": "Lietuva–Latvija · drono įsiveržimas ir nesėkmingas perėmimas",
+    "description": "Oficialiai patvirtintas drono įsiveržimas; nesėkmingas perėmimas. Nuo pietų iki šiaurės Lietuvos; pranešta, kad išskrido į Latviją netoli Pasvalio rajono.",
+    "summary": [
+      "Lietuvos kariuomenės štabo viršininkas sakė, kad naikintuvai droną atpažino netoli Kauno, tačiau ten jo nepuolė dėl pavojaus civiliams. Du vėlesni bandymai jį sunaikinti buvo nesėkmingi. Latvija nepriklausomai patvirtino, kad dronas įskrido iš Lietuvos ir kirto jos teritoriją iš pietų į šiaurę.",
+      "Lietuvoje buvo aktyvuoti NATO naikintuvai, kurie toliau reagavo virš Latvijos; Latvijoje nebuvo tinkamų saugių operacinių sąlygų droną sunaikinti. Netoli Biržų rastos perėmimo raketos, o ne drono nuolaužos.",
+      "Modelis, krovinys, operatorius, numatytas taikinys ir priežastis lieka nežinomi. Nukreipimas elektroninio karo priemonėmis yra vertinimas, o ne nustatytas faktas. Estijos institucijos atskirai patvirtino trumpus įskridimus tą naktį; tikslus jų sutapimas su šiuo taku ir kitais dronais dar derinamas. Nėra patvirtintos atakos, drono sudužimo, paėmimo ar numušimo."
+    ]
+  },
+  "N151": {
+    "basis": "99971f22c80bd30f",
+    "headline": "Latvija · du trumpi dronų įskridimai per rytinę sieną",
+    "description": "NBS patvirtinti trumpi dronų įsiveržimai. Ludzos savivaldybė / rytinė Latvijos siena",
+    "summary": [
+      "Latvijos NBS teigė, kad du dronai 1–2 minutėms trumpam kirto rytinę sieną. Susijęs perspėjimas Ludzoje, pasak NBS, paskelbtas maždaug lapkričio 10 d., antradienį, 23:30.",
+      "Buvo aktyvuoti dronų perėmimo ir oro gynybos padaliniai bei NATO naikintuvai.",
+      "Tikslios kirtimo vietos, operatorius, krovinys ir ketinimai neišaiškinti. Vėlesni artėjimai ties Krāslava / Augšdaugava ir Balviais į šalį neįskrido; tai ne papildomi įsiveržimai."
+    ]
+  },
+  "N152": {
+    "basis": "68f7b98f4dfcbc62",
+    "headline": "Suomija · įtariamas bepiločio orlaivio įskridimas virš rytinės Suomijos įlankos dalies",
+    "description": "Ministerijos praneštas įtariamas oro erdvės pažeidimas; tyrimas pradėtas. Rytinė Suomijos įlankos dalis; įtariama Suomijos nacionalinė oro erdvė",
+    "summary": [
+      "Suomijos gynybos ministerija pranešė apie įtariamą bepiločio orlaivio įvykdytą oro erdvės pažeidimą lapkričio 11 d. po 02:00; jis truko apie penkias minutes, kol orlaivis išskrido.",
+      "Tyrimą atlieka Pasienio apsauga. Gynybos pajėgos atsargumo sumetimais įvedė laikinus oro ir jūrų eismo apribojimus.",
+      "Įskridimas tebėra įtariamas, o ne patvirtintas. Kilmė, modelis ir ketinimai nenustatyti, o ryšys su tranzitiniais skrydžiais Baltijos regione ar atakomis Rusijoje neįrodytas."
+    ]
+  },
+  "N153": {
+    "basis": "0988f0038c13eff7",
+    "headline": "Estija · trumpi dronų įsiveržimai virš Suomijos įlankos",
+    "description": "Estijos institucijos pranešė apie trumpus dronų įsiveržimus virš Suomijos įlankos 2026 m. lapkričio 11 d. Tikslus skaičius, takai ir kroviniai lieka neišaiškinti.",
+    "summary": [
+      "Interviu ERR gynybos ministras atskyrė trumpus oro erdvės pažeidimus virš Suomijos įlankos nuo atskiro drono, įskridusio iš Latvijos maždaug 03:30. Estijos vyriausybė atskirai patvirtino, kad tą naktį kai kurie dronai trumpam įskrido į nacionalinę oro erdvę.",
+      "Ore buvo NATO naikintuvai. Ministras teigė, kad saugių sąlygų sunaikinti nebuvo, be kita ko, dėl artumo prie Rusijos sienos.",
+      "Tikslus dronų skaičius, kirtimo laikai ir takai neišaiškinti. Praneštas priskyrimas Ukrainai yra ministro versija, o ne nepriklausomas patvirtinimas. Nėra patvirtintos atakos prieš Estiją, sudužimo, paėmimo ar numušimo. Ryšys su įtariamu kirtimu Suomijoje neįrodytas."
+    ]
+  },
+  "N154": {
+    "basis": "e621e2b415355314",
+    "headline": "Galimas dronas prie Sulinos sukėlė perspėjimą; įskridimas į Rumuniją nenustatytas",
+    "description": "2026 m. lapkričio 12 d. galimas dronas į šiaurės rytus nuo Sulinos sukėlė perspėjimą Tulčėjos apskrityje. Reagavo Ispanijos naikintuvai; įskridimas į Rumuniją nenustatytas.",
+    "summary": [
+      "Lapkričio 12 d. Rumunijos gynybos ministerija pranešė apie oro taikinį maždaug 28 km į šiaurės rytus nuo Sulinos. Visuomeninis radijas jį apibūdino kaip galimą droną.",
+      "Perspėjimas galiojo nuo 12:35 iki 13:12 vietos laiku, pakilo du Ispanijos F-18. Šis atrinktas pavojus nėra patvirtintas įsiveržimas į Rumuniją ar ataka."
+    ]
+  },
+  "N155": {
+    "basis": "7eab620af97e56d5",
+    "headline": "Pranešimas: 5 Turkijos bepiločiai orlaiviai ir 2 Graikijos oro erdvės pažeidimai spalio 16 d.",
+    "description": "Veteranos praneša apie 5 Turkijos bepiločius orlaivius ir 2 Graikijos oro erdvės pažeidimus 2026 m. spalio 16 d. Vieno šaltinio pateikti oficialūs skaičiai; tikslūs takai nežinomi.",
+    "summary": [
+      "Veteranos, remdamasis oficialiais skaičiais, praneša apie 5 Turkijos bepiločius orlaivius centrinėje ir pietryčių Egėjo jūroje spalio 16 d.: 2 nacionalinės oro erdvės pažeidimus ir 7 Atėnų FIR pažeidimus.",
+      "Pranešta apie nustatymą ir įprastą perėmimą. Tai vienas dienos veiklos įrašas, o ne atskiri įvykiai kiekvienam bepiločiam orlaiviui ar pažeidimui.",
+      "Originalus GEETHA biuletenis tebėra neprieinamas, o atitinkantis antras pranešimas nebuvo gautas. Tai Graikijai priskiriami skaičiai, o ne nepriklausomai patikrinti takai; Graikijos ir Turkijos ginčas dėl oro erdvės tebėra aktualus."
+    ]
+  },
+  "N156": {
+    "basis": "41c5a49d0eb8c357",
+    "headline": "Pranešimas: 2 Turkijos bepiločiai orlaiviai ir 6 Graikijos oro erdvės pažeidimai spalio 17 d.",
+    "description": "Veteranos praneša apie 2 Turkijos bepiločius orlaivius ir 6 Graikijos oro erdvės pažeidimus 2026 m. spalio 17 d. Vieno šaltinio pateikti oficialūs skaičiai; tikslūs takai nežinomi.",
+    "summary": [
+      "Veteranos, remdamasis oficialiais skaičiais, praneša apie 2 Turkijos bepiločius orlaivius šiaurės rytų ir pietryčių Egėjo jūroje spalio 17 d.: 6 nacionalinės oro erdvės pažeidimus ir 4 Atėnų FIR pažeidimus.",
+      "Pranešta apie nustatymą ir įprastą perėmimą. Tai vienas dienos veiklos įrašas, o ne atskiri įvykiai kiekvienam bepiločiam orlaiviui ar pažeidimui.",
+      "Originalus GEETHA biuletenis tebėra neprieinamas, o atitinkantis antras pranešimas nebuvo gautas. Tai Graikijai priskiriami skaičiai, o ne nepriklausomai patikrinti takai; Graikijos ir Turkijos ginčas dėl oro erdvės tebėra aktualus."
+    ]
+  },
+  "N157": {
+    "basis": "bdbe3aeea261bfb7",
+    "headline": "Šiaurinei Tulčėjos apskričiai paskelbtas perspėjimas aptikus taikinį Ukrainos oro erdvėje",
+    "description": "Lapkričio 13 d., aptikusi taikinį Ukrainos oro erdvėje, Rumunija paskelbė perspėjimą šiaurinei Tulčėjos apskričiai. Drono tapatybė ir įskridimas į Rumuniją nenustatyti.",
+    "summary": [
+      "2026 m. lapkričio 13 d. Rumunijos institucijos paskelbė perspėjimą šiaurinei Tulčėjos apskričiai, kai radaras aptiko oro taikinį į pietryčius nuo Žalčių salos Ukrainos oro erdvėje.",
+      "Iš Fetești pakilo du Rumunijos F-16. Perspėjimas galiojo nuo 21:53 iki 22:58 vietos laiku; tai perspėjimo laikas, o ne patikrinta skrydžio trukmė.",
+      "Peržiūrėtame ministerijos pranešime taikinys neįvardytas kaip dronas, o įskridimas į Rumuniją nenustatytas. Tai atrinktas pavojus, o ne patvirtintas įsiveržimas ar ataka."
+    ]
+  },
+  "N158": {
+    "basis": "f08b96a541b68222",
+    "headline": "LARISSA 1 apgadintas per praneštą drono pataikymą prie Rumunijos; įgula saugi",
+    "description": "Lapkričio 13 d. drono pataikymas apgadino LARISSA 1 prie Sfântu Gheorghe. Rumunijos ministras incidentą pripažino; operatorius ir tiksli vieta lieka neišaiškinti.",
+    "summary": [
+      "2026 m. lapkričio 13 d. vakarą praneštas oro drono pataikymas apgadino LARISSA 1 krovininį kraną netoli Sfântu Gheorghe. Jūrų institucijoms pranešta apie 21:40 vietos laiku. Sužeistųjų, žuvusiųjų ar gaisro nepranešta.",
+      "Lapkričio 14 d. Rumunijos gynybos ministras pripažino naktinį pataikymą. TVR įvardija laivą, o Europa FM praneštą incidentą nurodo 6,8 jūrmylės į šiaurės rytus nuo Sfântu Gheorghe Rumunijos teritoriniuose vandenyse. Tikslios smūgio koordinatės nepaskelbtos.",
+      "Operatorius, kilmė ir numatytas taikinys lieka nežinomi. Techninių išvadų dar buvo laukiama, o ryšys su atskiru Tulčėjos pavojumi dėl oro taikinio nenustatytas."
+    ]
+  },
+  "N159": {
+    "basis": "485c5fe876331a03",
+    "headline": "Per vieną rytinį pavojų dėl oro taikinio Tulčėjai paskelbti du perspėjimai",
+    "description": "Lapkričio 14 d., aptikus taikinį prie Žalčių salos, Rumunija paskelbė du perspėjimus Tulčėjos apskričiai. Drono tapatybė ir įskridimas į Rumuniją nenustatyti.",
+    "summary": [
+      "2026 m. lapkričio 14 d. rytą MApN pranešė apie oro taikinį Žalčių salos rajone. Iš Fetești pakilo du Rumunijos F-16.",
+      "04:45 vietos laiku perspėjimas paskelbtas rytinei Tulčėjos apskričiai, 05:39 – šiaurinei. Pavojus atšauktas 05:52. Šie pranešimai priklauso vienam pavojaus epizodui, o ne dviem patvirtintiems dronų atvejams.",
+      "Pareiškime taikinys neįvardytas kaip dronas, o įskridimas į Rumuniją nepatvirtintas. Šis atrinktas pavojus atskiras nuo ankstesnio vakaro perspėjimo; ryšys su pataikymu į Larissa 1 nenustatytas."
+    ]
+  },
+  "N160": {
+    "basis": "111f4b44af58fb36",
+    "headline": "Pasak praneštos ministerijos versijos, į EVIA PETROL V prie Sulinos pataikė dronas",
+    "description": "Pranešama, kad lapkričio 14 d. į EVIA PETROL V prie Sulinos buvo pataikyta. Įgula užgesino gaisrą; nukentėjusiųjų nepranešta. Operatorius ir tiksli vieta lieka nežinomi.",
+    "summary": [
+      "Pasak News.ro pateiktos MApN informacijos, gautos iš civilinių jūrų institucijų, 2026 m. lapkričio 14 d. apie 21:10 vietos laiku į EVIA PETROL V pataikė dronas. Pranešta vieta – maždaug 4 jūrmylės rytų pietryčių kryptimi nuo Sulinos.",
+      "Įgula užgesino gaisrą laive; nukentėjusiųjų nepranešta. Radio România Constanța nurodo Rumunijos teritorinius vandenis, tačiau tikslios smūgio koordinatės ir jurisdikcija nepriklausomai nepatikrintos.",
+      "Operatorius, kilmė, ketinimai ir bet koks ryšys su kitais pataikymais į laivus ar netoliese paskelbtais pavojais lieka nežinomi.",
+      "Lapkričio 19 d. emitento atskleidime Trans-Oil grupė nurodė, kad laivas stovėjo nuleidęs inkarą prie Sulinos kanalo įplaukos ir laukė leidimo plaukti į Giurgiulești. Dėl apgadinimų suplanuotas reisas pakrauti apie 6500 tonų saulėgrąžų aliejaus neįvyko. Nepatvirtinta, kad šis krovinys buvo laive; galimi logistikos vėlavimai ir išlaidos lieka bendrovės įspėjimais."
+    ]
+  },
+  "N161": {
+    "basis": "bc90d74246cb5145",
+    "headline": "Pasak praneštos ministerijos versijos, į MARSOL prie Sulinos pataikė dronas",
+    "description": "Pranešama, kad lapkričio 14 d. į MARSOL prie Sulinos buvo pataikyta. Įgula užgesino gaisrą; nukentėjusiųjų nepranešta. Operatorius ir tiksli vieta lieka nežinomi.",
+    "summary": [
+      "Pasak News.ro pateiktos MApN informacijos, gautos iš civilinių jūrų institucijų, 2026 m. lapkričio 14 d. apie 21:45 vietos laiku į MARSOL pataikė dronas. Pranešta vieta – maždaug 5 jūrmylės į pietryčius nuo Sulinos kanalo.",
+      "Įgula užgesino gaisrą laive; nukentėjusiųjų nepranešta. Radio România Constanța nurodo Rumunijos teritorinius vandenis, tačiau tikslios smūgio koordinatės ir jurisdikcija nepriklausomai nepatikrintos.",
+      "Operatorius, kilmė, ketinimai ir bet koks ryšys su kitais pataikymais į laivus ar netoliese paskelbtais pavojais lieka nežinomi. Ankstesniame jūrų pranešime vietoj to nurodyta 21:29 CET; šis laiko neatitikimas lieka neišaiškintas."
+    ]
+  },
+  "N162": {
+    "basis": "9e036c65d9b1d1c9",
+    "headline": "Rytinė Tulčėja · lapkričio 14 d. vakaro perspėjimas",
+    "description": "Rumunijos institucijos, aptikusios objektą ore, paskelbė civilinės saugos perspėjimą. Drono tapatybė ir įskridimas į Rumuniją lieka nepatvirtinti.",
+    "summary": [
+      "Iš Fetești pakilo du Rumunijos F-16; perspėjimas rytinei Tulčėjos apskričiai paskelbtas 20:51, atšauktas 21:37.",
+      "Cituojama ministerijos terminija nepatvirtina nei drono, nei įskridimo, nei atakos, nei karinio įsikišimo. Ryšys su smūgiais laivams neįrodytas."
+    ]
+  },
+  "N163": {
+    "basis": "146d9d719613c6b5",
+    "headline": "Sulinos apylinkės · vėlyvas lapkričio 14 d. perspėjimas dėl radaro kontakto",
+    "description": "Rumunijos institucijos, aptikusios objektą ore, paskelbė civilinės saugos perspėjimą. Drono tapatybė ir įskridimas į Rumuniją lieka nepatvirtinti.",
+    "summary": [
+      "Naujas perspėjimas rytinei Tulčėjos apskričiai 23:19; atšauktas kitą dieną 00:27. Atskiras pakilimas nenustatytas.",
+      "Cituojama ministerijos terminija nepatvirtina nei drono, nei įskridimo, nei atakos, nei karinio įsikišimo. Ryšys su smūgiais laivams neįrodytas."
+    ]
+  },
+  "N164": {
+    "basis": "82fa985c2e506266",
+    "headline": "Gegužės 2 d. trumpas drono įsiveržimas netoli Chilia",
+    "description": "Rumunijos gynybos institucijos pranešė apie trumpą drono įskridimą netoli Chilia. Taikinys ir ketinimai lieka nenustatyti; išvada apie ataką prieš Rumuniją nedaroma.",
+    "summary": [
+      "MApN pranešė apie trumpą, radaro patvirtintą įskridimą netoli Chilia, po kurio objektas judėjo Izmailo link. Apie 02:00 pakilo du F-16; perspėjimas šiaurinėje Tulčėjos apskrityje galiojo nuo 02:03 iki 02:50 vietos laiku.",
+      "Įskridimas registruojamas atskirai nuo platesnės atakos prieš Ukrainą. Ketinimai ir konkretus taikinys lieka nenustatyti; apie smūgį Rumunijoje nepranešta."
+    ]
+  },
+  "N165": {
+    "basis": "438dcccd398f3603",
+    "headline": "Gegužės 7 d. trumpas drono įsiveržimas netoli Chilia",
+    "description": "Rumunijos gynybos institucijos pranešė apie trumpą drono įskridimą netoli Chilia. Taikinys ir ketinimai lieka nenustatyti; išvada apie ataką prieš Rumuniją nedaroma.",
+    "summary": [
+      "Gegužės 7 d. rytą MApN pranešė apie trumpą, radaro patvirtintą įskridimą netoli Chilia. 08:37 pakilo du F-16; perspėjimas šiaurinėje Tulčėjos apskrityje galiojo nuo 08:40 iki 09:40 vietos laiku.",
+      "Įskridimas registruojamas atskirai nuo platesnės atakos prieš Ukrainą. Ketinimai ir konkretus taikinys lieka nenustatyti; apie smūgį Rumunijoje nepranešta."
+    ]
+  },
+  "N166": {
+    "basis": "89eac726d6b9440e",
+    "headline": "Dronas įskrido į Rumunijos oro erdvę ir sudužo netoli Parcheș",
+    "description": "MApN patvirtino kovo 26 d. drono įskridimą ir sudužimą Parcheș apylinkėse. Rastos nuolaužos; operatorius, modelis ir numatytas taikinys lieka nenurodyti.",
+    "summary": [
+      "MApN pranešė, kad kovo 26 d. 00:44 įskridęs dronas įsiskverbė maždaug 4 km ir sudužo Parcheș apylinkėse. Komandos rado nuolaužų ir apdegusios augmenijos; materialinės žalos ar nukentėjusiųjų nepranešta.",
+      "Ministerija teigė, kad droną nukreipė Ukrainos oro gynyba. Ši versija lieka priskirta MApN; pranešime nenustatytas nei jo operatorius, nei modelis, nei ketinimas atakuoti Rumuniją."
+    ]
+  },
+  "N167": {
+    "basis": "23dfc89d5a63cde0",
+    "headline": "Nenustatytas taikinys įskrido į Rumunijos oro erdvę netoli Chilia Veche",
+    "description": "MApN patvirtino oro taikinio įskridimą balandžio 16–17 d. naktį. Nepaisant vėliau prarasto radaro kontakto, drono tapatybė ir sudužimas lieka nepatvirtinti.",
+    "summary": [
+      "MApN pranešė apie vieną įskridimą į nacionalinę oro erdvę balandžio 16–17 d. naktį. Kontaktas prarastas maždaug 16 km į pietryčius nuo Chilia Veche, paskelbta paieškos operacija.",
+      "Oficialiame pranešime aprašomas oro taikinys, o ne atpažintas dronas. Nei radaro kontakto praradimas, nei planuota paieška nenustato sudužimo ar nuolaužų paėmimo."
+    ]
+  },
+  "N168": {
+    "basis": "8b86269bf206800f",
+    "headline": "ALI NAJAFOV praneša apie naktinį drono pataikymą netoli Dunojaus žiočių",
+    "description": "Rumunijos institucijos perdavė ALI NAJAFOV pranešimą apie drono pataikymą. Įgula užgesino gaisrą; tiksli vieta, jurisdikcija ir priskyrimas lieka nežinomi.",
+    "summary": [
+      "ALI NAJAFOV pranešė apie drono pataikymą lapkričio 14–15 d. naktį netoli Dunojaus žiočių. Rumunijos institucijos perdavė laivo pranešimą; įgula užgesino gaisrą, nukentėjusiųjų nepranešta.",
+      "Tai kitas laivas nei EVIA PETROL V ir MARSOL. Tiksli jo vieta ir jūrinė jurisdikcija lieka neišaiškintos; bendras operatorius ar tyčinis taikymasis nenustatyti."
+    ]
+  },
+  "N169": {
+    "basis": "229b1930ed3783f0",
+    "headline": "Popietinis perspėjimas Tulčėjoje išplėstas į miestą, vėliau atšauktas",
+    "description": "Netoli Ukrainos aptiktas oro taikinys paskatino 15:02 perspėjimą Tulčėjos apskrityje, prieš 17:05 atšaukimą išplėstą į miestą. Įskridimas į Rumuniją nepatvirtintas.",
+    "summary": [
+      "Ukrainoje aptikus oro taikinį, lapkričio 15 d. 15:02 paskelbtas perspėjimas. 16:56 jis išplėstas į Tulčėjos miestą, o 17:05 atšauktas visoms paveiktoms bendruomenėms.",
+      "Išplėtimas priklauso tam pačiam perspėjimo epizodui. Nenustatyta nei drono tapatybė, nei įskridimas į Rumunijos oro erdvę; išvada apie ryšį su pataikymais į laivus nedaroma."
+    ]
+  },
+  "N170": {
+    "basis": "c289f5664d4e1a20",
+    "headline": "Į šiaurę nuo Sulinos · trumpas vasario 26 d. drono įskridimas",
+    "description": "MApN patvirtino trumpą drono įskridimą vasario 26 d. vakarą, pasibaigusį į šiaurę nuo Sulinos apie 18:30.",
+    "summary": [
+      "MApN patvirtino trumpą drono įskridimą vasario 26 d. vakarą, pasibaigusį į šiaurę nuo Sulinos apie 18:30.",
+      "Tai buvo atskira nuo ankstesnio pavojaus, kai įskridimo nebuvo, ir nuo vasario 25 d. atvejo. Operatorius, modelis ir ketinimai lieka nenurodyti."
+    ]
+  },
+  "N171": {
+    "basis": "b7ad8cb376460adb",
+    "headline": "Tănăsoaia · paimti galimo skraidančiojo aparato fragmentai",
+    "description": "Sausio 18 d. gynybos specialistai Tănăsoaia ištyrė ir surinko metalo fragmentus. Jie leido manyti, kad tai galėjo būti skraidantysis aparatas.",
+    "summary": [
+      "Sausio 18 d. gynybos specialistai Tănăsoaia ištyrė ir surinko metalo fragmentus. Jie leido manyti, kad tai galėjo būti skraidantysis aparatas.",
+      "Drono tapatybė, kilmė ir nukritimo data lieka nepatvirtintos; tai radinio kandidatas, o ne patvirtintas įsiveržimas."
+    ]
+  },
+  "N172": {
+    "basis": "678aa5f2a1e03414",
+    "headline": "Botoșenița Mare · nenustatyto skraidančio objekto sudužimas",
+    "description": "MApN pranešė apie rugsėjo 12 d. kukurūzų lauke netoli Botoșenița Mare sudužusį skraidantį objektą, su nedideliu gaisru ir be nukentėjusiųjų.",
+    "summary": [
+      "MApN pranešė apie rugsėjo 12 d. kukurūzų lauke netoli Botoșenița Mare sudužusį skraidantį objektą, su nedideliu gaisru ir be nukentėjusiųjų.",
+      "Užsienio institucijos taip pat pranešė apie dronų tranzitą, o kitoje vietoje užregistruotas pranešimas numeriu 112 apie stebėtą objektą. Nenutrūkstamas ryšys su rastu objektu nenustatytas."
+    ]
+  },
+  "N173": {
+    "basis": "875f004d900296a2",
+    "headline": "Į rytus nuo Mangalijos · rastas dreifuojantis oro dronas",
+    "description": "MApN pranešė apie lapkričio 15 d. maždaug 45 jūrmyles į rytus nuo Mangalijos dreifuojantį oro droną. Kilmė ir užduoties baigtis lieka nežinomos.",
+    "summary": [
+      "Pasak Rumunijos gynybos ministerijos, Prancūzijos karinio jūrų laivyno ATLANTIQUE 2 lapkričio 15 d. pranešė apie oro droną, dreifuojantį maždaug 45 jūrmyles į rytus nuo Mangalijos.",
+      "Planuotą lapkričio 16 d. EOD įvertinimą atidėjo nepalankios oro sąlygos: MApN teigė, kad abu kateriai grįžo neužbaigę įvertinimų. Paėmimas ar neutralizavimas nenustatyti.",
+      "Tai radinys atviroje jūroje, o ne įsiveržimo į Rumunijos teritorinę oro erdvę įrodymas. Drono kilmė, skrydžio ir nukritimo datos, krovinys ir bet koks ryšys su pastarojo meto pataikymais į laivus lieka nežinomi."
+    ]
+  },
+  "N174": {
+    "basis": "328155b1bc112d37",
+    "headline": "Į rytus nuo Chituc · rastas dreifuojantis oro dronas",
+    "description": "MApN pranešė apie lapkričio 15 d. maždaug 53 jūrmyles į rytus nuo Chituc dreifuojantį oro droną. Kilmė ir užduoties baigtis lieka nežinomos.",
+    "summary": [
+      "Pasak Rumunijos gynybos ministerijos, Prancūzijos karinio jūrų laivyno ATLANTIQUE 2 lapkričio 15 d. pranešė apie oro droną, dreifuojantį maždaug 53 jūrmyles į rytus nuo Chituc.",
+      "Planuotą lapkričio 16 d. EOD įvertinimą atidėjo nepalankios oro sąlygos: MApN teigė, kad abu kateriai grįžo neužbaigę įvertinimų. Paėmimas ar neutralizavimas nenustatyti.",
+      "Tai radinys atviroje jūroje, o ne įsiveržimo į Rumunijos teritorinę oro erdvę įrodymas. Drono kilmė, skrydžio ir nukritimo datos, krovinys ir bet koks ryšys su pastarojo meto pataikymais į laivus lieka nežinomi."
+    ]
+  },
+  "N175": {
+    "basis": "aad7a84948b3f2bc",
+    "headline": "BETUL 8 apvirto prie Bulgarijos; įgulos narys tvirtina apie jūrų dronų ataką",
+    "description": "Lapkričio 16 d. BETUL 8 apvirtus Bulgarijos IEZ, išgelbėti visi 12 įgulos narių. Teiginys apie jūrų dronų ataką lieka nepatvirtintas.",
+    "summary": [
+      "Bulgarijos institucijos patvirtino, kad lapkričio 16 d. BETUL 8 apvirto šalies išskirtinėje ekonominėje zonoje. Visi 12 įgulos narių evakuoti; ministerija pranešė, kad sunkiai sužeistųjų nėra.",
+      "BNR citavo vieną išgelbėtą jūreivį, teigusį, kad laivą atakavo du jūrų dronai. Peržiūrėtuose pareiškimuose institucijos šios priežasties nebuvo patvirtinusios. Avarija jūroje paliekama kaip kandidatas, o ne patvirtintas drono smūgis ar įsiveržimas į teritoriją.",
+      "Bulgarijos NAVWARN 860/26 pateikia vėlesnį stebėjimą lapkričio 19 d. 14:45 UTC: laivas buvo apvirtęs ir dreifavo be įgulos ir nevaldomas. Tai nėra galutinės būklės ar priežasties nustatymas."
+    ]
+  },
+  "N176": {
+    "basis": "1392b1b1c36513b7",
+    "headline": "Egėjo jūra · Graikijos registre lapkričio 16 d. – septyni bepiločiai orlaiviai",
+    "description": "GEETHA lapkričio registre lapkričio 16 d. nurodyti septyni bepiločiai orlaiviai, septyni oro erdvės pažeidimai ir dešimt FIR pažeidimų – kitaip nei ankstesniame biuletenyje.",
+    "summary": [
+      "GEETHA mėnesio registre septyni bepiločiai orlaiviai nurodyti kaip visi lapkričio 16 d. užfiksuoti orlaiviai, su septyniais nacionalinės oro erdvės pažeidimais ir dešimčia Atėnų FIR pažeidimų. Ankstesniame Parapolitika biuletenyje nurodyti šeši oro erdvės pažeidimai ir devyni FIR pažeidimai; skirtumas nepaaiškintas.",
+      "Tai lieka vienas dienos regioninis įrašas. Skaičiai nesumuojami ir nėra nepriklausomai patikrintas skrydžių skaičius; ginklų panaudojimas nenustatytas."
+    ]
+  },
+  "N177": {
+    "basis": "016739f3dca934f0",
+    "headline": "Naktinis pavojus šiaurinėje Tulčėjos apskrityje; įskridimas į Rumunijos oro erdvę neužfiksuotas",
+    "description": "Lapkričio 16–17 d. naktį, radarui aptikus taikinius virš Ukrainos, Rumunija paskelbė pavojų. MApN pranešė, kad neleistino įskridimo į Rumunijos oro erdvę nebuvo.",
+    "summary": [
+      "Radarui aptikus taikinius virš Ukrainos, Rumunija paskelbė civilinės saugos pavojų. Neleistinas įskridimas į Rumunijos oro erdvę neužfiksuotas.",
+      "Tai vienas atrinktas pavojus, o ne patvirtintas drono įsiveržimas."
+    ]
+  },
+  "N178": {
+    "basis": "2e8a41b9e0e20de5",
+    "headline": "Po avarijos jūroje išgelbėta GAS HUSKY įgula; dronų kaip priežastis nepatvirtinta",
+    "description": "Lapkričio 17 d. prie Bulgarijos išgelbėti visi 19 GAS HUSKY įgulos narių. Oficialus įspėjimas aprašo pasvirusį, dreifuojantį laivą; teiginiai apie dronus nepatvirtinti.",
+    "summary": [
+      "2026 m. lapkričio 17 d., po avarijos jūroje, Bulgarijos institucijos išgelbėjo visus 19 GAS HUSKY įgulos narių. Liberijos vėliava plaukiojantis LPG gabenantis laivas plaukė iš Egipto į Rumuniją. Vieta yra Bulgarijos išskirtinėje ekonominėje zonoje, o ne jos teritoriniuose vandenyse.",
+      "10:50 UTC navigaciniame įspėjime aprašytas 45 laipsnių posvyris, apsemtas kapitono tiltelis ir be įgulos dreifuojantis laivas. Nepaisant ankstyvų pranešimų, jis nenustatė, kad laivas visiškai nuskendo. AP, remdamasi Maritime.bg, praneša, kad išgelbėtas kapitonas sakė, jog į laivą pataikė keturi dronai; AP taip pat nurodo, kad oficialaus priežasties patvirtinimo nėra. Teiginys nepriklausomai nepatikrintas, o operatorius ar ryšys su BETUL 8 nenustatyti.",
+      "Laivo valdytoja Stealth Maritime teigia, kad lapkričio 17 d. anksti į laivą Bulgarijos IEZ buvo pataikyta, tačiau nenurodo, kas pataikė, ir sako, kad tuo metu jo būklė buvo nežinoma. Jos pareiškimas, kurį perspausdino Naftemporiki, patvirtina, kad LPG krovinys pakrautas Aleksandrijoje ir skirtas Midia.",
+      "Vėlesniame Maritime.bg pranešime, remiantis neįvardytu valdymo bendrovės šaltiniu, nurodoma kombinuota paviršinių ir oro dronų ataka. Tai lieka nepatvirtinta versija; viešame valdytojos pareiškime mechanizmas nenurodytas.",
+      "Lapkričio 18 d. Varnos gubernatorius Mario Smurkov bTV sakė, kad buvo keturi pataikymai, tačiau jūreivių pasakojimai prieštaravo vieni kitiems, o dronų tipai liko nepatvirtinti. Jis sakė, kad laivai dar nebuvo nuskendę ir tuo metu tarša nebuvo aptikta. Keturi pataikymai nenustato keturių nepriklausomai patikrintų dronų.",
+      "Lapkričio 18 d. Reuters pranešė, kad du neįvardyti jūrų saugumo šaltiniai smūgį priskyrė bepilotei sistemai. Agentūra pakartojo gubernatoriaus versiją apie keturis pataikymus, nenustatydama drono tipo ar operatoriaus. Reuters laivą apibūdino kaip nuskendusį, tačiau nepateikė naujesnio stebėjimo laiko, kuris išspręstų ankstesnių pranešimų apie būklę prieštaravimus.",
+      "Bulgarijos NAVWARN 858/26 pateikia vėlesnį stebėjimą lapkričio 19 d. 13:30 UTC: laivas buvo pasviręs maždaug 45 laipsniais, kapitono tiltelis apsemtas, jis dreifavo be įgulos ir nevaldomas. Tai nėra galutinės būklės ar priežasties nustatymas.",
+      "NAVWARN 865/26 praneša, kad lapkričio 21 d. 12:38 UTC GAS HUSKY vis dar buvo be įgulos ir dreifavo, smarkiai pasviręs, su apsemtu kapitono tilteliu. Šis stebėjimas nenustato nei nuskendimo, nei pirminio mechanizmo.",
+      "Filipinų institucijos buvo pranešusios, kad du sužeisti įgulos nariai po gydymo sveiksta. The Manila Times, remdamasis Filipinų migrantų darbuotojų departamentu, pranešė apie 19 filipiniečių įgulos narių išlydėjimą Varnos oro uoste lapkričio 25 d. Tikėtasi, kad dvi grupės Manilą pasieks lapkričio 26 d. Filipinų laiku; šios peržiūros metu jų atvykimas nepriklausomai nepatvirtintas. Tai nenustato nei galutinės laivo būklės, nei pirminės priežasties."
+    ]
+  },
+  "N179": {
+    "basis": "87dcaf1584079e1c",
+    "headline": "Egėjo jūra · Graikijos registre lapkričio 17 d. – šeši bepiločiai orlaiviai",
+    "description": "GEETHA registre lapkričio 17 d. nurodyti šeši bepiločiai orlaiviai, kitaip nei pradiniai penki. Bendrų oro erdvės pažeidimų sumų negalima priskirti vien dronams.",
+    "summary": [
+      "GEETHA mėnesio registre lapkričio 17 d. nurodyti šeši bepiločiai ir keturi pilotuojami orlaiviai, iš viso septyniolika nacionalinės oro erdvės pažeidimų ir dešimt Atėnų FIR pažeidimų. Šios sumos nepaskirstytos pagal orlaivių tipą.",
+      "Ankstesniame biuletenyje nurodyti penki bepiločiai orlaiviai su keturiais oro erdvės pažeidimais ir septyniais FIR pažeidimais. Ta pirminė versija tebėra cituojama, tačiau registras skiriasi ir nepateikia paaiškinimo. Nė viena versija nepriklausomai nenustato skrydžių takų; kontaktas su naikintuvais nėra drono numušimas."
+    ]
+  },
+  "N180": {
+    "basis": "1ce7f990ce68d0c0",
+    "headline": "Farmakonisi · pranešta apie Turkijos bepiločio orlaivio praskridimą liepos 30 d.",
+    "description": "Graikijos institucijos pranešė apie liepos 30 d. bepiločio orlaivio praskridimą virš Farmakonisi. Lapkričio mėn. ministro atsakymas patvirtina oficialų pranešimą NATO, o ne NATO išvadą.",
+    "summary": [
+      "Graikijos pranešimuose 2026 m. liepos 30 d. aštuoni nacionalinės oro erdvės pažeidimai, įskaitant praskridimą virš Farmakonisi, priskirti dviem Turkijos bepiločiams orlaiviams. Šiems bepiločiams orlaiviams priskirti ir keturi atskiri Atėnų FIR pažeidimai. Tai vienas dienos įrašas, o ne dvylika incidentų.",
+      "Lapkričio 1 d. datuotas ir lapkričio 16 d. paskelbtas ministro atsakymas pripažįsta praskridimą ir nurodo, kad Graikija išsiuntė NATO oficialų pranešimą. Jame teigta, kad tuo metu buvo laukiama NATO analizės; jame nepateikiama nei NATO išvada, nei įrodymų, kad atsakymo vis dar laukiama. Tikslūs skrydžių takai ir ketinimai lieka nežinomi."
+    ]
+  },
+  "N181": {
+    "basis": "9fa9d16fcb95d141",
+    "headline": "Drono apgadintas MARIAM M nudreifavo į Rumunijos vandenis ir užplaukė ant seklumos ties Vadu",
+    "description": "Lapkričio 16 d., atdreifavęs iš Ukrainos, MARIAM M užplaukė ant seklumos ties Vadu. Įrašytas kaip jūrinės pasekmės, su vaizdo įrašu; apie naują smūgį Rumunijoje nepranešta.",
+    "summary": [
+      "2026 m. lapkričio 16 d. MARIAM M užplaukė ant seklumos prie Rumunijos Vadu pakrantės. Paliktas, Tanzanijos vėliava plaukiojantis krovininis laivas į Rumunijos vandenis nudreifavo, kai lapkričio 14 d. nutrūko jo inkaras.",
+      "Rumunijos institucijos teigia, kad po rugsėjo drono smūgio Ukrainos teritoriniuose vandenyse laivas liko ten stovėti nuleidęs inkarą. Šis įrašas apima vėlesnį jo atplaukimą ir užplaukimą ant seklumos Rumunijoje, priskirtą kategorijai Įspėjimas / kita. Jis neskaičiuojamas kaip naujas drono smūgis ir neperkelia nukentėjusiųjų iš rugsėjo atakos.",
+      "Lapkričio 19 d. vilkikai laivą nutraukė nuo pirminės seklumos. Vėliau ProTV pranešė, kad jis pajudėjo apie 100 metrų ir užplaukė ant kito sėkliaus, po to įgula jį inkaravo, o gelbėjimo darbai sutemus sustabdyti. Puslapyje yra ankstesnė ARSVOM reagavimo filmuota medžiaga ir nuoroda į vaizdo įrašą iš kranto.",
+      "Per atskirą bandymą lapkričio 22 d., kaip pranešė Știrile ProTV, trys vilkikai pasuko MARIAM M atviros jūros link, tačiau laivas vėl iš dalies užplaukė ant seklumos, o darbai sutemus sustabdyti. Galutinė stovėjimo vieta ir poveikis aplinkai lieka nepatikrinti."
+    ]
+  },
+  "N182": {
+    "basis": "9fecf75febc5fc69",
+    "headline": "Egėjo jūra · Graikijos lapkričio 18 d. dienos pranešime – vienas bepilotis orlaivis",
+    "description": "Graikijos duomenimis, lapkričio 18 d. vienas nacionalinės oro erdvės pažeidimas ir vienas atskiras FIR pažeidimas priskirti bepiločiam orlaiviui. Vienas regioninis įrašas, karinio įsikišimo nepranešta.",
+    "summary": [
+      "OnAlert ir NewsIT perspausdintuose GEETHA duomenyse vienas nacionalinės oro erdvės pažeidimas ir vienas atskiras Atėnų FIR pažeidimas lapkričio 18 d. šiaurės rytų ir centrinėje Egėjo jūroje priskirti Turkijos bepiločiam orlaiviui.",
+      "Toje pačioje lentelėje nurodytas pilotuojamas CN-235 į bepiločių orlaivių skaičius neįtraukiamas. Pranešta apie įprastą perėmimą be karinių įsikišimų. Šie leidiniai atkartoja tą pačią institucijos versiją, o ne nepriklausomus takus; tikslus maršrutas, modelis ir ketinimai lieka nežinomi."
+    ]
+  },
+  "N183": {
+    "basis": "7a977838703818f5",
+    "headline": "Egėjo jūra · pranešta Turkijos bepiločių orlaivių veikla lapkričio 14 d.",
+    "description": "Graikijos institucijos lapkričio 14 d. nurodo 2 Turkijos bepiločius orlaivius, atskirai pateikdamos nacionalinės oro erdvės ir FIR skaičius.",
+    "summary": [
+      "GEETHA lapkričio registre lapkričio 14 d. pietryčių Egėjo jūroje nurodyti 2 bepiločiai orlaiviai ir jokių pilotuojamų orlaivių.",
+      "Registre nurodytas vienas nacionalinės oro erdvės pažeidimas ir 2 atskiri Atėnų FIR pažeidimai. Tai Graikijos institucijų skaičiai, o ne nepriklausomai patikrinti takai, unikalių įvykių skaičiai ar atakos. Karinis įsikišimas nenurodytas."
+    ]
+  },
+  "N184": {
+    "basis": "9348fe0fa7d38f26",
+    "headline": "Egėjo jūra · pranešta Turkijos bepiločių orlaivių veikla lapkričio 15 d.",
+    "description": "Graikijos institucijos lapkričio 15 d. nurodo 3 Turkijos bepiločius orlaivius, atskirai pateikdamos nacionalinės oro erdvės ir FIR skaičius.",
+    "summary": [
+      "GEETHA lapkričio registre lapkričio 15 d. centrinėje ir pietryčių Egėjo jūroje nurodyti 3 bepiločiai orlaiviai ir jokių pilotuojamų orlaivių.",
+      "Registre nurodyti 4 nacionalinės oro erdvės pažeidimai ir 4 atskiri Atėnų FIR pažeidimai. Tai Graikijos institucijų skaičiai, o ne nepriklausomai patikrinti takai, unikalių įvykių skaičiai ar atakos. Karinis įsikišimas nenurodytas."
+    ]
+  },
+  "N186": {
+    "basis": "394520276666d168",
+    "headline": "Egėjo jūra · pranešta Turkijos bepiločių orlaivių veikla lapkričio 20 d.",
+    "description": "Graikijos institucijos lapkričio 20 d. pranešė apie tris Turkijos bepiločius orlaivius ir tris nacionalinės oro erdvės pažeidimus. Atskiri FIR skaičiai nėra incidentų skaičiai.",
+    "summary": [
+      "OnAlert perspausdina Graikijos generalinio štabo duomenis apie pietryčių Egėjo jūrą lapkričio 20 d.: trys Turkijos bepiločiai orlaiviai, trys bepiločių orlaivių nacionalinės oro erdvės pažeidimai ir trys atskiri bepiločių orlaivių Atėnų FIR pažeidimai. Dar du FIR pažeidimai tenka vienam pilotuojamam ATR-72.",
+      "Tai Graikijos institucijoms priskiriami dienos skaičiai, o ne nepriklausomi skrydžių takai ar trys atskiri žemėlapyje pažymėti incidentai. Pirminio mėnesio registro eilutė nepriklausomai nepatikrinta."
+    ]
+  },
+  "N188": {
+    "basis": "672fe12e4e10cab6",
+    "headline": "Ukraina pripažįsta smūgį SPARTA II; vėlesnei gelbėjimo operacijai vadovavo Suomija",
+    "description": "Ukraina pripažino lapkričio 21 d. drono smūgį Suomijos įlankoje. Versijos, kur buvo pataikyta į laivą, skiriasi. Vėliau gelbėjimui vadovavo Suomija.",
+    "summary": [
+      "Suomijos gynybos pajėgos pranešė apie lapkričio 21 d. drono smūgį rytinėje Suomijos įlankos dalyje. Kariuomenė jį nurodė tarptautiniuose vandenyse, o Pasienio apsaugos vadas Ilja Iljin sakė, kad tai įvyko Rusijos teritoriniuose vandenyse. Degantis laivas vėliau nudreifavo į Suomijos teritorinius vandenis. Tai nenustato, kad dronas būtų įskridęs į Suomiją.",
+      "Suomijos pakrančių apsauga patvirtino, kad įgula evakuota į KAPITAN SAKHAROV. Lapkričio 22 d. brifinge Suomijos pasienio apsauga pranešė apie vieną sužeistą įgulos narį. Užgesinus matomą liepsną, gaisro gesinimas tęsėsi; iki to brifingo naftos jūroje nepastebėta. Tai nebuvo galutinis vertinimas.",
+      "Suomijos gynybos pajėgų komunikacijos direktorius Aki-Mauri Huhtinen įvertino, kad tikėtinai atsakinga Ukraina. Konkretus operatorius, ketinimai ir krovinys nepriklausomai nenustatyti.",
+      "Estijos užsienio reikalų ministerija teigia, kad apgadintas laivas nudreifavo iš Estijos išskirtinės ekonominės zonos į Suomijos išskirtinę ekonominę zoną, o paskui į Suomijos teritorinius vandenis. Estija padėjo Suomijos prašymu; Suomijos pasienio apsauga patvirtino Estijos dalyvavimą gesinant gaisrą ir vėsinant laivą. Gelbėjimo pasakojimai nenustato nei smūgio vietos, nei drono maršruto.",
+      "Lapkričio 22 d. velkamas laivas paliko Suomijos išskirtinę ekonominę zoną ir aplinkosauginio reagavimo zoną, Suomija baigė savo misiją, o laikini apribojimai atšaukti. Helsinkis atskirai nutraukė atsargumo budėjimą reaguoti į naftos taršą. Svenska Yle pranešė, kad atsakomybę už gelbėjimą jūroje perėmė Rusija.",
+      "Lapkričio 23 d. Leningrado srities gubernatorius Alexander Drozdenko sakė, kad įgula išlipo į krantą Sankt Peterburge 20:00 Maskvos laiku. Jis sakė, kad laivas tą patį uostą pasiekė plūduriuodamas su kroviniu, tačiau nenurodė laivo atplaukimo laiko. Jo teiginys, kad sužeistųjų nėra, prieštarauja Suomijos pasienio apsaugos pranešimui. Galutinės gaisro ir taršos pasekmės bei krovinio pobūdis lieka nepatikrinti.",
+      "Suomijos nacionalinė vykdymo tarnyba teigė įvertinusi, kad laivas priklauso ES sankcionuotai bendrovei, ir po to, kai lapkričio 21 d. laivas įplaukė į Suomijos teritorinius vandenis, nustatė laikiną perleidimo apribojimą. Apribojimui taikytos gelbėjimo, saugos ir aplinkosaugos išimtys. Galutinis teisinis sprendimas nenustatytas.",
+      "Lapkričio 24 d. paskelbtame interviu Bloomberg prezidentas Volodymyras Zelenskis pripažino, kad smūgį surengė Ukraina, ir tvirtino, kad jis įvyko Rusijos teritoriniuose vandenyse. ERR pranešė, kad pataikyta Estijos IEZ; Estijos gelbėjimo tarnybos pareigūnas nurodė, kad kilus gaisrui ir sprogimui laivas buvo toje IEZ. Suomijos kariuomenė smūgio zoną apibūdino kaip tarptautinius vandenis. Tiksli smūgio vieta ir Zelenskio teiginys apie ginklus laive nepriklausomai nepatikrinti. Vėlesnis Suomijos gelbėjimas yra atskiras dokumentuotas faktas."
+    ]
+  },
+  "N189": {
+    "basis": "c7c59339eb4400db",
+    "headline": "Estija paskelbė ir atšaukė perspėjimą dėl grėsmės iš oro dviejose šiaurės rytų apskrityse",
+    "description": "Lapkričio 21 d. Estija perspėjo Lääne-Viru ir Ida-Viru apskričių gyventojus apie galimą grėsmę iš oro. Pavojaus signalas nenustato drono įsiveržimo.",
+    "summary": [
+      "Lapkričio 21 d. 04:42 vietos laiku Estijos gynybos pajėgos paskelbė perspėjimą dėl galimos grėsmės iš oro Lääne-Viru ir Ida-Viru apskritims. Pranešime patarta, pamačius droną, slėptis. Pavojus atšauktas 06:49 vietos laiku. Tai vienas perspėjimo epizodas, o ne patikrintas įsiveržimas."
+    ]
+  },
+  "N190": {
+    "basis": "bb330334fdeedf43",
+    "headline": "Tulčėjos gyventojai perspėti naktį; Rumunija pranešė, kad įskridimo į oro erdvę nebuvo",
+    "description": "Lapkričio 22 d. 00:46 vietos laiku institucijos paskelbė RO-Alert ir pakėlė du F-16. Gynybos ministerija pranešė, kad į Rumunijos oro erdvę neįskrista.",
+    "summary": [
+      "Lapkričio 22 d. 00:46 vietos laiku naktinis perspėjimas išsiųstas šiaurinei ir rytinei Tulčėjos apskrities daliai. Rumunijos gynybos ministerija pranešė apie vieną oro taikinį už nacionalinės oro erdvės ribų ir nurodė, kad pakilo du F-16. Ji pranešė, kad į nacionalinę oro erdvę neįskrista. Ministerija teigė, kad oro pavojus baigėsi 02:14, o ISU Delta Tulcea nurodė 02:16 ir pranešė, kad prašymų ar problemų nebuvo. Tai to paties perspėjimo epizodo versijos."
+    ]
+  },
+  "N191": {
+    "basis": "0eec6e747256d451",
+    "headline": "Egėjo jūra · pranešta Turkijos bepiločių orlaivių veikla lapkričio 22 d.",
+    "description": "Graikijos institucijų duomenimis, nurodyti septyni Turkijos bepiločiai orlaiviai, septyni nacionalinės oro erdvės pažeidimai ir septyni atskiri Atėnų FIR pažeidimai.",
+    "summary": [
+      "Graikijos žiniasklaida, remdamasi Graikijos nacionalinės gynybos generaliniu štabu, pranešė apie septynis Turkijos bepiločius orlaivius, septynis Graikijos nacionalinės oro erdvės pažeidimus ir septynis Atėnų FIR pažeidimus šiaurės rytų, centrinėje ir pietryčių Egėjo jūroje lapkričio 22 d. Pranešta apie įprastą nustatymą ir perėmimą.",
+      "Trys skaičiai yra atskiri matai viename dienos pranešime. Jie nenustato nei nepriklausomų skrydžių takų, nei numušimo, nei atakos. Originalios dienos registro eilutės patikrinti nepavyko."
+    ]
+  },
+  "N192": {
+    "basis": "1fce4c3f1e26c381",
+    "headline": "Popietinis RO-Alert šiaurinėje Tulčėjos apskrityje baigėsi, nepranešus apie įskridimą į oro erdvę",
+    "description": "Lapkričio 22 d. 15:06 vietos laiku šiaurinei Tulčėjos apskričiai paskelbtas atskiras popietinis perspėjimas. Apie įskridimą į Rumunijos oro erdvę nepranešta.",
+    "summary": [
+      "Rumunijos gynybos ministerija pranešė apie vieną oro taikinį į šiaurę nuo Vâlcove, Ukrainoje, ir lapkričio 22 d. nuo 15:06 iki 15:42 vietos laiku galiojusį RO-Alert šiaurinei Tulčėjos apskričiai. Apie įskridimą į Rumunijos oro erdvę nepranešta.",
+      "Ministerija teigė, kad reaguodami pakilo Ispanijos naikintuvai ir sraigtasparniai. Apie perėmimą ji nepranešė.",
+      "Tai civilinės saugos perspėjimas, o ne patvirtintas drono įsiveržimas ar ataka. Taikinio tipas ir operatorius nenustatyti."
+    ]
+  },
+  "N193": {
+    "basis": "6ac4b0c86f4adf5a",
+    "headline": "Vakarinis RO-Alert šiaurinėje Tulčėjos apskrityje baigėsi, nepranešus apie įskridimą į oro erdvę",
+    "description": "Lapkričio 22 d. 20:01 vietos laiku šiaurinei Tulčėjos apskričiai paskelbtas atskiras vakarinis perspėjimas. Apie įskridimą į Rumunijos oro erdvę nepranešta.",
+    "summary": [
+      "Rumunijos gynybos ministerija pranešė apie oro taikinius į rytus nuo Žalčių salos ir lapkričio 22 d. nuo 20:01 iki 21:15 vietos laiku galiojusį RO-Alert šiaurinei Tulčėjos apskričiai. Apie įskridimą į Rumunijos oro erdvę nepranešta.",
+      "Tai civilinės saugos perspėjimas, o ne patvirtintas drono įsiveržimas ar ataka. Taikinio tipas ir operatorius nenustatyti."
+    ]
+  },
+  "N194": {
+    "basis": "d2d4fb5622cf3ffd",
+    "headline": "Rusijai priskiriamas dronas įskrido į Lenkiją netoli Dorohusk ir grįžo į Ukrainą",
+    "description": "Lenkija praneša apie lapkričio 23 d. drono įskridimą netoli Dorohusk. Numušti buvo leista, tačiau ginklai nepanaudoti, kol dronas grįžo į Ukrainą.",
+    "summary": [
+      "Lenkijos operatyvinė vadovybė patvirtino, kad lapkričio 23 d., per smūgius vakarų Ukrainai, į Lenkijos oro erdvę įskrido vienas Rusijai priskiriamas dronas. Pasak tolesnio Rzeczpospolita straipsnio, kuriame cituojama vadovybė ir jos atstovas spaudai Jacek Goryszewski, dronas įskrido netoli Dorohusk 22:50 vietos laiku, įsiskverbė maždaug 20 km ir išbuvo 8–9 minutes, kol pasuko atgal į Ukrainą.",
+      "Numušti buvo leista, tačiau ginklai nepanaudoti. Radio Lublin ir UNITED24 praneša, kad vadai, atsižvelgdami į civilių saugumą, po posūkio į rytus ugnies neatidengė. Goryszewski sakė, kad leidimą turėjo antžeminės sistemos; Lenkijos orlaiviai dėl oro sąlygų prie sienos neveikė. Nukentėjusiųjų, smūgio ar nuolaužų paėmimo nepranešta.",
+      "Atstovas spaudai pagal skrydžio greitį įvertino, kad dronas turėjo reaktyvinį variklį, tačiau nepatvirtino nei kamerų, nei žvalgybinės paskirties. Modelis, krovinys ir numatytas taikinys lieka nežinomi. Dorohusk žymeklis yra apytikslė nuoroda, o ne patikrintos kirtimo koordinatės. Vieši perspėjimai yra šio vieno atvejo dalis, atskiro nuo lapkričio 20 d. raketos incidento.",
+      "Vyriausybės saugumo centras atnaujintą raginimą slėptis užregistravo 22:56 CET, o pavojaus atšaukimą – 23:54 CET. Tai perspėjimų, o ne skrydžio laikai."
+    ]
+  },
+  "N195": {
+    "basis": "075b2a5c83a9ffc2",
+    "headline": "Tausiūnai–Aukštalaukis: pasieniečiai paėmė iš Baltarusijos cigaretes gabenusį droną",
+    "description": "Lietuva praneša apie atskirą rugsėjo 27 d. drono įsiveržimą ties Tausiūnais–Aukštalaukiu; paimta 250 pakelių cigarečių. Operatorius nežinomas.",
+    "summary": [
+      "VSAT pranešė apie iš Baltarusijos atskridusį cigaretes gabenusį droną rugsėjo 27 d., sekmadienį, vėlai vakare vietos laiku. Dronas aptiktas netoli Tausiūnų ir po priverstinio nusileidimo paimtas netoli Aukštalaukio. Jis buvo smarkiai apgadintas.",
+      "Pasieniečiai paėmė 250 pakelių cigarečių ir pradėjo administracinio nusižengimo teiseną. Operatorius nenustatytas. Tai kontrabandos per sieną atvejis, o ne nustatyta valstybės ataka."
+    ]
+  },
+  "N196": {
+    "basis": "0184a774707cec6e",
+    "headline": "Eišiškės: pasieniečiai paėmė iš Baltarusijos cigaretes gabenusį droną",
+    "description": "Lietuva praneša apie atskirą rugsėjo 27 d. drono įsiveržimą netoli Eišiškių; paimta 100 pakelių cigarečių. Operatorius nežinomas.",
+    "summary": [
+      "VSAT pranešė apie iš Baltarusijos atskridusį cigaretes gabenusį droną rugsėjo 27 d., prieš vidurnaktį vietos laiku. Kitas patrulis droną perėmė netoli Eišiškių praėjus kelioms valandoms po pirmojo incidento. Dronas nukrito miesto teritorijoje ir buvo paimtas.",
+      "Pasieniečiai paėmė 100 pakelių cigarečių ir pradėjo administracinio nusižengimo teiseną. Operatorius nenustatytas. Tai kontrabandos per sieną atvejis, o ne nustatyta valstybės ataka."
+    ]
+  },
+  "N197": {
+    "basis": "b78a96fd3dd18174",
+    "headline": "Egėjo jūra: spalio 18 d. pranešta apie 6 oro erdvės pažeidimus",
+    "description": "Veteranos, remdamasis Graikijos kariuomenės pranešimais, aprašė 5 Turkijos bepiločius orlaivius centrinėje ir pietryčių Egėjo jūroje 2026 m. spalio 18 d., su 6 praneštais nacionalinės oro erdvės pažeidimais ir, atskirai, 10 Atėnų FIR eismo taisyklių pažeidimų.",
+    "summary": [
+      "Veteranos, remdamasis Graikijos kariuomenės pranešimais, aprašė 5 Turkijos bepiločius orlaivius centrinėje ir pietryčių Egėjo jūroje 2026 m. spalio 18 d., su 6 praneštais nacionalinės oro erdvės pažeidimais ir, atskirai, 10 Atėnų FIR eismo taisyklių pažeidimų.",
+      "Pranešime nurodomas nustatymas ir įprastas perėmimas, o ne ginklų panaudojimas ar numušimas.",
+      "Tai vienas šaltiniui priskiriamas dienos įrašas, o ne atskirų patvirtintų įsiveržimų skaičius. Originalus Graikijos kariuomenės registro įrašas nebuvo gautas, o takai, tikslios vietos, ketinimai ir operatoriaus duomenys nepatikrinti. Graikijos ir Turkijos ginčas dėl oro erdvės tebėra aktualus."
+    ]
+  },
+  "N198": {
+    "basis": "4035154a2ead9d19",
+    "headline": "Egėjo jūra: lapkričio 21 d. pranešta apie 3 oro erdvės pažeidimus",
+    "description": "Veteranos, remdamasis Graikijos kariuomenės pranešimais, aprašė vieną Turkijos bepilotį orlaivį centrinėje Egėjo jūroje 2026 m. lapkričio 21 d., su 3 praneštais nacionalinės oro erdvės pažeidimais ir, atskirai, 1 Atėnų FIR eismo taisyklių pažeidimu.",
+    "summary": [
+      "Veteranos, remdamasis Graikijos kariuomenės pranešimais, aprašė vieną Turkijos bepilotį orlaivį centrinėje Egėjo jūroje 2026 m. lapkričio 21 d., su 3 praneštais nacionalinės oro erdvės pažeidimais ir, atskirai, 1 Atėnų FIR eismo taisyklių pažeidimu.",
+      "Pranešime nurodomas nustatymas ir įprastas perėmimas, o ne ginklų panaudojimas ar numušimas.",
+      "Tai vienas šaltiniui priskiriamas dienos įrašas, o ne atskirų patvirtintų įsiveržimų skaičius. Originalus Graikijos kariuomenės registro įrašas nebuvo gautas, o takai, tikslios vietos, ketinimai ir operatoriaus duomenys nepatikrinti. Graikijos ir Turkijos ginčas dėl oro erdvės tebėra aktualus."
+    ]
+  },
+  "N199": {
+    "basis": "0198614f7d30239f",
+    "headline": "Rytinis RO-Alert šiaurinėje Tulčėjos apskrityje atšauktas, nepranešus apie įskridimą į Rumunijos oro erdvę",
+    "description": "Lapkričio 24 d. rytą, Ukrainos oro erdvėje aptikus taikinį, Rumunija perspėjo šiaurinę Tulčėjos apskritį. Apie įskridimą į Rumunijos oro erdvę nepranešta.",
+    "summary": [
+      "Lapkričio 24 d. rytą, Ukrainos oro erdvėje aptikus taikinį, Rumunija perspėjo šiaurinę Tulčėjos apskritį. Apie įskridimą į Rumunijos oro erdvę nepranešta.",
+      "Gynybos ministerija pranešė apie perspėjimą 11:11 EET, Ispanijos orlaivių vykdytą stebėjimą ir pavojaus atšaukimą 11:51 EET.",
+      "Vietos skubios pagalbos tarnybos pranešime nurodytas 10:11 telefoninio pranešimo gavimo laikas. Šis neatitikimas nereiškia antro rytinio pavojaus.",
+      "Tai atsargumo pavojus, o ne patvirtintas įsiveržimas į Rumuniją."
+    ]
+  },
+  "N200": {
+    "basis": "faba06a8d0d3b2db",
+    "headline": "Popietinis RO-Alert šiaurinėje Tulčėjos apskrityje atšauktas, nepranešus apie įskridimą į Rumunijos oro erdvę",
+    "description": "Lapkričio 24 d., Ukrainos oro erdvėje netoli Chilia atšakos aptikus taikinį, Rumunija vėl perspėjo šiaurinę Tulčėjos apskritį. Apie įskridimą į Rumunijos oro erdvę nepranešta.",
+    "summary": [
+      "Lapkričio 24 d., Ukrainos oro erdvėje netoli Chilia atšakos aptikus taikinį, Rumunija vėl perspėjo šiaurinę Tulčėjos apskritį. Apie įskridimą į Rumunijos oro erdvę nepranešta.",
+      "Gynybos ministerija pranešė apie 14:37 EET perspėjimą, stebėjimą orlaiviais ir 15:40 pavojaus atšaukimą šiaurinei Tulčėjos apskričiai. ProTV praneša, kad Galaco apskrityje oro pavojaus fazė prasidėjo 14:52 EET, gavus pranešimą apie nenustatytą droną, skrendantį apskrities link. Vietos IGSU pavojaus atšaukimas praneštas 15:46 EET.",
+      "Taikinio tapatybė, operatorius ir tai, į ką jis buvo nukreiptas, nežinomi. Nenustatyta, ar Tulčėjos ir Galaco perspėjimai buvo susiję su tuo pačiu taikiniu. Rytinis perspėjimas lieka atskiras.",
+      "Tai atsargumo pavojus, o ne patvirtintas įsiveržimas į Rumuniją."
+    ]
+  },
+  "N201": {
+    "basis": "a335379fd80fd841",
+    "headline": "Žaltūnai–Girdijauskai: Lietuva praneša apie kontrabandą dronais per sieną",
+    "description": "Po naktinės liepos operacijos ties Žaltūnais–Girdijauskais Lietuvos pasieniečiai paėmė 2 orlaivius ir 2000 pakelių cigarečių.",
+    "summary": [
+      "2026 m. liepos 9–10 d. (naktį). Pasieniečių tarnyba teigia naktį aptikusi iš Baltarusijos atskridusius dronus. Paieškas atnaujinus dienos šviesoje, pareigūnai netoli Žaltūnų ir Girdijauskų paėmė du krovininius dronus.",
+      "Pareigūnai iš 2 orlaivių paėmė 2000 pakelių cigarečių su Baltarusijos mokesčių markėmis. Pradėtas ikiteisminis tyrimas.",
+      "Operatorius, tiksli kirtimo vieta ir maršrutas nežinomi. Operacija registruojama kaip kontrabanda per sieną, o ne karinė ataka."
+    ]
+  },
+  "N202": {
+    "basis": "0eba63dd63dc7160",
+    "headline": "Šiulgiai–Šumskas: Lietuva praneša apie kontrabandą dronais per sieną",
+    "description": "Po naktinės liepos operacijos ties Šiulgiais–Šumsku Lietuvos pasieniečiai paėmė vieną orlaivį ir 340 pakelių cigarečių.",
+    "summary": [
+      "2026 m. liepos 17–18 d. (naktį). Pasieniečių tarnyba pranešė, kad į Lietuvą įskrido vienas krovininis dronas. Netoli Šiulgių pareigūnai droną girdėjo, bet nematė. Po įsikišimo jis nukrito, o apgadintas orlaivis dienos šviesoje paimtas netoli Šumsko.",
+      "Pareigūnai iš vieno orlaivio paėmė 340 pakelių cigarečių su Baltarusijos mokesčių markėmis. Pradėta administracinio nusižengimo teisena.",
+      "Operatorius, tiksli kirtimo vieta ir maršrutas nežinomi. Operacija registruojama kaip kontrabanda per sieną, o ne karinė ataka."
+    ]
+  },
+  "N203": {
+    "basis": "20d845bfb0acadf0",
+    "headline": "Norviliškės–Daulėnai: Lietuva praneša apie kontrabandą dronais per sieną",
+    "description": "Po naktinės liepos operacijos ties Norviliškėmis–Daulėnais Lietuvos pasieniečiai paėmė 3 orlaivius ir 3000 pakelių cigarečių.",
+    "summary": [
+      "2026 m. liepos 29–30 d. (naktį). Pasieniečių tarnyba pranešė apie iš Baltarusijos į Lietuvą įskrendančius krovininius dronus. Per vieną naktinę operaciją du orlaiviai paimti netoli Norviliškių, vienas – netoli Daulėnų; paskutinis paimtas jau dienos šviesoje.",
+      "Pareigūnai iš 3 orlaivių paėmė 3000 pakelių cigarečių su Baltarusijos mokesčių markėmis. Pradėtas ikiteisminis tyrimas.",
+      "Operatorius, tiksli kirtimo vieta ir maršrutas nežinomi. Operacija registruojama kaip kontrabanda per sieną, o ne karinė ataka."
+    ]
+  },
+  "N204": {
+    "basis": "1738bd94e1620fe1",
+    "headline": "Kiemėnai: Lietuvos pasieniečiai paėmė kontrabandos droną",
+    "description": "Po naktinės operacijos netoli Kiemėnų Lietuvos pasieniečiai paėmė droną ir 750 cigarečių pakelių.",
+    "summary": [
+      "2026 m. balandžio 16–17 d. VSAT teigė aptikusi iš Baltarusijos į Lietuvą skrendantį droną. Pasieniečiams įsikišus, dronas nukrito ir buvo paimtas netoli Kiemėnų.",
+      "Pareigūnai paėmė 750 pakelių cigarečių su Baltarusijos mokesčių markėmis ir pradėjo administracinio nusižengimo teiseną.",
+      "Operatorius, valstybės rėmimas ar tikslus skrydžio maršrutas nenustatyti. Tai kontrabandos per sieną įrašas, o ne karinė ataka."
+    ]
+  },
+  "N205": {
+    "basis": "1c7fd61759b9aa98",
+    "headline": "Prūdelis: Lietuvos pasieniečiai paėmė kontrabandos droną",
+    "description": "Po naktinės operacijos netoli Prūdelio Lietuvos pasieniečiai paėmė droną ir 1000 cigarečių pakelių.",
+    "summary": [
+      "2026 m. liepos 8–9 d. VSAT pranešė apie droną, skridusį nuo Baltarusijos sienos į šalies gilumą; tikslios kirtimo vietos ar maršruto ji nepaskelbė. Pasieniečiams įsikišus, dronas nukrito ir buvo paimtas netoli Prūdelio.",
+      "Pareigūnai paėmė 1000 pakelių cigarečių su Baltarusijos mokesčių markėmis ir pradėjo administracinio nusižengimo teiseną.",
+      "Operatorius, valstybės rėmimas ar tikslus skrydžio maršrutas nenustatyti. Tai kontrabandos per sieną įrašas, o ne karinė ataka."
+    ]
+  },
+  "N206": {
+    "basis": "0e4f136f9c21f1b4",
+    "headline": "Egėjo jūra · pranešta Turkijos bepiločių orlaivių veikla lapkričio 25 d.",
+    "description": "Graikijos institucijų duomenyse nurodyti trys Turkijos bepiločiai orlaiviai, keturi nacionalinės oro erdvės pažeidimai ir trys atskiri Atėnų FIR pažeidimai.",
+    "summary": [
+      "Kaip pranešė OnAlert ir Veteranos, Graikijos nacionalinės gynybos generalinis štabas (GEETHA) lapkričio 25 d. nurodė tris Turkijos bepiločius orlaivius, keturis praneštus Graikijos nacionalinės oro erdvės pažeidimus ir tris atskirus Atėnų FIR eismo taisyklių pažeidimus. Pranešimas apėmė šiaurės rytų, centrinę ir pietryčių Egėjo jūrą. Pranešta apie įprastą nustatymą ir perėmimą; karinis įsikišimas nenurodytas.",
+      "Skaičiai yra atskiri matai viename dienos kariniame biuletenyje, o ne patikrinti atskiri skrydžių takai ar atakų skaičiai. Abu pranešimai cituoja tą patį biuletenį; peržiūros metu oficiali mėnesio lentelė nebuvo tiesiogiai prieinama."
+    ]
+  },
+  "N207": {
+    "basis": "f3ab912199253de4",
+    "headline": "Kuodžiai: Lietuva praneša apie keturis kontrabandos dronus per vieną operaciją",
+    "description": "Po liepos 30 d. operacijos netoli Kuodžių Lietuvos pasieniečiai paėmė keturis dronus ir 4000 pakelių cigarečių.",
+    "summary": [
+      "2026 m. liepos 30 d., vakaras. Lietuvos valstybės sienos apsaugos tarnyba (VSAT) pranešė, kad keturi krovininiai dronai įskrido iš Baltarusijos ir per vieną operaciją netoli Kuodžių, Lazdijų rajone, buvo priversti nusileisti ir paimti.",
+      "Paimtas krovinys – iš viso 4000 pakelių cigarečių su Baltarusijos mokesčių markėmis. VSAT teigė, kad pradėtas ikiteisminis tyrimas. Tai viena dokumentuota operacija, o ne keturi atskiri incidentų įrašai.",
+      "Tikslus skrydžio maršrutas, operatoriaus tapatybė ar valstybės rėmimas nenustatyti. Tai nusikalstamos kontrabandos atvejis, o ne karinė ataka."
+    ]
+  },
+  "N208": {
+    "basis": "67a42221ac53e32e",
+    "headline": "Lietuvos pasieniečiai netoli Jurgionių paėmė kontrabandos droną ir 500 cigarečių pakelių",
+    "description": "Lietuvos pasieniečiai pranešė apie lapkričio 24 d. prieš vidurnaktį netoli Jurgionių iš Baltarusijos įskridusį droną ir paėmė 500 pakelių cigarečių.",
+    "summary": [
+      "Lietuvos pasieniečiai pranešė apie lapkričio 24 d. prieš vidurnaktį netoli Jurgionių iš Baltarusijos įskridusį droną ir paėmė 500 pakelių cigarečių.",
+      "Lapkričio 26 d. pranešime nurodoma, kad orlaivis buvo apgadintas smūgio metu. Pranešimo metu tai buvo 74-asis 2026 m. šioje teisėsaugos kategorijoje perimtas orlaivis, o ne 74-asis įrašas šiame registre."
+    ]
+  },
+  "N209": {
+    "basis": "da169e0f9823eba4",
+    "headline": "Lietuvos pasieniečiai praneša apie drono įskridimą netoli Purvėnų ir jo paėmimą netoli Geismantų",
+    "description": "Lietuvos pasieniečių tarnyba pranešė apie sausio 24 d. drono įskridimą ir paėmė jį netoli Geismantų su 1000 pakelių cigarečių.",
+    "summary": [
+      "Lietuvos pasieniečių tarnyba pranešė apie sausio 24 d. drono įskridimą ir paėmė jį netoli Geismantų su 1000 pakelių cigarečių.",
+      "Šis atvejis atskiras nuo atskirai pranešto sausio 27 d. incidento Purvėnuose."
+    ]
+  },
+  "N210": {
+    "basis": "55b583cfae9bda20",
+    "headline": "Lietuvos prokurorai dokumentuoja gegužės kontrabandos dronais operaciją Švenčionių rajone",
+    "description": "Lietuvos prokurorai teigė, kad gegužės 27 d. naktį dronais iš Baltarusijos per sieną atgabenta 35 500 cigarečių pakelių. Orlaivių skaičius nežinomas.",
+    "summary": [
+      "Lietuvos prokurorai teigė, kad gegužės 27 d. naktį dronais iš Baltarusijos per sieną atgabenta 35 500 cigarečių pakelių. Orlaivių skaičius nežinomas.",
+      "Pasieniečiai cigaretes paėmė, kai jos jau buvo gabenamos žeme. Apie drono perėmimą ar paėmimą nepranešta. Lapkričio 20 d. paskelbimo metu teismo sprendimas dar nebuvo įsiteisėjęs."
+    ]
+  },
+  "N211": {
+    "basis": "bdc463b805195983",
+    "headline": "Lietuvos pasieniečiai praneša netoli Jaskonių privertę nusileisti keturis kontrabandos dronus",
+    "description": "Lietuvos pasieniečiai pranešė per vieną operaciją netoli Jaskonių privertę nusileisti keturis atskrendančius dronus ir paėmę orlaivius bei 4998 cigarečių pakelius.",
+    "summary": [
+      "Lietuvos pasieniečiai pranešė per vieną operaciją netoli Jaskonių privertę nusileisti keturis atskrendančius dronus ir paėmę orlaivius bei 4998 cigarečių pakelius.",
+      "Liepos 7 d. pranešime minima penktadienio naktis, o paėmimai tęsėsi ir dienos šviesoje. Vidurnakčio riba nenurodyta. Tai ne vėlesnė Kuodžių operacija."
+    ]
+  },
+  "N212": {
+    "basis": "6379cdfa337a493b",
+    "headline": "Vakarinis perspėjimas šiaurinėje Tulčėjos apskrityje baigėsi, nepranešus apie įskridimą į Rumunijos oro erdvę",
+    "description": "Rumunijos gynybos ministerija pranešė, kad radaras aptiko nenustatytą oro taikinį į rytus nuo Vâlcove, Ukrainoje. Šiaurinei Tulčėjos apskričiai paskelbtas perspėjimas. Apie įskridimą į Rumunijos oro erdvę nepranešta.",
+    "summary": [
+      "Rumunijos gynybos ministerija pranešė, kad radaras aptiko nenustatytą oro taikinį į rytus nuo Vâlcove, Ukrainoje. Šiaurinei Tulčėjos apskričiai paskelbtas perspėjimas. Apie įskridimą į Rumunijos oro erdvę nepranešta.",
+      "18:52 EET paskelbtas RO-Alert baigėsi 19:11. Jau ore treniruotę vykdę Ispanijos orlaiviai buvo nukreipti stebėti.",
+      "Tai civilinis perspėjimas, o ne patvirtintas drono įsiveržimas."
+    ]
+  },
+  "N213": {
+    "basis": "4cb6890e53c1739e",
+    "headline": "Graikijos dienos pranešime lapkričio 26 d. Egėjo jūroje nurodyti šeši Turkijos bepiločiai orlaiviai",
+    "description": "Veteranos pranešė apie šešis Turkijos bepiločius orlaivius, devynis praneštus Graikijos nacionalinės oro erdvės pažeidimus ir devynis atskirus Atėnų FIR eismo taisyklių pažeidimus.",
+    "summary": [
+      "Veteranos pranešė apie šešis Turkijos bepiločius orlaivius, devynis praneštus Graikijos nacionalinės oro erdvės pažeidimus ir devynis atskirus Atėnų FIR eismo taisyklių pažeidimus.",
+      "Lentelė apima šiaurės rytų, centrinę ir pietryčių Egėjo jūrą; joje nenurodyta nei ginkluotų orlaivių, nei karinių įsikišimų.",
+      "Skaičiai yra atskiri matai iš vieno paskelbto dienos pranešimo, o ne patikrinti skrydžių takai ar atakų skaičiai."
+    ]
+  },
+  "N214": {
+    "basis": "669b6dce3baee574",
+    "headline": "Latvijos kariuomenė patvirtina trumpą drono įskridimą prie rytinės sienos",
+    "description": "Latvijos nacionalinės ginkluotosios pajėgos teigė, kad lapkričio 27 d. naktį vienas bepilotis orlaivis trumpai buvo Latvijos teritorijoje. Antras įskridimas Balviuose nepatvirtintas.",
+    "summary": [
+      "Latvijos nacionalinės ginkluotosios pajėgos teigė, kad lapkričio 27 d. naktį vienas bepilotis orlaivis trumpai buvo Latvijos teritorijoje. Antras įskridimas Balviuose nepatvirtintas.",
+      "Oranžinis perspėjimas Ludzoje galiojo 02:30–02:55 EET. Geltonas perspėjimas Balviuose prasidėjo 02:55 ir baigėsi apie 03:30. Buvo aktyvuoti NATO naikintuvai, o Latvijos dronas perėmėjas buvo pakeltas ir grįžo.",
+      "Kariuomenė nenurodė drono operatoriaus, kilmės ar taikinio ir apie numušimą nepranešė."
+    ]
   }
 }

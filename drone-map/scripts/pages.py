@@ -25,8 +25,9 @@ from database import ROOT, DataError, mapped_events, read_json
 SITE = 'https://droneincidents.eu'
 SITE_NAME = 'Europe Foreign Drone Events'
 # Hash all facts, including future fields and cited source metadata. Merely recording
-# when a record was reviewed does not change the facts its copy was written from.
-BASIS_METADATA = {'reviewedOn'}
+# when a record was reviewed, or flagging reported casualties for the badge, does
+# not change the facts its copy was written from.
+BASIS_METADATA = {'reviewedOn', 'casualties'}
 PAGE_FIELDS = {'slug', 'headline', 'description', 'summary', 'basis'}
 SLUG = re.compile(r'\d{4}-\d{2}-\d{2}(-[a-z0-9]+)+')
 MONTHS = ('January February March April May June July August September October '

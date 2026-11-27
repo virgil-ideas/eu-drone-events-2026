@@ -118,13 +118,13 @@
   },
   "E013": {
     "headline": "Scriostar blúirí dróin le muirear pléascach in aice le Luncavița, sa Rómáin",
-    "description": "Ar an 26 Aibreán 2026 fuarthas blúirí dróin le muirear pléascach idir Luncavița agus Văcăreni, sa Rómáin, agus scriosadh iad. Tá a mbunús á imscrúdú.",
+    "description": "D’aithin Aireacht Chosanta na Rómáine níos déanaí gur chuid de theagmhas Geran-2 a cuireadh i leith na Rúise na blúirí dróin a fuarthas in aice le Luncavița an 26 Aibreán 2026.",
     "summary": [
       "Ar an 26 Aibreán 2026 tuairiscíodh tuilleadh blúirí dróin idir Luncavița agus Văcăreni i gContae Tulcea, sa Rómáin, lá tar éis blúirí a fháil in aice le feirm ag Văcăreni. Deimhníodh muirear pléascach i measc an ábhair, agus eisíodh rabhadh sábháilteachta RO-Alert.",
-      "Tá tionscnamh na mblúirí á imscrúdú, agus tuairiscíodh imscrúdú ag ionchúisitheoirí i gCúirt Achomhairc Constanța. Ní eol cathain a d’eitil an drón nó cathain a thit sé. Ní dheimhnítear gur dara drón iomlán iad na blúirí, agus níor bunaíodh ar tháinig siad féin agus fionnachtain an lae roimhe sin ó aerfhráma amháin nó ó níos mó.",
+      "I ráiteas an 31 Bealtaine, liostaigh MApN go haisbhreathnaitheach Luncavița an 26 Aibreán i measc teagmhais Geran-2 níos luaithe a cuireadh i leith na Rúise. Nuashonraíonn sé seo an bunús tosaigh a bhí gan réiteach, ach ní bhunaíonn sé cathain a d’eitil an drón nó cathain a thit sé, ná a bhealach ná a sprioc bheartaithe. Ní dheimhnítear gur dara drón iomlán iad na blúirí, agus fanann a nasc aerfhráma le fionnachtain an lae roimhe sin gan réiteach.",
       "Rinne pirtheicneolaithe ón SRI agus speisialtóirí ó Aireacht Chosanta na Rómáine (MApN) measúnú ar an ábhar, a scriosadh ansin i bpléascadh rialaithe ar an láthair faoi údarás an ionchúisitheora. Níor tuairiscíodh aon taismigh."
     ],
-    "basis": "88e415a73fd8096d"
+    "basis": "b590e35104316219"
   },
   "E014": {
     "headline": "Drón de bhunús anaithnid aimsithe in aice le Șerbăuți i gContae Suceava, sa Rómáin",
@@ -171,9 +171,9 @@
     "summary": [
       "Ar an 15 Bealtaine 2026 spreag gníomhaíocht amhrasta dróin i gceantar cathrach Heilsincí san Fhionlainn bearta cosanta fairsinge. Tugadh rabhadh do chónaitheoirí fanacht istigh, cuireadh gníomhaíocht ag an aerfort ar fionraí agus cuireadh scairdeitleáin chomhraic ar eitilt go práinneach. Níor réitíodh cé mhéad drón a bhí i gceist, ná cén cineál.",
       "Níor cruthaíodh bunús coigríche, agus ní eol bealach aon dróin. Rinne údaráis na Fionlainne measúnú ar an mbagairt, agus níor dheimhnigh a ráiteas ag an am bagairt mhíleata dhíreach. Foláireamh agus cur isteach a bhí sa tréimhse, ní ionsaí deimhnithe.",
-      "Níor tuairiscíodh aon díobháil choirp."
+      "Níor tuairiscíodh aon díobháil choirp. Deimhníonn oibreoir an aerfoirt, Finavia, gur cuireadh an trácht aeir ar fionraí ó 04:00 go 07:00 am áitiúil agus gur atosaíodh é ansin, le moilleanna agus cealuithe an lá sin. Ní thugann sé líon iomlán na gcealuithe agus ní shainaithníonn sé drón."
     ],
-    "basis": "8dcd29f016872e0a"
+    "basis": "22793f6506f0bdbc"
   },
   "E019": {
     "headline": "Raic dróin Úcránaigh amhrasta aimsithe in aice le Utena, sa Liotuáin",
@@ -255,24 +255,25 @@
     "basis": "a18eddeece7bbecb"
   },
   "E027": {
-    "headline": "Cuirtear iallach ar dhrón smuigleála baile-dhéanta tuirlingt in aice le teorainn na Bealarúise sa Liotuáin",
-    "description": "Ar an 23 Bealtaine 2026 cuireadh iallach ar dhrón lasta baile-dhéanta, a tuairiscíodh a bheith tagtha ón mBealarúis, tuirlingt agus urghabhadh é ag Dumblė, ceantar Šalčininkai, sa Liotuáin, i gcás smuigleála.",
+    "headline": "Drón smuigleála aisghafa gan lasta in aice le Dumblė",
+    "description": "Deir gardaí teorann na Liotuáine nach raibh aon lasta ar an drón baile-dhéanta a thit in aice le Dumblė an 23 Bealtaine 2026 agus go ndearnadh drochdhamáiste dó ag an tuairteáil.",
     "summary": [
-      "Ar an 23 Bealtaine 2026 cuireadh iallach, de réir tuairiscí, ar dhrón lasta baile-dhéanta a bhí ag iompar earraí smuigleáilte tuirlingt ag Dumblė, i gceantar Šalčininkai sa Liotuáin ar an teorainn leis an mBealarúis. D’idircheap oifigigh forfheidhmithe teorann an drón agus urghabh siad é.",
-      "Tuairiscíodh gur tháinig an drón ón mBealarúis. Eitilt choiriúil smuigleála a bhí ann, ní eitilt mhíleata, agus níor aithníodh an t-oibreoir. Ní raibh sonraí ar an lasta ná ar an drón féin ar fáil.",
-      "Níor tuairiscíodh aon lasta pléascach ná taismigh. Cuireann tuairiscí síos ar thuirlingt éigeantach agus ar urghabháil, ní ar scaoileadh anuas ná ar thuairteáil."
+      "Ar an 23 Bealtaine 2026 thit drón baile-dhéanta, a thuairiscigh seirbhís gardaí teorann na Liotuáine (VSAT) a bheith tagtha isteach ón mBealarúis, in aice le Dumblė, i gceantar Šalčininkai, tar éis do ghardaí teorann idirghabháil a dhéanamh.",
+      "Nuair a d’aisghabh oifigigh an t-aerárthach, bhí drochdhamáiste déanta dó agus ní raibh aon lasta air. Ceartaíonn fógra bunaidh VSAT an cur síos níos luaithe ar dhrón luchtaithe.",
+      "Chuir VSAT síos ar an aerárthach mar aerárthach de chuid smuigléirí. Ní eol cé hé an t-oibreoir. Níor tuairiscíodh aon taismigh ná scaoileadh anuas cinéiteach."
     ],
-    "basis": "e9db67cdbd535522"
+    "basis": "9db105cbb575f730"
   },
   "E028": {
     "headline": "Deir an Rómáin gur bhuail drón Rúiseach bloc árasán i nGalați, ag gortú beirt",
-    "description": "Thar oíche an 29 Bealtaine 2026 bhuail drón bloc árasán i nGalați, sa Rómáin, ag gortú beirt. D’aithin údaráis na Rómáine gur drón Rúiseach a bhí ann; chuir Moscó an cur i leith faoi dhíospóid.",
+    "description": "Thar oíche an 29 Bealtaine 2026 bhuail drón bloc árasán i nGalați, sa Rómáin, ag gortú beirt. D’aithin údaráis na Rómáine gur drón Rúiseach a bhí ann; chuir Moscó é sin faoi dhíospóid.",
     "summary": [
-      "Thar oíche an 29 Bealtaine 2026 bhuail drón díon bloc árasán i gceantar Mazepa de Galați, sa Rómáin, agus thosaigh tine. D’fhulaing beirt mionghortuithe, aslonnaíodh cónaitheoirí agus rinneadh damáiste do thithe. Mheas oifigigh go raibh 30 kg pléascán ar a laghad ag an drón.",
+      "Thar oíche an 29 Bealtaine 2026 bhuail drón díon bloc árasán i gceantar Mazepa i nGalați, sa Rómáin, agus thosaigh tine. D’fhulaing beirt mionghortuithe, aslonnaíodh cónaitheoirí agus rinneadh damáiste do thithe. Mheas oifigigh go raibh 30 kg pléascán ar a laghad ag an drón.",
       "Bunaithe ar mheasúnú oifigiúil radair agus smionagair, d’aithin údaráis na Rómáine gur drón Rúiseach Geran-2 a bhí ann. Bhí baint aige le tonn níos leithne de 43 drón in ionsaithe ar an Úcráin agus rinne sé eitilt ghearr thar an Rómáin sular bhuail sé. Chuir Moscó an cur i leith faoi dhíospóid. Níor chuir an Rómáin síos ar an ionsaí mar ionsaí d’aon ghnó a bhí dírithe ar an Rómáin.",
-      "Cuireadh dhá F-16 Rómánacha agus héileacaptar ar eitilt go práinneach ach níor chuaigh siad i ngleic leis an drón os cionn na cathrach, agus scrúdaíodh an láithreán. Díbríodh consal na Rúise agus dúnadh an chonsalacht mar fhreagairt. Is teagmhas ar leith é ó thuairteáil dróin i nGalați an 25 Aibreán 2026."
+      "Cuireadh dhá F-16 Rómánacha agus héileacaptar ar eitilt go práinneach ach ní dheachaigh siad i ngleic leis an drón os cionn na cathrach, agus scrúdaíodh an láithreán. Díbríodh consal na Rúise agus dúnadh an chonsalacht mar fhreagairt. Is teagmhas ar leith é ó thuairteáil dróin i nGalați an 25 Aibreán 2026.",
+      "Ina litir an 29 Bealtaine chuig Comhairle Slándála na NA, thuairiscigh an Rómáin rianú radair isteach go deisceart Galați, tionchar ar dhíon cónaithe, tine, dhá ghortú agus aslonnú. Cuireann an litir an drón i leith na Rúise gan an tsamhail ná meáchan an lasta a shainaithint."
     ],
-    "basis": "867f5d0e86da38f7"
+    "basis": "839ef0ac20cfdff4"
   },
   "E029": {
     "headline": "Spreagann gníomhaíocht dróin amhrasta foláirimh ar theorainneacha na Laitvia agus na hEastóine",
@@ -299,10 +300,10 @@
     "description": "Ar an 8 Meitheamh 2026 scaoil scairdeitleán comhraic Francach de chuid NATO drón anuas i spás aeir na Laitvia in aice le Bērzgale. Níor sainaithníodh a náisiúntacht ná a shamhail go cinntitheach.",
     "summary": [
       "Ar an 8 Meitheamh 2026 chuaigh drón (UAV) isteach i spás aeir na Laitvia agus idircheapadh é i gceantar Bērzgale sa Laitvia. Scaoil scairdeitleán comhraic Francach a bhí ag feidhmiú le NATO anuas é ansin.",
-      "Níor sainaithníodh náisiúntacht ná samhail an dróin go cinntitheach i gcuntais chomhaimseartha ar an teagmhas. Déileáiltear leis mar dhrón coigríche, ach níor bunaíodh a bhunús; níor sonraíodh a bhealach, agus ní eol cad a bhí á iompar aige, más ann do rud ar bith.",
+      "Dúirt urlabhraí míleata Laitviach le Reuters gur tháinig an drón isteach ón Rúis, de réir Euronews. Níor bunaíodh a rian beacht ná a láthair seolta. Ní shainaithníonn an treo iontrála a tuairiscíodh a oibreoir ná a náisiúntacht; d’fhan a shamhail, a lasta agus a sprioc bheartaithe gan réiteach sna cuntais a athbhreithníodh.",
       "Níor tuairiscíodh aon taismigh sa Laitvia. Tar éis an scaoilte anuas, lean cuardach ar an raic agus imscrúdú ar an smionagar."
     ],
-    "basis": "74bcaba3125d8355"
+    "basis": "c7ae1c343f0f6430"
   },
   "E032": {
     "headline": "Scriosann an Rómáin blúirí dróin in aice le Rachelu a d’aithin sí mar dhrón Rúiseach",
@@ -315,14 +316,15 @@
     "basis": "a2522d4f06337eee"
   },
   "E033": {
-    "headline": "Tuairiscíonn criú long LPG ionsaí dróin amach ó Sfântu Gheorghe, sa Rómáin",
-    "description": "Ar an 21 Iúil 2026 rinne pléascanna damáiste mór do long LPG sa Mhuir Dhubh amach ó Sfântu Gheorghe, sa Rómáin. Chuir an criú síos ar thrí dhrón; níl drón mar chúis deimhnithe.",
+    "headline": "Tine ar GAS LISBON amach ón Rómáin: fuair mairnéalach amháin bás; drón mar chúis gan deimhniú",
+    "description": "Aslonnaíodh an criú ar fad, 17 duine, ó GAS LISBON amach ón Rómáin an 21 Iúil. Fuair duine den triúr a gortaíodh bás dhá lá ina dhiaidh sin. Níl drón mar chúis deimhnithe fós.",
     "summary": [
-      "Le linn oíche agus maidin an 21 Iúil 2026 rinne pléascanna damáiste mór do long cheannaíochta a bhí ag iompar LPG sa Mhuir Dhubh, thart ar 26 km amach ó Sfântu Gheorghe, sa Rómáin, agus bhuail tine sa soitheach. Tuairiscíodh go raibh an suíomh lasmuigh d’uiscí críochacha na Rómáine.",
+      "Bhain pléasc agus tine don tancaer LPG GAS LISBON, faoi bhratach na Libéire, amach ó Sfântu Gheorghe i gCEE na Rómáine, lasmuigh dá huiscí críochacha. Logáil an tÚdarás Cabhlaigh an foláireamh anacair ag 00:05 am áitiúil an 21 Iúil; ní hé sin am fíoraithe an phléasctha.",
       "Chuir beirt den chriú síos ar ionsaí san oíche ag trí dhrón. Déileáiltear lena gcuntas mar líomhain, ní mar shainaithint chríochnaitheach ar an arm: níor sainaithníodh cineál an dróin, na gléasanna ná na muirir a úsáideadh, an pointe seolta ná an t-oibreoir nó an náisiúntacht, agus níor deimhníodh gur drón ba chúis leis.",
-      "Ghabh seirbhísí tarrthála muirí na Rómáine isteach agus thug siad an criú slán. Tuairiscíodh gortuithe, lena n-áirítear dónna. Is teagmhas ar leith é ó éigeandáil iompróra mórlasta amach ón gcósta céanna an 24 Iúil agus ó theagmhas Progress IV i Lúnasa."
+      "Tá sé seo scartha ó éigeandáil an iompróra mórlasta an 24 Iúil agus ó thionóisc PROGRESS IV i Lúnasa.",
+      "Aslonnaíodh an criú ar fad, 17 duine. Gortaíodh triúr; fuair duine den triúr sin bás an 23 Iúil in ospidéal Tulcea, a dúirt Aireacht Sláinte na Rómáine le AGERPRES. Thacaigh tuairisciú ó rialtas na nOileán Filipíneach leis an mbás agus le filleadh abhaile an bheirt mhairnéalach eile a gortaíodh. Ní bhunaíonn toradh na dtaismeach gur drón ba chúis leis."
     ],
-    "basis": "6f6ef8fc3dd8a8e7"
+    "basis": "5b25f8a67d378d86"
   },
   "E034": {
     "headline": "Déantar damáiste don iompróir mórlasta Christina B amach ón Rómáin; mianach nó drón gan réiteach",
@@ -384,14 +386,13 @@
     "basis": "ea7f019b9a1f4ed6"
   },
   "E040": {
-    "headline": "Ceanglaíonn an Ghearmáin drón aerfoirt Leipzig le daoine ag gníomhú ar son gníomhaireachtaí Rúiseacha",
-    "description": "Ar an 4–5 Lúnasa 2026 theip ar mhuirear dróin phléascaigh in Aerfort Leipzig/Halle, sa Ghearmáin. Chuir an Ghearmáin an locht ar dhaoine a bhí ag gníomhú ar son gníomhaireachtaí Rúiseacha; shéan an Rúis é.",
+    "headline": "Eitilt dróin: Aerfort Leipzig/Halle, an Ghearmáin",
+    "description": "4 Lúnasa 2026, Aerfort Leipzig/Halle, an Ghearmáin. Braisle ionsaithe le dróin phléascacha; cur i leith oifigiúil stáit. Shroich drón pléascach an t-aerfort ach theip ar an muirear.…",
     "summary": [
-      "Thar oíche 4–5 Lúnasa 2026 shroich drón a bhí ag iompar pléascán gairmiúil agus pléascóra Aerfort Leipzig/Halle i Schkeuditz, sa Ghearmáin, ach theip ar an muirear. Cuireadh isteach ar an aerfort. Ar leithligh, thuairiscigh aerárthach lasta gur casadh réad air in imbhualadh amhrasta agus gur athraigh sé cúrsa go Hanóbhar; tuairiscíodh damáiste beag don aerárthach, ach níor sainaithníodh an réad go cinntitheach mar dhrón. An 14 Lúnasa fuarthas tuilleadh dróin ionsaithe amhrasta in aice le Kabelsketal; tuairiscíodh an fhionnachtain an 25 Lúnasa, agus tuairiscíodh go raibh thart ar 50 g RDX amhrasta bainteach leis an réad.",
-      "An 1 Meán Fómhair chuir an Ghearmáin an oibríocht i leith daoine a bhí ag gníomhú ar son gníomhaireachtaí stáit Rúiseacha. Shéan an Rúis freagracht. Níor foilsíodh an fhianaise fhoireansach agus faisnéise uile atá taobh thiar den chur i leith, agus níor bunaíodh an pointe seolta.",
-      "Níor tuairiscíodh aon taismigh. Rinne póilíní, foirne diúscartha buamaí le róbat agus ionchúisitheoirí cónaidhme imscrúdú, urghabhadh an gléas breise, agus lean bearta taidhleoireachta níos déanaí."
+      "Shroich drón pléascach an t-aerfort ach theip ar an muirear. Ar leithligh, thuairiscigh aerárthach lasta teagmháil le réad agus d’athraigh sé cúrsa. Aisghabhadh drón ionsaithe amhrasta breise in aice le Kabelsketal.",
+      "Braisle ionsaithe le dróin phléascacha; cur i leith oifigiúil stáit. An 1 Meán Fómhair chuir an Ghearmáin an oibríocht i leith daoine a bhí ag gníomhú ar son gníomhaireachtaí stáit Rúiseacha; shéan an Rúis freagracht. Taifeadtar cur i leith oifigiúil na Gearmáine mar chur i leith, ní mar fhoilsiú poiblí ar an bhfianaise fhóiréinseach/faisnéise uile atá taobh thiar de. Coinnítear séanadh na Rúise. Fanann fionnachtana mhí na Samhna maidir leis an láthair seolta agus leis an trealamh ina measúnuithe imscrúdaithe, ní ina gcruthúnas ar chiontacht aon duine aonair."
     ],
-    "basis": "fd5d244bb50c3706"
+    "basis": "cc6d63474657af35"
   },
   "E041": {
     "headline": "Radharc ar dhá dhrón os cionn suiteála míleata in iarthar na Gearmáine",
@@ -455,13 +456,14 @@
   },
   "E047": {
     "headline": "Scaoileann F-16 Rómánach ar dhrón cabhlaigh pléascach in aice le hoibreacha Neptun Deep",
-    "description": "Ar an 20 Lúnasa 2026 rinne F-16 Rómánach damáiste do dhrón muirí pléascach in aice le Neptun Deep, i gCEE na Rómáine, sula ndearna an Cabhlach é a neodrú. Níl a bhunús réitithe.",
+    "description": "Rinne an Rómáin drón muirí pléascach a neodrú in aice le Neptun Deep an 20 Lúnasa. Chuir a huachtarán i leith Chabhlach na Rúise é níos déanaí.",
     "summary": [
-      "Ar an 20 Lúnasa 2026 braitheadh soitheach dromchla gan foireann, nó drón muirí, a bhí ag iompar pléascán, cúpla céad méadar ó oibreacha amach ón gcósta Neptun Deep, thart ar 80 muirmhíle soir ó Constanța i gcrios eacnamaíoch eisiach na Rómáine. Níl sé réitithe ar tháinig sé i ngar do na hoibreacha nó ar imigh sé leis an sruth ina dtreo, ná cad a bhí beartaithe dó a dhéanamh.",
+      "Ar an 20 Lúnasa 2026 braitheadh soitheach dromchla gan foireann, nó drón muirí, a bhí ag iompar pléascán, cúpla céad méadar ó oibreacha amach ón gcósta Neptun Deep, thart ar 80 muirmhíle soir ó Constanța i gcrios eacnamaíoch eisiach na Rómáine.",
       "Scaoil F-16 Rómánach tine ghunna mhóir air, ag déanamh damáiste dó ach gan é a scriosadh go hiomlán, agus rinne foireann diúscartha ordanáis phléascaigh de chuid an Chabhlaigh é a neodrú ansin. Dheimhnigh tuairisciú oifigiúil muirear pléascach de mhéid nár sonraíodh. Chuir an aireacht chosanta síos ar dhá dhrón ar dtús agus cheartaigh sí é seo ina dhiaidh sin go dtí ceann amháin. Níor tuairiscíodh aon taismigh ná damáiste don bhonneagar.",
-      "Ní eol pointe seolta ná oibreoir an dróin. Dúirt aire cosanta na Rómáine go ndearna an Úcráin a dheimhniú nárbh Úcránach é; ní bhunaíonn an ráiteas sin cé a sheol é i ndáiríre. Tá an cás scartha ón drón aeir a thuairteáil in aice le Grindu an lá céanna."
+      "An 23 Meán Fómhair dúirt an tUachtarán Nicușor Dan le Comhairle Slándála na NA gur drón de chuid Chabhlach na Rúise a bhí sa drón an 20 Lúnasa. Níor nocht sé an fhianaise a bhí taobh thiar den chur i leith. Fanann an pointe seolta agus an sprioc bheartaithe gan fíorú. Tá an cás scartha ón drón aeir a thuairteáil in aice le Grindu an lá céanna.",
+      "I gcuntas aisbhreathnaitheach a d’fhoilsigh SpotMedia an 24 Samhain, chuir an t-iar-aire cosanta Radu Miruță síos ar oibrithe ag scannánú an dróin in aice le tacaí an ardáin agus ar thuga ag iarraidh é a choinneáil amach uaidh. Thuairiscigh sé freisin go bhfuair sé fógra Rúiseach srianta eitilte tar éis dó freagairt na scairdeitleán comhraic a ordú. Níor athbhreithníodh an fógra bunaidh go neamhspleách; nuashonraíonn na sonraí seo teagmhas mhí Lúnasa, ní tarlú nua iad."
     ],
-    "basis": "d752991b133cd913"
+    "basis": "d09904239858514b"
   },
   "E048": {
     "headline": "Scriosann an Cabhlach smionagar dróin phléascaigh a fuarthas ar thrá Tuzla, sa Rómáin",
@@ -518,10 +520,11 @@
     "description": "Ar an 27 Lúnasa 2026 bhuail tine an long Progress IV agus chuaigh sí go tóin poill amach ó Sfântu Gheorghe i gCEE na Rómáine. Tarrtháladh na 12 bhall criú ar fad; ionsaí dróin gan deimhniú.",
     "summary": [
       "Ar an 27 Lúnasa 2026 bhuail tine an long cheannaíochta Progress IV agus chuaigh sí go tóin poill sa Mhuir Dhubh, thart ar 15–20 muirmhíle amach ó Sfântu Gheorghe i gcrios eacnamaíoch eisiach na Rómáine. Tháinig glao anacair thart ar 17:55 am áitiúil, agus bhí na 12 bhall criú ar fad tarrthálta faoi 20:47.",
-      "Líomhnaíodh tionchar ar an long, agus dúirt na húdaráis go raibh gá le himscrúdú ar a chúis. Fanann ionsaí dróin ina hipitéis: níor sainaithníodh aon drón ná arm eile, agus níor bunaíodh aon phléasc ná ionsaí dróin. Tuairiscíodh gur faoi bhratach Phoblacht Dhoiminiceach a bhí an long, agus luaigh foinse de chuid thionscal na loingseoireachta Doiminice.",
-      "Gortaíodh ball criú amháin, agus tuairiscíodh go raibh lámh bhriste air; ní thacaíonn cuntais níos déanaí le cur síos níos luaithe ar ghortú tromchúiseach. Chomhordaigh an t-ionad comhordaithe tarrthála muirí (MRCC) long thráchtála, na Póilíní Teorann agus longa tarrthála."
+      "Líomhnaíodh tionchar ar an long, agus dúirt na húdaráis go raibh gá le himscrúdú ar a chúis. D’fhan ionsaí dróin ina hipitéis: níor sainaithníodh aon drón ná arm eile, agus níor bunaíodh aon phléasc ná ionsaí dróin. Tuairiscíodh gur faoi bhratach Phoblacht Dhoiminiceach a bhí an long, agus luaigh foinse de chuid thionscal na loingseoireachta Doiminice.",
+      "Gortaíodh ball criú amháin, agus tuairiscíodh go raibh lámh bhriste air; ní thacaíonn cuntais níos déanaí le cur síos níos luaithe ar ghortú tromchúiseach. Chomhordaigh an t-ionad comhordaithe tarrthála muirí (MRCC) long thráchtála, na Póilíní Teorann agus longa tarrthála.",
+      "An 24 Samhain thuairiscigh Libertatea gur mheas Stiúrthóireacht Hidreagrafach Mhuirí na Rómáine gur bhuail drón an soitheach. Bunaíonn fógraí loingseoireachta foilsithe na Stiúrthóireachta an raic agus tuairiscíonn siad guaiseacha, ach ní thugann siad cúis. Níl aon fhionnachtain fhóiréinseach, arm ná oibreoir bunaithe."
     ],
-    "basis": "f4b55e178bf70b3a"
+    "basis": "7df77fa9b948d455"
   },
   "E054": {
     "headline": "Aimsíonn aoire drón pléascach in aice le Viișoara, sa Rómáin; bunús faoi dhíospóid",
@@ -534,14 +537,14 @@
     "basis": "cfac143f34b000e0"
   },
   "E055": {
-    "headline": "Aisghabhadh drón mapála de bhunús anaithnid ar chósta theas na Fionlainne",
-    "description": "Ar an 2 Meán Fómhair 2026 aisghabhadh drón mapála de bhunús anaithnid ar chósta theas na Fionlainne. Rinneadh imscrúdú ar shárú críochach a d’fhéadfadh a bheith ann.",
+    "headline": "Drón Pellinki aimsithe an 1 Meán Fómhair; measadh gur dócha gur de bhunús Rúiseach é",
+    "description": "Measadh gur dócha gur de bhunús Rúiseach an drón a aimsíodh in Pellinki an 1 Meán Fómhair. Dúirt imscrúdaitheoirí gur thit sé san fharraige lasmuigh den Fhionlainn; lean na fiosrúcháin.",
     "summary": [
-      "Ar an 2 Meán Fómhair 2026 d’aisghabh na húdaráis drón suirbhéireachta nó mapála (UAV) ar chósta theas na Fionlainne. Níor tugadh an suíomh beacht sa tuairisc a luadh. Is é dáta na haisghabhála atá ann; ní eol cathain a d’eitil an drón, ná cén bealach.",
-      "Ní eol bunús ná oibreoir an dróin. Níor bunaíodh gur tháinig sé ó thar lear, agus ní ghlactar leis gur drón míleata coigríche é.",
-      "Cuireadh síos ar an drón mar dhrón neamhghuaiseach, gan aon lasta guaiseach sainaitheanta, agus níor tuairiscíodh aon damáiste ná taismigh. Rinne na húdaráis imscrúdú an raibh an eitilt ina sárú críochach."
+      "D’aimsigh sibhialtach UAV i measc charraigeacha cladaigh Pellinki an 1 Meán Fómhair 2026; dheimhnigh patról de chuid an Gharda Teorann é. Ba é dáta níos luaithe an chláir, an 2 Meán Fómhair, dáta an chéad eisiúna. Coinnítear seoladh an leathanaigh fhoilsithe.",
+      "An 10 Meán Fómhair dúirt an Garda Teorann gur thug sonraí an ghléis le fios gur dócha gur aerárthach de bhunús Rúiseach a bhí ann a chaill smacht agus a rith as breosla sular thit sé san fharraige lasmuigh den Fhionlainn. Ba fhionnachtain thosaigh í agus lean an t-imscrúdú ar aghaidh.",
+      "Fanann sé seo ina aisghabháil amháin, ní ina ionradh aeir ná ina thuairteáil bhunaithe san Fhionlainn. Fanann an t-oibreoir agus an cuspóir bunaidh gan réiteach. Is ancaire neasach san oileánra é an pointe ar an léarscáil."
     ],
-    "basis": "30e03e74f6707d09"
+    "basis": "de38e633c3a7e190"
   },
   "E056": {
     "headline": "Trasnaíonn drón scairdghluaiste a tuairiscíodh a bheith Rúiseach isteach in oirthuaisceart na Rómáine ón Moldóiv",
@@ -554,14 +557,14 @@
     "basis": "7b1f8e2c4bb81edb"
   },
   "E057": {
-    "headline": "Aisghabhadh drón míleata Rúiseach amhrasta amach ó thrá Rusinowo, sa Pholainn",
-    "description": "Ar an 14 Meán Fómhair 2026 tharraing míleata na Polainne drón as an bhfarraige amach ó thrá Rusinowo; is é measúnú tosaigh an aire cosanta gur drón Rúiseach é.",
+    "headline": "Drón aisghafa ag trá Rusinowo; diúscraíodh an ceann cogaidh go sábháilte",
+    "description": "Caitheadh drón i dtír in aice le Rusinowo an 14 Meán Fómhair. Shainaithin ionchúisitheoirí go tosaigh Gerbera a rinneadh sa Rúis agus chuir siad síos ar dhiúscairt rialaithe an chinn chogaidh.",
     "summary": [
-      "Ar an 14 Meán Fómhair 2026 fuair míleata na Polainne drón míleata amhrasta sa Mhuir Bhailt díreach amach ó thrá Rusinowo, gar do Jarosławiec ar chósta na Polainne, agus tharraing sé amach as an uisce é lena scrúdú. Is é dáta na fionnachtana agus na haisghabhála atá ann; ní eol cathain a d’eitil an drón, ná cén bealach a ghlac sé chun cósta na Polainne a bhaint amach.",
-      "Dúirt aire cosanta na Polainne gurbh é an measúnú tosaigh gur drón míleata Rúiseach a bhí ann. Is sainaithint thosaigh í sin agus braitheann sí ar scrúdú an dróin aisghafa. Níor tuairiscíodh aon lasta.",
-      "Níor tuairiscíodh aon taismigh ná damáiste i ndáil leis an bhfionnachtain."
+      "Chonaic criú cabhlaigh UAV ag imeacht le sruth in aice le Jarosławiec thart ar 09:20 an 14 Meán Fómhair; caitheadh i dtír é in aice le Rusinowo thart ar 11:25, de réir ráiteas ionchúisitheoir Poznań an 1 Deireadh Fómhair. Is tarlú aisghabhála agus diúscartha amháin é seo, ní teagmhas eile ar dháta foilsithe an nuashonraithe.",
+      "Scar speisialtóirí ceann cogaidh a bhféadfadh muirear pléascach a bheith ann agus scrios siad é i bpléascadh rialaithe. Shainaithin imscrúdaitheoirí go tosaigh Gerbera a rinneadh sa Rúis. Fanann an t-oibreoir, an sprioc, bealach na heitilte agus cúinsí an tuairteála san fharraige gan réiteach; ní bhunaíonn an áit déantúsaíochta an t-oibreoir ná an aidhm.",
+      "Aistríodh an t-imscrúdú go Poznań an 25 Meán Fómhair agus ordaíodh scrúduithe speisialtóra. Níor tuairiscíodh aon taismigh ná damáiste."
     ],
-    "basis": "5071f4361b5692d3"
+    "basis": "4c37729989b9a2c5"
   },
   "E058": {
     "headline": "Scaoileann scairdeitleán Iodálach de chuid NATO drón Gerbera anuas in aice le Pratkūnai, sa Liotuáin",
@@ -569,9 +572,9 @@
     "summary": [
       "Thar oíche an 14–15 Meán Fómhair 2026 chuaigh scairdeitleán comhraic Iodálach a bhí ag feidhmiú le NATO i ngleic le drón os cionn na Liotuáine in aice le Pratkūnai agus scaoil sé anuas é. Scrúdaigh údaráis na Liotuáine an smionagar agus leictreonaic an dróin ansin. Níor tuairiscíodh aon taismigh.",
       "Sainaithníodh an drón mar Gerbera, cineál a úsáideann an Rúis. An 16 Meán Fómhair mheas uachtarán na Liotuáine gur dócha go raibh sé beartaithe do sprioc Úcránach. Cuireadh chun cinn go bhféadfadh cogaíocht leictreonach Úcránach é a chlaonadh óna chúrsa mar mhíniú ar an gcaoi ar shroich sé an Liotuáin, ach is measúnú é an cuntas cúise sin. Ní cruthúnas ar ionsaí d’aon ghnó ar an Liotuáin an tsainaithint de chineál Rúiseach ná an measúnú ar an sprioc bheartaithe.",
-      "Níor bunaíodh an raibh pléascáin á n-iompar ag an drón áirithe seo; d’fhéadfadh leaganacha Gerbera a bheith ina mealltóirí nó a bheith armtha."
+      "Dúirt Aire Cosanta na Liotuáine, Robertas Kaunas, go raibh pléascán á iompar ag an drón, a thuairiscigh Reuters an 15 Meán Fómhair. Is ráiteas oifigiúil luaite é seo; níor athbhreithníodh fionnachtana fóiréinseacha neamhspleácha ná an lasta pléascach beacht. Ní bhunaíonn sé ionsaí d’aon ghnó ar an Liotuáin."
     ],
-    "basis": "fce04ead6c652cda"
+    "basis": "2f29e9a25cf1baa8"
   },
   "E059": {
     "headline": "Deir an Rómáin gur phléasc lasta dróin Rúisigh i lár an aeir sular thuairteáil sé ag Solca",
@@ -1194,11 +1197,12 @@
     "headline": "Ionsaí marfach dróin tuairiscithe ar long ghráin Royad Mammadov amach ón Rómáin",
     "description": "Ar an 5 Deireadh Fómhair 2026 bhuail dróin, de réir tuairiscí, an long ghráin Royad Mammadov i gCEE na Rómáine sa Mhuir Dhubh. Tá cuntais ar líon na mbásanna contrártha; chuir an Úcráin an locht ar an Rúis.",
     "summary": [
-      "Ar an 5 Deireadh Fómhair 2026 rinneadh damáiste don iompróir gráin Royad Mammadov, a bhí ag seoladh ó Izmail san Úcráin go Ravenna san Iodáil, le hionsaí dróin tuairiscithe, pléasc ar bord agus tine sa Mhuir Dhubh in aice le hardán Pescăruș, thart ar 30 muirmhíle ó dheas de Sfântu Gheorghe. Bhí an láithreán i gcrios eacnamaíoch eisiach (CEE) na Rómáine, lasmuigh dá huiscí críochacha. Logáladh iarraidh tarrthála ag 10:37 am áitiúil; níl am beacht an ionsaí fíoraithe.",
-      "Dúirt Uachtarán na hÚcráine Volodymyr Zelensky gur bhuail dhá dhrón Rúiseacha an long. Is éileamh Úcránach é sin, ní fíorú neamhspleách, agus níor fhoilsigh an Rómáin aon fhionnachtain cur i leith. Chuir Marius Roibu, stiúrthóir ionad tarrthála MRCC Constanța, síos ar ionsaí iliomad dróin de réir cosúlachta; níor bunaíodh cineál, pointe seolta ná hoibreoirí na ndrón.",
-      "Tá cuntais ar thaismigh contrártha. Thuairiscigh Aireacht Gnóthaí Intíre na Rómáine ar dtús beirt marbh agus aon duine dhéag tarrthálta; ar an 6 Deireadh Fómhair dúirt Aireacht Gnóthaí Eachtracha na hAsarbaiseáine gur maraíodh an captaen agus go raibh ball criú Asarbaiseánach eile ar iarraidh. Dúirt ambasáid na hIndia gur mhair triúr de bhaill chriú na hIndia, duine acu gortaithe. Ceartaíodh tuairisc thosaigh gur chuaigh an long go tóin poill an 6 Deireadh Fómhair, nuair a tuairiscíodh go raibh sí ar snámh agus ag fanacht le tarraingt go Midia. Dúirt Petrom nár cuireadh isteach ar ardán Pescăruș."
+      "Ar an 5 Deireadh Fómhair 2026 rinneadh damáiste don iompróir gráin Royad Mammadov, a bhí ag seoladh ó Izmail san Úcráin go Ravenna san Iodáil, le hionsaí dróin tuairiscithe, pléasc ar bord agus tine sa Mhuir Dhubh in aice le hardán Pescăruș, thart ar 30 muirmhíle ó dheas de Sfântu Gheorghe. Bhí an láithreán i gcrios eacnamaíoch eisiach (CEE) na Rómáine, lasmuigh dá huiscí críochacha. Logáladh iarraidh tarrthála ag 10:37 am áitiúil; níl am beacht an ionsaithe fíoraithe.",
+      "Dúirt Uachtarán na hÚcráine Volodymyr Zelensky gur bhuail dhá dhrón Rúiseacha an long. Is éileamh Úcránach é sin, ní fíorú neamhspleách, agus níor fhoilsigh an Rómáin aon fhionnachtain cur i leith. Chuir Marius Roibu, stiúrthóir ionad tarrthála MRCC Constanța, síos ar ionsaí iliomad dróin de réir cosúlachta; níor bunaíodh cineál, pointe seolta ná oibreoirí na ndrón.",
+      "Tá cuntais ar thaismigh contrártha. Thuairiscigh Aireacht Gnóthaí Intíre na Rómáine ar dtús beirt marbh agus aon duine dhéag tarrthálta; an 6 Deireadh Fómhair dúirt Aireacht Gnóthaí Eachtracha na hAsarbaiseáine gur maraíodh an captaen agus go raibh ball criú Asarbaiseánach eile ar iarraidh. Dúirt ambasáid na hIndia gur mhair triúr de bhaill chriú na hIndia, duine acu gortaithe. Ceartaíodh an 6 Deireadh Fómhair tuairisc thosaigh gur chuaigh an long go tóin poill, nuair a tuairiscíodh go raibh sí ar snámh agus ag fanacht le tarraingt go Midia. Dúirt Petrom nár cuireadh isteach ar ardán Pescăruș.",
+      "D’eisigh an Rómáin rabhadh faoi bhaol dul go tóin poill an 7 Deireadh Fómhair. Liostaigh Fógra do Mharaithe 10/65/26, san athbhreithniú cairte dar dáta an 22 Deireadh Fómhair, an long níos déanaí mar raic chontúirteach. Bunaíonn sé seo a riocht níos déanaí, ach ní bhunaíonn sé cathain a chuaigh sí go tóin poill, ar tarraingíodh í, ná pointe beacht an ionsaithe."
     ],
-    "basis": "f110d36fc131a5b5"
+    "basis": "93c08958dbb972eb"
   },
   "N073": {
     "headline": "Ionsaí dróin amach ón mBulgáir a chuireann ALFA WATAN go tóin poill agus ABLE trí thine",
@@ -1366,14 +1370,15 @@
     "basis": "534d215b86c0e039"
   },
   "N090": {
-    "headline": "Cuireann ionsaí dróin WINE TRADER trí thine amach ó Sulina; seachtar den chriú ar iarraidh",
-    "description": "Buaileadh WINE TRADER amach ó Sulina ar an 15 Deireadh Fómhair 2026; tarrtháladh cúigear den chriú agus bhí seachtar ar iarraidh. Mheas foinse de chuid NATO gur de bhunús Rúiseach na dróin.",
+    "headline": "Ionsaí dróin ar WINE TRADER amach ó Sulina; fuarthas iarsmaí daonna níos déanaí in Varna",
+    "description": "Fuarthas iarsmaí daonna le linn deisiúchán ar WINE TRADER in Varna tar éis an ionsaithe dróin amach ó Sulina an 15 Deireadh Fómhair. Leanann sainaithint DNA agus imscrúduithe ar aghaidh.",
     "summary": [
       "Bhuail drón an tancaer WINE TRADER, faoi bhratach San Mairíne, amach ó Sulina ar an 15 Deireadh Fómhair 2026. Dheimhnigh uachtarán na Rómáine an t-ionsaí. Mheas foinse mhíleata de chuid NATO a luaigh Reuters gur de bhunús Rúiseach na dróin a bhuail an tancaer seo agus YARA J; níor bunaíodh oibreoir ar leith sa tuairisciú a athbhreithníodh.",
-      "As 12 bhall criú, tarrtháladh cúigear agus d’fhan seachtar ar iarraidh. Bhí dónna ar chraiceann an chinn nó ionanálú éadrom deataigh ar bheirt de na marthanóirí; bhí an cúigear ar fad cobhsaí agus tógadh chuig an ospidéal iad. Rinne an tine damáiste don soitheach. Níl a riocht deiridh deimhnithe, agus ní chomhaireamh an criú atá ar iarraidh mar dhaoine a bhfuil a mbás deimhnithe. Chuir farraigí troma bac ar an oibríocht tarrthála. Thuairiscigh IGSU gur atosaíodh an cuardach an 16 Deireadh Fómhair; plean ab ea a fógra tosaigh maidir le dul ar bord. Thuairiscigh ráiteas ó cheardchumann mairnéalach an 19 Deireadh Fómhair ina dhiaidh sin gur chuaigh foirne ar bord agus gur chuardaigh siad spásanna inrochtana, agus an damáiste ag cur bac ar an gcuardach. D’athdhearbhaigh an ceardchumann cúigear tarrthálta agus seachtar ar iarraidh. An 22 Deireadh Fómhair dúirt Aireacht Gnóthaí Eachtracha na Cróite go raibh an cuardach stoptha de bharr an ama a bhí caite. Bhí mairnéalach Cróitíoch amháin ar iarraidh fós; bhí mairnéalach eile, a ndearnadh dónna dromchla a chóireáil air, scaoilte amach. Ní iompaíonn sé seo na daoine atá ar iarraidh ina mbásanna deimhnithe.",
+      "Ar dtús, tarrtháladh cúigear den dáréag criú agus tuairiscíodh go raibh seachtar ar iarraidh. Bhí dónna ar chraiceann an chinn nó ionanálú éadrom deataigh ar bheirt de na marthanóirí; bhí an cúigear ar fad cobhsaí agus tógadh chuig an ospidéal iad. Chuir farraigí troma agus an damáiste bac ar na cuardaigh. Thuairiscigh ráiteas ó cheardchumann an 19 Deireadh Fómhair go raibh spásanna inrochtana cuardaithe ag foirne. An 22 Deireadh Fómhair dúirt Aireacht Gnóthaí Eachtracha na Cróite go raibh an cuardach stoptha de bharr an ama a bhí caite.",
+      "An 7 Samhain dheimhnigh ionchúisitheoirí Varna go bhfuarthas iarsmaí daonna a bhí millte go dona le linn glanadh loinge a bhuail drón agus a glacadh isteach le haghaidh deisiúchán go luath i mí na Samhna. Sainaithníonn BNR í mar WINE TRADER agus tuairiscíonn sé corp mairnéalaigh agus iarsmaí daonna. Ordaíodh scrúduithe DNA chun aitheantais a bhunú, agus leanann imscrúduithe ar aghaidh sa Bhulgáir agus sa Rómáin. Ní thugann an príomhráiteas aon líon básanna. Tá tuairiscí uimhriúla luatha sna meáin contrártha, mar sin ní thátlaítear ó fhigiúirí stairiúla na tarrthála líon deiridh básanna ná líon reatha na ndaoine atá fós ar iarraidh.",
       "Tuairiscíodh go raibh an long thart ar 13 muirmhíle soir ó dheas de Sulina, díreach lasmuigh d’uiscí críochacha na Rómáine. Tá sí cuimsithe i gclúdach an chláir amach ón gcósta. Ní am fíoraithe ionsaithe é an iarraidh tarrthála ag 06:58. Ardaíonn sé seo an fhoinse luath liosta faire a bhain le tine amháin go taifead Ionsaí dearg amháin, a chomhcheanglaíonn an t-ionsaí, an tine agus an tarrtháil; fanann sé scartha ó YARA J agus Sea Destiny."
     ],
-    "basis": "186f434beac254b7"
+    "basis": "5f5c3c23d1d87774"
   },
   "N091": {
     "headline": "Dailidžiai: aisghabhadh drón toitíní trasteorann ag garda teorann",
@@ -1570,13 +1575,15 @@
     "basis": "fcab4114f04792bb"
   },
   "N112": {
-    "headline": "Tuairisc ar ionsaí dróin ar KHORYV: soitheach iompaithe bun os cionn ach ar snámh fós",
-    "description": "D’iompaigh KHORYV bun os cionn amach ó Constanța an 23 Deireadh Fómhair. Deir fógra loingseoireachta go bhfuil sé ar snámh fós, rud atá contrártha le tuairiscí ar thóin poill. Duine amháin marbh; triúr ar iarraidh.",
+    "headline": "Tuairisc ar ionsaí dróin ar KHORYV: aimsíonn suirbhé cabhlaigh an raic go hiomlán faoi uisce",
+    "description": "De réir tuairiscí, buaileadh KHORYV amach ón gcósta an 23 Deireadh Fómhair. De réir tuairiscí, d’aimsigh suirbhé cabhlaigh an 19 Samhain an raic go hiomlán faoi uisce. Ní eol toradh deiridh an chuardaigh.",
     "summary": [
-      "D’iompaigh KHORYV bun os cionn lasmuigh d’uiscí críochacha na Rómáine an 23 Deireadh Fómhair. Ceanglaíonn AGERPRES é le ráiteas an uachtaráin gur bhuail drón soitheach. Tuairiscíonn an príomhfhógra loingseoireachta reatha, ARN155, go raibh KHORYV faoi uisce go páirteach ach ar snámh bun os cionn fós ón 25 Deireadh Fómhair, in ainneoin tuairiscí preasa ar thóin poill. Ní ghlactar le tóin poill chríochnaithe mar rud bunaithe.",
-      "Tuairiscíonn an Rómáin 13 bhall criú: naonúr tarrthálta, duine marbh agus triúr ar iarraidh. Deimhníonn an Úcráin bás Úcránach ach tuairiscíonn sí 14 bhall criú; fanann an neamhréir gan réiteach. Tugann na fógraí suíomhanna dátaithe iompaithe agus raice ag imeacht le sruth ina dhiaidh sin, ní comhordanáid ionsaithe fhíoraithe. Fanann cur i leith an oibreora agus toradh deiridh an chuardaigh gan réiteach."
+      "Tuairiscíodh gur bhuail drón KHORYV agus gur chuaigh sí trí thine amach ó Constanța an 23 Deireadh Fómhair sular iompaigh sí bun os cionn. Déanann NAVWARN 766/26 cur síos ar bhreathnú dar dáta an 28 Deireadh Fómhair ag 18:00 UTC ar raic iompaithe, leathbháite ag imeacht le sruth. An 29 Deireadh Fómhair thuairiscigh bTV, ag lua aireacht chosanta na Bulgáire, go raibh sí faoi uisce go páirteach agus go raibh contúirt ann i gcónaí; thuairiscigh Maritime.bg níos déanaí, i nuashonrú nua an 1 Samhain, go raibh an deireadh ina luí ar an ngrinneall agus an tosach le feiceáil fós. Thuairiscigh Maritime.bg, ag lua deimhnithe ó oifig phreasa Aireacht Chosanta na Bulgáire, gur aimsigh suirbhé cabhlaigh an 19 Samhain an raic go hiomlán faoi uisce amach ó Shabla, faoi thart ar 50 méadar uisce. Níor fíoraíodh an t-am beacht a chuaigh sí go tóin poill ná cealú an rabhaidh níos luaithe. Ní athlonnaíonn na breathnuithe níos déanaí seo ar an raic an t-ionsaí bunaidh amach ón gcósta.",
+      "Tuairiscíonn an Rómáin 13 bhall criú: naonúr tarrthálta, duine marbh agus triúr ar iarraidh. Deimhníonn an Úcráin bás Úcránach ach tuairiscíonn sí 14 bhall criú; fanann an neamhréir gan réiteach. Tugann na fógraí suíomhanna dátaithe iompaithe agus raice ag imeacht le sruth ina dhiaidh sin, ní comhordanáid ionsaithe fhíoraithe. Fanann cur i leith an oibreora agus toradh deiridh an chuardaigh gan réiteach.",
+      "D’fhógair an Bhulgáir faireachán agus cigireacht chabhlaigh bheartaithe an 27 Deireadh Fómhair. An mhaidin dar gcionn dúirt a haire cosanta go raibh an raic ag dul isteach i bhfarraige chríochach na Bulgáire. Tuairiscí níos déanaí ar raic ag imeacht le sruth iad seo, ní ionsaí nua ná athrú ar shuíomh bunaidh an ionsaithe amach ón gcósta.",
+      "Thuairiscigh bTV go raibh Reshitelni ar an láthair agus gur cuireadh na hoibríochtaí ar sos mar gheall ar dhrochaimsir; chuir Maritime.bg síos ar iarrachtaí an soitheach a bhá d’aon ghnó. Fanann siad seo ina n-iarthuairiscí ar an tarlú céanna, ní ionsaí nua ná réiteach ar thoradh na ndaoine atá ar iarraidh."
     ],
-    "basis": "5f8e6ad7a2fd7810"
+    "basis": "63b1a3f055a1d63d"
   },
   "N113": {
     "headline": "Tuairiscíonn an Ghréig 8 UAV Tuircíocha agus 12 sárú spás aeir an 21 Deireadh Fómhair",
@@ -1610,9 +1617,9 @@
     "description": "Fuarthas aerfhráma cúir i Lubaczów an 21 Deireadh Fómhair 2026. Ní bhfuair na Póilíní Míleata aon phléascáin; ní eol an bunús ná aon nasc coigríche.",
     "summary": [
       "Tuairiscíodh raic ar mhaoin gan áitritheoir ar Shráid Herzoga i Lubaczów go gairid tar éis 13:00 ar an 21 Deireadh Fómhair 2026. Aslonnaíodh cónaitheoirí in aice láimhe agus speisialtóirí ag measúnú guaiseanna féideartha; níor tuairiscíodh aon ghortuithe ná damáiste do mhaoin.",
-      "Sainaithin na Póilíní Míleata aerfhráma cúir gan arm agus chuir siad pléascáin agus guaiseacha radailigeacha, bitheolaíocha nó ceimiceacha as an áireamh an 22 Deireadh Fómhair. Tuairiscíonn nuashonrú an ionchúisitheora an 23 Deireadh Fómhair gur aistríodh an drón chuig frithfhaisnéis mhíleata agus gur tástáladh an pacáiste ceangailte leis i Vársá. Ní bhunaíonn an measúnú tosaigh raon gearr bunús ná iontráil choigríche. Fanann sé seo ina iarrthóir aisghabhála sealadach amháin."
+      "Sainaithin na Póilíní Míleata aerfhráma cúir gan arm agus chuir siad pléascáin agus guaiseacha raideolaíocha, bitheolaíocha nó ceimiceacha as an áireamh an 22 Deireadh Fómhair. Luann alt Radio Lublin an 22 Deireadh Fómhair urlabhraí an ionchúisitheora ag rá gur aistríodh an drón chuig frithfhaisnéis mhíleata agus gur seoladh a phacáiste le haghaidh tástála; déanann an príomhráiteas ón lá céanna cur síos fós ar an aistriú mar rud atá le teacht. Ní bhunaíonn an measúnú tosaigh raon gearr bunús ná iontráil choigríche. Fanann sé seo ina iarrthóir aisghabhála sealadach amháin."
     ],
-    "basis": "fab6a30cef996170"
+    "basis": "2f669bcaffd204ab"
   },
   "N117": {
     "headline": "Tuairiscíonn an Ghréig sé UAV Tuircíocha agus 13 sárú spás aeir an 23 Deireadh Fómhair",
@@ -1668,5 +1675,861 @@
       "Athfhoilsíonn NewsIT agus OnAlert an cuntas oifigiúil céanna seachas breathnuithe neamhspleácha. Tuairiscíodh sainaithint agus idircheapadh, gan gabháil armtha. Taifead gníomhaíochta laethúil amháin é seo, ní suim comhaireamh aerárthaí agus trasnuithe."
     ],
     "basis": "b6d8a69eda200b68"
+  },
+  "N124": {
+    "headline": "Bhuail dróin dromchla CONTSHIP JET amach ón gcósta; tarrtháladh an criú, chuaigh an long go tóin poill ina dhiaidh sin",
+    "description": "Tuairiscíonn údaráis na Bulgáire ionsaí dróin dromchla ar CONTSHIP JET an 28 Deireadh Fómhair. Tarrtháladh an criú ar fad, 18 duine; deimhníonn Varna Radio gur chuaigh sí go tóin poill níos déanaí.",
+    "summary": [
+      "Deir údaráis chosanta na Bulgáire gur bhreathnaigh faireachas an Chabhlaigh agus aerárthach patróil Francach ionsaí dróin dromchla ar CONTSHIP JET ag 12:00 am áitiúil (10:00 UTC) an 28 Deireadh Fómhair, agus gur breathnaíodh trí bhuille. Tugann Varna Radio suíomh an ionsaithe mar 43°15′N, 028°48′E amach ó Rinn Kaliakra. Is tarlú amháin loingseoireachta ceannaíochta amach ón gcósta é seo, ní ionradh deimhnithe ar chríoch na Bulgáire.",
+      "Deimhníonn údaráis chosanta agus iompair gur tarrtháladh an criú ar fad, 18 duine. Deimhníonn NAVWARN 768/26 ó Varna Radio gur chuaigh an long go tóin poill ina dhiaidh sin ag 20:30 UTC an 28 Deireadh Fómhair ag 43°07.80′N, 028°45.36′E, agus níos mó ná 20 coimeádán ag imeacht le sruth, earraí contúirteacha ina measc. Tagann sé seo in áit na tuairisce neamhoifigiúla níos luaithe ar dhul go tóin poill.",
+      "Ní eol fós oibreoir na ndrón, bunús an tseolta ná an spreagadh. Tuairiscíonn Reuters measúnú sealadach Ambrey, bunaithe ar fhíseán, ar dhearadh is dócha a díorthaíodh ó Murena-300S; ní sainaithint dheimhnithe samhla ná oibreora í seo. Ní teagmhais ar leith iad trí dhrón tuairiscithe agus trí bhuille a breathnaíodh. Ní thagann suíomh níos déanaí an dul go tóin poill in áit chomhordanáid bhunaidh an ionsaithe.",
+      "Thuairiscigh rabhaidh loingseoireachta an 1 Samhain coimeádáin ag imeacht le sruth in aice le Cuan Burgas. Fanann a nasc le CONTSHIP JET sealadach. An 3 Samhain thuairiscigh Riarachán Réigiúnach Burgas trí réad faoi fhaireachán in aice le Oasis–Arapya, Kamennite Korabi ag Sinemorets agus Butamyata. Chuir faisnéis an lastliosta síos ar lasta neamhghuaiseach agus ar umar folamh; ag an am bhí an t-ábhar fisiciúil agus an soitheach foinse fós faoi imscrúdú. Lean sampláil agus garda ar aghaidh, agus níor tuairiscíodh aon imréiteach saotharlainne. Iarthuairiscí ar ghuais lasta iad seo, ní ionsaithe nua dróin ná comhaireamh carnach coimeádán.",
+      "An 4 Samhain dúirt an gobharnóir le bTV go raibh an aimsir agus rochtain dheacair ag cur moille ar an aisghabháil. Ní raibh suíomh an tríú coimeádáin ar eolas, agus ní raibh uiscí na Tuirce ach ina bhféidearthacht. Níor soláthraíodh aon imréiteach saotharlainne.",
+      "Thuairiscigh údarás muirí na Libéire go raibh an criú slán, gan aon ghortuithe tuairiscithe, i bhfeasachán a rinne cur síos ar shoitheach gan ainm a bhfuil a dháta, a bhratach, a aicme agus na trí bhuille a tuairiscíodh ag teacht leis na cuntais Bhulgáracha a ainmníonn an long. Thuairiscigh bardas Tsarevo an 12 Samhain go raibh foirne tar éis málaí piobair dheirg a ghlanadh ón dá thrá Lipite. D’fhan nasc an lasta le CONTSHIP JET sealadach, agus níor thug an fógra torthaí saotharlainne.",
+      "An 24 Samhain d’oscail na húdaráis an coimeádán a caitheadh i dtír in aice le Tsarevo an 2 Samhain. Dúirt gobharnóir Burgas le BTA go raibh thart ar 80 bosca maisiúchán Nollag ann a bhí ag teacht leis an lastliosta. Dúirt Contships Management le Reuters nach bhféadfadh sé a dheimhniú go raibh an coimeádán ar bord CONTSHIP JET. Ní bhunaíonn an oscailt an long foinse, lasta eile ná torthaí truaillithe."
+    ],
+    "basis": "7eebe0feab2ab6ff"
+  },
+  "N125": {
+    "headline": "UAV aisghafa in aice le Osieka tar éis trasnú ón Rúis a thuairiscigh an t-ionchúisitheoir",
+    "description": "Tuairiscíonn ionchúisitheoirí trasnú neamhúdaraithe ar theorainn na Rúise agus na Polainne an 8 Bealtaine; aisghabhadh an UAV gan arm in aice le Osieka an 9 Bealtaine. Ní eol an t-oibreoir fós.",
+    "summary": [
+      "Aisghabhadh UAV taiscéalaíochta gan arm slán iomlán tar éis do shibhialtach é a aimsiú i bpáirc in aice le Osieka an 9 Bealtaine. An 11 Bealtaine dúirt urlabhraí ionchúisitheoir Olsztyn go raibh imscrúdaitheoirí cinnte gur thrasnaigh sé teorainn na Rúise agus na Polainne, agus chuir sé dáta an 8 Bealtaine ar an trasnú atá faoi imscrúdú.",
+      "Níor nochtadh an bonn fianaise don fhionnachtain sin faoin trasnú. Fanann an t-oibreoir, an déantúsaíocht, an sprioc bheartaithe, an rian beacht agus am na tuairteála gan réiteach. Níor dheimhnigh an t-ionchúisitheoir éilimh sna meáin faoi cheamaraí agus faoi mharcálacha Coireallacha. Is tarlú aisbhreathnaitheach amháin é seo, ní gníomhaíocht nua i mí Dheireadh Fómhair."
+    ],
+    "basis": "9df76f2823d89cb7"
+  },
+  "N126": {
+    "headline": "Blúirí UAV aisghafa ag Trá Popski; bunús gan réiteach",
+    "description": "D’aisghabh foireann de chuid an Chabhlaigh páirteanna UAV ag Trá Popski, Tsarevo, an 21 Deireadh Fómhair, de réir freagra ón Aireacht Cosanta. Ní eol dáta na heitilte ná an bunús náisiúnta.",
+    "summary": [
+      "Luann OFFNews aireacht chosanta na Bulgáire ag deimhniú gur scrúdaigh agus gur bhailigh foireann de chuid an Chabhlaigh páirteanna UAV ag Trá Popski an 21 Deireadh Fómhair agus gur iompair sí chuig bunáit iad. Dátaíonn sé seo oibríocht aisghabhála, ní eitilt ná tuairteáil.",
+      "Rinne an aireacht idirdhealú follasach idir an aisghabháil agus líomhain neamhfhíoraithe in aice láimhe ag Arapya. Fanann an tsamhail, an bunús, an t-oibreoir, an lasta agus an chaoi ar tháinig sé ann gan réiteach. Ní ionradh coigríche deimhnithe ná fianaise ar aerfhráma ar leith eile é an t-iarrthóir aisghabhála sealadach seo."
+    ],
+    "basis": "3572d703997e5cd9"
+  },
+  "N127": {
+    "headline": "Blúirí dróin tuairiscithe ag Trá Listi; dáta na haisghabhála anaithnid",
+    "description": "Thuairiscigh BNR gur bailíodh sciathán agus cuid de chabhail ag Trá Listi in aice le Sinemorets. Is é an 28 Deireadh Fómhair dáta an fhoilsithe, ní dáta fíoraithe na fionnachtana.",
+    "summary": [
+      "Thuairiscigh comhfhreagraí BNR in Burgas gur aimsíodh sciathán agus cuid de chabhail ag Trá Listi agus gur bhailigh na Póilíní Teorann iad tar éis fógra a fháil. Foilsíodh an t-alt an 28 Deireadh Fómhair ach ní thugann sé dáta beacht fionnachtana ná aisghabhála; úsáideann an clár dáta na tuairisce mar ionadaí sainráite.",
+      "Fanann an bunús, an tsamhail, an t-oibreoir, an lasta agus dáta na heitilte nó na tuairteála gan réiteach. Tá an t-iarrthóir aisghabhála sealadach seo ar leith ó Thrá Popski de réir an tsuímh a tuairiscíodh, ach níor bunaíodh aerfhráma uathúil eile. Ní aistrítear an t-éileamh cur i leith ag Arapya in aice láimhe chuig na blúirí seo."
+    ],
+    "basis": "22e8ad26c842d4a6"
+  },
+  "N128": {
+    "headline": "Tuairiscíonn an Ghréig cúig UAV Tuircíocha i 13 sárú ar spás aeir sa Mhuir Éigéach",
+    "description": "Cuireann tuairisciú míleata na Gréige 13 sárú ar an spás aeir náisiúnta i leith cúig UAV Tuircíocha an 30 Deireadh Fómhair. Taifead laethúil amháin; níor foilsíodh na rianta beachta.",
+    "summary": [
+      "Cuireann figiúirí míleata na Gréige a tuairiscíodh an 30 Deireadh Fómhair 13 sárú ar an spás aeir náisiúnta agus 11 sárú ar FIR na hAithne i leith cúig UAV Tuircíocha in oirthuaisceart, i lár agus in oirdheisceart na Mara Éigéiche. Is leis an nGréig an measúnú ar an spás aeir náisiúnta agus an cur i leith míleata; níor foilsíodh na rianta beachta fós.",
+      "Is taifead réigiúnach laethúil amháin é seo, ní 13 ionsaí. Ní fianaise ar armáil UAV, ar ghníomhú le hairm ná ar scaoileadh anuas iad na sáruithe ag aerárthaí le foireann agus an dá ghleic sa chuntas laethúil measctha. Ní eol fós na samhlacha beachta, na lastaí ná na spriocanna beartaithe."
+    ],
+    "basis": "8d16fbffeee972eb"
+  },
+  "N129": {
+    "headline": "Deimhníonn an Rómáin dhá iontráil dróin neamhúdaraithe ina hoirthuaisceart",
+    "description": "Tuairiscíonn an Rómáin dhá iontráil dróin an 31 Deireadh Fómhair. D’imigh ceann amháin; chonacthas an ceann eile den uair dheireanach in aice le Vaslui agus Bacău. Níor tuairiscíodh aon tuairteáil.",
+    "summary": [
+      "Deimhníonn Aireacht Chosanta na Rómáine go ndeachaigh dhá dhrón isteach sa spás aeir náisiúnta san oirthuaisceart tráthnóna an 31 Deireadh Fómhair 2026. D’imigh ceann amháin; chonacthas an ceann eile den uair dheireanach idir contaetha Vaslui agus Bacău. Níor tuairiscíodh aon tuairteáil tráth an fhoilsithe.",
+      "D’éirigh ceithre F-16 agus IAR-330 SOCAT san aer, agus tháinig deireadh leis na rabhaidh phoiblí ag 19:19 am áitiúil. Is tarlú amháin é seo a bhain le dhá dhrón, ní dhá ionsaí fhíoraithe. Ní eol fós an t-oibreoir, an tsamhail, an aidhm ná na spriocanna; is neasach é ancaire na léarscáile.",
+      "De réir stiúrthóir aerfort Iași, atreoraíodh eitilt Wizz Air a bhí ag teacht ó Eindhoven go Suceava le linn dhúnadh sealadach an spáis aeir. Baineann an cur isteach seo leis an eachtra chéanna, ní le hionradh eile."
+    ],
+    "basis": "5c2d0df27e180a9b"
+  },
+  "N130": {
+    "headline": "Measann an Laitvia gur dócha gur Geran Rúiseach an UAV a thrasnaigh an tír an 1 Samhain",
+    "description": "Measann NBS gur dócha gur Geran Rúiseach an UAV a thrasnaigh an Laitvia an 1 Samhain. D’imigh sé isteach sa Rúis; ní eol fós an raibh lasta pléascach air ná cén aidhm a bhí leis.",
+    "summary": [
+      "Chuir oifigigh síos ar dhrón a thrasnaigh oirthear na Laitvia ón mBealarúis agus a d’imigh i dtreo na Rúise ag 19:16 an 1 Samhain. Ina dhiaidh sin mheas NBS gur dócha gur Geran Rúiseach a bhí ann, tar éis dó sonraí braiteoirí agus idircheapóra a anailísiú agus dul i gcomhairle le comhpháirtithe Úcránacha.",
+      "Rinne an Laitvia a hidircheapóir féin a fhéinscriosadh ag 19:19. Ní scaoileadh anuas tuairiscithe ar an UAV a braitheadh é seo. Ní féidir le NBS a bhunú an raibh pléascáin á n-iompar ag an UAV sin; fanann an t-oibreoir, an aidhm agus an sprioc gan deimhniú."
+    ],
+    "basis": "c77fff5610f5734e"
+  },
+  "N131": {
+    "headline": "Rabhadh do thuaisceart Tulcea; níor tuairiscíodh aon iontráil i spás aeir na Rómáine",
+    "description": "D’eisigh an Rómáin rabhadh do thuaisceart Tulcea an 2 Samhain tar éis ionsaithe in aice láimhe san Úcráin. Níor thuairiscigh MApN aon iontráil i spás aeir náisiúnta na Rómáine.",
+    "summary": [
+      "Fuair tuaisceart Tulcea RO-Alert ag 04:11 an 2 Samhain tar éis ionsaithe dróin ar chalafoirt Úcránacha ar an Danóib. Chuir an Rómáin F-16anna agus héileacaptar Puma SOCAT i mbun oibre; tháinig deireadh leis an bhfoláireamh ag 05:26 am áitiúil.",
+      "Níor thuairiscigh MApN aon iontráil i spás aeir na Rómáine. Foláireamh cosanta sibhialta é seo, ní ionradh ná ionsaí deimhnithe sa Rómáin. Léiríonn an pointe ar an léarscáil limistéar an rabhaidh."
+    ],
+    "basis": "b3d536ba24881e16"
+  },
+  "N132": {
+    "headline": "Deimhníonn an Laitvia gur braitheadh UAV; an bunús agus titim fhéideartha in Balvi gan réiteach",
+    "description": "Deimhníonn NBS go raibh UAV sa Laitvia an 3 Samhain. Ó thaobh cuma de, bhí sé cosúil le dróin mhíleata Úcránacha, ach fanann an cineál, an bunús agus titim fhéideartha in Balvi gan deimhniú.",
+    "summary": [
+      "Deimhníonn NBS gur braitheadh UAV i spás aeir na Laitvia le linn fholáireamh Balvi–Ludza an 3 Samhain. De réir na sainaithne amhairc tosaigh bhí sé cosúil le UAV míleata Úcránacha, ach dúirt na fórsaí armtha go sainráite nach bhféadfaidís an cineál ná an bunús a dheimhniú.",
+      "D’fhéadfadh gur thit an UAV i mbardas Balvi; lean cuardaigh ar an talamh ar aghaidh. Fanann sé seo ina iarrthóir a bhfuil a bhunús agus a thoradh gan réiteach, ní ionradh coigríche, tuairteáil ná scaoileadh anuas deimhnithe. Ní láthair tuairteála fhíoraithe é an pointe réigiúnach ar an léarscáil."
+    ],
+    "basis": "505a6db792d85d51"
+  },
+  "N133": {
+    "headline": "Rabhadh thar oíche in Tulcea: níor tuairiscíodh aon iontráil i spás aeir na Rómáine",
+    "description": "Fuair tuaisceart Tulcea rabhadh go déanach an 2 Samhain tar éis gníomhaíocht aeir os cionn na hÚcráine. Níor thuairiscigh MApN aon iontráil sa Rómáin; tháinig deireadh leis an bhfoláireamh tar éis meán oíche.",
+    "summary": [
+      "Thuairiscigh MApN dhá sprioc radair os cionn na hÚcráine in aice le Izmail agus Chilia i rith oíche an 2–3 Samhain. Fuair tuaisceart Tulcea RO-Alert ag 23:43; tháinig deireadh leis an rabhadh ag 00:21 am áitiúil. D’éirigh dhá F-18 Spáinneacha san aer mar fhreagairt.",
+      "Níor tuairiscíodh aon iontráil i spás aeir na Rómáine. Foláireamh roghnaithe cosanta sibhialta é seo, scartha ón rabhadh níos luaithe an 2 Samhain, ní ionradh ná ionsaí deimhnithe sa Rómáin. Léiríonn ancaire na léarscáile limistéar an rabhaidh."
+    ],
+    "basis": "a90d1dcd244ae758"
+  },
+  "N134": {
+    "headline": "Rabhadh do thuaisceart Tulcea an 4 Samhain; níor tuairiscíodh aon iontráil sa Rómáin",
+    "description": "Spreag sprioc os cionn na hÚcráine seoladh dhá F-16 agus rabhadh do thuaisceart Tulcea an 4 Samhain. Níor thuairiscigh MApN aon iontráil i spás aeir na Rómáine.",
+    "summary": [
+      "Fuair tuaisceart Tulcea RO-Alert ag 10:57 an 4 Samhain tar éis sprioc radair a bhrath ó thuaidh de Vîlcove san Úcráin. D’éirigh dhá F-16 san aer ó Borcea.",
+      "Níor thuairiscigh MApN aon iontráil i spás aeir na Rómáine. Tá an foláireamh roghnaithe seo scartha ón rabhadh thar oíche an 2–3 Samhain; léiríonn an pointe ar an léarscáil limistéar an rabhaidh."
+    ],
+    "basis": "eefa3af945e0c8ca"
+  },
+  "N135": {
+    "headline": "Blúirí dróin aimsithe in Boghicea; diúscairt rialaithe tuairiscithe",
+    "description": "Tuairiscíodh gur scriosadh an tráthnóna sin na blúirí dróin a aimsíodh in Boghicea an 5 Samhain. Fanann an bunús agus aon nasc leis an eitilt an 31 Deireadh Fómhair gan réiteach.",
+    "summary": [
+      "Chuir cónaitheoir póilíní tuaithe Sagna ar an eolas tar éis dó blúirí scaipthe a aimsiú in Boghicea. Tháinig póilíní, comhraiceoirí dóiteáin agus speisialtóirí an SRI ar an láthair. Tuairiscíonn ProTV gur phléasc speisialtóirí na blúirí tráthnóna an 5 Samhain tar éis scrúdaithe agus rabhaidh RO-Alert.",
+      "Fanann bunús coigríche, dáta na titime agus aon nasc le N129 gan deimhniú. Tugann ProTV tuairisc shoiléir go raibh an diúscairt críochnaithe; níor aimsíodh aon ráiteas oifigiúil díreach faoina críochnú. Ní bhunaíonn litreoireacht a luaigh finnéithe súl an t-oibreoir ná an tsamhail.",
+      "Taifead fionnachtana amháin, ní eitilt nuafhíoraithe ná UAV breise sa chomhaireamh. Fanann gaol féideartha le N129 gan réiteach; cumasc nó crostagair má bhunaíonn fianaise níos déanaí gurb é an drón céanna é. Ní tarluithe ar leith iad an fhreagairt éigeandála agus an rabhadh diúscartha."
+    ],
+    "basis": "b1fd2b840a7ff077"
+  },
+  "N136": {
+    "headline": "Tulcea · RO-Alert thar oíche an 6 Samhain",
+    "description": "Rabhadh oifigiúil; níor tuairiscíodh aon iontráil i spás aeir na Rómáine. Foláireamh amháin; ní thátlaítear aon ionradh, idirghabháil mhíleata ná ionsaí.",
+    "summary": [
+      "Spreag ionsaithe in aice láimhe ar chalafoirt Úcránacha rabhadh. Eisíodh RO-Alert ag 00:19; tháinig deireadh leis an bhfoláireamh ag 00:41 am áitiúil.",
+      "Níor sonraíodh líon ná samhail na ndrón san eisiúint. Níor bunaíodh rian eitilte, líon dróin ná samhail.",
+      "Foláireamh roghnaithe amháin, scartha ó rabhadh níos déanaí na maidine N137 ag 08:56."
+    ],
+    "basis": "42bf1e8a50a620f5"
+  },
+  "N137": {
+    "headline": "Tuaisceart Tulcea · Foláireamh sprice Sulina maidin an 6 Samhain",
+    "description": "Rabhadh oifigiúil faoi sprioc radair; níor bunaíodh iontráil sa Rómáin. Foláireamh amháin; ní thátlaítear aon ionradh, idirghabháil mhíleata ná ionsaí.",
+    "summary": [
+      "Spreag gníomhaíocht aeir in aice láimhe rabhadh cosanta sibhialta. D’éirigh dhá F-16 san aer ó Borcea; bhí an rabhadh do thuaisceart Tulcea i bhfeidhm 08:56–09:27 am áitiúil.",
+      "Sprioc radair aeir; níor deimhníodh aitheantas ná samhail an dróin sa ráiteas a luadh. Níl samhail, oibreoir ná trasnú ar theorainn na Rómáine fíoraithe. Baineann an fhionnachtain thar oíche nach raibh aon iontráil ann le N136 agus ní féidir í a aistriú chuig an eachtra seo.",
+      "Rabhadh maidine ar leith, ní eachtra N136 00:19–00:41. Ní chuireann freagairt na scairdeitleán comhraic aon tarlú leis."
+    ],
+    "basis": "7a65445d491a71de"
+  },
+  "N138": {
+    "headline": "Aisghabháil dróin: Shabla · Drón aicmithe mar Rúiseach caite i dtír agus scriosta, an Bhulgáir",
+    "description": "6 Samhain 2026, Shabla · Drón aicmithe mar Rúiseach caite i dtír agus scriosta, an Bhulgáir. Drón aeir sainaitheanta go hoifigiúil aisghafa agus scriosta. Fionnachtain…",
+    "summary": [
+      "Fionnachtain chósta a tuairiscíodh do na húdaráis ag 10:00 am áitiúil.",
+      "Drón aeir sainaitheanta go hoifigiúil aisghafa agus scriosta. Is é measúnú na cigireachta Bulgáraí an t-aicmiú Rúiseach; níor bunaíodh oibreoir ná misean sonrach. Tháinig cigireacht mhíleata in áit chuntas luath an mhéara ar mharcálacha Shahed agus ar phléascáin: ní raibh aon inscríbhinní ná muirear pléascach ann. Ní eol fós dáta na titime ná aon nasc le haon ionsaí ar longa."
+    ],
+    "basis": "de692ebadb5d7d7f"
+  },
+  "N139": {
+    "headline": "An Mhuir Éigéach · Gníomhaíocht UAV Tuircíocha tuairiscithe an 6 Samhain",
+    "description": "Tuairiscíonn clár na Gréige 10 UAV Tuircíocha an 6 Samhain. Ní bhaineann na figiúirí comhcheangailte aerárthaí le dróin amháin.",
+    "summary": [
+      "Liostaíonn príomhchlár míosúil GEETHA 10 UAV agus ATR-72 amháin, le 15 sárú comhcheangailte ar FIR agus 23 sárú comhcheangailte ar an spás aeir náisiúnta. Ní roinneann an clár na hiomláin mheasctha de réir cineál aerárthaigh.",
+      "Chuir an feasachán laethúil níos luaithe a atáirgeadh 9 sárú ar FIR agus 15 sárú ar an spás aeir náisiúnta i leith 7 UAV. Ní luaitear cúis na difríochta. Is ó údaráis na Gréige a thagann na figiúirí seo; ní rianta fíoraithe go neamhspleách ná comhaireamh deimhnithe ionsaithe iad."
+    ],
+    "basis": "fd5cda8f3a302eca"
+  },
+  "N140": {
+    "headline": "An Mhuir Éigéach · Gníomhaíocht UAV Tuircíocha tuairiscithe an 5 Samhain",
+    "description": "Tuairiscíonn clár na Gréige 5 UAV Tuircíocha an 5 Samhain. Bhí figiúirí laethúla níos luaithe difriúil.",
+    "summary": [
+      "Liostaíonn príomhchlár míosúil GEETHA 5 UAV agus gan aon aerárthach le foireann, le 8 sárú ar FIR agus 17 sárú ar an spás aeir náisiúnta. Ba UAV iad na haerárthaí uile a tuairiscíodh an lá sin.",
+      "Chuir an feasachán laethúil níos luaithe a atáirgeadh 6 sárú ar FIR agus 9 sárú ar an spás aeir náisiúnta i leith 4 UAV. Ní luaitear cúis na difríochta. Is ó údaráis na Gréige a thagann na figiúirí seo; ní rianta fíoraithe go neamhspleách ná comhaireamh deimhnithe ionsaithe iad."
+    ],
+    "basis": "5f5e69b30526d99c"
+  },
+  "N141": {
+    "headline": "An Mhuir Éigéach · Gníomhaíocht UAV Tuircíocha tuairiscithe an 7 Samhain",
+    "description": "Tuairiscíonn clár na Gréige 8 UAV Tuircíocha an 7 Samhain. Bhí figiúirí laethúla níos luaithe difriúil.",
+    "summary": [
+      "Liostaíonn príomhchlár míosúil GEETHA 8 UAV agus gan aon aerárthach le foireann, le 10 sárú ar FIR agus 8 sárú ar an spás aeir náisiúnta. Ba UAV iad na haerárthaí uile a tuairiscíodh an lá sin.",
+      "Chuir an feasachán laethúil níos luaithe a atáirgeadh 8 sárú ar FIR agus 4 sárú ar an spás aeir náisiúnta i leith 6 UAV. Ní luaitear cúis na difríochta. Is ó údaráis na Gréige a thagann na figiúirí seo; ní rianta fíoraithe go neamhspleách ná comhaireamh deimhnithe ionsaithe iad."
+    ],
+    "basis": "10e6e252c784d0ee"
+  },
+  "N142": {
+    "headline": "Réad neamhaitheanta: uiscí críochacha na Rómáine · Sprioc neamhaitheanta ag dul isteach sa spás aeir, an Rómáin",
+    "description": "5 Samhain 2026, uiscí críochacha na Rómáine · Sprioc neamhaitheanta ag dul isteach sa spás aeir, an Rómáin. Iontráil sa spás aeir a thuairiscigh MApN; aitheantas dróin gan deimhniú. Thuairiscigh…",
+    "summary": [
+      "Thuairiscigh MApN iontráil trí nóiméad sa spás aeir náisiúnta.",
+      "Iontráil sa spás aeir a thuairiscigh MApN; aitheantas dróin gan deimhniú. Níor sainaithníodh an t-oibreoir. Tuairiscíonn an t-údarás an iontráil, ach fanann aitheantas, samhail, oibreoir agus aidhm an dróin gan réiteach. Atáirgeann cuntais na meán an ráiteas oifigiúil céanna. Níor bunaíodh aon nasc le Boghicea N135."
+    ],
+    "basis": "59712b8a83097feb"
+  },
+  "N143": {
+    "headline": "Foláireamh dróin: Oirthear Tulcea · Rabhadh sprice Oileán na Nathrach, an Rómáin",
+    "description": "8 Samhain 2026, Oirthear Tulcea · Rabhadh sprice Oileán na Nathrach, an Rómáin. Rabhadh oifigiúil faoi sprioc radair; níor bunaíodh iontráil sa Rómáin. Spreag…",
+    "summary": [
+      "Spreag dhá bhrath sprice in aice láimhe rabhadh agus faireachas míleata.",
+      "Rabhadh oifigiúil faoi sprioc radair; níor bunaíodh iontráil sa Rómáin. Níor sainaithníodh an t-oibreoir. Ní bhunaíonn na ráitis a luadh iontráil sa Rómáin, cineál an dróin ná an t-oibreoir. Ní tuairteáil é imeacht na chéad sprice ón radar. Ní thátlaítear ón tost aon mheasúnú sainráite nach raibh iontráil ann."
+    ],
+    "basis": "4cff8ae9f4cbdedb"
+  },
+  "N144": {
+    "headline": "Foláireamh dróin: Tuaisceart Tulcea · Rabhadh sprice Chilia Veche, an Rómáin",
+    "description": "8 Samhain 2026, Tuaisceart Tulcea · Rabhadh sprice Chilia Veche, an Rómáin. Rabhadh oifigiúil faoi sprioc radair; níor bunaíodh iontráil sa Rómáin. Spreag…",
+    "summary": [
+      "Spreag brath sprice níos déanaí, ar leith, rabhadh do thuaisceart Tulcea.",
+      "Rabhadh oifigiúil faoi sprioc radair; níor bunaíodh iontráil sa Rómáin. Níor sainaithníodh an t-oibreoir. Níor bunaíodh cineál na sprice, an t-oibreoir ná aon trasnú ar theorainn na Rómáine. Ní ionradh ná idirghabháil mhíleata iad rabhadh agus seoladh scairdeitleán comhraic amháin."
+    ],
+    "basis": "51af4b15dda166f7"
+  },
+  "N145": {
+    "headline": "Réad neamhaitheanta: Trá Lipite, Sinemorets · Fionnachtain dróin neamhaitheanta, an Bhulgáir",
+    "description": "8 Samhain 2026, Trá Lipite, Sinemorets · Fionnachtain dróin neamhaitheanta, an Bhulgáir. Fionnachtain dróin agus bailiú oifigiúil de réir foinse luaite; bunús gan réiteach. D’aimsigh…",
+    "summary": [
+      "D’aimsigh criú BNT an t-aerárthach agus iad ag tuairisciú ar lasta a caitheadh i dtír.",
+      "Fionnachtain dróin agus bailiú oifigiúil de réir foinse luaite; bunús gan réiteach. Bunús náisiúnta agus oibreoir gan réiteach; gan eitilt choigríche ná iontráil trasteorann deimhnithe. Fanann an bunús, an t-oibreoir, an lasta agus bealach an teachta gan réiteach. Ní fianaise é an lasta in aice láimhe a nascann an drón le soitheach nó le hionsaí. Ní sainaithint theicniúil é measúnú an ghobharnóra i gcomhthéacs an chogaidh. Níor bunaíodh diúscairt chríochnaithe."
+    ],
+    "basis": "8994bcc4baaa422f"
+  },
+  "N146": {
+    "headline": "An Mhuir Éigéach · Gníomhaíocht UAV Tuircíocha tuairiscithe an 8 Samhain",
+    "description": "Tuairiscíonn clár na Gréige 5 UAV Tuircíocha an 8 Samhain. Bhí figiúirí laethúla níos luaithe difriúil.",
+    "summary": [
+      "Liostaíonn príomhchlár míosúil GEETHA 5 UAV agus gan aon aerárthach le foireann, le 6 sárú ar FIR agus 6 sárú ar an spás aeir náisiúnta. Ba UAV iad na haerárthaí uile a tuairiscíodh an lá sin.",
+      "Chuir an feasachán laethúil níos luaithe a atáirgeadh 4 sárú ar FIR agus 4 sárú ar an spás aeir náisiúnta i leith 4 UAV. Ní luaitear cúis na difríochta. Is ó údaráis na Gréige a thagann na figiúirí seo; ní rianta fíoraithe go neamhspleách ná comhaireamh deimhnithe ionsaithe iad."
+    ],
+    "basis": "e9cdcb8a8e0ac546"
+  },
+  "N147": {
+    "headline": "An Mhuir Éigéach · Gníomhaíocht UAV Tuircíocha tuairiscithe an 9 Samhain",
+    "description": "Tuairiscíonn clár na Gréige 5 UAV Tuircíocha an 9 Samhain. Ní bhaineann na figiúirí comhcheangailte aerárthaí le dróin amháin.",
+    "summary": [
+      "Liostaíonn príomhchlár míosúil GEETHA 5 UAV agus ATR-72 amháin, le 7 sárú comhcheangailte ar FIR agus 3 sárú comhcheangailte ar an spás aeir náisiúnta. Ní roinneann an clár na hiomláin mheasctha de réir cineál aerárthaigh.",
+      "Chuir an feasachán laethúil níos luaithe a atáirgeadh 5 sárú ar FIR agus 2 sárú ar an spás aeir náisiúnta i leith 5 UAV. Ní luaitear cúis na difríochta. Is ó údaráis na Gréige a thagann na figiúirí seo; ní rianta fíoraithe go neamhspleách ná comhaireamh deimhnithe ionsaithe iad."
+    ],
+    "basis": "05f7be48ee62885b"
+  },
+  "N148": {
+    "headline": "Eitilt dróin: Sulina · Iontráil dróin tuairiscithe sa spás aeir, an Rómáin",
+    "description": "9 Samhain 2026, Sulina · Iontráil dróin tuairiscithe sa spás aeir, an Rómáin. Iontráil dróin i spás aeir náisiúnta na Rómáine a thuairiscigh MApN. Deimhníonn…",
+    "summary": [
+      "Deimhníonn tuairisciú níos déanaí go sainráite an iontráil tar éis an rabhaidh tosaigh faoi sprioc in aice láimhe. D’imigh an rian ón radar ina dhiaidh sin.",
+      "Iontráil dróin i spás aeir náisiúnta na Rómáine a thuairiscigh MApN. Níor bunaíodh an t-oibreoir, an bunús náisiúnta, an sprioc bheartaithe ná an aidhm. Athsheachadann na foinsí faisnéis ón Aireacht Cosanta, ní rianta radair fíoraithe go neamhspleách. Ní eol am ná fad na hiontrála, an tsamhail, an t-oibreoir, an sprioc ná an toradh deiridh. Ní cruthúnas ar thuairteáil, ar scaoileadh anuas ná ar imeacht é an rian a chailleadh ar an radar."
+    ],
+    "basis": "ffa47195c16e1a8e"
+  },
+  "N149": {
+    "headline": "Foláireamh dróin: Oirthear Tulcea · Rabhadh sprice Sulina an 10 Samhain, an Rómáin",
+    "description": "10 Samhain 2026, Oirthear Tulcea · Rabhadh sprice Sulina an 10 Samhain, an Rómáin. Sprioc aeir in aice láimhe a thuairiscigh MApN; níor bunaíodh iontráil sa Rómáin. Spreag…",
+    "summary": [
+      "Spreag sprioc in aice láimhe seoladh dhá F-16 agus rabhadh poiblí in oirthear Tulcea.",
+      "Sprioc aeir in aice láimhe a thuairiscigh MApN; níor bunaíodh iontráil sa Rómáin. Ní eol an t-oibreoir, an bunús, an sprioc bheartaithe ná an aidhm. Níor bunaíodh aon iontráil dheimhnithe sa Rómáin, ionsaí, idircheapadh ná tuairteáil don eachtra seo. Baineann tuairisciú faoin iontráil an 9 Samhain le N148 agus ní féidir é a aistriú chuig an bhfoláireamh seo."
+    ],
+    "basis": "1ae15c2e27e8853c"
+  },
+  "N150": {
+    "headline": "An Liotuáin–an Laitvia · Ionradh dróin agus idircheapadh nár éirigh leis",
+    "description": "Ionradh dróin deimhnithe go hoifigiúil; idircheapadh nár éirigh leis. Ó dheisceart go tuaisceart na Liotuáine; imeacht tuairiscithe isteach sa Laitvia in aice le ceantar Pasvalys.",
+    "summary": [
+      "Dúirt ceann foirne cosanta na Liotuáine gur shainaithin scairdeitleáin chomhraic an drón in aice le Kaunas ach nach ndeachaigh siad i ngleic leis ansin mar gheall ar an mbaol do shibhialtaigh. Theip ar dhá iarracht níos déanaí é a scriosadh. Dheimhnigh an Laitvia go neamhspleách gur tháinig drón isteach ón Liotuáin agus gur thrasnaigh sé a críoch ón deisceart go dtí an tuaisceart.",
+      "Gníomhachtaíodh scairdeitleáin chomhraic NATO sa Liotuáin agus lean siad ag freagairt os cionn na Laitvia; ní raibh coinníollacha oibríochtúla oiriúnacha sábháilte ann chun é a scriosadh sa Laitvia. Aisghabhadh smionagar diúracáin idircheaptha in aice le Biržai, ní raic dróin.",
+      "Ní eol fós an tsamhail, an lasta, an t-oibreoir, an sprioc bheartaithe ná an chúis. Is measúnú é claonadh ag cogaíocht leictreonach, ní fíric bhunaithe. Dheimhnigh údaráis na hEastóine ar leithligh iontrálacha gearra an oíche sin; tá an forluí beacht leis an rian seo agus le dróin eile fós á réiteach. Gan ionsaí, tuairteáil dróin, aisghabháil ná scaoileadh anuas deimhnithe."
+    ],
+    "basis": "b3d7c837ed9779e1"
+  },
+  "N151": {
+    "headline": "An Laitvia · Dhá iontráil ghearra dróin ag an teorainn thoir",
+    "description": "Ionraidh ghearra dróin deimhnithe ag NBS. Bardas Ludza / teorainn thoir na Laitvia",
+    "summary": [
+      "Dúirt NBS na Laitvia gur thrasnaigh dhá dhrón an teorainn thoir go gairid ar feadh 1–2 nóiméad. Cuireann sé an rabhadh gaolmhar in Ludza ag thart ar 23:30 Dé Máirt an 10 Samhain.",
+      "Gníomhachtaíodh aonaid idircheaptha dróin agus aerchosanta agus scairdeitleáin chomhraic NATO.",
+      "Pointí beachta trasnaithe, oibreoir, lasta agus aidhm gan réiteach. Níor tháinig druidimí níos déanaí ag Krāslava/Augšdaugava agus Balvi isteach; ní ionraidh bhreise iad."
+    ],
+    "basis": "99971f22c80bd30f"
+  },
+  "N152": {
+    "headline": "An Fhionlainn · Iontráil UAV amhrasta os cionn oirthear na Murascaille",
+    "description": "Sárú amhrasta ar an spás aeir a thuairiscigh an aireacht; imscrúdú ar siúl. Oirthear Mhurascaill na Fionlainne; spás aeir náisiúnta na Fionlainne (amhrasta)",
+    "summary": [
+      "Thuairiscigh Aireacht Cosanta na Fionlainne sárú amhrasta ar an spás aeir ag UAV tar éis 02:00 an 11 Samhain, a mhair thart ar chúig nóiméad sular imigh sé.",
+      "Tá an Garda Teorann ag imscrúdú. Chuir na Fórsaí Cosanta srianta sealadacha aeir agus muirí i bhfeidhm mar bhearta réamhchúraim.",
+      "Fanann an iontráil amhrasta, gan deimhniú. Gan bunús, samhail ná aidhm sainaitheanta, ná nasc cruthaithe le trasnuithe Baltacha ná le hionsaithe sa Rúis."
+    ],
+    "basis": "68f7b98f4dfcbc62"
+  },
+  "N153": {
+    "headline": "An Eastóin · Ionraidh ghearra dróin os cionn Mhurascaill na Fionlainne",
+    "description": "Thuairiscigh údaráis na hEastóine ionraidh ghearra dróin os cionn Mhurascaill na Fionlainne an 11 Samhain 2026. Fanann an líon beacht, na rianta agus na lastaí gan réiteach.",
+    "summary": [
+      "In agallamh le ERR, rinne an t-aire cosanta idirdhealú idir sáruithe gearra ar an spás aeir os cionn Mhurascaill na Fionlainne agus drón ar leith a tháinig isteach ón Laitvia ag thart ar 03:30. Dheimhnigh rialtas na hEastóine ar leithligh go ndeachaigh roinnt dróin isteach sa spás aeir náisiúnta go gairid an oíche sin.",
+      "Bhí scairdeitleáin chomhraic NATO san aer. Dúirt an t-aire nach raibh coinníollacha ann le haghaidh scriosadh sábháilte, lena n-áirítear an gaireacht don teorainn leis an Rúis.",
+      "Líon beacht na ndrón, amanna trasnaithe agus rianta gan réiteach. Is é cuntas an aire an cur i leith Úcránach a tuairiscíodh, ní deimhniú neamhspleách. Gan ionsaí ar an Eastóin, tuairteáil, aisghabháil ná scaoileadh anuas deimhnithe. Gan nasc cruthaithe leis an trasnú amhrasta san Fhionlainn."
+    ],
+    "basis": "0988f0038c13eff7"
+  },
+  "N154": {
+    "headline": "Spreagann drón féideartha in aice le Sulina rabhadh; níor bunaíodh iontráil sa Rómáin",
+    "description": "Spreag drón féideartha soir ó thuaidh de Sulina rabhadh in Tulcea an 12 Samhain 2026. D’fhreagair scairdeitleáin chomhraic Spáinneacha; níor bunaíodh iontráil sa Rómáin.",
+    "summary": [
+      "Thuairiscigh Aireacht Chosanta na Rómáine sprioc aeir thart ar 28 km soir ó thuaidh de Sulina an 12 Samhain. Chuir an raidió poiblí síos air mar dhrón féideartha.",
+      "Bhí rabhadh i bhfeidhm ó 12:35 go 13:12 am áitiúil, agus d’éirigh dhá F-18 Spáinneacha san aer. Ní ionradh ná ionsaí deimhnithe sa Rómáin é an foláireamh roghnaithe seo."
+    ],
+    "basis": "e621e2b415355314"
+  },
+  "N155": {
+    "headline": "Tuairisc: 5 UAV Tuircíocha i 2 sárú ar spás aeir na Gréige an 16 Deireadh Fómhair",
+    "description": "Tuairiscíonn Veteranos 5 UAV Tuircíocha agus 2 sárú ar spás aeir na Gréige an 16 Deireadh Fómhair 2026. Cuntas aonfhoinse ar fhigiúirí oifigiúla; ní eol na rianta beachta fós.",
+    "summary": [
+      "Tuairiscíonn Veteranos 5 UAV Tuircíocha i lár agus in oirdheisceart na Mara Éigéiche an 16 Deireadh Fómhair, ag lua figiúirí oifigiúla: 2 sárú ar an spás aeir náisiúnta agus 7 sárú ar FIR na hAithne.",
+      "Tuairiscíodh sainaithint agus idircheapadh gnáthaimh. Is taifead gníomhaíochta laethúil amháin é seo, ní teagmhais ar leith do gach UAV nó sárú.",
+      "Níl feasachán bunaidh GEETHA ar fáil fós agus níor aimsíodh aon dara tuairisc a mheaitseálann é. Figiúirí Gréagacha luaite iad seo, ní rianta fíoraithe go neamhspleách; fanann an díospóid idir an Ghréig agus an Tuirc faoin spás aeir ábhartha."
+    ],
+    "basis": "7eab620af97e56d5"
+  },
+  "N156": {
+    "headline": "Tuairisc: 2 UAV Tuircíocha i 6 sárú ar spás aeir na Gréige an 17 Deireadh Fómhair",
+    "description": "Tuairiscíonn Veteranos 2 UAV Tuircíocha agus 6 sárú ar spás aeir na Gréige an 17 Deireadh Fómhair 2026. Cuntas aonfhoinse ar fhigiúirí oifigiúla; ní eol na rianta beachta fós.",
+    "summary": [
+      "Tuairiscíonn Veteranos 2 UAV Tuircíocha in oirthuaisceart agus in oirdheisceart na Mara Éigéiche an 17 Deireadh Fómhair, ag lua figiúirí oifigiúla: 6 sárú ar an spás aeir náisiúnta agus 4 sárú ar FIR na hAithne.",
+      "Tuairiscíodh sainaithint agus idircheapadh gnáthaimh. Is taifead gníomhaíochta laethúil amháin é seo, ní teagmhais ar leith do gach UAV nó sárú.",
+      "Níl feasachán bunaidh GEETHA ar fáil fós agus níor aimsíodh aon dara tuairisc a mheaitseálann é. Figiúirí Gréagacha luaite iad seo, ní rianta fíoraithe go neamhspleách; fanann an díospóid idir an Ghréig agus an Tuirc faoin spás aeir ábhartha."
+    ],
+    "basis": "41c5a49d0eb8c357"
+  },
+  "N157": {
+    "headline": "Rabhadh do thuaisceart Tulcea tar éis sprioc a bhrath i spás aeir na hÚcráine",
+    "description": "D’eisigh an Rómáin rabhadh do thuaisceart Tulcea an 13 Samhain tar éis sprioc a bhrath i spás aeir na hÚcráine. Níor bunaíodh aitheantas dróin ná iontráil sa Rómáin.",
+    "summary": [
+      "D’eisigh údaráis na Rómáine rabhadh do thuaisceart Tulcea an 13 Samhain 2026 tar éis don radar sprioc aeir a bhrath soir ó dheas d’Oileán na Nathrach i spás aeir na hÚcráine.",
+      "D’éirigh dhá F-16 Rómánacha san aer ó Fetești. Bhí an rabhadh i bhfeidhm ó 21:53 go 22:58 am áitiúil; amanna rabhaidh iad seo, ní fad fíoraithe eitilte.",
+      "Níor shainaithin cuntas na haireachta a athbhreithníodh an sprioc mar dhrón agus níor bhunaigh sé iontráil sa Rómáin. Foláireamh roghnaithe é seo, ní ionradh ná ionsaí deimhnithe."
+    ],
+    "basis": "bdbe3aeea261bfb7"
+  },
+  "N158": {
+    "headline": "Damáiste do LARISSA 1 i mbuille dróin tuairiscithe amach ón Rómáin; criú slán",
+    "description": "Rinne buille dróin damáiste do LARISSA 1 amach ó Sfântu Gheorghe an 13 Samhain. D’admhaigh aire na Rómáine an teagmhas; fanann an t-oibreoir agus an suíomh beacht gan réiteach.",
+    "summary": [
+      "Rinne buille tuairiscithe ó dhrón aeir damáiste do chraein lasta LARISSA 1 in aice le Sfântu Gheorghe tráthnóna an 13 Samhain 2026. Cuireadh na húdaráis mhuirí ar an eolas thart ar 21:40 am áitiúil. Níor tuairiscíodh aon ghortuithe, básanna ná tine.",
+      "D’admhaigh aire cosanta na Rómáine an buille thar oíche an 14 Samhain. Sainaithníonn TVR an soitheach, agus cuireann Europa FM an teagmhas tuairiscithe 6.8 muirmhíle soir ó thuaidh de Sfântu Gheorghe in uiscí críochacha na Rómáine. Níor foilsíodh comhordanáidí beachta an bhuille.",
+      "Ní eol fós an t-oibreoir, an bunús ná an sprioc bheartaithe. Bhíothas ag fanacht le fionnachtana teicniúla, agus níor bunaíodh aon nasc leis an bhfoláireamh ar leith faoi sprioc aeir in Tulcea."
+    ],
+    "basis": "f08b96a541b68222"
+  },
+  "N159": {
+    "headline": "Faigheann Tulcea dhá rabhadh le linn foláireamh maidine amháin faoi sprioc aeir",
+    "description": "D’eisigh an Rómáin dhá rabhadh in Tulcea an 14 Samhain tar éis sprioc a bhrath in aice le hOileán na Nathrach. Níor bunaíodh aitheantas dróin ná iontráil sa Rómáin.",
+    "summary": [
+      "Thuairiscigh MApN sprioc aeir i gceantar Oileán na Nathrach maidin an 14 Samhain 2026. D’éirigh dhá F-16 Rómánacha san aer ó Fetești.",
+      "Fuair oirthear Tulcea rabhadh ag 04:45 am áitiúil, agus tuaisceart Tulcea ina dhiaidh sin ag 05:39. Fógraíodh deireadh na contúirte ag 05:52. Baineann na teachtaireachtaí seo le heachtra foláirimh amháin, ní le dhá tharlú dróin dheimhnithe.",
+      "Níor shainaithin an ráiteas an sprioc mar dhrón agus níor dheimhnigh sé iontráil sa Rómáin. Tá an foláireamh roghnaithe seo scartha ó rabhadh an tráthnóna roimhe sin; níor bunaíodh aon nasc leis an mbuille ar Larissa 1."
+    ],
+    "basis": "485c5fe876331a03"
+  },
+  "N160": {
+    "headline": "Bhuail drón EVIA PETROL V amach ó Sulina, de réir cuntais tuairiscithe ón aireacht",
+    "description": "De réir tuairiscí, buaileadh EVIA PETROL V amach ó Sulina an 14 Samhain. Mhúch an criú tine; níor tuairiscíodh aon taismigh. Ní eol fós an t-oibreoir ná an suíomh beacht.",
+    "summary": [
+      "Bhuail drón EVIA PETROL V ag thart ar 21:10 am áitiúil an 14 Samhain 2026, de réir chuntas News.ro ar fhaisnéis MApN ó údaráis mhuirí shibhialta. Bhí an suíomh a tuairiscíodh thart ar 4 mhuirmhíle oir-oirdheas ó Sulina.",
+      "Mhúch an criú tine ar bord; níor tuairiscíodh aon taismigh. Luann Radio România Constanța uiscí críochacha na Rómáine, ach níor fíoraíodh go neamhspleách comhordanáidí beachta an bhuille ná an dlínse.",
+      "Ní eol fós an t-oibreoir, an bunús, an aidhm ná aon nasc le buillí eile ar shoithí nó le foláirimh in aice láimhe.",
+      "I nochtadh eisitheora an 19 Samhain, dúirt grúpa Trans-Oil go raibh an long ar ancaire ag béal Chanáil Sulina ag fanacht le húdarú chun dul ar aghaidh go Giurgiulești. Chuir an damáiste cosc ar an turas beartaithe chun thart ar 6,500 tonna d’ola lus na gréine a lódáil. Níor deimhníodh go raibh an lasta sin ar bord; fanann moilleanna agus costais lóistíochta fhéideartha ina rabhaidh ón gcomhlacht."
+    ],
+    "basis": "111f4b44af58fb36"
+  },
+  "N161": {
+    "headline": "Bhuail drón MARSOL amach ó Sulina, de réir cuntais tuairiscithe ón aireacht",
+    "description": "De réir tuairiscí, buaileadh MARSOL amach ó Sulina an 14 Samhain. Mhúch an criú tine; níor tuairiscíodh aon taismigh. Ní eol fós an t-oibreoir ná an suíomh beacht.",
+    "summary": [
+      "Bhuail drón MARSOL ag thart ar 21:45 am áitiúil an 14 Samhain 2026, de réir chuntas News.ro ar fhaisnéis MApN ó údaráis mhuirí shibhialta. Bhí an suíomh a tuairiscíodh thart ar 5 mhuirmhíle soir ó dheas de Chanáil Sulina.",
+      "Mhúch an criú tine ar bord; níor tuairiscíodh aon taismigh. Luann Radio România Constanța uiscí críochacha na Rómáine, ach níor fíoraíodh go neamhspleách comhordanáidí beachta an bhuille ná an dlínse.",
+      "Ní eol fós an t-oibreoir, an bunús, an aidhm ná aon nasc le buillí eile ar shoithí nó le foláirimh in aice láimhe. Tugann tuairisc mhuirí níos luaithe 21:29 CET ina ionad sin; fanann an neamhréir ama sin gan réiteach."
+    ],
+    "basis": "bc90d74246cb5145"
+  },
+  "N162": {
+    "headline": "Oirthear Tulcea · Rabhadh tráthnóna an 14 Samhain",
+    "description": "D’eisigh údaráis na Rómáine rabhadh cosanta sibhialta tar éis brath aeir. Fanann aitheantas dróin agus iontráil sa Rómáin gan deimhniú.",
+    "summary": [
+      "D’éirigh dhá F-16 Rómánacha san aer ó Fetești; rabhadh in oirthear Tulcea ag 20:51, deireadh na contúirte ag 21:37.",
+      "Ní dheimhníonn téarmaíocht na haireachta a luadh drón, iontráil, ionsaí ná idirghabháil mhíleata. Gan nasc léirithe le hionsaithe ar shoithí."
+    ],
+    "basis": "9e036c65d9b1d1c9"
+  },
+  "N163": {
+    "headline": "Ceantar Sulina · Rabhadh teagmhála radair go déanach an 14 Samhain",
+    "description": "D’eisigh údaráis na Rómáine rabhadh cosanta sibhialta tar éis brath aeir. Fanann aitheantas dróin agus iontráil sa Rómáin gan deimhniú.",
+    "summary": [
+      "Rabhadh nua in oirthear Tulcea ag 23:19; deireadh na contúirte ag 00:27 an lá dar gcionn. Níor bunaíodh seoladh ar leith.",
+      "Ní dheimhníonn téarmaíocht na haireachta a luadh drón, iontráil, ionsaí ná idirghabháil mhíleata. Gan nasc léirithe le hionsaithe ar shoithí."
+    ],
+    "basis": "146d9d719613c6b5"
+  },
+  "N164": {
+    "headline": "Ionradh gearr dróin in aice le Chilia an 2 Bealtaine",
+    "description": "Thuairiscigh údaráis chosanta na Rómáine iontráil ghearr dróin in aice le Chilia. Níor bunaíodh an sprioc ná an aidhm fós; ní thátlaítear aon ionsaí ar an Rómáin.",
+    "summary": [
+      "Thuairiscigh MApN iontráil ghearr, deimhnithe ag radar, in aice le Chilia, agus gluaiseacht i dtreo Ismail ina dhiaidh sin. D’éirigh dhá F-16 san aer thart ar 02:00; bhí an rabhadh do thuaisceart Tulcea i bhfeidhm ó 02:03 go 02:50 am áitiúil.",
+      "Taifeadtar an iontráil ar leithligh ón ionsaí níos leithne ar an Úcráin. Níor bunaíodh an aidhm ná an sprioc shonrach fós; níor tuairiscíodh aon tionchar sa Rómáin."
+    ],
+    "basis": "82fa985c2e506266"
+  },
+  "N165": {
+    "headline": "Ionradh gearr dróin in aice le Chilia an 7 Bealtaine",
+    "description": "Thuairiscigh údaráis chosanta na Rómáine iontráil ghearr dróin in aice le Chilia. Níor bunaíodh an sprioc ná an aidhm fós; ní thátlaítear aon ionsaí ar an Rómáin.",
+    "summary": [
+      "Thuairiscigh MApN iontráil ghearr, deimhnithe ag radar, in aice le Chilia maidin an 7 Bealtaine. D’éirigh dhá F-16 san aer ag 08:37; bhí an rabhadh do thuaisceart Tulcea i bhfeidhm ó 08:40 go 09:40 am áitiúil.",
+      "Taifeadtar an iontráil ar leithligh ón ionsaí níos leithne ar an Úcráin. Níor bunaíodh an aidhm ná an sprioc shonrach fós; níor tuairiscíodh aon tionchar sa Rómáin."
+    ],
+    "basis": "438dcccd398f3603"
+  },
+  "N166": {
+    "headline": "Téann drón isteach i spás aeir na Rómáine agus tuairteálann sé in aice le Parcheș",
+    "description": "Dheimhnigh MApN iontráil agus tuairteáil dróin lasmuigh de Parcheș an 26 Márta. Fuarthas smionagar; níor sonraíodh an t-oibreoir, an tsamhail ná an sprioc bheartaithe fós.",
+    "summary": [
+      "Thuairiscigh MApN gur tháinig drón isteach ag 00:44 an 26 Márta, go ndeachaigh sé thart ar 4 km isteach agus gur thuairteáil sé lasmuigh de Parcheș. D’aimsigh foirne smionagar agus fásra dóite; níor tuairiscíodh aon damáiste ábhartha ná taismigh.",
+      "Dúirt an aireacht gur chlaon aerchosaint na hÚcráine an drón óna chúrsa. Fanann an cuntas seo curtha i leith MApN; ní bhunaíonn an eisiúint a oibreoir, a shamhail ná aon aidhm ionsaí a dhéanamh ar an Rómáin."
+    ],
+    "basis": "89eac726d6b9440e"
+  },
+  "N167": {
+    "headline": "Téann sprioc neamhaitheanta isteach i spás aeir na Rómáine in aice le Chilia Veche",
+    "description": "Dheimhnigh MApN iontráil sprice aeir thar oíche an 16–17 Aibreán. Fanann aitheantas dróin agus tuairteáil gan deimhniú, cé gur cailleadh teagmháil radair ina dhiaidh sin.",
+    "summary": [
+      "Thuairiscigh MApN iontráil amháin sa spás aeir náisiúnta i rith oíche an 16–17 Aibreán. Cailleadh teagmháil thart ar 16 km soir ó dheas de Chilia Veche, agus fógraíodh misean cuardaigh.",
+      "Déanann an eisiúint oifigiúil cur síos ar sprioc aeir, ní ar dhrón sainaitheanta. Ní bhunaíonn cailleadh teagmhála radair ná cuardach beartaithe tuairteáil ná aisghabháil smionagair."
+    ],
+    "basis": "23dfc89d5a63cde0"
+  },
+  "N168": {
+    "headline": "Tuairiscíonn ALI NAJAFOV buille dróin thar oíche in aice le béil na Danóibe",
+    "description": "Sheachaid údaráis na Rómáine tuairisc ó ALI NAJAFOV ar bhuille dróin. Mhúch a criú tine; ní eol fós an suíomh beacht, an dlínse ná an cur i leith.",
+    "summary": [
+      "Thuairiscigh ALI NAJAFOV buille dróin i rith oíche an 14–15 Samhain in aice le béil na Danóibe. Sheachaid údaráis na Rómáine tuairisc an tsoithigh; mhúch an criú tine agus níor tuairiscíodh aon taismigh.",
+      "Is soitheach ar leith é seo ó EVIA PETROL V agus MARSOL. Fanann a shuíomh beacht agus an dlínse mhuirí gan réiteach; níor bunaíodh oibreoir coiteann ná díriú d’aon ghnó."
+    ],
+    "basis": "8b86269bf206800f"
+  },
+  "N169": {
+    "headline": "Rabhadh iarnóna in Tulcea leathnaithe chuig an gcathair, ansin cealaithe",
+    "description": "Spreag brath sprice aeir in aice leis an Úcráin rabhadh in Tulcea ag 15:02, a leathnaíodh chuig an gcathair roimh dheireadh na contúirte ag 17:05. Fanann iontráil sa Rómáin gan deimhniú.",
+    "summary": [
+      "Thosaigh rabhadh, tar éis sprioc aeir a bhrath san Úcráin, ag 15:02 an 15 Samhain. Leathnaíodh é chuig bardas Tulcea ag 16:56 agus cealaíodh é do na pobail uile a bhí i gceist ag 17:05.",
+      "Baineann an leathnú leis an eachtra rabhaidh chéanna. Níor bunaíodh aitheantas dróin ná iontráil i spás aeir na Rómáine; ní thátlaítear aon nasc le buillí ar shoithí."
+    ],
+    "basis": "229b1930ed3783f0"
+  },
+  "N170": {
+    "headline": "Ó thuaidh de Sulina · Iontráil ghearr dróin an 26 Feabhra",
+    "description": "Dheimhnigh MApN iontráil ghearr dróin tráthnóna an 26 Feabhra, a chríochnaigh ó thuaidh de Sulina thart ar 18:30.",
+    "summary": [
+      "Dheimhnigh MApN iontráil ghearr dróin tráthnóna an 26 Feabhra, a chríochnaigh ó thuaidh de Sulina thart ar 18:30.",
+      "Bhí sé seo ar leith ón bhfoláireamh níos luaithe gan iontráil agus ón tarlú an 25 Feabhra. Níor sonraíodh an t-oibreoir, an tsamhail ná an aidhm fós."
+    ],
+    "basis": "c289f5664d4e1a20"
+  },
+  "N171": {
+    "headline": "Tănăsoaia · Blúirí d’fheithicil aeir fhéideartha aisghafa",
+    "description": "D’imscrúdaigh speisialtóirí cosanta blúirí miotail in Tănăsoaia agus bhailigh siad iad an 18 Eanáir. Thug siad le fios gur feithicil aeir fhéideartha a bhí ann.",
+    "summary": [
+      "D’imscrúdaigh speisialtóirí cosanta blúirí miotail in Tănăsoaia agus bhailigh siad iad an 18 Eanáir. Thug siad le fios gur feithicil aeir fhéideartha a bhí ann.",
+      "Fanann aitheantas dróin, an bunús agus dáta na titime gan deimhniú; iarrthóir fionnachtana é seo, ní ionradh deimhnithe."
+    ],
+    "basis": "b7ad8cb376460adb"
+  },
+  "N172": {
+    "headline": "Botoșenița Mare · Tuairteáil réada eitilte neamhaitheanta",
+    "description": "Thuairiscigh MApN réad eitilte tuairteáilte i ngort arbhair Indiaigh in aice le Botoșenița Mare an 12 Meán Fómhair, le tine bheag agus gan aon taismigh.",
+    "summary": [
+      "Thuairiscigh MApN réad eitilte tuairteáilte i ngort arbhair Indiaigh in aice le Botoșenița Mare an 12 Meán Fómhair, le tine bheag agus gan aon taismigh.",
+      "Thuairiscigh údaráis choigríche idirthuras dróin freisin agus logáladh tuairisc radhairc chuig 112 in áit eile. Níor bunaíodh nasc leanúnach leis an réad a aisghabhadh."
+    ],
+    "basis": "678aa5f2a1e03414"
+  },
+  "N173": {
+    "headline": "Soir ó Mangalia · Fionnachtain dróin aeir ag imeacht le sruth",
+    "description": "Thuairiscigh MApN drón aeir ag imeacht le sruth thart ar 45 muirmhíle soir ó Mangalia an 15 Samhain. Ní eol fós an bunús ná toradh an mhisin.",
+    "summary": [
+      "Thuairiscigh ATLANTIQUE 2 de chuid Chabhlach na Fraince drón aeir ag imeacht le sruth thart ar 45 muirmhíle soir ó Mangalia an 15 Samhain, de réir Aireacht Chosanta na Rómáine.",
+      "Cuireadh moill ar mheasúnú EOD beartaithe an 16 Samhain de bharr drochaimsire: dúirt MApN gur fhill an dá bhád gan a measúnuithe a chríochnú. Níor bunaíodh aon aisghabháil ná neodrú.",
+      "Fionnachtain amach ón gcósta é seo, ní cruthúnas ar ionradh ar spás aeir críochach na Rómáine. Ní eol fós bunús an dróin, dátaí a eitilte agus a thitime, a lasta ná aon nasc le buillí le déanaí ar longa."
+    ],
+    "basis": "875f004d900296a2"
+  },
+  "N174": {
+    "headline": "Soir ó Chituc · Fionnachtain dróin aeir ag imeacht le sruth",
+    "description": "Thuairiscigh MApN drón aeir ag imeacht le sruth thart ar 53 muirmhíle soir ó Chituc an 15 Samhain. Ní eol fós an bunús ná toradh an mhisin.",
+    "summary": [
+      "Thuairiscigh ATLANTIQUE 2 de chuid Chabhlach na Fraince drón aeir ag imeacht le sruth thart ar 53 muirmhíle soir ó Chituc an 15 Samhain, de réir Aireacht Chosanta na Rómáine.",
+      "Cuireadh moill ar mheasúnú EOD beartaithe an 16 Samhain de bharr drochaimsire: dúirt MApN gur fhill an dá bhád gan a measúnuithe a chríochnú. Níor bunaíodh aon aisghabháil ná neodrú.",
+      "Fionnachtain amach ón gcósta é seo, ní cruthúnas ar ionradh ar spás aeir críochach na Rómáine. Ní eol fós bunús an dróin, dátaí a eitilte agus a thitime, a lasta ná aon nasc le buillí le déanaí ar longa."
+    ],
+    "basis": "328155b1bc112d37"
+  },
+  "N175": {
+    "headline": "Iompaíonn BETUL 8 bun os cionn amach ón mBulgáir; líomhnaíonn ball criú ionsaí dróin mhuirí",
+    "description": "Tarrtháladh na 12 bhall criú ar fad de BETUL 8 tar éis di iompú bun os cionn i gCEE na Bulgáire an 16 Samhain. Fanann éileamh faoi ionsaí dróin mhuirí gan deimhniú.",
+    "summary": [
+      "Dheimhnigh údaráis na Bulgáire gur iompaigh BETUL 8 bun os cionn i gcrios eacnamaíoch eisiach na tíre an 16 Samhain. Aslonnaíodh na 12 bhall criú ar fad; níor thuairiscigh an aireacht aon ghortuithe tromchúiseacha.",
+      "Luaigh BNR mairnéalach tarrthálta amháin a líomhnaigh ionsaí ag dhá dhrón muirí. Ní raibh an chúis sin deimhnithe ag na húdaráis sna ráitis a athbhreithníodh. Coinnítear an tionóisc amach ón gcósta mar iarrthóir, ní mar ionsaí dróin deimhnithe ná mar ionradh críochach.",
+      "Tugann NAVWARN 860/26 na Bulgáire breathnú níos déanaí ag 14:45 UTC an 19 Samhain: bhí an soitheach iompaithe bun os cionn agus ag imeacht le sruth gan chriú ná smacht. Ní cinneadh ar an riocht deiridh ná ar an gcúis é seo."
+    ],
+    "basis": "aad7a84948b3f2bc"
+  },
+  "N176": {
+    "headline": "An Mhuir Éigéach · Seacht UAV i gclár na Gréige don 16 Samhain",
+    "description": "Liostaíonn clár GEETHA do mhí na Samhna seacht UAV, seacht sárú spás aeir agus deich sárú ar FIR don 16 Samhain, rud atá difriúil ón bhfeasachán níos luaithe.",
+    "summary": [
+      "Liostaíonn clár míosúil GEETHA seacht UAV mar na haerárthaí uile a tuairiscíodh don 16 Samhain, le seacht sárú ar an spás aeir náisiúnta agus deich sárú ar FIR na hAithne. Thug feasachán níos luaithe Parapolitika sé shárú spás aeir agus naoi sárú ar FIR; níl míniú ar an difríocht.",
+      "Fanann sé seo ina thaifead réigiúnach laethúil amháin. Ní féidir na figiúirí a shuimiú agus ní comhaireamh eitiltí fíoraithe go neamhspleách iad; níor bunaíodh aon ghleic le hairm."
+    ],
+    "basis": "1392b1b1c36513b7"
+  },
+  "N177": {
+    "headline": "Foláireamh thar oíche do thuaisceart Tulcea; níor taifeadadh aon iontráil i spás aeir na Rómáine",
+    "description": "D’eisigh an Rómáin foláireamh thar oíche an 16–17 Samhain tar éis braiteanna radair os cionn na hÚcráine. Níor thuairiscigh MApN aon iontráil neamhúdaraithe i spás aeir na Rómáine.",
+    "summary": [
+      "D’eisigh an Rómáin foláireamh cosanta sibhialta tar éis braiteanna radair os cionn na hÚcráine. Níor taifeadadh aon iontráil neamhúdaraithe i spás aeir na Rómáine.",
+      "Foláireamh roghnaithe amháin é seo, ní ionradh dróin deimhnithe."
+    ],
+    "basis": "016739f3dca934f0"
+  },
+  "N178": {
+    "headline": "Criú GAS HUSKY tarrthálta tar éis tionóisce amach ón gcósta; drón mar chúis gan deimhniú",
+    "description": "Tarrtháladh an criú ar fad de GAS HUSKY, 19 duine, amach ón mBulgáir an 17 Samhain. Déanann rabhadh oifigiúil cur síos ar long ar sceabha ag imeacht le sruth; fanann éilimh faoi dhróin gan deimhniú.",
+    "summary": [
+      "Tharrtháil údaráis na Bulgáire an criú ar fad, 19 duine, ó GAS HUSKY an 17 Samhain 2026 tar éis tionóisc mhuirí amach ón gcósta. Bhí an t-iompróir LPG, faoi bhratach na Libéire, ag taisteal ón Éigipt go dtí an Rómáin. Tá an suíomh i gcrios eacnamaíoch eisiach na Bulgáire, ní ina huiscí críochacha.",
+      "Rinne rabhadh loingseoireachta ag 10:50 UTC cur síos ar sceabha 45 céim, droichead faoi uisce agus soitheach gan foireann ag imeacht le sruth. Níor bhunaigh sé go ndeachaigh sí go tóin poill go hiomlán, in ainneoin tuairiscí luatha. Tuairiscíonn AP, ag lua Maritime.bg, gur dúirt an captaen tarrthálta gur bhuail ceithre dhrón an soitheach; deir AP freisin nach bhfuil aon deimhniú oifigiúil ar an gcúis. Níor fíoraíodh an t-éileamh go neamhspleách agus níor bunaíodh aon oibreoir ná nasc le BETUL 8.",
+      "Deir an bainisteoir Stealth Maritime gur buaileadh an soitheach go luath an 17 Samhain i gCEE na Bulgáire, ach ní shonraíonn sé cad a bhuail é agus deir sé nach raibh a riocht ar eolas ag an am. Deimhníonn a ráiteas, a d’atáirg Naftemporiki, gur lódáladh LPG in Alexandria le haghaidh Midia.",
+      "Luann tuairisc níos déanaí ó Maritime.bg foinse gan ainm sa chomhlacht bainistíochta a deir gur ionsaí comhcheangailte ó dhróin dromchla agus aeir a bhí ann. Fanann sé seo ina chuntas gan deimhniú; ní shonraíonn ráiteas poiblí an bhainisteora meicníocht.",
+      "An 18 Samhain, dúirt gobharnóir Varna, Mario Smurkov, le bTV go raibh ceithre bhuille ann, ach go raibh cuntais na mairnéalach contrártha agus nach raibh cineálacha na ndrón deimhnithe. Dúirt sé nach raibh na soithí imithe go tóin poill fós agus nár braitheadh aon truailliú ag an am sin. Ní bhunaíonn ceithre bhuille ceithre dhrón fíoraithe go neamhspleách.",
+      "Thuairiscigh Reuters an 18 Samhain gur chuir dhá fhoinse slándála muirí gan ainm an buille i leith córais gan foireann. D’athluaigh sé cuntas an ghobharnóra ar cheithre bhuille gan cineál ná oibreoir an dróin a bhunú. Dúirt Reuters go raibh an long imithe go tóin poill ach níor thug sé am breathnaithe níos nuaí chun na tuairiscí níos luaithe ar a riocht a réiteach.",
+      "Tugann NAVWARN 858/26 na Bulgáire breathnú níos déanaí ag 13:30 UTC an 19 Samhain: bhí an soitheach ar sceabha thart ar 45 céim, an droichead faoi uisce, ag imeacht le sruth gan chriú ná smacht. Ní cinneadh ar an riocht deiridh ná ar an gcúis é seo.",
+      "Tuairiscíonn NAVWARN 865/26 go raibh GAS HUSKY, ag 12:38 UTC an 21 Samhain, fós gan chriú agus ag imeacht le sruth, ar sceabha mór agus a droichead faoi uisce. Ní bhunaíonn an breathnú go ndeachaigh sí go tóin poill ná an mheicníocht bhunaidh.",
+      "Bhí údaráis na nOileán Filipíneach tar éis a thuairisciú go raibh beirt den chriú a gortaíodh ag teacht chucu féin tar éis cóireála. Thuairiscigh The Manila Times, ag lua Roinn Oibrithe Imirceacha na nOileán Filipíneach, an slán a fágadh ag an aerfort in Varna leis an 19 ball criú Filipíneach an 25 Samhain. Bhíothas ag súil go sroichfeadh dhá ghrúpa Mainile an 26 Samhain, am na nOileán Filipíneach; níor deimhníodh a dteacht go neamhspleách tráth an athbhreithnithe seo. Ní bhunaíonn sé seo riocht deiridh an tsoithigh ná an chúis bhunaidh."
+    ],
+    "basis": "2e8a41b9e0e20de5"
+  },
+  "N179": {
+    "headline": "An Mhuir Éigéach · Sé UAV i gclár na Gréige don 17 Samhain",
+    "description": "Liostaíonn clár GEETHA sé UAV an 17 Samhain, difriúil ó na cúig cinn tosaigh. Ní féidir na hiomláin chomhcheangailte spás aeir a chur i leith dróin amháin.",
+    "summary": [
+      "Liostaíonn clár míosúil GEETHA sé UAV agus ceithre aerárthach le foireann don 17 Samhain, le seacht sárú déag comhcheangailte ar an spás aeir náisiúnta agus deich sárú comhcheangailte ar FIR na hAithne. Ní roinneann sé na hiomláin seo de réir cineál aerárthaigh.",
+      "Liostaigh an feasachán níos luaithe cúig UAV le ceithre shárú spás aeir agus seacht sárú ar FIR. Luaitear an cuntas bunaidh sin fós, ach tá an clár difriúil agus ní thugann sé míniú. Ní bhunaíonn ceachtar leagan rianta eitilte go neamhspleách; ní scaoileadh anuas dróin é an teagmháil leis na scairdeitleáin chomhraic."
+    ],
+    "basis": "87dcaf1584079e1c"
+  },
+  "N180": {
+    "headline": "Farmakonisi · Tuairiscíodh UAV Tuircíoch ag eitilt os a chionn an 30 Iúil",
+    "description": "Thuairiscigh údaráis na Gréige gur eitil UAV thar Farmakonisi an 30 Iúil. Deimhníonn freagra aireachta i mí na Samhna tuairisciú oifigiúil chuig NATO, ní fionnachtain de chuid NATO.",
+    "summary": [
+      "Chuir tuairiscí Gréagacha ocht sárú ar an spás aeir náisiúnta i leith dhá UAV Tuircíocha an 30 Iúil 2026, eitilt thar Farmakonisi ina measc. Cuireadh ceithre shárú ar leith ar FIR na hAithne i leith na UAV. Is taifead laethúil amháin é seo, ní dhá theagmhas déag.",
+      "Admhaíonn freagra aireachta dar dáta an 1 Samhain, a foilsíodh an 16 Samhain, an eitilt agus deir sé gur sheol an Ghréig tuairisc oifigiúil chuig NATO. Dúirt sé go rabhthas ag súil le hanailís NATO ag an am sin; ní thugann sé fionnachtain de chuid NATO ná fianaise go bhfuiltear fós ag fanacht le freagra. Ní eol fós na rianta beachta eitilte ná an aidhm."
+    ],
+    "basis": "1ce7f990ce68d0c0"
+  },
+  "N181": {
+    "headline": "Imíonn MARIAM M, a ndearna drón damáiste di, le sruth go huiscí na Rómáine agus téann sí ar talamh ag Vadu",
+    "description": "Chuaigh MARIAM M ar talamh ag Vadu an 16 Samhain tar éis di imeacht le sruth ón Úcráin. Taifeadta mar iarmhairt mhuirí, le físeán; níor tuairiscíodh aon ionsaí nua sa Rómáin.",
+    "summary": [
+      "Chuaigh MARIAM M ar talamh ar chósta Vadu na Rómáine an 16 Samhain 2026. Bhí an long lasta thréigthe, faoi bhratach na Tansáine, tar éis imeacht le sruth isteach in uiscí na Rómáine nuair a bhris a hancaire an 14 Samhain.",
+      "Deir údaráis na Rómáine gur fhág ionsaí dróin i Meán Fómhair in uiscí críochacha na hÚcráine an long ar ancaire ansin. Clúdaíonn an taifead seo a teacht agus a dul ar talamh sa Rómáin ina dhiaidh sin, aicmithe mar Foláireamh / eile. Ní chomhaireann sé ionsaí dróin nua agus ní aistríonn sé taismigh ón ionsaí i Meán Fómhair.",
+      "An 19 Samhain scaoil tugaí an soitheach óna chéad bhruach gainimh. Thuairiscigh ProTV níos déanaí gur bhog sí thart ar 100 méadar sular chuaigh sí ar talamh ar bharra gainimh eile, agus ina dhiaidh sin chuir an criú ar ancaire í agus chuir siad an tarrtháil ar sos timpeall titim na hoíche. Áirítear ar an leathanach píosaí scannáin níos luaithe d’fhreagairt ARSVOM agus nasc le físeán ón gcladach.",
+      "In iarracht ar leith an 22 Samhain, thuairiscigh Știrile ProTV gur chas trí thuga MARIAM M i dtreo na farraige móire ach go ndeachaigh sí ar talamh go páirteach arís agus gur cuireadh an obair ar sos ag titim na hoíche. Fanann an láthair feistithe deiridh agus an toradh comhshaoil gan fíorú."
+    ],
+    "basis": "9fa9d16fcb95d141"
+  },
+  "N182": {
+    "headline": "An Mhuir Éigéach · UAV amháin i dtuairisc laethúil na Gréige don 18 Samhain",
+    "description": "Cuireann figiúirí Gréagacha sárú amháin ar an spás aeir náisiúnta agus sárú ar leith amháin ar FIR i leith UAV an 18 Samhain. Taifead réigiúnach amháin, gan aon ghleic tuairiscithe.",
+    "summary": [
+      "Cuireann figiúirí GEETHA a d’atáirg OnAlert agus NewsIT sárú amháin ar an spás aeir náisiúnta agus sárú ar leith amháin ar FIR na hAithne i leith UAV Tuircíoch an 18 Samhain in oirthuaisceart agus i lár na Mara Éigéiche.",
+      "Fágtar an CN-235 le foireann sa tábla céanna as comhaireamh na UAV. Tuairiscítear idircheapadh gnáthaimh, gan aon ghleic. Atáirgeann na hasraonta seo an cuntas údaráis céanna, ní rianta neamhspleácha; ní eol fós an bealach beacht, an tsamhail ná an aidhm."
+    ],
+    "basis": "9fecf75febc5fc69"
+  },
+  "N183": {
+    "headline": "An Mhuir Éigéach · Gníomhaíocht UAV Tuircíocha tuairiscithe an 14 Samhain",
+    "description": "Liostaíonn údaráis na Gréige 2 UAV Tuircíocha an 14 Samhain, le figiúirí don spás aeir náisiúnta agus do FIR a tuairiscíodh ar leithligh.",
+    "summary": [
+      "Liostaíonn clár GEETHA do mhí na Samhna 2 UAV agus gan aon aerárthach le foireann don 14 Samhain in oirdheisceart na Mara Éigéiche.",
+      "Tuairiscíonn an clár sárú amháin ar an spás aeir náisiúnta agus 2 sárú ar leith ar FIR na hAithne. Figiúirí ó údaráis na Gréige iad seo, ní rianta fíoraithe go neamhspleách, comhaireamh teagmhas uathúil ná ionsaithe. Níor liostaíodh aon ghleic."
+    ],
+    "basis": "7a977838703818f5"
+  },
+  "N184": {
+    "headline": "An Mhuir Éigéach · Gníomhaíocht UAV Tuircíocha tuairiscithe an 15 Samhain",
+    "description": "Liostaíonn údaráis na Gréige 3 UAV Tuircíocha an 15 Samhain, le figiúirí don spás aeir náisiúnta agus do FIR a tuairiscíodh ar leithligh.",
+    "summary": [
+      "Liostaíonn clár GEETHA do mhí na Samhna 3 UAV agus gan aon aerárthach le foireann don 15 Samhain i lár agus in oirdheisceart na Mara Éigéiche.",
+      "Tuairiscíonn an clár 4 sárú ar an spás aeir náisiúnta agus 4 sárú ar leith ar FIR na hAithne. Figiúirí ó údaráis na Gréige iad seo, ní rianta fíoraithe go neamhspleách, comhaireamh teagmhas uathúil ná ionsaithe. Níor liostaíodh aon ghleic."
+    ],
+    "basis": "9348fe0fa7d38f26"
+  },
+  "N186": {
+    "headline": "An Mhuir Éigéach · Gníomhaíocht UAV Tuircíocha tuairiscithe an 20 Samhain",
+    "description": "Thuairiscigh údaráis na Gréige trí UAV Tuircíocha agus trí shárú ar an spás aeir náisiúnta an 20 Samhain. Ní comhaireamh teagmhas iad na figiúirí FIR ar leith.",
+    "summary": [
+      "Atáirgeann OnAlert figiúirí Ard-Fhoireann na Gréige d’oirdheisceart na Mara Éigéiche an 20 Samhain: trí UAV Tuircíocha, trí shárú ar an spás aeir náisiúnta ag UAV agus trí shárú ar leith ar FIR na hAithne ag UAV. Bhí ATR-72 amháin le foireann freagrach as dhá shárú eile ar FIR.",
+      "Figiúirí laethúla luaite ó údaráis na Gréige iad seo, ní rianta eitilte neamhspleácha ná trí theagmhas ar leith ar an léarscáil. Níor fíoraíodh go neamhspleách an tsraith sa phríomhchlár míosúil."
+    ],
+    "basis": "394520276666d168"
+  },
+  "N188": {
+    "headline": "Admhaíonn an Úcráin an t-ionsaí ar SPARTA II; bhí an Fhionlainn i gceannas ar an tarrtháil ina dhiaidh sin",
+    "description": "D’admhaigh an Úcráin an t-ionsaí dróin i Murascaill na Fionlainne an 21 Samhain. Tá difríocht idir na cuntais faoin áit ar buaileadh an long. Bhí an Fhionlainn i gceannas ar an tarrtháil ina dhiaidh sin.",
+    "summary": [
+      "Thuairiscigh Fórsaí Cosanta na Fionlainne ionsaí dróin an 21 Samhain in oirthear Mhurascaill na Fionlainne. Chuir an míleata é in uiscí idirnáisiúnta, agus dúirt ceannasaí an Gharda Teorann, Ilja Iljin, gur tharla sé in uiscí críochacha na Rúise. D’imigh an long a bhí trí thine le sruth isteach in uiscí críochacha na Fionlainne ina dhiaidh sin. Ní bhunaíonn sé sin gur thrasnaigh drón isteach san Fhionlainn.",
+      "Dheimhnigh Garda Cósta na Fionlainne gur aslonnaíodh an criú go KAPITAN SAKHAROV. Ag a phreasócáid an 22 Samhain thuairiscigh Garda Teorann na Fionlainne go raibh ball criú amháin gortaithe. Lean an comhrac dóiteáin ar aghaidh tar éis na lasracha infheicthe a mhúchadh; ní fhacthas aon ola ar an bhfarraige go dtí an phreasócáid sin. Ní measúnú deiridh a bhí ansin.",
+      "Mheas stiúrthóir cumarsáide Fhórsaí Cosanta na Fionlainne, Aki-Mauri Huhtinen, gur dócha go raibh an Úcráin freagrach. Níor bunaíodh go neamhspleách an t-oibreoir sonrach, an aidhm ná an lasta.",
+      "Deir Aireacht Gnóthaí Eachtracha na hEastóine gur imigh an soitheach damáistithe le sruth ó chrios eacnamaíoch eisiach na hEastóine isteach i gcrios eacnamaíoch eisiach na Fionlainne, agus ansin isteach in uiscí críochacha na Fionlainne. Thug an Eastóin cúnamh ar iarratas ón bhFionlainn; dheimhnigh Garda Teorann na Fionlainne rannpháirtíocht na hEastóine sa chomhrac dóiteáin agus san fhuarú. Ní bhunaíonn na cuntais ar an tarrtháil suíomh an ionsaithe ná bealach dróin.",
+      "An 22 Samhain d’fhág an tarraingt crios eacnamaíoch eisiach agus limistéar freagartha comhshaoil na Fionlainne, chuir an Fhionlainn deireadh lena misean agus cealaíodh na srianta sealadacha. Chuir Heilsincí deireadh ar leithligh le hullmhacht réamhchúraim freagartha ola. Thuairiscigh Svenska Yle gur ghlac an Rúis freagracht as tarrtháil mhuirí.",
+      "An 23 Samhain dúirt gobharnóir réigiún Leningrad, Alexander Drozdenko, go ndeachaigh an criú i dtír in St Petersburg ag 20:00 am Mhoscó. Dúirt sé gur shroich an long an calafort céanna ar snámh lena lasta, gan am teachta na loinge a thabhairt. Tá a thuairisc nach raibh aon ghortuithe ann contrártha le tuairisc Gharda Teorann na Fionlainne. Fanann torthaí deiridh na tine agus an truaillithe agus aitheantas an lasta gan fíorú.",
+      "Dúirt Údarás Náisiúnta Forfheidhmiúcháin na Fionlainne gur mheas sé gur le comhlacht faoi smachtbhannaí an AE an long agus gur chuir sé srian eatramhach aistrithe i bhfeidhm tar éis di dul isteach in uiscí críochacha na Fionlainne an 21 Samhain. Bhí eisceachtaí tarrthála, sábháilteachta agus comhshaoil ag an srian. Níor bunaíodh an socrú dlíthiúil deiridh.",
+      "In agallamh le Bloomberg a foilsíodh an 24 Samhain, d’admhaigh an tUachtarán Volodymyr Zelenskyy gurbh í an Úcráin a rinne an t-ionsaí agus mhaígh sé gur tharla sé in uiscí críochacha na Rúise. Thuairiscigh ERR an buille i gCEE na hEastóine; chuir oifigeach tarrthála Eastónach an long sa CEE sin nuair a tharla an tine agus an phléasc. Chuir míleata na Fionlainne síos ar limistéar an ionsaithe mar uiscí idirnáisiúnta. Níor fíoraíodh go neamhspleách suíomh beacht an ionsaithe ná éileamh Zelenskyy faoi airm ar bord. Fíric dhoiciméadaithe ar leith í tarrtháil na Fionlainne ina dhiaidh sin."
+    ],
+    "basis": "672fe12e4e10cab6"
+  },
+  "N189": {
+    "headline": "D’eisigh agus chealaigh an Eastóin rabhadh bagartha aeir i ndá chontae san oirthuaisceart",
+    "description": "Thug an Eastóin rabhadh do chónaitheoirí in Lääne-Viru agus Ida-Viru faoi bhagairt aeir fhéideartha an 21 Samhain. Ní bhunaíonn an foláireamh ionradh dróin.",
+    "summary": [
+      "D’eisigh Fórsaí Cosanta na hEastóine rabhadh faoi bhagairt aeir fhéideartha do Lääne-Viru agus Ida-Viru an 21 Samhain ag 04:42 am áitiúil. Mhol an teachtaireacht foscadh a lorg dá bhfeicfí drón. Fógraíodh deireadh na contúirte ag 06:49 am áitiúil. Eachtra rabhaidh amháin é seo, ní ionradh fíoraithe."
+    ],
+    "basis": "c7c59339eb4400db"
+  },
+  "N190": {
+    "headline": "Rabhadh do chónaitheoirí Tulcea thar oíche; níor thuairiscigh an Rómáin aon iontráil sa spás aeir",
+    "description": "D’eisigh na húdaráis RO-Alert ag 00:46 am áitiúil an 22 Samhain agus sheol siad dhá F-16. Níor thuairiscigh an Aireacht Cosanta aon iontráil i spás aeir na Rómáine.",
+    "summary": [
+      "Seoladh rabhadh thar oíche chuig tuaisceart agus oirthear Tulcea ag 00:46 am áitiúil an 22 Samhain. Thuairiscigh Aireacht Chosanta na Rómáine sprioc aeir amháin lasmuigh den spás aeir náisiúnta agus dúirt sí gur éirigh dhá F-16 san aer. Níor thuairiscigh sí aon iontráil sa spás aeir náisiúnta. Dúirt an aireacht gur tháinig deireadh leis an bhfoláireamh aeir ag 02:14, agus thug ISU Delta Tulcea 02:16 agus níor thuairiscigh sé aon iarratais ná fadhbanna. Cuntais ar eachtra rabhaidh amháin iad seo."
+    ],
+    "basis": "bb330334fdeedf43"
+  },
+  "N191": {
+    "headline": "An Mhuir Éigéach · Gníomhaíocht UAV Tuircíocha tuairiscithe an 22 Samhain",
+    "description": "Thuairiscigh figiúirí ó údaráis na Gréige seacht UAV Tuircíocha, seacht sárú ar an spás aeir náisiúnta agus seacht sárú ar leith ar FIR na hAithne.",
+    "summary": [
+      "Thuairiscigh asraonta Gréagacha, ag lua Ard-Fhoireann Náisiúnta Cosanta na Gréige, seacht UAV Tuircíocha, seacht sárú ar spás aeir náisiúnta na Gréige agus seacht sárú ar FIR na hAithne ar fud oirthuaisceart, lár agus oirdheisceart na Mara Éigéiche an 22 Samhain. Thuairiscigh siad sainaithint agus idircheapadh gnáthaimh.",
+      "Is tomhais ar leith sa tuairisc laethúil amháin iad na trí fhigiúr. Ní bhunaíonn siad rianta eitilte neamhspleácha, scaoileadh anuas ná ionsaí. Níorbh fhéidir an tsraith bhunaidh sa chlár laethúil a fhíorú."
+    ],
+    "basis": "0eec6e747256d451"
+  },
+  "N192": {
+    "headline": "Tháinig deireadh le RO-Alert iarnóna i dtuaisceart Tulcea gan iontráil sa spás aeir tuairiscithe",
+    "description": "Fuair tuaisceart Tulcea rabhadh iarnóna ar leith ag 15:06 am áitiúil an 22 Samhain. Níor tuairiscíodh aon iontráil i spás aeir na Rómáine.",
+    "summary": [
+      "Thuairiscigh Aireacht Chosanta na Rómáine sprioc aeir amháin ó thuaidh de Vâlcove, san Úcráin, agus RO-Alert do thuaisceart Tulcea ó 15:06 go 15:42 am áitiúil an 22 Samhain. Níor tuairiscíodh aon iontráil i spás aeir na Rómáine.",
+      "Dúirt an aireacht gur éirigh scairdeitleáin chomhraic Spáinneacha agus héileacaptair san aer mar fhreagairt. Níor thuairiscigh sí idircheapadh.",
+      "Rabhadh cosanta sibhialta é seo, ní ionradh ná ionsaí dróin deimhnithe. Níor bunaíodh cineál na sprice ná an t-oibreoir."
+    ],
+    "basis": "1fce4c3f1e26c381"
+  },
+  "N193": {
+    "headline": "Tháinig deireadh le RO-Alert tráthnóna i dtuaisceart Tulcea gan iontráil sa spás aeir tuairiscithe",
+    "description": "Fuair tuaisceart Tulcea rabhadh tráthnóna ar leith ag 20:01 am áitiúil an 22 Samhain. Níor tuairiscíodh aon iontráil i spás aeir na Rómáine.",
+    "summary": [
+      "Thuairiscigh Aireacht Chosanta na Rómáine spriocanna aeir soir ó Oileán na Nathrach agus RO-Alert do thuaisceart Tulcea ó 20:01 go 21:15 am áitiúil an 22 Samhain. Níor tuairiscíodh aon iontráil i spás aeir na Rómáine.",
+      "Rabhadh cosanta sibhialta é seo, ní ionradh ná ionsaí dróin deimhnithe. Níor bunaíodh cineál na sprice ná an t-oibreoir."
+    ],
+    "basis": "6ac4b0c86f4adf5a"
+  },
+  "N194": {
+    "headline": "Téann drón a cuireadh i leith na Rúise isteach sa Pholainn in aice le Dorohusk agus filleann sé ar an Úcráin",
+    "description": "Tuairiscíonn an Pholainn gur thrasnaigh drón isteach in aice le Dorohusk an 23 Samhain. Údaraíodh é a scaoileadh anuas, ach níor úsáideadh aon airm sular fhill sé ar an Úcráin.",
+    "summary": [
+      "Dheimhnigh Ceannasaíocht Oibríochtúil na Polainne go ndeachaigh drón amháin a cuireadh i leith na Rúise isteach i spás aeir na Polainne an 23 Samhain le linn ionsaithe ar iarthar na hÚcráine. Cuireann iarthuairisc Rzeczpospolita, ag lua na ceannasaíochta agus an urlabhraí Jacek Goryszewski, an iontráil in aice le Dorohusk ag 22:50 am áitiúil, le hionradh thart ar 20 km a mhair 8–9 nóiméad sular chas an drón ar ais i dtreo na hÚcráine.",
+      "Údaraíodh é a scaoileadh anuas, ach níor úsáideadh aon airm. Tuairiscíonn Radio Lublin agus UNITED24 gur staon ceannasaithe ó lámhach tar éis don drón casadh soir, agus sábháilteacht shibhialtach á cur san áireamh. Dúirt Goryszewski go raibh údarú ag córais talún; ní raibh aerárthaí Polannacha ag feidhmiú in aice leis an teorainn mar gheall ar an aimsir. Níor tuairiscíodh aon taismigh, tionchar ná aisghabháil smionagair.",
+      "Mheas an t-urlabhraí ó luas na heitilte go raibh tiomáint scairde ann, ach níor dheimhnigh sé ceamaraí ná ról taiscéalaíochta. Ní eol fós an tsamhail, an lasta ná an sprioc bheartaithe. Tagairt neasach é marcóir Dorohusk, ní comhordanáid fhíoraithe trasnaithe. Is cuid den tarlú amháin seo na rabhaidh phoiblí, ar leith ó theagmhas an diúracáin an 20 Samhain.",
+      "Logáil an tIonad Slándála Rialtais an nuashonrú foscaidh ag 22:56 CET agus deireadh na contúirte ag 23:54 CET. Amanna rabhaidh iad seo, ní amanna eitilte."
+    ],
+    "basis": "d2d4fb5622cf3ffd"
+  },
+  "N195": {
+    "headline": "Tausiūnai–Aukštalaukis: aisghabhann gardaí teorann drón a bhí ag iompar toitíní ón mBealarúis",
+    "description": "Tuairiscíonn an Liotuáin ionradh dróin ar leith in aice le Tausiūnai–Aukštalaukis an 27 Meán Fómhair, agus aisghabhadh 250 paicéad toitíní. Oibreoir anaithnid.",
+    "summary": [
+      "Thuairiscigh VSAT drón a bhí ag iompar toitíní ón mBealarúis go déanach tráthnóna Dé Domhnaigh, am áitiúil, an 27 Meán Fómhair. Braitheadh an drón in aice le Tausiūnai agus aisghabhadh é in aice le Aukštalaukis tar éis tuirlingt éigeantach. Bhí drochdhamáiste déanta dó.",
+      "D’aisghabh gardaí teorann 250 paicéad toitíní agus chuir siad tús le himeachtaí riaracháin. Níor sainaithníodh an t-oibreoir. Cás smuigleála trasteorann é seo, ní ionsaí stáit bunaithe."
+    ],
+    "basis": "075b2a5c83a9ffc2"
+  },
+  "N196": {
+    "headline": "Eišiškės: aisghabhann gardaí teorann drón a bhí ag iompar toitíní ón mBealarúis",
+    "description": "Tuairiscíonn an Liotuáin ionradh dróin ar leith in aice le Eišiškės an 27 Meán Fómhair, agus aisghabhadh 100 paicéad toitíní. Oibreoir anaithnid.",
+    "summary": [
+      "Thuairiscigh VSAT drón a bhí ag iompar toitíní ón mBealarúis roimh mheán oíche, am áitiúil, an 27 Meán Fómhair. D’idircheap patról eile an drón in aice le Eišiškės roinnt uaireanta an chloig tar éis an chéad teagmhais. Thit an drón i gceantar an bhaile agus aisghabhadh é.",
+      "D’aisghabh gardaí teorann 100 paicéad toitíní agus chuir siad tús le himeachtaí riaracháin. Níor sainaithníodh an t-oibreoir. Cás smuigleála trasteorann é seo, ní ionsaí stáit bunaithe."
+    ],
+    "basis": "0184a774707cec6e"
+  },
+  "N197": {
+    "headline": "An Mhuir Éigéach: 6 sárú tuairiscithe ar an spás aeir an 18 Deireadh Fómhair",
+    "description": "Chuir Veteranos, ag lua tuairisciú míleata na Gréige, síos ar 5 UAV Tuircíocha i lár agus in oirdheisceart na Mara Éigéiche an 18 Deireadh Fómhair 2026, le 6 sárú tuairiscithe ar an spás aeir náisiúnta agus, ar leithligh, 10 sárú ar rialacha tráchta in FIR na hAithne.",
+    "summary": [
+      "Chuir Veteranos, ag lua tuairisciú míleata na Gréige, síos ar 5 UAV Tuircíocha i lár agus in oirdheisceart na Mara Éigéiche an 18 Deireadh Fómhair 2026, le 6 sárú tuairiscithe ar an spás aeir náisiúnta agus, ar leithligh, 10 sárú ar rialacha tráchta in FIR na hAithne.",
+      "Tuairiscíonn an cuntas sainaithint agus idircheapadh gnáthaimh, ní gleic le hairm ná scaoileadh anuas.",
+      "Is taifead laethúil luaite amháin é seo, ní comhaireamh ionraí deimhnithe ar leith. Ní bhfuarthas an iontráil bhunaidh i gclár míleata na Gréige, agus níl na rianta, na suíomhanna beachta, an aidhm ná sonraí an oibreora fíoraithe. Fanann an díospóid spás aeir idir an Ghréig agus an Tuirc ábhartha."
+    ],
+    "basis": "b78a96fd3dd18174"
+  },
+  "N198": {
+    "headline": "An Mhuir Éigéach: 3 sárú tuairiscithe ar an spás aeir an 21 Samhain",
+    "description": "Chuir Veteranos, ag lua tuairisciú míleata na Gréige, síos ar UAV Tuircíoch amháin i lár na Mara Éigéiche an 21 Samhain 2026, le 3 sárú tuairiscithe ar an spás aeir náisiúnta agus, ar leithligh, 1 sárú ar rialacha tráchta in FIR na hAithne.",
+    "summary": [
+      "Chuir Veteranos, ag lua tuairisciú míleata na Gréige, síos ar UAV Tuircíoch amháin i lár na Mara Éigéiche an 21 Samhain 2026, le 3 sárú tuairiscithe ar an spás aeir náisiúnta agus, ar leithligh, 1 sárú ar rialacha tráchta in FIR na hAithne.",
+      "Tuairiscíonn an cuntas sainaithint agus idircheapadh gnáthaimh, ní gleic le hairm ná scaoileadh anuas.",
+      "Is taifead laethúil luaite amháin é seo, ní comhaireamh ionraí deimhnithe ar leith. Ní bhfuarthas an iontráil bhunaidh i gclár míleata na Gréige, agus níl na rianta, na suíomhanna beachta, an aidhm ná sonraí an oibreora fíoraithe. Fanann an díospóid spás aeir idir an Ghréig agus an Tuirc ábhartha."
+    ],
+    "basis": "4035154a2ead9d19"
+  },
+  "N199": {
+    "headline": "Cealaíodh RO-Alert maidine i dtuaisceart Tulcea gan iontráil tuairiscithe i spás aeir na Rómáine",
+    "description": "Thug an Rómáin rabhadh do thuaisceart Tulcea maidin an 24 Samhain tar éis sprioc a bhrath i spás aeir na hÚcráine. Níor tuairiscíodh aon iontráil i spás aeir na Rómáine.",
+    "summary": [
+      "Thug an Rómáin rabhadh do thuaisceart Tulcea maidin an 24 Samhain tar éis sprioc a bhrath i spás aeir na hÚcráine. Níor tuairiscíodh aon iontráil i spás aeir na Rómáine.",
+      "Thuairiscigh an Aireacht Cosanta rabhadh ag 11:11 EET, faireachán ag aerárthaí Spáinneacha agus deireadh na contúirte ag 11:51 EET.",
+      "Luaigh an cuntas éigeandála áitiúil am fála 10:11 ar an bhfón. Ní léiríonn an neamhréir seo dara foláireamh maidine.",
+      "Foláireamh réamhchúraim é seo, ní ionradh deimhnithe sa Rómáin."
+    ],
+    "basis": "0198614f7d30239f"
+  },
+  "N200": {
+    "headline": "Cealaíodh RO-Alert iarnóna i dtuaisceart Tulcea gan iontráil tuairiscithe i spás aeir na Rómáine",
+    "description": "Thug an Rómáin rabhadh arís do thuaisceart Tulcea an 24 Samhain tar éis sprioc a bhrath in aice le craobh Chilia i spás aeir na hÚcráine. Níor tuairiscíodh aon iontráil i spás aeir na Rómáine.",
+    "summary": [
+      "Thug an Rómáin rabhadh arís do thuaisceart Tulcea an 24 Samhain tar éis sprioc a bhrath in aice le craobh Chilia i spás aeir na hÚcráine. Níor tuairiscíodh aon iontráil i spás aeir na Rómáine.",
+      "Thuairiscigh an Aireacht Cosanta rabhadh ag 14:37 EET, faireachán ag aerárthaí agus deireadh na contúirte ag 15:40 do thuaisceart Tulcea. Tuairiscíonn ProTV gur thosaigh céim an fholáirimh aeir i nGalați ag 14:52 EET tar éis tuairisce ar dhrón neamhaitheanta ag dul i dtreo an chontae. Tuairiscíodh deireadh na contúirte ón IGSU áitiúil ag 15:46 EET.",
+      "Ní eol aitheantas na sprice, an t-oibreoir ná an sprioc bheartaithe. Níor bunaíodh ar bhain rabhaidh Tulcea agus Galați leis an sprioc chéanna. Fanann rabhadh na maidine ar leith.",
+      "Foláireamh réamhchúraim é seo, ní ionradh deimhnithe sa Rómáin."
+    ],
+    "basis": "faba06a8d0d3b2db"
+  },
+  "N201": {
+    "headline": "Žaltūnai–Girdijauskai: tuairiscíonn an Liotuáin smuigleáil trasteorann le drón",
+    "description": "D’aisghabh gardaí teorann na Liotuáine 2 aerárthach agus 2,000 paicéad toitíní tar éis oibríocht thar oíche i mí Iúil in aice le Žaltūnai–Girdijauskai.",
+    "summary": [
+      "9–10 Iúil 2026 (thar oíche). Deir an garda teorann gur bhraith sé dróin ón mBealarúis i rith na hoíche. D’aisghabh oifigigh dhá dhrón lasta in aice le Žaltūnai agus Girdijauskai tar éis do na cuardaigh atosú i solas an lae.",
+      "D’aisghabh oifigigh 2,000 paicéad toitíní le stampaí Bealarúiseacha ó 2 aerárthach. Osclaíodh imscrúdú coiriúil.",
+      "Ní eol an t-oibreoir ná an pointe trasnaithe agus an rian beacht. Taifeadtar an oibríocht mar smuigleáil trasteorann, ní mar ionsaí míleata."
+    ],
+    "basis": "a335379fd80fd841"
+  },
+  "N202": {
+    "headline": "Šiulgiai–Šumskas: tuairiscíonn an Liotuáin smuigleáil trasteorann le drón",
+    "description": "D’aisghabh gardaí teorann na Liotuáine aerárthach amháin agus 340 paicéad toitíní tar éis oibríocht thar oíche i mí Iúil in aice le Šiulgiai–Šumskas.",
+    "summary": [
+      "17–18 Iúil 2026 (thar oíche). Thuairiscigh an garda teorann go ndeachaigh drón lasta amháin isteach sa Liotuáin. Chuala oifigigh an drón in aice le Šiulgiai ach ní fhaca siad é. Tar éis idirghabhála thit sé, agus aisghabhadh an t-aerárthach damáistithe in aice le Šumskas i solas an lae.",
+      "D’aisghabh oifigigh 340 paicéad toitíní le stampaí Bealarúiseacha ó aerárthach amháin. Cuireadh tús le himeachtaí riaracháin.",
+      "Ní eol an t-oibreoir ná an pointe trasnaithe agus an rian beacht. Taifeadtar an oibríocht mar smuigleáil trasteorann, ní mar ionsaí míleata."
+    ],
+    "basis": "0eba63dd63dc7160"
+  },
+  "N203": {
+    "headline": "Norviliškės–Daulėnai: tuairiscíonn an Liotuáin smuigleáil trasteorann le drón",
+    "description": "D’aisghabh gardaí teorann na Liotuáine 3 aerárthach agus 3,000 paicéad toitíní tar éis oibríocht thar oíche i mí Iúil in aice le Norviliškės–Daulėnai.",
+    "summary": [
+      "29–30 Iúil 2026 (thar oíche). Thuairiscigh an garda teorann dróin lasta ag dul isteach sa Liotuáin ón mBealarúis. Aisghabhadh dhá aerárthach in aice le Norviliškės agus ceann amháin in aice le Daulėnai le linn oibríocht amháin thar oíche, agus rinneadh an aisghabháil dheireanach i solas an lae.",
+      "D’aisghabh oifigigh 3,000 paicéad toitíní le stampaí Bealarúiseacha ó 3 aerárthach. Osclaíodh imscrúdú coiriúil.",
+      "Ní eol an t-oibreoir ná an pointe trasnaithe agus an rian beacht. Taifeadtar an oibríocht mar smuigleáil trasteorann, ní mar ionsaí míleata."
+    ],
+    "basis": "20d845bfb0acadf0"
+  },
+  "N204": {
+    "headline": "Kiemėnai: aisghabhann gardaí teorann na Liotuáine drón smuigleála",
+    "description": "D’aisghabh gardaí teorann na Liotuáine drón agus 750 paicéad toitíní tar éis oibríocht thar oíche in aice le Kiemėnai.",
+    "summary": [
+      "16–17 Aibreán 2026. Dúirt VSAT gur bhraith sé an drón ag eitilt isteach sa Liotuáin ón mBealarúis. Thit an drón tar éis do ghardaí teorann idirghabháil a dhéanamh agus aisghabhadh é in aice le Kiemėnai.",
+      "D’aisghabh oifigigh 750 paicéad toitíní le stampaí Bealarúiseacha agus chuir siad tús le himeachtaí riaracháin.",
+      "Níor bunaíodh oibreoir, urraíocht stáit ná rian beacht eitilte. Taifead smuigleála teorann é seo, ní ionsaí míleata."
+    ],
+    "basis": "1738bd94e1620fe1"
+  },
+  "N205": {
+    "headline": "Prūdelis: aisghabhann gardaí teorann na Liotuáine drón smuigleála",
+    "description": "D’aisghabh gardaí teorann na Liotuáine drón agus 1,000 paicéad toitíní tar éis oibríocht thar oíche in aice le Prūdelis.",
+    "summary": [
+      "8–9 Iúil 2026. Thuairiscigh VSAT an drón ag eitilt isteach sa tír ón teorainn leis an mBealarúis; níor fhoilsigh sé an pointe trasnaithe ná an rian beacht. Thit an drón tar éis do ghardaí teorann idirghabháil a dhéanamh agus aisghabhadh é in aice le Prūdelis.",
+      "D’aisghabh oifigigh 1,000 paicéad toitíní le stampaí Bealarúiseacha agus chuir siad tús le himeachtaí riaracháin.",
+      "Níor bunaíodh oibreoir, urraíocht stáit ná rian beacht eitilte. Taifead smuigleála teorann é seo, ní ionsaí míleata."
+    ],
+    "basis": "1c7fd61759b9aa98"
+  },
+  "N206": {
+    "headline": "An Mhuir Éigéach · Gníomhaíocht UAV Tuircíocha tuairiscithe an 25 Samhain",
+    "description": "Liostaíonn figiúirí ó údaráis na Gréige trí UAV Tuircíocha, ceithre shárú ar an spás aeir náisiúnta agus trí shárú ar leith ar FIR na hAithne.",
+    "summary": [
+      "Liostaigh Ard-Fhoireann Náisiúnta Cosanta na Gréige (GEETHA), mar a thuairiscigh OnAlert agus Veteranos, trí UAV Tuircíocha, ceithre shárú tuairiscithe ar spás aeir náisiúnta na Gréige agus trí shárú ar leith ar rialacha tráchta in FIR na hAithne an 25 Samhain. Chlúdaigh an tuairisc oirthuaisceart, lár agus oirdheisceart na Mara Éigéiche. Tuairiscíodh sainaithint agus idircheapadh gnáthaimh; níor liostaíodh aon ghleic.",
+      "Is tomhais ar leith iad na figiúirí i bhfeasachán míleata laethúil amháin, ní rianta eitilte aonair fíoraithe ná comhaireamh ionsaithe. Luann an dá thuairisc an feasachán céanna; ní raibh rochtain dhíreach ar an tábla oifigiúil míosúil tráth an athbhreithnithe."
+    ],
+    "basis": "0e4f136f9c21f1b4"
+  },
+  "N207": {
+    "headline": "Kuodžiai: tuairiscíonn an Liotuáin ceithre dhrón smuigleála in oibríocht amháin",
+    "description": "D’aisghabh gardaí teorann na Liotuáine ceithre dhrón agus 4,000 paicéad toitíní tar éis oibríocht an 30 Iúil in aice le Kuodžiai.",
+    "summary": [
+      "30 Iúil 2026, tráthnóna. Thuairiscigh Seirbhís Stáit na nGardaí Teorann sa Liotuáin (VSAT) go ndeachaigh ceithre dhrón lasta isteach ón mBealarúis agus gur tugadh anuas agus gur aisghabhadh iad in oibríocht amháin in aice le Kuodžiai, i gceantar Lazdijai.",
+      "B’ionann an lasta a aisghabhadh agus 4,000 paicéad toitíní le stampaí Bealarúiseacha san iomlán. Dúirt VSAT gur osclaíodh imscrúdú coiriúil. Oibríocht dhoiciméadaithe amháin í seo, ní ceithre thaifead teagmhais ar leith.",
+      "Níor bunaíodh rian beacht eitilte, aitheantas an oibreora ná urraíocht stáit. Cás smuigleála coiriúil é seo, ní ionsaí míleata."
+    ],
+    "basis": "f3ab912199253de4"
+  },
+  "N208": {
+    "headline": "Aisghabhann gardaí na Liotuáine drón smuigleála agus 500 paicéad toitíní in aice le Jurgionys",
+    "description": "Thuairiscigh gardaí teorann na Liotuáine iontráil dróin ón mBealarúis in aice le Jurgionys roimh mheán oíche an 24 Samhain agus d’aisghabh siad 500 paicéad toitíní.",
+    "summary": [
+      "Thuairiscigh gardaí teorann na Liotuáine iontráil dróin ón mBealarúis in aice le Jurgionys roimh mheán oíche an 24 Samhain agus d’aisghabh siad 500 paicéad toitíní.",
+      "Deir an eisiúint an 26 Samhain go ndearnadh damáiste don aerárthach ag an tuairteáil. Ba é an 74ú haerárthach a idircheapadh sa chatagóir forfheidhmithe sin in 2026 go dtí an eisiúint, ní an 74ú taifead sa chlár seo."
+    ],
+    "basis": "67a42221ac53e32e"
+  },
+  "N209": {
+    "headline": "Tuairiscíonn gardaí na Liotuáine iontráil dróin in aice le Purvėnai agus aisghabháil in aice le Geismantai",
+    "description": "Thuairiscigh seirbhís teorann na Liotuáine iontráil dróin an 24 Eanáir agus d’aisghabh sí é in aice le Geismantai le 1,000 paicéad toitíní.",
+    "summary": [
+      "Thuairiscigh seirbhís teorann na Liotuáine iontráil dróin an 24 Eanáir agus d’aisghabh sí é in aice le Geismantai le 1,000 paicéad toitíní.",
+      "Tá sé seo ar leith ó theagmhas Purvėnai an 27 Eanáir a tuairiscíodh ar leithligh."
+    ],
+    "basis": "da169e0f9823eba4"
+  },
+  "N210": {
+    "headline": "Doiciméadaíonn ionchúisitheoirí na Liotuáine oibríocht smuigleála le dróin i mí Bealtaine i gceantar Švenčionys",
+    "description": "Dúirt ionchúisitheoirí na Liotuáine gur thug dróin 35,500 paicéad toitíní trasna na teorann ón mBealarúis oíche an 27 Bealtaine. Ní eol líon na n-aerárthaí.",
+    "summary": [
+      "Dúirt ionchúisitheoirí na Liotuáine gur thug dróin 35,500 paicéad toitíní trasna na teorann ón mBealarúis oíche an 27 Bealtaine. Ní eol líon na n-aerárthaí.",
+      "D’aisghabh gardaí toitíní tar éis iad a bhogadh ar an talamh. Níor tuairiscíodh aon idircheapadh ná aisghabháil dróin. Ní raibh ordú na cúirte críochnaitheach tráth an fhógra an 20 Samhain."
+    ],
+    "basis": "55b583cfae9bda20"
+  },
+  "N211": {
+    "headline": "Tuairiscíonn gardaí na Liotuáine gur thug siad ceithre dhrón smuigleála anuas in aice le Jaskonys",
+    "description": "Thuairiscigh gardaí teorann na Liotuáine gur thug siad ceithre dhrón a bhí ag teacht isteach anuas in oibríocht amháin in aice le Jaskonys, agus gur aisghabh siad na haerárthaí agus 4,998 paicéad toitíní.",
+    "summary": [
+      "Thuairiscigh gardaí teorann na Liotuáine gur thug siad ceithre dhrón a bhí ag teacht isteach anuas in oibríocht amháin in aice le Jaskonys, agus gur aisghabh siad na haerárthaí agus 4,998 paicéad toitíní.",
+      "Tagraíonn an eisiúint an 7 Iúil d’oíche Dé hAoine, agus lean na haisghabhálacha ar aghaidh isteach i solas an lae. Ní shonraíonn sí teorainn mheán oíche. Ní hí seo an oibríocht níos déanaí ag Kuodžiai."
+    ],
+    "basis": "bdc463b805195983"
+  },
+  "N212": {
+    "headline": "Críochnaíonn rabhadh tráthnóna i dtuaisceart Tulcea gan iontráil tuairiscithe i spás aeir na Rómáine",
+    "description": "Thuairiscigh Aireacht Chosanta na Rómáine gur bhraith radar sprioc aeir neamhaitheanta soir ó Vâlcove, san Úcráin. Fuair tuaisceart Tulcea rabhadh. Níor tuairiscíodh aon iontráil i spás aeir na Rómáine.",
+    "summary": [
+      "Thuairiscigh Aireacht Chosanta na Rómáine gur bhraith radar sprioc aeir neamhaitheanta soir ó Vâlcove, san Úcráin. Fuair tuaisceart Tulcea rabhadh. Níor tuairiscíodh aon iontráil i spás aeir na Rómáine.",
+      "Tháinig deireadh ag 19:11 leis an RO-Alert a eisíodh ag 18:52 EET. Atreoraíodh aerárthaí Spáinneacha a bhí san aer cheana ar oiliúint chun faireachán a dhéanamh.",
+      "Rabhadh sibhialta é seo, ní ionradh dróin deimhnithe."
+    ],
+    "basis": "6379cdfa337a493b"
+  },
+  "N213": {
+    "headline": "Liostaíonn tuairisc laethúil Ghréagach sé UAV Tuircíocha sa Mhuir Éigéach an 26 Samhain",
+    "description": "Thuairiscigh Veteranos sé UAV Tuircíocha, naoi sárú tuairiscithe ar spás aeir náisiúnta na Gréige agus naoi sárú ar leith ar rialacha tráchta in FIR na hAithne.",
+    "summary": [
+      "Thuairiscigh Veteranos sé UAV Tuircíocha, naoi sárú tuairiscithe ar spás aeir náisiúnta na Gréige agus naoi sárú ar leith ar rialacha tráchta in FIR na hAithne.",
+      "Clúdaíonn an tábla oirthuaisceart, lár agus oirdheisceart na Mara Éigéiche agus ní liostaíonn sé aon aerárthaí armtha ná gleic.",
+      "Is tomhais ar leith iad na comhairimh ó thuairisc laethúil fhoilsithe amháin, ní rianta eitilte fíoraithe ná comhaireamh ionsaithe."
+    ],
+    "basis": "4cb6890e53c1739e"
+  },
+  "N214": {
+    "headline": "Deimhníonn míleata na Laitvia iontráil ghearr dróin in aice lena teorainn thoir",
+    "description": "Dúirt Fórsaí Armtha Náisiúnta na Laitvia go raibh aerárthach gan foireann amháin taobh istigh de chríoch na Laitvia go gairid i rith oíche an 27 Samhain. Níor deimhníodh aon dara iontráil in Balvi.",
+    "summary": [
+      "Dúirt Fórsaí Armtha Náisiúnta na Laitvia go raibh aerárthach gan foireann amháin taobh istigh de chríoch na Laitvia go gairid i rith oíche an 27 Samhain. Níor deimhníodh aon dara iontráil in Balvi.",
+      "Bhí rabhadh oráiste Ludza i bhfeidhm 02:30–02:55 EET. Thosaigh rabhadh buí Balvi ag 02:55 agus tháinig deireadh leis thart ar 03:30. Gníomhachtaíodh scairdeitleáin chomhraic NATO agus imscaradh drón idircheaptha Laitviach agus d’fhill sé.",
+      "Níor shainaithin an míleata oibreoir, bunús ná sprioc an dróin agus níor thuairiscigh sé aon scaoileadh anuas."
+    ],
+    "basis": "669b6dce3baee574"
   }
 }

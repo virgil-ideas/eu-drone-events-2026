@@ -118,13 +118,13 @@
   },
   "E013": {
     "headline": "Lõhkelaenguga drooni killud hävitati Luncavița lähedal Rumeenias",
-    "description": "26. aprillil 2026 leiti Rumeenias Luncavița ja Văcăreni vahel lõhkelaenguga drooni killud ning hävitati need. Nende päritolu uuritakse.",
+    "description": "Luncavița lähedalt 26. aprillil 2026 leitud drooni killud tuvastas Rumeenia kaitseministeerium hiljem osana Venemaale omistatud Geran-2 juhtumist.",
     "summary": [
       "26. aprillil 2026 teatati täiendavatest drooni kildudest Luncavița ja Văcăreni vahel Rumeenias Tulcea maakonnas, päev pärast seda, kui killud leiti Văcăreni talu lähedalt. Materjali hulgas kinnitati lõhkelaengut ning anti välja RO-Alerti ohutushoiatus.",
-      "Kildude päritolu uuritakse ning teatati Constanța apellatsioonikohtu prokuratuuri uurimisest. Millal droon lendas või alla tuli, on teadmata. Killud ei ole kinnitatud teise täieliku droonina ning ei ole kindlaks tehtud, kas need ja eelmise päeva leid pärinesid ühest või mitmest lennukikerest.",
+      "31. mai avalduses loetles MApN tagantjärele Luncavița 26. aprillil varasemate Venemaale omistatud Geran-2 juhtumite hulgas. See ajakohastab esialgset lahendamata päritolu, kuid ei tee kindlaks, millal droon lendas või alla tuli, selle marsruuti ega kavandatud sihtmärki. Killud ei ole kinnitatud teise täieliku droonina ning nende lennukikere seos eelmise päeva leiuga jääb lahendamata.",
       "SRI pürotehnikud ja Rumeenia kaitseministeeriumi (MApN) spetsialistid hindasid materjali, mis seejärel hävitati kohapeal kontrollitud lõhkamisega prokuröri loal. Kannatanuid ei teatatud."
     ],
-    "basis": "88e415a73fd8096d"
+    "basis": "b590e35104316219"
   },
   "E014": {
     "headline": "Tundmatu päritoluga droon leiti Șerbăuți lähedalt Rumeenias Suceava maakonnas",
@@ -171,9 +171,9 @@
     "summary": [
       "15. mail 2026 vallandas kahtlustatav droonitegevus Soome Helsingi suurlinnapiirkonnas ulatuslikud kaitsemeetmed. Elanikke hoiatati jääma siseruumidesse, lennujaama tegevus peatati ja õhku tõsteti hävitajad. Mitu drooni oli kaasatud ja mis tüüpi need olid, on lahendamata.",
       "Välismaist päritolu ei ole tõestatud ning mis tahes droonide teekond on teadmata. Soome ametiasutused hindasid ohtu ning nende toonane avaldus ei kinnitanud otsest sõjalist ohtu. Episood oli häire ja töökatkestus, mitte kinnitatud rünnak.",
-      "Füüsilist kahju ei teatatud."
+      "Füüsilist kahju ei teatatud. Lennujaama käitaja Finavia kinnitab, et lennuliiklus oli peatatud kohaliku aja järgi kella 04:00–07:00 ja seejärel taastati, kuid sel päeval esines hilinemisi ja tühistamisi. Finavia ei esita tühistamiste koguarvu ega tuvasta drooni."
     ],
-    "basis": "8dcd29f016872e0a"
+    "basis": "22793f6506f0bdbc"
   },
   "E019": {
     "headline": "Kahtlustatava Ukraina drooni rusud leiti Utena lähedalt Leedus",
@@ -255,14 +255,14 @@
     "basis": "a18eddeece7bbecb"
   },
   "E027": {
-    "headline": "Isetehtud smugeldamisdroon sunniti Leedus Valgevene piiri lähedal alla",
-    "description": "23. mail 2026 sunniti Leedus Šalčininkai rajoonis Dumblės alla teadete kohaselt Valgevenest saabunud isetehtud lastidroon, mis konfiskeeriti smugeldamisjuhtumis.",
+    "headline": "Smugeldamisdroon toodi Dumblė lähedal ära ilma lastita",
+    "description": "Leedu piirivalve sõnul ei kandnud 23. mail 2026 Dumblė lähedal alla kukkunud isetehtud droon lasti ja sai maaga kokkupõrkel tugevasti kahjustada.",
     "summary": [
-      "23. mail 2026 sunniti smugeldatud kaupa vedanud isetehtud lastidroon teadete kohaselt alla Leedus Šalčininkai rajoonis Dumblės, Valgevene piiril. Piirivalveametnikud peatasid drooni ja konfiskeerisid selle.",
-      "Droon saabus teadete kohaselt Valgevenest. See oli kriminaalne smugeldamislend, mitte sõjaline, ning käitajat ei ole tuvastatud. Lasti ja drooni enda kohta üksikasju ei olnud kättesaadavad.",
-      "Lõhkelasti ega kannatanuid ei teatatud. Teated kirjeldavad sundmaandumist ja konfiskeerimist, mitte allatulistamist ega allakukkumist."
+      "23. mail 2026 kukkus Leedu piirivalveteenistuse (VSAT) teatel Valgevenest sisenenud isetehtud droon pärast piirivalvurite sekkumist alla Dumblė lähedal Šalčininkai rajoonis.",
+      "Kui ametnikud õhusõiduki ära tõid, oli see tugevasti kahjustatud ja lastita. VSAT-i algne teade parandab varasemat kirjeldust lastiga droonist.",
+      "VSAT kirjeldas õhusõidukit smugeldajatele kuuluvana. Käitaja ei ole teada. Kannatanutest ega kineetilisest allatulistamisest ei teatatud."
     ],
-    "basis": "e9db67cdbd535522"
+    "basis": "9db105cbb575f730"
   },
   "E028": {
     "headline": "Rumeenia: Vene droon tabas Galați kortermaja, kaks inimest said vigastada",
@@ -270,9 +270,10 @@
     "summary": [
       "29. mai 2026 öösel tabas droon Rumeenias Galați Mazepa linnaosas kortermaja katust ja tekitas tulekahju. Kaks inimest said kergelt vigastada, elanikud evakueeriti ja kodud said kahjustada. Ametnike hinnangul kandis droon vähemalt 30 kg lõhkeainet.",
       "Ametliku radari- ja rusude hinnangu põhjal tuvastasid Rumeenia ametiasutused selle Vene Geran-2 droonina. See seostati laiema 43 drooni lainega Ukraina vastastes rünnakutes ning tegi enne tabamust lühikese lennu Rumeenia kohal. Moskva vaidlustas omistamise. Rumeenia ei kirjeldanud rünnakut tahtliku, Rumeenia vastu suunatud rünnakuna.",
-      "Kaks Rumeenia F-16 hävitajat ja helikopter tõsteti õhku, kuid linna kohal ei sekkutud, ning paik uuriti läbi. Vastuseks saadeti välja Venemaa konsul ja konsulaat suleti. Juhtum on eraldi 25. aprillil 2026 Galațis toimunud drooni allakukkumisest."
+      "Kaks Rumeenia F-16 hävitajat ja helikopter tõsteti õhku, kuid linna kohal ei sekkutud, ning paik uuriti läbi. Vastuseks saadeti välja Venemaa konsul ja konsulaat suleti. Juhtum on eraldi 25. aprillil 2026 Galațis toimunud drooni allakukkumisest.",
+      "29. mai kirjas ÜRO Julgeolekunõukogule teatas Rumeenia, et drooni jälgiti radariga kuni Galați lõunaosani, ning teatas tabamusest elamu katusele, tulekahjust, kahest vigastatust ja evakueerimisest. Kiri omistab drooni Venemaale, nimetamata selle mudelit ega lasti kaalu."
     ],
-    "basis": "867f5d0e86da38f7"
+    "basis": "839ef0ac20cfdff4"
   },
   "E029": {
     "headline": "Kahtlustatav droonitegevus põhjustab häireid Läti ja Eesti piiril",
@@ -299,10 +300,10 @@
     "description": "8. juunil 2026 tulistas Prantsuse NATO hävitaja alla drooni Läti õhuruumis Bērzgale lähedal. Selle rahvust ja mudelit ei tuvastatud lõplikult.",
     "summary": [
       "8. juunil 2026 sisenes droon (UAV) Läti õhuruumi ja peatati Lätis Bērzgale piirkonnas. NATO-ga koos tegutsenud Prantsuse hävitaja tulistas selle seejärel alla.",
-      "Drooni rahvust ja mudelit ei tuvastatud juhtumi kaasaegsetes kirjeldustes lõplikult. Seda käsitletakse välismaise droonina, kuid selle päritolu ei ole kindlaks tehtud; selle marsruuti ei täpsustatud ning see, mida see kandis, kui üldse midagi, on teadmata.",
+      "Läti sõjaväe pressiesindaja ütles Euronewsi andmetel Reutersile, et droon sisenes Venemaalt. Selle täpset trajektoori ja stardikohta ei tehtud kindlaks. Teatatud sisenemissuund ei tuvasta selle käitajat ega rahvust; selle mudel, last ja kavandatud sihtmärk jäid läbivaadatud kirjeldustes lahendamata.",
       "Lätis kannatanuid ei teatatud. Pärast allatulistamist järgnesid rusude otsing ja prahi uurimine."
     ],
-    "basis": "74bcaba3125d8355"
+    "basis": "c7ae1c343f0f6430"
   },
   "E032": {
     "headline": "Rumeenia hävitas Rachelu lähedal drooni killud, mille ta tuvastas Vene omadena",
@@ -315,14 +316,15 @@
     "basis": "a2522d4f06337eee"
   },
   "E033": {
-    "headline": "LPG-laeva meeskond teatab droonirünnakust Sfântu Gheorghe lähedal Rumeenias",
-    "description": "21. juulil 2026 kahjustasid plahvatused Musta mere Rumeenia Sfântu Gheorghe lähedal tõsiselt LPG-laeva. Meeskond kirjeldas kolme drooni; droonipõhjus on kinnitamata.",
+    "headline": "GAS LISBON-i tulekahju Rumeenia lähedal: üks meremees suri; droonipõhjus kinnitamata",
+    "description": "21. juulil evakueeriti Rumeenia lähedal GAS LISBON-ilt kõik 17 inimest. Üks kolmest vigastatust suri kaks päeva hiljem. Droonipõhjus on endiselt kinnitamata.",
     "summary": [
-      "21. juuli 2026 öösel ja hommikul kahjustasid plahvatused tõsiselt LPG-d vedavat kaubalaeva Mustal merel umbes 26 km kaugusel Rumeenia Sfântu Gheorghest ja laev võttis tuld. Positsioon oli teadete kohaselt väljaspool Rumeenia territoriaalvetesid.",
+      "Libeeria lipu all sõitval LPG-tankeril GAS LISBON toimus Sfântu Gheorghe lähedal Rumeenia majandusvööndis, väljaspool selle territoriaalvetesid, plahvatus ja puhkes tulekahju. Mereamet registreeris hädasignaali 21. juulil kell 00:05 kohaliku aja järgi; see ei ole kontrollitud plahvatuse aeg.",
       "Kaks meeskonnaliiget kirjeldasid kolme drooni öist rünnakut. Nende kirjeldust käsitletakse väitena, mitte relva lõpliku tuvastamisena: drooni tüüpi, kasutatud seadmeid ja laenguid, stardikohta ning käitajat või rahvust ei ole tuvastatud ning droonipõhjust ei ole kinnitatud.",
-      "Rumeenia merepäästeteenistused sekkusid ja tõid meeskonna ohutusse kohta. Teatati vigastustest, sealhulgas põletustest. Juhtum on eraldi 24. juulil samal rannikul toimunud puistlastilaeva hädaolukorrast ja augustis toimunud Progress IV juhtumist."
+      "Juhtum on eraldi 24. juuli puistlastilaeva hädaolukorrast ja augustikuisest PROGRESS IV õnnetusest.",
+      "Kõik 17 meeskonnaliiget evakueeriti. Kolm said vigastada; üks neist kolmest suri 23. juulil Tulcea haiglas, ütles Rumeenia tervishoiuministeerium AGERPRES-ile. Filipiinide valitsuse teated kinnitasid surma ja kahe ülejäänud vigastatud meremehe kojujõudmist. Kannatanute saatus ei tee droonipõhjust kindlaks."
     ],
-    "basis": "6f6ef8fc3dd8a8e7"
+    "basis": "5b25f8a67d378d86"
   },
   "E034": {
     "headline": "Puistlastilaev Christina B sai Rumeenia lähedal kahjustada; mina või droon lahendamata",
@@ -384,14 +386,13 @@
     "basis": "ea7f019b9a1f4ed6"
   },
   "E040": {
-    "headline": "Saksamaa seostab Leipzigi lennujaama drooni Vene asutuste nimel tegutsenud isikutega",
-    "description": "4.–5. augustil 2026 ei töötanud lõhkedrooni laeng Saksamaal Leipzig/Halle lennujaamas. Saksamaa süüdistas Vene asutuste nimel tegutsenud isikuid; Venemaa eitas seda.",
+    "headline": "Droonilend: Leipzig/Halle lennujaam, Saksamaa",
+    "description": "4. august 2026, Leipzig/Halle lennujaam, Saksamaa. Lõhkedroonirünnakute klaster; ametlik riiklik omistamine. Lõhkedroon jõudis lennujaama, kuid laeng ei rakendunud.…",
     "summary": [
-      "4.–5. augusti 2026 öösel jõudis professionaalseid lõhkeaineid ja detonaatorit kandev droon Saksamaal Schkeuditzis asuvasse Leipzig/Halle lennujaama, kuid laeng ei töötanud. Lennujaama töö häiriti. Eraldi teatas kaubalennuk kahtlustatavast kokkupõrkest esemega ja suunati ümber Hannoverisse; teatati lennuki väiksest kahjustusest, kuid objekti ei tuvastatud lõplikult droonina. 14. augustil leiti Kabelsketali lähedalt täiendav kahtlustatav ründedroon; leiust teatati 25. augustil ning objekt seostati teadete kohaselt umbes 50 g kahtlustatava RDX-iga.",
-      "1. septembril omistas Saksamaa operatsiooni Venemaa riigiasutuste nimel tegutsenud isikutele. Venemaa eitas vastutust. Omistamisega ei ole kaasnenud kogu aluseks oleva kohtuekspertiisi- ja luureandmete avalikustamist ning stardikohta ei ole kindlaks tehtud.",
-      "Kannatanuid ei teatatud. Politsei, robotiga demineerijate meeskonnad ja föderaalprokurörid uurisid, täiendav seade konfiskeeriti ning diplomaatilised meetmed järgnesid hiljem."
+      "Lõhkedroon jõudis lennujaama, kuid laeng ei rakendunud. Kaubalennuk teatas eraldi kohtumisest objektiga ja suunati ümber. Kabelsketali lähedalt toodi ära täiendav kahtlustatav ründedroon.",
+      "Lõhkedroonirünnakute klaster; ametlik riiklik omistamine. Saksamaa omistas 1. septembril operatsiooni Venemaa riigiasutuste nimel tegutsevatele isikutele; Venemaa eitas vastutust. Saksamaa ametlik omistamine on kirjas omistamisena, mitte kogu aluseks oleva kohtuekspertiisi- ja luureandmestiku avalikustamisena. Venemaa eitus on säilitatud. Novembri järeldused stardikoha ja varustuse kohta jäävad uurimishinnanguteks, mitte tõendiks ühegi isiku süü kohta."
     ],
-    "basis": "fd5d244bb50c3706"
+    "basis": "cc6d63474657af35"
   },
   "E041": {
     "headline": "Kaks drooni nähti Lääne-Saksamaal sõjaväeobjekti kohal",
@@ -455,13 +456,14 @@
   },
   "E047": {
     "headline": "Rumeenia F-16 tulistas Neptun Deepi tööde lähedal lõhkeainega meredrooni",
-    "description": "20. augustil 2026 kahjustas Rumeenia F-16 Rumeenia majandusvööndis Neptun Deepi lähedal lõhkeainega meredrooni, enne kui merevägi selle kahjutustas. Päritolu on lahendamata.",
+    "description": "Rumeenia kahjutustas 20. augustil Neptun Deepi lähedal lõhkeainega meredrooni. Riigi president omistas selle hiljem Venemaa mereväele.",
     "summary": [
-      "20. augustil 2026 avastati lõhkeainet kandev mehitamata pinnalaev ehk meredroon mõnesaja meetri kaugusel Neptun Deepi avamere töödest, umbes 80 meremiili Constanțast ida pool Rumeenia ainuõiguslikus majandusvööndis. Kas see lähenes töödele või triivis nende poole ja mis oli selle eesmärk, on lahendamata.",
+      "20. augustil 2026 avastati lõhkeainet kandev mehitamata pinnalaev ehk meredroon mõnesaja meetri kaugusel Neptun Deepi avamere töödest, umbes 80 meremiili Constanțast ida pool Rumeenia ainuõiguslikus majandusvööndis.",
       "Rumeenia F-16 tulistas seda oma kahurist, kahjustades, kuid mitte täielikult hävitades, ning mereväe lõhkemoona kahjutustamise meeskond kahjutustas selle seejärel. Ametlikud teated kinnitasid täpsustamata suurusega lõhkelaengut. Kaitseministeerium kirjeldas esialgu kahte drooni ja parandas hiljem selle üheks. Kannatanuid ega taristu kahjustusi ei teatatud.",
-      "Drooni stardikoht ja käitaja on teadmata. Rumeenia kaitseminister ütles, et Ukraina oli kinnitanud, et see ei ole Ukraina oma; see avaldus ei tuvasta, kes selle tegelikult välja saatis. Juhtum on eraldi samal päeval Grindu lähedal alla kukkunud õhudroonist."
+      "23. septembril ütles president Nicușor Dan ÜRO Julgeolekunõukogule, et 20. augusti droon oli Venemaa mereväe droon. Ta ei avalikustanud omistamise aluseks olevaid tõendeid. Stardikoht ja kavandatud sihtmärk jäävad kontrollimata. Juhtum on eraldi samal päeval Grindu lähedal alla kukkunud õhudroonist.",
+      "SpotMedia 24. novembril avaldatud tagasivaates kirjeldas endine kaitseminister Radu Miruță, kuidas töötajad filmisid drooni platvormi tugede lähedal ja puksiir püüdis seda eemal hoida. Ta teatas ka, et sai pärast hävitajate väljasaatmise korraldamist Venemaa lennupiirangu teate. Algset teadet ei vaadatud sõltumatult läbi; need üksikasjad täiendavad augusti juhtumit, mitte ei kirjelda uut sündmust."
     ],
-    "basis": "d752991b133cd913"
+    "basis": "d09904239858514b"
   },
   "E048": {
     "headline": "Merevägi hävitas Tuzla rannas Rumeenias leitud lõhkeainega drooni rusud",
@@ -518,10 +520,11 @@
     "description": "27. augustil 2026 süttis laev Progress IV Rumeenia majandusvööndis Sfântu Gheorghe lähedal põlema ja uppus. Kõik 12 meeskonnaliiget päästeti; droonirünnak on kinnitamata.",
     "summary": [
       "27. augustil 2026 süttis kaubalaev Progress IV Mustal merel põlema ja uppus, umbes 15–20 meremiili Sfântu Gheorghest Rumeenia ainuõiguslikus majandusvööndis. Hädakutse tuli umbes kell 17:55 kohaliku aja järgi ja kõik 12 meeskonnaliiget olid päästetud kell 20:47.",
-      "Väideti tabamust laevale ning ametiasutused ütlesid, et selle põhjus vajab uurimist. Droonirünnak jäi hüpoteesiks: ühtegi drooni ega muud relva ei ole tuvastatud ning plahvatust ega droonitabamust ei ole kindlaks tehtud. Laeva lipuriigiks nimetati Dominikaani Vabariiki, samas kui laevandusvaldkonna allikas nimetas Dominica.",
-      "Üks meeskonnaliige sai vigastada, teadete kohaselt murdis käe; varasemad kirjeldused tõsisest vigastusest ei ole hilisemate teadetega toetatud. Merepäästekoordinatsioonikeskus (MRCC) koordineeris kaubalaeva, piirivalvet ja päästelaevu."
+      "Väideti tabamust laevale ning ametiasutused ütlesid, et selle põhjus vajab uurimist. Droonirünnak jäi hüpoteesiks: ühtegi drooni ega muud relva ei ole tuvastatud ning plahvatust ega droonitabamust ei ole kindlaks tehtud. Laeva lipuriigiks nimetati Dominikaani Vabariiki, samas kui laevandusvaldkonna allikas nimetas Dominicat.",
+      "Üks meeskonnaliige sai vigastada, teadete kohaselt murdis käe; varasemad kirjeldused tõsisest vigastusest ei ole hilisemate teadetega toetatud. Merepäästekoordinatsioonikeskus (MRCC) koordineeris kaubalaeva, piirivalvet ja päästelaevu.",
+      "24. novembril teatas Libertatea, et Rumeenia mere hüdrograafia direktoraat hindas, et laeva tabas droon. Direktoraadi avaldatud navigatsiooniteated kinnitavad vraki olemasolu ja teatavad ohtudest, kuid ei nimeta põhjust. Kohtuekspertiisi järeldust, relva ega käitajat ei ole kindlaks tehtud."
     ],
-    "basis": "f4b55e178bf70b3a"
+    "basis": "7df77fa9b948d455"
   },
   "E054": {
     "headline": "Karjane leiab Viișoara lähedalt Rumeenias lõhkeainega drooni; päritolu vaidlustatud",
@@ -534,14 +537,14 @@
     "basis": "cfac143f34b000e0"
   },
   "E055": {
-    "headline": "Tundmatu päritoluga kaardistusdroon toodi ära Soome lõunarannikult",
-    "description": "2. septembril 2026 toodi Soome lõunarannikul ära tundmatu päritoluga kaardistusdroon. Uuriti võimalikku territoriaalset rikkumist.",
+    "headline": "Pellinkist leiti 1. septembril droon; hinnangu järgi tõenäoliselt Vene päritolu",
+    "description": "Pellinkist 1. septembril leitud droon hinnati tõenäoliselt Venemaalt pärit olevaks. Uurijate sõnul kukkus see merre väljaspool Soomet; uurimine jätkus.",
     "summary": [
-      "2. septembril 2026 tõid ametiasutused Soome lõunarannikul ära uuringu- või kaardistusdrooni (UAV). Täpset asukohta viidatud teates ei esitatud. Kuupäev on äratoomise kuupäev; millal droon lendas ja mis marsruudil, on teadmata.",
-      "Drooni päritolu ja käitaja on teadmata. Ei ole kindlaks tehtud, et see tuli välismaalt, ning seda ei eeldata välisriigi sõjalise droonina.",
-      "Droon kirjeldati kui ohutut, ilma tuvastatud ohtliku lastita, ning kahju ega kannatanuid ei teatatud. Ametiasutused uurisid, kas lend kujutas endast territoriaalset rikkumist."
+      "Tsiviilisik leidis 1. septembril 2026 Pellinki rannakivide vahelt UAV; piirivalvepatrull kinnitas leiu. Registri varasem kuupäev, 2. september, oli esialgse teate avaldamise kuupäev. Avaldatud lehe aadress on säilitatud.",
+      "10. septembril ütles piirivalve, et seadme andmed viitasid tõenäoliselt Venemaalt pärit õhusõidukile, mis kaotas juhitavuse ja jäi kütusest tühjaks, enne kui kukkus merre väljaspool Soomet. Järeldus oli esialgne ja uurimine jätkus.",
+      "See jääb üheks äratoomiseks, mitte kindlakstehtud õhusissetungiks ega allakukkumiseks Soomes. Käitaja ja algne otstarve jäävad lahendamata. Kaardipunkt on ligikaudne saarestiku ankurpunkt."
     ],
-    "basis": "30e03e74f6707d09"
+    "basis": "de38e633c3a7e190"
   },
   "E056": {
     "headline": "Teadete kohaselt Vene reaktiivdroon ületab Moldovast piiri Kirde-Rumeenias",
@@ -554,14 +557,14 @@
     "basis": "7b1f8e2c4bb81edb"
   },
   "E057": {
-    "headline": "Kahtlustatav Vene sõjaline droon toodi ära Rusinowo rannast Poolas",
-    "description": "14. septembril 2026 tõi Poola sõjavägi merest välja drooni Rusinowo ranna juurest; kaitseministri esialgne hinnang on, et see on Vene oma.",
+    "headline": "Rusinowo rannast toodi ära droon; lõhkepea kahjutustati ohutult",
+    "description": "Droon uhuti 14. septembril Rusinowo lähedal kaldale. Prokurörid tuvastasid esialgu Venemaal valmistatud Gerbera ja kirjeldasid lõhkepea kontrollitud kahjutustamist.",
     "summary": [
-      "14. septembril 2026 leidis Poola sõjavägi Läänemerest Rusinowo ranna juurest, Poola rannikul Jarosławieci lähedal, kahtlustatava sõjalise drooni ja tõi selle uurimiseks veest välja. Kuupäev on avastamise ja äratoomise kuupäev; millal droon lendas ja mis teed pidi see Poola rannikule jõudis, ei ole teada.",
-      "Poola kaitseminister ütles, et esialgne hinnang oli, et tegemist oli Vene sõjalise droonina. See tuvastus on esialgne ja sõltub äratoodud drooni uurimisest. Lasti ei teatatud.",
-      "Leiuga seoses ei teatatud kannatanutest ega kahjust."
+      "Mereväe meeskond nägi 14. septembril umbes kell 09:20 Jarosławieci lähedal triivivat UAV-d; see uhuti umbes kell 11:25 Rusinowo lähedal kaldale, selgub Poznańi prokuröri 1. oktoobri avaldusest. See on üks äratoomise ja kahjutustamise juhtum, mitte veel üks sündmus järelavalduse avaldamise kuupäeval.",
+      "Spetsialistid eraldasid võimaliku lõhkelaenguga lõhkepea ja hävitasid selle kontrollitud lõhkamisega. Uurijad tuvastasid esialgu Venemaal valmistatud Gerbera. Käitaja, sihtmärk, lennumarsruut ja merre kukkumise asjaolud jäävad lahendamata; valmistamiskoht ei tee kindlaks käitajat ega kavatsust.",
+      "Uurimine anti 25. septembril üle Poznańile ja määrati eriekspertiisid. Kannatanutest ega kahjust ei teatatud."
     ],
-    "basis": "5071f4361b5692d3"
+    "basis": "4c37729989b9a2c5"
   },
   "E058": {
     "headline": "Itaalia NATO hävitaja tulistas alla Gerbera drooni Pratkūnai lähedal Leedus",
@@ -569,9 +572,9 @@
     "summary": [
       "14.–15. septembri 2026 öösel sekkus NATO-ga koos tegutsev Itaalia hävitaja ja tulistas Leedus Pratkūnai lähedal alla drooni. Leedu ametiasutused uurisid seejärel rususid ja drooni elektroonikat. Kannatanuid ei teatatud.",
       "Droon tuvastati Gerberana, Venemaa kasutatavat tüüpi. 16. septembril hindas Leedu president, et see oli tõenäoliselt mõeldud Ukraina sihtmärgile. Selle Leedusse jõudmise selgitamiseks on esitatud võimalik kõrvalejuhtimine Ukraina elektroonilise sõjapidamise poolt, kuid see põhjuslik selgitus on hinnang. Ei Vene tüübi tuvastus ega kavatsetud sihtmärgi hinnang ole tõend Leedu vastu suunatud tahtliku rünnaku kohta.",
-      "Ei ole kindlaks tehtud, kas see konkreetne droon kandis lõhkeaineid; Gerbera variandid võivad olla peibutised või relvastatud."
+      "Leedu kaitseminister Robertas Kaunas ütles, et droon kandis lõhkeainet, teatas Reuters 15. septembril. See on omistatud ametlik avaldus; sõltumatuid kohtuekspertiisi tulemusi ja täpset lõhkelaengu kogust ei vaadatud läbi. See ei tõenda Leedu vastu suunatud tahtlikku rünnakut."
     ],
-    "basis": "fce04ead6c652cda"
+    "basis": "2f29e9a25cf1baa8"
   },
   "E059": {
     "headline": "Rumeenia: Vene drooni lõhkelaeng plahvatas õhus enne Solca allakukkumist",
@@ -1195,10 +1198,11 @@
     "description": "5. oktoobril 2026 tabasid droonid teadete kohaselt viljalaeva Royad Mammadov Rumeenia Musta mere majandusvööndis. Teated hukkunute kohta on vastuolulised; Ukraina süüdistas Venemaad.",
     "summary": [
       "5. oktoobril 2026 sai viljavedaja Royad Mammadov, mis sõitis Ukraina Izmajilist Itaalia Ravennasse, kahjustada teatatud droonitabamuse, pardal toimunud plahvatuse ja tulekahju tõttu Mustal merel Pescăruși platvormi lähedal, umbes 30 meremiili Sfântu Gheorghest lõunas. Paik asus Rumeenia ainuõiguslikus majandusvööndis (EEZ), väljaspool selle territoriaalvetesid. Päästepalve registreeriti kell 10:37 kohaliku aja järgi; tabamuse täpne aeg ei ole kontrollitud.",
-      "Ukraina president Volodõmõr Zelenskõi ütles, et laeva tabasid kaks Vene drooni. See on Ukraina väide, mitte sõltumatu kontroll, ning Rumeenia ei ole avaldanud omistamise järeldust. Marius Roibu, Constanța MRCC päästekeskuse direktor, kirjeldas ilmset mitme drooni rünnakut; drooni tüüp, stardikoht ja käitajad on tuvastamata.",
-      "Teated kannatanute kohta on vastuolulised. Rumeenia siseministeerium teatas esialgu kahest hukkunust ja üheteistkümnest päästetust; 6. oktoobril ütles Aserbaidžaani välisministeerium, et kapten oli hukkunud ja teine Aserbaidžaani meeskonnaliige oli kadunud. India saatkond ütles, et kolm India meeskonnaliiget jäid ellu, üks neist vigastatud. Esialgne teade laeva uppumise kohta parandati 6. oktoobril, kui teatati, et see püsib pinnal ja ootab pukseerimist Midiasse. Petrom ütles, et Pescăruși platvorm ei kannatanud."
+      "Ukraina president Volodõmõr Zelenskõi ütles, et laeva tabasid kaks Vene drooni. See on Ukraina väide, mitte sõltumatu kontroll, ning Rumeenia ei ole avaldanud omistamise järeldust. Marius Roibu, Constanța MRCC päästekeskuse direktor, kirjeldas ilmset mitme drooni rünnakut; droonide tüüp, stardikoht ja käitajad on tuvastamata.",
+      "Teated kannatanute kohta on vastuolulised. Rumeenia siseministeerium teatas esialgu kahest hukkunust ja üheteistkümnest päästetust; 6. oktoobril ütles Aserbaidžaani välisministeerium, et kapten oli hukkunud ja teine Aserbaidžaani meeskonnaliige oli kadunud. India saatkond ütles, et kolm India meeskonnaliiget jäid ellu, üks neist vigastatud. Esialgne teade laeva uppumise kohta parandati 6. oktoobril, kui teatati, et see püsib pinnal ja ootab pukseerimist Midiasse. Petrom ütles, et Pescăruși platvorm ei kannatanud.",
+      "Rumeenia andis 7. oktoobril välja uppumisohu hoiatuse. 22. oktoobri kaardiparanduses avaldatud teade meresõitjatele 10/65/26 loetles laeva hiljem ohtliku vrakina. See kinnitab laeva hilisemat seisukorda, mitte seda, millal see uppus, kas pukseerimine toimus, ega täpset tabamuskohta."
     ],
-    "basis": "f110d36fc131a5b5"
+    "basis": "93c08958dbb972eb"
   },
   "N073": {
     "headline": "Droonirünnak Bulgaaria lähedal uputas ALFA WATANi ja pani ABLE’i põlema",
@@ -1366,14 +1370,15 @@
     "basis": "534d215b86c0e039"
   },
   "N090": {
-    "headline": "Droonirünnak süütas Sulina lähedal laeva WINE TRADER; seitse meeskonnaliiget on kadunud",
-    "description": "WINE TRADER tabati 15. oktoobril 2026 Sulina lähedal; viis meeskonnaliiget päästeti ja seitse on kadunud. NATO allikas hindas droonid Vene päritolu omadeks.",
+    "headline": "WINE TRADER-i droonirünnak Sulina lähedal; inimjäänused leiti hiljem Varnast",
+    "description": "Pärast 15. oktoobri droonirünnakut Sulina lähedal leiti WINE TRADER-i remondi käigus Varnas inimjäänuseid. DNA-tuvastamine ja uurimised jätkuvad.",
     "summary": [
-      "Droon tabas 15. oktoobril 2026 Sulina lähedal San Marino lipu all sõitvat tankerit WINE TRADER. Rumeenia president kinnitas rünnakut. Reutersi viidatud NATO sõjaväeallikas hindas selle tankeri ja YARA J tabanud droonid Vene päritolu omadeks; konkreetset käitajat ei ole läbi vaadatud teadetes kindlaks tehtud.",
-      "Kaheteistkümnest meeskonnaliikmest päästeti viis ja seitse jäid kadunuks. Kahel ellujäänul olid peanaha põletused või kerge suitsumürgitus; kõik viis olid stabiilses seisus ja viidi haiglasse. Tulekahju kahjustas laeva. Selle lõplik seisukord on kinnitamata ning kadunud meeskonnaliikmeid ei loeta kinnitatud hukkunuteks. Tugev lainetus takistas päästeoperatsiooni. IGSU teatas, et otsing jätkus 16. oktoobril; selle esialgne pardalemineku teade oli plaan. 19. oktoobri meremeeste ametiühingu avalduses teatati hiljem, et meeskonnad olid pardale läinud ja otsinud läbi ligipääsetavad ruumid, kuid kahjustused takistasid otsingut. Ametiühing kordas viit päästetut ja seitset kadunut. 22. oktoobril ütles Horvaatia välisministeerium, et otsing oli möödunud aja tõttu lõpetatud. Üks Horvaatia meremees jäi kadunuks; teine, keda raviti pealiskaudsete põletuste tõttu, oli välja kirjutatud. See ei muuda kadunuid kinnitatud hukkunuteks.",
+      "Droon tabas 15. oktoobril 2026 Sulina lähedal San Marino lipu all sõitvat tankerit WINE TRADER. Rumeenia president kinnitas rünnakut. Reutersi viidatud NATO sõjaväeallikas hindas selle tankeri ja YARA J tabanud droonid Vene päritolu omadeks; konkreetset käitajat ei ole läbivaadatud teadetes kindlaks tehtud.",
+      "Esialgu päästeti kaheteistkümnest meeskonnaliikmest viis ja seitse teatati kadunuks. Kahel ellujäänul olid peanaha põletused või kerge suitsumürgitus; kõik viis olid stabiilses seisus ja viidi haiglasse. Tugev lainetus ja kahjustused takistasid otsinguid. 19. oktoobri ametiühingu avalduses teatati, et meeskonnad olid läbi otsinud ligipääsetavad ruumid. 22. oktoobril ütles Horvaatia välisministeerium, et otsing oli möödunud aja tõttu lõpetatud.",
+      "7. novembril kinnitasid Varna prokurörid, et novembri alguses remonti võetud droonitabamuse saanud laeva tühjendamisel leiti raskelt kahjustatud inimjäänuseid. BNR tuvastab laeva kui WINE TRADER-i ning teatab meremehe surnukehast ja inimjäänustest. Isikute tuvastamiseks määrati DNA-ekspertiisid ning uurimised jätkuvad Bulgaarias ja Rumeenias. Esmane avaldus ei esita hukkunute arvu. Varased arvulised meediateated on vastuolulised, mistõttu varasemate päästearvude põhjal ei järeldata ei lõplikku hukkunute arvu ega endiselt kadunuks peetavate praegust arvu.",
       "Laeva asukohaks teatati umbes 13 meremiili Sulinast kagus, vahetult väljaspool Rumeenia territoriaalvetesid. See on hõlmatud registri avamerekajastusega. Päästepalve kell 06:58 ei ole kontrollitud rünnaku aeg. See tõstab varasema ainult tulekahju jälgimisnimekirja vihje üheks punaseks kirjeks „Rünnak“, ühendades rünnaku, tulekahju ja päästmise; see jääb eraldi YARA J-st ja Sea Destinyst."
     ],
-    "basis": "186f434beac254b7"
+    "basis": "5f5c3c23d1d87774"
   },
   "N091": {
     "headline": "Dailidžiai: piirivalvurid tõid ära piiriülese sigaretidrooni",
@@ -1570,13 +1575,15 @@
     "basis": "fcab4114f04792bb"
   },
   "N112": {
-    "headline": "Teade KHORYV-i droonirünnakust: laev läks ümber, kuid püsib pinnal",
-    "description": "KHORYV läks 23. oktoobril Constanța lähedal ümber. Navigatsiooniteate kohaselt püsib see pinnal, mis on vastuolus uppumisteadetega. Üks hukkunu; kolm kadunut.",
+    "headline": "KHORYV-i droonitabamuse teade: mereväe uuringu järgi on vrakk täielikult vee all",
+    "description": "KHORYV-i tabati teadete kohaselt avamerel 23. oktoobril. 19. novembri mereväe uuring leidis teadete kohaselt vraki täielikult vee alt. Otsingu lõpptulemus on teadmata.",
     "summary": [
-      "KHORYV läks 23. oktoobril Rumeenia territoriaalvetest väljaspool ümber. AGERPRES seostab seda presidendi avaldusega, et droon tabas laeva. Praegune esmane navigatsiooniteade ARN155 teatab, et KHORYV oli 25. oktoobri seisuga osaliselt vee all, kuid püsis endiselt tagurpidi pinnal, hoolimata ajakirjanduse uppumisteadetest. Lõpuleviidud uppumist ei käsitleta kindlaks tehtuna.",
-      "Rumeenia teatab kolmeteistkümnest meeskonnaliikmest: üheksa päästeti, üks hukkus ja kolm on kadunud. Ukraina kinnitab Ukraina hukkunut, kuid teatab neljateistkümnest meeskonnaliikmest; lahknevus on lahendamata. Teated annavad dateeritud ümberminekukoha ja sellele järgnenud triivivate vrakkide asukohad, mitte kontrollitud tabamuskoordinaati. Käitaja omistamine ja otsingu lõpptulemus jäävad lahendamata."
+      "Teadete kohaselt tabas KHORYV-i 23. oktoobril Constanța lähedal avamerel droon ja laev süttis põlema, enne kui läks ümber. NAVWARN 766/26 kirjeldab 28. oktoobril kell 18:00 UTC tehtud vaatlust ümberläinud, poolenisti vee all triiviva vraki kohta. 29. oktoobril teatas bTV Bulgaaria kaitseministeeriumile viidates osalisest vee alla vajumisest ja jätkuvast ohust; Maritime.bg teatas hiljem uues 1. novembri uuenduses, et ahter oli põhja jooksnud ja vöör endiselt nähtav. Maritime.bg teatas Bulgaaria kaitseministeeriumi pressitalituse kinnitusele viidates, et 19. novembri mereväe uuring leidis vraki Shabla lähedal täielikult vee alt, umbes 50 meetri sügavuselt. Täpset uppumise aega ja varasema hoiatuse tühistamist ei kontrollitud. Need hilisemad vrakivaatlused ei muuda algse avamere tabamuse asukohta.",
+      "Rumeenia teatab kolmeteistkümnest meeskonnaliikmest: üheksa päästeti, üks hukkus ja kolm on kadunud. Ukraina kinnitab Ukraina hukkunut, kuid teatab neljateistkümnest meeskonnaliikmest; lahknevus on lahendamata. Teated annavad dateeritud ümberminekukoha ja sellele järgnenud triiviva vraki asukohad, mitte kontrollitud tabamuskoordinaati. Käitaja omistamine ja otsingu lõpptulemus jäävad lahendamata.",
+      "Bulgaaria teatas 27. oktoobril jälgimisest ja kavandatud mereväe ülevaatusest. Järgmisel hommikul ütles selle kaitseminister, et vrakk oli sisenemas Bulgaaria territoriaalmerre. Need on hilisemad teated triivivast vrakist, mitte uus rünnak ega muudatus algse avamere tabamuse asukohas.",
+      "bTV teatas, et Reshitelni oli sündmuskohal ja operatsioonid peatati halva ilma tõttu; Maritime.bg kirjeldas uputamiskatseid. Need jäävad sama juhtumi järelteadeteks, mitte uueks rünnakuks ega kadunud isikute saatuse lahenduseks."
     ],
-    "basis": "5f8e6ad7a2fd7810"
+    "basis": "63b1a3f055a1d63d"
   },
   "N113": {
     "headline": "Kreeka teatab 21. oktoobril 8 Türgi UAV-st ja 12 õhuruumi rikkumisest",
@@ -1610,9 +1617,9 @@
     "description": "Lubaczówis leiti 21. oktoobril 2026 vahtplastist lennukikere. Sõjaväepolitsei ei leidnud lõhkeaineid; päritolu ja mis tahes välismaine seos jäävad teadmata.",
     "summary": [
       "Rusudest teatati Lubaczówis Herzoga tänaval asuval tühjal kinnistul 21. oktoobril 2026 veidi pärast kella 13:00. Läheduses elanud inimesed evakueeriti, kuni spetsialistid hindasid võimalikke ohte; vigastustest ega varalisest kahjust ei teatatud.",
-      "Sõjaväepolitsei tuvastas 22. oktoobril relvastamata vahtplastist lennukikere ning välistas lõhkeained ja radioloogilised, bioloogilised või keemilised ohud. Prokuröri 23. oktoobri uuendus teatab drooni üleandmisest sõjaväe vastuluurele ja sellega kaasas oleva paki testimisest Varssavis. Esialgne lühikese lennuulatusega hinnang ei tuvasta päritolu ega välismaist sisenemist. See jääb üheks esialgseks äratoomise kandidaadiks."
+      "Sõjaväepolitsei tuvastas 22. oktoobril relvastamata vahtplastist lennukikere ning välistas lõhkeained ja radioloogilised, bioloogilised või keemilised ohud. Radio Lublini 22. oktoobri artikkel tsiteerib prokuratuuri pressiesindajat, kelle sõnul oli droon antud üle sõjaväe vastuluurele ja selle pakk saadetud testimisele; sama päeva esmane pressiteade kirjeldab üleandmist alles eelseisvana. Esialgne lühikese lennuulatusega hinnang ei tuvasta päritolu ega välismaist sisenemist. See jääb üheks esialgseks äratoomise kandidaadiks."
     ],
-    "basis": "fab6a30cef996170"
+    "basis": "2f669bcaffd204ab"
   },
   "N117": {
     "headline": "Kreeka teatab 23. oktoobril kuuest Türgi UAV-st ja kolmeteistkümnest õhuruumi rikkumisest",
@@ -1668,5 +1675,861 @@
       "NewsIT ja OnAlert edastavad sama ametlikku kirjeldust, mitte sõltumatuid vaatlusi. Teatati tuvastamisest ja peatamisest, ilma relvastatud kokkupõrketa. See on üks päevase tegevuse kirje, mitte õhusõidukite ja ületuste arvude summa."
     ],
     "basis": "b6d8a69eda200b68"
+  },
+  "N124": {
+    "headline": "CONTSHIP JET-i tabasid avamerel pinnadroonid; meeskond päästeti, laev uppus hiljem",
+    "description": "Bulgaaria ametiasutuste teatel toimus 28. oktoobril pinnadroonirünnak CONTSHIP JET-ile. Kõik 18 meeskonnaliiget päästeti; Varna Raadio kinnitab laeva hilisemat uppumist.",
+    "summary": [
+      "Bulgaaria kaitseasutuste sõnul jälgisid mereväe seire ja Prantsuse patrull-lennuk 28. oktoobril kell 12:00 kohaliku aja järgi (10:00 UTC) pinnadroonirünnakut CONTSHIP JET-ile ning täheldasid kolme tabamust. Varna Raadio annab tabamuse asukohaks 43°15′N, 028°48′E Kaliakra neeme lähedal. See on üks avamerel kaubalaevandusega seotud juhtum, mitte kinnitatud sissetung Bulgaaria territooriumile.",
+      "Kaitse- ja transpordiasutused kinnitavad, et kõik 18 meeskonnaliiget päästeti. Varna Raadio NAVWARN 768/26 kinnitab, et laev uppus seejärel 28. oktoobril kell 20:30 UTC asukohas 43°07.80′N, 028°45.36′E ning triivima jäi üle 20 konteineri, sealhulgas ohtlike kaupadega. See asendab varasema mitteametliku uppumisteate.",
+      "Drooni käitaja, stardikoht ja motiiv jäävad teadmata. Reuters vahendab Ambrey esialgset videopõhist hinnangut, mille järgi on tegemist tõenäoliselt Murena-300S-il põhineva konstruktsiooniga; see ei ole kinnitatud mudeli ega käitaja tuvastus. Kolm teatatud drooni ja kolm täheldatud tabamust ei ole eraldi juhtumid. Hilisem uppumiskoht ei asenda algset tabamuse koordinaati.",
+      "1. novembri navigatsioonihoiatused teatasid triivivatest konteineritest Burgase lahe lähedal. Nende seos CONTSHIP JET-iga jääb esialgseks. 3. novembril teatas Burgase oblastivalitsus kolmest jälgimisel olevast objektist Oasis–Arapya, Sinemoretsi Kamennite Korabi ja Butamyata lähedal. Lastimanifesti teave kirjeldas ohutut lasti ja tühja paaki; tol ajal olid füüsiline sisu ja lähtelaev veel uurimisel. Proovivõtt ja valve jätkusid ning laboratoorsest ohutuks tunnistamisest ei teatatud. Need on lastiohuga seotud järelteated, mitte uued droonirünnakud ega konteinerite kumulatiivne koguarv.",
+      "4. novembril ütles kuberner bTV-le, et ilm ja raske ligipääs viivitasid äratoomist. Kolmanda konteineri asukoht oli teadmata ning Türgi veed olid vaid üks võimalus. Laboratoorset ohutuks tunnistamist ei esitatud.",
+      "Libeeria merendusamet teatas bülletäänis, mis kirjeldas nimetamata laeva, mille kuupäev, lipp, klass ja teatatud kolm tabamust vastavad laeva nimetavatele Bulgaaria kirjeldustele, et meeskond oli ohutult ja vigastustest ei teatatud. Tsarevo vald teatas 12. novembril, et meeskonnad olid koristanud mõlemalt Lipite rannalt punase pipra kotid. Lasti seos CONTSHIP JET-iga jäi esialgseks ning teadaanne ei esitanud laboritulemusi.",
+      "24. novembril avasid ametiasutused konteineri, mis oli 2. novembril Tsarevo lähedal kaldale uhutud. Burgase kuberner ütles BTA-le, et selles oli umbes 80 kasti lastimanifestile vastavaid jõulukaunistusi. Contships Management ütles Reutersile, et ei saa kinnitada, et konteiner oli olnud CONTSHIP JET-i pardal. Avamine ei tee kindlaks lähtelaeva, muud lasti ega reostustulemusi."
+    ],
+    "basis": "7eebe0feab2ab6ff"
+  },
+  "N125": {
+    "headline": "Osieka lähedalt toodi ära UAV pärast prokuröri teatatud piiriületust Venemaalt",
+    "description": "Prokurörid teatavad loata piiriületusest Venemaa–Poola piiril 8. mail; relvastamata UAV toodi ära Osieka lähedalt 9. mail. Käitaja on endiselt teadmata.",
+    "summary": [
+      "Relvastamata luure-UAV toodi 9. mail tervena ära pärast seda, kui tsiviilisik leidis selle Osieka lähedal põllult. 11. mail ütles Olsztyni prokuratuuri pressiesindaja, et uurijad olid kindlad, et see oli ületanud Venemaa–Poola piiri, ning dateeris uuritava piiriületuse 8. maiga.",
+      "Selle piiriületuse järelduse tõendusbaasi ei avalikustatud. Käitaja, valmistaja, kavandatud sihtmärk, täpne trajektoor ja allakukkumise aeg jäävad lahendamata. Meedia väiteid kaamerate ja kirillitsas märgistuse kohta prokurör ei kinnitanud. See on üks tagasiulatuvalt registreeritud juhtum, mitte uus oktoobrikuine tegevus."
+    ],
+    "basis": "9df76f2823d89cb7"
+  },
+  "N126": {
+    "headline": "Popski rannast toodi ära UAV killud; päritolu lahendamata",
+    "description": "Kaitseministeeriumi vastuse kohaselt tõi mereväe meeskond 21. oktoobril Tsarevos Popski rannast ära UAV osad. Lennukuupäev ja riiklik päritolu on teadmata.",
+    "summary": [
+      "OFFNews tsiteerib Bulgaaria kaitseministeeriumi, kes kinnitas, et mereväe meeskond uuris ja kogus 21. oktoobril Popski rannas UAV osi ning toimetas need baasi. See dateerib äratoomisoperatsiooni, mitte lendu ega allakukkumist.",
+      "Ministeerium eristas äratoomist sõnaselgelt kontrollimata väitest läheduses asuva Arapya kohta. Mudel, päritolu, käitaja, last ja saabumise viis jäävad lahendamata. See esialgne äratoomise kandidaat ei ole kinnitatud välismaine sissetung ega tõend veel ühest eraldi lennukikerest."
+    ],
+    "basis": "3572d703997e5cd9"
+  },
+  "N127": {
+    "headline": "Listi rannas teatati drooni kildudest; äratoomise kuupäev teadmata",
+    "description": "BNR teatas Sinemoretsi lähedal Listi rannast kogutud tiivast ja kereosast. 28. oktoober on avaldamise, mitte kontrollitud avastamise kuupäev.",
+    "summary": [
+      "BNR-i Burgase korrespondent teatas Listi rannast leitud tiivast ja kereosast, mille piiripolitsei pärast teavitamist kokku kogus. Artikkel avaldati 28. oktoobril, kuid see ei esita täpset avastamise ega äratoomise kuupäeva; register kasutab teate kuupäeva sõnaselgelt asenduskuupäevana.",
+      "Päritolu, mudel, käitaja, last ning lennu- või allakukkumise kuupäev jäävad lahendamata. See esialgne äratoomise kandidaat erineb teatatud asukoha poolest Popski rannast, kuid veel üht unikaalset lennukikeret ei ole kindlaks tehtud. Läheduses asuva Arapya omistamisväidet nendele kildudele üle ei kanta."
+    ],
+    "basis": "22e8ad26c842d4a6"
+  },
+  "N128": {
+    "headline": "Kreeka teatab viiest Türgi UAV-st ja 13 õhuruumi rikkumisest Egeuse merel",
+    "description": "Kreeka sõjaväe teadete järgi tegid viis Türgi UAV-d 30. oktoobril 13 riikliku õhuruumi rikkumist. Üks päevakirje; täpsed trajektoorid on avaldamata.",
+    "summary": [
+      "30. oktoobril teatatud Kreeka sõjaväe andmed omistavad viiele Türgi UAV-le Egeuse mere kirde-, kesk- ja kaguosas 13 riikliku õhuruumi rikkumist ja 11 Ateena FIR-i rikkumist. Riikliku õhuruumi hinnang ja sõjaline omistamine on Kreeka omad; täpsed trajektoorid on avaldamata.",
+      "See on üks piirkondlik päevakirje, mitte 13 rünnakut. Mehitatud õhusõidukite rikkumised ja kaks sekkumist segatud päevaaruandes ei ole tõend UAV-de relvastusest, relvade kasutamisest ega allatulistamisest. Täpsed mudelid, lastid ja kavandatud sihtmärgid jäävad teadmata."
+    ],
+    "basis": "8d16fbffeee972eb"
+  },
+  "N129": {
+    "headline": "Rumeenia kinnitab kahte loata droonisisenemist riigi kirdeosas",
+    "description": "Rumeenia teatab kahest droonisisenemisest 31. oktoobril. Üks lahkus; teist nähti viimati Vaslui ja Bacău lähedal. Allakukkumisest ei teatatud.",
+    "summary": [
+      "Rumeenia kaitseministeerium kinnitab, et 31. oktoobri 2026 õhtul sisenes riigi kirdeosa õhuruumi kaks drooni. Üks lahkus; teist nähti viimati Vaslui ja Bacău maakonna vahel. Avaldamise ajal allakukkumisest ei teatatud.",
+      "Õhku tõusid neli F-16 ja IAR-330 SOCAT ning avalikud hoiatused lõppesid kell 19:19 kohaliku aja järgi. See on üks kahte drooni hõlmav juhtum, mitte kaks kontrollitud rünnakut. Käitaja, mudel, kavatsus ja sihtmärgid jäävad teadmata; kaardi ankurpunkt on ligikaudne.",
+      "Iași lennujaama direktori sõnul suunati Eindhovenist saabuv Wizz Airi lend ajutise õhuruumi sulgemise ajal ümber Suceavasse. See häiring kuulub samasse episoodi ega ole uus sissetung."
+    ],
+    "basis": "5c2d0df27e180a9b"
+  },
+  "N130": {
+    "headline": "Läti hindab 1. novembril riiki läbinud UAV-d tõenäoliselt Vene Geraniks",
+    "description": "NBS hindab 1. novembril Lätit läbinud UAV-d tõenäoliselt Vene Geraniks. See lahkus Venemaale; lõhkelast ja kavatsus jäävad teadmata.",
+    "summary": [
+      "Ametnikud kirjeldasid drooni, mis läbis Valgevene poolt tulles Ida-Lätit ja lahkus 1. novembril kell 19:16 Venemaale. NBS hindas selle hiljem tõenäoliselt Vene Geraniks, olles analüüsinud andurite ja püüduri andmeid ning konsulteerinud Ukraina partneritega.",
+      "Läti hävitas kell 19:19 oma püüduri enesehävitusega. See ei olnud teatatud avastatud UAV allatulistamine. NBS ei saa kindlaks teha, kas see UAV kandis lõhkeaineid; käitaja, kavatsus ja sihtmärk jäävad kinnitamata."
+    ],
+    "basis": "c77fff5610f5734e"
+  },
+  "N131": {
+    "headline": "Tulcea põhjaosas anti hoiatus; Rumeenia õhuruumi sisenemisest ei teatatud",
+    "description": "Rumeenia andis 2. novembril pärast lähedalasuvaid rünnakuid Ukrainas välja hoiatuse Tulcea põhjaosas. MApN ei teatanud sisenemisest Rumeenia riiklikku õhuruumi.",
+    "summary": [
+      "Tulcea põhjaosas saadeti 2. novembril kell 04:11 RO-Alerti hoiatus pärast droonirünnakuid Ukraina Doonau sadamate vastu. Rumeenia saatis välja F-16-d ja Puma SOCAT helikopteri; häire lõppes kell 05:26 kohaliku aja järgi.",
+      "MApN ei teatanud sisenemisest Rumeenia õhuruumi. See on elanikkonnakaitse häire, mitte sissetung ega kinnitatud rünnak Rumeenias. Kaardipunkt tähistab hoiatuse piirkonda."
+    ],
+    "basis": "b3d536ba24881e16"
+  },
+  "N132": {
+    "headline": "Läti kinnitab UAV avastamist; päritolu ja võimalik kukkumine Balvis lahendamata",
+    "description": "NBS kinnitab UAV olemasolu Lätis 3. novembril. Välimuselt sarnanes see Ukraina sõjaliste droonidega, kuid tüüp, päritolu ja võimalik kukkumine Balvis on kinnitamata.",
+    "summary": [
+      "NBS kinnitab, et 3. novembri Balvi–Ludza häire ajal avastati Läti õhuruumis UAV. Esialgse visuaalse tuvastuse järgi sarnanes see Ukraina sõjaliste UAV-dega, kuid relvajõud ütlesid sõnaselgelt, et ei saa tüüpi ega päritolu kinnitada.",
+      "UAV võis kukkuda Balvi omavalitsuses; maapealsed otsingud jätkusid. See jääb lahendamata päritolu ja tulemusega kandidaadiks, mitte kinnitatud välismaiseks sissetungiks, allakukkumiseks ega allatulistamiseks. Piirkondlik kaardipunkt ei ole kontrollitud allakukkumiskoht."
+    ],
+    "basis": "505a6db792d85d51"
+  },
+  "N133": {
+    "headline": "Öine hoiatus Tulceas: Rumeenia õhuruumi sisenemisest ei teatatud",
+    "description": "Tulcea põhjaosas anti 2. novembri hilisõhtul hoiatus pärast õhutegevust Ukraina kohal. MApN ei teatanud sisenemisest Rumeeniasse; häire lõppes pärast südaööd.",
+    "summary": [
+      "MApN teatas 2.–3. novembri ööl kahest radarisihtmärgist Ukraina kohal Izmajili ja Kilija lähedal. Tulcea põhjaosas saadeti kell 23:43 RO-Alerti hoiatus; hoiatus lõppes kell 00:21 kohaliku aja järgi. Vastuseks tõusid õhku kaks Hispaania F-18.",
+      "Sisenemisest Rumeenia õhuruumi ei teatatud. See on valitud elanikkonnakaitse häire, eraldi varasemast 2. novembri hoiatusest, mitte kinnitatud sissetung ega rünnak Rumeenias. Kaardi ankurpunkt tähistab hoiatuse piirkonda."
+    ],
+    "basis": "a90d1dcd244ae758"
+  },
+  "N134": {
+    "headline": "Tulcea põhjaosas anti 4. novembril hoiatus; Rumeeniasse sisenemisest ei teatatud",
+    "description": "Sihtmärk Ukraina kohal tingis 4. novembril kahe F-16 õhkutõusu ja hoiatuse Tulcea põhjaosas. MApN ei teatanud sisenemisest Rumeenia õhuruumi.",
+    "summary": [
+      "Tulcea põhjaosas saadeti 4. novembril kell 10:57 RO-Alerti hoiatus pärast seda, kui Ukrainas Vîlcovest põhja pool avastati radarisihtmärk. Borceast tõusid õhku kaks F-16.",
+      "MApN ei teatanud sisenemisest Rumeenia õhuruumi. See valitud häire on eraldi 2.–3. novembri öisest hoiatusest; kaardipunkt tähistab hoiatuse piirkonda."
+    ],
+    "basis": "eefa3af945e0c8ca"
+  },
+  "N135": {
+    "headline": "Boghiceast leiti drooni killud; teatati kontrollitud kahjutustamisest",
+    "description": "Boghiceast 5. novembril leitud drooni killud hävitati teadete kohaselt samal õhtul. Päritolu ja mis tahes seos 31. oktoobri lennuga jäävad lahendamata.",
+    "summary": [
+      "Elanik teavitas Sagna maapolitseid pärast seda, kui leidis Boghiceast laialipillutatud kilde. Kohale tulid politsei, tuletõrjujad ja SRI spetsialistid. ProTV teatab, et spetsialistid lõhkasid jäänused 5. novembri õhtul pärast läbivaatust ja RO-Alerti hoiatust.",
+      "Välismaine päritolu, kukkumise kuupäev ja mis tahes seos N129-ga jäävad kinnitamata. ProTV esitab selge teate kahjutustamise lõpuleviimisest; otsest ametlikku lõpetamisavaldust ei leitud. Pealtnägijate kirjeldatud tähemärgid ei tee kindlaks käitajat ega mudelit.",
+      "Üks avastamise kirje, mitte uus kontrollitud lend ega täiendav UAV arvestuses. Võimalik seos N129-ga jääb lahendamata; kirjed ühendatakse või neile lisatakse ristviide, kui tõendid hiljem näitavad, et tegu on sama drooniga. Hädaolukorrale reageerimine ja kahjutustamise hoiatus ei ole eraldi juhtumid."
+    ],
+    "basis": "b1fd2b840a7ff077"
+  },
+  "N136": {
+    "headline": "Tulcea · 6. novembri öine RO-Alert",
+    "description": "Ametlik hoiatus; sisenemisest Rumeenia õhuruumi ei teatatud. Ainult häire; sissetungi, sekkumist ega rünnakut ei järeldata.",
+    "summary": [
+      "Lähedased rünnakud Ukraina sadamatele tingisid hoiatuse. RO-Alert anti välja kell 00:19; häire lõppes kell 00:41 kohaliku aja järgi.",
+      "Droonide arv ja mudel on teates täpsustamata. Lennutrajektoori, droonide arvu ega mudelit ei ole kindlaks tehtud.",
+      "Üks valitud häire, eraldi hilisemast kell 08:56 alanud hommikusest N137 hoiatusest."
+    ],
+    "basis": "42bf1e8a50a620f5"
+  },
+  "N137": {
+    "headline": "Tulcea põhjaosa · 6. novembri hommikune Sulina sihtmärgi häire",
+    "description": "Ametlik radarisihtmärgi hoiatus; Rumeeniasse sisenemist ei ole kindlaks tehtud. Ainult häire; sissetungi, sekkumist ega rünnakut ei järeldata.",
+    "summary": [
+      "Lähedane õhutegevus tingis elanikkonnakaitse hoiatuse. Borceast tõusid õhku kaks F-16; Tulcea põhjaosa hoiatus kestis kohaliku aja järgi kella 08:56–09:27.",
+      "Õhus olev radarisihtmärk; drooni identiteet ja mudel on viidatud avalduses kinnitamata. Kontrollitud mudelit, käitajat ega Rumeenia piiri ületamist ei ole. Öine järeldus sisenemise puudumise kohta kuulub N136 juurde ja seda ei saa sellele episoodile üle kanda.",
+      "Eraldi hommikune hoiatus, mitte kella 00:19–00:41 N136 episood. Hävitajate reageerimine ei lisa juhtumit."
+    ],
+    "basis": "7a65445d491a71de"
+  },
+  "N138": {
+    "headline": "Drooni äratoomine: Shabla · Vene droonina liigitatud droon uhuti kaldale ja hävitati, Bulgaaria",
+    "description": "6. november 2026, Shabla · Vene droonina liigitatud droon uhuti kaldale ja hävitati, Bulgaaria. Ametlikult tuvastatud õhudroon toodi ära ja hävitati. Rannikul…",
+    "summary": [
+      "Rannikul tehtud leiust teatati ametiasutustele kell 10:00 kohaliku aja järgi.",
+      "Ametlikult tuvastatud õhudroon toodi ära ja hävitati. Vene liigitus on Bulgaaria ülevaatuse hinnang; konkreetne käitaja ja missioon on kindlaks tegemata. Linnapea varajase kirjelduse Shahedi märgistusest ja lõhkeainetest asendasid sõjaväelise ülevaatuse tulemused: pealdisi ega lõhkelaengut ei olnud. Kukkumise kuupäev ja seos mis tahes laevarünnakuga jäävad teadmata."
+    ],
+    "basis": "de692ebadb5d7d7f"
+  },
+  "N139": {
+    "headline": "Egeuse meri · 6. novembril teatatud Türgi UAV-de tegevus",
+    "description": "Kreeka register teatab 6. novembril 10 Türgi UAV-st. Õhusõidukite koondarvud ei hõlma ainult droone.",
+    "summary": [
+      "GEETHA esmane kuuregister loetleb 10 UAV-d ja ühe ATR-72, koos 15 FIR-i rikkumist ja 23 riikliku õhuruumi rikkumist. Register ei jaota segatud koondarve õhusõiduki tüübi järgi.",
+      "Varasem taasavaldatud päevabülletään omistas 9 FIR-i rikkumist ja 15 riikliku õhuruumi rikkumist 7 UAV-le. Erinevuse põhjust ei ole märgitud. Need arvud pärinevad Kreeka ametiasutustelt; need ei ole sõltumatult kontrollitud trajektoorid ega kinnitatud rünnakute arv."
+    ],
+    "basis": "fd5cda8f3a302eca"
+  },
+  "N140": {
+    "headline": "Egeuse meri · 5. novembril teatatud Türgi UAV-de tegevus",
+    "description": "Kreeka register teatab 5. novembril 5 Türgi UAV-st. Varasemad päevaarvud erinesid.",
+    "summary": [
+      "GEETHA esmane kuuregister loetleb 5 UAV-d ja mitte ühtegi mehitatud õhusõidukit, 8 FIR-i rikkumise ja 17 riikliku õhuruumi rikkumisega. Kõik sel päeval teatatud õhusõidukid olid UAV-d.",
+      "Varasem taasavaldatud päevabülletään omistas 6 FIR-i rikkumist ja 9 riikliku õhuruumi rikkumist 4 UAV-le. Erinevuse põhjust ei ole märgitud. Need arvud pärinevad Kreeka ametiasutustelt; need ei ole sõltumatult kontrollitud trajektoorid ega kinnitatud rünnakute arv."
+    ],
+    "basis": "5f5e69b30526d99c"
+  },
+  "N141": {
+    "headline": "Egeuse meri · 7. novembril teatatud Türgi UAV-de tegevus",
+    "description": "Kreeka register teatab 7. novembril 8 Türgi UAV-st. Varasemad päevaarvud erinesid.",
+    "summary": [
+      "GEETHA esmane kuuregister loetleb 8 UAV-d ja mitte ühtegi mehitatud õhusõidukit, 10 FIR-i rikkumise ja 8 riikliku õhuruumi rikkumisega. Kõik sel päeval teatatud õhusõidukid olid UAV-d.",
+      "Varasem taasavaldatud päevabülletään omistas 8 FIR-i rikkumist ja 4 riikliku õhuruumi rikkumist 6 UAV-le. Erinevuse põhjust ei ole märgitud. Need arvud pärinevad Kreeka ametiasutustelt; need ei ole sõltumatult kontrollitud trajektoorid ega kinnitatud rünnakute arv."
+    ],
+    "basis": "10e6e252c784d0ee"
+  },
+  "N142": {
+    "headline": "Tuvastamata objekt: Rumeenia territoriaalveed · Tuvastamata sihtmärk siseneb õhuruumi, Rumeenia",
+    "description": "5. november 2026, Rumeenia territoriaalveed · Tuvastamata sihtmärk siseneb õhuruumi, Rumeenia. MApN-i teatatud õhuruumi sisenemine; drooni identiteet kinnitamata. Kolmeminutilisest…",
+    "summary": [
+      "Kolmeminutilisest riikliku õhuruumi sisenemisest teatas MApN.",
+      "MApN-i teatatud õhuruumi sisenemine; drooni identiteet kinnitamata. Käitajat ei ole tuvastatud. Sisenemisest teatab ametiasutus, kuid drooni identiteet, mudel, käitaja ja kavatsus jäävad lahendamata. Meedia kirjeldused kordavad sama ametlikku avaldust. Seost Boghicea N135-ga ei ole kindlaks tehtud."
+    ],
+    "basis": "59712b8a83097feb"
+  },
+  "N143": {
+    "headline": "Droonihäire: Tulcea idaosa · Madusaare sihtmärgi hoiatus, Rumeenia",
+    "description": "8. november 2026, Tulcea idaosa · Madusaare sihtmärgi hoiatus, Rumeenia. Ametlik radarisihtmärgi hoiatus; Rumeeniasse sisenemist ei ole kindlaks tehtud. Kaks lähedast…",
+    "summary": [
+      "Kaks lähedast sihtmärgi avastamist tingisid hoiatuse ja sõjalise seire.",
+      "Ametlik radarisihtmärgi hoiatus; Rumeeniasse sisenemist ei ole kindlaks tehtud. Käitajat ei ole tuvastatud. Viidatud avaldused ei tee kindlaks Rumeeniasse sisenemist, drooni tüüpi ega käitajat. Esimese sihtmärgi kadumine radarilt ei ole allakukkumine. Vaikimisest ei järeldata sõnaselget hinnangut sisenemise puudumise kohta."
+    ],
+    "basis": "4cff8ae9f4cbdedb"
+  },
+  "N144": {
+    "headline": "Droonihäire: Tulcea põhjaosa · Chilia Veche sihtmärgi hoiatus, Rumeenia",
+    "description": "8. november 2026, Tulcea põhjaosa · Chilia Veche sihtmärgi hoiatus, Rumeenia. Ametlik radarisihtmärgi hoiatus; Rumeeniasse sisenemist ei ole kindlaks tehtud. Hilisem, eraldi…",
+    "summary": [
+      "Hilisem, eraldi sihtmärgi avastamine tingis hoiatuse Tulcea põhjaosas.",
+      "Ametlik radarisihtmärgi hoiatus; Rumeeniasse sisenemist ei ole kindlaks tehtud. Käitajat ei ole tuvastatud. Sihtmärgi tüüp, käitaja ja mis tahes Rumeenia piiri ületamine jäävad kindlaks tegemata. Hoiatus ja hävitajate õhkutõus üksi ei ole sissetung ega sekkumine."
+    ],
+    "basis": "51af4b15dda166f7"
+  },
+  "N145": {
+    "headline": "Tuvastamata objekt: Lipite rand, Sinemorets · Tuvastamata drooni leid, Bulgaaria",
+    "description": "8. november 2026, Lipite rand, Sinemorets · Tuvastamata drooni leid, Bulgaaria. Drooni leid ja omistatud ametlik kokkukogumine; päritolu lahendamata. BNT…",
+    "summary": [
+      "BNT võttegrupp leidis õhusõiduki, kui tegi reportaaži kaldale uhutud lasti kohta.",
+      "Drooni leid ja omistatud ametlik kokkukogumine; päritolu lahendamata. Riiklik päritolu ja käitaja lahendamata; kinnitatud välismaist lendu ega piiriülest sisenemist ei ole. Päritolu, käitaja, last ja saabumise teekond jäävad lahendamata. Lähedal olev last ei ole tõend, mis seoks drooni laeva või rünnakuga. Kuberneri sõjakonteksti hinnang ei ole tehniline tuvastus. Lõpuleviidud kahjutustamist ei ole kindlaks tehtud."
+    ],
+    "basis": "8994bcc4baaa422f"
+  },
+  "N146": {
+    "headline": "Egeuse meri · 8. novembril teatatud Türgi UAV-de tegevus",
+    "description": "Kreeka register teatab 8. novembril 5 Türgi UAV-st. Varasemad päevaarvud erinesid.",
+    "summary": [
+      "GEETHA esmane kuuregister loetleb 5 UAV-d ja mitte ühtegi mehitatud õhusõidukit, 6 FIR-i rikkumise ja 6 riikliku õhuruumi rikkumisega. Kõik sel päeval teatatud õhusõidukid olid UAV-d.",
+      "Varasem taasavaldatud päevabülletään omistas 4 FIR-i rikkumist ja 4 riikliku õhuruumi rikkumist 4 UAV-le. Erinevuse põhjust ei ole märgitud. Need arvud pärinevad Kreeka ametiasutustelt; need ei ole sõltumatult kontrollitud trajektoorid ega kinnitatud rünnakute arv."
+    ],
+    "basis": "e9cdcb8a8e0ac546"
+  },
+  "N147": {
+    "headline": "Egeuse meri · 9. novembril teatatud Türgi UAV-de tegevus",
+    "description": "Kreeka register teatab 9. novembril 5 Türgi UAV-st. Õhusõidukite koondarvud ei hõlma ainult droone.",
+    "summary": [
+      "GEETHA esmane kuuregister loetleb 5 UAV-d ja ühe ATR-72, koos 7 FIR-i rikkumist ja 3 riikliku õhuruumi rikkumist. Register ei jaota segatud koondarve õhusõiduki tüübi järgi.",
+      "Varasem taasavaldatud päevabülletään omistas 5 FIR-i rikkumist ja 2 riikliku õhuruumi rikkumist 5 UAV-le. Erinevuse põhjust ei ole märgitud. Need arvud pärinevad Kreeka ametiasutustelt; need ei ole sõltumatult kontrollitud trajektoorid ega kinnitatud rünnakute arv."
+    ],
+    "basis": "05f7be48ee62885b"
+  },
+  "N148": {
+    "headline": "Droonilend: Sulina · Teatatud drooni sisenemine õhuruumi, Rumeenia",
+    "description": "9. november 2026, Sulina · Teatatud drooni sisenemine õhuruumi, Rumeenia. MApN-i teatatud drooni sisenemine Rumeenia riiklikku õhuruumi. Hilisemad teated sõnaselgelt…",
+    "summary": [
+      "Hilisemad teated kinnitavad sõnaselgelt sisenemist pärast esialgset lähedase sihtmärgi hoiatust. Trajektoor kadus seejärel radarilt.",
+      "MApN-i teatatud drooni sisenemine Rumeenia riiklikku õhuruumi. Käitajat, riiklikku päritolu, kavandatud sihtmärki ja kavatsust ei ole kindlaks tehtud. Allikad vahendavad kaitseministeeriumi teavet, mitte sõltumatult kontrollitud radaritrajektoore. Sisenemise aeg ja kestus, mudel, käitaja, sihtmärk ja lõpptulemus on teadmata. Radarikontakti kadumine ei tõenda allakukkumist, allatulistamist ega lahkumist."
+    ],
+    "basis": "ffa47195c16e1a8e"
+  },
+  "N149": {
+    "headline": "Droonihäire: Tulcea idaosa · 10. novembri Sulina sihtmärgi hoiatus, Rumeenia",
+    "description": "10. november 2026, Tulcea idaosa · 10. novembri Sulina sihtmärgi hoiatus, Rumeenia. MApN-i teatatud lähedane õhusihtmärk; Rumeeniasse sisenemist ei ole kindlaks tehtud. Lähedane…",
+    "summary": [
+      "Lähedane sihtmärk tingis kahe F-16 õhkutõusu ja avaliku hoiatuse Tulcea idaosas.",
+      "MApN-i teatatud lähedane õhusihtmärk; Rumeeniasse sisenemist ei ole kindlaks tehtud. Käitaja, päritolu, kavandatud sihtmärk ja kavatsus on teadmata. Selle episoodi kohta ei ole kindlaks tehtud kinnitatud sisenemist Rumeeniasse, rünnakut, peatamist ega allakukkumist. 9. novembri sisenemist käsitlevad teated kuuluvad N148 juurde ja neid ei saa sellele häirele üle kanda."
+    ],
+    "basis": "1ae15c2e27e8853c"
+  },
+  "N150": {
+    "headline": "Leedu–Läti · Droonisissetung ja ebaõnnestunud peatamine",
+    "description": "Ametlikult kinnitatud droonisissetung; ebaõnnestunud peatamine. Leedu lõunaosast põhjaosani; teatatud lahkumine Lätti Pasvalyse rajooni lähedal.",
+    "summary": [
+      "Leedu kaitsestaabi ülem ütles, et hävitajad tuvastasid drooni Kaunase lähedal, kuid ei sekkunud seal tsiviilisikuid ähvardava ohu tõttu. Kaks hilisemat hävitamiskatset ebaõnnestusid. Läti kinnitas sõltumatult, et droon sisenes Leedust ja läbis tema territooriumi lõunast põhja.",
+      "NATO hävitajad aktiveeriti Leedus ja jätkasid reageerimist Läti kohal; Lätis ei olnud hävitamiseks sobivaid ohutuid operatiivtingimusi. Biržai lähedalt leiti tõrjeraketi rusud, mitte drooni vrakk.",
+      "Mudel, last, käitaja, kavandatud sihtmärk ja põhjus jäävad teadmata. Elektroonilise sõjapidamisega kõrvalejuhtimine on hinnang, mitte kindlakstehtud fakt. Eesti ametiasutused kinnitasid eraldi lühiajalisi sisenemisi samal ööl; täpne kattuvus selle trajektoori ja teiste droonidega on veel selgitamisel. Kinnitatud rünnakut, drooni allakukkumist, äratoomist ega allatulistamist ei ole."
+    ],
+    "basis": "b3d7c837ed9779e1"
+  },
+  "N151": {
+    "headline": "Läti · Kaks lühiajalist droonisisenemist idapiiril",
+    "description": "NBS-i kinnitatud lühiajalised droonisissetungid. Ludza omavalitsus / Läti idapiir",
+    "summary": [
+      "Läti NBS ütles, et kaks drooni ületasid lühiajaliselt idapiiri 1–2 minutiks. NBS paigutab sellega seotud Ludza hoiatuse ligikaudu kella 23:30-le teisipäeval, 10. novembril.",
+      "Aktiveeriti püüddroonide ja õhutõrje üksused ning NATO hävitajad.",
+      "Täpsed ületuskohad, käitaja, last ja kavatsus on lahendamata. Hilisemad lähenemised Krāslava/Augšdaugava ja Balvi suunal ei sisenenud; need ei ole täiendavad sissetungid."
+    ],
+    "basis": "99971f22c80bd30f"
+  },
+  "N152": {
+    "headline": "Soome · Kahtlustatav UAV sisenemine Soome lahe idaosa kohal",
+    "description": "Ministeeriumi teatatud kahtlustatav õhuruumi rikkumine; uurimine käib. Soome lahe idaosa; kahtlustatav Soome riiklik õhuruum",
+    "summary": [
+      "Soome kaitseministeerium teatas kahtlustatavast UAV õhuruumi rikkumisest 11. novembril pärast kella 02:00; see kestis umbes viis minutit, enne kui UAV lahkus.",
+      "Piirivalve uurib. Kaitsevägi kehtestas ettevaatusabinõuna ajutised õhu- ja merepiirangud.",
+      "Sisenemine jääb kahtlustatavaks, mitte kinnitatuks. Päritolu, mudelit, kavatsust ega tõendatud seost Balti riike läbinud lendude või rünnakutega Venemaal ei ole tuvastatud."
+    ],
+    "basis": "68f7b98f4dfcbc62"
+  },
+  "N153": {
+    "headline": "Eesti · Lühiajalised droonisissetungid Soome lahe kohal",
+    "description": "Eesti ametiasutused teatasid 11. novembril 2026 lühiajalistest droonisissetungidest Soome lahe kohal. Täpne arv, trajektoorid ja lastid on lahendamata.",
+    "summary": [
+      "ERR-i intervjuus eristas kaitseminister lühiajalisi õhuruumi rikkumisi Soome lahe kohal eraldi droonist, mis sisenes Lätist ligikaudu kell 03:30. Eesti valitsus kinnitas eraldi, et mõned droonid sisenesid sel ööl lühiajaliselt riigi õhuruumi.",
+      "NATO hävitajad olid õhus. Minister ütles, et ohutuid hävitamistingimusi ei olnud, muu hulgas Venemaa piiri läheduse tõttu.",
+      "Täpne droonide arv, ületusajad ja trajektoorid on lahendamata. Teatatud Ukraina omistamine on ministri kirjeldus, mitte sõltumatu kinnitus. Kinnitatud rünnakut Eestile, allakukkumist, äratoomist ega allatulistamist ei ole. Tõendatud seost Soome kahtlustatava piiriületusega ei ole."
+    ],
+    "basis": "0988f0038c13eff7"
+  },
+  "N154": {
+    "headline": "Võimalik droon Sulina lähedal tingis hoiatuse; Rumeeniasse sisenemist ei ole kindlaks tehtud",
+    "description": "Võimalik droon Sulinast kirdes tingis 12. novembril 2026 hoiatuse Tulceas. Reageerisid Hispaania hävitajad; Rumeeniasse sisenemist ei tehtud kindlaks.",
+    "summary": [
+      "Rumeenia kaitseministeerium teatas 12. novembril õhusihtmärgist umbes 28 km Sulinast kirdes. Avalik-õiguslik raadio kirjeldas seda võimaliku droonina.",
+      "Hoiatus kestis kohaliku aja järgi kella 12:35–13:12 ning õhku tõusid kaks Hispaania F-18. See valitud häire ei ole kinnitatud sissetung Rumeeniasse ega rünnak Rumeeniale."
+    ],
+    "basis": "e621e2b415355314"
+  },
+  "N155": {
+    "headline": "Teade: 16. oktoobril 2 Kreeka õhuruumi rikkumist 5 Türgi UAV osalusel",
+    "description": "Veteranos teatab 16. oktoobril 2026 5 Türgi UAV-st ja 2 Kreeka õhuruumi rikkumisest. Üheallikaline ametlike arvude kirjeldus; täpsed trajektoorid jäävad teadmata.",
+    "summary": [
+      "Veteranos teatab ametlikele arvudele viidates 5 Türgi UAV-st Egeuse mere kesk- ja kaguosas 16. oktoobril: 2 riikliku õhuruumi rikkumist ja 7 Ateena FIR-i rikkumist.",
+      "Teatati tuvastamisest ja tavapärasest peatamisest. See on üks päevase tegevuse kirje, mitte eraldi sündmused iga UAV või rikkumise kohta.",
+      "Algne GEETHA bülletään on endiselt kättesaamatu ja vastavat teist teadet ei leitud. Need on Kreekale omistatud arvud, mitte sõltumatult kontrollitud trajektoorid; Kreeka–Türgi õhuruumivaidlus on endiselt asjakohane."
+    ],
+    "basis": "7eab620af97e56d5"
+  },
+  "N156": {
+    "headline": "Teade: 17. oktoobril 6 Kreeka õhuruumi rikkumist 2 Türgi UAV osalusel",
+    "description": "Veteranos teatab 17. oktoobril 2026 2 Türgi UAV-st ja 6 Kreeka õhuruumi rikkumisest. Üheallikaline ametlike arvude kirjeldus; täpsed trajektoorid jäävad teadmata.",
+    "summary": [
+      "Veteranos teatab ametlikele arvudele viidates 2 Türgi UAV-st Egeuse mere kirde- ja kaguosas 17. oktoobril: 6 riikliku õhuruumi rikkumist ja 4 Ateena FIR-i rikkumist.",
+      "Teatati tuvastamisest ja tavapärasest peatamisest. See on üks päevase tegevuse kirje, mitte eraldi sündmused iga UAV või rikkumise kohta.",
+      "Algne GEETHA bülletään on endiselt kättesaamatu ja vastavat teist teadet ei leitud. Need on Kreekale omistatud arvud, mitte sõltumatult kontrollitud trajektoorid; Kreeka–Türgi õhuruumivaidlus on endiselt asjakohane."
+    ],
+    "basis": "41c5a49d0eb8c357"
+  },
+  "N157": {
+    "headline": "Tulcea põhjaosas anti hoiatus pärast sihtmärgi avastamist Ukraina õhuruumis",
+    "description": "Rumeenia andis 13. novembril pärast sihtmärgi avastamist Ukraina õhuruumis välja hoiatuse Tulcea põhjaosas. Drooni identiteeti ja Rumeeniasse sisenemist ei tehtud kindlaks.",
+    "summary": [
+      "Rumeenia ametiasutused andsid 13. novembril 2026 Tulcea põhjaosa jaoks välja hoiatuse pärast seda, kui radar avastas õhusihtmärgi Madusaarest kagus Ukraina õhuruumis.",
+      "Feteștist tõusid õhku kaks Rumeenia F-16. Hoiatus kestis kohaliku aja järgi kella 21:53–22:58; need on hoiatuse kellaajad, mitte kontrollitud lennu kestus.",
+      "Läbivaadatud ministeeriumi kirjeldus ei tuvastanud sihtmärki droonina ega teinud kindlaks Rumeeniasse sisenemist. See on valitud häire, mitte kinnitatud sissetung ega rünnak."
+    ],
+    "basis": "bdbe3aeea261bfb7"
+  },
+  "N158": {
+    "headline": "LARISSA 1 sai Rumeenia lähedal teatatud droonitabamuses kahjustada; meeskond on ohutult",
+    "description": "13. novembril sai LARISSA 1 Sfântu Gheorghe lähedal droonitabamuses kahjustada. Rumeenia minister tunnistas juhtumit; käitaja ja täpne asukoht jäävad lahendamata.",
+    "summary": [
+      "Teatatud õhudrooni tabamus kahjustas 13. novembri 2026 õhtul Sfântu Gheorghe lähedal LARISSA 1 lastikraanat. Merendusasutusi teavitati umbes kell 21:40 kohaliku aja järgi. Vigastustest, hukkunutest ega tulekahjust ei teatatud.",
+      "Rumeenia kaitseminister tunnistas 14. novembril öist tabamust. TVR tuvastab laeva, samas kui Europa FM paigutab teatatud juhtumi 6,8 meremiili Sfântu Gheorghest kirdesse Rumeenia territoriaalvetesse. Täpseid tabamuskoordinaate ei ole avaldatud.",
+      "Käitaja, päritolu ja kavandatud sihtmärk jäävad teadmata. Tehnilised järeldused olid ootel ning seost eraldi Tulcea õhusihtmärgi häirega ei ole kindlaks tehtud."
+    ],
+    "basis": "f08b96a541b68222"
+  },
+  "N159": {
+    "headline": "Tulcea sai ühe hommikuse õhusihtmärgi häire ajal kaks hoiatust",
+    "description": "Rumeenia andis 14. novembril pärast sihtmärgi avastamist Madusaare lähedal Tulceas välja kaks hoiatust. Drooni identiteeti ja Rumeeniasse sisenemist ei tehtud kindlaks.",
+    "summary": [
+      "MApN teatas 14. novembri 2026 hommikul õhusihtmärgist Madusaare piirkonnas. Feteștist tõusid õhku kaks Rumeenia F-16.",
+      "Tulcea idaosas anti hoiatus kell 04:45 kohaliku aja järgi ja seejärel Tulcea põhjaosas kell 05:39. Ohu möödumise teade tuli kell 05:52. Need sõnumid kuuluvad ühte häireepisoodi, mitte kahte kinnitatud droonijuhtumisse.",
+      "Avaldus ei tuvastanud sihtmärki droonina ega kinnitanud Rumeeniasse sisenemist. See valitud häire on eraldi eelmise õhtu hoiatusest; seost Larissa 1 tabamusega ei ole kindlaks tehtud."
+    ],
+    "basis": "485c5fe876331a03"
+  },
+  "N160": {
+    "headline": "EVIA PETROL V-d tabas Sulina lähedal droon, vahendatud ministeeriumi kirjelduse kohaselt",
+    "description": "EVIA PETROL V-d tabati teadete kohaselt 14. novembril Sulina lähedal. Meeskond kustutas tulekahju; kannatanutest ei teatatud. Käitaja ja täpne asukoht on teadmata.",
+    "summary": [
+      "Tsiviilmerendusasutustelt saadud MApN-i teavet vahendava News.ro kirjelduse kohaselt tabas EVIA PETROL V-d 14. novembril 2026 umbes kell 21:10 kohaliku aja järgi droon. Teatatud asukoht oli ligikaudu 4 meremiili Sulinast ida-kagus.",
+      "Meeskond kustutas pardal puhkenud tulekahju; kannatanutest ei teatatud. Radio România Constanța kirjeldab Rumeenia territoriaalvesi, kuid täpseid tabamuskoordinaate ja jurisdiktsiooni ei ole sõltumatult kontrollitud.",
+      "Käitaja, päritolu, kavatsus ja mis tahes seos teiste laevatabamuste või lähedaste häiretega jäävad teadmata.",
+      "19. novembri emitendi avalikustamises teatas Trans-Oili kontsern, et laev oli ankrus Sulina kanali sissepääsu juures ja ootas luba Giurgiuleștisse edasi sõitmiseks. Kahjustused takistasid kavandatud reisi umbes 6500 tonni päevalilleõli laadimiseks. Selle lasti olemasolu pardal ei kinnitatud; võimalikud logistilised viivitused ja kulud jäävad ettevõtte hoiatusteks."
+    ],
+    "basis": "111f4b44af58fb36"
+  },
+  "N161": {
+    "headline": "MARSOL-i tabas Sulina lähedal droon, vahendatud ministeeriumi kirjelduse kohaselt",
+    "description": "MARSOL-i tabati teadete kohaselt 14. novembril Sulina lähedal. Meeskond kustutas tulekahju; kannatanutest ei teatatud. Käitaja ja täpne asukoht on teadmata.",
+    "summary": [
+      "Tsiviilmerendusasutustelt saadud MApN-i teavet vahendava News.ro kirjelduse kohaselt tabas MARSOL-i 14. novembril 2026 umbes kell 21:45 kohaliku aja järgi droon. Teatatud asukoht oli ligikaudu 5 meremiili Sulina kanalist kagus.",
+      "Meeskond kustutas pardal puhkenud tulekahju; kannatanutest ei teatatud. Radio România Constanța kirjeldab Rumeenia territoriaalvesi, kuid täpseid tabamuskoordinaate ja jurisdiktsiooni ei ole sõltumatult kontrollitud.",
+      "Käitaja, päritolu, kavatsus ja mis tahes seos teiste laevatabamuste või lähedaste häiretega jäävad teadmata. Varasem meremajanduse teade annab selle asemel aja 21:29 CET; see ajaline lahknevus jääb lahendamata."
+    ],
+    "basis": "bc90d74246cb5145"
+  },
+  "N162": {
+    "headline": "Tulcea idaosa · 14. novembri õhtune hoiatus",
+    "description": "Rumeenia ametiasutused andsid pärast avastust õhus välja elanikkonnakaitse hoiatuse. Drooni identiteet ja Rumeeniasse sisenemine jäävad kinnitamata.",
+    "summary": [
+      "Feteștist tõusid õhku kaks Rumeenia F-16; Tulcea idaosa hoiatus kell 20:51, ohu möödumine kell 21:37.",
+      "Tsiteeritud ministeeriumi terminoloogia ei kinnita drooni, sisenemist, rünnakut ega sekkumist. Tõendatud seost laevatabamustega ei ole."
+    ],
+    "basis": "9e036c65d9b1d1c9"
+  },
+  "N163": {
+    "headline": "Sulina piirkond · 14. novembri hilisõhtune radarikontakti hoiatus",
+    "description": "Rumeenia ametiasutused andsid pärast avastust õhus välja elanikkonnakaitse hoiatuse. Drooni identiteet ja Rumeeniasse sisenemine jäävad kinnitamata.",
+    "summary": [
+      "Uus Tulcea idaosa hoiatus kell 23:19; ohu möödumine järgmisel päeval kell 00:27. Eraldi õhkutõusu ei ole kindlaks tehtud.",
+      "Tsiteeritud ministeeriumi terminoloogia ei kinnita drooni, sisenemist, rünnakut ega sekkumist. Tõendatud seost laevatabamustega ei ole."
+    ],
+    "basis": "146d9d719613c6b5"
+  },
+  "N164": {
+    "headline": "Lühiajaline droonisissetung Chilia lähedal 2. mail",
+    "description": "Rumeenia kaitseasutused teatasid lühiajalisest drooni sisenemisest Chilia lähedal. Sihtmärk ja kavatsus jäävad kindlaks tegemata; rünnakut Rumeeniale ei järeldata.",
+    "summary": [
+      "MApN teatas lühiajalisest radariga kinnitatud sisenemisest Chilia lähedal, millele järgnes liikumine Izmajili suunas. Kaks F-16 tõusid õhku umbes kell 02:00; Tulcea põhjaosa hoiatus kestis kohaliku aja järgi kella 02:03–02:50.",
+      "Sisenemine on registreeritud eraldi laiemast rünnakust Ukrainale. Kavatsus ja konkreetne sihtmärk jäävad kindlaks tegemata; tabamusest Rumeenias ei teatata."
+    ],
+    "basis": "82fa985c2e506266"
+  },
+  "N165": {
+    "headline": "Lühiajaline droonisissetung Chilia lähedal 7. mail",
+    "description": "Rumeenia kaitseasutused teatasid lühiajalisest drooni sisenemisest Chilia lähedal. Sihtmärk ja kavatsus jäävad kindlaks tegemata; rünnakut Rumeeniale ei järeldata.",
+    "summary": [
+      "MApN teatas 7. mai hommikul lühiajalisest radariga kinnitatud sisenemisest Chilia lähedal. Kaks F-16 tõusid õhku kell 08:37; Tulcea põhjaosa hoiatus kestis kohaliku aja järgi kella 08:40–09:40.",
+      "Sisenemine on registreeritud eraldi laiemast rünnakust Ukrainale. Kavatsus ja konkreetne sihtmärk jäävad kindlaks tegemata; tabamusest Rumeenias ei teatata."
+    ],
+    "basis": "438dcccd398f3603"
+  },
+  "N166": {
+    "headline": "Droon sisenes Rumeenia õhuruumi ja kukkus alla Parcheși lähedal",
+    "description": "MApN kinnitas 26. märtsi drooni sisenemist ja allakukkumist Parcheși külast väljas. Leiti rususid; käitaja, mudel ja kavandatud sihtmärk jäävad täpsustamata.",
+    "summary": [
+      "MApN teatas, et droon sisenes 26. märtsil kell 00:44, tungis umbes 4 km sügavusele ja kukkus alla Parcheși külast väljas. Meeskonnad leidsid rususid ja põlenud taimestikku; materiaalsest kahjust ega kannatanutest ei teatatud.",
+      "Ministeeriumi sõnul juhtis Ukraina õhutõrje drooni kõrvale. See kirjeldus jääb MApN-i omaks; teade ei tee kindlaks drooni käitajat, mudelit ega kavatsust Rumeeniat rünnata."
+    ],
+    "basis": "89eac726d6b9440e"
+  },
+  "N167": {
+    "headline": "Tuvastamata sihtmärk sisenes Rumeenia õhuruumi Chilia Veche lähedal",
+    "description": "MApN kinnitas õhusihtmärgi sisenemist 16.–17. aprilli öösel. Drooni identiteet ja allakukkumine jäävad hoolimata hilisemast radarikontakti kadumisest kinnitamata.",
+    "summary": [
+      "MApN teatas 16.–17. aprilli öösel ühest riikliku õhuruumi sisenemisest. Kontakt kadus umbes 16 km Chilia Vechest kagus ning teatati otsingumissioonist.",
+      "Ametlik teade kirjeldab õhusihtmärki, mitte tuvastatud drooni. Ei radarikontakti kadumine ega kavandatud otsing tee kindlaks allakukkumist ega rusude äratoomist."
+    ],
+    "basis": "23dfc89d5a63cde0"
+  },
+  "N168": {
+    "headline": "ALI NAJAFOV teatab öisest droonitabamusest Doonau suudmete lähedal",
+    "description": "Rumeenia ametiasutused vahendasid ALI NAJAFOV-i teadet droonitabamusest. Meeskond kustutas tulekahju; täpne asukoht, jurisdiktsioon ja omistamine jäävad teadmata.",
+    "summary": [
+      "ALI NAJAFOV teatas droonitabamusest 14.–15. novembri öösel Doonau suudmete lähedal. Rumeenia ametiasutused vahendasid laeva teadet; meeskond kustutas tulekahju ning kannatanutest ei teatatud.",
+      "See on EVIA PETROL V-st ja MARSOL-ist eraldi laev. Selle täpne asukoht ja merealane jurisdiktsioon jäävad lahendamata; ühist käitajat ega tahtlikku sihikule võtmist ei ole kindlaks tehtud."
+    ],
+    "basis": "8b86269bf206800f"
+  },
+  "N169": {
+    "headline": "Tulcea pärastlõunast hoiatust laiendati linnale, seejärel see tühistati",
+    "description": "Õhusihtmärgi avastamine Ukraina lähedal tingis kell 15:02 hoiatuse Tulceas, mida laiendati enne kella 17:05 ohu möödumist linnale. Rumeeniasse sisenemine on kinnitamata.",
+    "summary": [
+      "Õhusihtmärgi avastamisele Ukrainas järgnenud hoiatus algas 15. novembril kell 15:02. Kell 16:56 laiendati see Tulcea linnale ja kell 17:05 tühistati see kõigi mõjutatud kogukondade jaoks.",
+      "Laiendamine kuulub samasse hoiatusepisoodi. Ei drooni identiteeti ega Rumeenia õhuruumi sisenemist ei ole kindlaks tehtud; seost laevatabamustega ei järeldata."
+    ],
+    "basis": "229b1930ed3783f0"
+  },
+  "N170": {
+    "headline": "Sulinast põhja pool · lühiajaline drooni sisenemine 26. veebruaril",
+    "description": "MApN kinnitas lühiajalist drooni sisenemist 26. veebruari õhtul; see lõppes Sulinast põhja pool umbes kell 18:30.",
+    "summary": [
+      "MApN kinnitas lühiajalist drooni sisenemist 26. veebruari õhtul; see lõppes Sulinast põhja pool umbes kell 18:30.",
+      "See oli eraldi varasemast sisenemiseta häirest ja 25. veebruari juhtumist. Käitaja, mudel ja kavatsus jäävad täpsustamata."
+    ],
+    "basis": "c289f5664d4e1a20"
+  },
+  "N171": {
+    "headline": "Tănăsoaia · toodi ära võimaliku õhusõiduki killud",
+    "description": "Kaitsespetsialistid uurisid ja kogusid 18. jaanuaril Tănăsoaias metallikilde. Need viitasid võimalikule õhusõidukile.",
+    "summary": [
+      "Kaitsespetsialistid uurisid ja kogusid 18. jaanuaril Tănăsoaias metallikilde. Need viitasid võimalikule õhusõidukile.",
+      "Drooni identiteet, päritolu ja kukkumise kuupäev jäävad kinnitamata; see on leiukandidaat, mitte kinnitatud sissetung."
+    ],
+    "basis": "b7ad8cb376460adb"
+  },
+  "N172": {
+    "headline": "Botoșenița Mare · tuvastamata lendava objekti allakukkumine",
+    "description": "MApN teatas 12. septembril Botoșenița Mare lähedal maisipõllule alla kukkunud lendavast objektist, väikesest tulekahjust ja kannatanute puudumisest.",
+    "summary": [
+      "MApN teatas 12. septembril Botoșenița Mare lähedal maisipõllule alla kukkunud lendavast objektist, väikesest tulekahjust ja kannatanute puudumisest.",
+      "Välisriikide ametiasutused teatasid samuti drooni läbilennust ning mujal registreeriti hädaabinumbrile 112 teatatud vaatlus. Pidevat seost äratoodud objektiga ei ole kindlaks tehtud."
+    ],
+    "basis": "678aa5f2a1e03414"
+  },
+  "N173": {
+    "headline": "Mangaliast ida pool · triiviva õhudrooni avastamine",
+    "description": "MApN teatas 15. novembril õhudroonist, mis triivis umbes 45 meremiili Mangaliast ida pool. Päritolu ja missiooni tulemus jäävad teadmata.",
+    "summary": [
+      "Rumeenia kaitseministeeriumi sõnul teatas Prantsuse mereväe ATLANTIQUE 2 15. novembril õhudroonist, mis triivis ligikaudu 45 meremiili Mangaliast ida pool.",
+      "Kavandatud 16. novembri EOD-hindamine lükkus ebasoodsa ilma tõttu edasi: MApN-i sõnul naasid mõlemad paadid hindamist lõpetamata. Äratoomist ega kahjutustamist ei ole kindlaks tehtud.",
+      "See on avamerel tehtud avastus, mitte tõend sissetungist Rumeenia territoriaalsesse õhuruumi. Drooni päritolu, lennu- ja kukkumiskuupäev, last ning mis tahes seos hiljutiste laevatabamustega jäävad teadmata."
+    ],
+    "basis": "875f004d900296a2"
+  },
+  "N174": {
+    "headline": "Chitucist ida pool · triiviva õhudrooni avastamine",
+    "description": "MApN teatas 15. novembril õhudroonist, mis triivis umbes 53 meremiili Chitucist ida pool. Päritolu ja missiooni tulemus jäävad teadmata.",
+    "summary": [
+      "Rumeenia kaitseministeeriumi sõnul teatas Prantsuse mereväe ATLANTIQUE 2 15. novembril õhudroonist, mis triivis ligikaudu 53 meremiili Chitucist ida pool.",
+      "Kavandatud 16. novembri EOD-hindamine lükkus ebasoodsa ilma tõttu edasi: MApN-i sõnul naasid mõlemad paadid hindamist lõpetamata. Äratoomist ega kahjutustamist ei ole kindlaks tehtud.",
+      "See on avamerel tehtud avastus, mitte tõend sissetungist Rumeenia territoriaalsesse õhuruumi. Drooni päritolu, lennu- ja kukkumiskuupäev, last ning mis tahes seos hiljutiste laevatabamustega jäävad teadmata."
+    ],
+    "basis": "328155b1bc112d37"
+  },
+  "N175": {
+    "headline": "BETUL 8 läks Bulgaaria lähedal ümber; meeskonnaliige väidab meredroonirünnakut",
+    "description": "Kõik 12 BETUL 8 meeskonnaliiget päästeti pärast laeva ümberminekut Bulgaaria majandusvööndis 16. novembril. Meredroonirünnaku väide jääb kinnitamata.",
+    "summary": [
+      "Bulgaaria ametiasutused kinnitasid, et BETUL 8 läks 16. novembril ümber riigi ainuõiguslikus majandusvööndis. Kõik 12 meeskonnaliiget evakueeriti; ministeerium ei teatanud raskematest vigastustest.",
+      "BNR tsiteeris üht päästetud meremeest, kes väitis, et laeva ründasid kaks meredrooni. Läbivaadatud avaldustes ei olnud ametiasutused seda põhjust kinnitanud. Avamere õnnetus on säilitatud kandidaadina, mitte kinnitatud droonitabamuse ega territoriaalse sissetungina.",
+      "Bulgaaria NAVWARN 860/26 annab hilisema vaatluse 19. novembril kell 14:45 UTC: laev oli ümber läinud ja triivis ilma meeskonna ja juhtimiseta. See ei ole lõpliku seisukorra ega põhjuse kindlaksmääramine."
+    ],
+    "basis": "aad7a84948b3f2bc"
+  },
+  "N176": {
+    "headline": "Egeuse meri · Kreeka registris seitse UAV-d 16. novembri kohta",
+    "description": "GEETHA novembriregister loetleb 16. novembri kohta seitse UAV-d, seitse õhuruumi rikkumist ja kümme FIR-i rikkumist, erinedes varasemast bülletäänist.",
+    "summary": [
+      "GEETHA kuuregister loetleb 16. novembri kohta kõigi teatatud õhusõidukitena seitse UAV-d, seitsme riikliku õhuruumi rikkumise ja kümne Ateena FIR-i rikkumisega. Varasem Parapolitika bülletään andis kuus õhuruumi rikkumist ja üheksa FIR-i rikkumist; erinevus on selgitamata.",
+      "See jääb üheks piirkondlikuks päevakirjeks. Arvud ei ole liidetavad ega sõltumatult kontrollitud lendude arv; relvade kasutamist ei ole kindlaks tehtud."
+    ],
+    "basis": "1392b1b1c36513b7"
+  },
+  "N177": {
+    "headline": "Tulcea põhjaosas anti öine häire; Rumeenia õhuruumi sisenemist ei registreeritud",
+    "description": "Rumeenia andis 16.–17. novembri öösel pärast radariga tehtud avastusi Ukraina kohal välja häire. MApN ei teatanud loata sisenemisest Rumeenia õhuruumi.",
+    "summary": [
+      "Rumeenia andis pärast radariga tehtud avastusi Ukraina kohal välja elanikkonnakaitse häire. Loata sisenemist Rumeenia õhuruumi ei registreeritud.",
+      "See on üks valitud häire, mitte kinnitatud droonisissetung."
+    ],
+    "basis": "016739f3dca934f0"
+  },
+  "N178": {
+    "headline": "GAS HUSKY meeskond päästeti pärast õnnetust avamerel; droonipõhjus kinnitamata",
+    "description": "Kõik 19 GAS HUSKY meeskonnaliiget päästeti 17. novembril Bulgaaria lähedal. Ametlik hoiatus kirjeldab kreenis triivivat laeva; väited droonide kohta jäävad kinnitamata.",
+    "summary": [
+      "Bulgaaria ametiasutused päästsid 17. novembril 2026 pärast avamerel toimunud mereõnnetust GAS HUSKY pardalt kõik 19 meeskonnaliiget. Libeeria lipu all sõitev LPG-vedaja oli teel Egiptusest Rumeeniasse. Asukoht on Bulgaaria ainuõiguslikus majandusvööndis, mitte selle territoriaalvetes.",
+      "Kell 10:50 UTC avaldatud navigatsioonihoiatus kirjeldas 45-kraadist kreeni, vee all olevat kaptenisilda ja meeskonnata triivivat laeva. See ei tuvastanud täielikku uppumist, hoolimata varastest teadetest. AP vahendab Maritime.bg-le viidates päästetud kapteni sõnu, et laeva tabas neli drooni; AP ütleb ka, et põhjuse kohta ametlik kinnitus puudub. Väidet ei ole sõltumatult kontrollitud ning käitajat ega seost BETUL 8-ga ei ole kindlaks tehtud.",
+      "Laevahaldur Stealth Maritime ütleb, et laeva tabati 17. novembri varahommikul Bulgaaria majandusvööndis, kuid ei täpsusta, mis seda tabas, ning ütleb, et laeva seisukord oli tol ajal teadmata. Selle Naftemporiki taasavaldatud avaldus kinnitab, et LPG laaditi Aleksandrias Midiasse toimetamiseks.",
+      "Hilisem Maritime.bg teade tugineb haldusettevõtte nimetamata allikale, kelle sõnul toimus kombineeritud pinna- ja õhudroonirünnak. See jääb kinnitamata kirjelduseks; halduri avalik avaldus ei täpsusta mehhanismi.",
+      "18. novembril ütles Varna kuberner Mario Smurkov bTV-le, et tabamusi oli neli, kuid meremeeste kirjeldused olid vastuolulised ja droonitüübid jäid kinnitamata. Tema sõnul ei olnud laevad selleks ajaks veel uppunud ja tol ajal ei olnud reostust tuvastatud. Neli tabamust ei tõenda nelja sõltumatult kontrollitud drooni.",
+      "Reuters teatas 18. novembril, et kaks nimetamata merejulgeoleku allikat omistasid tabamuse mehitamata süsteemile. Reuters kordas kuberneri kirjeldust neljast tabamusest, tegemata kindlaks droonitüüpi ega käitajat. Reuters kirjeldas laeva uppununa, kuid ei esitanud uuemat vaatlusaega, mis lahendaks vastuolu varasemate seisukorrateadetega.",
+      "Bulgaaria NAVWARN 858/26 annab hilisema vaatluse 19. novembril kell 13:30 UTC: laev oli umbes 45-kraadises kreenis, kaptenisild vee all, ning triivis ilma meeskonna ja juhtimiseta. See ei ole lõpliku seisukorra ega põhjuse kindlaksmääramine.",
+      "NAVWARN 865/26 teatab, et 21. novembril kell 12:38 UTC oli GAS HUSKY endiselt meeskonnata ja triivis tugevas kreenis, kaptenisild vee all. Vaatlus ei tee kindlaks uppumist ega algset mehhanismi.",
+      "Filipiinide ametiasutused olid teatanud, et kaks vigastatud meeskonnaliiget paranevad pärast ravi. The Manila Times teatas Filipiinide rändtöötajate ministeeriumile viidates 19 Filipiinide meeskonnaliikme ärasaatmisest Varna lennujaamas 25. novembril. Kaks gruppi pidid jõudma Manilasse 26. novembril Filipiinide aja järgi; nende saabumist ei olnud selle läbivaatuse ajal sõltumatult kinnitatud. See ei tee kindlaks laeva lõplikku seisukorda ega algset põhjust."
+    ],
+    "basis": "2e8a41b9e0e20de5"
+  },
+  "N179": {
+    "headline": "Egeuse meri · Kreeka registris kuus UAV-d 17. novembri kohta",
+    "description": "GEETHA register loetleb 17. novembri kohta kuus UAV-d, erinevalt esialgsest viiest. Õhuruumi koondarve ei saa omistada ainult droonidele.",
+    "summary": [
+      "GEETHA kuuregister loetleb 17. novembri kohta kuus UAV-d ja neli mehitatud õhusõidukit, koos seitseteist riikliku õhuruumi rikkumist ja kümme Ateena FIR-i rikkumist. See ei jaota neid koondarve õhusõiduki tüübi järgi.",
+      "Varasem bülletään loetles viis UAV-d nelja õhuruumi rikkumise ja seitsme FIR-i rikkumisega. Sellele algsele kirjeldusele viidatakse endiselt, kuid register erineb ega esita selgitust. Kumbki versioon ei tee sõltumatult kindlaks lennutrajektoore; kohtumine hävitajaga ei ole drooni allatulistamine."
+    ],
+    "basis": "87dcaf1584079e1c"
+  },
+  "N180": {
+    "headline": "Farmakonisi · teatati Türgi UAV ülelennust 30. juulil",
+    "description": "Kreeka ametiasutused teatasid UAV ülelennust Farmakonisi kohal 30. juulil. Novembris antud ministri vastus kinnitab ametlikku teavitamist NATO-le, mitte NATO järeldust.",
+    "summary": [
+      "Kreeka teated omistasid 30. juulil 2026 kahele Türgi UAV-le kaheksa riikliku õhuruumi rikkumist, sealhulgas ülelennu Farmakonisi kohal. UAV-dele omistati neli eraldi Ateena FIR-i rikkumist. See on üks päevakirje, mitte kaksteist juhtumit.",
+      "1. novembril dateeritud ja 16. novembril avaldatud ministri vastus tunnistab ülelendu ja ütleb, et Kreeka saatis NATO-le ametliku teate. Vastuse kohaselt oodati tol ajal NATO analüüsi; see ei esita ei NATO järeldust ega tõendeid, et vastus on endiselt ootel. Täpsed lennutrajektoorid ja kavatsus jäävad teadmata."
+    ],
+    "basis": "1ce7f990ce68d0c0"
+  },
+  "N181": {
+    "headline": "Drooni kahjustatud MARIAM M triivis Rumeenia vetesse ja jooksis Vadu juures madalikule",
+    "description": "MARIAM M jooksis 16. novembril pärast Ukrainast triivimist Vadu juures madalikule. Kirjas mereõnnetuse järelmõjuna, koos videoga; uuest rünnakust Rumeenias ei teatatud.",
+    "summary": [
+      "MARIAM M jooksis 16. novembril 2026 Rumeenias Vadu rannikul madalikule. Mahajäetud, Tansaania lipu all sõitev kaubalaev oli triivinud Rumeenia vetesse pärast seda, kui selle ankur 14. novembril purunes.",
+      "Rumeenia ametiasutuste sõnul oli septembrikuine droonitabamus Ukraina territoriaalvetes jätnud laeva sinna ankrusse. See kirje hõlmab laeva hilisemat saabumist ja madalikule jooksmist Rumeenias ning on liigitatud kategooriasse „Häire / muu“. See ei loe uut droonitabamust ega kanna üle septembrikuise rünnaku kannatanuid.",
+      "19. novembril vabastasid puksiirid laeva algselt liivamadalikult. ProTV teatas hiljem, et laev liikus umbes 100 meetrit, enne kui jooksis teisele liivaseljakule, misjärel meeskond ankurdas selle ja peatas päästetööd hämaruse saabudes. Leht sisaldab varasemaid ARSVOM-i reageerimiskaadreid ja linki rannikult filmitud videole.",
+      "Eraldi katses 22. novembril pöörasid Știrile ProTV teatel kolm puksiiri MARIAM M-i avamere suunas, kuid laev jooksis taas osaliselt madalikule ja tööd peatati öö saabudes. Lõplik sildumiskoht ja keskkonnamõju jäävad kontrollimata."
+    ],
+    "basis": "9fa9d16fcb95d141"
+  },
+  "N182": {
+    "headline": "Egeuse meri · Kreeka 18. novembri päevaaruandes üks UAV",
+    "description": "Kreeka andmed omistavad 18. novembril UAV-le ühe riikliku õhuruumi rikkumise ja ühe eraldi FIR-i rikkumise. Üks piirkondlik kirje, sekkumisest ei teatatud.",
+    "summary": [
+      "OnAlerti ja NewsIT taasavaldatud GEETHA andmed omistavad Türgi UAV-le 18. novembril Egeuse mere kirde- ja keskosas ühe riikliku õhuruumi rikkumise ja ühe eraldi Ateena FIR-i rikkumise.",
+      "Samas tabelis olev mehitatud CN-235 on UAV-de arvust välja jäetud. Teatatakse tavapärasest peatamisest ilma sekkumisteta. Need väljaanded taasavaldavad sama ametiasutuse kirjeldust, mitte sõltumatuid trajektoore; täpne marsruut, mudel ja kavatsus jäävad teadmata."
+    ],
+    "basis": "9fecf75febc5fc69"
+  },
+  "N183": {
+    "headline": "Egeuse meri · 14. novembril teatatud Türgi UAV-de tegevus",
+    "description": "Kreeka ametiasutused loetlevad 14. novembri kohta 2 Türgi UAV-d koos eraldi teatatud riikliku õhuruumi ja FIR-i andmetega.",
+    "summary": [
+      "GEETHA novembriregister loetleb 14. novembri kohta Egeuse mere kaguosas 2 UAV-d ja mitte ühtegi mehitatud õhusõidukit.",
+      "Register teatab ühest riikliku õhuruumi rikkumisest ja 2 eraldi Ateena FIR-i rikkumisest. Need on Kreeka ametiasutuste arvud, mitte sõltumatult kontrollitud trajektoorid, unikaalsete sündmuste arv ega rünnakud. Sekkumist ei loetletud."
+    ],
+    "basis": "7a977838703818f5"
+  },
+  "N184": {
+    "headline": "Egeuse meri · 15. novembril teatatud Türgi UAV-de tegevus",
+    "description": "Kreeka ametiasutused loetlevad 15. novembri kohta 3 Türgi UAV-d koos eraldi teatatud riikliku õhuruumi ja FIR-i andmetega.",
+    "summary": [
+      "GEETHA novembriregister loetleb 15. novembri kohta Egeuse mere kesk- ja kaguosas 3 UAV-d ja mitte ühtegi mehitatud õhusõidukit.",
+      "Register teatab 4 riikliku õhuruumi rikkumisest ja 4 eraldi Ateena FIR-i rikkumisest. Need on Kreeka ametiasutuste arvud, mitte sõltumatult kontrollitud trajektoorid, unikaalsete sündmuste arv ega rünnakud. Sekkumist ei loetletud."
+    ],
+    "basis": "9348fe0fa7d38f26"
+  },
+  "N186": {
+    "headline": "Egeuse meri · 20. novembril teatatud Türgi UAV-de tegevus",
+    "description": "Kreeka ametiasutused teatasid 20. novembril kolmest Türgi UAV-st ja kolmest riikliku õhuruumi rikkumisest. Eraldi FIR-i arvud ei ole juhtumite arvud.",
+    "summary": [
+      "OnAlert taasavaldab Kreeka kaitseväe peastaabi andmed Egeuse mere kaguosa kohta 20. novembril: kolm Türgi UAV-d, kolm UAV-de riikliku õhuruumi rikkumist ja kolm eraldi UAV-de Ateena FIR-i rikkumist. Ühe mehitatud ATR-72 arvele läks veel kaks FIR-i rikkumist.",
+      "Need on Kreeka ametiasutustele omistatud päevaarvud, mitte sõltumatud lennutrajektoorid ega kolm eraldi kaardistatud juhtumit. Esmase kuuregistri rida ei kontrollitud sõltumatult."
+    ],
+    "basis": "394520276666d168"
+  },
+  "N188": {
+    "headline": "Ukraina tunnistab SPARTA II ründamist; hilisemat päästeoperatsiooni juhtis Soome",
+    "description": "Ukraina tunnistas 21. novembri droonirünnakut Soome lahel. Kirjeldused erinevad selles, kus laeva tabati. Hiljem juhtis päästeoperatsiooni Soome.",
+    "summary": [
+      "Soome kaitsevägi teatas 21. novembril droonirünnakust Soome lahe idaosas. Sõjavägi paigutas selle rahvusvahelistesse vetesse, samas kui piirivalve ülem Ilja Iljin ütles, et see toimus Venemaa territoriaalvetes. Põlev laev triivis hiljem Soome territoriaalvetesse. See ei tõenda drooni sisenemist Soome.",
+      "Soome rannavalve kinnitas, et meeskond evakueeriti laevale KAPITAN SAKHAROV. Oma 22. novembri briifingul teatas Soome piirivalve ühest vigastatud meeskonnaliikmest. Tulekustutus jätkus pärast nähtavate leekide summutamist; selle briifingu seisuga ei olnud merel naftat täheldatud. See ei olnud lõplik hinnang.",
+      "Soome kaitseväe kommunikatsioonidirektor Aki-Mauri Huhtinen hindas, et tõenäoliselt vastutab Ukraina. Konkreetset käitajat, kavatsust ja lasti ei tehtud sõltumatult kindlaks.",
+      "Eesti välisministeeriumi sõnul triivis kahjustatud laev Eesti ainuõiguslikust majandusvööndist Soome ainuõiguslikku majandusvööndisse ja seejärel Soome territoriaalvetesse. Eesti abistas Soome palvel; Soome piirivalve kinnitas Eesti osalemist tulekustutuses ja jahutamises. Päästekirjeldused ei tee kindlaks tabamuskohta ega drooni marsruuti.",
+      "22. novembril lahkus pukseeritav laev Soome ainuõiguslikust majandusvööndist ja keskkonnareostusele reageerimise piirkonnast, Soome lõpetas oma missiooni ja ajutised piirangud tühistati. Helsingi lõpetas eraldi ennetava naftareostustõrje valmisoleku. Svenska Yle teatas, et Venemaa võttis üle merepäästevastutuse.",
+      "23. novembril ütles Leningradi oblasti kuberner Aleksandr Drozdenko, et meeskond tuli Peterburis kaldale kell 20:00 Moskva aja järgi. Tema sõnul jõudis laev samasse sadamasse pinnal püsides koos lastiga, kuid ta ei nimetanud laeva saabumisaega. Tema teade vigastuste puudumisest on vastuolus Soome piirivalve teatega. Tulekahju ja reostuse lõpptulemused ning lasti olemus jäävad kontrollimata.",
+      "Soome riiklik täitevamet teatas, et hindas laeva kuuluvaks ELi sanktsioonide all olevale ettevõttele ja kehtestas ajutise võõrandamispiirangu pärast seda, kui laev sisenes 21. novembril Soome territoriaalvetesse. Piirangul olid erandid päästmise, ohutuse ja keskkonnakaitse jaoks. Lõplikku õiguslikku otsust ei tehtud kindlaks.",
+      "24. novembril avaldatud Bloombergi intervjuus tunnistas president Volodõmõr Zelenskõi, et rünnaku viis läbi Ukraina, ja väitis, et see toimus Venemaa territoriaalvetes. ERR teatas tabamusest Eesti majandusvööndis; Eesti päästeametnik paigutas laeva tulekahju ja plahvatuse ajal sellesse majandusvööndisse. Soome sõjavägi iseloomustas rünnakupiirkonda rahvusvaheliste vetena. Täpset rünnakukohta ja Zelenskõi väidet pardal olnud relvade kohta ei ole sõltumatult kontrollitud. Soome hilisem päästeoperatsioon on eraldi dokumenteeritud fakt."
+    ],
+    "basis": "672fe12e4e10cab6"
+  },
+  "N189": {
+    "headline": "Eesti andis kahes kirdepoolses maakonnas välja õhuohu hoiatuse ja tühistas selle",
+    "description": "Eesti hoiatas 21. novembril Lääne-Viru ja Ida-Viru maakonna elanikke võimaliku õhuohu eest. Häire ei tõenda droonisissetungi.",
+    "summary": [
+      "Eesti kaitsevägi andis 21. novembril kell 04:42 kohaliku aja järgi Lääne-Viru ja Ida-Viru maakonna jaoks välja võimaliku õhuohu hoiatuse. Sõnum soovitas drooni nähes varjuda. Ohu möödumise teade järgnes kell 06:49 kohaliku aja järgi. See on üks hoiatusepisood, mitte kontrollitud sissetung."
+    ],
+    "basis": "c7c59339eb4400db"
+  },
+  "N190": {
+    "headline": "Tulcea elanikke hoiatati öösel; Rumeenia ei teatanud õhuruumi sisenemisest",
+    "description": "Ametiasutused andsid 22. novembril kell 00:46 kohaliku aja järgi välja RO-Alerti ja saatsid õhku kaks F-16. Kaitseministeerium ei teatanud Rumeenia õhuruumi sisenemisest.",
+    "summary": [
+      "Öine hoiatus saadeti Tulcea põhja- ja idaossa 22. novembril kell 00:46 kohaliku aja järgi. Rumeenia kaitseministeerium teatas ühest õhusihtmärgist väljaspool riigi õhuruumi ja ütles, et õhku tõusid kaks F-16. Ministeerium ei teatanud riikliku õhuruumi sisenemisest. Ministeeriumi sõnul lõppes õhuhäire kell 02:14, samas kui ISU Delta Tulcea andis ajaks 02:16 ning ei teatanud pöördumistest ega probleemidest. Need on kirjeldused ühest hoiatusepisoodist."
+    ],
+    "basis": "bb330334fdeedf43"
+  },
+  "N191": {
+    "headline": "Egeuse meri · 22. novembril teatatud Türgi UAV-de tegevus",
+    "description": "Kreeka ametiasutuste andmed teatasid seitsmest Türgi UAV-st, seitsmest riikliku õhuruumi rikkumisest ja seitsmest eraldi Ateena FIR-i rikkumisest.",
+    "summary": [
+      "Kreeka kaitseväe peastaabile viidanud Kreeka väljaanded teatasid 22. novembril Egeuse mere kirde-, kesk- ja kaguosas seitsmest Türgi UAV-st, seitsmest Kreeka riikliku õhuruumi rikkumisest ja seitsmest Ateena FIR-i rikkumisest. Nad teatasid tavapärasest tuvastamisest ja peatamisest.",
+      "Kolm arvu on ühe päevaaruande eraldi mõõdikud. Need ei tee kindlaks sõltumatuid lennutrajektoore, allatulistamist ega rünnakut. Algset päevaregistri rida ei õnnestunud kontrollida."
+    ],
+    "basis": "0eec6e747256d451"
+  },
+  "N192": {
+    "headline": "Tulcea põhjaosa pärastlõunane RO-Alert lõppes ilma teatatud õhuruumi sisenemiseta",
+    "description": "Tulcea põhjaosas anti 22. novembril kell 15:06 kohaliku aja järgi eraldi pärastlõunane hoiatus. Rumeenia õhuruumi sisenemisest ei teatatud.",
+    "summary": [
+      "Rumeenia kaitseministeerium teatas ühest õhusihtmärgist Ukrainas Vâlcovest põhja pool ja Tulcea põhjaosa RO-Alertist 22. novembril kella 15:06–15:42 kohaliku aja järgi. Rumeenia õhuruumi sisenemisest ei teatatud.",
+      "Ministeeriumi sõnul tõusid vastuseks õhku Hispaania hävitajad ja helikopterid. Peatamisest ministeerium ei teatanud.",
+      "See on elanikkonnakaitse hoiatus, mitte kinnitatud droonisissetung ega rünnak. Sihtmärgi tüüpi ja käitajat ei tehtud kindlaks."
+    ],
+    "basis": "1fce4c3f1e26c381"
+  },
+  "N193": {
+    "headline": "Tulcea põhjaosa õhtune RO-Alert lõppes ilma teatatud õhuruumi sisenemiseta",
+    "description": "Tulcea põhjaosas anti 22. novembril kell 20:01 kohaliku aja järgi eraldi õhtune hoiatus. Rumeenia õhuruumi sisenemisest ei teatatud.",
+    "summary": [
+      "Rumeenia kaitseministeerium teatas õhusihtmärkidest Madusaarest ida pool ja Tulcea põhjaosa RO-Alertist 22. novembril kella 20:01–21:15 kohaliku aja järgi. Rumeenia õhuruumi sisenemisest ei teatatud.",
+      "See on elanikkonnakaitse hoiatus, mitte kinnitatud droonisissetung ega rünnak. Sihtmärgi tüüpi ja käitajat ei tehtud kindlaks."
+    ],
+    "basis": "6ac4b0c86f4adf5a"
+  },
+  "N194": {
+    "headline": "Venemaale omistatud droon sisenes Poola Dorohuski lähedal ja pöördus tagasi Ukrainasse",
+    "description": "Poola teatab drooni piiriületusest Dorohuski lähedal 23. novembril. Allatulistamine lubati, kuid enne drooni naasmist Ukrainasse relvi ei kasutatud.",
+    "summary": [
+      "Poola operatiivjuhatus kinnitas, et 23. novembril sisenes Lääne-Ukraina vastaste rünnakute ajal Poola õhuruumi üks Venemaale omistatud droon. Rzeczpospolita järelartikkel, mis viitab juhatusele ja pressiesindaja Jacek Goryszewskile, paigutab sisenemise Dorohuski lähedale kell 22:50 kohaliku aja järgi; droon tungis umbes 20 km sügavusele ja viibis Poolas 8–9 minutit, enne kui pöördus tagasi Ukrainasse.",
+      "Allatulistamine lubati, kuid relvi ei kasutatud. Radio Lublin ja UNITED24 teatavad, et komandörid jätsid pärast drooni pööret itta tule avamata, võttes arvesse tsiviilisikute ohutust. Goryszewski ütles, et maapealsetel süsteemidel oli luba; Poola lennukid ei tegutsenud ilmastiku tõttu piiri lähedal. Kannatanutest, tabamusest ega rusude äratoomisest ei teatatud.",
+      "Pressiesindaja hindas lennukiiruse põhjal, et droonil oli reaktiivmootor, kuid ei kinnitanud kaameraid ega luurerolli. Mudel, last ja kavandatud sihtmärk jäävad teadmata. Dorohuski tähis on ligikaudne viide, mitte kontrollitud piiriületuse koordinaat. Avalikud hoiatused on osa sellest ühest juhtumist, mis on eraldi 20. novembri raketijuhtumist.",
+      "Valitsuse julgeolekukeskus registreeris varjumisteate uuenduse kell 22:56 CET ja ohu möödumise kell 23:54 CET. Need on hoiatuste, mitte lennu kellaajad."
+    ],
+    "basis": "d2d4fb5622cf3ffd"
+  },
+  "N195": {
+    "headline": "Tausiūnai–Aukštalaukis: piirivalvurid tõid ära Valgevenest sigarette vedanud drooni",
+    "description": "Leedu teatab 27. septembril Tausiūnai–Aukštalaukise lähedal toimunud eraldi droonisissetungist; ära toodi 250 pakki sigarette. Käitaja teadmata.",
+    "summary": [
+      "VSAT teatas 27. septembril, pühapäeva hilisõhtul kohaliku aja järgi Valgevenest saabunud sigarette vedanud droonist. Droon avastati Tausiūnai lähedal ja toodi pärast sundlaskumist ära Aukštalaukise lähedalt. See oli tugevasti kahjustatud.",
+      "Piirivalvurid tõid ära 250 pakki sigarette ja algatasid haldusmenetluse. Käitajat ei tuvastatud. See on piiriülene smugeldamisjuhtum, mitte kindlakstehtud riiklik rünnak."
+    ],
+    "basis": "075b2a5c83a9ffc2"
+  },
+  "N196": {
+    "headline": "Eišiškės: piirivalvurid tõid ära Valgevenest sigarette vedanud drooni",
+    "description": "Leedu teatab 27. septembril Eišiškėse lähedal toimunud eraldi droonisissetungist; ära toodi 100 pakki sigarette. Käitaja teadmata.",
+    "summary": [
+      "VSAT teatas 27. septembril enne keskööd kohaliku aja järgi Valgevenest saabunud sigarette vedanud droonist. Teine patrull peatas drooni Eišiškėse lähedal mitu tundi pärast esimest juhtumit. Droon kukkus linna piirkonnas ja toodi ära.",
+      "Piirivalvurid tõid ära 100 pakki sigarette ja algatasid haldusmenetluse. Käitajat ei tuvastatud. See on piiriülene smugeldamisjuhtum, mitte kindlakstehtud riiklik rünnak."
+    ],
+    "basis": "0184a774707cec6e"
+  },
+  "N197": {
+    "headline": "Egeuse meri: 18. oktoobril teatati 6 õhuruumi rikkumisest",
+    "description": "Veteranos kirjeldas Kreeka sõjaväe teadetele viidates 18. oktoobril 2026 Egeuse mere kesk- ja kaguosas 5 Türgi UAV-d, 6 teatatud riikliku õhuruumi rikkumise ja eraldi 10 Ateena FIR-i liikluseeskirjade rikkumisega.",
+    "summary": [
+      "Veteranos kirjeldas Kreeka sõjaväe teadetele viidates 18. oktoobril 2026 Egeuse mere kesk- ja kaguosas 5 Türgi UAV-d, 6 teatatud riikliku õhuruumi rikkumise ja eraldi 10 Ateena FIR-i liikluseeskirjade rikkumisega.",
+      "Kirjeldus teatab tuvastamisest ja tavapärasest peatamisest, mitte relvade kasutamisest ega allatulistamisest.",
+      "See on üks omistatud päevakirje, mitte eraldi kinnitatud sissetungide arv. Algset Kreeka sõjaväe registrikannet ei saadud ning trajektoorid, täpsed asukohad, kavatsus ja käitaja üksikasjad on kontrollimata. Kreeka–Türgi õhuruumivaidlus on endiselt asjakohane."
+    ],
+    "basis": "b78a96fd3dd18174"
+  },
+  "N198": {
+    "headline": "Egeuse meri: 21. novembril teatati 3 õhuruumi rikkumisest",
+    "description": "Veteranos kirjeldas Kreeka sõjaväe teadetele viidates 21. novembril 2026 Egeuse mere keskosas üht Türgi UAV-d, 3 teatatud riikliku õhuruumi rikkumise ja eraldi 1 Ateena FIR-i liikluseeskirjade rikkumisega.",
+    "summary": [
+      "Veteranos kirjeldas Kreeka sõjaväe teadetele viidates 21. novembril 2026 Egeuse mere keskosas üht Türgi UAV-d, 3 teatatud riikliku õhuruumi rikkumise ja eraldi 1 Ateena FIR-i liikluseeskirjade rikkumisega.",
+      "Kirjeldus teatab tuvastamisest ja tavapärasest peatamisest, mitte relvade kasutamisest ega allatulistamisest.",
+      "See on üks omistatud päevakirje, mitte eraldi kinnitatud sissetungide arv. Algset Kreeka sõjaväe registrikannet ei saadud ning trajektoorid, täpsed asukohad, kavatsus ja käitaja üksikasjad on kontrollimata. Kreeka–Türgi õhuruumivaidlus on endiselt asjakohane."
+    ],
+    "basis": "4035154a2ead9d19"
+  },
+  "N199": {
+    "headline": "Tulcea põhjaosa hommikune RO-Alert tühistati ilma teatatud Rumeenia õhuruumi sisenemiseta",
+    "description": "Rumeenia hoiatas 24. novembri hommikul Tulcea põhjaosa pärast sihtmärgi avastamist Ukraina õhuruumis. Rumeenia õhuruumi sisenemisest ei teatatud.",
+    "summary": [
+      "Rumeenia hoiatas 24. novembri hommikul Tulcea põhjaosa pärast sihtmärgi avastamist Ukraina õhuruumis. Rumeenia õhuruumi sisenemisest ei teatatud.",
+      "Kaitseministeerium teatas hoiatusest kell 11:11 EET, Hispaania lennukite tehtud jälgimisest ja ohu möödumisest kell 11:51 EET.",
+      "Kohalik hädaolukorra kirjeldus tsiteeris telefoniteate saamise aega 10:11. See lahknevus ei viita teisele hommikusele häirele.",
+      "See on ettevaatusabinõuna antud häire, mitte kinnitatud sissetung Rumeeniasse."
+    ],
+    "basis": "0198614f7d30239f"
+  },
+  "N200": {
+    "headline": "Tulcea põhjaosa pärastlõunane RO-Alert tühistati ilma teatatud Rumeenia õhuruumi sisenemiseta",
+    "description": "Rumeenia hoiatas 24. novembril taas Tulcea põhjaosa pärast sihtmärgi avastamist Chilia haru lähedal Ukraina õhuruumis. Rumeenia õhuruumi sisenemisest ei teatatud.",
+    "summary": [
+      "Rumeenia hoiatas 24. novembril taas Tulcea põhjaosa pärast sihtmärgi avastamist Chilia haru lähedal Ukraina õhuruumis. Rumeenia õhuruumi sisenemisest ei teatatud.",
+      "Kaitseministeerium teatas Tulcea põhjaosa kohta hoiatusest kell 14:37 EET, lennukitega jälgimisest ja ohu möödumisest kell 15:40. ProTV teatab, et Galați õhuhäire faas algas kell 14:52 EET pärast teadet tuvastamata droonist, mis suundus maakonna poole. Kohaliku IGSU ohu möödumise teade anti teadete kohaselt kell 15:46 EET.",
+      "Sihtmärgi identiteet, käitaja ja kavandatud sihtmärk on teadmata. Ei ole kindlaks tehtud, kas Tulcea ja Galați hoiatused puudutasid sama sihtmärki. Hommikune hoiatus jääb eraldi.",
+      "See on ettevaatusabinõuna antud häire, mitte kinnitatud sissetung Rumeeniasse."
+    ],
+    "basis": "faba06a8d0d3b2db"
+  },
+  "N201": {
+    "headline": "Žaltūnai–Girdijauskai: Leedu teatab piiriülesest smugeldamisest drooniga",
+    "description": "Leedu piirivalvurid tõid pärast juulikuist ööoperatsiooni Žaltūnai–Girdijauskai lähedal ära 2 õhusõidukit ja 2000 pakki sigarette.",
+    "summary": [
+      "9.–10. juuli 2026 (öösel). Piirivalve sõnul avastas see öösel Valgevenest saabunud droone. Ametnikud tõid pärast päevavalges jätkunud otsinguid Žaltūnai ja Girdijauskai lähedalt ära kaks lastidrooni.",
+      "Ametnikud tõid 2 õhusõidukist ära 2000 pakki Valgevene maksumarkidega sigarette. Algatati kriminaaluurimine.",
+      "Käitaja ning täpne piiriületuskoht ja trajektoor on teadmata. Operatsioon on registreeritud piiriülese smugeldamisena, mitte sõjalise rünnakuna."
+    ],
+    "basis": "a335379fd80fd841"
+  },
+  "N202": {
+    "headline": "Šiulgiai–Šumskas: Leedu teatab piiriülesest smugeldamisest drooniga",
+    "description": "Leedu piirivalvurid tõid pärast juulikuist ööoperatsiooni Šiulgiai–Šumskase lähedal ära ühe õhusõiduki ja 340 pakki sigarette.",
+    "summary": [
+      "17.–18. juuli 2026 (öösel). Piirivalve teatas, et Leetu sisenes üks lastidroon. Ametnikud kuulsid drooni Šiulgiai lähedal, kuid ei näinud seda. Pärast sekkumist droon kukkus ja kahjustatud õhusõiduk toodi päevavalges ära Šumskase lähedalt.",
+      "Ametnikud tõid ühest õhusõidukist ära 340 pakki Valgevene maksumarkidega sigarette. Algatati haldusmenetlus.",
+      "Käitaja ning täpne piiriületuskoht ja trajektoor on teadmata. Operatsioon on registreeritud piiriülese smugeldamisena, mitte sõjalise rünnakuna."
+    ],
+    "basis": "0eba63dd63dc7160"
+  },
+  "N203": {
+    "headline": "Norviliškės–Daulėnai: Leedu teatab piiriülesest smugeldamisest drooniga",
+    "description": "Leedu piirivalvurid tõid pärast juulikuist ööoperatsiooni Norviliškėse–Daulėnai lähedal ära 3 õhusõidukit ja 3000 pakki sigarette.",
+    "summary": [
+      "29.–30. juuli 2026 (öösel). Piirivalve teatas Valgevenest Leetu sisenenud lastidroonidest. Ühe ööoperatsiooni käigus toodi kaks õhusõidukit ära Norviliškėse lähedalt ja üks Daulėnai lähedalt; viimane toodi ära päevavalges.",
+      "Ametnikud tõid 3 õhusõidukist ära 3000 pakki Valgevene maksumarkidega sigarette. Algatati kriminaaluurimine.",
+      "Käitaja ning täpne piiriületuskoht ja trajektoor on teadmata. Operatsioon on registreeritud piiriülese smugeldamisena, mitte sõjalise rünnakuna."
+    ],
+    "basis": "20d845bfb0acadf0"
+  },
+  "N204": {
+    "headline": "Kiemėnai: Leedu piirivalvurid tõid ära smugeldamisdrooni",
+    "description": "Leedu piirivalvurid tõid pärast ööoperatsiooni Kiemėnai lähedal ära drooni ja 750 sigaretipakki.",
+    "summary": [
+      "16.–17. aprill 2026. VSAT-i sõnul avastas see Valgevenest Leetu lendava drooni. Droon kukkus pärast piirivalvurite sekkumist ja toodi ära Kiemėnai lähedalt.",
+      "Ametnikud tõid ära 750 pakki Valgevene maksumarkidega sigarette ja algatasid haldusmenetluse.",
+      "Käitajat, riiklikku toetust ega täpset lennutrajektoori ei tehtud kindlaks. See on piirismugeldamise kirje, mitte sõjaline rünnak."
+    ],
+    "basis": "1738bd94e1620fe1"
+  },
+  "N205": {
+    "headline": "Prūdelis: Leedu piirivalvurid tõid ära smugeldamisdrooni",
+    "description": "Leedu piirivalvurid tõid pärast ööoperatsiooni Prūdelise lähedal ära drooni ja 1000 sigaretipakki.",
+    "summary": [
+      "8.–9. juuli 2026. VSAT teatas Valgevene piirilt sisemaale lendavast droonist; täpset piiriületuskohta ega trajektoori see ei avaldanud. Droon kukkus pärast piirivalvurite sekkumist ja toodi ära Prūdelise lähedalt.",
+      "Ametnikud tõid ära 1000 pakki Valgevene maksumarkidega sigarette ja algatasid haldusmenetluse.",
+      "Käitajat, riiklikku toetust ega täpset lennutrajektoori ei tehtud kindlaks. See on piirismugeldamise kirje, mitte sõjaline rünnak."
+    ],
+    "basis": "1c7fd61759b9aa98"
+  },
+  "N206": {
+    "headline": "Egeuse meri · 25. novembril teatatud Türgi UAV-de tegevus",
+    "description": "Kreeka ametiasutuste andmed loetlevad kolm Türgi UAV-d, neli riikliku õhuruumi rikkumist ja kolm eraldi Ateena FIR-i rikkumist.",
+    "summary": [
+      "Kreeka kaitseväe peastaap (GEETHA) loetles OnAlerti ja Veteranose vahendusel 25. novembri kohta kolm Türgi UAV-d, neli teatatud Kreeka riikliku õhuruumi rikkumist ja kolm eraldi Ateena FIR-i liikluseeskirjade rikkumist. Aruanne hõlmas Egeuse mere kirde-, kesk- ja kaguosa. Teatati tavapärasest tuvastamisest ja peatamisest; sekkumist ei loetletud.",
+      "Arvud on ühe sõjaväelise päevabülletääni eraldi mõõdikud, mitte kontrollitud üksikud lennutrajektoorid ega rünnakute arv. Mõlemad teated viitavad samale bülletäänile; ametlik kuutabel ei olnud läbivaatuse ajal otse kättesaadav."
+    ],
+    "basis": "0e4f136f9c21f1b4"
+  },
+  "N207": {
+    "headline": "Kuodžiai: Leedu teatab neljast smugeldamisdroonist ühes operatsioonis",
+    "description": "Leedu piirivalvurid tõid pärast 30. juuli operatsiooni Kuodžiai lähedal ära neli drooni ja 4000 pakki sigarette.",
+    "summary": [
+      "30. juuli 2026, õhtu. Leedu riiklik piirivalveteenistus (VSAT) teatas, et neli lastidrooni sisenesid Valgevenest ning need toodi alla ja ära ühes operatsioonis Kuodžiai lähedal Lazdijai rajoonis.",
+      "Äratoodud last ulatus kokku 4000 pakini Valgevene maksumarkidega sigarette. VSAT-i sõnul algatati kriminaaluurimine. See on üks dokumenteeritud operatsioon, mitte neli eraldi juhtumikirjet.",
+      "Täpset lennutrajektoori, käitaja isikut ega riiklikku toetust ei tehtud kindlaks. See on kriminaalne smugeldamisjuhtum, mitte sõjaline rünnak."
+    ],
+    "basis": "f3ab912199253de4"
+  },
+  "N208": {
+    "headline": "Leedu piirivalvurid tõid Jurgionyse lähedal ära smugeldamisdrooni ja 500 sigaretipakki",
+    "description": "Leedu piirivalvurid teatasid drooni sisenemisest Valgevenest Jurgionyse lähedal 24. novembril enne keskööd ja tõid ära 500 pakki sigarette.",
+    "summary": [
+      "Leedu piirivalvurid teatasid drooni sisenemisest Valgevenest Jurgionyse lähedal 24. novembril enne keskööd ja tõid ära 500 pakki sigarette.",
+      "26. novembri pressiteate kohaselt sai õhusõiduk maaga kokkupõrkel kahjustada. See oli pressiteate seisuga 74. sellesse jõustamiskategooriasse kuuluv peatatud õhusõiduk 2026. aastal, mitte 74. kirje selles registris."
+    ],
+    "basis": "67a42221ac53e32e"
+  },
+  "N209": {
+    "headline": "Leedu piirivalvurid teatavad drooni sisenemisest Purvėnai lähedal ja äratoomisest Geismantai lähedal",
+    "description": "Leedu piirivalveteenistus teatas drooni sisenemisest 24. jaanuaril ja tõi selle Geismantai lähedalt ära koos 1000 sigaretipakiga.",
+    "summary": [
+      "Leedu piirivalveteenistus teatas drooni sisenemisest 24. jaanuaril ja tõi selle Geismantai lähedalt ära koos 1000 sigaretipakiga.",
+      "See erineb eraldi teatatud 27. jaanuari Purvėnai juhtumist."
+    ],
+    "basis": "da169e0f9823eba4"
+  },
+  "N210": {
+    "headline": "Leedu prokurörid dokumenteerivad mais toimunud droonismugeldamise operatsiooni Švenčionyse rajoonis",
+    "description": "Leedu prokuröride sõnul tõid droonid 27. mai öösel üle Valgevene piiri 35 500 sigaretipakki. Õhusõidukite arv on teadmata.",
+    "summary": [
+      "Leedu prokuröride sõnul tõid droonid 27. mai öösel üle Valgevene piiri 35 500 sigaretipakki. Õhusõidukite arv on teadmata.",
+      "Piirivalvurid tõid sigaretid ära pärast seda, kui neid oli maismaal edasi toimetatud. Drooni peatamisest ega äratoomisest ei teatatud. Kohtumäärus ei olnud 20. novembri teadaande ajal jõustunud."
+    ],
+    "basis": "55b583cfae9bda20"
+  },
+  "N211": {
+    "headline": "Leedu piirivalvurid teatavad nelja smugeldamisdrooni allatoomisest Jaskonyse lähedal",
+    "description": "Leedu piirivalvurid teatasid nelja sissetuleva drooni allatoomisest ühes operatsioonis Jaskonyse lähedal ning tõid ära õhusõidukid ja 4998 sigaretipakki.",
+    "summary": [
+      "Leedu piirivalvurid teatasid nelja sissetuleva drooni allatoomisest ühes operatsioonis Jaskonyse lähedal ning tõid ära õhusõidukid ja 4998 sigaretipakki.",
+      "7. juuli pressiteade viitab reede ööle ning äratoomine jätkus päevavalges. See ei täpsusta kesköö piiri. See ei ole hilisem Kuodžiai operatsioon."
+    ],
+    "basis": "bdc463b805195983"
+  },
+  "N212": {
+    "headline": "Tulcea põhjaosa õhtune hoiatus lõppes ilma teatatud Rumeenia õhuruumi sisenemiseta",
+    "description": "Rumeenia kaitseministeerium teatas tuvastamata õhusihtmärgi avastamisest radariga Ukrainas Vâlcovest ida pool. Tulcea põhjaosas anti hoiatus. Rumeenia õhuruumi sisenemisest ei teatatud.",
+    "summary": [
+      "Rumeenia kaitseministeerium teatas tuvastamata õhusihtmärgi avastamisest radariga Ukrainas Vâlcovest ida pool. Tulcea põhjaosas anti hoiatus. Rumeenia õhuruumi sisenemisest ei teatatud.",
+      "Kell 18:52 EET antud RO-Alert lõppes kell 19:11. Juba õppelennul olnud Hispaania lennukid suunati jälgima.",
+      "See on tsiviilhoiatus, mitte kinnitatud droonisissetung."
+    ],
+    "basis": "6379cdfa337a493b"
+  },
+  "N213": {
+    "headline": "Kreeka päevaaruanne loetleb 26. novembril Egeuse merel kuus Türgi UAV-d",
+    "description": "Veteranos teatas kuuest Türgi UAV-st, üheksast teatatud Kreeka riikliku õhuruumi rikkumisest ja üheksast eraldi Ateena FIR-i liikluseeskirjade rikkumisest.",
+    "summary": [
+      "Veteranos teatas kuuest Türgi UAV-st, üheksast teatatud Kreeka riikliku õhuruumi rikkumisest ja üheksast eraldi Ateena FIR-i liikluseeskirjade rikkumisest.",
+      "Tabel hõlmab Egeuse mere kirde-, kesk- ja kaguosa ning ei loetle relvastatud õhusõidukeid ega sekkumisi.",
+      "Arvud on ühe avaldatud päevaaruande eraldi mõõdikud, mitte kontrollitud lennutrajektoorid ega rünnakute arv."
+    ],
+    "basis": "4cb6890e53c1739e"
+  },
+  "N214": {
+    "headline": "Läti sõjavägi kinnitab lühiajalist drooni sisenemist idapiiri lähedal",
+    "description": "Läti rahvuslike relvajõudude sõnul viibis üks mehitamata õhusõiduk 27. novembri öösel lühiajaliselt Läti territooriumil. Teist sisenemist Balvis ei kinnitatud.",
+    "summary": [
+      "Läti rahvuslike relvajõudude sõnul viibis üks mehitamata õhusõiduk 27. novembri öösel lühiajaliselt Läti territooriumil. Teist sisenemist Balvis ei kinnitatud.",
+      "Ludza oranž hoiatus kestis kella 02:30–02:55 EET. Balvi kollane hoiatus algas kell 02:55 ja lõppes umbes kell 03:30. NATO hävitajad aktiveeriti ning Läti püüddroon saadeti välja ja naasis.",
+      "Sõjavägi ei tuvastanud drooni käitajat, päritolu ega sihtmärki ning allatulistamisest ei teatanud."
+    ],
+    "basis": "669b6dce3baee574"
   }
 }

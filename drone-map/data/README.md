@@ -65,15 +65,27 @@ offshore incidents.
    remain within the calendar year of that cutoff. For new research snapshots,
    add a new Markdown file at the repository root and register its filename/hash;
    do not replace or rehash an old snapshot to accommodate an accidental edit.
-6. From the repository root, run:
+6. Set `casualties: true` on any new or updated record whose sources report deaths,
+   injuries or missing people. For a ship incident off Romania or Bulgaria, use one
+   of the ship record types listed under the schema below so the Black Sea
+   escalation includes it.
+7. Write reviewed copy for new records in `pages.json` (see below);
+   `python3 drone-map/scripts/pages.py` lists the records still on automatic copy.
+8. Translate every new or changed record into all 23 other languages, following
+   [translations/README.md](translations/README.md). Visitors who read the map in
+   another language see English cards for any record left untranslated.
+   `python3 drone-map/scripts/translations.py status` must show `0 stale, 0 missing`
+   for every language before you commit.
+9. From the repository root, run:
 
    ```sh
    python3 drone-map/scripts/build-data.py
    python3 -m unittest discover -s drone-map/tests -v
    python3 drone-map/scripts/build-data.py --check
+   python3 drone-map/scripts/translations.py check
    ```
 
-7. Review and commit the JSON changes (including new `page-urls.json` entries) with the generated `drone-map/dist/events.js` and
+10. Review and commit the JSON changes (including new `page-urls.json` entries) with the generated `drone-map/dist/events.js` and
    `drone-map/dist/events/`, `sitemap.xml` and `robots.txt`. Also commit the refreshed
    summaries, copied assets and event pages in `drone-map-revamp/`, which is the
    production folder served by GitHub Pages. The same build command refreshes both.
@@ -157,10 +169,27 @@ A fighter launch alone does not establish a shoot-down. Confidence and
 attribution remain source-backed prose; the database does not infer them.
 
 Optional event fields: `endDate`, `recordType`, `positionNote`, `reviewedOn`, `exclusionReason`,
-`sourceFile`, and the retained research fields `importAction`, `normalizedLocality`,
+`casualties`, `sourceFile`, and the retained research fields `importAction`, `normalizedLocality`,
 `matchKey`. Research match keys must be unique when present. `reviewedOn` is an
 editorial date and can be later than the event cutoff. `sourceFile`, when present,
 must name a registered research snapshot.
+
+`casualties: true` marks a record whose cited sources report deaths, injuries or
+missing people. It shows the "Casualties / Missing" badge on the map's cards and in
+the Black Sea vessel list. Leave it out otherwise; `false` is rejected. Remove it if a
+correction removes every casualty. It is a display flag: adding or removing it does
+not invalidate reviewed copy or translations, so give the figures themselves in
+`impact`.
+
+Ship incidents off Romania and Bulgaria join the map's Black Sea escalation (banner,
+filter chip, preset and replay) automatically when `countries` starts with
+`Romania` or `Bulgaria` and `recordType` is one of `reported_offshore_drone_strike`,
+`reported_maritime_drone_strike`, `suspected_maritime_drone_attack`,
+`unconfirmed_offshore_drone_strike` or `drone_damaged_vessel_grounding`. Use one of
+these for a new ship incident rather than inventing a new type, or the escalation's
+dates and counts will miss it. Only the explicit qualifier `(territorial waters)` in
+`countries` labels a record as inside territorial waters. The list lives in
+`drone-map-revamp/replay-data.js`.
 
 Optional numeric fields `reported_UAVs`, `reported_airspace_violations` and
 `reported_FIR_infractions` retain source-reported counts within one event record.

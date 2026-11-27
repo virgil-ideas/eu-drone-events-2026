@@ -31,6 +31,30 @@ Lazy language files use the same manifest, so a previously cached page can still
 load new daily data and discard outdated translations. `--check` rejects stale
 manifests or HTML asset URLs. Commit these generated changes with the data update.
 
+## Filters, date range, press and about
+
+- **Outcome toggle.** Above the feed, *Strikes & crashes* shows strikes,
+  explosions, shoot-downs, armed engagements and crashes; *Flights, alerts &
+  finds* shows the rest. Together they cover every record exactly once. The
+  *Types* chips below toggle single outcomes (and ship incidents), and the
+  *Countries* chips toggle countries. Several chips can be on at once. Each count
+  shows what that chip would add given the other filters.
+- **Date range.** In the timeline studio, drag either handle on the running-total
+  chart to change the range, or drag the shaded window to move it. Arrow keys,
+  Page Up/Down, Home and End work on a focused handle. The month presets follow
+  the coverage cutoff (the current month so far and the previous month).
+- **Press.** The *Press* button explains that everything is CC BY 4.0 and gives a
+  copyable credit line. It also offers a clean screenshot mode (controls hidden,
+  credit badge shown, Esc to leave), the PNG snapshot, the summary card, the
+  video recorder and the CSV.
+- **About** opens with the project's authors and licence.
+- **Top bar.** On desktop, `fitTopbar()` in `app.js` hides lower-priority
+  details step by step until the bar fits one row in the current language
+  (`data-compact` levels in `styles.css`). It stacks the stats under the brand
+  only if even the most compact row is too wide.
+- **Casualty badges** come from `casualties: true` on records in
+  `drone-map/data/events.json`, not from a list in the interface.
+
 ## Social preview image
 
 The image shown when someone shares the site is drawn by `og/card.html` from
