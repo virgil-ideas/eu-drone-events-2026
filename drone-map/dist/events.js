@@ -43,6 +43,49 @@ window.DRONE_DATA = {
       "page": "events/2026-01-18-possible-aerial-fragments-tanasoaia-romania/"
     },
     {
+      "id": "N209",
+      "title": "Purvėnai–Geismantai · cross-border smuggling drone",
+      "recordClass": "event",
+      "recordType": "cross_border_seizure",
+      "startDate": "2026-01-24",
+      "dateLabel": "24 January 2026 (evening)",
+      "dateBasis": "The 26 January VSAT notice describes Saturday evening, 24 January local time.",
+      "countries": "Lithuania",
+      "location": "Purvėnai and Geismantai, Šalčininkai district, Lithuania",
+      "status": "Officially reported cross-border smuggling-drone operation",
+      "categories": "Reported border entry; interception; recovery and cargo seizure",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Šalčininkai district — broad regional reference"
+        }
+      ],
+      "positionNote": "District reference only, not an entry, interception or recovery point.",
+      "vehicle": "One homemade quadcopter.",
+      "attribution": "Lithuanian authorities describe criminal cigarette smuggling; no state sponsorship reported.",
+      "route": "Authorities reported entry from Belarus into Lithuania. Exact tracks are not established.",
+      "circumstances": "VSAT detected one inbound drone near Purvėnai. It came down near Geismantai, where guards recovered it and the cargo.",
+      "payload": "1,000 packs of Belarus-stamped cigarettes.",
+      "impact": "No third-party harm reported in the source.",
+      "response": "Border guards recovered the drone and cigarettes; administrative proceedings opened.",
+      "uncertainty": "Exact track and operator details not established; this is not evidence of a military attack.",
+      "deduplication": "Separate from the 27 January Purvėnai occurrence N004, despite similar area and quantities.",
+      "provenance": "Full Lithuanian authority statement reviewed on 27 November.",
+      "classificationNote": "Border-enforcement interception and recovery. The account does not establish a kinetic shoot-down.",
+      "sourceReferences": "[U491][U491]",
+      "sources": [
+        "U491"
+      ],
+      "page": "events/2026-01-24-purvenai-geismantai-smuggling-drone-lithuania/"
+    },
+    {
       "id": "N004",
       "importAction": "ADD_EVENT",
       "recordType": "cross_border_seizure",
@@ -1749,6 +1792,48 @@ window.DRONE_DATA = {
       "page": "events/2026-05-23-smuggling-drone-forced-down-salcininkai-lithuania/"
     },
     {
+      "id": "N210",
+      "title": "Švenčionys district · drone-smuggling operation",
+      "recordClass": "event",
+      "recordType": "cross_border_smuggling_operation",
+      "startDate": "2026-05-27",
+      "dateLabel": "27 May 2026 (night)",
+      "dateBasis": "Prosecutors’ 20 November announcement dates the operation to the night of 27 May, without exact times.",
+      "countries": "Lithuania",
+      "location": "Švenčionys district, Lithuania; exact drop site not published",
+      "status": "Cross-border drone smuggling documented by Lithuanian prosecutors",
+      "categories": "Reported cross-border flights; cargo seizure after ground transport",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 55.13,
+          "lng": 26.16,
+          "precision": "region",
+          "label": "Švenčionys district — broad regional reference"
+        }
+      ],
+      "positionNote": "District reference only; exact drop and crossing locations are not published.",
+      "vehicle": "Cargo drones; count and models not reported.",
+      "attribution": "Lithuanian authorities describe criminal cigarette smuggling; no state sponsorship reported.",
+      "route": "Authorities reported entry from Belarus into Lithuania. Exact tracks are not established.",
+      "circumstances": "Prosecutors said drones brought 35,500 cigarette packs into Lithuania from Belarus in one May operation.",
+      "payload": "35,500 packs of Belarus-stamped cigarettes.",
+      "impact": "No third-party harm reported in the source.",
+      "response": "Officers recovered the cargo after ground transport. A court order found two people guilty and imposed fines, but had not entered into force as of the 20 November announcement.",
+      "uncertainty": "Exact track and operator details not established; this is not evidence of a military attack.",
+      "deduplication": "One documented operation; not a count of flights or aircraft and not a separate November occurrence.",
+      "provenance": "Full Lithuanian authority statement reviewed on 27 November.",
+      "classificationNote": "Criminal cross-border smuggling; no drone interception or recovery reported.",
+      "sourceReferences": "[U492][U492]",
+      "sources": [
+        "U492"
+      ],
+      "page": "events/2026-05-27-svencionys-cross-border-drone-smuggling-lithuania/"
+    },
+    {
       "id": "E028",
       "dateLabel": "2026-05-29",
       "dateBasis": "Overnight 29 May; EEST; exact impact time not established here",
@@ -2021,6 +2106,49 @@ window.DRONE_DATA = {
       "recordClass": "event",
       "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
       "page": "events/2026-06-30-drone-wreckage-destroyed-rachelu-romania/"
+    },
+    {
+      "id": "N211",
+      "title": "Jaskonys · four cross-border smuggling drones",
+      "recordClass": "event",
+      "recordType": "cross_border_seizure",
+      "startDate": "2026-07-03",
+      "dateLabel": "3 July 2026 (Friday night; exact midnight boundary unspecified)",
+      "dateBasis": "VSAT’s 7 July release describes Friday night (3 July reference date). It does not specify the midnight boundary for detection; recoveries continued into daylight.",
+      "countries": "Lithuania",
+      "location": "Jaskonys area, Druskininkai municipality, Lithuania",
+      "status": "Officially reported cross-border smuggling-drone operation",
+      "categories": "Reported border entry; interception; recovery and cargo seizure",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.02,
+          "lng": 23.97,
+          "precision": "region",
+          "label": "Druskininkai municipality — broad regional reference"
+        }
+      ],
+      "positionNote": "District reference only, not an entry, interception or recovery point.",
+      "vehicle": "Four cargo drones; models not established.",
+      "attribution": "Lithuanian authorities describe criminal cigarette smuggling; no state sponsorship reported.",
+      "route": "Authorities reported entry from Belarus into Lithuania. Exact tracks are not established.",
+      "circumstances": "VSAT reported four drones entering Lithuania from Belarus and being brought down near Jaskonys in one operation.",
+      "payload": "4,998 packs of Belarus-stamped cigarettes in total.",
+      "impact": "No third-party harm reported in the source.",
+      "response": "Guards recovered four drones and 4,998 cigarette packs; authorities investigated.",
+      "uncertainty": "Exact track and operator details not established; this is not evidence of a military attack.",
+      "deduplication": "One incident with four aircraft, separate from 30 July Kuodžiai (N207).",
+      "provenance": "Full Lithuanian authority statement reviewed on 27 November.",
+      "classificationNote": "Border-enforcement interception and recovery. The account does not establish a kinetic shoot-down.",
+      "sourceReferences": "[U493][U493]",
+      "sources": [
+        "U493"
+      ],
+      "page": "events/2026-07-03-jaskonys-four-smuggling-drones-lithuania/"
     },
     {
       "id": "N205",
@@ -11183,19 +11311,20 @@ window.DRONE_DATA = {
       "circumstances": "Poland’s military confirmed a brief breach during Russian strikes on western Ukraine. No strike on Poland was established.",
       "payload": "Not established.",
       "impact": "No impact, debris recovery, damage or casualties reported in the reviewed accounts.",
-      "response": "Military radar continuously tracked the drone and the operational commander authorized a shoot-down. Radio Lublin and UNITED24 report that fire was withheld after it turned east, with civilian safety considered. Goryszewski told Rzeczpospolita that authorization concerned ground systems, Polish aircraft were not operating near the border because of weather, and the drone left before weapons were used. Readiness, shelter and all-clear notices belong to the same event.",
+      "response": "Military radar continuously tracked the drone and the operational commander authorized a shoot-down. Radio Lublin and UNITED24 report that fire was withheld after it turned east, with civilian safety considered. Goryszewski told Rzeczpospolita that authorization concerned ground systems, Polish aircraft were not operating near the border because of weather, and the drone left before weapons were used. Readiness, shelter and all-clear notices belong to the same event. The Government Security Centre published the shelter update at 22:56 CET and the all-clear at 23:54 CET.",
       "uncertainty": "Model, payload, intended target and reason for entry remain unestablished. The reported reconnaissance role and cameras were not confirmed by the named military spokesperson; Geran-5 is an unconfirmed media suggestion. The published route and duration are reported military information, not independently reviewed radar data. The exact exit time is unknown.",
       "deduplication": "One flight and its related warnings. Distinct from the 20 November Polish breach and the missile-debris correction pages N185 and N187.",
       "provenance": "Original Polish Operational Command, Radio Lublin/IAR and Reuters accounts retained. Updated 24 November with UNITED24’s follow-up, the expanded Radio Lublin report and Rzeczpospolita’s named-spokesperson account. Same occurrence and permanent URL; approximate anchor refined to Dorohusk.",
       "classificationNote": "Confirmed airspace incursion. Not a confirmed attack, weapons engagement, crash or shoot-down.",
-      "sourceReferences": "[U438][U438]; [U439][U439]; [U440][U440]; [U441][U441]; [U454][U454]; [U455][U455]",
+      "sourceReferences": "[U438][U438]; [U439][U439]; [U440][U440]; [U441][U441]; [U454][U454]; [U455][U455]; [U498][U498]",
       "sources": [
         "U438",
         "U439",
         "U440",
         "U441",
         "U454",
-        "U455"
+        "U455",
+        "U498"
       ],
       "page": "events/2026-11-23-lubelskie-confirmed-drone-incursion-poland/"
     },
@@ -11249,7 +11378,7 @@ window.DRONE_DATA = {
       "recordType": "selected_civil_protection_alert",
       "startDate": "2026-11-24",
       "dateLabel": "24 November 2026",
-      "dateBasis": "24 November 14:37–15:40 EET per Defence Ministry; separate local Galați all-clear reported at 15:46 EET.",
+      "dateBasis": "24 November EET: 14:37–15:40 per Defence Ministry for northern Tulcea; Galați alert phase reported from 14:52, all-clear 15:46.",
       "countries": "Romania",
       "location": "Northern Tulcea County and reported Galați warning area; target reported in Ukrainian airspace.",
       "status": "Selected RO-Alert; no entry into Romanian airspace reported",
@@ -11273,17 +11402,61 @@ window.DRONE_DATA = {
       "circumstances": "Romania warned northern Tulcea again on 24 November after a target was detected near the Chilia branch in Ukrainian airspace. No Romanian airspace entry was reported.",
       "payload": "Not established.",
       "impact": "No entry into Romanian airspace reported.",
-      "response": "The Defence Ministry reported a 14:37 EET alert, Romanian aircraft monitoring and a 15:40 EET all-clear. A Galați outlet reported a local all-clear at 15:46 EET, citing emergency services.",
-      "uncertainty": "Target identity, operator and intended target not established. No evidence establishes an additional target or links the morning and afternoon detections.",
+      "response": "The Defence Ministry reported a 14:37 EET warning, aircraft monitoring and a 15:40 all-clear for northern Tulcea. ProTV reports Galați’s air-alert phase began at 14:52 EET after a report of an unidentified drone heading toward the county. The local IGSU all-clear was reported at 15:46 EET.",
+      "uncertainty": "Target identity, operator and intended target are unknown. It is not established whether the Tulcea and Galați warnings concerned the same target. The morning warning remains separate.",
       "deduplication": "One precautionary warning episode and its all-clear, separate from the other 24 November episode.",
       "provenance": "Full statements as quoted in Romanian reporting read on 25 November.",
       "classificationNote": "Selected alert only, not an established territorial drone incursion or attack.",
-      "sourceReferences": "[U461][U461]; [U462][U462]",
+      "sourceReferences": "[U461][U461]; [U462][U462]; [U497][U497]",
       "sources": [
         "U461",
-        "U462"
+        "U462",
+        "U497"
       ],
       "page": "events/2026-11-24-northern-tulcea-afternoon-ro-alert-romania/"
+    },
+    {
+      "id": "N208",
+      "title": "Jurgionys · cross-border smuggling drone",
+      "recordClass": "event",
+      "recordType": "cross_border_seizure",
+      "startDate": "2026-11-24",
+      "dateLabel": "24 November 2026 (before midnight)",
+      "dateBasis": "VSAT’s 26 November article places detection on Tuesday before midnight, 24 November EET. Exact recovery time not reported.",
+      "countries": "Lithuania",
+      "location": "Jurgionys area, Šalčininkai district, Lithuania",
+      "status": "Officially reported cross-border smuggling-drone operation",
+      "categories": "Reported border entry; interception; recovery and cargo seizure",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Šalčininkai district — broad regional reference"
+        }
+      ],
+      "positionNote": "District reference only, not an entry, interception or recovery point.",
+      "vehicle": "One cargo drone; model not established.",
+      "attribution": "Lithuanian authorities describe criminal cigarette smuggling; no state sponsorship reported.",
+      "route": "Authorities reported entry from Belarus into Lithuania. Exact tracks are not established.",
+      "circumstances": "VSAT reported that a cargo drone entered Lithuania from the Belarus side near Jurgionys before midnight on 24 November.",
+      "payload": "500 packs of Belarus-stamped cigarettes.",
+      "impact": "No third-party harm reported in the source.",
+      "response": "Border guards found the damaged aircraft and its cargo after bringing it down. Administrative proceedings were opened.",
+      "uncertainty": "Exact track and operator details not established; this is not evidence of a military attack.",
+      "deduplication": "One entry and recovery; 74 is VSAT’s year-to-date aircraft tally in this category, not an event count.",
+      "provenance": "Full Lithuanian authority statement reviewed on 27 November.",
+      "classificationNote": "Border-enforcement interception and recovery. The account does not establish a kinetic shoot-down.",
+      "sourceReferences": "[U490][U490]",
+      "sources": [
+        "U490"
+      ],
+      "page": "events/2026-11-24-jurgionys-cross-border-smuggling-drone-lithuania/"
     },
     {
       "id": "N206",
@@ -11330,6 +11503,136 @@ window.DRONE_DATA = {
         "U485"
       ],
       "page": "events/2026-11-25-aegean-reported-turkish-uav-activity-greece/"
+    },
+    {
+      "id": "N212",
+      "title": "Northern Tulcea · 26 November evening RO-Alert",
+      "recordClass": "event",
+      "recordType": "selected_civil_protection_alert",
+      "startDate": "2026-11-26",
+      "dateLabel": "26 November 2026",
+      "dateBasis": "RO-Alert at 18:52 EET, all-clear 19:11 EET; notice times, not aircraft detection or crossing times.",
+      "countries": "Romania",
+      "location": "Northern Tulcea County warning area; radar target reported east of Vâlcove, Ukraine.",
+      "status": "Selected RO-Alert; no entry into Romanian airspace reported",
+      "categories": "Selected civil-protection alert",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.17,
+          "lng": 29.15,
+          "precision": "region",
+          "label": "Romania — approximate warning area"
+        }
+      ],
+      "positionNote": "Regional reference for the warning area, not an aircraft position or track.",
+      "vehicle": "Unidentified radar target. Drone identity not established.",
+      "attribution": "Operator and intended target not established.",
+      "route": "No verified drone track across the national boundary.",
+      "circumstances": "Romania’s Defence Ministry reported radar detection of an unidentified aerial target east of Vâlcove, Ukraine. Northern Tulcea received a warning. No entry into Romanian airspace was reported.",
+      "payload": "Not established.",
+      "impact": "No entry into Romanian airspace reported.",
+      "response": "The 18:52 EET RO-Alert ended at 19:11. Spanish aircraft already airborne on training were redirected to monitor.",
+      "uncertainty": "Target type, origin, operator and intended target are unknown. No entry into Romanian airspace was reported.",
+      "deduplication": "One warning and all-clear, distinct from the 24 November episodes.",
+      "provenance": "Full ministry and emergency-service statements as reproduced by News.ro read on 27 November.",
+      "classificationNote": "Selected alert only, not an established territorial drone incursion or attack.",
+      "sourceReferences": "[U494][U494]",
+      "sources": [
+        "U494"
+      ],
+      "page": "events/2026-11-26-northern-tulcea-evening-ro-alert-romania/"
+    },
+    {
+      "id": "N213",
+      "title": "Aegean · 26 November reported Turkish UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-11-26",
+      "dateLabel": "26 November 2026",
+      "dateBasis": "26 November Greek local date in the Veteranos daily report.",
+      "countries": "Greece",
+      "location": "Northeastern, central and southeastern Aegean, per Greek daily reporting.",
+      "status": "Greek daily airspace figures reproduced by Veteranos",
+      "categories": "Reported national-airspace violations and separate Athens FIR infringements",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 37.5,
+          "lng": 26.0,
+          "precision": "region",
+          "label": "Aegean — broad regional reference"
+        }
+      ],
+      "positionNote": "Broad regional display anchor, not aircraft location or flight path.",
+      "vehicle": "Six UAVs described as Turkish; models not reported.",
+      "attribution": "Greek daily report describes Turkish aircraft. Greek–Turkish airspace dispute remains relevant.",
+      "route": "Not established.",
+      "circumstances": "Veteranos reported six Turkish UAVs, nine reported Greek national-airspace violations and nine separate Athens FIR traffic-rule infringements.",
+      "payload": "No armed aircraft listed; payload details not reported.",
+      "impact": "No harm or damage reported in this bulletin reproduction.",
+      "response": "Routine identification and interception reported. The table listed no engagement.",
+      "uncertainty": "One Greek press source reproduces the daily figures; the original military archive was not directly accessible. Tracks and individual crossing locations are not established.",
+      "deduplication": "One regional daily aggregate. Do not add the aircraft, national airspace and FIR figures or map each as a separate occurrence.",
+      "provenance": "Full Veteranos daily report read on 27 November.",
+      "classificationNote": "Daily regional flight record, not a confirmed attack, crash or shoot-down.",
+      "reported_UAVs": 6,
+      "reported_airspace_violations": 9,
+      "reported_FIR_infractions": 9,
+      "sourceReferences": "[U495][U495]",
+      "sources": [
+        "U495"
+      ],
+      "page": "events/2026-11-26-aegean-reported-turkish-uav-activity-greece/"
+    },
+    {
+      "id": "N214",
+      "title": "Ludza · brief confirmed drone entry",
+      "recordClass": "event",
+      "recordType": "confirmed_drone_incursion",
+      "startDate": "2026-11-27",
+      "dateLabel": "27 November 2026 (overnight)",
+      "countries": "Latvia",
+      "location": "Eastern Latvia near the border; Ludza warning and later Balvi precautionary warning.",
+      "status": "Latvian military confirmed brief UAV presence inside Latvia",
+      "categories": "Airspace entry; civil-protection response",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 56.55,
+          "lng": 27.72,
+          "precision": "region",
+          "label": "Ludza municipality — broad regional reference"
+        }
+      ],
+      "positionNote": "Representative regional anchor, not an exact crossing point or reconstructed route.",
+      "vehicle": "One unidentified unmanned aircraft; model not reported.",
+      "attribution": "Operator, origin, target and intent unknown.",
+      "route": "Exact route unknown.",
+      "circumstances": "Latvia’s National Armed Forces said one unmanned aircraft was briefly inside Latvian territory during the night of 27 November. No second entry was confirmed in Balvi.",
+      "payload": "Unknown.",
+      "impact": "No injury or damage established in reviewed sources.",
+      "response": "Ludza’s orange warning ran 02:30–02:55 EET. Balvi’s yellow warning began at 02:55 and ended around 03:30. NATO fighters were activated and a Latvian interceptor drone was deployed and returned.",
+      "uncertainty": "Origin, operator, payload and intent unknown. Exact crossing location, duration and track were not released. No shoot-down reported.",
+      "deduplication": "One confirmed brief entry. Balvi’s yellow warning is not a second confirmed incursion.",
+      "provenance": "Full 27 November Latvian National Armed Forces release read directly.",
+      "sourceReferences": "[U496][U496]",
+      "sources": [
+        "U496"
+      ],
+      "dateBasis": "27 November EET. The first warning at 02:30 and the all-clears are civil-warning times, not exact crossing times.",
+      "classificationNote": "Confirmed brief incursion; unknown intent and operator.",
+      "page": "events/2026-11-27-ludza-brief-drone-incursion-latvia/"
     }
   ],
   "contexts": [
@@ -15967,9 +16270,9 @@ window.DRONE_DATA = {
       "id": "U438",
       "publisher": "Polish Armed Forces Operational Command",
       "title": "Statement confirming a short Polish airspace breach by a drone",
-      "url": "https://x.com/DowOperSZ/status/2124983170944634979",
+      "url": "https://x.com/DowOperSZ/status/2124999855361691673",
       "dateLabel": "23 November 2026",
-      "audit": "Official statement reproduced in Radio Lublin and Reuters. A brief crossing was confirmed and attributed to Russia. No weapons were used. No exact crossing time or location in the cited statement."
+      "audit": "Corrected to Operational Command’s crossing statement, read via a mirror and checked against the quotation in Radio Lublin. The previously linked earlier readiness notice did not confirm the crossing."
     },
     "U439": {
       "id": "U439",
@@ -16378,9 +16681,97 @@ window.DRONE_DATA = {
       "url": "https://english.mapn.ro/index.php",
       "dateLabel": "Updated 24 November 2026; read 26 November",
       "audit": "2026 row: 123 nearby attacks, 101 aircraft-response situations, 39 unauthorized entries, six downed drones, 44 drone/fragment cases and two mines. Overlapping categories; not separate occurrences."
+    },
+    "U490": {
+      "id": "U490",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Jurgionys border seizure and year-to-date aircraft tally",
+      "url": "https://vsat.lrv.lt/lt/naujienos/pasienyje-su-baltarusija-74-oji-siemet-skraidykle-su-kontrabandinemis-cigaretemis-foto-1GO/",
+      "dateLabel": "26 November 2026",
+      "audit": "Official article header dates publication to 26 November; separate update footer reads 25 November. Tuesday before midnight refers to 24 November local time; exact recovery time unstated."
+    },
+    "U491": {
+      "id": "U491",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Purvėnai entry and Geismantai recovery",
+      "url": "https://vsat.lrv.lt/lt/naujienos/salcininku-rajone-vsat-pareigunai-nutupde-kontrabandininku-drona-su-baltarusiskais-rukalais-foto-dZo/",
+      "dateLabel": "26 January 2026",
+      "audit": "Official text: Saturday evening entry and nearby recovery; separate from the 28 January notice describing N004."
+    },
+    "U492": {
+      "id": "U492",
+      "publisher": "Lithuanian Prosecutor’s Office",
+      "title": "Court order concerning the May Švenčionys drone-smuggling operation",
+      "url": "https://prokuraturos.lt/lt/nuteisti-cigareciu-kontrabanda-dronais-i-lietuva-atgabene-baltarusijos-pilieciai/13034",
+      "dateLabel": "20 November 2026",
+      "audit": "Official announcement dates the underlying operation to the night of 27 May. No aircraft count or recovery reported. Order had not entered into force at publication."
+    },
+    "U493": {
+      "id": "U493",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Four cross-border drones brought down in one Jaskonys operation",
+      "url": "https://vsat.lrv.lt/lt/naujienos/druskininku-pasienieciai-vienu-kartu-nutupde-keturis-is-baltarusijos-iskridusius-dronus-foto-fbW/",
+      "dateLabel": "7 July 2026",
+      "audit": "Friday night and finds through daylight; exact midnight boundary unstated. Precise total 4,998 packs in body."
+    },
+    "U494": {
+      "id": "U494",
+      "publisher": "News.ro, quoting Romania’s Defence Ministry and Tulcea emergency services",
+      "title": "Northern Tulcea evening RO-Alert and all-clear",
+      "url": "https://www.news.ro/eveniment/update-nou-mesaj-ro-alert-in-judetul-tulcea-posibila-incursiune-de-drone-alerta-aeriana-a-incetat-precizarile-ministerului-apararii-1922405426002026111823012907",
+      "dateLabel": "26 November 2026",
+      "audit": "Directly read full authority quotations. No Romanian entry reported; Spanish aircraft were already airborne and redirected to monitor."
+    },
+    "U495": {
+      "id": "U495",
+      "publisher": "Veteranos",
+      "title": "Six Turkish UAVs and separate Greek national-airspace and FIR figures",
+      "url": "https://veteranos.gr/tourkika-uav-se-treis-perioches-tou-aigaiou-katagrafikan-9-paraviaseis/",
+      "dateLabel": "26 November 2026",
+      "audit": "Single published Greek daily table read in full. Primary military row not directly accessible; exact track and individual crossings unverified."
+    },
+    "U496": {
+      "id": "U496",
+      "publisher": "Latvian National Armed Forces (NBS)",
+      "title": "Brief UAV presence in Latvia and warnings in Ludza and Balvi",
+      "url": "https://www.mil.lv/lv/zinas/nacionalie-brunotie-speki-informe-par-gaisa-telpas-apdraudejumu-ludzas-un-balvu-novados",
+      "dateLabel": "27 November 2026",
+      "audit": "Official text confirms brief presence inside Latvia. It lists warning times, not crossing times, and does not establish a second entry in Balvi."
+    },
+    "U497": {
+      "id": "U497",
+      "publisher": "Știrile ProTV",
+      "title": "Galați RO-Alert and reported 14:52 air-alert phase start",
+      "url": "https://stirileprotv.ro/stiri/actualitate/mesaj-ro-alert-in-galati-din-cauza-unei-posibile-incursiuni-de-drone-populatia-este-indemnata-sa-se-adaposteasca.html",
+      "dateLabel": "24 November 2026",
+      "audit": "Body reports unidentified drone heading toward county, not verified entry or overflight. 14:52 is alert phase start, not a verified delivery timestamp."
+    },
+    "U498": {
+      "id": "U498",
+      "publisher": "Polish Government Security Centre (RCB)",
+      "title": "Lubelskie shelter notice and all-clear chronology",
+      "url": "https://www.gov.pl/web/rcb/alert-rcb---atak-z-powietrza-2311",
+      "dateLabel": "23 November 2026",
+      "audit": "Official 22:56 CET shelter and 23:54 CET all-clear updates. Neither is a border crossing time."
+    },
+    "U499": {
+      "id": "U499",
+      "publisher": "Poland’s Permanent Delegation to NATO",
+      "title": "North Atlantic Council emergency meeting on the November 20 missile breach",
+      "url": "https://www.gov.pl/web/nato-en/north-atlantic-council-emergency-meeting-initiated-by-poland",
+      "dateLabel": "23 November 2026",
+      "audit": "Names all three recovery locations. Dated response context, not a laboratory result or response to the separate Nov 23 drone flight."
+    },
+    "U500": {
+      "id": "U500",
+      "publisher": "Lublin District Prosecutor’s Office",
+      "title": "Written summary of joint investigation into Kh-101 fragments",
+      "url": "https://www.gov.pl/web/po-lublin/podsumowanie-dotychczasowych-czynnosci-oraz-zamierzenia-sledztwa-w-sprawie-ujawnienia-szczatkow-pociskow-manewrujacych-ch-101",
+      "dateLabel": "23 November 2026",
+      "audit": "One investigation across three recovery sites. Site identification is preliminary; expert and laboratory work identified as next steps."
     }
   },
-  "cutoff": "2026-11-25",
+  "cutoff": "2026-11-27",
   "sourceFiles": [
     "eu_foreign_drone_events_2026_consolidated.md",
     "eu_foreign_drone_events_2026_final_update_deduped.md"

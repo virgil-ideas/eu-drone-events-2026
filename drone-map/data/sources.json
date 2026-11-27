@@ -4360,9 +4360,9 @@
     "id": "U438",
     "publisher": "Polish Armed Forces Operational Command",
     "title": "Statement confirming a short Polish airspace breach by a drone",
-    "url": "https://x.com/DowOperSZ/status/2124983170944634979",
+    "url": "https://x.com/DowOperSZ/status/2124999855361691673",
     "dateLabel": "23 November 2026",
-    "audit": "Official statement reproduced in Radio Lublin and Reuters. A brief crossing was confirmed and attributed to Russia. No weapons were used. No exact crossing time or location in the cited statement."
+    "audit": "Corrected to Operational Command’s crossing statement, read via a mirror and checked against the quotation in Radio Lublin. The previously linked earlier readiness notice did not confirm the crossing."
   },
   "U439": {
     "id": "U439",
@@ -4771,5 +4771,93 @@
     "url": "https://english.mapn.ro/index.php",
     "dateLabel": "Updated 24 November 2026; read 26 November",
     "audit": "2026 row: 123 nearby attacks, 101 aircraft-response situations, 39 unauthorized entries, six downed drones, 44 drone/fragment cases and two mines. Overlapping categories; not separate occurrences."
+  },
+  "U490": {
+    "id": "U490",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Jurgionys border seizure and year-to-date aircraft tally",
+    "url": "https://vsat.lrv.lt/lt/naujienos/pasienyje-su-baltarusija-74-oji-siemet-skraidykle-su-kontrabandinemis-cigaretemis-foto-1GO/",
+    "dateLabel": "26 November 2026",
+    "audit": "Official article header dates publication to 26 November; separate update footer reads 25 November. Tuesday before midnight refers to 24 November local time; exact recovery time unstated."
+  },
+  "U491": {
+    "id": "U491",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Purvėnai entry and Geismantai recovery",
+    "url": "https://vsat.lrv.lt/lt/naujienos/salcininku-rajone-vsat-pareigunai-nutupde-kontrabandininku-drona-su-baltarusiskais-rukalais-foto-dZo/",
+    "dateLabel": "26 January 2026",
+    "audit": "Official text: Saturday evening entry and nearby recovery; separate from the 28 January notice describing N004."
+  },
+  "U492": {
+    "id": "U492",
+    "publisher": "Lithuanian Prosecutor’s Office",
+    "title": "Court order concerning the May Švenčionys drone-smuggling operation",
+    "url": "https://prokuraturos.lt/lt/nuteisti-cigareciu-kontrabanda-dronais-i-lietuva-atgabene-baltarusijos-pilieciai/13034",
+    "dateLabel": "20 November 2026",
+    "audit": "Official announcement dates the underlying operation to the night of 27 May. No aircraft count or recovery reported. Order had not entered into force at publication."
+  },
+  "U493": {
+    "id": "U493",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Four cross-border drones brought down in one Jaskonys operation",
+    "url": "https://vsat.lrv.lt/lt/naujienos/druskininku-pasienieciai-vienu-kartu-nutupde-keturis-is-baltarusijos-iskridusius-dronus-foto-fbW/",
+    "dateLabel": "7 July 2026",
+    "audit": "Friday night and finds through daylight; exact midnight boundary unstated. Precise total 4,998 packs in body."
+  },
+  "U494": {
+    "id": "U494",
+    "publisher": "News.ro, quoting Romania’s Defence Ministry and Tulcea emergency services",
+    "title": "Northern Tulcea evening RO-Alert and all-clear",
+    "url": "https://www.news.ro/eveniment/update-nou-mesaj-ro-alert-in-judetul-tulcea-posibila-incursiune-de-drone-alerta-aeriana-a-incetat-precizarile-ministerului-apararii-1922405426002026111823012907",
+    "dateLabel": "26 November 2026",
+    "audit": "Directly read full authority quotations. No Romanian entry reported; Spanish aircraft were already airborne and redirected to monitor."
+  },
+  "U495": {
+    "id": "U495",
+    "publisher": "Veteranos",
+    "title": "Six Turkish UAVs and separate Greek national-airspace and FIR figures",
+    "url": "https://veteranos.gr/tourkika-uav-se-treis-perioches-tou-aigaiou-katagrafikan-9-paraviaseis/",
+    "dateLabel": "26 November 2026",
+    "audit": "Single published Greek daily table read in full. Primary military row not directly accessible; exact track and individual crossings unverified."
+  },
+  "U496": {
+    "id": "U496",
+    "publisher": "Latvian National Armed Forces (NBS)",
+    "title": "Brief UAV presence in Latvia and warnings in Ludza and Balvi",
+    "url": "https://www.mil.lv/lv/zinas/nacionalie-brunotie-speki-informe-par-gaisa-telpas-apdraudejumu-ludzas-un-balvu-novados",
+    "dateLabel": "27 November 2026",
+    "audit": "Official text confirms brief presence inside Latvia. It lists warning times, not crossing times, and does not establish a second entry in Balvi."
+  },
+  "U497": {
+    "id": "U497",
+    "publisher": "Știrile ProTV",
+    "title": "Galați RO-Alert and reported 14:52 air-alert phase start",
+    "url": "https://stirileprotv.ro/stiri/actualitate/mesaj-ro-alert-in-galati-din-cauza-unei-posibile-incursiuni-de-drone-populatia-este-indemnata-sa-se-adaposteasca.html",
+    "dateLabel": "24 November 2026",
+    "audit": "Body reports unidentified drone heading toward county, not verified entry or overflight. 14:52 is alert phase start, not a verified delivery timestamp."
+  },
+  "U498": {
+    "id": "U498",
+    "publisher": "Polish Government Security Centre (RCB)",
+    "title": "Lubelskie shelter notice and all-clear chronology",
+    "url": "https://www.gov.pl/web/rcb/alert-rcb---atak-z-powietrza-2311",
+    "dateLabel": "23 November 2026",
+    "audit": "Official 22:56 CET shelter and 23:54 CET all-clear updates. Neither is a border crossing time."
+  },
+  "U499": {
+    "id": "U499",
+    "publisher": "Poland’s Permanent Delegation to NATO",
+    "title": "North Atlantic Council emergency meeting on the November 20 missile breach",
+    "url": "https://www.gov.pl/web/nato-en/north-atlantic-council-emergency-meeting-initiated-by-poland",
+    "dateLabel": "23 November 2026",
+    "audit": "Names all three recovery locations. Dated response context, not a laboratory result or response to the separate Nov 23 drone flight."
+  },
+  "U500": {
+    "id": "U500",
+    "publisher": "Lublin District Prosecutor’s Office",
+    "title": "Written summary of joint investigation into Kh-101 fragments",
+    "url": "https://www.gov.pl/web/po-lublin/podsumowanie-dotychczasowych-czynnosci-oraz-zamierzenia-sledztwa-w-sprawie-ujawnienia-szczatkow-pociskow-manewrujacych-ch-101",
+    "dateLabel": "23 November 2026",
+    "audit": "One investigation across three recovery sites. Site identification is preliminary; expert and laboratory work identified as next steps."
   }
 }

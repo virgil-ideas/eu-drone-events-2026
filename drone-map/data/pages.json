@@ -2450,9 +2450,10 @@
     "summary": [
       "Poland confirmed that three objects entered its airspace on 20 November. Poland’s National Security Bureau initially assessed the debris as likely from a jet-powered drone. The separate airspace breach is a confirmed occurrence, not proof that a drone was among the objects.",
       "On 22 November, the Lublin District Prosecutor’s Office said preliminary specialist examinations found Kh-101 cruise-missile fragments at Nowy Lipowiec, Rudnik nad Sanem and Mołodycz. Mołodycz scene examination ended on 23 November. The site was cleared, checked for safety and handed back on 24 November. On 24 November the prosecutor’s office said that crews had left all three sites and that laboratory and expert analysis was underway.",
-      "This page keeps the original date and URL to document the correction. The record is excluded from active drone totals because the latest evidence does not support the earlier drone assessment. The intended target and whether the border crossing was deliberate remain unestablished."
+      "This page keeps the original date and URL to document the correction. The record is excluded from active drone totals because the latest evidence does not support the earlier drone assessment. The intended target and whether the border crossing was deliberate remain unestablished.",
+      "The Lublin prosecutor’s 23 November written summary describes one investigation across all three sites, with laboratory and expert work pending. Poland’s NATO delegation says the emergency meeting that day concerned the 20 November missile breach, not the separate drone entry on 23 November."
     ],
-    "basis": "c931323e8b45ea28"
+    "basis": "94ab193433d755d7"
   },
   "N186": {
     "slug": "2026-11-20-aegean-reported-turkish-uav-activity-greece",
@@ -2471,9 +2472,10 @@
     "summary": [
       "Poland confirmed that three objects entered its airspace on 20 November. The National Security Bureau initially assessed a probable missile; the provincial governor later described an unmanned aircraft. The separate airspace breach is a confirmed occurrence, not proof that a drone was among the objects. The Podkarpackie Provincial Office reported the Rudnik fall at 06:38 local time.",
       "On 22 November, the Lublin District Prosecutor’s Office said preliminary specialist examinations found Kh-101 cruise-missile fragments at Nowy Lipowiec, Rudnik nad Sanem and Mołodycz. The Rudnik scene examination was already complete by 22 November. On 24 November the prosecutor’s office said that crews had left all three sites and that laboratory and expert analysis was underway.",
-      "This page keeps the original date and URL to document the correction. The record is excluded from active drone totals because the latest evidence does not support the earlier drone assessment. The intended target and whether the border crossing was deliberate remain unestablished."
+      "This page keeps the original date and URL to document the correction. The record is excluded from active drone totals because the latest evidence does not support the earlier drone assessment. The intended target and whether the border crossing was deliberate remain unestablished.",
+      "The Lublin prosecutor’s 23 November written summary describes one investigation across all three sites, with laboratory and expert work pending. Poland’s NATO delegation says the emergency meeting that day concerned the 20 November missile breach, not the separate drone entry on 23 November."
     ],
-    "basis": "26f44709eb575a5c"
+    "basis": "9b18bdf69dabcbc5"
   },
   "N188": {
     "slug": "2026-11-21-sparta-ii-reported-drone-strike-gulf-of-finland",
@@ -2547,9 +2549,10 @@
     "summary": [
       "Poland’s Operational Command confirmed one Russian-attributed drone entered Polish airspace on 23 November during strikes on western Ukraine. Rzeczpospolita’s follow-up, citing the command and spokesperson Jacek Goryszewski, places entry near Dorohusk at 22:50 local time, with a roughly 20 km incursion lasting 8–9 minutes before the drone turned back to Ukraine.",
       "A shoot-down was authorized, but no weapons were used. Radio Lublin and UNITED24 report that commanders withheld fire after the eastward turn, taking civilian safety into account. Goryszewski said ground systems had authorization; Polish aircraft were not operating near the border because of weather. No casualties, impact or debris recovery were reported.",
-      "The spokesperson assessed jet propulsion from flight speed but did not confirm cameras or a reconnaissance role. The model, payload and intended target remain unknown. The Dorohusk marker is an approximate reference, not a verified crossing coordinate. Public warnings are part of this one occurrence, distinct from the 20 November missile incident."
+      "The spokesperson assessed jet propulsion from flight speed but did not confirm cameras or a reconnaissance role. The model, payload and intended target remain unknown. The Dorohusk marker is an approximate reference, not a verified crossing coordinate. Public warnings are part of this one occurrence, distinct from the 20 November missile incident.",
+      "The Government Security Centre logged the shelter update at 22:56 CET and the all-clear at 23:54 CET. These are warning times, not flight times."
     ],
-    "basis": "2655189421e56540"
+    "basis": "0b515fa77fea8dce"
   },
   "N195": {
     "slug": "2026-09-27-smuggling-drone-tausiunai-aukstalaukis-lithuania",
@@ -2611,11 +2614,11 @@
     "description": "Romania warned northern Tulcea again on 24 November after a target was detected near the Chilia branch in Ukrainian airspace. No Romanian airspace entry was reported.",
     "summary": [
       "Romania warned northern Tulcea again on 24 November after a target was detected near the Chilia branch in Ukrainian airspace. No Romanian airspace entry was reported.",
-      "The Defence Ministry reported a 14:37 EET alert, Romanian aircraft monitoring and a 15:40 EET all-clear. A Galați outlet reported a local all-clear at 15:46 EET, citing emergency services.",
-      "No evidence establishes an additional target or links the morning and afternoon detections.",
+      "The Defence Ministry reported a 14:37 EET warning, aircraft monitoring and a 15:40 all-clear for northern Tulcea. ProTV reports Galați’s air-alert phase began at 14:52 EET after a report of an unidentified drone heading toward the county. The local IGSU all-clear was reported at 15:46 EET.",
+      "Target identity, operator and intended target are unknown. It is not established whether the Tulcea and Galați warnings concerned the same target. The morning warning remains separate.",
       "This is a precautionary alert, not a confirmed Romanian incursion."
     ],
-    "basis": "983be662e85ca761"
+    "basis": "385b032d6534d2fc"
   },
   "N201": {
     "slug": "2026-07-09-smuggling-drone-zaltunai-girdijauskai-lithuania",
@@ -2692,5 +2695,78 @@
       "No exact flight track, operator identity or state sponsorship was established. This is a criminal smuggling case, not a military attack."
     ],
     "basis": "db80c247345da721"
+  },
+  "N208": {
+    "slug": "2026-11-24-jurgionys-cross-border-smuggling-drone-lithuania",
+    "headline": "Lithuanian guards recover a smuggling drone and 500 cigarette packs near Jurgionys",
+    "description": "Lithuanian border guards reported a drone entry from Belarus near Jurgionys before midnight on 24 November and recovered 500 packs of cigarettes.",
+    "summary": [
+      "Lithuanian border guards reported a drone entry from Belarus near Jurgionys before midnight on 24 November and recovered 500 packs of cigarettes.",
+      "The 26 November release says the aircraft was damaged on impact. It was the 74th aircraft intercepted in that enforcement category in 2026 as of the release, not the 74th record in this register."
+    ],
+    "basis": "0ae73ec61b390b5c"
+  },
+  "N209": {
+    "slug": "2026-01-24-purvenai-geismantai-smuggling-drone-lithuania",
+    "headline": "Lithuanian guards report a drone entry near Purvėnai and recovery near Geismantai",
+    "description": "Lithuania’s border service reported a drone entry on 24 January and recovered it near Geismantai with 1,000 packs of cigarettes.",
+    "summary": [
+      "Lithuania’s border service reported a drone entry on 24 January and recovered it near Geismantai with 1,000 packs of cigarettes.",
+      "This is distinct from the separately reported 27 January Purvėnai incident."
+    ],
+    "basis": "8bb970e28f817817"
+  },
+  "N210": {
+    "slug": "2026-05-27-svencionys-cross-border-drone-smuggling-lithuania",
+    "headline": "Lithuanian prosecutors document May drone-smuggling operation in Švenčionys district",
+    "description": "Lithuanian prosecutors said drones brought 35,500 cigarette packs across the border from Belarus on the night of 27 May. The aircraft count is unknown.",
+    "summary": [
+      "Lithuanian prosecutors said drones brought 35,500 cigarette packs across the border from Belarus on the night of 27 May. The aircraft count is unknown.",
+      "Guards recovered cigarettes after they were moved on the ground. No drone interception or recovery was reported. The court order was not final at the time of the 20 November announcement."
+    ],
+    "basis": "893ef715748b65f2"
+  },
+  "N211": {
+    "slug": "2026-07-03-jaskonys-four-smuggling-drones-lithuania",
+    "headline": "Lithuanian guards report bringing down four smuggling drones near Jaskonys",
+    "description": "Lithuanian border guards reported bringing down four inbound drones in one operation near Jaskonys, recovering the aircraft and 4,998 cigarette packs.",
+    "summary": [
+      "Lithuanian border guards reported bringing down four inbound drones in one operation near Jaskonys, recovering the aircraft and 4,998 cigarette packs.",
+      "The 7 July release refers to Friday night, with recoveries continuing into daylight. It does not specify the midnight boundary. This is not the later Kuodžiai operation."
+    ],
+    "basis": "10caf4c93608377d"
+  },
+  "N212": {
+    "slug": "2026-11-26-northern-tulcea-evening-ro-alert-romania",
+    "headline": "Northern Tulcea evening warning ends with no reported Romanian airspace entry",
+    "description": "Romania’s Defence Ministry reported radar detection of an unidentified aerial target east of Vâlcove, Ukraine. Northern Tulcea received a warning. No entry into Romanian airspace was reported.",
+    "summary": [
+      "Romania’s Defence Ministry reported radar detection of an unidentified aerial target east of Vâlcove, Ukraine. Northern Tulcea received a warning. No entry into Romanian airspace was reported.",
+      "The 18:52 EET RO-Alert ended at 19:11. Spanish aircraft already airborne on training were redirected to monitor.",
+      "This is a civil warning, not a confirmed drone incursion."
+    ],
+    "basis": "d44ed54d8b57a2c9"
+  },
+  "N213": {
+    "slug": "2026-11-26-aegean-reported-turkish-uav-activity-greece",
+    "headline": "Greek daily report lists six Turkish UAVs in the Aegean on 26 November",
+    "description": "Veteranos reported six Turkish UAVs, nine reported Greek national-airspace violations and nine separate Athens FIR traffic-rule infringements.",
+    "summary": [
+      "Veteranos reported six Turkish UAVs, nine reported Greek national-airspace violations and nine separate Athens FIR traffic-rule infringements.",
+      "The table covers the northeastern, central and southeastern Aegean and lists no armed aircraft or engagements.",
+      "The counts are separate measures from one published daily report, not verified flight tracks or attack counts."
+    ],
+    "basis": "fc010ea7dd1626a7"
+  },
+  "N214": {
+    "slug": "2026-11-27-ludza-brief-drone-incursion-latvia",
+    "headline": "Latvian military confirms brief drone entry near its eastern border",
+    "description": "Latvia’s National Armed Forces said one unmanned aircraft was briefly inside Latvian territory during the night of 27 November. No second entry was confirmed in Balvi.",
+    "summary": [
+      "Latvia’s National Armed Forces said one unmanned aircraft was briefly inside Latvian territory during the night of 27 November. No second entry was confirmed in Balvi.",
+      "Ludza’s orange warning ran 02:30–02:55 EET. Balvi’s yellow warning began at 02:55 and ended around 03:30. NATO fighters were activated and a Latvian interceptor drone was deployed and returned.",
+      "The military did not identify the drone’s operator, origin or target and reported no shoot-down."
+    ],
+    "basis": "7a34fad408ea2647"
   }
 }

@@ -1248,3 +1248,33 @@ that date. No additional occurrence is inferred from source follow-ups.
 - The possible 23 November Sigonella follow-up was dated by Sky TG24 from a
   social-source account; no independent confirmation of a distinct event or
   foreign entry was found. The Cyprus June 22 annex remains unlocated.
+
+## 27 November morning refresh
+
+- The 23–27 November bounded screening covered all 27 EU states, including
+  aerial, surface and underwater leads, but does not establish exhaustive
+  coverage. The inclusive reporting cutoff is 27 November.
+- Latvian NBS confirmed one brief drone entry during the Ludza warning.
+  The subsequent Balvi warning is not a second established crossing.
+  The aircraft's origin, operator and intent remain unknown.
+- The 26 November northern Tulcea warning had no reported Romanian
+  airspace entry. The 24 November N200 episode now includes the reported
+  Galați alert-phase start, not a crossing or exact alert-delivery timestamp.
+- The 26 November Aegean press table is one daily record with six reported
+  UAVs, nine reported national-airspace violations and nine separate Athens
+  FIR infringements. Direct Greek archive access and the 23–24 November
+  day-specific figures remain unresolved. The Cyprus March–May annex remains
+  unlocated.
+- Added four distinct Lithuanian criminal smuggling operations including
+  Jurgionys (24 November occurrence, 26 November release). The aircraft count
+  for the May Švenčionys operation is unknown; no aircraft interception there
+  is established. The May 31 Tausiūnai–Joniškis lead is unresolved on inbound
+  entry; the August Vosiūnai and Aklė recovery lead remains unresolved on entry.
+- The N194 Dorohusk source now points to the crossing statement and RCB
+  warning chronology. The reported 24 November Observatory follow-up did not
+  establish a second Polish crossing. The 23 November NATO meeting concerned
+  the 20 November missile breach, not N194; existing missile-page exclusions
+  and pending forensic status are unchanged.
+- The Observatory’s Sigonella November 25 label points back to November 20;
+  no independent confirmation of a distinct second incident or foreign entry
+  was found. No new authoritative GAS HUSKY arrival or final hull confirmation.
