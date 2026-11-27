@@ -118,13 +118,13 @@
   },
   "E013": {
     "headline": "Robbanótöltetes drónmaradványokat semmisítettek meg Luncavița közelében, Romániában",
-    "description": "2026. április 26-án robbanótöltetes drónmaradványokat találtak Luncavița és Văcăreni között Romániában, és megsemmisítették őket. Eredetüket vizsgálják.",
+    "description": "A Luncavița közelében 2026. április 26-án talált drónmaradványokat Románia védelmi minisztériuma később egy Oroszországnak tulajdonított Geran-2-incidens részeként azonosította.",
     "summary": [
-      "2026. április 26-án további drónmaradványokról számoltak be a Tulcea megyei Luncavița és Văcăreni között, egy nappal azután, hogy a Văcăreni melletti farm közelében töredékeket találtak. Az anyag között robbanótöltetet erősítettek meg, és RO-Alert biztonsági figyelmeztetést adtak ki.",
-      "A töredékek eredetét vizsgálják, és a konstancai fellebbviteli bíróság ügyészeinek nyomozásáról számoltak be. Azt, hogy mikor repült vagy ért földet a drón, nem ismerik. A töredékeket nem erősítették meg második, ép drónként, és nem állapították meg, hogy ezek és az előző napi lelet egy vagy több légi járműből származnak-e.",
+      "2026. április 26-án további drónmaradványokról számoltak be a romániai Tulcea megyei Luncavița és Văcăreni között, egy nappal azután, hogy a Văcăreni melletti farm közelében töredékeket találtak. Az anyag között robbanótöltetet erősítettek meg, és RO-Alert biztonsági figyelmeztetést adtak ki.",
+      "Egy május 31-i közleményében a MApN utólag a luncavițai április 26-i esetet az Oroszországnak tulajdonított korábbi Geran-2-incidensek között sorolta fel. Ez frissíti a kezdetben tisztázatlan eredetet, de nem állapítja meg, mikor repült vagy ért földet a drón, sem az útvonalát vagy a szándékolt célpontját. A töredékeket nem erősítették meg második, teljes drónként, és az, hogy ugyanabból a légi járműből származnak-e, mint az előző napi lelet, tisztázatlan marad.",
       "Az SRI pirotechnikusai és Románia védelmi minisztériumának (MApN) szakemberei értékelték az anyagot, amelyet ezt követően az ügyész felhatalmazásával a helyszínen ellenőrzött robbantással megsemmisítettek. Áldozatokról nem számoltak be."
     ],
-    "basis": "88e415a73fd8096d"
+    "basis": "b590e35104316219"
   },
   "E014": {
     "headline": "Ismeretlen eredetű drónt találtak a romániai Suceava megyei Șerbăuți közelében",
@@ -171,9 +171,9 @@
     "summary": [
       "2026. május 15-én a finnországi Helsinki nagyvárosi térségében feltételezett drónműködés széles körű védelmi intézkedéseket váltott ki. A lakosokat figyelmeztették, hogy maradjanak bent, a repülőtér működését felfüggesztették, vadászgépek szálltak fel. Hogy hány drón volt érintett, és milyen típusú, nem tisztázott.",
       "A külföldi eredet nem bizonyított, az esetleges drónok útvonala ismeretlen. A finn hatóságok értékelték a fenyegetést, és az akkori nyilatkozatuk nem erősített meg közvetlen katonai fenyegetést. Az eset riasztás és fennakadás volt, nem megerősített támadás.",
-      "Fizikai kárról nem számoltak be."
+      "Fizikai kárról nem számoltak be. A repülőteret üzemeltető Finavia megerősíti, hogy a légi forgalmat helyi idő szerint 04:00 és 07:00 között felfüggesztették, majd újraindították, aznap késésekkel és járattörlésekkel. A törölt járatok összesített számát nem közli, és drónt nem azonosít."
     ],
-    "basis": "8dcd29f016872e0a"
+    "basis": "22793f6506f0bdbc"
   },
   "E019": {
     "headline": "Feltételezetten ukrán drón roncsát találták meg a litvániai Utena közelében",
@@ -255,14 +255,14 @@
     "basis": "a18eddeece7bbecb"
   },
   "E027": {
-    "headline": "Házi készítésű csempészdrónt kényszerítettek leszállásra a litvániai fehérorosz határ közelében",
-    "description": "2026. május 23-án egy Fehéroroszország felől érkezőnek jelentett, házi készítésű teherdrónt leszállásra kényszerítettek és lefoglaltak a litvániai Šalčininkai járás Dumblė településén, csempészügyben.",
+    "headline": "Rakomány nélkül került elő egy csempészdrón Dumblė közelében",
+    "description": "A litván határőrség szerint a Dumblė közelében 2026. május 23-án leesett házi készítésű drón nem szállított rakományt, és a becsapódáskor súlyosan megrongálódott.",
     "summary": [
-      "2026. május 23-án egy csempészárut szállító, házi készítésű teherdrónt a jelentések szerint leszállásra kényszerítettek a litvániai Šalčininkai járás Dumblė településén, a fehérorosz határnál. A határőrizeti tisztek elfogták és lefoglalták a drónt.",
-      "A drón a jelentések szerint Fehéroroszország felől érkezett. Bűnügyi csempészjárat volt, nem katonai, az üzemeltetőt nem azonosították. A rakomány és maga a drón részletei nem álltak rendelkezésre.",
-      "Robbanótöltetről és áldozatokról nem számoltak be. A jelentések kényszerleszállásról és lefoglalásról szólnak, nem lelövésről vagy lezuhanásról."
+      "2026. május 23-án egy házi készítésű drón, amely Litvánia határőrszolgálata (VSAT) szerint Fehéroroszország felől lépett be, a határőrök beavatkozását követően leesett a Šalčininkai járásbeli Dumblė közelében.",
+      "Amikor a tisztek felszedték a légi járművet, az súlyosan sérült volt, és nem volt rajta rakomány. Az eredeti VSAT-közlemény helyesbíti a megrakott drónról szóló korábbi leírást.",
+      "A VSAT a légi járművet csempészekhez tartozóként írta le. Az üzemeltető nem ismert. Áldozatokról vagy kinetikus lelövésről nem számoltak be."
     ],
-    "basis": "e9db67cdbd535522"
+    "basis": "9db105cbb575f730"
   },
   "E028": {
     "headline": "Románia szerint orosz drón csapódott egy galaci lakóépületbe, két ember megsérült",
@@ -270,9 +270,10 @@
     "summary": [
       "2026. május 29-én éjjel egy drón a romániai Galac Mazepa negyedében egy lakóépület tetejébe csapódott, és tüzet okozott. Két ember könnyebben megsérült, a lakókat kitelepítették, lakások megrongálódtak. Tisztviselők becslése szerint a drón legalább 30 kg robbanóanyagot hordozott.",
       "A hivatalos radar- és törmelékértékelés alapján a román hatóságok orosz Geran-2 drónként azonosították. Egy 43 drónból álló, szélesebb, Ukrajna elleni támadási hullámhoz kapcsolták, és a becsapódás előtt rövid ideig Románia felett repült. Moszkva vitatta a tulajdonítást. Románia nem nevezte a csapást Románia ellen irányuló szándékos támadásnak.",
-      "Két román F-16-os és egy helikopter szállt fel, de a város felett nem avatkoztak be, a helyszínt megvizsgálták. Válaszul kiutasították az orosz konzult, és bezárták a konzulátust. Az incidens különbözik a 2026. április 25-i galaci drónlezuhanástól."
+      "Két román F-16-os és egy helikopter szállt fel, de a város felett nem avatkoztak be, a helyszínt megvizsgálták. Válaszul kiutasították az orosz konzult, és bezárták a konzulátust. Az incidens különbözik a 2026. április 25-i galaci drónlezuhanástól.",
+      "Az ENSZ Biztonsági Tanácsának írt május 29-i levelében Románia arról számolt be, hogy a radar Galac déli részéig követte a drónt, amely egy lakóépület tetejébe csapódott, tüzet okozott, két ember megsérült, és kitelepítésre került sor. A levél Oroszországnak tulajdonítja a drónt, a típus vagy a hasznos teher tömegének megnevezése nélkül."
     ],
-    "basis": "867f5d0e86da38f7"
+    "basis": "839ef0ac20cfdff4"
   },
   "E029": {
     "headline": "Feltételezett drónműködés riasztást vált ki a lett és az észt határon",
@@ -299,10 +300,10 @@
     "description": "2026. június 8-án egy francia NATO-vadászgép lelőtt egy drónt a lett légtérben Bērzgale közelében. Nemzetiségét és típusát nem sikerült egyértelműen azonosítani.",
     "summary": [
       "2026. június 8-án egy drón (UAV) belépett a lett légtérbe, és elfogták a lettországi Bērzgale térségében. Ezután egy NATO-val együtt működő francia vadászgép lelőtte.",
-      "A drón nemzetiségét és típusát az incidensről szóló korabeli beszámolók nem azonosították egyértelműen. Külföldi drónként kezelik, de eredetét nem állapították meg; útvonalát nem közölték, és az is ismeretlen, hogy hordozott-e bármit, és ha igen, mit.",
+      "Az Euronews szerint a lett hadsereg egyik szóvivője azt mondta a Reutersnek, hogy a drón Oroszország felől érkezett. Pontos útvonalát és indítási helyét nem állapították meg. A jelentett belépési irány nem azonosítja az üzemeltetőjét vagy nemzetiségét; típusa, hasznos terhe és szándékolt célpontja a vizsgált beszámolókban tisztázatlan maradt.",
       "Lettországban áldozatokról nem számoltak be. A lelövés után a roncs keresése és a törmelék vizsgálata következett."
     ],
-    "basis": "74bcaba3125d8355"
+    "basis": "c7ae1c343f0f6430"
   },
   "E032": {
     "headline": "Románia megsemmisítette a Rachelu közelében talált, orosznak azonosított drónmaradványokat",
@@ -315,14 +316,15 @@
     "basis": "a2522d4f06337eee"
   },
   "E033": {
-    "headline": "LPG-szállító hajó legénysége dróntámadásról számol be a romániai Sfântu Gheorghe előtt",
-    "description": "2026. július 21-én robbanások súlyosan megrongáltak egy LPG-szállító hajót a Fekete-tengeren, Románia Sfântu Gheorghe települése előtt. A legénység három drónról számolt be; a drón mint ok nem megerősített.",
+    "headline": "Tűz a GAS LISBON fedélzetén Románia előtt: egy tengerész meghalt; a drón mint ok nem megerősített",
+    "description": "Július 21-én Románia előtt mind a 17 főt kimenekítették a GAS LISBON fedélzetéről. A három sérült egyike két nappal később meghalt. A drón mint ok továbbra sem megerősített.",
     "summary": [
-      "2026. július 21-én az éjszaka folyamán és reggel robbanások súlyosan megrongáltak egy LPG-t szállító kereskedelmi hajót a Fekete-tengeren, Románia Sfântu Gheorghe települése előtt körülbelül 26 km-re, és a hajó kigyulladt. A hely a jelentések szerint Románia felségvizein kívül esett.",
+      "A libériai lobogó alatt közlekedő GAS LISBON LPG-szállító tartályhajón robbanás és tűz történt Sfântu Gheorghe előtt, Románia KGÖ-jében, a felségvizein kívül. A Tengerészeti Hatóság július 21-én helyi idő szerint 00:05-kor rögzítette a vészjelzést; ez nem a robbanás ellenőrzött időpontja.",
       "Két legénységi tag három drón éjszakai támadását írta le. Beszámolójukat állításnak tekintik, nem a fegyver végleges azonosításának: a drón típusát, a használt eszközöket és töltetet, az indítási pontot, valamint az üzemeltetőt vagy nemzetiséget nem azonosították, és a drón mint ok nem megerősített.",
-      "A román tengeri mentőszolgálatok közbeléptek, és biztonságba helyezték a legénységet. Sérüléseket jelentettek, köztük égési sérüléseket. Az incidens különbözik egy ömlesztettáru-szállító hajó július 24-i, ugyanezen part előtti vészhelyzetétől és az augusztusi Progress IV-incidenstől."
+      "Az eset különbözik egy ömlesztettáru-szállító hajó július 24-i vészhelyzetétől és a PROGRESS IV augusztusi balesetétől.",
+      "Mind a 17 legénységi tagot kimenekítették. Hárman megsérültek; Románia egészségügyi minisztériuma az AGERPRES-nek azt közölte, hogy közülük egy július 23-án meghalt a tulceai kórházban. A Fülöp-szigeteki kormány beszámolói alátámasztották a halálesetet, valamint azt, hogy a másik két sérült tengerész hazatért. Az áldozatokkal járó kimenetel nem állapítja meg, hogy drón okozta az esetet."
     ],
-    "basis": "6f6ef8fc3dd8a8e7"
+    "basis": "5b25f8a67d378d86"
   },
   "E034": {
     "headline": "A Christina B ömlesztettáru-szállító megrongálódott Románia előtt; akna vagy drón okozta, tisztázatlan",
@@ -384,14 +386,13 @@
     "basis": "ea7f019b9a1f4ed6"
   },
   "E040": {
-    "headline": "Németország orosz szervek megbízásából eljáró személyekhez köti a lipcsei repülőtér drónját",
-    "description": "2026. augusztus 4–5-én egy robbanóanyagos drón töltete nem működött a németországi Lipcse/Halle repülőtéren. Németország orosz szervek megbízásából eljáró személyeket okolt; Oroszország tagadta.",
+    "headline": "Drónrepülés: Lipcse/Halle repülőtér, Németország",
+    "description": "2026. augusztus 4., Lipcse/Halle repülőtér, Németország. Robbanóanyagos drónos támadássorozat; hivatalos állami tulajdonítás. Robbanóanyagos drón érte el a repülőteret, de a töltet nem működött.…",
     "summary": [
-      "2026. augusztus 4-ről 5-re virradó éjszaka egy professzionális robbanóanyagot és gyújtószerkezetet szállító drón elérte a németországi Schkeuditzben található Lipcse/Halle repülőteret, de a töltet nem működött. A repülőtér működése fennakadt. Külön, egy teherszállító repülőgép egy tárggyal való, feltételezett ütközésről számolt be, és Hannoverbe irányították; kisebb repülőgép-sérülést jelentettek, de a tárgyat nem azonosították egyértelműen drónként. Augusztus 14-én Kabelsketal közelében egy további feltételezett támadó drónt találtak; a leletről augusztus 25-én számoltak be, és a tárgyhoz a jelentések szerint mintegy 50 g feltételezett RDX tartozott.",
-      "Szeptember 1-jén Németország a műveletet orosz állami szervek megbízásából eljáró személyeknek tulajdonította. Oroszország tagadta a felelősséget. A tulajdonítást nem kísérte az összes alapjául szolgáló törvényszéki és hírszerzési bizonyíték nyilvános közzététele, az indítási pontot pedig nem állapították meg.",
-      "Áldozatokról nem számoltak be. A rendőrség, a robotot használó tűzszerész-csoportok és a szövetségi ügyészek nyomoztak, a további eszközt lefoglalták, diplomáciai lépések pedig később következtek."
+      "Robbanóanyagos drón érte el a repülőteret, de a töltet nem működött. Egy teherszállító repülőgép ettől függetlenül egy tárggyal való találkozásról számolt be, és másik repülőtérre tért ki. Kabelsketal közelében egy további feltételezett támadó drón került elő.",
+      "Robbanóanyagos drónos támadássorozat; hivatalos állami tulajdonítás. Szeptember 1-jén Németország a műveletet orosz állami szervek megbízásából eljáró személyeknek tulajdonította; Oroszország tagadta a felelősséget. A hivatalos német tulajdonítás tulajdonításként szerepel, nem az összes mögöttes törvényszéki/hírszerzési bizonyíték nyilvánosságra hozataláként. Az orosz tagadás rögzítve marad. Az indítási helyre és az eszközökre vonatkozó novemberi megállapítások nyomozati értékelések maradnak, nem bizonyítják egyetlen személy bűnösségét sem."
     ],
-    "basis": "fd5d244bb50c3706"
+    "basis": "cc6d63474657af35"
   },
   "E041": {
     "headline": "Két drónt láttak egy nyugat-németországi katonai létesítmény felett",
@@ -455,13 +456,14 @@
   },
   "E047": {
     "headline": "Román F-16-os tüzelt egy robbanóanyagos tengeri drónra a Neptun Deep munkálatai közelében",
-    "description": "2026. augusztus 20-án egy román F-16-os megrongált egy robbanóanyagos tengeri drónt a Neptun Deep közelében, Románia KGÖ-jében, mielőtt a haditengerészet hatástalanította. Eredete tisztázatlan.",
+    "description": "Románia augusztus 20-án hatástalanított egy robbanóanyagos tengeri drónt a Neptun Deep közelében. Az ország elnöke később az orosz haditengerészetnek tulajdonította.",
     "summary": [
-      "2026. augusztus 20-án robbanóanyagot szállító pilóta nélküli felszíni járművet, azaz tengeri drónt észleltek a Neptun Deep tengeri munkálataitól néhány száz méterre, Konstancától nagyjából 80 tengeri mérföldre keletre, Románia kizárólagos gazdasági övezetében. Hogy közeledett-e a munkálatokhoz vagy sodródott-e feléjük, és mi volt a szándéka, nem tisztázott.",
+      "2026. augusztus 20-án robbanóanyagot szállító pilóta nélküli felszíni járművet, azaz tengeri drónt észleltek a Neptun Deep tengeri munkálataitól néhány száz méterre, Konstancától nagyjából 80 tengeri mérföldre keletre, Románia kizárólagos gazdasági övezetében.",
       "Egy román F-16-os gépágyúval tüzelt rá, megrongálta, de nem semmisítette meg teljesen, majd a haditengerészet tűzszerészcsapata hatástalanította. A hivatalos jelentések meghatározatlan méretű robbanótöltetet erősítettek meg. A védelmi minisztérium kezdetben két drónt említett, később egy drónra helyesbítette. Áldozatokról vagy az infrastruktúra károsodásáról nem számoltak be.",
-      "A drón indítási pontja és üzemeltetője ismeretlen. Románia védelmi minisztere szerint Ukrajna megerősítette, hogy nem ukrán volt; ez a kijelentés nem állapítja meg, hogy ki indította. Az eset különbözik az ugyanazon a napon Grindu közelében lezuhant légi drónétól."
+      "Szeptember 23-án Nicușor Dan elnök az ENSZ Biztonsági Tanácsa előtt kijelentette, hogy az augusztus 20-i drón az orosz haditengerészet drónja volt. A tulajdonítás alapjául szolgáló bizonyítékokat nem hozta nyilvánosságra. Az indítási pont és a szándékolt célpont nem ellenőrzött. Az eset különbözik az ugyanazon a napon Grindu közelében lezuhant légi drónétól.",
+      "A SpotMedia által november 24-én közölt visszatekintő beszámolóban Radu Miruță volt védelmi miniszter leírta, hogy munkások lefilmezték a drónt a platform tartószerkezetei közelében, egy vontatóhajó pedig igyekezett távol tartani. Azt is elmondta, hogy miután elrendelte a vadászgépes reagálást, orosz repüléskorlátozási értesítést kapott. Az eredeti értesítést nem vizsgálták meg függetlenül; ezek a részletek az augusztusi incidenst frissítik, nem új eseményt jelentenek."
     ],
-    "basis": "d752991b133cd913"
+    "basis": "d09904239858514b"
   },
   "E048": {
     "headline": "A haditengerészet megsemmisítette a romániai Tuzla strandján talált robbanóanyagos drónmaradványokat",
@@ -519,9 +521,10 @@
     "summary": [
       "2026. augusztus 27-én a Progress IV kereskedelmi hajó kigyulladt és elsüllyedt a Fekete-tengeren, Sfântu Gheorghe előtt mintegy 15–20 tengeri mérföldre, Románia kizárólagos gazdasági övezetében. A vészjelzés helyi idő szerint 17:55 körül érkezett, és mind a 12 legénységi tagot 20:47-re kimentették.",
       "A hajót ért becsapódást állítottak, a hatóságok szerint az okot vizsgálni kell. A dróntámadás hipotézis maradt: drónt vagy más fegyvert nem azonosítottak, robbanást vagy dróncsapást nem állapítottak meg. A hajó lobogóját a Dominikai Köztársaságként jelentették, míg egy hajózási iparági forrás Dominikát nevezte meg.",
-      "Egy legénységi tag megsérült, a jelentések szerint karcsonttöréssel; a súlyos sérülésről szóló korábbi leírásokat a későbbi beszámolók nem támasztják alá. A tengeri mentési koordinációs központ (MRCC) egy kereskedelmi hajót, a Határrendőrséget és mentőhajókat koordinált."
+      "Egy legénységi tag megsérült, a jelentések szerint karcsonttöréssel; a súlyos sérülésről szóló korábbi leírásokat a későbbi beszámolók nem támasztják alá. A tengeri mentési koordinációs központ (MRCC) egy kereskedelmi hajót, a Határrendőrséget és mentőhajókat koordinált.",
+      "November 24-én a Libertatea arról számolt be, hogy a román Tengeri Hidrográfiai Igazgatóság értékelése szerint a hajót drón találta el. Az Igazgatóság közzétett navigációs értesítései igazolják a roncs meglétét és veszélyekről számolnak be, de okot nem adnak meg. Sem törvényszéki megállapítást, sem fegyvert, sem üzemeltetőt nem állapítottak meg."
     ],
-    "basis": "f4b55e178bf70b3a"
+    "basis": "7df77fa9b948d455"
   },
   "E054": {
     "headline": "Pásztor talált robbanóanyagos drónt a romániai Viișoara közelében; eredete vitatott",
@@ -534,14 +537,14 @@
     "basis": "cfac143f34b000e0"
   },
   "E055": {
-    "headline": "Ismeretlen eredetű térképező drónt találtak Finnország déli partján",
-    "description": "2026. szeptember 2-án ismeretlen eredetű térképező drónt találtak Finnország déli partján. Lehetséges területsértést vizsgáltak.",
+    "headline": "Pellinkiben szeptember 1-jén drónt találtak; az értékelés szerint valószínűleg orosz eredetű",
+    "description": "A Pellinkiben szeptember 1-jén talált drónt valószínűleg orosz eredetűnek értékelték. A nyomozók szerint Finnországon kívül esett a tengerbe; a vizsgálat folytatódott.",
     "summary": [
-      "2026. szeptember 2-án a hatóságok felmérő vagy térképező drónt (UAV) találtak Finnország déli partján. A pontos helyet az idézett jelentés nem adta meg. A dátum a megtalálás dátuma; hogy mikor repült a drón, és milyen útvonalon, ismeretlen.",
-      "A drón eredete és üzemeltetője ismeretlen. Nem állapították meg, hogy külföldről érkezett, és nem feltételezik, hogy külföldi katonai drón.",
-      "A drónt nem veszélyesnek írták le, veszélyes hasznos terhet nem azonosítottak, kárról vagy áldozatokról nem számoltak be. A hatóságok azt vizsgálták, hogy a repülés területsértésnek minősül-e."
+      "2026. szeptember 1-jén egy civil UAV-t talált Pellinki parti sziklái között; a Határőrség egyik járőre megerősítette a leletet. A nyilvántartás korábbi dátuma, szeptember 2., az első közlés dátuma volt. A közzétett oldal címe változatlan marad.",
+      "Szeptember 10-én a Határőrség közölte, hogy az eszköz adatai valószínűleg orosz eredetű légi járműre utalnak, amely irányíthatatlanná vált és kifogyott az üzemanyagból, mielőtt Finnországon kívül a tengerbe esett. A megállapítás előzetes volt, a vizsgálat folytatódott.",
+      "Ez továbbra is egyetlen begyűjtés, nem megállapított légi behatolás vagy lezuhanás Finnországban. Az üzemeltető és az eredeti cél tisztázatlan marad. A térképi pont a szigetvilágon belüli hozzávetőleges horgony."
     ],
-    "basis": "30e03e74f6707d09"
+    "basis": "de38e633c3a7e190"
   },
   "E056": {
     "headline": "Orosznak jelentett sugárhajtású drón lép be Moldova felől Északkelet-Romániába",
@@ -554,14 +557,14 @@
     "basis": "7b1f8e2c4bb81edb"
   },
   "E057": {
-    "headline": "Feltételezett orosz katonai drónt emeltek ki a tengerből a lengyelországi Rusinowo strandjánál",
-    "description": "2026. szeptember 14-én a lengyel hadsereg drónt emelt ki a tengerből a Rusinowo strandnál; a védelmi miniszter előzetes értékelése szerint orosz.",
+    "headline": "Drón került elő a rusinowói strandon; a robbanófejet biztonságosan megsemmisítették",
+    "description": "Szeptember 14-én drón sodródott partra Rusinowo közelében. Az ügyészség előzetesen orosz gyártású Gerberaként azonosította, és a robbanófej ellenőrzött megsemmisítéséről számolt be.",
     "summary": [
-      "2026. szeptember 14-én a lengyel hadsereg egy feltételezett katonai drónt talált a Balti-tengerben, közvetlenül a Rusinowo strand előtt, Jarosławiec közelében, Lengyelország partján, és kiemelte a vízből vizsgálatra. A dátum a megtalálásé és kiemelésé; hogy mikor repült a drón, és milyen útvonalon jutott el a lengyel partokhoz, nem ismert.",
-      "Lengyelország védelmi minisztere szerint az előzetes értékelés az volt, hogy orosz katonai drón. Ez az azonosítás előzetes, és a kiemelt drón vizsgálatától függ. Hasznos terhet nem jelentettek.",
-      "A lelettel kapcsolatban áldozatokról vagy károkról nem számoltak be."
+      "A poznańi ügyészség október 1-jei közleménye szerint egy haditengerészeti legénység szeptember 14-én 09:20 körül egy sodródó UAV-t figyelt meg Jarosławiec közelében; az 11:25 körül sodródott partra Rusinowo közelében. Ez egyetlen begyűjtési és megsemmisítési esemény, nem egy újabb esemény a későbbi közzététel dátumán.",
+      "Szakemberek leválasztottak egy esetleges robbanótöltetet tartalmazó robbanófejet, és ellenőrzött robbantással megsemmisítették. A nyomozók előzetesen orosz gyártású Gerberaként azonosították a drónt. Az üzemeltető, a célpont, a repülési útvonal és a tengerbe csapódás körülményei tisztázatlanok; a gyártás helye nem állapítja meg az üzemeltetőt vagy a szándékot.",
+      "A nyomozást szeptember 25-én Poznańba helyezték át, és szakértői vizsgálatokat rendeltek el. Áldozatokról vagy károkról nem számoltak be."
     ],
-    "basis": "5071f4361b5692d3"
+    "basis": "4c37729989b9a2c5"
   },
   "E058": {
     "headline": "Olasz NATO-vadászgép lelőtt egy Gerbera drónt a litvániai Pratkūnai közelében",
@@ -569,9 +572,9 @@
     "summary": [
       "2026. szeptember 14-ről 15-re virradó éjszaka egy NATO-val együtt repülő olasz vadászgép beavatkozott, és lelőtt egy drónt Litvánia felett, Pratkūnai közelében. A litván hatóságok ezt követően megvizsgálták a törmeléket és a drón elektronikáját. Áldozatokról nem számoltak be.",
       "A drónt Gerberaként azonosították, amely Oroszország által használt típus. Szeptember 16-án Litvánia elnöke úgy értékelte, hogy valószínűleg ukrán célpontra szánták. Azt, hogyan jutott el Litvániába, ukrán elektronikus hadviselés okozta lehetséges eltérüléssel magyarázták, de ez az ok-okozati leírás értékelés. Sem az orosz típusú azonosítás, sem a szándékolt célpontra vonatkozó értékelés nem bizonyítja a Litvánia elleni szándékos támadást.",
-      "Hogy ez a konkrét drón hordozott-e robbanóanyagot, nem állapították meg; a Gerbera-változatok lehetnek csalik vagy felfegyverzettek."
+      "A Reuters szeptember 15-i jelentése szerint Robertas Kaunas litván védelmi miniszter azt mondta, hogy a drón robbanóanyagot hordozott. Ez egy megnevezett tisztségviselőnek tulajdonított hivatalos nyilatkozat; független törvényszéki megállapításokat és a pontos robbanóanyag-mennyiséget nem vizsgálták. Nem állapítja meg, hogy Litvánia ellen szándékos támadás történt."
     ],
-    "basis": "fce04ead6c652cda"
+    "basis": "2f29e9a25cf1baa8"
   },
   "E059": {
     "headline": "Románia szerint orosz drón hasznos terhe a levegőben felrobbant a solcai lezuhanás előtt",
@@ -1196,9 +1199,10 @@
     "summary": [
       "2026. október 5-én a Royad Mammadov gabonaszállító hajó, amely az ukrajnai Izmajilból az olaszországi Ravennába tartott, a jelentések szerint dróncsapás, fedélzeti robbanás és tűz miatt megrongálódott a Fekete-tengeren, a Pescăruș platform közelében, mintegy 30 tengeri mérföldre délre Sfântu Gheorghétól. A helyszín Románia kizárólagos gazdasági övezetében (KGÖ) volt, a felségvizein kívül. Mentési kérést helyi idő szerint 10:37-kor jegyeztek fel; a csapás pontos idejét nem ellenőrizték.",
       "Volodimir Zelenszkij ukrán elnök szerint két orosz drón találta el a hajót. Ez ukrán állítás, nem független ellenőrzés, és Románia nem tett közzé tulajdonítási megállapítást. Marius Roibu, az MRCC Constanța mentőközpont igazgatója látszólagos többdrónos támadást írt le; a drónok típusa, indítási pontja és üzemeltetői nem megállapítottak.",
-      "Az áldozatokról szóló beszámolók ellentmondanak. Románia Belügyminisztériuma kezdetben két halottat és tizenegy kimentettet jelentett; október 6-án Azerbajdzsán külügyminisztériuma közölte, hogy a kapitány életét vesztette, és egy másik azerbajdzsáni legénységi tag eltűnt. India nagykövetsége szerint három indiai legénységi tag túlélte, egyikük megsérült. A hajó elsüllyedéséről szóló kezdeti jelentést október 6-án helyesbítették, amikor a hajót vízen úszónak és Midiába vontatásra várónak jelentették. A Petrom közölte, hogy a Pescăruș platformot nem érintette."
+      "Az áldozatokról szóló beszámolók ellentmondanak. Románia Belügyminisztériuma kezdetben két halottat és tizenegy kimentettet jelentett; október 6-án Azerbajdzsán külügyminisztériuma közölte, hogy a kapitány életét vesztette, és egy másik azerbajdzsáni legénységi tag eltűnt. India nagykövetsége szerint három indiai legénységi tag túlélte, egyikük megsérült. A hajó elsüllyedéséről szóló kezdeti jelentést október 6-án helyesbítették, amikor a hajót vízen úszónak és Midiába vontatásra várónak jelentették. A Petrom közölte, hogy a Pescăruș platformot nem érintette.",
+      "Románia október 7-én süllyedésveszélyre figyelmeztetett. A hajósoknak szóló 10/65/26 számú értesítés az október 22-i keltezésű térképhelyesbítésben később veszélyes roncsként tüntette fel a hajót. Ez a későbbi állapotát igazolja, nem azt, hogy mikor süllyedt el, történt-e vontatás, vagy hol volt a csapás pontos helye."
     ],
-    "basis": "f110d36fc131a5b5"
+    "basis": "93c08958dbb972eb"
   },
   "N073": {
     "headline": "Dróntámadás Bulgária előtt elsüllyesztette az ALFA WATAN-t, és lángra lobbantotta az ABLE-t",
@@ -1366,14 +1370,15 @@
     "basis": "534d215b86c0e039"
   },
   "N090": {
-    "headline": "Dróncsapás lángra lobbantotta a WINE TRADER-t Sulina előtt; hét legénységi tag eltűnt",
-    "description": "A WINE TRADER-t 2026. október 15-én érte találat Sulina előtt; öt legénységi tagot kimentettek, hét eltűnt. Egy NATO-forrás orosz eredetűnek értékelte a drónokat.",
+    "headline": "Dróncsapás a WINE TRADER-en Sulina előtt; később emberi maradványokat találtak Várnában",
+    "description": "A Sulina előtti október 15-i dróncsapás után Várnában a WINE TRADER javítása során emberi maradványokat találtak. A DNS-alapú azonosítás és a nyomozások folytatódnak.",
     "summary": [
       "Egy drón 2026. október 15-én eltalálta a San Marino-i lobogó alatt közlekedő WINE TRADER tankert Sulina előtt. Románia elnöke megerősítette a támadást. A Reuters által idézett NATO-katonai forrás az e tankert és a YARA J-t eltaláló drónokat orosz eredetűnek értékelte; konkrét üzemeltetőt a vizsgált jelentésekben nem állapítottak meg.",
-      "A tizenkét fős legénységből ötöt kimentettek, hét eltűntnek maradt. Két túlélőnek fejbőrégési sérülése vagy enyhe füstbelégzése volt; mind az öt állapota stabil volt, kórházba szállították őket. A tűz megrongálta a hajót. Végső állapota nem megerősített, az eltűnt legénységi tagokat nem számolják megerősítetten halottként. Viharos tenger akadályozta a mentést. Az IGSU jelentése szerint a keresés október 16-án folytatódott; kezdeti fedélzetre lépési bejelentése terv volt. Egy október 19-i tengerészszakszervezeti közlemény később arról számolt be, hogy a csapatok felszálltak a hajóra, és átkutatták a hozzáférhető tereket, a sérülés akadályozta a keresést. A szakszervezet megismételte: öt kimentett, hét eltűnt. Október 22-én Horvátország külügyminisztériuma közölte, hogy a keresést a múló idő miatt leállították. Egy horvát tengerész eltűnt maradt; egy másik, felszínes égési sérülésekkel kezelt tengerészt elbocsátottak a kórházból. Ez nem változtatja az eltűnteket megerősített halottá.",
+      "Kezdetben a tizenkét fős legénységből ötöt kimentettek, hetet eltűntként jelentettek. Két túlélőnek fejbőrégési sérülése vagy enyhe füstbelégzése volt; mind az öt állapota stabil volt, és kórházba szállították őket. A viharos tenger és a hajó sérülései akadályozták a keresést. Egy október 19-i szakszervezeti közlemény szerint a csapatok átkutatták a hozzáférhető tereket. Október 22-én Horvátország külügyminisztériuma közölte, hogy az eltelt idő miatt leállították a keresést.",
+      "November 7-én a várnai ügyészség megerősítette, hogy súlyosan károsodott emberi maradványokat találtak egy november elején javításra átvett, drón által eltalált hajó kitakarítása közben. A BNR a hajót a WINE TRADER-ként azonosítja, és egy tengerész holttestéről, valamint emberi maradványokról számol be. A személyazonosság megállapítására DNS-vizsgálatokat rendeltek el, a nyomozások Bulgáriában és Romániában folytatódnak. Az elsődleges közlemény nem közöl halálos áldozatszámot. A korai médiajelentések számadatai ellentmondanak egymásnak, ezért a korábbi mentési adatokból nem vezethető le sem végleges áldozatszám, sem a még eltűntek jelenlegi száma.",
       "A hajót a jelentések szerint Sulinától mintegy 13 tengeri mérföldre délkeletre, közvetlenül a román felségvizeken kívül jelezték. A nyilvántartás nyílt tengeri lefedettségébe tartozik. A 06:58-as mentési kérés nem ellenőrzött támadási idő. Ez a korábbi, csak tűzre vonatkozó megfigyelési listás nyomot egy piros Csapás-bejegyzéssé emeli, egyesítve a támadást, a tüzet és a mentést; külön marad a YARA J-től és a Sea Destinytől."
     ],
-    "basis": "186f434beac254b7"
+    "basis": "5f5c3c23d1d87774"
   },
   "N091": {
     "headline": "Dailidžiai: határőrök begyűjtöttek egy határon átrepülő cigarettacsempész drónt",
@@ -1570,13 +1575,15 @@
     "basis": "fcab4114f04792bb"
   },
   "N112": {
-    "headline": "KHORYV dróncsapás-jelentés: a hajó felborult, de még vízen van",
-    "description": "A KHORYV október 23-án felborult Konstanca előtt. Egy navigációs értesítés szerint még vízen van, ami ellentmond az elsüllyedési jelentéseknek. Egy halott, három eltűnt.",
+    "headline": "KHORYV dróncsapás-jelentés: a haditengerészet felmérése szerint a roncs teljesen víz alá merült",
+    "description": "A KHORYV-t a jelentések szerint október 23-án találat érte a nyílt tengeren. Egy november 19-i haditengerészeti felmérés a jelentések szerint teljesen elmerülve találta a roncsot. A keresés végső kimenetele ismeretlen.",
     "summary": [
-      "A KHORYV október 23-án felborult a román felségvizeken kívül. Az AGERPRES az elnök azon nyilatkozatához köti, hogy egy drón eltalált egy hajót. Az aktuális elsődleges navigációs értesítés, az ARN155, október 25-én a KHORYV-t részben elmerültnek, de még fejjel lefelé vízen úszónak jelenti, az elsüllyedésről szóló sajtójelentések ellenére. A befejezett elsüllyedést nem tekintik megállapítottnak.",
-      "Románia tizenhárom fős legénységet jelent: kilencet kimentettek, egy meghalt, három eltűnt. Ukrajna megerősít egy ukrán halálos áldozatot, de tizennégy fős legénységet jelent; az eltérés tisztázatlan marad. Az értesítések keltezett felborulási és az azt követő sodródó roncs pozíciókat adnak meg, nem ellenőrzött csapás-koordinátát. Az üzemeltetői tulajdonítás és a keresés végső kimenetele tisztázatlan marad."
+      "A jelentések szerint a KHORYV-t október 23-án Konstanca előtt, a nyílt tengeren drón találta el, és kigyulladt, majd felborult. A NAVWARN 766/26 egy felborult, félig elmerült, sodródó roncs október 28-án 18:00 UTC-kor keltezett megfigyelését írja le. Október 29-én a bTV a bolgár védelmi minisztériumra hivatkozva részleges elmerülésről és továbbra is fennálló veszélyről számolt be; a Maritime.bg később egy új, november 1-jei frissítésben arról írt, hogy a tat leért a tengerfenékre, az orr pedig még látható. A Maritime.bg a bolgár védelmi minisztérium sajtóirodájának megerősítésére hivatkozva arról számolt be, hogy egy november 19-i haditengerészeti felmérés Shabla előtt, mintegy 50 méter mély víz alatt, teljesen elmerülve találta a roncsot. A pontos elsüllyedési időt és a korábbi figyelmeztetés visszavonását nem ellenőrizték. Ezek a későbbi roncsmegfigyelések nem helyezik át az eredeti nyílt tengeri csapás helyét.",
+      "Románia tizenhárom fős legénységet jelent: kilencet kimentettek, egy meghalt, három eltűnt. Ukrajna megerősít egy ukrán halálos áldozatot, de tizennégy fős legénységet jelent; az eltérés tisztázatlan marad. Az értesítések keltezett felborulási és az azt követő sodródó roncs pozíciókat adnak meg, nem ellenőrzött csapás-koordinátát. Az üzemeltetői tulajdonítás és a keresés végső kimenetele tisztázatlan marad.",
+      "Bulgária október 27-én megfigyelést és tervezett haditengerészeti szemlét jelentett be. Másnap reggel a bolgár védelmi miniszter közölte, hogy a roncs éppen bolgár felségvizekre lép. Ezek későbbi, a sodródó roncsra vonatkozó jelentések, nem új támadás, és nem módosítják az eredeti nyílt tengeri csapás helyét.",
+      "A bTV arról számolt be, hogy a Reshitelni a helyszínen van, a műveleteket pedig a rossz idő miatt felfüggesztették; a Maritime.bg elsüllyesztési kísérleteket írt le. Ezek ugyanazon esemény fejleményei maradnak, nem új támadás, és nem tisztázzák az eltűnt személyek sorsát."
     ],
-    "basis": "5f8e6ad7a2fd7810"
+    "basis": "63b1a3f055a1d63d"
   },
   "N113": {
     "headline": "Görögország 8 török UAV-t és 12 légtérsértést jelent október 21-én",
@@ -1610,9 +1617,9 @@
     "description": "2026. október 21-én habszivacs repülőgéptestet találtak Lubaczówban. A katonai rendőrség nem talált robbanóanyagot; eredete és bármely külföldi kapcsolat ismeretlen.",
     "summary": [
       "2026. október 21-én 13:00 után nem sokkal roncsot jelentettek a lubaczówi Herzoga utca egy lakatlan telkén. A közelben élőket kitelepítették, amíg szakemberek értékelték a lehetséges veszélyeket; sérülésről vagy anyagi kárról nem számoltak be.",
-      "A katonai rendőrség október 22-én fegyvertelen habszivacs repülőgéptestet azonosított, és kizárta a robbanóanyagot, valamint a radiológiai, biológiai vagy vegyi veszélyeket. Az ügyész október 23-i frissítése szerint a drónt katonai kémelhárításnak adták át, a rajta lévő csomagot pedig Varsóban vizsgálják. Az előzetes, rövid hatótávra vonatkozó értékelés nem állapítja meg az eredetet vagy a külföldi belépést. Ez továbbra is egyetlen előzetes begyűjtési jelölt."
+      "A katonai rendőrség október 22-én fegyvertelen habszivacs repülőgéptestet azonosított, és kizárta a robbanóanyagot, valamint a radiológiai, biológiai vagy vegyi veszélyeket. A Radio Lublin október 22-i cikke az ügyészség szóvivőjét idézi, aki szerint a drónt átadták a katonai kémelhárításnak, a csomagját pedig vizsgálatra küldték; az aznapi elsődleges közlemény az átadást még jövőbeli lépésként írja le. Az előzetes, rövid hatótávra vonatkozó értékelés nem állapítja meg az eredetet vagy a külföldi belépést. Ez továbbra is egyetlen előzetes begyűjtési jelölt."
     ],
-    "basis": "fab6a30cef996170"
+    "basis": "2f669bcaffd204ab"
   },
   "N117": {
     "headline": "Görögország hat török UAV-t és tizenhárom légtérsértést jelent október 23-án",
@@ -1668,5 +1675,861 @@
       "A NewsIT és az OnAlert ugyanazt a hivatalos beszámolót közli, nem független megfigyeléseket. Azonosítást és elfogást jelentettek, fegyveres összecsapás nélkül. Ez egyetlen napi tevékenységi bejegyzés, nem a légi járművek és az átlépések számának összege."
     ],
     "basis": "b6d8a69eda200b68"
+  },
+  "N124": {
+    "headline": "Felszíni drónok találták el a CONTSHIP JET-et a nyílt tengeren; a legénységet kimentették, a hajó később elsüllyedt",
+    "description": "A bolgár hatóságok október 28-i felszíni drónos csapásról számolnak be a CONTSHIP JET ellen. Mind a 18 legénységi tagot kimentették; a Varna Radio megerősíti a későbbi elsüllyedést.",
+    "summary": [
+      "A bolgár védelmi hatóságok szerint a haditengerészet megfigyelése és egy francia járőrrepülőgép október 28-án helyi idő szerint 12:00-kor (10:00 UTC) felszíni drónos támadást figyelt meg a CONTSHIP JET ellen, három találatot észlelve. A Varna Radio a csapás helyét a Kaliakra-fok előtt, a 43°15′N, 028°48′E pozícióban adja meg. Ez egyetlen nyílt tengeri, kereskedelmi hajózást érintő esemény, nem megerősített bolgár területi behatolás.",
+      "A védelmi és közlekedési hatóságok megerősítik, hogy mind a 18 legénységi tagot kimentették. A Varna Radio NAVWARN 768/26 figyelmeztetése megerősíti, hogy a hajó ezt követően, október 28-án 20:30 UTC-kor elsüllyedt a 43°07.80′N, 028°45.36′E pozícióban, és több mint 20 konténer sodródik, köztük veszélyes áruval. Ez felülírja az elsüllyedésről szóló korábbi, nem hivatalos jelentést.",
+      "A drón üzemeltetője, indítási helye és az indíték ismeretlen. A Reuters beszámol az Ambrey előzetes, videófelvételeken alapuló értékeléséről, amely szerint valószínűleg Murena-300S-ből származtatott konstrukcióról van szó; ez nem megerősített típus- vagy üzemeltető-azonosítás. A három jelentett drón és a három megfigyelt találat nem különálló incidensek. A későbbi elsüllyedési pozíció nem helyettesíti az eredeti csapás koordinátáját.",
+      "November 1-jén navigációs figyelmeztetések sodródó konténerekről számoltak be a Burgaszi-öböl közelében. Ezek kapcsolata a CONTSHIP JET-tel továbbra is feltételes. November 3-án a burgaszi területi közigazgatás három megfigyelés alatt álló tárgyról számolt be Oasis–Arapya, a sinemoretsi Kamennite Korabi és Butamyata közelében. A rakományjegyzék adatai nem veszélyes rakományt és egy üres tartályt írtak le; a tényleges tartalmat és a forráshajót akkor még vizsgálták. A mintavétel és az őrzés folytatódott, laboratóriumi ártalmatlansági igazolásról nem számoltak be. Ezek a rakomány okozta veszéllyel kapcsolatos fejlemények, nem új dróntámadások vagy összesített konténerszám.",
+      "November 4-én a kormányzó azt mondta a bTV-nek, hogy az időjárás és a nehéz megközelíthetőség késlelteti a kiemelést. A harmadik konténer helye ismeretlen volt; a török vizek csak lehetőségként merültek fel. Laboratóriumi ártalmatlansági igazolást nem bocsátottak rendelkezésre.",
+      "Libéria tengerészeti hatósága egy közleményben arról számolt be, hogy a legénység biztonságban van, sérülésről nem érkezett jelentés; a közlemény egy meg nem nevezett hajót írt le, amelynek dátuma, lobogója, osztálya és a jelentett három találat egyezik a megnevezett bolgár beszámolókkal. Tsarevo önkormányzata november 12-én közölte, hogy a munkacsoportok mindkét Lipite strandról eltávolították a pirospaprikás zsákokat. A rakomány kapcsolata a CONTSHIP JET-tel feltételes maradt, és a közlemény nem tartalmazott laboratóriumi eredményeket.",
+      "November 24-én a hatóságok felnyitották a Tsarevo közelében november 2-án partra sodródott konténert. A burgaszi kormányzó a BTA-nak azt mondta, hogy körülbelül 80 doboz karácsonyi dekoráció volt benne, a rakományjegyzéknek megfelelően. A Contships Management a Reutersnek azt közölte, hogy nem tudja megerősíteni, hogy a konténer a CONTSHIP JET fedélzetén volt. A felnyitás nem állapítja meg a forráshajót, az egyéb rakományt vagy a szennyezésvizsgálati eredményeket."
+    ],
+    "basis": "7eebe0feab2ab6ff"
+  },
+  "N125": {
+    "headline": "UAV került elő Osieka közelében, miután az ügyészség szerint Oroszország felől lépett át a határon",
+    "description": "Az ügyészség május 8-i engedély nélküli orosz–lengyel határátlépésről számol be; a fegyvertelen UAV május 9-én került elő Osieka közelében. Az üzemeltető továbbra is ismeretlen.",
+    "summary": [
+      "Május 9-én Osieka közelében egy fegyvertelen felderítő UAV épen került elő, miután egy civil rátalált egy mezőn. Május 11-én az olsztyni ügyészség szóvivője közölte, hogy a nyomozók biztosak abban, hogy átlépte az orosz–lengyel határt, és a vizsgált határátlépést május 8-ra datálta.",
+      "A határátlépésre vonatkozó megállapítás bizonyítékait nem hozták nyilvánosságra. Az üzemeltető, a gyártás, a szándékolt célpont, a pontos útvonal és a lezuhanás ideje tisztázatlan. A kamerákról és cirill betűs jelölésekről szóló médiaállításokat az ügyészség nem erősítette meg. Ez egyetlen visszamenőleges esemény, nem új októberi tevékenység."
+    ],
+    "basis": "9df76f2823d89cb7"
+  },
+  "N126": {
+    "headline": "UAV-maradványok kerültek elő a Popski strandon; eredetük tisztázatlan",
+    "description": "A védelmi minisztérium válasza szerint október 21-én egy haditengerészeti csapat UAV-alkatrészeket gyűjtött be a tsarevói Popski strandon. A repülés dátuma és a nemzeti eredet ismeretlen.",
+    "summary": [
+      "Az OFFNews a bolgár védelmi minisztériumot idézi, amely megerősítette, hogy október 21-én egy haditengerészeti csapat megvizsgálta és összegyűjtötte az UAV-alkatrészeket a Popski strandon, majd bázisra szállította őket. Ez egy begyűjtési művelet dátuma, nem repülésé vagy lezuhanásé.",
+      "A minisztérium kifejezetten megkülönböztette a begyűjtést egy közeli, Arapyával kapcsolatos ellenőrizetlen állítástól. A típus, az eredet, az üzemeltető, a hasznos teher és a partra kerülés módja tisztázatlan. Ez az előzetes begyűjtési jelölt nem megerősített külföldi behatolás, és nem bizonyítja egy további, különálló légi jármű létét."
+    ],
+    "basis": "3572d703997e5cd9"
+  },
+  "N127": {
+    "headline": "Drónmaradványokat jelentettek a Listi strandon; a begyűjtés dátuma ismeretlen",
+    "description": "A BNR egy szárnyról és egy törzsszakaszról számolt be, amelyeket a Sinemorets melletti Listi strandon gyűjtöttek be. Az október 28-i dátum a közlésé, nem ellenőrzött megtalálási dátum.",
+    "summary": [
+      "A BNR burgaszi tudósítója arról számolt be, hogy a Listi strandon egy szárnyat és egy törzsszakaszt találtak, amelyeket bejelentés után a határrendőrség gyűjtött be. A cikk október 28-án jelent meg, de nem közöl pontos megtalálási vagy begyűjtési dátumot; a nyilvántartás kifejezetten helyettesítő dátumként a jelentés dátumát használja.",
+      "Az eredet, a típus, az üzemeltető, a hasznos teher és a repülés vagy lezuhanás dátuma tisztázatlan. Ez az előzetes begyűjtési jelölt a jelentett helyszín alapján különbözik a Popski strandtól, de egy további, egyedi légi jármű léte nem megállapított. A közeli Arapyával kapcsolatos tulajdonítási állítás nem vonatkozik ezekre a maradványokra."
+    ],
+    "basis": "22e8ad26c842d4a6"
+  },
+  "N128": {
+    "headline": "Görögország öt török UAV-t jelent 13 égei-tengeri légtérsértés kapcsán",
+    "description": "A görög katonai jelentések október 30-án 13 nemzeti légtérsértést tulajdonítanak öt török UAV-nek. Egy napi bejegyzés; a pontos útvonalakat nem tették közzé.",
+    "summary": [
+      "Az október 30-án közölt görög katonai adatok 13 nemzeti légtérsértést és 11 athéni FIR-szabálysértést tulajdonítanak öt török UAV-nek az Égei-tenger északkeleti, középső és délkeleti részén. A nemzeti légtérre vonatkozó értékelés és a katonai tulajdonítás Görögországé; a pontos útvonalakat nem tették közzé.",
+      "Ez egyetlen napi regionális bejegyzés, nem 13 támadás. A vegyes napi összesítésben szereplő, ember vezette repülőgépekkel elkövetett szabálysértések és két összecsapás nem bizonyítja az UAV-k felfegyverzettségét, fegyverhasználatot vagy lelövést. A pontos típusok, hasznos terhek és szándékolt célpontok ismeretlenek."
+    ],
+    "basis": "8d16fbffeee972eb"
+  },
+  "N129": {
+    "headline": "Románia két engedély nélküli drónbelépést erősít meg északkeleti részén",
+    "description": "Románia két drón október 31-i belépéséről számol be. Az egyik távozott, a másikat utoljára Vaslui és Bacău közelében észlelték. Lezuhanásról nem számoltak be.",
+    "summary": [
+      "Románia védelmi minisztériuma megerősíti, hogy 2026. október 31-én este két drón lépett be az ország északkeleti légterébe. Az egyik távozott, a másikat utoljára Vaslui és Bacău megye között észlelték. A közzététel idején lezuhanásról nem számoltak be.",
+      "Négy F-16-os és egy IAR-330 SOCAT szállt fel, a lakossági figyelmeztetések helyi idő szerint 19:19-kor értek véget. Ez egyetlen, két drónt érintő esemény, nem két ellenőrzött támadás. Az üzemeltető, a típus, a szándék és a célpontok ismeretlenek; a térképi horgony hozzávetőleges.",
+      "Az Iași-i repülőtér igazgatója szerint egy Eindhovenből érkező Wizz Air-járatot az ideiglenes légtérzár idején Suceavába irányítottak át. Ez a fennakadás ugyanahhoz az epizódhoz tartozik, nem újabb berepülés."
+    ],
+    "basis": "5c2d0df27e180a9b"
+  },
+  "N130": {
+    "headline": "Lettország értékelése szerint a november 1-jén áthaladt UAV valószínűleg orosz Geran volt",
+    "description": "Az NBS értékelése szerint a Lettországon november 1-jén áthaladt UAV valószínűleg orosz Geran volt. Oroszország felé távozott; az esetleges robbanó hasznos teher és a szándék ismeretlen.",
+    "summary": [
+      "Tisztségviselők szerint egy drón Fehéroroszország felől átrepült Kelet-Lettországon, és november 1-jén 19:16-kor Oroszország felé távozott. Az NBS ezt követően, az érzékelők és az elfogóeszköz adatainak elemzése, valamint ukrán partnerekkel folytatott konzultáció után valószínűleg orosz Geranként értékelte.",
+      "Lettország 19:19-kor saját elfogóeszközét önmegsemmisítéssel semmisítette meg. Ez nem az észlelt UAV jelentett lelövése volt. Az NBS nem tudja megállapítani, hogy az UAV hordozott-e robbanóanyagot; az üzemeltető, a szándék és a célpont nem megerősített."
+    ],
+    "basis": "c77fff5610f5734e"
+  },
+  "N131": {
+    "headline": "Figyelmeztetés Tulcea megye északi részén; román légtérbe lépésről nem számoltak be",
+    "description": "Románia november 2-án figyelmeztetést adott ki Tulcea megye északi részére a közeli ukrajnai támadások után. A MApN nem jelentett belépést a román nemzeti légtérbe.",
+    "summary": [
+      "Tulcea megye északi része november 2-án 04:11-kor RO-Alert riasztást kapott az ukrán dunai kikötők elleni dróntámadások után. Románia F-16-osokat és egy Puma SOCAT helikoptert vetett be; a riasztás helyi idő szerint 05:26-kor ért véget.",
+      "A MApN nem jelentett belépést a román légtérbe. Ez polgári védelmi riasztás, nem berepülés vagy megerősített támadás Romániában. A térképi pont a figyelmeztetési területet jelöli."
+    ],
+    "basis": "b3d536ba24881e16"
+  },
+  "N132": {
+    "headline": "Lettország megerősítette egy UAV észlelését; eredete és esetleges balvi leesése tisztázatlan",
+    "description": "Az NBS megerősíti, hogy november 3-án egy UAV volt Lettországban. Külsőre ukrán katonai drónokra hasonlított, de típusa, eredete és esetleges balvi leesése nem megerősített.",
+    "summary": [
+      "Az NBS megerősíti, hogy a november 3-i Balvi–Ludza riasztás idején egy UAV-t észleltek a lett légtérben. Az első vizuális azonosítás alapján ukrán katonai UAV-kra hasonlított, de a fegyveres erők kifejezetten közölték, hogy típusát és eredetét nem tudják megerősíteni.",
+      "Az UAV Balvi községben eshetett le; a földi keresés folytatódott. Ez továbbra is tisztázatlan eredetű és kimenetelű jelölt, nem megerősített külföldi behatolás, lezuhanás vagy lelövés. A regionális térképi pont nem ellenőrzött lezuhanási hely."
+    ],
+    "basis": "505a6db792d85d51"
+  },
+  "N133": {
+    "headline": "Éjszakai figyelmeztetés Tulcea megyében: román légtérbe lépésről nem számoltak be",
+    "description": "Tulcea megye északi része november 2-án késő este figyelmeztetést kapott Ukrajna feletti légi tevékenység után. A MApN nem jelentett román légtérbe lépést; a riasztás éjfél után ért véget.",
+    "summary": [
+      "A MApN november 2-ról 3-ra virradó éjszaka két radarcélt jelentett Ukrajna felett, Izmajil és Chilia közelében. Tulcea megye északi része 23:43-kor RO-Alert riasztást kapott; a figyelmeztetés helyi idő szerint 00:21-kor ért véget. Válaszul két spanyol F-18-as szállt fel.",
+      "Román légtérbe lépésről nem számoltak be. Ez egy kiválasztott polgári védelmi riasztás, amely különbözik a korábbi, november 2-i figyelmeztetéstől, és nem megerősített berepülés vagy támadás Romániában. A térképi horgony a figyelmeztetési területet jelöli."
+    ],
+    "basis": "a90d1dcd244ae758"
+  },
+  "N134": {
+    "headline": "Figyelmeztetés Tulcea megye északi részén november 4-én; román légtérbe lépésről nem számoltak be",
+    "description": "Egy Ukrajna feletti cél miatt november 4-én két F-16-os szállt fel, és figyelmeztetést adtak ki Tulcea megye északi részére. A MApN nem jelentett román légtérbe lépést.",
+    "summary": [
+      "Tulcea megye északi része november 4-én 10:57-kor RO-Alert riasztást kapott, miután az ukrajnai Vîlcovétól északra radarcélt észleltek. Borceáról két F-16-os szállt fel.",
+      "A MApN nem jelentett román légtérbe lépést. Ez a kiválasztott riasztás különbözik a november 2-ról 3-ra virradó éjszakai figyelmeztetéstől; a térképi pont a figyelmeztetési területet jelöli."
+    ],
+    "basis": "eefa3af945e0c8ca"
+  },
+  "N135": {
+    "headline": "Drónmaradványokat találtak Boghiceában; ellenőrzött megsemmisítésről számoltak be",
+    "description": "A Boghiceában november 5-én talált drónmaradványokat a jelentések szerint még aznap este megsemmisítették. Eredetük és esetleges kapcsolatuk az október 31-i repüléssel tisztázatlan.",
+    "summary": [
+      "Egy helyi lakos szétszórt maradványokat talált Boghiceában, és értesítette a sagnai vidéki rendőrséget. A helyszínre rendőrök, tűzoltók és SRI-szakemberek vonultak ki. A ProTV szerint a szakemberek november 5-én este, vizsgálat és egy RO-Alert figyelmeztetés után felrobbantották a maradványokat.",
+      "A külföldi eredet, a leesés dátuma és az N129-cel való esetleges kapcsolat nem megerősített. A ProTV egyértelműen beszámol a megsemmisítés befejezéséről; a befejezésről szóló közvetlen hivatalos nyilatkozatot nem sikerült beszerezni. A szemtanúk által látott felirat nem állapítja meg az üzemeltetőt vagy a típust.",
+      "Egyetlen megtalálási bejegyzés, nem újonnan ellenőrzött repülés vagy további UAV a számlálásban. Az N129-cel való lehetséges kapcsolat tisztázatlan; ha a bizonyítékok később ugyanazt a drónt igazolják, a bejegyzéseket össze kell vonni vagy kereszthivatkozással össze kell kapcsolni. A vészhelyzeti reagálás és a megsemmisítési figyelmeztetés nem különálló események."
+    ],
+    "basis": "b1fd2b840a7ff077"
+  },
+  "N136": {
+    "headline": "Tulcea · Éjszakai RO-Alert november 6-án",
+    "description": "Hivatalos figyelmeztetés; román légtérbe lépésről nem számoltak be. Csak riasztás; berepülés, beavatkozás vagy csapás nem következtethető belőle.",
+    "summary": [
+      "Közeli, ukrán kikötők elleni támadások miatt figyelmeztetést adtak ki. RO-Alert kiadva 00:19-kor; a riasztás helyi idő szerint 00:41-kor ért véget.",
+      "A drónok számát és típusát a közlemény nem részletezi. Repülési útvonal, drónszám vagy típus nem megállapított.",
+      "Egyetlen kiválasztott riasztás, amely különbözik a későbbi, 08:56-os reggeli N137 figyelmeztetéstől."
+    ],
+    "basis": "42bf1e8a50a620f5"
+  },
+  "N137": {
+    "headline": "Tulcea megye északi része · Reggeli riasztás Sulina közeli cél miatt november 6-án",
+    "description": "Hivatalos radarcél-figyelmeztetés; román légtérbe lépés nem megállapított. Csak riasztás; berepülés, beavatkozás vagy csapás nem következtethető belőle.",
+    "summary": [
+      "Közeli légi tevékenység miatt polgári védelmi figyelmeztetést adtak ki. Borceáról két F-16-os szállt fel; a Tulcea megye északi részére szóló figyelmeztetés helyi idő szerint 08:56 és 09:27 között volt érvényben.",
+      "Légi radarcél; a drón azonosítása és típusa az idézett közleményben nem megerősített. Nincs ellenőrzött típus, üzemeltető vagy román határátlépés. Az éjszakai, belépés hiányát rögzítő megállapítás az N136-hoz tartozik, és nem vihető át erre az epizódra.",
+      "Különálló reggeli figyelmeztetés, nem a 00:19–00:41 közötti N136 epizód. A vadászgépes reagálás nem jelent újabb eseményt."
+    ],
+    "basis": "7a65445d491a71de"
+  },
+  "N138": {
+    "headline": "Drónbegyűjtés: Shabla · Orosznak minősített drón sodródott partra, megsemmisítették, Bulgária",
+    "description": "2026. november 6., Shabla · Orosznak minősített drón sodródott partra, megsemmisítették, Bulgária. Hivatalosan azonosított légi drónt gyűjtöttek be és semmisítettek meg. Parti…",
+    "summary": [
+      "A parton tett felfedezést helyi idő szerint 10:00-kor jelentették a hatóságoknak.",
+      "Hivatalosan azonosított légi drónt gyűjtöttek be és semmisítettek meg. Az orosz minősítés a bolgár szemle értékelése; a konkrét üzemeltető és küldetés nem megállapított. A polgármester korai, Shahed-jelölésekről és robbanóanyagról szóló beszámolóját felülírta a katonai szemle: nem voltak feliratok, és robbanótöltet sem volt. A leesés dátuma és bármely hajózás elleni támadással való kapcsolata ismeretlen."
+    ],
+    "basis": "de692ebadb5d7d7f"
+  },
+  "N139": {
+    "headline": "Égei-tenger · Jelentett török UAV-tevékenység november 6-án",
+    "description": "A görög nyilvántartás november 6-ra 10 török UAV-t jelent. Az összesített légijármű-adatok nem csak drónokra vonatkoznak.",
+    "summary": [
+      "Az elsődleges GEETHA havi nyilvántartás 10 UAV-t és egy ATR-72-est sorol fel, összesen 15 FIR-szabálysértéssel és összesen 23 nemzeti légtérsértéssel. A nyilvántartás a vegyes összesítéseket nem bontja le légijármű-típusok szerint.",
+      "A korábbi, másodközlésben megjelent napi tájékoztató 9 FIR-szabálysértést és 15 nemzeti légtérsértést rendelt 7 UAV-hoz. Az eltérés okát nem közölték. Ezek az adatok a görög hatóságoktól származnak; nem függetlenül ellenőrzött útvonalak vagy megerősített támadásszám."
+    ],
+    "basis": "fd5cda8f3a302eca"
+  },
+  "N140": {
+    "headline": "Égei-tenger · Jelentett török UAV-tevékenység november 5-én",
+    "description": "A görög nyilvántartás november 5-re 5 török UAV-t jelent. A korábbi napi adatok eltértek.",
+    "summary": [
+      "Az elsődleges GEETHA havi nyilvántartás 5 UAV-t sorol fel, ember vezette repülőgépet nem, 8 FIR-szabálysértéssel és 17 nemzeti légtérsértéssel. Aznap minden jelentett légi jármű UAV volt.",
+      "A korábbi, másodközlésben megjelent napi tájékoztató 6 FIR-szabálysértést és 9 nemzeti légtérsértést rendelt 4 UAV-hoz. Az eltérés okát nem közölték. Ezek az adatok a görög hatóságoktól származnak; nem függetlenül ellenőrzött útvonalak vagy megerősített támadásszám."
+    ],
+    "basis": "5f5e69b30526d99c"
+  },
+  "N141": {
+    "headline": "Égei-tenger · Jelentett török UAV-tevékenység november 7-én",
+    "description": "A görög nyilvántartás november 7-re 8 török UAV-t jelent. A korábbi napi adatok eltértek.",
+    "summary": [
+      "Az elsődleges GEETHA havi nyilvántartás 8 UAV-t sorol fel, ember vezette repülőgépet nem, 10 FIR-szabálysértéssel és 8 nemzeti légtérsértéssel. Aznap minden jelentett légi jármű UAV volt.",
+      "A korábbi, másodközlésben megjelent napi tájékoztató 8 FIR-szabálysértést és 4 nemzeti légtérsértést rendelt 6 UAV-hoz. Az eltérés okát nem közölték. Ezek az adatok a görög hatóságoktól származnak; nem függetlenül ellenőrzött útvonalak vagy megerősített támadásszám."
+    ],
+    "basis": "10e6e252c784d0ee"
+  },
+  "N142": {
+    "headline": "Azonosítatlan objektum: román felségvizek · Azonosítatlan cél lép a légtérbe, Románia",
+    "description": "2026. november 5., román felségvizek · Azonosítatlan cél lép a légtérbe, Románia. A MApN által jelentett légtérbe lépés; drónként való azonosítása nem megerősített. A…",
+    "summary": [
+      "A MApN háromperces belépést jelentett a nemzeti légtérbe.",
+      "A MApN által jelentett légtérbe lépés; drónként való azonosítása nem megerősített. Az üzemeltetőt nem azonosították. A belépést a hatóság jelentette, de a drónként való azonosítás, a típus, az üzemeltető és a szándék tisztázatlan. A médiabeszámolók ugyanazt a hivatalos közleményt adják vissza. A boghiceai N135-tel való kapcsolatot nem állapították meg."
+    ],
+    "basis": "59712b8a83097feb"
+  },
+  "N143": {
+    "headline": "Drónriasztás: Tulcea megye keleti része · Célfigyelmeztetés a Kígyó-sziget közelében, Románia",
+    "description": "2026. november 8., Tulcea megye keleti része · Célfigyelmeztetés a Kígyó-sziget közelében, Románia. Hivatalos radarcél-figyelmeztetés; román légtérbe lépés nem megállapított. Két közeli cél…",
+    "summary": [
+      "Két közeli cél észlelése figyelmeztetést és katonai megfigyelést váltott ki.",
+      "Hivatalos radarcél-figyelmeztetés; román légtérbe lépés nem megállapított. Az üzemeltetőt nem azonosították. Az idézett közlemények nem állapítják meg a román légtérbe lépést, a drón típusát vagy üzemeltetőjét. Az, hogy az első cél eltűnt a radarról, nem jelent lezuhanást. A hallgatásból nem vezethető le kifejezett értékelés arról, hogy nem történt belépés."
+    ],
+    "basis": "4cff8ae9f4cbdedb"
+  },
+  "N144": {
+    "headline": "Drónriasztás: Tulcea megye északi része · Célfigyelmeztetés Chilia Veche közelében, Románia",
+    "description": "2026. november 8., Tulcea megye északi része · Célfigyelmeztetés Chilia Veche közelében, Románia. Hivatalos radarcél-figyelmeztetés; román légtérbe lépés nem megállapított. Egy későbbi, különálló…",
+    "summary": [
+      "Egy későbbi, különálló cél észlelése figyelmeztetést váltott ki Tulcea megye északi részén.",
+      "Hivatalos radarcél-figyelmeztetés; román légtérbe lépés nem megállapított. Az üzemeltetőt nem azonosították. A cél típusa, üzemeltetője és bármilyen román határátlépés nem megállapított. Egy figyelmeztetés és a vadászgépek felszállása önmagában nem berepülés vagy beavatkozás."
+    ],
+    "basis": "51af4b15dda166f7"
+  },
+  "N145": {
+    "headline": "Azonosítatlan objektum: Lipite strand, Sinemorets · Azonosítatlan drónt találtak, Bulgária",
+    "description": "2026. november 8., Lipite strand, Sinemorets · Azonosítatlan drónt találtak, Bulgária. Drónlelet és források szerinti hivatalos begyűjtés; eredete tisztázatlan. A BNT…",
+    "summary": [
+      "A BNT stábja a partra sodródott rakományról tudósítva találta meg a légi járművet.",
+      "Drónlelet és források szerinti hivatalos begyűjtés; eredete tisztázatlan. A nemzeti eredet és az üzemeltető tisztázatlan; nincs megerősített külföldi repülés vagy határon átnyúló belépés. Az eredet, az üzemeltető, a hasznos teher és az érkezési útvonal tisztázatlan. A közelben talált rakomány nem bizonyítja, hogy a drón egy hajóhoz vagy támadáshoz kapcsolódik. A kormányzó háborús összefüggésekre utaló értékelése nem műszaki azonosítás. Befejezett megsemmisítés nem megállapított."
+    ],
+    "basis": "8994bcc4baaa422f"
+  },
+  "N146": {
+    "headline": "Égei-tenger · Jelentett török UAV-tevékenység november 8-án",
+    "description": "A görög nyilvántartás november 8-ra 5 török UAV-t jelent. A korábbi napi adatok eltértek.",
+    "summary": [
+      "Az elsődleges GEETHA havi nyilvántartás 5 UAV-t sorol fel, ember vezette repülőgépet nem, 6 FIR-szabálysértéssel és 6 nemzeti légtérsértéssel. Aznap minden jelentett légi jármű UAV volt.",
+      "A korábbi, másodközlésben megjelent napi tájékoztató 4 FIR-szabálysértést és 4 nemzeti légtérsértést rendelt 4 UAV-hoz. Az eltérés okát nem közölték. Ezek az adatok a görög hatóságoktól származnak; nem függetlenül ellenőrzött útvonalak vagy megerősített támadásszám."
+    ],
+    "basis": "e9cdcb8a8e0ac546"
+  },
+  "N147": {
+    "headline": "Égei-tenger · Jelentett török UAV-tevékenység november 9-én",
+    "description": "A görög nyilvántartás november 9-re 5 török UAV-t jelent. Az összesített légijármű-adatok nem csak drónokra vonatkoznak.",
+    "summary": [
+      "Az elsődleges GEETHA havi nyilvántartás 5 UAV-t és egy ATR-72-est sorol fel, összesen 7 FIR-szabálysértéssel és összesen 3 nemzeti légtérsértéssel. A nyilvántartás a vegyes összesítéseket nem bontja le légijármű-típusok szerint.",
+      "A korábbi, másodközlésben megjelent napi tájékoztató 5 FIR-szabálysértést és 2 nemzeti légtérsértést rendelt 5 UAV-hoz. Az eltérés okát nem közölték. Ezek az adatok a görög hatóságoktól származnak; nem függetlenül ellenőrzött útvonalak vagy megerősített támadásszám."
+    ],
+    "basis": "05f7be48ee62885b"
+  },
+  "N148": {
+    "headline": "Drónrepülés: Sulina · Jelentett drónbelépés a légtérbe, Románia",
+    "description": "2026. november 9., Sulina · Jelentett drónbelépés a légtérbe, Románia. A MApN által jelentett drónbelépés a román nemzeti légtérbe. A későbbi jelentések kifejezetten…",
+    "summary": [
+      "A későbbi jelentések kifejezetten megerősítik a belépést a közeli célról szóló kezdeti figyelmeztetés után. A nyom ezt követően eltűnt a radarról.",
+      "A MApN által jelentett drónbelépés a román nemzeti légtérbe. Az üzemeltető, a nemzeti eredet, a szándékolt célpont és a szándék nem megállapított. A források a védelmi minisztérium információit adják tovább, nem függetlenül ellenőrzött radarnyomokat. A belépés ideje és időtartama, a típus, az üzemeltető, a célpont és a végső kimenetel ismeretlen. A radarkapcsolat elvesztése nem bizonyítja a lezuhanást, a lelövést vagy a távozást."
+    ],
+    "basis": "ffa47195c16e1a8e"
+  },
+  "N149": {
+    "headline": "Drónriasztás: Tulcea megye keleti része · Célfigyelmeztetés Sulina közelében november 10-én, Románia",
+    "description": "2026. november 10., Tulcea megye keleti része · Célfigyelmeztetés Sulina közelében november 10-én, Románia. A MApN által jelentett közeli légi cél; román légtérbe lépés nem megállapított. Egy közeli cél…",
+    "summary": [
+      "Egy közeli cél miatt két F-16-os szállt fel, és lakossági figyelmeztetést adtak ki Tulcea megye keleti részén.",
+      "A MApN által jelentett közeli légi cél; román légtérbe lépés nem megállapított. Az üzemeltető, az eredet, a szándékolt célpont és a szándék ismeretlen. Erre az epizódra vonatkozóan nem állapítottak meg megerősített román légtérbe lépést, támadást, elfogást vagy lezuhanást. A november 9-i belépésről szóló jelentések az N148-hoz tartoznak, és nem vihetők át erre a riasztásra."
+    ],
+    "basis": "1ae15c2e27e8853c"
+  },
+  "N150": {
+    "headline": "Litvánia–Lettország · Drónberepülés és sikertelen elfogás",
+    "description": "Hivatalosan megerősített drónberepülés; sikertelen elfogás. Litvánia déli részétől az északi részéig; a jelentések szerint a Pasvalys járás közelében távozott Lettországba.",
+    "summary": [
+      "A litván védelmi vezérkar főnöke szerint a vadászgépek Kaunas közelében azonosították a drónt, de a polgári lakosságot fenyegető kockázat miatt ott nem avatkoztak be. Két későbbi megsemmisítési kísérlet kudarcot vallott. Lettország függetlenül megerősítette, hogy egy drón Litvánia felől lépett be, és délről északra áthaladt a területén.",
+      "Litvániában NATO-vadászgépeket riasztottak, és Lettország felett is folytatták a reagálást; Lettországban nem voltak meg a megsemmisítéshez szükséges biztonságos műveleti feltételek. Biržai közelében egy elfogórakéta maradványait találták meg, nem drónroncsot.",
+      "A típus, a hasznos teher, az üzemeltető, a szándékolt célpont és az ok ismeretlen. Az elektronikus hadviselés okozta eltérülés értékelés, nem megállapított tény. Az észt hatóságok külön megerősítettek aznap éjjel rövid belépéseket; hogy ezek pontosan mennyiben fedik ezt az útvonalat és más drónokat, még egyeztetés alatt áll. Nincs megerősített támadás, drónlezuhanás, begyűjtés vagy lelövés."
+    ],
+    "basis": "b3d7c837ed9779e1"
+  },
+  "N151": {
+    "headline": "Lettország · Két rövid drónbelépés a keleti határon",
+    "description": "Az NBS által megerősített rövid drónberepülések. Ludza község / a lett keleti határ",
+    "summary": [
+      "A lett NBS szerint két drón rövid időre, 1–2 percre átlépte a keleti határt. A kapcsolódó ludzai figyelmeztetést november 10-én, kedden, körülbelül 23:30-ra teszi.",
+      "Drónelfogó és légvédelmi egységeket, valamint NATO-vadászgépeket riasztottak.",
+      "A pontos átlépési pontok, az üzemeltető, a hasznos teher és a szándék tisztázatlan. A későbbi, Krāslava/Augšdaugava és Balvi felőli megközelítések nem léptek be; ezek nem további berepülések."
+    ],
+    "basis": "99971f22c80bd30f"
+  },
+  "N152": {
+    "headline": "Finnország · Feltételezett UAV-belépés a Finn-öböl keleti része felett",
+    "description": "A minisztérium által jelentett feltételezett légtérsértés; a vizsgálat folyamatban. A Finn-öböl keleti része; feltételezhetően finn nemzeti légtér",
+    "summary": [
+      "A finn védelmi minisztérium november 11-én 02:00 után feltételezett UAV-légtérsértésről számolt be, amely körülbelül öt percig tartott, mielőtt az eszköz távozott.",
+      "A Határőrség vizsgálja az esetet. A Védelmi Erők elővigyázatossági intézkedésként ideiglenes légi és tengeri korlátozásokat vezettek be.",
+      "A belépés továbbra is feltételezett, nem megerősített. Nincs azonosított eredet, típus, szándék, sem bizonyított kapcsolat balti átrepülésekkel vagy oroszországi támadásokkal."
+    ],
+    "basis": "68f7b98f4dfcbc62"
+  },
+  "N153": {
+    "headline": "Észtország · Rövid drónberepülések a Finn-öböl felett",
+    "description": "Az észt hatóságok 2026. november 11-én rövid drónberepülésekről számoltak be a Finn-öböl felett. A pontos szám, az útvonalak és a hasznos terhek tisztázatlanok.",
+    "summary": [
+      "Az ERR-nek adott interjúban a védelmi miniszter megkülönböztette a Finn-öböl feletti rövid légtérsértéseket egy különálló, körülbelül 03:30-kor Lettország felől belépő dróntól. Észtország kormánya külön megerősítette, hogy aznap éjjel néhány drón rövid időre belépett a nemzeti légtérbe.",
+      "NATO-vadászgépek voltak a levegőben. A miniszter szerint a biztonságos megsemmisítés feltételei nem álltak fenn, többek között az orosz határ közelsége miatt.",
+      "A drónok pontos száma, az átlépések ideje és az útvonalak tisztázatlanok. A jelentett ukrán tulajdonítás a miniszter beszámolója, nem független megerősítés. Nincs megerősített, Észtország elleni támadás, lezuhanás, begyűjtés vagy lelövés. Nincs bizonyított kapcsolat a feltételezett finnországi határátlépéssel."
+    ],
+    "basis": "0988f0038c13eff7"
+  },
+  "N154": {
+    "headline": "Lehetséges drón Sulina közelében figyelmeztetést váltott ki; román légtérbe lépés nem megállapított",
+    "description": "Egy Sulinától északkeletre észlelt lehetséges drón miatt 2026. november 12-én figyelmeztetést adtak ki Tulcea megyében. Spanyol vadászgépek reagáltak; román légtérbe lépést nem állapítottak meg.",
+    "summary": [
+      "Románia védelmi minisztériuma november 12-én egy légi célt jelentett Sulinától körülbelül 28 km-re északkeletre. A közrádió lehetséges drónként írta le.",
+      "Helyi idő szerint 12:35 és 13:12 között figyelmeztetés volt érvényben, és két spanyol F-18-as szállt fel. Ez a kiválasztott riasztás nem megerősített romániai berepülés vagy támadás."
+    ],
+    "basis": "e621e2b415355314"
+  },
+  "N155": {
+    "headline": "Jelentés: 5 török UAV, 2 görög légtérsértés október 16-án",
+    "description": "A Veteranos 2026. október 16-ra 5 török UAV-ről és 2 görög légtérsértésről számol be. Egyetlen forrásból származó, hivatalos adatokra hivatkozó beszámoló; a pontos útvonalak ismeretlenek.",
+    "summary": [
+      "A Veteranos hivatalos adatokra hivatkozva 5 török UAV-ről számol be az Égei-tenger középső és délkeleti részén október 16-án: 2 nemzeti légtérsértés és 7 athéni FIR-szabálysértés.",
+      "Azonosításról és rutinszerű elfogásról számoltak be. Ez egyetlen napi tevékenységi bejegyzés, nem külön események minden egyes UAV-re vagy szabálysértésre.",
+      "Az eredeti GEETHA-közlemény továbbra sem érhető el, és egyező második jelentést nem sikerült beszerezni. Ezek görög forrásnak tulajdonított adatok, nem függetlenül ellenőrzött útvonalak; a görög–török légtérvita továbbra is releváns."
+    ],
+    "basis": "7eab620af97e56d5"
+  },
+  "N156": {
+    "headline": "Jelentés: 2 török UAV, 6 görög légtérsértés október 17-én",
+    "description": "A Veteranos 2026. október 17-re 2 török UAV-ről és 6 görög légtérsértésről számol be. Egyetlen forrásból származó, hivatalos adatokra hivatkozó beszámoló; a pontos útvonalak ismeretlenek.",
+    "summary": [
+      "A Veteranos hivatalos adatokra hivatkozva 2 török UAV-ről számol be az Égei-tenger északkeleti és délkeleti részén október 17-én: 6 nemzeti légtérsértés és 4 athéni FIR-szabálysértés.",
+      "Azonosításról és rutinszerű elfogásról számoltak be. Ez egyetlen napi tevékenységi bejegyzés, nem külön események minden egyes UAV-re vagy szabálysértésre.",
+      "Az eredeti GEETHA-közlemény továbbra sem érhető el, és egyező második jelentést nem sikerült beszerezni. Ezek görög forrásnak tulajdonított adatok, nem függetlenül ellenőrzött útvonalak; a görög–török légtérvita továbbra is releváns."
+    ],
+    "basis": "41c5a49d0eb8c357"
+  },
+  "N157": {
+    "headline": "Figyelmeztetés Tulcea megye északi részén az ukrán légtérben észlelt cél miatt",
+    "description": "Románia november 13-án figyelmeztetést adott ki Tulcea megye északi részére, miután célt észlelt az ukrán légtérben. Drónként való azonosítását és román légtérbe lépését nem állapították meg.",
+    "summary": [
+      "A román hatóságok 2026. november 13-án figyelmeztetést adtak ki Tulcea megye északi részére, miután a radar légi célt észlelt a Kígyó-szigettől délkeletre, az ukrán légtérben.",
+      "Feteștiről két román F-16-os szállt fel. A figyelmeztetés helyi idő szerint 21:53 és 22:58 között volt érvényben; ezek a figyelmeztetés időpontjai, nem ellenőrzött repülési időtartam.",
+      "A vizsgált minisztériumi beszámoló nem azonosította a célt drónként, és nem állapított meg román légtérbe lépést. Ez kiválasztott riasztás, nem megerősített berepülés vagy támadás."
+    ],
+    "basis": "bdbe3aeea261bfb7"
+  },
+  "N158": {
+    "headline": "A jelentések szerint dróntalálat rongálta meg a LARISSA 1-et Románia előtt; a legénység biztonságban",
+    "description": "November 13-án dróntalálat rongálta meg a LARISSA 1-et Sfântu Gheorghe előtt. A román miniszter elismerte az incidenst; az üzemeltető és a pontos helyszín tisztázatlan.",
+    "summary": [
+      "2026. november 13-án este egy jelentett légi drónos találat megrongálta a LARISSA 1 rakodódaruját Sfântu Gheorghe közelében. A tengerészeti hatóságokat helyi idő szerint 21:40 körül értesítették. Sérülésről, halálesetről vagy tűzről nem számoltak be.",
+      "Románia védelmi minisztere november 14-én elismerte az éjszakai találatot. A TVR azonosítja a hajót, az Europa FM pedig a jelentett incidenst Sfântu Gheorghétól 6,8 tengeri mérföldre északkeletre, román felségvizekre helyezi. A becsapódás pontos koordinátáit nem tették közzé.",
+      "Az üzemeltető, az eredet és a szándékolt célpont ismeretlen. A műszaki megállapítások még függőben voltak, és a különálló tulceai légicél-riasztással való kapcsolatot nem állapították meg."
+    ],
+    "basis": "f08b96a541b68222"
+  },
+  "N159": {
+    "headline": "Két figyelmeztetés Tulcea megyében egyetlen reggeli légicél-riasztás során",
+    "description": "Románia november 14-én két figyelmeztetést adott ki Tulcea megyében, miután célt észleltek a Kígyó-sziget közelében. Drónként való azonosítását és román légtérbe lépését nem állapították meg.",
+    "summary": [
+      "A MApN 2026. november 14-én reggel légi célt jelentett a Kígyó-sziget térségében. Feteștiről két román F-16-os szállt fel.",
+      "Tulcea megye keleti része helyi idő szerint 04:45-kor kapott figyelmeztetést, majd az északi része 05:39-kor. A veszély elmúltát 05:52-kor jelezték. Ezek az üzenetek egyetlen riasztási epizódhoz tartoznak, nem két megerősített drónos eseményhez.",
+      "A közlemény nem azonosította a célt drónként, és nem erősítette meg a román légtérbe lépést. Ez a kiválasztott riasztás különbözik az előző esti figyelmeztetéstől; a Larissa 1-et ért találattal való kapcsolatot nem állapították meg."
+    ],
+    "basis": "485c5fe876331a03"
+  },
+  "N160": {
+    "headline": "Egy közölt minisztériumi beszámoló szerint drón találta el az EVIA PETROL V-t Sulina előtt",
+    "description": "Az EVIA PETROL V-t a jelentések szerint november 14-én találat érte Sulina előtt. A legénység eloltotta a tüzet; áldozatokról nem számoltak be. Az üzemeltető és a pontos helyszín ismeretlen.",
+    "summary": [
+      "A News.ro beszámolója szerint, amely a MApN-nek a polgári tengerészeti hatóságoktól származó információit közölte, az EVIA PETROL V-t 2026. november 14-én helyi idő szerint 21:10 körül drón találta el. A jelentett helyszín Sulinától körülbelül 4 tengeri mérföldre kelet-délkeletre volt.",
+      "A legénység eloltotta a fedélzeti tüzet; áldozatokról nem számoltak be. A Radio România Constanța román felségvizeket említ, de a becsapódás pontos koordinátáit és a joghatóságot nem ellenőrizték függetlenül.",
+      "Az üzemeltető, az eredet, a szándék és bármilyen kapcsolat más hajókat ért találatokkal vagy közeli riasztásokkal ismeretlen.",
+      "Egy november 19-i kibocsátói közzétételben a Trans-Oil csoport közölte, hogy a hajó a Sulina-csatorna bejáratánál horgonyzott, és arra várt, hogy engedélyt kapjon a Giurgiuleștibe való továbbhaladásra. A sérülés megakadályozta a tervezett utat, amelynek során mintegy 6500 tonna napraforgóolajat rakodtak volna be. Nem erősítették meg, hogy ez a rakomány a fedélzeten volt; az esetleges logisztikai késedelmek és költségek továbbra is a vállalat figyelmeztetései."
+    ],
+    "basis": "111f4b44af58fb36"
+  },
+  "N161": {
+    "headline": "Egy közölt minisztériumi beszámoló szerint drón találta el a MARSOL-t Sulina előtt",
+    "description": "A MARSOL-t a jelentések szerint november 14-én találat érte Sulina előtt. A legénység eloltotta a tüzet; áldozatokról nem számoltak be. Az üzemeltető és a pontos helyszín ismeretlen.",
+    "summary": [
+      "A News.ro beszámolója szerint, amely a MApN-nek a polgári tengerészeti hatóságoktól származó információit közölte, a MARSOL-t 2026. november 14-én helyi idő szerint 21:45 körül drón találta el. A jelentett helyszín a Sulina-csatornától körülbelül 5 tengeri mérföldre délkeletre volt.",
+      "A legénység eloltotta a fedélzeti tüzet; áldozatokról nem számoltak be. A Radio România Constanța román felségvizeket említ, de a becsapódás pontos koordinátáit és a joghatóságot nem ellenőrizték függetlenül.",
+      "Az üzemeltető, az eredet, a szándék és bármilyen kapcsolat más hajókat ért találatokkal vagy közeli riasztásokkal ismeretlen. Egy korábbi tengerészeti jelentés ehelyett 21:29 CET-et ad meg; ez az időbeli eltérés tisztázatlan."
+    ],
+    "basis": "bc90d74246cb5145"
+  },
+  "N162": {
+    "headline": "Tulcea megye keleti része · Esti figyelmeztetés november 14-én",
+    "description": "A román hatóságok légi észlelés után polgári védelmi figyelmeztetést adtak ki. A drónként való azonosítás és a román légtérbe lépés nem megerősített.",
+    "summary": [
+      "Feteștiről két román F-16-os szállt fel; Tulcea megye keleti részén 20:51-kor figyelmeztetést adtak ki, a veszély elmúltát 21:37-kor jelezték.",
+      "Az idézett minisztériumi szóhasználat nem erősít meg drónt, légtérbe lépést, támadást vagy beavatkozást. Hajók elleni csapásokkal való kapcsolat nem igazolt."
+    ],
+    "basis": "9e036c65d9b1d1c9"
+  },
+  "N163": {
+    "headline": "Sulina térsége · Késő esti radarkontaktus-figyelmeztetés november 14-én",
+    "description": "A román hatóságok légi észlelés után polgári védelmi figyelmeztetést adtak ki. A drónként való azonosítás és a román légtérbe lépés nem megerősített.",
+    "summary": [
+      "Új figyelmeztetés Tulcea megye keleti részén 23:19-kor; a veszély elmúltát másnap 00:27-kor jelezték. Külön felszállás nem megállapított.",
+      "Az idézett minisztériumi szóhasználat nem erősít meg drónt, légtérbe lépést, támadást vagy beavatkozást. Hajók elleni csapásokkal való kapcsolat nem igazolt."
+    ],
+    "basis": "146d9d719613c6b5"
+  },
+  "N164": {
+    "headline": "Rövid drónberepülés Chilia közelében május 2-án",
+    "description": "A román védelmi hatóságok rövid drónbelépésről számoltak be Chilia közelében. A célpont és a szándék nem megállapított; Románia elleni támadás nem következtethető belőle.",
+    "summary": [
+      "A MApN rövid, radarral megerősített belépésről számolt be Chilia közelében, amelyet Izmajil felé tartó mozgás követett. Két F-16-os 02:00 körül szállt fel; a Tulcea megye északi részére szóló figyelmeztetés helyi idő szerint 02:03 és 02:50 között volt érvényben.",
+      "A belépés az Ukrajna elleni szélesebb támadástól külön szerepel a nyilvántartásban. A szándék és a konkrét célpont nem megállapított; romániai becsapódásról nem számoltak be."
+    ],
+    "basis": "82fa985c2e506266"
+  },
+  "N165": {
+    "headline": "Rövid drónberepülés Chilia közelében május 7-én",
+    "description": "A román védelmi hatóságok rövid drónbelépésről számoltak be Chilia közelében. A célpont és a szándék nem megállapított; Románia elleni támadás nem következtethető belőle.",
+    "summary": [
+      "A MApN május 7-én reggel rövid, radarral megerősített belépésről számolt be Chilia közelében. Két F-16-os 08:37-kor szállt fel; a Tulcea megye északi részére szóló figyelmeztetés helyi idő szerint 08:40 és 09:40 között volt érvényben.",
+      "A belépés az Ukrajna elleni szélesebb támadástól külön szerepel a nyilvántartásban. A szándék és a konkrét célpont nem megállapított; romániai becsapódásról nem számoltak be."
+    ],
+    "basis": "438dcccd398f3603"
+  },
+  "N166": {
+    "headline": "Drón lépett a román légtérbe és zuhant le Parcheș közelében",
+    "description": "A MApN megerősítette, hogy március 26-án egy drón belépett a légtérbe, és Parcheș mellett lezuhant. Roncsdarabokat találtak; az üzemeltetőt, a típust és a szándékolt célpontot nem nevezték meg.",
+    "summary": [
+      "A MApN szerint egy drón március 26-án 00:44-kor lépett be, körülbelül 4 km mélyen hatolt be, és Parcheș mellett lezuhant. A csapatok roncsdarabokat és megégett növényzetet találtak; anyagi kárról vagy áldozatokról nem számoltak be.",
+      "A minisztérium szerint az ukrán légvédelem térítette el a drónt. Ez a beszámoló a MApN-nek tulajdonított marad; a közlemény nem állapítja meg az üzemeltetőt, a típust vagy Románia megtámadásának szándékát."
+    ],
+    "basis": "89eac726d6b9440e"
+  },
+  "N167": {
+    "headline": "Azonosítatlan cél lépett a román légtérbe Chilia Veche közelében",
+    "description": "A MApN megerősítette, hogy április 16-ról 17-re virradó éjszaka egy légi cél belépett a légtérbe. A radarkapcsolat későbbi megszakadása ellenére a drónként való azonosítás és a lezuhanás nem megerősített.",
+    "summary": [
+      "A MApN egy nemzeti légtérbe történő belépést jelentett április 16-ról 17-re virradó éjszaka. A kapcsolat Chilia Vechétől mintegy 16 km-re délkeletre szakadt meg, és keresési műveletet jelentettek be.",
+      "A hivatalos közlemény légi célt ír le, nem azonosított drónt. Sem a radarkapcsolat megszakadása, sem a tervezett keresés nem állapít meg lezuhanást vagy roncsbegyűjtést."
+    ],
+    "basis": "23dfc89d5a63cde0"
+  },
+  "N168": {
+    "headline": "Az ALI NAJAFOV éjszakai dróntalálatot jelent a Duna-torkolat közelében",
+    "description": "A román hatóságok továbbították az ALI NAJAFOV dróntalálatról szóló jelentését. A legénység eloltotta a tüzet; a pontos helyszín, a joghatóság és a tulajdonítás ismeretlen.",
+    "summary": [
+      "Az ALI NAJAFOV november 14-ről 15-re virradó éjszaka dróntalálatot jelentett a Duna-torkolat közelében. A román hatóságok továbbították a hajó jelentését; a legénység eloltotta a tüzet, áldozatokról nem számoltak be.",
+      "Ez az EVIA PETROL V-től és a MARSOL-tól különböző hajó. Pontos helyzete és a tengeri joghatóság tisztázatlan; közös üzemeltetőt vagy szándékos célba vételt nem állapítottak meg."
+    ],
+    "basis": "8b86269bf206800f"
+  },
+  "N169": {
+    "headline": "A délutáni tulceai figyelmeztetést kiterjesztették a városra, majd feloldották",
+    "description": "Egy Ukrajna közelében észlelt légi cél miatt 15:02-kor figyelmeztetést adtak ki Tulcea megyében, amelyet a 17:05-ös feloldás előtt a városra is kiterjesztettek. A román légtérbe lépés nem megerősített.",
+    "summary": [
+      "Egy Ukrajnában észlelt légi cél nyomán kiadott figyelmeztetés november 15-én 15:02-kor kezdődött. 16:56-kor kiterjesztették Tulcea városra, és 17:05-kor minden érintett településen feloldották.",
+      "A kiterjesztés ugyanahhoz a figyelmeztetési epizódhoz tartozik. Sem a drónként való azonosítás, sem a román légtérbe lépés nem megállapított; a hajókat ért becsapódásokkal való kapcsolatra nem lehet következtetni."
+    ],
+    "basis": "229b1930ed3783f0"
+  },
+  "N170": {
+    "headline": "Sulinától északra · Rövid drónbelépés február 26-án",
+    "description": "A MApN megerősítette, hogy február 26-án este egy drón rövid időre belépett a légtérbe; a belépés Sulinától északra, 18:30 körül ért véget.",
+    "summary": [
+      "A MApN megerősítette, hogy február 26-án este egy drón rövid időre belépett a légtérbe; a belépés Sulinától északra, 18:30 körül ért véget.",
+      "Ez különbözött a korábbi, belépés nélküli riasztástól és a február 25-i eseménytől. Az üzemeltetőt, a típust és a szándékot nem nevezték meg."
+    ],
+    "basis": "c289f5664d4e1a20"
+  },
+  "N171": {
+    "headline": "Tănăsoaia · Lehetséges légi jármű maradványait gyűjtötték be",
+    "description": "Védelmi szakemberek január 18-án Tănăsoaiában fémdarabokat vizsgáltak meg és gyűjtöttek be. Ezek egy lehetséges légi járműre utaltak.",
+    "summary": [
+      "Védelmi szakemberek január 18-án Tănăsoaiában fémdarabokat vizsgáltak meg és gyűjtöttek be. Ezek egy lehetséges légi járműre utaltak.",
+      "A drónként való azonosítás, az eredet és a leesés dátuma nem megerősített; ez megtalálási jelölt, nem megerősített berepülés."
+    ],
+    "basis": "b7ad8cb376460adb"
+  },
+  "N172": {
+    "headline": "Botoșenița Mare · Azonosítatlan repülő tárgy zuhant le",
+    "description": "A MApN szeptember 12-én egy kukoricaföldön lezuhant repülő tárgyról számolt be Botoșenița Mare közelében; kisebb tűz keletkezett, áldozatok nem voltak.",
+    "summary": [
+      "A MApN szeptember 12-én egy kukoricaföldön lezuhant repülő tárgyról számolt be Botoșenița Mare közelében; kisebb tűz keletkezett, áldozatok nem voltak.",
+      "Külföldi hatóságok is drónáthaladásról számoltak be, és máshol egy 112-es észlelési bejelentést is rögzítettek. A begyűjtött tárggyal való megszakítás nélküli kapcsolat nem megállapított."
+    ],
+    "basis": "678aa5f2a1e03414"
+  },
+  "N173": {
+    "headline": "Mangaliától keletre · Sodródó légi drónt találtak",
+    "description": "A MApN november 15-én egy Mangaliától mintegy 45 tengeri mérföldre keletre sodródó légi drónról számolt be. Az eredet és a művelet kimenetele ismeretlen.",
+    "summary": [
+      "Románia védelmi minisztériuma szerint a francia haditengerészet egyik ATLANTIQUE 2 repülőgépe november 15-én egy Mangaliától körülbelül 45 tengeri mérföldre keletre sodródó légi drónt jelentett.",
+      "A tervezett november 16-i EOD-értékelést a kedvezőtlen időjárás késleltette: a MApN szerint mindkét hajó az értékelés befejezése nélkül tért vissza. Begyűjtés vagy hatástalanítás nem megállapított.",
+      "Ez nyílt tengeri lelet, nem bizonyítéka a román felségterületi légtérbe való berepülésnek. A drón eredete, a repülés és a leesés dátuma, a hasznos teher és bármilyen kapcsolat a közelmúltbeli hajótalálatokkal ismeretlen."
+    ],
+    "basis": "875f004d900296a2"
+  },
+  "N174": {
+    "headline": "Chituctól keletre · Sodródó légi drónt találtak",
+    "description": "A MApN november 15-én egy Chituctól mintegy 53 tengeri mérföldre keletre sodródó légi drónról számolt be. Az eredet és a művelet kimenetele ismeretlen.",
+    "summary": [
+      "Románia védelmi minisztériuma szerint a francia haditengerészet egyik ATLANTIQUE 2 repülőgépe november 15-én egy Chituctól körülbelül 53 tengeri mérföldre keletre sodródó légi drónt jelentett.",
+      "A tervezett november 16-i EOD-értékelést a kedvezőtlen időjárás késleltette: a MApN szerint mindkét hajó az értékelés befejezése nélkül tért vissza. Begyűjtés vagy hatástalanítás nem megállapított.",
+      "Ez nyílt tengeri lelet, nem bizonyítéka a román felségterületi légtérbe való berepülésnek. A drón eredete, a repülés és a leesés dátuma, a hasznos teher és bármilyen kapcsolat a közelmúltbeli hajótalálatokkal ismeretlen."
+    ],
+    "basis": "328155b1bc112d37"
+  },
+  "N175": {
+    "headline": "Felborult a BETUL 8 Bulgária előtt; egy legénységi tag tengeri drónos támadást állít",
+    "description": "A BETUL 8 mind a 12 legénységi tagját kimentették, miután a hajó november 16-án felborult Bulgária KGÖ-jében. A tengeri drónos támadásról szóló állítás nem megerősített.",
+    "summary": [
+      "A bolgár hatóságok megerősítették, hogy a BETUL 8 november 16-án felborult az ország kizárólagos gazdasági övezetében. Mind a 12 legénységi tagot kimenekítették; a minisztérium nem jelentett súlyos sérülést.",
+      "A BNR idézte az egyik kimentett tengerészt, aki szerint két tengeri drón támadta meg a hajót. A hatóságok a vizsgált közleményekben nem erősítették meg ezt az okot. A nyílt tengeri hajóbaleset jelöltként szerepel, nem megerősített dróncsapásként vagy területi behatolásként.",
+      "A bolgár NAVWARN 860/26 egy későbbi, november 19-én 14:45 UTC-kor tett megfigyelést közöl: a hajó felborulva, legénység és irányítás nélkül sodródott. Ez nem a végső állapot vagy az ok megállapítása."
+    ],
+    "basis": "aad7a84948b3f2bc"
+  },
+  "N176": {
+    "headline": "Égei-tenger · Hét UAV a görög nyilvántartásban november 16-ra",
+    "description": "A GEETHA novemberi nyilvántartása november 16-ra hét UAV-t, hét légtérsértést és tíz FIR-szabálysértést sorol fel, eltérve a korábbi tájékoztatótól.",
+    "summary": [
+      "A GEETHA havi nyilvántartása november 16-ra összes jelentett légi járműként hét UAV-t sorol fel, hét nemzeti légtérsértéssel és tíz athéni FIR-szabálysértéssel. A Parapolitika korábbi tájékoztatója hat légtérsértést és kilenc FIR-szabálysértést közölt; az eltérés megmagyarázatlan.",
+      "Ez továbbra is egyetlen napi regionális bejegyzés. A számok nem összeadhatók, és nem függetlenül ellenőrzött repülésszámot jelentenek; fegyverhasználatot nem állapítottak meg."
+    ],
+    "basis": "1392b1b1c36513b7"
+  },
+  "N177": {
+    "headline": "Éjszakai riasztás Tulcea megye északi részén; román légtérbe lépést nem rögzítettek",
+    "description": "Románia november 16-ról 17-re virradó éjszaka riasztást adott ki Ukrajna feletti radarészlelések után. A MApN nem jelentett engedély nélküli belépést a román légtérbe.",
+    "summary": [
+      "Románia Ukrajna feletti radarészlelések után polgári védelmi riasztást adott ki. Engedély nélküli belépést a román légtérbe nem rögzítettek.",
+      "Ez egyetlen kiválasztott riasztás, nem megerősített drónberepülés."
+    ],
+    "basis": "016739f3dca934f0"
+  },
+  "N178": {
+    "headline": "Kimentették a GAS HUSKY legénységét a nyílt tengeri hajóbaleset után; a drón mint ok nem megerősített",
+    "description": "November 17-én Bulgária előtt kimentették a GAS HUSKY mind a 19 legénységi tagját. A hivatalos figyelmeztetés megdőlt, sodródó hajót ír le; a drónokról szóló állítások nem megerősítettek.",
+    "summary": [
+      "A bolgár hatóságok 2026. november 17-én egy nyílt tengeri hajóbaleset után kimentették a GAS HUSKY mind a 19 legénységi tagját. A libériai lobogó alatt közlekedő LPG-szállító hajó Egyiptomból Romániába tartott. A helyszín Bulgária kizárólagos gazdasági övezetében van, nem a felségvizein.",
+      "Egy 10:50 UTC-kor kiadott navigációs figyelmeztetés 45 fokos dőlést, víz alá merült parancsnoki hidat és személyzet nélkül sodródó hajót írt le. A korai jelentések ellenére nem állapította meg a teljes elsüllyedést. Az AP a Maritime.bg-re hivatkozva arról számol be, hogy a kimentett kapitány szerint négy drón találta el a hajót; az AP azt is közli, hogy az okot hivatalosan nem erősítették meg. Az állítást nem ellenőrizték függetlenül, és sem üzemeltetőt, sem a BETUL 8-cal való kapcsolatot nem állapítottak meg.",
+      "A hajót kezelő Stealth Maritime szerint a hajót november 17-én a kora reggeli órákban találat érte Bulgária KGÖ-jében, de nem részletezi, mi találta el, és közölte, hogy a hajó állapota akkor ismeretlen volt. A Naftemporiki által közölt nyilatkozata megerősíti, hogy a hajó Alexandriában Midiába szánt LPG-t vett fel.",
+      "A Maritime.bg egy későbbi jelentése a hajókezelő vállalat egy meg nem nevezett forrására hivatkozva kombinált felszíni és légi drónos támadásról ír. Ez továbbra is megerősítetlen beszámoló; a hajókezelő nyilvános nyilatkozata nem nevezi meg a mechanizmust.",
+      "November 18-án Mario Smurkov várnai kormányzó a bTV-nek azt mondta, hogy négy becsapódás történt, de a tengerészek beszámolói ellentmondtak egymásnak, és a drónok típusa nem megerősített. Elmondta, hogy a hajók akkor még nem süllyedtek el, és szennyezést addig nem észleltek. Négy becsapódás nem jelent négy, függetlenül ellenőrzött drónt.",
+      "A Reuters november 18-án arról számolt be, hogy két meg nem nevezett tengerbiztonsági forrás pilóta nélküli rendszernek tulajdonította a csapást. Megismételte a kormányzó négy becsapódásról szóló beszámolóját, a drón típusának vagy üzemeltetőjének megállapítása nélkül. A Reuters elsüllyedtként írta le a hajót, de nem adott meg újabb megfigyelési időpontot, amely tisztázná a korábbi, állapotra vonatkozó jelentéseket.",
+      "A bolgár NAVWARN 858/26 egy későbbi, november 19-én 13:30 UTC-kor tett megfigyelést közöl: a hajó mintegy 45 fokos dőlésben, víz alá merült parancsnoki híddal, legénység és irányítás nélkül sodródott. Ez nem a végső állapot vagy az ok megállapítása.",
+      "A NAVWARN 865/26 szerint november 21-én 12:38 UTC-kor a GAS HUSKY még mindig személyzet nélkül sodródott, erősen megdőlve, víz alá merült parancsnoki híddal. A megfigyelés nem állapít meg elsüllyedést vagy az eredeti mechanizmust.",
+      "A Fülöp-szigeteki hatóságok korábban arról számoltak be, hogy két sérült legénységi tag a kezelés után lábadozik. A Manila Times a Fülöp-szigeteki Migráns Munkavállalók Minisztériumára hivatkozva beszámolt arról, hogy november 25-én Várnában a repülőtéren búcsúztatták a 19 filippínó legénységi tagot. Két csoport érkezését Manilába november 26-ra, Fülöp-szigeteki idő szerint várták; megérkezésüket e felülvizsgálat idején nem erősítették meg függetlenül. Ez nem állapítja meg a hajó végső állapotát vagy az eredeti okot."
+    ],
+    "basis": "2e8a41b9e0e20de5"
+  },
+  "N179": {
+    "headline": "Égei-tenger · Hat UAV a görög nyilvántartásban november 17-re",
+    "description": "A GEETHA nyilvántartása november 17-re hat UAV-t sorol fel, eltérve a kezdeti ötös számtól. Az összesített légtérsértési adatok nem tulajdoníthatók kizárólag drónoknak.",
+    "summary": [
+      "A GEETHA havi nyilvántartása november 17-re hat UAV-t és négy ember vezette repülőgépet sorol fel, összesen tizenhét nemzeti légtérsértéssel és összesen tíz athéni FIR-szabálysértéssel. Ezeket az összesítéseket nem bontja le légijármű-típusok szerint.",
+      "A korábbi tájékoztató öt UAV-t sorolt fel négy légtérsértéssel és hét FIR-szabálysértéssel. Ez az eredeti beszámoló továbbra is hivatkozott forrás, de a nyilvántartás eltér tőle, és nem ad magyarázatot. Egyik változat sem állapít meg függetlenül repülési útvonalakat; a vadászgépes találkozás nem drónlelövés."
+    ],
+    "basis": "87dcaf1584079e1c"
+  },
+  "N180": {
+    "headline": "Farmakonisi · Török UAV átrepülését jelentették július 30-án",
+    "description": "A görög hatóságok egy UAV július 30-i, Farmakonisi feletti átrepüléséről számoltak be. Egy novemberi miniszteri válasz megerősíti a NATO-nak tett hivatalos jelentést, de NATO-megállapítást nem.",
+    "summary": [
+      "A görög jelentések 2026. július 30-án nyolc nemzeti légtérsértést tulajdonítottak két török UAV-nek, köztük Farmakonisi átrepülését. Négy különálló athéni FIR-szabálysértést is az UAV-knek tulajdonítottak. Ez egyetlen napi bejegyzés, nem tizenkét incidens.",
+      "Egy november 1-jei keltezésű, november 16-án közzétett miniszteri válasz elismeri az átrepülést, és közli, hogy Görögország hivatalos jelentést küldött a NATO-nak. A válasz szerint akkor a NATO elemzését várták; nem tartalmaz NATO-megállapítást, és nem bizonyítja, hogy a válasz még mindig függőben van. A pontos repülési útvonalak és a szándék ismeretlenek."
+    ],
+    "basis": "1ce7f990ce68d0c0"
+  },
+  "N181": {
+    "headline": "A drón által megrongált MARIAM M román vizekre sodródott, és Vadunál zátonyra futott",
+    "description": "A MARIAM M november 16-án Vadunál zátonyra futott, miután Ukrajna felől sodródott. Tengeri utóhatásként, videóval rögzítve; új romániai csapásról nem számoltak be.",
+    "summary": [
+      "A MARIAM M 2026. november 16-án zátonyra futott a romániai Vadu partjainál. Az elhagyott, tanzániai lobogó alatt közlekedő teherhajó azután sodródott román vizekre, hogy november 14-én eltört a horgonya.",
+      "A román hatóságok szerint egy szeptemberi, ukrán felségvizeken történt dróncsapás után a hajó ott horgonyzott. Ez a bejegyzés a hajó későbbi romániai érkezését és zátonyra futását rögzíti, Riasztás / egyéb kategóriában. Nem számol új dróncsapással, és nem viszi át a szeptemberi támadás áldozatait.",
+      "November 19-én vontatóhajók kiszabadították a hajót az eredeti homokpadról. A ProTV később arról számolt be, hogy körülbelül 100 métert mozdult el, mielőtt egy másik homokpadon megfeneklett, majd a személyzet lehorgonyozta, és sötétedés körül felfüggesztette a mentést. Az oldalon korábbi ARSVOM-reagálási felvételek és egy parti videóra mutató hivatkozás is található.",
+      "Egy november 22-i külön kísérlet során a Știrile ProTV szerint három vontatóhajó a nyílt tenger felé fordította a MARIAM M-et, de az ismét részben megfeneklett, és a munkát sötétedéskor felfüggesztették. A végső kikötőhely és a környezeti következmények nem ellenőrzöttek."
+    ],
+    "basis": "9fa9d16fcb95d141"
+  },
+  "N182": {
+    "headline": "Égei-tenger · Egy UAV a november 18-i görög napi jelentésben",
+    "description": "A görög adatok november 18-ra egy nemzeti légtérsértést és egy különálló FIR-szabálysértést tulajdonítanak egy UAV-nek. Egy regionális bejegyzés, összecsapásról nem számoltak be.",
+    "summary": [
+      "Az OnAlert és a NewsIT által közölt GEETHA-adatok november 18-ra egy nemzeti légtérsértést és egy különálló athéni FIR-szabálysértést tulajdonítanak egy török UAV-nek az Égei-tenger északkeleti és középső részén.",
+      "Az ugyanabban a táblázatban szereplő, ember vezette CN-235 nem számít bele az UAV-adatokba. Rutinszerű elfogásról számoltak be, összecsapás nélkül. Ezek a hírforrások ugyanazt a hatósági beszámolót közlik, nem független útvonalakat; a pontos útvonal, a típus és a szándék ismeretlen."
+    ],
+    "basis": "9fecf75febc5fc69"
+  },
+  "N183": {
+    "headline": "Égei-tenger · Jelentett török UAV-tevékenység november 14-én",
+    "description": "A görög hatóságok november 14-re 2 török UAV-t sorolnak fel, külön jelentett nemzeti légtérsértési és FIR-adatokkal.",
+    "summary": [
+      "A GEETHA novemberi nyilvántartása november 14-re 2 UAV-t sorol fel az Égei-tenger délkeleti részén, ember vezette repülőgépet nem.",
+      "A nyilvántartás egy nemzeti légtérsértést és 2 különálló athéni FIR-szabálysértést közöl. Ezek görög hatósági adatok, nem függetlenül ellenőrzött útvonalak, egyedi eseményszámok vagy támadások. Összecsapást nem tüntettek fel."
+    ],
+    "basis": "7a977838703818f5"
+  },
+  "N184": {
+    "headline": "Égei-tenger · Jelentett török UAV-tevékenység november 15-én",
+    "description": "A görög hatóságok november 15-re 3 török UAV-t sorolnak fel, külön jelentett nemzeti légtérsértési és FIR-adatokkal.",
+    "summary": [
+      "A GEETHA novemberi nyilvántartása november 15-re 3 UAV-t sorol fel az Égei-tenger középső és délkeleti részén, ember vezette repülőgépet nem.",
+      "A nyilvántartás 4 nemzeti légtérsértést és 4 különálló athéni FIR-szabálysértést közöl. Ezek görög hatósági adatok, nem függetlenül ellenőrzött útvonalak, egyedi eseményszámok vagy támadások. Összecsapást nem tüntettek fel."
+    ],
+    "basis": "9348fe0fa7d38f26"
+  },
+  "N186": {
+    "headline": "Égei-tenger · Jelentett török UAV-tevékenység november 20-án",
+    "description": "A görög hatóságok november 20-ra három török UAV-t és három nemzeti légtérsértést jelentettek. A külön FIR-adatok nem incidensszámok.",
+    "summary": [
+      "Az OnAlert a görög vezérkar november 20-i, az Égei-tenger délkeleti részére vonatkozó adatait közli: három török UAV, az UAV-k által elkövetett három nemzeti légtérsértés és három különálló athéni FIR-szabálysértés. Egy ember vezette ATR-72 további két FIR-szabálysértést követett el.",
+      "Ezek görög hatóságoknak tulajdonított napi adatok, nem független repülési útvonalak vagy három külön térképezett incidens. Az elsődleges havi nyilvántartás vonatkozó sorát nem ellenőrizték függetlenül."
+    ],
+    "basis": "394520276666d168"
+  },
+  "N188": {
+    "headline": "Ukrajna elismerte a SPARTA II elleni csapást; a későbbi mentést Finnország vezette",
+    "description": "Ukrajna elismerte a november 21-i dróncsapást a Finn-öbölben. A beszámolók eltérnek abban, hol érte találat a hajót. A mentést később Finnország vezette.",
+    "summary": [
+      "A finn Védelmi Erők november 21-én dróncsapásról számoltak be a Finn-öböl keleti részén. A hadsereg nemzetközi vizekre helyezte, míg Ilja Iljin, a Határőrség parancsnoka szerint orosz felségvizeken történt. Az égő hajó később finn felségvizekre sodródott. Ez nem állapítja meg, hogy drón lépett volna át Finnországba.",
+      "A finn parti őrség megerősítette, hogy a legénység a KAPITAN SAKHAROV fedélzetére menekült. A finn Határőrség november 22-i tájékoztatóján egy sérült legénységi tagról számolt be. A látható lángok elfojtása után az oltás folytatódott; a tájékoztató idejéig olajat nem észleltek a tengeren. Ez nem volt végleges értékelés.",
+      "Aki-Mauri Huhtinen, a finn Védelmi Erők kommunikációs igazgatója úgy értékelte, hogy valószínűleg Ukrajna felelős. A konkrét üzemeltetőt, a szándékot és a rakományt nem állapították meg függetlenül.",
+      "Észtország külügyminisztériuma szerint a megrongálódott hajó Észtország kizárólagos gazdasági övezetéből Finnország kizárólagos gazdasági övezetébe, majd finn felségvizekre sodródott. Észtország Finnország kérésére segített; a finn Határőrség megerősítette az észt részvételt az oltásban és a hűtésben. A mentési beszámolók nem állapítják meg a csapás helyét vagy egy drón útvonalát.",
+      "November 22-én a vontatmány elhagyta Finnország kizárólagos gazdasági övezetét és környezetvédelmi reagálási területét, Finnország befejezte a műveletét, és az ideiglenes korlátozásokat feloldották. Helsinki külön megszüntette az elővigyázatossági olajszennyezés-elhárítási készenlétet. A Svenska Yle szerint Oroszország átvette a tengeri mentés felelősségét.",
+      "November 23-án Alekszandr Drozdenko, a Leningrádi terület kormányzója közölte, hogy a legénység moszkvai idő szerint 20:00-kor partra szállt Szentpéterváron. Elmondása szerint a hajó a rakományával együtt, úszóképesen érte el ugyanezt a kikötőt, de a hajó érkezési idejét nem közölte. Az a közlése, hogy senki sem sérült meg, ellentmond a finn Határőrség jelentésének. A tűz és a szennyezés végső kimenetele, valamint a rakomány azonossága nem ellenőrzött.",
+      "A finn Nemzeti Végrehajtási Hatóság közölte, hogy értékelése szerint a hajó egy uniós szankciók alá eső vállalathoz tartozik, és ideiglenes átruházási tilalmat rendelt el, miután a hajó november 21-én finn felségvizekre lépett. A korlátozás mentési, biztonsági és környezetvédelmi kivételeket tartalmazott. A végleges jogi rendezés nem tisztázott.",
+      "A Bloomberg által november 24-én közölt interjúban Volodimir Zelenszkij elnök elismerte, hogy Ukrajna hajtotta végre a csapást, és azt állította, hogy az orosz felségvizeken történt. Az ERR szerint a találat Észtország KGÖ-jében érte a hajót; egy észt mentési tisztviselő a tűz és a robbanás idejére ebbe a KGÖ-be helyezte a hajót. A finn hadsereg a csapás területét nemzetközi vizekként jellemezte. A csapás pontos helyét és Zelenszkijnek a fedélzeten lévő fegyverekről szóló állítását nem ellenőrizték függetlenül. Finnország későbbi mentési művelete külön dokumentált tény."
+    ],
+    "basis": "672fe12e4e10cab6"
+  },
+  "N189": {
+    "headline": "Észtország légi fenyegetésre figyelmeztetett két északkeleti megyében, majd feloldotta a figyelmeztetést",
+    "description": "Észtország november 21-én lehetséges légi fenyegetésre figyelmeztette Lääne-Viru és Ida-Viru lakóit. A riasztás nem állapít meg drónberepülést.",
+    "summary": [
+      "Az észt Védelmi Erők november 21-én helyi idő szerint 04:42-kor lehetséges légi fenyegetésre vonatkozó figyelmeztetést adtak ki Lääne-Viru és Ida-Viru megyére. Az üzenet azt tanácsolta, hogy drón észlelése esetén keressenek menedéket. A veszély elmúltát helyi idő szerint 06:49-kor jelezték. Ez egyetlen figyelmeztetési epizód, nem ellenőrzött berepülés."
+    ],
+    "basis": "c7c59339eb4400db"
+  },
+  "N190": {
+    "headline": "Éjszakai figyelmeztetés a Tulcea megyei lakosoknak; Románia nem jelentett légtérbe lépést",
+    "description": "A hatóságok november 22-én helyi idő szerint 00:46-kor RO-Alert riasztást adtak ki, és két F-16-ost indítottak. A védelmi minisztérium nem jelentett román légtérbe lépést.",
+    "summary": [
+      "November 22-én helyi idő szerint 00:46-kor éjszakai figyelmeztetés ment Tulcea megye északi és keleti részére. Románia védelmi minisztériuma egy légi célt jelentett a nemzeti légtéren kívül, és közölte, hogy két F-16-os szállt fel. Nemzeti légtérbe lépést nem jelentett. A minisztérium szerint a légiriasztás 02:14-kor ért véget, míg az ISU Delta Tulcea 02:16-ot adott meg, és nem jelentett segélykérést vagy problémát. Ezek egyetlen figyelmeztetési epizódról szóló beszámolók."
+    ],
+    "basis": "bb330334fdeedf43"
+  },
+  "N191": {
+    "headline": "Égei-tenger · Jelentett török UAV-tevékenység november 22-én",
+    "description": "A görög hatósági adatok hét török UAV-ről, hét nemzeti légtérsértésről és hét különálló athéni FIR-szabálysértésről számoltak be.",
+    "summary": [
+      "A Görög Nemzeti Védelmi Vezérkarra hivatkozó görög hírforrások november 22-re hét török UAV-ről, hét görög nemzeti légtérsértésről és hét athéni FIR-szabálysértésről számoltak be az Égei-tenger északkeleti, középső és délkeleti részén. Rutinszerű azonosításról és elfogásról számoltak be.",
+      "A három szám egyetlen napi jelentés különböző mérőszámai. Nem állapítanak meg független repülési útvonalakat, lelövést vagy támadást. Az eredeti napi nyilvántartási sort nem sikerült ellenőrizni."
+    ],
+    "basis": "0eec6e747256d451"
+  },
+  "N192": {
+    "headline": "A Tulcea megye északi részére kiadott délutáni RO-Alert jelentett légtérbe lépés nélkül ért véget",
+    "description": "Tulcea megye északi része november 22-én helyi idő szerint 15:06-kor külön délutáni figyelmeztetést kapott. Román légtérbe lépésről nem számoltak be.",
+    "summary": [
+      "Románia védelmi minisztériuma november 22-én egy légi célt jelentett az ukrajnai Vâlcovétól északra, valamint egy Tulcea megye északi részére szóló RO-Alert riasztást helyi idő szerint 15:06 és 15:42 között. Román légtérbe lépésről nem számoltak be.",
+      "A minisztérium szerint válaszul spanyol vadászgépek és helikopterek szálltak fel. Elfogásról nem számolt be.",
+      "Ez polgári védelmi figyelmeztetés, nem megerősített drónberepülés vagy támadás. A cél típusát és üzemeltetőjét nem állapították meg."
+    ],
+    "basis": "1fce4c3f1e26c381"
+  },
+  "N193": {
+    "headline": "A Tulcea megye északi részére kiadott esti RO-Alert jelentett légtérbe lépés nélkül ért véget",
+    "description": "Tulcea megye északi része november 22-én helyi idő szerint 20:01-kor külön esti figyelmeztetést kapott. Román légtérbe lépésről nem számoltak be.",
+    "summary": [
+      "Románia védelmi minisztériuma november 22-én légi célokat jelentett a Kígyó-szigettől keletre, valamint egy Tulcea megye északi részére szóló RO-Alert riasztást helyi idő szerint 20:01 és 21:15 között. Román légtérbe lépésről nem számoltak be.",
+      "Ez polgári védelmi figyelmeztetés, nem megerősített drónberepülés vagy támadás. A cél típusát és üzemeltetőjét nem állapították meg."
+    ],
+    "basis": "6ac4b0c86f4adf5a"
+  },
+  "N194": {
+    "headline": "Oroszországnak tulajdonított drón lépett Lengyelországba Dorohusk közelében, majd visszatért Ukrajnába",
+    "description": "Lengyelország november 23-i drónos határátlépésről számol be Dorohusk közelében. A lelövést engedélyezték, de fegyvert nem vetettek be, mielőtt a drón visszatért Ukrajnába.",
+    "summary": [
+      "A lengyel Hadműveleti Parancsnokság megerősítette, hogy november 23-án, a Nyugat-Ukrajna elleni csapások idején egy Oroszországnak tulajdonított drón lépett a lengyel légtérbe. A Rzeczpospolita későbbi cikke a parancsnokságra és Jacek Goryszewski szóvivőre hivatkozva a belépést Dorohusk közelébe, helyi idő szerint 22:50-re teszi; a drón nagyjából 20 km mélyen hatolt be, 8–9 percig tartózkodott a légtérben, majd visszafordult Ukrajna felé.",
+      "A lelövést engedélyezték, de fegyvert nem vetettek be. A Radio Lublin és a UNITED24 szerint a parancsnokok a kelet felé fordulás után a polgári lakosság biztonságát figyelembe véve visszatartották a tüzet. Goryszewski szerint a földi rendszerek rendelkeztek engedéllyel; lengyel repülőgépek az időjárás miatt nem tevékenykedtek a határ közelében. Áldozatokról, becsapódásról vagy roncsbegyűjtésről nem számoltak be.",
+      "A szóvivő a repülési sebesség alapján sugárhajtásúnak értékelte a drónt, de kamerákat vagy felderítő szerepet nem erősített meg. A típus, a hasznos teher és a szándékolt célpont ismeretlen. A dorohuski jelölő hozzávetőleges támpont, nem ellenőrzött átlépési koordináta. A lakossági figyelmeztetések ehhez az egyetlen eseményhez tartoznak, amely különbözik a november 20-i rakétás incidenstől.",
+      "A Kormányzati Biztonsági Központ 22:56 CET-kor rögzítette a menedékkeresésre vonatkozó frissítést, 23:54 CET-kor pedig a veszély elmúltát. Ezek a figyelmeztetés időpontjai, nem repülési idők."
+    ],
+    "basis": "d2d4fb5622cf3ffd"
+  },
+  "N195": {
+    "headline": "Tausiūnai–Aukštalaukis: a határőrök begyűjtöttek egy Fehéroroszországból érkezett, cigarettát szállító drónt",
+    "description": "Litvánia szeptember 27-i különálló drónberepülésről számol be Tausiūnai–Aukštalaukis közelében; 250 doboz cigaretta került elő. Az üzemeltető ismeretlen.",
+    "summary": [
+      "A VSAT szeptember 27-én, vasárnap késő este, helyi idő szerint egy Fehéroroszország felől érkező, cigarettát szállító drónról számolt be. A drónt Tausiūnai közelében észlelték, és kényszerített leereszkedése után Aukštalaukis közelében szedték fel. Súlyosan megrongálódott.",
+      "A határőrök 250 doboz cigarettát szedtek fel, és közigazgatási eljárást indítottak. Az üzemeltetőt nem azonosították. Ez határon átnyúló csempészeset, nem megállapított állami támadás."
+    ],
+    "basis": "075b2a5c83a9ffc2"
+  },
+  "N196": {
+    "headline": "Eišiškės: a határőrök begyűjtöttek egy Fehéroroszországból érkezett, cigarettát szállító drónt",
+    "description": "Litvánia szeptember 27-i különálló drónberepülésről számol be Eišiškės közelében; 100 doboz cigaretta került elő. Az üzemeltető ismeretlen.",
+    "summary": [
+      "A VSAT szeptember 27-én éjfél előtt, helyi idő szerint egy Fehéroroszország felől érkező, cigarettát szállító drónról számolt be. Egy másik járőr több órával az első incidens után Eišiškės közelében feltartóztatta a drónt. A drón a város területén leesett, és begyűjtötték.",
+      "A határőrök 100 doboz cigarettát szedtek fel, és közigazgatási eljárást indítottak. Az üzemeltetőt nem azonosították. Ez határon átnyúló csempészeset, nem megállapított állami támadás."
+    ],
+    "basis": "0184a774707cec6e"
+  },
+  "N197": {
+    "headline": "Égei-tenger: 6 jelentett légtérsértés október 18-án",
+    "description": "A Veteranos görög katonai jelentésekre hivatkozva 5 török UAV-ről írt az Égei-tenger középső és délkeleti részén 2026. október 18-án, 6 jelentett nemzeti légtérsértéssel, valamint ettől külön 10 athéni FIR-forgalmiszabály-sértéssel.",
+    "summary": [
+      "A Veteranos görög katonai jelentésekre hivatkozva 5 török UAV-ről írt az Égei-tenger középső és délkeleti részén 2026. október 18-án, 6 jelentett nemzeti légtérsértéssel, valamint ettől külön 10 athéni FIR-forgalmiszabály-sértéssel.",
+      "A beszámoló azonosításról és rutinszerű elfogásról szól, nem fegyverhasználatról vagy lelövésről.",
+      "Ez egyetlen, forrásnak tulajdonított napi bejegyzés, nem különálló, megerősített berepülések száma. Az eredeti görög katonai nyilvántartási bejegyzést nem sikerült beszerezni, az útvonalak, a pontos helyszínek, a szándék és az üzemeltető adatai nem ellenőrzöttek. A görög–török légtérvita továbbra is releváns."
+    ],
+    "basis": "b78a96fd3dd18174"
+  },
+  "N198": {
+    "headline": "Égei-tenger: 3 jelentett légtérsértés november 21-én",
+    "description": "A Veteranos görög katonai jelentésekre hivatkozva egy török UAV-ről írt az Égei-tenger középső részén 2026. november 21-én, 3 jelentett nemzeti légtérsértéssel, valamint ettől külön 1 athéni FIR-forgalmiszabály-sértéssel.",
+    "summary": [
+      "A Veteranos görög katonai jelentésekre hivatkozva egy török UAV-ről írt az Égei-tenger középső részén 2026. november 21-én, 3 jelentett nemzeti légtérsértéssel, valamint ettől külön 1 athéni FIR-forgalmiszabály-sértéssel.",
+      "A beszámoló azonosításról és rutinszerű elfogásról szól, nem fegyverhasználatról vagy lelövésről.",
+      "Ez egyetlen, forrásnak tulajdonított napi bejegyzés, nem különálló, megerősített berepülések száma. Az eredeti görög katonai nyilvántartási bejegyzést nem sikerült beszerezni, az útvonalak, a pontos helyszínek, a szándék és az üzemeltető adatai nem ellenőrzöttek. A görög–török légtérvita továbbra is releváns."
+    ],
+    "basis": "4035154a2ead9d19"
+  },
+  "N199": {
+    "headline": "Feloldották a Tulcea megye északi részére kiadott reggeli RO-Alertet; román légtérbe lépésről nem számoltak be",
+    "description": "Románia november 24-én reggel figyelmeztette Tulcea megye északi részét, miután az ukrán légtérben célt észleltek. Román légtérbe lépésről nem számoltak be.",
+    "summary": [
+      "Románia november 24-én reggel figyelmeztette Tulcea megye északi részét, miután az ukrán légtérben célt észleltek. Román légtérbe lépésről nem számoltak be.",
+      "A védelmi minisztérium 11:11 EET-kor kiadott figyelmeztetésről, spanyol repülőgépek általi megfigyelésről és 11:51 EET-kor a veszély elmúltának jelzéséről számolt be.",
+      "A helyi katasztrófavédelmi beszámoló 10:11-es telefonos beérkezési időt idézett. Ez az eltérés nem utal egy második reggeli riasztásra.",
+      "Ez elővigyázatossági riasztás, nem megerősített romániai berepülés."
+    ],
+    "basis": "0198614f7d30239f"
+  },
+  "N200": {
+    "headline": "Feloldották a Tulcea megye északi részére kiadott délutáni RO-Alertet; román légtérbe lépésről nem számoltak be",
+    "description": "Románia november 24-én ismét figyelmeztette Tulcea megye északi részét, miután a Chilia-ág közelében, az ukrán légtérben célt észleltek. Román légtérbe lépésről nem számoltak be.",
+    "summary": [
+      "Románia november 24-én ismét figyelmeztette Tulcea megye északi részét, miután a Chilia-ág közelében, az ukrán légtérben célt észleltek. Román légtérbe lépésről nem számoltak be.",
+      "A védelmi minisztérium Tulcea megye északi részére 14:37 EET-kor kiadott figyelmeztetésről, repülőgépes megfigyelésről és 15:40-kor a veszély elmúltának jelzéséről számolt be. A ProTV szerint Galac megyében 14:52 EET-kor kezdődött a légiriasztási fázis, miután a megye felé tartó azonosítatlan drónról érkezett jelentés. A helyi IGSU a jelentések szerint 15:46 EET-kor jelezte a veszély elmúltát.",
+      "A cél azonosítása, üzemeltetője és szándékolt célpontja ismeretlen. Nem megállapított, hogy a tulceai és a galaci figyelmeztetés ugyanarra a célra vonatkozott-e. A reggeli figyelmeztetés külön esemény marad.",
+      "Ez elővigyázatossági riasztás, nem megerősített romániai berepülés."
+    ],
+    "basis": "faba06a8d0d3b2db"
+  },
+  "N201": {
+    "headline": "Žaltūnai–Girdijauskai: Litvánia határon átnyúló drónos csempészésről számol be",
+    "description": "A litván határőrök egy júliusi éjszakai műveletet követően 2 légi járművet és 2000 doboz cigarettát szedtek fel Žaltūnai–Girdijauskai közelében.",
+    "summary": [
+      "2026. július 9–10. (éjszaka). A határőrség szerint az éjszaka folyamán Fehéroroszország felől érkező drónokat észlelt. A tisztek a nappal újrakezdett keresés után két teherdrónt szedtek fel Žaltūnai és Girdijauskai közelében.",
+      "A tisztek 2 légi járműről 2000 doboz fehérorosz adójeggyel ellátott cigarettát szedtek le. Büntetőeljárás indult.",
+      "Az üzemeltető, valamint a pontos átlépési pont és útvonal ismeretlen. A művelet határon átnyúló csempészésként szerepel a nyilvántartásban, nem katonai támadásként."
+    ],
+    "basis": "a335379fd80fd841"
+  },
+  "N202": {
+    "headline": "Šiulgiai–Šumskas: Litvánia határon átnyúló drónos csempészésről számol be",
+    "description": "A litván határőrök egy júliusi éjszakai műveletet követően egy légi járművet és 340 doboz cigarettát szedtek fel Šiulgiai–Šumskas közelében.",
+    "summary": [
+      "2026. július 17–18. (éjszaka). A határőrség szerint egy teherdrón lépett be Litvániába. A tisztek Šiulgiai közelében hallották, de nem látták a drónt. A beavatkozás után leesett, a megrongálódott légi járművet nappal Šumskas közelében szedték fel.",
+      "A tisztek egy légi járműről 340 doboz fehérorosz adójeggyel ellátott cigarettát szedtek le. Közigazgatási eljárás indult.",
+      "Az üzemeltető, valamint a pontos átlépési pont és útvonal ismeretlen. A művelet határon átnyúló csempészésként szerepel a nyilvántartásban, nem katonai támadásként."
+    ],
+    "basis": "0eba63dd63dc7160"
+  },
+  "N203": {
+    "headline": "Norviliškės–Daulėnai: Litvánia határon átnyúló drónos csempészésről számol be",
+    "description": "A litván határőrök egy júliusi éjszakai műveletet követően 3 légi járművet és 3000 doboz cigarettát szedtek fel Norviliškės–Daulėnai közelében.",
+    "summary": [
+      "2026. július 29–30. (éjszaka). A határőrség szerint teherdrónok léptek be Litvániába Fehéroroszország felől. Egyetlen éjszakai művelet során két légi járművet Norviliškės, egyet pedig Daulėnai közelében szedtek fel; az utolsót már nappal.",
+      "A tisztek 3 légi járműről 3000 doboz fehérorosz adójeggyel ellátott cigarettát szedtek le. Büntetőeljárás indult.",
+      "Az üzemeltető, valamint a pontos átlépési pont és útvonal ismeretlen. A művelet határon átnyúló csempészésként szerepel a nyilvántartásban, nem katonai támadásként."
+    ],
+    "basis": "20d845bfb0acadf0"
+  },
+  "N204": {
+    "headline": "Kiemėnai: a litván határőrök csempészdrónt szedtek fel",
+    "description": "A litván határőrök egy éjszakai műveletet követően egy drónt és 750 doboz cigarettát szedtek fel Kiemėnai közelében.",
+    "summary": [
+      "2026. április 16–17. A VSAT szerint észlelte, ahogy a drón Fehéroroszország felől Litvániába repül. A drón a határőrök beavatkozása után leesett, és Kiemėnai közelében szedték fel.",
+      "A tisztek 750 doboz fehérorosz adójeggyel ellátott cigarettát szedtek fel, és közigazgatási eljárást indítottak.",
+      "Üzemeltetőt, állami támogatást vagy pontos repülési útvonalat nem állapítottak meg. Ez határmenti csempészési bejegyzés, nem katonai támadás."
+    ],
+    "basis": "1738bd94e1620fe1"
+  },
+  "N205": {
+    "headline": "Prūdelis: a litván határőrök csempészdrónt szedtek fel",
+    "description": "A litván határőrök egy éjszakai műveletet követően egy drónt és 1000 doboz cigarettát szedtek fel Prūdelis közelében.",
+    "summary": [
+      "2026. július 8–9. A VSAT szerint a drón a fehérorosz határtól az ország belseje felé repült; a pontos átlépési pontot vagy útvonalat nem tette közzé. A drón a határőrök beavatkozása után leesett, és Prūdelis közelében szedték fel.",
+      "A tisztek 1000 doboz fehérorosz adójeggyel ellátott cigarettát szedtek fel, és közigazgatási eljárást indítottak.",
+      "Üzemeltetőt, állami támogatást vagy pontos repülési útvonalat nem állapítottak meg. Ez határmenti csempészési bejegyzés, nem katonai támadás."
+    ],
+    "basis": "1c7fd61759b9aa98"
+  },
+  "N206": {
+    "headline": "Égei-tenger · Jelentett török UAV-tevékenység november 25-én",
+    "description": "A görög hatósági adatok három török UAV-t, négy nemzeti légtérsértést és három különálló athéni FIR-szabálysértést sorolnak fel.",
+    "summary": [
+      "Az OnAlert és a Veteranos beszámolója szerint a Görög Nemzeti Védelmi Vezérkar (GEETHA) november 25-re három török UAV-t, négy jelentett görög nemzeti légtérsértést és három különálló athéni FIR-forgalmiszabály-sértést sorolt fel. A jelentés az Égei-tenger északkeleti, középső és délkeleti részére terjedt ki. Rutinszerű azonosításról és elfogásról számoltak be; összecsapást nem tüntettek fel.",
+      "A számok egyetlen napi katonai tájékoztató különböző mérőszámai, nem ellenőrzött egyedi repülési útvonalak vagy támadásszámok. Mindkét beszámoló ugyanarra a tájékoztatóra hivatkozik; a hivatalos havi táblázat a felülvizsgálat idején közvetlenül nem volt elérhető."
+    ],
+    "basis": "0e4f136f9c21f1b4"
+  },
+  "N207": {
+    "headline": "Kuodžiai: Litvánia négy csempészdrónról számol be egyetlen művelet során",
+    "description": "A litván határőrök egy július 30-i művelet után négy drónt és 4000 doboz cigarettát szedtek fel Kuodžiai közelében.",
+    "summary": [
+      "2026. július 30., este. Litvánia Állami Határőr Szolgálata (VSAT) közölte, hogy négy teherdrón lépett be Fehéroroszország felől, és egyetlen művelet során kényszerítették le és szedték fel őket a Lazdijai járásbeli Kuodžiai közelében.",
+      "A felszedett rakomány összesen 4000 doboz fehérorosz adójeggyel ellátott cigaretta volt. A VSAT szerint büntetőeljárás indult. Ez egyetlen dokumentált művelet, nem négy különálló incidensbejegyzés.",
+      "Pontos repülési útvonalat, az üzemeltető kilétét vagy állami támogatást nem állapítottak meg. Ez bűnügyi csempészeset, nem katonai támadás."
+    ],
+    "basis": "f3ab912199253de4"
+  },
+  "N208": {
+    "headline": "A litván határőrök egy csempészdrónt és 500 doboz cigarettát szedtek fel Jurgionys közelében",
+    "description": "A litván határőrök november 24-én éjfél előtt egy Fehéroroszország felől érkező drón belépéséről számoltak be Jurgionys közelében, és 500 doboz cigarettát szedtek fel.",
+    "summary": [
+      "A litván határőrök november 24-én éjfél előtt egy Fehéroroszország felől érkező drón belépéséről számoltak be Jurgionys közelében, és 500 doboz cigarettát szedtek fel.",
+      "A november 26-i közlemény szerint a légi jármű a becsapódáskor megsérült. A közlemény idején ez volt 2026-ban az ebben a végrehajtási kategóriában feltartóztatott 74. légi jármű, nem pedig e nyilvántartás 74. bejegyzése."
+    ],
+    "basis": "67a42221ac53e32e"
+  },
+  "N209": {
+    "headline": "A litván határőrök drónbelépésről számolnak be Purvėnai közelében, a drónt Geismantai közelében szedték fel",
+    "description": "Litvánia határőrszolgálata január 24-én drónbelépésről számolt be, és a drónt 1000 doboz cigarettával együtt Geismantai közelében szedte fel.",
+    "summary": [
+      "Litvánia határőrszolgálata január 24-én drónbelépésről számolt be, és a drónt 1000 doboz cigarettával együtt Geismantai közelében szedte fel.",
+      "Ez különbözik a külön jelentett, Purvėnai közelében történt január 27-i incidenstől."
+    ],
+    "basis": "da169e0f9823eba4"
+  },
+  "N210": {
+    "headline": "A litván ügyészség dokumentálta a májusi drónos csempészakciót a Švenčionys járásban",
+    "description": "A litván ügyészség szerint május 27-én éjjel drónok 35 500 doboz cigarettát juttattak át a határon Fehéroroszországból. A légi járművek száma ismeretlen.",
+    "summary": [
+      "A litván ügyészség szerint május 27-én éjjel drónok 35 500 doboz cigarettát juttattak át a határon Fehéroroszországból. A légi járművek száma ismeretlen.",
+      "A cigaretta azután került a határőrök kezére, hogy a földön továbbszállították. Drón feltartóztatásáról vagy begyűjtéséről nem számoltak be. A bírósági végzés a november 20-i bejelentés idején még nem volt jogerős."
+    ],
+    "basis": "55b583cfae9bda20"
+  },
+  "N211": {
+    "headline": "A litván határőrök szerint négy csempészdrónt kényszerítettek le Jaskonys közelében",
+    "description": "A litván határőrök arról számoltak be, hogy egyetlen művelet során négy beérkező drónt kényszerítettek le Jaskonys közelében, és felszedték a légi járműveket, valamint 4998 doboz cigarettát.",
+    "summary": [
+      "A litván határőrök arról számoltak be, hogy egyetlen művelet során négy beérkező drónt kényszerítettek le Jaskonys közelében, és felszedték a légi járműveket, valamint 4998 doboz cigarettát.",
+      "A július 7-i közlemény péntek éjszakáról szól, a felszedés nappal is folytatódott. Nem részletezi, hogy az események éjfél előtt vagy után történtek. Ez nem a Kuodžiai közelében végrehajtott későbbi művelet."
+    ],
+    "basis": "bdc463b805195983"
+  },
+  "N212": {
+    "headline": "Véget ért a Tulcea megye északi részére kiadott esti figyelmeztetés; román légtérbe lépésről nem számoltak be",
+    "description": "Románia védelmi minisztériuma egy azonosítatlan légi cél radaros észleléséről számolt be az ukrajnai Vâlcovétól keletre. Tulcea megye északi része figyelmeztetést kapott. Román légtérbe lépésről nem számoltak be.",
+    "summary": [
+      "Románia védelmi minisztériuma egy azonosítatlan légi cél radaros észleléséről számolt be az ukrajnai Vâlcovétól keletre. Tulcea megye északi része figyelmeztetést kapott. Román légtérbe lépésről nem számoltak be.",
+      "A 18:52 EET-kor kiadott RO-Alert 19:11-kor ért véget. A már kiképzési repülésen a levegőben lévő spanyol repülőgépeket megfigyelésre irányították át.",
+      "Ez polgári figyelmeztetés, nem megerősített drónberepülés."
+    ],
+    "basis": "6379cdfa337a493b"
+  },
+  "N213": {
+    "headline": "A görög napi jelentés hat török UAV-t sorol fel az Égei-tenger felett november 26-án",
+    "description": "A Veteranos hat török UAV-ről, kilenc jelentett görög nemzeti légtérsértésről és kilenc különálló athéni FIR-forgalmiszabály-sértésről számolt be.",
+    "summary": [
+      "A Veteranos hat török UAV-ről, kilenc jelentett görög nemzeti légtérsértésről és kilenc különálló athéni FIR-forgalmiszabály-sértésről számolt be.",
+      "A táblázat az Égei-tenger északkeleti, középső és délkeleti részére terjed ki, és nem tüntet fel fegyveres légi járművet vagy összecsapást.",
+      "A számok egyetlen közzétett napi jelentés különböző mérőszámai, nem ellenőrzött repülési útvonalak vagy támadásszámok."
+    ],
+    "basis": "4cb6890e53c1739e"
+  },
+  "N214": {
+    "headline": "A lett hadsereg rövid drónbelépést erősít meg a keleti határ közelében",
+    "description": "A lett Nemzeti Fegyveres Erők szerint november 27-én éjjel egy pilóta nélküli légi jármű rövid ideig lett területen tartózkodott. Balviban második belépést nem erősítettek meg.",
+    "summary": [
+      "A lett Nemzeti Fegyveres Erők szerint november 27-én éjjel egy pilóta nélküli légi jármű rövid ideig lett területen tartózkodott. Balviban második belépést nem erősítettek meg.",
+      "Ludzában a narancssárga figyelmeztetés 02:30 és 02:55 EET között volt érvényben. Balviban a sárga figyelmeztetés 02:55-kor kezdődött, és 03:30 körül ért véget. NATO-vadászgépeket riasztottak, egy lett elfogódrónt pedig bevetettek, majd visszatért.",
+      "A hadsereg nem azonosította a drón üzemeltetőjét, eredetét vagy célpontját, és lelövésről nem számolt be."
+    ],
+    "basis": "669b6dce3baee574"
   }
 }

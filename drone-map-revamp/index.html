@@ -12,7 +12,7 @@
   <meta property="og:title" content="Europe Foreign Drone Events · 2026">
   <meta property="og:description" content="Interactive map and latest incident briefings of drones that reached EU countries from abroad in 2026, with TL;DR summaries, sources, and custom interval video export.">
   <meta property="og:url" content="https://droneincidents.eu/">
-  <meta property="og:image" content="https://droneincidents.eu/og-image.png?v=5cbb08142a565740">
+  <meta property="og:image" content="https://droneincidents.eu/og-image.png?v=e36346e6c99820bd">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -40,20 +40,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Manrope:wght@500;600;700;800&display=swap">
   <link rel="stylesheet" href="vendor/leaflet.css?v=a783710282418482">
-  <link rel="stylesheet" href="styles.css?v=595d7ac35685f96e">
+  <link rel="stylesheet" href="styles.css?v=8b94dcaf45fe0c83">
   <script defer src="vendor/leaflet.js?v=db49d009c841f5ca"></script>
   <script defer src="landmark.js?v=3b28066123468c28"></script>
   <script defer src="asset-loader.js?v=fe87e7c8436b2ecc"></script>
   <script defer src="trend-data.js?v=0bfa97d9cfa5c0c8"></script>
-  <script defer src="i18n/en.js?v=731e37814f553cad"></script>
+  <script defer src="i18n/en.js?v=8932bfcde6d679cb"></script>
   <script defer src="geo-outline.js?v=7a797e7d85757752"></script>
+  <script defer src="stats.js?v=2f5c518b0fe8fc07"></script>
+  <script defer src="charts.js?v=f8b9de8fd69cf6ba"></script>
   <script defer src="replay-data.js?v=0166423b9c3fb68c"></script>
-  <script defer src="app.js?v=4d61f3a61493eeb5"></script>
+  <script defer src="app.js?v=fe2e3a608b043282"></script>
   <script defer src="analytics.js?v=5c514d0cea945c53"></script>
 </head>
 <body>
   <!-- Compact Command Topbar -->
-  <header class="topbar">
+  <header class="topbar" data-compact="0">
     <div class="topbar-brand-group">
       <a class="brand" href="#top" aria-label="Europe foreign drone events home" data-i18n-aria="brand.aria">
         <svg viewBox="0 0 32 32" aria-hidden="true">
@@ -72,8 +74,8 @@
       <span class="pulse-stat"><strong id="record-total">164</strong> <span data-i18n="stats.records">records</span></span>
       <span class="pulse-sep" aria-hidden="true">·</span>
       <span class="pulse-stat"><strong id="country-total">10</strong> <span data-i18n="stats.countries">EU countries</span></span>
-      <span class="pulse-sep" aria-hidden="true">·</span>
-      <span class="pulse-stat"><strong id="cutoff-label">23 Oct</strong> <span data-i18n="stats.cutoff">coverage cutoff</span></span>
+      <span class="pulse-sep pulse-cutoff" aria-hidden="true">·</span>
+      <span class="pulse-stat pulse-cutoff"><strong id="cutoff-label">23 Oct</strong> <span data-i18n="stats.cutoff">coverage cutoff</span></span>
       <button id="trend-pill-button" class="trend-pill" type="button" title="View monthly breakdown and 90-day comparison" data-i18n-title="revamp.trendPillTitle">
         <span class="trend-pill-delta" id="trend-pill-delta">▲ +324%</span>
         <span class="trend-pill-label" data-i18n="trend.legendRecent">last 90d</span>
@@ -102,9 +104,11 @@
         <span id="language-code" class="language-code" aria-hidden="true">EN</span>
         <select id="language" aria-label="Language" data-i18n-aria="language.label"></select>
       </label>
-      <button id="about-button" class="about-button" type="button">
-        <span class="about-text-full" data-i18n="about.button">About the data</span>
-        <span class="about-text-short" data-i18n="mobile.about">About</span>
+      <button id="press-button" class="about-button press-button" type="button" aria-haspopup="dialog">
+        <span data-i18n="press.button">Press</span>
+      </button>
+      <button id="about-button" class="about-button" type="button" aria-haspopup="dialog">
+        <span data-i18n="mobile.about">About</span>
       </button>
     </div>
   </header>
@@ -154,12 +158,15 @@
             </button>
           </div>
           <div class="filter-selects" id="filter-selects">
-            <select id="country-filter" aria-label="Filter by country" data-i18n-aria="revamp.countryFilterAria">
-              <option value="">All countries</option>
-            </select>
-            <select id="category-filter" aria-label="Filter by outcome type" data-i18n-aria="revamp.categoryFilterAria">
-              <option value="">All outcomes</option>
-            </select>
+            <div id="outcome-presets" class="outcome-seg" role="group" aria-label="Show records by outcome" data-i18n-aria="revamp.outcomeAria"></div>
+            <div class="filter-row">
+              <span class="filter-row-label" data-i18n="revamp.filterTypes">Types</span>
+              <div id="category-chips" class="chip-scroll" role="group" aria-label="Filter by outcome type" data-i18n-aria="revamp.categoryFilterAria"></div>
+            </div>
+            <div class="filter-row">
+              <span class="filter-row-label" data-i18n="revamp.filterCountries">Countries</span>
+              <div id="country-chips" class="chip-scroll" role="group" aria-label="Filter by country" data-i18n-aria="revamp.countryFilterAria"></div>
+            </div>
           </div>
           <div id="active-filter-banner" class="active-filter-banner" hidden>
             <span id="active-filter-text">Filtered view</span>
@@ -285,8 +292,8 @@
             <button type="button" class="preset-chip active" data-preset="all" aria-pressed="true" data-i18n="revamp.presetAll">All 2026</button>
             <button type="button" class="preset-chip" data-preset="90d" aria-pressed="false" data-i18n="trend.legendRecent">Last 90d</button>
             <button type="button" class="preset-chip" data-preset="30d" aria-pressed="false" data-i18n="revamp.preset30d">Last 30d</button>
-            <button type="button" class="preset-chip" data-preset="surge" aria-pressed="false" data-i18n="revamp.presetSurge">Aug–Oct Surge</button>
-            <button type="button" class="preset-chip" data-preset="oct" aria-pressed="false" data-i18n="revamp.presetOct">Oct Only</button>
+            <button type="button" class="preset-chip" data-preset="prevmonth" aria-pressed="false">October</button>
+            <button type="button" class="preset-chip" data-preset="month" aria-pressed="false">November</button>
             <button type="button" class="preset-chip maritime-preset" data-preset="maritime" aria-pressed="false" data-maritime-i18n="revamp.presetMaritime">⚓ Ship Strikes</button>
           </div>
         </div>
@@ -295,6 +302,11 @@
         <div class="timeline-main">
           <div class="timeline-track">
             <div id="cumulative" class="cumulative" role="img"></div>
+            <div id="range-brush" class="range-brush">
+              <div id="brush-window" class="brush-window" title="Drag to move the interval" data-i18n-title="revamp.brushMoveTitle"></div>
+              <button type="button" id="brush-start" class="brush-handle start" role="slider" aria-label="Interval start" data-i18n-aria="revamp.brushStartAria"></button>
+              <button type="button" id="brush-end" class="brush-handle end" role="slider" aria-label="Interval end" data-i18n-aria="revamp.brushEndAria"></button>
+            </div>
             <input id="timeline-range" type="range" min="0" max="295" value="295" step="1" aria-label="Timeline date" data-i18n-aria="timeline.rangeAria">
           </div>
           <div class="month-labels" aria-hidden="true"></div>
@@ -386,7 +398,7 @@
   <dialog id="trend-dialog" class="trend-dialog" aria-labelledby="trend-dialog-title" closedby="any">
     <div class="dialog-heading">
       <p class="eyebrow" data-i18n="trend.eyebrow">RECORDS PER MONTH</p>
-      <button id="close-trend" type="button" aria-label="Close" data-i18n-aria="about.close">×</button>
+      <button id="close-trend" type="button" aria-label="Close" data-i18n-aria="dialog.close">×</button>
     </div>
     <h2 id="trend-dialog-title" data-i18n="revamp.trendDialogTitle">Monthly distribution &amp; 90-day comparison</h2>
     <section class="trend" aria-label="Records per month">
@@ -402,14 +414,21 @@
     <h3 data-i18n="about.trendTitle">Reading the trend</h3>
     <p data-i18n="trend.blocksNote"></p>
     <p data-i18n="about.trend"></p>
+    <button type="button" id="trend-charts-link" class="charts-link" data-i18n="charts.allLink">All charts &amp; figures →</button>
   </dialog>
 
   <!-- About the Data & Scope Dialog -->
   <dialog id="about-dialog" aria-labelledby="about-title" closedby="any">
     <div class="dialog-heading">
-      <p class="eyebrow" data-i18n="about.eyebrow">READING THE MAP</p>
+      <p class="eyebrow" data-i18n="about.projectEyebrow">ABOUT THIS PROJECT</p>
       <button id="close-about" type="button" aria-label="Close about the data" data-i18n-aria="about.close">×</button>
     </div>
+    <section class="about-project" aria-label="Project">
+      <p id="about-project-lead" class="about-project-lead"></p>
+      <p id="about-project-reuse"></p>
+      <button type="button" id="about-press-link" class="about-press-link" data-i18n="press.aboutLink">Press &amp; media: reuse and credit →</button>
+    </section>
+    <p class="eyebrow about-section-eyebrow" data-i18n="about.eyebrow">READING THE MAP</p>
     <h2 id="about-title"><span data-i18n="about.title1">A research register,</span> <span data-i18n="about.title2">not a confirmed attack count.</span></h2>
     <p class="intro-callout" data-i18n="register.intro">Drones that reached EU countries from abroad: incursions, shoot-downs, crashes and wreckage, including ones whose operator is unknown. Ordinary drone sightings, like most airport disruptions, are not included.</p>
     <dl id="register-summary" class="about-stats"></dl>
@@ -426,6 +445,88 @@
     <a class="download-link" href="eu_foreign_drone_events_2026_final_update_deduped.md" download data-i18n="about.downloadUpdate">Download the deduplicated research update ↓</a>
     <p class="credits"><span data-i18n="about.credits">Map:</span> <a href="https://leafletjs.com" target="_blank" rel="noopener noreferrer">Leaflet</a> · <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a></p>
   </dialog>
+  <!-- Press & media: reuse terms, credit line and screenshot tools -->
+  <dialog id="press-dialog" class="press-dialog" aria-labelledby="press-title" closedby="any">
+    <div class="dialog-heading">
+      <p class="eyebrow" data-i18n="press.eyebrow">PRESS &amp; MEDIA</p>
+      <button id="close-press" type="button" aria-label="Close" data-i18n-aria="dialog.close">×</button>
+    </div>
+    <h2 id="press-title" data-i18n="press.title">Use anything. Just credit the source.</h2>
+    <p class="intro-callout" data-i18n="press.intro">Screenshots, maps, charts, videos, texts and data from this site are free to use under CC BY 4.0, in print, on air and online, commercial use included. Name the source; nothing more is needed.</p>
+    <div class="press-credit">
+      <span class="press-label" data-i18n="press.creditLabel">Credit line</span>
+      <code id="press-credit-text">Source: droneincidents.eu</code>
+      <button type="button" id="copy-credit" class="press-copy" data-i18n="press.copy">Copy</button>
+    </div>
+    <section class="press-numbers" aria-labelledby="press-numbers-title">
+      <div class="press-numbers-head">
+        <h3 id="press-numbers-title" data-i18n="charts.numbersTitle">By the numbers</h3>
+        <button type="button" id="press-charts-link" class="charts-link" data-i18n="charts.allLink">All charts &amp; figures →</button>
+      </div>
+      <p class="press-numbers-intro" data-i18n="charts.numbersIntro">Each figure comes with a sentence you can quote as it is. It already names the source.</p>
+      <div id="press-figures" class="figure-grid compact"></div>
+    </section>
+    <h3 data-i18n="press.imagesTitle">Images, video and data</h3>
+    <div class="press-actions">
+      <button type="button" id="press-charts" class="press-action featured">
+        <strong data-i18n="charts.open">Charts &amp; figures</strong>
+        <span data-i18n="charts.openBody">Every chart with a one-line takeaway, a table, PNG and CSV downloads, and share cards in your language.</span>
+      </button>
+      <button type="button" id="press-clean-mode" class="press-action">
+        <strong data-i18n="press.cleanTitle">Clean screenshot mode</strong>
+        <span data-i18n="press.cleanBody">Hides the controls, leaving the map, legend and credit. Press Esc to return.</span>
+      </button>
+      <button type="button" id="press-snapshot" class="press-action">
+        <strong data-i18n="press.snapshotTitle">Map image (PNG)</strong>
+        <span data-i18n="press.snapshotBody">The current dates and filters as a 1280×720 image.</span>
+      </button>
+      <a id="press-card" class="press-action" href="og-image.png" download="droneincidents-eu-summary.png">
+        <strong data-i18n="press.cardTitle">Summary card (PNG)</strong>
+        <span data-i18n="press.cardBody">The 90-day trend, a map and the latest incident, redrawn with each data update.</span>
+      </a>
+      <button type="button" id="press-video" class="press-action">
+        <strong data-i18n="press.videoTitle">Replay video</strong>
+        <span data-i18n="press.videoBody">Record the timeline replay for any date range.</span>
+      </button>
+      <button type="button" id="press-data" class="press-action">
+        <strong data-i18n="press.dataTitle">Data (CSV)</strong>
+        <span data-i18n="press.dataBody">The records in the current view, with their source links.</span>
+      </button>
+    </div>
+    <h3 data-i18n="press.notesTitle">Good to know</h3>
+    <ul class="press-notes">
+      <li data-i18n="press.noteMap">When the interactive map is in your screenshot, keep its “© OpenStreetMap contributors” credit: the map tiles are OpenStreetMap data.</li>
+      <li data-i18n="press.noteSources">Cited news reports belong to their publishers. Link to them rather than copying them.</li>
+      <li data-i18n="press.noteCounts">This is a research register, not a count of confirmed attacks. Please keep words such as “reported” and “suspected” as they appear.</li>
+    </ul>
+    <p id="press-project" class="press-project"></p>
+  </dialog>
+
+  <!-- Charts & figures: drawn by charts.js from the same records as the map -->
+  <dialog id="stats-dialog" class="stats-dialog" aria-labelledby="stats-title">
+    <div class="stats-shell">
+      <header class="stats-head">
+        <div class="stats-heading">
+          <p class="eyebrow" data-i18n="charts.eyebrow">CHARTS &amp; FIGURES</p>
+          <h2 id="stats-title" data-i18n="charts.title">The register in numbers</h2>
+          <p id="stats-sub" class="stats-sub"></p>
+        </div>
+        <label class="stats-scope">
+          <span data-i18n="charts.scope">Country</span>
+          <select id="stats-scope"></select>
+        </label>
+        <button id="close-stats" class="stats-close" type="button" aria-label="Close charts and figures" data-i18n-aria="charts.close">×</button>
+      </header>
+      <div id="stats-body" class="stats-body"></div>
+    </div>
+    <div id="stats-tip" class="stats-tip" aria-hidden="true" hidden></div>
+  </dialog>
+
+  <!-- Shown only in clean screenshot mode -->
+  <div id="press-overlay" class="press-overlay" hidden>
+    <p class="press-watermark"><strong>droneincidents.eu</strong> · CC BY 4.0</p>
+    <button type="button" id="exit-clean-mode" class="press-exit" data-i18n="press.exitClean">Exit screenshot mode</button>
+  </div>
   <div id="announcer" class="sr-only" role="status" aria-live="polite"></div>
   <noscript>This interactive map requires JavaScript. <a href="events/">Browse all records</a> or <a href="eu_foreign_drone_events_2026_consolidated.md">read the original register.</a></noscript>
 </body>

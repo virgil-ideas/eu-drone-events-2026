@@ -118,13 +118,13 @@
   },
   "E013": {
     "headline": "Dronefragmenten met springlading vernietigd bij Luncavița, Roemenië",
-    "description": "Op 26 april 2026 werden tussen Luncavița en Văcăreni in Roemenië dronefragmenten met een springlading gevonden en vernietigd. De herkomst wordt onderzocht.",
+    "description": "Dronefragmenten die op 26 april 2026 bij Luncavița werden gevonden, merkte het Roemeense ministerie van Defensie later aan als deel van een aan Rusland toegeschreven Geran-2-voorval.",
     "summary": [
       "Op 26 april 2026 werden tussen Luncavița en Văcăreni in het district Tulcea, Roemenië, nog meer dronefragmenten gemeld, een dag nadat bij een boerderij in Văcăreni fragmenten waren gevonden. Tussen het materiaal werd een springlading bevestigd en er werd een RO-Alert-veiligheidswaarschuwing afgegeven.",
-      "De herkomst van de fragmenten wordt onderzocht en er werd een onderzoek door aanklagers van het Hof van Beroep van Constanța gemeld. Wanneer de drone vloog of neerkwam, is onbekend. De fragmenten zijn niet bevestigd als een tweede complete drone en het is niet vastgesteld of zij en de vondst van de dag ervoor van één of van meer toestellen afkomstig waren.",
+      "In een verklaring van 31 mei nam het MApN Luncavița op 26 april achteraf op in een lijst van eerdere Geran-2-voorvallen die aan Rusland worden toegeschreven. Dit werkt de aanvankelijk onopgehelderde herkomst bij, maar stelt niet vast wanneer de drone vloog of neerkwam, welke route hij volgde of wat zijn beoogde doelwit was. De fragmenten zijn niet bevestigd als een tweede complete drone, en of zij van hetzelfde toestel afkomstig zijn als de vondst van de dag ervoor, blijft onopgehelderd.",
       "Pyrotechnici van de SRI en specialisten van het Roemeense ministerie van Defensie (MApN) beoordeelden het materiaal, dat vervolgens ter plaatse in een gecontroleerde ontploffing werd vernietigd onder gezag van de aanklager. Er werden geen slachtoffers gemeld."
     ],
-    "basis": "88e415a73fd8096d"
+    "basis": "b590e35104316219"
   },
   "E014": {
     "headline": "Drone van onbekende herkomst gevonden bij Șerbăuți in het Roemeense district Suceava",
@@ -167,13 +167,13 @@
   },
   "E018": {
     "headline": "Alarm om vermoede drones legt luchthaven van Helsinki in Finland stil",
-    "description": "Op 15 mei 2026 leidden vermoede drones bij Helsinki in Finland tot een waarschuwing om binnen te blijven en tot stillegging van de luchthaven. Buitenlandse herkomst is niet bewezen.",
+    "description": "Op 15 mei 2026 leidden vermoede drones bij Helsinki in Finland tot een waarschuwing om binnen te blijven en tot stillegging van de luchthaven. Buitenlandse herkomst werd niet bewezen.",
     "summary": [
       "Op 15 mei 2026 leidde vermoede drone-activiteit in de regio Groot-Helsinki in Finland tot uitgebreide beschermende maatregelen. Inwoners werd gewaarschuwd binnen te blijven, de activiteit op de luchthaven werd opgeschort en er stegen gevechtsvliegtuigen op. Hoeveel drones erbij betrokken waren en van welk type, is niet opgehelderd.",
       "Buitenlandse herkomst is niet bewezen en de route van eventuele drones is onbekend. De Finse autoriteiten beoordeelden de dreiging en hun verklaring op dat moment bevestigde geen directe militaire dreiging. Het voorval was een alarm en een verstoring, geen bevestigde aanval.",
-      "Er werd geen fysieke schade gemeld."
+      "Er werd geen fysieke schade gemeld. Luchthavenexploitant Finavia bevestigt dat het luchtverkeer van 04:00 tot 07:00 plaatselijke tijd was opgeschort en daarna werd hervat, met die dag vertragingen en annuleringen. Finavia noemt geen totaal aantal annuleringen en identificeert geen drone."
     ],
-    "basis": "8dcd29f016872e0a"
+    "basis": "22793f6506f0bdbc"
   },
   "E019": {
     "headline": "Wrakstukken van vermoedelijk Oekraïense drone gevonden bij Utena, Litouwen",
@@ -255,14 +255,14 @@
     "basis": "a18eddeece7bbecb"
   },
   "E027": {
-    "headline": "Zelfgebouwde smokkeldrone aan de grond gedwongen nabij grens met Belarus in Litouwen",
-    "description": "Op 23 mei 2026 werd een zelfgebouwde vrachtdrone, gemeld als afkomstig uit Belarus, bij Dumblė, district Šalčininkai, Litouwen, aan de grond gedwongen en in beslag genomen in een smokkelzaak.",
+    "headline": "Smokkeldrone zonder lading geborgen bij Dumblė",
+    "description": "Volgens de Litouwse grenswacht had de zelfgebouwde drone die op 23 mei 2026 bij Dumblė neerkwam geen lading aan boord en raakte hij bij de inslag zwaar beschadigd.",
     "summary": [
-      "Op 23 mei 2026 werd een zelfgebouwde vrachtdrone met gesmokkelde goederen naar verluidt aan de grond gedwongen bij Dumblė, in het Litouwse district Šalčininkai aan de grens met Belarus. Grenswachters onderschepten de drone en namen hem in beslag.",
-      "De drone zou uit Belarus zijn gekomen. Het ging om een criminele smokkelvlucht, niet om een militaire, en de operator is niet geïdentificeerd. Details over de lading en over de drone zelf waren niet beschikbaar.",
-      "Er werden geen explosieve lading en geen slachtoffers gemeld. In de berichten gaat het om een gedwongen landing en inbeslagname, niet om neerschieten of een neerstorting."
+      "Op 23 mei 2026 kwam een zelfgebouwde drone die volgens de Litouwse grenswacht (VSAT) uit Belarus was binnengekomen, na ingrijpen van grenswachters neer bij Dumblė, in het district Šalčininkai.",
+      "Toen agenten het toestel borgen, was het zwaar beschadigd en had het geen lading. Het oorspronkelijke bericht van de VSAT corrigeert de eerdere beschrijving van een beladen drone.",
+      "De VSAT omschreef het toestel als eigendom van smokkelaars. De operator is niet bekend. Er werden geen slachtoffers en geen kinetisch neerschieten gemeld."
     ],
-    "basis": "e9db67cdbd535522"
+    "basis": "9db105cbb575f730"
   },
   "E028": {
     "headline": "Roemenië zegt dat Russische drone flatgebouw in Galați raakte, twee gewonden",
@@ -270,9 +270,10 @@
     "summary": [
       "In de nacht op 29 mei 2026 raakte een drone het dak van een flatgebouw in de wijk Mazepa van Galați, Roemenië, en veroorzaakte brand. Twee mensen liepen lichte verwondingen op, bewoners werden geëvacueerd en woningen raakten beschadigd. Functionarissen schatten dat de drone ten minste 30 kg explosieven bij zich had.",
       "Op basis van een officiële beoordeling van radargegevens en brokstukken identificeerden de Roemeense autoriteiten hem als een Russische Geran-2-drone. Hij werd in verband gebracht met een bredere golf van 43 drones bij aanvallen op Oekraïne en maakte voor de inslag een korte vlucht boven Roemenië. Moskou betwistte de toeschrijving. Roemenië omschreef de aanval niet als een opzettelijke aanval gericht op Roemenië.",
-      "Twee Roemeense F-16’s en een helikopter stegen op, maar grepen boven de stad niet in, en de locatie werd onderzocht. De Russische consul werd uitgewezen en het consulaat werd als reactie gesloten. Het voorval staat los van een drone-neerstorting in Galați op 25 april 2026."
+      "Twee Roemeense F-16’s en een helikopter stegen op, maar grepen boven de stad niet in, en de locatie werd onderzocht. De Russische consul werd uitgewezen en het consulaat werd als reactie gesloten. Het voorval staat los van een drone-neerstorting in Galați op 25 april 2026.",
+      "In zijn brief van 29 mei aan de VN-Veiligheidsraad meldde Roemenië een radarspoor tot in het zuiden van Galați, een inslag op het dak van een woongebouw, brand, twee gewonden en een evacuatie. De brief schrijft de drone toe aan Rusland zonder het model of het gewicht van de lading te noemen."
     ],
-    "basis": "867f5d0e86da38f7"
+    "basis": "839ef0ac20cfdff4"
   },
   "E029": {
     "headline": "Vermoede drone-activiteit leidt tot alarm aan Letse en Estse grenzen",
@@ -296,13 +297,13 @@
   },
   "E031": {
     "headline": "Frans NATO-gevechtsvliegtuig schiet drone neer bij Bērzgale, Letland",
-    "description": "Op 8 juni 2026 schoot een Frans NATO-gevechtsvliegtuig een drone neer in het Letse luchtruim bij Bērzgale. Nationaliteit en model zijn niet sluitend vastgesteld.",
+    "description": "Op 8 juni 2026 schoot een Frans NATO-gevechtsvliegtuig een drone neer in het Letse luchtruim bij Bērzgale, Letland. Nationaliteit en model werden niet sluitend vastgesteld.",
     "summary": [
       "Op 8 juni 2026 kwam een drone (UAV) het Letse luchtruim binnen en werd onderschept in het gebied Bērzgale in Letland. Een Frans gevechtsvliegtuig dat met NATO opereerde, schoot hem vervolgens neer.",
-      "De nationaliteit en het model van de drone werden in de berichten ten tijde van het voorval niet sluitend vastgesteld. Hij wordt behandeld als een buitenlandse drone, maar zijn herkomst is niet vastgesteld; zijn route werd niet gespecificeerd en wat hij eventueel bij zich had, blijft onbekend.",
+      "Een Letse militaire woordvoerder vertelde Reuters dat de drone vanuit Rusland binnenkwam, aldus Euronews. Zijn exacte route en lanceerplaats werden niet vastgesteld. De gemelde richting van binnenkomst identificeert niet de operator of nationaliteit; model, lading en beoogd doelwit bleven in de beoordeelde berichten onopgehelderd.",
       "In Letland werden geen slachtoffers gemeld. Na het neerschieten volgden een zoektocht naar de wrakstukken en een onderzoek van de brokstukken."
     ],
-    "basis": "74bcaba3125d8355"
+    "basis": "c7ae1c343f0f6430"
   },
   "E032": {
     "headline": "Roemenië vernietigt bij Rachelu dronefragmenten die het als Russisch identificeerde",
@@ -315,14 +316,15 @@
     "basis": "a2522d4f06337eee"
   },
   "E033": {
-    "headline": "Bemanning van LPG-schip meldt drone-aanval voor de kust van Sfântu Gheorghe, Roemenië",
-    "description": "Op 21 juli 2026 beschadigden explosies een LPG-schip zwaar in de Zwarte Zee voor Sfântu Gheorghe, Roemenië. De bemanning beschreef drie drones; een drone als oorzaak is onbevestigd.",
+    "headline": "Brand op GAS LISBON voor Roemenië: één zeeman overleden; drone als oorzaak onbevestigd",
+    "description": "Op 21 juli werden alle 17 opvarenden van de GAS LISBON voor Roemenië geëvacueerd. Een van de drie gewonden overleed twee dagen later. Een drone als oorzaak blijft onbevestigd.",
     "summary": [
-      "In de nacht en de ochtend van 21 juli 2026 beschadigden explosies een koopvaardijschip dat LPG vervoerde zwaar in de Zwarte Zee, ongeveer 26 km voor de kust van Sfântu Gheorghe, Roemenië, en het schip vatte vuur. De positie lag naar verluidt buiten de Roemeense territoriale wateren.",
+      "De onder Liberiaanse vlag varende LPG-tanker GAS LISBON werd getroffen door een explosie en brand voor Sfântu Gheorghe in de Roemeense EEZ, buiten de territoriale wateren. De Roemeense scheepvaartautoriteit registreerde het noodsignaal om 00:05 plaatselijke tijd op 21 juli; dat is niet het geverifieerde tijdstip van de explosie.",
       "Twee bemanningsleden beschreven een aanval met drie drones in de nacht. Hun relaas wordt behandeld als een bewering en niet als een definitieve identificatie van het wapen: het type drone, de gebruikte toestellen en ladingen, het lanceerpunt en de operator of nationaliteit zijn niet geïdentificeerd, en een drone als oorzaak is niet bevestigd.",
-      "Roemeense maritieme reddingsdiensten grepen in en brachten de bemanning in veiligheid. Er werden gewonden gemeld, onder wie mensen met brandwonden. Het voorval staat los van de noodsituatie van een bulkcarrier voor dezelfde kust op 24 juli en van het incident met de Progress IV in augustus."
+      "Dit staat los van de noodsituatie van de bulkcarrier op 24 juli en van het scheepsongeval met de PROGRESS IV in augustus.",
+      "Alle 17 bemanningsleden werden geëvacueerd. Drie raakten gewond; een van hen overleed op 23 juli in het ziekenhuis van Tulcea, zo meldde het Roemeense ministerie van Volksgezondheid aan AGERPRES. Berichtgeving van de Filipijnse overheid staafde het overlijden en de terugkeer naar huis van de andere twee gewonde zeevarenden. De afloop voor de slachtoffers stelt niet vast dat een drone de oorzaak was."
     ],
-    "basis": "6f6ef8fc3dd8a8e7"
+    "basis": "5b25f8a67d378d86"
   },
   "E034": {
     "headline": "Bulkcarrier Christina B beschadigd voor Roemenië; mijn of drone onopgehelderd",
@@ -384,14 +386,13 @@
     "basis": "ea7f019b9a1f4ed6"
   },
   "E040": {
-    "headline": "Duitsland brengt drone bij luchthaven Leipzig in verband met personen die namens Russische diensten handelden",
-    "description": "Op 4–5 augustus 2026 ontplofte de springlading van een explosieve drone niet op Leipzig/Halle Airport, Duitsland. Duitsland wees personen aan die namens Russische diensten handelden; Rusland ontkende.",
+    "headline": "Dronevlucht: Leipzig/Halle Airport, Duitsland",
+    "description": "4 augustus 2026, Leipzig/Halle Airport, Duitsland. Cluster van aanvallen met explosieve drones; officiële toeschrijving aan een staat. Explosieve drone bereikte luchthaven, maar lading ging niet af.…",
     "summary": [
-      "In de nacht van 4 op 5 augustus 2026 bereikte een drone met professionele explosieven en een detonator Leipzig/Halle Airport bij Schkeuditz, Duitsland, maar de lading ontplofte niet. De luchthaven werd verstoord. Los daarvan meldde een vrachtvliegtuig een voorwerp te hebben geraakt bij een vermoede aanvaring en week het uit naar Hannover; er werd lichte schade aan het vliegtuig gemeld, maar het voorwerp werd niet sluitend als drone geïdentificeerd. Op 14 augustus werd bij Kabelsketal nog een vermoede aanvalsdrone gevonden; de vondst werd op 25 augustus gemeld en het voorwerp werd naar verluidt in verband gebracht met ongeveer 50 g vermoed RDX.",
-      "Op 1 september schreef Duitsland de operatie toe aan personen die namens Russische staatsdiensten handelden. Rusland ontkende verantwoordelijkheid. De toeschrijving ging niet gepaard met openbaarmaking van al het onderliggende forensische en inlichtingenbewijs, en het lanceerpunt is niet vastgesteld.",
-      "Er werden geen slachtoffers gemeld. De politie, bomruimingsteams met een robot en federale aanklagers deden onderzoek, het extra toestel werd in beslag genomen en later volgden diplomatieke maatregelen."
+      "Explosieve drone bereikte de luchthaven, maar de lading ging niet af. Een vrachtvliegtuig meldde los daarvan een ontmoeting met een voorwerp en week uit. Een extra vermoede aanvalsdrone werd geborgen bij Kabelsketal.",
+      "Cluster van aanvallen met explosieve drones; officiële toeschrijving aan een staat. Op 1 september schreef Duitsland de operatie toe aan personen die namens Russische staatsdiensten handelden; Rusland ontkende verantwoordelijkheid. De officiële Duitse toeschrijving wordt geregistreerd als toeschrijving, niet als openbaarmaking van al het onderliggende forensische en inlichtingenbewijs. De Russische ontkenning blijft vermeld. De bevindingen van november over de lanceerplaats en de uitrusting blijven onderzoeksmatige inschattingen en zijn geen bewijs van de schuld van enig individu."
     ],
-    "basis": "fd5d244bb50c3706"
+    "basis": "cc6d63474657af35"
   },
   "E041": {
     "headline": "Twee drones waargenomen boven militaire installatie in West-Duitsland",
@@ -455,13 +456,14 @@
   },
   "E047": {
     "headline": "Roemeense F-16 opent vuur op explosieve zeedrone nabij werkzaamheden bij Neptun Deep",
-    "description": "Op 20 augustus 2026 beschadigde een Roemeense F-16 een explosieve zeedrone bij Neptun Deep, in de Roemeense EEZ, voordat de marine hem onschadelijk maakte. De herkomst is onopgehelderd.",
+    "description": "Roemenië maakte op 20 augustus een explosieve zeedrone bij Neptun Deep onschadelijk. De Roemeense president schreef hem later toe aan de Russische marine.",
     "summary": [
-      "Op 20 augustus 2026 werd een onbemand oppervlaktevaartuig, of zeedrone, met explosieven gedetecteerd op enkele honderden meters van de offshorewerkzaamheden bij Neptun Deep, ruwweg 80 zeemijl ten oosten van Constanța in de exclusieve economische zone van Roemenië. Of hij de werkzaamheden naderde of ernaartoe dreef, en wat hij beoogde te doen, is onopgehelderd.",
+      "Op 20 augustus 2026 werd een onbemand oppervlaktevaartuig, of zeedrone, met explosieven gedetecteerd op enkele honderden meters van de offshorewerkzaamheden bij Neptun Deep, ruwweg 80 zeemijl ten oosten van Constanța in de exclusieve economische zone van Roemenië.",
       "Een Roemeense F-16 opende met zijn kanon het vuur op de drone en beschadigde hem, maar vernietigde hem niet volledig, waarna een EOD-team van de marine hem onschadelijk maakte. Officiële berichtgeving bevestigde een springlading van onbekende omvang. Het ministerie van Defensie sprak aanvankelijk van twee drones en corrigeerde dit later naar één. Er werden geen slachtoffers of schade aan de infrastructuur gemeld.",
-      "Het lanceerpunt en de operator van de drone zijn onbekend. De Roemeense minister van Defensie zei dat Oekraïne had bevestigd dat de drone niet Oekraïens was; die verklaring stelt niet vast wie hem wel heeft gelanceerd. De zaak staat los van de luchtdrone die dezelfde dag bij Grindu neerstortte."
+      "Op 23 september zei president Nicușor Dan tegen de VN-Veiligheidsraad dat de drone van 20 augustus een drone van de Russische marine was. Hij maakte het bewijs achter die toeschrijving niet openbaar. Het lanceerpunt en het beoogde doelwit blijven ongeverifieerd. De zaak staat los van de luchtdrone die dezelfde dag bij Grindu neerstortte.",
+      "In een terugblik die SpotMedia op 24 november publiceerde, beschreef voormalig minister van Defensie Radu Miruță hoe arbeiders de drone bij de steunpijlers van het platform filmden en een sleepboot hem op afstand probeerde te houden. Hij meldde ook dat hij een Russische kennisgeving over vliegbeperkingen ontving nadat hij opdracht had gegeven tot de inzet van het gevechtsvliegtuig. De oorspronkelijke kennisgeving werd niet onafhankelijk ingezien; deze details werken het voorval van augustus bij en vormen geen nieuw voorval."
     ],
-    "basis": "d752991b133cd913"
+    "basis": "d09904239858514b"
   },
   "E048": {
     "headline": "Marine vernietigt explosieve dronebrokstukken gevonden op strand van Tuzla, Roemenië",
@@ -519,9 +521,10 @@
     "summary": [
       "Op 27 augustus 2026 vatte het koopvaardijschip Progress IV vuur en zonk in de Zwarte Zee, ongeveer 15–20 zeemijl voor Sfântu Gheorghe in de exclusieve economische zone van Roemenië. Omstreeks 17:55 plaatselijke tijd kwam een noodoproep binnen en om 20:47 waren alle 12 bemanningsleden gered.",
       "Een inslag op het schip werd beweerd en de autoriteiten zeiden dat de oorzaak onderzoek vereiste. Een drone-aanval bleef een hypothese: er is geen drone of ander wapen geïdentificeerd en er is geen explosie of drone-aanval vastgesteld. De vlag van het schip werd gemeld als die van de Dominicaanse Republiek, terwijl een bron uit de scheepvaartsector Dominica noemde.",
-      "Eén bemanningslid raakte gewond, naar verluidt met een gebroken arm; eerdere beschrijvingen van een ernstig letsel worden door latere berichten niet gestaafd. Het maritieme reddingscoördinatiecentrum (MRCC) coördineerde een handelsschip, de Grenspolitie en reddingsschepen."
+      "Eén bemanningslid raakte gewond, naar verluidt met een gebroken arm; eerdere beschrijvingen van een ernstig letsel worden door latere berichten niet gestaafd. Het maritieme reddingscoördinatiecentrum (MRCC) coördineerde een handelsschip, de Grenspolitie en reddingsschepen.",
+      "Op 24 november meldde Libertatea dat de Roemeense Maritieme Hydrografische Directie had beoordeeld dat het schip door een drone was getroffen. De gepubliceerde navigatieberichten van de directie stellen het wrak vast en melden gevaren, maar noemen geen oorzaak. Er is geen forensische bevinding, geen wapen en geen operator vastgesteld."
     ],
-    "basis": "f4b55e178bf70b3a"
+    "basis": "7df77fa9b948d455"
   },
   "E054": {
     "headline": "Herder vindt explosieve drone bij Viișoara, Roemenië; herkomst betwist",
@@ -534,14 +537,14 @@
     "basis": "cfac143f34b000e0"
   },
   "E055": {
-    "headline": "Kartografiedrone van onbekende herkomst geborgen aan de zuidkust van Finland",
-    "description": "Op 2 september 2026 werd aan de Finse zuidkust een kartografiedrone van onbekende herkomst geborgen. Een mogelijke territoriale schending werd onderzocht.",
+    "headline": "Drone in Pellinki gevonden op 1 september; waarschijnlijk Russische herkomst ingeschat",
+    "description": "Een op 1 september in Pellinki gevonden drone werd ingeschat als waarschijnlijk van Russische herkomst. Volgens onderzoekers viel hij buiten Finland in zee; het onderzoek ging door.",
     "summary": [
-      "Op 2 september 2026 borgen de autoriteiten een opmetings- of kartografiedrone (UAV) aan de zuidkust van Finland. De precieze locatie werd in het aangehaalde bericht niet genoemd. De datum is die van de berging; wanneer de drone vloog en langs welke route, is onbekend.",
-      "De herkomst en de operator van de drone zijn onbekend. Het is niet vastgesteld dat hij uit het buitenland kwam, en er wordt niet van uitgegaan dat het een buitenlandse militaire drone is.",
-      "De drone werd omschreven als ongevaarlijk, er werd geen gevaarlijke lading geïdentificeerd en er werden geen schade of slachtoffers gemeld. De autoriteiten onderzochten of de vlucht neerkwam op een territoriale schending."
+      "Een burger vond op 1 september 2026 een UAV tussen de oeverrotsen van Pellinki; een patrouille van de grenswacht bevestigde de vondst. De eerdere datum in het register, 2 september, was de datum van de eerste bekendmaking. Het gepubliceerde paginaadres blijft behouden.",
+      "Op 10 september zei de grenswacht dat gegevens uit het toestel wezen op een waarschijnlijk uit Rusland afkomstig toestel dat de controle verloor en zonder brandstof kwam te zitten voordat het buiten Finland in zee viel. De bevinding was voorlopig en het onderzoek ging door.",
+      "Dit blijft één berging, geen vastgestelde binnendringing door de lucht of neerstorting in Finland. De operator en het oorspronkelijke doel blijven onopgehelderd. Het kaartpunt is een ankerpunt bij benadering in de archipel."
     ],
-    "basis": "30e03e74f6707d09"
+    "basis": "de38e633c3a7e190"
   },
   "E056": {
     "headline": "Als Russisch gemelde straaldrone steekt vanuit Moldavië over naar noordoost-Roemenië",
@@ -554,14 +557,14 @@
     "basis": "7b1f8e2c4bb81edb"
   },
   "E057": {
-    "headline": "Vermoedelijk Russische militaire drone geborgen voor het strand van Rusinowo, Polen",
-    "description": "Op 14 september 2026 haalde het Poolse leger een drone uit zee voor het strand van Rusinowo; volgens een voorlopige beoordeling van de minister van Defensie is hij Russisch.",
+    "headline": "Drone geborgen op strand van Rusinowo; gevechtskop veilig geruimd",
+    "description": "Op 14 september spoelde bij Rusinowo een drone aan. Aanklagers identificeerden voorlopig een in Rusland gemaakte Gerbera en beschreven een gecontroleerde ruiming van de gevechtskop.",
     "summary": [
-      "Op 14 september 2026 lokaliseerde het Poolse leger een vermoede militaire drone in de Oostzee, vlak voor het strand van Rusinowo, nabij Jarosławiec aan de Poolse kust, en haalde hem uit het water voor onderzoek. De datum is die van de ontdekking en de berging; wanneer de drone vloog en via welke route hij de Poolse kust bereikte, is niet bekend.",
-      "De Poolse minister van Defensie zei dat de voorlopige beoordeling was dat het een Russische militaire drone was. Die identificatie is voorlopig en hangt af van het onderzoek van de geborgen drone. Er werd geen lading gemeld.",
-      "In verband met de vondst werden geen slachtoffers of schade gemeld."
+      "Een marinebemanning zag op 14 september omstreeks 09:20 een UAV drijven bij Jarosławiec; volgens de verklaring van de aanklager in Poznań van 1 oktober spoelde die omstreeks 11:25 aan bij Rusinowo. Dit is één voorval van berging en ruiming, geen afzonderlijke gebeurtenis op de datum van de latere publicatie.",
+      "Specialisten scheidden een gevechtskop met een mogelijke springlading af en vernietigden die in een gecontroleerde ontploffing. Onderzoekers identificeerden voorlopig een in Rusland gemaakte Gerbera. De operator, het doelwit, de vliegroute en de omstandigheden van de inslag in zee blijven onopgehelderd; de plaats van vervaardiging stelt geen operator of bedoeling vast.",
+      "Het onderzoek werd op 25 september overgedragen aan Poznań en er werden specialistische onderzoeken gelast. Er werden geen slachtoffers of schade gemeld."
     ],
-    "basis": "5071f4361b5692d3"
+    "basis": "4c37729989b9a2c5"
   },
   "E058": {
     "headline": "Italiaans NATO-gevechtsvliegtuig schiet Gerbera-drone neer bij Pratkūnai, Litouwen",
@@ -569,9 +572,9 @@
     "summary": [
       "In de nacht van 14 op 15 september 2026 bestreed een Italiaans gevechtsvliegtuig dat met NATO opereerde een drone boven Litouwen nabij Pratkūnai en schoot hem neer. De Litouwse autoriteiten onderzochten vervolgens de brokstukken en de elektronica van de drone. Er werden geen slachtoffers gemeld.",
       "De drone werd geïdentificeerd als een Gerbera, een type dat Rusland gebruikt. Op 16 september schatte de Litouwse president in dat hij waarschijnlijk bedoeld was voor een Oekraïens doelwit. Een mogelijke koersafwijking als gevolg van Oekraïense elektronische oorlogsvoering is naar voren gebracht om te verklaren hoe hij Litouwen bereikte, maar die oorzakelijke verklaring is een inschatting. Noch de identificatie als Russisch type, noch de inschatting van het beoogde doelwit is bewijs voor een opzettelijke aanval op Litouwen.",
-      "Of deze specifieke drone explosieven bij zich had, is niet vastgesteld; Gerbera-varianten kunnen lokdrones zijn of bewapend."
+      "De Litouwse minister van Defensie Robertas Kaunas zei dat de drone een explosief bij zich had, meldde Reuters op 15 september. Dit is een toegeschreven officiële verklaring; onafhankelijke forensische bevindingen en de exacte explosieve lading werden niet beoordeeld. Ze stelt geen opzettelijke aanval op Litouwen vast."
     ],
-    "basis": "fce04ead6c652cda"
+    "basis": "2f29e9a25cf1baa8"
   },
   "E059": {
     "headline": "Roemenië zegt dat lading van Russische drone in de lucht ontplofte vóór neerstorting bij Solca",
@@ -1196,9 +1199,10 @@
     "summary": [
       "Op 5 oktober 2026 raakte het graanschip Royad Mammadov, onderweg van Izmail in Oekraïne naar Ravenna in Italië, beschadigd door een gemelde drone-aanval, een explosie aan boord en brand in de Zwarte Zee nabij het platform Pescăruș, ongeveer 30 zeemijl ten zuiden van Sfântu Gheorghe. De locatie lag in de exclusieve economische zone (EEZ) van Roemenië, buiten de territoriale wateren. Om 10:37 plaatselijke tijd werd een reddingsverzoek geregistreerd; het exacte tijdstip van de aanval is niet geverifieerd.",
       "De Oekraïense president Volodymyr Zelensky zei dat twee Russische drones het schip troffen. Dat is een Oekraïense bewering, geen onafhankelijke verificatie, en Roemenië heeft geen bevinding over de toeschrijving gepubliceerd. Marius Roibu, directeur van het reddingscentrum MRCC Constanța, beschreef een kennelijke aanval met meerdere drones; het type, het lanceerpunt en de operators van de drones zijn niet vastgesteld.",
-      "De berichten over slachtoffers zijn tegenstrijdig. Het Roemeense ministerie van Binnenlandse Zaken meldde aanvankelijk twee doden en elf geredden; op 6 oktober zei het Azerbeidzjaanse ministerie van Buitenlandse Zaken dat de kapitein was gedood en een ander Azerbeidzjaans bemanningslid werd vermist. De ambassade van India zei dat drie Indiase bemanningsleden het overleefden, van wie één gewond. Een eerste bericht dat het schip zonk, werd op 6 oktober gecorrigeerd, toen werd gemeld dat het nog dreef en wachtte op een sleep naar Midia. Petrom zei dat het platform Pescăruș niet was getroffen."
+      "De berichten over slachtoffers zijn tegenstrijdig. Het Roemeense ministerie van Binnenlandse Zaken meldde aanvankelijk twee doden en elf geredden; op 6 oktober zei het Azerbeidzjaanse ministerie van Buitenlandse Zaken dat de kapitein was gedood en een ander Azerbeidzjaans bemanningslid werd vermist. De ambassade van India zei dat drie Indiase bemanningsleden het overleefden, van wie één gewond. Een eerste bericht dat het schip zonk, werd op 6 oktober gecorrigeerd, toen werd gemeld dat het nog dreef en wachtte op een sleep naar Midia. Petrom zei dat het platform Pescăruș niet was getroffen.",
+      "Roemenië gaf op 7 oktober een waarschuwing voor zinkgevaar af. Bericht aan Zeevarenden 10/65/26, in de kaartcorrectie van 22 oktober, vermeldde het schip later als gevaarlijk wrak. Dit stelt de latere toestand vast, niet wanneer het zonk, of er een sleep plaatsvond of het exacte punt van de aanval."
     ],
-    "basis": "f110d36fc131a5b5"
+    "basis": "93c08958dbb972eb"
   },
   "N073": {
     "headline": "Drone-aanval voor Bulgarije brengt ALFA WATAN tot zinken en zet ABLE in brand",
@@ -1366,14 +1370,15 @@
     "basis": "534d215b86c0e039"
   },
   "N090": {
-    "headline": "Drone-aanval zet WINE TRADER in brand voor Sulina; zeven bemanningsleden vermist",
-    "description": "WINE TRADER werd op 15 oktober 2026 voor Sulina getroffen; vijf bemanningsleden werden gered en zeven werden vermist. Een NATO-bron beoordeelde de drones als van Russische herkomst.",
+    "headline": "Drone-aanval op WINE TRADER voor Sulina; later menselijke resten gevonden in Varna",
+    "description": "Bij reparaties aan WINE TRADER in Varna werden menselijke resten gevonden, na de drone-aanval van 15 oktober voor Sulina. DNA-identificatie en onderzoeken lopen nog.",
     "summary": [
       "Een drone trof op 15 oktober 2026 de onder de vlag van San Marino varende tanker WINE TRADER voor Sulina. De Roemeense president bevestigde de aanval. Een militaire NATO-bron die door Reuters wordt aangehaald, beoordeelde de drones die deze tanker en YARA J troffen als van Russische herkomst; een specifieke operator is in de beoordeelde berichtgeving niet vastgesteld.",
-      "Van de twaalf bemanningsleden werden er vijf gered en bleven er zeven vermist. Twee overlevenden hadden brandwonden aan de hoofdhuid of lichte rookinhalatie; alle vijf waren stabiel en werden naar het ziekenhuis gebracht. Brand beschadigde het schip. De uiteindelijke toestand ervan is onbevestigd en de vermiste bemanningsleden worden niet meegeteld als bevestigd dood. Zware zee bemoeilijkte de reddingsoperatie. IGSU meldde dat de zoektocht op 16 oktober werd hervat; de eerste aankondiging dat men aan boord zou gaan, was een plan. Een verklaring van een vakbond voor zeevarenden van 19 oktober meldde vervolgens dat teams aan boord waren gegaan en toegankelijke ruimtes hadden doorzocht, waarbij schade de zoektocht bemoeilijkte. De vakbond herhaalde vijf geredden en zeven vermisten. Op 22 oktober zei het Kroatische ministerie van Buitenlandse Zaken dat de zoektocht was gestopt wegens de verstreken tijd. Eén Kroatische zeeman bleef vermist; een andere, behandeld voor oppervlakkige brandwonden, was uit het ziekenhuis ontslagen. Dit maakt van de vermisten geen bevestigde doden.",
+      "Aanvankelijk werden vijf van de twaalf bemanningsleden gered en werden er zeven als vermist opgegeven. Twee overlevenden hadden brandwonden aan de hoofdhuid of lichte rookinhalatie; alle vijf waren stabiel en werden naar het ziekenhuis gebracht. Zware zee en schade bemoeilijkten de zoekacties. Een vakbondsverklaring van 19 oktober meldde dat teams toegankelijke ruimtes hadden doorzocht. Op 22 oktober zei het Kroatische ministerie van Buitenlandse Zaken dat de zoektocht was gestaakt wegens de verstreken tijd.",
+      "Op 7 november bevestigden aanklagers in Varna dat zwaar beschadigde menselijke resten waren gevonden bij het opruimen van een door een drone getroffen schip dat begin november voor reparatie was binnengekomen. BNR identificeert het als WINE TRADER en meldt het lichaam van een zeeman en menselijke resten. Er werd DNA-onderzoek gelast om de identiteit vast te stellen, en de onderzoeken in Bulgarije en Roemenië lopen door. De primaire verklaring noemt geen dodental. Vroege cijfermatige mediaberichten spreken elkaar tegen, dus uit de historische reddingscijfers wordt noch een definitief dodental noch een actueel aantal nog vermisten afgeleid.",
       "Het schip bevond zich naar verluidt ongeveer 13 zeemijl ten zuidoosten van Sulina, net buiten de Roemeense territoriale wateren. Het is opgenomen in de dekking van het register voor de open zee. Het reddingsverzoek van 06:58 is geen geverifieerd tijdstip van de aanval. Hiermee wordt de eerdere aanwijzing op de volglijst met alleen brand verheven tot één rode registratie van het type Aanval, die de aanval, de brand en de redding combineert; ze blijft los van YARA J en Sea Destiny."
     ],
-    "basis": "186f434beac254b7"
+    "basis": "5f5c3c23d1d87774"
   },
   "N091": {
     "headline": "Dailidžiai: grenswachters bergen grensoverschrijdende sigarettendrone",
@@ -1570,13 +1575,15 @@
     "basis": "fcab4114f04792bb"
   },
   "N112": {
-    "headline": "Bericht over drone-aanval op KHORYV: schip gekapseisd maar nog drijvend",
-    "description": "KHORYV kapseisde op 23 oktober voor Constanța. Een navigatiebericht zegt dat het nog drijft, in tegenspraak met berichten over zinken. Eén dode; drie vermisten.",
+    "headline": "Bericht over drone-aanval op KHORYV: marineonderzoek treft wrak volledig onder water aan",
+    "description": "KHORYV werd naar verluidt op 23 oktober op zee getroffen. Een marineonderzoek trof het wrak op 19 november naar verluidt volledig onder water aan. De afloop van de zoektocht is onbekend.",
     "summary": [
-      "KHORYV kapseisde op 23 oktober buiten de Roemeense territoriale wateren. AGERPRES brengt dit in verband met de verklaring van de president dat een drone een schip trof. Het huidige primaire navigatiebericht, ARN155, meldt dat KHORYV per 25 oktober gedeeltelijk onder water maar nog ondersteboven drijvend is, ondanks persberichten over zinken. Een voltooid zinken wordt niet als vastgesteld beschouwd.",
-      "Roemenië meldt dertien bemanningsleden: negen gered, één dood en drie vermist. Oekraïne bevestigt een Oekraïens dodelijk slachtoffer maar meldt veertien bemanningsleden; het verschil blijft onopgehelderd. De berichten geven gedateerde posities van het kapseizen en het daaropvolgende drijvende wrak, geen geverifieerde coördinaat van de aanval. De toeschrijving aan een operator en de uiteindelijke uitkomst van de zoektocht blijven onopgehelderd."
+      "Volgens berichten werd KHORYV op 23 oktober op zee voor Constanța door een drone getroffen en vatte het vuur, waarna het kapseisde. NAVWARN 766/26 beschrijft de gedateerde waarneming van 28 oktober 18:00 UTC van een gekapseisd, half ondergedompeld drijvend wrak. Op 29 oktober meldde bTV, met verwijzing naar het Bulgaarse ministerie van Defensie, dat het wrak gedeeltelijk onder water lag en nog altijd een gevaar vormde; Maritime.bg meldde later in een nieuwe update van 1 november dat de achtersteven aan de grond zat en de boeg nog zichtbaar was. Maritime.bg meldde, met verwijzing naar een bevestiging van de persdienst van het Bulgaarse ministerie van Defensie, dat bij een marineonderzoek op 19 november het wrak volledig onder water werd aangetroffen voor Shabla, onder ongeveer 50 meter water. Het precieze tijdstip van het zinken en de intrekking van de eerdere waarschuwing werden niet geverifieerd. Deze latere waarnemingen van het wrak verplaatsen de oorspronkelijke aanval op zee niet.",
+      "Roemenië meldt dertien bemanningsleden: negen gered, één dood en drie vermist. Oekraïne bevestigt een Oekraïens dodelijk slachtoffer maar meldt veertien bemanningsleden; het verschil blijft onopgehelderd. De berichten geven gedateerde posities van het kapseizen en het daaropvolgende drijvende wrak, geen geverifieerde coördinaat van de aanval. De toeschrijving aan een operator en de uiteindelijke uitkomst van de zoektocht blijven onopgehelderd.",
+      "Bulgarije kondigde op 27 oktober monitoring en een geplande inspectie door de marine aan. De volgende ochtend zei de Bulgaarse minister van Defensie dat het wrak de Bulgaarse territoriale zee binnendreef. Dit zijn latere berichten over een drijvend wrak, geen nieuwe aanval of wijziging van de oorspronkelijke locatie van de aanval op zee.",
+      "bTV meldde dat de Reshitelni ter plaatse was en dat de operaties wegens slecht weer waren onderbroken; Maritime.bg beschreef pogingen om het wrak af te zinken. Dit blijven vervolgberichten over hetzelfde voorval, geen nieuwe aanval of opheldering over het lot van de vermisten."
     ],
-    "basis": "5f8e6ad7a2fd7810"
+    "basis": "63b1a3f055a1d63d"
   },
   "N113": {
     "headline": "Griekenland meldt 8 Turkse UAV’s en 12 schendingen van het luchtruim op 21 oktober",
@@ -1610,9 +1617,9 @@
     "description": "Op 21 oktober 2026 werd in Lubaczów een schuimen casco gevonden. De Militaire Politie vond geen explosieven; herkomst en eventueel buitenlands verband blijven onbekend.",
     "summary": [
       "Kort na 13:00 op 21 oktober 2026 werden wrakstukken gemeld op een onbewoond perceel aan de Herzogastraat in Lubaczów. Omwonenden werden geëvacueerd terwijl specialisten mogelijke gevaren beoordeelden; er werden geen gewonden of materiële schade gemeld.",
-      "De Militaire Politie identificeerde op 22 oktober een ongewapend schuimen casco en sloot explosieven en radiologische, biologische of chemische gevaren uit. De update van de aanklager van 23 oktober meldt de overdracht van de drone aan de militaire contra-inlichtingen en het onderzoek van het eraan bevestigde pakket in Warschau. De voorlopige beoordeling van het korte bereik stelt geen herkomst of buitenlandse binnenkomst vast. Dit blijft één voorlopige bergingskandidaat."
+      "De Militaire Politie identificeerde op 22 oktober een ongewapend schuimen casco en sloot explosieven en radiologische, biologische of chemische gevaren uit. Een artikel van Radio Lublin van 22 oktober citeert de woordvoerder van de aanklager, die zei dat de drone was overgedragen aan de militaire contra-inlichtingendienst en dat het pakket ervan voor onderzoek was verstuurd; het primaire persbericht van dezelfde dag beschrijft de overdracht nog als iets toekomstigs. De voorlopige beoordeling van een kort bereik stelt geen herkomst of buitenlandse binnenkomst vast. Dit blijft één voorlopige bergingskandidaat."
     ],
-    "basis": "fab6a30cef996170"
+    "basis": "2f669bcaffd204ab"
   },
   "N117": {
     "headline": "Griekenland meldt zes Turkse UAV’s en dertien schendingen van het luchtruim op 23 oktober",
@@ -1668,5 +1675,861 @@
       "NewsIT en OnAlert nemen hetzelfde officiële relaas over in plaats van onafhankelijke waarnemingen. Identificatie en onderschepping werden gemeld, zonder gewapend optreden. Dit is één registratie van dagelijkse activiteit, geen som van aantallen vliegtuigen en oversteken."
     ],
     "basis": "b6d8a69eda200b68"
+  },
+  "N124": {
+    "headline": "CONTSHIP JET op zee getroffen door oppervlaktedrones; bemanning gered, schip later gezonken",
+    "description": "Bulgaarse autoriteiten melden een aanval met oppervlaktedrones op CONTSHIP JET op 28 oktober. Alle 18 bemanningsleden werden gered; Varna Radio bevestigt dat het schip later zonk.",
+    "summary": [
+      "Volgens de Bulgaarse defensieautoriteiten namen de bewaking van de marine en een Frans patrouillevliegtuig op 28 oktober om 12:00 plaatselijke tijd (10:00 UTC) een aanval met oppervlaktedrones op CONTSHIP JET waar, waarbij drie treffers werden waargenomen. Varna Radio geeft als positie van de aanval 43°15′N, 028°48′E voor Kaap Kaliakra. Dit is één voorval met koopvaardij op zee, geen bevestigde binnendringing van Bulgaars grondgebied.",
+      "De autoriteiten voor defensie en vervoer bevestigen dat alle 18 bemanningsleden werden gered. NAVWARN 768/26 van Varna Radio bevestigt dat het schip vervolgens op 28 oktober om 20:30 UTC zonk op 43°07.80′N, 028°45.36′E, waarbij meer dan 20 containers ronddreven, onder meer met gevaarlijke goederen. Dit vervangt het eerdere onofficiële bericht over het zinken.",
+      "De droneoperator, de plaats van lancering en het motief blijven onbekend. Reuters meldt de voorlopige, op video gebaseerde inschatting van Ambrey dat het waarschijnlijk om een van de Murena-300S afgeleid ontwerp gaat; dat is geen bevestigde identificatie van model of operator. Drie gemelde drones en drie waargenomen treffers zijn geen afzonderlijke voorvallen. De latere positie van het zinken vervangt de oorspronkelijke coördinaat van de aanval niet.",
+      "Navigatiewaarschuwingen meldden op 1 november drijvende containers bij de Baai van Burgas. Het verband met CONTSHIP JET blijft voorlopig. Op 3 november meldde het regionaal bestuur van Burgas dat drie objecten werden gevolgd bij Oasis–Arapya, bij Kamennite Korabi in Sinemorets en bij Butamyata. De manifestgegevens beschreven ongevaarlijke lading en een lege tank; op dat moment werden de feitelijke inhoud en het schip van herkomst nog onderzocht. Bemonstering en bewaking gingen door, zonder dat een laboratoriumvrijgave werd gemeld. Dit zijn vervolgberichten over gevaren door lading, geen nieuwe drone-aanvallen of een cumulatief aantal containers.",
+      "Op 4 november zei de gouverneur tegen bTV dat het weer en de moeilijke bereikbaarheid de berging vertraagden. De locatie van de derde container was onbekend; Turkse wateren waren slechts een mogelijkheid. Er werd geen laboratoriumvrijgave verstrekt.",
+      "De maritieme autoriteit van Liberia meldde dat de bemanning veilig was en dat er geen gewonden waren gemeld, in een bulletin over een niet bij naam genoemd schip waarvan de datum, de vlag, de klasse en de gemelde drie treffers overeenkomen met de Bulgaarse berichten die het schip wel bij naam noemen. De gemeente Tsarevo meldde op 12 november dat ploegen zakken rode peper van beide stranden van Lipite hadden verwijderd. Het verband tussen de lading en CONTSHIP JET bleef voorlopig, en de mededeling bevatte geen laboratoriumresultaten.",
+      "Op 24 november openden de autoriteiten de container die op 2 november bij Tsarevo was aangespoeld. De gouverneur van Burgas vertelde BTA dat die ongeveer 80 dozen kerstversiering bevatte, overeenkomstig het manifest. Contships Management vertelde Reuters dat het niet kon bevestigen dat de container aan boord van CONTSHIP JET was geweest. Het openen stelt het schip van herkomst, andere lading of resultaten over vervuiling niet vast."
+    ],
+    "basis": "7eebe0feab2ab6ff"
+  },
+  "N125": {
+    "headline": "UAV geborgen bij Osieka na door aanklager gemelde grensoverschrijding vanuit Rusland",
+    "description": "Aanklagers melden een ongeoorloofde overschrijding van de Russisch-Poolse grens op 8 mei; de ongewapende UAV werd op 9 mei bij Osieka geborgen. De operator blijft onbekend.",
+    "summary": [
+      "Een ongewapende verkennings-UAV werd op 9 mei bij Osieka in zijn geheel geborgen nadat een burger hem in een veld had gevonden. Op 11 mei zei de woordvoerder van de aanklager in Olsztyn dat de onderzoekers er zeker van waren dat hij de Russisch-Poolse grens was overgestoken, en dateerde hij de onderzochte grensoverschrijding op 8 mei.",
+      "Waarop die bevinding over de grensoverschrijding berust, werd niet bekendgemaakt. Operator, fabricage, beoogd doelwit, precieze route en tijdstip van neerstorten blijven onopgehelderd. Beweringen in de media over camera’s en Cyrillische opschriften werden door de aanklager niet bevestigd. Dit is één met terugwerkende kracht geregistreerd voorval, geen nieuwe activiteit in oktober."
+    ],
+    "basis": "9df76f2823d89cb7"
+  },
+  "N126": {
+    "headline": "UAV-fragmenten geborgen op strand Popski; herkomst onopgehelderd",
+    "description": "Een marineteam borg op 21 oktober UAV-onderdelen op het strand Popski in Tsarevo, aldus een antwoord van het ministerie van Defensie. Vluchtdatum en nationale herkomst blijven onbekend.",
+    "summary": [
+      "OFFNews citeert het Bulgaarse ministerie van Defensie, dat bevestigt dat een team van de marine op 21 oktober UAV-onderdelen op het strand Popski onderzocht en verzamelde en naar de basis bracht. Dit dateert een bergingsoperatie, geen vlucht of neerstorting.",
+      "Het ministerie onderscheidde de berging uitdrukkelijk van een niet-geverifieerde bewering over het nabijgelegen Arapya. Model, herkomst, operator, lading en de wijze waarop de onderdelen daar terechtkwamen, blijven onopgehelderd. Deze voorlopige bergingskandidaat is geen bevestigde buitenlandse binnendringing en geen bewijs van nog een afzonderlijk toestel."
+    ],
+    "basis": "3572d703997e5cd9"
+  },
+  "N127": {
+    "headline": "Dronefragmenten gemeld op strand Listi; datum van berging onbekend",
+    "description": "BNR meldde dat op het strand Listi bij Sinemorets een vleugel en een rompdeel waren verzameld. De datum 28 oktober is die van publicatie, geen geverifieerde datum van de vondst.",
+    "summary": [
+      "De correspondent van BNR in Burgas meldde dat een vleugel en een rompdeel op het strand Listi waren gevonden en na een melding door de Grenspolitie waren verzameld. Het artikel verscheen op 28 oktober, maar vermeldt geen exacte datum van vondst of berging; het register gebruikt de datum van het bericht uitdrukkelijk als benadering.",
+      "Herkomst, model, operator, lading en datum van vlucht of neerstorting blijven onopgehelderd. Deze voorlopige bergingskandidaat onderscheidt zich door de gemelde locatie van het strand Popski, maar dat het om nog een uniek toestel gaat, is niet vastgesteld. De bewering over toeschrijving bij het nabijgelegen Arapya wordt niet op deze fragmenten overgedragen."
+    ],
+    "basis": "22e8ad26c842d4a6"
+  },
+  "N128": {
+    "headline": "Griekenland meldt vijf Turkse UAV’s bij 13 luchtruimschendingen boven de Egeïsche Zee",
+    "description": "Griekse militaire berichtgeving schrijft op 30 oktober 13 schendingen van het nationale luchtruim toe aan vijf Turkse UAV’s. Eén dagregistratie; exacte routes blijven ongepubliceerd.",
+    "summary": [
+      "Op 30 oktober gemelde Griekse militaire cijfers schrijven 13 schendingen van het nationale luchtruim en 11 inbreuken op de FIR van Athene toe aan vijf Turkse UAV’s boven het noordoostelijke, centrale en zuidoostelijke deel van de Egeïsche Zee. De beoordeling van het nationale luchtruim en de militaire toeschrijving zijn die van Griekenland; precieze routes blijven ongepubliceerd.",
+      "Dit is één regionale dagregistratie, geen 13 aanvallen. Inbreuken door bemande vliegtuigen en twee confrontaties in het gemengde dagoverzicht zijn geen bewijs van bewapening van de UAV’s, wapeninzet of neerschieten. Exacte modellen, ladingen en beoogde doelwitten blijven onbekend."
+    ],
+    "basis": "8d16fbffeee972eb"
+  },
+  "N129": {
+    "headline": "Roemenië bevestigt twee ongeoorloofde binnenkomsten van drones in het noordoosten",
+    "description": "Roemenië meldt op 31 oktober twee binnenkomsten van drones. Eén vertrok weer; de andere werd het laatst waargenomen bij Vaslui en Bacău. Er werd geen neerstorting gemeld.",
+    "summary": [
+      "Het Roemeense ministerie van Defensie bevestigt dat op de avond van 31 oktober 2026 twee drones het nationale luchtruim in het noordoosten binnendrongen. Eén verliet het luchtruim weer; de andere werd het laatst waargenomen tussen de districten Vaslui en Bacău. Bij publicatie was geen neerstorting gemeld.",
+      "Vier F-16’s en een IAR-330 SOCAT stegen op, en de publieke waarschuwingen eindigden om 19:19 plaatselijke tijd. Dit is één voorval met twee drones, geen twee geverifieerde aanvallen. Operator, model, bedoeling en doelwitten blijven onbekend; het ankerpunt op de kaart is bij benadering.",
+      "Volgens de directeur van de luchthaven van Iași werd een binnenkomende vlucht van Wizz Air uit Eindhoven tijdens de tijdelijke sluiting van het luchtruim omgeleid naar Suceava. Deze verstoring hoort bij hetzelfde voorval en is geen andere binnendringing."
+    ],
+    "basis": "5c2d0df27e180a9b"
+  },
+  "N130": {
+    "headline": "Letland beoordeelt UAV die op 1 november het land doorkruiste als waarschijnlijk Russische Geran",
+    "description": "De NBS beoordeelt de UAV die op 1 november Letland doorkruiste als waarschijnlijk een Russische Geran. Hij vertrok naar Rusland; explosieve lading en bedoeling blijven onbekend.",
+    "summary": [
+      "Functionarissen beschreven een drone die vanuit Belarus het oosten van Letland doorkruiste en om 19:16 op 1 november naar Rusland vertrok. De NBS beoordeelde hem vervolgens als waarschijnlijk een Russische Geran, na analyse van sensor- en interceptorgegevens en overleg met Oekraïense partners.",
+      "Letland liet om 19:19 zijn eigen interceptor zichzelf vernietigen. Dit was geen gemeld neerschieten van de gedetecteerde UAV. De NBS kan niet vaststellen of die UAV explosieven bij zich had; operator, bedoeling en doelwit blijven onbevestigd."
+    ],
+    "basis": "c77fff5610f5734e"
+  },
+  "N131": {
+    "headline": "Waarschuwing voor het noorden van Tulcea; geen binnenkomst in Roemeens luchtruim gemeld",
+    "description": "Roemenië gaf op 2 november een waarschuwing af voor het noorden van Tulcea na aanvallen vlakbij in Oekraïne. Het MApN meldde geen binnenkomst in het Roemeense nationale luchtruim.",
+    "summary": [
+      "Het noorden van Tulcea ontving om 04:11 op 2 november een RO-Alert na drone-aanvallen op Oekraïense Donauhavens. Roemenië zette F-16’s en een Puma SOCAT-helikopter in; het alarm eindigde om 05:26 plaatselijke tijd.",
+      "Het MApN meldde geen binnenkomst in het Roemeense luchtruim. Dit is een alarm van de civiele bescherming, geen binnendringing of bevestigde aanval in Roemenië. Het punt op de kaart staat voor het waarschuwingsgebied."
+    ],
+    "basis": "b3d536ba24881e16"
+  },
+  "N132": {
+    "headline": "Letland bevestigt detectie van UAV; herkomst en mogelijke val in Balvi onopgehelderd",
+    "description": "De NBS bevestigt een UAV in Letland op 3 november. Hij leek visueel op Oekraïense militaire drones, maar type, herkomst en een mogelijke val in Balvi blijven onbevestigd.",
+    "summary": [
+      "De NBS bevestigt dat tijdens het alarm in Balvi–Ludza op 3 november een UAV in het Letse luchtruim werd gedetecteerd. Volgens de eerste visuele identificatie leek hij op Oekraïense militaire UAV’s, maar de strijdkrachten konden type en herkomst uitdrukkelijk niet bevestigen.",
+      "De UAV is mogelijk neergekomen in de gemeente Balvi; zoekacties op de grond gingen door. Dit blijft een kandidaat met onopgehelderde herkomst en afloop, geen bevestigde buitenlandse binnendringing, neerstorting of neerschieten. Het regionale punt op de kaart is geen geverifieerde plaats van neerstorting."
+    ],
+    "basis": "505a6db792d85d51"
+  },
+  "N133": {
+    "headline": "Nachtelijke waarschuwing in Tulcea: geen binnenkomst in Roemeens luchtruim gemeld",
+    "description": "Het noorden van Tulcea kreeg laat op 2 november een waarschuwing na luchtactiviteit boven Oekraïne. Het MApN meldde geen binnenkomst in Roemenië; het alarm eindigde na middernacht.",
+    "summary": [
+      "Het MApN meldde in de nacht van 2 op 3 november twee radardoelen boven Oekraïne bij Izmail en Chilia. Het noorden van Tulcea ontving om 23:43 een RO-Alert; de waarschuwing eindigde om 00:21 plaatselijke tijd. Twee Spaanse F-18’s stegen als reactie op.",
+      "Er werd geen binnenkomst in het Roemeense luchtruim gemeld. Dit is een geselecteerd alarm van de civiele bescherming, los van de eerdere waarschuwing van 2 november, en geen bevestigde binnendringing of aanval in Roemenië. Het ankerpunt op de kaart staat voor het waarschuwingsgebied."
+    ],
+    "basis": "a90d1dcd244ae758"
+  },
+  "N134": {
+    "headline": "Waarschuwing voor het noorden van Tulcea op 4 november; geen binnenkomst in Roemenië gemeld",
+    "description": "Een doel boven Oekraïne leidde op 4 november tot de start van twee F-16’s en een waarschuwing voor het noorden van Tulcea. Het MApN meldde geen binnenkomst in het Roemeense luchtruim.",
+    "summary": [
+      "Het noorden van Tulcea ontving om 10:57 op 4 november een RO-Alert nadat ten noorden van Vîlcove in Oekraïne een radardoel was gedetecteerd. Twee F-16’s stegen op vanaf Borcea.",
+      "Het MApN meldde geen binnenkomst in het Roemeense luchtruim. Dit geselecteerde alarm staat los van de nachtelijke waarschuwing van 2–3 november; het punt op de kaart staat voor het waarschuwingsgebied."
+    ],
+    "basis": "eefa3af945e0c8ca"
+  },
+  "N135": {
+    "headline": "Dronefragmenten gevonden in Boghicea; gecontroleerde ruiming gemeld",
+    "description": "Dronefragmenten die op 5 november in Boghicea werden gevonden, werden naar verluidt die avond vernietigd. Herkomst en een eventueel verband met de vlucht van 31 oktober blijven onopgehelderd.",
+    "summary": [
+      "Een inwoner waarschuwde de plattelandspolitie van Sagna na de vondst van verspreide fragmenten in Boghicea. Politie, brandweer en specialisten van de SRI kwamen ter plaatse. Volgens ProTV brachten specialisten de resten op de avond van 5 november tot ontploffing, na onderzoek en een RO-Alert-waarschuwing.",
+      "Buitenlandse herkomst, datum van de val en een eventueel verband met N129 blijven onbevestigd. ProTV geeft een duidelijk bericht dat de ruiming is voltooid; er werd geen directe officiële verklaring over de voltooiing gevonden. Door ooggetuigen beschreven opschriften stellen geen operator of model vast.",
+      "Eén registratie van een vondst, geen nieuw geverifieerde vlucht of extra UAV in de telling. Een mogelijk verband met N129 blijft onopgehelderd; samenvoegen of kruisverwijzen als later bewijs vaststelt dat het om dezelfde drone gaat. De noodhulp en de waarschuwing voor de ruiming zijn geen afzonderlijke voorvallen."
+    ],
+    "basis": "b1fd2b840a7ff077"
+  },
+  "N136": {
+    "headline": "Tulcea · nachtelijke RO-Alert op 6 november",
+    "description": "Officiële waarschuwing; geen binnenkomst in Roemeens luchtruim gemeld. Alleen alarm; geen binnendringing, militair ingrijpen of aanval afgeleid.",
+    "summary": [
+      "Aanvallen vlakbij op Oekraïense havens leidden tot een waarschuwing. RO-Alert afgegeven om 00:19; alarm beëindigd om 00:41 plaatselijke tijd.",
+      "Aantal drones en model niet gespecificeerd in het persbericht. Geen vliegroute, aantal drones of model vastgesteld.",
+      "Eén geselecteerd alarm, los van de latere ochtendwaarschuwing N137 van 08:56."
+    ],
+    "basis": "42bf1e8a50a620f5"
+  },
+  "N137": {
+    "headline": "Noord-Tulcea · ochtendalarm voor doel bij Sulina op 6 november",
+    "description": "Officiële waarschuwing voor een radardoel; binnenkomst in Roemenië niet vastgesteld. Alleen alarm; geen binnendringing, militair ingrijpen of aanval afgeleid.",
+    "summary": [
+      "Luchtactiviteit in de buurt leidde tot een waarschuwing van de civiele bescherming. Twee F-16’s stegen op vanaf Borcea; de waarschuwing voor het noorden van Tulcea liep van 08:56 tot 09:27 plaatselijke tijd.",
+      "Radardoel in de lucht; identificatie als drone en model onbevestigd in de aangehaalde verklaring. Geen geverifieerd model, geen operator en geen overschrijding van de Roemeense grens. De nachtelijke bevinding dat er geen binnenkomst was, hoort bij N136 en kan niet op deze episode worden overgedragen.",
+      "Afzonderlijke ochtendwaarschuwing, niet de episode N136 van 00:19–00:41. De inzet van gevechtsvliegtuigen voegt geen voorval toe."
+    ],
+    "basis": "7a65445d491a71de"
+  },
+  "N138": {
+    "headline": "Berging van drone: Shabla · als Russisch geclassificeerde drone aangespoeld en vernietigd, Bulgarije",
+    "description": "6 november 2026, Shabla · als Russisch geclassificeerde drone aangespoeld en vernietigd, Bulgarije. Officieel geïdentificeerde luchtdrone geborgen en vernietigd. Vondst…",
+    "summary": [
+      "Vondst aan de kust om 10:00 plaatselijke tijd aan de autoriteiten gemeld.",
+      "Officieel geïdentificeerde luchtdrone geborgen en vernietigd. De classificatie als Russisch is de beoordeling uit de Bulgaarse inspectie; specifieke operator en missie niet vastgesteld. Het vroege relaas van de burgemeester over Shahed-opschriften en explosieven werd achterhaald door de militaire inspectie: geen opschriften en geen springlading. Datum van de val en verband met een eventuele aanval op de scheepvaart blijven onbekend."
+    ],
+    "basis": "de692ebadb5d7d7f"
+  },
+  "N139": {
+    "headline": "Egeïsche Zee · gemelde Turkse UAV-activiteit op 6 november",
+    "description": "Grieks register meldt 10 Turkse UAV’s op 6 november. De gecombineerde cijfers voor alle toestellen betreffen niet alleen drones.",
+    "summary": [
+      "Het primaire maandregister van GEETHA vermeldt 10 UAV’s en één ATR-72, met gezamenlijk 15 inbreuken op de FIR en 23 schendingen van het nationale luchtruim. Het register verdeelt de gemengde totalen niet per type toestel.",
+      "Het eerder overgenomen dagbulletin schreef 9 inbreuken op de FIR en 15 schendingen van het nationale luchtruim toe aan 7 UAV’s. De reden voor het verschil wordt niet vermeld. Deze cijfers komen van de Griekse autoriteiten; het zijn geen onafhankelijk geverifieerde routes of een bevestigd aantal aanvallen."
+    ],
+    "basis": "fd5cda8f3a302eca"
+  },
+  "N140": {
+    "headline": "Egeïsche Zee · gemelde Turkse UAV-activiteit op 5 november",
+    "description": "Grieks register meldt 5 Turkse UAV’s op 5 november. Eerdere dagcijfers weken af.",
+    "summary": [
+      "Het primaire maandregister van GEETHA vermeldt 5 UAV’s en geen bemande toestellen, met 8 inbreuken op de FIR en 17 schendingen van het nationale luchtruim. Alle gemelde toestellen waren die dag UAV’s.",
+      "Het eerder overgenomen dagbulletin schreef 6 inbreuken op de FIR en 9 schendingen van het nationale luchtruim toe aan 4 UAV’s. De reden voor het verschil wordt niet vermeld. Deze cijfers komen van de Griekse autoriteiten; het zijn geen onafhankelijk geverifieerde routes of een bevestigd aantal aanvallen."
+    ],
+    "basis": "5f5e69b30526d99c"
+  },
+  "N141": {
+    "headline": "Egeïsche Zee · gemelde Turkse UAV-activiteit op 7 november",
+    "description": "Grieks register meldt 8 Turkse UAV’s op 7 november. Eerdere dagcijfers weken af.",
+    "summary": [
+      "Het primaire maandregister van GEETHA vermeldt 8 UAV’s en geen bemande toestellen, met 10 inbreuken op de FIR en 8 schendingen van het nationale luchtruim. Alle gemelde toestellen waren die dag UAV’s.",
+      "Het eerder overgenomen dagbulletin schreef 8 inbreuken op de FIR en 4 schendingen van het nationale luchtruim toe aan 6 UAV’s. De reden voor het verschil wordt niet vermeld. Deze cijfers komen van de Griekse autoriteiten; het zijn geen onafhankelijk geverifieerde routes of een bevestigd aantal aanvallen."
+    ],
+    "basis": "10e6e252c784d0ee"
+  },
+  "N142": {
+    "headline": "Ongeïdentificeerd object: Roemeense territoriale wateren · ongeïdentificeerd doel dringt luchtruim binnen, Roemenië",
+    "description": "5 november 2026, Roemeense territoriale wateren · ongeïdentificeerd doel dringt luchtruim binnen, Roemenië. Door het MApN gemelde binnenkomst in het luchtruim; identificatie als drone onbevestigd. Een…",
+    "summary": [
+      "Een binnenkomst van drie minuten in het nationale luchtruim werd gemeld door het MApN.",
+      "Door het MApN gemelde binnenkomst in het luchtruim; identificatie als drone onbevestigd. Operator niet geïdentificeerd. De binnenkomst wordt door de autoriteit gemeld, maar identificatie als drone, model, operator en bedoeling blijven onopgehelderd. Mediaberichten geven dezelfde officiële verklaring weer. Geen verband vastgesteld met Boghicea N135."
+    ],
+    "basis": "59712b8a83097feb"
+  },
+  "N143": {
+    "headline": "Dronealarm: Oost-Tulcea · waarschuwing voor doel bij Slangeneiland, Roemenië",
+    "description": "8 november 2026, Oost-Tulcea · waarschuwing voor doel bij Slangeneiland, Roemenië. Officiële waarschuwing voor een radardoel; binnenkomst in Roemenië niet vastgesteld. Twee detecties…",
+    "summary": [
+      "Twee detecties van doelen in de buurt leidden tot een waarschuwing en militaire bewaking.",
+      "Officiële waarschuwing voor een radardoel; binnenkomst in Roemenië niet vastgesteld. Operator niet geïdentificeerd. De aangehaalde verklaringen stellen geen binnenkomst in Roemenië, type drone of operator vast. Dat het eerste doel van de radar verdween, is geen neerstorting. Uit stilzwijgen wordt geen uitdrukkelijke beoordeling afgeleid dat er geen binnenkomst was."
+    ],
+    "basis": "4cff8ae9f4cbdedb"
+  },
+  "N144": {
+    "headline": "Dronealarm: Noord-Tulcea · waarschuwing voor doel bij Chilia Veche, Roemenië",
+    "description": "8 november 2026, Noord-Tulcea · waarschuwing voor doel bij Chilia Veche, Roemenië. Officiële waarschuwing voor een radardoel; binnenkomst in Roemenië niet vastgesteld. Een latere,…",
+    "summary": [
+      "Een latere, afzonderlijke detectie van een doel leidde tot een waarschuwing voor het noorden van Tulcea.",
+      "Officiële waarschuwing voor een radardoel; binnenkomst in Roemenië niet vastgesteld. Operator niet geïdentificeerd. Type doel, operator en een eventuele overschrijding van de Roemeense grens blijven niet vastgesteld. Een waarschuwing en de start van gevechtsvliegtuigen zijn op zichzelf geen binnendringing of militair ingrijpen."
+    ],
+    "basis": "51af4b15dda166f7"
+  },
+  "N145": {
+    "headline": "Ongeïdentificeerd object: strand Lipite, Sinemorets · vondst van ongeïdentificeerde drone, Bulgarije",
+    "description": "8 november 2026, strand Lipite, Sinemorets · vondst van ongeïdentificeerde drone, Bulgarije. Vondst van drone en toegeschreven officiële inzameling; herkomst onopgehelderd. BNT-ploeg…",
+    "summary": [
+      "BNT-ploeg vond het toestel tijdens verslaggeving over aangespoelde lading.",
+      "Vondst van drone en toegeschreven officiële inzameling; herkomst onopgehelderd. Nationale herkomst en operator onopgehelderd; geen bevestigde buitenlandse vlucht of grensoverschrijdende binnenkomst. Herkomst, operator, lading en aanvoerroute blijven onopgehelderd. Lading in de buurt is geen bewijs dat de drone aan een schip of aanval is gekoppeld. De beoordeling van de gouverneur in de context van de oorlog is geen technische identificatie. Geen voltooide ruiming vastgesteld."
+    ],
+    "basis": "8994bcc4baaa422f"
+  },
+  "N146": {
+    "headline": "Egeïsche Zee · gemelde Turkse UAV-activiteit op 8 november",
+    "description": "Grieks register meldt 5 Turkse UAV’s op 8 november. Eerdere dagcijfers weken af.",
+    "summary": [
+      "Het primaire maandregister van GEETHA vermeldt 5 UAV’s en geen bemande toestellen, met 6 inbreuken op de FIR en 6 schendingen van het nationale luchtruim. Alle gemelde toestellen waren die dag UAV’s.",
+      "Het eerder overgenomen dagbulletin schreef 4 inbreuken op de FIR en 4 schendingen van het nationale luchtruim toe aan 4 UAV’s. De reden voor het verschil wordt niet vermeld. Deze cijfers komen van de Griekse autoriteiten; het zijn geen onafhankelijk geverifieerde routes of een bevestigd aantal aanvallen."
+    ],
+    "basis": "e9cdcb8a8e0ac546"
+  },
+  "N147": {
+    "headline": "Egeïsche Zee · gemelde Turkse UAV-activiteit op 9 november",
+    "description": "Grieks register meldt 5 Turkse UAV’s op 9 november. De gecombineerde cijfers voor alle toestellen betreffen niet alleen drones.",
+    "summary": [
+      "Het primaire maandregister van GEETHA vermeldt 5 UAV’s en één ATR-72, met gezamenlijk 7 inbreuken op de FIR en 3 schendingen van het nationale luchtruim. Het register verdeelt de gemengde totalen niet per type toestel.",
+      "Het eerder overgenomen dagbulletin schreef 5 inbreuken op de FIR en 2 schendingen van het nationale luchtruim toe aan 5 UAV’s. De reden voor het verschil wordt niet vermeld. Deze cijfers komen van de Griekse autoriteiten; het zijn geen onafhankelijk geverifieerde routes of een bevestigd aantal aanvallen."
+    ],
+    "basis": "05f7be48ee62885b"
+  },
+  "N148": {
+    "headline": "Dronevlucht: Sulina · gemelde binnenkomst van drone in luchtruim, Roemenië",
+    "description": "9 november 2026, Sulina · gemelde binnenkomst van drone in luchtruim, Roemenië. Door het MApN gemelde binnenkomst van een drone in het Roemeense nationale luchtruim. Latere berichtgeving…",
+    "summary": [
+      "Latere berichtgeving bevestigt uitdrukkelijk de binnenkomst na de eerste waarschuwing voor een doel in de buurt. Het spoor verdween vervolgens van de radar.",
+      "Door het MApN gemelde binnenkomst van een drone in het Roemeense nationale luchtruim. Operator, nationale herkomst, beoogd doelwit en bedoeling niet vastgesteld. Bronnen geven informatie van het ministerie van Defensie door, geen onafhankelijk geverifieerde radarsporen. Tijdstip en duur van de binnenkomst, model, operator, doelwit en uiteindelijke afloop onbekend. Verlies van radarcontact is geen bewijs van neerstorting, neerschieten of vertrek."
+    ],
+    "basis": "ffa47195c16e1a8e"
+  },
+  "N149": {
+    "headline": "Dronealarm: Oost-Tulcea · waarschuwing voor doel bij Sulina op 10 november, Roemenië",
+    "description": "10 november 2026, Oost-Tulcea · waarschuwing voor doel bij Sulina op 10 november, Roemenië. Door het MApN gemeld luchtdoel in de buurt; binnenkomst in Roemenië niet vastgesteld. Doel…",
+    "summary": [
+      "Doel in de buurt leidde tot de start van twee F-16’s en een publieke waarschuwing voor het oosten van Tulcea.",
+      "Door het MApN gemeld luchtdoel in de buurt; binnenkomst in Roemenië niet vastgesteld. Operator, herkomst, beoogd doelwit en bedoeling onbekend. Voor deze episode is geen bevestigde binnenkomst in Roemenië, aanval, onderschepping of neerstorting vastgesteld. Berichtgeving over de binnenkomst op 9 november hoort bij N148 en kan niet op dit alarm worden overgedragen."
+    ],
+    "basis": "1ae15c2e27e8853c"
+  },
+  "N150": {
+    "headline": "Litouwen–Letland · binnendringing van drone en mislukte onderschepping",
+    "description": "Officieel bevestigde binnendringing van een drone; mislukte onderschepping. Van zuidelijk naar noordelijk Litouwen; gemeld vertrek naar Letland bij het district Pasvalys.",
+    "summary": [
+      "De Litouwse chef defensiestaf zei dat gevechtsvliegtuigen de drone bij Kaunas identificeerden, maar daar niet ingrepen vanwege het risico voor burgers. Twee latere pogingen om hem te vernietigen mislukten. Letland bevestigde onafhankelijk een drone die vanuit Litouwen binnenkwam en het grondgebied van zuid naar noord doorkruiste.",
+      "NATO-gevechtsvliegtuigen werden in Litouwen ingezet en bleven boven Letland reageren; in Letland waren er geen geschikte veilige operationele omstandigheden voor vernietiging. Bij Biržai werden brokstukken van een onderscheppingsraket geborgen, geen wrakstukken van de drone.",
+      "Model, lading, operator, beoogd doelwit en oorzaak blijven onbekend. Koersafwijking door elektronische oorlogsvoering is een inschatting, geen vastgesteld feit. De Estse autoriteiten bevestigden los daarvan korte binnenkomsten die nacht; de exacte overlap met deze route en met andere drones wordt nog uitgezocht. Geen bevestigde aanval, neerstorting van een drone, berging of neerschieten."
+    ],
+    "basis": "b3d7c837ed9779e1"
+  },
+  "N151": {
+    "headline": "Letland · twee korte binnenkomsten van drones aan de oostgrens",
+    "description": "Door de NBS bevestigde korte binnendringingen van drones. Gemeente Ludza / oostgrens van Letland",
+    "summary": [
+      "De Letse NBS zei dat twee drones de oostgrens kort, gedurende 1–2 minuten, overschreden. De NBS plaatst de bijbehorende waarschuwing in Ludza omstreeks 23:30 op dinsdag 10 november.",
+      "Eenheden met interceptordrones en luchtverdediging en NATO-gevechtsvliegtuigen werden ingezet.",
+      "Exacte grensovergangspunten, operator, lading en bedoeling onopgehelderd. Latere naderingen bij Krāslava/Augšdaugava en Balvi drongen niet binnen; geen extra binnendringingen."
+    ],
+    "basis": "99971f22c80bd30f"
+  },
+  "N152": {
+    "headline": "Finland · vermoede binnenkomst van UAV boven oostelijke Finse Golf",
+    "description": "Door het ministerie gemelde vermoede schending van het luchtruim; onderzoek loopt. Oostelijke Finse Golf; vermoedelijk Fins nationaal luchtruim",
+    "summary": [
+      "Het Finse ministerie van Defensie meldde na 02:00 op 11 november een vermoede schending van het luchtruim door een UAV, die ongeveer vijf minuten duurde voordat het toestel vertrok.",
+      "De grenswacht doet onderzoek. De Finse strijdkrachten legden uit voorzorg tijdelijke beperkingen op voor lucht- en zeeverkeer.",
+      "De binnenkomst blijft vermoed, niet bevestigd. Geen geïdentificeerde herkomst, model of bedoeling en geen bewezen verband met Baltische doorvluchten of aanvallen in Rusland."
+    ],
+    "basis": "68f7b98f4dfcbc62"
+  },
+  "N153": {
+    "headline": "Estland · korte binnendringingen van drones boven de Finse Golf",
+    "description": "De Estse autoriteiten meldden op 11 november 2026 korte binnendringingen van drones boven de Finse Golf. Exact aantal, routes en ladingen blijven onopgehelderd.",
+    "summary": [
+      "In een interview met ERR onderscheidde de minister van Defensie korte schendingen van het luchtruim boven de Finse Golf van een afzonderlijke drone die omstreeks 03:30 vanuit Letland binnenkwam. De Estse regering bevestigde los daarvan dat die nacht enkele drones kort het nationale luchtruim binnenkwamen.",
+      "NATO-gevechtsvliegtuigen waren in de lucht. De minister zei dat er geen omstandigheden waren voor veilige vernietiging, onder meer door de nabijheid van de Russische grens.",
+      "Exact aantal drones, tijdstippen van grensoverschrijding en routes onopgehelderd. De gemelde toeschrijving aan Oekraïne is het relaas van de minister, geen onafhankelijke bevestiging. Geen bevestigde aanval op Estland, neerstorting, berging of neerschieten. Geen bewezen verband met de vermoede grensoverschrijding in Finland."
+    ],
+    "basis": "0988f0038c13eff7"
+  },
+  "N154": {
+    "headline": "Mogelijke drone bij Sulina leidt tot waarschuwing; binnenkomst in Roemenië niet vastgesteld",
+    "description": "Een mogelijke drone ten noordoosten van Sulina leidde op 12 november 2026 tot een waarschuwing in Tulcea. Spaanse gevechtsvliegtuigen reageerden; binnenkomst in Roemenië werd niet vastgesteld.",
+    "summary": [
+      "Het Roemeense ministerie van Defensie meldde op 12 november een luchtdoel ongeveer 28 km ten noordoosten van Sulina. De publieke radio omschreef het als een mogelijke drone.",
+      "Een waarschuwing liep van 12:35 tot 13:12 plaatselijke tijd en twee Spaanse F-18’s stegen op. Dit geselecteerde alarm is geen bevestigde binnendringing of aanval in Roemenië."
+    ],
+    "basis": "e621e2b415355314"
+  },
+  "N155": {
+    "headline": "Bericht: 5 Turkse UAV’s bij 2 schendingen van het Griekse luchtruim op 16 oktober",
+    "description": "Veteranos meldt 5 Turkse UAV’s en 2 schendingen van het Griekse luchtruim op 16 oktober 2026. Relaas uit één bron met officiële cijfers; exacte routes blijven onbekend.",
+    "summary": [
+      "Veteranos meldt 5 Turkse UAV’s boven het centrale en zuidoostelijke deel van de Egeïsche Zee op 16 oktober, met verwijzing naar officiële cijfers: 2 schendingen van het nationale luchtruim en 7 inbreuken op de FIR van Athene.",
+      "Identificatie en routinematige onderschepping werden gemeld. Dit is één registratie van dagactiviteit, geen afzonderlijke voorvallen voor elke UAV of schending.",
+      "Het oorspronkelijke bulletin van GEETHA blijft onbeschikbaar en er werd geen overeenkomend tweede bericht gevonden. Dit zijn toegeschreven Griekse cijfers, geen onafhankelijk geverifieerde routes; het Grieks-Turkse geschil over het luchtruim blijft relevant."
+    ],
+    "basis": "7eab620af97e56d5"
+  },
+  "N156": {
+    "headline": "Bericht: 2 Turkse UAV’s bij 6 schendingen van het Griekse luchtruim op 17 oktober",
+    "description": "Veteranos meldt 2 Turkse UAV’s en 6 schendingen van het Griekse luchtruim op 17 oktober 2026. Relaas uit één bron met officiële cijfers; exacte routes blijven onbekend.",
+    "summary": [
+      "Veteranos meldt 2 Turkse UAV’s boven het noordoostelijke en zuidoostelijke deel van de Egeïsche Zee op 17 oktober, met verwijzing naar officiële cijfers: 6 schendingen van het nationale luchtruim en 4 inbreuken op de FIR van Athene.",
+      "Identificatie en routinematige onderschepping werden gemeld. Dit is één registratie van dagactiviteit, geen afzonderlijke voorvallen voor elke UAV of schending.",
+      "Het oorspronkelijke bulletin van GEETHA blijft onbeschikbaar en er werd geen overeenkomend tweede bericht gevonden. Dit zijn toegeschreven Griekse cijfers, geen onafhankelijk geverifieerde routes; het Grieks-Turkse geschil over het luchtruim blijft relevant."
+    ],
+    "basis": "41c5a49d0eb8c357"
+  },
+  "N157": {
+    "headline": "Waarschuwing voor het noorden van Tulcea na detectie van doel in Oekraïens luchtruim",
+    "description": "Roemenië gaf op 13 november een waarschuwing af voor het noorden van Tulcea na detectie van een doel in het Oekraïense luchtruim. Identificatie als drone en binnenkomst in Roemenië niet vastgesteld.",
+    "summary": [
+      "De Roemeense autoriteiten gaven op 13 november 2026 een waarschuwing af voor het noorden van Tulcea nadat de radar een luchtdoel ten zuidoosten van Slangeneiland in het Oekraïense luchtruim had gedetecteerd.",
+      "Twee Roemeense F-16’s stegen op vanaf Fetești. De waarschuwing liep van 21:53 tot 22:58 plaatselijke tijd; dit zijn tijdstippen van de waarschuwing, geen geverifieerde vluchtduur.",
+      "Het beoordeelde relaas van het ministerie identificeerde het doel niet als drone en stelde geen binnenkomst in Roemenië vast. Dit is een geselecteerd alarm, geen bevestigde binnendringing of aanval."
+    ],
+    "basis": "bdbe3aeea261bfb7"
+  },
+  "N158": {
+    "headline": "LARISSA 1 beschadigd door gemelde drone-inslag voor Roemenië; bemanning veilig",
+    "description": "Een drone-inslag beschadigde LARISSA 1 op 13 november voor Sfântu Gheorghe. De Roemeense minister erkende het voorval; operator en precieze positie blijven onopgehelderd.",
+    "summary": [
+      "Een gemelde inslag van een luchtdrone beschadigde op de avond van 13 november 2026 de laadkraan van LARISSA 1 bij Sfântu Gheorghe. De maritieme autoriteiten werden omstreeks 21:40 plaatselijke tijd ingelicht. Er werden geen gewonden, doden of brand gemeld.",
+      "De Roemeense minister van Defensie erkende op 14 november de nachtelijke inslag. TVR identificeert het schip, terwijl Europa FM het gemelde voorval 6,8 zeemijl ten noordoosten van Sfântu Gheorghe in de Roemeense territoriale wateren plaatst. Exacte coördinaten van de inslag zijn niet gepubliceerd.",
+      "De operator, de herkomst en het beoogde doelwit blijven onbekend. Technische bevindingen werden nog afgewacht en er is geen verband vastgesteld met het afzonderlijke alarm voor een luchtdoel in Tulcea."
+    ],
+    "basis": "f08b96a541b68222"
+  },
+  "N159": {
+    "headline": "Tulcea krijgt twee waarschuwingen tijdens één ochtendalarm voor een luchtdoel",
+    "description": "Roemenië gaf op 14 november twee waarschuwingen af voor Tulcea na detectie van een doel bij Slangeneiland. Identificatie als drone en binnenkomst in Roemenië werden niet vastgesteld.",
+    "summary": [
+      "Het MApN meldde op de ochtend van 14 november 2026 een luchtdoel in het gebied van Slangeneiland. Twee Roemeense F-16’s stegen op vanaf Fetești.",
+      "Het oosten van Tulcea kreeg om 04:45 plaatselijke tijd een waarschuwing, gevolgd door het noorden van Tulcea om 05:39. Het sein veilig volgde om 05:52. Deze berichten horen bij één alarmepisode, niet bij twee bevestigde dronevoorvallen.",
+      "De verklaring identificeerde het doel niet als drone en bevestigde geen binnenkomst in Roemenië. Dit geselecteerde alarm staat los van de waarschuwing van de vorige avond; er is geen verband met de inslag op de Larissa 1 vastgesteld."
+    ],
+    "basis": "485c5fe876331a03"
+  },
+  "N160": {
+    "headline": "EVIA PETROL V voor Sulina door drone getroffen, volgens gemeld relaas van ministerie",
+    "description": "EVIA PETROL V werd op 14 november naar verluidt voor Sulina getroffen. De bemanning bluste een brand; er werden geen slachtoffers gemeld. Operator en exacte positie blijven onbekend.",
+    "summary": [
+      "EVIA PETROL V werd op 14 november 2026 omstreeks 21:10 plaatselijke tijd door een drone getroffen, volgens het relaas van News.ro over informatie van het MApN afkomstig van civiele maritieme autoriteiten. De gemelde locatie lag ongeveer 4 zeemijl ten oostzuidoosten van Sulina.",
+      "De bemanning bluste een brand aan boord; er werden geen slachtoffers gemeld. Radio România Constanța spreekt van Roemeense territoriale wateren, maar de exacte coördinaten van de inslag en de jurisdictie zijn niet onafhankelijk geverifieerd.",
+      "Operator, herkomst, bedoeling en een eventueel verband met andere inslagen op schepen of alarmen in de buurt blijven onbekend.",
+      "In een openbaarmaking als emittent van 19 november zei de groep Trans-Oil dat het schip voor anker lag bij de ingang van het Sulinakanaal in afwachting van toestemming om door te varen naar Giurgiulești. De schade verhinderde de geplande reis om ongeveer 6.500 ton zonnebloemolie te laden. Niet bevestigd is dat die lading aan boord was; mogelijke logistieke vertragingen en kosten blijven waarschuwingen van het bedrijf."
+    ],
+    "basis": "111f4b44af58fb36"
+  },
+  "N161": {
+    "headline": "MARSOL voor Sulina door drone getroffen, volgens gemeld relaas van ministerie",
+    "description": "MARSOL werd op 14 november naar verluidt voor Sulina getroffen. De bemanning bluste een brand; er werden geen slachtoffers gemeld. Operator en exacte positie blijven onbekend.",
+    "summary": [
+      "MARSOL werd op 14 november 2026 omstreeks 21:45 plaatselijke tijd door een drone getroffen, volgens het relaas van News.ro over informatie van het MApN afkomstig van civiele maritieme autoriteiten. De gemelde locatie lag ongeveer 5 zeemijl ten zuidoosten van het Sulinakanaal.",
+      "De bemanning bluste een brand aan boord; er werden geen slachtoffers gemeld. Radio România Constanța spreekt van Roemeense territoriale wateren, maar de exacte coördinaten van de inslag en de jurisdictie zijn niet onafhankelijk geverifieerd.",
+      "Operator, herkomst, bedoeling en een eventueel verband met andere inslagen op schepen of alarmen in de buurt blijven onbekend. Een eerder maritiem bericht noemt in plaats daarvan 21:29 CET; dat verschil in tijd blijft onopgehelderd."
+    ],
+    "basis": "bc90d74246cb5145"
+  },
+  "N162": {
+    "headline": "Oost-Tulcea · avondwaarschuwing op 14 november",
+    "description": "De Roemeense autoriteiten gaven na een detectie in de lucht een waarschuwing van de civiele bescherming af. Identificatie als drone en binnenkomst in Roemenië blijven onbevestigd.",
+    "summary": [
+      "Twee Roemeense F-16’s stegen op vanaf Fetești; waarschuwing voor het oosten van Tulcea om 20:51, sein veilig om 21:37.",
+      "De geciteerde terminologie van het ministerie bevestigt geen drone, binnenkomst, aanval of militair ingrijpen. Geen aangetoond verband met aanvallen op schepen."
+    ],
+    "basis": "9e036c65d9b1d1c9"
+  },
+  "N163": {
+    "headline": "Gebied Sulina · late waarschuwing voor radarcontact op 14 november",
+    "description": "De Roemeense autoriteiten gaven na een detectie in de lucht een waarschuwing van de civiele bescherming af. Identificatie als drone en binnenkomst in Roemenië blijven onbevestigd.",
+    "summary": [
+      "Nieuwe waarschuwing voor het oosten van Tulcea om 23:19; sein veilig om 00:27 de volgende dag. Een afzonderlijke opstijging is niet vastgesteld.",
+      "De geciteerde terminologie van het ministerie bevestigt geen drone, binnenkomst, aanval of militair ingrijpen. Geen aangetoond verband met aanvallen op schepen."
+    ],
+    "basis": "146d9d719613c6b5"
+  },
+  "N164": {
+    "headline": "Korte binnendringing van drone bij Chilia op 2 mei",
+    "description": "De Roemeense defensieautoriteiten meldden een korte binnenkomst van een drone bij Chilia. Doelwit en bedoeling blijven niet vastgesteld; er wordt geen aanval op Roemenië afgeleid.",
+    "summary": [
+      "Het MApN meldde een korte, door radar bevestigde binnenkomst bij Chilia, gevolgd door een beweging richting Ismail. Twee F-16’s stegen omstreeks 02:00 op; de waarschuwing voor het noorden van Tulcea liep van 02:03 tot 02:50 plaatselijke tijd.",
+      "De binnenkomst wordt los van de bredere aanval op Oekraïne geregistreerd. Bedoeling en specifiek doelwit blijven niet vastgesteld; er wordt geen inslag in Roemenië gemeld."
+    ],
+    "basis": "82fa985c2e506266"
+  },
+  "N165": {
+    "headline": "Korte binnendringing van drone bij Chilia op 7 mei",
+    "description": "De Roemeense defensieautoriteiten meldden een korte binnenkomst van een drone bij Chilia. Doelwit en bedoeling blijven niet vastgesteld; er wordt geen aanval op Roemenië afgeleid.",
+    "summary": [
+      "Het MApN meldde op de ochtend van 7 mei een korte, door radar bevestigde binnenkomst bij Chilia. Twee F-16’s stegen om 08:37 op; de waarschuwing voor het noorden van Tulcea liep van 08:40 tot 09:40 plaatselijke tijd.",
+      "De binnenkomst wordt los van de bredere aanval op Oekraïne geregistreerd. Bedoeling en specifiek doelwit blijven niet vastgesteld; er wordt geen inslag in Roemenië gemeld."
+    ],
+    "basis": "438dcccd398f3603"
+  },
+  "N166": {
+    "headline": "Drone dringt Roemeens luchtruim binnen en stort neer bij Parcheș",
+    "description": "Het MApN bevestigde een binnenkomst en neerstorting van een drone buiten Parcheș op 26 maart. Er werden brokstukken gevonden; operator, model en beoogd doelwit blijven ongespecificeerd.",
+    "summary": [
+      "Het MApN meldde dat een drone om 00:44 op 26 maart binnenkwam, ongeveer 4 km doordrong en buiten Parcheș neerstortte. Teams vonden brokstukken en verbrande vegetatie; er werden geen materiële schade of slachtoffers gemeld.",
+      "Het ministerie zei dat de Oekraïense luchtverdediging de drone van koers had doen afwijken. Dit relaas blijft toegeschreven aan het MApN; het persbericht stelt geen operator, model of bedoeling om Roemenië aan te vallen vast."
+    ],
+    "basis": "89eac726d6b9440e"
+  },
+  "N167": {
+    "headline": "Ongeïdentificeerd doel dringt Roemeens luchtruim binnen bij Chilia Veche",
+    "description": "Het MApN bevestigde de binnenkomst van een luchtdoel in de nacht van 16 op 17 april. Identificatie als drone en een neerstorting blijven onbevestigd, ondanks later verlies van radarcontact.",
+    "summary": [
+      "Het MApN meldde in de nacht van 16 op 17 april één binnenkomst in het nationale luchtruim. Het contact ging ongeveer 16 km ten zuidoosten van Chilia Veche verloren en er werd een zoekmissie aangekondigd.",
+      "Het officiële persbericht beschrijft een luchtdoel, geen geïdentificeerde drone. Noch het verlies van radarcontact noch een geplande zoektocht stelt een neerstorting of berging van brokstukken vast."
+    ],
+    "basis": "23dfc89d5a63cde0"
+  },
+  "N168": {
+    "headline": "ALI NAJAFOV meldt nachtelijke drone-inslag bij de Donaumonding",
+    "description": "De Roemeense autoriteiten gaven een melding van een drone-inslag van ALI NAJAFOV door. De bemanning bluste een brand; precieze positie, jurisdictie en toeschrijving blijven onbekend.",
+    "summary": [
+      "ALI NAJAFOV meldde in de nacht van 14 op 15 november een drone-inslag bij de Donaumonding. De Roemeense autoriteiten gaven de melding van het schip door; de bemanning bluste een brand en er werden geen slachtoffers gemeld.",
+      "Dit is een ander schip dan EVIA PETROL V en MARSOL. De exacte locatie en de maritieme jurisdictie blijven onopgehelderd; er is geen gemeenschappelijke operator of doelbewuste aanval vastgesteld."
+    ],
+    "basis": "8b86269bf206800f"
+  },
+  "N169": {
+    "headline": "Middagwaarschuwing in Tulcea uitgebreid naar de stad en daarna ingetrokken",
+    "description": "Detectie van een luchtdoel bij Oekraïne leidde om 15:02 tot een waarschuwing in Tulcea, die vóór het sein veilig om 17:05 naar de stad werd uitgebreid. Binnenkomst in Roemenië onbevestigd.",
+    "summary": [
+      "Een waarschuwing na de detectie van een luchtdoel in Oekraïne begon om 15:02 op 15 november. Om 16:56 werd ze uitgebreid naar de gemeente Tulcea en om 17:05 voor alle getroffen gemeenschappen ingetrokken.",
+      "De uitbreiding hoort bij dezelfde waarschuwingsepisode. Noch identificatie als drone noch binnenkomst in het Roemeense luchtruim is vastgesteld; er wordt geen verband met inslagen op schepen afgeleid."
+    ],
+    "basis": "229b1930ed3783f0"
+  },
+  "N170": {
+    "headline": "Ten noorden van Sulina · korte binnenkomst van drone op 26 februari",
+    "description": "Het MApN bevestigde op de avond van 26 februari een korte binnenkomst van een drone, die omstreeks 18:30 ten noorden van Sulina eindigde.",
+    "summary": [
+      "Het MApN bevestigde op de avond van 26 februari een korte binnenkomst van een drone, die omstreeks 18:30 ten noorden van Sulina eindigde.",
+      "Dit stond los van het eerdere alarm zonder binnenkomst en van het voorval van 25 februari. Operator, model en bedoeling blijven ongespecificeerd."
+    ],
+    "basis": "c289f5664d4e1a20"
+  },
+  "N171": {
+    "headline": "Tănăsoaia · fragmenten van mogelijk luchtvaartuig geborgen",
+    "description": "Defensiespecialisten onderzochten en verzamelden op 18 januari metalen fragmenten in Tănăsoaia. Ze wezen op een mogelijk luchtvaartuig.",
+    "summary": [
+      "Defensiespecialisten onderzochten en verzamelden op 18 januari metalen fragmenten in Tănăsoaia. Ze wezen op een mogelijk luchtvaartuig.",
+      "Identificatie als drone, herkomst en datum van de val blijven onbevestigd; dit is een vondstkandidaat, geen bevestigde binnendringing."
+    ],
+    "basis": "b7ad8cb376460adb"
+  },
+  "N172": {
+    "headline": "Botoșenița Mare · neerstorting van ongeïdentificeerd vliegend object",
+    "description": "Het MApN meldde op 12 september een neergestort vliegend object in een maïsveld bij Botoșenița Mare, met een kleine brand en zonder slachtoffers.",
+    "summary": [
+      "Het MApN meldde op 12 september een neergestort vliegend object in een maïsveld bij Botoșenița Mare, met een kleine brand en zonder slachtoffers.",
+      "Buitenlandse autoriteiten meldden ook een doorvlucht van een drone en elders werd een waarneming via 112 geregistreerd. Een doorlopend verband met het geborgen object is niet vastgesteld."
+    ],
+    "basis": "678aa5f2a1e03414"
+  },
+  "N173": {
+    "headline": "Ten oosten van Mangalia · vondst van drijvende luchtdrone",
+    "description": "Het MApN meldde op 15 november een luchtdrone die ongeveer 45 zeemijl ten oosten van Mangalia dreef. Herkomst en afloop van de missie blijven onbekend.",
+    "summary": [
+      "Een ATLANTIQUE 2 van de Franse marine meldde op 15 november een luchtdrone die ongeveer 45 zeemijl ten oosten van Mangalia dreef, aldus het Roemeense ministerie van Defensie.",
+      "De geplande EOD-beoordeling van 16 november werd door slecht weer vertraagd: volgens het MApN keerden beide boten terug zonder hun beoordelingen te voltooien. Er is geen berging of onschadelijkmaking vastgesteld.",
+      "Dit is een vondst op zee, geen bewijs van een binnendringing van het Roemeense territoriale luchtruim. Herkomst, vlucht- en valdatum, lading en een eventueel verband met recente inslagen op schepen blijven onbekend."
+    ],
+    "basis": "875f004d900296a2"
+  },
+  "N174": {
+    "headline": "Ten oosten van Chituc · vondst van drijvende luchtdrone",
+    "description": "Het MApN meldde op 15 november een luchtdrone die ongeveer 53 zeemijl ten oosten van Chituc dreef. Herkomst en afloop van de missie blijven onbekend.",
+    "summary": [
+      "Een ATLANTIQUE 2 van de Franse marine meldde op 15 november een luchtdrone die ongeveer 53 zeemijl ten oosten van Chituc dreef, aldus het Roemeense ministerie van Defensie.",
+      "De geplande EOD-beoordeling van 16 november werd door slecht weer vertraagd: volgens het MApN keerden beide boten terug zonder hun beoordelingen te voltooien. Er is geen berging of onschadelijkmaking vastgesteld.",
+      "Dit is een vondst op zee, geen bewijs van een binnendringing van het Roemeense territoriale luchtruim. Herkomst, vlucht- en valdatum, lading en een eventueel verband met recente inslagen op schepen blijven onbekend."
+    ],
+    "basis": "328155b1bc112d37"
+  },
+  "N175": {
+    "headline": "BETUL 8 kapseist voor Bulgarije; bemanningslid beweert aanval met zeedrones",
+    "description": "Alle 12 bemanningsleden van BETUL 8 werden gered nadat het schip op 16 november in de Bulgaarse EEZ kapseisde. Een bewering over een aanval met zeedrones blijft onbevestigd.",
+    "summary": [
+      "De Bulgaarse autoriteiten bevestigden dat BETUL 8 op 16 november in de exclusieve economische zone van het land kapseisde. Alle 12 bemanningsleden werden geëvacueerd; het ministerie meldde geen ernstige verwondingen.",
+      "BNR citeerde een geredde zeeman die beweerde dat het schip door twee zeedrones was aangevallen. De autoriteiten hadden die oorzaak in de beoordeelde verklaringen niet bevestigd. Het scheepsongeval op zee blijft opgenomen als kandidaat, niet als bevestigde drone-aanval of territoriale binnendringing.",
+      "Het Bulgaarse NAVWARN 860/26 geeft een latere waarneming om 14:45 UTC op 19 november: het schip lag gekapseisd en dreef zonder bemanning of besturing. Dit is geen vaststelling van de uiteindelijke toestand of de oorzaak."
+    ],
+    "basis": "aad7a84948b3f2bc"
+  },
+  "N176": {
+    "headline": "Egeïsche Zee · zeven UAV’s in Grieks register voor 16 november",
+    "description": "Het novemberregister van GEETHA vermeldt voor 16 november zeven UAV’s, zeven schendingen van het luchtruim en tien inbreuken op de FIR, afwijkend van het eerdere bulletin.",
+    "summary": [
+      "Het maandregister van GEETHA vermeldt zeven UAV’s als alle gemelde toestellen voor 16 november, met zeven schendingen van het nationale luchtruim en tien inbreuken op de FIR van Athene. Het eerdere bulletin in Parapolitika noemde zes schendingen en negen inbreuken; het verschil is niet verklaard.",
+      "Dit blijft één regionale dagregistratie. De cijfers zijn niet optelbaar en geen onafhankelijk geverifieerd aantal vluchten; er is geen wapeninzet vastgesteld."
+    ],
+    "basis": "1392b1b1c36513b7"
+  },
+  "N177": {
+    "headline": "Nachtelijk alarm voor het noorden van Tulcea; geen binnenkomst in Roemeens luchtruim geregistreerd",
+    "description": "Roemenië gaf in de nacht van 16 op 17 november een alarm af na radardetecties boven Oekraïne. Het MApN meldde geen ongeoorloofde binnenkomst in het Roemeense luchtruim.",
+    "summary": [
+      "Roemenië gaf na radardetecties boven Oekraïne een alarm van de civiele bescherming af. Er werd geen ongeoorloofde binnenkomst in het Roemeense luchtruim geregistreerd.",
+      "Dit is één geselecteerd alarm, geen bevestigde binnendringing van een drone."
+    ],
+    "basis": "016739f3dca934f0"
+  },
+  "N178": {
+    "headline": "Bemanning van GAS HUSKY gered na scheepsongeval op zee; drone als oorzaak onbevestigd",
+    "description": "Alle 19 bemanningsleden van GAS HUSKY op 17 november voor Bulgarije gered. Officiële waarschuwing beschrijft een slagzij makend, drijvend schip; beweringen over drones onbevestigd.",
+    "summary": [
+      "De Bulgaarse autoriteiten redden op 17 november 2026 alle 19 bemanningsleden van GAS HUSKY na een scheepsongeval op zee. De onder Liberiaanse vlag varende LPG-tanker was onderweg van Egypte naar Roemenië. De locatie ligt in de exclusieve economische zone van Bulgarije, niet in de territoriale wateren.",
+      "Een navigatiewaarschuwing van 10:50 UTC beschreef een slagzij van 45 graden, een brug onder water en een onbemand, ronddrijvend schip. Ze stelde geen volledig zinken vast, ondanks vroege berichten. AP meldt, met verwijzing naar Maritime.bg, dat de geredde kapitein zei dat vier drones het schip troffen; AP zegt ook dat er geen officiële bevestiging van de oorzaak is. De bewering is niet onafhankelijk geverifieerd en er is geen operator of verband met BETUL 8 vastgesteld.",
+      "Beheerder Stealth Maritime zegt dat het schip vroeg op 17 november in de Bulgaarse EEZ werd getroffen, maar specificeert niet waardoor, en zegt dat de toestand van het schip op dat moment onbekend was. De verklaring, overgenomen door Naftemporiki, bevestigt dat in Alexandrië LPG was geladen voor Midia.",
+      "Een later bericht van Maritime.bg meldt, op gezag van een niet bij naam genoemde bron bij het beheerbedrijf, een gecombineerde aanval met oppervlakte- en luchtdrones. Dit blijft een onbevestigd relaas; de openbare verklaring van de beheerder specificeert geen mechanisme.",
+      "Op 18 november zei de gouverneur van Varna, Mario Smurkov, tegen bTV dat er vier inslagen waren geweest, maar dat de relazen van de zeelieden tegenstrijdig waren en de typen drones onbevestigd bleven. Hij zei dat de schepen op dat moment nog niet waren gezonken en dat er nog geen vervuiling was vastgesteld. Vier inslagen stellen geen vier onafhankelijk geverifieerde drones vast.",
+      "Reuters meldde op 18 november dat twee niet bij naam genoemde bronnen uit de maritieme beveiliging de aanval toeschreven aan een onbemand systeem. Het persbureau herhaalde het relaas van de gouverneur over vier inslagen, zonder het type drone of de operator vast te stellen. Reuters beschreef het schip als gezonken, maar gaf geen recenter tijdstip van waarneming om de eerdere berichten over de toestand op te helderen.",
+      "Het Bulgaarse NAVWARN 858/26 geeft een latere waarneming om 13:30 UTC op 19 november: het schip maakte ongeveer 45 graden slagzij, de brug lag onder water en het dreef zonder bemanning of besturing. Dit is geen vaststelling van de uiteindelijke toestand of de oorzaak.",
+      "NAVWARN 865/26 meldt dat GAS HUSKY om 12:38 UTC op 21 november nog altijd onbemand ronddreef, met zware slagzij en de brug onder water. De waarneming stelt geen zinken of het oorspronkelijke mechanisme vast.",
+      "De Filipijnse autoriteiten hadden gemeld dat twee gewonde bemanningsleden na behandeling herstelden. The Manila Times meldde, met verwijzing naar het Filipijnse ministerie voor Migrerende Werknemers, dat de 19 Filipijnse bemanningsleden op 25 november op de luchthaven van Varna werden uitgezwaaid. Twee groepen werden op 26 november, Filipijnse tijd, in Manilla verwacht; hun aankomst was bij deze beoordeling niet onafhankelijk bevestigd. Dit stelt de uiteindelijke toestand van het schip of de oorspronkelijke oorzaak niet vast."
+    ],
+    "basis": "2e8a41b9e0e20de5"
+  },
+  "N179": {
+    "headline": "Egeïsche Zee · zes UAV’s in Grieks register voor 17 november",
+    "description": "Het register van GEETHA vermeldt zes UAV’s op 17 november, afwijkend van de aanvankelijke vijf. Gecombineerde totalen voor het luchtruim zijn niet alleen aan drones toe te schrijven.",
+    "summary": [
+      "Het maandregister van GEETHA vermeldt voor 17 november zes UAV’s en vier bemande toestellen, met gezamenlijk zeventien schendingen van het nationale luchtruim en tien inbreuken op de FIR van Athene. Het verdeelt deze totalen niet per type toestel.",
+      "Het eerdere bulletin vermeldde vijf UAV’s met vier schendingen van het luchtruim en zeven inbreuken op de FIR. Dat oorspronkelijke relaas blijft aangehaald, maar het register wijkt af en geeft geen verklaring. Geen van beide versies stelt onafhankelijk vliegroutes vast; de ontmoeting met gevechtsvliegtuigen is geen neerschieten van een drone."
+    ],
+    "basis": "87dcaf1584079e1c"
+  },
+  "N180": {
+    "headline": "Farmakonisi · overvlucht van Turkse UAV gemeld op 30 juli",
+    "description": "De Griekse autoriteiten meldden op 30 juli een overvlucht van een UAV boven Farmakonisi. Een ministerieel antwoord van november bevestigt een officiële melding aan NATO, geen bevinding van NATO.",
+    "summary": [
+      "Griekse berichten schreven op 30 juli 2026 acht schendingen van het nationale luchtruim toe aan twee Turkse UAV’s, waaronder een overvlucht van Farmakonisi. Vier afzonderlijke inbreuken op de FIR van Athene werden aan de UAV’s toegeschreven. Dit is één dagregistratie, geen twaalf voorvallen.",
+      "Een ministerieel antwoord gedateerd 1 november en gepubliceerd op 16 november erkent de overvlucht en zegt dat Griekenland een officieel rapport naar NATO stuurde. Volgens het antwoord werd destijds een analyse van NATO verwacht; het bevat geen bevinding van NATO en geen bewijs dat een reactie nog uitstaat. Exacte vliegroutes en bedoeling blijven onbekend."
+    ],
+    "basis": "1ce7f990ce68d0c0"
+  },
+  "N181": {
+    "headline": "Door drone beschadigde MARIAM M drijft Roemeense wateren binnen en loopt vast bij Vadu",
+    "description": "MARIAM M liep op 16 november bij Vadu vast nadat het vanuit Oekraïne was afgedreven. Geregistreerd als maritieme nasleep, met video; geen nieuwe aanval in Roemenië gemeld.",
+    "summary": [
+      "MARIAM M liep op 16 november 2026 vast aan de Roemeense kust bij Vadu. Het verlaten vrachtschip onder Tanzaniaanse vlag was de Roemeense wateren binnengedreven nadat het anker op 14 november was gebroken.",
+      "Volgens de Roemeense autoriteiten lag het schip na een drone-aanval in september in de Oekraïense territoriale wateren daar voor anker. Deze registratie betreft de daaropvolgende aankomst en het vastlopen in Roemenië, ingedeeld als Waarschuwing / overig. Ze telt geen nieuwe drone-aanval en neemt geen slachtoffers van de aanval in september over.",
+      "Op 19 november trokken sleepboten het schip los van de oorspronkelijke zandbank. ProTV meldde later dat het ongeveer 100 meter opschoof voordat het op een andere zandbank vastliep, waarna de bemanning het verankerde en de berging rond het vallen van de avond onderbrak. De pagina bevat eerdere beelden van de inzet van ARSVOM en een link naar een video vanaf de kust.",
+      "Bij een afzonderlijke poging op 22 november draaiden drie sleepboten MARIAM M volgens Știrile ProTV richting open water, maar liep het schip opnieuw gedeeltelijk vast en werd het werk bij het vallen van de avond onderbroken. De uiteindelijke ligplaats en de gevolgen voor het milieu blijven ongeverifieerd."
+    ],
+    "basis": "9fa9d16fcb95d141"
+  },
+  "N182": {
+    "headline": "Egeïsche Zee · één UAV in Grieks dagrapport voor 18 november",
+    "description": "Griekse cijfers schrijven op 18 november één schending van het nationale luchtruim en één afzonderlijke inbreuk op de FIR toe aan een UAV. Eén regionale registratie, geen gemelde confrontatie.",
+    "summary": [
+      "Door OnAlert en NewsIT overgenomen cijfers van GEETHA schrijven op 18 november één schending van het nationale luchtruim en één afzonderlijke inbreuk op de FIR van Athene toe aan een Turkse UAV in het noordoostelijke en centrale deel van de Egeïsche Zee.",
+      "De bemande CN-235 in dezelfde tabel is niet meegeteld bij de UAV’s. Er wordt een routinematige onderschepping gemeld, zonder confrontaties. Deze media geven hetzelfde relaas van de autoriteit weer, geen onafhankelijke routes; de precieze route, het model en de bedoeling blijven onbekend."
+    ],
+    "basis": "9fecf75febc5fc69"
+  },
+  "N183": {
+    "headline": "Egeïsche Zee · gemelde Turkse UAV-activiteit op 14 november",
+    "description": "De Griekse autoriteiten vermelden 2 Turkse UAV’s op 14 november, met afzonderlijk gemelde cijfers voor het nationale luchtruim en de FIR.",
+    "summary": [
+      "Het novemberregister van GEETHA vermeldt voor 14 november 2 UAV’s en geen bemande toestellen in het zuidoostelijke deel van de Egeïsche Zee.",
+      "Het register meldt één schending van het nationale luchtruim en 2 afzonderlijke inbreuken op de FIR van Athene. Dit zijn cijfers van de Griekse autoriteiten, geen onafhankelijk geverifieerde routes, aantallen unieke voorvallen of aanvallen. Er werd geen confrontatie vermeld."
+    ],
+    "basis": "7a977838703818f5"
+  },
+  "N184": {
+    "headline": "Egeïsche Zee · gemelde Turkse UAV-activiteit op 15 november",
+    "description": "De Griekse autoriteiten vermelden 3 Turkse UAV’s op 15 november, met afzonderlijk gemelde cijfers voor het nationale luchtruim en de FIR.",
+    "summary": [
+      "Het novemberregister van GEETHA vermeldt voor 15 november 3 UAV’s en geen bemande toestellen in het centrale en zuidoostelijke deel van de Egeïsche Zee.",
+      "Het register meldt 4 schendingen van het nationale luchtruim en 4 afzonderlijke inbreuken op de FIR van Athene. Dit zijn cijfers van de Griekse autoriteiten, geen onafhankelijk geverifieerde routes, aantallen unieke voorvallen of aanvallen. Er werd geen confrontatie vermeld."
+    ],
+    "basis": "9348fe0fa7d38f26"
+  },
+  "N186": {
+    "headline": "Egeïsche Zee · gemelde Turkse UAV-activiteit op 20 november",
+    "description": "De Griekse autoriteiten meldden op 20 november drie Turkse UAV’s en drie schendingen van het nationale luchtruim. Afzonderlijke FIR-cijfers zijn geen aantallen voorvallen.",
+    "summary": [
+      "OnAlert geeft cijfers van de Griekse Generale Staf weer voor het zuidoostelijke deel van de Egeïsche Zee op 20 november: drie Turkse UAV’s, drie schendingen van het nationale luchtruim door UAV’s en drie afzonderlijke inbreuken op de FIR van Athene door UAV’s. Eén bemande ATR-72 was goed voor nog twee inbreuken op de FIR.",
+      "Dit zijn toegeschreven dagcijfers van de Griekse autoriteiten, geen onafhankelijke vliegroutes of drie afzonderlijke voorvallen op de kaart. De regel in het primaire maandregister werd niet onafhankelijk geverifieerd."
+    ],
+    "basis": "394520276666d168"
+  },
+  "N188": {
+    "headline": "Oekraïne erkent aanval op SPARTA II; Finland leidde de latere redding",
+    "description": "Oekraïne erkende de drone-aanval van 21 november in de Finse Golf. De berichten verschillen over waar het schip werd getroffen. Finland leidde later de redding.",
+    "summary": [
+      "De Finse strijdkrachten meldden op 21 november een drone-aanval in het oosten van de Finse Golf. Het leger situeerde die in internationale wateren, terwijl commandant Ilja Iljin van de grenswacht zei dat de aanval in Russische territoriale wateren plaatsvond. Het brandende schip dreef later de Finse territoriale wateren binnen. Dat stelt niet vast dat een drone Finland binnenkwam.",
+      "De Finse kustwacht bevestigde dat de bemanning naar de KAPITAN SAKHAROV was geëvacueerd. Tijdens haar briefing van 22 november meldde de Finse grenswacht één gewond bemanningslid. De brandbestrijding ging door nadat de zichtbare vlammen waren bedwongen; op het moment van die briefing was geen olie op zee waargenomen. Dat was geen definitieve beoordeling.",
+      "Aki-Mauri Huhtinen, communicatiedirecteur van de Finse strijdkrachten, schatte in dat Oekraïne waarschijnlijk verantwoordelijk was. De specifieke operator, de bedoeling en de lading werden niet onafhankelijk vastgesteld.",
+      "Volgens het Estse ministerie van Buitenlandse Zaken dreef het beschadigde schip vanuit de exclusieve economische zone van Estland naar die van Finland en daarna de Finse territoriale wateren binnen. Estland verleende op verzoek van Finland bijstand; de Finse grenswacht bevestigde Estse deelname aan de brandbestrijding en koeling. De relazen over de redding stellen de locatie van de aanval of de route van een drone niet vast.",
+      "Op 22 november verliet de sleep de exclusieve economische zone en het milieubestrijdingsgebied van Finland, beëindigde Finland zijn missie en werden tijdelijke beperkingen opgeheven. Helsinki beëindigde los daarvan de paraatheid voor olieopruiming uit voorzorg. Svenska Yle meldde dat Rusland de verantwoordelijkheid voor de maritieme redding overnam.",
+      "Op 23 november zei Alexander Drozdenko, gouverneur van de regio Leningrad, dat de bemanning om 20:00 Moskouse tijd in Sint-Petersburg aan land ging. Hij zei dat het schip drijvend en met zijn lading dezelfde haven bereikte, zonder het tijdstip van aankomst van het schip te noemen. Zijn melding dat er geen gewonden waren, is in tegenspraak met het bericht van de Finse grenswacht. De uiteindelijke afloop van de brand en de vervuiling en de identiteit van de lading blijven ongeverifieerd.",
+      "De Finse Nationale Executieautoriteit zei dat zij het schip beoordeelde als eigendom van een door de EU gesanctioneerd bedrijf en een voorlopige overdrachtsbeperking oplegde nadat het op 21 november de Finse territoriale wateren was binnengekomen. De beperking kende uitzonderingen voor redding, veiligheid en milieu. De uiteindelijke juridische afhandeling werd niet vastgesteld.",
+      "In een interview met Bloomberg dat op 24 november verscheen, erkende president Volodymyr Zelenskyy dat Oekraïne de aanval uitvoerde en beweerde hij dat die in Russische territoriale wateren plaatsvond. ERR meldde de treffer in de Estse EEZ; een Estse reddingsfunctionaris plaatste het schip in die EEZ toen brand en explosie zich voordeden. Het Finse leger omschreef het gebied van de aanval als internationale wateren. De exacte locatie van de aanval en de bewering van Zelenskyy over wapens aan boord zijn niet onafhankelijk geverifieerd. De latere redding door Finland is een afzonderlijk gedocumenteerd feit."
+    ],
+    "basis": "672fe12e4e10cab6"
+  },
+  "N189": {
+    "headline": "Estland gaf luchtdreigingswaarschuwing af voor twee noordoostelijke provincies en trok die weer in",
+    "description": "Estland waarschuwde inwoners van Lääne-Viru en Ida-Viru op 21 november voor een mogelijke dreiging uit de lucht. Het alarm stelt geen binnendringing van een drone vast.",
+    "summary": [
+      "De Estse strijdkrachten gaven op 21 november om 04:42 plaatselijke tijd een waarschuwing voor een mogelijke dreiging uit de lucht af voor Lääne-Viru en Ida-Viru. Het bericht adviseerde te schuilen als een drone werd gezien. Om 06:49 plaatselijke tijd volgde het sein veilig. Dit is één waarschuwingsepisode, geen geverifieerde binnendringing."
+    ],
+    "basis": "c7c59339eb4400db"
+  },
+  "N190": {
+    "headline": "Inwoners van Tulcea ’s nachts gewaarschuwd; Roemenië meldde geen binnenkomst in luchtruim",
+    "description": "De autoriteiten gaven op 22 november om 00:46 plaatselijke tijd een RO-Alert af en lieten twee F-16’s opstijgen. Het ministerie van Defensie meldde geen binnenkomst in het Roemeense luchtruim.",
+    "summary": [
+      "Op 22 november om 00:46 plaatselijke tijd ging een nachtelijke waarschuwing uit naar het noorden en oosten van Tulcea. Het Roemeense ministerie van Defensie meldde één luchtdoel buiten het nationale luchtruim en zei dat twee F-16’s opstegen. Het meldde geen binnenkomst in het nationale luchtruim. Volgens het ministerie eindigde het luchtalarm om 02:14, terwijl ISU Delta Tulcea 02:16 noemde en geen verzoeken of problemen meldde. Dit zijn relazen van één waarschuwingsepisode."
+    ],
+    "basis": "bb330334fdeedf43"
+  },
+  "N191": {
+    "headline": "Egeïsche Zee · gemelde Turkse UAV-activiteit op 22 november",
+    "description": "Cijfers van de Griekse autoriteiten meldden zeven Turkse UAV’s, zeven schendingen van het nationale luchtruim en zeven afzonderlijke inbreuken op de FIR van Athene.",
+    "summary": [
+      "Griekse media meldden op 22 november, met verwijzing naar de Helleense Generale Staf voor Nationale Defensie, zeven Turkse UAV’s, zeven schendingen van het Griekse nationale luchtruim en zeven inbreuken op de FIR van Athene boven het noordoostelijke, centrale en zuidoostelijke deel van de Egeïsche Zee. Ze meldden routinematige identificatie en onderschepping.",
+      "De drie cijfers zijn afzonderlijke maten binnen één dagrapport. Ze stellen geen onafhankelijke vliegroutes, neerschieten of aanval vast. De oorspronkelijke regel in het dagregister kon niet worden geverifieerd."
+    ],
+    "basis": "0eec6e747256d451"
+  },
+  "N192": {
+    "headline": "Middag-RO-Alert voor het noorden van Tulcea eindigde zonder gemelde binnenkomst in luchtruim",
+    "description": "Het noorden van Tulcea kreeg op 22 november om 15:06 plaatselijke tijd een afzonderlijke middagwaarschuwing. Er werd geen binnenkomst in het Roemeense luchtruim gemeld.",
+    "summary": [
+      "Het Roemeense ministerie van Defensie meldde op 22 november één luchtdoel ten noorden van Vâlcove, Oekraïne, en een RO-Alert voor het noorden van Tulcea van 15:06 tot 15:42 plaatselijke tijd. Er werd geen binnenkomst in het Roemeense luchtruim gemeld.",
+      "Het ministerie zei dat Spaanse gevechtsvliegtuigen en helikopters als reactie opstegen. Het meldde geen onderschepping.",
+      "Dit is een waarschuwing van de civiele bescherming, geen bevestigde binnendringing of aanval door een drone. Type doel en operator werden niet vastgesteld."
+    ],
+    "basis": "1fce4c3f1e26c381"
+  },
+  "N193": {
+    "headline": "Avond-RO-Alert voor het noorden van Tulcea eindigde zonder gemelde binnenkomst in luchtruim",
+    "description": "Het noorden van Tulcea kreeg op 22 november om 20:01 plaatselijke tijd een afzonderlijke avondwaarschuwing. Er werd geen binnenkomst in het Roemeense luchtruim gemeld.",
+    "summary": [
+      "Het Roemeense ministerie van Defensie meldde op 22 november luchtdoelen ten oosten van Slangeneiland en een RO-Alert voor het noorden van Tulcea van 20:01 tot 21:15 plaatselijke tijd. Er werd geen binnenkomst in het Roemeense luchtruim gemeld.",
+      "Dit is een waarschuwing van de civiele bescherming, geen bevestigde binnendringing of aanval door een drone. Type doel en operator werden niet vastgesteld."
+    ],
+    "basis": "6ac4b0c86f4adf5a"
+  },
+  "N194": {
+    "headline": "Aan Rusland toegeschreven drone dringt Polen binnen bij Dorohusk en keert terug naar Oekraïne",
+    "description": "Polen meldt een grensoverschrijding door een drone bij Dorohusk op 23 november. Neerschieten werd toegestaan, maar er werden geen wapens ingezet voordat hij naar Oekraïne terugkeerde.",
+    "summary": [
+      "Het Poolse Operationeel Commando bevestigde dat op 23 november, tijdens aanvallen op het westen van Oekraïne, één aan Rusland toegeschreven drone het Poolse luchtruim binnenkwam. Een vervolgartikel van Rzeczpospolita, met verwijzing naar het commando en woordvoerder Jacek Goryszewski, plaatst de binnenkomst bij Dorohusk om 22:50 plaatselijke tijd, met een binnendringing van ongeveer 20 km die 8–9 minuten duurde voordat de drone terugkeerde naar Oekraïne.",
+      "Neerschieten werd toegestaan, maar er werden geen wapens ingezet. Radio Lublin en UNITED24 melden dat de commandanten na de draai naar het oosten het vuur inhielden, rekening houdend met de veiligheid van burgers. Goryszewski zei dat grondsystemen toestemming hadden; Poolse vliegtuigen opereerden vanwege het weer niet bij de grens. Er werden geen slachtoffers, inslag of berging van brokstukken gemeld.",
+      "De woordvoerder schatte op basis van de vliegsnelheid in dat het om straalaandrijving ging, maar bevestigde geen camera’s of verkenningsrol. Het model, de lading en het beoogde doelwit blijven onbekend. De markering bij Dorohusk is een referentie bij benadering, geen geverifieerde coördinaat van de grensoverschrijding. Publieke waarschuwingen maken deel uit van dit ene voorval, dat losstaat van het raketincident van 20 november.",
+      "Het Regeringscentrum voor Veiligheid registreerde de update om te schuilen om 22:56 CET en het sein veilig om 23:54 CET. Dit zijn tijdstippen van waarschuwingen, geen vliegtijden."
+    ],
+    "basis": "d2d4fb5622cf3ffd"
+  },
+  "N195": {
+    "headline": "Tausiūnai–Aukštalaukis: grenswachters bergen drone met sigaretten uit Belarus",
+    "description": "Litouwen meldt een afzonderlijke binnendringing van een drone bij Tausiūnai–Aukštalaukis op 27 september, waarbij 250 pakjes sigaretten werden geborgen. Operator onbekend.",
+    "summary": [
+      "De VSAT meldde op zondag 27 september laat in de avond, plaatselijke tijd, een drone met sigaretten uit Belarus. De drone werd bij Tausiūnai gedetecteerd en na een gedwongen daling bij Aukštalaukis geborgen. Hij was zwaar beschadigd.",
+      "Grenswachters stelden 250 pakjes sigaretten veilig en startten een administratieve procedure. De operator werd niet geïdentificeerd. Dit is een grensoverschrijdende smokkelzaak, geen vastgestelde aanval door een staat."
+    ],
+    "basis": "075b2a5c83a9ffc2"
+  },
+  "N196": {
+    "headline": "Eišiškės: grenswachters bergen drone met sigaretten uit Belarus",
+    "description": "Litouwen meldt een afzonderlijke binnendringing van een drone bij Eišiškės op 27 september, waarbij 100 pakjes sigaretten werden geborgen. Operator onbekend.",
+    "summary": [
+      "De VSAT meldde op 27 september vóór middernacht, plaatselijke tijd, een drone met sigaretten uit Belarus. Een andere patrouille onderschepte de drone enkele uren na het eerste voorval bij Eišiškės. De drone viel in het stadsgebied en werd geborgen.",
+      "Grenswachters stelden 100 pakjes sigaretten veilig en startten een administratieve procedure. De operator werd niet geïdentificeerd. Dit is een grensoverschrijdende smokkelzaak, geen vastgestelde aanval door een staat."
+    ],
+    "basis": "0184a774707cec6e"
+  },
+  "N197": {
+    "headline": "Egeïsche Zee: 6 gemelde schendingen van het luchtruim op 18 oktober",
+    "description": "Veteranos beschreef, met verwijzing naar Griekse militaire berichtgeving, 5 Turkse UAV’s boven het centrale en zuidoostelijke deel van de Egeïsche Zee op 18 oktober 2026, met 6 gemelde schendingen van het nationale luchtruim en, afzonderlijk, 10 inbreuken op de luchtverkeersregels in de FIR van Athene.",
+    "summary": [
+      "Veteranos beschreef, met verwijzing naar Griekse militaire berichtgeving, 5 Turkse UAV’s boven het centrale en zuidoostelijke deel van de Egeïsche Zee op 18 oktober 2026, met 6 gemelde schendingen van het nationale luchtruim en, afzonderlijk, 10 inbreuken op de luchtverkeersregels in de FIR van Athene.",
+      "Het relaas meldt identificatie en routinematige onderschepping, geen wapeninzet of neerschieten.",
+      "Dit is één toegeschreven dagregistratie, geen telling van afzonderlijke bevestigde binnendringingen. De oorspronkelijke vermelding in het Griekse militaire register werd niet verkregen, en routes, exacte locaties, bedoeling en gegevens over de operator zijn niet geverifieerd. Het Grieks-Turkse geschil over het luchtruim blijft relevant."
+    ],
+    "basis": "b78a96fd3dd18174"
+  },
+  "N198": {
+    "headline": "Egeïsche Zee: 3 gemelde schendingen van het luchtruim op 21 november",
+    "description": "Veteranos beschreef, met verwijzing naar Griekse militaire berichtgeving, één Turkse UAV boven het centrale deel van de Egeïsche Zee op 21 november 2026, met 3 gemelde schendingen van het nationale luchtruim en, afzonderlijk, 1 inbreuk op de luchtverkeersregels in de FIR van Athene.",
+    "summary": [
+      "Veteranos beschreef, met verwijzing naar Griekse militaire berichtgeving, één Turkse UAV boven het centrale deel van de Egeïsche Zee op 21 november 2026, met 3 gemelde schendingen van het nationale luchtruim en, afzonderlijk, 1 inbreuk op de luchtverkeersregels in de FIR van Athene.",
+      "Het relaas meldt identificatie en routinematige onderschepping, geen wapeninzet of neerschieten.",
+      "Dit is één toegeschreven dagregistratie, geen telling van afzonderlijke bevestigde binnendringingen. De oorspronkelijke vermelding in het Griekse militaire register werd niet verkregen, en routes, exacte locaties, bedoeling en gegevens over de operator zijn niet geverifieerd. Het Grieks-Turkse geschil over het luchtruim blijft relevant."
+    ],
+    "basis": "4035154a2ead9d19"
+  },
+  "N199": {
+    "headline": "Ochtend-RO-Alert voor het noorden van Tulcea ingetrokken zonder gemelde binnenkomst in Roemeens luchtruim",
+    "description": "Roemenië waarschuwde het noorden van Tulcea op de ochtend van 24 november nadat in het Oekraïense luchtruim een doel was gedetecteerd. Er werd geen binnenkomst in het Roemeense luchtruim gemeld.",
+    "summary": [
+      "Roemenië waarschuwde het noorden van Tulcea op de ochtend van 24 november nadat in het Oekraïense luchtruim een doel was gedetecteerd. Er werd geen binnenkomst in het Roemeense luchtruim gemeld.",
+      "Het ministerie van Defensie meldde een waarschuwing om 11:11 EET, bewaking door Spaanse vliegtuigen en het sein veilig om 11:51 EET.",
+      "Het relaas van de lokale hulpdiensten noemde 10:11 als tijdstip waarop de telefonische melding binnenkwam. Dit verschil wijst niet op een tweede ochtendalarm.",
+      "Dit is een alarm uit voorzorg, geen bevestigde binnendringing in Roemenië."
+    ],
+    "basis": "0198614f7d30239f"
+  },
+  "N200": {
+    "headline": "Middag-RO-Alert voor het noorden van Tulcea ingetrokken zonder gemelde binnenkomst in Roemeens luchtruim",
+    "description": "Roemenië waarschuwde het noorden van Tulcea op 24 november opnieuw nadat bij de Chilia-arm in het Oekraïense luchtruim een doel was gedetecteerd. Er werd geen binnenkomst in het Roemeense luchtruim gemeld.",
+    "summary": [
+      "Roemenië waarschuwde het noorden van Tulcea op 24 november opnieuw nadat bij de Chilia-arm in het Oekraïense luchtruim een doel was gedetecteerd. Er werd geen binnenkomst in het Roemeense luchtruim gemeld.",
+      "Het ministerie van Defensie meldde een waarschuwing om 14:37 EET, bewaking door vliegtuigen en het sein veilig om 15:40 voor het noorden van Tulcea. Volgens ProTV begon de luchtalarmfase in Galați om 14:52 EET na een melding van een ongeïdentificeerde drone die op het district afkwam. Het sein veilig van de lokale IGSU werd om 15:46 EET gemeld.",
+      "Identiteit van het doel, operator en beoogd doelwit zijn onbekend. Niet vastgesteld is of de waarschuwingen in Tulcea en Galați hetzelfde doel betroffen. De ochtendwaarschuwing blijft afzonderlijk.",
+      "Dit is een alarm uit voorzorg, geen bevestigde binnendringing in Roemenië."
+    ],
+    "basis": "faba06a8d0d3b2db"
+  },
+  "N201": {
+    "headline": "Žaltūnai–Girdijauskai: Litouwen meldt grensoverschrijdende smokkel per drone",
+    "description": "Litouwse grenswachters borgen 2 toestellen en 2.000 pakjes sigaretten na een nachtelijke operatie in juli bij Žaltūnai–Girdijauskai.",
+    "summary": [
+      "9–10 juli 2026 (nacht). De grenswacht zegt dat ze ’s nachts drones uit Belarus detecteerde. Grenswachters borgen twee vrachtdrones bij Žaltūnai en Girdijauskai nadat de zoektocht bij daglicht was hervat.",
+      "Grenswachters stelden uit 2 toestellen 2.000 pakjes sigaretten met Belarussische accijnszegels veilig. Er werd een strafrechtelijk onderzoek geopend.",
+      "De operator en het exacte grensovergangspunt en de route zijn onbekend. De operatie wordt geregistreerd als grensoverschrijdende smokkel, niet als militaire aanval."
+    ],
+    "basis": "a335379fd80fd841"
+  },
+  "N202": {
+    "headline": "Šiulgiai–Šumskas: Litouwen meldt grensoverschrijdende smokkel per drone",
+    "description": "Litouwse grenswachters borgen één toestel en 340 pakjes sigaretten na een nachtelijke operatie in juli bij Šiulgiai–Šumskas.",
+    "summary": [
+      "17–18 juli 2026 (nacht). De grenswacht meldde dat één vrachtdrone Litouwen binnenkwam. Grenswachters hoorden de drone bij Šiulgiai, maar zagen hem niet. Na ingrijpen viel hij neer en het beschadigde toestel werd bij daglicht bij Šumskas geborgen.",
+      "Grenswachters stelden uit één toestel 340 pakjes sigaretten met Belarussische accijnszegels veilig. Er werd een administratieve procedure gestart.",
+      "De operator en het exacte grensovergangspunt en de route zijn onbekend. De operatie wordt geregistreerd als grensoverschrijdende smokkel, niet als militaire aanval."
+    ],
+    "basis": "0eba63dd63dc7160"
+  },
+  "N203": {
+    "headline": "Norviliškės–Daulėnai: Litouwen meldt grensoverschrijdende smokkel per drone",
+    "description": "Litouwse grenswachters borgen 3 toestellen en 3.000 pakjes sigaretten na een nachtelijke operatie in juli bij Norviliškės–Daulėnai.",
+    "summary": [
+      "29–30 juli 2026 (nacht). De grenswacht meldde vrachtdrones die vanuit Belarus Litouwen binnenkwamen. Twee toestellen werden bij Norviliškės geborgen en één bij Daulėnai, tijdens één nachtelijke operatie, waarbij de laatste berging bij daglicht plaatsvond.",
+      "Grenswachters stelden uit 3 toestellen 3.000 pakjes sigaretten met Belarussische accijnszegels veilig. Er werd een strafrechtelijk onderzoek geopend.",
+      "De operator en het exacte grensovergangspunt en de route zijn onbekend. De operatie wordt geregistreerd als grensoverschrijdende smokkel, niet als militaire aanval."
+    ],
+    "basis": "20d845bfb0acadf0"
+  },
+  "N204": {
+    "headline": "Kiemėnai: Litouwse grenswachters bergen smokkeldrone",
+    "description": "Litouwse grenswachters borgen een drone en 750 pakjes sigaretten na een nachtelijke operatie bij Kiemėnai.",
+    "summary": [
+      "16–17 april 2026. De VSAT zei dat ze de drone detecteerde terwijl die vanuit Belarus Litouwen binnenvloog. De drone viel na ingrijpen van grenswachters en werd bij Kiemėnai geborgen.",
+      "Grenswachters stelden 750 pakjes sigaretten met Belarussische accijnszegels veilig en startten een administratieve procedure.",
+      "Er werden geen operator, steun van een staat of exacte vliegroute vastgesteld. Dit is een registratie van grenssmokkel, geen militaire aanval."
+    ],
+    "basis": "1738bd94e1620fe1"
+  },
+  "N205": {
+    "headline": "Prūdelis: Litouwse grenswachters bergen smokkeldrone",
+    "description": "Litouwse grenswachters borgen een drone en 1.000 pakjes sigaretten na een nachtelijke operatie bij Prūdelis.",
+    "summary": [
+      "8–9 juli 2026. De VSAT meldde dat de drone vanaf de grens met Belarus landinwaarts vloog; ze publiceerde het exacte grensovergangspunt of de route niet. De drone viel na ingrijpen van grenswachters en werd bij Prūdelis geborgen.",
+      "Grenswachters stelden 1.000 pakjes sigaretten met Belarussische accijnszegels veilig en startten een administratieve procedure.",
+      "Er werden geen operator, steun van een staat of exacte vliegroute vastgesteld. Dit is een registratie van grenssmokkel, geen militaire aanval."
+    ],
+    "basis": "1c7fd61759b9aa98"
+  },
+  "N206": {
+    "headline": "Egeïsche Zee · gemelde Turkse UAV-activiteit op 25 november",
+    "description": "Cijfers van de Griekse autoriteiten vermelden drie Turkse UAV’s, vier schendingen van het nationale luchtruim en drie afzonderlijke inbreuken op de FIR van Athene.",
+    "summary": [
+      "De Helleense Generale Staf voor Nationale Defensie (GEETHA) vermeldde op 25 november, zoals gemeld door OnAlert en Veteranos, drie Turkse UAV’s, vier gemelde schendingen van het Griekse nationale luchtruim en drie afzonderlijke inbreuken op de luchtverkeersregels in de FIR van Athene. Het rapport besloeg het noordoostelijke, centrale en zuidoostelijke deel van de Egeïsche Zee. Routinematige identificatie en onderschepping werden gemeld; er werd geen confrontatie vermeld.",
+      "De cijfers zijn afzonderlijke maten binnen één militair dagbulletin, geen geverifieerde individuele vliegroutes of aantallen aanvallen. Beide berichten halen hetzelfde bulletin aan; de officiële maandtabel was bij de beoordeling niet rechtstreeks toegankelijk."
+    ],
+    "basis": "0e4f136f9c21f1b4"
+  },
+  "N207": {
+    "headline": "Kuodžiai: Litouwen meldt vier smokkeldrones in één operatie",
+    "description": "Litouwse grenswachters borgen vier drones en 4.000 pakjes sigaretten na een operatie op 30 juli bij Kuodžiai.",
+    "summary": [
+      "30 juli 2026, avond. De Litouwse Staatsgrenswacht (VSAT) meldde dat vier vrachtdrones vanuit Belarus binnenkwamen en in één operatie bij Kuodžiai, in het district Lazdijai, werden neergehaald en geborgen.",
+      "De geborgen lading bedroeg in totaal 4.000 pakjes sigaretten met Belarussische accijnszegels. Volgens de VSAT werd een strafrechtelijk onderzoek geopend. Dit is één gedocumenteerde operatie, geen vier afzonderlijke registraties van voorvallen.",
+      "Er werden geen exacte vliegroute, identiteit van de operator of steun van een staat vastgesteld. Dit is een criminele smokkelzaak, geen militaire aanval."
+    ],
+    "basis": "f3ab912199253de4"
+  },
+  "N208": {
+    "headline": "Litouwse grenswachters bergen smokkeldrone en 500 pakjes sigaretten bij Jurgionys",
+    "description": "Litouwse grenswachters meldden op 24 november vóór middernacht de binnenkomst van een drone uit Belarus bij Jurgionys en stelden 500 pakjes sigaretten veilig.",
+    "summary": [
+      "Litouwse grenswachters meldden op 24 november vóór middernacht de binnenkomst van een drone uit Belarus bij Jurgionys en stelden 500 pakjes sigaretten veilig.",
+      "Volgens het persbericht van 26 november raakte het toestel bij de inslag beschadigd. Het was op het moment van het persbericht het 74e toestel dat in 2026 in die handhavingscategorie werd onderschept, niet de 74e registratie in dit register."
+    ],
+    "basis": "67a42221ac53e32e"
+  },
+  "N209": {
+    "headline": "Litouwse grenswachters melden binnenkomst van drone bij Purvėnai en berging bij Geismantai",
+    "description": "De Litouwse grenswacht meldde op 24 januari de binnenkomst van een drone en borg die bij Geismantai met 1.000 pakjes sigaretten.",
+    "summary": [
+      "De Litouwse grenswacht meldde op 24 januari de binnenkomst van een drone en borg die bij Geismantai met 1.000 pakjes sigaretten.",
+      "Dit staat los van het afzonderlijk gemelde voorval bij Purvėnai op 27 januari."
+    ],
+    "basis": "da169e0f9823eba4"
+  },
+  "N210": {
+    "headline": "Litouwse aanklagers documenteren smokkeloperatie met drones in mei in het district Švenčionys",
+    "description": "Litouwse aanklagers zeiden dat drones in de nacht van 27 mei 35.500 pakjes sigaretten vanuit Belarus over de grens brachten. Het aantal toestellen is onbekend.",
+    "summary": [
+      "Litouwse aanklagers zeiden dat drones in de nacht van 27 mei 35.500 pakjes sigaretten vanuit Belarus over de grens brachten. Het aantal toestellen is onbekend.",
+      "Grenswachters stelden sigaretten veilig nadat die over land waren verplaatst. Er werd geen onderschepping of berging van een drone gemeld. De rechterlijke beslissing was ten tijde van de aankondiging van 20 november nog niet definitief."
+    ],
+    "basis": "55b583cfae9bda20"
+  },
+  "N211": {
+    "headline": "Litouwse grenswachters melden neerhalen van vier smokkeldrones bij Jaskonys",
+    "description": "Litouwse grenswachters meldden dat ze in één operatie bij Jaskonys vier binnenkomende drones neerhaalden en de toestellen en 4.998 pakjes sigaretten borgen.",
+    "summary": [
+      "Litouwse grenswachters meldden dat ze in één operatie bij Jaskonys vier binnenkomende drones neerhaalden en de toestellen en 4.998 pakjes sigaretten borgen.",
+      "Het persbericht van 7 juli spreekt van vrijdagnacht, waarbij de bergingen doorgingen tot het licht werd. Het specificeert de grens van middernacht niet. Dit is niet de latere operatie bij Kuodžiai."
+    ],
+    "basis": "bdc463b805195983"
+  },
+  "N212": {
+    "headline": "Avondwaarschuwing voor het noorden van Tulcea eindigt zonder gemelde binnenkomst in Roemeens luchtruim",
+    "description": "Het Roemeense ministerie van Defensie meldde de radardetectie van een ongeïdentificeerd luchtdoel ten oosten van Vâlcove, Oekraïne. Het noorden van Tulcea kreeg een waarschuwing. Er werd geen binnenkomst in het Roemeense luchtruim gemeld.",
+    "summary": [
+      "Het Roemeense ministerie van Defensie meldde de radardetectie van een ongeïdentificeerd luchtdoel ten oosten van Vâlcove, Oekraïne. Het noorden van Tulcea kreeg een waarschuwing. Er werd geen binnenkomst in het Roemeense luchtruim gemeld.",
+      "De RO-Alert van 18:52 EET eindigde om 19:11. Spaanse vliegtuigen die al voor een training in de lucht waren, werden omgeleid om te observeren.",
+      "Dit is een civiele waarschuwing, geen bevestigde binnendringing van een drone."
+    ],
+    "basis": "6379cdfa337a493b"
+  },
+  "N213": {
+    "headline": "Grieks dagrapport vermeldt zes Turkse UAV’s boven de Egeïsche Zee op 26 november",
+    "description": "Veteranos meldde zes Turkse UAV’s, negen gemelde schendingen van het Griekse nationale luchtruim en negen afzonderlijke inbreuken op de luchtverkeersregels in de FIR van Athene.",
+    "summary": [
+      "Veteranos meldde zes Turkse UAV’s, negen gemelde schendingen van het Griekse nationale luchtruim en negen afzonderlijke inbreuken op de luchtverkeersregels in de FIR van Athene.",
+      "De tabel bestrijkt het noordoostelijke, centrale en zuidoostelijke deel van de Egeïsche Zee en vermeldt geen bewapende toestellen of confrontaties.",
+      "De aantallen zijn afzonderlijke maten uit één gepubliceerd dagrapport, geen geverifieerde vliegroutes of aantallen aanvallen."
+    ],
+    "basis": "4cb6890e53c1739e"
+  },
+  "N214": {
+    "headline": "Lets leger bevestigt korte binnenkomst van drone nabij de oostgrens",
+    "description": "De Letse Nationale Strijdkrachten zeiden dat in de nacht van 27 november één onbemand luchtvaartuig kort op Lets grondgebied was. In Balvi werd geen tweede binnenkomst bevestigd.",
+    "summary": [
+      "De Letse Nationale Strijdkrachten zeiden dat in de nacht van 27 november één onbemand luchtvaartuig kort op Lets grondgebied was. In Balvi werd geen tweede binnenkomst bevestigd.",
+      "De oranje waarschuwing in Ludza liep van 02:30 tot 02:55 EET. De gele waarschuwing in Balvi begon om 02:55 en eindigde omstreeks 03:30. NATO-gevechtsvliegtuigen werden geactiveerd en een Letse interceptordrone werd ingezet en keerde terug.",
+      "Het leger identificeerde de operator, herkomst of het doelwit van de drone niet en meldde geen neerschieten."
+    ],
+    "basis": "669b6dce3baee574"
   }
 }

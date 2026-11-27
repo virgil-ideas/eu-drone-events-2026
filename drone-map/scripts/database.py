@@ -18,7 +18,7 @@ DESCRIPTIVE = set('dateLabel dateBasis countries location status categories vehi
 EVENT_REQUIRED = DESCRIPTIVE | set('id startDate title category positions stages classificationNote '
                                    'recordClass sources'.split())
 REPORTED_COUNTS = {'reported_UAVs', 'reported_airspace_violations', 'reported_FIR_infractions'}
-EVENT_OPTIONAL = set('endDate recordType positionNote reviewedOn sourceFile importAction normalizedLocality matchKey exclusionReason'.split()) | REPORTED_COUNTS
+EVENT_OPTIONAL = set('endDate recordType positionNote reviewedOn sourceFile importAction normalizedLocality matchKey exclusionReason casualties'.split()) | REPORTED_COUNTS
 CONTEXT_REQUIRED = set('id dateLabel countries status vehicle attribution uncertainty deduplication sources'.split())
 CONTEXT_OPTIONAL = DESCRIPTIVE | {'sourceFile', 'importAction', 'reviewedOn'}
 SOURCE_REQUIRED = {'id', 'publisher', 'title', 'audit', 'url'}
@@ -156,6 +156,9 @@ def validate_database(database, research_root=ROOT.parent):
                 if key in REPORTED_COUNTS:
                     require(type(value) is int and 0 <= value <= 2**53 - 1,
                             f'{path}.{key}', 'expected a non-negative safe integer')
+                elif key == 'casualties':
+                    require(value is True, f'{path}.casualties',
+                            'set to true when deaths, injuries or missing people are reported; otherwise leave it out')
                 elif key not in {'sources', 'positions', 'stages'}:
                     string(value, f'{path}.{key}', empty=key in {
                         'classificationNote', 'positionNote', 'attribution', 'uncertainty'})

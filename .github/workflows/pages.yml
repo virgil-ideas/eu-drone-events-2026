@@ -24,6 +24,7 @@ jobs:
         run: |
           python3 -m unittest discover -s drone-map/tests -v
           python3 drone-map/scripts/build-data.py --check
+          python3 drone-map/scripts/translations.py check
           node --test drone-map/tests/test_trend.cjs
           node --check drone-map/dist/trend-data.js
           node --check drone-map/dist/app.js
@@ -40,6 +41,12 @@ jobs:
           node --test drone-map-revamp/tests/*.cjs
           for file in drone-map-revamp/*.js drone-map-revamp/og/*.js drone-map-revamp/i18n/*.js; do node --check "$file"; done
           node drone-map/scripts/check-i18n.js --dir drone-map-revamp/i18n
+      - name: Report untranslated records
+        run: |
+          python3 drone-map/scripts/translations.py status | tee "$RUNNER_TEMP/translations.txt"
+          if grep -vq ' 0 stale, 0 missing' "$RUNNER_TEMP/translations.txt"; then
+            echo "::warning title=Untranslated records::Some records show in English for visitors using other languages. Translate them as described in drone-map/data/translations/README.md."
+          fi
       - name: Render social preview image
         run: python3 drone-map-revamp/og/render.py --out "$RUNNER_TEMP/og-image.png"
   deploy:

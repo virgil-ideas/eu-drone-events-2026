@@ -31,6 +31,53 @@ Lazy language files use the same manifest, so a previously cached page can still
 load new daily data and discard outdated translations. `--check` rejects stale
 manifests or HTML asset URLs. Commit these generated changes with the data update.
 
+## Filters, date range, press and about
+
+- **Outcome toggle.** Above the feed, *Strikes & crashes* shows strikes,
+  explosions, shoot-downs, armed engagements and crashes; *Flights, alerts &
+  finds* shows the rest. Together they cover every record exactly once. The
+  *Types* chips below toggle single outcomes (and ship incidents), and the
+  *Countries* chips toggle countries. Several chips can be on at once. Each count
+  shows what that chip would add given the other filters.
+- **Date range.** In the timeline studio, drag either handle on the running-total
+  chart to change the range, or drag the shaded window to move it. Arrow keys,
+  Page Up/Down, Home and End work on a focused handle. The month presets follow
+  the coverage cutoff (the current month so far and the previous month).
+- **Press.** The *Press* button explains that everything is CC BY 4.0 and gives a
+  copyable credit line. It also offers a clean screenshot mode (controls hidden,
+  credit badge shown, Esc to leave), the PNG snapshot, the summary card, the
+  video recorder and the CSV.
+- **About** opens with the project's authors and licence.
+- **Top bar.** On desktop, `fitTopbar()` in `app.js` hides lower-priority
+  details step by step until the bar fits one row in the current language
+  (`data-compact` levels in `styles.css`). It stacks the stats under the brand
+  only if even the most compact row is too wide.
+- **Casualty badges** come from `casualties: true` on records in
+  `drone-map/data/events.json`, not from a list in the interface.
+
+## Charts & figures
+
+*Charts & figures* (from Press, from the trend dialog, or at `/#stats`) holds the
+register's numbers for reporters. Everything is computed in the browser from the
+same records as the map, so it updates with every data commit.
+
+- **By the numbers.** Headline figures, each with a sentence to quote that
+  already names the source. The month figure compares the current month so far
+  with the same days of the previous month. Four of them also appear in Press.
+- **Charts.** Records per month (by outcome), records by country, what happened
+  (stages), Black Sea ship incidents, a calendar of every day, sources per record
+  and the most cited publishers. Each chart has a one-line takeaway, a table, a
+  CSV and a PNG download with title, notes and credit. Selecting a month, day or
+  vessel shows those records on the map.
+- **Country.** The selector at the top scopes every figure, chart and card.
+- **Share cards.** Square (1080×1080) or story (1080×1920) images for any month
+  or the year so far, drawn in the visitor's language.
+
+The code is split three ways: `stats.js` computes the figures (pure functions,
+tested in `tests/test_stats.cjs`), `charts.js` lays charts out as scenes that it
+draws as SVG on the page and onto a canvas for downloads, and `app.js` builds the
+view and its sentences. Strings are the `charts.*` keys in `i18n/<lang>.js`.
+
 ## Social preview image
 
 The image shown when someone shares the site is drawn by `og/card.html` from

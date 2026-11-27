@@ -118,13 +118,13 @@
   },
   "E013": {
     "headline": "Úlomky dronu s výbušnou náloží zničeny u Luncavița v Rumunsku",
-    "description": "Dne 26. dubna 2026 byly mezi Luncavița a Văcăreni v Rumunsku nalezeny a zničeny úlomky dronu s výbušnou náloží. Jejich původ se vyšetřuje.",
+    "description": "Úlomky dronu nalezené u Luncavița dne 26. dubna 2026 později rumunské ministerstvo obrany označilo za součást incidentu s Geran-2, který je přisuzován Rusku.",
     "summary": [
       "Dne 26. dubna 2026 byly hlášeny další úlomky dronu mezi Luncavița a Văcăreni v župě Tulcea v Rumunsku, den poté, co byly nalezeny úlomky u farmy ve Văcăreni. V materiálu byla potvrzena výbušná nálož a bylo vydáno bezpečnostní varování RO-Alert.",
-      "Původ úlomků se vyšetřuje a bylo hlášeno vyšetřování státních zástupců u Odvolacího soudu v Konstanci. Kdy dron letěl nebo dopadl, není známo. Úlomky nejsou potvrzeny jako druhý úplný dron a nebylo zjištěno, zda ony a nález z předchozího dne pocházejí z jednoho stroje, nebo z více.",
-      "Pyrotechnici SRI a odborníci rumunského ministerstva obrany (MApN) materiál posoudili a poté byl na místě řízeně zničen detonací z pověření státního zástupce. Nebyly hlášeny žádné oběti."
+      "V prohlášení z 31. května MApN zpětně zařadilo Luncavița dne 26. dubna mezi dřívější incidenty s drony Geran-2 přisuzované Rusku. To aktualizuje původně nevyřešený původ, nestanovuje však, kdy dron letěl nebo dopadl, jeho trasu ani zamýšlený cíl. Úlomky nejsou potvrzeny jako druhý úplný dron a to, zda pocházejí ze stejného stroje jako nález z předchozího dne, zůstává nevyřešeno.",
+      "Pyrotechnici SRI a odborníci rumunského ministerstva obrany (MApN) materiál posoudili a poté byl na místě zničen řízenou detonací z pověření státního zástupce. Nebyly hlášeny žádné oběti."
     ],
-    "basis": "88e415a73fd8096d"
+    "basis": "b590e35104316219"
   },
   "E014": {
     "headline": "Dron neznámého původu nalezen u Șerbăuți v župě Suceava v Rumunsku",
@@ -171,9 +171,9 @@
     "summary": [
       "Dne 15. května 2026 spustila podezřelá aktivita dronů v helsinské metropolitní oblasti ve Finsku rozsáhlá ochranná opatření. Obyvatelé byli varováni, aby zůstali doma, provoz na letišti byl pozastaven a vzlétly stíhačky. Kolik dronů se podílelo a jakého typu, nebylo vyřešeno.",
       "Zahraniční původ nebyl prokázán a trasa případných dronů je neznámá. Finské úřady hrozbu posoudily a jejich tehdejší prohlášení přímou vojenskou hrozbu nepotvrdilo. Epizoda byla poplachem a narušením provozu, nikoli potvrzeným útokem.",
-      "Nebyla hlášena žádná fyzická újma."
+      "Nebyla hlášena žádná fyzická újma. Provozovatel letiště Finavia potvrzuje, že letový provoz byl pozastaven od 04:00 do 07:00 místního času a poté obnoven, přičemž ten den docházelo ke zpožděním a rušení letů. Neuvádí celkový počet zrušených letů a neidentifikuje žádný dron."
     ],
-    "basis": "8dcd29f016872e0a"
+    "basis": "22793f6506f0bdbc"
   },
   "E019": {
     "headline": "U Utena v Litvě nalezeny trosky podezřelého ukrajinského dronu",
@@ -255,14 +255,14 @@
     "basis": "a18eddeece7bbecb"
   },
   "E027": {
-    "headline": "U běloruské hranice v Litvě přinucen k přistání domácky vyrobený pašerácký dron",
-    "description": "Dne 23. května 2026 byl u Dumblė v okrese Šalčininkai v Litvě v případu pašování přinucen k přistání a zabaven domácky vyrobený nákladní dron hlášený jako přilétající z Běloruska.",
+    "headline": "U Dumblė zajištěn pašerácký dron bez nákladu",
+    "description": "Litevská pohraniční stráž uvádí, že domácky vyrobený dron, který 23. května 2026 spadl u Dumblė, nevezl žádný náklad a při dopadu byl těžce poškozen.",
     "summary": [
-      "Dne 23. května 2026 byl domácky vyrobený nákladní dron převážející pašované zboží údajně přinucen k přistání u Dumblė v litevském okrese Šalčininkai na hranici s Běloruskem. Příslušníci pohraniční stráže dron zachytili a zabavili.",
-      "Dron podle hlášení přiletěl z Běloruska. Šlo o kriminální pašerácký let, nikoli o vojenský, a provozovatel nebyl identifikován. Podrobnosti o nákladu i o samotném dronu nebyly k dispozici.",
-      "Nebyla hlášena žádná výbušná nálož ani oběti. Zprávy popisují nucené přistání a zabavení, nikoli sestřelení nebo pád."
+      "Dne 23. května 2026 spadl po zásahu pohraniční stráže u Dumblė v okrese Šalčininkai domácky vyrobený dron, který podle litevské Státní pohraniční stráže (VSAT) přiletěl z Běloruska.",
+      "Když jej příslušníci zajistili, byl stroj těžce poškozený a bez nákladu. Původní oznámení VSAT opravuje dřívější popis naloženého dronu.",
+      "VSAT stroj popsala jako patřící pašerákům. Provozovatel není znám. Nebyly hlášeny žádné oběti ani kinetické sestřelení."
     ],
-    "basis": "e9db67cdbd535522"
+    "basis": "9db105cbb575f730"
   },
   "E028": {
     "headline": "Rumunsko uvádí, že ruský dron zasáhl bytový dům v Galați a zranil dva lidi",
@@ -270,9 +270,10 @@
     "summary": [
       "V noci na 29. května 2026 zasáhl dron střechu bytového domu ve čtvrti Mazepa v Galați v Rumunsku a způsobil požár. Dva lidé utrpěli lehká zranění, obyvatelé byli evakuováni a domy byly poškozeny. Úředníci odhadli, že dron nesl nejméně 30 kg výbušnin.",
       "Na základě úředního posouzení radarových údajů a trosek rumunské úřady dron označily za ruský dron Geran-2. Byl spojen se širší vlnou 43 dronů při útocích na Ukrajinu a před dopadem krátce přeletěl nad Rumunskem. Moskva toto přisouzení zpochybnila. Rumunsko úder neoznačilo za záměrný útok namířený proti Rumunsku.",
-      "Dvě rumunské stíhačky F-16 a vrtulník byly vyslány, ale nad městem nezasáhly, a místo bylo ohledáno. Ruský konzul byl vyhoštěn a konzulát v reakci uzavřen. Incident je samostatný od pádu dronu v Galați dne 25. dubna 2026."
+      "Dvě rumunské stíhačky F-16 a vrtulník byly vyslány, ale nad městem nezasáhly, a místo bylo ohledáno. Ruský konzul byl vyhoštěn a konzulát v reakci uzavřen. Incident je samostatný od pádu dronu v Galați dne 25. dubna 2026.",
+      "Ve svém dopise Radě bezpečnosti OSN z 29. května Rumunsko uvedlo radarové sledování až nad jižní část Galați, dopad na střechu obytného domu, požár, dvě zranění a evakuaci. Dopis přisuzuje dron Rusku, aniž by uváděl jeho model nebo hmotnost nálože."
     ],
-    "basis": "867f5d0e86da38f7"
+    "basis": "839ef0ac20cfdff4"
   },
   "E029": {
     "headline": "Podezření na aktivitu dronů vyvolalo poplach na lotyšských a estonských hranicích",
@@ -299,10 +300,10 @@
     "description": "Dne 8. června 2026 sestřelila francouzská stíhačka NATO dron v lotyšském vzdušném prostoru u Bērzgale. Státní příslušnost ani model nebyly přesvědčivě určeny.",
     "summary": [
       "Dne 8. června 2026 vnikl dron (UAV) do lotyšského vzdušného prostoru a byl zachycen v oblasti Bērzgale v Lotyšsku. Francouzská stíhačka operující s NATO jej poté sestřelila.",
-      "Státní příslušnost a model dronu nebyly v dobových zprávách o incidentu přesvědčivě určeny. Je považován za cizí dron, jeho původ však nebyl zjištěn; jeho trasa nebyla upřesněna a co případně nesl, zůstává neznámé.",
+      "Mluvčí lotyšské armády podle Euronews agentuře Reuters řekl, že dron přiletěl z Ruska. Jeho přesná trasa a místo vypuštění nebyly zjištěny. Hlášený směr vstupu neurčuje jeho provozovatele ani státní příslušnost; jeho model, náklad a zamýšlený cíl zůstaly v prozkoumaných zprávách nevyřešeny.",
       "V Lotyšsku nebyly hlášeny žádné oběti. Po sestřelení následovalo pátrání po troskách a vyšetřování úlomků."
     ],
-    "basis": "74bcaba3125d8355"
+    "basis": "c7ae1c343f0f6430"
   },
   "E032": {
     "headline": "Rumunsko zničilo u Rachelu úlomky dronu, které označilo za ruské",
@@ -315,14 +316,15 @@
     "basis": "a2522d4f06337eee"
   },
   "E033": {
-    "headline": "Posádka lodi s LPG hlásí útok dronů u Sfântu Gheorghe v Rumunsku",
-    "description": "Dne 21. července 2026 výbuchy těžce poškodily loď s LPG v Černém moři u Sfântu Gheorghe v Rumunsku. Posádka popsala tři drony; příčina dronem není potvrzena.",
+    "headline": "Požár GAS LISBON u Rumunska: jeden námořník zemřel; příčina dronem nepotvrzena",
+    "description": "Všech 17 členů posádky bylo 21. července evakuováno z GAS LISBON u Rumunska. Jeden ze tří zraněných o dva dny později zemřel. Příčina dronem zůstává nepotvrzena.",
     "summary": [
-      "V noci a ráno 21. července 2026 výbuchy těžce poškodily obchodní loď přepravující LPG v Černém moři, asi 26 km od Sfântu Gheorghe v Rumunsku, a plavidlo začalo hořet. Poloha byla podle hlášení mimo rumunské teritoriální vody.",
+      "Tanker na LPG GAS LISBON plující pod liberijskou vlajkou utrpěl výbuch a požár u Sfântu Gheorghe ve výhradní hospodářské zóně Rumunska, mimo jeho teritoriální vody. Námořní úřad zaznamenal nouzový signál v 00:05 místního času dne 21. července; nejde o ověřený čas výbuchu.",
       "Dva členové posádky popsali noční útok třemi drony. Jejich výpověď se posuzuje jako tvrzení, nikoli jako konečná identifikace zbraně: typ dronu, použitá zařízení a nálože, místo vypuštění a provozovatel či státní příslušnost nebyly určeny a příčina dronem nebyla potvrzena.",
-      "Rumunské námořní záchranné služby zasáhly a posádku dopravily do bezpečí. Byla hlášena zranění, včetně popálenin. Incident je samostatný od nouzové situace lodi pro sypký náklad u téhož pobřeží 24. července a od incidentu Progress IV v srpnu."
+      "Jde o samostatný případ od nouzové situace lodi pro sypký náklad 24. července a od srpnové havárie PROGRESS IV.",
+      "Všech 17 členů posádky bylo evakuováno. Tři byli zraněni; jeden z nich zemřel 23. července v nemocnici ve městě Tulcea, jak rumunské ministerstvo zdravotnictví sdělilo agentuře AGERPRES. Zprávy filipínské vlády potvrdily úmrtí i návrat dalších dvou zraněných námořníků domů. Úmrtí samo o sobě nestanovuje, že příčinou byl dron."
     ],
-    "basis": "6f6ef8fc3dd8a8e7"
+    "basis": "5b25f8a67d378d86"
   },
   "E034": {
     "headline": "Loď pro sypké náklady Christina B poškozena u Rumunska; mina nebo dron nevyřešeno",
@@ -384,14 +386,13 @@
     "basis": "ea7f019b9a1f4ed6"
   },
   "E040": {
-    "headline": "Německo spojuje dron na letišti v Lipsku s lidmi jednajícími pro ruské agentury",
-    "description": "Ve dnech 4.–5. srpna 2026 selhala nálož výbušného dronu na letišti Lipsko/Halle v Německu. Německo obvinilo osoby jednající pro ruské agentury; Rusko to popřelo.",
+    "headline": "Přelet dronu: letiště Lipsko/Halle, Německo",
+    "description": "4. srpna 2026, letiště Lipsko/Halle, Německo. Série útoků výbušnými drony; oficiální státní přisouzení. Výbušný dron dorazil na letiště, ale nálož selhala.…",
     "summary": [
-      "V noci ze 4. na 5. srpna 2026 dorazil na letiště Lipsko/Halle v Schkeuditzi v Německu dron nesoucí profesionální výbušniny a rozbušku, nálož však selhala. Provoz letiště byl narušen. Samostatně nákladní letadlo ohlásilo, že narazilo na objekt při podezření na srážku, a odklonilo se do Hannoveru; byly hlášeny drobné škody na letadle, objekt však nebyl přesvědčivě identifikován jako dron. Dne 14. srpna byl poblíž Kabelsketalu nalezen další podezřelý útočný dron; nález byl oznámen 25. srpna a s objektem bylo podle zpráv spojeno asi 50 g podezřelého RDX.",
-      "Dne 1. září Německo operaci přisoudilo osobám jednajícím pro ruské státní agentury. Rusko odpovědnost popřelo. Přisouzení nebylo doprovázeno zveřejněním všech podkladových forenzních a zpravodajských důkazů a místo vypuštění nebylo zjištěno.",
-      "Nebyly hlášeny žádné oběti. Policie, pyrotechnické týmy s robotem a spolkoví státní zástupci provedli vyšetřování, další zařízení bylo zajištěno a později následovala diplomatická opatření."
+      "Výbušný dron dorazil na letiště, ale nálož selhala. Nákladní letadlo samostatně ohlásilo setkání s objektem a odklonilo se. U Kabelsketalu byl nalezen další podezřelý útočný dron.",
+      "Série útoků výbušnými drony; oficiální státní přisouzení. Německo 1. září přisoudilo operaci osobám jednajícím pro ruské státní agentury; Rusko odpovědnost popřelo. Oficiální německé přisouzení je zaznamenáno jako přisouzení, nikoli jako zveřejnění všech podkladových forenzních a zpravodajských důkazů. Ruské popření zůstává zaznamenáno. Listopadová zjištění o místě vypuštění a vybavení zůstávají vyšetřovacími hodnoceními, nikoli důkazem viny kteréhokoli jednotlivce."
     ],
-    "basis": "fd5d244bb50c3706"
+    "basis": "cc6d63474657af35"
   },
   "E041": {
     "headline": "Nad vojenským zařízením v západním Německu spatřeny dva drony",
@@ -455,13 +456,14 @@
   },
   "E047": {
     "headline": "Rumunská F-16 zahájila palbu na výbušný námořní dron u prací Neptun Deep",
-    "description": "Dne 20. srpna 2026 rumunská F-16 poškodila výbušný námořní dron u Neptun Deep ve výhradní hospodářské zóně Rumunska, než jej zneškodnilo námořnictvo. Jeho původ není objasněn.",
+    "description": "Rumunsko 20. srpna zneškodnilo výbušný námořní dron u Neptun Deep. Rumunský prezident jej později přisoudil ruskému námořnictvu.",
     "summary": [
-      "Dne 20. srpna 2026 bylo několik set metrů od pobřežních prací Neptun Deep, zhruba 80 námořních mil východně od Konstance ve výhradní hospodářské zóně (VHZ) Rumunska, zjištěno bezpilotní hladinové plavidlo, neboli námořní dron, nesoucí výbušniny. Zda se k pracím přibližoval, nebo k nim byl unášen, a co mělo způsobit, není objasněno.",
+      "Dne 20. srpna 2026 bylo několik set metrů od prací Neptun Deep na moři, zhruba 80 námořních mil východně od Konstance ve výhradní hospodářské zóně Rumunska, zjištěno bezpilotní hladinové plavidlo, neboli námořní dron, nesoucí výbušniny.",
       "Rumunská F-16 na něj zahájila palbu ze svého kanónu a poškodila jej, ale nezničila zcela, a tým námořnictva pro zneškodňování výbušnin jej poté zneškodnil. Oficiální zprávy potvrdily výbušnou nálož blíže neurčené velikosti. Ministerstvo obrany původně popsalo dva drony a později to opravilo na jeden. Nebyly hlášeny žádné oběti ani škody na infrastruktuře.",
-      "Místo vypuštění a provozovatel dronu jsou neznámí. Rumunský ministr obrany uvedl, že Ukrajina potvrdila, že nebyl ukrajinský; toto prohlášení nezjišťuje, kdo jej skutečně vypustil. Případ je samostatný od leteckého dronu, který se téhož dne zřítil u Grindu."
+      "Dne 23. září prezident Nicușor Dan prohlásil před Radou bezpečnosti OSN, že dron z 20. srpna byl dronem ruského námořnictva. Důkazy, na nichž přisouzení zakládá, nezveřejnil. Místo vypuštění a zamýšlený cíl zůstávají neověřeny. Případ je samostatný od pádu leteckého dronu u Grindu téhož dne.",
+      "Ve zpětném popisu, který SpotMedia zveřejnila 24. listopadu, bývalý ministr obrany Radu Miruță popsal, jak pracovníci natáčeli dron u podpěr plošiny a remorkér se jej snažil držet v odstupu. Uvedl také, že poté, co nařídil zásah stíhaček, obdržel ruské oznámení o omezení letů. Původní oznámení nebylo nezávisle prověřeno; tyto podrobnosti aktualizují srpnový incident, nejde o novou událost."
     ],
-    "basis": "d752991b133cd913"
+    "basis": "d09904239858514b"
   },
   "E048": {
     "headline": "Námořnictvo zničilo trosky výbušného dronu nalezené na pláži Tuzla v Rumunsku",
@@ -518,10 +520,11 @@
     "description": "Dne 27. srpna 2026 loď Progress IV začala hořet a potopila se u Sfântu Gheorghe ve výhradní hospodářské zóně Rumunska. Všech 12 členů posádky bylo zachráněno; úder dronem není potvrzen.",
     "summary": [
       "Dne 27. srpna 2026 začala obchodní loď Progress IV hořet a potopila se v Černém moři, asi 15–20 námořních mil od Sfântu Gheorghe ve výhradní hospodářské zóně Rumunska. Nouzové volání přišlo kolem 17:55 místního času a všech 12 členů posádky bylo zachráněno do 20:47.",
-      "Bylo tvrzeno, že loď byla zasažena, a úřady uvedly, že její příčina vyžaduje vyšetření. Útok dronem zůstal hypotézou: nebyl identifikován žádný dron ani jiná zbraň a nebyl zjištěn žádný výbuch ani úder dronem. Vlajka lodi byla hlášena jako Dominikánská republika, zatímco zdroj z lodního průmyslu uváděl Dominiku.",
-      "Jeden člen posádky byl zraněn, údajně si zlomil ruku; dřívější popisy vážného zranění pozdější zprávy nepotvrzují. Námořní záchranné koordinační středisko (MRCC) koordinovalo obchodní plavidlo, pohraniční policii a záchranné lodě."
+      "Bylo tvrzeno, že loď byla zasažena, a úřady uvedly, že příčina vyžaduje vyšetření. Útok dronem zůstal hypotézou: nebyl identifikován žádný dron ani jiná zbraň a nebyl zjištěn žádný výbuch ani úder dronem. Vlajka lodi byla hlášena jako Dominikánská republika, zatímco zdroj z lodního průmyslu uváděl Dominiku.",
+      "Jeden člen posádky byl zraněn, údajně si zlomil ruku; dřívější popisy vážného zranění pozdější zprávy nepotvrzují. Námořní záchranné koordinační středisko (MRCC) koordinovalo obchodní plavidlo, pohraniční policii a záchranné lodě.",
+      "Dne 24. listopadu Libertatea uvedla, že rumunské Námořní hydrografické ředitelství posoudilo, že plavidlo bylo zasaženo dronem. Zveřejněná navigační oznámení ředitelství dokládají vrak a hlásí nebezpečí, neuvádějí však příčinu. Žádné forenzní zjištění, zbraň ani provozovatel nejsou zjištěny."
     ],
-    "basis": "f4b55e178bf70b3a"
+    "basis": "7df77fa9b948d455"
   },
   "E054": {
     "headline": "Pastýř našel výbušný dron u Viișoara v Rumunsku; původ je sporný",
@@ -534,14 +537,14 @@
     "basis": "cfac143f34b000e0"
   },
   "E055": {
-    "headline": "Na jižním pobřeží Finska zajištěn mapovací dron neznámého původu",
-    "description": "Dne 2. září 2026 byl na jižním finském pobřeží zajištěn mapovací dron neznámého původu. Vyšetřovalo se možné porušení území.",
+    "headline": "Dron z Pellinki nalezen 1. září; posouzen pravděpodobný ruský původ",
+    "description": "Dron nalezený v Pellinki 1. září byl posouzen jako pravděpodobně ruského původu. Vyšetřovatelé uvedli, že spadl do moře mimo Finsko; šetření pokračovalo.",
     "summary": [
-      "Dne 2. září 2026 úřady zajistily zeměměřický nebo mapovací dron (UAV) na jižním pobřeží Finska. Přesné místo nebylo v citované zprávě uvedeno. Datum je datem zajištění; kdy dron letěl a jakou trasou, není známo.",
-      "Původ a provozovatel dronu jsou neznámé. Nebylo zjištěno, že přiletěl ze zahraničí, a nepředpokládá se, že jde o cizí vojenský dron.",
-      "Dron byl popsán jako nenebezpečný, nebyla identifikována žádná nebezpečná nálož a nebyly hlášeny žádné škody ani oběti. Úřady vyšetřovaly, zda let představoval porušení území."
+      "Civilista našel 1. září 2026 mezi pobřežními skalami v Pellinki UAV; hlídka pohraniční stráže nález potvrdila. Dřívější datum v registru, 2. září, bylo datem prvního zveřejnění. Adresa zveřejněné stránky zůstává zachována.",
+      "Dne 10. září pohraniční stráž uvedla, že data ze zařízení naznačují pravděpodobně letoun ruského původu, který ztratil řízení a došlo mu palivo, než spadl do moře mimo Finsko. Zjištění bylo předběžné a vyšetřování pokračovalo.",
+      "Stále jde o jedno zajištění, nikoli o zjištěné letecké vniknutí nebo pád ve Finsku. Provozovatel a původní účel zůstávají nevyřešeny. Bod na mapě je přibližně umístěn v souostroví."
     ],
-    "basis": "30e03e74f6707d09"
+    "basis": "de38e633c3a7e190"
   },
   "E056": {
     "headline": "Tryskový dron hlášený jako ruský přeletěl z Moldavska do severovýchodního Rumunska",
@@ -554,24 +557,24 @@
     "basis": "7b1f8e2c4bb81edb"
   },
   "E057": {
-    "headline": "Podezřelý ruský vojenský dron vylovený u pláže Rusinowo v Polsku",
-    "description": "Dne 14. září 2026 polská armáda vylovila z moře dron u pláže Rusinowo; předběžné posouzení ministra obrany je, že jde o ruský dron.",
+    "headline": "Dron zajištěn na pláži Rusinowo; hlavice bezpečně zlikvidována",
+    "description": "Dron vyplavilo moře u Rusinowa 14. září. Státní zástupci předběžně identifikovali dron Gerbera ruské výroby a popsali řízenou likvidaci hlavice.",
     "summary": [
-      "Dne 14. září 2026 polská armáda lokalizovala podezřelý vojenský dron v Baltském moři těsně u pláže Rusinowo, blízko Jarosławce na polském pobřeží, a vylovila jej z vody k prozkoumání. Datum je datem nálezu a vylovení; kdy dron letěl a jakou trasou se dostal k polskému pobřeží, není známo.",
-      "Polský ministr obrany uvedl, že předběžné posouzení zní, že šlo o ruský vojenský dron. Tato identifikace je předběžná a závisí na prozkoumání vyloveného dronu. Žádná nálož nebyla hlášena.",
-      "V souvislosti s nálezem nebyly hlášeny žádné oběti ani škody."
+      "Posádka námořnictva spatřila kolem 09:20 dne 14. září UAV unášený poblíž Jarosławce; kolem 11:25 jej moře vyplavilo u Rusinowa, podle prohlášení poznaňského státního zastupitelství z 1. října. Jde o jeden případ zajištění a likvidace, nikoli o další událost k datu následného zveřejnění.",
+      "Odborníci oddělili hlavici s potenciální výbušnou náloží a zničili ji řízenou detonací. Vyšetřovatelé předběžně identifikovali dron Gerbera ruské výroby. Provozovatel, cíl, trasa letu a okolnosti dopadu do moře zůstávají nevyřešeny; země výroby nestanovuje provozovatele ani záměr.",
+      "Vyšetřování bylo 25. září převedeno do Poznaně a byla nařízena odborná zkoumání. Nebyly hlášeny žádné oběti ani škody."
     ],
-    "basis": "5071f4361b5692d3"
+    "basis": "4c37729989b9a2c5"
   },
   "E058": {
     "headline": "Italská stíhačka NATO sestřelila dron Gerbera u Pratkūnai v Litvě",
-    "description": "V noci na 14.–15. září 2026 sestřelila italská stíhačka NATO dron Gerbera, typ používaný Ruskem, u Pratkūnai v Litvě. Nebyly hlášeny žádné oběti.",
+    "description": "V noci ze 14. na 15. září 2026 sestřelila italská stíhačka NATO dron Gerbera, typ používaný Ruskem, u Pratkūnai v Litvě. Nebyly hlášeny žádné oběti.",
     "summary": [
       "V noci ze 14. na 15. září 2026 zasáhla italská stíhačka operující s NATO nad Litvou u Pratkūnai dron a sestřelila jej. Litevské úřady poté prozkoumaly trosky a elektroniku dronu. Nebyly hlášeny žádné oběti.",
       "Dron byl identifikován jako Gerbera, typ používaný Ruskem. Dne 16. září litevský prezident posoudil, že byl pravděpodobně určen pro ukrajinský cíl. K vysvětlení, jak se dostal do Litvy, bylo předloženo možné odklonění ukrajinským elektronickým bojem, toto kauzální vysvětlení je však hodnocením. Ani identifikace jako ruského typu, ani posouzení zamýšleného cíle nejsou důkazem záměrného útoku na Litvu.",
-      "Zda tento konkrétní dron nesl výbušniny, nebylo zjištěno; varianty Gerbera mohou být návnady nebo ozbrojené."
+      "Litevský ministr obrany Robertas Kaunas podle agentury Reuters z 15. září uvedl, že dron nesl výbušninu. Jde o připisované oficiální prohlášení; nezávislá forenzní zjištění ani přesné množství výbušniny nebyly prověřeny. Nestanovuje to záměrný útok na Litvu."
     ],
-    "basis": "fce04ead6c652cda"
+    "basis": "2f29e9a25cf1baa8"
   },
   "E059": {
     "headline": "Rumunsko: nálož ruského dronu detonovala za letu před pádem u Solca",
@@ -1196,9 +1199,10 @@
     "summary": [
       "Dne 5. října 2026 byla nákladní loď na obilí Royad Mammadov, plující z Izmailu na Ukrajině do Ravenny v Itálii, poškozena hlášeným zásahem dronu, výbuchem na palubě a požárem v Černém moři poblíž platformy Pescăruș, asi 30 námořních mil jižně od Sfântu Gheorghe. Místo leželo ve výhradní hospodářské zóně (VHZ) Rumunska, mimo její teritoriální vody. Žádost o záchranu byla zaznamenána v 10:37 místního času; přesný čas zásahu není ověřen.",
       "Ukrajinský prezident Volodymyr Zelenskyj uvedl, že loď zasáhly dva ruské drony. Je to ukrajinské tvrzení, nikoli nezávislé ověření, a Rumunsko nezveřejnilo žádné zjištění o přisouzení. Marius Roibu, ředitel záchranného střediska MRCC Constanța, popsal zjevný útok více drony; typ dronů, místo vypuštění a provozovatelé nejsou zjištěni.",
-      "Zprávy o obětech se rozcházejí. Rumunské ministerstvo vnitra původně uvedlo dva mrtvé a jedenáct zachráněných; 6. října ázerbájdžánské ministerstvo zahraničí uvedlo, že kapitán byl zabit a další ázerbájdžánský člen posádky je pohřešován. Velvyslanectví Indie uvedlo, že tři indičtí členové posádky přežili, jeden z nich zraněn. Úvodní zpráva, že se loď potopila, byla 6. října opravena, kdy bylo hlášeno, že zůstala na hladině a čeká na odtah do Midie. Petrom uvedl, že platforma Pescăruș nebyla zasažena."
+      "Zprávy o obětech se rozcházejí. Rumunské ministerstvo vnitra původně uvedlo dva mrtvé a jedenáct zachráněných; 6. října ázerbájdžánské ministerstvo zahraničí uvedlo, že kapitán byl zabit a další ázerbájdžánský člen posádky je pohřešován. Velvyslanectví Indie uvedlo, že tři indičtí členové posádky přežili, jeden z nich zraněn. Úvodní zpráva, že se loď potopila, byla 6. října opravena, kdy bylo hlášeno, že zůstala na hladině a čeká na odtah do Midie. Petrom uvedl, že platforma Pescăruș nebyla zasažena.",
+      "Rumunsko vydalo 7. října varování před nebezpečím potopení. Oznámení pro námořníky 10/65/26 v revizi map z 22. října později uvedlo loď jako nebezpečný vrak. To dokládá její pozdější stav, nikoli to, kdy se potopila, zda došlo k odtahu, ani přesné místo zásahu."
     ],
-    "basis": "f110d36fc131a5b5"
+    "basis": "93c08958dbb972eb"
   },
   "N073": {
     "headline": "Útok dronů u Bulharska potopil ALFA WATAN a zapálil ABLE",
@@ -1366,14 +1370,15 @@
     "basis": "534d215b86c0e039"
   },
   "N090": {
-    "headline": "Zásah dronem zapálil WINE TRADER u Sulina; sedm členů posádky pohřešováno",
-    "description": "WINE TRADER byl zasažen u Sulina 15. října 2026; pět členů posádky bylo zachráněno a sedm pohřešováno. Zdroj NATO posoudil drony jako ruského původu.",
+    "headline": "Úder dronu na WINE TRADER u Sulina; ve Varně později nalezeny lidské ostatky",
+    "description": "Při opravách WINE TRADER ve Varně byly po úderu dronu u Sulina z 15. října nalezeny lidské ostatky. Identifikace DNA a vyšetřování pokračují.",
     "summary": [
       "Dron zasáhl tanker WINE TRADER plující pod vlajkou San Marina u Sulina dne 15. října 2026. Rumunský prezident útok potvrdil. Vojenský zdroj NATO citovaný agenturou Reuters posoudil drony, které zasáhly tento tanker a YARA J, jako ruského původu; konkrétní provozovatel nebyl v prozkoumaných zprávách zjištěn.",
-      "Z dvanácti členů posádky bylo pět zachráněno a sedm zůstalo pohřešováno. Dva přeživší měli popáleniny na pokožce hlavy nebo mírné nadýchání kouře; všech pět bylo stabilizováno a převezeno do nemocnice. Požár plavidlo poškodil. Jeho konečný stav není potvrzen a pohřešovaní členové posádky se nepočítají jako potvrzení mrtví. Rozbouřené moře záchrannou operaci ztěžovalo. IGSU uvedla, že pátrání bylo obnoveno 16. října; jeho původní oznámení o nástupu na palubu bylo plánem. Prohlášení odborů námořníků z 19. října následně uvedlo, že týmy nastoupily na palubu a prohledaly přístupné prostory, přičemž poškození pátrání ztěžovalo. Odbory zopakovaly pět zachráněných a sedm pohřešovaných. Dne 22. října chorvatské ministerstvo zahraničí uvedlo, že pátrání bylo zastaveno vzhledem k uplynulému času. Jeden chorvatský námořník zůstal pohřešován; další ošetřený pro povrchové popáleniny byl propuštěn. To pohřešované nepřeměňuje na potvrzená úmrtí.",
+      "Zpočátku bylo z dvanácti členů posádky pět zachráněno a sedm bylo hlášeno jako pohřešovaní. Dva přeživší měli popáleniny na pokožce hlavy nebo mírné nadýchání kouře; všech pět bylo ve stabilizovaném stavu a převezeno do nemocnice. Rozbouřené moře a poškození ztěžovaly pátrání. Prohlášení odborů z 19. října uvedlo, že týmy prohledaly přístupné prostory. Dne 22. října chorvatské ministerstvo zahraničí uvedlo, že pátrání bylo vzhledem k uplynulé době zastaveno.",
+      "Dne 7. listopadu varenští státní zástupci potvrdili, že při vyklízení lodi zasažené dronem, přijaté na opravu začátkem listopadu, byly nalezeny těžce poškozené lidské ostatky. BNR loď identifikuje jako WINE TRADER a hlásí tělo námořníka a lidské ostatky. Ke zjištění totožnosti byla nařízena zkoumání DNA a vyšetřování pokračuje v Bulharsku i v Rumunsku. Primární prohlášení neuvádí počet obětí. Rané číselné zprávy médií se rozcházejí, proto se z historických údajů o záchraně nevyvozuje ani konečný počet obětí, ani aktuální počet stále pohřešovaných.",
       "Loď byla hlášena asi 13 námořních mil jihovýchodně od Sulina, těsně mimo rumunské teritoriální vody. Je zahrnuta do pokrytí oblastí na moři v registru. Žádost o záchranu v 06:58 není ověřeným časem útoku. Tím se dřívější podnět týkající se pouze požáru ze seznamu sledovaných případů povyšuje na jeden červený záznam typu Úder, spojující útok, požár a záchranu; zůstává samostatný od YARA J a Sea Destiny."
     ],
-    "basis": "186f434beac254b7"
+    "basis": "5f5c3c23d1d87774"
   },
   "N091": {
     "headline": "Dailidžiai: pohraniční stráž zajistila přeshraniční dron s cigaretami",
@@ -1570,13 +1575,15 @@
     "basis": "fcab4114f04792bb"
   },
   "N112": {
-    "headline": "Hlášení o úderu dronu na KHORYV: plavidlo se převrátilo, ale stále plove",
-    "description": "KHORYV se 23. října převrátila u Konstance. Navigační oznámení uvádí, že stále plove, což je v rozporu se zprávami o potopení. Jeden mrtvý; tři pohřešovaní.",
+    "headline": "Hlášení o úderu dronu na KHORYV: průzkum námořnictva zjistil vrak zcela pod hladinou",
+    "description": "KHORYV byla podle hlášení zasažena na moři 23. října. Průzkum námořnictva z 19. listopadu podle zpráv zjistil vrak zcela pod hladinou. Konečný výsledek pátrání není znám.",
     "summary": [
-      "KHORYV se 23. října převrátila mimo rumunské teritoriální vody. AGERPRES to spojuje s prohlášením prezidenta, že dron zasáhl plavidlo. Aktuální primární navigační oznámení ARN155 uvádí k 25. říjnu KHORYV částečně ponořenou, ale stále plovoucí dnem vzhůru, navzdory tiskovým zprávám o potopení. Dokončené potopení se nepovažuje za zjištěné.",
-      "Rumunsko uvádí třináct členů posádky: devět zachráněných, jednoho mrtvého a tři pohřešované. Ukrajina potvrzuje ukrajinskou oběť, ale uvádí čtrnáct členů posádky; rozpor zůstává nevyřešen. Oznámení uvádějí datované polohy převrácení a následně unášeného vraku, nikoli ověřenou souřadnici zásahu. Přisouzení provozovateli a konečný výsledek pátrání zůstávají nevyřešeny."
+      "KHORYV byla podle hlášení 23. října na moři u Konstance zasažena dronem a začala hořet, než se převrátila. NAVWARN 766/26 popisuje datované pozorování z 28. října v 18:00 UTC: převrácený, částečně ponořený, unášený vrak. Dne 29. října bTV s odvoláním na bulharské ministerstvo obrany hlásila částečné ponoření a trvající nebezpečí; Maritime.bg později v nové aktualizaci z 1. listopadu uvedl, že záď uvízla na dně a příď je stále viditelná. Maritime.bg s odvoláním na potvrzení tiskového oddělení bulharského ministerstva obrany uvedl, že průzkum námořnictva z 19. listopadu zjistil vrak zcela ponořený u Shably, pod asi 50 metry vody. Přesný čas potopení a zrušení dřívějšího varování nebyly ověřeny. Tato pozdější pozorování vraku nemění polohu původního úderu na moři.",
+      "Rumunsko uvádí třináct členů posádky: devět zachráněných, jednoho mrtvého a tři pohřešované. Ukrajina potvrzuje ukrajinskou oběť, ale uvádí čtrnáct členů posádky; rozpor zůstává nevyřešen. Oznámení uvádějí datované polohy převrácení a následně unášeného vraku, nikoli ověřenou souřadnici zásahu. Přisouzení provozovateli a konečný výsledek pátrání zůstávají nevyřešeny.",
+      "Bulharsko 27. října oznámilo monitorování a plánovanou inspekci námořnictvem. Druhý den ráno jeho ministr obrany uvedl, že vrak vplouvá do bulharského teritoriálního moře. Jde o pozdější zprávy o unášeném vraku, nikoli o nový útok ani změnu původního místa úderu na moři.",
+      "bTV hlásila, že na místě je Reshitelni a operace byly kvůli špatnému počasí přerušeny; Maritime.bg popsal pokusy o záměrné potopení vraku. Jde stále o návazné zprávy k téže události, nikoli o nový útok ani o vyjasnění osudu pohřešovaných."
     ],
-    "basis": "5f8e6ad7a2fd7810"
+    "basis": "63b1a3f055a1d63d"
   },
   "N113": {
     "headline": "Řecko hlásí 8 tureckých UAV a 12 porušení vzdušného prostoru dne 21. října",
@@ -1610,9 +1617,9 @@
     "description": "Dne 21. října 2026 byl v Lubaczówě nalezen pěnový letoun. Vojenská policie nenašla žádné výbušniny; původ a jakákoli zahraniční souvislost zůstávají neznámé.",
     "summary": [
       "Trosky byly hlášeny na neobydleném pozemku v ulici Herzoga v Lubaczówě krátce po 13:00 dne 21. října 2026. Obyvatelé v okolí byli evakuováni, zatímco odborníci posuzovali možná nebezpečí; nebyla hlášena žádná zranění ani škody na majetku.",
-      "Vojenská policie identifikovala neozbrojený pěnový letoun a 22. října vyloučila výbušniny a radiologická, biologická nebo chemická nebezpečí. Aktualizace státního zástupce z 23. října uvádí předání dronu vojenské kontrarozvědce a zkoušky připojeného balíku ve Varšavě. Předběžné posouzení krátkého dosahu nestanovuje původ ani zahraniční vstup. Zůstává to jedním předběžným kandidátem na zajištění."
+      "Vojenská policie identifikovala neozbrojený pěnový letoun a 22. října vyloučila výbušniny a radiologická, biologická nebo chemická nebezpečí. Článek Radia Lublin z 22. října cituje mluvčího státního zastupitelství, podle něhož byl dron předán vojenské kontrarozvědce a jeho balík odeslán ke zkouškám; primární tisková zpráva z téhož dne však předání stále popisuje jako teprve plánované. Předběžné posouzení krátkého dosahu nestanovuje původ ani zahraniční vstup. Zůstává to jedním předběžným kandidátem na zajištění."
     ],
-    "basis": "fab6a30cef996170"
+    "basis": "2f669bcaffd204ab"
   },
   "N117": {
     "headline": "Řecko hlásí šest tureckých UAV a třináct porušení vzdušného prostoru dne 23. října",
@@ -1668,5 +1675,861 @@
       "NewsIT a OnAlert přebírají týž oficiální popis, nikoli nezávislá pozorování. Identifikace a zachycení byly hlášeny, bez ozbrojeného střetu. Jde o jeden záznam denní činnosti, nikoli součet počtů letadel a překročení."
     ],
     "basis": "b6d8a69eda200b68"
+  },
+  "N124": {
+    "headline": "CONTSHIP JET zasažena na moři hladinovými drony; posádka zachráněna, loď se později potopila",
+    "description": "Bulharské úřady hlásí 28. října úder hladinových dronů na CONTSHIP JET. Všech 18 členů posádky bylo zachráněno; Varna Radio potvrzuje její pozdější potopení.",
+    "summary": [
+      "Bulharské obranné úřady uvádějí, že sledovací prostředky námořnictva a francouzské hlídkové letadlo pozorovaly útok hladinových dronů na CONTSHIP JET ve 12:00 místního času (10:00 UTC) dne 28. října, přičemž byly pozorovány tři zásahy. Varna Radio uvádí polohu úderu 43°15′N, 028°48′E u mysu Kaliakra. Jde o jeden případ týkající se obchodní lodní dopravy na moři, nikoli o potvrzené vniknutí na bulharské území.",
+      "Obranné a dopravní úřady potvrzují, že všech 18 členů posádky bylo zachráněno. NAVWARN 768/26 vydané Varna Radio potvrzuje, že se loď následně potopila ve 20:30 UTC dne 28. října na pozici 43°07.80′N, 028°45.36′E a že je unášeno více než 20 kontejnerů, včetně nebezpečného zboží. Tím se nahrazuje dřívější neoficiální zpráva o potopení.",
+      "Provozovatel dronů, místo vypuštění a motiv zůstávají neznámé. Reuters uvádí předběžné hodnocení společnosti Ambrey založené na videu, podle něhož jde pravděpodobně o konstrukci odvozenou od Murena-300S; nejde o potvrzenou identifikaci modelu ani provozovatele. Tři hlášené drony a tři pozorované zásahy nejsou samostatnými incidenty. Pozdější poloha potopení nenahrazuje původní souřadnici úderu.",
+      "Navigační varování z 1. listopadu hlásila unášené kontejnery poblíž Burgaského zálivu. Jejich souvislost s CONTSHIP JET zůstává předběžná. Dne 3. listopadu Oblastní správa Burgas hlásila tři sledované objekty u Oasis–Arapya, Kamennite Korabi u Sinemorets a Butamyata. Údaje z manifestu popisovaly nenebezpečný náklad a prázdnou cisternu; fyzický obsah i zdrojové plavidlo byly v té době stále předmětem vyšetřování. Odběr vzorků a střežení pokračovaly, aniž by bylo hlášeno laboratorní potvrzení nezávadnosti. Jde o návazné zprávy o nebezpečí z nákladu, nikoli o nové útoky dronů ani kumulativní počet kontejnerů.",
+      "Dne 4. listopadu guvernér řekl bTV, že vyzvednutí zdržuje počasí a obtížný přístup. Poloha třetího kontejneru nebyla známa; turecké vody byly pouze jednou z možností. Laboratorní potvrzení nezávadnosti nebylo poskytnuto.",
+      "Libérijský námořní úřad hlásil, že posádka je v bezpečí a nebyla hlášena žádná zranění, a to v bulletinu popisujícím nejmenované plavidlo, jehož datum, vlajka, třída a hlášené tři zásahy odpovídají jmenovitým bulharským popisům. Obec Tsarevo 12. listopadu oznámila, že pracovní čety odklidily z obou pláží Lipite pytle s červenou paprikou. Souvislost nákladu s CONTSHIP JET zůstala předběžná a oznámení neuvádělo laboratorní výsledky.",
+      "Dne 24. listopadu úřady otevřely kontejner, který moře vyplavilo u Tsareva 2. listopadu. Burgaský guvernér řekl BTA, že obsahoval asi 80 krabic vánočních ozdob odpovídajících manifestu. Contships Management agentuře Reuters sdělila, že nemůže potvrdit, že kontejner byl na palubě CONTSHIP JET. Otevření nestanovuje zdrojovou loď, další náklad ani výsledky týkající se znečištění."
+    ],
+    "basis": "7eebe0feab2ab6ff"
+  },
+  "N125": {
+    "headline": "U Osieky zajištěn UAV po přeletu z Ruska, o němž informuje státní zastupitelství",
+    "description": "Státní zastupitelství hlásí neoprávněný přelet rusko-polské hranice 8. května; neozbrojený UAV byl zajištěn u Osieky 9. května. Provozovatel zůstává neznámý.",
+    "summary": [
+      "Neozbrojený průzkumný UAV byl zajištěn v celku poté, co jej 9. května nalezl civilista na poli u Osieky. Dne 11. května mluvčí olštýnského státního zastupitelství uvedl, že vyšetřovatelé mají jistotu, že přeletěl rusko-polskou hranici, a vyšetřovaný přelet datoval na 8. května.",
+      "Důkazní základ tohoto zjištění o přeletu nebyl zveřejněn. Provozovatel, výroba, zamýšlený cíl, přesná trasa a čas pádu zůstávají nevyřešeny. Tvrzení médií o kamerách a azbukových označeních státní zástupce nepotvrdil. Jde o jeden zpětně zaznamenaný případ, nikoli o novou říjnovou aktivitu."
+    ],
+    "basis": "9df76f2823d89cb7"
+  },
+  "N126": {
+    "headline": "Na pláži Popski zajištěny úlomky UAV; původ nevyřešen",
+    "description": "Tým námořnictva podle odpovědi ministerstva obrany zajistil 21. října části UAV na pláži Popski v Tsarevu. Datum letu a státní původ zůstávají neznámé.",
+    "summary": [
+      "OFFNews cituje bulharské ministerstvo obrany, které potvrdilo, že tým námořnictva 21. října prozkoumal a sesbíral části UAV na pláži Popski a převezl je na základnu. Tím je datována operace zajištění, nikoli let ani pád.",
+      "Ministerstvo zajištění výslovně odlišilo od neověřeného tvrzení z nedaleké lokality Arapya. Model, původ, provozovatel, náklad a způsob, jakým se části na místo dostaly, zůstávají nevyřešeny. Tento předběžný kandidát na zajištění není potvrzeným cizím vniknutím ani důkazem dalšího samostatného stroje."
+    ],
+    "basis": "3572d703997e5cd9"
+  },
+  "N127": {
+    "headline": "Na pláži Listi hlášeny úlomky dronu; datum zajištění neznámé",
+    "description": "BNR hlásilo křídlo a část trupu sesbírané na pláži Listi u Sinemorets. Datum 28. října je datem zveřejnění, nikoli ověřeným datem nálezu.",
+    "summary": [
+      "Burgaský zpravodaj BNR hlásil křídlo a část trupu nalezené na pláži Listi, které po oznámení sesbírala pohraniční policie. Článek byl zveřejněn 28. října, neuvádí však přesné datum nálezu ani zajištění; registr používá datum zprávy jako výslovnou náhradu.",
+      "Původ, model, provozovatel, náklad a datum letu či pádu zůstávají nevyřešeny. Tento předběžný kandidát na zajištění se od pláže Popski liší hlášeným místem, další jedinečný stroj však není prokázán. Tvrzení o přisouzení z nedaleké lokality Arapya se na tyto úlomky nepřenáší."
+    ],
+    "basis": "22e8ad26c842d4a6"
+  },
+  "N128": {
+    "headline": "Řecko hlásí pět tureckých UAV při 13 porušeních vzdušného prostoru v Egejském moři",
+    "description": "Řecké vojenské zprávy přisuzují 13 porušení národního vzdušného prostoru 30. října pěti tureckým UAV. Jeden denní záznam; přesné trasy zůstávají nezveřejněny.",
+    "summary": [
+      "Řecké vojenské údaje hlášené 30. října přisuzují 13 porušení národního vzdušného prostoru a 11 porušení FIR Atény pěti tureckým UAV v severovýchodním, středním a jihovýchodním Egejském moři. Posouzení národního vzdušného prostoru i vojenské přisouzení jsou řecká; přesné trasy zůstávají nezveřejněny.",
+      "Jde o jeden denní regionální záznam, nikoli o 13 útoků. Porušení ze strany letadel s posádkou a dva střety uvedené ve smíšeném denním popisu nejsou důkazem ozbrojení UAV, střetu zbraněmi ani sestřelení. Přesné modely, náklady a zamýšlené cíle zůstávají neznámé."
+    ],
+    "basis": "8d16fbffeee972eb"
+  },
+  "N129": {
+    "headline": "Rumunsko potvrzuje dva neoprávněné vstupy dronů na svém severovýchodě",
+    "description": "Rumunsko hlásí dva vstupy dronů 31. října. Jeden odletěl; druhý byl naposledy pozorován u Vaslui a Bacău. Pád nebyl hlášen.",
+    "summary": [
+      "Rumunské ministerstvo obrany potvrzuje, že večer 31. října 2026 vstoupily do severovýchodní části národního vzdušného prostoru dva drony. Jeden odletěl; druhý byl naposledy pozorován mezi župami Vaslui a Bacău. V době zveřejnění nebyl hlášen žádný pád.",
+      "Vzlétly čtyři F-16 a vrtulník IAR-330 SOCAT a veřejná varování skončila v 19:19 místního času. Jde o jeden případ zahrnující dva drony, nikoli o dva ověřené útoky. Provozovatel, model, záměr a cíle zůstávají neznámé; bod na mapě je přibližný.",
+      "Podle ředitele letiště Iași byl přilétající let Wizz Air z Eindhovenu během dočasného uzavření vzdušného prostoru odkloněn do Suceavy. Toto narušení patří k téže epizodě, nejde o další vniknutí."
+    ],
+    "basis": "5c2d0df27e180a9b"
+  },
+  "N130": {
+    "headline": "Lotyšsko posuzuje UAV, který přeletěl 1. listopadu, jako pravděpodobně ruský Geran",
+    "description": "NBS posuzují UAV, který 1. listopadu přeletěl Lotyšsko, jako pravděpodobně ruský Geran. Odletěl do Ruska; výbušná nálož a záměr zůstávají neznámé.",
+    "summary": [
+      "Představitelé popsali dron, který přeletěl východní Lotyšsko z Běloruska a v 19:16 dne 1. listopadu odletěl do Ruska. NBS jej následně po analýze dat ze senzorů a záchytného prostředku a po konzultaci s ukrajinskými partnery posoudily jako pravděpodobně ruský Geran.",
+      "Lotyšsko v 19:19 nechalo svůj vlastní záchytný prostředek sebezničit. Nešlo o hlášené sestřelení zjištěného UAV. NBS nemohou zjistit, zda tento UAV nesl výbušniny; provozovatel, záměr a cíl zůstávají nepotvrzeny."
+    ],
+    "basis": "c77fff5610f5734e"
+  },
+  "N131": {
+    "headline": "Varování pro sever župy Tulcea; vstup do rumunského vzdušného prostoru nehlášen",
+    "description": "Rumunsko vydalo 2. listopadu varování pro sever župy Tulcea po nedalekých útocích na Ukrajině. MApN nehlásilo žádný vstup do rumunského národního vzdušného prostoru.",
+    "summary": [
+      "Sever župy Tulcea obdržel 2. listopadu ve 04:11 varování RO-Alert po útocích dronů na ukrajinské dunajské přístavy. Rumunsko nasadilo F-16 a vrtulník Puma SOCAT; výstraha skončila v 05:26 místního času.",
+      "MApN nehlásilo žádný vstup do rumunského vzdušného prostoru. Jde o výstrahu civilní ochrany, nikoli o vniknutí ani potvrzený útok v Rumunsku. Bod na mapě představuje oblast varování."
+    ],
+    "basis": "b3d536ba24881e16"
+  },
+  "N132": {
+    "headline": "Lotyšsko potvrzuje zjištění UAV; původ a možný pád v Balvi nevyřešeny",
+    "description": "NBS potvrzují UAV v Lotyšsku 3. listopadu. Vizuálně připomínal ukrajinské vojenské drony, typ, původ i možný pád v Balvi však zůstávají nepotvrzeny.",
+    "summary": [
+      "NBS potvrzují, že během výstrahy pro Balvi–Ludza 3. listopadu byl v lotyšském vzdušném prostoru zjištěn UAV. Podle prvotní vizuální identifikace připomínal ukrajinské vojenské UAV, ozbrojené síly však výslovně nemohly potvrdit typ ani původ.",
+      "UAV mohl spadnout v obci Balvi; pozemní pátrání pokračovalo. Zůstává kandidátem s nevyřešeným původem a výsledkem, nikoli potvrzeným cizím vniknutím, pádem ani sestřelením. Regionální bod na mapě není ověřeným místem pádu."
+    ],
+    "basis": "505a6db792d85d51"
+  },
+  "N133": {
+    "headline": "Noční varování v župě Tulcea: vstup do rumunského vzdušného prostoru nehlášen",
+    "description": "Sever župy Tulcea obdržel pozdě večer 2. listopadu varování po letecké aktivitě nad Ukrajinou. MApN nehlásilo vstup do Rumunska; výstraha skončila po půlnoci.",
+    "summary": [
+      "MApN hlásilo v noci z 2. na 3. listopadu dva radarové cíle nad Ukrajinou poblíž Izmailu a Chilia. Sever župy Tulcea obdržel RO-Alert ve 23:43; varování skončilo v 00:21 místního času. V reakci vzlétly dvě španělské F-18.",
+      "Nebyl hlášen žádný vstup do rumunského vzdušného prostoru. Jde o vybranou výstrahu civilní ochrany, samostatnou od dřívějšího varování z 2. listopadu, nikoli o potvrzené vniknutí ani útok v Rumunsku. Bod na mapě představuje oblast varování."
+    ],
+    "basis": "a90d1dcd244ae758"
+  },
+  "N134": {
+    "headline": "Varování pro sever župy Tulcea 4. listopadu; vstup do Rumunska nehlášen",
+    "description": "Cíl nad Ukrajinou vyvolal 4. listopadu vzlet dvou F-16 a varování pro sever župy Tulcea. MApN nehlásilo žádný vstup do rumunského vzdušného prostoru.",
+    "summary": [
+      "Sever župy Tulcea obdržel RO-Alert v 10:57 dne 4. listopadu poté, co byl severně od Vîlcove na Ukrajině zjištěn radarový cíl. Z Borcea vzlétly dvě F-16.",
+      "MApN nehlásilo žádný vstup do rumunského vzdušného prostoru. Tato vybraná výstraha je samostatná od nočního varování z 2. na 3. listopadu; bod na mapě představuje oblast varování."
+    ],
+    "basis": "eefa3af945e0c8ca"
+  },
+  "N135": {
+    "headline": "V Boghicea nalezeny úlomky dronu; hlášena řízená likvidace",
+    "description": "Úlomky dronu nalezené v Boghicea 5. listopadu byly podle zpráv téhož večera zničeny. Původ i případná souvislost s přeletem z 31. října zůstávají nevyřešeny.",
+    "summary": [
+      "Obyvatel po nálezu roztroušených úlomků v Boghicea uvědomil venkovskou policejní stanici Sagna. Na místo se dostavili policisté, hasiči a specialisté SRI. ProTV uvádí, že specialisté pozůstatky po prozkoumání a varování RO-Alert odpálili večer 5. listopadu.",
+      "Zahraniční původ, datum pádu ani případná souvislost s N129 nejsou potvrzeny. ProTV přináší jasnou zprávu o dokončení likvidace; přímé oficiální prohlášení o dokončení se nepodařilo získat. Nápisy popsané očitými svědky nestanovují provozovatele ani model.",
+      "Jeden záznam nálezu, nikoli nově ověřený let ani další započtený UAV. Možná souvislost s N129 zůstává nevyřešena; sloučit nebo propojit odkazem, pokud důkazy později prokážou, že jde o tentýž dron. Zásah záchranných složek a varování před likvidací nejsou samostatnými událostmi."
+    ],
+    "basis": "b1fd2b840a7ff077"
+  },
+  "N136": {
+    "headline": "Tulcea · noční RO-Alert 6. listopadu",
+    "description": "Oficiální varování; vstup do rumunského vzdušného prostoru nehlášen. Pouze výstraha; žádné vniknutí, zásah ani úder se nevyvozuje.",
+    "summary": [
+      "Varování vyvolaly útoky na nedaleké ukrajinské přístavy. RO-Alert vydán v 00:19; výstraha skončila v 00:41 místního času.",
+      "Počet dronů a model nejsou v tiskové zprávě uvedeny. Trasa letu, počet dronů ani model nejsou zjištěny.",
+      "Jedna vybraná výstraha, samostatná od pozdějšího ranního varování N137 v 08:56."
+    ],
+    "basis": "42bf1e8a50a620f5"
+  },
+  "N137": {
+    "headline": "Sever župy Tulcea · ranní výstraha 6. listopadu kvůli cíli u Sulina",
+    "description": "Oficiální varování před radarovým cílem; vstup do Rumunska nezjištěn. Pouze výstraha; žádné vniknutí, zásah ani úder se nevyvozuje.",
+    "summary": [
+      "Nedaleká letecká aktivita vyvolala varování civilní ochrany. Z Borcea vzlétly dvě F-16; varování pro sever župy Tulcea trvalo od 08:56 do 09:27 místního času.",
+      "Vzdušný radarový cíl; identita dronu a model nejsou v citovaném prohlášení potvrzeny. Žádný ověřený model, provozovatel ani přelet rumunské hranice. Zjištění o nevstoupení z noční epizody patří k N136 a nelze je přenést na tuto epizodu.",
+      "Samostatné ranní varování, nikoli epizoda N136 od 00:19 do 00:41. Reakce stíhaček nepřidává další událost."
+    ],
+    "basis": "7a65445d491a71de"
+  },
+  "N138": {
+    "headline": "Zajištění dronu: Shabla · dron klasifikovaný jako ruský vyplaven na břeh a zničen, Bulharsko",
+    "description": "6. listopadu 2026, Shabla · dron klasifikovaný jako ruský vyplaven na břeh a zničen, Bulharsko. Oficiálně identifikovaný letecký dron zajištěn a zničen. Pobřežní…",
+    "summary": [
+      "Nález na pobřeží byl úřadům ohlášen v 10:00 místního času.",
+      "Oficiálně identifikovaný letecký dron zajištěn a zničen. Klasifikace jako ruského je hodnocením bulharské inspekce; konkrétní provozovatel a mise nezjištěny. Prvotní popis starosty o označení Shahed a výbušninách byl nahrazen vojenskou inspekcí: žádné nápisy ani výbušná nálož. Datum pádu a souvislost s jakýmkoli útokem na lodní dopravu zůstávají neznámé."
+    ],
+    "basis": "de692ebadb5d7d7f"
+  },
+  "N139": {
+    "headline": "Egejské moře · hlášená aktivita tureckých UAV 6. listopadu",
+    "description": "Řecký registr uvádí 6. listopadu 10 tureckých UAV. Souhrnné údaje za letadla se netýkají pouze dronů.",
+    "summary": [
+      "Primární měsíční registr GEETHA uvádí 10 UAV a jeden ATR-72, s 15 souhrnnými porušeními FIR a 23 souhrnnými porušeními národního vzdušného prostoru. Registr smíšené součty nerozděluje podle typu letadla.",
+      "Dřívější převzatý denní bulletin přiřadil 9 porušení FIR a 15 porušení národního vzdušného prostoru 7 UAV. Důvod rozdílu není uveden. Tyto údaje pocházejí od řeckých úřadů; nejde o nezávisle ověřené trasy ani potvrzený počet útoků."
+    ],
+    "basis": "fd5cda8f3a302eca"
+  },
+  "N140": {
+    "headline": "Egejské moře · hlášená aktivita tureckých UAV 5. listopadu",
+    "description": "Řecký registr uvádí 5. listopadu 5 tureckých UAV. Dřívější denní údaje se lišily.",
+    "summary": [
+      "Primární měsíční registr GEETHA uvádí 5 UAV a žádná letadla s posádkou, s 8 porušeními FIR a 17 porušeními národního vzdušného prostoru. Všechna hlášená letadla toho dne byla UAV.",
+      "Dřívější převzatý denní bulletin přiřadil 6 porušení FIR a 9 porušení národního vzdušného prostoru 4 UAV. Důvod rozdílu není uveden. Tyto údaje pocházejí od řeckých úřadů; nejde o nezávisle ověřené trasy ani potvrzený počet útoků."
+    ],
+    "basis": "5f5e69b30526d99c"
+  },
+  "N141": {
+    "headline": "Egejské moře · hlášená aktivita tureckých UAV 7. listopadu",
+    "description": "Řecký registr uvádí 7. listopadu 8 tureckých UAV. Dřívější denní údaje se lišily.",
+    "summary": [
+      "Primární měsíční registr GEETHA uvádí 8 UAV a žádná letadla s posádkou, s 10 porušeními FIR a 8 porušeními národního vzdušného prostoru. Všechna hlášená letadla toho dne byla UAV.",
+      "Dřívější převzatý denní bulletin přiřadil 8 porušení FIR a 4 porušení národního vzdušného prostoru 6 UAV. Důvod rozdílu není uveden. Tyto údaje pocházejí od řeckých úřadů; nejde o nezávisle ověřené trasy ani potvrzený počet útoků."
+    ],
+    "basis": "10e6e252c784d0ee"
+  },
+  "N142": {
+    "headline": "Neidentifikovaný objekt: rumunské teritoriální vody · neidentifikovaný cíl vstupuje do vzdušného prostoru, Rumunsko",
+    "description": "5. listopadu 2026, rumunské teritoriální vody · neidentifikovaný cíl vstupuje do vzdušného prostoru, Rumunsko. Vstup do vzdušného prostoru hlášený MApN; identita dronu nepotvrzena. Tří…",
+    "summary": [
+      "MApN hlásilo tříminutový vstup do národního vzdušného prostoru.",
+      "Vstup do vzdušného prostoru hlášený MApN; identita dronu nepotvrzena. Provozovatel neidentifikován. Vstup hlásí úřad, identita dronu, model, provozovatel a záměr však zůstávají nevyřešeny. Mediální zprávy přebírají totéž oficiální prohlášení. Souvislost s N135 v Boghicea nebyla zjištěna."
+    ],
+    "basis": "59712b8a83097feb"
+  },
+  "N143": {
+    "headline": "Výstraha před dronem: východ župy Tulcea · varování před cílem u Hadího ostrova, Rumunsko",
+    "description": "8. listopadu 2026, východ župy Tulcea · varování před cílem u Hadího ostrova, Rumunsko. Oficiální varování před radarovým cílem; vstup do Rumunska nezjištěn. Dvě zjištění…",
+    "summary": [
+      "Dvě zjištění nedalekých cílů vyvolala varování a vojenský dohled.",
+      "Oficiální varování před radarovým cílem; vstup do Rumunska nezjištěn. Provozovatel neidentifikován. Citovaná prohlášení nestanovují vstup do Rumunska, typ dronu ani provozovatele. Zmizení prvního cíle z radaru není pádem. Z mlčení se nevyvozuje žádné výslovné posouzení, že k vstupu nedošlo."
+    ],
+    "basis": "4cff8ae9f4cbdedb"
+  },
+  "N144": {
+    "headline": "Výstraha před dronem: sever župy Tulcea · varování před cílem u Chilia Veche, Rumunsko",
+    "description": "8. listopadu 2026, sever župy Tulcea · varování před cílem u Chilia Veche, Rumunsko. Oficiální varování před radarovým cílem; vstup do Rumunska nezjištěn. Pozdější, samostatné…",
+    "summary": [
+      "Pozdější, samostatné zjištění cíle vyvolalo varování pro sever župy Tulcea.",
+      "Oficiální varování před radarovým cílem; vstup do Rumunska nezjištěn. Provozovatel neidentifikován. Typ cíle, provozovatel ani jakýkoli přelet rumunské hranice nebyly zjištěny. Samotné varování a vzlet stíhaček nejsou vniknutím ani zásahem."
+    ],
+    "basis": "51af4b15dda166f7"
+  },
+  "N145": {
+    "headline": "Neidentifikovaný objekt: pláž Lipite, Sinemorets · nález neidentifikovaného dronu, Bulharsko",
+    "description": "8. listopadu 2026, pláž Lipite, Sinemorets · nález neidentifikovaného dronu, Bulharsko. Nález dronu a připisované oficiální převzetí; původ nevyřešen. BNT…",
+    "summary": [
+      "Štáb BNT našel letoun při reportáži o nákladu vyplaveném na břeh.",
+      "Nález dronu a připisované oficiální převzetí; původ nevyřešen. Státní původ a provozovatel nevyřešeny; žádný potvrzený cizí let ani přeshraniční vstup. Původ, provozovatel, náklad a trasa příletu zůstávají nevyřešeny. Nedaleký náklad není důkazem spojujícím dron s plavidlem nebo útokem. Guvernérovo hodnocení v kontextu války není technickou identifikací. Dokončená likvidace nebyla zjištěna."
+    ],
+    "basis": "8994bcc4baaa422f"
+  },
+  "N146": {
+    "headline": "Egejské moře · hlášená aktivita tureckých UAV 8. listopadu",
+    "description": "Řecký registr uvádí 8. listopadu 5 tureckých UAV. Dřívější denní údaje se lišily.",
+    "summary": [
+      "Primární měsíční registr GEETHA uvádí 5 UAV a žádná letadla s posádkou, s 6 porušeními FIR a 6 porušeními národního vzdušného prostoru. Všechna hlášená letadla toho dne byla UAV.",
+      "Dřívější převzatý denní bulletin přiřadil 4 porušení FIR a 4 porušení národního vzdušného prostoru 4 UAV. Důvod rozdílu není uveden. Tyto údaje pocházejí od řeckých úřadů; nejde o nezávisle ověřené trasy ani potvrzený počet útoků."
+    ],
+    "basis": "e9cdcb8a8e0ac546"
+  },
+  "N147": {
+    "headline": "Egejské moře · hlášená aktivita tureckých UAV 9. listopadu",
+    "description": "Řecký registr uvádí 9. listopadu 5 tureckých UAV. Souhrnné údaje za letadla se netýkají pouze dronů.",
+    "summary": [
+      "Primární měsíční registr GEETHA uvádí 5 UAV a jeden ATR-72, se 7 souhrnnými porušeními FIR a 3 souhrnnými porušeními národního vzdušného prostoru. Registr smíšené součty nerozděluje podle typu letadla.",
+      "Dřívější převzatý denní bulletin přiřadil 5 porušení FIR a 2 porušení národního vzdušného prostoru 5 UAV. Důvod rozdílu není uveden. Tyto údaje pocházejí od řeckých úřadů; nejde o nezávisle ověřené trasy ani potvrzený počet útoků."
+    ],
+    "basis": "05f7be48ee62885b"
+  },
+  "N148": {
+    "headline": "Přelet dronu: Sulina · hlášený vstup dronu do vzdušného prostoru, Rumunsko",
+    "description": "9. listopadu 2026, Sulina · hlášený vstup dronu do vzdušného prostoru, Rumunsko. Vstup dronu do rumunského národního vzdušného prostoru hlášený MApN. Pozdější zprávy výslovně…",
+    "summary": [
+      "Pozdější zprávy výslovně potvrzují vstup po počátečním varování před nedalekým cílem. Stopa následně zmizela z radaru.",
+      "Vstup dronu do rumunského národního vzdušného prostoru hlášený MApN. Provozovatel, státní původ, zamýšlený cíl ani záměr nebyly zjištěny. Zdroje přebírají informace ministerstva obrany, nikoli nezávisle ověřené radarové stopy. Čas a délka vstupu, model, provozovatel, cíl a konečný výsledek jsou neznámé. Ztráta radarového kontaktu není důkazem pádu, sestřelení ani odletu."
+    ],
+    "basis": "ffa47195c16e1a8e"
+  },
+  "N149": {
+    "headline": "Výstraha před dronem: východ župy Tulcea · varování před cílem u Sulina 10. listopadu, Rumunsko",
+    "description": "10. listopadu 2026, východ župy Tulcea · varování před cílem u Sulina 10. listopadu, Rumunsko. Nedaleký vzdušný cíl hlášený MApN; vstup do Rumunska nezjištěn. Nedaleký cíl…",
+    "summary": [
+      "Nedaleký cíl vyvolal vzlet dvou F-16 a veřejné varování pro východ župy Tulcea.",
+      "Nedaleký vzdušný cíl hlášený MApN; vstup do Rumunska nezjištěn. Provozovatel, původ, zamýšlený cíl a záměr neznámé. Pro tuto epizodu nebyl zjištěn žádný potvrzený vstup do Rumunska, útok, zachycení ani pád. Zprávy o vstupu 9. listopadu patří k N148 a nelze je přenést na tuto výstrahu."
+    ],
+    "basis": "1ae15c2e27e8853c"
+  },
+  "N150": {
+    "headline": "Litva–Lotyšsko · vniknutí dronu a neúspěšný pokus o zachycení",
+    "description": "Oficiálně potvrzené vniknutí dronu; neúspěšný pokus o zachycení. Z jižní do severní Litvy; hlášený odlet do Lotyšska poblíž okresu Pasvalys.",
+    "summary": [
+      "Náčelník litevského štábu obrany uvedl, že stíhačky dron identifikovaly u Kaunasu, kvůli riziku pro civilisty však na něj tam nezaútočily. Dva pozdější pokusy o zničení selhaly. Lotyšsko nezávisle potvrdilo dron, který vstoupil z Litvy a přeletěl jeho území od jihu k severu.",
+      "Stíhačky NATO byly aktivovány v Litvě a pokračovaly v reakci nad Lotyšskem; v Lotyšsku nebyly vhodné bezpečné operační podmínky pro zničení. U Biržai byly nalezeny trosky záchytné střely, nikoli trosky dronu.",
+      "Model, náklad, provozovatel, zamýšlený cíl a příčina zůstávají neznámé. Odklonění elektronickým bojem je hodnocením, nikoli zjištěnou skutečností. Estonské úřady samostatně potvrdily krátké vstupy téže noci; přesný překryv s touto trasou a dalšími drony se stále ověřuje. Žádný potvrzený útok, pád dronu, zajištění ani sestřelení."
+    ],
+    "basis": "b3d7c837ed9779e1"
+  },
+  "N151": {
+    "headline": "Lotyšsko · dva krátké vstupy dronů u východní hranice",
+    "description": "Krátká vniknutí dronů potvrzená NBS. Obec Ludza / východní hranice Lotyšska",
+    "summary": [
+      "Lotyšské NBS uvedly, že dva drony na 1–2 minuty krátce přeletěly východní hranici. Související varování pro Ludza řadí přibližně na 23:30 v úterý 10. listopadu.",
+      "Byly aktivovány jednotky záchytných dronů a protivzdušné obrany a stíhačky NATO.",
+      "Přesná místa přeletu, provozovatel, náklad a záměr nevyřešeny. Pozdější přiblížení u Krāslava/Augšdaugava a Balvi do Lotyšska nevstoupila; nejde o další vniknutí."
+    ],
+    "basis": "99971f22c80bd30f"
+  },
+  "N152": {
+    "headline": "Finsko · podezření na vstup UAV nad východní částí Finského zálivu",
+    "description": "Podezření na porušení vzdušného prostoru hlášené ministerstvem; vyšetřování otevřeno. Východní část Finského zálivu; podezření na finský národní vzdušný prostor",
+    "summary": [
+      "Finské ministerstvo obrany hlásilo podezření na porušení vzdušného prostoru UAV po 02:00 dne 11. listopadu, které trvalo asi pět minut, než stroj odletěl.",
+      "Pohraniční stráž vyšetřuje. Obranné síly zavedly dočasná letová a námořní omezení jako preventivní opatření.",
+      "Vstup zůstává podezřením, nikoli potvrzením. Žádný identifikovaný původ, model, záměr ani prokázaná souvislost s přelety nad Pobaltím nebo útoky v Rusku."
+    ],
+    "basis": "68f7b98f4dfcbc62"
+  },
+  "N153": {
+    "headline": "Estonsko · krátká vniknutí dronů nad Finským zálivem",
+    "description": "Estonské úřady hlásily 11. listopadu 2026 krátká vniknutí dronů nad Finským zálivem. Přesný počet, trasy a náklady zůstávají nevyřešeny.",
+    "summary": [
+      "V rozhovoru pro ERR ministr obrany odlišil krátká porušení vzdušného prostoru nad Finským zálivem od samostatného dronu, který vstoupil z Lotyšska přibližně ve 03:30. Estonská vláda samostatně potvrdila, že některé drony té noci krátce vstoupily do národního vzdušného prostoru.",
+      "Stíhačky NATO byly ve vzduchu. Ministr uvedl, že nebyly k dispozici podmínky pro bezpečné zničení, mimo jiné kvůli blízkosti ruské hranice.",
+      "Přesný počet dronů, časy přeletů a trasy nevyřešeny. Hlášené přisouzení Ukrajině je popisem ministra, nikoli nezávislým potvrzením. Žádný potvrzený útok na Estonsko, pád, zajištění ani sestřelení. Žádná prokázaná souvislost s podezřením na finský přelet."
+    ],
+    "basis": "0988f0038c13eff7"
+  },
+  "N154": {
+    "headline": "Možný dron u Sulina vyvolal varování; vstup do Rumunska nezjištěn",
+    "description": "Možný dron severovýchodně od Sulina vyvolal 12. listopadu 2026 varování v župě Tulcea. Reagovaly španělské stíhačky; vstup do Rumunska nebyl zjištěn.",
+    "summary": [
+      "Rumunské ministerstvo obrany hlásilo 12. listopadu vzdušný cíl asi 28 km severovýchodně od Sulina. Veřejnoprávní rozhlas jej popsal jako možný dron.",
+      "Varování trvalo od 12:35 do 13:12 místního času a vzlétly dvě španělské F-18. Tato vybraná výstraha není potvrzeným vniknutím do Rumunska ani útokem."
+    ],
+    "basis": "e621e2b415355314"
+  },
+  "N155": {
+    "headline": "Zpráva: 5 tureckých UAV při 2 porušeních řeckého vzdušného prostoru 16. října",
+    "description": "Veteranos hlásí 16. října 2026 5 tureckých UAV a 2 porušení řeckého vzdušného prostoru. Popis oficiálních údajů z jediného zdroje; přesné trasy zůstávají neznámé.",
+    "summary": [
+      "Veteranos s odvoláním na oficiální údaje hlásí 16. října 5 tureckých UAV ve středním a jihovýchodním Egejském moři: 2 porušení národního vzdušného prostoru a 7 porušení FIR Atény.",
+      "Byla hlášena identifikace a rutinní zachycení. Jde o jeden záznam denní činnosti, nikoli o samostatné události pro každý UAV nebo porušení.",
+      "Původní bulletin GEETHA zůstává nedostupný a odpovídající druhou zprávu se nepodařilo získat. Jde o připisované řecké údaje, nikoli o nezávisle ověřené trasy; řecko-turecký spor o vzdušný prostor zůstává relevantní."
+    ],
+    "basis": "7eab620af97e56d5"
+  },
+  "N156": {
+    "headline": "Zpráva: 2 turecké UAV při 6 porušeních řeckého vzdušného prostoru 17. října",
+    "description": "Veteranos hlásí 17. října 2026 2 turecké UAV a 6 porušení řeckého vzdušného prostoru. Popis oficiálních údajů z jediného zdroje; přesné trasy zůstávají neznámé.",
+    "summary": [
+      "Veteranos s odvoláním na oficiální údaje hlásí 17. října 2 turecké UAV v severovýchodním a jihovýchodním Egejském moři: 6 porušení národního vzdušného prostoru a 4 porušení FIR Atény.",
+      "Byla hlášena identifikace a rutinní zachycení. Jde o jeden záznam denní činnosti, nikoli o samostatné události pro každý UAV nebo porušení.",
+      "Původní bulletin GEETHA zůstává nedostupný a odpovídající druhou zprávu se nepodařilo získat. Jde o připisované řecké údaje, nikoli o nezávisle ověřené trasy; řecko-turecký spor o vzdušný prostor zůstává relevantní."
+    ],
+    "basis": "41c5a49d0eb8c357"
+  },
+  "N157": {
+    "headline": "Varování pro sever župy Tulcea po zjištění cíle v ukrajinském vzdušném prostoru",
+    "description": "Rumunsko vydalo 13. listopadu varování pro sever župy Tulcea poté, co zjistilo cíl v ukrajinském vzdušném prostoru. Identita dronu ani vstup do Rumunska nebyly zjištěny.",
+    "summary": [
+      "Rumunské úřady vydaly 13. listopadu 2026 varování pro sever župy Tulcea poté, co radar zjistil vzdušný cíl jihovýchodně od Hadího ostrova v ukrajinském vzdušném prostoru.",
+      "Z Fetești vzlétly dvě rumunské F-16. Varování trvalo od 21:53 do 22:58 místního času; jde o časy varování, nikoli o ověřenou délku letu.",
+      "Prozkoumané prohlášení ministerstva cíl neidentifikovalo jako dron ani nezjistilo vstup do Rumunska. Jde o vybranou výstrahu, nikoli o potvrzené vniknutí ani útok."
+    ],
+    "basis": "bdbe3aeea261bfb7"
+  },
+  "N158": {
+    "headline": "LARISSA 1 poškozena při hlášeném zásahu dronem u Rumunska; posádka v bezpečí",
+    "description": "Zásah dronem poškodil 13. listopadu LARISSA 1 u Sfântu Gheorghe. Rumunský ministr incident potvrdil; provozovatel a přesná poloha zůstávají nevyřešeny.",
+    "summary": [
+      "Hlášený zásah leteckým dronem poškodil večer 13. listopadu 2026 nákladní jeřáb lodi LARISSA 1 poblíž Sfântu Gheorghe. Námořní úřady byly uvědomeny kolem 21:40 místního času. Nebyla hlášena žádná zranění, úmrtí ani požár.",
+      "Rumunský ministr obrany 14. listopadu potvrdil noční zásah. TVR plavidlo identifikuje, zatímco Europa FM klade hlášený incident 6,8 námořní míle severovýchodně od Sfântu Gheorghe do rumunských teritoriálních vod. Přesné souřadnice dopadu nebyly zveřejněny.",
+      "Provozovatel, původ a zamýšlený cíl zůstávají neznámé. Technická zjištění se teprve očekávala a souvislost se samostatnou výstrahou před vzdušným cílem v župě Tulcea nebyla zjištěna."
+    ],
+    "basis": "f08b96a541b68222"
+  },
+  "N159": {
+    "headline": "Tulcea obdržela během jedné ranní výstrahy před vzdušným cílem dvě varování",
+    "description": "Rumunsko vydalo 14. listopadu po zjištění cíle u Hadího ostrova dvě varování pro župu Tulcea. Identita dronu ani vstup do Rumunska nebyly zjištěny.",
+    "summary": [
+      "MApN hlásilo ráno 14. listopadu 2026 vzdušný cíl v oblasti Hadího ostrova. Z Fetești vzlétly dvě rumunské F-16.",
+      "Východ župy Tulcea obdržel varování ve 04:45 místního času, sever župy pak v 05:39. Odvolání výstrahy přišlo v 05:52. Tyto zprávy patří k jedné epizodě výstrahy, nikoli ke dvěma potvrzeným případům s drony.",
+      "Prohlášení cíl neidentifikovalo jako dron ani nepotvrdilo vstup do Rumunska. Tato vybraná výstraha je samostatná od varování z předchozího večera; souvislost se zásahem Larissa 1 nebyla zjištěna."
+    ],
+    "basis": "485c5fe876331a03"
+  },
+  "N160": {
+    "headline": "EVIA PETROL V zasažena dronem u Sulina, podle hlášeného popisu ministerstva",
+    "description": "EVIA PETROL V byla podle zpráv zasažena 14. listopadu u Sulina. Posádka uhasila požár; nebyly hlášeny žádné oběti. Provozovatel a přesná poloha zůstávají neznámé.",
+    "summary": [
+      "EVIA PETROL V byla zasažena dronem kolem 21:10 místního času dne 14. listopadu 2026, podle popisu News.ro vycházejícího z informací MApN od civilních námořních úřadů. Hlášené místo bylo přibližně 4 námořní míle východojihovýchodně od Sulina.",
+      "Posádka uhasila požár na palubě; nebyly hlášeny žádné oběti. Radio România Constanța uvádí rumunské teritoriální vody, přesné souřadnice dopadu a jurisdikce však nebyly nezávisle ověřeny.",
+      "Provozovatel, původ, záměr a jakákoli souvislost s jinými zásahy plavidel nebo nedalekými výstrahami zůstávají neznámé.",
+      "Ve sdělení emitenta z 19. listopadu skupina Trans-Oil uvedla, že loď kotvila u vjezdu do kanálu Sulina a čekala na povolení k plavbě do Giurgiulești. Poškození znemožnilo plánovanou plavbu k naložení asi 6500 tun slunečnicového oleje. Tento náklad nebyl potvrzen na palubě; možná logistická zpoždění a náklady zůstávají varováními společnosti."
+    ],
+    "basis": "111f4b44af58fb36"
+  },
+  "N161": {
+    "headline": "MARSOL zasažena dronem u Sulina, podle hlášeného popisu ministerstva",
+    "description": "MARSOL byla podle zpráv zasažena 14. listopadu u Sulina. Posádka uhasila požár; nebyly hlášeny žádné oběti. Provozovatel a přesná poloha zůstávají neznámé.",
+    "summary": [
+      "MARSOL byla zasažena dronem kolem 21:45 místního času dne 14. listopadu 2026, podle popisu News.ro vycházejícího z informací MApN od civilních námořních úřadů. Hlášené místo bylo přibližně 5 námořních mil jihovýchodně od kanálu Sulina.",
+      "Posádka uhasila požár na palubě; nebyly hlášeny žádné oběti. Radio România Constanța uvádí rumunské teritoriální vody, přesné souřadnice dopadu a jurisdikce však nebyly nezávisle ověřeny.",
+      "Provozovatel, původ, záměr a jakákoli souvislost s jinými zásahy plavidel nebo nedalekými výstrahami zůstávají neznámé. Dřívější námořní zpráva místo toho uvádí 21:29 CET; tento časový rozpor zůstává nevyřešen."
+    ],
+    "basis": "bc90d74246cb5145"
+  },
+  "N162": {
+    "headline": "Východ župy Tulcea · večerní varování 14. listopadu",
+    "description": "Rumunské úřady vydaly po zjištění ve vzdušném prostoru varování civilní ochrany. Identita dronu a vstup do Rumunska zůstávají nepotvrzeny.",
+    "summary": [
+      "Z Fetești vzlétly dvě rumunské F-16; varování pro východ župy Tulcea ve 20:51, odvolání ve 21:37.",
+      "Citovaná terminologie ministerstva nepotvrzuje dron, vstup, útok ani zásah. Žádná prokázaná souvislost s údery na plavidla."
+    ],
+    "basis": "9e036c65d9b1d1c9"
+  },
+  "N163": {
+    "headline": "Oblast Sulina · varování pozdě večer 14. listopadu kvůli radarovému kontaktu",
+    "description": "Rumunské úřady vydaly po zjištění ve vzdušném prostoru varování civilní ochrany. Identita dronu a vstup do Rumunska zůstávají nepotvrzeny.",
+    "summary": [
+      "Nové varování pro východ župy Tulcea ve 23:19; odvolání v 00:27 následujícího dne. Samostatný vzlet není zjištěn.",
+      "Citovaná terminologie ministerstva nepotvrzuje dron, vstup, útok ani zásah. Žádná prokázaná souvislost s údery na plavidla."
+    ],
+    "basis": "146d9d719613c6b5"
+  },
+  "N164": {
+    "headline": "Krátké vniknutí dronu u Chilia 2. května",
+    "description": "Rumunské obranné úřady hlásily krátký vstup dronu u Chilia. Cíl a záměr zůstávají nezjištěny; útok na Rumunsko se nevyvozuje.",
+    "summary": [
+      "MApN hlásilo krátký radarem potvrzený vstup u Chilia, po němž následoval pohyb směrem k Izmailu. Kolem 02:00 vzlétly dvě F-16; varování pro sever župy Tulcea trvalo od 02:03 do 02:50 místního času.",
+      "Vstup je zaznamenán odděleně od širšího útoku na Ukrajinu. Záměr a konkrétní cíl zůstávají nezjištěny; žádný dopad v Rumunsku není hlášen."
+    ],
+    "basis": "82fa985c2e506266"
+  },
+  "N165": {
+    "headline": "Krátké vniknutí dronu u Chilia 7. května",
+    "description": "Rumunské obranné úřady hlásily krátký vstup dronu u Chilia. Cíl a záměr zůstávají nezjištěny; útok na Rumunsko se nevyvozuje.",
+    "summary": [
+      "MApN hlásilo ráno 7. května krátký radarem potvrzený vstup u Chilia. Dvě F-16 vzlétly v 08:37; varování pro sever župy Tulcea trvalo od 08:40 do 09:40 místního času.",
+      "Vstup je zaznamenán odděleně od širšího útoku na Ukrajinu. Záměr a konkrétní cíl zůstávají nezjištěny; žádný dopad v Rumunsku není hlášen."
+    ],
+    "basis": "438dcccd398f3603"
+  },
+  "N166": {
+    "headline": "Dron vstoupil do rumunského vzdušného prostoru a zřítil se u Parcheș",
+    "description": "MApN potvrdilo vstup dronu 26. března a jeho pád za obcí Parcheș. Byly nalezeny trosky; provozovatel, model a zamýšlený cíl zůstávají neupřesněny.",
+    "summary": [
+      "MApN hlásilo, že dron vstoupil 26. března v 00:44, pronikl asi 4 km a zřítil se za obcí Parcheș. Týmy nalezly trosky a spálenou vegetaci; nebyly hlášeny žádné materiální škody ani oběti.",
+      "Ministerstvo uvedlo, že dron odklonila ukrajinská protivzdušná obrana. Tento popis zůstává připisován MApN; tisková zpráva nestanovuje jeho provozovatele, model ani úmysl zaútočit na Rumunsko."
+    ],
+    "basis": "89eac726d6b9440e"
+  },
+  "N167": {
+    "headline": "Neidentifikovaný cíl vstoupil do rumunského vzdušného prostoru u Chilia Veche",
+    "description": "MApN potvrdilo vstup vzdušného cíle v noci z 16. na 17. dubna. Identita dronu a pád zůstávají nepotvrzeny navzdory následné ztrátě radarového kontaktu.",
+    "summary": [
+      "MApN hlásilo v noci z 16. na 17. dubna jeden vstup do národního vzdušného prostoru. Kontakt byl ztracen asi 16 km jihovýchodně od Chilia Veche a byla oznámena pátrací mise.",
+      "Oficiální tisková zpráva popisuje vzdušný cíl, nikoli identifikovaný dron. Ztráta radarového kontaktu ani plánované pátrání nestanovují pád ani zajištění trosek."
+    ],
+    "basis": "23dfc89d5a63cde0"
+  },
+  "N168": {
+    "headline": "ALI NAJAFOV hlásí noční zásah dronem u ústí Dunaje",
+    "description": "Rumunské úřady předaly hlášení o zásahu dronem od ALI NAJAFOV. Posádka uhasila požár; přesná poloha, jurisdikce a přisouzení zůstávají neznámé.",
+    "summary": [
+      "ALI NAJAFOV hlásila zásah dronem v noci ze 14. na 15. listopadu u ústí Dunaje. Rumunské úřady hlášení plavidla předaly; posádka uhasila požár a nebyly hlášeny žádné oběti.",
+      "Jde o jiné plavidlo než EVIA PETROL V a MARSOL. Jeho přesná poloha a námořní jurisdikce zůstávají nevyřešeny; žádný společný provozovatel ani záměrné cílení nebyly zjištěny."
+    ],
+    "basis": "8b86269bf206800f"
+  },
+  "N169": {
+    "headline": "Odpolední varování v župě Tulcea rozšířeno na město, poté odvoláno",
+    "description": "Zjištění vzdušného cíle u Ukrajiny vyvolalo v 15:02 varování v župě Tulcea, rozšířené na město před odvoláním v 17:05. Vstup do Rumunska zůstává nepotvrzen.",
+    "summary": [
+      "Varování po zjištění vzdušného cíle na Ukrajině začalo 15. listopadu v 15:02. V 16:56 bylo rozšířeno na město Tulcea a v 17:05 bylo odvoláno pro všechny dotčené obce.",
+      "Rozšíření patří k téže epizodě varování. Identita dronu ani vstup do rumunského vzdušného prostoru nejsou zjištěny; souvislost se zásahy plavidel se nevyvozuje."
+    ],
+    "basis": "229b1930ed3783f0"
+  },
+  "N170": {
+    "headline": "Severně od Sulina · krátký vstup dronu 26. února",
+    "description": "MApN potvrdilo krátký vstup dronu večer 26. února, který skončil severně od Sulina kolem 18:30.",
+    "summary": [
+      "MApN potvrdilo krátký vstup dronu večer 26. února, který skončil severně od Sulina kolem 18:30.",
+      "Šlo o samostatný případ od dřívější výstrahy bez vstupu a od události z 25. února. Provozovatel, model a záměr zůstávají neupřesněny."
+    ],
+    "basis": "c289f5664d4e1a20"
+  },
+  "N171": {
+    "headline": "Tănăsoaia · zajištěny možné úlomky leteckého prostředku",
+    "description": "Vojenští specialisté 18. ledna v Tănăsoaia prošetřili a sesbírali kovové úlomky. Naznačovaly možný letecký prostředek.",
+    "summary": [
+      "Vojenští specialisté 18. ledna v Tănăsoaia prošetřili a sesbírali kovové úlomky. Naznačovaly možný letecký prostředek.",
+      "Identita dronu, původ a datum pádu zůstávají nepotvrzeny; jde o kandidáta na nález, nikoli o potvrzené vniknutí."
+    ],
+    "basis": "b7ad8cb376460adb"
+  },
+  "N172": {
+    "headline": "Botoșenița Mare · pád neidentifikovaného létajícího objektu",
+    "description": "MApN hlásilo 12. září zřícený létající objekt v kukuřičném poli u Botoșenița Mare, s malým požárem a bez obětí.",
+    "summary": [
+      "MApN hlásilo 12. září zřícený létající objekt v kukuřičném poli u Botoșenița Mare, s malým požárem a bez obětí.",
+      "Zahraniční úřady rovněž hlásily přelet dronu a jinde bylo zaznamenáno pozorování ohlášené na linku 112. Nepřerušená souvislost se zajištěným objektem nebyla zjištěna."
+    ],
+    "basis": "678aa5f2a1e03414"
+  },
+  "N173": {
+    "headline": "Východně od Mangalie · nález unášeného leteckého dronu",
+    "description": "MApN hlásilo 15. listopadu letecký dron unášený asi 45 námořních mil východně od Mangalie. Původ a výsledek mise zůstávají neznámé.",
+    "summary": [
+      "Letoun ATLANTIQUE 2 francouzského námořnictva hlásil 15. listopadu letecký dron unášený přibližně 45 námořních mil východně od Mangalie, podle rumunského ministerstva obrany.",
+      "Plánované posouzení EOD 16. listopadu zdrželo nepříznivé počasí: MApN uvedlo, že se oba čluny vrátily, aniž by posouzení dokončily. Žádné zajištění ani zneškodnění nebylo zjištěno.",
+      "Jde o nález na moři, nikoli o důkaz vniknutí do rumunského teritoriálního vzdušného prostoru. Původ dronu, data letu a pádu, náklad a jakákoli souvislost s nedávnými zásahy lodí zůstávají neznámé."
+    ],
+    "basis": "875f004d900296a2"
+  },
+  "N174": {
+    "headline": "Východně od Chituc · nález unášeného leteckého dronu",
+    "description": "MApN hlásilo 15. listopadu letecký dron unášený asi 53 námořních mil východně od Chituc. Původ a výsledek mise zůstávají neznámé.",
+    "summary": [
+      "Letoun ATLANTIQUE 2 francouzského námořnictva hlásil 15. listopadu letecký dron unášený přibližně 53 námořních mil východně od Chituc, podle rumunského ministerstva obrany.",
+      "Plánované posouzení EOD 16. listopadu zdrželo nepříznivé počasí: MApN uvedlo, že se oba čluny vrátily, aniž by posouzení dokončily. Žádné zajištění ani zneškodnění nebylo zjištěno.",
+      "Jde o nález na moři, nikoli o důkaz vniknutí do rumunského teritoriálního vzdušného prostoru. Původ dronu, data letu a pádu, náklad a jakákoli souvislost s nedávnými zásahy lodí zůstávají neznámé."
+    ],
+    "basis": "328155b1bc112d37"
+  },
+  "N175": {
+    "headline": "BETUL 8 se převrátila u Bulharska; člen posádky tvrdí, že šlo o útok námořních dronů",
+    "description": "Všech 12 členů posádky BETUL 8 bylo zachráněno poté, co se loď 16. listopadu převrátila ve výhradní hospodářské zóně Bulharska. Tvrzení o útoku námořních dronů zůstává nepotvrzeno.",
+    "summary": [
+      "Bulharské úřady potvrdily, že BETUL 8 se 16. listopadu převrátila ve výhradní hospodářské zóně země. Všech 12 členů posádky bylo evakuováno; ministerstvo nehlásilo žádná vážná zranění.",
+      "BNR citovalo jednoho zachráněného námořníka, který tvrdil, že šlo o útok dvou námořních dronů. Úřady tuto příčinu v prozkoumaných prohlášeních nepotvrdily. Námořní nehoda na moři je ponechána jako kandidát, nikoli jako potvrzený úder dronem ani vniknutí na území.",
+      "Bulharský NAVWARN 860/26 uvádí pozdější pozorování ve 14:45 UTC dne 19. listopadu: plavidlo bylo převrácené a unášené bez posádky a bez řízení. Nejde o určení konečného stavu ani příčiny."
+    ],
+    "basis": "aad7a84948b3f2bc"
+  },
+  "N176": {
+    "headline": "Egejské moře · sedm UAV v řeckém registru za 16. listopad",
+    "description": "Listopadový registr GEETHA uvádí za 16. listopad sedm UAV, sedm porušení vzdušného prostoru a deset porušení FIR, což se liší od dřívějšího bulletinu.",
+    "summary": [
+      "Měsíční registr GEETHA uvádí sedm UAV jako veškerá letadla hlášená za 16. listopad, se sedmi porušeními národního vzdušného prostoru a deseti porušeními FIR Atény. Dřívější bulletin Parapolitika uváděl šest porušení vzdušného prostoru a devět porušení FIR; rozdíl není vysvětlen.",
+      "Stále jde o jeden denní regionální záznam. Údaje nelze sčítat a nejde o nezávisle ověřený počet letů; žádný střet zbraněmi nebyl zjištěn."
+    ],
+    "basis": "1392b1b1c36513b7"
+  },
+  "N177": {
+    "headline": "Noční výstraha pro sever župy Tulcea; vstup do rumunského vzdušného prostoru nezaznamenán",
+    "description": "Rumunsko vydalo v noci z 16. na 17. listopadu výstrahu po radarových zjištěních nad Ukrajinou. MApN nehlásilo žádný neoprávněný vstup do rumunského vzdušného prostoru.",
+    "summary": [
+      "Rumunsko vydalo výstrahu civilní ochrany po radarových zjištěních nad Ukrajinou. Žádný neoprávněný vstup do rumunského vzdušného prostoru nebyl zaznamenán.",
+      "Jde o jednu vybranou výstrahu, nikoli o potvrzené vniknutí dronu."
+    ],
+    "basis": "016739f3dca934f0"
+  },
+  "N178": {
+    "headline": "Posádka GAS HUSKY zachráněna po nehodě na moři; příčina dronem nepotvrzena",
+    "description": "Všech 19 členů posádky GAS HUSKY bylo 17. listopadu zachráněno u Bulharska. Oficiální varování popisuje nakloněnou, unášenou loď; tvrzení o dronech zůstávají nepotvrzena.",
+    "summary": [
+      "Bulharské úřady 17. listopadu 2026 zachránily všech 19 členů posádky GAS HUSKY po námořní nehodě na moři. Tanker na LPG plující pod liberijskou vlajkou mířil z Egypta do Rumunska. Místo leží ve výhradní hospodářské zóně Bulharska, nikoli v jeho teritoriálních vodách.",
+      "Navigační varování z 10:50 UTC popsalo náklon 45 stupňů, zatopený můstek a unášené plavidlo bez posádky. Navzdory raným zprávám nestanovilo úplné potopení. AP s odvoláním na Maritime.bg uvádí, že zachráněný kapitán řekl, že plavidlo zasáhly čtyři drony; AP zároveň uvádí, že příčina není oficiálně potvrzena. Tvrzení není nezávisle ověřeno a žádný provozovatel ani souvislost s BETUL 8 nebyly zjištěny.",
+      "Správcovská společnost Stealth Maritime uvádí, že plavidlo bylo zasaženo časně ráno 17. listopadu ve výhradní hospodářské zóně Bulharska, neupřesňuje však, čím bylo zasaženo, a uvádí, že jeho stav byl v té době neznámý. Její prohlášení, převzaté deníkem Naftemporiki, potvrzuje LPG naložené v Alexandrii s určením do Midie.",
+      "Pozdější zpráva Maritime.bg s odvoláním na nejmenovaný zdroj ve správcovské společnosti uvádí kombinovaný útok hladinových a leteckých dronů. Jde nadále o nepotvrzený popis; veřejné prohlášení správcovské společnosti mechanismus neupřesňuje.",
+      "Dne 18. listopadu varenský guvernér Mario Smurkov řekl bTV, že došlo ke čtyřem zásahům, výpovědi námořníků se však rozcházely a typy dronů zůstaly nepotvrzeny. Uvedl, že plavidla se dosud nepotopila a že v té době nebylo zjištěno žádné znečištění. Čtyři zásahy nestanovují čtyři nezávisle ověřené drony.",
+      "Reuters 18. listopadu uvedl, že dva nejmenované zdroje z oblasti námořní bezpečnosti přisoudily úder bezpilotnímu systému. Zopakoval guvernérův popis čtyř zásahů, aniž by stanovil typ dronu nebo provozovatele. Reuters popsal loď jako potopenou, neuvedl však žádný novější čas pozorování, který by rozřešil dřívější zprávy o jejím stavu.",
+      "Bulharský NAVWARN 858/26 uvádí pozdější pozorování ve 13:30 UTC dne 19. listopadu: plavidlo mělo náklon asi 45 stupňů, zatopený můstek a bylo unášeno bez posádky a bez řízení. Nejde o určení konečného stavu ani příčiny.",
+      "NAVWARN 865/26 hlásí, že ve 12:38 UTC dne 21. listopadu byla GAS HUSKY stále bez posádky a unášená, se silným náklonem a zatopeným můstkem. Pozorování nestanovuje potopení ani původní mechanismus.",
+      "Filipínské úřady hlásily, že se dva zranění členové posádky po ošetření zotavují. The Manila Times s odvoláním na filipínské ministerstvo pro migrující pracovníky informoval o vyprovození 19 filipínských členů posádky na letišti ve Varně 25. listopadu. Dvě skupiny měly dorazit do Manily 26. listopadu filipínského času; jejich přílet nebyl v době této revize nezávisle potvrzen. To nestanovuje konečný stav plavidla ani původní příčinu."
+    ],
+    "basis": "2e8a41b9e0e20de5"
+  },
+  "N179": {
+    "headline": "Egejské moře · šest UAV v řeckém registru za 17. listopad",
+    "description": "Registr GEETHA uvádí za 17. listopad šest UAV, na rozdíl od původních pěti. Souhrnná čísla o vzdušném prostoru nelze přiřadit výhradně dronům.",
+    "summary": [
+      "Měsíční registr GEETHA uvádí za 17. listopad šest UAV a čtyři letadla s posádkou, se sedmnácti souhrnnými porušeními národního vzdušného prostoru a deseti souhrnnými porušeními FIR Atény. Tyto součty nerozděluje podle typu letadla.",
+      "Dřívější bulletin uváděl pět UAV se čtyřmi porušeními vzdušného prostoru a sedmi porušeními FIR. Tento původní popis zůstává citován, registr se však liší a neposkytuje žádné vysvětlení. Žádná z verzí nezávisle nestanovuje trasy letů; střetnutí stíhaček není sestřelením dronu."
+    ],
+    "basis": "87dcaf1584079e1c"
+  },
+  "N180": {
+    "headline": "Farmakonisi · hlášený přelet tureckého UAV 30. července",
+    "description": "Řecké úřady hlásily přelet UAV nad Farmakonisi 30. července. Listopadová ministerská odpověď potvrzuje oficiální hlášení adresované NATO, nikoli zjištění NATO.",
+    "summary": [
+      "Řecké zprávy přisoudily 30. července 2026 osm porušení národního vzdušného prostoru dvěma tureckým UAV, včetně přeletu nad Farmakonisi. UAV byla přisouzena čtyři samostatná porušení FIR Atény. Jde o jeden denní záznam, nikoli o dvanáct incidentů.",
+      "Ministerská odpověď datovaná 1. listopadu a zveřejněná 16. listopadu přelet uznává a uvádí, že Řecko zaslalo NATO oficiální hlášení. Uvedla, že analýza NATO se v té době očekávala; neposkytuje ani zjištění NATO, ani důkaz, že odpověď stále nebyla vydána. Přesné trasy letů a záměr zůstávají neznámé."
+    ],
+    "basis": "1ce7f990ce68d0c0"
+  },
+  "N181": {
+    "headline": "Dronem poškozená MARIAM M byla zanesena do rumunských vod a najela na mělčinu u Vadu",
+    "description": "MARIAM M najela 16. listopadu na mělčinu u Vadu poté, co byla zanesena z Ukrajiny. Zaznamenáno jako následná námořní událost, s videem; nový úder v Rumunsku nehlášen.",
+    "summary": [
+      "MARIAM M najela 16. listopadu 2026 na mělčinu na rumunském pobřeží u Vadu. Opuštěná nákladní loď pod tanzanskou vlajkou byla zanesena do rumunských vod poté, co se jí 14. listopadu přetrhla kotva.",
+      "Rumunské úřady uvádějí, že zářijový úder dronem v ukrajinských teritoriálních vodách zanechal loď zakotvenou tamtéž. Tento záznam pokrývá její následné připlutí a najetí na mělčinu v Rumunsku, klasifikované jako Výstraha / jiné. Nezapočítává nový úder dronem ani nepřenáší oběti ze zářijového útoku.",
+      "Dne 19. listopadu remorkéry uvolnily plavidlo z původní písečné mělčiny. ProTV později uvedla, že se posunulo asi o 100 metrů, než najelo na další písečnou lavici, načež je posádka zakotvila a s příchodem noci záchranné práce přerušila. Stránka obsahuje dřívější záběry zásahu ARSVOM a odkaz na video z pobřeží.",
+      "Při samostatném pokusu 22. listopadu podle Știrile ProTV tři remorkéry otočily MARIAM M směrem na otevřené moře, plavidlo však znovu částečně najelo na mělčinu a práce byly s příchodem noci přerušeny. Konečné kotviště a dopad na životní prostředí zůstávají neověřeny."
+    ],
+    "basis": "9fa9d16fcb95d141"
+  },
+  "N182": {
+    "headline": "Egejské moře · jeden UAV v řeckém denním hlášení za 18. listopad",
+    "description": "Řecké údaje přisuzují 18. listopadu UAV jedno porušení národního vzdušného prostoru a jedno samostatné porušení FIR. Jeden regionální záznam, žádný hlášený střet.",
+    "summary": [
+      "Údaje GEETHA převzaté OnAlert a NewsIT přisuzují 18. listopadu tureckému UAV jedno porušení národního vzdušného prostoru a jedno samostatné porušení FIR Atény v severovýchodním a středním Egejském moři.",
+      "Letoun CN-235 s posádkou uvedený v téže tabulce je z počtů UAV vyloučen. Je hlášeno rutinní zachycení, bez střetů. Tato média přebírají týž popis úřadů, nikoli nezávislé trasy; přesná trasa, model a záměr zůstávají neznámé."
+    ],
+    "basis": "9fecf75febc5fc69"
+  },
+  "N183": {
+    "headline": "Egejské moře · hlášená aktivita tureckých UAV 14. listopadu",
+    "description": "Řecké úřady uvádějí 14. listopadu 2 turecké UAV se samostatně hlášenými údaji o národním vzdušném prostoru a FIR.",
+    "summary": [
+      "Listopadový registr GEETHA uvádí za 14. listopad 2 UAV a žádná letadla s posádkou v jihovýchodním Egejském moři.",
+      "Registr uvádí jedno porušení národního vzdušného prostoru a 2 samostatná porušení FIR Atény. Jde o údaje řeckých úřadů, nikoli o nezávisle ověřené trasy, počty jedinečných událostí ani útoky. Žádný střet nebyl uveden."
+    ],
+    "basis": "7a977838703818f5"
+  },
+  "N184": {
+    "headline": "Egejské moře · hlášená aktivita tureckých UAV 15. listopadu",
+    "description": "Řecké úřady uvádějí 15. listopadu 3 turecké UAV se samostatně hlášenými údaji o národním vzdušném prostoru a FIR.",
+    "summary": [
+      "Listopadový registr GEETHA uvádí za 15. listopad 3 UAV a žádná letadla s posádkou ve středním a jihovýchodním Egejském moři.",
+      "Registr uvádí 4 porušení národního vzdušného prostoru a 4 samostatná porušení FIR Atény. Jde o údaje řeckých úřadů, nikoli o nezávisle ověřené trasy, počty jedinečných událostí ani útoky. Žádný střet nebyl uveden."
+    ],
+    "basis": "9348fe0fa7d38f26"
+  },
+  "N186": {
+    "headline": "Egejské moře · hlášená aktivita tureckých UAV 20. listopadu",
+    "description": "Řecké úřady hlásily 20. listopadu tři turecké UAV a tři porušení národního vzdušného prostoru. Samostatné údaje o FIR nejsou počty incidentů.",
+    "summary": [
+      "OnAlert přebírá údaje řeckého generálního štábu za jihovýchodní Egejské moře z 20. listopadu: tři turecké UAV, tři porušení národního vzdušného prostoru ze strany UAV a tři samostatná porušení FIR Atény ze strany UAV. Na jeden ATR-72 s posádkou připadala další dvě porušení FIR.",
+      "Jde o připisované denní údaje řeckých úřadů, nikoli o nezávislé trasy letů ani tři samostatné incidenty na mapě. Řádek primárního měsíčního registru nebyl nezávisle ověřen."
+    ],
+    "basis": "394520276666d168"
+  },
+  "N188": {
+    "headline": "Ukrajina přiznává úder na SPARTA II; pozdější záchranu vedlo Finsko",
+    "description": "Ukrajina přiznala úder dronem z 21. listopadu ve Finském zálivu. Popisy se rozcházejí v tom, kde byla loď zasažena. Finsko později vedlo záchranu.",
+    "summary": [
+      "Finské obranné síly hlásily 21. listopadu úder dronem ve východní části Finského zálivu. Armáda jej umístila do mezinárodních vod, zatímco velitel pohraniční stráže Ilja Iljin uvedl, že k němu došlo v ruských teritoriálních vodách. Hořící loď později unášelo do finských teritoriálních vod. To nestanovuje přelet dronu do Finska.",
+      "Finská pobřežní stráž potvrdila, že posádka byla evakuována na KAPITAN SAKHAROV. Na brífinku 22. listopadu finská pohraniční stráž hlásila jednoho zraněného člena posádky. Hašení pokračovalo i po potlačení viditelných plamenů; do tohoto brífinku nebyla na moři pozorována žádná ropa. Nešlo o konečné hodnocení.",
+      "Ředitel komunikace finských obranných sil Aki-Mauri Huhtinen posoudil, že odpovědnost pravděpodobně nese Ukrajina. Konkrétní provozovatel, záměr a náklad nebyly nezávisle zjištěny.",
+      "Estonské ministerstvo zahraničí uvádí, že poškozené plavidlo bylo unášeno z výhradní hospodářské zóny Estonska do výhradní hospodářské zóny Finska a poté do finských teritoriálních vod. Estonsko pomáhalo na žádost Finska; finská pohraniční stráž potvrdila estonskou účast na hašení a chlazení. Popisy záchrany nestanovují místo úderu ani trasu dronu.",
+      "Dne 22. listopadu vlečná souprava opustila výhradní hospodářskou zónu Finska a oblast reakce na ekologické havárie, Finsko ukončilo svou misi a dočasná omezení byla zrušena. Helsinky samostatně ukončily preventivní pohotovost pro případ úniku ropy. Svenska Yle uvedla, že odpovědnost za námořní záchranu převzalo Rusko.",
+      "Dne 23. listopadu leningradský oblastní gubernátor Alexandr Drozděnko uvedl, že posádka vystoupila na břeh v Petrohradu ve 20:00 moskevského času. Uvedl, že loď dorazila do téhož přístavu na hladině i s nákladem, aniž by uvedl čas jejího příjezdu. Jeho tvrzení, že nedošlo k žádným zraněním, je v rozporu s hlášením finské pohraniční stráže. Konečné výsledky ohledně požáru a znečištění i totožnost nákladu zůstávají neověřeny.",
+      "Finský Národní exekuční úřad uvedl, že loď posoudil jako patřící společnosti pod sankcemi EU, a poté, co 21. listopadu vplula do finských teritoriálních vod, uvalil prozatímní omezení převodu. Omezení obsahovalo výjimky pro záchranu, bezpečnost a ochranu životního prostředí. Konečné právní rozhodnutí nebylo zjištěno.",
+      "V rozhovoru pro Bloomberg zveřejněném 24. listopadu prezident Volodymyr Zelenskyj přiznal, že úder provedla Ukrajina, a tvrdil, že k němu došlo v ruských teritoriálních vodách. ERR hlásila zásah ve výhradní hospodářské zóně Estonska; estonský představitel záchranných složek umístil loď v době požáru a výbuchu do této zóny. Finská armáda označila oblast úderu za mezinárodní vody. Přesné místo úderu a Zelenského tvrzení o zbraních na palubě nebyly nezávisle ověřeny. Pozdější finská záchrana je samostatnou doloženou skutečností."
+    ],
+    "basis": "672fe12e4e10cab6"
+  },
+  "N189": {
+    "headline": "Estonsko vydalo a odvolalo varování před vzdušnou hrozbou ve dvou severovýchodních krajích",
+    "description": "Estonsko 21. listopadu varovalo obyvatele krajů Lääne-Viru a Ida-Viru před možnou vzdušnou hrozbou. Výstraha nestanovuje vniknutí dronu.",
+    "summary": [
+      "Estonské obranné síly vydaly 21. listopadu ve 04:42 místního času varování před možnou vzdušnou hrozbou pro kraje Lääne-Viru a Ida-Viru. Zpráva doporučovala vyhledat úkryt, pokud bude spatřen dron. Odvolání následovalo v 06:49 místního času. Jde o jednu epizodu varování, nikoli o ověřené vniknutí."
+    ],
+    "basis": "c7c59339eb4400db"
+  },
+  "N190": {
+    "headline": "Obyvatelé župy Tulcea varováni v noci; Rumunsko nehlásilo vstup do vzdušného prostoru",
+    "description": "Úřady vydaly 22. listopadu v 00:46 místního času RO-Alert a nechaly vzlétnout dvě F-16. Ministerstvo obrany nehlásilo žádný vstup do rumunského vzdušného prostoru.",
+    "summary": [
+      "Noční varování bylo 22. listopadu v 00:46 místního času rozesláno pro sever a východ župy Tulcea. Rumunské ministerstvo obrany hlásilo jeden vzdušný cíl mimo národní vzdušný prostor a uvedlo, že vzlétly dvě F-16. Nehlásilo žádný vstup do národního vzdušného prostoru. Ministerstvo uvedlo, že letecký poplach skončil ve 02:14, zatímco ISU Delta Tulcea uvedla 02:16 a nehlásila žádné žádosti ani problémy. Jde o popisy jedné epizody varování."
+    ],
+    "basis": "bb330334fdeedf43"
+  },
+  "N191": {
+    "headline": "Egejské moře · hlášená aktivita tureckých UAV 22. listopadu",
+    "description": "Údaje řeckých úřadů uvádějí sedm tureckých UAV, sedm porušení národního vzdušného prostoru a sedm samostatných porušení FIR Atény.",
+    "summary": [
+      "Řecká média s odvoláním na Řecký generální štáb národní obrany hlásila 22. listopadu sedm tureckých UAV, sedm porušení řeckého národního vzdušného prostoru a sedm porušení FIR Atény v severovýchodním, středním a jihovýchodním Egejském moři. Hlásila rutinní identifikaci a zachycení.",
+      "Tři údaje jsou samostatnými mírami v jednom denním hlášení. Nestanovují nezávislé trasy letů, sestřelení ani útok. Původní řádek denního registru se nepodařilo ověřit."
+    ],
+    "basis": "0eec6e747256d451"
+  },
+  "N192": {
+    "headline": "Odpolední RO-Alert pro sever župy Tulcea skončil bez hlášeného vstupu do vzdušného prostoru",
+    "description": "Sever župy Tulcea obdržel 22. listopadu v 15:06 místního času samostatné odpolední varování. Vstup do rumunského vzdušného prostoru nebyl hlášen.",
+    "summary": [
+      "Rumunské ministerstvo obrany hlásilo 22. listopadu jeden vzdušný cíl severně od Vâlcove na Ukrajině a RO-Alert pro sever župy Tulcea od 15:06 do 15:42 místního času. Vstup do rumunského vzdušného prostoru nebyl hlášen.",
+      "Ministerstvo uvedlo, že v reakci vzlétly španělské stíhačky a vrtulníky. Zachycení nehlásilo.",
+      "Jde o varování civilní ochrany, nikoli o potvrzené vniknutí dronu ani útok. Typ cíle a provozovatel nebyly zjištěny."
+    ],
+    "basis": "1fce4c3f1e26c381"
+  },
+  "N193": {
+    "headline": "Večerní RO-Alert pro sever župy Tulcea skončil bez hlášeného vstupu do vzdušného prostoru",
+    "description": "Sever župy Tulcea obdržel 22. listopadu ve 20:01 místního času samostatné večerní varování. Vstup do rumunského vzdušného prostoru nebyl hlášen.",
+    "summary": [
+      "Rumunské ministerstvo obrany hlásilo 22. listopadu vzdušné cíle východně od Hadího ostrova a RO-Alert pro sever župy Tulcea od 20:01 do 21:15 místního času. Vstup do rumunského vzdušného prostoru nebyl hlášen.",
+      "Jde o varování civilní ochrany, nikoli o potvrzené vniknutí dronu ani útok. Typ cíle a provozovatel nebyly zjištěny."
+    ],
+    "basis": "6ac4b0c86f4adf5a"
+  },
+  "N194": {
+    "headline": "Dron přisuzovaný Rusku vnikl do Polska u Dorohusku a vrátil se na Ukrajinu",
+    "description": "Polsko hlásí 23. listopadu přelet dronu u Dorohusku. Sestřelení bylo povoleno, ale než se dron vrátil na Ukrajinu, nebyly použity žádné zbraně.",
+    "summary": [
+      "Polské operační velitelství potvrdilo, že 23. listopadu během úderů na západní Ukrajinu vnikl do polského vzdušného prostoru jeden dron přisuzovaný Rusku. Navazující zpráva deníku Rzeczpospolita s odvoláním na velitelství a mluvčího Jacka Goryszewského klade vstup k Dorohusku ve 22:50 místního času, s vniknutím zhruba 20 km hluboko trvajícím 8–9 minut, než se dron obrátil zpět na Ukrajinu.",
+      "Sestřelení bylo povoleno, ale nebyly použity žádné zbraně. Radio Lublin a UNITED24 uvádějí, že velitelé po obratu na východ s ohledem na bezpečnost civilistů palbu nezahájili. Goryszewski uvedl, že pozemní systémy měly povolení; polská letadla kvůli počasí poblíž hranice nepůsobila. Nebyly hlášeny žádné oběti, dopad ani zajištění trosek.",
+      "Mluvčí podle rychlosti letu posoudil, že šlo o proudový pohon, nepotvrdil však kamery ani průzkumnou roli. Model, náklad a zamýšlený cíl zůstávají neznámé. Značka Dorohusk je přibližným orientačním bodem, nikoli ověřenou souřadnicí přeletu. Veřejná varování jsou součástí tohoto jednoho případu, odlišného od incidentu s raketou z 20. listopadu.",
+      "Vládní centrum bezpečnosti zaznamenalo aktualizaci o ukrytí ve 22:56 CET a odvolání ve 23:54 CET. Jde o časy varování, nikoli o časy letu."
+    ],
+    "basis": "d2d4fb5622cf3ffd"
+  },
+  "N195": {
+    "headline": "Tausiūnai–Aukštalaukis: pohraniční stráž zajistila dron s cigaretami z Běloruska",
+    "description": "Litva hlásí 27. září samostatné vniknutí dronu u Tausiūnai–Aukštalaukis; zajištěno bylo 250 krabiček cigaret. Provozovatel neznámý.",
+    "summary": [
+      "VSAT hlásila pozdě v neděli večer místního času 27. září dron převážející cigarety z Běloruska. Dron byl zjištěn u Tausiūnai a po vynuceném sestupu zajištěn u Aukštalaukis. Byl těžce poškozen.",
+      "Pohraničníci zajistili 250 krabiček cigaret a zahájili správní řízení. Provozovatel nebyl identifikován. Jde o případ přeshraničního pašování, nikoli o prokázaný státní útok."
+    ],
+    "basis": "075b2a5c83a9ffc2"
+  },
+  "N196": {
+    "headline": "Eišiškės: pohraniční stráž zajistila dron s cigaretami z Běloruska",
+    "description": "Litva hlásí 27. září samostatné vniknutí dronu u Eišiškės; zajištěno bylo 100 krabiček cigaret. Provozovatel neznámý.",
+    "summary": [
+      "VSAT hlásila 27. září před půlnocí místního času dron převážející cigarety z Běloruska. Jiná hlídka dron zachytila u Eišiškės několik hodin po prvním incidentu. Dron spadl v oblasti města a byl zajištěn.",
+      "Pohraničníci zajistili 100 krabiček cigaret a zahájili správní řízení. Provozovatel nebyl identifikován. Jde o případ přeshraničního pašování, nikoli o prokázaný státní útok."
+    ],
+    "basis": "0184a774707cec6e"
+  },
+  "N197": {
+    "headline": "Egejské moře: 6 hlášených porušení vzdušného prostoru 18. října",
+    "description": "Veteranos s odvoláním na řecké vojenské zprávy popsal 18. října 2026 5 tureckých UAV ve středním a jihovýchodním Egejském moři, se 6 hlášenými porušeními národního vzdušného prostoru a samostatně 10 porušeními pravidel letového provozu ve FIR Atény.",
+    "summary": [
+      "Veteranos s odvoláním na řecké vojenské zprávy popsal 18. října 2026 5 tureckých UAV ve středním a jihovýchodním Egejském moři, se 6 hlášenými porušeními národního vzdušného prostoru a samostatně 10 porušeními pravidel letového provozu ve FIR Atény.",
+      "Popis uvádí identifikaci a rutinní zachycení, nikoli střet zbraněmi ani sestřelení.",
+      "Jde o jeden připisovaný denní záznam, nikoli o počet samostatných potvrzených vniknutí. Původní záznam v řeckém vojenském registru nebyl získán a trasy, přesná místa, záměr i údaje o provozovateli jsou neověřené. Řecko-turecký spor o vzdušný prostor zůstává relevantní."
+    ],
+    "basis": "b78a96fd3dd18174"
+  },
+  "N198": {
+    "headline": "Egejské moře: 3 hlášená porušení vzdušného prostoru 21. listopadu",
+    "description": "Veteranos s odvoláním na řecké vojenské zprávy popsal 21. listopadu 2026 jeden turecký UAV ve středním Egejském moři, se 3 hlášenými porušeními národního vzdušného prostoru a samostatně 1 porušením pravidel letového provozu ve FIR Atény.",
+    "summary": [
+      "Veteranos s odvoláním na řecké vojenské zprávy popsal 21. listopadu 2026 jeden turecký UAV ve středním Egejském moři, se 3 hlášenými porušeními národního vzdušného prostoru a samostatně 1 porušením pravidel letového provozu ve FIR Atény.",
+      "Popis uvádí identifikaci a rutinní zachycení, nikoli střet zbraněmi ani sestřelení.",
+      "Jde o jeden připisovaný denní záznam, nikoli o počet samostatných potvrzených vniknutí. Původní záznam v řeckém vojenském registru nebyl získán a trasy, přesná místa, záměr i údaje o provozovateli jsou neověřené. Řecko-turecký spor o vzdušný prostor zůstává relevantní."
+    ],
+    "basis": "4035154a2ead9d19"
+  },
+  "N199": {
+    "headline": "Ranní RO-Alert pro sever župy Tulcea odvolán bez hlášeného vstupu do rumunského vzdušného prostoru",
+    "description": "Rumunsko ráno 24. listopadu varovalo sever župy Tulcea poté, co byl v ukrajinském vzdušném prostoru zjištěn cíl. Vstup do rumunského vzdušného prostoru nebyl hlášen.",
+    "summary": [
+      "Rumunsko ráno 24. listopadu varovalo sever župy Tulcea poté, co byl v ukrajinském vzdušném prostoru zjištěn cíl. Vstup do rumunského vzdušného prostoru nebyl hlášen.",
+      "Ministerstvo obrany hlásilo varování v 11:11 EET, sledování španělskými letadly a odvolání v 11:51 EET.",
+      "Místní popis záchranných složek uváděl čas přijetí telefonátu 10:11. Tento rozpor nenaznačuje druhou ranní výstrahu.",
+      "Jde o preventivní výstrahu, nikoli o potvrzené vniknutí do Rumunska."
+    ],
+    "basis": "0198614f7d30239f"
+  },
+  "N200": {
+    "headline": "Odpolední RO-Alert pro sever župy Tulcea odvolán bez hlášeného vstupu do rumunského vzdušného prostoru",
+    "description": "Rumunsko 24. listopadu znovu varovalo sever župy Tulcea poté, co byl u ramene Chilia v ukrajinském vzdušném prostoru zjištěn cíl. Vstup do rumunského vzdušného prostoru nebyl hlášen.",
+    "summary": [
+      "Rumunsko 24. listopadu znovu varovalo sever župy Tulcea poté, co byl u ramene Chilia v ukrajinském vzdušném prostoru zjištěn cíl. Vstup do rumunského vzdušného prostoru nebyl hlášen.",
+      "Ministerstvo obrany hlásilo varování ve 14:37 EET, sledování letadly a odvolání pro sever župy Tulcea v 15:40. ProTV uvádí, že fáze leteckého poplachu v župě Galați začala ve 14:52 EET po hlášení o neidentifikovaném dronu mířícím k župě. Místní odvolání IGSU bylo hlášeno v 15:46 EET.",
+      "Identita cíle, provozovatel a zamýšlený cíl jsou neznámé. Není zjištěno, zda se varování pro Tulcea a Galați týkala téhož cíle. Ranní varování zůstává samostatné.",
+      "Jde o preventivní výstrahu, nikoli o potvrzené vniknutí do Rumunska."
+    ],
+    "basis": "faba06a8d0d3b2db"
+  },
+  "N201": {
+    "headline": "Žaltūnai–Girdijauskai: Litva hlásí přeshraniční pašování drony",
+    "description": "Litevská pohraniční stráž zajistila po noční červencové operaci u Žaltūnai–Girdijauskai 2 stroje a 2000 krabiček cigaret.",
+    "summary": [
+      "9.–10. července 2026 (v noci). Pohraniční stráž uvádí, že v noci zjistila drony z Běloruska. Po obnovení pátrání za denního světla příslušníci zajistili dva nákladní drony u Žaltūnai a Girdijauskai.",
+      "Příslušníci zajistili ze 2 strojů 2000 krabiček cigaret s běloruskými kolky. Bylo zahájeno trestní vyšetřování.",
+      "Provozovatel ani přesné místo přeletu a trasa nejsou známy. Operace je zaznamenána jako přeshraniční pašování, nikoli jako vojenský útok."
+    ],
+    "basis": "a335379fd80fd841"
+  },
+  "N202": {
+    "headline": "Šiulgiai–Šumskas: Litva hlásí přeshraniční pašování dronem",
+    "description": "Litevská pohraniční stráž zajistila po noční červencové operaci u Šiulgiai–Šumskas jeden stroj a 340 krabiček cigaret.",
+    "summary": [
+      "17.–18. července 2026 (v noci). Pohraniční stráž hlásila, že do Litvy vletěl jeden nákladní dron. Příslušníci dron u Šiulgiai slyšeli, ale neviděli. Po zásahu spadl a poškozený stroj byl za denního světla zajištěn u Šumskas.",
+      "Příslušníci zajistili z jednoho stroje 340 krabiček cigaret s běloruskými kolky. Bylo zahájeno správní řízení.",
+      "Provozovatel ani přesné místo přeletu a trasa nejsou známy. Operace je zaznamenána jako přeshraniční pašování, nikoli jako vojenský útok."
+    ],
+    "basis": "0eba63dd63dc7160"
+  },
+  "N203": {
+    "headline": "Norviliškės–Daulėnai: Litva hlásí přeshraniční pašování drony",
+    "description": "Litevská pohraniční stráž zajistila po noční červencové operaci u Norviliškės–Daulėnai 3 stroje a 3000 krabiček cigaret.",
+    "summary": [
+      "29.–30. července 2026 (v noci). Pohraniční stráž hlásila nákladní drony vlétající do Litvy z Běloruska. Během jediné noční operace byly dva stroje zajištěny u Norviliškės a jeden u Daulėnai, přičemž poslední zajištění proběhlo za denního světla.",
+      "Příslušníci zajistili ze 3 strojů 3000 krabiček cigaret s běloruskými kolky. Bylo zahájeno trestní vyšetřování.",
+      "Provozovatel ani přesné místo přeletu a trasa nejsou známy. Operace je zaznamenána jako přeshraniční pašování, nikoli jako vojenský útok."
+    ],
+    "basis": "20d845bfb0acadf0"
+  },
+  "N204": {
+    "headline": "Kiemėnai: litevská pohraniční stráž zajistila pašerácký dron",
+    "description": "Litevská pohraniční stráž zajistila po noční operaci u Kiemėnai dron a 750 krabiček cigaret.",
+    "summary": [
+      "16.–17. dubna 2026. VSAT uvedla, že zjistila dron vlétající do Litvy z Běloruska. Dron po zásahu pohraniční stráže spadl a byl zajištěn u Kiemėnai.",
+      "Příslušníci zajistili 750 krabiček cigaret s běloruskými kolky a zahájili správní řízení.",
+      "Nebyl zjištěn žádný provozovatel, podpora ze strany státu ani přesná trasa letu. Jde o záznam o pašování přes hranici, nikoli o vojenský útok."
+    ],
+    "basis": "1738bd94e1620fe1"
+  },
+  "N205": {
+    "headline": "Prūdelis: litevská pohraniční stráž zajistila pašerácký dron",
+    "description": "Litevská pohraniční stráž zajistila po noční operaci u Prūdelis dron a 1000 krabiček cigaret.",
+    "summary": [
+      "8.–9. července 2026. VSAT hlásila dron letící od běloruské hranice do vnitrozemí; přesné místo přeletu ani trasu nezveřejnila. Dron po zásahu pohraniční stráže spadl a byl zajištěn u Prūdelis.",
+      "Příslušníci zajistili 1000 krabiček cigaret s běloruskými kolky a zahájili správní řízení.",
+      "Nebyl zjištěn žádný provozovatel, podpora ze strany státu ani přesná trasa letu. Jde o záznam o pašování přes hranici, nikoli o vojenský útok."
+    ],
+    "basis": "1c7fd61759b9aa98"
+  },
+  "N206": {
+    "headline": "Egejské moře · hlášená aktivita tureckých UAV 25. listopadu",
+    "description": "Údaje řeckých úřadů uvádějí tři turecké UAV, čtyři porušení národního vzdušného prostoru a tři samostatná porušení FIR Atény.",
+    "summary": [
+      "Řecký generální štáb národní obrany (GEETHA) podle OnAlert a Veteranos uvedl 25. listopadu tři turecké UAV, čtyři hlášená porušení řeckého národního vzdušného prostoru a tři samostatná porušení pravidel letového provozu ve FIR Atény. Hlášení zahrnovalo severovýchodní, střední a jihovýchodní Egejské moře. Byla hlášena rutinní identifikace a zachycení; žádný střet nebyl uveden.",
+      "Údaje jsou samostatnými mírami v jednom denním vojenském bulletinu, nikoli ověřenými jednotlivými trasami letů ani počty útoků. Obě zprávy citují týž bulletin; oficiální měsíční tabulka nebyla v době revize přímo dostupná."
+    ],
+    "basis": "0e4f136f9c21f1b4"
+  },
+  "N207": {
+    "headline": "Kuodžiai: Litva hlásí čtyři pašerácké drony v jedné operaci",
+    "description": "Litevská pohraniční stráž zajistila po operaci u Kuodžiai 30. července čtyři drony a 4000 krabiček cigaret.",
+    "summary": [
+      "30. července 2026, večer. Litevská Státní pohraniční stráž (VSAT) hlásila, že čtyři nákladní drony vlétly z Běloruska a byly při jedné operaci staženy k zemi a zajištěny u Kuodžiai v okrese Lazdijai.",
+      "Zajištěný náklad činil celkem 4000 krabiček cigaret s běloruskými kolky. VSAT uvedla, že bylo zahájeno trestní vyšetřování. Jde o jednu doloženou operaci, nikoli o čtyři samostatné záznamy incidentů.",
+      "Nebyla zjištěna žádná přesná trasa letu, totožnost provozovatele ani podpora ze strany státu. Jde o případ trestného pašování, nikoli o vojenský útok."
+    ],
+    "basis": "f3ab912199253de4"
+  },
+  "N208": {
+    "headline": "Litevská stráž zajistila u Jurgionys pašerácký dron a 500 krabiček cigaret",
+    "description": "Litevská pohraniční stráž hlásila vstup dronu z Běloruska u Jurgionys 24. listopadu před půlnocí a zajistila 500 krabiček cigaret.",
+    "summary": [
+      "Litevská pohraniční stráž hlásila vstup dronu z Běloruska u Jurgionys 24. listopadu před půlnocí a zajistila 500 krabiček cigaret.",
+      "Tisková zpráva z 26. listopadu uvádí, že stroj byl při dopadu poškozen. Šlo o 74. stroj zachycený v této kategorii vymáhání v roce 2026 k datu zprávy, nikoli o 74. záznam v tomto registru."
+    ],
+    "basis": "67a42221ac53e32e"
+  },
+  "N209": {
+    "headline": "Litevská stráž hlásí vstup dronu u Purvėnai a zajištění u Geismantai",
+    "description": "Litevská pohraniční služba hlásila vstup dronu 24. ledna a zajistila jej u Geismantai s 1000 krabičkami cigaret.",
+    "summary": [
+      "Litevská pohraniční služba hlásila vstup dronu 24. ledna a zajistila jej u Geismantai s 1000 krabičkami cigaret.",
+      "Jde o samostatný případ od incidentu u Purvėnai hlášeného zvlášť 27. ledna."
+    ],
+    "basis": "da169e0f9823eba4"
+  },
+  "N210": {
+    "headline": "Litevské státní zastupitelství dokumentuje květnovou operaci pašování drony v okrese Švenčionys",
+    "description": "Litevští státní zástupci uvedli, že drony v noci 27. května přepravily přes hranici z Běloruska 35 500 krabiček cigaret. Počet strojů není znám.",
+    "summary": [
+      "Litevští státní zástupci uvedli, že drony v noci 27. května přepravily přes hranici z Běloruska 35 500 krabiček cigaret. Počet strojů není znám.",
+      "Pohraničníci zajistili cigarety poté, co byly přemístěny po zemi. Žádné zachycení ani zajištění dronu nebylo hlášeno. Soudní rozhodnutí nebylo v době oznámení z 20. listopadu pravomocné."
+    ],
+    "basis": "55b583cfae9bda20"
+  },
+  "N211": {
+    "headline": "Litevská stráž hlásí stažení čtyř pašeráckých dronů k zemi u Jaskonys",
+    "description": "Litevská pohraniční stráž hlásila, že při jedné operaci u Jaskonys stáhla k zemi čtyři přilétající drony a zajistila stroje a 4998 krabiček cigaret.",
+    "summary": [
+      "Litevská pohraniční stráž hlásila, že při jedné operaci u Jaskonys stáhla k zemi čtyři přilétající drony a zajistila stroje a 4998 krabiček cigaret.",
+      "Tisková zpráva ze 7. července odkazuje na páteční noc, přičemž zajišťování pokračovalo i za denního světla. Neupřesňuje, zda k události došlo před půlnocí, nebo po ní. Nejde o pozdější operaci u Kuodžiai."
+    ],
+    "basis": "bdc463b805195983"
+  },
+  "N212": {
+    "headline": "Večerní varování pro sever župy Tulcea skončilo bez hlášeného vstupu do rumunského vzdušného prostoru",
+    "description": "Rumunské ministerstvo obrany hlásilo radarové zjištění neidentifikovaného vzdušného cíle východně od Vâlcove na Ukrajině. Sever župy Tulcea obdržel varování. Žádný vstup do rumunského vzdušného prostoru nebyl hlášen.",
+    "summary": [
+      "Rumunské ministerstvo obrany hlásilo radarové zjištění neidentifikovaného vzdušného cíle východně od Vâlcove na Ukrajině. Sever župy Tulcea obdržel varování. Žádný vstup do rumunského vzdušného prostoru nebyl hlášen.",
+      "RO-Alert z 18:52 EET skončil v 19:11. Španělská letadla, která už byla ve vzduchu na výcviku, byla přesměrována k monitorování.",
+      "Jde o civilní varování, nikoli o potvrzené vniknutí dronu."
+    ],
+    "basis": "6379cdfa337a493b"
+  },
+  "N213": {
+    "headline": "Řecké denní hlášení uvádí 26. listopadu šest tureckých UAV v Egejském moři",
+    "description": "Veteranos hlásil šest tureckých UAV, devět hlášených porušení řeckého národního vzdušného prostoru a devět samostatných porušení pravidel letového provozu ve FIR Atény.",
+    "summary": [
+      "Veteranos hlásil šest tureckých UAV, devět hlášených porušení řeckého národního vzdušného prostoru a devět samostatných porušení pravidel letového provozu ve FIR Atény.",
+      "Tabulka zahrnuje severovýchodní, střední a jihovýchodní Egejské moře a neuvádí žádná ozbrojená letadla ani střety.",
+      "Počty jsou samostatnými mírami z jednoho zveřejněného denního hlášení, nikoli ověřenými trasami letů ani počty útoků."
+    ],
+    "basis": "4cb6890e53c1739e"
+  },
+  "N214": {
+    "headline": "Lotyšská armáda potvrzuje krátký vstup dronu u své východní hranice",
+    "description": "Lotyšské národní ozbrojené síly uvedly, že v noci 27. listopadu byl jeden bezpilotní letoun krátce na lotyšském území. Druhý vstup v Balvi nebyl potvrzen.",
+    "summary": [
+      "Lotyšské národní ozbrojené síly uvedly, že v noci 27. listopadu byl jeden bezpilotní letoun krátce na lotyšském území. Druhý vstup v Balvi nebyl potvrzen.",
+      "Oranžové varování pro Ludza trvalo 02:30–02:55 EET. Žluté varování pro Balvi začalo ve 02:55 a skončilo kolem 03:30. Byly aktivovány stíhačky NATO a byl nasazen lotyšský záchytný dron, který se vrátil.",
+      "Armáda neidentifikovala provozovatele, původ ani cíl dronu a nehlásila žádné sestřelení."
+    ],
+    "basis": "669b6dce3baee574"
   }
 }
