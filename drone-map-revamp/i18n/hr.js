@@ -291,7 +291,7 @@
   "press.title": "Koristite sve. Samo navedite izvor.",
   "press.intro": "Snimke zaslona, karte, grafikoni, videozapisi, tekstovi i podaci s ove stranice mogu se slobodno koristiti pod licencom CC BY 4.0 u tisku, eteru i na internetu, uključujući komercijalnu uporabu. Navedite izvor; ništa drugo nije potrebno.",
   "press.creditLabel": "Navod izvora",
-  "press.creditLine": "Izvor: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Izvor: droneincidents.eu",
   "press.copy": "Kopiraj",
   "press.copied": "Kopirano",
   "press.copyManual": "Označeno. Kopirajte pomoću Ctrl+C ili ⌘C",

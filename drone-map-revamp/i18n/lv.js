@@ -291,7 +291,7 @@
   "press.title": "Izmantojiet visu brīvi. Tikai norādiet avotu.",
   "press.intro": "Šīs vietnes ekrānuzņēmumus, kartes, diagrammas, video, tekstus un datus var brīvi izmantot saskaņā ar CC BY 4.0 licenci drukātos izdevumos, ēterā un tiešsaistē, arī komerciālos nolūkos. Jānorāda tikai avots, nekas vairāk nav vajadzīgs.",
   "press.creditLabel": "Atsauce uz avotu",
-  "press.creditLine": "Avots: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Avots: droneincidents.eu",
   "press.copy": "Kopēt",
   "press.copied": "Nokopēts",
   "press.copyManual": "Atlasīts. Kopējiet ar Ctrl+C vai ⌘C",

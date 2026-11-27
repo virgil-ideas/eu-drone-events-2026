@@ -291,7 +291,7 @@
   "press.title": "Úsáid aon rud. Níl le déanamh ach an fhoinse a lua.",
   "press.intro": "Tá cead agat gabhálacha scáileáin, léarscáileanna, cairteacha, físeáin, téacsanna agus sonraí ón suíomh seo a úsáid faoi CC BY 4.0, i gcló, ar an aer agus ar líne, úsáid tráchtála san áireamh. Luaigh an fhoinse; níl aon rud eile ag teastáil.",
   "press.creditLabel": "Lua na foinse",
-  "press.creditLine": "Foinse: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Foinse: droneincidents.eu",
   "press.copy": "Cóipeáil",
   "press.copied": "Cóipeáilte",
   "press.copyManual": "Roghnaithe. Cóipeáil é le Ctrl+C nó ⌘C",

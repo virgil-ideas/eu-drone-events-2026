@@ -291,7 +291,7 @@
   "press.title": "Kasuta kõike. Viita lihtsalt allikale.",
   "press.intro": "Selle saidi ekraanipilte, kaarte, graafikuid, videoid, tekste ja andmeid võib vabalt kasutada litsentsi CC BY 4.0 alusel trükis, eetris ja veebis, sealhulgas ärilisel eesmärgil. Nimeta allikas; muud pole vaja.",
   "press.creditLabel": "Allikaviide",
-  "press.creditLine": "Allikas: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Allikas: droneincidents.eu",
   "press.copy": "Kopeeri",
   "press.copied": "Kopeeritud",
   "press.copyManual": "Valitud. Kopeeri klahvidega Ctrl+C või ⌘C",

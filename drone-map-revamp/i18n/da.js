@@ -291,7 +291,7 @@
   "press.title": "Brug alt. Angiv blot kilden.",
   "press.intro": "Skærmbilleder, kort, grafer, videoer, tekster og data fra dette site må bruges frit under CC BY 4.0 – i trykte medier, i radio og tv og online, også kommercielt. Angiv kilden; mere kræves ikke.",
   "press.creditLabel": "Kildeangivelse",
-  "press.creditLine": "Kilde: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Kilde: droneincidents.eu",
   "press.copy": "Kopiér",
   "press.copied": "Kopieret",
   "press.copyManual": "Markeret. Kopiér med Ctrl+C eller ⌘C",

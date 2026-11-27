@@ -9,7 +9,7 @@ Its texts, data, maps, charts, images, videos and code are licensed under the
 You may copy, adapt and republish them for any purpose, commercial use included,
 as long as you credit the source, for example:
 
-> Source: droneincidents.eu (CC BY 4.0)
+> Source: droneincidents.eu
 
 ## Not covered
 

@@ -291,7 +291,7 @@
   "press.title": "Tout est réutilisable. Citez simplement la source.",
   "press.intro": "Les captures d’écran, cartes, graphiques, vidéos, textes et données de ce site sont librement réutilisables sous licence CC BY 4.0, dans la presse écrite, à l’antenne et en ligne, y compris à des fins commerciales. Citez la source ; aucune autre démarche n’est nécessaire.",
   "press.creditLabel": "Mention de la source",
-  "press.creditLine": "Source : droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Source : droneincidents.eu",
   "press.copy": "Copier",
   "press.copied": "Copié",
   "press.copyManual": "Sélectionné. Copiez-le avec Ctrl+C ou ⌘C",

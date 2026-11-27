@@ -291,7 +291,7 @@
   "press.title": "Uporabite karkoli. Le navedite vir.",
   "press.intro": "Posnetke zaslona, zemljevide, grafe, videoposnetke, besedila in podatke s tega spletnega mesta lahko prosto uporabljate pod licenco CC BY 4.0, v tisku, na radiu in televiziji ter na spletu, tudi v komercialne namene. Navedite le vir; nič drugega ni treba.",
   "press.creditLabel": "Navedba vira",
-  "press.creditLine": "Vir: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Vir: droneincidents.eu",
   "press.copy": "Kopiraj",
   "press.copied": "Kopirano",
   "press.copyManual": "Izbrano. Kopirajte s Ctrl+C ali ⌘C",

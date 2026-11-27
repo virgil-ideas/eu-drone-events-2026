@@ -291,7 +291,7 @@
   "press.title": "Alles frei nutzbar. Nur die Quelle nennen.",
   "press.intro": "Screenshots, Karten, Diagramme, Videos, Texte und Daten dieser Website dürfen unter CC BY 4.0 frei verwendet werden – gedruckt, im Rundfunk und online, auch kommerziell. Nennen Sie die Quelle; mehr ist nicht nötig.",
   "press.creditLabel": "Quellenangabe",
-  "press.creditLine": "Quelle: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Quelle: droneincidents.eu",
   "press.copy": "Kopieren",
   "press.copied": "Kopiert",
   "press.copyManual": "Markiert. Mit Ctrl+C oder ⌘C kopieren",

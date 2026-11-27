@@ -291,7 +291,7 @@
   "press.title": "Använd vad du vill. Ange bara källan.",
   "press.intro": "Skärmdumpar, kartor, diagram, videor, texter och data från den här webbplatsen får användas fritt under CC BY 4.0, i tryck, i radio och tv och på nätet, även kommersiellt. Ange källan; mer behövs inte.",
   "press.creditLabel": "Källangivelse",
-  "press.creditLine": "Källa: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Källa: droneincidents.eu",
   "press.copy": "Kopiera",
   "press.copied": "Kopierat",
   "press.copyManual": "Markerat. Kopiera med Ctrl+C eller ⌘C",

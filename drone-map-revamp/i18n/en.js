@@ -293,7 +293,7 @@
   "press.title": "Use anything. Just credit the source.",
   "press.intro": "Screenshots, maps, charts, videos, texts and data from this site are free to use under CC BY 4.0, in print, on air and online, commercial use included. Name the source; nothing more is needed.",
   "press.creditLabel": "Credit line",
-  "press.creditLine": "Source: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Source: droneincidents.eu",
   "press.copy": "Copy",
   "press.copied": "Copied",
   "press.copyManual": "Selected. Copy it with Ctrl+C or ⌘C",

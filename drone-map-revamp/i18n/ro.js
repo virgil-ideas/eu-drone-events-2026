@@ -291,7 +291,7 @@
   "press.title": "Folosiți orice. Menționați doar sursa.",
   "press.intro": "Capturile de ecran, hărțile, graficele, videoclipurile, textele și datele de pe acest site pot fi folosite liber sub licența CC BY 4.0, în presa tipărită, în audiovizual și online, inclusiv în scop comercial. Menționați sursa; nu este nevoie de nimic altceva.",
   "press.creditLabel": "Mențiunea sursei",
-  "press.creditLine": "Sursa: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Sursa: droneincidents.eu",
   "press.copy": "Copiază",
   "press.copied": "Copiat",
   "press.copyManual": "Selectat. Copiați cu Ctrl+C sau ⌘C",

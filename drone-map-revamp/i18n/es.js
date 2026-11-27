@@ -291,7 +291,7 @@
   "press.title": "Use lo que quiera. Basta con citar la fuente.",
   "press.intro": "Las capturas de pantalla, los mapas, los gráficos, los vídeos, los textos y los datos de este sitio pueden usarse libremente con la licencia CC BY 4.0, en papel, en radio y televisión y en internet, también con fines comerciales. Solo hay que citar la fuente; no hace falta nada más.",
   "press.creditLabel": "Crédito",
-  "press.creditLine": "Fuente: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Fuente: droneincidents.eu",
   "press.copy": "Copiar",
   "press.copied": "Copiado",
   "press.copyManual": "Seleccionado. Cópielo con Ctrl+C o ⌘C",

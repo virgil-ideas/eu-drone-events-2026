@@ -291,7 +291,7 @@
   "press.title": "Použite čokoľvek. Stačí uviesť zdroj.",
   "press.intro": "Snímky obrazovky, mapy, grafy, videá, texty a údaje z tejto stránky môžete voľne používať podľa licencie CC BY 4.0 – v tlači, vo vysielaní aj online, a to aj na komerčné účely. Stačí uviesť zdroj; nič viac netreba.",
   "press.creditLabel": "Uvedenie zdroja",
-  "press.creditLine": "Zdroj: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Zdroj: droneincidents.eu",
   "press.copy": "Kopírovať",
   "press.copied": "Skopírované",
   "press.copyManual": "Označené. Skopírujte pomocou Ctrl+C alebo ⌘C",

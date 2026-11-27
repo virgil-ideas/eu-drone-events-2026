@@ -291,7 +291,7 @@
   "press.title": "Käytä vapaasti. Mainitse vain lähde.",
   "press.intro": "Sivuston kuvakaappauksia, karttoja, kaavioita, videoita, tekstejä ja aineistoa saa käyttää vapaasti CC BY 4.0 -lisenssillä painetussa mediassa, radiossa ja televisiossa sekä verkossa, myös kaupallisesti. Mainitse lähde; muuta ei tarvita.",
   "press.creditLabel": "Lähdeviite",
-  "press.creditLine": "Lähde: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Lähde: droneincidents.eu",
   "press.copy": "Kopioi",
   "press.copied": "Kopioitu",
   "press.copyManual": "Valittu. Kopioi näppäimillä Ctrl+C tai ⌘C",

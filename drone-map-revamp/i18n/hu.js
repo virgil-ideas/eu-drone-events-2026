@@ -291,7 +291,7 @@
   "press.title": "Bármit felhasználhat. Csak a forrást tüntesse fel.",
   "press.intro": "Az oldal képernyőképei, térképei, diagramjai, videói, szövegei és adatai a CC BY 4.0 licenc alapján szabadon felhasználhatók nyomtatásban, rádióban, tévében és online, akár kereskedelmi célra is. Csak a forrást kell megnevezni, más feltétel nincs.",
   "press.creditLabel": "Forrásmegjelölés",
-  "press.creditLine": "Forrás: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Forrás: droneincidents.eu",
   "press.copy": "Másolás",
   "press.copied": "Másolva",
   "press.copyManual": "Kijelölve. Másolás: Ctrl+C vagy ⌘C",

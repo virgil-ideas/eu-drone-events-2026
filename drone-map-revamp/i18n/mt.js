@@ -291,7 +291,7 @@
   "press.title": "Uża kollox liberament. Semmi biss is-sors.",
   "press.intro": "Ritratti tal-iskrin, mapep, grafiċi, vidjows, testi u data minn dan is-sit jistgħu jintużaw liberament taħt CC BY 4.0, fl-istampa, fuq l-arja u online, anki għal użu kummerċjali. Semmi s-sors; m’hemm bżonn xejn aktar.",
   "press.creditLabel": "Attribuzzjoni",
-  "press.creditLine": "Sors: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Sors: droneincidents.eu",
   "press.copy": "Ikkopja",
   "press.copied": "Ikkupjat",
   "press.copyManual": "Magħżul. Ikkopjah b’Ctrl+C jew ⌘C",

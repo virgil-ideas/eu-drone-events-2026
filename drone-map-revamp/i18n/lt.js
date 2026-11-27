@@ -291,7 +291,7 @@
   "press.title": "Naudokite viską laisvai. Tik nurodykite šaltinį.",
   "press.intro": "Šios svetainės ekrano kopijas, žemėlapius, diagramas, vaizdo įrašus, tekstus ir duomenis galima laisvai naudoti pagal CC BY 4.0 licenciją spaudoje, eteryje ir internete, taip pat ir komerciniais tikslais. Pakanka nurodyti šaltinį – daugiau nieko nereikia.",
   "press.creditLabel": "Šaltinio nuoroda",
-  "press.creditLine": "Šaltinis: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Šaltinis: droneincidents.eu",
   "press.copy": "Kopijuoti",
   "press.copied": "Nukopijuota",
   "press.copyManual": "Pažymėta. Nukopijuokite paspaudę Ctrl+C arba ⌘C",

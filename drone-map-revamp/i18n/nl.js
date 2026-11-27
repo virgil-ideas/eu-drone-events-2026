@@ -291,7 +291,7 @@
   "press.title": "Gebruik alles vrij. Vermeld alleen de bron.",
   "press.intro": "Schermafbeeldingen, kaarten, grafieken, video’s, teksten en gegevens van deze site mag u vrij gebruiken onder CC BY 4.0, in print, op radio en tv en online, ook commercieel. Vermeld de bron; meer is niet nodig.",
   "press.creditLabel": "Bronvermelding",
-  "press.creditLine": "Bron: droneincidents.eu (CC BY 4.0)",
+  "press.creditLine": "Bron: droneincidents.eu",
   "press.copy": "Kopiëren",
   "press.copied": "Gekopieerd",
   "press.copyManual": "Geselecteerd. Kopieer met Ctrl+C of ⌘C",
