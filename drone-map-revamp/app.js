@@ -2539,7 +2539,7 @@
               ${['square', 'story'].map(name => `<button type="button" data-share-format="${name}" aria-pressed="${shareFormat === name}">${escape(t(`charts.share.${name}`))}</button>`).join('')}
             </div>
           </div>
-          <button type="button" id="share-download" class="share-download">${escape(t('charts.share.download'))}</button>
+          <button type="button" id="share-download" class="share-download" disabled>${escape(t('charts.share.download'))}</button>
         </div>
         <div class="share-preview" data-format="${shareFormat}"><canvas id="share-canvas" role="img"></canvas></div>
       </div>
@@ -2597,17 +2597,25 @@
   let shareDrawToken = 0;
   async function renderShareCard() {
     const canvas = $('share-canvas');
-    if (!canvas) return;
+    const download = $('share-download');
+    if (!canvas || !download) return;
+    download.disabled = true;
     const token = ++shareDrawToken;
     const model = shareCardModel();
     const scratch = document.createElement('canvas');
-    await CHARTS.drawShareCard(scratch, model);
+    try {
+      await CHARTS.drawShareCard(scratch, model);
+    } catch (error) {
+      console.error('Share card rendering failed', error);
+      return;
+    }
     if (token !== shareDrawToken) return;
     canvas.width = scratch.width;
     canvas.height = scratch.height;
     canvas.getContext('2d').drawImage(scratch, 0, 0);
     canvas.setAttribute('aria-label', `${model.eyebrow}: ${model.value} ${model.label}. ${model.detail}`);
     canvas.parentElement.dataset.format = model.format;
+    download.disabled = false;
   }
 
   function showChartRecordsOnMap({day, month, country, event}) {
@@ -3018,8 +3026,10 @@
       return;
     }
     if (event.target.closest('#share-download')) {
+      if ($('share-download').disabled) return;
       const canvas = $('share-canvas');
-      canvas.toBlob(blob => blob && downloadBlob(blob, `droneincidents-eu-${scopeSlug()}-${$('share-period').value === 'year' ? dataYear : $('share-period').value}-${shareFormat}.png`), 'image/png');
+      const filename = `droneincidents-eu-${scopeSlug()}-${$('share-period').value === 'year' ? dataYear : $('share-period').value}-${shareFormat}.png`;
+      canvas.toBlob(blob => blob && downloadBlob(blob, filename), 'image/png');
       return;
     }
     const target = event.target.closest('.hit');
