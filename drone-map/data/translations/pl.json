@@ -2531,5 +2531,69 @@
       "Wojsko nie zidentyfikowało operatora, pochodzenia ani celu drona i nie zgłosiło zestrzelenia."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Ostrzeżenie o zagrożeniu z powietrza na południu Estonii",
+    "description": "27 listopada Estonia ostrzegła sześć południowych okręgów. Nie potwierdzono wtargnięcia drona.",
+    "summary": [
+      "Ostrzeżenie wydano o 06:41 EET, a odwołano o 07:22 w aplikacjach i o 07:23 przez SMS."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Poranny komunikat RO-Alert na północy okręgu Tulcza",
+    "description": "Niezidentyfikowany cel radarowy wywołał 27 listopada ostrzeżenie na północy okręgu Tulcza. Nie potwierdzono wtargnięcia.",
+    "summary": [
+      "Ostrzeżenie obowiązywało od 10:32 do 11:10 EET. Rumunia podała, że cel radarowy znajdował się na północny wschód od Wiłkowa w Ukrainie."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Dron przemytniczy odzyskany w rejonie Sabaliūnai",
+    "description": "Litewscy strażnicy graniczni zgłosili drona z Białorusi w rejonie Sabaliūnai i zajęli ładunek papierosów.",
+    "summary": [
+      "Strażnicy odzyskali drona i zajęli 1 000 związanych z nim paczek papierosów."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Dron przemytniczy odzyskany w rejonie lasu Švedų",
+    "description": "Litewscy strażnicy graniczni zgłosili drona z Białorusi w rejonie lasu Švedų i zajęli ładunek papierosów.",
+    "summary": [
+      "Strażnicy odzyskali drona i zajęli 240 związanych z nim paczek papierosów."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Morze Egejskie: zgłoszona aktywność dronów 25 sierpnia",
+    "description": "Grecki raport dzienny wymienił 4 dronów w dniu 25 sierpnia.",
+    "summary": [
+      "Raport wymienia 3 naruszeń krajowej przestrzeni powietrznej oraz osobno 8 naruszeń przepisów w FIR Ateny przypisanych dronom."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Morze Egejskie: zgłoszona aktywność dronów 26 sierpnia",
+    "description": "Grecki raport dzienny wymienił 5 dronów w dniu 26 sierpnia.",
+    "summary": [
+      "Raport wymienia 6 naruszeń krajowej przestrzeni powietrznej oraz osobno 7 naruszeń przepisów w FIR Ateny przypisanych dronom."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Morze Egejskie: zgłoszona aktywność dronów 29 sierpnia",
+    "description": "Grecki raport dzienny wymienił 2 dronów w dniu 29 sierpnia.",
+    "summary": [
+      "Raport wymienia 2 naruszeń krajowej przestrzeni powietrznej oraz osobno 2 naruszeń przepisów w FIR Ateny przypisanych dronom."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Morze Egejskie: zgłoszona aktywność dronów 27 listopada",
+    "description": "Grecki raport dzienny wymienił 7 dronów w dniu 27 listopada.",
+    "summary": [
+      "Raport wymienia 5 naruszeń krajowej przestrzeni powietrznej oraz osobno 10 naruszeń przepisów w FIR Ateny przypisanych dronom."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

@@ -177,6 +177,50 @@ window.DRONE_DATA = {
       "page": "events/2026-01-28-small-drone-falls-przasnysz-military-base-poland/"
     },
     {
+      "id": "N217",
+      "title": "Sabaliūnai · smuggling drone",
+      "recordClass": "event",
+      "recordType": "cross_border_seizure",
+      "startDate": "2026-02-18",
+      "endDate": "2026-02-19",
+      "dateLabel": "2026-02-18 to 2026-02-19",
+      "dateBasis": "Friday 20 February release refers to Wednesday night; midnight boundary unspecified.",
+      "countries": "Lithuania",
+      "location": "Sabaliūnai area, Šalčininkai district",
+      "status": "Officially reported cross-border smuggling drone",
+      "categories": "Cross-border entry; interception and recovery; cargo seizure",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Šalčininkai district — broad regional reference"
+        }
+      ],
+      "positionNote": "Broad district anchor only, not a crossing, route or recovery location.",
+      "vehicle": "One homemade four-propeller aircraft was recovered.",
+      "attribution": "Lithuanian border service describes criminal smuggling; state sponsorship is not established.",
+      "route": "VSAT reported entry from Belarus into Lithuania; exact track not mapped.",
+      "circumstances": "On Wednesday night border guards near Sabaliūnai intercepted one reported inbound smuggling drone and recovered its attached cargo.",
+      "payload": "1,000 packs of Belarus-stamped cigarettes associated with the recovered drone.",
+      "impact": "No injury or third-party damage reported.",
+      "response": "One aircraft recovered; an additional 1,000 packs were seized in a separate search in the same case.",
+      "uncertainty": "Operator nationality and state links not established.",
+      "deduplication": "One reported crossing and recovery. Another detection does not establish another crossing.",
+      "provenance": "Lithuanian border authority release reviewed directly on 28 November.",
+      "classificationNote": "Criminal smuggling interception, not a military attack or an established kinetic shoot-down.",
+      "sourceReferences": "[U505][U505]",
+      "sources": [
+        "U505"
+      ],
+      "page": "events/2026-02-18-smuggling-drone-sabaliunai-lithuania/"
+    },
+    {
       "id": "N005",
       "importAction": "ADD_EVENT",
       "recordType": "cross_border_seizure",
@@ -436,6 +480,50 @@ window.DRONE_DATA = {
       "recordClass": "event",
       "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
       "page": "events/2026-03-23-drone-crash-lake-lavysas-varena-lithuania/"
+    },
+    {
+      "id": "N218",
+      "title": "Švedų forest · smuggling drone",
+      "recordClass": "event",
+      "recordType": "cross_border_seizure",
+      "startDate": "2026-03-24",
+      "endDate": "2026-03-25",
+      "dateLabel": "2026-03-24 to 2026-03-25",
+      "dateBasis": "Tuesday–Wednesday night per 26 March VSAT release; recovery after dawn on Wednesday.",
+      "countries": "Lithuania",
+      "location": "Švedų forest area, Šalčininkai district",
+      "status": "Officially reported cross-border smuggling drone",
+      "categories": "Cross-border entry; interception and recovery; cargo seizure",
+      "category": "flight",
+      "stages": [
+        "flight",
+        "recovery"
+      ],
+      "positions": [
+        {
+          "lat": 54.29,
+          "lng": 25.39,
+          "precision": "region",
+          "label": "Šalčininkai district — broad regional reference"
+        }
+      ],
+      "positionNote": "Broad district anchor only, not a crossing, route or recovery location.",
+      "vehicle": "One fixed-wing vertical takeoff and landing aircraft.",
+      "attribution": "Lithuanian border service describes criminal smuggling; state sponsorship is not established.",
+      "route": "VSAT reported entry from Belarus into Lithuania; exact track not mapped.",
+      "circumstances": "Guards reported entry from Belarus in the Švedų forest area, followed by a descent after intervention.",
+      "payload": "240 packs of Belarus-stamped cigarettes associated with the recovered drone.",
+      "impact": "No injury or third-party damage reported.",
+      "response": "Search resumed at dawn. Guards found 240 packs near Lobas and recovered the damaged aircraft in the same operation.",
+      "uncertainty": "Operator nationality and state links not established.",
+      "deduplication": "One entry, intervention and recovery; distinct from the 25 March Baltic military-drone incidents.",
+      "provenance": "Lithuanian border authority release reviewed directly on 28 November.",
+      "classificationNote": "Criminal smuggling interception, not a military attack or an established kinetic shoot-down.",
+      "sourceReferences": "[U506][U506]",
+      "sources": [
+        "U506"
+      ],
+      "page": "events/2026-03-24-smuggling-drone-svedu-forest-lithuania/"
     },
     {
       "id": "E006",
@@ -3786,6 +3874,52 @@ window.DRONE_DATA = {
       "page": "events/2026-08-25-military-drone-wing-kamchia-bulgaria/"
     },
     {
+      "id": "N219",
+      "title": "Aegean · 25 August reported UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-08-25",
+      "dateLabel": "25 August 2026",
+      "dateBasis": "Greek local date in the dated daily table.",
+      "countries": "Greece",
+      "location": "Northeastern and southeastern Aegean",
+      "status": "Greek military daily figures reproduced in the press",
+      "categories": "Reported national-airspace violations and separate Athens FIR infringements",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 37.5,
+          "lng": 26.0,
+          "precision": "region",
+          "label": "Aegean — broad regional reference"
+        }
+      ],
+      "positionNote": "Broad reference, not an exact crossing location or flight path.",
+      "vehicle": "4 UAVs described as Turkish; models not established in the dated table.",
+      "attribution": "The Greek figures describe Turkish UAVs; the Greek–Turkish airspace dispute remains relevant.",
+      "route": "Not established.",
+      "circumstances": "The press reproduction lists 3 national-airspace violations and 8 Athens FIR infringements by UAVs. A manned CN-235 accounted for two additional FIR infringements, not counted here.",
+      "payload": "Not established.",
+      "impact": "No harm reported in the table.",
+      "response": "Greek daily reporting describes identification and interception; no damage established.",
+      "uncertainty": "Press reproduction of the Greek military figures, not independently established individual tracks or crossing locations.",
+      "deduplication": "One regional daily record; do not add or turn the reported figures into separate mapped incidents.",
+      "provenance": "Dated Greek table reviewed directly on 28 November.",
+      "classificationNote": "Regional daily flight report, not a confirmed attack or shoot-down.",
+      "reported_UAVs": 4,
+      "reported_airspace_violations": 3,
+      "reported_FIR_infractions": 8,
+      "sourceReferences": "[U507][U507]; [G0825][G0825]",
+      "sources": [
+        "U507",
+        "G0825"
+      ],
+      "page": "events/2026-08-25-reported-aegean-uav-activity-greece/"
+    },
+    {
       "id": "E052",
       "dateLabel": "2026-08-26",
       "dateBasis": "Discovery and disposal 26 August; Rador follow-up published 27 August; EEST",
@@ -4078,6 +4212,51 @@ window.DRONE_DATA = {
       "recordClass": "event",
       "sourceFile": "eu_foreign_drone_events_2026_consolidated.md",
       "page": "events/2026-08-26-drone-wing-burgas-north-beach-bulgaria/"
+    },
+    {
+      "id": "N220",
+      "title": "Aegean · 26 August reported UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-08-26",
+      "dateLabel": "26 August 2026",
+      "dateBasis": "Greek local date in the dated daily table.",
+      "countries": "Greece",
+      "location": "Northeastern, central and southeastern Aegean",
+      "status": "Greek military daily figures reproduced in the press",
+      "categories": "Reported national-airspace violations and separate Athens FIR infringements",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 37.5,
+          "lng": 26.0,
+          "precision": "region",
+          "label": "Aegean — broad regional reference"
+        }
+      ],
+      "positionNote": "Broad reference, not an exact crossing location or flight path.",
+      "vehicle": "5 UAVs described as Turkish; models not established in the dated table.",
+      "attribution": "The Greek figures describe Turkish UAVs; the Greek–Turkish airspace dispute remains relevant.",
+      "route": "Not established.",
+      "circumstances": "The press reproduction lists 6 national-airspace violations and 7 Athens FIR infringements by UAVs. A manned CN-235 accounted for seven additional national-airspace violations and one additional FIR infringement, not counted here.",
+      "payload": "Not established.",
+      "impact": "No harm reported in the table.",
+      "response": "Greek daily reporting describes identification and interception; no damage established.",
+      "uncertainty": "Press reproduction of the Greek military figures, not independently established individual tracks or crossing locations.",
+      "deduplication": "One regional daily record; do not add or turn the reported figures into separate mapped incidents.",
+      "provenance": "Dated Greek table reviewed directly on 28 November.",
+      "classificationNote": "Regional daily flight report, not a confirmed attack or shoot-down.",
+      "reported_UAVs": 5,
+      "reported_airspace_violations": 6,
+      "reported_FIR_infractions": 7,
+      "sourceReferences": "[G0826][G0826]",
+      "sources": [
+        "G0826"
+      ],
+      "page": "events/2026-08-26-reported-aegean-uav-activity-greece/"
     },
     {
       "id": "E053",
@@ -4464,6 +4643,52 @@ window.DRONE_DATA = {
       ],
       "matchKey": "GR::2026-08-28::northern-aegean-samothrace-lemnos-alexandroupoli-linked-encounter",
       "page": "events/2026-08-28-reported-turkish-uav-samothrace-lemnos-greece/"
+    },
+    {
+      "id": "N221",
+      "title": "Aegean · 29 August reported UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-08-29",
+      "dateLabel": "29 August 2026",
+      "dateBasis": "Greek local date in the dated daily table.",
+      "countries": "Greece",
+      "location": "Northeastern and central Aegean",
+      "status": "Greek military daily figures reproduced in the press",
+      "categories": "Reported national-airspace violations and separate Athens FIR infringements",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 37.5,
+          "lng": 26.0,
+          "precision": "region",
+          "label": "Aegean — broad regional reference"
+        }
+      ],
+      "positionNote": "Broad reference, not an exact crossing location or flight path.",
+      "vehicle": "2 UAVs described as Turkish; models not established in the dated table.",
+      "attribution": "The Greek figures describe Turkish UAVs; the Greek–Turkish airspace dispute remains relevant.",
+      "route": "Not established.",
+      "circumstances": "The press reproduction lists 2 national-airspace violations and 2 Athens FIR infringements by UAVs. The article described the aircraft as Turkish and reported interceptions.",
+      "payload": "Not established.",
+      "impact": "No harm reported in the table.",
+      "response": "Greek daily reporting describes identification and interception; no damage established.",
+      "uncertainty": "Press reproduction of the Greek military figures, not independently established individual tracks or crossing locations.",
+      "deduplication": "One regional daily record; do not add or turn the reported figures into separate mapped incidents.",
+      "provenance": "Dated Greek table reviewed directly on 28 November.",
+      "classificationNote": "Regional daily flight report, not a confirmed attack or shoot-down.",
+      "reported_UAVs": 2,
+      "reported_airspace_violations": 2,
+      "reported_FIR_infractions": 2,
+      "sourceReferences": "[U509][U509]; [G0829][G0829]",
+      "sources": [
+        "U509",
+        "G0829"
+      ],
+      "page": "events/2026-08-29-reported-aegean-uav-activity-greece/"
     },
     {
       "id": "E054",
@@ -10828,6 +11053,7 @@ window.DRONE_DATA = {
         "U447",
         "U488"
       ],
+      "casualties": true,
       "page": "events/2026-11-17-gas-husky-offshore-casualty-unconfirmed-drone-claim-bulgaria/"
     },
     {
@@ -11001,11 +11227,11 @@ window.DRONE_DATA = {
       "impact": "The Finnish Border Guard confirmed the crew was evacuated. Maritime operations director Jukka-Pekka Lumilahti reported one injured crew member at the 22 November briefing, superseding the earlier no-injury account. On 23 November Leningrad regional governor Alexander Drozdenko said the crew went ashore in St Petersburg at 20:00 Moscow time and claimed no injuries. The accounts differ; injury severity was not given in the Finnish briefing coverage.",
       "casualties": true,
       "response": "Finland led the maritime rescue with Estonian assistance. The Gulf of Finland Coast Guard confirmed the crew evacuated to KAPITAN SAKHAROV. The Border Guard reported continued firefighting after suppression of visible flames and no oil observed as of its 22 November briefing. Helsinki ended precautionary oil-spill standby separately. By later on 22 November Finland confirmed the tow had left its EEZ and environmental-response area, ended its mission and lifted temporary restrictions. Svenska Yle reported that Russia assumed maritime rescue responsibility. On 23 November Drozdenko said SPARTA II reached St Petersburg afloat with its cargo, without giving the ship’s arrival time. Separately, Finland’s National Enforcement Authority said it assessed the ship as belonging to an EU-sanctioned company and imposed an interim transfer restriction after entry to Finnish territorial waters on 21 November, with rescue, safety and environmental exceptions.",
-      "uncertainty": "Zelenskyy claimed Russian territorial waters; ERR reported Estonia’s EEZ; Finland’s military described international waters and a Border Guard officer cited Russian territorial waters. Exact impact point, cargo and final legal disposition are unverified. No established link to separate alerts or the suspected manned helicopter episode.",
+      "uncertainty": "Zelenskyy claimed Russian territorial waters; ERR reported Estonia’s EEZ; Finland’s military described international waters and a Border Guard officer cited Russian territorial waters. Exact impact point, cargo and final legal disposition are unverified. No established link to separate alerts or the suspected manned helicopter episode. On 24 November a Finnish Border Guard officer told Svenska Yle that authorities found no physical evidence in the water around the ship, did not board it and did not interview the crew.",
       "deduplication": "One vessel strike and its subsequent rescue. Neither the ship’s drift nor the crew’s evacuation is a second strike or a drone incursion.",
       "provenance": "Reviewed against Finnish and Estonian official accounts and interviews and reporting by Reuters and Yle. Casualty and rescue account updated after the Finnish Border Guard’s 22 November briefing. Later 22 November response developments reviewed 23 November. Coast Guard week 47 bulletin and Finnish enforcement disclosure reviewed, alongside the regional governor’s arrival account as also reported by Reuters.",
       "classificationNote": "Offshore reported strike with subsequent Finnish maritime response, not a verified EU territorial drone incursion.",
-      "sourceReferences": "[U413][U413]; [U414][U414]; [U415][U415]; [U416][U416]; [U417][U417]; [U422][U422]; [U428][U428]; [U430][U430]; [U431][U431]; [U432][U432]; [U442][U442]; [U443][U443]; [U444][U444]; [U445][U445]; [U446][U446]; [U463][U463]; [U464][U464]; [U465][U465]",
+      "sourceReferences": "[U413][U413]; [U414][U414]; [U415][U415]; [U416][U416]; [U417][U417]; [U422][U422]; [U428][U428]; [U430][U430]; [U431][U431]; [U432][U432]; [U442][U442]; [U443][U443]; [U444][U444]; [U445][U445]; [U446][U446]; [U463][U463]; [U464][U464]; [U465][U465]; [U512][U512]",
       "sources": [
         "U413",
         "U414",
@@ -11024,7 +11250,8 @@ window.DRONE_DATA = {
         "U446",
         "U463",
         "U464",
-        "U465"
+        "U465",
+        "U512"
       ],
       "page": "events/2026-11-21-sparta-ii-reported-drone-strike-gulf-of-finland/"
     },
@@ -11643,6 +11870,137 @@ window.DRONE_DATA = {
       "dateBasis": "27 November EET. The first warning at 02:30 and the all-clears are civil-warning times, not exact crossing times.",
       "classificationNote": "Confirmed brief incursion; unknown intent and operator.",
       "page": "events/2026-11-27-ludza-brief-drone-incursion-latvia/"
+    },
+    {
+      "id": "N215",
+      "title": "Southern Estonia · EE-ALARM",
+      "recordClass": "event",
+      "recordType": "selected_civil_protection_alert",
+      "startDate": "2026-11-27",
+      "dateLabel": "27 November 2026",
+      "dateBasis": "06:41 EET warning, 07:22 app and 07:23 SMS all-clear. Civil-warning times, not crossing times.",
+      "countries": "Estonia",
+      "location": "Tartu, Jõgeva, Viljandi, Valga, Võru and Põlva counties",
+      "status": "Selected civil-protection warning; crossing not established",
+      "categories": "Selected civil-protection alert",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 58.1,
+          "lng": 26.55,
+          "precision": "region",
+          "label": "Southern Estonia — broad warning area"
+        }
+      ],
+      "positionNote": "Broad warning-area reference, not a detection point or flight path.",
+      "vehicle": "Possible threat; aircraft not identified within warning area.",
+      "attribution": "Origin, operator and intended target not established.",
+      "route": "No verified cross-border track.",
+      "circumstances": "The Estonian Defence Forces issued a possible air-threat warning across six counties. ERR quoted the military on drone movement near borders.",
+      "payload": "Not established.",
+      "impact": "No harm or territorial drone incursion established in the reviewed reports.",
+      "response": "EE-ALARM sent an all-clear by app and SMS; ERR reported NATO air-policing fighters were dispatched.",
+      "uncertainty": "The warning does not establish a drone incursion.",
+      "deduplication": "One warning and cancellation; no established link to Latvia’s Ludza incursion.",
+      "provenance": "Full public notice or authority wording reviewed on 28 November.",
+      "classificationNote": "Selected warning, not a confirmed crossing or attack.",
+      "sourceReferences": "[U501][U501]; [U502][U502]",
+      "sources": [
+        "U501",
+        "U502"
+      ],
+      "page": "events/2026-11-27-southern-estonia-air-threat-warning/"
+    },
+    {
+      "id": "N216",
+      "title": "Northern Tulcea · 27 November morning RO-Alert",
+      "recordClass": "event",
+      "recordType": "selected_civil_protection_alert",
+      "startDate": "2026-11-27",
+      "dateLabel": "27 November 2026",
+      "dateBasis": "10:32 EET warning; 11:10 EET all-clear. Civil-warning times, not crossing times.",
+      "countries": "Romania",
+      "location": "Northern Tulcea County warning area and reported radar target northeast of Vâlcove, Ukraine",
+      "status": "Selected civil-protection warning; crossing not established",
+      "categories": "Selected civil-protection alert",
+      "category": "alert",
+      "stages": [
+        "alert"
+      ],
+      "positions": [
+        {
+          "lat": 45.17,
+          "lng": 29.15,
+          "precision": "region",
+          "label": "Northern Tulcea — broad warning area"
+        }
+      ],
+      "positionNote": "Broad warning-area reference, not a detection point or flight path.",
+      "vehicle": "Possible threat; aircraft not identified within warning area.",
+      "attribution": "Origin, operator and intended target not established.",
+      "route": "No verified cross-border track.",
+      "circumstances": "The defence ministry reported a radar target northeast of Vâlcove and notified civil-protection authorities. The alert warned of a possible drone incursion.",
+      "payload": "Not established.",
+      "impact": "No harm or territorial drone incursion established in the reviewed reports.",
+      "response": "A RO-Alert was issued at 10:32 EET; the ministry gave 11:10 as the end.",
+      "uncertainty": "The warning does not establish a drone incursion.",
+      "deduplication": "One warning and all-clear, distinct from N212 the prior evening.",
+      "provenance": "Full public notice or authority wording reviewed on 28 November.",
+      "classificationNote": "Selected warning, not a confirmed crossing or attack.",
+      "sourceReferences": "[U503][U503]; [U504][U504]",
+      "sources": [
+        "U503",
+        "U504"
+      ],
+      "page": "events/2026-11-27-northern-tulcea-morning-ro-alert-romania/"
+    },
+    {
+      "id": "N222",
+      "title": "Aegean · 27 November reported UAV activity",
+      "recordClass": "event",
+      "recordType": "reported_foreign_uav_activity",
+      "startDate": "2026-11-27",
+      "dateLabel": "27 November 2026",
+      "dateBasis": "Greek local date in the dated report.",
+      "countries": "Greece",
+      "location": "Northeastern and southeastern Aegean, per Greek daily reporting.",
+      "status": "Greek military daily figures reproduced in the press",
+      "categories": "Reported national-airspace violations and separate Athens FIR infringements",
+      "category": "flight",
+      "stages": [
+        "flight"
+      ],
+      "positions": [
+        {
+          "lat": 37.5,
+          "lng": 26.0,
+          "precision": "region",
+          "label": "Aegean — broad regional reference"
+        }
+      ],
+      "positionNote": "Broad reference, not an exact crossing location or flight path.",
+      "vehicle": "Seven UAVs described as Turkish; models not reported.",
+      "attribution": "The Greek figures describe Turkish UAVs; the Greek–Turkish airspace dispute remains relevant.",
+      "route": "Not established.",
+      "circumstances": "Veteranos says the Greek military listed seven Turkish UAVs, five national-airspace violations and ten separate Athens FIR infringements. No other aircraft type was listed.",
+      "payload": "Not established.",
+      "impact": "No harm reported in the article.",
+      "response": "Greek reporting says the aircraft were identified and intercepted. No evidence of a kinetic engagement.",
+      "uncertainty": "Press reproduction of the Greek military figures, not independently established individual tracks or crossing locations.",
+      "deduplication": "One regional daily record; do not add or turn the reported figures into separate mapped incidents.",
+      "provenance": "Dated Greek table reviewed directly on 28 November.",
+      "classificationNote": "Regional daily flight report, not a confirmed attack or shoot-down.",
+      "reported_UAVs": 7,
+      "reported_airspace_violations": 5,
+      "reported_FIR_infractions": 10,
+      "sourceReferences": "[U511][U511]",
+      "sources": [
+        "U511"
+      ],
+      "page": "events/2026-11-27-reported-aegean-uav-activity-greece/"
     }
   ],
   "contexts": [
@@ -11829,12 +12187,13 @@ window.DRONE_DATA = {
       "vehicle": "Cyprus alleged 626 mixed airspace/FIR violations, including 203 involving Turkish military UAVs; another 33 maritime violations were reported separately.",
       "status": "Cypriot aggregate allegations — NOT additive or independently UN verified",
       "attribution": "Turkish military involvement as alleged by Cyprus's permanent representative; circulation by the UN is not UN verification. In a 2 November letter transmitted by Türkiye, Turkish Cypriot representative Murat Soysal rejected Cyprus’s airspace and jurisdiction allegations.",
-      "uncertainty": "Underlying individual annex entries were not obtained or extracted. The mixed airspace/FIR categories do not establish 203 distinct UAVs or 203 independently verified sovereign-airspace incursions. The rebuttal does not give an incident-by-incident account of the UAV tally.",
+      "uncertainty": "A Greek reproduction gives UAV subtotals of 100 in annex I and 103 in annex II. The reproduction repeats June in the second heading and the English annex was not obtained; no definitive monthly split or individual dates and tracks are established. The 203 mixed airspace/FIR allegations are not unique UAVs or independently verified sovereign-airspace incursions. The rebuttal does not provide an incident-by-incident tally.",
       "deduplication": "Different period from NA002; may overlap NA003. These mixed-category totals are not additional drone events. October publication does not date the flights to October.",
-      "sourceReferences": "[U090][U090]; [U399][U399]",
+      "sourceReferences": "[U090][U090]; [U399][U399]; [U510][U510]",
       "sources": [
         "U090",
-        "U399"
+        "U399",
+        "U510"
       ],
       "provenance": "Added from the CNA report published 12 October and read 19 October 2026."
     },
@@ -16200,7 +16559,7 @@ window.DRONE_DATA = {
       "id": "U428",
       "publisher": "Yle, reporting the Finnish Border Guard briefing",
       "title": "Finnish Border Guard briefing on the SPARTA II rescue",
-      "url": "https://yle.fi/a/74-20258284/64-3-313949",
+      "url": "https://yle.fi/a/74-20258284/64-3-313947",
       "dateLabel": "22 November 2026",
       "audit": "Maritime operations director Jukka-Pekka Lumilahti reported one crew member injured, superseding the earlier no-injury account. The briefing reported continued firefighting after visible flames were suppressed, tow preparations, and no oil observed at sea as of the briefing. This is not a final casualty, tow or pollution assessment."
     },
@@ -16779,6 +17138,94 @@ window.DRONE_DATA = {
       "url": "https://www.gov.pl/web/po-lublin/podsumowanie-dotychczasowych-czynnosci-oraz-zamierzenia-sledztwa-w-sprawie-ujawnienia-szczatkow-pociskow-manewrujacych-ch-101",
       "dateLabel": "23 November 2026",
       "audit": "One investigation across three recovery sites. Site identification is preliminary; expert and laboratory work identified as next steps."
+    },
+    "U501": {
+      "id": "U501",
+      "publisher": "Estonian Rescue Board / EE-ALARM",
+      "title": "South Estonia warning and cancellation",
+      "url": "https://www.olevalmis.ee/ohuteavitused/ee-alarm-600/",
+      "dateLabel": "27 November 2026",
+      "audit": "Dated 06:41 EET warning for six counties, all-clear 07:22 in apps and 07:23 by SMS; these are notice times. Rolling feed may change."
+    },
+    "U502": {
+      "id": "U502",
+      "publisher": "ERR, quoting Estonian Defence Forces",
+      "title": "Air threat warning across southern Estonia",
+      "url": "https://news.err.ee/1610208679/potential-air-threat-alert-warning-issued-across-south-estonia",
+      "dateLabel": "27 November 2026",
+      "audit": "Reports drone movement near the border and NATO fighters dispatched; neither this account nor EE-ALARM establishes a crossing."
+    },
+    "U503": {
+      "id": "U503",
+      "publisher": "News.ro, reproducing MApN and ISU wording",
+      "title": "Northern Tulcea possible-drone RO-Alert",
+      "url": "https://www.news.ro/social/update-mesaj-ro-alert-pentru-nordul-judetului-tulcea-locuitorii-avertizati-privind-o-posibila-incursiune-de-drone-precizarile-mapn-1922403927002026111023014067",
+      "dateLabel": "27 November 2026",
+      "audit": "Authority quotes: radar target northeast of Vâlcove, alert 10:32–11:10 EET; not a confirmed crossing or identification."
+    },
+    "U504": {
+      "id": "U504",
+      "publisher": "HotNews.ro, citing MApN and ISU",
+      "title": "Romanian authorities confirm 27 November Tulcea warning times",
+      "url": "https://hotnews.ro/alerta-aeriana-in-tulcea-locuitorii-au-primit-mesaj-ro-alert-2415521",
+      "dateLabel": "27 November 2026",
+      "audit": "Corroborates the warning timeline and reported radar detection. Headline phrasing does not establish that the target was a drone."
+    },
+    "U505": {
+      "id": "U505",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Sabaliūnai smuggling drone intercepted",
+      "url": "https://vsat.lrv.lt/lt/naujienos/prie-baltarusijos-sienos-perimtas-dronas-su-cigaretemis-sulaikyti-trys-su-jomis-susije-asmenys-foto-2Va/",
+      "dateLabel": "20 February 2026",
+      "audit": "One recovered cross-border aircraft with 1,000 packs; another 1,000 from a separate search in the same case. A further detection is not a second established crossing."
+    },
+    "U506": {
+      "id": "U506",
+      "publisher": "Lithuanian State Border Guard Service (VSAT)",
+      "title": "Švedų forest cross-border aircraft recovered",
+      "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciai-nutupde-dar-viena-is-baltarusijos-rukalus-skraidinusi-orlaivi-foto-R3W/",
+      "dateLabel": "26 March 2026",
+      "audit": "Tuesday–Wednesday night, 24–25 March. One cross-border fixed-wing aircraft and 240 packs seized after a search. Criminal case, not evidence of state action."
+    },
+    "U507": {
+      "id": "U507",
+      "publisher": "Dedomeno, reproducing Greek daily figures",
+      "title": "Aegean daily air activity, 25 August",
+      "url": "https://www.dedomeno.gr/ellada/789183/toyrkiki-proklisi-sto-aigaio-me-tessera-uav-deka-paravaseis-sto-fir-athinon/",
+      "dateLabel": "25 August 2026",
+      "audit": "Dated table gives four UAVs, three national-airspace violations and eight UAV-related FIR infringements; two further FIR infringements were attributed to a manned CN-235."
+    },
+    "U509": {
+      "id": "U509",
+      "publisher": "Veteranos, reproducing Greek daily figures",
+      "title": "Aegean daily air activity, 29 August",
+      "url": "https://veteranos.gr/anachaitistikan-dyo-tourkika-uav-sto-aigaio-dyo-paraviaseis-tou-ethnikou-enaeriou-chorou/",
+      "dateLabel": "29 August 2026",
+      "audit": "Dated table labels two UAVs, two national-airspace violations and two separate Athens FIR infringements."
+    },
+    "U510": {
+      "id": "U510",
+      "publisher": "Militaire.gr, Greek reproduction of Cyprus’s UN-circulated submission",
+      "title": "Cyprus letter A/81/406–S/2026/772, annexes I and II",
+      "url": "https://www.militaire.gr/i-epistoli-tis-kyproy-ston-gg-toy-oie-gia-tis-tourkikes-paraviaseis-oso-emeis-vlepoyme-aeraki-sto-aigaio/",
+      "dateLabel": "October 2026; UN circulation 2 October",
+      "audit": "Reproduced annex I lists 44 TB-2, 45 ANKA, 2 AKINCI, 5 AKSUNGUR and 4 unknown (100); annex II lists 37, 54, 2, 3 and 7 (103). Second heading repeats June in the reproduction; the English original was not obtained, so no definitive month split."
+    },
+    "U511": {
+      "id": "U511",
+      "publisher": "Veteranos, citing Greek military figures",
+      "title": "Seven UAVs reported over the Aegean on 27 November",
+      "url": "https://veteranos.gr/tourkika-uav-sto-aigaio-5-paraviaseis-kai-10-paravaseis-apo-7-mi-epandromena-aeroskafi/",
+      "dateLabel": "27 November 2026",
+      "audit": "Dated story quotes Greek daily military figures of seven UAVs, five claimed national-airspace violations and ten separate Athens FIR infringements in the northeastern and southeastern Aegean. Identification and interception reported; no flight tracks provided."
+    },
+    "U512": {
+      "id": "U512",
+      "publisher": "Svenska Yle, quoting the Finnish Border Guard",
+      "title": "Finnish Border Guard reports no drone debris found around SPARTA II",
+      "url": "https://yle.fi/a/7-10109288",
+      "dateLabel": "24 November 2026",
+      "audit": "Border Guard officer Joni Sjöberg says authorities found no physical evidence in the surrounding water over the weekend, did not board the ship and did not interview the crew. This does not disprove the strike or resolve impact jurisdiction."
     }
   },
   "cutoff": "2026-11-27",

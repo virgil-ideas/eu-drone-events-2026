@@ -2531,5 +2531,69 @@
       "Oranžinis perspėjimas Ludzoje galiojo 02:30–02:55 EET. Geltonas perspėjimas Balviuose prasidėjo 02:55 ir baigėsi apie 03:30. Buvo aktyvuoti NATO naikintuvai, o Latvijos dronas perėmėjas buvo pakeltas ir grįžo.",
       "Kariuomenė nenurodė drono operatoriaus, kilmės ar taikinio ir apie numušimą nepranešė."
     ]
+  },
+  "N215": {
+    "headline": "Pietų Estijoje paskelbtas perspėjimas dėl oro grėsmės",
+    "description": "Lapkričio 27 d. Estija įspėjo šešias pietines apskritis. Drono įskridimas nepatvirtintas.",
+    "summary": [
+      "Perspėjimas paskelbtas 06:41 EET, o atšaukimas praneštas programėlėse 07:22 ir SMS žinute 07:23."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Tulčos apskrities šiaurėje ryte išsiųstas pranešimas „RO-Alert“",
+    "description": "Lapkričio 27 d. dėl neatpažinto radaro taikinio paskelbtas perspėjimas Tulčos apskrities šiaurėje. Įskridimas nepatvirtintas.",
+    "summary": [
+      "Perspėjimas galiojo nuo 10:32 iki 11:10 EET. Rumunija pranešė apie radaro taikinį į šiaurės rytus nuo Vilkovės Ukrainoje."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Kontrabandinis dronas rastas ties vietove „Sabaliūnai“",
+    "description": "Lietuvos pasieniečiai pranešė apie iš Baltarusijos atskridusį droną ties vietove „Sabaliūnai“ ir konfiskavo cigarečių krovinį.",
+    "summary": [
+      "Pasieniečiai rado droną ir konfiskavo 1 000 su juo susijusių cigarečių pakelių."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Kontrabandinis dronas rastas ties vietove „Švedų miškas“",
+    "description": "Lietuvos pasieniečiai pranešė apie iš Baltarusijos atskridusį droną ties vietove „Švedų miškas“ ir konfiskavo cigarečių krovinį.",
+    "summary": [
+      "Pasieniečiai rado droną ir konfiskavo 240 su juo susijusių cigarečių pakelių."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Egėjo jūra: rugpjūčio 25 d. pranešta apie dronų veiklą",
+    "description": "Graikijos dienos ataskaitoje rugpjūčio 25 d. nurodyti 4 dronai.",
+    "summary": [
+      "Ataskaitoje nurodyta, kad dronai 3 kartus pažeidė nacionalinę oro erdvę ir atskirai 8 kartus pažeidė Atėnų FIR taisykles."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Egėjo jūra: rugpjūčio 26 d. pranešta apie dronų veiklą",
+    "description": "Graikijos dienos ataskaitoje rugpjūčio 26 d. nurodyti 5 dronai.",
+    "summary": [
+      "Ataskaitoje nurodyta, kad dronai 6 kartus pažeidė nacionalinę oro erdvę ir atskirai 7 kartus pažeidė Atėnų FIR taisykles."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Egėjo jūra: rugpjūčio 29 d. pranešta apie dronų veiklą",
+    "description": "Graikijos dienos ataskaitoje rugpjūčio 29 d. nurodyti 2 dronai.",
+    "summary": [
+      "Ataskaitoje nurodyta, kad dronai 2 kartus pažeidė nacionalinę oro erdvę ir atskirai 2 kartus pažeidė Atėnų FIR taisykles."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Egėjo jūra: lapkričio 27 d. pranešta apie dronų veiklą",
+    "description": "Graikijos dienos ataskaitoje lapkričio 27 d. nurodyti 7 dronai.",
+    "summary": [
+      "Ataskaitoje nurodyta, kad dronai 5 kartus pažeidė nacionalinę oro erdvę ir atskirai 10 kartus pažeidė Atėnų FIR taisykles."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

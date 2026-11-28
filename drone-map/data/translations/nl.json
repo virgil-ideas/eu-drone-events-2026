@@ -2531,5 +2531,69 @@
       "Het leger identificeerde de operator, herkomst of het doelwit van de drone niet en meldde geen neerschieten."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Zuid-Estland waarschuwt voor luchtdreiging",
+    "description": "Estland waarschuwde op 27 november zes zuidelijke districten. Er is geen indringing door een drone bevestigd.",
+    "summary": [
+      "De waarschuwing begon om 06:41 EET en werd beëindigd om 07:22 in apps en om 07:23 per sms."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Noorden van Tulcea krijgt ’s ochtends een RO-Alert",
+    "description": "Een ongeïdentificeerd radardoel leidde op 27 november tot een waarschuwing in het noorden van Tulcea. Er is geen indringing bevestigd.",
+    "summary": [
+      "De waarschuwing gold van 10:32 tot 11:10 EET. Roemenië meldde een radardoel ten noordoosten van Vâlcove in Oekraïne."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Smokkeldrone aangetroffen bij Sabaliūnai",
+    "description": "Litouwse grenswachten meldden bij Sabaliūnai een drone uit Belarus en namen een lading sigaretten in beslag.",
+    "summary": [
+      "De grenswachten vonden de drone en namen 1 000 pakjes sigaretten in beslag die ermee in verband stonden."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Smokkeldrone aangetroffen bij het Švedų-bos",
+    "description": "Litouwse grenswachten meldden bij het Švedų-bos een drone uit Belarus en namen een lading sigaretten in beslag.",
+    "summary": [
+      "De grenswachten vonden de drone en namen 240 pakjes sigaretten in beslag die ermee in verband stonden."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Egeïsche Zee: gemelde droneactiviteit op 25 augustus",
+    "description": "Een Grieks dagrapport vermeldde 4 drones op 25 augustus.",
+    "summary": [
+      "Het rapport vermeldt 3 schendingen van het nationale luchtruim en apart 8 overtredingen van de regels in de FIR Athene door drones."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Egeïsche Zee: gemelde droneactiviteit op 26 augustus",
+    "description": "Een Grieks dagrapport vermeldde 5 drones op 26 augustus.",
+    "summary": [
+      "Het rapport vermeldt 6 schendingen van het nationale luchtruim en apart 7 overtredingen van de regels in de FIR Athene door drones."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Egeïsche Zee: gemelde droneactiviteit op 29 augustus",
+    "description": "Een Grieks dagrapport vermeldde 2 drones op 29 augustus.",
+    "summary": [
+      "Het rapport vermeldt 2 schendingen van het nationale luchtruim en apart 2 overtredingen van de regels in de FIR Athene door drones."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Egeïsche Zee: gemelde droneactiviteit op 27 november",
+    "description": "Een Grieks dagrapport vermeldde 7 drones op 27 november.",
+    "summary": [
+      "Het rapport vermeldt 5 schendingen van het nationale luchtruim en apart 10 overtredingen van de regels in de FIR Athene door drones."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

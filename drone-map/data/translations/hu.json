@@ -2531,5 +2531,69 @@
       "A hadsereg nem azonosította a drón üzemeltetőjét, eredetét vagy célpontját, és lelövésről nem számolt be."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Légi veszélyre figyelmeztettek Dél-Észtországban",
+    "description": "Észtország november 27-én hat déli megyét figyelmeztetett. Drón behatolását nem erősítették meg.",
+    "summary": [
+      "A figyelmeztetés 06:41-kor kezdődött EET szerint, és az alkalmazásokban 07:22-kor, SMS-ben 07:23-kor oldották fel."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Reggeli RO-Alert figyelmeztetést kapott Tulcea megye északi része",
+    "description": "Egy azonosítatlan radarcél miatt november 27-én figyelmeztetést adtak ki Tulcea megye északi részére. Behatolást nem erősítettek meg.",
+    "summary": [
+      "A figyelmeztetés 10:32-től 11:10-ig tartott EET szerint. Románia az ukrajnai Vâlcovétól északkeletre észlelt radarcélról számolt be."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Csempészdrónt találtak Sabaliūnai közelében",
+    "description": "Litván határőrök egy Fehéroroszországból érkező drónról számoltak be Sabaliūnai közelében, és cigarettaszállítmányt foglaltak le.",
+    "summary": [
+      "A határőrök megtalálták a drónt, és lefoglaltak 1 000 hozzá kapcsolódó doboz cigarettát."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Csempészdrónt találtak a Švedų-erdő közelében",
+    "description": "Litván határőrök egy Fehéroroszországból érkező drónról számoltak be a Švedų-erdő közelében, és cigarettaszállítmányt foglaltak le.",
+    "summary": [
+      "A határőrök megtalálták a drónt, és lefoglaltak 240 hozzá kapcsolódó doboz cigarettát."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Égei-tenger: jelentett dróntevékenység augusztus 25-én",
+    "description": "Egy görög napi jelentés augusztus 25-én 4 drónt sorolt fel.",
+    "summary": [
+      "A jelentés szerint drónok 3 alkalommal sértették meg a nemzeti légteret, és ettől elkülönítve 8 alkalommal az athéni FIR szabályait."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Égei-tenger: jelentett dróntevékenység augusztus 26-én",
+    "description": "Egy görög napi jelentés augusztus 26-én 5 drónt sorolt fel.",
+    "summary": [
+      "A jelentés szerint drónok 6 alkalommal sértették meg a nemzeti légteret, és ettől elkülönítve 7 alkalommal az athéni FIR szabályait."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Égei-tenger: jelentett dróntevékenység augusztus 29-én",
+    "description": "Egy görög napi jelentés augusztus 29-én 2 drónt sorolt fel.",
+    "summary": [
+      "A jelentés szerint drónok 2 alkalommal sértették meg a nemzeti légteret, és ettől elkülönítve 2 alkalommal az athéni FIR szabályait."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Égei-tenger: jelentett dróntevékenység november 27-én",
+    "description": "Egy görög napi jelentés november 27-én 7 drónt sorolt fel.",
+    "summary": [
+      "A jelentés szerint drónok 5 alkalommal sértették meg a nemzeti légteret, és ettől elkülönítve 10 alkalommal az athéni FIR szabályait."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

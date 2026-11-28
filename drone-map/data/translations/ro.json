@@ -2531,5 +2531,69 @@
       "Armata nu a identificat operatorul, originea sau ținta dronei și nu a raportat nicio doborâre."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Avertizare de pericol aerian în sudul Estoniei",
+    "description": "Estonia a avertizat șase districte sudice pe 27 noiembrie. Nu a fost confirmată intrarea unei drone.",
+    "summary": [
+      "Avertizarea a început la 06:41 EET și a fost ridicată la 07:22 în aplicații și la 07:23 prin SMS."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Mesaj RO-Alert de dimineață în nordul județului Tulcea",
+    "description": "O țintă radar neidentificată a declanșat o avertizare în nordul județului Tulcea pe 27 noiembrie. Nu a fost confirmată nicio incursiune.",
+    "summary": [
+      "Avertizarea a durat de la 10:32 la 11:10 EET. România a raportat o țintă radar la nord-est de Vâlcove, în Ucraina."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Dronă de contrabandă recuperată în apropiere de Sabaliūnai",
+    "description": "Polițiștii de frontieră lituanieni au raportat o dronă venită din Belarus în apropiere de Sabaliūnai și au confiscat o încărcătură de țigări.",
+    "summary": [
+      "Polițiștii de frontieră au recuperat drona și au confiscat 1 000 de pachete de țigări asociate acesteia."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Dronă de contrabandă recuperată în apropiere de pădurea Švedų",
+    "description": "Polițiștii de frontieră lituanieni au raportat o dronă venită din Belarus în apropiere de pădurea Švedų și au confiscat o încărcătură de țigări.",
+    "summary": [
+      "Polițiștii de frontieră au recuperat drona și au confiscat 240 de pachete de țigări asociate acesteia."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Marea Egee: activitate raportată a dronelor pe 25 august",
+    "description": "Un raport zilnic elen a enumerat 4 drone pe 25 august.",
+    "summary": [
+      "Raportul indică 3 încălcări ale spațiului aerian național și, separat, 8 încălcări ale regulilor FIR Atena atribuite dronelor."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Marea Egee: activitate raportată a dronelor pe 26 august",
+    "description": "Un raport zilnic elen a enumerat 5 drone pe 26 august.",
+    "summary": [
+      "Raportul indică 6 încălcări ale spațiului aerian național și, separat, 7 încălcări ale regulilor FIR Atena atribuite dronelor."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Marea Egee: activitate raportată a dronelor pe 29 august",
+    "description": "Un raport zilnic elen a enumerat 2 drone pe 29 august.",
+    "summary": [
+      "Raportul indică 2 încălcări ale spațiului aerian național și, separat, 2 încălcări ale regulilor FIR Atena atribuite dronelor."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Marea Egee: activitate raportată a dronelor pe 27 noiembrie",
+    "description": "Un raport zilnic elen a enumerat 7 drone pe 27 noiembrie.",
+    "summary": [
+      "Raportul indică 5 încălcări ale spațiului aerian național și, separat, 10 încălcări ale regulilor FIR Atena atribuite dronelor."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

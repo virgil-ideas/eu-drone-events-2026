@@ -2531,5 +2531,69 @@
       "Militæret identificerede ikke dronens operatør, oprindelse eller mål og rapporterede ingen nedskydning."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Det sydlige Estland udsendte en advarsel om en lufttrussel",
+    "description": "Estland advarede seks sydlige amter den 27. november. En droneindtrængen blev ikke bekræftet.",
+    "summary": [
+      "Advarslen begyndte kl. 06:41 EET og blev ophævet i apps kl. 07:22 og via sms kl. 07:23."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Det nordlige Tulcea fik en RO-Alert om morgenen",
+    "description": "Et uidentificeret radarmål udløste en advarsel i det nordlige Tulcea den 27. november. Ingen indtrængen blev bekræftet.",
+    "summary": [
+      "Advarslen varede fra kl. 10:32 til 11:10 EET. Rumænien meldte om et radarmål nordøst for Vâlcove i Ukraine."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Smuglerdrone fundet nær Sabaliūnai",
+    "description": "Litauiske grænsevagter meldte om en drone fra Belarus nær Sabaliūnai og beslaglagde en last cigaretter.",
+    "summary": [
+      "Grænsevagterne fandt dronen og beslaglagde 1 000 pakker cigaretter knyttet til den."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Smuglerdrone fundet nær Švedų-skoven",
+    "description": "Litauiske grænsevagter meldte om en drone fra Belarus nær Švedų-skoven og beslaglagde en last cigaretter.",
+    "summary": [
+      "Grænsevagterne fandt dronen og beslaglagde 240 pakker cigaretter knyttet til den."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Det Ægæiske Hav: rapporteret droneaktivitet den 25. august",
+    "description": "En græsk dagsrapport oplistede 4 droner den 25. august.",
+    "summary": [
+      "Rapporten oplister 3 krænkelser af nationalt luftrum og særskilt 8 overtrædelser af reglerne i Athens FIR begået af droner."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Det Ægæiske Hav: rapporteret droneaktivitet den 26. august",
+    "description": "En græsk dagsrapport oplistede 5 droner den 26. august.",
+    "summary": [
+      "Rapporten oplister 6 krænkelser af nationalt luftrum og særskilt 7 overtrædelser af reglerne i Athens FIR begået af droner."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Det Ægæiske Hav: rapporteret droneaktivitet den 29. august",
+    "description": "En græsk dagsrapport oplistede 2 droner den 29. august.",
+    "summary": [
+      "Rapporten oplister 2 krænkelser af nationalt luftrum og særskilt 2 overtrædelser af reglerne i Athens FIR begået af droner."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Det Ægæiske Hav: rapporteret droneaktivitet den 27. november",
+    "description": "En græsk dagsrapport oplistede 7 droner den 27. november.",
+    "summary": [
+      "Rapporten oplister 5 krænkelser af nationalt luftrum og særskilt 10 overtrædelser af reglerne i Athens FIR begået af droner."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

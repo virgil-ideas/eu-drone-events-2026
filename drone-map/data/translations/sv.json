@@ -2531,5 +2531,69 @@
       "Militären identifierade inte drönarens operatör, ursprung eller mål och rapporterade ingen nedskjutning."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Södra Estland varnar för hot från luften",
+    "description": "Estland varnade sex sydliga län den 27 november. Inget drönarintrång bekräftades.",
+    "summary": [
+      "Varningen började klockan 06:41 EET och hävdes i apparna 07:22 och via sms 07:23."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Norra Tulcea fick en RO-Alert på morgonen",
+    "description": "Ett oidentifierat radarmål ledde till en varning i norra Tulcea den 27 november. Inget intrång bekräftades.",
+    "summary": [
+      "Varningen varade från 10:32 till 11:10 EET. Rumänien rapporterade ett radarmål nordost om Vâlcove i Ukraina."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Smugglardrönare påträffad nära Sabaliūnai",
+    "description": "Litauiska gränsvakter rapporterade en drönare från Belarus nära Sabaliūnai och beslagtog en last med cigaretter.",
+    "summary": [
+      "Gränsvakterna hittade drönaren och beslagtog 1 000 paket cigaretter som kopplades till den."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Smugglardrönare påträffad nära Švedųskogen",
+    "description": "Litauiska gränsvakter rapporterade en drönare från Belarus nära Švedųskogen och beslagtog en last med cigaretter.",
+    "summary": [
+      "Gränsvakterna hittade drönaren och beslagtog 240 paket cigaretter som kopplades till den."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Egeiska havet: rapporterad drönaraktivitet den 25 augusti",
+    "description": "En grekisk dagsrapport listade 4 drönare den 25 augusti.",
+    "summary": [
+      "Rapporten listar 3 kränkningar av nationellt luftrum och separat 8 överträdelser av reglerna i Atens FIR av drönare."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Egeiska havet: rapporterad drönaraktivitet den 26 augusti",
+    "description": "En grekisk dagsrapport listade 5 drönare den 26 augusti.",
+    "summary": [
+      "Rapporten listar 6 kränkningar av nationellt luftrum och separat 7 överträdelser av reglerna i Atens FIR av drönare."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Egeiska havet: rapporterad drönaraktivitet den 29 augusti",
+    "description": "En grekisk dagsrapport listade 2 drönare den 29 augusti.",
+    "summary": [
+      "Rapporten listar 2 kränkningar av nationellt luftrum och separat 2 överträdelser av reglerna i Atens FIR av drönare."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Egeiska havet: rapporterad drönaraktivitet den 27 november",
+    "description": "En grekisk dagsrapport listade 7 drönare den 27 november.",
+    "summary": [
+      "Rapporten listar 5 kränkningar av nationellt luftrum och separat 10 överträdelser av reglerna i Atens FIR av drönare."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

@@ -2531,5 +2531,69 @@
       "I militari non hanno identificato l’operatore, l’origine né il bersaglio del drone e non hanno segnalato alcun abbattimento."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Allerta per una minaccia aerea nel sud dell’Estonia",
+    "description": "L’Estonia ha avvisato sei contee meridionali il 27 novembre. Non è stato confermato l’ingresso di un drone.",
+    "summary": [
+      "L’allerta è iniziata alle 06:41 EET ed è stata revocata alle 07:22 nelle app e alle 07:23 via SMS."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "RO-Alert mattutina nel nord della contea di Tulcea",
+    "description": "Un bersaglio radar non identificato ha fatto scattare un’allerta nel nord della contea di Tulcea il 27 novembre. Nessun ingresso è stato confermato.",
+    "summary": [
+      "L’allerta è durata dalle 10:32 alle 11:10 EET. La Romania ha segnalato un bersaglio radar a nord-est di Vâlcove, in Ucraina."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Drone usato per il contrabbando recuperato nei pressi di Sabaliūnai",
+    "description": "Le guardie di frontiera lituane hanno segnalato un drone proveniente dalla Bielorussia nei pressi di Sabaliūnai e sequestrato un carico di sigarette.",
+    "summary": [
+      "Le guardie hanno recuperato il drone e sequestrato 1 000 pacchetti di sigarette a esso collegati."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Drone usato per il contrabbando recuperato nei pressi di della foresta di Švedų",
+    "description": "Le guardie di frontiera lituane hanno segnalato un drone proveniente dalla Bielorussia nei pressi di della foresta di Švedų e sequestrato un carico di sigarette.",
+    "summary": [
+      "Le guardie hanno recuperato il drone e sequestrato 240 pacchetti di sigarette a esso collegati."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Mar Egeo: attività di droni segnalata il 25 agosto",
+    "description": "Un rapporto giornaliero greco ha elencato 4 droni il 25 agosto.",
+    "summary": [
+      "Il rapporto elenca 3 violazioni dello spazio aereo nazionale e, separatamente, 8 infrazioni delle regole della FIR di Atene attribuite a droni."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Mar Egeo: attività di droni segnalata il 26 agosto",
+    "description": "Un rapporto giornaliero greco ha elencato 5 droni il 26 agosto.",
+    "summary": [
+      "Il rapporto elenca 6 violazioni dello spazio aereo nazionale e, separatamente, 7 infrazioni delle regole della FIR di Atene attribuite a droni."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Mar Egeo: attività di droni segnalata il 29 agosto",
+    "description": "Un rapporto giornaliero greco ha elencato 2 droni il 29 agosto.",
+    "summary": [
+      "Il rapporto elenca 2 violazioni dello spazio aereo nazionale e, separatamente, 2 infrazioni delle regole della FIR di Atene attribuite a droni."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Mar Egeo: attività di droni segnalata il 27 novembre",
+    "description": "Un rapporto giornaliero greco ha elencato 7 droni il 27 novembre.",
+    "summary": [
+      "Il rapporto elenca 5 violazioni dello spazio aereo nazionale e, separatamente, 10 infrazioni delle regole della FIR di Atene attribuite a droni."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

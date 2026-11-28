@@ -2531,5 +2531,69 @@
       "El ejército no identificó el operador, el origen ni el objetivo del dron y no informó de ningún derribo."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "El sur de Estonia emite un aviso de amenaza aérea",
+    "description": "Estonia alertó a seis condados del sur el 27 de noviembre. No se confirmó la entrada de ningún dron.",
+    "summary": [
+      "El aviso se activó a las 06:41 EET y se levantó a las 07:22 en las aplicaciones y a las 07:23 por SMS."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "El norte de Tulcea recibe una alerta RO-Alert por la mañana",
+    "description": "Un objetivo de radar sin identificar motivó un aviso en el norte de Tulcea el 27 de noviembre. No se confirmó ninguna entrada.",
+    "summary": [
+      "El aviso duró de las 10:32 a las 11:10 EET. Rumanía informó de un objetivo de radar al noreste de Vâlcove, en Ucrania."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Recuperan un dron de contrabando cerca de Sabaliūnai",
+    "description": "Los guardias fronterizos de Lituania informaron de un dron procedente de Bielorrusia cerca de Sabaliūnai e incautaron un cargamento de cigarrillos.",
+    "summary": [
+      "Los agentes recuperaron el dron e incautaron 1 000 paquetes de cigarrillos vinculados a él."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Recuperan un dron de contrabando cerca de el bosque de Švedų",
+    "description": "Los guardias fronterizos de Lituania informaron de un dron procedente de Bielorrusia cerca de el bosque de Švedų e incautaron un cargamento de cigarrillos.",
+    "summary": [
+      "Los agentes recuperaron el dron e incautaron 240 paquetes de cigarrillos vinculados a él."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Egeo: actividad de drones notificada el 25 de agosto",
+    "description": "Un informe diario griego registró 4 drones el 25 de agosto.",
+    "summary": [
+      "El informe enumera 3 violaciones del espacio aéreo nacional y, por separado, 8 infracciones en la FIR de Atenas atribuidas a drones."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Egeo: actividad de drones notificada el 26 de agosto",
+    "description": "Un informe diario griego registró 5 drones el 26 de agosto.",
+    "summary": [
+      "El informe enumera 6 violaciones del espacio aéreo nacional y, por separado, 7 infracciones en la FIR de Atenas atribuidas a drones."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Egeo: actividad de drones notificada el 29 de agosto",
+    "description": "Un informe diario griego registró 2 drones el 29 de agosto.",
+    "summary": [
+      "El informe enumera 2 violaciones del espacio aéreo nacional y, por separado, 2 infracciones en la FIR de Atenas atribuidas a drones."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Egeo: actividad de drones notificada el 27 de noviembre",
+    "description": "Un informe diario griego registró 7 drones el 27 de noviembre.",
+    "summary": [
+      "El informe enumera 5 violaciones del espacio aéreo nacional y, por separado, 10 infracciones en la FIR de Atenas atribuidas a drones."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

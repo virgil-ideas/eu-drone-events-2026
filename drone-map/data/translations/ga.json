@@ -2531,5 +2531,69 @@
       "Níor shainaithin an míleata oibreoir, bunús ná sprioc an dróin agus níor thuairiscigh sé aon scaoileadh anuas."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Eisíodh rabhadh faoi bhagairt ón aer i ndeisceart na hEastóine",
+    "description": "Thug an Eastóin rabhadh do shé chontae sa deisceart an 27 Samhain. Níor deimhníodh gur tháinig drón isteach.",
+    "summary": [
+      "Thosaigh an rabhadh ag 06:41 EET agus cuireadh deireadh leis sna haipeanna ag 07:22 agus trí SMS ag 07:23."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Fuair tuaisceart Tulcea foláireamh RO-Alert ar maidin",
+    "description": "Sprioc radair nár aithníodh ba chúis le foláireamh i dtuaisceart Tulcea an 27 Samhain. Níor deimhníodh aon teacht isteach.",
+    "summary": [
+      "Mhair an foláireamh ó 10:32 go 11:10 EET. Thuairiscigh an Rómáin sprioc radair soir ó thuaidh ó Vâlcove san Úcráin."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Aisghabhadh drón smuigleála in aice le Sabaliūnai",
+    "description": "Thuairiscigh gardaí teorann na Liotuáine drón ón mBealarúis in aice le Sabaliūnai agus choigistigh siad lastas toitíní.",
+    "summary": [
+      "D’aisghabh na gardaí teorann an drón agus choigistigh siad 1,000 paicéad toitíní a bhain leis."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Aisghabhadh drón smuigleála in aice le Foraois Švedų",
+    "description": "Thuairiscigh gardaí teorann na Liotuáine drón ón mBealarúis in aice le Foraois Švedų agus choigistigh siad lastas toitíní.",
+    "summary": [
+      "D’aisghabh na gardaí teorann an drón agus choigistigh siad 240 paicéad toitíní a bhain leis."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Muir Aeigéach: gníomhaíocht drón a tuairiscíodh an 25 Lúnasa",
+    "description": "Liostaíodh 4 drón i dtuarascáil laethúil Ghréagach an 25 Lúnasa.",
+    "summary": [
+      "Liostaítear 3 sárú ar an aerspás náisiúnta agus, ar leithligh, 8 sárú ar rialacha FIR na hAithne a cuireadh i leith drón."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Muir Aeigéach: gníomhaíocht drón a tuairiscíodh an 26 Lúnasa",
+    "description": "Liostaíodh 5 drón i dtuarascáil laethúil Ghréagach an 26 Lúnasa.",
+    "summary": [
+      "Liostaítear 6 sárú ar an aerspás náisiúnta agus, ar leithligh, 7 sárú ar rialacha FIR na hAithne a cuireadh i leith drón."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Muir Aeigéach: gníomhaíocht drón a tuairiscíodh an 29 Lúnasa",
+    "description": "Liostaíodh 2 drón i dtuarascáil laethúil Ghréagach an 29 Lúnasa.",
+    "summary": [
+      "Liostaítear 2 sárú ar an aerspás náisiúnta agus, ar leithligh, 2 sárú ar rialacha FIR na hAithne a cuireadh i leith drón."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Muir Aeigéach: gníomhaíocht drón a tuairiscíodh an 27 Samhain",
+    "description": "Liostaíodh 7 drón i dtuarascáil laethúil Ghréagach an 27 Samhain.",
+    "summary": [
+      "Liostaítear 5 sárú ar an aerspás náisiúnta agus, ar leithligh, 10 sárú ar rialacha FIR na hAithne a cuireadh i leith drón."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

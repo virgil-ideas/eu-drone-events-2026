@@ -2531,5 +2531,69 @@
       "Armija neidentificēja drona operatoru, izcelsmi vai mērķi un neziņoja par notriekšanu."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Igaunijas dienvidos izdots brīdinājums par gaisa apdraudējumu",
+    "description": "Igaunija 27. novembrī brīdināja sešus dienvidu apriņķus. Drona ielidošana nav apstiprināta.",
+    "summary": [
+      "Brīdinājums sākās plkst. 06:41 EET un tika atcelts lietotnēs plkst. 07:22, ar īsziņu plkst. 07:23."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Tulčas apriņķa ziemeļos no rīta izplatīts RO-Alert brīdinājums",
+    "description": "Neidentificēts radara mērķis 27. novembrī izraisīja brīdinājumu Tulčas apriņķa ziemeļos. Ielidošana nav apstiprināta.",
+    "summary": [
+      "Brīdinājums ilga no 10:32 līdz 11:10 EET. Rumānija ziņoja par radara mērķi uz ziemeļaustrumiem no Vilkoves Ukrainā."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Netālu no vietas “Sabaliūnai” atrasts kontrabandas drons",
+    "description": "Lietuvas robežsargi ziņoja par dronu no Baltkrievijas netālu no vietas “Sabaliūnai” un konfiscēja cigarešu kravu.",
+    "summary": [
+      "Robežsargi atrada dronu un konfiscēja 1 000 ar to saistītas cigarešu paciņas."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Netālu no vietas “Švedų mežs” atrasts kontrabandas drons",
+    "description": "Lietuvas robežsargi ziņoja par dronu no Baltkrievijas netālu no vietas “Švedų mežs” un konfiscēja cigarešu kravu.",
+    "summary": [
+      "Robežsargi atrada dronu un konfiscēja 240 ar to saistītas cigarešu paciņas."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Egejas jūra: ziņots par dronu aktivitāti 25. augustā",
+    "description": "Grieķijas dienas ziņojumā par 25. augustu minēti 4 droni.",
+    "summary": [
+      "Ziņojumā droniem piedēvēti 3 valsts gaisa telpas pārkāpumi un atsevišķi 8 Atēnu FIR noteikumu pārkāpumi."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Egejas jūra: ziņots par dronu aktivitāti 26. augustā",
+    "description": "Grieķijas dienas ziņojumā par 26. augustu minēti 5 droni.",
+    "summary": [
+      "Ziņojumā droniem piedēvēti 6 valsts gaisa telpas pārkāpumi un atsevišķi 7 Atēnu FIR noteikumu pārkāpumi."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Egejas jūra: ziņots par dronu aktivitāti 29. augustā",
+    "description": "Grieķijas dienas ziņojumā par 29. augustu minēti 2 droni.",
+    "summary": [
+      "Ziņojumā droniem piedēvēti 2 valsts gaisa telpas pārkāpumi un atsevišķi 2 Atēnu FIR noteikumu pārkāpumi."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Egejas jūra: ziņots par dronu aktivitāti 27. novembrī",
+    "description": "Grieķijas dienas ziņojumā par 27. augustu minēti 7 droni.",
+    "summary": [
+      "Ziņojumā droniem piedēvēti 5 valsts gaisa telpas pārkāpumi un atsevišķi 10 Atēnu FIR noteikumu pārkāpumi."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

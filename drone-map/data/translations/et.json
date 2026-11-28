@@ -2531,5 +2531,69 @@
       "Sõjavägi ei tuvastanud drooni käitajat, päritolu ega sihtmärki ning allatulistamisest ei teatanud."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Lõuna-Eestis anti õhuohu hoiatus",
+    "description": "Eesti hoiatas 27. novembril kuut lõunapoolset maakonda. Drooni piiriületust ei kinnitatud.",
+    "summary": [
+      "Hoiatus algas kell 06:41 EET. Ohust teatati lõppenuks rakendustes kell 07:22 ja SMS-iga kell 07:23."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Tulcea maakonna põhjaosas anti hommikul RO-Alerti hoiatus",
+    "description": "Tuvastamata radarisihtmärk põhjustas 27. novembril Tulcea maakonna põhjaosas hoiatuse. Piiriületust ei kinnitatud.",
+    "summary": [
+      "Hoiatus kestis kella 10:32-st 11:10-ni EET. Rumeenia teatas radarisihtmärgist Ukrainas Vâlcovest kirdes."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Salakaubaveodroon leiti piirkonna Sabaliūnai lähedalt",
+    "description": "Leedu piirivalvurid teatasid piirkonna Sabaliūnai lähedal Valgevenest saabunud droonist ja konfiskeerisid sigaretilasti.",
+    "summary": [
+      "Piirivalvurid leidsid drooni ja konfiskeerisid sellega seotud 1 000 pakki sigarette."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Salakaubaveodroon leiti piirkonna Švedų mets lähedalt",
+    "description": "Leedu piirivalvurid teatasid piirkonna Švedų mets lähedal Valgevenest saabunud droonist ja konfiskeerisid sigaretilasti.",
+    "summary": [
+      "Piirivalvurid leidsid drooni ja konfiskeerisid sellega seotud 240 pakki sigarette."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Egeuse meri:  25. augustil teatatud droonitegevus",
+    "description": "Kreeka päevaülevaade loetles 25. augustil 4 drooni.",
+    "summary": [
+      "Ülevaade nimetab 3 riigi õhuruumi rikkumist ja eraldi 8 Ateena FIR-i reeglite rikkumist droonide poolt."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Egeuse meri:  26. augustil teatatud droonitegevus",
+    "description": "Kreeka päevaülevaade loetles 26. augustil 5 drooni.",
+    "summary": [
+      "Ülevaade nimetab 6 riigi õhuruumi rikkumist ja eraldi 7 Ateena FIR-i reeglite rikkumist droonide poolt."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Egeuse meri:  29. augustil teatatud droonitegevus",
+    "description": "Kreeka päevaülevaade loetles 29. augustil 2 drooni.",
+    "summary": [
+      "Ülevaade nimetab 2 riigi õhuruumi rikkumist ja eraldi 2 Ateena FIR-i reeglite rikkumist droonide poolt."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Egeuse meri:  27. novembril teatatud droonitegevus",
+    "description": "Kreeka päevaülevaade loetles 27. novembril 7 drooni.",
+    "summary": [
+      "Ülevaade nimetab 5 riigi õhuruumi rikkumist ja eraldi 10 Ateena FIR-i reeglite rikkumist droonide poolt."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

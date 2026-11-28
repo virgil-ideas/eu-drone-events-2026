@@ -2531,5 +2531,69 @@
       "Armáda neidentifikovala provozovatele, původ ani cíl dronu a nehlásila žádné sestřelení."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Jižní Estonsko vydalo varování před vzdušnou hrozbou",
+    "description": "Estonsko 27. listopadu varovalo šest jižních okresů. Průnik dronu nebyl potvrzen.",
+    "summary": [
+      "Varování začalo v 06:41 EET a skončilo v aplikacích v 07:22 a prostřednictvím SMS v 07:23."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Severní část okresu Tulcea obdržela ranní výstrahu RO-Alert",
+    "description": "Neidentifikovaný radarový cíl vyvolal 27. listopadu výstrahu na severu okresu Tulcea. Průnik nebyl potvrzen.",
+    "summary": [
+      "Výstraha platila od 10:32 do 11:10 EET. Rumunsko oznámilo radarový cíl severovýchodně od ukrajinského města Vâlcove."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Pašerácký dron nalezen v oblasti Sabaliūnai",
+    "description": "Litevští pohraničníci oznámili dron z Běloruska v oblasti Sabaliūnai a zabavili náklad cigaret.",
+    "summary": [
+      "Pohraničníci našli dron a zabavili 1 000 s ním souvisejících krabiček cigaret."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Pašerácký dron nalezen v oblasti lesa Švedų",
+    "description": "Litevští pohraničníci oznámili dron z Běloruska v oblasti lesa Švedų a zabavili náklad cigaret.",
+    "summary": [
+      "Pohraničníci našli dron a zabavili 240 s ním souvisejících krabiček cigaret."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Egejské moře: hlášená aktivita dronů 25. srpna",
+    "description": "Řecké denní hlášení uvádí 4 dronů dne 25. srpna.",
+    "summary": [
+      "Hlášení uvádí 3 narušení národního vzdušného prostoru a samostatně 8 porušení pravidel v oblasti FIR Athény ze strany dronů."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Egejské moře: hlášená aktivita dronů 26. srpna",
+    "description": "Řecké denní hlášení uvádí 5 dronů dne 26. srpna.",
+    "summary": [
+      "Hlášení uvádí 6 narušení národního vzdušného prostoru a samostatně 7 porušení pravidel v oblasti FIR Athény ze strany dronů."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Egejské moře: hlášená aktivita dronů 29. srpna",
+    "description": "Řecké denní hlášení uvádí 2 dronů dne 29. srpna.",
+    "summary": [
+      "Hlášení uvádí 2 narušení národního vzdušného prostoru a samostatně 2 porušení pravidel v oblasti FIR Athény ze strany dronů."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Egejské moře: hlášená aktivita dronů 27. listopadu",
+    "description": "Řecké denní hlášení uvádí 7 dronů dne 27. listopadu.",
+    "summary": [
+      "Hlášení uvádí 5 narušení národního vzdušného prostoru a samostatně 10 porušení pravidel v oblasti FIR Athény ze strany dronů."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

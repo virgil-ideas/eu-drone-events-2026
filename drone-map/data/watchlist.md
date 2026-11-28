@@ -1278,3 +1278,41 @@ that date. No additional occurrence is inferred from source follow-ups.
 - The Observatory’s Sigonella November 25 label points back to November 20;
   no independent confirmation of a distinct second incident or foreign entry
   was found. No new authoritative GAS HUSKY arrival or final hull confirmation.
+
+## 28 November Saturday refresh
+
+- Bounded public-source screening through 28 November about 06:05 UTC: the
+  rolling check started on 24 November by 06:00 UTC, with a separate 30-day
+  lookback from 29 October. It included EU27 country-targeted groups and aerial,
+  surface and underwater leads. It is not exhaustive coverage. The inclusive
+  publication cutoff remains 27 November, the latest mapped date.
+- Southern Estonia and northern Tulcea had separate 27 November warnings.
+  Neither establishes a crossing. Latvia's independently confirmed brief entry
+  stays a single N214 record, not a second Balvi crossing or a proven link to Estonia.
+- Aegean additions are separate daily records for 25, 26 and 29 August and
+  27 November. Dated reproductions of Greek military figures distinguish
+  claimed national-airspace violations from Athens FIR infringements. Direct
+  military archive access and dated 23–24 November figures remain unresolved.
+- VSAT confirms distinct criminal cargo operations in the Sabaliūnai area
+  on 18–19 February and in the Švedų forest area on 24–25 March. They are not
+  military events. A further detection in the February report does not add
+  a second established crossing.
+- GAS HUSKY carries the existing reported-injury badge rule after the Philippine
+  labour attaché reported two injured crew recovering following hospital care.
+  The flag does not confirm the cause or final hull condition. Arrival of both
+  groups in Manila is still unverified. SPARTA II retains conflicting injury
+  accounts; the Finnish Border Guard reported no physical evidence found in the
+  water around the ship, no boarding and no crew interviews. The strike location
+  remains disputed.
+- Greek reproduction of Cyprus's June–July UN-circulated letter reconciles
+  its two annex subtotals to 203 UAV-related allegations. The English original,
+  the second heading and report-level dates and routes remain unverified.
+  NA005 remains non-additive; the separate March–May NA006 primary annex is
+  still unlocated.
+- Genoa, Sigonella and Hamburg remain watchlist matters. November public
+  reporting of precautionary airport disruption, possibly domestic drones,
+  regulatory action, military exercises and equipment trials does not establish
+  cross-border drone activity. The known Netherlands enforcement report
+  does not attribute the earlier unknown sightings. The Ustka loss reported
+  in September involved a test drone. No new qualifying underwater discovery
+  was independently verified in the retrospective.

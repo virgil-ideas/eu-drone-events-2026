@@ -2531,5 +2531,69 @@
       "Vojska nije identificirala operatera, podrijetlo ni metu drona i nije prijavila obaranje."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Na jugu Estonije izdano upozorenje na opasnost iz zraka",
+    "description": "Estonija je 27. studenoga upozorila šest južnih okruga. Ulazak drona nije potvrđen.",
+    "summary": [
+      "Upozorenje je počelo u 06:41 EET i ukinuto je u aplikacijama u 07:22, a SMS-om u 07:23."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Sjeverni dio okruga Tulcea primio je jutarnje upozorenje RO-Alert",
+    "description": "Neidentificirani radarski cilj izazvao je upozorenje na sjeveru okruga Tulcea 27. studenoga. Ulazak nije potvrđen.",
+    "summary": [
+      "Upozorenje je trajalo od 10:32 do 11:10 EET. Rumunjska je prijavila radarski cilj sjeveroistočno od Vâlcovea u Ukrajini."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Dron za krijumčarenje pronađen u blizini područja Sabaliūnai",
+    "description": "Litavski graničari prijavili su dron iz Bjelorusije u blizini područja Sabaliūnai i zaplijenili pošiljku cigareta.",
+    "summary": [
+      "Graničari su pronašli dron i zaplijenili 1 000 kutija cigareta povezanih s njim."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Dron za krijumčarenje pronađen u blizini područja šume Švedų",
+    "description": "Litavski graničari prijavili su dron iz Bjelorusije u blizini područja šume Švedų i zaplijenili pošiljku cigareta.",
+    "summary": [
+      "Graničari su pronašli dron i zaplijenili 240 kutija cigareta povezanih s njim."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Egejsko more: prijavljena aktivnost dronova 25. kolovoza",
+    "description": "U grčkom dnevnom izvješću navedeno je 4 dronova 25. kolovoza.",
+    "summary": [
+      "Izvješće navodi 3 povreda nacionalnog zračnog prostora i zasebno 8 kršenja pravila u atenskom FIR-u koja su počinili dronovi."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Egejsko more: prijavljena aktivnost dronova 26. kolovoza",
+    "description": "U grčkom dnevnom izvješću navedeno je 5 dronova 26. kolovoza.",
+    "summary": [
+      "Izvješće navodi 6 povreda nacionalnog zračnog prostora i zasebno 7 kršenja pravila u atenskom FIR-u koja su počinili dronovi."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Egejsko more: prijavljena aktivnost dronova 29. kolovoza",
+    "description": "U grčkom dnevnom izvješću navedeno je 2 dronova 29. kolovoza.",
+    "summary": [
+      "Izvješće navodi 2 povreda nacionalnog zračnog prostora i zasebno 2 kršenja pravila u atenskom FIR-u koja su počinili dronovi."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Egejsko more: prijavljena aktivnost dronova 27. studenoga",
+    "description": "U grčkom dnevnom izvješću navedeno je 7 dronova 27. studenoga.",
+    "summary": [
+      "Izvješće navodi 5 povreda nacionalnog zračnog prostora i zasebno 10 kršenja pravila u atenskom FIR-u koja su počinili dronovi."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

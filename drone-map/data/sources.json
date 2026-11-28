@@ -4280,7 +4280,7 @@
     "id": "U428",
     "publisher": "Yle, reporting the Finnish Border Guard briefing",
     "title": "Finnish Border Guard briefing on the SPARTA II rescue",
-    "url": "https://yle.fi/a/74-20258284/64-3-313949",
+    "url": "https://yle.fi/a/74-20258284/64-3-313947",
     "dateLabel": "22 November 2026",
     "audit": "Maritime operations director Jukka-Pekka Lumilahti reported one crew member injured, superseding the earlier no-injury account. The briefing reported continued firefighting after visible flames were suppressed, tow preparations, and no oil observed at sea as of the briefing. This is not a final casualty, tow or pollution assessment."
   },
@@ -4859,5 +4859,93 @@
     "url": "https://www.gov.pl/web/po-lublin/podsumowanie-dotychczasowych-czynnosci-oraz-zamierzenia-sledztwa-w-sprawie-ujawnienia-szczatkow-pociskow-manewrujacych-ch-101",
     "dateLabel": "23 November 2026",
     "audit": "One investigation across three recovery sites. Site identification is preliminary; expert and laboratory work identified as next steps."
+  },
+  "U501": {
+    "id": "U501",
+    "publisher": "Estonian Rescue Board / EE-ALARM",
+    "title": "South Estonia warning and cancellation",
+    "url": "https://www.olevalmis.ee/ohuteavitused/ee-alarm-600/",
+    "dateLabel": "27 November 2026",
+    "audit": "Dated 06:41 EET warning for six counties, all-clear 07:22 in apps and 07:23 by SMS; these are notice times. Rolling feed may change."
+  },
+  "U502": {
+    "id": "U502",
+    "publisher": "ERR, quoting Estonian Defence Forces",
+    "title": "Air threat warning across southern Estonia",
+    "url": "https://news.err.ee/1610208679/potential-air-threat-alert-warning-issued-across-south-estonia",
+    "dateLabel": "27 November 2026",
+    "audit": "Reports drone movement near the border and NATO fighters dispatched; neither this account nor EE-ALARM establishes a crossing."
+  },
+  "U503": {
+    "id": "U503",
+    "publisher": "News.ro, reproducing MApN and ISU wording",
+    "title": "Northern Tulcea possible-drone RO-Alert",
+    "url": "https://www.news.ro/social/update-mesaj-ro-alert-pentru-nordul-judetului-tulcea-locuitorii-avertizati-privind-o-posibila-incursiune-de-drone-precizarile-mapn-1922403927002026111023014067",
+    "dateLabel": "27 November 2026",
+    "audit": "Authority quotes: radar target northeast of Vâlcove, alert 10:32–11:10 EET; not a confirmed crossing or identification."
+  },
+  "U504": {
+    "id": "U504",
+    "publisher": "HotNews.ro, citing MApN and ISU",
+    "title": "Romanian authorities confirm 27 November Tulcea warning times",
+    "url": "https://hotnews.ro/alerta-aeriana-in-tulcea-locuitorii-au-primit-mesaj-ro-alert-2415521",
+    "dateLabel": "27 November 2026",
+    "audit": "Corroborates the warning timeline and reported radar detection. Headline phrasing does not establish that the target was a drone."
+  },
+  "U505": {
+    "id": "U505",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Sabaliūnai smuggling drone intercepted",
+    "url": "https://vsat.lrv.lt/lt/naujienos/prie-baltarusijos-sienos-perimtas-dronas-su-cigaretemis-sulaikyti-trys-su-jomis-susije-asmenys-foto-2Va/",
+    "dateLabel": "20 February 2026",
+    "audit": "One recovered cross-border aircraft with 1,000 packs; another 1,000 from a separate search in the same case. A further detection is not a second established crossing."
+  },
+  "U506": {
+    "id": "U506",
+    "publisher": "Lithuanian State Border Guard Service (VSAT)",
+    "title": "Švedų forest cross-border aircraft recovered",
+    "url": "https://vsat.lrv.lt/lt/naujienos/pasienieciai-nutupde-dar-viena-is-baltarusijos-rukalus-skraidinusi-orlaivi-foto-R3W/",
+    "dateLabel": "26 March 2026",
+    "audit": "Tuesday–Wednesday night, 24–25 March. One cross-border fixed-wing aircraft and 240 packs seized after a search. Criminal case, not evidence of state action."
+  },
+  "U507": {
+    "id": "U507",
+    "publisher": "Dedomeno, reproducing Greek daily figures",
+    "title": "Aegean daily air activity, 25 August",
+    "url": "https://www.dedomeno.gr/ellada/789183/toyrkiki-proklisi-sto-aigaio-me-tessera-uav-deka-paravaseis-sto-fir-athinon/",
+    "dateLabel": "25 August 2026",
+    "audit": "Dated table gives four UAVs, three national-airspace violations and eight UAV-related FIR infringements; two further FIR infringements were attributed to a manned CN-235."
+  },
+  "U509": {
+    "id": "U509",
+    "publisher": "Veteranos, reproducing Greek daily figures",
+    "title": "Aegean daily air activity, 29 August",
+    "url": "https://veteranos.gr/anachaitistikan-dyo-tourkika-uav-sto-aigaio-dyo-paraviaseis-tou-ethnikou-enaeriou-chorou/",
+    "dateLabel": "29 August 2026",
+    "audit": "Dated table labels two UAVs, two national-airspace violations and two separate Athens FIR infringements."
+  },
+  "U510": {
+    "id": "U510",
+    "publisher": "Militaire.gr, Greek reproduction of Cyprus’s UN-circulated submission",
+    "title": "Cyprus letter A/81/406–S/2026/772, annexes I and II",
+    "url": "https://www.militaire.gr/i-epistoli-tis-kyproy-ston-gg-toy-oie-gia-tis-tourkikes-paraviaseis-oso-emeis-vlepoyme-aeraki-sto-aigaio/",
+    "dateLabel": "October 2026; UN circulation 2 October",
+    "audit": "Reproduced annex I lists 44 TB-2, 45 ANKA, 2 AKINCI, 5 AKSUNGUR and 4 unknown (100); annex II lists 37, 54, 2, 3 and 7 (103). Second heading repeats June in the reproduction; the English original was not obtained, so no definitive month split."
+  },
+  "U511": {
+    "id": "U511",
+    "publisher": "Veteranos, citing Greek military figures",
+    "title": "Seven UAVs reported over the Aegean on 27 November",
+    "url": "https://veteranos.gr/tourkika-uav-sto-aigaio-5-paraviaseis-kai-10-paravaseis-apo-7-mi-epandromena-aeroskafi/",
+    "dateLabel": "27 November 2026",
+    "audit": "Dated story quotes Greek daily military figures of seven UAVs, five claimed national-airspace violations and ten separate Athens FIR infringements in the northeastern and southeastern Aegean. Identification and interception reported; no flight tracks provided."
+  },
+  "U512": {
+    "id": "U512",
+    "publisher": "Svenska Yle, quoting the Finnish Border Guard",
+    "title": "Finnish Border Guard reports no drone debris found around SPARTA II",
+    "url": "https://yle.fi/a/7-10109288",
+    "dateLabel": "24 November 2026",
+    "audit": "Border Guard officer Joni Sjöberg says authorities found no physical evidence in the surrounding water over the weekend, did not board the ship and did not interview the crew. This does not disprove the strike or resolve impact jurisdiction."
   }
 }

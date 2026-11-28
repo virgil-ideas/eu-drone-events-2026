@@ -2491,7 +2491,7 @@
       "Finland’s National Enforcement Authority said it assessed the ship as belonging to an EU-sanctioned company and imposed an interim transfer restriction after it entered Finnish territorial waters on 21 November. The restriction had rescue, safety and environmental exceptions. Final legal disposition was not established.",
       "In a Bloomberg interview published on 24 November, President Volodymyr Zelenskyy acknowledged Ukraine carried out the strike and claimed it occurred in Russian territorial waters. ERR reported the hit in Estonia’s EEZ; an Estonian rescue official placed the ship in that EEZ when fire and explosion occurred. Finland’s military characterized the strike area as international waters. The exact strike location and Zelenskyy’s claim about weapons aboard have not been independently verified. Finland’s later rescue is a separate documented fact."
     ],
-    "basis": "4dbccbd220b74c6d"
+    "basis": "c7d972130b5016c5"
   },
   "N189": {
     "slug": "2026-11-21-northeastern-estonia-air-threat-warning",
@@ -2768,5 +2768,77 @@
       "The military did not identify the drone’s operator, origin or target and reported no shoot-down."
     ],
     "basis": "7a34fad408ea2647"
+  },
+  "N215": {
+    "slug": "2026-11-27-southern-estonia-air-threat-warning",
+    "headline": "Southern Estonia issues an air-threat warning",
+    "description": "Estonia warned six southern counties on 27 November. A drone crossing was not confirmed.",
+    "summary": [
+      "The warning began at 06:41 EET and ended in the apps at 07:22 and by SMS at 07:23."
+    ],
+    "basis": "9db870f5997d41e3"
+  },
+  "N216": {
+    "slug": "2026-11-27-northern-tulcea-morning-ro-alert-romania",
+    "headline": "Northern Tulcea receives a morning RO-Alert",
+    "description": "An unidentified radar target prompted a warning in northern Tulcea on 27 November. No crossing was confirmed.",
+    "summary": [
+      "The warning lasted from 10:32 to 11:10 EET. Romania reported a radar target northeast of Vâlcove, Ukraine."
+    ],
+    "basis": "182dcad4ebe6adbd"
+  },
+  "N217": {
+    "slug": "2026-02-18-smuggling-drone-sabaliunai-lithuania",
+    "headline": "Smuggling drone recovered near Sabaliūnai",
+    "description": "Lithuanian border guards reported a drone from Belarus near Sabaliūnai and seized cigarette cargo.",
+    "summary": [
+      "Border guards recovered the drone and seized 1,000 packs of cigarettes associated with it."
+    ],
+    "basis": "c3d7b67bb422eda3"
+  },
+  "N218": {
+    "slug": "2026-03-24-smuggling-drone-svedu-forest-lithuania",
+    "headline": "Smuggling drone recovered near Švedų forest",
+    "description": "Lithuanian border guards reported a drone from Belarus near Švedų forest and seized cigarette cargo.",
+    "summary": [
+      "Border guards recovered the drone and seized 240 packs of cigarettes associated with it."
+    ],
+    "basis": "0c5e426197e8fff7"
+  },
+  "N219": {
+    "slug": "2026-08-25-reported-aegean-uav-activity-greece",
+    "headline": "Aegean: reported UAV activity on 25 August",
+    "description": "A Greek daily report listed 4 UAVs on 25 August.",
+    "summary": [
+      "The report lists 3 national-airspace violations and 8 separate Athens FIR infringements by UAVs."
+    ],
+    "basis": "427734f15475fbea"
+  },
+  "N220": {
+    "slug": "2026-08-26-reported-aegean-uav-activity-greece",
+    "headline": "Aegean: reported UAV activity on 26 August",
+    "description": "A Greek daily report listed 5 UAVs on 26 August.",
+    "summary": [
+      "The report lists 6 national-airspace violations and 7 separate Athens FIR infringements by UAVs."
+    ],
+    "basis": "115557d717fc60a3"
+  },
+  "N221": {
+    "slug": "2026-08-29-reported-aegean-uav-activity-greece",
+    "headline": "Aegean: reported UAV activity on 29 August",
+    "description": "A Greek daily report listed 2 UAVs on 29 August.",
+    "summary": [
+      "The report lists 2 national-airspace violations and 2 separate Athens FIR infringements by UAVs."
+    ],
+    "basis": "e9ecec74f6e5904a"
+  },
+  "N222": {
+    "slug": "2026-11-27-reported-aegean-uav-activity-greece",
+    "headline": "Aegean: reported UAV activity on 27 November",
+    "description": "A Greek daily report listed 7 UAVs on 27 November.",
+    "summary": [
+      "The report lists 5 national-airspace violations and 10 separate Athens FIR infringements by UAVs."
+    ],
+    "basis": "40102278562770e1"
   }
 }

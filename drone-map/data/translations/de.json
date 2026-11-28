@@ -2531,5 +2531,69 @@
       "Das Militär identifizierte weder Betreiber noch Herkunft oder Ziel der Drohne und meldete keinen Abschuss."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Südestland warnt vor einer möglichen Bedrohung aus der Luft",
+    "description": "Estland warnte am 27. November sechs südliche Landkreise. Ein Eindringen einer Drohne wurde nicht bestätigt.",
+    "summary": [
+      "Die Warnung begann um 06:41 EET. Die Entwarnung folgte um 07:22 per App und um 07:23 per SMS."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Morgendliche RO-Alert-Warnung im Norden des Kreises Tulcea",
+    "description": "Ein unbekanntes Radarziel löste am 27. November im Norden des Kreises Tulcea eine Warnung aus. Ein Eindringen wurde nicht bestätigt.",
+    "summary": [
+      "Die Warnung galt von 10:32 bis 11:10 EET. Rumänien meldete ein Radarziel nordöstlich von Vâlcove in der Ukraine."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Schmuggeldrohne nahe Sabaliūnai geborgen",
+    "description": "Litauische Grenzschützer meldeten nahe Sabaliūnai eine Drohne aus Belarus und beschlagnahmten eine Zigarettenladung.",
+    "summary": [
+      "Die Grenzschützer bargen die Drohne und beschlagnahmten 1 000 damit in Verbindung stehende Zigarettenpackungen."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Schmuggeldrohne nahe dem Švedų-Wald geborgen",
+    "description": "Litauische Grenzschützer meldeten nahe dem Švedų-Wald eine Drohne aus Belarus und beschlagnahmten eine Zigarettenladung.",
+    "summary": [
+      "Die Grenzschützer bargen die Drohne und beschlagnahmten 240 damit in Verbindung stehende Zigarettenpackungen."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Ägäis: gemeldete Drohnenaktivität am 25. August",
+    "description": "Ein griechischer Tagesbericht führte für den 25. August 4 Drohnen auf.",
+    "summary": [
+      "Der Bericht nennt 3 Verletzungen des nationalen Luftraums und gesondert 8 Regelverstöße in der FIR Athen durch Drohnen."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Ägäis: gemeldete Drohnenaktivität am 26. August",
+    "description": "Ein griechischer Tagesbericht führte für den 26. August 5 Drohnen auf.",
+    "summary": [
+      "Der Bericht nennt 6 Verletzungen des nationalen Luftraums und gesondert 7 Regelverstöße in der FIR Athen durch Drohnen."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Ägäis: gemeldete Drohnenaktivität am 29. August",
+    "description": "Ein griechischer Tagesbericht führte für den 29. August 2 Drohnen auf.",
+    "summary": [
+      "Der Bericht nennt 2 Verletzungen des nationalen Luftraums und gesondert 2 Regelverstöße in der FIR Athen durch Drohnen."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Ägäis: gemeldete Drohnenaktivität am 27. November",
+    "description": "Ein griechischer Tagesbericht führte für den 27. November 7 Drohnen auf.",
+    "summary": [
+      "Der Bericht nennt 5 Verletzungen des nationalen Luftraums und gesondert 10 Regelverstöße in der FIR Athen durch Drohnen."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

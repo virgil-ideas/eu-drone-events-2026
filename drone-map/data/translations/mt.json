@@ -2531,5 +2531,69 @@
       "Il-militar ma identifikax l-operatur, l-oriġini jew il-mira tad-drone u ma rrapporta l-ebda twaqqigħ."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "In-Nofsinhar tal-Estonja ħareġ twissija dwar theddida mill-ajru",
+    "description": "L-Estonja wissiet sitt kontej fin-Nofsinhar fis-27 ta’ Novembru. Ma ġiex ikkonfermat li daħal dron.",
+    "summary": [
+      "It-twissija bdiet fis-06:41 EET u ntemmet fl-apps fis-07:22 u b’SMS fis-07:23."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Twissija RO-Alert filgħodu fit-Tramuntana ta’ Tulcea",
+    "description": "Mira mhux identifikata fuq ir-radar wasslet għal twissija fit-Tramuntana ta’ Tulcea fis-27 ta’ Novembru. Ma ġie kkonfermat l-ebda dħul.",
+    "summary": [
+      "It-twissija damet mill-10:32 sal-11:10 EET. Ir-Rumanija rrappurtat mira fuq ir-radar fil-Grigal ta’ Vâlcove fl-Ukrajna."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Instab dron tal-kuntrabandu qrib Sabaliūnai",
+    "description": "Il-gwardji tal-fruntiera Litwani rrappurtaw dron mill-Belarussja qrib Sabaliūnai u kkonfiskaw tagħbija ta’ sigaretti.",
+    "summary": [
+      "Il-gwardji rkupraw id-dron u kkonfiskaw 1,000 pakkett ta’ sigaretti marbuta miegħu."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Instab dron tal-kuntrabandu qrib il-foresta ta’ Švedų",
+    "description": "Il-gwardji tal-fruntiera Litwani rrappurtaw dron mill-Belarussja qrib il-foresta ta’ Švedų u kkonfiskaw tagħbija ta’ sigaretti.",
+    "summary": [
+      "Il-gwardji rkupraw id-dron u kkonfiskaw 240 pakkett ta’ sigaretti marbuta miegħu."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Il-Baħar Eġew: attività rrappurtata ta’ droni fid-data 25 ta’ Awwissu",
+    "description": "Rapport Grieg ta’ kuljum elenka 4 droni fid-data 25 ta’ Awwissu.",
+    "summary": [
+      "Ir-rapport jelenka 3 ksur tal-ispazju tal-ajru nazzjonali u, separatament, 8 ksur tar-regoli tal-FIR ta’ Ateni attribwiti lid-droni."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Il-Baħar Eġew: attività rrappurtata ta’ droni fid-data 26 ta’ Awwissu",
+    "description": "Rapport Grieg ta’ kuljum elenka 5 droni fid-data 26 ta’ Awwissu.",
+    "summary": [
+      "Ir-rapport jelenka 6 ksur tal-ispazju tal-ajru nazzjonali u, separatament, 7 ksur tar-regoli tal-FIR ta’ Ateni attribwiti lid-droni."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Il-Baħar Eġew: attività rrappurtata ta’ droni fid-data 29 ta’ Awwissu",
+    "description": "Rapport Grieg ta’ kuljum elenka 2 droni fid-data 29 ta’ Awwissu.",
+    "summary": [
+      "Ir-rapport jelenka 2 ksur tal-ispazju tal-ajru nazzjonali u, separatament, 2 ksur tar-regoli tal-FIR ta’ Ateni attribwiti lid-droni."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Il-Baħar Eġew: attività rrappurtata ta’ droni fid-data 27 ta’ Novembru",
+    "description": "Rapport Grieg ta’ kuljum elenka 7 droni fid-data 27 ta’ Novembru.",
+    "summary": [
+      "Ir-rapport jelenka 5 ksur tal-ispazju tal-ajru nazzjonali u, separatament, 10 ksur tar-regoli tal-FIR ta’ Ateni attribwiti lid-droni."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }

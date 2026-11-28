@@ -2531,5 +2531,69 @@
       "Armeija ei tunnistanut droonin operaattoria, alkuperää tai kohdetta eikä ilmoittanut alasampumisesta."
     ],
     "basis": "669b6dce3baee574"
+  },
+  "N215": {
+    "headline": "Etelä-Virossa annettiin ilmauhkavaroitus",
+    "description": "Viro varoitti kuutta eteläistä maakuntaa 27. marraskuuta. Droonin tunkeutumista ei vahvistettu.",
+    "summary": [
+      "Varoitus alkoi kello 06:41 EET. Se päättyi sovelluksissa kello 07:22 ja tekstiviestillä kello 07:23."
+    ],
+    "basis": "7843da7fb14f0e19"
+  },
+  "N216": {
+    "headline": "Pohjois-Tulceassa annettiin aamulla RO-Alert-varoitus",
+    "description": "Tunnistamaton tutkahavainto johti varoitukseen Pohjois-Tulceassa 27. marraskuuta. Ilmatilaan tuloa ei vahvistettu.",
+    "summary": [
+      "Varoitus kesti kello 10:32–11:10 EET. Romania ilmoitti tutkahavainnosta Ukrainan Vâlcoven koillispuolella."
+    ],
+    "basis": "30f8784861bf9fef"
+  },
+  "N217": {
+    "headline": "Salakuljetusdrooni löydettiin alueen Sabaliūnai läheltä",
+    "description": "Liettuan rajavartijat ilmoittivat Valko-Venäjältä tulleesta droonista alueen Sabaliūnai lähellä ja takavarikoivat savukelastin.",
+    "summary": [
+      "Rajavartijat ottivat droonin talteen ja takavarikoivat siihen liittyvät 1 000 savukeaskia."
+    ],
+    "basis": "d5b78a2f0a98c4eb"
+  },
+  "N218": {
+    "headline": "Salakuljetusdrooni löydettiin alueen Švedųn metsä läheltä",
+    "description": "Liettuan rajavartijat ilmoittivat Valko-Venäjältä tulleesta droonista alueen Švedųn metsä lähellä ja takavarikoivat savukelastin.",
+    "summary": [
+      "Rajavartijat ottivat droonin talteen ja takavarikoivat siihen liittyvät 240 savukeaskia."
+    ],
+    "basis": "e20ca02654988be5"
+  },
+  "N219": {
+    "headline": "Egeanmeri: raportoitua droonitoimintaa 25. elokuuta",
+    "description": "Kreikkalaisessa päiväraportissa lueteltiin 4 droonia 25. elokuuta.",
+    "summary": [
+      "Raportissa luetellaan 3 kansallisen ilmatilan loukkausta ja erikseen 8 Ateenan FIR-alueen sääntöjen rikkomusta, jotka liitettiin drooneihin."
+    ],
+    "basis": "40c08f2166eac94a"
+  },
+  "N220": {
+    "headline": "Egeanmeri: raportoitua droonitoimintaa 26. elokuuta",
+    "description": "Kreikkalaisessa päiväraportissa lueteltiin 5 droonia 26. elokuuta.",
+    "summary": [
+      "Raportissa luetellaan 6 kansallisen ilmatilan loukkausta ja erikseen 7 Ateenan FIR-alueen sääntöjen rikkomusta, jotka liitettiin drooneihin."
+    ],
+    "basis": "b0d1bb32b8bdf778"
+  },
+  "N221": {
+    "headline": "Egeanmeri: raportoitua droonitoimintaa 29. elokuuta",
+    "description": "Kreikkalaisessa päiväraportissa lueteltiin 2 droonia 29. elokuuta.",
+    "summary": [
+      "Raportissa luetellaan 2 kansallisen ilmatilan loukkausta ja erikseen 2 Ateenan FIR-alueen sääntöjen rikkomusta, jotka liitettiin drooneihin."
+    ],
+    "basis": "1c9f109199b69c30"
+  },
+  "N222": {
+    "headline": "Egeanmeri: raportoitua droonitoimintaa 27. marraskuuta",
+    "description": "Kreikkalaisessa päiväraportissa lueteltiin 7 droonia 27. marraskuuta.",
+    "summary": [
+      "Raportissa luetellaan 5 kansallisen ilmatilan loukkausta ja erikseen 10 Ateenan FIR-alueen sääntöjen rikkomusta, jotka liitettiin drooneihin."
+    ],
+    "basis": "68e220e24df9e069"
   }
 }
